@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Demo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Invoice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InvoiceDate" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerID" type="xs:string" minOccurs="0" />
+              <xs:element name="BillTo_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="BillTo_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="BillTo_Address2" type="xs:string" minOccurs="0" />
+              <xs:element name="BillTo_City" type="xs:string" minOccurs="0" />
+              <xs:element name="BillTo_State" type="xs:string" minOccurs="0" />
+              <xs:element name="BillTo_ZipCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipTo_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipTo_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipTo_Address2" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipTo_City" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipTo_State" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipTo_ZipCode" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Products">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="QuantityPerUnit" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitPrice" type="xs:decimal" minOccurs="0"/>
+              <xs:element name="UnitsInStock" type="xs:decimal" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

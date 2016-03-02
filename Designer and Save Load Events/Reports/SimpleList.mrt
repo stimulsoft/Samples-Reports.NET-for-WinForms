@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="1">
+      <Data Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>Data</Alias>
+        <BusinessObjects isList="true" count="8">
+          <Categories Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Categories</Alias>
+            <BusinessObjects isList="true" count="1">
+              <Products Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>Products</Alias>
+                <BusinessObjects isList="true" count="0" />
+                <Category />
+                <Columns isList="true" count="7">
+                  <value>ProductID,System.Nullable`1[System.Int32]</value>
+                  <value>ProductName,System.String</value>
+                  <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                  <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                  <value>QuantityPerUnit,System.String</value>
+                  <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                  <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>e0c853d0906b47e9bf3521bf757080a5</Guid>
+                <Name>Products</Name>
+              </Products>
+            </BusinessObjects>
+            <Category />
+            <Columns isList="true" count="3">
+              <value>CategoryID,System.Nullable`1[System.Int32]</value>
+              <value>CategoryName,System.String</value>
+              <value>Description,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>327867a860f341d68bb10fa62b6394df</Guid>
+            <Name>Categories</Name>
+          </Categories>
+          <Customers Ref="5" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Customers</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="11">
+              <value>CustomerID,System.String</value>
+              <value>CompanyName,System.String</value>
+              <value>ContactName,System.String</value>
+              <value>ContactTitle,System.String</value>
+              <value>Address,System.String</value>
+              <value>City,System.String</value>
+              <value>Region,System.String</value>
+              <value>PostalCode,System.String</value>
+              <value>Country,System.String</value>
+              <value>Phone,System.String</value>
+              <value>Fax,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>bfe4c30cf4a542e0aeb4634e34595ecf</Guid>
+            <Name>Customers</Name>
+          </Customers>
+          <Employees Ref="6" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Employees</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="14">
+              <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+              <value>LastName,System.String</value>
+              <value>FirstName,System.String</value>
+              <value>Title,System.String</value>
+              <value>BirthDate,System.Nullable`1[System.DateTime]</value>
+              <value>HireDate,System.Nullable`1[System.DateTime]</value>
+              <value>Address,System.String</value>
+              <value>City,System.String</value>
+              <value>Region,System.String</value>
+              <value>PostalCode,System.String</value>
+              <value>Country,System.String</value>
+              <value>HomePhone,System.String</value>
+              <value>Notes,System.String</value>
+              <value>ReportsTo,System.Nullable`1[System.Int32]</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>09da033db3fb46ca8a3b988bd5b5b947</Guid>
+            <Name>Employees</Name>
+          </Employees>
+          <Order_Details Ref="7" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Order_Details</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="5">
+              <value>OrderID,System.Nullable`1[System.Int32]</value>
+              <value>ProductID,System.Nullable`1[System.Int32]</value>
+              <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+              <value>Quantity,System.Nullable`1[System.Int16]</value>
+              <value>Discount,System.Nullable`1[System.Single]</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>c371410ffb8a4b0abb373d0fc6df867a</Guid>
+            <Name>Order_Details</Name>
+          </Order_Details>
+          <Orders Ref="8" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Orders</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="14">
+              <value>OrderID,System.Nullable`1[System.Int32]</value>
+              <value>CustomerID,System.String</value>
+              <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+              <value>OrderDate,System.Nullable`1[System.DateTime]</value>
+              <value>RequiredDate,System.Nullable`1[System.DateTime]</value>
+              <value>ShippedDate,System.Nullable`1[System.DateTime]</value>
+              <value>ShipVia,System.Nullable`1[System.Int32]</value>
+              <value>Freight,System.Nullable`1[System.Decimal]</value>
+              <value>ShipName,System.String</value>
+              <value>ShipAddress,System.String</value>
+              <value>ShipCity,System.String</value>
+              <value>ShipRegion,System.String</value>
+              <value>ShipPostalCode,System.String</value>
+              <value>ShipCountry,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>4452f95add09456681e7ef8fc7709d1d</Guid>
+            <Name>Orders</Name>
+          </Orders>
+          <Products Ref="9" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Products</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="7">
+              <value>ProductID,System.Nullable`1[System.Int32]</value>
+              <value>ProductName,System.String</value>
+              <value>SupplierID,System.Nullable`1[System.Int32]</value>
+              <value>CategoryID,System.Nullable`1[System.Int32]</value>
+              <value>QuantityPerUnit,System.String</value>
+              <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+              <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>4ac9f6a9f56e4186829225a42e77057d</Guid>
+            <Name>Products</Name>
+          </Products>
+          <Shippers Ref="10" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Shippers</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="3">
+              <value>ShipperID,System.Nullable`1[System.Int32]</value>
+              <value>CompanyName,System.String</value>
+              <value>Phone,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>7b13034841b349f8ae4b9122ccd28d33</Guid>
+            <Name>Shippers</Name>
+          </Shippers>
+          <Suppliers Ref="11" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Suppliers</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="12">
+              <value>SupplierID,System.Nullable`1[System.Int32]</value>
+              <value>CompanyName,System.String</value>
+              <value>ContactName,System.String</value>
+              <value>ContactTitle,System.String</value>
+              <value>Address,System.String</value>
+              <value>City,System.String</value>
+              <value>Region,System.String</value>
+              <value>PostalCode,System.String</value>
+              <value>Country,System.String</value>
+              <value>Phone,System.String</value>
+              <value>Fax,System.String</value>
+              <value>HomePage,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>719fc6985d844484b407c838b2b6923a</Guid>
+            <Name>Suppliers</Name>
+          </Suppliers>
+        </BusinessObjects>
+        <Category />
+        <Columns isList="true" count="0" />
+        <Dictionary isRef="1" />
+        <Guid>d361460f368e4fd58a038e3fcf271903</Guid>
+        <Name>Data</Name>
+      </Data>
+    </BusinessObjects>
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="12" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <PageFooterBand1 Ref="13" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.9,19,0.8</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text7 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,6.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Hyperlink>http://www.stimulsoft.com</Hyperlink>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>(c) 2003-{Today.Year} Stimulsoft</Text>
+              <TextBrush>SaddleBrown</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text6 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.8,0,12.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{PageNofM}</Text>
+              <TextBrush>SaddleBrown</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </PageFooterBand1>
+        <ReportTitleBand1 Ref="16" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,1.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text5 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,36,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="12" />
+              <Parent isRef="16" />
+              <Text>Simple List</Text>
+              <TextBrush>SaddleBrown</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </ReportTitleBand1>
+        <HeaderBand1 Ref="18" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.8,19,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text11 Ref="19" type="Text" isKey="true">
+              <Brush>Peru</Brush>
+              <ClientRectangle>6.8,0,5.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="12" />
+              <Parent isRef="18" />
+              <Text>Address</Text>
+              <TextBrush>White</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text10 Ref="20" type="Text" isKey="true">
+              <Brush>Peru</Brush>
+              <ClientRectangle>0,0,6.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="12" />
+              <Parent isRef="18" />
+              <Text>Company</Text>
+              <TextBrush>White</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text12 Ref="21" type="Text" isKey="true">
+              <Brush>Peru</Brush>
+              <ClientRectangle>12,0,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="12" />
+              <Parent isRef="18" />
+              <ShiftMode>DecreasingSize, OnlyInWidthOfComponent</ShiftMode>
+              <Text>Phone</Text>
+              <TextBrush>White</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 Ref="22" type="Text" isKey="true">
+              <Brush>Peru</Brush>
+              <ClientRectangle>15,0,4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="12" />
+              <Parent isRef="18" />
+              <Text>Contact</Text>
+              <TextBrush>White</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <PrintIfEmpty>True</PrintIfEmpty>
+        </HeaderBand1>
+        <DataBand1 Ref="23" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid>bfe4c30cf4a542e0aeb4634e34595ecf</BusinessObjectGuid>
+          <ClientRectangle>0,4.2,19,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text4 Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12,0,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="12" />
+              <Parent isRef="23" />
+              <Text>{Data.Customers.Phone}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text3 Ref="25" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15,0,4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="12" />
+              <Parent isRef="23" />
+              <Text>{Data.Customers.ContactTitle}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text1 Ref="26" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,6.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="12" />
+              <Parent isRef="23" />
+              <Text>{Data.Customers.CompanyName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="27" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.8,0,5.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="12" />
+              <Parent isRef="23" />
+              <Text>{Data.Customers.Address}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName isNull="true" />
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <OddStyle>Odd</OddStyle>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <FooterBand1 Ref="28" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,5.6,19,0.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text8 Ref="29" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="12" />
+              <Parent isRef="28" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <PrintIfEmpty>True</PrintIfEmpty>
+          <PrintOnAllPages>True</PrintOnAllPages>
+        </FooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>366bfdc35bcf48f3aeb38f2b5f58db21</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="30" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100,Bold</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PreviewMode>StandardAndDotMatrix</PreviewMode>
+  <PreviewSettings>33538047</PreviewSettings>
+  <PrinterSettings Ref="31" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Simple List</ReportAlias>
+  <ReportChanged>11/29/2010 3:55:04 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportFile>E:\Stimulsoft\.Report\SimpleList.mrt</ReportFile>
+  <ReportGuid>85ea61b3d59648b4b9903529a549d27e</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2010.3.811</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class SimpleList : Stimulsoft.Report.StiReport
+    {
+        
+		public SimpleList()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="1">
+    <Odd Ref="32" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>PapayaWhip</Brush>
+      <Font>Arial,8</Font>
+      <Name>Odd</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>Black</TextBrush>
+    </Odd>
+  </Styles>
+</StiSerializer>
