@@ -1,1 +1,1 @@
-# Samples WinForms C#
+# Samples WinForms CSharp
