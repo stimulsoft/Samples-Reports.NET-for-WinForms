@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DCF2DB26-865A-4C4F-954C-83AD30A34419}</ProjectGuid>
+    <ProjectGuid>{64404C31-50C6-4C74-BA80-BE7CCC66B0DB}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ApplicationIcon>App.ico</ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>CustomComponent</AssemblyName>
+    <AssemblyName>DesignerManagementRibbon</AssemblyName>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
@@ -18,7 +18,7 @@
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CustomComponent</RootNamespace>
+    <RootNamespace>DesignerManagementRibbon</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <StartupObject>
     </StartupObject>
@@ -28,6 +28,7 @@
     </UpgradeBackupLocation>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -43,7 +44,6 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -67,7 +67,6 @@
     <WarningLevel>4</WarningLevel>
     <DebugType>full</DebugType>
     <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -91,54 +90,16 @@
     <WarningLevel>4</WarningLevel>
     <DebugType>none</DebugType>
     <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Stimulsoft.Base">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Controls">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Controls.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Controls.Win">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Controls.Win.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Database">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Database.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Editor">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Report.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.Check">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Report.Check.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.Design">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Report.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.Helper">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Report.Helper.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.Win">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Stimulsoft.Report.Win.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
     <Reference Include="System.Data">
       <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
     </Reference>
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
@@ -149,70 +110,61 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />
-    <EmbeddedResource Include="MyCustomComponent3.gif" />
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Builders\MyCustomComponentWithExpressionV1Builder.cs" />
-    <Compile Include="Builders\MyCustomComponentWithExpressionV2Builder.cs" />
-    <Compile Include="Builders\MyCustomComponentWithDataSourceV1Builder.cs" />
-    <Compile Include="Builders\MyCustomComponentWithDataSourceV2Builder.cs" />
-    <Compile Include="Builders\MyCustomComponentV1Builder.cs" />
-    <Compile Include="Events\StiGetCustomCodeEvent.cs" />
-    <Compile Include="Events\StiGetCustomCodeEventConverter.cs" />
-    <Compile Include="Expressions\StiCustomCodeExpression.cs" />
-    <Compile Include="Expressions\StiCustomCodeExpressionConverter.cs" />
-    <Compile Include="MyCustomComponentWithExpression.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MyCustomComponent.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Designers\MyCustomComponentDesigner.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Designers\MyCustomComponentDesignerForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MyCustomComponentWithDataSource.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Builders\MyCustomComponentV2Builder.cs" />
-    <Compile Include="Painters\MyCustomComponentGdiPainter.cs" />
-    <Compile Include="Painters\MyCustomComponentWithExpressionGdiPainter.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyCustomComponent1.gif" />
-    <EmbeddedResource Include="MyCustomComponent2.gif" />
-    <EmbeddedResource Include="Designers\MyCustomComponentDesignerForm.resx">
-      <DependentUpon>MyCustomComponentDesignerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
+    <Reference Include="Stimulsoft.Base">
+      <HintPath>..\bin\Stimulsoft.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls">
+      <HintPath>..\bin\Stimulsoft.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.Win">
+      <HintPath>..\bin\Stimulsoft.Controls.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Database">
+      <HintPath>..\bin\Stimulsoft.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Editor">
+      <HintPath>..\bin\Stimulsoft.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report">
+      <HintPath>..\bin\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Check">
+      <HintPath>..\bin\Stimulsoft.Report.Check.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Design">
+      <HintPath>..\bin\Stimulsoft.Report.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Helper">
+      <HintPath>..\bin\Stimulsoft.Report.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win">
+      <HintPath>..\bin\Stimulsoft.Report.Win.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
-      <Visible>False</Visible>
-      <ProductName>Windows Installer 3.1</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

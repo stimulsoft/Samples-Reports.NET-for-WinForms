@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="9">
+      <Categories Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Categories</Alias>
+        <Columns isList="true" count="3">
+          <value>CategoryID,System.Int32</value>
+          <value>CategoryName,System.String</value>
+          <value>Description,System.String</value>
+        </Columns>
+        <DataName>Demo.Categories</DataName>
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+      </Categories>
+      <Customers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>CustomerID,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+        </Columns>
+        <DataName>Demo.Customers</DataName>
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+      </Customers>
+      <Employees Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Employees</Alias>
+        <Columns isList="true" count="14">
+          <value>EmployeeID,System.Int32</value>
+          <value>LastName,System.String</value>
+          <value>FirstName,System.String</value>
+          <value>Title,System.String</value>
+          <value>BirthDate,System.DateTime</value>
+          <value>HireDate,System.DateTime</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>HomePhone,System.String</value>
+          <value>Notes,System.String</value>
+          <value>ReportsTo,System.Int32</value>
+        </Columns>
+        <DataName>Demo.Employees</DataName>
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+      </Employees>
+      <Order_x0020_Details Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Order Details</Alias>
+        <Columns isList="true" count="5">
+          <value>OrderID,System.Int32</value>
+          <value>ProductID,System.Int32</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>Quantity,System.Int16</value>
+          <value>Discount,System.Single</value>
+        </Columns>
+        <DataName>Demo.Order Details</DataName>
+        <Dictionary isRef="1" />
+        <Name>Order Details</Name>
+      </Order_x0020_Details>
+      <Orders Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Orders</Alias>
+        <Columns isList="true" count="14">
+          <value>OrderID,System.Int32</value>
+          <value>CustomerID,System.String</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>OrderDate,System.DateTime</value>
+          <value>RequiredDate,System.DateTime</value>
+          <value>ShippedDate,System.DateTime</value>
+          <value>ShipVia,System.Int32</value>
+          <value>Freight,System.Decimal</value>
+          <value>ShipName,System.String</value>
+          <value>ShipAddress,System.String</value>
+          <value>ShipCity,System.String</value>
+          <value>ShipRegion,System.String</value>
+          <value>ShipPostalCode,System.String</value>
+          <value>ShipCountry,System.String</value>
+        </Columns>
+        <DataName>Demo.Orders</DataName>
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+      </Orders>
+      <Products Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Products</Alias>
+        <Columns isList="true" count="7">
+          <value>ProductID,System.Int32</value>
+          <value>ProductName,System.String</value>
+          <value>SupplierID,System.Int32</value>
+          <value>CategoryID,System.Int32</value>
+          <value>QuantityPerUnit,System.String</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>UnitsInStock,System.Int16</value>
+        </Columns>
+        <DataName>Demo.Products</DataName>
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+      </Products>
+      <Shippers Ref="8" type="DataTableSource" isKey="true">
+        <Alias>Shippers</Alias>
+        <Columns isList="true" count="3">
+          <value>ShipperID,System.Int32</value>
+          <value>CompanyName,System.String</value>
+          <value>Phone,System.String</value>
+        </Columns>
+        <DataName>Demo.Shippers</DataName>
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+      </Shippers>
+      <Suppliers Ref="9" type="DataTableSource" isKey="true">
+        <Alias>Suppliers</Alias>
+        <Columns isList="true" count="12">
+          <value>SupplierID,System.Int32</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+          <value>HomePage,System.String</value>
+        </Columns>
+        <DataName>Demo.Suppliers</DataName>
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+      </Suppliers>
+      <Countries Ref="10" type="DataTableSource" isKey="true">
+        <Alias>Countries</Alias>
+        <Columns isList="true" count="3">
+          <value>CountriesID,System.Int32</value>
+          <value>Flag,System.Byte[]</value>
+          <value>CountryName,System.String</value>
+        </Columns>
+        <DataName>Demo.Countries</DataName>
+        <Dictionary isRef="1" />
+        <Name>Countries</Name>
+      </Countries>
+    </DataSources>
+    <Relations isList="true" count="8">
+      <ParentEmployees Ref="11" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ReportsTo</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>ParentEmployees</Name>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+        <RelationName>EmployeesEmployees</RelationName>
+      </ParentEmployees>
+      <ParentProducts Ref="12" type="DataRelation" isKey="true">
+        <Alias>Products</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>ParentProducts</Name>
+        <ParentColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+        <RelationName>ProductsOrder_Details</RelationName>
+      </ParentProducts>
+      <ParentOrders Ref="13" type="DataRelation" isKey="true">
+        <Alias>Orders</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>ParentOrders</Name>
+        <ParentColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+        <RelationName>OrdersOrder_Details</RelationName>
+      </ParentOrders>
+      <ParentCustomers Ref="14" type="DataRelation" isKey="true">
+        <Alias>Customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>ParentCustomers</Name>
+        <ParentColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+        <RelationName>CustomersOrders</RelationName>
+      </ParentCustomers>
+      <ParentShippers Ref="15" type="DataRelation" isKey="true">
+        <Alias>Shippers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ShipVia</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>ParentShippers</Name>
+        <ParentColumns isList="true" count="1">
+          <value>ShipperID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+        <RelationName>ShippersOrders</RelationName>
+      </ParentShippers>
+      <ParentEmployees Ref="16" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>ParentEmployees</Name>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+        <RelationName>EmployeesOrders</RelationName>
+      </ParentEmployees>
+      <ParentCategories Ref="17" type="DataRelation" isKey="true">
+        <Alias>Categories</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>ParentCategories</Name>
+        <ParentColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+        <RelationName>CategoriesProducts</RelationName>
+      </ParentCategories>
+      <ParentSuppliers Ref="18" type="DataRelation" isKey="true">
+        <Alias>Suppliers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>ParentSuppliers</Name>
+        <ParentColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+        <RelationName>SuppliersProducts</RelationName>
+      </ParentSuppliers>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <Language Ref="19" type="CSharp" isKey="true" />
+  <Modifiers isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="20" type="Page" isKey="true">
+      <Components isList="true" count="4">
+        <ReportTitleBand1 Ref="21" type="ReportTitleBand" isKey="true">
+          <ClientRectangle>0,0.4,19,1.6</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text5 Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0,13.4,1.6</ClientRectangle>
+              <Font>Arial,36,Bold</Font>
+              <GlobalizedName>ReportName</GlobalizedName>
+              <HighlightCondition Ref="23" type="HighlightCondition" isKey="true">
+                <Brush>Transparent</Brush>
+                <Font>Arial,8</Font>
+                <TextBrush>Red</TextBrush>
+              </HighlightCondition>
+              <HorAlignment>Center</HorAlignment>
+              <Modifiers isList="true" count="0" />
+              <Name>Text5</Name>
+              <Page isRef="20" />
+              <Parent isRef="21" />
+              <Text>Simple List</Text>
+              <TextBrush>SaddleBrown</TextBrush>
+              <TextFormat Ref="24" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Image1 Ref="25" type="Image" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,2.8,1.6</ClientRectangle>
+              <DataColumn />
+              <File />
+              <GlobalizedName>Flag</GlobalizedName>
+              <HorAlignment>Center</HorAlignment>
+              <Image isImage="true" length="2215">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</Image>
+              <ImageType Ref="26" type="Stimulsoft.Report.Components.StiByteArrayImageTypeService" isKey="true" />
+              <Modifiers isList="true" count="0" />
+              <Name>Image1</Name>
+              <Page isRef="20" />
+              <Parent isRef="21" />
+              <VertAlignment>Center</VertAlignment>
+            </Image1>
+          </Components>
+          <Dock>Top</Dock>
+          <Modifiers isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </ReportTitleBand1>
+        <HeaderBand1 Ref="27" type="HeaderBand" isKey="true">
+          <ClientRectangle>0,2.8,19,1.2</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text11 Ref="28" type="Text" isKey="true">
+              <Brush>Peru</Brush>
+              <ClientRectangle>6.8,0.6,5.2,0.6</ClientRectangle>
+              <Font>Arial,14,Bold</Font>
+              <GlobalizedName>Address</GlobalizedName>
+              <HighlightCondition Ref="29" type="HighlightCondition" isKey="true">
+                <Brush>Transparent</Brush>
+                <Font>Arial,8</Font>
+                <TextBrush>Red</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text11</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Text>Address</Text>
+              <TextBrush>White</TextBrush>
+              <TextFormat Ref="30" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text10 Ref="31" type="Text" isKey="true">
+              <Brush>Peru</Brush>
+              <ClientRectangle>0,0.6,6.8,0.6</ClientRectangle>
+              <Font>Arial,14,Bold</Font>
+              <GlobalizedName>Company</GlobalizedName>
+              <HighlightCondition Ref="32" type="HighlightCondition" isKey="true">
+                <Brush>Transparent</Brush>
+                <Font>Arial,8</Font>
+                <TextBrush>Red</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text10</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Text>Company</Text>
+              <TextBrush>White</TextBrush>
+              <TextFormat Ref="33" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text12 Ref="34" type="Text" isKey="true">
+              <Brush>Peru</Brush>
+              <ClientRectangle>12,0.6,3,0.6</ClientRectangle>
+              <Font>Arial,14,Bold</Font>
+              <GlobalizedName>Phone</GlobalizedName>
+              <HighlightCondition Ref="35" type="HighlightCondition" isKey="true">
+                <Brush>Transparent</Brush>
+                <Font>Arial,8</Font>
+                <TextBrush>Red</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text12</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Text>Phone</Text>
+              <TextBrush>White</TextBrush>
+              <TextFormat Ref="36" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 Ref="37" type="Text" isKey="true">
+              <Brush>Peru</Brush>
+              <ClientRectangle>15,0.6,4,0.6</ClientRectangle>
+              <Font>Arial,14,Bold</Font>
+              <GlobalizedName>Contact</GlobalizedName>
+              <HighlightCondition Ref="38" type="HighlightCondition" isKey="true">
+                <Brush>Transparent</Brush>
+                <Font>Arial,8</Font>
+                <TextBrush>Red</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text13</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Text>Contact</Text>
+              <TextBrush>White</TextBrush>
+              <TextFormat Ref="39" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text6 Ref="40" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.2,0,7.8,0.6</ClientRectangle>
+              <Font>Arial,10,Bold</Font>
+              <GlobalizedName>PageNofM</GlobalizedName>
+              <HighlightCondition Ref="41" type="HighlightCondition" isKey="true">
+                <Brush>Transparent</Brush>
+                <Font>Arial,8</Font>
+                <TextBrush>Red</TextBrush>
+              </HighlightCondition>
+              <HorAlignment>Right</HorAlignment>
+              <Modifiers isList="true" count="0" />
+              <Name>Text6</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Text>Page {PageNumber} of {TotalPageCount}</Text>
+              <TextBrush>SaddleBrown</TextBrush>
+              <TextFormat Ref="42" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Dock>Top</Dock>
+          <Modifiers isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </HeaderBand1>
+        <DataBand1 Ref="43" type="DataBand" isKey="true">
+          <ClientRectangle>0,4.8,19,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text4 Ref="44" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12,0,3,0.6</ClientRectangle>
+              <Font>Arial,10</Font>
+              <HighlightCondition Ref="45" type="HighlightCondition" isKey="true">
+                <Brush>PapayaWhip</Brush>
+                <Condition>(Line &amp; 1) == 1</Condition>
+                <Font>Arial,10</Font>
+                <TextBrush>Black</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text4</Name>
+              <Page isRef="20" />
+              <Parent isRef="43" />
+              <Text>{Customers.Phone}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="46" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text3 Ref="47" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15,0,4,0.6</ClientRectangle>
+              <Font>Arial,10</Font>
+              <HighlightCondition Ref="48" type="HighlightCondition" isKey="true">
+                <Brush>PapayaWhip</Brush>
+                <Condition>(Line &amp; 1) == 1</Condition>
+                <Font>Arial,10</Font>
+                <TextBrush>Black</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text3</Name>
+              <Page isRef="20" />
+              <Parent isRef="43" />
+              <Text>{Customers.ContactTitle}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="49" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text1 Ref="50" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,6.8,0.6</ClientRectangle>
+              <Font>Arial,10</Font>
+              <HighlightCondition Ref="51" type="HighlightCondition" isKey="true">
+                <Brush>PapayaWhip</Brush>
+                <Condition>(Line &amp; 1) == 1</Condition>
+                <Font>Arial,10</Font>
+                <TextBrush>Black</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text1</Name>
+              <Page isRef="20" />
+              <Parent isRef="43" />
+              <Text>{Customers.CompanyName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="52" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="53" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.8,0,5.2,0.6</ClientRectangle>
+              <Font>Arial,10</Font>
+              <HighlightCondition Ref="54" type="HighlightCondition" isKey="true">
+                <Brush>PapayaWhip</Brush>
+                <Condition>(Line &amp; 1) == 1</Condition>
+                <Font>Arial,10</Font>
+                <TextBrush>Black</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text2</Name>
+              <Page isRef="20" />
+              <Parent isRef="43" />
+              <Text>{Customers.Address}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="55" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+          </Components>
+          <DataRelationName />
+          <DataSourceName>Customers</DataSourceName>
+          <Dock>Top</Dock>
+          <Modifiers isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <FooterBand1 Ref="56" type="FooterBand" isKey="true">
+          <ClientRectangle>0,6.2,19,0.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text8 Ref="57" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,0.2</ClientRectangle>
+              <Font>Arial,10</Font>
+              <HighlightCondition Ref="58" type="HighlightCondition" isKey="true">
+                <Brush>PapayaWhip</Brush>
+                <Font>Arial,10</Font>
+                <TextBrush>Black</TextBrush>
+              </HighlightCondition>
+              <Modifiers isList="true" count="0" />
+              <Name>Text8</Name>
+              <Page isRef="20" />
+              <Parent isRef="56" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="59" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+          </Components>
+          <Dock>Top</Dock>
+          <Modifiers isList="true" count="0" />
+          <Name>FooterBand1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+        </FooterBand1>
+      </Components>
+      <Margins>1,1,1,1</Margins>
+      <Modifiers isList="true" count="0" />
+      <Name>Page1</Name>
+      <Page isRef="20" />
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="7">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Simple List</ReportAlias>
+  <ReportAuthor isNull="true" />
+  <ReportChanged>6/29/2005 1:27 AM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59 AM</ReportCreated>
+  <ReportDescription isNull="true" />
+  <ReportName>Report</ReportName>
+  <ReportVersion>1.23</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Components;
+using Stimulsoft.Base.Drawing;
+
+namespace StiReports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+            
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+	}
+}
+</Script>
+  <Unit Ref="60" type="cm" isKey="true" />
+</StiSerializer>

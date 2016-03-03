@@ -1,0 +1,147 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="Demo" targetNamespace="http://www.tempuri.org/Northwind.xsd" xmlns:mstns="http://www.tempuri.org/Northwind.xsd" xmlns="http://www.tempuri.org/Northwind.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="Demo" msdata:IsDataSet="true" msdata:Locale="ru-RU">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Categories">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CategoryID" type="xs:int" minOccurs="0" />
+              <xs:element name="CategoryName" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Customers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CustomerID" type="xs:string" minOccurs="0" />
+              <xs:element name="CompanyName" type="xs:string" minOccurs="0" />
+              <xs:element name="ContactName" type="xs:string" minOccurs="0" />
+              <xs:element name="ContactTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="City" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" type="xs:string" minOccurs="0" />
+              <xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Country" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Employees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeeID" type="xs:int" minOccurs="0" />
+              <xs:element name="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="FirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="BirthDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="HireDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="City" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" type="xs:string" minOccurs="0" />
+              <xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Country" type="xs:string" minOccurs="0" />
+              <xs:element name="HomePhone" type="xs:string" minOccurs="0" />
+              <xs:element name="Notes" type="xs:string" minOccurs="0" />
+              <xs:element name="ReportsTo" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Order_x0020_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrderID" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductID" type="xs:int" minOccurs="0" />
+              <xs:element name="UnitPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Quantity" type="xs:short" minOccurs="0" />
+              <xs:element name="Discount" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Orders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrderID" type="xs:int" minOccurs="0" />
+              <xs:element name="CustomerID" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeID" type="xs:int" minOccurs="0" />
+              <xs:element name="OrderDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RequiredDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ShippedDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ShipVia" type="xs:int" minOccurs="0" />
+              <xs:element name="Freight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ShipName" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipCity" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipRegion" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipPostalCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipCountry" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Products">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductID" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="SupplierID" type="xs:int" minOccurs="0" />
+              <xs:element name="CategoryID" type="xs:int" minOccurs="0" />
+              <xs:element name="QuantityPerUnit" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UnitsInStock" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Shippers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShipperID" type="xs:int" minOccurs="0" />
+              <xs:element name="CompanyName" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Suppliers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SupplierID" type="xs:int" minOccurs="0" />
+              <xs:element name="CompanyName" type="xs:string" minOccurs="0" />
+              <xs:element name="ContactName" type="xs:string" minOccurs="0" />
+              <xs:element name="ContactTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="City" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" type="xs:string" minOccurs="0" />
+              <xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Country" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="HomePage" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Countries">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CountriesID" type="xs:int" minOccurs="0" />
+              <xs:element name="Flag" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="CountryName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="EmployeesEmployees" msdata:parent="Employees" msdata:child="Employees" msdata:parentkey="EmployeeID" msdata:childkey="ReportsTo" />
+      <msdata:Relationship name="ProductsOrder_Details" msdata:parent="Products" msdata:child="Order_x0020_Details" msdata:parentkey="ProductID" msdata:childkey="ProductID" />
+      <msdata:Relationship name="OrdersOrder_Details" msdata:parent="Orders" msdata:child="Order_x0020_Details" msdata:parentkey="OrderID" msdata:childkey="OrderID" />
+      <msdata:Relationship name="CustomersOrders" msdata:parent="Customers" msdata:child="Orders" msdata:parentkey="CustomerID" msdata:childkey="CustomerID" />
+      <msdata:Relationship name="ShippersOrders" msdata:parent="Shippers" msdata:child="Orders" msdata:parentkey="ShipperID" msdata:childkey="ShipVia" />
+      <msdata:Relationship name="EmployeesOrders" msdata:parent="Employees" msdata:child="Orders" msdata:parentkey="EmployeeID" msdata:childkey="EmployeeID" />
+      <msdata:Relationship name="CategoriesProducts" msdata:parent="Categories" msdata:child="Products" msdata:parentkey="CategoryID" msdata:childkey="CategoryID" />
+      <msdata:Relationship name="SuppliersProducts" msdata:parent="Suppliers" msdata:child="Products" msdata:parentkey="SupplierID" msdata:childkey="SupplierID" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
