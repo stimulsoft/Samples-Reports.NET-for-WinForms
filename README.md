@@ -6,8 +6,8 @@
 This repository has many examples (Visual Studio Projects) each in different folders:
 * CreateReportInRuntimeFromBusinessObject
 * CrossTabRuntime
-* Custom Component
-* Custom Component1
+* CustomComponent
+* CustomComponent2
 * Custom Designer
 * Custom Viewer
 * Designer and Save Load Events
