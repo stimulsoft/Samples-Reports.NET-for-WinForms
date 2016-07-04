@@ -86,8 +86,11 @@ namespace ExportRenderedReport
 		private StiReport GetReport(string name)
 		{
 			var report = new StiReport();
-			report.Load(name);
-			report.RegData(dataSet);
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SubReports." + name))
+            {
+                report.Load(stream);
+            }
+            report.RegData(dataSet);
             report.Render(false);
 			return report;
 		}
