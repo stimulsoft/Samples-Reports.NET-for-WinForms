@@ -7,7 +7,7 @@ using System.Data;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Components;
 
-namespace Work_with_Components
+namespace WorkWithReportComponents
 {
 	/// <summary>
 	/// Summary description for Form1.

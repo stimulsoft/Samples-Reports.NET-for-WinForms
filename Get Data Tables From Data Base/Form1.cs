@@ -12,7 +12,7 @@ using System.Data.OleDb;
 using System.Data.SqlClient;
 using Stimulsoft.Report.Design;
 
-namespace PassADataBaseToReport
+namespace GetDataTablesFromDataBase
 {
     public partial class Form1 : Form
     {

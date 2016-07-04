@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Export_Many_Files_To_One_Big_Pdf.Properties
+namespace ExportManyFilesToOneBigPDF.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Export_Many_Files_To_One_Big_Pdf.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Export_Many_Files_To_One_Big_Pdf.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ExportManyFilesToOneBigPDF.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -8,7 +8,7 @@ using System.Drawing.Drawing2D;
 using System.Reflection;
 using Stimulsoft.Report;
 
-namespace UserData
+namespace UserDataInReports
 {
 	/// <summary>
 	/// Summary description for Form1.

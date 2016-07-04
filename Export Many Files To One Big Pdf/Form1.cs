@@ -5,7 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace Export_Many_Files_To_One_Big_Pdf
+namespace ExportManyFilesToOneBigPDF
 {
     public partial class Form1 : Form
     {
@@ -25,7 +25,7 @@ namespace Export_Many_Files_To_One_Big_Pdf
             var tempReport = new StiReport();
             for (int index = 0; index < 1000; index++)
             {
-                using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Export_Many_Files_To_One_Big_Pdf.MasterDetail.mdc"))
+                using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ExportManyFilesToOneBigPDF.MasterDetail.mdc"))
                 {
                     tempReport.LoadDocument(stream);
                 }

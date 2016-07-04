@@ -4,53 +4,51 @@
 
 # Overview
 This repository has many examples (Visual Studio Projects) each in different folders:
-* CreateReportInRuntimeFromBusinessObject
-* CrossTabRuntime
-* CustomComponent
-* CustomComponent2
+* Create Report in Runtime from Business Object
+* Cross-Tab Runtime
+* Custom Component
+* Custom Component 2
 * Custom Designer
 * Custom Viewer
-* Designer and Save Load Events
-* DesignerManagementRibbon
-* Export Many Files To One Big Pdf
+* Designer Management Ribbon
+* Export many files to One Big PDF
 * Export Rendered Report
 * Export Reports
-* Get Data Tables From Data Base
+* Get Data Tables from Data Base
+* Global events Save and Load
 * Globalized Reports
-* GlobalizedReportWeb
 * Invoice Creator
 * Live Reports
-* MdiDesigner
-* MemoryTest
+* Mdi Designer
+* Memory Test
 * My Copyrights
 * Print Grid
 * Print Table
-* PrintTest
+* Print Test
+* Realtime Preview
 * Realtime Viewer
-* RealtimePreview
-* RenderInThread
-* RenderInThread2
-* Reports with Sql Parameters
+* Render in Thread
+* Render in Thread 2
+* Reports with SQL parameters
 * Runtime Report Creation
 * Runtime Table Creation
-* SampleProgress
-* SaveLoadReportDesigner
-* SelectingColumns
-* SelectingColumns1
-* SubReports
+* Sample Progress
+* Save and Load Report in Designer
+* Selecting Columns
+* Selecting Columns 2
+* Sub-Reports
 * User Data in Reports
 * Using Business Objects
 * Using Linq in Reports
 * Using Report Variables
-* Viewer in RightToLeft
-* WebSqlParameters
+* Viewer and Right-To-Left
 * Work with Report Components
 
 They are all combined in a Visual Studio solution (.sln-file).
 
 The Data folder has sample of data files (Demo.xml and Demo.xsd) required for building reports.
 
-The Demo and Web Demo folders contains demo projects that contain all the examples in a convenient form.
+The Demo project contain all the examples in a convenient form.
 
 # Running samples
 In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project.

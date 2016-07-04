@@ -1,4 +1,4 @@
-namespace PassADataBaseToReport
+namespace GetDataTablesFromDataBase
 {
     partial class Form1
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Export_Many_Files_To_One_Big_Pdf.Properties
+namespace ExportManyFilesToOneBigPDF.Properties
 {
 
 

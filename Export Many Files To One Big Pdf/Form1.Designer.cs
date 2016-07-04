@@ -1,4 +1,4 @@
-﻿namespace Export_Many_Files_To_One_Big_Pdf
+﻿namespace ExportManyFilesToOneBigPDF
 {
     partial class Form1
     {

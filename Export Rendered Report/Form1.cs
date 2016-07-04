@@ -7,7 +7,7 @@ using System.Data;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Components;
 
-namespace SubReports
+namespace ExportRenderedReport
 {
 	/// <summary>
 	/// Summary description for Form1.

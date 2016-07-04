@@ -9,7 +9,7 @@ using Stimulsoft.Base.Drawing;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Components;
 
-namespace RuntimeBuildReport
+namespace RuntimeReportCreation
 {
 	/// <summary>
 	/// Summary description for Form1.

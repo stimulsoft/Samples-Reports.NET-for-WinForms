@@ -7,7 +7,7 @@ using System.Data;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Dictionary;
 
-namespace Variables
+namespace UsingReportVariables
 {
 	/// <summary>
 	/// Summary description for Form1.

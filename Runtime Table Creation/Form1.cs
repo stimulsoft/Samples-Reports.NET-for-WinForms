@@ -11,7 +11,7 @@ using Stimulsoft.Controls;
 using Stimulsoft.Base;
 using Stimulsoft.Base.Drawing;
 
-namespace Table
+namespace RuntimeTableCreation
 {
 	/// <summary>
 	/// Summary description for Form1.

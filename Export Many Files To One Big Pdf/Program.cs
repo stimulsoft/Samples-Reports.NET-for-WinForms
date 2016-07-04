@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Export_Many_Files_To_One_Big_Pdf
+namespace ExportManyFilesToOneBigPDF
 {
     static class Program
     {
