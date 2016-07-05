@@ -46,9 +46,13 @@ This repository has many examples (Visual Studio Projects) each in different fol
 
 They are all combined in a Visual Studio solution (.sln-file).
 
-The Data folder has sample of data files (Demo.xml and Demo.xsd) required for building reports.
+The Report folder has all report files for sample projects (.mrt format).
+
+The Data folder has sample of data files (NWIND.MDB, Demo.xml and Demo.xsd) required for building reports.
 
 The Demo project contain all the examples in a convenient form.
+
+The Bin folder should contain all Stimulsoft libraries (.dll files), which are required for these projects.
 
 # Running samples
 In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project.
