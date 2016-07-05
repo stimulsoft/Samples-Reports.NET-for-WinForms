@@ -17,8 +17,8 @@ namespace MemoryTest
 			InitializeComponent();
 
 			var data = new DataSet();
-            data.ReadXmlSchema("..\\..\\..\\Data\\demo.xsd");
-            data.ReadXml("..\\..\\..\\Data\\demo.xml");
+            data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            data.ReadXml("..\\..\\Data\\Demo.xml");
 
             using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("MemoryTest.Master-Detail-Subdetail.mrt"))
             {

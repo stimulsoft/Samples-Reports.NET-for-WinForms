@@ -32,8 +32,8 @@ namespace RenderInThread
             }
 
 			DataSet data = new DataSet();
-			data.ReadXmlSchema("..\\..\\..\\Data\\demo.xsd");
-            data.ReadXml("..\\..\\..\\Data\\demo.xml");
+			data.ReadXmlSchema("..\\..\\Data\\demo.xsd");
+            data.ReadXml("..\\..\\Data\\demo.xml");
 
 			report.RegData(data);
 			report.IsRendered = false;
