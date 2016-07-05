@@ -37,7 +37,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>Bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -53,7 +53,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-<Reference Include="Stimulsoft.Base">
+    <Reference Include="Stimulsoft.Base">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Stimulsoft.Base.dll</HintPath>
     </Reference>
@@ -170,7 +170,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.net.ico" />
-    <Content Include="Reports\App.ico" />
     <Content Include="Invoices\Demo.xml" />
     <Content Include="Invoices\New Invoice.xml" />
     <None Include="EmptyTemplate.xml" />

@@ -15,8 +15,8 @@ namespace InvoiceCreator
         #region Fields
 
         private DataSet dataSetInvoice = new DataSet("Invoice");
-        private string InvoicesPath = Application.StartupPath + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "Invoices" + Path.DirectorySeparatorChar;
-        private string SchmemaPath = Application.StartupPath + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "EmptyTemplate.xsd";
+        private string InvoicesPath = ".." + Path.DirectorySeparatorChar + "Invoices" + Path.DirectorySeparatorChar;
+        private string SchmemaPath = ".." + Path.DirectorySeparatorChar + "EmptyTemplate.xsd";
 
         #endregion
 

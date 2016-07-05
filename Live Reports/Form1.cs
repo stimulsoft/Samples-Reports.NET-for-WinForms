@@ -37,21 +37,9 @@ namespace LiveReports
 			//
 			// TODO: Add any constructor code after InitializeComponent call
 			//
-
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            if (key != null)
-            {
-                path = (string)key.GetValue("Bin") + "\\Data\\";
-            }
-            else
-            {
-                path = Application.StartupPath + "\\Data\\";
-            }
-
-			dataSet1.ReadXmlSchema(path + "Demo.xsd");
-			dataSet1.ReadXml(path + "Demo.xml");
+            
+			dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+			dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
 
 		}
 
@@ -166,7 +154,7 @@ namespace LiveReports
 			StiReport report = new StiReport();
 			report.RegData(dataSet1);
 
-			report.Load("..\\..\\LiveReports.mrt");
+			report.Load("..\\LiveReports.mrt");
 			report.Design();
 		}
 
@@ -184,7 +172,7 @@ namespace LiveReports
 			{
 				StiReport report = new StiReport();
 				report.RegData(dataSet1);
-				report.Load("..\\..\\Details.mrt");
+				report.Load("..\\Details.mrt");
 				StiDataBand dataBand = (StiDataBand)report.Pages["Page1"].Components["DataBand1"];
                 StiFilter filter = new StiFilter("{Orders.CustomerID==\"" + customerID + "\"}");
 				dataBand.Filters.Add(filter);
@@ -196,7 +184,7 @@ namespace LiveReports
 		{
 			StiReport report = new StiReport();
 			report.RegData(dataSet1);
-			report.Load("..\\..\\LiveReports.mrt");
+			report.Load("..\\LiveReports.mrt");
 			report.Compile();
 			report.CompiledReport.Click += new EventHandler(click);
 			report.Show();
