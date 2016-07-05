@@ -55,7 +55,7 @@ The Demo project contain all the examples in a convenient form.
 The Bin folder should contain all Stimulsoft libraries (.dll files), which are required for these projects.
 
 # Running samples
-In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project.
+In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project. Also you should copy the Stimulsoft libraries (.dll files) to the Bin folder in the root directory of these sample projects, or add references to the libraries in the Visual Studio IDE.
 
 # Stimulsoft Reports.NET
 These examples are applicable for Stimulsoft Reports.NET, the reporting tool designed for creating and rendering reports in your WinForms applications.
