@@ -87,7 +87,7 @@ namespace Demo
         private bool blockApplyStyle;
         private MethodInfo[] assemblys;
         private StiWelcomeScreenControl welcomeScreen;
-        private string applicationPath;
+        private string applicationPath = "..\\..\\";
         private Hashtable reportsHelper = new Hashtable();
         private Hashtable demoLocalization = new Hashtable();
         private Bitmap videoBitmap = global::Demo.Properties.Resources.Video;
@@ -109,7 +109,7 @@ namespace Demo
         {
             if (tvReports.SelectedNode != null && tvReports.SelectedNode.Parent != null)
             {
-                string file = applicationPath + "\\" + "Reports\\" + tvReports.SelectedNode.Tag as string;
+                string file = applicationPath + "Reports\\" + tvReports.SelectedNode.Tag as string;
 
                 if (File.Exists(file))
                 {
@@ -526,7 +526,7 @@ namespace Demo
 
             if (tvReports.SelectedNode != null && tvReports.SelectedNode.Parent != null)
             {
-                var file = StiOptions.Configuration.ApplicationDirectory + "\\Reports\\" + tvReports.SelectedNode.Tag;
+                var file = applicationPath + "Reports\\" + tvReports.SelectedNode.Tag;
 
                 if (File.Exists(file)) report.Load(file);
                 else MessageBox.Show("File \"" + file + "\" not found");
@@ -769,20 +769,6 @@ namespace Demo
         public StiDemoForm()
         {
             InitializeComponent();
-
-            #region Check Registry
-            Microsoft.Win32.RegistryKey key = (IntPtr.Size == 8) ? Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports") :
-                Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-
-            if (key != null)
-            {
-                applicationPath = (string)key.GetValue("Bin") + "\\";
-            }
-            else
-            {
-                applicationPath = Application.StartupPath + "\\";
-            }
-            #endregion
 
             #region Read Data
             if (File.Exists(applicationPath + "Data\\Demo.xsd")) dataSet1.ReadXmlSchema(applicationPath + "Data\\Demo.xsd");

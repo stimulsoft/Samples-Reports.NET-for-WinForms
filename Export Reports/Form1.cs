@@ -45,21 +45,9 @@ namespace Export
 			// TODO: Add any constructor code after InitializeComponent call
 			//
 			lbReports.SelectedIndex = 0;
-
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            if (key != null)
-            {
-                path = (string)key.GetValue("Bin") + "\\";
-            }
-            else
-            {
-                path = Application.StartupPath + "\\";
-            }
-			
-			dataSet1.ReadXmlSchema(path + "Data\\Demo.xsd");
-			dataSet1.ReadXml(path + "Data\\Demo.xml");
+            
+            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+			dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
 		}
 
 		/// <summary>
@@ -249,7 +237,7 @@ namespace Export
 			StiReport report = new StiReport();
 			report.RegData(dataSet1);
 
-			report.Load(path + "Reports\\" + (string)lbReports.SelectedItem + ".mrt");
+			report.Load("..\\..\\Reports\\" + (string)lbReports.SelectedItem + ".mrt");
 			report.Render(false);			
 
 			string file = (string)lbReports.SelectedItem + ".";
@@ -291,7 +279,7 @@ namespace Export
 			StiReport report = new StiReport();
 			report.RegData(dataSet1);
 
-			report.Load(path + "Reports\\" + (string)lbReports.SelectedItem + ".mrt");
+			report.Load("..\\..\\Reports\\" + (string)lbReports.SelectedItem + ".mrt");
 			report.Render();
 			report.Show(true);
 		}

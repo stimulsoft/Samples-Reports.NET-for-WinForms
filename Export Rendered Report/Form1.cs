@@ -21,9 +21,8 @@ namespace ExportRenderedReport
 
 		public Form1()
 		{
-
-			dataSet.ReadXmlSchema("..\\..\\..\\Data\\demo.xsd");
-            dataSet.ReadXml("..\\..\\..\\Data\\demo.xml");
+			dataSet.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            dataSet.ReadXml("..\\..\\Data\\Demo.xml");
 			InitializeComponent();
 		}
 
@@ -86,10 +85,7 @@ namespace ExportRenderedReport
 		private StiReport GetReport(string name)
 		{
 			var report = new StiReport();
-            using (var stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("ExportRenderedReport." + name))
-            {
-                report.Load(stream);
-            }
+            report.Load("..\\..\\Reports\\" + name);
             report.RegData(dataSet);
             report.Render(false);
 			return report;

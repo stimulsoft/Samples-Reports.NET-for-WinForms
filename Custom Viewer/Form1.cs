@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 
-namespace CustomPreview
+namespace CustomViewer
 {
 	/// <summary>
 	/// Summary description for Form1.
@@ -806,8 +806,11 @@ namespace CustomPreview
 		}
 
 		private void Form1_Load(object sender, System.EventArgs e)
-		{			
-            Report.Load("..\\..\\CustomPreview.mrt");
+		{
+            using (var stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("CustomViewer.CustomPreview.mrt"))
+            {
+                Report.Load(stream);
+            }
 			Report.Compile();
 			btRefresh_Click(sender, e);
 			
