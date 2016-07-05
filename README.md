@@ -19,7 +19,7 @@ This repository has many examples (Visual Studio Projects) each in different fol
 * Globalized Reports
 * Invoice Creator
 * Live Reports
-* Mdi Designer
+* MDI Designer
 * Memory Test
 * My Copyrights
 * Print Grid
