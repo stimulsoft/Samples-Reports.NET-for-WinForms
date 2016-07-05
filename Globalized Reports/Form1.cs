@@ -37,21 +37,9 @@ namespace GlobalizedReport
 			//
 			// TODO: Add any constructor code after InitializeComponent call
 			//
-
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            if (key != null)
-            {
-                path = (string)key.GetValue("Bin") + "\\Data\\";
-            }
-            else
-            {
-                path = Application.StartupPath + "\\Data\\";
-            }
-
-			dataSet1.ReadXmlSchema(path + "Demo.xsd");
-			dataSet1.ReadXml(path + "Demo.xml");
+            
+			dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+			dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
 		}
 
 		/// <summary>
@@ -173,7 +161,7 @@ namespace GlobalizedReport
 			StiReport report = new StiReport();
 			
 			report.RegData(dataSet1);
-			report.Load("..\\..\\SimpleList.mrt");
+			report.Load("..\\GlobalizedSimpleList.mrt");
 			report.Design();
 		}
 
@@ -219,9 +207,7 @@ namespace GlobalizedReport
 						break;
 				}
 				#endregion
-
-				
-						
+                
 				StiReport report = new StiReport();
 			
 				//Set globalization
@@ -229,7 +215,7 @@ namespace GlobalizedReport
 					new CultureInfo(cultureName));
 
 				report.RegData(dataSet1);
-				report.Load("..\\..\\SimpleList.mrt");		
+				report.Load("..\\GlobalizedSimpleList.mrt");		
 				report.Show();
 			}
 		}

@@ -46,7 +46,7 @@
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>Bin\</OutputPath>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -94,7 +94,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-<Reference Include="Stimulsoft.Base">
+    <Reference Include="Stimulsoft.Base">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Stimulsoft.Base.dll</HintPath>
     </Reference>
@@ -176,7 +176,7 @@
     <EmbeddedResource Include="MyResources.it-IT.resx" />
     <EmbeddedResource Include="MyResources.ru-RU.resx" />
     <None Include="app.config" />
-    <None Include="SimpleList.mrt" />
+    <None Include="GlobalizedSimpleList.mrt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
