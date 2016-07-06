@@ -37,24 +37,14 @@ namespace SqlParameters
 			//
 			// TODO: Add any constructor code after InitializeComponent call
 			//
+            
+            path = Application.StartupPath + "\\..\\..";
 
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            if (key != null)
-            {
-                path = (string)key.GetValue("Bin") + "\\";
-            }
-            else
-            {
-                path = Application.StartupPath + "\\";
-            }
-
-			stiReport1.Dictionary.DataStore.Clear();
+            stiReport1.Dictionary.DataStore.Clear();
 
 			System.Data.OleDb.OleDbConnection connection = 
 				new System.Data.OleDb.OleDbConnection(
-				"Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=" + path + "\\Data\\Nwind.mdb");
+				"Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=" + path + "\\Data\\NWIND.MDB");
 
 			stiReport1.RegData("NorthWind", connection);
 

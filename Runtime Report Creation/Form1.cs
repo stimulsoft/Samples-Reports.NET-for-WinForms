@@ -29,23 +29,11 @@ namespace RuntimeReportCreation
 		public Form1()
 		{
 			InitializeComponent();
-
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            if (key != null)
-            {
-                path = (string)key.GetValue("Bin") + "\\Data\\";
-            }
-            else
-            {
-                path = Application.StartupPath + "\\Data\\";
-            }
-
-			if (File.Exists(path + "Demo.xsd"))dataSet1.ReadXmlSchema(path + "Demo.xsd");
+            
+			if (File.Exists("..\\..\\Data\\Demo.xsd"))dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
 			else MessageBox.Show("File \"Demo.xsd\" not found");
 
-			if (File.Exists(path + "Demo.xsd"))dataSet1.ReadXml(path + "Demo.xml");
+			if (File.Exists("..\\..\\Data\\Demo.xsd"))dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
 			else MessageBox.Show("File \"Demo.xml\" not found");
 
 			dataSet1.DataSetName = "Demo";
