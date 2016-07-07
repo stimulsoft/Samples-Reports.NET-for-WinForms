@@ -35,8 +35,8 @@ namespace SubReports
 
 		public Form1()
 		{
-			dataSet.ReadXmlSchema("..\\..\\..\\Data\\demo.xsd");
-            dataSet.ReadXml("..\\..\\..\\Data\\demo.xml");
+			dataSet.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            dataSet.ReadXml("..\\..\\Data\\Demo.xml");
 
             InitializeComponent();
 		}

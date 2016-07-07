@@ -19,11 +19,11 @@ namespace SelectingColumns
         private void button1_Click(object sender, EventArgs e)
         {
             DataSet data = new DataSet();
-            data.ReadXmlSchema("Demo.xsd");
-            data.ReadXml("demo.xml");
+            data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            data.ReadXml("..\\..\\Data\\Demo.xml");
 
             StiReport report = new StiReport();
-            report.Load("SelectingColumns.mrt");
+            report.Load("..\\..\\Reports\\SelectingColumns.mrt");
             report.RegData(data);
             report.Design();
         }
@@ -31,11 +31,11 @@ namespace SelectingColumns
         private void button2_Click(object sender, EventArgs e)
         {
             DataSet data = new DataSet();
-            data.ReadXmlSchema("Demo.xsd");
-            data.ReadXml("demo.xml");
+            data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            data.ReadXml("..\\..\\Data\\Demo.xml");
 
             StiReport report = new StiReport();
-            report.Load("SelectingColumns.mrt");
+            report.Load("..\\..\\Reports\\SelectingColumns.mrt");
             report.RegData(data);
             report.Show();
         }
