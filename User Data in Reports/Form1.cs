@@ -166,7 +166,7 @@ namespace UserDataInReports
 
 		private void button1_Click(object sender, System.EventArgs e)
 		{
-			stiReport1.Load("..\\..\\UserData.mrt");
+			stiReport1.Load("..\\UserData.mrt");
 			stiReport1.Design();
 		}
 
@@ -188,7 +188,7 @@ namespace UserDataInReports
 
 		private void button2_Click(object sender, System.EventArgs e)
 		{			
-			stiReport1.Load("..\\..\\UserData.mrt");
+			stiReport1.Load("..\\UserData.mrt");
 			stiReport1.Show();
 		}
 

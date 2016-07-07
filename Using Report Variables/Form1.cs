@@ -310,13 +310,13 @@ namespace UsingReportVariables
 
 		private void button1_Click(object sender, System.EventArgs e)
 		{
-			stiReport1.Load("..\\..\\Variables.mrt");
+			stiReport1.Load("..\\Variables.mrt");
 			stiReport1.Design();
 		}
 
 		private void button2_Click(object sender, System.EventArgs e)
 		{
-			stiReport1.Load("..\\..\\Variables.mrt");
+			stiReport1.Load("..\\Variables.mrt");
 			stiReport1.Compile();
 			//Set Variables
 			stiReport1["Name"] =		tbName.Text;

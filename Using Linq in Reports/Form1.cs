@@ -29,7 +29,7 @@ namespace Linq
                          orderby i.Price
                          select i;
 
-            report.Load("..\\..\\Report.mrt");
+            report.Load("..\\Report.mrt");
 
             report.RegBusinessObject("MyData", "MyData", query1);
         }

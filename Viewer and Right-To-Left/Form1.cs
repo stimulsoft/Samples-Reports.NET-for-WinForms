@@ -17,7 +17,6 @@ namespace ViewerAndRightToLeft
 		private Stimulsoft.Report.Viewer.StiViewerControl panel1;
 		private Stimulsoft.Report.StiReport stiReport1;
 		private System.Data.DataSet dataSet1;
-		private string path = string.Empty;
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
@@ -35,19 +34,6 @@ namespace ViewerAndRightToLeft
 			//
 			// TODO: Add any constructor code after InitializeComponent call
 			//
-
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            if (key != null)
-            {
-                path = (string)key.GetValue("Bin") + "\\";
-            }
-            else
-            {
-                path = Application.StartupPath + "\\";
-            }
-
 		}
 
 		/// <summary>
@@ -146,18 +132,18 @@ namespace ViewerAndRightToLeft
 
 		private void Form1_Load(object sender, System.EventArgs e)
 		{
-			if (File.Exists(path + "Data\\Demo.xsd"))dataSet1.ReadXmlSchema(path + "Data\\Demo.xsd");
+			if (File.Exists("..\\..\\Data\\Demo.xsd"))dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
 			else MessageBox.Show("File \"Demo.xsd\" not found");
 
-			if (File.Exists(path + "Data\\Demo.xsd"))dataSet1.ReadXml(path + "Data\\Demo.xml");
+			if (File.Exists("..\\..\\Data\\Demo.xsd"))dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
 			else MessageBox.Show("File \"Demo.xml\" not found");
 
 			dataSet1.DataSetName = "Demo";
 			stiReport1.RegData(dataSet1);
 			
-			if (File.Exists(path + "\\Reports\\BookmarksHyperlinks.mrt"))stiReport1.Load(path + "\\Reports\\BookmarksHyperlinks.mrt");
+			if (File.Exists("..\\..\\Reports\\BookmarksHyperlinks.mrt"))stiReport1.Load("..\\..\\Reports\\BookmarksHyperlinks.mrt");
 			else MessageBox.Show("File \"BookmarksHyperlinks.mrt\" not found");
-			stiReport1.Load(path + "\\Reports\\BookmarksHyperlinks.mrt");
+			stiReport1.Load("..\\..\\Reports\\BookmarksHyperlinks.mrt");
 
 			stiReport1.Render(true);
             stiReport1.Info.Zoom = panel1.Zoom;

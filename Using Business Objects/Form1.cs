@@ -183,7 +183,7 @@ namespace BusinessObjects
 		{
 			StiReport report = new StiReport();
 			report.RegData("EmployeeIEnumerable", CreateBusinessObjectsIEnumerable.GetEmployees());
-			report.Load("..\\..\\BusinessObjects_IEnumerable.mrt");
+			report.Load("..\\BusinessObjects_IEnumerable.mrt");
 			report.Design();
 		}
 
@@ -191,7 +191,7 @@ namespace BusinessObjects
 		{
 			StiReport report = new StiReport();
 			report.RegData("EmployeeITypedList", CreateBusinessObjectsITypedList.GetEmployees());
-			report.Load("..\\..\\BusinessObjects_ITypedList.mrt");
+			report.Load("..\\BusinessObjects_ITypedList.mrt");
 			report.Design();
 		}
 
@@ -199,7 +199,7 @@ namespace BusinessObjects
 		{
 			StiReport report = new StiReport();
 			report.RegData("EmployeeIEnumerable", CreateBusinessObjectsIEnumerable.GetEmployees());
-			report.Load("..\\..\\BusinessObjects_IEnumerable.mrt");
+			report.Load("..\\BusinessObjects_IEnumerable.mrt");
 			report.Show();
 		}
 
@@ -207,7 +207,7 @@ namespace BusinessObjects
 		{
 			StiReport report = new StiReport();
 			report.RegData("EmployeeITypedList", CreateBusinessObjectsITypedList.GetEmployees());
-			report.Load("..\\..\\BusinessObjects_ITypedList.mrt");
+			report.Load("..\\BusinessObjects_ITypedList.mrt");
 			report.Show();
 		}
 	}

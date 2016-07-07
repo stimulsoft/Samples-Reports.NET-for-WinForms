@@ -170,15 +170,14 @@ namespace WorkWithReportComponents
 
 		private void button1_Click(object sender, System.EventArgs e)
 		{
-			stiReport1.Load("..\\..\\Work with Components.mrt");
+			stiReport1.Load("..\\Work with Components.mrt");
 			stiReport1.Design();
 		}
 
 		private void button2_Click(object sender, System.EventArgs e)
 		{
-			stiReport1.Load("..\\..\\Work with Components.mrt");
-			((StiText)stiReport1.Pages["Page1"].Components["Text1"]).Text.Value = 
-				textBox1.Text;
+			stiReport1.Load("..\\Work with Components.mrt");
+			((StiText)stiReport1.Pages["Page1"].Components["Text1"]).Text.Value = textBox1.Text;
 			
 			stiReport1.Show();
 		}
