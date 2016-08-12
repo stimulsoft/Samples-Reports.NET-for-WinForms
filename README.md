@@ -62,3 +62,5 @@ These examples are applicable for Stimulsoft Reports.NET, the reporting tool des
 You can try the demo [here](http://web.stimulsoft.com/)
 
 Read more about Stimulsoft Reports.NET at [www.stimulsoft.com](https://www.stimulsoft.com/en/products/reports-net)
+
+[Free Download](https://www.stimulsoft.com/en/downloads/reports-net)
