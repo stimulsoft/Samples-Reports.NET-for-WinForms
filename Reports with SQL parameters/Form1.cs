@@ -83,15 +83,16 @@ namespace SqlParameters
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(496, 416);
+            this.button1.Location = new System.Drawing.Point(492, 409);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 1;
             this.button1.Text = "Design";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // stiReport1
             // 
+            this.stiReport1.CookieContainer = null;
             this.stiReport1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
             this.stiReport1.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -105,6 +106,7 @@ namespace SqlParameters
             this.stiReport1.ReportAuthor = null;
             this.stiReport1.ReportDescription = null;
             this.stiReport1.ReportGuid = "4533be36b343412b94379b945c0209fe";
+            this.stiReport1.ReportImage = null;
             this.stiReport1.ReportName = "Report";
             this.stiReport1.ReportSource = resources.GetString("stiReport1.ReportSource");
             this.stiReport1.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
@@ -155,7 +157,7 @@ namespace SqlParameters
             this.stiPreviewControl1.ShowCloseButton = false;
             this.stiPreviewControl1.ShowContextMenu = false;
             this.stiPreviewControl1.ShowEditor = false;
-            this.stiPreviewControl1.ShowSave = false;
+            this.stiPreviewControl1.ShowExport = false;
             this.stiPreviewControl1.ShowFind = false;
             this.stiPreviewControl1.ShowHorScrollBar = false;
             this.stiPreviewControl1.ShowOpen = false;
@@ -166,6 +168,7 @@ namespace SqlParameters
             this.stiPreviewControl1.ShowPageSize = false;
             this.stiPreviewControl1.ShowPageViewMode = false;
             this.stiPreviewControl1.ShowPrint = false;
+            this.stiPreviewControl1.ShowSave = false;
             this.stiPreviewControl1.ShowSendEMail = false;
             this.stiPreviewControl1.ShowStatusBar = false;
             this.stiPreviewControl1.ShowThumbsPanel = false;
@@ -194,7 +197,7 @@ namespace SqlParameters
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Reports with Sql Parameters";
+            this.Text = "Reports with SQL Parameters";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 

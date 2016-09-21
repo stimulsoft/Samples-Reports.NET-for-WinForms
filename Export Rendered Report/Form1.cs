@@ -48,14 +48,15 @@ namespace ExportRenderedReport
 		/// </summary>
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(112, 90);
+            this.button7.Location = new System.Drawing.Point(90, 70);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(70, 23);
+            this.button7.Size = new System.Drawing.Size(150, 40);
             this.button7.TabIndex = 8;
             this.button7.Text = "Export";
             this.button7.Click += new System.EventHandler(this.button7_Click);
@@ -63,11 +64,14 @@ namespace ExportRenderedReport
             // Form1
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(288, 206);
+            this.ClientSize = new System.Drawing.Size(329, 196);
             this.Controls.Add(this.button7);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Export Report";
             this.ResumeLayout(false);
 
 		}
@@ -79,7 +83,8 @@ namespace ExportRenderedReport
 		[STAThread]
 		static void Main() 
 		{
-			Application.Run(new Form1());
+            Application.EnableVisualStyles();
+            Application.Run(new Form1());
 		}
 
 		private StiReport GetReport(string name)

@@ -169,9 +169,9 @@ namespace Export
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(160, 208);
+            this.button1.Location = new System.Drawing.Point(162, 201);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 28);
             this.button1.TabIndex = 2;
             this.button1.Text = "Export";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -179,18 +179,18 @@ namespace Export
             // button2
             // 
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(248, 208);
+            this.button2.Location = new System.Drawing.Point(250, 201);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 28);
             this.button2.TabIndex = 3;
             this.button2.Text = "Close";
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(72, 208);
+            this.button3.Location = new System.Drawing.Point(74, 201);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(75, 28);
             this.button3.TabIndex = 4;
             this.button3.Text = "Preview";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -206,7 +206,9 @@ namespace Export
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Export Reports";

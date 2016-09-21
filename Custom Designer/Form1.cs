@@ -417,9 +417,9 @@ namespace CustomReportsDesigner
             // btRunDesigner
             // 
             this.btRunDesigner.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btRunDesigner.Location = new System.Drawing.Point(552, 504);
+            this.btRunDesigner.Location = new System.Drawing.Point(552, 502);
             this.btRunDesigner.Name = "btRunDesigner";
-            this.btRunDesigner.Size = new System.Drawing.Size(96, 23);
+            this.btRunDesigner.Size = new System.Drawing.Size(100, 30);
             this.btRunDesigner.TabIndex = 1;
             this.btRunDesigner.Text = "Run Designer";
             this.btRunDesigner.Click += new System.EventHandler(this.btRunDesigner_Click);
@@ -2245,13 +2245,12 @@ namespace CustomReportsDesigner
             this.AcceptButton = this.btRunDesigner;
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.CancelButton = this.btRunDesigner;
-            this.ClientSize = new System.Drawing.Size(658, 535);
+            this.ClientSize = new System.Drawing.Size(658, 540);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btRunDesigner);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Custom Reports Designer";

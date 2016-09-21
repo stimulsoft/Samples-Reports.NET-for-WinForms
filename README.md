@@ -25,7 +25,6 @@ This repository has many examples (Visual Studio Projects) each in different fol
 * Print Grid
 * Print Test
 * Realtime Preview
-* Realtime Viewer
 * Render in Thread
 * Render in Thread 2
 * Reports with SQL parameters

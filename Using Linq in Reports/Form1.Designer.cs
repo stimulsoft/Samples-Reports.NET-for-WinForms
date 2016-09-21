@@ -36,9 +36,9 @@
             // 
             // btPreview
             // 
-            this.btPreview.Location = new System.Drawing.Point(26, 27);
+            this.btPreview.Location = new System.Drawing.Point(35, 35);
             this.btPreview.Name = "btPreview";
-            this.btPreview.Size = new System.Drawing.Size(75, 23);
+            this.btPreview.Size = new System.Drawing.Size(75, 26);
             this.btPreview.TabIndex = 0;
             this.btPreview.Text = "Preview";
             this.btPreview.UseVisualStyleBackColor = true;
@@ -46,9 +46,9 @@
             // 
             // btDesign
             // 
-            this.btDesign.Location = new System.Drawing.Point(107, 27);
+            this.btDesign.Location = new System.Drawing.Point(119, 35);
             this.btDesign.Name = "btDesign";
-            this.btDesign.Size = new System.Drawing.Size(75, 23);
+            this.btDesign.Size = new System.Drawing.Size(75, 26);
             this.btDesign.TabIndex = 0;
             this.btDesign.Text = "Design";
             this.btDesign.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // btClose
             // 
-            this.btClose.Location = new System.Drawing.Point(188, 27);
+            this.btClose.Location = new System.Drawing.Point(203, 35);
             this.btClose.Name = "btClose";
-            this.btClose.Size = new System.Drawing.Size(75, 23);
+            this.btClose.Size = new System.Drawing.Size(75, 26);
             this.btClose.TabIndex = 0;
             this.btClose.Text = "Close";
             this.btClose.UseVisualStyleBackColor = true;
@@ -68,11 +68,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 62);
+            this.ClientSize = new System.Drawing.Size(312, 97);
             this.Controls.Add(this.btClose);
             this.Controls.Add(this.btDesign);
             this.Controls.Add(this.btPreview);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Using Linq in Reports";

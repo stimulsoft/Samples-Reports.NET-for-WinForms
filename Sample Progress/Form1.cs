@@ -25,7 +25,7 @@ namespace SampleProgress
 			backgroundWorker1.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backgroundWorker1_RunWorkerCompleted);
 			backgroundWorker1.RunWorkerAsync();
 
-			label1.Text = "";
+			label1.Text = "Rendering...";
 			label1.Visible = true;
 			progressBar1.Visible = true;
 
@@ -68,5 +68,10 @@ namespace SampleProgress
 			else
 				label1.Text = report.StatusString;
 		}
-	}
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

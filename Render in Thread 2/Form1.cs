@@ -42,7 +42,13 @@ namespace RenderInThread2
 			report.RegData(data);
 			report.IsRendered = false;
 			report.Compile();
-			report.Render(false);
+            report.CompiledReport.EndRender += new EventHandler(CompiledReport_Rendering);
+            report.Render(false);
 		}
-	}
+
+        void CompiledReport_Rendering(object sender, EventArgs e)
+        {
+            button1.Invoke((EventHandler)delegate { button1.Text = button1.Text + " ."; });
+        }
+    }
 }

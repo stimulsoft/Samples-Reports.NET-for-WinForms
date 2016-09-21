@@ -80,6 +80,7 @@ namespace ViewerAndRightToLeft
             // 
             // stiReport1
             // 
+            this.stiReport1.CookieContainer = null;
             this.stiReport1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
             this.stiReport1.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -92,6 +93,7 @@ namespace ViewerAndRightToLeft
         "Stimulsoft.Report.Dll"};
             this.stiReport1.ReportAlias = "Report";
             this.stiReport1.ReportGuid = "41599dc0625e4d03b314014f8926ee17";
+            this.stiReport1.ReportImage = null;
             this.stiReport1.ReportName = "Report";
             this.stiReport1.ReportSource = null;
             this.stiReport1.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
@@ -111,7 +113,7 @@ namespace ViewerAndRightToLeft
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Reports Viewer in RightToLeft";
+            this.Text = "Reports Viewer in Right-To-Left";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();

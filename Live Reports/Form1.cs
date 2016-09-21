@@ -75,9 +75,9 @@ namespace LiveReports
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(152, 80);
+            this.button2.Location = new System.Drawing.Point(125, 43);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 26);
             this.button2.TabIndex = 6;
             this.button2.Text = "Preview";
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -86,9 +86,9 @@ namespace LiveReports
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button3.Location = new System.Drawing.Point(232, 80);
+            this.button3.Location = new System.Drawing.Point(208, 43);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(75, 26);
             this.button3.TabIndex = 7;
             this.button3.Text = "Close";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -96,15 +96,16 @@ namespace LiveReports
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(72, 80);
+            this.button1.Location = new System.Drawing.Point(42, 43);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 5;
             this.button1.Text = "Design";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // stiReport1
             // 
+            this.stiReport1.CookieContainer = null;
             this.stiReport1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
             this.stiReport1.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -117,6 +118,7 @@ namespace LiveReports
         "Stimulsoft.Report.Dll"};
             this.stiReport1.ReportAlias = "Report";
             this.stiReport1.ReportGuid = "e35ed5d9964044c8933aaf59baa965c0";
+            this.stiReport1.ReportImage = null;
             this.stiReport1.ReportName = "Report";
             this.stiReport1.ReportSource = null;
             this.stiReport1.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
@@ -130,7 +132,9 @@ namespace LiveReports
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Live Reports";

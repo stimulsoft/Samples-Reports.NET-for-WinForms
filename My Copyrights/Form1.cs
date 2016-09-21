@@ -69,24 +69,10 @@ namespace Copyrights
 			//
 			// TODO: Add any constructor code after InitializeComponent call
 			//
-
-            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Stimulsoft\\Stimulsoft Reports");
-            bool is64Bit = IntPtr.Size == 8;
-            if (is64Bit) key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\Stimulsoft\\Stimulsoft Reports");
-            if (key != null)
-            {
-                path = (string)key.GetValue("Bin") + "\\Data\\";
-            }
-            else
-            {
-                path = Application.StartupPath + "\\Data\\";
-            }
-
-            tbCopyright.Text = string.Format("(C) {0} MyCompany", DateTime.Now.Year);
-
-			dataSet1.ReadXmlSchema(path + "Demo.xsd");
-			dataSet1.ReadXml(path + "Demo.xml");
-		}
+            
+            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
+        }
 
 		/// <summary>
 		/// Clean up any resources being used.
@@ -159,18 +145,18 @@ namespace Copyrights
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(56, 232);
+            this.button1.Location = new System.Drawing.Point(58, 225);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 4;
             this.button1.Text = "Design";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(144, 232);
+            this.button2.Location = new System.Drawing.Point(146, 225);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 26);
             this.button2.TabIndex = 5;
             this.button2.Text = "Preview";
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -179,7 +165,7 @@ namespace Copyrights
             // 
             this.groupBox1.Controls.Add(this.rbBehind);
             this.groupBox1.Controls.Add(this.rbFront);
-            this.groupBox1.Location = new System.Drawing.Point(8, 40);
+            this.groupBox1.Location = new System.Drawing.Point(8, 37);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(144, 72);
             this.groupBox1.TabIndex = 1;
@@ -211,7 +197,7 @@ namespace Copyrights
             this.groupBox2.Controls.Add(this.rbBottomRight);
             this.groupBox2.Controls.Add(this.rbCenter);
             this.groupBox2.Controls.Add(this.rbTopLeft);
-            this.groupBox2.Location = new System.Drawing.Point(168, 40);
+            this.groupBox2.Location = new System.Drawing.Point(168, 37);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(144, 144);
             this.groupBox2.TabIndex = 3;
@@ -264,7 +250,7 @@ namespace Copyrights
             // 
             this.groupBox3.Controls.Add(this.rbRectClient);
             this.groupBox3.Controls.Add(this.rbRectFull);
-            this.groupBox3.Location = new System.Drawing.Point(8, 112);
+            this.groupBox3.Location = new System.Drawing.Point(8, 109);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(144, 72);
             this.groupBox3.TabIndex = 2;
@@ -296,9 +282,9 @@ namespace Copyrights
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(232, 232);
+            this.button3.Location = new System.Drawing.Point(234, 225);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(75, 26);
             this.button3.TabIndex = 6;
             this.button3.Text = "Close";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -318,7 +304,7 @@ namespace Copyrights
             // 
             this.cbDesigner.Checked = true;
             this.cbDesigner.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbDesigner.Location = new System.Drawing.Point(8, 8);
+            this.cbDesigner.Location = new System.Drawing.Point(8, 9);
             this.cbDesigner.Name = "cbDesigner";
             this.cbDesigner.Size = new System.Drawing.Size(80, 20);
             this.cbDesigner.TabIndex = 0;
@@ -328,7 +314,7 @@ namespace Copyrights
             // 
             this.cbPreview.Checked = true;
             this.cbPreview.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPreview.Location = new System.Drawing.Point(104, 8);
+            this.cbPreview.Location = new System.Drawing.Point(104, 9);
             this.cbPreview.Name = "cbPreview";
             this.cbPreview.Size = new System.Drawing.Size(72, 20);
             this.cbPreview.TabIndex = 0;
@@ -338,7 +324,7 @@ namespace Copyrights
             // 
             this.cbPrinter.Checked = true;
             this.cbPrinter.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPrinter.Location = new System.Drawing.Point(192, 8);
+            this.cbPrinter.Location = new System.Drawing.Point(192, 9);
             this.cbPrinter.Name = "cbPrinter";
             this.cbPrinter.Size = new System.Drawing.Size(104, 20);
             this.cbPrinter.TabIndex = 0;
@@ -357,7 +343,9 @@ namespace Copyrights
             this.Controls.Add(this.tbCopyright);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.button3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "My Copyrights";
@@ -484,7 +472,7 @@ namespace Copyrights
 			
 			StiReport report = new StiReport();
 			report.RegData(dataSet1);
-			report.Load("..\\..\\Copyrights.mrt");
+			report.Load("..\\Copyrights.mrt");
 			report.Design();
 		}
 
@@ -494,7 +482,7 @@ namespace Copyrights
 
 			StiReport report = new StiReport();
 			report.RegData(dataSet1);
-			report.Load("..\\..\\Copyrights.mrt");
+			report.Load("..\\Copyrights.mrt");
 			report.Show();
 		}
 

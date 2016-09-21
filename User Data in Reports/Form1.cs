@@ -81,9 +81,9 @@ namespace UserDataInReports
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button3.Location = new System.Drawing.Point(232, 72);
+            this.button3.Location = new System.Drawing.Point(218, 42);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(85, 26);
             this.button3.TabIndex = 11;
             this.button3.Text = "Close";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -91,9 +91,9 @@ namespace UserDataInReports
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(152, 72);
+            this.button2.Location = new System.Drawing.Point(126, 42);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(85, 26);
             this.button2.TabIndex = 10;
             this.button2.Text = "Preview";
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -101,9 +101,9 @@ namespace UserDataInReports
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(72, 72);
+            this.button1.Location = new System.Drawing.Point(34, 42);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(85, 26);
             this.button1.TabIndex = 9;
             this.button1.Text = "Design";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -111,15 +111,16 @@ namespace UserDataInReports
             // stiUserData1
             // 
             this.stiUserData1.Columns.AddRange(new Stimulsoft.Report.Dictionary.StiDataColumn[] {
-            new Stimulsoft.Report.Dictionary.StiDataColumn("Name", "Name", "Name", typeof(object)),
-            new Stimulsoft.Report.Dictionary.StiDataColumn("ReturnType", "ReturnType", "ReturnType", typeof(object)),
-            new Stimulsoft.Report.Dictionary.StiDataColumn("IsStatic", "IsStatic", "IsStatic", typeof(object)),
-            new Stimulsoft.Report.Dictionary.StiDataColumn("Parameters", "Parameters", "Parameters", typeof(object))});
+            new Stimulsoft.Report.Dictionary.StiDataColumn("Name", "Name", "Name", typeof(object), null),
+            new Stimulsoft.Report.Dictionary.StiDataColumn("ReturnType", "ReturnType", "ReturnType", typeof(object), null),
+            new Stimulsoft.Report.Dictionary.StiDataColumn("IsStatic", "IsStatic", "IsStatic", typeof(object), null),
+            new Stimulsoft.Report.Dictionary.StiDataColumn("Parameters", "Parameters", "Parameters", typeof(object), null)});
             this.stiUserData1.Count = 10;
             this.stiUserData1.GetData += new Stimulsoft.Report.Dictionary.StiUserGetDataEventHandler(this.stiUserData1_GetData);
             // 
             // stiReport1
             // 
+            this.stiReport1.CookieContainer = null;
             this.stiReport1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
             this.stiReport1.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -132,6 +133,7 @@ namespace UserDataInReports
         "Stimulsoft.Report.Dll"};
             this.stiReport1.ReportAlias = "Report";
             this.stiReport1.ReportGuid = "9004eb010eec44b0925867c926808ffa";
+            this.stiReport1.ReportImage = null;
             this.stiReport1.ReportName = "Report";
             this.stiReport1.ReportSource = null;
             this.stiReport1.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
@@ -141,11 +143,13 @@ namespace UserDataInReports
             // Form1
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(312, 101);
+            this.ClientSize = new System.Drawing.Size(334, 111);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "User Data in Reports";

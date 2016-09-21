@@ -56,40 +56,44 @@ namespace PrintGrid
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.button1 = new System.Windows.Forms.Button();
-			this.dataGrid1 = new System.Windows.Forms.DataGrid();
-			((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).BeginInit();
-			this.SuspendLayout();
-			// 
-			// button1
-			// 
-			this.button1.Location = new System.Drawing.Point(376, 344);
-			this.button1.Name = "button1";
-			this.button1.TabIndex = 0;
-			this.button1.Text = "Show";
-			this.button1.Click += new System.EventHandler(this.button1_Click);
-			// 
-			// dataGrid1
-			// 
-			this.dataGrid1.DataMember = "";
-			this.dataGrid1.HeaderForeColor = System.Drawing.SystemColors.ControlText;
-			this.dataGrid1.Location = new System.Drawing.Point(8, 8);
-			this.dataGrid1.Name = "dataGrid1";
-			this.dataGrid1.Size = new System.Drawing.Size(448, 328);
-			this.dataGrid1.TabIndex = 1;
-			// 
-			// Form1
-			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-			this.ClientSize = new System.Drawing.Size(464, 373);
-			this.Controls.AddRange(new System.Windows.Forms.Control[] {
-																		  this.dataGrid1,
-																		  this.button1});
-			this.Name = "Form1";
-			this.Text = "Print Grid";
-			this.Load += new System.EventHandler(this.Form1_Load);
-			((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).EndInit();
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGrid1 = new System.Windows.Forms.DataGrid();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(355, 334);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Show";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dataGrid1
+            // 
+            this.dataGrid1.DataMember = "";
+            this.dataGrid1.HeaderForeColor = System.Drawing.SystemColors.ControlText;
+            this.dataGrid1.Location = new System.Drawing.Point(8, 8);
+            this.dataGrid1.Name = "dataGrid1";
+            this.dataGrid1.Size = new System.Drawing.Size(448, 319);
+            this.dataGrid1.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            this.ClientSize = new System.Drawing.Size(462, 374);
+            this.Controls.Add(this.dataGrid1);
+            this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.Text = "Print Grid";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).EndInit();
+            this.ResumeLayout(false);
 
 		}
 		#endregion
@@ -100,7 +104,8 @@ namespace PrintGrid
 		[STAThread]
 		static void Main() 
 		{
-			Application.Run(new Form1());
+            Application.EnableVisualStyles();
+            Application.Run(new Form1());
 		}
 		
 		public class BusinessEntity

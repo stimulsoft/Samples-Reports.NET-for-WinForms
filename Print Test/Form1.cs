@@ -54,36 +54,40 @@ namespace PrintTest
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-			this.button1 = new System.Windows.Forms.Button();
-			this.printDialog1 = new System.Windows.Forms.PrintDialog();
-			this.SuspendLayout();
-			// 
-			// printDocument1
-			// 
-			this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
-			// 
-			// button1
-			// 
-			this.button1.Location = new System.Drawing.Point(24, 24);
-			this.button1.Name = "button1";
-			this.button1.TabIndex = 0;
-			this.button1.Text = "Print";
-			this.button1.Click += new System.EventHandler(this.button1_Click);
-			// 
-			// printDialog1
-			// 
-			this.printDialog1.Document = this.printDocument1;
-			// 
-			// Form1
-			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-			this.ClientSize = new System.Drawing.Size(292, 266);
-			this.Controls.AddRange(new System.Windows.Forms.Control[] {
-																		  this.button1});
-			this.Name = "Form1";
-			this.Text = "Form1";
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.button1 = new System.Windows.Forms.Button();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.SuspendLayout();
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(90, 70);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 40);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Print";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.Document = this.printDocument1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            this.ClientSize = new System.Drawing.Size(329, 196);
+            this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.Text = "Print Test";
+            this.ResumeLayout(false);
 
 		}
 		#endregion
@@ -94,7 +98,8 @@ namespace PrintTest
 		[STAThread]
 		static void Main() 
 		{
-			Application.Run(new Form1());
+            Application.EnableVisualStyles();
+            Application.Run(new Form1());
 		}
 
 		int index = 0;
