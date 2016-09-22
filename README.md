@@ -10,7 +10,6 @@ This repository has many examples (Visual Studio Projects) each in different fol
 * Custom Component 2
 * Custom Designer
 * Custom Viewer
-* Designer Management Ribbon
 * Export many files to One Big PDF
 * Export Rendered Report
 * Export Reports
