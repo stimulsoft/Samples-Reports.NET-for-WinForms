@@ -32,14 +32,24 @@ namespace CustomComponent
 			
 		}
 
+        /// <summary>
+        /// Creates a new designer of the component.
+        /// </summary>
+        /// <param name="designer">Report designer.</param>
+        public MyCustomComponentDesigner(IStiDesignerBase designer)
+            : base(designer)
+        {
 
-		/// <summary>
-		/// Creates a new designer of the component.
-		/// </summary>
-		/// <param name="designer">Report designer.</param>
-		public MyCustomComponentDesigner(StiDesigner designer) : base(designer)
-		{
+        }
 
-		}
+        /// <summary>
+        /// Creates a new designer of the component.
+        /// </summary>
+        /// <param name="designer">Report designer.</param>
+        public MyCustomComponentDesigner(StiDesigner designer)
+            : base(designer)
+        {
+
+        }
 	}
 }

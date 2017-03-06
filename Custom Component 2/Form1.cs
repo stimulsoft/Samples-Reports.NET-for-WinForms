@@ -117,8 +117,6 @@ namespace CustomComponent
 			StiConfig.Services.Add(new MyCustomComponent());
 			StiConfig.Services.Add(new MyCustomComponentWithDataSource());
 			StiConfig.Save();
-
-
 		}
 
 		private void button1_Click(object sender, System.EventArgs e)
