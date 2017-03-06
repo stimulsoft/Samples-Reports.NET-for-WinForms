@@ -1,6 +1,6 @@
-# WinForms C# samples
+# WinForms samples for Stimulsoft Reports.Net
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.NET using C#.
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.Net reporting tool in the Windows Forms applications, using C# code and WinForms components.
 
 # Overview
 This repository has many examples (Visual Studio Projects) each in different folders:
@@ -43,22 +43,18 @@ This repository has many examples (Visual Studio Projects) each in different fol
 
 They are all combined in a Visual Studio solution (.sln-file).
 
-The Report folder has all report files for sample projects (.mrt format).
-
-The Data folder has sample of data files (NWIND.MDB, Demo.xml and Demo.xsd) required for building reports.
-
-The Demo project contain all the examples in a convenient form.
-
-The Bin folder should contain all Stimulsoft libraries (.dll files), which are required for these projects.
+The **Report** folder has all report files for sample projects (.mrt format), the **Data** folder has sample of data files (NWIND.MDB, Demo.xml and Demo.xsd) required for building reports.
 
 # Running samples
-In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project. Also you should copy the Stimulsoft libraries (.dll files) to the Bin folder in the root directory of these sample projects, or add references to the libraries in the Visual Studio IDE.
+In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project as Startup Project. The required libraries will be automatically downloaded from NuGet repository.
 
-# Stimulsoft Reports.NET
-These examples are applicable for Stimulsoft Reports.NET, the reporting tool designed for creating and rendering reports in your WinForms applications.
+# Stimulsoft Reports.Net
+Stimulsoft Reports.Net is a .NET based reporting tool which helps you create flexible and feature rich reports. All reports are created in a report designer with handy and user-friendly interface. Using Stimulsoft Reports.Net you can create reports on the basis of various data sources. Created reports can be used both in Windows Forms and ASP.NET. Rendered reports can be exported to different formats.
 
-You can try the demo [here](http://web.stimulsoft.com/)
+You can try the [Live Demo](http://demo.stimulsoft.com)
 
-Read more about Stimulsoft Reports.NET at [www.stimulsoft.com](https://www.stimulsoft.com/en/products/reports-net)
+Read more about [Stimulsoft Reports.Net](https://www.stimulsoft.com/en/products/reports-net)
 
 [Free Download](https://www.stimulsoft.com/en/downloads/reports-net)
+
+[NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Net)
