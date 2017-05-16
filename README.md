@@ -8,15 +8,12 @@ This repository has many examples (Visual Studio Projects) each in different fol
 * Cross-Tab Runtime
 * Custom Component
 * Custom Component 2
-* Custom Designer
 * Custom Viewer
 * Export many files to One Big PDF
 * Export Rendered Report
 * Export Reports
-* Get Data Tables from Data Base
 * Global events Save and Load
 * Globalized Reports
-* Invoice Creator
 * Live Reports
 * MDI Designer
 * Memory Test
@@ -26,7 +23,6 @@ This repository has many examples (Visual Studio Projects) each in different fol
 * Realtime Preview
 * Render in Thread
 * Render in Thread 2
-* Reports with SQL parameters
 * Runtime Report Creation
 * Runtime Table Creation
 * Sample Progress
