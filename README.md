@@ -54,3 +54,5 @@ Read more about [Stimulsoft Reports.Net](https://www.stimulsoft.com/en/products/
 [Free Download](https://www.stimulsoft.com/en/downloads)
 
 [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Net)
+
+[License](LICENSE.md)
