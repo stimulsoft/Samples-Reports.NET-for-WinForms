@@ -490,16 +490,16 @@
     <WindowTitleUserNew>New User</WindowTitleUserNew>
     <WindowTitleWorkspaceEdit>Edit Workspace</WindowTitleWorkspaceEdit>
     <WindowTitleWorkspaceNew>New Workspace</WindowTitleWorkspaceNew>
-    <WizardBlankReportDescription>Create Blank Report</WizardBlankReportDescription>
-    <WizardExcelDescription>Create report with Excel data.</WizardExcelDescription>
-    <WizardJsonDescription>Create report with JSON data.</WizardJsonDescription>
+    <WizardBlankReportDescription>Create a blank report</WizardBlankReportDescription>
+    <WizardExcelDescription>Create a report with Excel data.</WizardExcelDescription>
+    <WizardJsonDescription>Create a report with JSON data.</WizardJsonDescription>
     <WizardPrivateShare>No Access</WizardPrivateShare>
     <WizardPrivateShareDescription>External access to the item is restricted.</WizardPrivateShareDescription>
     <WizardPublicShare>Public Access</WizardPublicShare>
     <WizardPublicShareDescription>External access for any unauthorized user.</WizardPublicShareDescription>
     <WizardRegisteredShare>Authorized Access</WizardRegisteredShare>
     <WizardRegisteredShareDescription>External access only for registered users from any workspace.</WizardRegisteredShareDescription>
-    <WizardXmlDescription>Create report with XML data.</WizardXmlDescription>
+    <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
@@ -593,7 +593,7 @@
     <DatabaseTeradata>Teradata Connection</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct Connection</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB Connection</DatabaseVistaDB>
-    <DatabaseXml>XML Connection</DatabaseXml>
+    <DatabaseXml>XML Data</DatabaseXml>
   </Database>
   <DatePickerRanges>
     <CurrentMonth>Current Month</CurrentMonth>
@@ -990,6 +990,7 @@
     <title>Cross-Tab Designer</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+	<Favorites>Favorites</Favorites>
     <ConnectionString>Connection String:</ConnectionString>
     <DashboardConnections>Dashboard Connections</DashboardConnections>
     <DB2Edit>Edit IBM DB2 Connection</DB2Edit>
@@ -1039,8 +1040,8 @@
     <UseBearerAuthentication>Use Bearer Authentication</UseBearerAuthentication>
     <VistaDBEdit>Edit VistaDB Connection</VistaDBEdit>
     <VistaDBNew>New VistaDB Connection</VistaDBNew>
-    <XmlEdit>Edit XML Connection</XmlEdit>
-    <XmlNew>New XML Connection</XmlNew>
+    <XmlEdit>Edit XML Data</XmlEdit>
+    <XmlNew>New XML Data</XmlNew>
     <XmlType>XML Type:</XmlType>
   </FormDatabaseEdit>
   <FormDesigner>
@@ -1210,7 +1211,6 @@
     <FillComponents>Fill Components</FillComponents>
     <FillContainers>Fill Containers</FillContainers>
     <FillCrossBands>Fill Cross Bands</FillCrossBands>
-    <FillPrimitives>Fill Primitives</FillPrimitives>
     <GenerateLocalizedName>Generate Localized Name</GenerateLocalizedName>
     <Grid>Grid</Grid>
     <GridDots>Dots</GridDots>
@@ -1306,7 +1306,7 @@
     <labelReportCacheMode>Report Cache Mode:</labelReportCacheMode>
     <ReportChanged>Report Changed:</ReportChanged>
     <ReportCreated>Report Created:</ReportCreated>
-    <title>Report Setup</title>
+    <title>Report Options</title>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Bullets</Bullets>
@@ -1362,7 +1362,7 @@
     <DesignerApplication>Report Designer</DesignerApplication>
     <EventEditorForm>Event Editor</EventEditorForm>
     <ExpressionEditorForm>Expression Editor</ExpressionEditorForm>
-    <GroupConditionForm>Group Condition</GroupConditionForm>
+    <GroupConditionForm>Group</GroupConditionForm>
     <InteractionDrillDownPageSelectForm>Select Drill-Down Page</InteractionDrillDownPageSelectForm>
     <MasterComponentSelectForm>Select Master Component</MasterComponentSelectForm>
     <PageAddForm>Add Page</PageAddForm>
@@ -1899,7 +1899,6 @@
     <menuEditViewData>View Data...</menuEditViewData>
     <menuFile>&amp;File</menuFile>
     <menuFileClose>&amp;Close</menuFileClose>
-    <menuFileDashboardNew>New Dashboard</menuFileDashboardNew>
     <menuFileDashboardOpen>&amp;Open Dashboard...</menuFileDashboardOpen>
     <menuFileDashboardSaveAs>Save Dashboard &amp;As...</menuFileDashboardSaveAs>
     <menuFileExit>E&amp;xit</menuFileExit>
@@ -2091,6 +2090,7 @@
     <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles count exceeded.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Maximum data rows count in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
+    <QuotaMaximumItemsCountExceeded>Maximum items count exceeded.</QuotaMaximumItemsCountExceeded>
     <QuotaMaximumReportPagesCountExceeded>Maximum report pages count exceeded.</QuotaMaximumReportPagesCountExceeded>
     <QuotaMaximumResourcesCountExceeded>Maximum resources count exceeded.</QuotaMaximumResourcesCountExceeded>
     <QuotaMaximumUsersCountExceeded>Maximum users count exceeded.</QuotaMaximumUsersCountExceeded>
@@ -2144,8 +2144,8 @@
     <ReportTree>Report Tree</ReportTree>
   </Panels>
   <Password>
-    <gbPassword>Encrypting of file</gbPassword>
-    <lbPasswordLoad>Enter the password to open a file</lbPasswordLoad>
+    <gbPassword>Encrypting of the file</gbPassword>
+    <lbPasswordLoad>Enter the password to open the file</lbPasswordLoad>
     <lbPasswordSave>Password:</lbPasswordSave>
     <PasswordNotEntered>The password is not entered</PasswordNotEntered>
     <StiLoadPasswordForm>Document encrypting</StiLoadPasswordForm>
@@ -2712,8 +2712,8 @@
     <StiPrintOnTypeOnlyFirstAndLastPage>Only First and Last Page</StiPrintOnTypeOnlyFirstAndLastPage>
     <StiPrintOnTypeOnlyFirstPage>Only First Page</StiPrintOnTypeOnlyFirstPage>
     <StiPrintOnTypeOnlyLastPage>Only Last Page</StiPrintOnTypeOnlyLastPage>
-    <StiProcessAtEndOfPage>EndOfPage</StiProcessAtEndOfPage>
-    <StiProcessAtEndOfReport>EndOfReport</StiProcessAtEndOfReport>
+    <StiProcessAtEndOfPage>End of Page</StiProcessAtEndOfPage>
+    <StiProcessAtEndOfReport>End of Report</StiProcessAtEndOfReport>
     <StiProcessAtNone>None</StiProcessAtNone>
     <StiProcessingDuplicatesTypeBasedOnTagHide>Hide based on Tag</StiProcessingDuplicatesTypeBasedOnTagHide>
     <StiProcessingDuplicatesTypeBasedOnTagMerge>Merge based on Tag</StiProcessingDuplicatesTypeBasedOnTagMerge>
@@ -3651,6 +3651,8 @@
     <StretchToPrintArea>Stretch to Print Area</StretchToPrintArea>
     <StripBrush>Strip Brush</StripBrush>
     <Strips>Strips</Strips>
+    <StructuredAppendPosition>Structured Append Position</StructuredAppendPosition>
+    <StructuredAppendTotal>Structured Append Total</StructuredAppendTotal>
     <Style>Style</Style>
     <StyleColors>Style Colours</StyleColors>
     <Styles>Styles</Styles>
@@ -3704,6 +3706,7 @@
     <TrendLineColor>Colour</TrendLineColor>
     <TrendLineShowShadow>Show Shadow</TrendLineShowShadow>
     <Trimming>Trimming</Trimming>
+	<TrimExcessData>Trim Excess Data</TrimExcessData>
     <Type>Type</Type>
     <TypeName>Type Name</TypeName>
     <Types>Types</Types>
@@ -3891,7 +3894,6 @@
     <CreateNewReportPageForm>Create a new report, add a page, add a form</CreateNewReportPageForm>
     <CreatingReport>Creating Report</CreatingReport>
     <CrossBands>Cross</CrossBands>
-    <Dashboard>Dashboard</Dashboard>
     <Dialogs>Dialogues</Dialogs>
     <EditStyles>[Edit Styles]</EditStyles>
     <Enhancements>Enhancements</Enhancements>
@@ -4189,7 +4191,7 @@
     <groupWizards>Wizards</groupWizards>
     <infoColumnsOrder>Arrange columns in the necessary order.</infoColumnsOrder>
     <infoDataSource>Select one Data Source from available.</infoDataSource>
-    <infoDataSources>Select Data Sources from available. The first selected one will be the Master datasource.</infoDataSources>
+    <infoDataSources>Select Data Sources from available. The first selected one will be the Master data source.</infoDataSources>
     <infoFilters>Filter Data for your report</infoFilters>
     <infoGroups>Select columns on which necessary to group.</infoGroups>
     <infoLabelSettings>Set the settings of labels.</infoLabelSettings>
@@ -4218,7 +4220,7 @@
     <MarkAll>Mark &amp;All</MarkAll>
     <MasterDetailReport>Master-Detail Report</MasterDetailReport>
     <NoFunction>[None]</NoFunction>
-    <OpenExistingReport>Open Existing Report</OpenExistingReport>
+    <OpenExistingReport>Open Existing File</OpenExistingReport>
     <Preview>Preview</Preview>
     <Reset>&amp;Reset</Reset>
     <Results>Results</Results>
