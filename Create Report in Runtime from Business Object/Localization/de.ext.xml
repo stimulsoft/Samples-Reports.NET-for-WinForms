@@ -3,6 +3,7 @@
   <CheckActions>
     <ApplyEngineV2Long>Die Funktions-Version-Eigenschaft einer Seite auf EngineV2 setzen, um alle Report-Möglichkeiten zu erhalten.</ApplyEngineV2Long>
     <Change>Ändern</Change>
+    <ChangeReportToInterpretationMode>Den Bericht in den Interpretation-Modus andern.</ChangeReportToInterpretationMode>
     <Code>Code</Code>
     <Convert>Konvertieren</Convert>
     <Delete>Löschen</Delete>
@@ -179,6 +180,8 @@
     <StiSourcesInAbsentDataRelationCheckShort>Es gibt keine Datenquellen</StiSourcesInAbsentDataRelationCheckShort>
   </CheckDataRelation>
   <CheckDataSource>
+    <StiCalculatedColumnRecursionCheckLong>Die '{0}' kalkulierte Spalte der '{1}' Datenquelle hat einen Ausdruck mit der Rekursion. Es ist unmoglich, auf die kalkulierte Spalte in ihrem eigenen Ausdruck zu verweisen.</StiCalculatedColumnRecursionCheckLong>
+    <StiCalculatedColumnRecursionCheckShort>Rekursiver Ausdruck</StiCalculatedColumnRecursionCheckShort>
     <StiNoNameDataSourceCheckLong>Der Datenquellenname wurde nicht angegeben. Dieser Name wird für die Erzeugung einer Klasse im Reportcode der Datenquelle benötigt. Das Reportprogramm kann den Reportcode ohne den angegebenen Namen nicht erzeugen, und der Code wird nicht umgewandelt!</StiNoNameDataSourceCheckLong>
     <StiNoNameDataSourceCheckShort>Kein Name für die Datenquelle vorhanden.</StiNoNameDataSourceCheckShort>
     <StiNoNameInSourceDataSourceCheckLong>Das Feld 'Name in der Datenquelle' wurde nicht für die Datenquellen '{0}' gefüllt. Wenn das Feld leer ist, kann das Reportprogramm keine Daten für die Datenquelle der Datenbank finden, und der Report wird nicht erstellt!</StiNoNameInSourceDataSourceCheckLong>
@@ -200,6 +203,8 @@
     <StiOrientationPageCheckShort>Fehlerhaftes Seitenformat der Seite '{0}'.</StiOrientationPageCheckShort>
   </CheckPage>
   <CheckReport>
+    <StiCloudCompilationModeCheckLong>Der Bericht soll in den Interpretation-Modus geandert werden.</StiCloudCompilationModeCheckLong>
+    <StiCloudCompilationModeCheckShort>Dieser Bericht ist im  Kompilierungsmodus</StiCloudCompilationModeCheckShort>
     <StiCompilationErrorAssemblyCheckLong>Man kann nicht die Datei oder Assemblierung '{0}' oder eine von ihnen abhängige Komponente laden.</StiCompilationErrorAssemblyCheckLong>
     <StiCompilationErrorCheck2Long>Der Kompilierungsfehler wurde in der Eigenschaft '{1}' der Komponente '{2}' gefunden:</StiCompilationErrorCheck2Long>
     <StiCompilationErrorCheck3Long>Der Kompilierungsfehler wurde im Ereignis '{1}' der Komponente '{2}' gefunden:</StiCompilationErrorCheck3Long>
@@ -211,6 +216,10 @@
     <StiDuplicatedNameInSourceInDataRelationReportCheckLong>'{0}' Beziehungen wurden im Report gefunden. Sie haben gleiche Werte ('{1}') in 'Name in der Datenquelle' . Alle Werte in 'Name in der Datenquelle' sollten eindeutig im Bereich einer Beziehung einer Datenbank sein! Es ist notwendig, diese Felder in den Beziehungen zu korrigieren.</StiDuplicatedNameInSourceInDataRelationReportCheckLong>
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>Duplikate in Beziehungen</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
   </CheckReport>
+  <CheckVariable>
+    <StiVariableRecursionCheckLong>Die '{0}' Variable hat einen Ausdruck mit der Rekursion. Es ist unmoglich, auf die kalkulierte Spalte in ihrem eigenen Ausdruck zu verweisen.</StiVariableRecursionCheckLong>
+    <StiVariableRecursionCheckShort>Rekursiver Ausdruck</StiVariableRecursionCheckShort>
+  </CheckVariable>
   <Font>
     <Bold>Wert, der anzeigt, ob dieser Zeichensatz fett dargestellt wird.</Bold>
     <Italic>Wert, der anzeigt, ob dieser Zeichensatz kursiv dargestellt wird.</Italic>
@@ -219,6 +228,67 @@
     <Strikeout>Wert, der anzeigt, ob der Zeichensatz eine Durchstreichungslinie enthält.</Strikeout>
     <Underline>Wert, der anzeigt, ob dieser Zeichensatz unterstrichen dargestellt wird.</Underline>
   </Font>
+  <Publish>
+    <ActionDesign>Entwerfen</ActionDesign>
+    <ActionExport>Export</ActionExport>
+    <ActionShow>Anzeigen</ActionShow>
+    <Close>Schlie?en</Close>
+    <ConnectionsFromReport>Verbindung aus dem Bericht verwenden</ConnectionsFromReport>
+    <ConnectionsRegData>Daten aus dem Code regisitrieren</ConnectionsRegData>
+    <ConnectionsReplace>Verbindungsstring ersetzen</ConnectionsReplace>
+    <Copy>Kopieren</Copy>
+    <DeployReportPlatform>Den Bericht in die Plattform bereitstellen:</DeployReportPlatform>
+    <ExportFormat>Den Bericht exporieren in:</ExportFormat>
+    <ExportFormatData>Daten</ExportFormatData>
+    <ExportFormatDataType>Datentyp:</ExportFormatDataType>
+    <ExportFormatImage>Bild</ExportFormatImage>
+    <ExportFormatImageType>Bildtyp:</ExportFormatImageType>
+    <FullScreenViewer>Den Viewer im vollen Browserfenster  anzeigen</FullScreenViewer>
+    <GetLibrariesFrom>Stimulsoft Sammlungen aus {0} erhalten</GetLibrariesFrom>
+    <GroupAddons>Addons</GroupAddons>
+    <GroupConnections>Datenverbindungs</GroupConnections>
+    <GroupParameters>Berichtsparameter</GroupParameters>
+    <HideOptions>Optionen ausblenden</HideOptions>
+    <IncludeFonts>Schriftarten einschlie?en</IncludeFonts>
+    <IncludeLibrariesToStandalone>Stimulsoft Sammlungen in die ausfuhrbare Datei einschlie?en</IncludeLibrariesToStandalone>
+    <IncludeLicenseKey>Lizenzschlussel einschlie?en</IncludeLicenseKey>
+    <IncludeLocalization>Lokalisierung einschlie?en</IncludeLocalization>
+    <IncludeReportPackedStringToCode>Den Bericht als verpackter String in den Code einschlie?en</IncludeReportPackedStringToCode>
+    <IncludeUITheme>UI-Thema einschlie?en</IncludeUITheme>
+    <JavaScriptFramework>Typ von Framework:</JavaScriptFramework>
+    <LicenseKeyTypeFile>Datei</LicenseKeyTypeFile>
+    <LicenseKeyTypeString>String</LicenseKeyTypeString>
+    <LoadReport>Den Bericht laden aus:</LoadReport>
+    <LoadReportAssembly>Assemblierung</LoadReportAssembly>
+    <LoadReportByteArray>Byte-Array</LoadReportByteArray>
+    <LoadReportClass>Klasse</LoadReportClass>
+    <LoadReportFile>Datei</LoadReportFile>
+    <LoadReportHyperlink>Hyperlink</LoadReportHyperlink>
+    <LoadReportResource>Ressource</LoadReportResource>
+    <LoadReportStream>Strom</LoadReportStream>
+    <LoadReportString>String</LoadReportString>
+    <ParametersFromReport>Einen Wert aus dem Bericht verwenden</ParametersFromReport>
+    <ParametersReplace>Einen Wert aus dem Code ersetzen</ParametersReplace>
+    <ParametersRequestFromUser>Anfrage vom Benutzer</ParametersRequestFromUser>
+    <Publish>Veröffentlichen</Publish>
+	<PublishType>Veroffentlichungstyp des Berichts:</PublishType>
+    <PublishTypeProject>Projekt</PublishTypeProject>
+    <PublishTypeStandalone>Standalone</PublishTypeStandalone>
+    <RegDataOnlyForPreview>Nur fur Berichtsvorschau verwenden</RegDataOnlyForPreview>
+    <RegDataSynchronize>Worterbuch des Berichts synchronisieren</RegDataSynchronize>
+    <ReportAction>Was machen mit dem Bericht:</ReportAction>
+    <SaveProjectPackage>Projekt-Verpackung speichern</SaveProjectPackage>
+    <SaveStandalone>Standalone speichern</SaveStandalone>
+    <SaveStandalonePackage>Standalone-Verpackung speichern</SaveStandalonePackage>
+    <ShowMore>Mehr anzeigen</ShowMore>
+    <ShowOptions>Optionen anzeigen</ShowOptions>
+    <ThemeBackground>Hintergrund:</ThemeBackground>
+    <ThemeStyle>Theme Style:</ThemeStyle>
+    <TrialVersion>Testversion</TrialVersion>
+    <UseCompilationCache>Kompilationszwischenspeichern verwenden</UseCompilationCache>
+    <UseCompressedScripts>Komprimierte Scripts verwenden</UseCompressedScripts>
+    <UseWpfDesignerV2>Designer V2 verwenden</UseWpfDesignerV2>
+  </Publish>
   <ReportComparer>
     <Change>Ändern</Change>
     <Copy>Kopieren</Copy>
@@ -1475,6 +1545,7 @@
   <StiRichText>
     <BackColor>Hintergrundfarbe.</BackColor>
     <DataColumn>Spaltenname mit dem RTF-Text.</DataColumn>
+    <DataUrl>Der Ausdruck fur Ausfullung der Komponente RTF-Text.</DataUrl>
     <DetectUrls>Auftreten von urls.</DetectUrls>
     <FullConvertExpression>Wert, der die Notwenigkeit angibt, den Aufdruck vollständig ins RTF-Format zu konvertieren. Die vollständige Konvertierung der Ausdrücke verlangsamt die Reportaufbereitung.</FullConvertExpression>
     <Margins>Text Ausrichtungen.</Margins>
