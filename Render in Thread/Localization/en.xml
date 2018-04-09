@@ -96,6 +96,7 @@
     <Cancel>&amp;Cancel</Cancel>
     <Check>Check</Check>
     <Close>Close</Close>
+    <ForceDelete>Force Delete</ForceDelete>
     <Delete>Delete</Delete>
     <Design>Design</Design>
     <Down>Down</Down>
@@ -105,8 +106,10 @@
     <LessOptions>Less Options</LessOptions>
     <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
     <MoreOptions>More Options</MoreOptions>
+    <More>More</More>
     <MoveLeft>Move Left</MoveLeft>
     <MoveRight>Move Right</MoveRight>
+    <MoveToResource>Move to Resource</MoveToResource>
     <No>&amp;No</No>
     <Ok>&amp;OK</Ok>
     <Open>Open</Open>
@@ -129,6 +132,10 @@
     <Upload>Upload</Upload>
     <Yes>&amp;Yes</Yes>
   </Buttons>
+  <BarCode>
+    <Post>Post</Post>
+    <TwoDimensional>Two-Dimensional</TwoDimensional>
+  </BarCode>
   <Chart>
     <Pictorial>Pictorial</Pictorial>
     <AddCondition>&amp;Add Condition</AddCondition>
@@ -342,7 +349,7 @@
     <ButtonSignUp>Sign Up</ButtonSignUp>
     <ButtonSkip>Skip</ButtonSkip>
     <ButtonView>View</ButtonView>
-    <ButtonWhereUsed>Where it is used?</ButtonWhereUsed>
+    <ButtonWhereUsed>Where is it used?</ButtonWhereUsed>
     <Cancel>Cancel</Cancel>
     <CheckBoxMoveToRecycleBin>Move to Recycle Bin</CheckBoxMoveToRecycleBin>
     <CheckBoxRememberMe>Remember Me</CheckBoxRememberMe>
@@ -385,6 +392,8 @@
     <LabelNextTime>Next Time:</LabelNextTime>
     <labelPassword>Password:</labelPassword>
     <LabelPermission>Permission:</LabelPermission>
+    <LabelEndDate>End Date:</LabelEndDate>
+    <LabelResultType>Result Type:</LabelResultType>
     <LabelPicture>Picture:</LabelPicture>
     <LabelRenderedReport>Rendered report</LabelRenderedReport>
     <LabelResponseAsFile>Response as File</LabelResponseAsFile>
@@ -424,6 +433,7 @@
     <Save>Save</Save>
     <SaveAccountSettings>Save Account Settings</SaveAccountSettings>
     <SaveFile>Save File</SaveFile>
+	<SaveAsType>Save as type</SaveAsType>
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
     <Subscriptions>Subscriptions</Subscriptions>
@@ -570,13 +580,20 @@
     <StiZipCode>ZIP Code</StiZipCode>
   </Components>
   <Dashboard>
+    <EditExpression>Edit Expression</EditExpression>
+    <RemoveField>Remove Field</RemoveField>
+    <DuplicateField>Duplicate Field</DuplicateField>
     <ChangeChartType>Change Chart Type</ChangeChartType>
     <ChangeMapType>Change Map Type</ChangeMapType>
     <ClearFilterFrom>Clear Filter from '{0}'</ClearFilterFrom>
     <DataBars>Data Bars</DataBars>
+    <HighLowPoints>High / Low Points</HighLowPoints>
+    <FirstLastPoints>First / Last Points</FirstLastPoints>
     <ColorScale>Color Scale</ColorScale>
     <Sparklines>Sparklines</Sparklines>
-    <Delta>Delta</Delta>
+    <NewDimension>New Dimension</NewDimension>
+    <NewMeasure>New Measure</NewMeasure>
+    <Indicator>Indicator</Indicator>
     <Trend>Trend</Trend>
     <DataNotDefined>Data is not defined</DataNotDefined>
     <Dimension>Dimension</Dimension>
@@ -913,7 +930,8 @@
     <SylkFiles>SYLK Files (*.slk)|*.slk</SylkFiles>
     <TiffFiles>TIFF Images (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Plain Text Files (*.txt)|*.txt</TxtFiles>
-    <Word2007Files>Microsoft Word 2007/2013 Files (*.docx)|*.docx</Word2007Files>
+    <WordFiles>Microsoft Word 97-2003 Files (*.doc)|*.doc</WordFiles>
+    <Word2007Files>Microsoft Word 2007-2016 Files (*.docx)|*.docx</Word2007Files>
     <WriterFiles>OpenDocument Writer Files (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML Files (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS Files (*.xps)|*.xps</XpsFiles>
@@ -1115,6 +1133,8 @@
     <DataParameterNew>New Parameter</DataParameterNew>
     <DataSetToBusinessObjects>DataSet To Business Objects</DataSetToBusinessObjects>
     <DataSourceEdit>Edit Data Source</DataSourceEdit>
+    <DataTransformationNew>New Data Transformation</DataTransformationNew>
+    <DataTransformationEdit>Edit Data Transformation</DataTransformationEdit>
     <DataSourceNew>New Data Source</DataSourceNew>
     <DataSourcesNew>New Data Sources</DataSourcesNew>
     <Delete>Delete</Delete>
@@ -1335,6 +1355,7 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Add Style</Add>
+    <AddCollectionName>Add Collection Name</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>Apply Style Collection to Report Components</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Apply Styles</ApplyStyles>
     <ColorCollectionEditor>Color Collection Editor</ColorCollectionEditor>
@@ -1836,6 +1857,7 @@
     <PagePrevious>Go to the previous report page.</PagePrevious>
     <PageSize>Change the page parameters in a report.</PageSize>
     <Parameters>Showing parameters panel which is used when report rendering.</Parameters>
+    <Resources>Showing resources panel</Resources>
     <PdfACompliance>Support for the standard of the long-term archiving and storing of electronic documents.</PdfACompliance>
     <Print>Print a report.</Print>
     <PutFeedPageCode>Feed pages in the final document with a special character.</PutFeedPageCode>
@@ -1899,6 +1921,7 @@
     <menuEditCut>Cu&amp;t</menuEditCut>
     <menuEditDataParameterNew>New Parameter...</menuEditDataParameterNew>
     <menuEditDataSourceNew>New Data Source...</menuEditDataSourceNew>
+    <menuEditDataTransformationNew>New Data Transformation...</menuEditDataTransformationNew>
     <menuEditDataSourcesNew>New Data Sources...</menuEditDataSourcesNew>
     <menuEditDelete>&amp;Delete</menuEditDelete>
     <menuEditEdit>Edit</menuEditEdit>
@@ -1991,12 +2014,6 @@
     <menuViewToolbars>Toolbars</menuViewToolbars>
   </MainMenu>
   <Map>
-    <GroupAsia>Asia</GroupAsia>
-    <GroupEurope>Europe</GroupEurope>
-    <GroupNorthAmerica>North America</GroupNorthAmerica>
-    <GroupOceania>Oceania</GroupOceania>
-    <GroupSouthAmerica>South America</GroupSouthAmerica>
-    <GroupWorld>World</GroupWorld>
     <LinkDataForm>Link Data</LinkDataForm>
     <MapEditorForm>Map Editor</MapEditorForm>
   </Map>
@@ -2010,6 +2027,11 @@
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
     <DoNotShowAgain>Do not show again</DoNotShowAgain>
+    <ShareURLOfTheItemHasBeenUpdated>The share URL of the item has been updated!</ShareURLOfTheItemHasBeenUpdated>
+    <ShareYourReportYouShouldSave>To share your report you should save the report to Stimulsoft Cloud!</ShareYourReportYouShouldSave>
+    <RenderingWillOccurInTheInterpretationMode>When viewing the shared report, the rendering will occur in the interpretation mode!</RenderingWillOccurInTheInterpretationMode>
+    <ResourceCannotBeDeleted>The resource "{0}" cannot be deleted, because it is used in the report!</ResourceCannotBeDeleted>
+	<ChangeRequestTimeout>The request timeout for SQL queries exceeds the request timeout of the report designer. Set the request timeout for the designer component in no less than {0} seconds.</ChangeRequestTimeout>
   </Messages>
   <Notices>
     <NewVersionsAvailable>New version available!</NewVersionsAvailable>
@@ -2249,8 +2271,11 @@
     <HeaderTableCategory>Header Table</HeaderTableCategory>
     <HierarchicalCategory>Hierarchical</HierarchicalCategory>
     <ImageAdditionalCategory>Image Additional</ImageAdditionalCategory>
+    <GaugeCategory>Gauge</GaugeCategory>
     <ImageCategory>Image</ImageCategory>
     <InterlacingCategory>Interlacing</InterlacingCategory>
+    <IndicatorCategory>Indicator</IndicatorCategory>
+    <ProgressCategory>Progress</ProgressCategory>
     <LegendCategory>Legend</LegendCategory>
     <MainCategory>Main</MainCategory>
     <MarkerCategory>Marker</MarkerCategory>
@@ -2433,9 +2458,13 @@
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
-    <StiDeltaTypeDifference>Difference</StiDeltaTypeDifference>
-    <StiDeltaTypePercentageDifference>Percentage Difference</StiDeltaTypePercentageDifference>
-    <StiDeltaTypePercentOfTarget>Percent of Target</StiDeltaTypePercentOfTarget>
+    <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
+    <StiMapModeOnline>Online</StiMapModeOnline>
+    <StiProgressElementModePie>Pie</StiProgressElementModePie>
+    <StiProgressElementModeCircle>Circle</StiProgressElementModeCircle>
+    <StiProgressElementModeDataBars>DataBars</StiProgressElementModeDataBars>    
+    <StiGaugeCalculationModeAuto>Auto</StiGaugeCalculationModeAuto>
+    <StiGaugeCalculationModeCustom>Custom</StiGaugeCalculationModeCustom>
     <StiGaugeTypeFullCircular>Full Circular</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Half-Circular</StiGaugeTypeHalfCircular>
     <boolFalse>False</boolFalse>
@@ -2677,25 +2706,11 @@
     <StiLegendVertAlignmentCenter>Center</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Top</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Top Outside</StiLegendVertAlignmentTopOutside>
-    <StiMapIDAustralia>Australia</StiMapIDAustralia>
-    <StiMapIDAustria>Austria</StiMapIDAustria>
-    <StiMapIDBrazil>Brazil</StiMapIDBrazil>
-    <StiMapIDCanada>Canada</StiMapIDCanada>
-    <StiMapIDChina>China</StiMapIDChina>
-    <StiMapIDEU>EU</StiMapIDEU>
-    <StiMapIDEurope>Europe</StiMapIDEurope>
-    <StiMapIDFrance>France</StiMapIDFrance>
-    <StiMapIDGermany>Germany</StiMapIDGermany>
-    <StiMapIDItaly>Italy</StiMapIDItaly>
-    <StiMapIDNetherlands>Netherlands</StiMapIDNetherlands>
-    <StiMapIDRussia>Russia</StiMapIDRussia>
-    <StiMapIDUK>UK</StiMapIDUK>
-    <StiMapIDUSA>USA</StiMapIDUSA>
-    <StiMapIDWorld>World</StiMapIDWorld>
     <StiMapTypeGroup>Group</StiMapTypeGroup>
     <StiMapTypeHeatmap>Heatmap</StiMapTypeHeatmap>
     <StiMapTypeHeatmapWithGroup>Heatmap With Group</StiMapTypeHeatmapWithGroup>
     <StiMapTypeNone>None</StiMapTypeNone>
+    <StiMapTypeIndividual>Individual</StiMapTypeIndividual>
     <StiMapTypePoints>Points</StiMapTypePoints>
     <StiMarkerAlignmentLeft>Left</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Right</StiMarkerAlignmentRight>
@@ -3002,7 +3017,13 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
+    <NameDataColumn>Name Data Column</NameDataColumn>
+    <Regular>Regular</Regular>
+    <Latitude>Latitude</Latitude>
+    <Longitude>Longitude</Longitude>
     <Actual>Actual</Actual>
+    <SeriesTitle>Series Title</SeriesTitle>
+    <Label>Label</Label>
     <RoundValues>Round Values</RoundValues>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <Target>Target</Target>
@@ -3064,6 +3085,7 @@
     <AutoSeriesTitleDataColumn>Auto Series Title Data Column</AutoSeriesTitleDataColumn>
     <AutoWidth>Auto Width</AutoWidth>
     <AutoWidthType>Auto Width Type</AutoWidthType>
+    <AvailableInTheViewer>Available in the Viewer</AvailableInTheViewer>
     <AxisLabelsColor>Labels Color</AxisLabelsColor>
     <AxisLineColor>Line Color</AxisLineColor>
     <AxisTitleColor>Title Color</AxisTitleColor>
@@ -3166,6 +3188,9 @@
     <CreateFieldOnDoubleClick>Create Field on Double Click</CreateFieldOnDoubleClick>
     <CreateLabel>Create Label</CreateLabel>
     <Culture>Culture</Culture>
+    <SystemFonts>System Fonts</SystemFonts>
+    <CustomFonts>Custom Fonts</CustomFonts>
+    <RecentFonts>Recent Fonts</RecentFonts>
     <CustomFormat>Custom Format</CustomFormat>
     <CutPieList>Cut Pie List</CutPieList>
     <Data>Data</Data>
@@ -3178,6 +3203,7 @@
     <DataField>Data Field</DataField>
     <DataRelation>Data Relation</DataRelation>
     <DataRows>Data Rows</DataRows>
+    <DataTransformation>Data Transformation</DataTransformation>
     <DataSource>Data Source</DataSource>
     <DataSources>Data Sources</DataSources>
     <DataTextField>Data Text Field</DataTextField>
@@ -3248,6 +3274,7 @@
     <ExtensionDigit>Extension Digit</ExtensionDigit>
     <FaqPage>FAQ Page</FaqPage>
     <FieldIs>Field Is</FieldIs>
+    <Field>Field</Field>
     <File>File</File>
     <Fill>Fill</Fill>
     <FillColor>Fill Color</FillColor>
@@ -3737,10 +3764,12 @@
     <TrendLineColor>Color</TrendLineColor>
     <TrendLineShowShadow>Show Shadow</TrendLineShowShadow>
     <Trimming>Trimming</Trimming>
-	<TrimExcessData>Trim Excess Data</TrimExcessData>
+    <TrimExcessData>Trim Excess Data</TrimExcessData>
     <Type>Type</Type>
     <TypeName>Type Name</TypeName>
     <Types>Types</Types>
+    <Effects>Effects</Effects>
+    <Strikeout>Strikeout</Strikeout>
     <Underline>Underline</Underline>
     <UndoLimit>Undo Limit</UndoLimit>
     <Unit>Unit</Unit>
@@ -3756,6 +3785,8 @@
     <UseStyleOfSummaryInColumnTotal>Use Style of Summary in Column Total</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Use Style of Summary in Row Total</UseStyleOfSummaryInRowTotal>
     <UseValuesFromTheSpecifiedRange>Use Values From The Specified Range</UseValuesFromTheSpecifiedRange>
+    <GroupDataColumn>Group Data Column</GroupDataColumn>
+    <ColorDataColumn>Color Data Column</ColorDataColumn>
     <Value>Value</Value>
     <ValueClose>Value Close</ValueClose>
     <ValueDataColumn>Value Data Column</ValueDataColumn>

@@ -88,6 +88,10 @@
     <AdapterVirtualSource>Daten aus einer Virtuellen DataSource</AdapterVirtualSource>
     <AdapterVistaDBConnection>Daten aus einer VistaDB-Verbindung</AdapterVistaDBConnection>
   </Adapters>
+  <BarCode>
+    <Post>Post-</Post>
+    <TwoDimensional>Zweidimensional</TwoDimensional>
+  </BarCode>
   <Buttons>
     <Add>Hinzufügen</Add>
     <AddAllColumns>Alle Spalten hinzufügen</AddAllColumns>
@@ -101,12 +105,15 @@
     <Down>Nach unten</Down>
     <Duplicate>Duplikat</Duplicate>
     <Export>Exportieren</Export>
+    <ForceDelete>Erzwungene Löschung</ForceDelete>
     <Help>Hilfe</Help>
     <LessOptions>Weniger Optionen</LessOptions>
     <LoadDataSet>DataSet laden (*.data)</LoadDataSet>
+    <More>Mehr</More>
     <MoreOptions>Mehr Optionen</MoreOptions>
     <MoveLeft>Nach links verschieben</MoveLeft>
     <MoveRight>Nach rechts verschieben</MoveRight>
+    <MoveToResource>auf die Ressource verschieben</MoveToResource>
     <No>&amp;Nein</No>
     <Ok>OK</Ok>
     <Open>Öffnen</Open>
@@ -210,6 +217,7 @@
     <MoveStripUp>Streifen nach oben</MoveStripUp>
     <NoConditions>Keine Bedingungen</NoConditions>
     <NoFilters>Keine Filter</NoFilters>
+    <Pictorial>Bildhaft</Pictorial>
     <Pie>Kreis</Pie>
     <Radar>Netz</Radar>
     <RadarArea>Netz Fläche</RadarArea>
@@ -231,6 +239,10 @@
     <SeriesColorsCollectionForm>Farben für Reihen</SeriesColorsCollectionForm>
     <SeriesEditorForm>Reihen Editor</SeriesEditorForm>
     <Serieses>Reihen</Serieses>
+    <SparklinesArea>Gebiet</SparklinesArea>
+    <SparklinesColumn>Spalte</SparklinesColumn>
+    <SparklinesLine>Linie</SparklinesLine>
+    <SparklinesWinLoss>Gewinn / Verlust</SparklinesWinLoss>
     <Spline>Spline-Linie</Spline>
     <SplineArea>Spline-Fläche</SplineArea>
     <SplineRange>Spline Bereich</SplineRange>
@@ -322,6 +334,7 @@
     <ButtonChangePassword>Passwort ändern</ButtonChangePassword>
     <ButtonDeleteAll>Alles löschen</ButtonDeleteAll>
     <ButtonDesign>Bericht entwerfen</ButtonDesign>
+    <ButtonLater>Später</ButtonLater>
     <ButtonLogout>Abmelden</ButtonLogout>
     <ButtonPublish>Veröffentlichen</ButtonPublish>
     <ButtonPurchase>Anschaffen</ButtonPurchase>
@@ -366,6 +379,7 @@
     <LabelCurrentPassword>Aktuelles Passwort:</LabelCurrentPassword>
     <LabelDataFile>Datendatei:</LabelDataFile>
     <LabelDataUrl>Daten-URL:</LabelDataUrl>
+    <LabelEndDate>Enddatum:</LabelEndDate>
     <labelFileName>Dateiname:</labelFileName>
     <LabelForeground>Vordergrund:</LabelForeground>
     <LabelFromReport>Aus dem Bericht</LabelFromReport>
@@ -380,6 +394,7 @@
     <LabelPicture>Bild:</LabelPicture>
     <LabelRenderedReport>Gerenderter Bericht</LabelRenderedReport>
     <LabelResponseAsFile>Response als Datei</LabelResponseAsFile>
+    <LabelResultType>Ergebnistyp:</LabelResultType>
     <LabelSeparateReport>Separate Berichts- (und Scripts-) Datei</LabelSeparateReport>
     <LabelShowReport>Bericht anzeigen:</LabelShowReport>
     <labelUserName>Benutzer:</labelUserName>
@@ -415,9 +430,12 @@
     <RootFolder>Stammordner</RootFolder>
     <Save>Speichern</Save>
     <SaveAccountSettings>Speichere Konto Einstellungen</SaveAccountSettings>
+    <SaveAsType>Speichern als Typ</SaveAsType>
     <SaveFile>Datei speichern</SaveFile>
+    <SavingToStimulsoftCloudPleaseWait>Der Bericht wird in Stimulsoft Cloud gespeichert. Bitte, warten Sie!</SavingToStimulsoftCloudPleaseWait>
     <ShareWindowTitleNew>Freigabe-Einstellungen</ShareWindowTitleNew>
     <ShowAllFiles>Alle Datien anzeigen</ShowAllFiles>
+    <ShowNotificationMessages>Benachrichtigungsmeldung anzeigen</ShowNotificationMessages>
     <Subscriptions>Subskriptionen</Subscriptions>
     <TabItemEmbedCode>Einbettungscode</TabItemEmbedCode>
     <TabItemQRCode>QR-Code</TabItemQRCode>
@@ -536,12 +554,15 @@
     <StiHierarchicalBand>Hierarchisches Band</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Horizontale Linie</StiHorizontalLinePrimitive>
     <StiImage>Bild</StiImage>
+    <StiIndicator>Indikator</StiIndicator>
     <StiMap>Karte</StiMap>
     <StiOverlayBand>Overlay</StiOverlayBand>
     <StiPage>Seite</StiPage>
     <StiPageFooterBand>Seitenfuß</StiPageFooterBand>
     <StiPageHeaderBand>Seitenkopf</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
+    <StiPivot>Pivot</StiPivot>
+    <StiProgress>Verlauf</StiProgress>
     <StiRectanglePrimitive>Rechteck</StiRectanglePrimitive>
     <StiReport>Bericht</StiReport>
     <StiReportSummaryBand>Berichtsfuß</StiReportSummaryBand>
@@ -562,17 +583,29 @@
     <ChangeChartType>Diagrammtyp ändern</ChangeChartType>
     <ChangeMapType>Kartentyp ändern</ChangeMapType>
     <ClearFilterFrom>Filter von '{0}' leeren</ClearFilterFrom>
+    <ColorScale>Farbenskala</ColorScale>
+    <DataBars>Datenbalken</DataBars>
     <DataNotDefined>Daten sind nicht festgelegt</DataNotDefined>
     <Dimension>Dimension</Dimension>
     <Dimensions>Dimensionen</Dimensions>
     <DragDropDataFromDictionary>Daten aus dem Wörterbuch ziehen und ablegen</DragDropDataFromDictionary>
+    <DuplicateField>Doppelte Felder</DuplicateField>
+    <EditExpression>Ausdruck bearbeiten</EditExpression>
     <EmptyDashboardFooter>Die Komponente aus Toolbox oder Daten aus Wörterbuch ziehen und ablegen</EmptyDashboardFooter>
     <EmptyDashboardHeader>Dashboard ist leer</EmptyDashboardHeader>
+    <FirstLastPoints>Erste / Letzte Punkte</FirstLastPoints>
+    <HighLowPoints>Hohe / Niedrige Punkte</HighLowPoints>
     <ImageNotSpecified>Das Bild ist nicht angegeben</ImageNotSpecified>
+    <Indicator>Indikator</Indicator>
     <Measure>Maß</Measure>
     <Measures>Maße</Measures>
+    <NewDimension>Neue Dimension</NewDimension>
+    <NewMeasure>Neues Maß</NewMeasure>
     <NumberFilters>Anzahlfilter</NumberFilters>
+    <RemoveField>Feld entfernen</RemoveField>
+    <Sparklines>Sparklines</Sparklines>
     <StringFilters>Reihenfilter</StringFilters>
+    <Trend>Trend</Trend>
   </Dashboard>
   <Database>
     <Connection>Verbindung</Connection>
@@ -898,7 +931,8 @@
     <SylkFiles>SYLK-Datei (*.slk)|*.slk</SylkFiles>
     <TiffFiles>TIFF-Bild (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Text-Dateien (*.txt)|*.txt</TxtFiles>
-    <Word2007Files>Microsoft Word 2007/2013 Dateien (*.docx)|*.docx</Word2007Files>
+    <Word2007Files>Microsoft Word 2007-2016 Dateien (*.docx)|*.docx</Word2007Files>
+    <WordFiles>Microsoft Word 97-2003-Dateien (*.doc)|*.doc</WordFiles>
     <WriterFiles>OpenDocument Writer-Dateien (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML-Dateien (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS-Dateien (*.xps)|*.xps</XpsFiles>
@@ -996,9 +1030,10 @@
     <DB2Edit>IBM DB2 Verbindung ändern</DB2Edit>
     <DB2New>Neue IBM DB2 Verbindung</DB2New>
     <EditConnection>{0} Verbindung bearbeiten</EditConnection>
+    <Favorites>Favoriten</Favorites>
     <FirebirdEdit>Firebird-Verbindung ändern</FirebirdEdit>
     <FirebirdNew>Neue Firebird-Verbindung</FirebirdNew>
-    <FirstRowIsHeader>Dieerste Reihe ist Kopf</FirstRowIsHeader>
+    <FirstRowIsHeader>In der ersten Reihe sind die Kopfdaten</FirstRowIsHeader>
     <ImportData>Import der Daten</ImportData>
     <InformixEdit>Informix-Verbindung ändern</InformixEdit>
     <InformixNew>Neue Informix-Verbindung</InformixNew>
@@ -1026,6 +1061,7 @@
     <PromptUserNameAndPassword>Benutzer und Password abfragen</PromptUserNameAndPassword>
     <RecentConnections>Lezte Verbindungen</RecentConnections>
     <ReportConnections>Berichtsverbindungen</ReportConnections>
+    <SelectData>Daten auswählen</SelectData>
     <SqlCeEdit>SQLServerCE-Verbindung ändern</SqlCeEdit>
     <SqlCeNew>Neue SQLServerCE-Verbindung</SqlCeNew>
     <SqlEdit>SQL-Verbindung ändern</SqlEdit>
@@ -1100,6 +1136,8 @@
     <DataSourceEdit>Datenquelle bearbeiten</DataSourceEdit>
     <DataSourceNew>Neue Datenquelle</DataSourceNew>
     <DataSourcesNew>Neue Datenquellen</DataSourcesNew>
+    <DataTransformationEdit>Datenumwandlung bearbeiten </DataTransformationEdit>
+    <DataTransformationNew>Neue Datenumwandlung</DataTransformationNew>
     <Delete>Löschen</Delete>
     <DesignTimeQueryText>Anfragentext in der Entwicklungszeit</DesignTimeQueryText>
     <DictionaryMerge>Wörterbuch hinzufügen...</DictionaryMerge>
@@ -1244,6 +1282,7 @@
     <Minutes>{0} Minute(n)</Minutes>
     <SaveReportEvery>Bericht speichern alle</SaveReportEvery>
     <SelectUILanguage>Interface-Sprache auswählen</SelectUILanguage>
+    <ShowDialogForms>Dialogformularen anzeigen</ShowDialogForms>
     <ShowDimensionLines>Maßlinien anzeigen</ShowDimensionLines>
     <title>Optionen</title>
     <UseComponentColor>Komponenten-Farben zum Ausfüllen benutzen</UseComponentColor>
@@ -1317,6 +1356,7 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Neuen Stil hinzufügen</Add>
+    <AddCollectionName>Sammlungsname hinzufügen</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>Stile-Sammlung den Reportelementen zuweisen</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Stile anwenden</ApplyStyles>
     <ColorCollectionEditor>Farbekollektion-Editor</ColorCollectionEditor>
@@ -1825,6 +1865,7 @@
     <PutFeedPageCode>Das Seitenende in der Textdatei mit einem speziellen Zeichen markieren.</PutFeedPageCode>
     <RangePages>Seitennummern, welche verarbeitet werden sollen. Es kann eine einzelne Seite, eine kommagetrennte Liste von Seiten oder ein durch das "-"-Zeichen getrennter Bereich von Seiten angegeben werden. Beispiel: 1,3,5-12</RangePages>
     <RemoveEmptySpaceAtBottom>Unterdrückt den leeren Bereich am unteren Ende einer Berichtseite.</RemoveEmptySpaceAtBottom>
+    <Resources>Anzeige des Ressourcen Panel</Resources>
     <RestrictEditing>Limitiert die Bearbeitbarkeit von Text in einem Word Dokument.</RestrictEditing>
     <Save>Speichern</Save>
     <ScaleHtml>Die Skalierung der Berichtseiten beim Exportieren.</ScaleHtml>
@@ -1884,6 +1925,7 @@
     <menuEditDataParameterNew>Neuer Parameter...</menuEditDataParameterNew>
     <menuEditDataSourceNew>Neue Datenquelle...</menuEditDataSourceNew>
     <menuEditDataSourcesNew>Neue Datenquellen...</menuEditDataSourcesNew>
+    <menuEditDataTransformationNew>Neue Datenumwandlung...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Löschen</menuEditDelete>
     <menuEditEdit>&amp;Bearbeiten</menuEditEdit>
     <menuEditImportRelations>Beziehungen importieren...</menuEditImportRelations>
@@ -1985,7 +2027,12 @@
     <MapEditorForm>Karte-Editor</MapEditorForm>
   </Map>
   <Messages>
+    <DoNotShowAgain>Mehr nicht anzeigen</DoNotShowAgain>
     <MessageTimeOutExpired>Befehl-Timeout ist abgelaufen!</MessageTimeOutExpired>
+    <RenderingWillOccurInTheInterpretationMode>Bei der Anzeige des geteilten Berichtes wird das Rendering im Interpretation-Modus erfolgt.</RenderingWillOccurInTheInterpretationMode>
+    <ResourceCannotBeDeleted>Die Ressource "{0}" kann nicht gelöscht werden, weil sie im Bericht verwendet wird!</ResourceCannotBeDeleted>
+    <ShareURLOfTheItemHasBeenUpdated>Die URL-Adresse des Elementes ist aktualisiert!</ShareURLOfTheItemHasBeenUpdated>
+    <ShareYourReportYouShouldSave>Um den Bericht freizugeben, sollen Sie den Bericht in Stimulsoft Cloud speichern!</ShareYourReportYouShouldSave>
     <TextRegistrationSuccessfully>Registrierung erfolgreich abgeschlossen!
 
 Die E-Mail ist an "{0}" gesendet.
@@ -2058,6 +2105,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ItemDoesNotSupport>Das Element unterstützt "{0}" nicht!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key und ToKey sind gleich!</KeyAndToKeyAreEqual>
     <NewProduct>Das neue Produkt ist added zu Ihrer Subskription hinzugefügt!</NewProduct>
+    <NewVersionsAvailable>Neue Version ist verfügbar!</NewVersionsAvailable>
     <NotificationFailed>Fehlerhaftes Ergebnis!</NotificationFailed>
     <NotificationFilesUploadingComplete>Die Datei ist erfolgreich hochgeladen.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>Die Datei "{0}" ist hochgeladen.</NotificationFileUploading>
@@ -2110,6 +2158,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <QuotaMaximumEmailCountExceeded>Maximale Anzahl von E-Mails ist überschritten.</QuotaMaximumEmailCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximale Dateigröße ist überschritten.</QuotaMaximumFileSizeExceeded>
     <QuotaMaximumItemCountExceeded>Maximale Anzahl von Elementen ist überschritten.</QuotaMaximumItemCountExceeded>
+    <QuotaMaximumItemsCountExceeded>Maximale Anzahl der Elemente ist überschritten.</QuotaMaximumItemsCountExceeded>
     <QuotaMaximumReportPagesCountExceeded>Maximale Anzahl von Berichtsseiten ist überschritten.</QuotaMaximumReportPagesCountExceeded>
     <QuotaMaximumResourcesCountExceeded>Maximale Ressources-Anzahl ist überschritten.</QuotaMaximumResourcesCountExceeded>
     <QuotaMaximumRoleCountExceeded>Maximale Anzahl von Rollen ist überschritten.</QuotaMaximumRoleCountExceeded>
@@ -2132,8 +2181,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <VersionCreatedFromItem>Aus dem Element "{0}" erstellt.</VersionCreatedFromItem>
     <VersionLoadedFromFile>Aus der Datei "{0}" laden.</VersionLoadedFromFile>
     <VersionNewItemCreation>Erstelllen vom neuen Element.</VersionNewItemCreation>
+    <Warning>Warnung</Warning>
     <WindowClosePreventWhileUploading>Einige Dateien werden jetzt hochgeladen. Wenn Sie die Seite schließen, werden diese Dateien verloren werden. Wollen Sie wirklich die Seite schließen?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" mit dem angegebenen Schlüssel ist nicht gefunden!</WithSpecifiedKeyIsNotFound>
+    <WouldYouLikeToUpdateNow>Möchten Sie jetzt aktualisieren?</WouldYouLikeToUpdateNow>
     <YourTimeSessionHasExpired>Ihre Sessionzeit ist abgelaufen!</YourTimeSessionHasExpired>
     <YouUsingTrialVersion>Sie verwenden eine Testversion!</YouUsingTrialVersion>
   </Notices>
@@ -2251,11 +2302,13 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ExportCategory>Export</ExportCategory>
     <ExportEventsCategory>Export Ereignisse</ExportEventsCategory>
     <FooterTableCategory>Kopfzeile</FooterTableCategory>
+    <GaugeCategory>Gauge</GaugeCategory>
     <GridLinesCategory>Rasterlinien</GridLinesCategory>
     <HeaderTableCategory>Fußzeile</HeaderTableCategory>
     <HierarchicalCategory>Hierarchie</HierarchicalCategory>
     <ImageAdditionalCategory>Bild (weitere)</ImageAdditionalCategory>
     <ImageCategory>Bild</ImageCategory>
+    <IndicatorCategory>Indikator</IndicatorCategory>
     <InterlacingCategory>Verflechtung</InterlacingCategory>
     <LegendCategory>Legende</LegendCategory>
     <MainCategory>Basis</MainCategory>
@@ -2273,6 +2326,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <PositionCategory>Position</PositionCategory>
     <PrimitiveCategory>Primitive</PrimitiveCategory>
     <PrintEventsCategory>Drucken-Ereignisse</PrintEventsCategory>
+    <ProgressCategory>Verlauf</ProgressCategory>
     <RenderEventsCategory>Rendering-Ereignisse</RenderEventsCategory>
     <SeriesCategory>Serien</SeriesCategory>
     <SeriesLabelsCategory>Reihenbeschriftungen</SeriesLabelsCategory>
@@ -2644,6 +2698,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiFormStartModeOnEnd>Am Ende</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>Bei Vorschau</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>Am Start</StiFormStartModeOnStart>
+    <StiGaugeCalculationModeAuto>Auto</StiGaugeCalculationModeAuto>
+    <StiGaugeCalculationModeCustom>Benutzerdefiniert</StiGaugeCalculationModeCustom>
+    <StiGaugeTypeFullCircular>Volles Rundschreiben</StiGaugeTypeFullCircular>
+    <StiGaugeTypeHalfCircular>Halbes Rundschreiben</StiGaugeTypeHalfCircular>
     <StiGroupSortDirectionAscending>Aufsteigend</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Absteigend</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Keine</StiGroupSortDirectionNone>
@@ -2699,6 +2757,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiMapIDUK>VK</StiMapIDUK>
     <StiMapIDUSA>USA</StiMapIDUSA>
     <StiMapIDWorld>Welt</StiMapIDWorld>
+    <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
+    <StiMapModeOnline>Online</StiMapModeOnline>
     <StiMapTypeGroup>Gruppe</StiMapTypeGroup>
     <StiMapTypeHeatmap>Heatmap</StiMapTypeHeatmap>
     <StiMapTypeHeatmapWithGroup>Heatmap mit Gruppen</StiMapTypeHeatmapWithGroup>
@@ -2766,6 +2826,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiProcessingDuplicatesTypeMerge>Zusammenführen</StiProcessingDuplicatesTypeMerge>
     <StiProcessingDuplicatesTypeNone>Kein</StiProcessingDuplicatesTypeNone>
     <StiProcessingDuplicatesTypeRemoveText>Text entfernen</StiProcessingDuplicatesTypeRemoveText>
+    <StiProgressElementModeCircle>Kreis</StiProgressElementModeCircle>
+    <StiProgressElementModeDataBars>Datenbalken</StiProgressElementModeDataBars>
+    <StiProgressElementModePie> Kreisdiagramm</StiProgressElementModePie>
     <StiRadarStyleXFCircle>Kreis</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polygon</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
@@ -3011,6 +3074,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
   <PropertyMain>
     <AcceptsReturn>Returns akzeptieren</AcceptsReturn>
     <AcceptsTab>Tabs akzeptieren</AcceptsTab>
+    <Actual>Aktuell</Actual>
     <AddClearZone>Leeres Bereich hinzufügen</AddClearZone>
     <Advanced>Fortgeschritten</Advanced>
     <AggregateFunction>Aggregatfunktion</AggregateFunction>
@@ -3068,6 +3132,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AutoSeriesTitleDataColumn>Datenspalte mit Titel der Auto-Reihen</AutoSeriesTitleDataColumn>
     <AutoWidth>Auto-Breite</AutoWidth>
     <AutoWidthType>Auto-Breite</AutoWidthType>
+    <AvailableInTheViewer>Verfügbar im Viewer</AvailableInTheViewer>
     <AxisLabelsColor>Beschriftungsfarbe</AxisLabelsColor>
     <AxisLineColor>Linienfarbe</AxisLineColor>
     <AxisTitleColor>Titelfarbe</AxisTitleColor>
@@ -3140,6 +3205,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Collate>Seiten-Sortierung</Collate>
     <CollectionName>Sammlung Name</CollectionName>
     <Color>Farbe</Color>
+    <ColorDataColumn>Datenspaltenfarbe</ColorDataColumn>
     <ColorEach>Jeden färben</ColorEach>
     <ColorScaleCondition>Farbskala Bedingung</ColorScaleCondition>
     <ColorScaleType>Farbskala Typ</ColorScaleType>
@@ -3171,6 +3237,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <CreateFieldOnDoubleClick>Feld durch Doppelklick erstellen</CreateFieldOnDoubleClick>
     <CreateLabel>Beschriftung erstellen</CreateLabel>
     <Culture>Kultur</Culture>
+    <CustomFonts> Eigene Schriftarten</CustomFonts>
     <CustomFormat>Benutzerdefiniertes Format</CustomFormat>
     <CutPieList>Ringdiagramm</CutPieList>
     <Data>Daten</Data>
@@ -3186,6 +3253,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DataSource>Datenquelle</DataSource>
     <DataSources>Datenquellen</DataSources>
     <DataTextField>Daten-Textfeld</DataTextField>
+    <DataTransformation>Datenumwandlung</DataTransformation>
     <DataType>Datentyp</DataType>
     <DataUrl>Daten-URL</DataUrl>
     <DateInfo>Datumsinformation</DateInfo>
@@ -3227,6 +3295,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DropShadow>Schlagschatten</DropShadow>
     <Duplex>Duplex</Duplex>
     <Editable>Editierbar</Editable>
+    <Effects>Auswirkungen</Effects>
     <EmptyBorderBrush>Leerer Randpinsel</EmptyBorderBrush>
     <EmptyBorderWidth>Leere Randbreite</EmptyBorderWidth>
     <EmptyBrush>Leerer Pinsel</EmptyBrush>
@@ -3252,6 +3321,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Expression>Ausdruck</Expression>
     <ExtensionDigit>Erweiterungsziffer</ExtensionDigit>
     <FaqPage>FAQ-Seite</FaqPage>
+    <Field>Feld</Field>
     <FieldIs>Feld Ist</FieldIs>
     <File>Datei</File>
     <Fill>Füllung</Fill>
@@ -3302,6 +3372,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <GridLinesVert>Vertikale Rasterlinien</GridLinesVert>
     <GridLinesVertColor>Die Farbe der vertikalen Rasterlinien</GridLinesVertColor>
     <GridOutline>Rasterdarstellung</GridOutline>
+    <GroupDataColumn>Spalte der Datengruppen</GroupDataColumn>
     <GrowToHeight>In die Höhe wachsen</GrowToHeight>
     <HeaderBackColor>Kopfzeilen Hintergrundfarbe</HeaderBackColor>
     <HeaderCanBreak>Kopfzeile kann unterbrochen werden</HeaderCanBreak>
@@ -3376,6 +3447,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Key>Schlüssel</Key>
     <KeyDataColumn>Schlüssel-Datenspalte</KeyDataColumn>
     <Keys>Schlüssel</Keys>
+    <Label>Label</Label>
     <LabelColor>Farbe der Überschrift</LabelColor>
     <LabelRotationMode>Label Rotation Mode</LabelRotationMode>
     <Labels>Überschriften</Labels>
@@ -3384,6 +3456,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Language>Sprache</Language>
     <LargeHeight>Überlänge</LargeHeight>
     <LargeHeightFactor>Faktor der Überlänge</LargeHeightFactor>
+    <Latitude>Breitengrad</Latitude>
     <Left>Linksbündig</Left>
     <LeftSide>Linksseitig</LeftSide>
     <Legend>Legende</Legend>
@@ -3420,6 +3493,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Locked>Gesperrt</Locked>
     <Logarithmic>Logarithmisch</Logarithmic>
     <LogarithmicScale>Logarithmische Skala</LogarithmicScale>
+    <Longitude>Längengrad</Longitude>
     <Low>Niedrig</Low>
     <MajorInterval>Hauptintervall</MajorInterval>
     <MapID>Karte ID</MapID>
@@ -3471,6 +3545,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Multiline>Mehrzeilig</Multiline>
     <MultipleFactor>Multiplikator</MultipleFactor>
     <Name>Name</Name>
+    <NameDataColumn>Name der Datengruppen</NameDataColumn>
     <NameInSource>Name in der Datenquelle</NameInSource>
     <NameParent>Übergeordneter Name</NameParent>
     <Namespaces>Namensräume</Namespaces>
@@ -3554,10 +3629,12 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Ratio>Verhältnis</Ratio>
     <RatioY>Verhältnis Y</RatioY>
     <ReadOnly>Schreibschutz</ReadOnly>
+    <RecentFonts>Letzte Schriftarten</RecentFonts>
     <ReconnectOnEachRow>Bei jeder Zeile erneut verbinden</ReconnectOnEachRow>
     <ReferencedAssemblies>Verweise auf Assemblies</ReferencedAssemblies>
     <Refresh>Aktualisieren</Refresh>
     <RefreshTime>Zeit aktualisieren</RefreshTime>
+    <Regular>Regelmäßig</Regular>
     <Relation>Beziehung</Relation>
     <RelationName>Name der Beziehung</RelationName>
     <Relations>Beziehungen</Relations>
@@ -3590,6 +3667,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Rotation>Drehung</Rotation>
     <RotationLabels>Rotation Beschriftung</RotationLabels>
     <Round>Runden</Round>
+    <RoundValues>Rundwerte</RoundValues>
     <RowCount>Anzahl Zeilen</RowCount>
     <RowHeadersVisible>Zeilenköpfe sichtbar</RowHeadersVisible>
     <RowHeaderWidth>Zeilenkopf-Breite</RowHeaderWidth>
@@ -3615,6 +3693,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SeriesLabelsColor>Beschriftungsfarbe</SeriesLabelsColor>
     <SeriesLighting>Leuchtenserie</SeriesLighting>
     <SeriesShowShadow>Serien Schatten anzeigen</SeriesShowShadow>
+    <SeriesTitle>Serientitel</SeriesTitle>
     <Shadow>Schatten</Shadow>
     <ShadowBrush>Schatten-Pinsel</ShadowBrush>
     <ShadowColor>Schatten-Farbe</ShadowColor>
@@ -3689,8 +3768,11 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StoreImagesInResources>Bilder in Ressourcen ablegen</StoreImagesInResources>
     <Stretch>Strecken</Stretch>
     <StretchToPrintArea>Auf den gesamten Druckbereich strecken</StretchToPrintArea>
+    <Strikeout>Strikeout</Strikeout>
     <StripBrush>Streifen-Pinsel</StripBrush>
     <Strips>Streifen</Strips>
+    <StructuredAppendPosition>Strukturierte Append-Position </StructuredAppendPosition>
+    <StructuredAppendTotal> Strukturierte Append-Endsumme </StructuredAppendTotal>
     <Style>Format</Style>
     <StyleColors>Stil-Farbe</StyleColors>
     <Styles>Stile</Styles>
@@ -3703,12 +3785,14 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SupplementCode>Ergänzungscode</SupplementCode>
     <SupplementType>Ergänzungstyp</SupplementType>
     <SweepAngle>Krümmungswinkel</SweepAngle>
+    <SystemFonts>Systemschriftarten</SystemFonts>
     <SystemVariable>Systemvariable</SystemVariable>
     <SystemVariables>Systemvariablen</SystemVariables>
     <Table>Tabelle</Table>
     <Tag>Tag</Tag>
     <TagDataColumn>Tag-Datenspalte</TagDataColumn>
     <TagValue>Tag-Wert</TagValue>
+    <Target>Ziel</Target>
     <Tension>Spannung</Tension>
     <Text>Text</Text>
     <TextAfter>Text danach</TextAfter>
@@ -3743,6 +3827,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <TrendLine>Trend Linie</TrendLine>
     <TrendLineColor>Farbe</TrendLineColor>
     <TrendLineShowShadow>Schatten anzeigen</TrendLineShowShadow>
+    <TrimExcessData>Überflüssige Daten beschneiden</TrimExcessData>
     <Trimming>Anpassung</Trimming>
     <Type>Typ</Type>
     <TypeName>Typname</TypeName>
@@ -4062,6 +4147,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Division>Teilen</Division>
     <Equal>Gleich</Equal>
     <EquationShapes>Flussformen</EquationShapes>
+    <Flowchart>Flussgdiagram</Flowchart>
     <FlowchartCard>Flussdiagramm: Karte</FlowchartCard>
     <FlowchartCollate>Flussdiagramm: Abgleichen</FlowchartCollate>
     <FlowchartDecision>Flussdiagramm: Entscheidung</FlowchartDecision>
@@ -4214,6 +4300,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ButtonFinish>&amp;Fertig</ButtonFinish>
     <ButtonNext>&amp;Weiter &gt;</ButtonNext>
     <ColumnsOrder>Spalten-Reihenfolge</ColumnsOrder>
+    <Company>Unternehmen</Company>
     <Custom>Benutzerdefiniert</Custom>
     <DataRelation>Beziehung</DataRelation>
     <DataSource>Datenquelle</DataSource>
@@ -4228,14 +4315,17 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <groupTemplates>Vorlagen</groupTemplates>
     <groupWizards>Assistenten</groupWizards>
     <infoColumnsOrder>Ordnen Sie bitte die Spalten in der gewünschten Reihenfolge.</infoColumnsOrder>
+    <infoCompanyInfo>Geben Sie die Information über Ihr Unternehmen ein.</infoCompanyInfo>
     <infoDataSource>Wählen Sie bitte eine Datenquelle aus.</infoDataSource>
     <infoDataSources>Datenquellen auswählen.</infoDataSources>
     <infoFilters>Daten für den Bericht filtern</infoFilters>
     <infoGroups>Wählen Sie bitte die Spalten aus, nach denen die Daten gruppiert werden.</infoGroups>
     <infoLabelSettings>Einstellungen für die Beschriftungen</infoLabelSettings>
+    <infoLanguages>Die Kultur des Berichtes auswählen.</infoLanguages>
     <infoLayout>Berichts-Layout definieren.</infoLayout>
     <infoRelation>Daten-Beziehung auswählen.</infoRelation>
     <infoSelectColumns>Wählen Sie bitte die Spalten für den Bericht aus.</infoSelectColumns>
+    <infoSelectTemplate>Wählen Sie die geeignete Vorlage für Ihre Anforderungen aus.</infoSelectTemplate>
     <infoSort>Richten Sie bitte die Datensortierung an. Es ist möglich gleichzeitig nach mehreren Feldern zu sortieren.</infoSort>
     <infoThemes>Wählen Sie ein Thema für den Bericht.</infoThemes>
     <infoTotals>Fügen Sie bitte das Gesamtergebnis dem Bericht hinzu.</infoTotals>
@@ -4255,6 +4345,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <LabelVerticalGap>Vertikaler Zwischenraum:</LabelVerticalGap>
     <LabelWidth>Breite:</LabelWidth>
     <Layout>Layout</Layout>
+    <Mapping>Mapping</Mapping>
     <MarkAll>&amp;Alles markieren</MarkAll>
     <MasterDetailReport>Master-Detail Bericht</MasterDetailReport>
     <NoFunction>[Keine]</NoFunction>
@@ -4263,6 +4354,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Reset>Zurüc&amp;ksetzen</Reset>
     <Results>Resultate</Results>
     <SelectColumns>Spalten auswählen</SelectColumns>
+    <SelectTemplate>Vorlage</SelectTemplate>
     <Sort>Sortierung</Sort>
     <StandardReport>Standardbericht</StandardReport>
     <Themes>Themen</Themes>

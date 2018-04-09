@@ -88,6 +88,10 @@
     <AdapterVirtualSource>Dados de outro DataSource</AdapterVirtualSource>
     <AdapterVistaDBConnection>Dados de Conexão do VistaDB</AdapterVistaDBConnection>
   </Adapters>
+  <BarCode>
+    <Post>Post</Post>
+    <TwoDimensional>Bidimensional</TwoDimensional>
+  </BarCode>
   <Buttons>
     <Add>Adicionar</Add>
     <AddAllColumns>Adicionar Todas as Colunas</AddAllColumns>
@@ -101,12 +105,15 @@
     <Down>Baixo</Down>
     <Duplicate>Duplicar</Duplicate>
     <Export>Exportar</Export>
+    <ForceDelete>Forçar Exclusão</ForceDelete>
     <Help>Ajuda</Help>
     <LessOptions>Menos opções</LessOptions>
     <LoadDataSet>Inicializado DataSet (*.data)</LoadDataSet>
+    <More>Mais</More>
     <MoreOptions>Mais opções</MoreOptions>
     <MoveLeft>Mover para a esquerda</MoveLeft>
     <MoveRight>Mover para a direita</MoveRight>
+    <MoveToResource>Mover para o recurso</MoveToResource>
     <No>&amp;Não</No>
     <Ok>&amp;OK</Ok>
     <Open>Abrir</Open>
@@ -372,6 +379,7 @@
     <LabelCurrentPassword>Senha Atual:</LabelCurrentPassword>
     <LabelDataFile>Arquivo de dados:</LabelDataFile>
     <LabelDataUrl>URL de dados:</LabelDataUrl>
+    <LabelEndDate>Data final:</LabelEndDate>
     <labelFileName>Nome do Arquivo:</labelFileName>
     <LabelForeground>Foreground:</LabelForeground>
     <LabelFromReport>De Relatório</LabelFromReport>
@@ -386,6 +394,7 @@
     <LabelPicture>Imagem:</LabelPicture>
     <LabelRenderedReport>Renderizando Relatório</LabelRenderedReport>
     <LabelResponseAsFile>Resposta como Arquivo</LabelResponseAsFile>
+    <LabelResultType>Tipo de resultado:</LabelResultType>
     <LabelSeparateReport>Arquivo de relatório separado (do scripts)</LabelSeparateReport>
     <LabelShowReport>Mostrar relatório:</LabelShowReport>
     <labelUserName>Nome de Usuário:</labelUserName>
@@ -421,7 +430,9 @@
     <RootFolder>Pasta Raiz</RootFolder>
     <Save>Salvar</Save>
     <SaveAccountSettings>Salvar Configurações de Conta</SaveAccountSettings>
+    <SaveAsType>Salvar como tipo</SaveAsType>
     <SaveFile>Salvar Arquivo</SaveFile>
+    <SavingToStimulsoftCloudPleaseWait>Salvando o relatório no Stimulsoft Cloud. Por favor, Aguarde!</SavingToStimulsoftCloudPleaseWait>
     <ShareWindowTitleNew>Compartilhar</ShareWindowTitleNew>
     <ShowAllFiles>Mostrar Todos os Arquivos</ShowAllFiles>
     <ShowNotificationMessages>Mostrar mensagens de notificação</ShowNotificationMessages>
@@ -575,16 +586,23 @@
     <ColorScale>Escala de cores</ColorScale>
     <DataBars>Barras de dados</DataBars>
     <DataNotDefined>Os dados não estão definidos</DataNotDefined>
-    <Delta>Delta</Delta>
     <Dimension>Dimensão</Dimension>
     <Dimensions>Dimensões</Dimensions>
     <DragDropDataFromDictionary>Arraste &amp; os dados do Dicionário </DragDropDataFromDictionary>
+    <DuplicateField>Campo duplicado</DuplicateField>
+    <EditExpression>Editar Expressão</EditExpression>
     <EmptyDashboardFooter>Arraste Solte o componente da ToolBox ou dados do Dicionário</EmptyDashboardFooter>
     <EmptyDashboardHeader>O Dashboard está vazio</EmptyDashboardHeader>
+    <FirstLastPoints>Primeiros/Últimos Pontos</FirstLastPoints>
+    <HighLowPoints>Pontos Altos/Baixos</HighLowPoints>
     <ImageNotSpecified>Imagem não especificada</ImageNotSpecified>
+    <Indicator>Indicador</Indicator>
     <Measure>A medida</Measure>
     <Measures>Medidas</Measures>
+    <NewDimension>Nova Dimensão</NewDimension>
+    <NewMeasure>Nova Medida</NewMeasure>
     <NumberFilters>Filtros Numéricos</NumberFilters>
+    <RemoveField>Remover Campo</RemoveField>
     <Sparklines>Sparklines</Sparklines>
     <StringFilters>Filtros String</StringFilters>
     <Trend>Tendência</Trend>
@@ -914,7 +932,8 @@ sucedida</ConnectionSuccessfull>
     <SylkFiles>Arquivos SYLK (*.slk)|*.slk</SylkFiles>
     <TiffFiles>Arquivos de Imagem (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Arquivos Texto (*.txt)|*.txt</TxtFiles>
-    <Word2007Files>Arquivos Microsoft Word 2007/2013 (*.docx)|*.docx</Word2007Files>
+    <Word2007Files>Arquivos Microsoft Word 2007-2016 (*.docx)|*.docx</Word2007Files>
+    <WordFiles>Arquivos Microsoft Word 97-2003 (*.doc)|*.doc</WordFiles>
     <WriterFiles>Abrir Documento Escrito (*.odt)|*.odt</WriterFiles>
     <XmlFiles>Arquivos XML (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Arquivos Microsoft XPS (*.xps)|*.xps</XpsFiles>
@@ -1043,6 +1062,7 @@ sucedida</ConnectionSuccessfull>
     <PromptUserNameAndPassword>Nome de Usuário e senha</PromptUserNameAndPassword>
     <RecentConnections>Recente</RecentConnections>
     <ReportConnections>Conexões de Relatório</ReportConnections>
+    <SelectData>Selecione Dados</SelectData>
     <SqlCeEdit>Editar a Conexão SQLServerCE</SqlCeEdit>
     <SqlCeNew>Nova Conexão SQLServerCE</SqlCeNew>
     <SqlEdit>Editar Conexão SQL</SqlEdit>
@@ -1117,6 +1137,8 @@ sucedida</ConnectionSuccessfull>
     <DataSourceEdit>Editar Fonte de Dados</DataSourceEdit>
     <DataSourceNew>Nova Fonte de Dados</DataSourceNew>
     <DataSourcesNew>Novas Fontes de Dados</DataSourcesNew>
+    <DataTransformationEdit>Editar Transformação de Dados</DataTransformationEdit>
+    <DataTransformationNew>Nova Transformação de Dados</DataTransformationNew>
     <Delete>Excluir</Delete>
     <DesignTimeQueryText>Tempo de Desenho Texto da Query</DesignTimeQueryText>
     <DictionaryMerge>Unir Dicionário...</DictionaryMerge>
@@ -1335,6 +1357,7 @@ sucedida</ConnectionSuccessfull>
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Adicionar Estilo</Add>
+    <AddCollectionName>Adicionar Nome da coleção</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>Aplicar coleção de estilo nos Componentes do Relatório</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Aplicar Estilos</ApplyStyles>
     <ColorCollectionEditor>Editor de Coleção de Cores</ColorCollectionEditor>
@@ -1844,6 +1867,7 @@ sucedida</ConnectionSuccessfull>
     <PutFeedPageCode>Alimente páginas do documento final com um carácter especial.</PutFeedPageCode>
     <RangePages>Os números das páginas a serem processados. Você pode especificar uma única página, uma lista de páginas (usando uma vírgula como separador), bem como especificar o intervalo, definindo a página de início do intervalo separados por "-" e na página final do intervalo. Por exemplo: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Minimizar o espaço vazio na parte inferior da página.</RemoveEmptySpaceAtBottom>
+    <Resources>Mostrando painel de recursos</Resources>
     <RestrictEditing>Limites de alterações em um documento do Word.</RestrictEditing>
     <Save>Salvar um relatório para mais usando.</Save>
     <ScaleHtml>O tamanho (escala) de páginas de relatórios e itens após a exportação.</ScaleHtml>
@@ -1903,6 +1927,7 @@ sucedida</ConnectionSuccessfull>
     <menuEditDataParameterNew>Novo Parâmetro...</menuEditDataParameterNew>
     <menuEditDataSourceNew>Nova Fonte de Dados...</menuEditDataSourceNew>
     <menuEditDataSourcesNew>Novas Fontes de Dados...</menuEditDataSourcesNew>
+    <menuEditDataTransformationNew>Nova Transformação de Dados...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Excluir</menuEditDelete>
     <menuEditEdit>Editar</menuEditEdit>
     <menuEditImportRelations>Importar Relações...</menuEditImportRelations>
@@ -2006,6 +2031,10 @@ sucedida</ConnectionSuccessfull>
   <Messages>
     <DoNotShowAgain>Não mostre novamente</DoNotShowAgain>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
+    <RenderingWillOccurInTheInterpretationMode>Ao visualizar o relatório compartilhado, a renderização ocorrerá no modo de interpretação</RenderingWillOccurInTheInterpretationMode>
+    <ResourceCannotBeDeleted>O recurso "{0}" não pode ser excluído, porque é usado no relatório!</ResourceCannotBeDeleted>
+    <ShareURLOfTheItemHasBeenUpdated>A URL de compartilhamento do item foi atualizado!</ShareURLOfTheItemHasBeenUpdated>
+    <ShareYourReportYouShouldSave>Para compartilhar seu relatório, você deve salvar o relatório no Stimulsoft Cloud!</ShareYourReportYouShouldSave>
     <TextRegistrationSuccessfully>Registrado com sucesso!
 
 O email será enviado para "{0}".
@@ -2254,11 +2283,13 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <ExportCategory>Exportar</ExportCategory>
     <ExportEventsCategory>Eventos de Exportação</ExportEventsCategory>
     <FooterTableCategory>Rodapé da Tabela</FooterTableCategory>
+    <GaugeCategory>Gauge</GaugeCategory>
     <GridLinesCategory>Linhas da Grade</GridLinesCategory>
     <HeaderTableCategory>Cabeçalho da Tabela</HeaderTableCategory>
     <HierarchicalCategory>Hierárquico</HierarchicalCategory>
     <ImageAdditionalCategory>Imagem Adicional</ImageAdditionalCategory>
     <ImageCategory>Imagem</ImageCategory>
+    <IndicatorCategory>Indicador</IndicatorCategory>
     <InterlacingCategory>Entrelaçamento</InterlacingCategory>
     <LegendCategory>Legenda</LegendCategory>
     <MainCategory>Principal</MainCategory>
@@ -2276,6 +2307,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <PositionCategory>Posição</PositionCategory>
     <PrimitiveCategory>Primitivo</PrimitiveCategory>
     <PrintEventsCategory>Eventos de Impressão</PrintEventsCategory>
+    <ProgressCategory>Progresso</ProgressCategory>
     <RenderEventsCategory>Eventos de Produção</RenderEventsCategory>
     <SeriesCategory>Series</SeriesCategory>
     <SeriesLabelsCategory>Etiquetas da Série</SeriesLabelsCategory>
@@ -2647,6 +2679,10 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiFormStartModeOnEnd>Na extremidade</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>Na Visualização</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>No Início</StiFormStartModeOnStart>
+    <StiGaugeCalculationModeAuto>Auto</StiGaugeCalculationModeAuto>
+    <StiGaugeCalculationModeCustom>Personalizadas</StiGaugeCalculationModeCustom>
+    <StiGaugeTypeFullCircular>Circular Completa</StiGaugeTypeFullCircular>
+    <StiGaugeTypeHalfCircular>Meio Circular</StiGaugeTypeHalfCircular>
     <StiGroupSortDirectionAscending>Crescente</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Decrescente</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Nenhum</StiGroupSortDirectionNone>
@@ -2702,6 +2738,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiMapIDUK>Reino Unido</StiMapIDUK>
     <StiMapIDUSA>USA</StiMapIDUSA>
     <StiMapIDWorld>Mundo</StiMapIDWorld>
+    <StiMapModeChoropleth>Mapa Rodoviário</StiMapModeChoropleth>
+    <StiMapModeOnline>Online</StiMapModeOnline>
     <StiMapTypeGroup>Grupo</StiMapTypeGroup>
     <StiMapTypeHeatmap>Mapa de calor</StiMapTypeHeatmap>
     <StiMapTypeHeatmapWithGroup>Mapa de Calor Com Grupo</StiMapTypeHeatmapWithGroup>
@@ -2769,6 +2807,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiProcessingDuplicatesTypeMerge>Unir</StiProcessingDuplicatesTypeMerge>
     <StiProcessingDuplicatesTypeNone>Nenhum</StiProcessingDuplicatesTypeNone>
     <StiProcessingDuplicatesTypeRemoveText>Remover Texto</StiProcessingDuplicatesTypeRemoveText>
+    <StiProgressElementModeCircle>Círculo</StiProgressElementModeCircle>
+    <StiProgressElementModeDataBars>Barras de Dados</StiProgressElementModeDataBars>
+    <StiProgressElementModePie>No</StiProgressElementModePie>
     <StiRadarStyleXFCircle>Circulo</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polígono</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>Automático</StiReportCacheModeAuto>
@@ -3072,6 +3113,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <AutoSeriesTitleDataColumn>Auto Séries Título Dados Coluna</AutoSeriesTitleDataColumn>
     <AutoWidth>Largura Automática</AutoWidth>
     <AutoWidthType>Auto tipo da largura</AutoWidthType>
+    <AvailableInTheViewer>Disponível no Visualizador</AvailableInTheViewer>
     <AxisLabelsColor>Etiquetas de cores</AxisLabelsColor>
     <AxisLineColor>Cor da Linha</AxisLineColor>
     <AxisTitleColor>Cor do Título</AxisTitleColor>
@@ -3144,6 +3186,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Collate>Colecione</Collate>
     <CollectionName>Nome da coleção</CollectionName>
     <Color>Cor</Color>
+    <ColorDataColumn>Cor da Coluna de dados</ColorDataColumn>
     <ColorEach>Colorir cada Um</ColorEach>
     <ColorScaleCondition>Condição Escala de Cor</ColorScaleCondition>
     <ColorScaleType>Tipo de cor de escala</ColorScaleType>
@@ -3175,6 +3218,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <CreateFieldOnDoubleClick>Criar Campo com Dois Click</CreateFieldOnDoubleClick>
     <CreateLabel>Criar Rótulo</CreateLabel>
     <Culture>Cultura</Culture>
+    <CustomFonts>Fontes Personalizadas</CustomFonts>
     <CustomFormat>Formato Personalizado</CustomFormat>
     <CutPieList>Cortador Lista Pizza</CutPieList>
     <Data>Dados</Data>
@@ -3190,6 +3234,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <DataSource>Fonte de dados</DataSource>
     <DataSources>Fontes de Dados</DataSources>
     <DataTextField>Campo Texto de dados</DataTextField>
+    <DataTransformation>Transformação de Dados</DataTransformation>
     <DataType>Tipo de Dados</DataType>
     <DataUrl>URL de dados</DataUrl>
     <DateInfo>Informação de Data</DateInfo>
@@ -3231,6 +3276,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <DropShadow>Sombra</DropShadow>
     <Duplex>Duplo</Duplex>
     <Editable>Editável</Editable>
+    <Effects>Efeitos</Effects>
     <EmptyBorderBrush>Vazio a borda do Pincel</EmptyBorderBrush>
     <EmptyBorderWidth>Vazio Largura da Borda</EmptyBorderWidth>
     <EmptyBrush>Pincel Vazio</EmptyBrush>
@@ -3256,6 +3302,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Expression>Expressão</Expression>
     <ExtensionDigit>Dígito de extensão</ExtensionDigit>
     <FaqPage>Página Faq</FaqPage>
+    <Field>Campo</Field>
     <FieldIs>Se o campo for</FieldIs>
     <File>Arquivo</File>
     <Fill>Preencher</Fill>
@@ -3306,6 +3353,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <GridLinesVert>Linha Vertical Grade</GridLinesVert>
     <GridLinesVertColor>Cor da Grade Vertical</GridLinesVertColor>
     <GridOutline>Esboço da grade</GridOutline>
+    <GroupDataColumn>Coluna de dados do grupo</GroupDataColumn>
     <GrowToHeight>Aumentar a Altura</GrowToHeight>
     <HeaderBackColor>Cabeçalho Cor de Fundo</HeaderBackColor>
     <HeaderCanBreak>O Cabeçalho pode quebrar</HeaderCanBreak>
@@ -3379,6 +3427,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Key>Chave</Key>
     <KeyDataColumn>Coluna de Dados fundamental</KeyDataColumn>
     <Keys>Chaves</Keys>
+    <Label>Rótulo</Label>
     <LabelColor>Cor do rótulo</LabelColor>
     <LabelRotationMode>Etiqueta Modo de Rotação</LabelRotationMode>
     <Labels>Rótulos</Labels>
@@ -3387,6 +3436,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Language>Linguagem</Language>
     <LargeHeight>Altura maior</LargeHeight>
     <LargeHeightFactor>Fator de altura maior</LargeHeightFactor>
+    <Latitude>Latitude</Latitude>
     <Left>Esquerda</Left>
     <LeftSide>Lateral Esquerdo</LeftSide>
     <Legend>Legenda</Legend>
@@ -3423,6 +3473,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Locked>Fechado</Locked>
     <Logarithmic>Logarítmica</Logarithmic>
     <LogarithmicScale>Escala Logarítmica</LogarithmicScale>
+    <Longitude>Longitude</Longitude>
     <Low>Baixo</Low>
     <MajorInterval>Maior Intervalo</MajorInterval>
     <MapID>Mapa ID</MapID>
@@ -3474,6 +3525,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Multiline>Múltiplas Linhas</Multiline>
     <MultipleFactor>Fator Múltiplo</MultipleFactor>
     <Name>Nome</Name>
+    <NameDataColumn>Nome da Coluna de Dados</NameDataColumn>
     <NameInSource>Nome na Fonte</NameInSource>
     <NameParent>Nome de pai</NameParent>
     <Namespaces>Espaços de Nome</Namespaces>
@@ -3557,10 +3609,12 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Ratio>Proporção</Ratio>
     <RatioY>Proporção Y</RatioY>
     <ReadOnly>Somente Leitura</ReadOnly>
+    <RecentFonts>Fontes Recentes</RecentFonts>
     <ReconnectOnEachRow>Reconecte em Cada Linha</ReconnectOnEachRow>
     <ReferencedAssemblies>Referência do Assemblies</ReferencedAssemblies>
     <Refresh>Atualizar</Refresh>
     <RefreshTime>Tempo de atualização</RefreshTime>
+    <Regular>Regular</Regular>
     <Relation>Relação</Relation>
     <RelationName>Nome da Relação</RelationName>
     <Relations>Relações</Relations>
@@ -3619,6 +3673,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <SeriesLabelsColor>Etiquetas de cores</SeriesLabelsColor>
     <SeriesLighting>Iluminação de série</SeriesLighting>
     <SeriesShowShadow>Série Show de Sombra</SeriesShowShadow>
+    <SeriesTitle>Título da série</SeriesTitle>
     <Shadow>Sombra</Shadow>
     <ShadowBrush>Sombra Pincel</ShadowBrush>
     <ShadowColor>Cor Sombra</ShadowColor>
@@ -3693,6 +3748,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StoreImagesInResources>Armazenar imagens nos recursos</StoreImagesInResources>
     <Stretch>Extensão</Stretch>
     <StretchToPrintArea>Extensão da Área de Impressão</StretchToPrintArea>
+    <Strikeout>Riscado</Strikeout>
     <StripBrush>Strip Escova</StripBrush>
     <Strips>Strips</Strips>
     <StructuredAppendPosition>Structured Append Position</StructuredAppendPosition>
@@ -3709,6 +3765,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <SupplementCode>Complemento Código</SupplementCode>
     <SupplementType>Tipo de Suplemento</SupplementType>
     <SweepAngle>Varrer Ângulo</SweepAngle>
+    <SystemFonts>Fontes do Sistema</SystemFonts>
     <SystemVariable>Variável de Sistema</SystemVariable>
     <SystemVariables>Variáveis de Sistema</SystemVariables>
     <Table>Tabela</Table>
@@ -4076,6 +4133,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Division>Divisão</Division>
     <Equal>Igualdade</Equal>
     <EquationShapes>Equação Formas</EquationShapes>
+    <Flowchart>Fluxograma</Flowchart>
     <FlowchartCard>Fluxograma: Cartão</FlowchartCard>
     <FlowchartCollate>Fluxograma: Ordene</FlowchartCollate>
     <FlowchartDecision>Fluxograma: Decisão</FlowchartDecision>
@@ -4228,6 +4286,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <ButtonFinish>&amp;Fim</ButtonFinish>
     <ButtonNext>&amp;Próximo &gt;</ButtonNext>
     <ColumnsOrder>Ordem de Colunas</ColumnsOrder>
+    <Company>Empresa</Company>
     <Custom>Personalizado</Custom>
     <DataRelation>Relação</DataRelation>
     <DataSource>Fonte de Dados</DataSource>
@@ -4242,14 +4301,17 @@ contexto do painel de propriedades.</qnConfiguration>
     <groupTemplates>Modelos</groupTemplates>
     <groupWizards>Assistente</groupWizards>
     <infoColumnsOrder>Organizar as Colunas na Ordem Necessária.</infoColumnsOrder>
+    <infoCompanyInfo>Insira as informações da sua empresa.</infoCompanyInfo>
     <infoDataSource>Selecionar uma Fonte de Dados de Avaliação.</infoDataSource>
     <infoDataSources>Selecionar origens de dados de disponível.</infoDataSources>
     <infoFilters>Filtre Dados para seu relatório</infoFilters>
     <infoGroups>Selecione as colunas no qual é necessário agrupar.</infoGroups>
     <infoLabelSettings>Colocações de Rótulos.</infoLabelSettings>
+    <infoLanguages>Selecione a Cultura do Relatório.</infoLanguages>
     <infoLayout>Especificar a disposição do relatório.</infoLayout>
     <infoRelation>Selecionar uma relação dos dados disponível.</infoRelation>
     <infoSelectColumns>Selecione as colunas no qual as informações serão exibidas.</infoSelectColumns>
+    <infoSelectTemplate>Escolha o modelo apropriado para suas necessidades.</infoSelectTemplate>
     <infoSort>Fixe a ordem dos dados. Você pode ordenar imediatamente em colunas múltiplas.</infoSort>
     <infoThemes>Escolher tema para o relatório.</infoThemes>
     <infoTotals>Acrescente Informação Sumária a seu Relatório.</infoTotals>
@@ -4269,6 +4331,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <LabelVerticalGap>Abertura vertical:</LabelVerticalGap>
     <LabelWidth>Largura:</LabelWidth>
     <Layout>Layout</Layout>
+    <Mapping>Mapeamento</Mapping>
     <MarkAll>Marcar &amp;Todos</MarkAll>
     <MasterDetailReport>Relatório do Mestre-Detalhe</MasterDetailReport>
     <NoFunction>[Nenhum]</NoFunction>
@@ -4277,6 +4340,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Reset>&amp;Redefinir</Reset>
     <Results>Resultados</Results>
     <SelectColumns>Selecione as Colunas</SelectColumns>
+    <SelectTemplate>Modelo</SelectTemplate>
     <Sort>Ordem</Sort>
     <StandardReport>Relatório Padrão</StandardReport>
     <Themes>Temas</Themes>

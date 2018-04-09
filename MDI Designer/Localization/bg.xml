@@ -88,6 +88,10 @@
     <AdapterVirtualSource>Данни на основа други данни</AdapterVirtualSource>
     <AdapterVistaDBConnection>Данни от VistaDB връзка</AdapterVistaDBConnection>
   </Adapters>
+  <BarCode>
+    <Post>Post</Post>
+    <TwoDimensional>Two-Dimensional</TwoDimensional>
+  </BarCode>
   <Buttons>
     <Add>Добави</Add>
     <AddAllColumns>Добави всички колони</AddAllColumns>
@@ -101,12 +105,15 @@
     <Down>Надолу</Down>
     <Duplicate>Дублирай</Duplicate>
     <Export>Експорт</Export>
+    <ForceDelete>Force Delete</ForceDelete>
     <Help>Помощ</Help>
     <LessOptions>По-малко опции</LessOptions>
     <LoadDataSet>Зареди данни (*.data)</LoadDataSet>
+    <More>Още</More>
     <MoreOptions>Повече опции</MoreOptions>
     <MoveLeft>Преместване в лявао</MoveLeft>
     <MoveRight>Преместване в дясно</MoveRight>
+    <MoveToResource>Премести в ресурси</MoveToResource>
     <No>&amp;Не</No>
     <Ok>&amp;ОК</Ok>
     <Open>Отвори</Open>
@@ -372,6 +379,7 @@
     <LabelCurrentPassword>Текуща парола:</LabelCurrentPassword>
     <LabelDataFile>Файл с данни:</LabelDataFile>
     <LabelDataUrl>URL данни:</LabelDataUrl>
+    <LabelEndDate>Крайна дата:</LabelEndDate>
     <labelFileName>Име на файл:</labelFileName>
     <LabelForeground>Преден план:</LabelForeground>
     <LabelFromReport>От отчет</LabelFromReport>
@@ -386,6 +394,7 @@
     <LabelPicture>Картинка:</LabelPicture>
     <LabelRenderedReport>Обработен отчет</LabelRenderedReport>
     <LabelResponseAsFile>Oтговор като файл</LabelResponseAsFile>
+    <LabelResultType>Изходен тип:</LabelResultType>
     <LabelSeparateReport>Отделен файл на отчет (и скриптове)</LabelSeparateReport>
     <LabelShowReport>Покажи отчет:</LabelShowReport>
     <labelUserName>Потребител:</labelUserName>
@@ -421,7 +430,9 @@
     <RootFolder>Главна папка</RootFolder>
     <Save>Съхрани</Save>
     <SaveAccountSettings>Съхрани настройки на профила</SaveAccountSettings>
+    <SaveAsType>Съхрани като тип</SaveAsType>
     <SaveFile>Съхрани файл</SaveFile>
+    <SavingToStimulsoftCloudPleaseWait>Съхраняване на отчета в Stimulsoft облака. Моля почакайте!</SavingToStimulsoftCloudPleaseWait>
     <ShareWindowTitleNew>Сподели</ShareWindowTitleNew>
     <ShowAllFiles>Покажи всички файлове</ShowAllFiles>
     <ShowNotificationMessages>Покажи информационни съобщения</ShowNotificationMessages>
@@ -509,7 +520,7 @@
     <WizardXmlDescription>Създаване на отчет с Xml данни.</WizardXmlDescription>
   </Cloud>
   <Components>
-    <StiBarCode>Бар код</StiBarCode>
+    <StiBarCode>Баркод</StiBarCode>
     <StiChart>Диаграма</StiChart>
     <StiCheckBox>Контролно поле</StiCheckBox>
     <StiChildBand>Подчинен</StiChildBand>
@@ -575,16 +586,23 @@
     <ColorScale>Скала с цветове</ColorScale>
     <DataBars>Лената с данни</DataBars>
     <DataNotDefined>Недефинирани данни</DataNotDefined>
-    <Delta>Делта</Delta>
     <Dimension>Размер</Dimension>
     <Dimensions>Размери</Dimensions>
     <DragDropDataFromDictionary>Плъзнете и пуснете данните от речника</DragDropDataFromDictionary>
+    <DuplicateField>Дублирано поле</DuplicateField>
+    <EditExpression>Редакция израз</EditExpression>
     <EmptyDashboardFooter>Плъзнете и пуснете компонентите от инструментатиума или данните от речника</EmptyDashboardFooter>
     <EmptyDashboardHeader>Таблото е празно</EmptyDashboardHeader>
+    <FirstLastPoints>Първа / Последна точки</FirstLastPoints>
+    <HighLowPoints>Висока / Ниска точки</HighLowPoints>
     <ImageNotSpecified>Изображението не е посочено</ImageNotSpecified>
+    <Indicator>Индикатор</Indicator>
     <Measure>Мярка</Measure>
     <Measures>Мерки</Measures>
+    <NewDimension>Нов размер</NewDimension>
+    <NewMeasure>Нова мярка</NewMeasure>
     <NumberFilters>Числови филтри</NumberFilters>
+    <RemoveField>Премахни поле</RemoveField>
     <Sparklines>Sparklines</Sparklines>
     <StringFilters>Низови филтри</StringFilters>
     <Trend>Тренд</Trend>
@@ -913,7 +931,8 @@
     <SylkFiles>SYLK файлове (*.slk)|*.slk</SylkFiles>
     <TiffFiles>TIFF картинка (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Text (*.txt)|*.txt</TxtFiles>
-    <Word2007Files>Microsoft Word 2007/2013 файлове (*.docx)|*.docx</Word2007Files>
+    <Word2007Files>Microsoft Word 2007-2016 файлове (*.docx)|*.docx</Word2007Files>
+    <WordFiles>Microsoft Word 97-2003 файлове (*.doc)|*.doc</WordFiles>
     <WriterFiles>OpenDocument Writer файлове (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML файлове (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS файлове (*.xps)|*.xps</XpsFiles>
@@ -1042,6 +1061,7 @@
     <PromptUserNameAndPassword>Питане за потрбителско име и парола</PromptUserNameAndPassword>
     <RecentConnections>Скорошни</RecentConnections>
     <ReportConnections>Скорошни Връзки</ReportConnections>
+    <SelectData>Избери данни</SelectData>
     <SqlCeEdit>Редакция SQLServerCE връзка</SqlCeEdit>
     <SqlCeNew>Нова SQLServerCE връзка</SqlCeNew>
     <SqlEdit>Редакция Sql връзка</SqlEdit>
@@ -1116,6 +1136,8 @@
     <DataSourceEdit>Редакция източник данни</DataSourceEdit>
     <DataSourceNew>Нов източник данни</DataSourceNew>
     <DataSourcesNew>Нови източници данни</DataSourcesNew>
+    <DataTransformationEdit>Редакция данни за трансформация</DataTransformationEdit>
+    <DataTransformationNew>Нови данни за трансформация</DataTransformationNew>
     <Delete>Изтрий</Delete>
     <DesignTimeQueryText>Design-Time Query Text</DesignTimeQueryText>
     <DictionaryMerge>Добави речник...</DictionaryMerge>
@@ -1334,6 +1356,7 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Добави стил</Add>
+    <AddCollectionName>Добавяне име на колекция</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>Приложи колекцията от стилове за компонентите на отчета</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Приложи стилове</ApplyStyles>
     <ColorCollectionEditor>Редактор на цветова колекция</ColorCollectionEditor>
@@ -1841,6 +1864,7 @@
     <PutFeedPageCode>Запълването на страниците в окончателния документ със специален знак.</PutFeedPageCode>
     <RangePages>Броят на страниците за обработка. Можете да определите само една страница, списък от страници (разделени със запетая), както и обхват с определяне на начална страница с последващ символ "-" и крайна страница. Например: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Намаляване на празно пространство в долната част на страницата.</RemoveEmptySpaceAtBottom>
+    <Resources>Показване панела с ресурсите</Resources>
     <RestrictEditing>Лимитира промените в Word документ.</RestrictEditing>
     <Save>Сихраняване на отчета за бъдещо ползване.</Save>
     <ScaleHtml>Размерът (скалата) на страниците с отчетите и позициите след експорт.</ScaleHtml>
@@ -1900,6 +1924,7 @@
     <menuEditDataParameterNew>Нов параметър...</menuEditDataParameterNew>
     <menuEditDataSourceNew>Нов източник на данни...</menuEditDataSourceNew>
     <menuEditDataSourcesNew>Нови източници на данни...</menuEditDataSourcesNew>
+    <menuEditDataTransformationNew>Нови данни за трансформация...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Изтрий</menuEditDelete>
     <menuEditEdit>Редакция</menuEditEdit>
     <menuEditImportRelations>Импортиране на релации...</menuEditImportRelations>
@@ -2003,6 +2028,10 @@
   <Messages>
     <DoNotShowAgain>Не показвай отново</DoNotShowAgain>
     <MessageTimeOutExpired>Командата за изчакване е изтекла!</MessageTimeOutExpired>
+    <RenderingWillOccurInTheInterpretationMode>Когато разглеждате споделения отчет, изпълнението ще се извърши в режим на интерпретация</RenderingWillOccurInTheInterpretationMode>
+    <ResourceCannotBeDeleted>Ресурсът "{0}" не може да бъде изтрит, защото се използва в отчета!</ResourceCannotBeDeleted>
+    <ShareURLOfTheItemHasBeenUpdated>URL адресът за споделяне на елемента е актуализиран!</ShareURLOfTheItemHasBeenUpdated>
+    <ShareYourReportYouShouldSave>За да споделите отчета си, трябва да запазите отчета в Stimulsoft облака!</ShareYourReportYouShouldSave>
     <TextRegistrationSuccessfully>Регистрацията е успешна!
 
 Изпратен е Email до "{0}".
@@ -2243,11 +2272,13 @@
     <ExportCategory>Експорт</ExportCategory>
     <ExportEventsCategory>Експорт събития</ExportEventsCategory>
     <FooterTableCategory>Край на Таблица</FooterTableCategory>
+    <GaugeCategory>Gauge</GaugeCategory>
     <GridLinesCategory>Мрежови линии</GridLinesCategory>
     <HeaderTableCategory>Заглавие на Таблица</HeaderTableCategory>
     <HierarchicalCategory>Йерархичен</HierarchicalCategory>
     <ImageAdditionalCategory>Картинка още</ImageAdditionalCategory>
     <ImageCategory>Картинка</ImageCategory>
+    <IndicatorCategory>Индикатор</IndicatorCategory>
     <InterlacingCategory>Презредова Развивка</InterlacingCategory>
     <LegendCategory>Легенда</LegendCategory>
     <MainCategory>Основни</MainCategory>
@@ -2265,6 +2296,7 @@
     <PositionCategory>Позиция</PositionCategory>
     <PrimitiveCategory>Примитив</PrimitiveCategory>
     <PrintEventsCategory>Печат</PrintEventsCategory>
+    <ProgressCategory>Развитие</ProgressCategory>
     <RenderEventsCategory>Построение</RenderEventsCategory>
     <SeriesCategory>Серии</SeriesCategory>
     <SeriesLabelsCategory>Етикети на Серия</SeriesLabelsCategory>
@@ -2630,6 +2662,10 @@
     <StiFormStartModeOnEnd>В края</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>В преглед</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>В началото</StiFormStartModeOnStart>
+    <StiGaugeCalculationModeAuto>Авто</StiGaugeCalculationModeAuto>
+    <StiGaugeCalculationModeCustom>Персонализиран</StiGaugeCalculationModeCustom>
+    <StiGaugeTypeFullCircular>Пълен кръгов</StiGaugeTypeFullCircular>
+    <StiGaugeTypeHalfCircular>Полу-кръгов</StiGaugeTypeHalfCircular>
     <StiGroupSortDirectionAscending>Нарастващ</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Намаляващ</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Няма</StiGroupSortDirectionNone>
@@ -2685,6 +2721,8 @@
     <StiMapIDUK>Велокобритания</StiMapIDUK>
     <StiMapIDUSA>САЩ</StiMapIDUSA>
     <StiMapIDWorld>World</StiMapIDWorld>
+    <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
+    <StiMapModeOnline>На линия</StiMapModeOnline>
     <StiMapTypeGroup>Група</StiMapTypeGroup>
     <StiMapTypeHeatmap>Топлинна карта</StiMapTypeHeatmap>
     <StiMapTypeHeatmapWithGroup>Тплинна карта с групи</StiMapTypeHeatmapWithGroup>
@@ -2752,6 +2790,9 @@
     <StiProcessingDuplicatesTypeMerge>Съедини</StiProcessingDuplicatesTypeMerge>
     <StiProcessingDuplicatesTypeNone>Няма</StiProcessingDuplicatesTypeNone>
     <StiProcessingDuplicatesTypeRemoveText>Премахване на текст</StiProcessingDuplicatesTypeRemoveText>
+    <StiProgressElementModeCircle>Кръг</StiProgressElementModeCircle>
+    <StiProgressElementModeDataBars>Лената данни</StiProgressElementModeDataBars>
+    <StiProgressElementModePie>Кръгова диаграма</StiProgressElementModePie>
     <StiRadarStyleXFCircle>Окръжност</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Многоъгълник</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>Автоматично</StiReportCacheModeAuto>
@@ -3055,6 +3096,7 @@
     <AutoSeriesTitleDataColumn>Авт. серия заглавие колона данни</AutoSeriesTitleDataColumn>
     <AutoWidth>Авт. ширина</AutoWidth>
     <AutoWidthType>Авт. тип ширина</AutoWidthType>
+    <AvailableInTheViewer>Налични в прегледа</AvailableInTheViewer>
     <AxisLabelsColor>Цвят Етикети</AxisLabelsColor>
     <AxisLineColor>Цвят Линия</AxisLineColor>
     <AxisTitleColor>Цвят Заглавие</AxisTitleColor>
@@ -3127,6 +3169,7 @@
     <Collate>Сравняване</Collate>
     <CollectionName>Име на колекция</CollectionName>
     <Color>Цвят</Color>
+    <ColorDataColumn>Цветова колона данни</ColorDataColumn>
     <ColorEach>Цвят за всеки</ColorEach>
     <ColorScaleCondition>Условие цветова скала</ColorScaleCondition>
     <ColorScaleType>Тип цветова скала</ColorScaleType>
@@ -3158,6 +3201,7 @@
     <CreateFieldOnDoubleClick>Създаване на поле при двойно щракване</CreateFieldOnDoubleClick>
     <CreateLabel>Създаване етикет</CreateLabel>
     <Culture>Култура</Culture>
+    <CustomFonts>Персонален шрифт</CustomFonts>
     <CustomFormat>Формат по избор</CustomFormat>
     <CutPieList>Списък кръгова диаграма</CutPieList>
     <Data>Данни</Data>
@@ -3173,6 +3217,7 @@
     <DataSource>Източник данни</DataSource>
     <DataSources>Източници данни</DataSources>
     <DataTextField>Поле текстови данни</DataTextField>
+    <DataTransformation>Данни за трансформация</DataTransformation>
     <DataType>Тип данни</DataType>
     <DataUrl>URL данни</DataUrl>
     <DateInfo>Информация за дата</DateInfo>
@@ -3214,6 +3259,7 @@
     <DropShadow>Drop Shadow</DropShadow>
     <Duplex>Дуплекс</Duplex>
     <Editable>Редактируем</Editable>
+    <Effects>Ефекти</Effects>
     <EmptyBorderBrush>Празна грананична четка</EmptyBorderBrush>
     <EmptyBorderWidth>Празна гранична ширина</EmptyBorderWidth>
     <EmptyBrush>Празна Четка</EmptyBrush>
@@ -3239,6 +3285,7 @@
     <Expression>Израз</Expression>
     <ExtensionDigit>Цифрово разширение</ExtensionDigit>
     <FaqPage>Страница FAQ</FaqPage>
+    <Field>Поле</Field>
     <FieldIs>Полето е</FieldIs>
     <File>Файл</File>
     <Fill>Запълни</Fill>
@@ -3289,6 +3336,7 @@
     <GridLinesVert>Верикални линии мрежа</GridLinesVert>
     <GridLinesVertColor>Вертикални цветове на линиите на мрежата</GridLinesVertColor>
     <GridOutline>Очертание на мрежата</GridOutline>
+    <GroupDataColumn>Групова колона даннни</GroupDataColumn>
     <GrowToHeight>Растене до височината</GrowToHeight>
     <HeaderBackColor>Цвят на заглавието</HeaderBackColor>
     <HeaderCanBreak>Може да прекъсва</HeaderCanBreak>
@@ -3363,6 +3411,7 @@
     <Key>Индекс</Key>
     <KeyDataColumn>Ключ колонна данни</KeyDataColumn>
     <Keys>Индекси</Keys>
+    <Label>Етикет</Label>
     <LabelColor>Цвят етикет</LabelColor>
     <LabelRotationMode>Етикет на режим на Ротация</LabelRotationMode>
     <Labels>Етикети</Labels>
@@ -3371,6 +3420,7 @@
     <Language>Език</Language>
     <LargeHeight>Голяма височина</LargeHeight>
     <LargeHeightFactor>Фактор голяма височина</LargeHeightFactor>
+    <Latitude>Географска ширина</Latitude>
     <Left>Ляво</Left>
     <LeftSide>Лява страна</LeftSide>
     <Legend>Легенда</Legend>
@@ -3407,6 +3457,7 @@
     <Locked>Заключен</Locked>
     <Logarithmic>Логаритмично</Logarithmic>
     <LogarithmicScale>Логаритмична скала</LogarithmicScale>
+    <Longitude>Географска дължина</Longitude>
     <Low>Ниско</Low>
     <MajorInterval>Водещ интервал</MajorInterval>
     <MapID>Карта ID</MapID>
@@ -3458,6 +3509,7 @@
     <Multiline>Многоредови</Multiline>
     <MultipleFactor>Кратен множител</MultipleFactor>
     <Name>Име</Name>
+    <NameDataColumn>Име колона с данни</NameDataColumn>
     <NameInSource>Име в източник</NameInSource>
     <NameParent>Име на родител</NameParent>
     <Namespaces>Пространство от имена</Namespaces>
@@ -3539,10 +3591,12 @@
     <Ratio>Коефицент</Ratio>
     <RatioY>Отношение Y</RatioY>
     <ReadOnly>Само за четене</ReadOnly>
+    <RecentFonts>Използвани шрифтове</RecentFonts>
     <ReconnectOnEachRow>Свързване при всеки ред</ReconnectOnEachRow>
     <ReferencedAssemblies>Връзки към колекции</ReferencedAssemblies>
     <Refresh>Опресни</Refresh>
     <RefreshTime>Време за опресняване</RefreshTime>
+    <Regular>Нормален</Regular>
     <Relation>Релация</Relation>
     <RelationName>Име на релация</RelationName>
     <Relations>Релации</Relations>
@@ -3601,6 +3655,7 @@
     <SeriesLabelsColor>Цвят на Етикети</SeriesLabelsColor>
     <SeriesLighting>Серии на осветеност</SeriesLighting>
     <SeriesShowShadow>Серии на сенки</SeriesShowShadow>
+    <SeriesTitle>Заглавие на серия</SeriesTitle>
     <Shadow>Сянка</Shadow>
     <ShadowBrush>Четка сянка</ShadowBrush>
     <ShadowColor>Цвят сянка</ShadowColor>
@@ -3675,6 +3730,7 @@
     <StoreImagesInResources>Съхраняване на картинки в ресурси</StoreImagesInResources>
     <Stretch>Разтегляне</Stretch>
     <StretchToPrintArea>Разтегляне до областта на печат</StretchToPrintArea>
+    <Strikeout>Зачеркнат</Strikeout>
     <StripBrush>Четка на ивица</StripBrush>
     <Strips>Ивици</Strips>
     <StructuredAppendPosition>Структурирано добавяне на Позиция</StructuredAppendPosition>
@@ -3691,6 +3747,7 @@
     <SupplementCode>Допълнителен код</SupplementCode>
     <SupplementType>Допълнителен тип</SupplementType>
     <SweepAngle>Ъгъл на Ротация</SweepAngle>
+    <SystemFonts>Системни шрифтове</SystemFonts>
     <SystemVariable>Системна променлива</SystemVariable>
     <SystemVariables>Системни променливи</SystemVariables>
     <Table>Таблица</Table>
@@ -4053,6 +4110,7 @@
     <Division>Деление</Division>
     <Equal>Равенство</Equal>
     <EquationShapes>Форми на уравнение</EquationShapes>
+    <Flowchart>Блок-схема</Flowchart>
     <FlowchartCard>Блок схема: карта</FlowchartCard>
     <FlowchartCollate>Блок схема: съпоставяне</FlowchartCollate>
     <FlowchartDecision>Блок схема: решение</FlowchartDecision>
@@ -4168,7 +4226,7 @@
     <StyleDesigner>Дизайнер стил</StyleDesigner>
     <Styles>Списък от стилове</Styles>
     <TabHome>Начало</TabHome>
-    <TabLayout>Формат</TabLayout>
+    <TabLayout>Оформление</TabLayout>
     <TabPage>Страница</TabPage>
     <TabView>Изглед</TabView>
     <TextBrush>Четка на текст</TextBrush>
@@ -4205,6 +4263,7 @@
     <ButtonFinish>&amp;Край</ButtonFinish>
     <ButtonNext>&amp;Следващ &gt;</ButtonNext>
     <ColumnsOrder>Подредба на колони</ColumnsOrder>
+    <Company>Компания</Company>
     <Custom>По избор</Custom>
     <DataRelation>Релация</DataRelation>
     <DataSource>Източник на данни</DataSource>
@@ -4219,14 +4278,17 @@
     <groupTemplates>Шаблони</groupTemplates>
     <groupWizards>Съветници</groupWizards>
     <infoColumnsOrder>Подредете колоните в необходимия ред.</infoColumnsOrder>
+    <infoCompanyInfo>Въведете иформация за вашата компания.</infoCompanyInfo>
     <infoDataSource>Изберете един източник на данни от наличните.</infoDataSource>
     <infoDataSources>Изберете източници на данни от наличните.</infoDataSources>
     <infoFilters>Филтриране на данни в отчета</infoFilters>
     <infoGroups>Изберете колони по които ще се извърши групиране на данни.</infoGroups>
     <infoLabelSettings>Изберете настройките на етикетите.</infoLabelSettings>
+    <infoLanguages>Изберете език за отчета.</infoLanguages>
     <infoLayout>Определете изгледа на отчета.</infoLayout>
     <infoRelation>Изберете една релация от данни от наличните.</infoRelation>
     <infoSelectColumns>Изберете колоните, които ще се показват.</infoSelectColumns>
+    <infoSelectTemplate>Изберете подходящия шаблон за вашите нужди.</infoSelectTemplate>
     <infoSort>Настройте сортирането на данните. Възможно е сортиране по повече от една колона.</infoSort>
     <infoThemes>Изберете тема за Вашия отчет.</infoThemes>
     <infoTotals>Добавете сумарна информация в отчета.</infoTotals>
@@ -4246,6 +4308,7 @@
     <LabelVerticalGap>Вертикален промеждутък:</LabelVerticalGap>
     <LabelWidth>Ширина:</LabelWidth>
     <Layout>Изглед</Layout>
+    <Mapping>Картографиране</Mapping>
     <MarkAll>Маркирай &amp;Всичко</MarkAll>
     <MasterDetailReport>Master-Detail отчет</MasterDetailReport>
     <NoFunction>[Няма]</NoFunction>
@@ -4254,6 +4317,7 @@
     <Reset>&amp;Изходно</Reset>
     <Results>Резултати</Results>
     <SelectColumns>Изберете колони</SelectColumns>
+    <SelectTemplate>Шаблон</SelectTemplate>
     <Sort>Сортиране</Sort>
     <StandardReport>Стандартен отчет</StandardReport>
     <Themes>Теми</Themes>
