@@ -88,6 +88,10 @@
     <AdapterVirtualSource>Adat más adatforrásból</AdapterVirtualSource>
     <AdapterVistaDBConnection>Adat VistaDB kapcsolatból</AdapterVistaDBConnection>
   </Adapters>
+  <BarCode>
+    <Post>Post</Post>
+    <TwoDimensional>Két dimenziós</TwoDimensional>
+  </BarCode>
   <Buttons>
     <Add>Hozzáad</Add>
     <AddAllColumns>Összes oszlop hozzáad</AddAllColumns>
@@ -101,12 +105,15 @@
     <Down>Le</Down>
     <Duplicate>Duplikál</Duplicate>
     <Export>Export</Export>
+    <ForceDelete>Azonnali törlés</ForceDelete>
     <Help>Segítség</Help>
     <LessOptions>Kevesebb beállítás</LessOptions>
     <LoadDataSet>Adatkészlet Betöltése (*.data)</LoadDataSet>
+    <More>További</More>
     <MoreOptions>Több beállítás</MoreOptions>
     <MoveLeft>Balra mozgat</MoveLeft>
     <MoveRight>Jobbra mozgat</MoveRight>
+    <MoveToResource>Mozgatás a erőforrásokba</MoveToResource>
     <No>&amp;Nem</No>
     <Ok>&amp;Elfogad</Ok>
     <Open>Megnyitás</Open>
@@ -372,6 +379,7 @@
     <LabelCurrentPassword>Jelenlegi jelszó:</LabelCurrentPassword>
     <LabelDataFile>Adat fájl:</LabelDataFile>
     <LabelDataUrl>Adat URL:</LabelDataUrl>
+    <LabelEndDate>Záró dátum:</LabelEndDate>
     <labelFileName>Fájl neve:</labelFileName>
     <LabelForeground>Előtér:</LabelForeground>
     <LabelFromReport>Jelentésből</LabelFromReport>
@@ -386,6 +394,7 @@
     <LabelPicture>Kép:</LabelPicture>
     <LabelRenderedReport>Renderelt jelentés</LabelRenderedReport>
     <LabelResponseAsFile>Válasz fájlként</LabelResponseAsFile>
+    <LabelResultType>Eredmény típus:</LabelResultType>
     <LabelSeparateReport>Külön jelentés (és script) fájl</LabelSeparateReport>
     <LabelShowReport>Jelentés mutatása:</LabelShowReport>
     <labelUserName>Felhasználónév:</labelUserName>
@@ -421,7 +430,9 @@
     <RootFolder>Gyökérkönyvtár</RootFolder>
     <Save>Mentés</Save>
     <SaveAccountSettings>Fiók beállítások mentése</SaveAccountSettings>
+    <SaveAsType>Mentés típusként</SaveAsType>
     <SaveFile>Fájl mentése</SaveFile>
+    <SavingToStimulsoftCloudPleaseWait>Report mentése Stimulsoft Cloud-ba. Kérem várjon!</SavingToStimulsoftCloudPleaseWait>
     <ShareWindowTitleNew>Megoszt</ShareWindowTitleNew>
     <ShowAllFiles>Minden fájl megmutatása</ShowAllFiles>
     <ShowNotificationMessages>Figyelmeztetések megjelenítése</ShowNotificationMessages>
@@ -579,12 +590,20 @@
     <Dimension>Méret</Dimension>
     <Dimensions>Méretek</Dimensions>
     <DragDropDataFromDictionary>Fogd&amp;vidd az adatot a szótárból</DragDropDataFromDictionary>
+    <DuplicateField>Mező duplázás</DuplicateField>
+    <EditExpression>Kifejezés szerkesztés</EditExpression>
     <EmptyDashboardFooter>Fogd &amp; vidd a komponenst az eszköztárról, vagy az adatot a szótárból</EmptyDashboardFooter>
     <EmptyDashboardHeader>Az irányítópult üres</EmptyDashboardHeader>
+    <FirstLastPoints>Első / utolsó pontok</FirstLastPoints>
+    <HighLowPoints>Magas / alacsony pontok</HighLowPoints>
     <ImageNotSpecified>Nincs megadva kép</ImageNotSpecified>
+    <Indicator>Indikátor</Indicator>
     <Measure>Méret</Measure>
     <Measures>Méretek</Measures>
+    <NewDimension>Új dimenzió</NewDimension>
+    <NewMeasure>Új mérés</NewMeasure>
     <NumberFilters>Szám szűrők</NumberFilters>
+    <RemoveField>Mező eltávolítás</RemoveField>
     <Sparklines>Értékgörbék</Sparklines>
     <StringFilters>Szöveges szűrők</StringFilters>
     <Trend>Trend</Trend>
@@ -914,6 +933,7 @@
     <TiffFiles>TIFF képek(*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Szöveges fájlok(*.txt)|*.txt</TxtFiles>
     <Word2007Files>Microsoft Word 2007-2016 fájlok(*.docx)|*.docx</Word2007Files>
+    <WordFiles>Microsoft Word 97-2003 fájlok (*.doc)|*.doc</WordFiles>
     <WriterFiles>OpenDocument Writer fájlok(*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML fájlok(*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS fájlok(*.xps)|*.xps</XpsFiles>
@@ -1042,6 +1062,7 @@
     <PromptUserNameAndPassword>Prompt User Name and Password</PromptUserNameAndPassword>
     <RecentConnections>Előzmények</RecentConnections>
     <ReportConnections>Jelentés kapcsolatok</ReportConnections>
+    <SelectData>Adat kijelölés</SelectData>
     <SqlCeEdit>SQL Server CE kapcsolat szerkesztése</SqlCeEdit>
     <SqlCeNew>Új SQL Server CE kapcsolat </SqlCeNew>
     <SqlEdit>Sql kapcsolat szerkesztése</SqlEdit>
@@ -1116,6 +1137,8 @@
     <DataSourceEdit>Adatforrás szerkesztés</DataSourceEdit>
     <DataSourceNew>Új adatforrás</DataSourceNew>
     <DataSourcesNew>Új adatforrások</DataSourcesNew>
+    <DataTransformationEdit>Adat transzformálció szerkesztés</DataTransformationEdit>
+    <DataTransformationNew>Új adat transzformáció</DataTransformationNew>
     <Delete>Töröl</Delete>
     <DesignTimeQueryText>Tervezéskor Lekérdezés szöveg</DesignTimeQueryText>
     <DictionaryMerge>Szótár egyesítés...</DictionaryMerge>
@@ -1334,6 +1357,7 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Stílus hozzáadása</Add>
+    <AddCollectionName>Gyüjteménynév hozzáadás</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>Stílus gyűjtemény alkalmazása a komponenseken</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Stílusok alkalmazása</ApplyStyles>
     <ColorCollectionEditor>Színgyűjtemény szerkesztő</ColorCollectionEditor>
@@ -1841,6 +1865,7 @@
     <PutFeedPageCode>Oldalak megjelölése a végső dokumentumban egy speciális karakterrel.</PutFeedPageCode>
     <RangePages>A feldolgozandó oldalak számai. Megadhat egyetlen oldalt, oldalak egy listáját (vesszőt használva elválasztó karakterként), valamint megadható tartomány, melyhez be kell állítani a kezdőoldalt, elválasztva a "-" karakterrel az utolsó oldaltól. Például: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Az üres terület minimalizálása az oldal aljára.</RemoveEmptySpaceAtBottom>
+    <Resources>Erődorrás panel megmutatása</Resources>
     <RestrictEditing>Változtatások korlátozása egy Word dokumentumban.</RestrictEditing>
     <Save>Jelentés elmentése.</Save>
     <ScaleHtml>A jelentés oldalainak és elemeinek mérete (méretezés) az exportálás után.</ScaleHtml>
@@ -1900,6 +1925,7 @@
     <menuEditDataParameterNew>Új paraméter...</menuEditDataParameterNew>
     <menuEditDataSourceNew>Új adatforrás...</menuEditDataSourceNew>
     <menuEditDataSourcesNew>Új adatforrások...</menuEditDataSourcesNew>
+    <menuEditDataTransformationNew>Új adat transzformáció...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Töröl</menuEditDelete>
     <menuEditEdit>Szerkeszt</menuEditEdit>
     <menuEditImportRelations>Reláció importálás...</menuEditImportRelations>
@@ -2003,6 +2029,10 @@
   <Messages>
     <DoNotShowAgain>Ne mutassa többé</DoNotShowAgain>
     <MessageTimeOutExpired>A parancs időtúllépés lejárt!</MessageTimeOutExpired>
+    <RenderingWillOccurInTheInterpretationMode>A megosztott jelentés megtekintésekor a megjelenítés értelmezési módban történik</RenderingWillOccurInTheInterpretationMode>
+    <ResourceCannotBeDeleted>A(z) "{0}" erőforrás nem törölhető, mert használatban van a reportban!</ResourceCannotBeDeleted>
+    <ShareURLOfTheItemHasBeenUpdated>Az elem megosztási URL-je frissítve lett!</ShareURLOfTheItemHasBeenUpdated>
+    <ShareYourReportYouShouldSave>A jelentés megosztásához el kell mentenie a jelentést a Stimulsoft Cloud-ba!</ShareYourReportYouShouldSave>
     <TextRegistrationSuccessfully>Sikeres regisztráció!
 
 Az Emailt ide küldtük "{0}".
@@ -2243,11 +2273,13 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ExportCategory>Exportálás</ExportCategory>
     <ExportEventsCategory>Export esemény</ExportEventsCategory>
     <FooterTableCategory>Lábléc táblázat</FooterTableCategory>
+    <GaugeCategory>Műszer</GaugeCategory>
     <GridLinesCategory>Rácsvonalak</GridLinesCategory>
     <HeaderTableCategory>Fejléc táblázat</HeaderTableCategory>
     <HierarchicalCategory>Hierarhikus</HierarchicalCategory>
     <ImageAdditionalCategory>Kép további</ImageAdditionalCategory>
     <ImageCategory>Kép</ImageCategory>
+    <IndicatorCategory>Indikátor</IndicatorCategory>
     <InterlacingCategory>Átlapolás</InterlacingCategory>
     <LegendCategory>Jelmagyarázat</LegendCategory>
     <MainCategory>Legfőbb</MainCategory>
@@ -2265,6 +2297,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <PositionCategory>Pozició</PositionCategory>
     <PrimitiveCategory>Eredeti</PrimitiveCategory>
     <PrintEventsCategory>Nyomtatás események</PrintEventsCategory>
+    <ProgressCategory>Folyamat</ProgressCategory>
     <RenderEventsCategory>Render események</RenderEventsCategory>
     <SeriesCategory>Sorozatok</SeriesCategory>
     <SeriesLabelsCategory>Sorozat címkék</SeriesLabelsCategory>
@@ -2630,6 +2663,10 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiFormStartModeOnEnd>On End</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>Megjelenítéskor</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>Induláskor</StiFormStartModeOnStart>
+    <StiGaugeCalculationModeAuto>Automatikus</StiGaugeCalculationModeAuto>
+    <StiGaugeCalculationModeCustom>Egyedi</StiGaugeCalculationModeCustom>
+    <StiGaugeTypeFullCircular>Teljes kör</StiGaugeTypeFullCircular>
+    <StiGaugeTypeHalfCircular>Félkör</StiGaugeTypeHalfCircular>
     <StiGroupSortDirectionAscending>Növekvő</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Csökkenő</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Nincs</StiGroupSortDirectionNone>
@@ -2685,6 +2722,8 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiMapIDUK>Egyesült Királyság</StiMapIDUK>
     <StiMapIDUSA>USA</StiMapIDUSA>
     <StiMapIDWorld>Világ</StiMapIDWorld>
+    <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
+    <StiMapModeOnline>Online</StiMapModeOnline>
     <StiMapTypeGroup>Csoport</StiMapTypeGroup>
     <StiMapTypeHeatmap>Hőtérkép</StiMapTypeHeatmap>
     <StiMapTypeHeatmapWithGroup>Hőtérkép csoporttal</StiMapTypeHeatmapWithGroup>
@@ -2752,6 +2791,9 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiProcessingDuplicatesTypeMerge>Egyesít</StiProcessingDuplicatesTypeMerge>
     <StiProcessingDuplicatesTypeNone>Nincs</StiProcessingDuplicatesTypeNone>
     <StiProcessingDuplicatesTypeRemoveText>Szöveg eltávolítás</StiProcessingDuplicatesTypeRemoveText>
+    <StiProgressElementModeCircle>Kör</StiProgressElementModeCircle>
+    <StiProgressElementModeDataBars>Adatsáv</StiProgressElementModeDataBars>
+    <StiProgressElementModePie>Torta diagram</StiProgressElementModePie>
     <StiRadarStyleXFCircle>Kör</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Sokszög</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
@@ -3055,6 +3097,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <AutoSeriesTitleDataColumn>Auto Series Title Data Column</AutoSeriesTitleDataColumn>
     <AutoWidth>Auto szélesség</AutoWidth>
     <AutoWidthType>Automatikus szélesség</AutoWidthType>
+    <AvailableInTheViewer>Elérhető a megtekintőben</AvailableInTheViewer>
     <AxisLabelsColor>Címke szín</AxisLabelsColor>
     <AxisLineColor>Vonal szín</AxisLineColor>
     <AxisTitleColor>Cím szín</AxisTitleColor>
@@ -3127,6 +3170,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Collate>Collate</Collate>
     <CollectionName>Gyüjtemény neve</CollectionName>
     <Color>Szín</Color>
+    <ColorDataColumn>Szín adatoszlop</ColorDataColumn>
     <ColorEach>Mindegyik szín</ColorEach>
     <ColorScaleCondition>Színskála kondíciók</ColorScaleCondition>
     <ColorScaleType>Színskála típus</ColorScaleType>
@@ -3158,6 +3202,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <CreateFieldOnDoubleClick>Mező beilleszt dupla klikkre</CreateFieldOnDoubleClick>
     <CreateLabel>Cimke készítés</CreateLabel>
     <Culture>Kultúra</Culture>
+    <CustomFonts>Egyedi betűtípus</CustomFonts>
     <CustomFormat>Egyéni formátum</CustomFormat>
     <CutPieList>Vágott pite lista</CutPieList>
     <Data>Adat</Data>
@@ -3173,6 +3218,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <DataSource>Adatforrás</DataSource>
     <DataSources>Adatforrások</DataSources>
     <DataTextField>Adat mező</DataTextField>
+    <DataTransformation>Adat transzformáció</DataTransformation>
     <DataType>Adat típus</DataType>
     <DataUrl>Adat URL</DataUrl>
     <DateInfo>Dátum infó</DateInfo>
@@ -3214,6 +3260,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <DropShadow>Drop árnyék</DropShadow>
     <Duplex>Kettős</Duplex>
     <Editable>Szerkeszthető</Editable>
+    <Effects>Effekt</Effects>
     <EmptyBorderBrush>Üres szegély ecset</EmptyBorderBrush>
     <EmptyBorderWidth>Üres szegély szélesség</EmptyBorderWidth>
     <EmptyBrush>Üres ecset</EmptyBrush>
@@ -3239,6 +3286,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Expression>Kifejezés</Expression>
     <ExtensionDigit>Kiterjesztés számjegy</ExtensionDigit>
     <FaqPage>GYIK Oldal</FaqPage>
+    <Field>Mező</Field>
     <FieldIs>Field Is</FieldIs>
     <File>Fájl</File>
     <Fill>Kitöltés</Fill>
@@ -3289,6 +3337,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <GridLinesVert>Grid Lines Vertical</GridLinesVert>
     <GridLinesVertColor>Rácsvonal függőleges szín</GridLinesVertColor>
     <GridOutline>Rács körvonal</GridOutline>
+    <GroupDataColumn>Csoport adatoszlop</GroupDataColumn>
     <GrowToHeight>Magasság megnyújtása</GrowToHeight>
     <HeaderBackColor>Fejléc háttée színe</HeaderBackColor>
     <HeaderCanBreak>Fejléc megszakítható</HeaderCanBreak>
@@ -3363,6 +3412,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Key>Kulcs</Key>
     <KeyDataColumn>Key Data Column</KeyDataColumn>
     <Keys>Kulcsok</Keys>
+    <Label>Címke</Label>
     <LabelColor>Címke szín</LabelColor>
     <LabelRotationMode>Címke forgatási mód</LabelRotationMode>
     <Labels>Címkék</Labels>
@@ -3371,6 +3421,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Language>Nyelv</Language>
     <LargeHeight>nagy magasság</LargeHeight>
     <LargeHeightFactor>nagy magasság Factor</LargeHeightFactor>
+    <Latitude>Szélesség</Latitude>
     <Left>bal</Left>
     <LeftSide>Baloldal</LeftSide>
     <Legend>Felirat</Legend>
@@ -3407,6 +3458,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Locked>Zárolt</Locked>
     <Logarithmic>Logaritmikus</Logarithmic>
     <LogarithmicScale>Logaritmikus skála</LogarithmicScale>
+    <Longitude>Hosszúság</Longitude>
     <Low>kicsi</Low>
     <MajorInterval>Jelentős intervallum</MajorInterval>
     <MapID>Térkép ID</MapID>
@@ -3458,6 +3510,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Multiline>Többsoros</Multiline>
     <MultipleFactor>Többszörös factor</MultipleFactor>
     <Name>Neve</Name>
+    <NameDataColumn>Új adatoszlop</NameDataColumn>
     <NameInSource>Forrás neve</NameInSource>
     <NameParent>Szülő neve</NameParent>
     <Namespaces>Névterek</Namespaces>
@@ -3539,10 +3592,12 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Ratio>Ratio</Ratio>
     <RatioY>Arány Y</RatioY>
     <ReadOnly>Csak olvasható</ReadOnly>
+    <RecentFonts>Előző betűtípus</RecentFonts>
     <ReconnectOnEachRow>Minden sornál újrakapcsolódik</ReconnectOnEachRow>
     <ReferencedAssemblies>Referált Assemblik</ReferencedAssemblies>
     <Refresh>Frissít</Refresh>
     <RefreshTime>Frissítési idő</RefreshTime>
+    <Regular>Szabályos</Regular>
     <Relation>Reláció</Relation>
     <RelationName>Reláció neve</RelationName>
     <Relations>Relációk</Relations>
@@ -3601,6 +3656,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <SeriesLabelsColor>Címke szín</SeriesLabelsColor>
     <SeriesLighting>Sorozat megvilágítás</SeriesLighting>
     <SeriesShowShadow>Sorozat árnyék mutatása</SeriesShowShadow>
+    <SeriesTitle>Sorozat címe</SeriesTitle>
     <Shadow>Árnyék</Shadow>
     <ShadowBrush>Árnyék ecset</ShadowBrush>
     <ShadowColor>Árnyék szín</ShadowColor>
@@ -3675,6 +3731,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StoreImagesInResources>Adat tárolás resource-ban</StoreImagesInResources>
     <Stretch>Nyújtás</Stretch>
     <StretchToPrintArea>Nyújtás a nyomtatási területre</StretchToPrintArea>
+    <Strikeout>Árhúzott</Strikeout>
     <StripBrush>Strip Brush</StripBrush>
     <Strips>Strips</Strips>
     <StructuredAppendPosition>Struktúrált hozzáfűző helyzet</StructuredAppendPosition>
@@ -3691,6 +3748,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <SupplementCode>Kiegészített kód</SupplementCode>
     <SupplementType>Kiegészített típus</SupplementType>
     <SweepAngle>Hajlás szöge</SweepAngle>
+    <SystemFonts>Rendszer betűtípus</SystemFonts>
     <SystemVariable>Rendszer változó</SystemVariable>
     <SystemVariables>Rendszer változók</SystemVariables>
     <Table>Táblázat</Table>
@@ -4052,6 +4110,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Division>Szétválás</Division>
     <Equal>Egyenlő</Equal>
     <EquationShapes>Kiegyenlített alakzat</EquationShapes>
+    <Flowchart>Folyamatábra</Flowchart>
     <FlowchartCard>Folyamatábra: kártya</FlowchartCard>
     <FlowchartCollate>Folyamatábra: Leválogtás</FlowchartCollate>
     <FlowchartDecision>Folyamatábra: Döntés</FlowchartDecision>
@@ -4204,6 +4263,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ButtonFinish>&amp;Befejez</ButtonFinish>
     <ButtonNext>&amp;Következő &gt;</ButtonNext>
     <ColumnsOrder>Oszlop sorrend</ColumnsOrder>
+    <Company>Vállalat</Company>
     <Custom>Egyéni</Custom>
     <DataRelation>Relációk</DataRelation>
     <DataSource>Adat forrás</DataSource>
@@ -4218,14 +4278,17 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <groupTemplates>Sablonok</groupTemplates>
     <groupWizards>Varázslók</groupWizards>
     <infoColumnsOrder>Rendezd el az mezőket a kívánt sorrendbe.</infoColumnsOrder>
+    <infoCompanyInfo>Add meg a vállalati információkat.</infoCompanyInfo>
     <infoDataSource>Select one Data Source from available.</infoDataSource>
     <infoDataSources>Válassz egy elérhető adatforrást.</infoDataSources>
     <infoFilters>Szűrd le az adatokat a jelentéshez.</infoFilters>
     <infoGroups>Válaszd ki a csoportosításhoz a mezőket.</infoGroups>
     <infoLabelSettings>Állítsd be a címkék tulajdonságatit.</infoLabelSettings>
+    <infoLanguages>Válaszd ki a report nyelvét.</infoLanguages>
     <infoLayout>Állítsd be a jelentés elrendezését.</infoLayout>
     <infoRelation>Válassz az elérhető adatkapcsolatból.</infoRelation>
     <infoSelectColumns>Válaszd ki a megjelenítendő mezőket.</infoSelectColumns>
+    <infoSelectTemplate>Válassza ki az igényeinek megfelelő sablont.</infoSelectTemplate>
     <infoSort>Állítsd be az adatok sorrendjét. Töb oszlop is kiválasztható.</infoSort>
     <infoThemes>Select theme for your report.</infoThemes>
     <infoTotals>Adj meg összesen információt a jelentéshez.</infoTotals>
@@ -4245,6 +4308,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <LabelVerticalGap>Függőleges köz:</LabelVerticalGap>
     <LabelWidth>Szélesség:</LabelWidth>
     <Layout>Rendezés</Layout>
+    <Mapping>Mapping</Mapping>
     <MarkAll>Mind kijelöl</MarkAll>
     <MasterDetailReport>Master-Detail Jelentés</MasterDetailReport>
     <NoFunction>[None]</NoFunction>
@@ -4253,6 +4317,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Reset>&amp;Reset</Reset>
     <Results>Eredmények</Results>
     <SelectColumns>Oszlop kijelölés</SelectColumns>
+    <SelectTemplate>Sablon</SelectTemplate>
     <Sort>Rendezés</Sort>
     <StandardReport>Standard jelentés</StandardReport>
     <Themes>Témák</Themes>

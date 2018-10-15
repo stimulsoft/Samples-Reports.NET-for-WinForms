@@ -329,6 +329,7 @@
     <VerticalNone>&lt;b&gt;Не отображать&lt;/b&gt;&lt;br&gt;Не отображать вертикальные линии&lt;/br&gt;</VerticalNone>
   </ChartRibbon>
   <Cloud>
+    <AcceptTermsAndPrivacyPolicy>Я ознакомился с {0}, {1} и принимаю условия.</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>Настройки аккаунта</AccountSettings>
     <AddAPlace>Добавление места</AddAPlace>
     <ButtonChangePassword>Изменить пароль</ButtonChangePassword>
@@ -413,6 +414,7 @@
     <OperationUpload>Отправить '{0}' на сервер</OperationUpload>
     <page>страница</page>
     <Platforms>Платформы</Platforms>
+    <PrivacyPolicy>политикой конфиденциальности</PrivacyPolicy>
     <Products>Продукты</Products>
     <questionOpenThisFile>Вы действительно хотите открыть '{0}' файл?</questionOpenThisFile>
     <questionOverrideItem>Вы действительно хотите  перезаписать '{0}' файл?</questionOverrideItem>
@@ -440,6 +442,7 @@
     <TabItemEmbedCode>Код встраивания</TabItemEmbedCode>
     <TabItemQRCode>QR код</TabItemQRCode>
     <TabItemShare>Ссылка</TabItemShare>
+    <TermsOfUse>правилами</TermsOfUse>
     <TextActivated>Активирована</TextActivated>
     <TextActivationDate>Дата активации</TextActivationDate>
     <TextDelete>Удаление</TextDelete>
@@ -527,6 +530,7 @@
     <StiClone>Клон</StiClone>
     <StiColumnFooterBand>Итог колонки</StiColumnFooterBand>
     <StiColumnHeaderBand>Заголовок колонки</StiColumnHeaderBand>
+    <StiComboBox>Поле со списком</StiComboBox>
     <StiComponent>Компонент</StiComponent>
     <StiContainer>Контейнер</StiContainer>
     <StiContourText>Контурный текст</StiContourText>
@@ -545,6 +549,7 @@
     <StiCrossTitle>Кросс-заголовок</StiCrossTitle>
     <StiDashboard>Панель индикаторов</StiDashboard>
     <StiDataBand>Данные</StiDataBand>
+    <StiDatePicker>Выбор даты</StiDatePicker>
     <StiEmptyBand>Пустые данные</StiEmptyBand>
     <StiFooterBand>Итог данных</StiFooterBand>
     <StiGauge>Измерительный прибор</StiGauge>
@@ -555,15 +560,21 @@
     <StiHorizontalLinePrimitive>Горизонтальная линия</StiHorizontalLinePrimitive>
     <StiImage>Изображение</StiImage>
     <StiIndicator>Индикатор</StiIndicator>
+    <StiListBox>Список</StiListBox>
     <StiMap>Карта</StiMap>
+    <StiOnlineMap>Онлайн-карта</StiOnlineMap>
     <StiOverlayBand>Водяной знак</StiOverlayBand>
     <StiPage>Страница</StiPage>
     <StiPageFooterBand>Итог страницы</StiPageFooterBand>
     <StiPageHeaderBand>Заголовок страницы</StiPageHeaderBand>
     <StiPanel>Панель</StiPanel>
-    <StiPivot>Сводная таблица</StiPivot>
+    <StiPivotColumn>Сводная колонка</StiPivotColumn>
+    <StiPivotRow>Сводная строка</StiPivotRow>
+    <StiPivotSummary>Сводная сумма</StiPivotSummary>
+    <StiPivotTable>Сводная таблица</StiPivotTable>
     <StiProgress>Прогресс</StiProgress>
     <StiRectanglePrimitive>Прямоугольник</StiRectanglePrimitive>
+    <StiRegionMap>Региональная карта</StiRegionMap>
     <StiReport>Отчет</StiReport>
     <StiReportSummaryBand>Итог отчета</StiReportSummaryBand>
     <StiReportTitleBand>Заголовок отчета</StiReportTitleBand>
@@ -575,17 +586,25 @@
     <StiTable>Таблица</StiTable>
     <StiText>Текст</StiText>
     <StiTextInCells>Текст в ячейках</StiTextInCells>
+    <StiTreeView>Дерево</StiTreeView>
+    <StiTreeViewBox>Поле с деревом</StiTreeViewBox>
     <StiVerticalLinePrimitive>Вертикальная линия</StiVerticalLinePrimitive>
     <StiWinControl>Win компонент</StiWinControl>
     <StiZipCode>Почтовый индекс</StiZipCode>
   </Components>
   <Dashboard>
+    <AfterGroupingData>Применить после группировки</AfterGroupingData>
+    <Blanks>(Пробелы)</Blanks>
+    <BooleanFilters>Булевские фильтры</BooleanFilters>
+    <CannotLoadDashboard>Не возможно загрузить отчет содержащий панель индикаторов.</CannotLoadDashboard>
     <ChangeChartType>Изменить тип диаграммы</ChangeChartType>
     <ChangeMapType>Изменить тип карты</ChangeMapType>
     <ClearFilterFrom>Очистить фильтр от '{0}'</ClearFilterFrom>
     <ColorScale>Цветовая шкала</ColorScale>
+    <CustomFilter>Пользовательский фильтр ...</CustomFilter>
     <DataBars>Гистограмма</DataBars>
     <DataNotDefined>Данные не указаны</DataNotDefined>
+    <DateFilters>Фильтры дат</DateFilters>
     <Dimension>Измерение</Dimension>
     <Dimensions>Измерения</Dimensions>
     <DragDropDataFromDictionary>Перетащите данные из Словаря данных</DragDropDataFromDictionary>
@@ -593,18 +612,38 @@
     <EditExpression>Изменить выражение</EditExpression>
     <EmptyDashboardFooter>Перетащите компонент из Инструментария или данные из Словаря данных</EmptyDashboardFooter>
     <EmptyDashboardHeader>Пустая панель индикаторов</EmptyDashboardHeader>
+    <FieldTypeRestrictionHint>Только поля указанного '{0}' типа могут быть использованы!</FieldTypeRestrictionHint>
     <FirstLastPoints>Первая / Последняя точки</FirstLastPoints>
+    <FirstRowIndex>Индекс первой строки</FirstRowIndex>
     <HighLowPoints>Максимальная / Минимальная точки</HighLowPoints>
     <ImageNotSpecified>Изображение не выбрано</ImageNotSpecified>
     <Indicator>Индикатор</Indicator>
+    <InitialValue>Начальное значение</InitialValue>
+    <LimitRows>Пропуск и ограничение строк</LimitRows>
     <Measure>Показатель</Measure>
     <Measures>Показатели</Measures>
     <NewDimension>Новое измерение</NewDimension>
     <NewMeasure>Новый показатель</NewMeasure>
+    <NoResult>Нет результатов</NoResult>
+    <NSelected>{0} выбрано</NSelected>
+    <Nulls>(Nulls)</Nulls>
     <NumberFilters>Числовые фильтры</NumberFilters>
+    <ParentElement>Главный элемент</ParentElement>
+    <RemoveActions>Удалить действия</RemoveActions>
+    <RemoveAllFields>Удалить все поля</RemoveAllFields>
     <RemoveField>Удалить поле</RemoveField>
+    <ReplaceValues>Заменить значения</ReplaceValues>
+    <RowsCount>Количество строк</RowsCount>
+    <SelectAll>(В&amp;ыбрать все)</SelectAll>
+    <ShowAsPercentages>Показать в процентах</ShowAsPercentages>
+    <SkipFirstRows>Пропустить первые строки</SkipFirstRows>
+    <SortAZ>Сортировка от А до Я</SortAZ>
+    <SortLargestToSmallest>Сортировка от максимального к минимальному</SortLargestToSmallest>
+    <SortSmallestToLargest>Сортировка от минимального к максимальному</SortSmallestToLargest>
+    <SortZA>Сортировка от Я до А</SortZA>
     <Sparklines>Спарклайны</Sparklines>
     <StringFilters>Строковые фильтры</StringFilters>
+    <TransformationHint>Нажмите на заголовок таблицы, чтобы применить сортировку, фильтрацию или изменить данные. Это преобразование будет применяться только к данным этого элемента.</TransformationHint>
     <Trend>Тренд</Trend>
   </Dashboard>
   <Database>
@@ -757,6 +796,7 @@
     <NoServices>Сервисы не найдены в '{0}'</NoServices>
     <NotAssign>Источник данных не указан.</NotAssign>
     <NotCorrectFormat>Входная строка в неверном формате.</NotCorrectFormat>
+    <PrimaryColumnAction>Не удается применить это действие к ключевому столбцу '{0}'.</PrimaryColumnAction>
     <RelationsNotFound>Связи не найдены.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>Отчет с ошибками не может быть сохранен!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' сервис не найден</ServiceNotFound>
@@ -775,6 +815,7 @@
     <Compressed>Сжатый</Compressed>
     <CompressToArchive>Сжать в архив</CompressToArchive>
     <ContinuousPages>Непрерывные страницы</ContinuousPages>
+    <DataAndHeaders>Данные и Заголовки</DataAndHeaders>
     <DataAndHeadersFooters>Данные и Заголовки/Итоги</DataAndHeadersFooters>
     <DataOnly>Только данные</DataOnly>
     <DigitalSignature>Цифровая подпись</DigitalSignature>
@@ -1060,6 +1101,7 @@
     <PostgreSQLNew>Новое PostgreSQL соединение</PostgreSQLNew>
     <PromptUserNameAndPassword>Запрос имени пользователя и пароля</PromptUserNameAndPassword>
     <RecentConnections>Последние</RecentConnections>
+    <RelationDirection>Направление связи:</RelationDirection>
     <ReportConnections>Соединения отчета</ReportConnections>
     <SelectData>Выберите данные</SelectData>
     <SqlCeEdit>Редактировать SQLServerCE соединение</SqlCeEdit>
@@ -1115,6 +1157,7 @@
     <CalcColumnNew>Новая рассчитываемая колонка</CalcColumnNew>
     <CategoryEdit>Изменение категории</CategoryEdit>
     <CategoryNew>Новая категория</CategoryNew>
+    <Child>Подчиненный</Child>
     <ChildOfBusinessObject>Подчиненный бизнес-объект</ChildOfBusinessObject>
     <ChildSource>Подчиненный источник данных:</ChildSource>
     <ClickHere>Нажмите здесь</ClickHere>
@@ -1156,6 +1199,7 @@
     <NewBusinessObject>Новый бизнес-объект</NewBusinessObject>
     <NewItem>Новый элемент</NewItem>
     <OpenAssembly>Открыть сборку</OpenAssembly>
+    <Parent>Главный</Parent>
     <ParentSource>Главный источник данных:</ParentSource>
     <Queries>Запросы</Queries>
     <QueryNew>Новый запрос</QueryNew>
@@ -1286,6 +1330,7 @@
     <SelectUILanguage>Выберите язык интерфейса</SelectUILanguage>
     <ShowDialogForms>Показывать диалоговые формы</ShowDialogForms>
     <ShowDimensionLines>Показывать размерные линии</ShowDimensionLines>
+    <ShowOldGaugeEditor>Показывать старый редактор индикаторов</ShowOldGaugeEditor>
     <title>Параметры</title>
     <UseComponentColor>Использовать цвета компонента для заполнения</UseComponentColor>
     <UseLastFormat>Использовать последнее форматирование</UseLastFormat>
@@ -1601,11 +1646,13 @@
   <HelpComponents>
     <StiBarCode>Компонент используется для отображения в отчете штрих-кодов. Данные для кодирования штрих-кода устанавливаются в виде строки. Строка может содержать любые символы, но только разрешенные символы для указанного типа штрих-кода будут отображаться.</StiBarCode>
     <StiChart>Этот компонент используется для отображения диаграмм в отчете. Доступно множество различных типов диаграмм.</StiChart>
+    <StiChartElement>Этот компонент используется для отображения диаграмм в панели индикаторов. Доступно множество различных типов диаграмм.</StiChartElement>
     <StiCheckBox>Компонент для отображения флажков в отчете. Он может менять свой внешний вид в зависимости от условия, которое может принимать два значения: "включено" или "выключено".</StiCheckBox>
     <StiChildBand>Подчиненный бэнд используется для вывода более одного бэнда для одной строки данных.</StiChildBand>
     <StiClone>Этот компонент используется для клонирования части отчета в другое место отчета. Клонирование может быть применено только к компоненту панель.</StiClone>
     <StiColumnFooterBand>Этот бэнд используется для вывода итога колонки данных. Бэнд выводится под каждой колонкой.</StiColumnFooterBand>
     <StiColumnHeaderBand>Этот бэнд используется для вывода заголовка колонки данных. Бэнд выводится над каждой колонкой.</StiColumnHeaderBand>
+    <StiComboBoxElement>Представляет элемент управления, предназначенный для выбора значения, с раскрывающимся списком, который можно отображать и скрывать нажатием принадлежащей этому элементу управления кнопки со стрелкой.</StiComboBoxElement>
     <StiContainer>Это прямоугольная область, где другие компоненты, в том числе и бэнды, могут быть размещены. При перемещении контейнера компоненты размещенные в нем будут также перемещены. Контейнер может размещаться как на бэнде так и на странице.</StiContainer>
     <StiCrossDataBand>Бэнд выводится столько раз, сколько строк в источнике данных, который связан с ним. Бэнд кросс-данные выводится слева направо.</StiCrossDataBand>
     <StiCrossFooterBand>Бэнд используется для вывода итога для бэнда кросс-данные. Итог выводится сразу же после всех строк бэнда кросс-данные. Бэнд кросс-итог выводится слева направо.</StiCrossFooterBand>
@@ -1614,35 +1661,54 @@
     <StiCrossHeaderBand>Бэнд используется для вывода заголовка для бэнда кросс-данные. Заголовок выводится перед выводом строк бэнда кросс-данные. Бэнд кросс-заголовок выводится слева направо.</StiCrossHeaderBand>
     <StiCrossTab>Кросс компонент используется для представления структурированных данных в виде таблицы.</StiCrossTab>
     <StiDataBand>Бэнд выводится столько раз, сколько строк в источнике данных, который связан с ним.</StiDataBand>
+    <StiDatePickerElement>Представляет элемент управления, который позволяет выбрать дату и время.</StiDatePickerElement>
     <StiEmptyBand>Бэнд используется для заполнения свободного пространства в нижней части страницы.</StiEmptyBand>
+    <StiFilterCategory>Группа компонентов для выбора и фильтрации значений.</StiFilterCategory>
     <StiFooterBand>Бэнд используется для вывода итога для бэнда данные. Итог выводится сразу же после всех строк бэнда данные.</StiFooterBand>
     <StiGauge>Компонент отображает значение в пределах заранее определенного диапазона.</StiGauge>
+    <StiGaugeElement>Компонент отображает значение в пределах заранее определенного диапазона.</StiGaugeElement>
     <StiGroupFooterBand>Бэнд используется для вывода итога группы. Он размещается после бэнда данные. Каждый бэнд итог группы принадлежит к определенному заголовку группы.</StiGroupFooterBand>
     <StiGroupHeaderBand>Это основной бэнд для создания отчетов с группировкой. Компоненты для отображения информации по группе размещаются на бэнде заголовке группы. Это может быть название группы, даты, условия группировки и т.д. Бэнд заголовок группы выводится один раз в начале каждой группы.</StiGroupHeaderBand>
     <StiHeaderBand>Бэнд используется для вывода заголовка для бэнда данные. Заголовок выводится перед выводом строк бэнда данные.</StiHeaderBand>
     <StiHierarchicalBand>Бэнд выводится столько раз, сколько строк в источнике данных, который связан с ним. Данные выводятся в виде дерева.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Геометрический примитив - горизонтальная линия. Используется для визуального оформления отчетов.</StiHorizontalLinePrimitive>
     <StiImage>Этот компонент используется для вывода изображений. Он поддерживает следующие графические форматы: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
+    <StiImageElement>Этот компонент используется для вывода изображений. Он поддерживает следующие графические форматы: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiIndicatorElement>Компонент отображает разницу значений между входными данными.</StiIndicatorElement>
+    <StiListBoxElement>Компонент отображает список элементов для выбора.</StiListBoxElement>
     <StiMap>Этот компонент используется для отображения данных, привязанных к географическим локациям.</StiMap>
+    <StiMapCategory>Группа компонентов для работы с картами и данными.</StiMapCategory>
+    <StiMapElement>Этот компонент используется для отображения данных, привязанных к географическим локациям.</StiMapElement>
+    <StiOnlineMapElement>Этот компонент используется для отображения географических маркеров на онлайн-карте.</StiOnlineMapElement>
     <StiOverlayBand>Этот бэнд используется для вывода водяных знаков на странице.</StiOverlayBand>
     <StiPageFooterBand>Бэнд итог страницы используется для вывода информации в нижней части каждой страницы, и используется для вывода номеров страниц, дат и другой дополнительной информации.</StiPageFooterBand>
     <StiPageHeaderBand>Бэнд используется для вывода заголовка страницы. Он выводится в верхней части каждой страницы, и используется для вывода номеров страниц, дат и другой дополнительной информации.</StiPageHeaderBand>
     <StiPanel>Это прямоугольная область, где другие компоненты, в том числе и бэнды, могут быть размещены. При перемещении панели компоненты размещенные на ней будут также перемещены. Панель может размещаться как на бэнде так и на странице.</StiPanel>
+    <StiPanelElement>Это прямоугольная область, где другие компоненты могут быть размещены. При перемещении панели компоненты размещенные на ней будут также перемещены.</StiPanelElement>
+    <StiPivotTableElement>Компонент используется для представления структурированных данных в виде таблицы.</StiPivotTableElement>
+    <StiProgressElement>Компонент отображает процентное соотношение между входными данными. Может быть представлен в различном режиме: кольцо, круг, гистограмма.</StiProgressElement>
     <StiRectanglePrimitive>Геометрический примитив - прямоугольник, используется для визуального оформления отчетов. Левый верхний угол прямоугольника может находится в области одного бэнда, а правый нижний угол - в области другого бэнда.</StiRectanglePrimitive>
+    <StiRegionMapElement>Этот компонент используется для отображения данных, привязанных к географическим локациям.</StiRegionMapElement>
     <StiReportSummaryBand>Этот бэнд используется для вывода итога по всему отчету. Бэнд выводится один раз в конце отчета.</StiReportSummaryBand>
     <StiReportTitleBand>Этот бэнд используется для вывода названия отчета. Он выводится в начале отчета перед другими бэндами.</StiReportTitleBand>
     <StiRichText>Компонент для вывода и редактирования текста RTF. Поддерживает загрузку и сохранение файлов в формате RTF.</StiRichText>
     <StiRoundedRectanglePrimitive>Геометрический примитив - закругленный прямоугольник. Этот примитив аналогичен примитиву прямоугольник за исключением того, что имеет закругленные углы. Примитив поддерживается не всеми видами экспорта.</StiRoundedRectanglePrimitive>
     <StiShape>Компонент предназначенный для отображения различных геометрических примитивов, таких как стрелки, линии, прямоугольники, треугольники.</StiShape>
+    <StiShapeElement>Компонент предназначенный для отображения различных геометрических фигур.</StiShapeElement>
     <StiSubReport>Этот компонент используется для вывода дополнительных данных в разных местах отчета.</StiSubReport>
     <StiTable>Этот компонент представляет собой набор элементов данных, организованных в виде таблицы.</StiTable>
+    <StiTableElement>Этот компонент представляет собой набор элементов данных, организованных в виде таблицы.</StiTableElement>
     <StiText>Основной компонент для вывода текстовой информации в отчете.</StiText>
+    <StiTextElement>Основной компонент для вывода текстовой информации в панели индикаторов.</StiTextElement>
     <StiTextInCells>Компонент для вывода текста в виде ячеек. Обычно используется при печати бланков.</StiTextInCells>
+    <StiTreeViewBoxElement>Элемент управления используется для выбора значений с раскрывающимся списком в виде дерева.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Представляет элемент управления, отображающий иерархические данные в структуре дерева с элементами, которые могут разворачиваться и сворачиваться.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Геометрический примитив - вертикальная линия, используется для визуального оформления отчетов. Вертикальная линия может начинаться в области одного бэнда, а заканчиваться в области другого бэнда.</StiVerticalLinePrimitive>
     <StiWinControl>Компонент предназначенный для отображения визуальных элементов управления .NET Framework.</StiWinControl>
     <StiZipCode>Компонент используется для вывода почтового индекса.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
+    <ActiveRelation>Устанавливает приоритетную Связь для привязки двух таблиц. Она используется в Преобразовании данных и Панели индикаторов. Только одна Связь в каждом Источнике данных может быть активна.</ActiveRelation>
     <Align>Изменение расположения выбранных компонентов.</Align>
     <AlignBottom>Расположить содержимое компонента по нижнему краю.</AlignBottom>
     <AlignCenter>Расположить содержимое компонента по центру по горизонтали.</AlignCenter>
@@ -1712,6 +1778,7 @@
     <GridMode>Отображать сетку точками или линиями.</GridMode>
     <ImageAlignment>Разместить изображение в качестве </ImageAlignment>
     <ImageTransparency>Изменить прозрачность изображения.</ImageTransparency>
+    <LineSpacing>Выберите, какой промежуток будет между строками или между абзацами текста.</LineSpacing>
     <Link>Связать выделенные компоненты с контейнерами, в которых они находятся.</Link>
     <LoadImage>Загрузить изображение для водяного знака из файла.</LoadImage>
     <Lock>Блокировка выделенных компонентов. Компоненты не могут быть перемещены, и нельзя изменить их размеры.</Lock>
@@ -1954,7 +2021,8 @@
     <menuEditViewData>Просмотр данных...</menuEditViewData>
     <menuFile>&amp;Файл</menuFile>
     <menuFileClose>&amp;Закрыть</menuFileClose>
-    <menuFileDashboardNew>Новая панель индикаторов</menuFileDashboardNew>
+    <menuFileDashboardDelete>Удалить панель индикаторов</menuFileDashboardDelete>
+    <menuFileDashboardNew>Создать панель индикаторов</menuFileDashboardNew>
     <menuFileDashboardOpen>&amp;Открыть панель индикаторов...</menuFileDashboardOpen>
     <menuFileDashboardSaveAs>Со&amp;хранить панель индикаторов как...</menuFileDashboardSaveAs>
     <menuFileExit>В&amp;ыход</menuFileExit>
@@ -1995,6 +2063,7 @@
     <menuInsertRowAbove>Вставить строку выше</menuInsertRowAbove>
     <menuInsertRowBelow>Вставить строку ниже</menuInsertRowBelow>
     <menuJoinCells>Объединить ячейки</menuJoinCells>
+    <menuMakeThisRelationActive>Сделать эту связь активной</menuMakeThisRelationActive>
     <menuSelectColumn>Выбрать колонку</menuSelectColumn>
     <menuSelectRow>Выбрать строку</menuSelectRow>
     <menuTable>Таблица</menuTable>
@@ -2035,6 +2104,10 @@
     <ChangeRequestTimeout>Время ожидания для SQL запросов превышает время ожидания запросов дизайнера. Установите время ожидания запросов дизайнера не менее {0} секунд.</ChangeRequestTimeout>
     <DoNotShowAgain>Не показывать снова</DoNotShowAgain>
     <MessageTimeOutExpired>Истекло время ожидания исполнения команды!</MessageTimeOutExpired>
+    <RenderingWillOccurInTheInterpretationMode>При просмотре отчета c общим доступом его построение будет происходить в режиме интерпретации!</RenderingWillOccurInTheInterpretationMode>
+    <ResourceCannotBeDeleted>Ресурс "{0}" не может быть удален, т.к. он используется в отчете!</ResourceCannotBeDeleted>
+    <ShareURLOfTheItemHasBeenUpdated>URL доступа к элементу был обновлен!</ShareURLOfTheItemHasBeenUpdated>
+    <ShareYourReportYouShouldSave>Для того, чтобы предоставить общий доступ к отчету, его необходимо сохранить в Stimulsoft Cloud!</ShareYourReportYouShouldSave>
     <TextRegistrationSuccessfully>Регистрация прошла успешно!</TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>Это поле не заполнено!</ThisFieldIsNotSpecified>
   </Messages>
@@ -2105,6 +2178,7 @@
     <ItemCantBeMovedToSpecifiedPlace>Элемент не может быть перемещен в указанное место!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Элемент не поддерживает "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key и ToKey равны!</KeyAndToKeyAreEqual>
+    <MessageMaximumFileSizeExceeded>Внимание! Вы хотите добавить файл, но его размер превышает максимально-допустимый размер. Все равно добавить этот файл (обработка отчета может замедлиться)?</MessageMaximumFileSizeExceeded>
     <NewProduct>К Вашей подписке добавлен новый продукт!</NewProduct>
     <NewVersionsAvailable>Новая версия доступна!</NewVersionsAvailable>
     <NotificationFailed>Неверный результат!</NotificationFailed>
@@ -2304,10 +2378,12 @@
     <CheckCategory>Флажок</CheckCategory>
     <ColorsCategory>Цвета</ColorsCategory>
     <ColumnsCategory>Колонки</ColumnsCategory>
+    <ComboBoxCategory>Поле со списком</ComboBoxCategory>
     <ControlCategory>Управление</ControlCategory>
     <ControlsEventsCategory>События элементов управления</ControlsEventsCategory>
     <CrossTabCategory>Кросс-таблица</CrossTabCategory>
     <DataCategory>Данные</DataCategory>
+    <DatePickerCategory>Выбор даты</DatePickerCategory>
     <DescriptionCategory>Описание</DescriptionCategory>
     <DesignCategory>Редактирование</DesignCategory>
     <DisplayCategory>Отображение</DisplayCategory>
@@ -2323,6 +2399,7 @@
     <IndicatorCategory>Индикатор</IndicatorCategory>
     <InterlacingCategory>Чередование</InterlacingCategory>
     <LegendCategory>Легенда</LegendCategory>
+    <ListBoxCategory>Список</ListBoxCategory>
     <MainCategory>Основные</MainCategory>
     <MarkerCategory>Маркер</MarkerCategory>
     <MiscCategory>Прочие</MiscCategory>
@@ -2330,15 +2407,18 @@
     <NavigationCategory>Навигация</NavigationCategory>
     <NavigationEventsCategory>Навигация</NavigationEventsCategory>
     <Needle>Стрелка</Needle>
+    <OnlineMapCategory>Онлайн-карта</OnlineMapCategory>
     <OptionsCategory>Параметры</OptionsCategory>
     <PageAdditionalCategory>Страница, дополнительные</PageAdditionalCategory>
     <PageCategory>Страница</PageCategory>
     <PageColumnBreakCategory>Разрыв страницы или колонки</PageColumnBreakCategory>
     <ParametersCategory>Параметры</ParametersCategory>
+    <PivotTableCategory>Сводная таблица</PivotTableCategory>
     <PositionCategory>Расположение</PositionCategory>
     <PrimitiveCategory>Примитив</PrimitiveCategory>
     <PrintEventsCategory>Печать</PrintEventsCategory>
     <ProgressCategory>Прогресс</ProgressCategory>
+    <RegionMapCategory>Региональная карта</RegionMapCategory>
     <RenderEventsCategory>Построение</RenderEventsCategory>
     <SeriesCategory>Серии</SeriesCategory>
     <SeriesLabelsCategory>Заголовки рядов</SeriesLabelsCategory>
@@ -2349,6 +2429,8 @@
     <TextAdditionalCategory>Текст, дополнительные</TextAdditionalCategory>
     <TextCategory>Текст</TextCategory>
     <TitleCategory>Заголовок</TitleCategory>
+    <TreeViewBoxCategory>Поле с деревом</TreeViewBoxCategory>
+    <TreeViewCategory>Дерево</TreeViewCategory>
     <TrendLineCategory>Линия тренда</TrendLineCategory>
     <ValueCategory>Значение</ValueCategory>
     <ValueCloseCategory>Закрывающее значение</ValueCloseCategory>
@@ -2566,6 +2648,8 @@
     <PictureBoxSizeModeCenterImage>Центрировать изображение</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>Нормальный</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>Растягивать</PictureBoxSizeModeStretchImage>
+    <RelationDirectionChildToParent>От подчиненного к главному</RelationDirectionChildToParent>
+    <RelationDirectionParentToChild>От главного к подчиненному</RelationDirectionParentToChild>
     <RightToLeftInherit>Наследовать</RightToLeftInherit>
     <RightToLeftNo>Нет</RightToLeftNo>
     <RightToLeftYes>Да</RightToLeftYes>
@@ -2648,9 +2732,15 @@
     <StiCrossHorAlignmentLeft>По левому краю</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Нет</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>По правому краю</StiCrossHorAlignmentRight>
+    <StiDateSelectionModeAutoRange>Автодиапазон</StiDateSelectionModeAutoRange>
+    <StiDateSelectionModeRange>Диапазон</StiDateSelectionModeRange>
+    <StiDateSelectionModeSingle>Один</StiDateSelectionModeSingle>
     <StiDateTimeTypeDate>Дата</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Дата и время</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Время</StiDateTimeTypeTime>
+    <StiDisplayNameTypeFull>Полное</StiDisplayNameTypeFull>
+    <StiDisplayNameTypeNone>Нет</StiDisplayNameTypeNone>
+    <StiDisplayNameTypeShort>Короткое</StiDisplayNameTypeShort>
     <StiDockStyleBottom>Внизу</StiDockStyleBottom>
     <StiDockStyleFill>Все</StiDockStyleFill>
     <StiDockStyleLeft>Слева</StiDockStyleLeft>
@@ -2677,6 +2767,8 @@
     <StiFilterConditionEqualTo>равно</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>больше чем</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>больше чем или равно</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsBlank>пробелы</StiFilterConditionIsBlank>
+    <StiFilterConditionIsNotBlank>не пробелы</StiFilterConditionIsNotBlank>
     <StiFilterConditionIsNotNull>не является null</StiFilterConditionIsNotNull>
     <StiFilterConditionIsNull>является null</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>меньше чем</StiFilterConditionLessThan>
@@ -2708,6 +2800,7 @@
     <StiGaugeCalculationModeCustom>По выбору</StiGaugeCalculationModeCustom>
     <StiGaugeTypeFullCircular>Полный циферблат</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Половина циферблата</StiGaugeTypeHalfCircular>
+    <StiGaugeTypeLinear>Линейный</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>По возрастанию</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>По убыванию</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Нет</StiGroupSortDirectionNone>
@@ -2727,10 +2820,13 @@
     <StiImageRotationRotate180>Повернуть на 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Повернуть на 90° против часовой стрелки</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Повернуть на  90° по часовой стрелке</StiImageRotationRotate90CW>
+    <StiItemSelectionModeMulti>Много элементов</StiItemSelectionModeMulti>
+    <StiItemSelectionModeOne>Один элемент</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Держать детали вместе</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Держать первую деталь</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Держать первую строку</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Нет</StiKeepDetailsNone>
+    <StiLabelsPlacementAutoRotation>Автоповорот</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Нет</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>В одну линию</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>В две линии</StiLabelsPlacementTwoLines>
@@ -2753,8 +2849,8 @@
     <StiMapTypeGroup>Группа</StiMapTypeGroup>
     <StiMapTypeHeatmap>Тепловая карта</StiMapTypeHeatmap>
     <StiMapTypeHeatmapWithGroup>Тепловая карта с группировкой</StiMapTypeHeatmapWithGroup>
-    <StiMapTypeNone>Нет</StiMapTypeNone>
     <StiMapTypeIndividual>Индивидуальная</StiMapTypeIndividual>
+    <StiMapTypeNone>Нет</StiMapTypeNone>
     <StiMapTypePoints>Точки</StiMapTypePoints>
     <StiMarkerAlignmentLeft>Слева</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Справа</StiMarkerAlignmentRight>
@@ -3193,6 +3289,7 @@
     <ChildSource>Подчиненный источник данных</ChildSource>
     <ClearFormat>Очищать формат</ClearFormat>
     <CloneContainer>Клонировать контейнер</CloneContainer>
+    <CloseValues>Значения закрытия</CloseValues>
     <Code>Код</Code>
     <CodePage>Кодовая страница</CodePage>
     <Collapsed>Свернутый</Collapsed>
@@ -3203,6 +3300,7 @@
     <Color>Цвет</Color>
     <ColorDataColumn>Колонка данных цветов</ColorDataColumn>
     <ColorEach>Цвет для каждого</ColorEach>
+    <ColorMeter>Цвет</ColorMeter>
     <ColorScaleCondition>Цветовая шкала</ColorScaleCondition>
     <ColorScaleType>Тип цветовой шкалы</ColorScaleType>
     <Column>Колонка</Column>
@@ -3256,6 +3354,7 @@
     <DateInfo>Информация о датах</DateInfo>
     <DateTimeStep>Шаг времени</DateTimeStep>
     <Default>По умолчанию</Default>
+    <DefaultColor>Цвет по умолчанию</DefaultColor>
     <DefaultHeightCell>Высота ячейки по умолчанию</DefaultHeightCell>
     <DefaultNamespace>Пространство имен</DefaultNamespace>
     <DependentColumn>Зависимая колонка</DependentColumn>
@@ -3266,6 +3365,7 @@
     <Diameter>Диаметр</Diameter>
     <Direction>Направление</Direction>
     <Disabled>Выключенный</Disabled>
+    <DisplayNameType>Отображать наименование типа</DisplayNameType>
     <DisplayValue>Отображаемое значение</DisplayValue>
     <Distance>Дистанция</Distance>
     <DistanceBetweenTabs>Дистанция между</DistanceBetweenTabs>
@@ -3304,6 +3404,7 @@
     <EndCap>Тип конца</EndCap>
     <EndColor>Конечный цвет</EndColor>
     <EndValue>Конечное значение</EndValue>
+    <EndValues>Конечные значения</EndValues>
     <EndWidth>Конечная ширина</EndWidth>
     <EngineVersion>Версия ядра</EngineVersion>
     <EnumeratorSeparator>Разделитель счетчика</EnumeratorSeparator>
@@ -3324,6 +3425,7 @@
     <Fill>Заполнение</Fill>
     <FillColor>Цвет заполнения</FillColor>
     <Filter>Фильтр</Filter>
+    <FilterElements>Элементы фильтрации</FilterElements>
     <FilterEngine>Режим фильтрации</FilterEngine>
     <FilterMode>Режим фильтрации</FilterMode>
     <FilterOn>Фильтр включен</FilterOn>
@@ -3369,7 +3471,9 @@
     <GridLinesVert>Вертикальные линии сетки</GridLinesVert>
     <GridLinesVertColor>Цвет вертикальных линий сетки</GridLinesVertColor>
     <GridOutline>Контур таблицы</GridOutline>
+    <Group>Группа</Group>
     <GroupDataColumn>Колонка данных групп</GroupDataColumn>
+    <GroupMeter>Группа</GroupMeter>
     <GrowToHeight>Расти в высоту</GrowToHeight>
     <HeaderBackColor>Цвет заголовка</HeaderBackColor>
     <HeaderCanBreak>Заголовок может разрываться</HeaderCanBreak>
@@ -3390,6 +3494,7 @@
     <HideZeros>Скрывать нулевые значения</HideZeros>
     <High>Высокое</High>
     <HighlightCondition>Условное выделение</HighlightCondition>
+    <HighValues>Максимальные значения</HighValues>
     <HorAlignment>Горизонтальное выравнивание</HorAlignment>
     <HorSpacing>Расстояние по горизонтали</HorSpacing>
     <HotkeyPrefix>Префикс горячей клавиши</HotkeyPrefix>
@@ -3440,10 +3545,13 @@
     <KeepGroupHeaderTogether>Держать заголовок группы вместе</KeepGroupHeaderTogether>
     <KeepGroupTogether>Держать группу вместе</KeepGroupTogether>
     <KeepHeaderTogether>Держать заголовок вместе</KeepHeaderTogether>
+    <KeepMergedCellsTogether>Держать объединенные ячейки вместе</KeepMergedCellsTogether>
     <KeepReportSummaryTogether>Держать итог отчета вместе</KeepReportSummaryTogether>
     <KeepSubReportTogether>Держать Вложенный отчет вместе</KeepSubReportTogether>
     <Key>Ключ</Key>
     <KeyDataColumn>Колонка данных с ключом</KeyDataColumn>
+    <KeyMeter>Ключ</KeyMeter>
+    <KeyMeters>Ключи</KeyMeters>
     <Keys>Ключи</Keys>
     <Label>Метка</Label>
     <LabelColor>Цвет заголовка</LabelColor>
@@ -3472,6 +3580,7 @@
     <LineLimit>Ограничение строки</LineLimit>
     <LineMarker>Маркер линии</LineMarker>
     <LinesOfUnderline>Линии подчеркивания</LinesOfUnderline>
+    <LineSpacing>Междустрочный интервал</LineSpacing>
     <LineStyle>Стиль линии</LineStyle>
     <LineWidth>Толщина линии</LineWidth>
     <Linked>Связь</Linked>
@@ -3493,10 +3602,13 @@
     <LogarithmicScale>Логарифмическая шкала</LogarithmicScale>
     <Longitude>Долгота</Longitude>
     <Low>Низкое</Low>
+    <LowValues>Минимальные значения</LowValues>
     <MajorInterval>Основной интервал</MajorInterval>
     <MapID>Карта</MapID>
+    <Maps>Карты</Maps>
     <MapStyle>Стиль</MapStyle>
     <MapType>Тип карты</MapType>
+    <Margin>Отступ снаружи</Margin>
     <Margins>Поля</Margins>
     <Marker>Маркер</Marker>
     <MarkerAlignment>Выравнивание маркера</MarkerAlignment>
@@ -3545,6 +3657,7 @@
     <Name>Наименование</Name>
     <NameDataColumn>Колонка данных названий</NameDataColumn>
     <NameInSource>Наименование в источнике</NameInSource>
+    <NameMeter>Наименование</NameMeter>
     <NameParent>Наименование главного</NameParent>
     <Namespaces>Пространства имен</Namespaces>
     <Negative>Негативный</Negative>
@@ -3564,10 +3677,12 @@
     <Offset>Смещение</Offset>
     <OffsetAngle>Угол смещения</OffsetAngle>
     <OnlyText>Только текст</OnlyText>
+    <OpenValues>Значения открытия</OpenValues>
     <Operation>Операция</Operation>
     <Options>Параметры</Options>
     <Orientation>Ориентация</Orientation>
     <OthersText>Текст для остальных значений</OthersText>
+    <Padding>Отступ внутри</Padding>
     <PageHeight>Высота</PageHeight>
     <PageNumbers>Номера страниц</PageNumbers>
     <PageWidth>Ширина</PageWidth>
@@ -3667,6 +3782,7 @@
     <RowCount>Количество строк</RowCount>
     <RowHeadersVisible>Видимость заголовков</RowHeadersVisible>
     <RowHeaderWidth>Ширина заголовка строки</RowHeaderWidth>
+    <Rows>Строки</Rows>
     <Scale>Масштаб</Scale>
     <ScaleHor>Масштабирование по горизонтали</ScaleHor>
     <ScriptLanguage>Скриптовый язык</ScriptLanguage>
@@ -3697,6 +3813,8 @@
     <ShapeType>Тип геометрии</ShapeType>
     <Shift>Смещение</Shift>
     <ShiftMode>Режим смещения</ShiftMode>
+    <ShortName>Короткое имя</ShortName>
+    <ShortValue>Короткое значение</ShortValue>
     <ShowBehind>Показывать сзади</ShowBehind>
     <ShowDialog>Показывать диалог</ShowDialog>
     <ShowEdgeValues>Показывать крайние значения</ShowEdgeValues>
@@ -3707,6 +3825,7 @@
     <ShowLabelText>Показывать текст</ShowLabelText>
     <ShowLegend>Показывать легенду</ShowLegend>
     <ShowMarker>Показывать маркер</ShowMarker>
+    <ShowName>Показывать наименование</ShowName>
     <ShowNulls>Показывать неопределенные</ShowNulls>
     <ShowOnZeroValues>Показывать при нулевых величинах</ShowOnZeroValues>
     <ShowOthers>Показывать остальные значения</ShowOthers>
@@ -3714,6 +3833,7 @@
     <ShowQuietZoneIndicator>Показывать Quiet Zone индикатор</ShowQuietZoneIndicator>
     <ShowQuietZones>Показывать Quiet Zones</ShowQuietZones>
     <ShowScrollBar>Показывать полосу прокрутки</ShowScrollBar>
+    <ShowSelectAll>Показывать Выбрать все</ShowSelectAll>
     <ShowSeriesLabels>Показывать подписи рядов</ShowSeriesLabels>
     <ShowShadow>Показывать тени</ShowShadow>
     <ShowTotal>Показывать итоги</ShowTotal>
@@ -3767,12 +3887,14 @@
     <Strikeout>Зачеркнутый</Strikeout>
     <StripBrush>Кисть полосы</StripBrush>
     <Strips>Полосы</Strips>
+    <Stroke>Зачеркнутый</Stroke>
     <StructuredAppendPosition>Structured Append Position</StructuredAppendPosition>
     <StructuredAppendTotal>StructuredAppendTotal</StructuredAppendTotal>
     <Style>Стиль</Style>
     <StyleColors>Цвета стиля</StyleColors>
     <Styles>Стили</Styles>
     <SubReportPage>Страница суб-отчета</SubReportPage>
+    <Summaries>Итоги</Summaries>
     <Summary>Итог</Summary>
     <SummaryExpression>Выражение суммирования</SummaryExpression>
     <SummarySortDirection>Направление сортировки суммирования</SummarySortDirection>
@@ -3854,6 +3976,7 @@
     <ValueEnd>Конечное значение</ValueEnd>
     <ValueHigh>Значение максимума</ValueHigh>
     <ValueLow>Значение минимума</ValueLow>
+    <ValueMeter>Значение</ValueMeter>
     <ValueOpen>Значение открытия</ValueOpen>
     <Values>Значения</Values>
     <ValueType>Тип значения</ValueType>
@@ -3871,7 +3994,7 @@
     <Weights>Веса</Weights>
     <Width>Ширина</Width>
     <WindowState>Состояние окна</WindowState>
-    <WordWrap>Перенос текста</WordWrap>
+    <WordWrap>Перенос слов</WordWrap>
     <Wrap>Перенос</Wrap>
     <WrapGap>Промежуток переноса</WrapGap>
     <XAxis>Ось X</XAxis>
@@ -3993,6 +4116,7 @@
     <qnSynchronizeServices>Синхронизировать сервисы?</qnSynchronizeServices>
   </Questions>
   <Report>
+    <ActiveRelation>Активная связь</ActiveRelation>
     <Address>Адрес</Address>
     <Alphabetical>По алфавиту</Alphabetical>
     <Bands>Секции</Bands>
@@ -4073,8 +4197,8 @@
     <Professional>Расширенный</Professional>
     <ProfessionalConfiguration>Все свойства объектов без исключений.</ProfessionalConfiguration>
     <PropertiesTab>Свойства</PropertiesTab>
-    <RangeAll>все</RangeAll>
-    <RangeCurrentPage>текущая</RangeCurrentPage>
+    <RangeAll>Все</RangeAll>
+    <RangeCurrentPage>Текущая</RangeCurrentPage>
     <RangeInfo>Введите номера или диапазоны страниц, разделенные запятыми. Например: 1, 3, 5-12</RangeInfo>
     <RangePage>Страницы</RangePage>
     <RangePages>номера</RangePages>

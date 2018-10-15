@@ -56,7 +56,9 @@
     <StiVerySmallSizesOfComponentsLong>The size of a component will be increased to the GridSize value of a report. This operation does not guarantee the 100% correct fix!</StiVerySmallSizesOfComponentsLong>
     <StiVerySmallSizesOfComponentsShort>Increase size</StiVerySmallSizesOfComponentsShort>
     <StiWordWrapCanGrowTextDoesNotFitActionLong>Set the value of the CanGrow property of the component to true.</StiWordWrapCanGrowTextDoesNotFitActionLong>
-	<Zero>Zero</Zero>
+	  <Zero>Zero</Zero>
+    <StiApplyGeneralTextFormatShort>Apply General</StiApplyGeneralTextFormatShort>
+    <StiApplyGeneralTextFormatLong>Set the 'General' format for the '{0}' component.</StiApplyGeneralTextFormatLong>
   </CheckActions>
   <CheckComponent>
     <StiAllowHtmlTagsInTextCheckLong>HTML tags are used in the text. But the AllowHtmlTags property is set to false. The content of the {0} component will be printed incorrectly.</StiAllowHtmlTagsInTextCheckLong>
@@ -160,6 +162,8 @@
     <StiWidthHeightZeroComponentCheckShortWidthHeight>The height and width of the '{0}' component are equal to 0</StiWidthHeightZeroComponentCheckShortWidthHeight>
     <StiWordWrapCanGrowTextDoesNotFitLong>If the WordWrap property is set to true, and the CanGrow property is set to false, then the text of the {0} component cannot be shown completely. It is recommended to set the CanGrow property to true.</StiWordWrapCanGrowTextDoesNotFitLong>
     <StiWordWrapCanGrowTextDoesNotFitShort>The text may not fit</StiWordWrapCanGrowTextDoesNotFitShort>
+    <StiTextTextFormatCheckShort>The format is not specified.</StiTextTextFormatCheckShort>
+    <StiTextTextFormatCheckLong>The selected format for the '{0}' component is not specified.</StiTextTextFormatCheckLong>
   </CheckComponent>
   <CheckConnection>
     <StiUndefinedConnectionCheckLong>Undefined '{0}' connection is found. The reporting tool cannot correctly process such type of connection with the database! May be the customer types of connections are used in the report. This report cannot be rendered!</StiUndefinedConnectionCheckLong>
@@ -820,6 +824,7 @@
     <GetDisplayCrossValueEvent>A script of the event GetDisplayCrossValueEvent.</GetDisplayCrossValueEvent>
     <HideZeros>A value indicates that no need show zeroes.</HideZeros>
     <MergeHeaders>A value indicates that all equal values of header will be merged into one.</MergeHeaders>
+    <KeepMergedCellsTogether>A value indicates that merged cells will not separate to next page.</KeepMergedCellsTogether>
     <PrintOnAllPages>A value indicates that the component is printed on all pages.</PrintOnAllPages>
     <ShowPercents>A value indicates that value in cell must be shown as percents.</ShowPercents>
     <ShowTotal>A value that indicates whether it is necessary to output totals or not.</ShowTotal>
@@ -1836,7 +1841,7 @@
   </Universal>
   <Publish>
     <Publish>Publish</Publish>
-	<DeployReportPlatform>Deploy Report to Platform:</DeployReportPlatform>
+    <DeployReportPlatform>Deploy Report to Platform:</DeployReportPlatform>
     <PublishType>Report Publish Type:</PublishType>
     <PublishTypeProject>Project</PublishTypeProject>
     <PublishTypeStandalone>Standalone</PublishTypeStandalone>
@@ -1871,8 +1876,9 @@
     <RegDataSynchronize>Synchronize Report Dictionary</RegDataSynchronize>
     <RegDataOnlyForPreview>Use Only for Report Preview</RegDataOnlyForPreview>
     <ParametersFromReport>Use Value from Report</ParametersFromReport>
-    <ParametersReplace>Replace Value from Code</ParametersReplace>
+    <ParametersReplace>Replace Value from {0}Code</ParametersReplace>
     <ParametersRequestFromUser>Request from User</ParametersRequestFromUser>
+    <ParametersReplacePhpInfo>The parameter will be removed from the report dictionary and can be used only in the SQL query.</ParametersReplacePhpInfo>
     <IncludeLicenseKey>Include License Key</IncludeLicenseKey>
     <LicenseKeyTypeString>String</LicenseKeyTypeString>
     <LicenseKeyTypeFile>File</LicenseKeyTypeFile>
@@ -1903,5 +1909,6 @@
     <AddNewConnection>Add New Connection</AddNewConnection>
     <ReplaceConnectionString>Replace Connection String</ReplaceConnectionString>
     <ReplacePathToData>Replace Path to the Data</ReplacePathToData>
+    <Use>Use</Use>
   </Publish>
 </Localization>

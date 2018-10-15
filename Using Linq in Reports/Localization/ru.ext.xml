@@ -3,6 +3,7 @@
   <CheckActions>
     <ApplyEngineV2Long>Задать значение свойства EngineVersion равное EngineV2, чтобы получить доступ ко всем возможностям генератора отчета.</ApplyEngineV2Long>
     <Change>Изменить</Change>
+    <ChangeReportToInterpretationMode>Переключить отчёт в режим интерпретации</ChangeReportToInterpretationMode>
     <Code>Код</Code>
     <Convert>Преобразовать</Convert>
     <Delete>Удалить</Delete>
@@ -17,6 +18,8 @@
     <SetGrowToHeightToTrue>Установить свойство GrowToHeight в true</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>Задать у компонента значение свойства AllowHtmlTags равное true, для правильного отображения html-тэгов.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>Задать значение свойства NumberOfPass равное DoublePass, для правильного расчета перемененных.</StiAllowOnDoublePassActionLong>
+    <StiApplyGeneralTextFormatLong>Установить 'Общий' формат для  компонента '{0}'.</StiApplyGeneralTextFormatLong>
+    <StiApplyGeneralTextFormatShort>Применить Общий</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>Задать у компонента значение свойства CanBreak равное true.</StiCanBreakComponentInContainerActionLong>
     <StiCanGrowComponentInContainerActionLong>Задать у контейнера значение свойства CanGrow равное true.</StiCanGrowComponentInContainerActionLong>
     <StiCanGrowGrowToHeightComponentInContainerLong>Значение свойства GrowToHeight будет установлено в true для всех компонентов в контейнере. Данное действие не дает 100% гарантию правильного исправления!</StiCanGrowGrowToHeightComponentInContainerLong>
@@ -93,6 +96,10 @@
     <StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>В контейнере '{0}' количество CrossGroupFooter не соответствует количеству CrossGroupHeader. Лишние компоненты не будут построены.</StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>
     <StiDataSourcesForImageCheckLong>У компонента '{0}' задано больше одного источника данных.</StiDataSourcesForImageCheckLong>
     <StiDataSourcesForImageCheckShort>Задано несколько источников данных</StiDataSourcesForImageCheckShort>
+    <StiFilterCircularDependencyElementCheckLong>Циклическая зависимость фильтра найдена у '{0}' элемента. Пожалуйста, проверьте свойство 'Главный элемент' у '{0}' элемента!</StiFilterCircularDependencyElementCheckLong>
+    <StiFilterCircularDependencyElementCheckShort>Циклическая зависимость фильтра</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterValueCheckLong>Для компонента {0} задан фильтр, но в нём не задано значение. Поэтому фильтр не применяется.</StiFilterValueCheckLong>
+    <StiFilterValueCheckShort>В фильтре не задано значение</StiFilterValueCheckShort>
     <StiFontMissingCheckLong>Шрифт '{0}' указанный для компонента '{1}' не найден.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>Шрифт не найден.</StiFontMissingCheckShort>
     <StiFunctionsOnlyForEngineV2CheckLong>В отчете используются системные переменные, которые не доступны в EngineV1. Вам необходимо переключиться на EngineV2.</StiFunctionsOnlyForEngineV2CheckLong>
@@ -146,6 +153,8 @@
     <StiSystemTextObsoleteCheckShort>Компонент устарел</StiSystemTextObsoleteCheckShort>
     <StiTextColorEqualToBackColorCheckLong>Возможно вы неверно задали значения свойств TextBrush и Brush у компонента '{0}'. Текст компонента не будет виден.</StiTextColorEqualToBackColorCheckLong>
     <StiTextColorEqualToBackColorCheckShort>Значение свойства TextBrush равно значению свойства Brush</StiTextColorEqualToBackColorCheckShort>
+    <StiTextTextFormatCheckLong>Выбранный для компонента '{0}' текстовый формат не может быть применён, т.к. результат выражения уже является текстовой строкой.</StiTextTextFormatCheckLong>
+    <StiTextTextFormatCheckShort>Формат не может быть применён.</StiTextTextFormatCheckShort>
     <StiTotalPageCountDoublePassCheckLong>Системные переменные TotalPageCount, TotalPageCountThrough в скриптах и условиях при одном проходе выдают некорректные результаты. Требуется задать значение свойства NumberOfPass равное DoublePass.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>В отчете найден неизвестный компонент '{0}'. Генератор отчетов не может определить тип этого компонента. Возможно, это пользовательский компонент. В текущем состоянии отчет не может быть построен!</StiUndefinedComponentCheckLong>
     <StiUndefinedComponentCheckShort>Неизвестный компонент</StiUndefinedComponentCheckShort>
@@ -183,14 +192,14 @@
     <StiSourcesInAbsentDataRelationCheckShort>Нет источников данных</StiSourcesInAbsentDataRelationCheckShort>
   </CheckDataRelation>
   <CheckDataSource>
+    <StiCalculatedColumnRecursionCheckLong>Вычисляемая колонка '{0}' источника данных '{1}' содержит выражение с рекурсией. Нельзя ссылаться на вычисляемую колонку в выражении этой же колонки.</StiCalculatedColumnRecursionCheckLong>
+    <StiCalculatedColumnRecursionCheckShort>Рекурсивное выражение</StiCalculatedColumnRecursionCheckShort>
     <StiNoNameDataSourceCheckLong>У источника данных не указано имя (Name). Это имя используется для создания класса в коде отчета данного источника данных. Без указания имени, генератор отчетов не сможет создать код отчета и отчет не будет скомпилирован!</StiNoNameDataSourceCheckLong>
     <StiNoNameDataSourceCheckShort>Источник данных без имени</StiNoNameDataSourceCheckShort>
     <StiNoNameInSourceDataSourceCheckLong>У источника данных '{0}' не заполнено поле 'Наименование в источнике данных (Name In Source)'. Без заполнения этого поля, генератор отчетов не сможет найти данные для источника данных в базе данных и отчет не будет построен!</StiNoNameInSourceDataSourceCheckLong>
     <StiNoNameInSourceDataSourceCheckShort>У источника данных не заполнено поле 'Наименование в источнике данных'</StiNoNameInSourceDataSourceCheckShort>
     <StiUndefinedDataSourceCheckLong>В отчете найден источник данных '{0}' неизвестного типа. Генератор отчетов не сможет корректно обработать такой тип источника данных! Возможно в отчете используются пользовательские источники данных. Такой отчет не может быть построен!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>Неизвестный источник данных</StiUndefinedDataSourceCheckShort>
-    <StiCalculatedColumnRecursionCheckLong>Вычисляемая колонка '{0}' источника данных '{1}' содержит выражение с рекурсией. Нельзя ссылаться на вычисляемую колонку в выражении этой же колонки.</StiCalculatedColumnRecursionCheckLong>
-    <StiCalculatedColumnRecursionCheckShort>Рекурсивное выражение</StiCalculatedColumnRecursionCheckShort>
   </CheckDataSource>
   <CheckGlobal>
     <Error>Ошибка! </Error>
@@ -206,6 +215,8 @@
     <StiOrientationPageCheckShort>Возможно неверная ориентация страницы '{0}'.</StiOrientationPageCheckShort>
   </CheckPage>
   <CheckReport>
+    <StiCloudCompilationModeCheckLong>Stimulsoft Cloud не может построить отчёт в режиме компиляции. Переключите отчёт в режим интерпретации.</StiCloudCompilationModeCheckLong>
+    <StiCloudCompilationModeCheckShort>Отчёт в режиме компиляции</StiCloudCompilationModeCheckShort>
     <StiCompilationErrorAssemblyCheckLong>Невозможно загрузить файл или сборку '{0}' или один из зависимых от них компонентов.</StiCompilationErrorAssemblyCheckLong>
     <StiCompilationErrorCheck2Long>Выявлена ошибка компиляции в свойстве '{1}' компонента '{2}':</StiCompilationErrorCheck2Long>
     <StiCompilationErrorCheck3Long>Выявлена ошибка компиляции в событии '{1}' компонента '{2}':</StiCompilationErrorCheck3Long>
@@ -229,6 +240,78 @@
     <Strikeout>Значение определяет, что текст перечеркнутый.</Strikeout>
     <Underline>Значение определяет, что текст подчеркнутый.</Underline>
   </Font>
+  <Publish>
+    <ActionDesign>Редактировать</ActionDesign>
+    <ActionExport>Экспортировать</ActionExport>
+    <ActionShow>Отобразить</ActionShow>
+    <AddNewConnection>Добавить новое соединение</AddNewConnection>
+    <Cancel>Отмена</Cancel>
+    <Close>Закрыть</Close>
+    <ConnectionsFromReport>Использовать заданное в отчете подключение</ConnectionsFromReport>
+    <ConnectionsRegData>Подключить данные из кода</ConnectionsRegData>
+    <ConnectionsReplace>Заменить строку подключения</ConnectionsReplace>
+    <Copy>Копировать</Copy>
+    <CopyingLibraries>Копирование файлов проекта...</CopyingLibraries>
+    <DeployReportPlatform>Платформа для развертывания отчета:</DeployReportPlatform>
+    <DownloadingLibraries>Загрузка библиотек...</DownloadingLibraries>
+    <ExportFormat>Формат экспорта:</ExportFormat>
+    <ExportFormatData>Данные</ExportFormatData>
+    <ExportFormatDataType>Тип данных:</ExportFormatDataType>
+    <ExportFormatImage>Изображение</ExportFormatImage>
+    <ExportFormatImageType>Тип изображения:</ExportFormatImageType>
+    <FullScreenViewer>Отобразить вьювер на все окно Web-браузера</FullScreenViewer>
+    <GetLibrariesFrom>Подключить библиотеки Stimulsoft из {0}</GetLibrariesFrom>
+    <GroupAddons>Дополнительно</GroupAddons>
+    <GroupConnections>Подключения к данным</GroupConnections>
+    <GroupParameters>Параметры отчета</GroupParameters>
+    <HideOptions>Скрыть опции</HideOptions>
+    <IncludeFonts>Добавить шрифты</IncludeFonts>
+    <IncludeLibrariesToStandalone>Добавить библиотеки Stimulsoft в исполняемый файл</IncludeLibrariesToStandalone>
+    <IncludeLicenseKey>Добавить лицензионный ключ</IncludeLicenseKey>
+    <IncludeLocalization>Добавить локализацию</IncludeLocalization>
+    <IncludeReportPackedStringToCode>Добавить отчет в код в виде упакованной строки</IncludeReportPackedStringToCode>
+    <IncludeUITheme>Добавить тему оформления</IncludeUITheme>
+    <JavaScriptFramework>Тип фрэймворка:</JavaScriptFramework>
+    <LicenseKeyTypeFile>Файл</LicenseKeyTypeFile>
+    <LicenseKeyTypeString>Строка</LicenseKeyTypeString>
+    <LoadReport>Загружать отчет как:</LoadReport>
+    <LoadReportAssembly>Сборка</LoadReportAssembly>
+    <LoadReportByteArray>Байтовый массив</LoadReportByteArray>
+    <LoadReportClass>Класс</LoadReportClass>
+    <LoadReportFile>Файл</LoadReportFile>
+    <LoadReportHyperlink>Ссылка</LoadReportHyperlink>
+    <LoadReportResource>Ресурс</LoadReportResource>
+    <LoadReportStream>Поток</LoadReportStream>
+    <LoadReportString>Строка</LoadReportString>
+    <ParametersFromReport>Использовать заданное в отчете значение</ParametersFromReport>
+    <ParametersReplace>Заменить значение из {0}кода</ParametersReplace>
+    <ParametersReplacePhpInfo>Параметр будет удален из словаря отчета и может быть использован только в SQL запросе.</ParametersReplacePhpInfo>
+    <ParametersRequestFromUser>Запрашивать у пользователя</ParametersRequestFromUser>
+    <Publish>Опубликовать</Publish>
+    <PublishType>Тип развертывания:</PublishType>
+    <PublishTypeProject>Проект</PublishTypeProject>
+    <PublishTypeStandalone>Автономное приложение</PublishTypeStandalone>
+    <ReadMore>Подробнее</ReadMore>
+    <RegDataOnlyForPreview>Использовать только для предварительного просмотра отчета</RegDataOnlyForPreview>
+    <RegDataSynchronize>Синхронизировать словарь данных отчета</RegDataSynchronize>
+    <ReplaceConnectionString>Заменить строку подключения</ReplaceConnectionString>
+    <ReplacePathToData>Заменить путь к данным</ReplacePathToData>
+    <ReportAction>Действие над отчетом:</ReportAction>
+    <ReportErrors>К сожалению, этот отчет не может быть опубликован из-за наличия ошибок!</ReportErrors>
+    <SaveProjectPackage>Сохранить пакет проекта</SaveProjectPackage>
+    <SaveStandalone>Сохранить автономный</SaveStandalone>
+    <SaveStandalonePackage>Сохранить автономный пакет</SaveStandalonePackage>
+    <SearchLibraries>Поиск библиотек...</SearchLibraries>
+    <ShowMore>Показать еще</ShowMore>
+    <ShowOptions>Показать опции</ShowOptions>
+    <ThemeBackground>Фоновый цвет:</ThemeBackground>
+    <ThemeStyle>Стиль оформления:</ThemeStyle>
+    <TrialVersion>Пробная версия</TrialVersion>
+    <Use>Использовать</Use>
+    <UseCompilationCache>Использовать компиляцию для кэширования</UseCompilationCache>
+    <UseCompressedScripts>Использовать сжатые скрипты</UseCompressedScripts>
+    <UseWpfDesignerV2>Использовать дизайнер V2</UseWpfDesignerV2>
+  </Publish>
   <ReportComparer>
     <Change>Изменить</Change>
     <Copy>Копировать</Copy>
@@ -367,8 +450,13 @@
     <ArrowHeight>Коэффициент высоты стрелки.</ArrowHeight>
     <ArrowWidth>Коэффициент ширины стрелки.</ArrowWidth>
   </StiArrowShapeType>
+  <StiAustraliaPost4StateBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiAustraliaPost4StateBarCodeType>
   <StiAxis>
     <ArrowStyle>Стиль стрелки оси.</ArrowStyle>
+    <Interaction>Параметры взаимодействия данного компонента.</Interaction>
     <Labels>Настройки подписей оси.</Labels>
     <LineColor>Цвет линии, который будет использоваться для рисования оси.</LineColor>
     <LineStyle>Стиль линий оси.</LineStyle>
@@ -406,7 +494,7 @@
     <TextAlignment>Выравнивание текста подписи.</TextAlignment>
     <TextBefore>Строка, которая будет выведена перед представлением строки аргумента.</TextBefore>
     <Width>Фискированная ширина подписи оси.</Width>
-    <WordWrap>Перенос слова.</WordWrap>
+    <WordWrap>Значение определяет, что слова будут переноситься при достижении заданной ширины.</WordWrap>
   </StiAxisLabels>
   <StiAxisRange>
     <Auto>Значение определяет, что минимальные и максимальные значения будут рассчитаны автоматически.</Auto>
@@ -497,20 +585,36 @@
     <AllowUseTextBrush>Значение определяет, может ли генератор отчетов использовать кисть текста из стиля или нет.</AllowUseTextBrush>
     <AllowUseTextOptions>Значение определяет, может ли генератор отчетов использовать параметры текста компонента из стиля или нет.</AllowUseTextOptions>
     <AllowUseVertAlignment>Значение определяет, может ли генератор отчетов использовать вертикальное выравнивание из стиля или нет.</AllowUseVertAlignment>
+    <AxisLabelsColor>Цвет подписей осей.</AxisLabelsColor>
+    <AxisLineColor>Цвет лини для оси.</AxisLineColor>
+    <AxisTitleColor>Цвет заголовка оси.</AxisTitleColor>
     <BackColor>Цвет заднего фона для отрисовки стиля.</BackColor>
     <BasicStyleColor>Базовый цвет стиля.</BasicStyleColor>
     <Border>Граница компонента.</Border>
     <Brush>Кисть для заполнения фона.</Brush>
     <BrushType>Тип кисти, который будет использован для отрисовки этого стиля.</BrushType>
+    <ChartAreaBorderColor>Цвет бордюра области.</ChartAreaBorderColor>
+    <ChartAreaBrush>Цвет заливки области.</ChartAreaBrush>
     <CollectionName>Наименование коллекции стилей.</CollectionName>
     <Color>Цвет стиля.</Color>
     <Conditions>Коллекция условий стиля.</Conditions>
     <Description>Описание стиля.</Description>
     <Font>Шрифт для отрисовки текста.</Font>
     <ForeColor>Цвет переднего фона для отрисовки стиля.</ForeColor>
+    <GridLinesHorColor>Цвет горизонтальных линий сетки.</GridLinesHorColor>
+    <GridLinesVertColor>Цвет вертикальных линий сетки.</GridLinesVertColor>
     <HorAlignment>Горизонтальное выравнивание стиля.</HorAlignment>
     <Image>Картинка для использования в компоненте.</Image>
+    <InterlacingHorBrush>Кисть, которая используется для отрисовки горизонтальной перемежающейся полосы.</InterlacingHorBrush>
+    <InterlacingVertBrush>Кисть, которая используется для отрисовки вертикальной перемежающейся полосы.</InterlacingVertBrush>
+    <LegendBorderColor>Цвет бордюра.</LegendBorderColor>
+    <LegendBrush>Фоновый цвет легенды.</LegendBrush>
+    <LegendLabelsColor>Цвет подписей легенды.</LegendLabelsColor>
+    <LegendTitleColor>Цвет заголовка легенды.</LegendTitleColor>
     <Name>Наименование стиля.</Name>
+    <SeriesLabelsBorderColor>Цвет бордюра подписей.</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>Фоновый цвет подписей.</SeriesLabelsBrush>
+    <SeriesLabelsColor>Цвет текста подписей.</SeriesLabelsColor>
     <StyleColors>Список цветов для отрисовки стиля</StyleColors>
     <TextBrush>Кисть для отрисовки текста.</TextBrush>
     <VertAlignment>Вертикальное выравнивание стиля.</VertAlignment>
@@ -642,6 +746,58 @@
   <StiClusteredColumnSeries>
     <Width>Коэффициент ширины одного ряда полосы. Значение 1 равно 100%.</Width>
   </StiClusteredColumnSeries>
+  <StiCodabarBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <Ratio>Отношение толщины широких и узких штрихов.</Ratio>
+  </StiCodabarBarCodeType>
+  <StiCode11BarCodeType>
+    <Checksum>Режим расчёта контрольной суммы.</Checksum>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiCode11BarCodeType>
+  <StiCode128aBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiCode128aBarCodeType>
+  <StiCode128AutoBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiCode128AutoBarCodeType>
+  <StiCode128BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiCode128BarCodeType>
+  <StiCode128bBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiCode128bBarCodeType>
+  <StiCode128cBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiCode128cBarCodeType>
+  <StiCode39BarCodeType>
+    <CheckSum>Добавлять символ контрольной суммы.</CheckSum>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <Ratio>Отношение толщины широких и узких штрихов.</Ratio>
+  </StiCode39BarCodeType>
+  <StiCode39ExtBarCodeType>
+    <CheckSum>Добавлять символ контрольной суммы.</CheckSum>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <Ratio>Отношение толщины широких и узких штрихов.</Ratio>
+  </StiCode39ExtBarCodeType>
+  <StiCode93BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <Ratio>Отношение толщины широких и узких штрихов.</Ratio>
+  </StiCode93BarCodeType>
+  <StiCode93ExtBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <Ratio>Отношение толщины широких и узких штрихов.</Ratio>
+  </StiCode93ExtBarCodeType>
   <StiComboBoxControl>
     <DropDownStyle>Значение, указывающее стиль.</DropDownStyle>
     <DropDownWidth>Ширина части drop-down.</DropDownWidth>
@@ -660,6 +816,7 @@
   <StiComponent>
     <AfterPrintEvent>Срабатывает после печати компонента.</AfterPrintEvent>
     <Alias>Текст, который будет показан вместо имени компонента. Если текст не определен, то отображается имя.</Alias>
+    <Anchor>Режим привязки положения компонента к размерам родительского компонента.</Anchor>
     <BeforePrintEvent>Срабатывает перед печатью компонента.</BeforePrintEvent>
     <Bookmark>Выражение для заполнения закладки компонента.</Bookmark>
     <Border>Границы компонента.</Border>
@@ -742,6 +899,7 @@
     <GetCrossValueEvent>Скрипт события GetValueEvent.</GetCrossValueEvent>
     <GetDisplayCrossValueEvent>Скрипт события GetDisplayCrossValueEvent.</GetDisplayCrossValueEvent>
     <HideZeros>Значение определяет, что не нужно показывать нули.</HideZeros>
+    <KeepMergedCellsTogether>Значение определяет, что объединенные ячейки не будут отделены от следующей страницы.</KeepMergedCellsTogether>
     <MergeHeaders>Значение определяет, что все равные значения заголовка будут объединены в одно.</MergeHeaders>
     <PrintOnAllPages>Значение определяет, что компонент напечатан на всех страницах.</PrintOnAllPages>
     <ShowPercents>Значение определяет, что значение в ячейке должно быть выведено как проценты.</ShowPercents>
@@ -823,6 +981,13 @@
     <NameInSource>Оригинальное наименование колонки в базе данных.</NameInSource>
     <Type>Тип колонки данных.</Type>
   </StiDataColumn>
+  <StiDataMatrixBarCodeType>
+    <EncodingType>Тип внутреннего кодирования данных.</EncodingType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <MatrixSize>Размер матрицы штрих-кода.</MatrixSize>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <UseRectangularSymbols>Использовать прямоугольные размеры матрицы.</UseRectangularSymbols>
+  </StiDataMatrixBarCodeType>
   <StiDataParameter>
     <Alias>Всевдоним параметра данных.</Alias>
     <Expression>Выражение для расчета параметра.</Expression>
@@ -876,6 +1041,10 @@
     <Expression>Выражение для заполнения drill-down параметра.</Expression>
     <Name>Имя drill-down параметра.</Name>
   </StiDrillDownParameter>
+  <StiDutchKIXBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiDutchKIXBarCodeType>
   <StiDynamicBand>
     <BreakIfLessThan>Значение определяет, сколько свободного места на странице (в процентах) должно остаться для формирования новой страницы или новой колонки. Значение должно быть установлено в диапазон от 0 до 100. Если значение равно 100, то, в любом случае, новая страница или колонка будут сформированы. Данное свойство используется вместе со свойствами NewPageBefore, NewPageAfter, NewColumnBefore, NewColumnAfter.</BreakIfLessThan>
     <NewColumnAfter>Если данное свойство установлено в true, то, после вывода бенда, новая колонка будет создана.</NewColumnAfter>
@@ -885,6 +1054,36 @@
     <PrintAtBottom>Значение определяет, что итог печатается внизу страницы.</PrintAtBottom>
     <SkipFirst>Если данное свойство установлено в true, то, новая страница/колонка будет создана только начиная со второго случая.</SkipFirst>
   </StiDynamicBand>
+  <StiEAN128aBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiEAN128aBarCodeType>
+  <StiEAN128AutoBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiEAN128AutoBarCodeType>
+  <StiEAN128bBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiEAN128bBarCodeType>
+  <StiEAN128cBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiEAN128cBarCodeType>
+  <StiEAN13BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+    <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
+    <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
+  </StiEAN13BarCodeType>
+  <StiEAN8BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+    <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
+    <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
+  </StiEAN8BarCodeType>
   <StiEmptyBand>
     <BeginRenderEvent>Возникает, когда бенд начинает строиться.</BeginRenderEvent>
     <EndRenderEvent>Возникает при завершении построения бенда.</EndRenderEvent>
@@ -893,6 +1092,11 @@
     <RenderingEvent>Возникает при построении рядов.</RenderingEvent>
     <SizeMode>Свойство определяет как изменить размер последнего ряда на странице.</SizeMode>
   </StiEmptyBand>
+  <StiFIMBarCodeType>
+    <AddClearZone>Добавлять поля Clear Zone или нет.</AddClearZone>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiFIMBarCodeType>
   <StiFooterBand>
     <KeepFooterTogether>Значение определяет, что итог напечатан с данными.</KeepFooterTogether>
     <PrintIfEmpty>Значение определяет, что итог печатается, если данные отстутствуют.</PrintIfEmpty>
@@ -1055,6 +1259,45 @@
     <InterlacedBrush>Кисть, которая используется для отрисовки перемежающейся полосы.</InterlacedBrush>
     <Visible>Видимость перемежающихся полос.</Visible>
   </StiInterlacing>
+  <StiInterleaved2of5BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <Ratio>Отношение толщины широких и узких штрихов.</Ratio>
+  </StiInterleaved2of5BarCodeType>
+  <StiIsbn10BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+    <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
+    <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
+  </StiIsbn10BarCodeType>
+  <StiIsbn13BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+    <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
+    <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
+  </StiIsbn13BarCodeType>
+  <StiITF14BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <PrintVerticalBars>Печатать вертикальные боковые секции штрих-кода или нет.</PrintVerticalBars>
+    <Ratio>Отношение толщины широких и узких штрихов.</Ratio>
+  </StiITF14BarCodeType>
+  <StiJan13BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+    <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
+    <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
+  </StiJan13BarCodeType>
+  <StiJan8BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+    <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
+    <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
+  </StiJan8BarCodeType>
   <StiLabelControl>
     <Text>Текст, связанный с данным элементом управления.</Text>
     <TextAlign>Выравнивание текста.</TextAlign>
@@ -1119,6 +1362,12 @@
     <Type>Тип маркера.</Type>
     <Visible>Видимость маркера.</Visible>
   </StiMarker>
+  <StiMsiBarCodeType>
+    <CheckSum1>Режим контрольной суммы 1.</CheckSum1>
+    <CheckSum2>Режим контрольной суммы 2.</CheckSum2>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiMsiBarCodeType>
   <StiNumericUpDownControl>
     <Increment>Значение увеличения/уменьшения при нажатии кнопки вверх и вниз.</Increment>
     <Maximum>Максимальное допустимое значение.</Maximum>
@@ -1173,6 +1422,22 @@
   <StiPanelControl>
     <BorderStyle>Определяет стиль границы для элемента управления.</BorderStyle>
   </StiPanelControl>
+  <StiPdf417BarCodeType>
+    <AspectRatio>Соотношение размеров горизонтальной и вертикальной сторон штрих-кода.</AspectRatio>
+    <AutoDataColumns>Рассчитывать необходимое количество колонок данных автоматически.</AutoDataColumns>
+    <AutoDataRows>Рассчитывать необходимое количество строк данных автоматически.</AutoDataRows>
+    <DataColumns>Количество колонок данных.</DataColumns>
+    <DataRows>Количество строк данных.</DataRows>
+    <EncodingMode>Режим внутреннего кодирования данных.</EncodingMode>
+    <ErrorsCorrectionLevel>Уровень коррекции ошибок. Чем выше уровень, тем больше информации для восстановления штрихкода добавляется.</ErrorsCorrectionLevel>
+    <Height>Коэффициент высоты всего штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <RatioY>Коэффициент высоты одного штриха. Величина в диапазоне от 2 до 5.</RatioY>
+  </StiPdf417BarCodeType>
+  <StiPharmacodeBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiPharmacodeBarCodeType>
   <StiPictureBoxControl>
     <BorderStyle>Определяет стиль границы для элемента управления.</BorderStyle>
     <Image>Изображение, которое показывает PictureBox.</Image>
@@ -1188,6 +1453,17 @@
     <GetCutPieListEvent>Возникает, при получении списка выдвинутых сегментов.</GetCutPieListEvent>
     <StartAngle>Угол поворота ряда.</StartAngle>
   </StiPieSeries>
+  <StiPlesseyBarCodeType>
+    <CheckSum1>Режим контрольной суммы 1.</CheckSum1>
+    <CheckSum2>Режим контрольной суммы 2.</CheckSum2>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiPlesseyBarCodeType>
+  <StiPostnetBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <Space>Ширина пробела между элементами штрих-кода.</Space>
+  </StiPostnetBarCodeType>
   <StiPrinterSettings>
     <Collate>Значение определяет, будет ли использоваться режим печати collate.</Collate>
     <Copies>Количество копий отчета для печати.</Copies>
@@ -1195,6 +1471,12 @@
     <PrinterName>Имя принтера, который будет использоваться для печати отчета.</PrinterName>
     <ShowDialog>Значение определяет, будет ли показан диалог печати.</ShowDialog>
   </StiPrinterSettings>
+  <StiQRCodeBarCodeType>
+    <ErrorsCorrectionLevel>Уровень коррекции ошибок. Чем выше уровень, тем больше информации для восстановления штрихкода добавляется.</ErrorsCorrectionLevel>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <MatrixSize>Размер матрицы штрих-кода.</MatrixSize>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiQRCodeBarCodeType>
   <StiRadarAxis>
     <Visible>Видимость оси.</Visible>
   </StiRadarAxis>
@@ -1303,6 +1585,11 @@
   <StiRoundedRectangleShapeType>
     <Round>Коэффициент скругления.</Round>
   </StiRoundedRectangleShapeType>
+  <StiRoyalMail4StateBarCodeType>
+    <CheckSum>Добавлять символ контрольной суммы.</CheckSum>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+  </StiRoyalMail4StateBarCodeType>
   <StiSeries>
     <AllowApplyBrushNegative>Значение определяет, что будет использоваться определенная кисть для заливки отрицательных значений.</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Значение определяет, что будет использоваться определенный цвет для окраски отрицательных значений.</AllowApplyColorNegative>
@@ -1410,7 +1697,8 @@
     <ValueType>Какой тип информации будет отображаться на подписи.</ValueType>
     <ValueTypeSeparator>Строка, которая содержит разделитель для информационного значения.</ValueTypeSeparator>
     <Visible>Видимость заголовка рядов.</Visible>
-    <WordWrap>Перенос слова.</WordWrap>
+    <Width>Fixed width of series labels.</Width>
+    <WordWrap>Значение определяет, что слова будут переноситься при достижении заданной ширины.</WordWrap>
   </StiSeriesLabels>
   <StiSeriesTopN>
     <Count>Количество выводимых значений.</Count>
@@ -1442,6 +1730,18 @@
   <StiSolidBrush>
     <Color>Цвет кисти.</Color>
   </StiSolidBrush>
+  <StiSSCC18BarCodeType>
+    <CompanyPrefix>Префикс компании (7-10 цифр).</CompanyPrefix>
+    <ExtensionDigit>Дополнительный разряд (1 цифра).</ExtensionDigit>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <SerialNumber>Серийный номер (6-9 цифр).</SerialNumber>
+  </StiSSCC18BarCodeType>
+  <StiStandard2of5BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <Ratio>Отношение толщины широких и узких штрихов.</Ratio>
+  </StiStandard2of5BarCodeType>
   <StiStrips>
     <Antialiasing>Значение, которое управляет режимом сглаженной отрисовки.</Antialiasing>
     <Font>Шрифт текста полосы.</Font>
@@ -1542,6 +1842,29 @@
     <LineWidth>Толщина линии тренда.</LineWidth>
     <ShowShadow>Значение определяет показывать тень или нет.</ShowShadow>
   </StiTrendLine>
+  <StiUpcABarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+    <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
+    <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
+  </StiUpcABarCodeType>
+  <StiUpcEBarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
+    <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
+  </StiUpcEBarCodeType>
+  <StiUpcSup2BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+  </StiUpcSup2BarCodeType>
+  <StiUpcSup5BarCodeType>
+    <Height>Коэффициент высоты штрих-кода.</Height>
+    <Module>Толщина наиболее узкого штриха.</Module>
+    <ShowQuietZoneIndicator>Показывать индикатор свободной зоны.</ShowQuietZoneIndicator>
+  </StiUpcSup5BarCodeType>
   <StiVariable>
     <Alias>Псевдоним переменной.</Alias>
     <Category>Категория переменной.</Category>
@@ -1593,74 +1916,4 @@
     <Key>Ключ, который будет использоваться в переменных, когда пользователь при помощи интерфейса выбрал значение элемента.</Key>
     <Value>Значение, которое будет отображаться вместо ключа в интерфейсе работы с параметрами.</Value>
   </Universal>
-  <Publish>
-    <Publish>Опубликовать</Publish>
-	<DeployReportPlatform>Платформа для развертывания отчета:</DeployReportPlatform>
-    <PublishType>Тип развертывания:</PublishType>
-    <PublishTypeProject>Проект</PublishTypeProject>
-    <PublishTypeStandalone>Автономное приложение</PublishTypeStandalone>
-    <IncludeLibrariesToStandalone>Добавить библиотеки Stimulsoft в исполняемый файл</IncludeLibrariesToStandalone>
-    <GetLibrariesFrom>Подключить библиотеки Stimulsoft из {0}</GetLibrariesFrom>
-    <JavaScriptFramework>Тип фрэймворка:</JavaScriptFramework>
-    <LoadReport>Загружать отчет как:</LoadReport>
-    <LoadReportFile>Файл</LoadReportFile>
-    <LoadReportString>Строка</LoadReportString>
-    <LoadReportHyperlink>Ссылка</LoadReportHyperlink>
-    <LoadReportStream>Поток</LoadReportStream>
-    <LoadReportByteArray>Байтовый массив</LoadReportByteArray>
-    <LoadReportResource>Ресурс</LoadReportResource>
-    <LoadReportClass>Класс</LoadReportClass>
-    <LoadReportAssembly>Сборка</LoadReportAssembly>
-    <UseCompilationCache>Использовать компиляцию для кэширования</UseCompilationCache>
-    <IncludeReportPackedStringToCode>Добавить отчет в код в виде упакованной строки</IncludeReportPackedStringToCode>
-    <ReportAction>Действие над отчетом:</ReportAction>
-    <ActionShow>Отобразить</ActionShow>
-    <ActionExport>Экспортировать</ActionExport>
-    <ActionDesign>Редактировать</ActionDesign>
-    <FullScreenViewer>Отобразить вьювер на все окно Web-браузера</FullScreenViewer>
-    <UseWpfDesignerV2>Использовать дизайнер V2</UseWpfDesignerV2>
-    <ExportFormat>Формат экспорта:</ExportFormat>
-    <ExportFormatData>Данные</ExportFormatData>
-    <ExportFormatImage>Изображение</ExportFormatImage>
-    <ExportFormatDataType>Тип данных:</ExportFormatDataType>
-    <ExportFormatImageType>Тип изображения:</ExportFormatImageType>
-    <ConnectionsFromReport>Использовать заданное в отчете подключение</ConnectionsFromReport>
-    <ConnectionsReplace>Заменить строку подключения</ConnectionsReplace>
-    <ConnectionsRegData>Подключить данные из кода</ConnectionsRegData>
-    <RegDataSynchronize>Синхронизировать словарь данных отчета</RegDataSynchronize>
-    <RegDataOnlyForPreview>Использовать только для предварительного просмотра отчета</RegDataOnlyForPreview>
-    <ParametersFromReport>Использовать заданное в отчете значение</ParametersFromReport>
-    <ParametersReplace>Заменить значение из кода</ParametersReplace>
-    <ParametersRequestFromUser>Запрашивать у пользователя</ParametersRequestFromUser>
-    <IncludeLicenseKey>Добавить лицензионный ключ</IncludeLicenseKey>
-    <LicenseKeyTypeString>Строка</LicenseKeyTypeString>
-    <LicenseKeyTypeFile>Файл</LicenseKeyTypeFile>
-    <IncludeLocalization>Добавить локализацию</IncludeLocalization>
-    <IncludeFonts>Добавить шрифты</IncludeFonts>
-    <IncludeUITheme>Добавить тему оформления</IncludeUITheme>
-    <ThemeStyle>Стиль оформления:</ThemeStyle>
-    <ThemeBackground>Фоновый цвет:</ThemeBackground>
-    <UseCompressedScripts>Использовать сжатые скрипты</UseCompressedScripts>
-    <ShowOptions>Показать опции</ShowOptions>
-    <HideOptions>Скрыть опции</HideOptions>
-    <Close>Закрыть</Close>
-    <Cancel>Отмена</Cancel>
-    <Copy>Копировать</Copy>
-    <ShowMore>Показать еще</ShowMore>
-    <SaveStandalone>Сохранить автономный</SaveStandalone>
-    <SaveStandalonePackage>Сохранить автономный пакет</SaveStandalonePackage>
-    <SaveProjectPackage>Сохранить пакет проекта</SaveProjectPackage>
-    <TrialVersion>Пробная версия</TrialVersion>
-    <GroupConnections>Подключения к данным</GroupConnections>
-    <GroupParameters>Параметры отчета</GroupParameters>
-    <GroupAddons>Дополнительно</GroupAddons>
-    <ReadMore>Подробнее</ReadMore>
-    <ReportErrors>К сожалению, этот отчет не может быть опубликован из-за наличия ошибок!</ReportErrors>
-    <SearchLibraries>Поиск библиотек...</SearchLibraries>
-    <DownloadingLibraries>Загрузка библиотек...</DownloadingLibraries>
-    <CopyingLibraries>Копирование файлов проекта...</CopyingLibraries>
-    <AddNewConnection>Добавить новое соединение</AddNewConnection>
-    <ReplaceConnectionString>Заменить строку подключения</ReplaceConnectionString>
-    <ReplacePathToData>Заменить путь к данным</ReplacePathToData>
-  </Publish>
 </Localization>
