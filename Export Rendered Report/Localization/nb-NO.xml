@@ -329,6 +329,7 @@
     <VerticalNone>&lt;b&gt;Ingen&lt;/b&gt;&lt;br&gt;Ikke vis vertikalt rutenett&lt;/br&gt;</VerticalNone>
   </ChartRibbon>
   <Cloud>
+    <AcceptTermsAndPrivacyPolicy>Jeg har lest og akseptert {0} og {1}</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>Kontoinstillinger</AccountSettings>
     <AddAPlace>Legg til sted</AddAPlace>
     <ButtonChangePassword>Bytt passord</ButtonChangePassword>
@@ -413,6 +414,7 @@
     <OperationUpload>Last opp '{0}' til server</OperationUpload>
     <page>side</page>
     <Platforms>Plattformer</Platforms>
+    <PrivacyPolicy>Personvern-policy</PrivacyPolicy>
     <Products>Produkter</Products>
     <questionOpenThisFile>Er du sikker på at du vil åpne '{0}'?</questionOpenThisFile>
     <questionOverrideItem>Er du sikker på at du vil overskrive '{0}'?</questionOverrideItem>
@@ -440,6 +442,7 @@
     <TabItemEmbedCode>Pakk inn kode</TabItemEmbedCode>
     <TabItemQRCode>Kvalitetssikre kode</TabItemQRCode>
     <TabItemShare>Lenk til deling</TabItemShare>
+    <TermsOfUse>Vilkår for bruk</TermsOfUse>
     <TextActivated>Aktivisert</TextActivated>
     <TextActivationDate>Aktiviseringsdato</TextActivationDate>
     <TextDelete>Slett</TextDelete>
@@ -527,6 +530,7 @@
     <StiClone>Klone</StiClone>
     <StiColumnFooterBand>Bunntekst kolonne</StiColumnFooterBand>
     <StiColumnHeaderBand>Topptekst kolonne</StiColumnHeaderBand>
+    <StiComboBox>Kombinasjonsboks</StiComboBox>
     <StiComponent>Komponent</StiComponent>
     <StiContainer>Beholder</StiContainer>
     <StiContourText>Konturtekst</StiContourText>
@@ -545,6 +549,7 @@
     <StiCrossTitle>Krysstittel</StiCrossTitle>
     <StiDashboard>Dashbord</StiDashboard>
     <StiDataBand>Data</StiDataBand>
+    <StiDatePicker>Datovelger</StiDatePicker>
     <StiEmptyBand>Tom Data</StiEmptyBand>
     <StiFooterBand>Bunntekst</StiFooterBand>
     <StiGauge>Mål</StiGauge>
@@ -555,15 +560,22 @@
     <StiHorizontalLinePrimitive>Horisontal linje</StiHorizontalLinePrimitive>
     <StiImage>Bilde</StiImage>
     <StiIndicator>Indikator</StiIndicator>
+    <StiListBox>Liste</StiListBox>
     <StiMap>Kart</StiMap>
+    <StiOnlineMap>Elektronisk kart</StiOnlineMap>
     <StiOverlayBand>Overlappe</StiOverlayBand>
     <StiPage>Side</StiPage>
     <StiPageFooterBand>Sidens bunntekst</StiPageFooterBand>
     <StiPageHeaderBand>Sidens topptekst</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
     <StiPivot>Pivot</StiPivot>
+    <StiPivotColumn>Pivotkolonne</StiPivotColumn>
+    <StiPivotRow>Pivotrad</StiPivotRow>
+    <StiPivotSummary>Pivot-oppsummering</StiPivotSummary>
+    <StiPivotTable>Pivottabell</StiPivotTable>
     <StiProgress>Fremgang</StiProgress>
     <StiRectanglePrimitive>Rektangel</StiRectanglePrimitive>
+    <StiRegionMap>Områdekart</StiRegionMap>
     <StiReport>Rapport</StiReport>
     <StiReportSummaryBand>Rapportsammendrag</StiReportSummaryBand>
     <StiReportTitleBand>Rapporttittel</StiReportTitleBand>
@@ -575,17 +587,25 @@
     <StiTable>Tabell</StiTable>
     <StiText>Tekst</StiText>
     <StiTextInCells>Tekst i celler</StiTextInCells>
+    <StiTreeView>Trevisning</StiTreeView>
+    <StiTreeViewBox>Trevisningsboks</StiTreeViewBox>
     <StiVerticalLinePrimitive>Vertikal linje</StiVerticalLinePrimitive>
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>Postnummer</StiZipCode>
   </Components>
   <Dashboard>
+    <AfterGroupingData>Bruk etter gruppering av data</AfterGroupingData>
+    <Blanks>(Tomme)</Blanks>
+    <BooleanFilters>Boolske filtere</BooleanFilters>
+    <CannotLoadDashboard>Du kan ikke laste en rapport med instrumentbord.</CannotLoadDashboard>
     <ChangeChartType>Endre diagramtype</ChangeChartType>
     <ChangeMapType>Endre karttype</ChangeMapType>
     <ClearFilterFrom>Nullstill filter fra "0"</ClearFilterFrom>
     <ColorScale>Fargeskala</ColorScale>
+    <CustomFilter>Egendefinert &amp;filter...</CustomFilter>
     <DataBars>Datastolper</DataBars>
     <DataNotDefined>Data er ikke definert</DataNotDefined>
+    <DateFilters>Dato-filtere</DateFilters>
     <Dimension>Dimensjon</Dimension>
     <Dimensions>Dimensjoner</Dimensions>
     <DragDropDataFromDictionary>Dra&amp;slipp data fra ordbok</DragDropDataFromDictionary>
@@ -593,18 +613,38 @@
     <EditExpression>Rediger uttrykk</EditExpression>
     <EmptyDashboardFooter>Dra &amp; slipp komponent fra verktøykasse eller data fra ordbok</EmptyDashboardFooter>
     <EmptyDashboardHeader>Dashbordet er tomt</EmptyDashboardHeader>
+    <FieldTypeRestrictionHint>Kun felt av type '{0}' kan brukes!</FieldTypeRestrictionHint>
     <FirstLastPoints>Første/siste poeng</FirstLastPoints>
+    <FirstRowIndex>Første radindeks</FirstRowIndex>
     <HighLowPoints>Høye/lave poeng</HighLowPoints>
     <ImageNotSpecified>Bilde ikke spesifisert</ImageNotSpecified>
     <Indicator>Indikator</Indicator>
+    <InitialValue>Initiell verdi</InitialValue>
+    <LimitRows>Hopp over og begrens rader</LimitRows>
     <Measure>Mål</Measure>
     <Measures>Mål</Measures>
     <NewDimension>Ny dimensjon</NewDimension>
     <NewMeasure>Nytt mål</NewMeasure>
+    <NoResult>Ikke noe resultat</NoResult>
+    <NSelected>{0} valgt</NSelected>
+    <Nulls>(Nullverdier)</Nulls>
     <NumberFilters>Tallfiltre</NumberFilters>
+    <ParentElement>Overordnet element</ParentElement>
+    <RemoveActions>Fj&amp;ern handlinger</RemoveActions>
+    <RemoveAllFields>Fjern alle felter</RemoveAllFields>
     <RemoveField>Fjern felt</RemoveField>
+    <ReplaceValues>Erstatt verdier</ReplaceValues>
+    <RowsCount>Antall rader</RowsCount>
+    <SelectAll>(Velg &amp;alle)</SelectAll>
+    <ShowAsPercentages>Vis som prosent</ShowAsPercentages>
+    <SkipFirstRows>Hopp over første rader</SkipFirstRows>
+    <SortAZ>Sorter A til Å</SortAZ>
+    <SortLargestToSmallest>Sorter største til minste</SortLargestToSmallest>
+    <SortSmallestToLargest>Sorter minste til største</SortSmallestToLargest>
+    <SortZA>Sorter Å til A</SortZA>
     <Sparklines>Sparkline-er</Sparklines>
     <StringFilters>Strengfiltre</StringFilters>
+    <TransformationHint>Klikk på tabelloverskriften for å legge til sortering, filtrering eller endre data. Denne endringen vil kun bli brukt på dataene til dette elementet.</TransformationHint>
     <Trend>Trend</Trend>
   </Dashboard>
   <Database>
@@ -757,6 +797,7 @@
     <NoServices>Tjenester ble ikke funnet i '{0}'</NoServices>
     <NotAssign>Datakilde ikke spesifisert.</NotAssign>
     <NotCorrectFormat>Inndatastring var ikke i et korrekt format.</NotCorrectFormat>
+    <PrimaryColumnAction>Kan ikke bruke denne handlingen på hovedkolonnen til '{0}'.</PrimaryColumnAction>
     <RelationsNotFound>Relasjoner ikke funnet.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>Rapport kan ikke lagres på grunn av feil!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' tjeneste ikke funnet.</ServiceNotFound>
@@ -775,6 +816,7 @@
     <Compressed>Komprimert</Compressed>
     <CompressToArchive>Komprimer til arkiv</CompressToArchive>
     <ContinuousPages>Kontinuerlige sider</ContinuousPages>
+    <DataAndHeaders>Data og topptekster</DataAndHeaders>
     <DataAndHeadersFooters>Data og topptekster/bunntekster</DataAndHeadersFooters>
     <DataOnly>Kun data</DataOnly>
     <DigitalSignature>Digital signatur</DigitalSignature>
@@ -1059,6 +1101,7 @@
     <PostgreSQLNew>Ny PostgreSQL-tilkobling</PostgreSQLNew>
     <PromptUserNameAndPassword>Spør etter brukernavn og passord</PromptUserNameAndPassword>
     <RecentConnections>Nylig</RecentConnections>
+    <RelationDirection>Relasjons-retning:</RelationDirection>
     <ReportConnections>Rapport-koblinger</ReportConnections>
     <SelectData>Velg data</SelectData>
     <SqlCeEdit>Rediger SQLServerCE-tilkobling</SqlCeEdit>
@@ -1114,6 +1157,7 @@
     <CalcColumnNew>Ny kalkulert kolonne</CalcColumnNew>
     <CategoryEdit>Rediger kategori</CategoryEdit>
     <CategoryNew>Ny kategori</CategoryNew>
+    <Child>Underordnet</Child>
     <ChildOfBusinessObject>Child of Business Object</ChildOfBusinessObject>
     <ChildSource>Child Data Source:</ChildSource>
     <ClickHere>Klikk her</ClickHere>
@@ -1155,6 +1199,7 @@
     <NewBusinessObject>Nytt Business Object</NewBusinessObject>
     <NewItem>Nytt objekt</NewItem>
     <OpenAssembly>Åpne samling</OpenAssembly>
+    <Parent>Overordnet</Parent>
     <ParentSource>Parent datakilde:</ParentSource>
     <Queries>Spørringer</Queries>
     <QueryNew>Ny spørring</QueryNew>
@@ -1283,6 +1328,7 @@
     <SelectUILanguage>Velg språk på grensesnitt</SelectUILanguage>
     <ShowDialogForms>Vis dialogbilde</ShowDialogForms>
     <ShowDimensionLines>Vis dimensjonslinjer</ShowDimensionLines>
+    <ShowOldGaugeEditor>Vis gammelt målerredigerings-program</ShowOldGaugeEditor>
     <title>Instillinger</title>
     <UseComponentColor>Bruk komponentfarge for fylling</UseComponentColor>
     <UseLastFormat>Sist brukte format</UseLastFormat>
@@ -1596,11 +1642,13 @@
   <HelpComponents>
     <StiBarCode>Denne komponenten gjør det mulig å vise strekkoder i en rapport. Data sendes til et objekt som en streng. Strengen kan inneholde alle symboler, men bare symboler som er tillatt for det valgte diagrammet kan vises.</StiBarCode>
     <StiChart>Denne komponenten tillater visning av diagrammer i en rapport. Ulike typer av diagrammer er tilgjengelige. Blant disse er linje, pai, donut, områder, Gantt, punkt mfl.</StiChart>
+    <StiChartElement>Dette elementet tillater visning av diagrammer i et instrumentbord. Forskjellige typer diagrammer er tilgjengelig.</StiChartElement>
     <StiCheckBox>Denne komponenten tillater visning av avkrysningsbokser i rapporter. «Aktivert» og «deaktivert» er mulig.</StiCheckBox>
     <StiChildBand>The Child band can be used to output two bands on one data row.</StiChildBand>
     <StiClone>Denne komponenten brukes til å klone deler i en rapport. Kloning kan bare brukes på inneholdet i panelet.</StiClone>
     <StiColumnFooterBand>Dette båndet brukes til å lage bunntekst av kolonner til databåndet. Kolonnebunnteksten blir skrevet en gang under hver kolonne. Alle komponentene som er plassert på dette båndet blir også skrevet under hver kolonne.</StiColumnFooterBand>
     <StiColumnHeaderBand>Dette båndet brukes til å lage topptekst i kolonner. Kolonnetoppteksten brukes til å skrive én gang. Alle komponentene som er plassert på dette båndet kan skrive over hver kolonne.</StiColumnHeaderBand>
+    <StiComboBoxElement>Representerer kombinasjonsboksen som blir brukt til enten å taste en verdi direkte i kontrollen eller velge fra listen med eksisterende alternativer.</StiComboBoxElement>
     <StiContainer>Dette er den rektangulære regionen hvor andre komponenter, inkludert bånd, kan bli plassert. Under flytting av en beholder blir komponentene inni også flyttet. Beholderen kan både bli plassert på et bånd og på en side.</StiContainer>
     <StiCrossDataBand>Dette båndet er koblet til datakilden. Den skrives ut like mange ganger som det er rader i datakilden. Et kryssbånd skrives fra venstre til høyre.</StiCrossDataBand>
     <StiCrossFooterBand>Dette båndet brukes til å skrive bunntekst av et kryssdatabånd. Båndet skrives en gang etter etter alle radene i databåndet. Et kryssbånd skrives fra venstre til høyre.</StiCrossFooterBand>
@@ -1609,35 +1657,54 @@
     <StiCrossHeaderBand>Dette båndet brukes til å skrive topptekst. Det brukes sammen med kryssbåndet. Et kryssbånd skrives fra venstre til høyre.</StiCrossHeaderBand>
     <StiCrossTab>Cross-tab-komponenten brukess for strukturert data representert som en tabell.</StiCrossTab>
     <StiDataBand>Databåndet er koblet til datakilden og skrives så mange ganger som det er rader i datakilden.</StiDataBand>
+    <StiDatePickerElement>Elementet brukes til å velge dato og tid.</StiDatePickerElement>
     <StiEmptyBand>Dette båndet brukes til å fylle ledig plass på bunnen av en side. Båndet fyller ledig plass på hver side i en rapport.</StiEmptyBand>
+    <StiFilterCategory>En gruppe elementer brukt til å velge og filtrere verdier.</StiFilterCategory>
     <StiFooterBand>Dette båndet brukes til å skrive sammendrag av databåndet. Det blir plassert under databåndet og skrives en gang etter alle dataradene som databåndet skriver.</StiFooterBand>
     <StiGauge>Komponenten lar deg å vise en verdi innenfor et forhåndsdefinert område. Den kan ha ulik grafisk representasjon.</StiGauge>
+    <StiGaugeElement>Elementet lar deg vise en verdi innenfor et forhåndsdefinert område. Det kan ha forskjellig grafisk utseende.</StiGaugeElement>
     <StiGroupFooterBand>Gruppebunntekstbåndet brukes til å skrive gruppebunnteksten. Dette båndet plasseres etter databåndet. Dette er databåndet som databåndet for gruppetopptekst bindes med. Hvert gruppebunntekstbånd hører til det spesifiserte gruppetopptekstbåndet. Gruppebunntekstbåndet vil ikke blir skrevet uten gruppetopptekstbåndet.</StiGroupFooterBand>
     <StiGroupHeaderBand>Dette båndet er det grunnleggende båndet for rendering av rapporter med grupperinger. Komponentene for å vise informasjon om denne gruppen er plassert i gruppetoppteksten. Det kan være gruppenavn, dato, vilkår for gruppering, etc. Dette båndet skrives en gang på begynnelsen av hver gruppe.</StiGroupHeaderBand>
     <StiHeaderBand>Dette båndet brukes til å skrive topptekst. Det brukes sammen med databåndet.</StiHeaderBand>
     <StiHierarchicalBand>Dette båndet er koblet til datakilden og skrives så mange ganger som det er rader i datakilden. Data skrives som et tre.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Denne komponenten brukes til å skrive en linje.</StiHorizontalLinePrimitive>
     <StiImage>Denne komponenten brukes til å skrive ut bilder. Den støtter følgende grafiske formater, som BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
+    <StiImageElement>Dette elementet brukes til å skrive ut bilder. Det støtter følgende grafiske formater som BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiIndicatorElement>Elementet viser differansen i verdier mellom inndataene.</StiIndicatorElement>
+    <StiListBoxElement>Elementet tillater å velge verdier fra en liste.</StiListBoxElement>
     <StiMap>Denne komponenten brukes til å vise geografisk rettede data.</StiMap>
+    <StiMapCategory>Gruppe av elementer for å jobbe med kart og data.</StiMapCategory>
+    <StiMapElement>Dette elementet brukes til å vise data som er geografisk merket.</StiMapElement>
+    <StiOnlineMapElement>Dette elementet brukes til å vise geografiske indikatorer på det elektroniske kartet.</StiOnlineMapElement>
     <StiOverlayBand>Dette båndet brukes til å skrive vannmerker på en side.</StiOverlayBand>
     <StiPageFooterBand>Dette båndet brukes til å skrive informasjon på bunnen av hver side. For eksempel sidetall, datoer og annen tilleggsinformasjon..</StiPageFooterBand>
     <StiPageHeaderBand>Dette båndet brukes til å skrive toppteksten til siden. For eksempel sidetall, datoer og annen tilleggsinformasjon.</StiPageHeaderBand>
     <StiPanel>En rektangulær region som kan inneholde andre komponenter, inkludert bånd. Når panelet flyttes følger komponentene med. Et panel kan enten bli plassert på et bånd eller en side.</StiPanel>
+    <StiPanelElement>Et rektangulært område som kan inneholde andre elementer. Når panelet flyttes, flyttes også elementene det inneholder.</StiPanelElement>
+    <StiPivotTableElement>Pivottabell-elementet brukes til strukturert datarepresentasjon i form av en tabell.</StiPivotTableElement>
+    <StiProgressElement>Elementet viser graden av inndata. Den kan vises på forskjellige måter - kakediagram, sirkel, stolper.</StiProgressElement>
     <StiRectanglePrimitive>Denne komponenten brukes til å skrive rektangler.</StiRectanglePrimitive>
+    <StiRegionMapElement>Dette elementet brukes til å vise data som er geografisk merket.</StiRegionMapElement>
     <StiReportSummaryBand>Dette båndet brukes til å skrive oppsummeringer gjennom hele rapporten. Den blir skrevet en gang på slutten av en rapport.</StiReportSummaryBand>
     <StiReportTitleBand>Dette båndet brukes til å skrive tittelen på rapporten. Den skrives på begynnelsen av en rapport.</StiReportTitleBand>
     <StiRichText>Denne komponenten brukes til å skrive og endre RTF-teksten. Den støtter også lasting og lagring av filer i RTF-formater.</StiRichText>
     <StiRoundedRectanglePrimitive>Denne komponenten brukes til å skrive avrundede rektangler.</StiRoundedRectanglePrimitive>
     <StiShape>Denne komponenten brukes til å sette inn ferdiglagde figurer som piler, diagonale linjer, horisontale linjer, ovaler, rektangler, avrundede rektangler, triangler, mfl.</StiShape>
+    <StiShapeElement>Dette elementet brukes til å sette inn ferdige grafiske figurer som piler, diagonal linje ned, diagonal linje opp, horisontal linje venstre- og høyrelinjer, ovaler, rektangler, avrundede rektangler, topp- og bunnlinjer, triangler, vertikal linje.</StiShapeElement>
     <StiSubReport>Denne komponenten brukes til å skrive tilleggsinformasjon på forskjellige steder i en rapport.</StiSubReport>
     <StiTable>Denne komponenten er et sett med dataelementer som er organisert etter en modell med vertikale kolonner og horisontale rader.</StiTable>
+    <StiTableElement>Dette elementet er et sett av dataelementer som er organisert i et sett av vertikale kolonner og horisontale rader.</StiTableElement>
     <StiText>Denne komponenten er et grunnleggende objekt for å skrive data som tekst.</StiText>
+    <StiTextElement>Dette elementet er et basisobjekt for å vise data som en tekst.</StiTextElement>
     <StiTextInCells>Denne komponenten brukes til å skrive tekst i celler. Den brukes ofte for å lage skjemaer.</StiTextInCells>
+    <StiTreeViewBoxElement>Elementet brukes til å velge verdier med en rullegardinliste som et tre.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Representerer elementet som brukes til å vise hierarkiske data som et tre.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Denne komponenten brukes til å skrive vertikale linjer.</StiVerticalLinePrimitive>
     <StiWinControl>Denne komponenten tillater visning av visuelle kontroller fra .NET Framework.</StiWinControl>
     <StiZipCode>Denne komponenten brukes til å skrive postnummer.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
+    <ActiveRelation>Setter prioritetsrelasjonen for å binde to tabeller. Den blir brukt i datatransformasjon og instrumentbord. Kun en relasjon i hver datakilde kan være aktiv.</ActiveRelation>
     <Align>Endre plasseringen til valgte komponenter.</Align>
     <AlignBottom>Juster komponentene mot bunnen.</AlignBottom>
     <AlignCenter>Juster komponentene til midten.</AlignCenter>
@@ -1707,6 +1774,7 @@
     <GridMode>Vis rutenett i linjer eller prikker.</GridMode>
     <ImageAlignment>Vis vannmerke på side.</ImageAlignment>
     <ImageTransparency>Endre vannmerkets gjennomsiktighet.</ImageTransparency>
+    <LineSpacing>Velg hvor mye plass det skal være mellom tekstlinjer eller avsnitt.</LineSpacing>
     <Link>Link komponenten til gjeldende beholder.</Link>
     <LoadImage>Last inn vannmerke fra fil.</LoadImage>
     <Lock>Lås komponenten. Man kan ikke flytte eller endre størrelse på komponenten.</Lock>
@@ -1940,6 +2008,7 @@
     <menuEditViewData>Vis data...</menuEditViewData>
     <menuFile>&amp;Fil</menuFile>
     <menuFileClose>&amp;Lukk</menuFileClose>
+    <menuFileDashboardDelete>Slett instrumentbord</menuFileDashboardDelete>
     <menuFileDashboardNew>Nytt dashbord</menuFileDashboardNew>
     <menuFileDashboardOpen>&amp;Åpne dashbord...</menuFileDashboardOpen>
     <menuFileDashboardSaveAs>Lagre Dashbord &amp;som...</menuFileDashboardSaveAs>
@@ -1981,6 +2050,7 @@
     <menuInsertRowAbove>Sett inn rad over</menuInsertRowAbove>
     <menuInsertRowBelow>Sett inn rad under</menuInsertRowBelow>
     <menuJoinCells>Slå sammen celler</menuJoinCells>
+    <menuMakeThisRelationActive>Aktiver denne relasjonen</menuMakeThisRelationActive>
     <menuSelectColumn>Velg kolonne</menuSelectColumn>
     <menuSelectRow>Velg rad</menuSelectRow>
     <menuTable>Tabell</menuTable>
@@ -2018,6 +2088,7 @@
     <MapEditorForm>Kartredigering</MapEditorForm>
   </Map>
   <Messages>
+    <ChangeRequestTimeout>Spørrings-tidsavbruddet for SQL-spørringer overskrider spørrings-tidsavbruddet for rapportdesigneren. Sett spørrings-tidsavbruddet for designer komponenten til minst {0} sekunder.</ChangeRequestTimeout>
     <DoNotShowAgain>Ikke vis igjen</DoNotShowAgain>
     <MessageTimeOutExpired>Kommandoen ble tidsavbrutt!</MessageTimeOutExpired>
     <RenderingWillOccurInTheInterpretationMode>Ved visning av den delte rapporten vil genereringen skje i fortolkningsmodus</RenderingWillOccurInTheInterpretationMode>
@@ -2085,6 +2156,7 @@
     <ItemCantBeMovedToSpecifiedPlace>Elementet kan ikke flyttes til et spesifikt sted!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Elementet støtter ikke "0"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>A Key og ToKey er like!</KeyAndToKeyAreEqual>
+    <MessageMaximumFileSizeExceeded>Advarsel! Størrelsen på fila du prøver å legge til overskrider maksimum tillatt størrelse. Vil du legge til denne filen likevel (behandlingen av rapporten kan ta betydelig mer tid)?</MessageMaximumFileSizeExceeded>
     <NewProduct>Et nytt produkt er lagt til i abonnementet ditt!</NewProduct>
     <NewVersionsAvailable>Ny versjon er tilgjengelig!</NewVersionsAvailable>
     <NotificationFailed>Feilslått resultat!</NotificationFailed>
@@ -2251,10 +2323,12 @@
     <CheckCategory>Sjekk</CheckCategory>
     <ColorsCategory>Farger</ColorsCategory>
     <ColumnsCategory>Kolonner</ColumnsCategory>
+    <ComboBoxCategory>Kombinasjonsboks</ComboBoxCategory>
     <ControlCategory>Kontroll</ControlCategory>
     <ControlsEventsCategory>Kontrollhendelser</ControlsEventsCategory>
     <CrossTabCategory>Krysstabell</CrossTabCategory>
     <DataCategory>Data</DataCategory>
+    <DatePickerCategory>Datovelger</DatePickerCategory>
     <DescriptionCategory>Beskrivelse</DescriptionCategory>
     <DesignCategory>Design</DesignCategory>
     <DisplayCategory>Vise</DisplayCategory>
@@ -2270,6 +2344,7 @@
     <IndicatorCategory>Indikator</IndicatorCategory>
     <InterlacingCategory>Sammenfletting</InterlacingCategory>
     <LegendCategory>Bildetekst</LegendCategory>
+    <ListBoxCategory>Listeboks</ListBoxCategory>
     <MainCategory>Hjem</MainCategory>
     <MarkerCategory>Markør</MarkerCategory>
     <MiscCategory>Diverse</MiscCategory>
@@ -2277,15 +2352,18 @@
     <NavigationCategory>Navigasjon</NavigationCategory>
     <NavigationEventsCategory>Navigasjonshendelser</NavigationEventsCategory>
     <Needle>Nål</Needle>
+    <OnlineMapCategory>Online-kart</OnlineMapCategory>
     <OptionsCategory>Instillinger</OptionsCategory>
     <PageAdditionalCategory>Ekstra side</PageAdditionalCategory>
     <PageCategory>Side</PageCategory>
     <PageColumnBreakCategory>Side- og kolonneskift</PageColumnBreakCategory>
     <ParametersCategory>Parametere</ParametersCategory>
+    <PivotTableCategory>Pivottabell</PivotTableCategory>
     <PositionCategory>Posisjon</PositionCategory>
     <PrimitiveCategory>Primitiv</PrimitiveCategory>
     <PrintEventsCategory>Utskriftshendelser</PrintEventsCategory>
     <ProgressCategory>Fremgang</ProgressCategory>
+    <RegionMapCategory>Områdekart</RegionMapCategory>
     <RenderEventsCategory>Renderingshendelser</RenderEventsCategory>
     <SeriesCategory>Serie</SeriesCategory>
     <SeriesLabelsCategory>Serieetikett</SeriesLabelsCategory>
@@ -2296,6 +2374,8 @@
     <TextAdditionalCategory>Ekstra tekst</TextAdditionalCategory>
     <TextCategory>Tekst</TextCategory>
     <TitleCategory>Tittel</TitleCategory>
+    <TreeViewBoxCategory>Trevisnings-boks</TreeViewBoxCategory>
+    <TreeViewCategory>Trevisning</TreeViewCategory>
     <TrendLineCategory>Trendlinje</TrendLineCategory>
     <ValueCategory>Verdi</ValueCategory>
     <ValueCloseCategory>Verdi lukking</ValueCloseCategory>
@@ -2513,6 +2593,8 @@
     <PictureBoxSizeModeCenterImage>Sentrer bilde</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>Normal</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>Strekk bilde</PictureBoxSizeModeStretchImage>
+    <RelationDirectionChildToParent>Underordnet-til-overordnet</RelationDirectionChildToParent>
+    <RelationDirectionParentToChild>Overordnet-til-underordnet</RelationDirectionParentToChild>
     <RightToLeftInherit>Arv</RightToLeftInherit>
     <RightToLeftNo>Nei</RightToLeftNo>
     <RightToLeftYes>Ja</RightToLeftYes>
@@ -2595,9 +2677,15 @@
     <StiCrossHorAlignmentLeft>Venstre</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Ingen</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Høyre</StiCrossHorAlignmentRight>
+    <StiDateSelectionModeAutoRange>Automatisk område</StiDateSelectionModeAutoRange>
+    <StiDateSelectionModeRange>Område</StiDateSelectionModeRange>
+    <StiDateSelectionModeSingle>Enkel</StiDateSelectionModeSingle>
     <StiDateTimeTypeDate>Dato</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Dato og tid</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Tid</StiDateTimeTypeTime>
+    <StiDisplayNameTypeFull>Full</StiDisplayNameTypeFull>
+    <StiDisplayNameTypeNone>Ingen</StiDisplayNameTypeNone>
+    <StiDisplayNameTypeShort>Kort</StiDisplayNameTypeShort>
     <StiDockStyleBottom>Bunn</StiDockStyleBottom>
     <StiDockStyleFill>Fyll</StiDockStyleFill>
     <StiDockStyleLeft>Venstre</StiDockStyleLeft>
@@ -2624,6 +2712,8 @@
     <StiFilterConditionEqualTo>lik med</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>større enn</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>større enn eller lik med</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsBlank>er blank</StiFilterConditionIsBlank>
+    <StiFilterConditionIsNotBlank>er ikke blank</StiFilterConditionIsNotBlank>
     <StiFilterConditionIsNotNull>er ikke null</StiFilterConditionIsNotNull>
     <StiFilterConditionIsNull>er null</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>mindre enn</StiFilterConditionLessThan>
@@ -2655,6 +2745,7 @@
     <StiGaugeCalculationModeCustom>Egendefinert</StiGaugeCalculationModeCustom>
     <StiGaugeTypeFullCircular>Full sirkulær</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Halv-sirkulær</StiGaugeTypeHalfCircular>
+    <StiGaugeTypeLinear>Lineær</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>Stigende</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Synkende</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Ingen</StiGroupSortDirectionNone>
@@ -2674,10 +2765,13 @@
     <StiImageRotationRotate180>Roter 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Roter 90° CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Roter 90° CW</StiImageRotationRotate90CW>
+    <StiItemSelectionModeMulti>Mange</StiItemSelectionModeMulti>
+    <StiItemSelectionModeOne>En</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Hold detaljer sammen</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Hold første detalj sammen</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Hold første rad sammen</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Ingen</StiKeepDetailsNone>
+    <StiLabelsPlacementAutoRotation>Automatisk rotasjon</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Ingen</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>En linje</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>To linjer</StiLabelsPlacementTwoLines>
@@ -2700,6 +2794,7 @@
     <StiMapTypeGroup>Gruppe</StiMapTypeGroup>
     <StiMapTypeHeatmap>Varmekart</StiMapTypeHeatmap>
     <StiMapTypeHeatmapWithGroup>Varmekart med gruppe</StiMapTypeHeatmapWithGroup>
+    <StiMapTypeIndividual>Individuell</StiMapTypeIndividual>
     <StiMapTypeNone>Ingen</StiMapTypeNone>
     <StiMapTypePoints>Punkter</StiMapTypePoints>
     <StiMarkerAlignmentLeft>Venstre</StiMarkerAlignmentLeft>
@@ -3134,6 +3229,7 @@
     <ChildSource>Underordnet datakilde</ChildSource>
     <ClearFormat>Tøm format</ClearFormat>
     <CloneContainer>Klon beholder</CloneContainer>
+    <CloseValues>Lukk verdier</CloseValues>
     <Code>Kode</Code>
     <CodePage>Kodeside</CodePage>
     <Collapsed>Sammenslått</Collapsed>
@@ -3144,6 +3240,7 @@
     <Color>Farge</Color>
     <ColorDataColumn>Farge datakolonne</ColorDataColumn>
     <ColorEach>Farge hver</ColorEach>
+    <ColorMeter>Farge</ColorMeter>
     <ColorScaleCondition>Vilkår for fargeskala</ColorScaleCondition>
     <ColorScaleType>Type fargeskala</ColorScaleType>
     <Column>Kolonne</Column>
@@ -3196,6 +3293,7 @@
     <DateInfo>Dateinfo</DateInfo>
     <DateTimeStep>Dato-/klokkeslett-trinn</DateTimeStep>
     <Default>Standard</Default>
+    <DefaultColor>Standard farge</DefaultColor>
     <DefaultHeightCell>Standardhøyde for celle</DefaultHeightCell>
     <DefaultNamespace>Standard Namespace</DefaultNamespace>
     <DependentColumn>Avhengig kolonne</DependentColumn>
@@ -3206,6 +3304,7 @@
     <Diameter>Diameter</Diameter>
     <Direction>Retning</Direction>
     <Disabled>Deaktivert</Disabled>
+    <DisplayNameType>Type visningsnavn</DisplayNameType>
     <DisplayValue>Vis verdi</DisplayValue>
     <Distance>Avstand</Distance>
     <DistanceBetweenTabs>Avstand mellom kategorier</DistanceBetweenTabs>
@@ -3244,6 +3343,7 @@
     <EndCap>Slutt-cap</EndCap>
     <EndColor>Sluttfarge</EndColor>
     <EndValue>Sluttverdi</EndValue>
+    <EndValues>Sluttverdier</EndValues>
     <EndWidth>Sluttbredde</EndWidth>
     <EngineVersion>Motorversion</EngineVersion>
     <EnumeratorSeparator>Enumeratorseparator</EnumeratorSeparator>
@@ -3264,6 +3364,7 @@
     <Fill>Fyll</Fill>
     <FillColor>Fyll-farge</FillColor>
     <Filter>Filter</Filter>
+    <FilterElements>Filterelementer</FilterElements>
     <FilterEngine>Filtermotor</FilterEngine>
     <FilterMode>Filter-modus</FilterMode>
     <FilterOn>Filter på</FilterOn>
@@ -3309,7 +3410,9 @@
     <GridLinesVert>Vertikalt rutenett</GridLinesVert>
     <GridLinesVertColor>Ruteark-linjer loddrett farge</GridLinesVertColor>
     <GridOutline>Rutenettoppsett</GridOutline>
+    <Group>Gruppe</Group>
     <GroupDataColumn>Grupper data-kolonne</GroupDataColumn>
+    <GroupMeter>Gruppe</GroupMeter>
     <GrowToHeight>Voks til høyde</GrowToHeight>
     <HeaderBackColor>Bakgrunnsfarge på topptekst</HeaderBackColor>
     <HeaderCanBreak>Topptekst kan bryte</HeaderCanBreak>
@@ -3330,6 +3433,7 @@
     <HideZeros>Skjul nuller</HideZeros>
     <High>Høy</High>
     <HighlightCondition>Uthev vilkår</HighlightCondition>
+    <HighValues>Høye verdier</HighValues>
     <HorAlignment>Horisontal justering</HorAlignment>
     <HorSpacing>Horisontal avstand</HorSpacing>
     <HotkeyPrefix>Hurtigtastprefiks</HotkeyPrefix>
@@ -3378,10 +3482,13 @@
     <KeepGroupHeaderTogether>Hold gruppetopptekst samlet</KeepGroupHeaderTogether>
     <KeepGroupTogether>Hold gruppe samlet</KeepGroupTogether>
     <KeepHeaderTogether>Hold topptekst samlet</KeepHeaderTogether>
+    <KeepMergedCellsTogether>Hold sammenslåtte celler sammen</KeepMergedCellsTogether>
     <KeepReportSummaryTogether>Hold rapportoppsummering samlet</KeepReportSummaryTogether>
     <KeepSubReportTogether>Hold delrapport samlet</KeepSubReportTogether>
     <Key>Nøkkel</Key>
     <KeyDataColumn>Nøkkeldatakolonne</KeyDataColumn>
+    <KeyMeter>Nøkkel</KeyMeter>
+    <KeyMeters>Nøkler</KeyMeters>
     <Keys>Nøkler</Keys>
     <Label>Etikett</Label>
     <LabelColor>Farge på etikett</LabelColor>
@@ -3410,6 +3517,7 @@
     <LineLimit>Linjebegrensning</LineLimit>
     <LineMarker>Linjemarkør</LineMarker>
     <LinesOfUnderline>Linjer med understreking</LinesOfUnderline>
+    <LineSpacing>Linjeavstand</LineSpacing>
     <LineStyle>Linjestil</LineStyle>
     <LineWidth>Linjebredde</LineWidth>
     <Linked>Koblet</Linked>
@@ -3431,10 +3539,13 @@
     <LogarithmicScale>Logaritmisk skala</LogarithmicScale>
     <Longitude>Lengdegrad</Longitude>
     <Low>Lav</Low>
+    <LowValues>Lave verdier</LowValues>
     <MajorInterval>Hovedintervall</MajorInterval>
     <MapID>Kart-ID</MapID>
+    <Maps>Kart</Maps>
     <MapStyle>Stil</MapStyle>
     <MapType>Karttype</MapType>
+    <Margin>Marg</Margin>
     <Margins>Marginer</Margins>
     <Marker>Markør</Marker>
     <MarkerAlignment>Markørjustering</MarkerAlignment>
@@ -3483,6 +3594,7 @@
     <Name>Navn</Name>
     <NameDataColumn>Navn data-kolonne</NameDataColumn>
     <NameInSource>Navn i kilde</NameInSource>
+    <NameMeter>Navn</NameMeter>
     <NameParent>Overordnet navn</NameParent>
     <Namespaces>Namespaces</Namespaces>
     <Negative>Negativ</Negative>
@@ -3502,10 +3614,12 @@
     <Offset>Forskyvning</Offset>
     <OffsetAngle>Forskyvningsvinkel</OffsetAngle>
     <OnlyText>Bare tekst</OnlyText>
+    <OpenValues>Initielle verdier</OpenValues>
     <Operation>Operasjon</Operation>
     <Options>Instillinger</Options>
     <Orientation>Orientasjon</Orientation>
     <OthersText>Andre-tekst</OthersText>
+    <Padding>Utfylling</Padding>
     <PageHeight>Sidehøyde</PageHeight>
     <PageNumbers>Sidenummer</PageNumbers>
     <PageWidth>Sidebredde</PageWidth>
@@ -3605,6 +3719,7 @@
     <RowCount>Antall rader</RowCount>
     <RowHeadersVisible>Synlige radtitler</RowHeadersVisible>
     <RowHeaderWidth>Bredde på radtittel</RowHeaderWidth>
+    <Rows>Rader</Rows>
     <Scale>Skala</Scale>
     <ScaleHor>Skaler horisontalt</ScaleHor>
     <ScriptLanguage>Skriptspråk</ScriptLanguage>
@@ -3635,6 +3750,8 @@
     <ShapeType>Formtype</ShapeType>
     <Shift>Flytte</Shift>
     <ShiftMode>Flyttemodus</ShiftMode>
+    <ShortName>Kort navn</ShortName>
+    <ShortValue>Kort verdi</ShortValue>
     <ShowBehind>Vis bak</ShowBehind>
     <ShowDialog>Vis dialog</ShowDialog>
     <ShowEdgeValues>Vis kantverdier</ShowEdgeValues>
@@ -3651,6 +3768,7 @@
     <ShowQuietZoneIndicator>Vis indikator for stillesone</ShowQuietZoneIndicator>
     <ShowQuietZones>Vis stillesoner</ShowQuietZones>
     <ShowScrollBar>Vis scrollbar</ShowScrollBar>
+    <ShowSelectAll>Vis Velg alle</ShowSelectAll>
     <ShowSeriesLabels>Vis serieetiketter</ShowSeriesLabels>
     <ShowShadow>Vis skygge</ShowShadow>
     <ShowTotal>Vis total</ShowTotal>
@@ -3704,12 +3822,14 @@
     <Strikeout>Overstryking</Strikeout>
     <StripBrush>Strimmelbørste</StripBrush>
     <Strips>Strimler</Strips>
+    <Stroke>Strøk</Stroke>
     <StructuredAppendPosition>Strukturert legg til posisjon</StructuredAppendPosition>
     <StructuredAppendTotal>Strukturert legg til totalen</StructuredAppendTotal>
     <Style>Stil</Style>
     <StyleColors>Stilfarger</StyleColors>
     <Styles>Stiler</Styles>
     <SubReportPage>Subrapportside</SubReportPage>
+    <Summaries>Sammendrag</Summaries>
     <Summary>Oppsummering</Summary>
     <SummaryExpression>Oppsummeringsuttrykk</SummaryExpression>
     <SummarySortDirection>Sorteringsretning for oppsummering</SummarySortDirection>
@@ -3791,6 +3911,7 @@
     <ValueEnd>Verdi slutt</ValueEnd>
     <ValueHigh>Verdi høy</ValueHigh>
     <ValueLow>Verdi lav</ValueLow>
+    <ValueMeter>Verdi</ValueMeter>
     <ValueOpen>Verdi åpning</ValueOpen>
     <Values>Verdier</Values>
     <ValueType>Verditype</ValueType>
@@ -3930,6 +4051,7 @@
     <qnSynchronizeServices>Synkronisert tjeneste?</qnSynchronizeServices>
   </Questions>
   <Report>
+    <ActiveRelation>Aktiv relasjon</ActiveRelation>
     <Address>Adresse</Address>
     <Alphabetical>Alfabetisk</Alphabetical>
     <Bands>Bånd</Bands>

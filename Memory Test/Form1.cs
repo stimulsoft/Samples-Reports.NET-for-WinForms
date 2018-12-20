@@ -16,7 +16,12 @@ namespace MemoryTest
 		{
 			InitializeComponent();
 
-			var data = new DataSet();
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            var data = new DataSet();
             data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
             data.ReadXml("..\\..\\Data\\Demo.xml");
 

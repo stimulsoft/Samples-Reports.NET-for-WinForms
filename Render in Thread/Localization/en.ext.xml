@@ -227,6 +227,10 @@
   <CheckVariable>
     <StiVariableRecursionCheckLong>The '{0}' variable has a expression with recursion. It's impossible to refer to the Variable in its own expression.</StiVariableRecursionCheckLong>
     <StiVariableRecursionCheckShort>Recursive Expression</StiVariableRecursionCheckShort>
+    <StiVariableTypeCheckShort>Variable types do not match.</StiVariableTypeCheckShort>
+    <StiVariableTypeCheckLong>For the dependent variables to work correctly, their types and the types of their columns must match.</StiVariableTypeCheckLong>
+    <StiVariableInitializationCheckLong>The '{0}' variable has the wrong default value. It is impossible to initialize the variable with a specified value.</StiVariableInitializationCheckLong>
+    <StiVariableInitializationCheckShort>Initialization value</StiVariableInitializationCheckShort>
   </CheckVariable>
   <Font>
     <Bold>A value that indicates whether this Font is bold.</Bold>
@@ -610,7 +614,60 @@
     <Table>Chart table settings.</Table>
     <Title>Chart title settings.</Title>
     <VertSpacing>Vertical space between border of the chart and the chart.</VertSpacing>
-  </StiChart>
+  </StiChart>  
+  <StiChartElement>
+    <Arguments>Chart arguments.</Arguments>
+    <Values>Chart values.</Values>
+    <EndValues>End values of a chart.</EndValues>
+    <CloseValues>Close values of a chart.</CloseValues>
+    <LowValues>Low values of a chart.</LowValues>
+    <HighValues>High values of a chart.</HighValues>
+    <Weights>Weight values of a chart.</Weights>
+    <Series>Chart series.</Series>
+    <ColorEach></ColorEach>
+    <Group></Group>
+    <Style>A style of a chart.</Style>
+    <TextFormat>The text format.</TextFormat>
+    <Title>Chart title.</Title>
+  </StiChartElement>
+  <StiTableElement>
+    <Columns>Columns displayed in the table</Columns>
+    <SizeMode></SizeMode>
+    <Group></Group>
+    <Title>Table title.</Title>
+    <Style>Table style.</Style>
+  </StiTableElement>
+  <StiTitle>
+    <BackColor>Background color for a title.</BackColor>
+    <ForeColor>Fore color for a title.</ForeColor>
+    <Text>Text of a title.</Text>
+    <Font>Font of a title.</Font>
+    <HorAlignment>Horizontal alignment of text.</HorAlignment>
+    <Visible>Title visibility.</Visible>
+  </StiTitle>
+  <StiElement>
+    <BackColor>A back color for the element.</BackColor>
+    <Margin>Element margin.</Margin>
+    <Padding>Element margin.</Padding>
+  </StiElement>
+  <StiSimpleBorder>
+    <Color>A border color.</Color>
+    <Side>Frame borders.</Side>
+    <Size>A border size.</Size>
+    <Style>A border style.</Style>
+  </StiSimpleBorder>
+  <StiMargin>
+    <Left>The value sets a margin from the left edge of the element.</Left>
+    <Right>The value sets a margin from the right edge of the element.</Right>
+    <Top>The value sets a margin from the top edge of the element.</Top>
+    <Bottom>The value sets a margin from the bottom edge of the element.</Bottom>
+  </StiMargin>
+  <StiPadding>
+    <Left>The value sets the padding inside the element from the left border and its contents.</Left>
+    <Right>The value sets the padding inside the element from the right border and its contents.</Right>
+    <Top>The value sets the padding inside the element from the top border and its contents.</Top>
+    <Bottom>The value sets the padding inside the element from the bottom border and its contents.</Bottom>
+  </StiPadding>
   <StiChartTable>
     <Font>Font of the chart table.</Font>
     <GridLineColor>A color of the grid lines.</GridLineColor>

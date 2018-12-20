@@ -15,9 +15,14 @@ namespace RenderInThread2
 		public Form1()
 		{
 			InitializeComponent();
-		}
 
-		private void button1_Click(object sender, EventArgs e)
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
 		{
             for (int index = 0; index < 5; index++)
             {

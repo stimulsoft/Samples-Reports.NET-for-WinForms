@@ -41,10 +41,16 @@ namespace Export
 			//
 			InitializeComponent();
 
-			//
-			// TODO: Add any constructor code after InitializeComponent call
-			//
-			lbReports.SelectedIndex = 0;
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
+
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            lbReports.SelectedIndex = 0;
             
             dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
 			dataSet1.ReadXml("..\\..\\Data\\Demo.xml");

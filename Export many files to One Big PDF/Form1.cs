@@ -12,6 +12,11 @@ namespace ExportManyFilesToOneBigPDF
         public Form1()
         {
             InitializeComponent();
+
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
         private void buttonExportClick(object sender, EventArgs e)

@@ -97,6 +97,7 @@
     <AddAllColumns>Дадаць усе калонкі</AddAllColumns>
     <Attach>Ўкласці</Attach>
     <Build>Пабудаваць...</Build>
+    <Buttons>Кнопкі</Buttons>
     <Cancel>&amp;Адмена</Cancel>
     <Check>Праверыць</Check>
     <Close>Зачыніць</Close>
@@ -130,6 +131,7 @@
     <SetAll>Устанавiць усё</SetAll>
     <ShowLess>Паказаць менш</ShowLess>
     <ShowMore>Падрабязна</ShowMore>
+    <ShowSpecific>Паказваць '{0}'</ShowSpecific>
     <Submit>Ужыць</Submit>
     <Test>Праверка</Test>
     <Up>Уверх</Up>
@@ -360,6 +362,7 @@
     <CreatingReport>Стварэнне справаздачы ...</CreatingReport>
     <DashboardWindowTitleNew>Новая панэль прыладаў</DashboardWindowTitleNew>
     <DeleteFile>Выдаліць файл</DeleteFile>
+    <DoNotAskMe>Больш не пытацца</DoNotAskMe>
     <ExecutionError>Памылка запуску</ExecutionError>
     <ExpiredDate>Дата заканчэння тэрміну</ExpiredDate>
     <FileStorageWindowTitleEdit>Рэдагаванне сховішча файлаў</FileStorageWindowTitleEdit>
@@ -416,6 +419,7 @@
     <Platforms>Платформы</Platforms>
     <PrivacyPolicy>палітыкай прыватнасці</PrivacyPolicy>
     <Products>Прадукты</Products>
+    <PublishMessage>Каб апублікаваць гэту справаздачу, трэба перадаць яго на publish.stimulsoft.com</PublishMessage>
     <questionOpenThisFile>Вы сапраўды жадаеце адкрыць '{0}' файл?</questionOpenThisFile>
     <questionOverrideItem>Вы сапраўды жадаеце перазапісаць '{0}' файл?</questionOverrideItem>
     <questionRemoveItem>Вы сапраўды жадаеце выдаліць '{0}' файл?</questionRemoveItem>
@@ -594,12 +598,14 @@
     <StiZipCode>Паштовы індэкс</StiZipCode>
   </Components>
   <Dashboard>
+    <AddRange>Дадаць дыяпазон</AddRange>
     <AfterGroupingData>Ужыць пасля групоўкі</AfterGroupingData>
     <Blanks>(Прабелы)</Blanks>
     <BooleanFilters>Булеўскія фільтры</BooleanFilters>
     <CannotLoadDashboard>Не магчыма загрузіць справаздачу якая змяшчае панэль індыкатараў.</CannotLoadDashboard>
     <ChangeChartType>Змяніць тып дыяграмы</ChangeChartType>
     <ChangeMapType>Змяніць тып карты</ChangeMapType>
+    <ClearAllFormatting>Ачысціць усё фарматаванне</ClearAllFormatting>
     <ClearFilterFrom>Ачысціць фільтр ад '{0}'</ClearFilterFrom>
     <ColorScale>Колеравая шкала</ColorScale>
     <CustomFilter>Карыстацкі фільтр ...</CustomFilter>
@@ -624,19 +630,25 @@
     <Measure>Паказнік</Measure>
     <Measures>Паказнікі</Measures>
     <NewDimension>Новае вымярэнне</NewDimension>
+    <NewField>Новае поле</NewField>
     <NewMeasure>Новы паказнік</NewMeasure>
+    <NoRanges>Няма дыяпазонаў
+Няма дыяпазонаў</NoRanges>
     <NoResult>Няма вынікаў</NoResult>
     <NotDefined>Не паказаны</NotDefined>
     <NSelected>{0} абрана</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Лікавыя фільтры</NumberFilters>
     <ParentElement>Галоўны элемент</ParentElement>
+    <RangeMode>Рэжым дыяпазону</RangeMode>
+    <RangeType>Тып дыяпазону</RangeType>
     <RemoveActions>Выдаліць дзеянні</RemoveActions>
     <RemoveAllFields>Выдаліць усе палі</RemoveAllFields>
     <RemoveField>Выдаліць поле</RemoveField>
     <ReplaceValues>Замяніць значэнні</ReplaceValues>
     <RowsCount>Колькасць радкоў</RowsCount>
     <SelectAll>(Выбраць усё)</SelectAll>
+    <ShowAllValue>Паказваць (Усё) элемент</ShowAllValue>
     <ShowAsPercentages>Паказаць у адсотках</ShowAsPercentages>
     <SkipFirstRows>Прапусціць першыя радкі</SkipFirstRows>
     <SortAZ>Сартаванне ад А до Я</SortAZ>
@@ -676,6 +688,9 @@
     <CurrentYear>Бягучы год</CurrentYear>
     <FirstQuarter>Першы квартал</FirstQuarter>
     <FourthQuarter>Чацвёрты квартал</FourthQuarter>
+    <Last14Days>Апошнія 14 дзён</Last14Days>
+    <Last30Days>Апошнія 30 дзён</Last30Days>
+    <Last7Days>Апошнія 7 дзён</Last7Days>
     <MonthToDate>З пачатку месяца</MonthToDate>
     <NextMonth>Наступны месяц</NextMonth>
     <NextQuarter>Наступны квартал</NextQuarter>
@@ -894,6 +909,7 @@
     <NoMoreThan>Не больш чым</NoMoreThan>
     <OpenAfterExport>Адкрыць пасля экспарту</OpenAfterExport>
     <PdfACompliance>PDF/A дамова</PdfACompliance>
+    <PrintingReport>Друк справаздачы</PrintingReport>
     <RemoveEmptySpaceAtBottom>Выдаліць пустое месца унізе старонкі</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Абмежаванне Рэдагавання:</RestrictEditing>
     <Scale>Маштаб:</Scale>
@@ -1288,6 +1304,8 @@
   <FormOptions>
     <AutoSave>Аўта-захаванне</AutoSave>
     <AutoSaveReportToReportClass>Аўтаматычна захоўваць файл C# або VB.NET</AutoSaveReportToReportClass>
+    <BlankDashboard>Пустая панэль індыкатараў</BlankDashboard>
+    <BlankReport>Пустая справаздача</BlankReport>
     <Default>Па змаўчанні</Default>
     <Drawing>Адлюстраванне</Drawing>
     <DrawMarkersWhenMoving>Маляваць маркеры кампанентаў пры перамяшчэнні</DrawMarkersWhenMoving>
@@ -1333,9 +1351,11 @@
     <ShowDialogForms>Паказваць дыялогавыя формы</ShowDialogForms>
     <ShowDimensionLines>Паказваць памерныя лініі</ShowDimensionLines>
     <ShowOldGaugeEditor>Паказваць стары рэдактар індыкатараў</ShowOldGaugeEditor>
+    <StartScreen>Пачатковы экран</StartScreen>
     <title>Параметры</title>
     <UseComponentColor>Выкарыстаць колеры кампанента для запаўнення</UseComponentColor>
     <UseLastFormat>Выкарыстаць апошняе фарматаванне</UseLastFormat>
+    <Welcome>Вітанне</Welcome>
   </FormOptions>
   <FormPageSetup>
     <ApplyTo>Ужываць да</ApplyTo>
@@ -1409,6 +1429,7 @@
     <ApplyStyleCollectionToReportComponents>Ужыць калекцыю стыляў да кампанентаў справаздачы</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Ужыць стылі</ApplyStyles>
     <ColorCollectionEditor>Рэдактар ​​калекцыі колераў</ColorCollectionEditor>
+    <CreateNewComponentStyle>для стварэння новага стылю кампанента</CreateNewComponentStyle>
     <CreateStyleCollection>Стварыць калекцыю стыляў</CreateStyleCollection>
     <CreateStylesCollection>Стварыць калекцыю стыляў</CreateStylesCollection>
     <CreateStylesFromColor>Стварыць стыль з абранага колеру</CreateStylesFromColor>
@@ -1748,6 +1769,7 @@
     <CopyStyle>Капiраваць стыль</CopyStyle>
     <CopyToClipboard>Капіраваць у буфер абмену</CopyToClipboard>
     <CurrencySymbol>Выбраць сімвал валюты.</CurrencySymbol>
+    <DashboardNew>Стварыць новую панэль індыкатараў.</DashboardNew>
     <DataStore>Паказаць дадзеныя, зарэгістраваныя для справаздачы.</DataStore>
     <DateTimeFormat>Выбраць фармат даты і часу для выдзеленых кампанентаў.</DateTimeFormat>
     <DockingPanels>Наладкі панэлі.</DockingPanels>
@@ -2393,6 +2415,7 @@
     <ControlCategory>Кіраванне</ControlCategory>
     <ControlsEventsCategory>Падзеі элементаў кіравання</ControlsEventsCategory>
     <CrossTabCategory>Крос-табліца</CrossTabCategory>
+    <DashboardCategory>Панэль індыкатараў</DashboardCategory>
     <DataCategory>Дадзеныя</DataCategory>
     <DatePickerCategory>Выбар даты</DatePickerCategory>
     <DescriptionCategory>Апiсанне</DescriptionCategory>
@@ -2815,6 +2838,10 @@
     <StiFormStartModeOnStart>У пачатку</StiFormStartModeOnStart>
     <StiGaugeCalculationModeAuto>Аўта</StiGaugeCalculationModeAuto>
     <StiGaugeCalculationModeCustom>Па выбары</StiGaugeCalculationModeCustom>
+    <StiGaugeRangeModePercentage>Адсотак</StiGaugeRangeModePercentage>
+    <StiGaugeRangeModeValue>Значэнне</StiGaugeRangeModeValue>
+    <StiGaugeRangeTypeColor>Колер</StiGaugeRangeTypeColor>
+    <StiGaugeRangeTypeNone>Не</StiGaugeRangeTypeNone>
     <StiGaugeTypeFullCircular>Поўны цыферблат</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Палова цыферблата</StiGaugeTypeHalfCircular>
     <StiGaugeTypeLinear>Лінейны</StiGaugeTypeLinear>
@@ -3002,6 +3029,8 @@
     <StiShowYAxisBoth>Абедзве</StiShowYAxisBoth>
     <StiShowYAxisCenter>Па цэнтру</StiShowYAxisCenter>
     <StiShowYAxisLeft>Левая</StiShowYAxisLeft>
+    <StiSizeModeAutoSize>Аўтапамер</StiSizeModeAutoSize>
+    <StiSizeModeFit>Змясціць</StiSizeModeFit>
     <StiSortDirectionAsc>Па ўзрастанні</StiSortDirectionAsc>
     <StiSortDirectionDesc>Па змяншэнні</StiSortDirectionDesc>
     <StiSortDirectionNone>Не сартаваць</StiSortDirectionNone>
@@ -3134,6 +3163,7 @@
     <ProcessCellEvent>Апрацоўка ячэйкі</ProcessCellEvent>
     <ProcessChartEvent>Апрацоўка дыяграмы</ProcessChartEvent>
     <RenderingEvent>Пабудова</RenderingEvent>
+    <ReportCacheProcessingEvent>Апрацоўка кэша справаздачы</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Змена індэксу</SelectedIndexChangedEvent>
     <StateRestoreEvent>Аднаўленне стану</StateRestoreEvent>
     <StateSaveEvent>Захаванне стану</StateSaveEvent>
@@ -3237,6 +3267,7 @@
     <Area>Вобласць</Area>
     <Argument>Аргумент</Argument>
     <ArgumentDataColumn>Калонка дадзеных аргументаў</ArgumentDataColumn>
+    <ArgumentFormat>Фармат аргумента</ArgumentFormat>
     <Arguments>Аргументы</Arguments>
     <ArrowHeight>Вышыня пяра</ArrowHeight>
     <ArrowStyle>Стыль стрэлкі</ArrowStyle>
@@ -3333,6 +3364,7 @@
     <ColorDataColumn>Калонка дадзеных колераў</ColorDataColumn>
     <ColorEach>Колер для кожнага</ColorEach>
     <ColorMeter>Колер</ColorMeter>
+    <Colors>Колеры</Colors>
     <ColorScaleCondition>Каляровая шкала</ColorScaleCondition>
     <ColorScaleType>Тып каляровай шкалы</ColorScaleType>
     <Column>Калонка</Column>
@@ -3372,9 +3404,11 @@
     <DataAdapters>Адаптэры дадзеных</DataAdapters>
     <DataBarCondition>Гістаграмы</DataBarCondition>
     <DataBindings>Злучэнне дадзеных</DataBindings>
+    <DataColor>Колер дадзеных</DataColor>
     <DataColumn>Калонка дадзеных</DataColumn>
     <DataColumns>Калонкі дадзеных</DataColumns>
     <DataField>Поле дадзеных</DataField>
+    <DataForeground>Колер тэксту дадзеных</DataForeground>
     <DataRelation>Сувязь</DataRelation>
     <DataRows>Радкі дадзеных</DataRows>
     <DataSource>Крыніца дадзеных</DataSource>
@@ -3480,6 +3514,8 @@
     <FooterCanBreak>Вынік можа разрываться</FooterCanBreak>
     <FooterCanGrow>Вынік можа расці</FooterCanGrow>
     <FooterCanShrink>Вынік можа сціскацца</FooterCanShrink>
+    <FooterColor>Колер выніку</FooterColor>
+    <FooterForeground>Колер тэксту выніку</FooterForeground>
     <FooterPrintAtBottom>Вынік друкаваць ўнізе</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Вынік друкаваць калі няма дадзеных</FooterPrintIfEmpty>
     <FooterPrintOn>Вынік друкаваць на</FooterPrintOn>
@@ -3495,6 +3531,7 @@
     <Functions>Функцыі</Functions>
     <GlobalizationStrings>Радкі перакладу</GlobalizationStrings>
     <GlobalizedName>Глабалізацыя</GlobalizedName>
+    <GridColor>Колер сеткі</GridColor>
     <GridLineColor>Колер лініі сеткі</GridLineColor>
     <GridLinesHor>Гарызантальныя лініі сеткі</GridLinesHor>
     <GridLinesHorColor>Колер гарызантальных ліній сеткі</GridLinesHorColor>
@@ -3511,8 +3548,10 @@
     <HeaderCanBreak>Загаловак можа разрываться</HeaderCanBreak>
     <HeaderCanGrow>Загаловак можа расці</HeaderCanGrow>
     <HeaderCanShrink>Загаловак можа сціскацца</HeaderCanShrink>
+    <HeaderColor>Колер загалоўка</HeaderColor>
     <HeaderFont>Шрыфт загалоўка</HeaderFont>
     <HeaderForeColor>Колер тэксту загалоўка</HeaderForeColor>
+    <HeaderForeground>Колер тэксту загалоўка</HeaderForeground>
     <HeaderPrintAtBottom>Загаловак друкаваць ўнізе</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>Загаловак друкаваць калі няма дадзеных</HeaderPrintIfEmpty>
     <HeaderPrintOn>Загаловак друкаваць на</HeaderPrintOn>
@@ -3521,6 +3560,7 @@
     <HeaderRowsCount>Колькасць радкоў загалоўку</HeaderRowsCount>
     <Headers>Загалоўкi</Headers>
     <HeaderText>Тэкст загалоўка</HeaderText>
+    <HeatmapColors>Колеры тэмпературнай карты</HeatmapColors>
     <Height>Вышыня</Height>
     <HideSeriesWithEmptyTitle>Схаваць шэрагі з пустымі загалоўкамі</HideSeriesWithEmptyTitle>
     <HideZeros>Хаваць нулявыя значэнні</HideZeros>
@@ -3553,8 +3593,10 @@
     <ImportRelations>Імпарт сувязяў</ImportRelations>
     <Increment>Прырашчэнне</Increment>
     <Indent>Водступ</Indent>
+    <IndividualColor>Індывідуальны колер</IndividualColor>
     <InfographicsTitle>Title</InfographicsTitle>
     <InitBy>Ініцыялізаваць</InitBy>
+    <InitialSelection>Першапачатковы выбар</InitialSelection>
     <Insert>Уставіць</Insert>
     <Interaction>Узаемадзеянне</Interaction>
     <InterlacedBrush>Пэндзаль чаргавання</InterlacedBrush>
@@ -3588,14 +3630,17 @@
     <Keys>Ключы</Keys>
     <Label>Пазнака</Label>
     <LabelColor>Колер загалоўка</LabelColor>
+    <LabelForeground>Колер тэксту надпісу</LabelForeground>
     <LabelRotationMode>Рэжым павароту подпісаў</LabelRotationMode>
     <Labels>Загалоўкі</Labels>
     <LabelsColor>Колер загалоўкаў</LabelsColor>
+    <LabelShadowForeground>Колер ценю тэксту надпісу</LabelShadowForeground>
     <LabelsOffset>Зрушэнне загалоўка</LabelsOffset>
     <Language>Мова</Language>
     <LargeHeight>Вялікая вышыня</LargeHeight>
     <LargeHeightFactor>Каэфіцыент вялікай вышыні</LargeHeightFactor>
     <Latitude>Шырыня</Latitude>
+    <Layout>Месцаванне</Layout>
     <Left>Лева</Left>
     <LeftSide>Левы бок</LeftSide>
     <Legend>Легенда</Legend>
@@ -3851,6 +3896,7 @@
     <ShortName>Кароткая назва</ShortName>
     <ShortValue>Кароткае значэнне
 Кароткае значэнне</ShortValue>
+    <ShowAllValue>Паказваць усе значэнні</ShowAllValue>
     <ShowBehind>Паказваць ззаду</ShowBehind>
     <ShowDialog>Паказваць дыялог</ShowDialog>
     <ShowEdgeValues>Паказваць крайнія значэнні</ShowEdgeValues>
@@ -4010,6 +4056,7 @@
     <ValueDataColumnLow>Калонка дадзеных мінімумаў</ValueDataColumnLow>
     <ValueDataColumnOpen>Калонка дадзеных значэнняў адкрыцця</ValueDataColumnOpen>
     <ValueEnd>Канчатковае значэнне</ValueEnd>
+    <ValueFormat>Фармат значэння</ValueFormat>
     <ValueHigh>Значэнне максімуму</ValueHigh>
     <ValueLow>Значэнне мінімуму</ValueLow>
     <ValueMeter>Значэнне</ValueMeter>
@@ -4161,6 +4208,7 @@
     <BusinessObjects>Бізнес-аб'екты</BusinessObjects>
     <Categorized>Па катэгорыях</Categorized>
     <Charts>Дыяграмы</Charts>
+    <Checking>Праверка...</Checking>
     <ClickForMoreDetails>Націсніце каб праглядзець</ClickForMoreDetails>
     <CollapseAll>Згарнуць усё</CollapseAll>
     <Collection>Калекцыя</Collection>
@@ -4506,6 +4554,7 @@
     <MasterDetailReport>Master-Detail Справаздача</MasterDetailReport>
     <NoFunction>[Не]</NoFunction>
     <OpenExistingReport>Адкрыць справаздачу</OpenExistingReport>
+    <OpenFrom>Адкрыць з {0}</OpenFrom>
     <Preview>Папярэдні прагляд</Preview>
     <Reset>&amp;Скінуць</Reset>
     <Results>Вынікі</Results>
@@ -4517,6 +4566,7 @@
     <title>Новая справаздача</title>
     <Totals>Падрахункі</Totals>
     <UsingReportWizard>Майстар справаздачы</UsingReportWizard>
+    <YouHaveNotOpenedAnyReportRecently>У апошні час вы не адкрывалі справаздач. Каб знайсці справаздачу, пстрыкніце "Адкрыць файл".</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
   <Zoom>
     <EmptyValue>Пустое значэнне</EmptyValue>

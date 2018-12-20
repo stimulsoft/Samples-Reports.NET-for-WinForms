@@ -14,14 +14,18 @@ namespace RenderInThread
 		public Form1()
 		{
 			InitializeComponent();
-		}
 
-		Stimulsoft.Report.StiReport report = new Stimulsoft.Report.StiReport();
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
+        Stimulsoft.Report.StiReport report = new Stimulsoft.Report.StiReport();
 
 		private void button1_Click(object sender, EventArgs e)
 		{
 			backgroundWorker1.RunWorkerAsync();
-
 		}
 
 		private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)

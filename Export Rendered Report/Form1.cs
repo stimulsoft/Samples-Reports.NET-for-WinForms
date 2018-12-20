@@ -24,12 +24,17 @@ namespace ExportRenderedReport
 			dataSet.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
             dataSet.ReadXml("..\\..\\Data\\Demo.xml");
 			InitializeComponent();
-		}
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		protected override void Dispose( bool disposing )
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        protected override void Dispose( bool disposing )
 		{
 			if( disposing )
 			{

@@ -15,6 +15,11 @@ namespace GlobalEventsSaveAndLoad
         {
             InitializeComponent();
 
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
             StiOptions.Engine.GlobalEvents.SavingReportInDesigner += new Stimulsoft.Report.Design.StiSavingObjectEventHandler(GlobalEvents_SavingReportInDesigner);
             StiOptions.Engine.GlobalEvents.LoadingReportInDesigner += new Stimulsoft.Report.Design.StiLoadingObjectEventHandler(GlobalEvents_LoadingReportInDesigner);
         }

@@ -97,6 +97,7 @@
     <AddAllColumns>Добавить все колонки</AddAllColumns>
     <Attach>Прикрепить</Attach>
     <Build>Построить...</Build>
+    <Buttons>Кнопки</Buttons>
     <Cancel>&amp;Отмена</Cancel>
     <Check>Проверить</Check>
     <Close>Закрыть</Close>
@@ -130,6 +131,7 @@
     <SetAll>Установить все</SetAll>
     <ShowLess>Показать меньше</ShowLess>
     <ShowMore>Показать больше</ShowMore>
+    <ShowSpecific>Показывать '{0}'</ShowSpecific>
     <Submit>Применить</Submit>
     <Test>Проверка</Test>
     <Up>Вверх</Up>
@@ -332,6 +334,7 @@
     <AcceptTermsAndPrivacyPolicy>Я ознакомился с {0}, {1} и принимаю условия.</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>Настройки аккаунта</AccountSettings>
     <AddAPlace>Добавление места</AddAPlace>
+    <AreYouSureYouWantDeleteReport>Вы действительно хотите удалить отчет "{0}" с диска?</AreYouSureYouWantDeleteReport>
     <ButtonChangePassword>Изменить пароль</ButtonChangePassword>
     <ButtonDeleteAll>Удалить все</ButtonDeleteAll>
     <ButtonDesign>Редактировать отчет</ButtonDesign>
@@ -360,6 +363,7 @@
     <CreatingReport>Создание отчета...</CreatingReport>
     <DashboardWindowTitleNew>Новая панель индикаторов</DashboardWindowTitleNew>
     <DeleteFile>Удалить файл</DeleteFile>
+    <DoNotAskMe>Больше не спрашивать</DoNotAskMe>
     <ExecutionError>Ошибка запуска</ExecutionError>
     <ExpiredDate>Дата истечения срока</ExpiredDate>
     <FileStorageWindowTitleEdit>Редактирование хранилища файлов</FileStorageWindowTitleEdit>
@@ -416,6 +420,7 @@
     <Platforms>Платформы</Platforms>
     <PrivacyPolicy>политикой конфиденциальности</PrivacyPolicy>
     <Products>Продукты</Products>
+    <PublishMessage>Чтобы опубликовать этот отчет, необходимо передать его на publish.stimulsoft.com</PublishMessage>
     <questionOpenThisFile>Вы действительно хотите открыть '{0}' файл?</questionOpenThisFile>
     <questionOverrideItem>Вы действительно хотите  перезаписать '{0}' файл?</questionOverrideItem>
     <questionRemoveItem>Вы действительно хотите удалить '{0}' файл?</questionRemoveItem>
@@ -593,12 +598,14 @@
     <StiZipCode>Почтовый индекс</StiZipCode>
   </Components>
   <Dashboard>
+    <AddRange>Добавить диапазон</AddRange>
     <AfterGroupingData>Применить после группировки</AfterGroupingData>
     <Blanks>(Пробелы)</Blanks>
     <BooleanFilters>Булевские фильтры</BooleanFilters>
     <CannotLoadDashboard>Не возможно загрузить отчет содержащий панель индикаторов.</CannotLoadDashboard>
     <ChangeChartType>Изменить тип диаграммы</ChangeChartType>
     <ChangeMapType>Изменить тип карты</ChangeMapType>
+    <ClearAllFormatting>Очистить все форматирование</ClearAllFormatting>
     <ClearFilterFrom>Очистить фильтр от '{0}'</ClearFilterFrom>
     <ColorScale>Цветовая шкала</ColorScale>
     <CustomFilter>Пользовательский фильтр ...</CustomFilter>
@@ -623,18 +630,23 @@
     <Measure>Показатель</Measure>
     <Measures>Показатели</Measures>
     <NewDimension>Новое измерение</NewDimension>
+    <NewField>Новое поле</NewField>
     <NewMeasure>Новый показатель</NewMeasure>
+    <NoRanges>Нет диапазонов</NoRanges>
     <NoResult>Нет результатов</NoResult>
     <NSelected>{0} выбрано</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Числовые фильтры</NumberFilters>
     <ParentElement>Главный элемент</ParentElement>
+    <RangeMode>Режим диапазона</RangeMode>
+    <RangeType>Тип диапазона</RangeType>
     <RemoveActions>Удалить действия</RemoveActions>
     <RemoveAllFields>Удалить все поля</RemoveAllFields>
     <RemoveField>Удалить поле</RemoveField>
     <ReplaceValues>Заменить значения</ReplaceValues>
     <RowsCount>Количество строк</RowsCount>
     <SelectAll>(В&amp;ыбрать все)</SelectAll>
+    <ShowAllValue>Показывать (Все) элемент</ShowAllValue>
     <ShowAsPercentages>Показать в процентах</ShowAsPercentages>
     <SkipFirstRows>Пропустить первые строки</SkipFirstRows>
     <SortAZ>Сортировка от А до Я</SortAZ>
@@ -674,6 +686,9 @@
     <CurrentYear>Текущий год</CurrentYear>
     <FirstQuarter>Первый квартал</FirstQuarter>
     <FourthQuarter>Четвертый квартал</FourthQuarter>
+    <Last14Days>Последние 14 дней</Last14Days>
+    <Last30Days>Последние 30 дней</Last30Days>
+    <Last7Days>Последние 7 дней</Last7Days>
     <MonthToDate>С начала месяца</MonthToDate>
     <NextMonth>Следующий месяц</NextMonth>
     <NextQuarter>Следующий квартал</NextQuarter>
@@ -892,6 +907,7 @@
     <NoMoreThan>Не больше чем</NoMoreThan>
     <OpenAfterExport>Открыть после экспорта</OpenAfterExport>
     <PdfACompliance>PDF/A соглашение</PdfACompliance>
+    <PrintingReport>Печать отчета</PrintingReport>
     <RemoveEmptySpaceAtBottom>Убрать пустое место внизу страницы</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Ограничение Редактирования:</RestrictEditing>
     <Scale>Масштаб:</Scale>
@@ -1271,6 +1287,7 @@
   <FormGlobalizationEditor>
     <AddCulture>&amp;Добавить культуру</AddCulture>
     <AutoLocalizeReportOnRun>Автоперевод отчета при старте</AutoLocalizeReportOnRun>
+    <CreateNewCulture>чтобы создать новую культуру</CreateNewCulture>
     <GetCulture>Взять настройки культуры из отчета</GetCulture>
     <qnGetCulture>Вы действительно хотите взять настройки культуры из отчета и стереть?</qnGetCulture>
     <qnSetCulture>Вы действительно хотите установить настройки культуры в компоненты отчета?</qnSetCulture>
@@ -1286,6 +1303,8 @@
   <FormOptions>
     <AutoSave>Автосохранение</AutoSave>
     <AutoSaveReportToReportClass>Автоматически сохранять файл C# или VB.NET</AutoSaveReportToReportClass>
+    <BlankDashboard>Пустая панель индикаторов</BlankDashboard>
+    <BlankReport>Пустой отчет</BlankReport>
     <Default>По умолчанию</Default>
     <Drawing>Отображение</Drawing>
     <DrawMarkersWhenMoving>Рисовать маркеры компонентов при передвижении</DrawMarkersWhenMoving>
@@ -1331,9 +1350,11 @@
     <ShowDialogForms>Показывать диалоговые формы</ShowDialogForms>
     <ShowDimensionLines>Показывать размерные линии</ShowDimensionLines>
     <ShowOldGaugeEditor>Показывать старый редактор индикаторов</ShowOldGaugeEditor>
+    <StartScreen>Начальный экран</StartScreen>
     <title>Параметры</title>
     <UseComponentColor>Использовать цвета компонента для заполнения</UseComponentColor>
     <UseLastFormat>Использовать последнее форматирование</UseLastFormat>
+    <Welcome>Приветствие</Welcome>
   </FormOptions>
   <FormPageSetup>
     <ApplyTo>Применять к</ApplyTo>
@@ -1407,13 +1428,18 @@
     <ApplyStyleCollectionToReportComponents>Применить коллекцию стилей к компонентам отчета</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Применить стили</ApplyStyles>
     <ColorCollectionEditor>Редактор коллекции цветов</ColorCollectionEditor>
+    <CreateNewComponentStyle>для создания нового стиля компонента</CreateNewComponentStyle>
     <CreateStyleCollection>Создать коллекцию стилей</CreateStyleCollection>
     <CreateStylesCollection>Создать коллекцию стилей</CreateStylesCollection>
     <CreateStylesFromColor>Создать стиль из выбранного цвета</CreateStylesFromColor>
     <Duplicate>Копировать стиль</Duplicate>
+    <EditColors>[Изменить цвета]</EditColors>
+    <FromStyle>Из стиля</FromStyle>
     <GetStyle>Создать стиль на основе выделенных компонентов</GetStyle>
     <MoreStyles>Больше стилей</MoreStyles>
+    <NotSpecified>Не указано</NotSpecified>
     <Open>Открыть стили</Open>
+    <Predefined>Предопределенные</Predefined>
     <qnApplyStyleCollection>Вы действительно хотите применить коллекцию стилей к компонентам отчета?</qnApplyStyleCollection>
     <Remove>Удалить стиль</Remove>
     <RemoveExistingStyles>Удалить текущие стили</RemoveExistingStyles>
@@ -1745,6 +1771,7 @@
     <CopyStyle>Копировать стиль</CopyStyle>
     <CopyToClipboard>Скопировать в буфер обмена</CopyToClipboard>
     <CurrencySymbol>Выбрать символ валюты.</CurrencySymbol>
+    <DashboardNew>Создать новую панель индикаторов.</DashboardNew>
     <DataStore>Показать данные, зарегистрированные для отчета.</DataStore>
     <DateTimeFormat>Выбрать формат даты и времени для выделенных компонентов.</DateTimeFormat>
     <DockingPanels>Настройки панели.</DockingPanels>
@@ -2256,6 +2283,7 @@
     <SnapshotAlreadyProcessed>Снимок отчета уже обработан!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Указанный элемент не "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Срок действия Вашей подписки истек!</SubscriptionExpired>
+    <SubscriptionExpiredDate>Срок действия Вашей подписки истечет {0}</SubscriptionExpiredDate>
     <SubscriptionsOut10>10 дней осталось, до завершения срока действия подписки!</SubscriptionsOut10>
     <SubscriptionsOut20>Срок действия подписки истекает через 20 дней!</SubscriptionsOut20>
     <SuccessfullyRenewed>Ваша подписка была успешно обновлена!</SuccessfullyRenewed>
@@ -2382,6 +2410,7 @@
     <ControlCategory>Управление</ControlCategory>
     <ControlsEventsCategory>События элементов управления</ControlsEventsCategory>
     <CrossTabCategory>Кросс-таблица</CrossTabCategory>
+    <DashboardCategory>Панель индикаторов</DashboardCategory>
     <DataCategory>Данные</DataCategory>
     <DatePickerCategory>Выбор даты</DatePickerCategory>
     <DescriptionCategory>Описание</DescriptionCategory>
@@ -2798,6 +2827,10 @@
     <StiFormStartModeOnStart>В начале</StiFormStartModeOnStart>
     <StiGaugeCalculationModeAuto>Авто</StiGaugeCalculationModeAuto>
     <StiGaugeCalculationModeCustom>По выбору</StiGaugeCalculationModeCustom>
+    <StiGaugeRangeModePercentage>Процент</StiGaugeRangeModePercentage>
+    <StiGaugeRangeModeValue>Значение</StiGaugeRangeModeValue>
+    <StiGaugeRangeTypeColor>Цвет</StiGaugeRangeTypeColor>
+    <StiGaugeRangeTypeNone>Нет</StiGaugeRangeTypeNone>
     <StiGaugeTypeFullCircular>Полный циферблат</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Половина циферблата</StiGaugeTypeHalfCircular>
     <StiGaugeTypeLinear>Линейный</StiGaugeTypeLinear>
@@ -2970,6 +3003,8 @@
     <StiShowYAxisBoth>Обе</StiShowYAxisBoth>
     <StiShowYAxisCenter>По центру</StiShowYAxisCenter>
     <StiShowYAxisLeft>Левая</StiShowYAxisLeft>
+    <StiSizeModeAutoSize>Авторазмер</StiSizeModeAutoSize>
+    <StiSizeModeFit>Поместить</StiSizeModeFit>
     <StiSortDirectionAsc>По возрастанию</StiSortDirectionAsc>
     <StiSortDirectionDesc>По убыванию</StiSortDirectionDesc>
     <StiSortDirectionNone>Не сортировать</StiSortDirectionNone>
@@ -3102,6 +3137,7 @@
     <ProcessCellEvent>Обработка ячейки</ProcessCellEvent>
     <ProcessChartEvent>Обработка диаграммы</ProcessChartEvent>
     <RenderingEvent>Построение</RenderingEvent>
+    <ReportCacheProcessingEvent>Обработка кэша отчета</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Изменение индекса</SelectedIndexChangedEvent>
     <StateRestoreEvent>Восстановление состояния</StateRestoreEvent>
     <StateSaveEvent>Сохранение состояния</StateSaveEvent>
@@ -3205,6 +3241,7 @@
     <Area>Область</Area>
     <Argument>Аргумент</Argument>
     <ArgumentDataColumn>Колонка данных аргументов</ArgumentDataColumn>
+    <ArgumentFormat>Формат аргумента</ArgumentFormat>
     <Arguments>Аргументы</Arguments>
     <ArrowHeight>Высота пера</ArrowHeight>
     <ArrowStyle>Стиль стрелки</ArrowStyle>
@@ -3301,6 +3338,7 @@
     <ColorDataColumn>Колонка данных цветов</ColorDataColumn>
     <ColorEach>Цвет для каждого</ColorEach>
     <ColorMeter>Цвет</ColorMeter>
+    <Colors>Цвета</Colors>
     <ColorScaleCondition>Цветовая шкала</ColorScaleCondition>
     <ColorScaleType>Тип цветовой шкалы</ColorScaleType>
     <Column>Колонка</Column>
@@ -3340,9 +3378,11 @@
     <DataAdapters>Адаптеры данных</DataAdapters>
     <DataBarCondition>Гистограмма</DataBarCondition>
     <DataBindings>Связывание данных</DataBindings>
+    <DataColor>Цвет данных</DataColor>
     <DataColumn>Колонка данных</DataColumn>
     <DataColumns>Колонки данных</DataColumns>
     <DataField>Поле данных</DataField>
+    <DataForeground>Цвет текста данных </DataForeground>
     <DataRelation>Связь</DataRelation>
     <DataRows>Строки данных</DataRows>
     <DataSource>Источник данных</DataSource>
@@ -3448,6 +3488,8 @@
     <FooterCanBreak>Итог может разрываться</FooterCanBreak>
     <FooterCanGrow>Итог может расти</FooterCanGrow>
     <FooterCanShrink>Итог может сжиматься</FooterCanShrink>
+    <FooterColor>Цвет итога</FooterColor>
+    <FooterForeground>Цвет текста итога</FooterForeground>
     <FooterPrintAtBottom>Итог печатать внизу</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Итог печатать, если нет данных</FooterPrintIfEmpty>
     <FooterPrintOn>Итог печатать на</FooterPrintOn>
@@ -3463,6 +3505,7 @@
     <Functions>Функции</Functions>
     <GlobalizationStrings>Строки перевода</GlobalizationStrings>
     <GlobalizedName>Глобализация</GlobalizedName>
+    <GridColor>Цвет сетки</GridColor>
     <GridLineColor>Цвет линии сетки</GridLineColor>
     <GridLinesHor>Горизонтальные линии сетки</GridLinesHor>
     <GridLinesHorColor>Цвет горизонтальных линий сетки</GridLinesHorColor>
@@ -3479,8 +3522,10 @@
     <HeaderCanBreak>Заголовок может разрываться</HeaderCanBreak>
     <HeaderCanGrow>Заголовок может расти</HeaderCanGrow>
     <HeaderCanShrink>Заголовок может сжиматься</HeaderCanShrink>
+    <HeaderColor>Цвет заголовка</HeaderColor>
     <HeaderFont>Шрифт заголовка</HeaderFont>
     <HeaderForeColor>Цвет текста заголовка</HeaderForeColor>
+    <HeaderForeground>Цвет текста заголовка</HeaderForeground>
     <HeaderPrintAtBottom>Заголовок печатать внизу</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>Заголовок печатать если нет данных</HeaderPrintIfEmpty>
     <HeaderPrintOn>Заголовок печатать на</HeaderPrintOn>
@@ -3489,6 +3534,7 @@
     <HeaderRowsCount>Количество строк заголовка</HeaderRowsCount>
     <Headers>Заголовки</Headers>
     <HeaderText>Текст заголовка</HeaderText>
+    <HeatmapColors>Цвета температурной карты</HeatmapColors>
     <Height>Высота</Height>
     <HideSeriesWithEmptyTitle>Прятать ряды с пустыми заголовками</HideSeriesWithEmptyTitle>
     <HideZeros>Скрывать нулевые значения</HideZeros>
@@ -3521,8 +3567,10 @@
     <ImportRelations>Импорт связей</ImportRelations>
     <Increment>Приращение</Increment>
     <Indent>Отступ</Indent>
+    <IndividualColor>Индивидуальный цвет</IndividualColor>
     <InfographicsTitle>Заголовок</InfographicsTitle>
     <InitBy>Инициализировать</InitBy>
+    <InitialSelection>Первоначальный выбор</InitialSelection>
     <Insert>Вставить</Insert>
     <Interaction>Взаимодействие</Interaction>
     <InterlacedBrush>Кисть чередования</InterlacedBrush>
@@ -3555,14 +3603,17 @@
     <Keys>Ключи</Keys>
     <Label>Метка</Label>
     <LabelColor>Цвет заголовка</LabelColor>
+    <LabelForeground>Цвет текста надписи</LabelForeground>
     <LabelRotationMode>Режим поворота подписей</LabelRotationMode>
     <Labels>Заголовки</Labels>
     <LabelsColor>Цвет заголовков</LabelsColor>
+    <LabelShadowForeground>Цвет тени текста надписи</LabelShadowForeground>
     <LabelsOffset>Смещение заголовка</LabelsOffset>
     <Language>Язык</Language>
     <LargeHeight>Большая высота</LargeHeight>
     <LargeHeightFactor>Коэффициент большой высоты</LargeHeightFactor>
     <Latitude>Широта</Latitude>
+    <Layout>Размещение</Layout>
     <Left>Слева</Left>
     <LeftSide>Левая сторона</LeftSide>
     <Legend>Легенда</Legend>
@@ -3803,6 +3854,7 @@
     <SeriesLabelsBorderColor>Цвет границы</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>Кисть подписей</SeriesLabelsBrush>
     <SeriesLabelsColor>Цвет подписей</SeriesLabelsColor>
+    <SeriesLabelsLineColor>Цвет линии в подписи</SeriesLabelsLineColor>
     <SeriesLighting>Освещение рядов</SeriesLighting>
     <SeriesShowShadow>Отображение тени рядов</SeriesShowShadow>
     <SeriesTitle>Заголовок серии</SeriesTitle>
@@ -3815,6 +3867,7 @@
     <ShiftMode>Режим смещения</ShiftMode>
     <ShortName>Короткое имя</ShortName>
     <ShortValue>Короткое значение</ShortValue>
+    <ShowAllValue>Показывать все значения</ShowAllValue>
     <ShowBehind>Показывать сзади</ShowBehind>
     <ShowDialog>Показывать диалог</ShowDialog>
     <ShowEdgeValues>Показывать крайние значения</ShowEdgeValues>
@@ -3974,6 +4027,7 @@
     <ValueDataColumnLow>Колонка данных минимумов</ValueDataColumnLow>
     <ValueDataColumnOpen>Колонка данных значений открытия</ValueDataColumnOpen>
     <ValueEnd>Конечное значение</ValueEnd>
+    <ValueFormat>Формат значения</ValueFormat>
     <ValueHigh>Значение максимума</ValueHigh>
     <ValueLow>Значение минимума</ValueLow>
     <ValueMeter>Значение</ValueMeter>
@@ -4125,6 +4179,7 @@
     <BusinessObjects>Бизнес-объекты</BusinessObjects>
     <Categorized>По категориям</Categorized>
     <Charts>Диаграммы</Charts>
+    <Checking>Проверка...</Checking>
     <ClickForMoreDetails>Нажмите для просмотра</ClickForMoreDetails>
     <CollapseAll>Свернуть все</CollapseAll>
     <Collection>Коллекция</Collection>
@@ -4470,6 +4525,7 @@
     <MasterDetailReport>Master-Detail отчет</MasterDetailReport>
     <NoFunction>[Нет]</NoFunction>
     <OpenExistingReport>Открыть файл</OpenExistingReport>
+    <OpenFrom>Открыть из {0}</OpenFrom>
     <Preview>Предварительный просмотр</Preview>
     <Reset>&amp;Сбросить</Reset>
     <Results>Результаты</Results>
@@ -4481,6 +4537,7 @@
     <title>Новый отчет</title>
     <Totals>Итоги</Totals>
     <UsingReportWizard>Мастер отчета</UsingReportWizard>
+    <YouHaveNotOpenedAnyReportRecently>В последнее время вы не открывали отчетов. Чтобы найти отчет, щелкните "Открыть файл".</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
   <Zoom>
     <EmptyValue>Пустое значение</EmptyValue>

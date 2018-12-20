@@ -18,6 +18,8 @@
     <SetGrowToHeightToTrue>Eigenschaft 'In die Höhe wachsen' auf wahr setzen</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>Die Eigenschaft 'HTML-Tags auswerten' einer Komponente auf wahr setzen, um die HTML-Tags korrekt anzuzeigen.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>Die Eigenschaft 'Anzahl der Durchläufe' auf 'Zwei Durchläufe' setzen, um die korrekte Berechnung der Variablen zu gewährleisten..</StiAllowOnDoublePassActionLong>
+    <StiApplyGeneralTextFormatLong>'Allgemein' Format für die '{0}' Komponente einstellen.</StiApplyGeneralTextFormatLong>
+    <StiApplyGeneralTextFormatShort>Allgemein übernehmen</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>Den Wert der Eigenschaft 'Kann unterbrochen werden' der Komponente auf wahr setzen.</StiCanBreakComponentInContainerActionLong>
     <StiCanGrowComponentInContainerActionLong>Den Wert der Eigenschaft 'Kann wachsen' des Containers auf wahr setzen.</StiCanGrowComponentInContainerActionLong>
     <StiCanGrowGrowToHeightComponentInContainerLong>Die Eigenschaft 'In die Höhe wachsen' wird für alle Komponenten im Container auf wahr gesetzt. Diese Operation garantiert keine 100%ige korrekte Darstellung!</StiCanGrowGrowToHeightComponentInContainerLong>
@@ -77,6 +79,8 @@
     <StiComponentBoundsAreOutOfBandShort>Die Komponente ist teilweise außerhalb des Bandes.</StiComponentBoundsAreOutOfBandShort>
     <StiComponentExpressionCheckLong>Der Ausdruck in der Eigenschaft {0} von '{1}' kann nicht berechnet werden!</StiComponentExpressionCheckLong>
     <StiComponentExpressionCheckShort>Der Ausdruck kann nicht berechnet werden!</StiComponentExpressionCheckShort>
+    <StiComponentResourceCheckLong>Die für Komponente '{1}' angegebene Ressource '{0}' wurde im Berichtswörterbuch nicht gefunden.</StiComponentResourceCheckLong>
+    <StiComponentResourceCheckShort>Die angegebene Ressource wurde nicht gefunden!</StiComponentResourceCheckShort>
     <StiComponentStyleIsNotFoundCheckAtPageLong>Der aufgeführte Stil für die Seite '{0}' existiert nicht.</StiComponentStyleIsNotFoundCheckAtPageLong>
     <StiComponentStyleIsNotFoundCheckLong>Der aufgeführte Stil existiert nicht für die Komponente '{0}'.</StiComponentStyleIsNotFoundCheckLong>
     <StiComponentStyleIsNotFoundCheckShort>Der aufgeführte Stil existiert nicht</StiComponentStyleIsNotFoundCheckShort>
@@ -145,6 +149,8 @@
     <StiSystemTextObsoleteCheckShort>Die Komponente ist veraltet</StiSystemTextObsoleteCheckShort>
     <StiTextColorEqualToBackColorCheckLong>Möglicherweise sind die Werte der Eigenschaften 'Text-Pinsel' und 'Pinsel' der Komponente '{0}' falsch gesetzt. Der Text ist nicht sichbar.</StiTextColorEqualToBackColorCheckLong>
     <StiTextColorEqualToBackColorCheckShort>Die Eigenschaft 'Text-Pinsel' stimmt mit der Eigenschaft 'Pinsel' überein</StiTextColorEqualToBackColorCheckShort>
+    <StiTextTextFormatCheckLong>Das ausgewählte Format für '{0}' Komponente ist nicht angegeben.</StiTextTextFormatCheckLong>
+    <StiTextTextFormatCheckShort>Das Format ist nicht angegeben.</StiTextTextFormatCheckShort>
     <StiTotalPageCountDoublePassCheckLong>Die Systemvariablen TotalPageCount, TotalPageCountThrough in Scripten und Bedingungen liefern fehlerhafte Ergenisse bei nur einem Durchlauf.Es ist notwendig, die Eigenschaft 'Anzahl der Durchläufe' auf doppelten Durchlauf zu setzen.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>Der Report enthält eine undefinierte Komponente {0}'. Das Reportprogramm kann diese Komponente nicht ermitteln. Möglicherweise ist dies eine kundenspezifische Komponente. Der Report kann nicht ausgeführt werden!</StiUndefinedComponentCheckLong>
     <StiUndefinedComponentCheckShort>Undefinierte Komponente</StiUndefinedComponentCheckShort>
@@ -162,6 +168,8 @@
   <CheckConnection>
     <StiUndefinedConnectionCheckLong>Unbestimmte Verbindung '{0}' wurde gefunden. Das Reportprogramm kann diese Verbindungsart mit der Datenbank nicht ordnungsgemäß verarbeiten! Es ist möglich, dass kundenspezifische Verbindungsarten im Reports benutzt werden. Dieser Report kann nicht ausgeführt werden!</StiUndefinedConnectionCheckLong>
     <StiUndefinedConnectionCheckShort>Unbestimmte Verbindungsart!</StiUndefinedConnectionCheckShort>
+    <StiUnsupportedConnectionCheckLong>Der Bericht enthält die Verbindung '{0}', die in ausgewählte Plattform nicht unterstützt ist. Bitte, ändern Sie die Optionen für diese Verbindung.</StiUnsupportedConnectionCheckLong>
+    <StiUnsupportedConnectionCheckShort>Nicht unterstützter Verbindungstyp</StiUnsupportedConnectionCheckShort>
   </CheckConnection>
   <CheckDataRelation>
     <StiDifferentAmountOfKeysInDataRelationCheckLong>Die Anzahl der übergeordneten Schlüssel der Beziehung '{0}' stimmt nicht mit der Anzahl der untergeordneten Schlüssel überein. Die folgende Beziehung kann nicht ereugt werden, wenn der Report ausgeführt wird!</StiDifferentAmountOfKeysInDataRelationCheckLong>
@@ -232,12 +240,16 @@
     <ActionDesign>Entwerfen</ActionDesign>
     <ActionExport>Export</ActionExport>
     <ActionShow>Anzeigen</ActionShow>
+    <AddNewConnection>Neue Verbindung hinzufügen</AddNewConnection>
+    <Cancel>Abbrechen</Cancel>
     <Close>Schlie?en</Close>
     <ConnectionsFromReport>Verbindung aus dem Bericht verwenden</ConnectionsFromReport>
     <ConnectionsRegData>Daten aus dem Code regisitrieren</ConnectionsRegData>
     <ConnectionsReplace>Verbindungsstring ersetzen</ConnectionsReplace>
     <Copy>Kopieren</Copy>
+    <CopyingLibraries>Projektdateien werden kopiert...</CopyingLibraries>
     <DeployReportPlatform>Den Bericht in die Plattform bereitstellen:</DeployReportPlatform>
+    <DownloadingLibraries>Bibliotheken werden heruntergeladen...</DownloadingLibraries>
     <ExportFormat>Den Bericht exporieren in:</ExportFormat>
     <ExportFormatData>Daten</ExportFormatData>
     <ExportFormatDataType>Datentyp:</ExportFormatDataType>
@@ -269,22 +281,29 @@
     <LoadReportString>String</LoadReportString>
     <ParametersFromReport>Einen Wert aus dem Bericht verwenden</ParametersFromReport>
     <ParametersReplace>Einen Wert aus dem Code ersetzen</ParametersReplace>
+    <ParametersReplacePhpInfo>Der Parameter wird aus dem Berichtswörterbuch entfernt und kann nur in der SQL-Abfrage verwendet werden.</ParametersReplacePhpInfo>
     <ParametersRequestFromUser>Anfrage vom Benutzer</ParametersRequestFromUser>
     <Publish>Veröffentlichen</Publish>
-	<PublishType>Veroffentlichungstyp des Berichts:</PublishType>
+    <PublishType>Veroffentlichungstyp des Berichts:</PublishType>
     <PublishTypeProject>Projekt</PublishTypeProject>
     <PublishTypeStandalone>Standalone</PublishTypeStandalone>
+    <ReadMore>Mehr lesen</ReadMore>
     <RegDataOnlyForPreview>Nur fur Berichtsvorschau verwenden</RegDataOnlyForPreview>
     <RegDataSynchronize>Worterbuch des Berichts synchronisieren</RegDataSynchronize>
+    <ReplaceConnectionString>Verbindungszeichenfolge ersetzen</ReplaceConnectionString>
+    <ReplacePathToData>Pfad zu Daten ersetzen</ReplacePathToData>
     <ReportAction>Was machen mit dem Bericht:</ReportAction>
+    <ReportErrors>Leider, dieser Bericht kann nicht wegen der Fehler veröffentlicht werden!</ReportErrors>
     <SaveProjectPackage>Projekt-Verpackung speichern</SaveProjectPackage>
     <SaveStandalone>Standalone speichern</SaveStandalone>
     <SaveStandalonePackage>Standalone-Verpackung speichern</SaveStandalonePackage>
+    <SearchLibraries>Suchen nach Bibliotheken...</SearchLibraries>
     <ShowMore>Mehr anzeigen</ShowMore>
     <ShowOptions>Optionen anzeigen</ShowOptions>
     <ThemeBackground>Hintergrund:</ThemeBackground>
     <ThemeStyle>Theme Style:</ThemeStyle>
     <TrialVersion>Testversion</TrialVersion>
+    <Use>Verwenden</Use>
     <UseCompilationCache>Kompilationszwischenspeichern verwenden</UseCompilationCache>
     <UseCompressedScripts>Komprimierte Scripts verwenden</UseCompressedScripts>
     <UseWpfDesignerV2>Designer V2 verwenden</UseWpfDesignerV2>
@@ -876,6 +895,7 @@
     <GetCrossValueEvent>Script des Ereignisses 'Wert lesen'.</GetCrossValueEvent>
     <GetDisplayCrossValueEvent>Script des Ereignisses 'Kreuz-Anzeigewert lesen'.</GetDisplayCrossValueEvent>
     <HideZeros>Wert, der anzeigt, dass für leere numerische Felder keine Null ausgeben wird.</HideZeros>
+    <KeepMergedCellsTogether>Ein Wert zeigt an, dass die verbundenen Zellen zur nächste Seite nicht getrennt werden.</KeepMergedCellsTogether>
     <MergeHeaders>Wert, der anzeigt, das übereinstimmende Werte im Kopf zusammengeführt werden.</MergeHeaders>
     <PrintOnAllPages>Wert, der anzeigt, dass die Komponente auf allen Seiten auszugeben ist.</PrintOnAllPages>
     <ShowPercents>Wert, der anzeigt, das Zellenwerte in Prozent auszugeben sind.</ShowPercents>

@@ -35,11 +35,16 @@ namespace UserDataInReports
 			//
 			InitializeComponent();
 
-			//
-			// TODO: Add any constructor code after InitializeComponent call
-			//
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
 
-			stiReport1.RegData("HatchStyleEnum", Enum.GetNames(typeof(HatchStyle)));
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            stiReport1.RegData("HatchStyleEnum", Enum.GetNames(typeof(HatchStyle)));
 						
 			Type type = typeof(Graphics);
 			assemblys = type.GetMethods();

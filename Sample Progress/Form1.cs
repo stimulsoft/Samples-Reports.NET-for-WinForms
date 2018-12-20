@@ -15,9 +15,14 @@ namespace SampleProgress
 		public Form1()
 		{
 			InitializeComponent();
-		}
 
-		StiReport report = new StiReport();
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
+        StiReport report = new StiReport();
 
 		private void button1_Click(object sender, EventArgs e)
 		{
