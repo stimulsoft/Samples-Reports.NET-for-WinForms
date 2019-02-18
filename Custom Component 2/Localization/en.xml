@@ -139,6 +139,7 @@
     <Yes>&amp;Yes</Yes>
   </Buttons>
   <Chart>
+    <Pareto>Pareto</Pareto>
     <AddCondition>&amp;Add Condition</AddCondition>
     <AddConstantLine>Add Constant Line</AddConstantLine>
     <AddFilter>&amp;Add Filter</AddFilter>
@@ -331,6 +332,7 @@
     <VerticalNone>&lt;b&gt;None&lt;/b&gt;&lt;br&gt;Do not display Vertical Gridlines&lt;/br&gt;</VerticalNone>
   </ChartRibbon>
   <Cloud>
+    <CheckForUpdate>Check for Update</CheckForUpdate>
     <AcceptTermsAndPrivacyPolicy>I read and accept the {0} and {1}</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>Account Settings</AccountSettings>
     <AddAPlace>Add a Place</AddAPlace>
@@ -657,6 +659,8 @@
     <StringFilters>String Filters</StringFilters>
     <TransformationHint>Click on the table header to apply sorting, filtering or change data. This transformation will be applied only to the data of this item.</TransformationHint>
     <Trend>Trend</Trend>
+    <AllowUserSorting>Allow User Sorting</AllowUserSorting>
+    <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
   </Dashboard>
   <Database>
     <Connection>Connection</Connection>
@@ -706,6 +710,9 @@
     <WeekToDate>Week To Date</WeekToDate>
     <YearToDate>Year To Date</YearToDate>
     <Yesterday>Yesterday</Yesterday>
+    <Quarter>Quarter</Quarter>
+    <Year>Year</Year>
+    <Index>Index</Index>
   </DatePickerRanges>
   <DesignerFx>
     <AlreadyExists>'{0}' already exists.</AlreadyExists>
@@ -871,6 +878,7 @@
     <ExportTypeHtmlFile>HTML File...</ExportTypeHtmlFile>
     <ExportTypeImageFile>Image File...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG Image...</ExportTypeJpegFile>
+    <ExportTypeJsonFile>JSON File...</ExportTypeJsonFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX Image...</ExportTypePcxFile>
@@ -963,7 +971,7 @@
     <GifFiles>GIF Image (*.gif)|*.gif</GifFiles>
     <HtmlFiles>HTML Files (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} Classes for Inherited Reports (*.{1})|*.{2}</InheritedLanguageFiles>
-    <JpegFiles>JPEG image (*.jpeg)|*.jpeg</JpegFiles>
+    <JpegFiles>JPEG image (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <JsonDocumentFiles>JSON Report Documents (*.mdc)|*.mdc</JsonDocumentFiles>
     <JsonFiles>JSON Files (*.json)|*.json</JsonFiles>
     <JsonReportFiles>JSON Report Templates (*.mrt)|*.mrt</JsonReportFiles>
@@ -1025,6 +1033,19 @@
     <date10>*F</date10>
     <date11>MM.dd.yyyy</date11>
     <date12>dd/MM/yyyy</date12>
+
+    <date13>*g</date13>
+    <date14>*G</date14>
+    <date15>*y</date15>
+    <date16>*m</date16>
+    <date17>s</date17>
+    <date18>u</date18>
+    <date19>*Q</date19>
+    <date20>*YQ</date20>
+    <date21>QI</date21>
+    <date22>YQI</date22>
+    
+
     <time01>*t</time01>
     <time02>*T</time02>
     <time03>HH:mm</time03>
@@ -1267,6 +1288,7 @@
     <nameOn>On</nameOn>
     <nameTrue>True</nameTrue>
     <nameYes>Yes</nameYes>
+    <NegativeInRed>Negative in Red</NegativeInRed>
     <NegativePattern>Negative Pattern:</NegativePattern>
     <Number>Number</Number>
     <Percentage>Percentage</Percentage>
@@ -1278,6 +1300,7 @@
     <TextFormat>Text Format</TextFormat>
     <Time>Time</Time>
     <title>Format</title>
+    <UseAbbreviation>Use Abbreviation</UseAbbreviation>
     <UseGroupSeparator>Use Group Separator</UseGroupSeparator>
     <UseLocalSetting>Use Local Setting</UseLocalSetting>
   </FormFormatEditor>
@@ -2565,6 +2588,15 @@
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
+    <StiInteractionOnHoverNone>None</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowToolTip>Show Tool Tip</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOnHoverShowHyperlink>Show Hyperlink</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnClick>None</StiInteractionOnClick>
+    <StiInteractionOnClickShowDashboard>Show Dashboard</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnClickOpenHyperlink>Open Hyperlink</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickApplyFilter>Apply Filter</StiInteractionOnClickApplyFilter>
+    <StiInteractionOpenHyperlinkDestinationNewTab>New Tab</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>Current Tab</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <boolFalse>False</boolFalse>
     <boolTrue>True</boolTrue>
     <BorderStyleFixed3D>Fixed 3D</BorderStyleFixed3D>
@@ -2835,6 +2867,7 @@
     <StiMapTypeNone>None</StiMapTypeNone>
     <StiMapTypePoints>Points</StiMapTypePoints>
     <StiMarkerAlignmentLeft>Left</StiMarkerAlignmentLeft>
+    <StiMarkerAlignmentCenter>Center</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentRight>Right</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Circle</StiMarkerTypeCircle>
     <StiMarkerTypeHexagon>Hexagon</StiMarkerTypeHexagon>
@@ -3145,6 +3178,11 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
+    <Pattern>Pattern</Pattern>
+    <Destination>Destination</Destination>
+    <OnClick>On Click</OnClick>
+    <OnHover>On Hover</OnHover>
+    <OnDataManipulation>On Data Manipulation</OnDataManipulation>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
     <Actual>Actual</Actual>
@@ -3174,8 +3212,10 @@
     <AllowUseForeColor>Allow Use Fore Color</AllowUseForeColor>
     <AllowUseHorAlignment>Allow Use Hor Alignment</AllowUseHorAlignment>
     <AllowUseImage>Allow Use Image</AllowUseImage>
+    <AllowUseNegativeTextBrush>Allow Use Negative Text Brush</AllowUseNegativeTextBrush>
     <AllowUserValues>Allow User Values</AllowUserValues>
     <AllowUseTextBrush>Allow Use Text Brush</AllowUseTextBrush>
+    <AllowUseTextFormat>Allow Use Text Format</AllowUseTextFormat>
     <AllowUseTextOptions>Allow Use Text Options</AllowUseTextOptions>
     <AllowUseVertAlignment>Allow Use Vert Alignment</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Allow using as SQL parameter</AllowUsingAsSqlParameter>
@@ -3281,7 +3321,7 @@
     <Color>Color</Color>
     <ColorDataColumn>Color Data Column</ColorDataColumn>
     <ColorEach>Color Each</ColorEach>
-    <ColorMeter>Color</ColorMeter>
+    <ColorMeter>Color Meter</ColorMeter>
     <Colors>Colors</Colors>
     <ColorScaleCondition>Color Scale Condition</ColorScaleCondition>
     <ColorScaleType>Color Scale Type</ColorScaleType>
@@ -3459,7 +3499,7 @@
     <GridOutline>Grid Outline</GridOutline>
     <Group>Group</Group>
     <GroupDataColumn>Group Data Column</GroupDataColumn>
-    <GroupMeter>Group</GroupMeter>
+    <GroupMeter>Group Meter</GroupMeter>
     <GrowToHeight>Grow to Height</GrowToHeight>
     <HeaderBackColor>Header Back Color</HeaderBackColor>
     <HeaderCanBreak>Header Can Break</HeaderCanBreak>
@@ -3539,8 +3579,8 @@
     <KeepSubReportTogether>Keep Sub-Report Together</KeepSubReportTogether>
     <Key>Key</Key>
     <KeyDataColumn>Key Data Column</KeyDataColumn>
-    <KeyMeter>Key</KeyMeter>
-    <KeyMeters>Keys</KeyMeters>
+    <KeyMeter>Key Meter</KeyMeter>
+    <KeyMeters>Key Meters</KeyMeters>
     <Keys>Keys</Keys>
     <Label>Label</Label>
     <LabelColor>Label Color</LabelColor>
@@ -3649,10 +3689,12 @@
     <Name>Name</Name>
     <NameDataColumn>Name Data Column</NameDataColumn>
     <NameInSource>Name in Source</NameInSource>
-    <NameMeter>Name</NameMeter>
+    <NameMeter>Name Meter</NameMeter>
     <NameParent>Parent Name</NameParent>
     <Namespaces>Namespaces</Namespaces>
     <Negative>Negative</Negative>
+    <NegativeSeriesColors>Negative Series Colors</NegativeSeriesColors>
+    <NegativeTextBrush>Negative Text Brush</NegativeTextBrush>
     <NestedLevel>Nested Level</NestedLevel>
     <NewColumnAfter>New Column After</NewColumnAfter>
     <NewColumnBefore>New Column Before</NewColumnBefore>
@@ -3791,6 +3833,7 @@
     <SelectionMode>Selection Mode</SelectionMode>
     <SerialNumber>Serial Number</SerialNumber>
     <Series>Series</Series>
+    <SeriesColors>Series Colors</SeriesColors>
     <SeriesLabels>Series Labels</SeriesLabels>
     <SeriesLabelsBorderColor>Series Labels Border Color</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>Series Labels Brush</SeriesLabelsBrush>
@@ -3969,7 +4012,7 @@
     <ValueFormat>Value Format</ValueFormat>
     <ValueHigh>Value High</ValueHigh>
     <ValueLow>Value Low</ValueLow>
-    <ValueMeter>Value</ValueMeter>
+    <ValueMeter>Value Meter</ValueMeter>
     <ValueOpen>Value Open</ValueOpen>
     <Values>Values</Values>
     <ValueType>Value Type</ValueType>

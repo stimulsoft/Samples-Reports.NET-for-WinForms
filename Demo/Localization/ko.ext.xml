@@ -227,6 +227,10 @@
   <CheckVariable>
     <StiVariableRecursionCheckLong>'{0}'변수는 재귀를 수반하는 식입니다. Variable을 자신의 식에서 참조하는 것은 불가능합니다.</StiVariableRecursionCheckLong>
     <StiVariableRecursionCheckShort>재귀 식</StiVariableRecursionCheckShort>
+    <StiVariableTypeCheckShort>변수 유형이 일치하지 않음.</StiVariableTypeCheckShort>
+    <StiVariableTypeCheckLong>종속 변수가 올바르게 작동하려면 해당 변수의 유형과 해당 열의 유형이 일치해야 합니다.</StiVariableTypeCheckLong>
+    <StiVariableInitializationCheckLong>'{0}' 변수의 기본값이 잘못되었습니다. 지정한 값으로 변수를 초기화할 수 없습니다.</StiVariableInitializationCheckLong>
+    <StiVariableInitializationCheckShort>초기화 값입니다.</StiVariableInitializationCheckShort>
   </CheckVariable>
   <Font>
     <Bold>이 Font가 굵게 여부를 나타내는 값</Bold>
@@ -467,7 +471,7 @@
     <ForeColor>바코드 색상</ForeColor>
     <GetBarCodeEvent>바코드의 코드를받을 때 발생</GetBarCodeEvent>
     <ShowLabelText>바코드 라벨 텍스트를 표시할지 여부를 나타내는 값</ShowLabelText>
-    <ShowQuietZones>바코드가 조용한 영역 또는 아니오를 표시하는 것을 나타내는 값</ShowQuietZones>
+    <ShowQuietZones>바코드가 여백영역 또는 아니오를 표시하는 것을 나타내는 값</ShowQuietZones>
     <Zoom>바코드 크기를 곱 값</Zoom>
   </StiBarCode>
   <StiBarCodeTypeService>
@@ -611,6 +615,59 @@
     <Title>차트 제목 설정</Title>
     <VertSpacing>그래프의 경계와 그래프 사이의 수직 간격</VertSpacing>
   </StiChart>
+  <StiChartElement>
+    <Arguments>차트 인수.</Arguments>
+    <Values>차트 값.</Values>
+    <EndValues>차트의 끝 값.</EndValues>
+    <CloseValues>차트의 닫기 값.</CloseValues>
+    <LowValues>차트의 낮은 값.</LowValues>
+    <HighValues>차트의 높은 값.</HighValues>
+    <Weights>차트의 가중치.</Weights>
+    <Series>차트 시리즈.</Series>
+    <ColorEach></ColorEach>
+    <Group></Group>
+    <Style>차트 스타일.</Style>
+    <TextFormat>텍스트 형식.</TextFormat>
+    <Title>차트 제목.</Title>
+  </StiChartElement>
+  <StiTableElement>
+    <Columns>테이블에 표시된 열</Columns>
+    <SizeMode></SizeMode>
+    <Group></Group>
+    <Title>테이블 제목.</Title>
+    <Style>테이블 스타일.</Style>
+  </StiTableElement>
+  <StiTitle>
+    <BackColor>제목의 배경색.</BackColor>
+    <ForeColor>제목에 대한 전경색.</ForeColor>
+    <Text>제목 텍스트.</Text>
+    <Font>제목 글꼴.</Font>
+    <HorAlignment>문자 수평 정렬.</HorAlignment>
+    <Visible>제목 표시.</Visible>
+  </StiTitle>
+  <StiElement>
+    <BackColor>요소의 배경색.</BackColor>
+    <Margin>요소 바깥여백.</Margin>
+    <Padding>요소 안쪽여백.</Padding>
+  </StiElement>
+  <StiSimpleBorder>
+    <Color>테두리 색.</Color>
+    <Side>프레임 테두리.</Side>
+    <Size>테두리 크기.</Size>
+    <Style>테두리 스타일.</Style>
+  </StiSimpleBorder>
+  <StiMargin>
+    <Left>값은 요소의 왼쪽 모서리에서 여백을 설정합니다..</Left>
+    <Right>값은 요소의 오른쪽 모서리에서 여백을 설정합니다..</Right>
+    <Top>값은 요소의 상단 모서리에서 여백을 설정합니다..</Top>
+    <Bottom>값은 요소의 하단 모서리에서 여백을 설정합니다..</Bottom>
+  </StiMargin>
+  <StiPadding>
+    <Left>이 값은 요소 내부의 패딩을 왼쪽 테두리에서 설정합니다..</Left>
+    <Right>이 값은 요소 내부의 패딩을 오른쪽 테두리에서 설정합니다..</Right>
+    <Top>값은 요소 내부의 패딩을 상단 경계에서 설정합니다..</Top>
+    <Bottom>이 값은 요소 내부의 패딩과 그 내용을 하단 테두리에서 설정합니다..</Bottom>
+  </StiPadding>
   <StiChartTable>
     <Font>그래프 표 글꼴</Font>
     <GridLineColor>눈금 선 색상</GridLineColor>
@@ -1153,7 +1210,7 @@
     <File>이미지를 포함하는 파일의 경로</File>
     <GetImageDataEvent>구성 요소의 이미지를 얻을 때 발생</GetImageDataEvent>
     <GetImageURLEvent>구성 요소의 이미지 URL을 검색 할 때 발생</GetImageURLEvent>
-    <GlobalizedName>세계화 관리자 키로 사용되는 값</GlobalizedName>
+    <GlobalizedName>국제화 관리자 키로 사용되는 값</GlobalizedName>
     <Image>사진</Image>
     <ImageData>구성 요소 이미지 속성을 충족 식</ImageData>
     <ImageRotation>출력 전에 이미지를 회전하는 방법을 나타내는 값</ImageRotation>
@@ -1440,7 +1497,7 @@
     <ConvertNulls>null 또는 DBNull을 변환 할 필요가 있는지 여부를 나타내는 값</ConvertNulls>
     <EndRenderEvent>보고서 렌더링이 완료되면 발생</EndRenderEvent>
     <EngineVersion>현재보고 엔진</EngineVersion>
-    <GlobalizationStrings>세계화 문자열로 구성된 컬렉션</GlobalizationStrings>
+    <GlobalizationStrings>국제화 문자열로 구성된 컬렉션</GlobalizationStrings>
     <NumberOfPass>보고서 생성시 보고서 생성기를 만들 경로의 수</NumberOfPass>
     <ParametersOrientation>매개 변수 패널 방향을 나타내는 값</ParametersOrientation>
     <PreviewMode>보고서 미리보기 모드</PreviewMode>
@@ -1640,7 +1697,7 @@
   </StiShapeTypeService>
   <StiSimpleText>
     <GetValueEvent>텍스트 렌더링 준비 중일 때 발생</GetValueEvent>
-    <GlobalizedName>세계화 관리자 키로 사용되는 값</GlobalizedName>
+    <GlobalizedName>국제화 관리자 키로 사용되는 값</GlobalizedName>
     <HideZeros>0을 표시 할 필요가없는 것을 나타내는 값</HideZeros>
     <LinesOfUnderline>행에 밑줄이 필요함을 나타내는 값</LinesOfUnderline>
     <MaxNumberOfLines>높이 성장의 한계를 지정하는 행의 최대 개수</MaxNumberOfLines>

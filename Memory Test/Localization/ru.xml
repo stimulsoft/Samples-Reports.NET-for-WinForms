@@ -219,6 +219,7 @@
     <MoveStripUp>Переместить полосу вверх</MoveStripUp>
     <NoConditions>Нет условий</NoConditions>
     <NoFilters>Нет фильтров</NoFilters>
+    <Pareto>Парето</Pareto>
     <Pictorial>Пиктографическая карта</Pictorial>
     <Pie>Круговая</Pie>
     <Radar>Лепестковая</Radar>
@@ -686,6 +687,7 @@
     <CurrentYear>Текущий год</CurrentYear>
     <FirstQuarter>Первый квартал</FirstQuarter>
     <FourthQuarter>Четвертый квартал</FourthQuarter>
+    <Index>Индекс</Index>
     <Last14Days>Последние 14 дней</Last14Days>
     <Last30Days>Последние 30 дней</Last30Days>
     <Last7Days>Последние 7 дней</Last7Days>
@@ -698,12 +700,14 @@
     <PreviousQuarter>Предыдущий квартал</PreviousQuarter>
     <PreviousWeek>Предыдущая неделя</PreviousWeek>
     <PreviousYear>Предыдущий год</PreviousYear>
+    <Quarter>Квартал</Quarter>
     <QuarterToDate>С начала квартала</QuarterToDate>
     <SecondQuarter>Второй квартал</SecondQuarter>
     <ThirdQuarter>Третий квартал</ThirdQuarter>
     <Today>Сегодня</Today>
     <Tomorrow>Завтра</Tomorrow>
     <WeekToDate>С начала недели</WeekToDate>
+    <Year>Год</Year>
     <YearToDate>С начала года</YearToDate>
     <Yesterday>Вчера</Yesterday>
   </DatePickerRanges>
@@ -871,6 +875,7 @@
     <ExportTypeHtmlFile>HTML файл...</ExportTypeHtmlFile>
     <ExportTypeImageFile>Файл изображения...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG рисунок...</ExportTypeJpegFile>
+    <ExportTypeJsonFile>JSON файл...</ExportTypeJsonFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web архив...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX рисунок...</ExportTypePcxFile>
@@ -964,7 +969,7 @@
     <GifFiles>GIF изображения (*.gif)|*.gif</GifFiles>
     <HtmlFiles>HTML файлы (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} классы для унаследованных отчетов (*.{1})|*.{2}</InheritedLanguageFiles>
-    <JpegFiles>JPEG изображения (*.jpeg)|*.jpeg</JpegFiles>
+    <JpegFiles>JPEG изображения (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <JsonDocumentFiles>JSON построенные отчеты (*.mdc)|*.mdc</JsonDocumentFiles>
     <JsonFiles>JSON файлы (*.json)|*.json</JsonFiles>
     <JsonReportFiles>JSON шаблоны отчетов (*.mrt)|*.mrt</JsonReportFiles>
@@ -1026,6 +1031,16 @@
     <date10>*F</date10>
     <date11>MM.dd.yyyy</date11>
     <date12>MM/dd/yyyy</date12>
+    <date13>*g</date13>
+    <date14>*G</date14>
+    <date15>*y</date15>
+    <date16>*m</date16>
+    <date17>s</date17>
+    <date18>u</date18>
+    <date19>*Q</date19>
+    <date20>*YQ</date20>
+    <date21>QI</date21>
+    <date22>YQI</date22>
     <time01>t</time01>
     <time02>T</time02>
     <time03>HH:mm</time03>
@@ -1270,6 +1285,7 @@
     <nameOn>Включено</nameOn>
     <nameTrue>Истина</nameTrue>
     <nameYes>Да</nameYes>
+    <NegativeInRed>Отрицательные красным</NegativeInRed>
     <NegativePattern>Отрицательный шаблон:</NegativePattern>
     <Number>Числовой</Number>
     <Percentage>Процентный</Percentage>
@@ -1281,6 +1297,7 @@
     <TextFormat>Формат текста</TextFormat>
     <Time>Время</Time>
     <title>Формат</title>
+    <UseAbbreviation>Использовать аббревиатуру</UseAbbreviation>
     <UseGroupSeparator>Разделитель групп разрядов</UseGroupSeparator>
     <UseLocalSetting>Региональные настройки</UseLocalSetting>
   </FormFormatEditor>
@@ -2853,6 +2870,15 @@
     <StiImageRotationRotate180>Повернуть на 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Повернуть на 90° против часовой стрелки</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Повернуть на  90° по часовой стрелке</StiImageRotationRotate90CW>
+    <StiInteractionOnClick>Нет</StiInteractionOnClick>
+    <StiInteractionOnClickApplyFilter>Применять фильтр</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickOpenHyperlink>Открыть гиперссылку</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickShowDashboard>Показать приборную панель</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnHoverNone>Нет</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowHyperlink>Показывать гиперссылку</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnHoverShowToolTip>Показать подсказку</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>Текущая закладка</StiInteractionOpenHyperlinkDestinationCurrentTab>
+    <StiInteractionOpenHyperlinkDestinationNewTab>Новая закладка</StiInteractionOpenHyperlinkDestinationNewTab>
     <StiItemSelectionModeMulti>Много элементов</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Один элемент</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Держать детали вместе</StiKeepDetailsKeepDetailsTogether>
@@ -2886,6 +2912,7 @@
     <StiMapTypeNone>Нет</StiMapTypeNone>
     <StiMapTypePoints>Точки</StiMapTypePoints>
     <StiMarkerAlignmentLeft>Слева</StiMarkerAlignmentLeft>
+    <StiMarkerAlignmentCenter>По центру</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentRight>Справа</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Круг</StiMarkerTypeCircle>
     <StiMarkerTypeHexagon>Шестиугольник</StiMarkerTypeHexagon>
@@ -3229,8 +3256,10 @@
     <AllowUseForeColor>Разрешить цвет переднего фона</AllowUseForeColor>
     <AllowUseHorAlignment>Разрешить гор. выравнивание</AllowUseHorAlignment>
     <AllowUseImage>Разрешить изображения</AllowUseImage>
+    <AllowUseNegativeTextBrush>Разрешить цвет текста для отрицательных</AllowUseNegativeTextBrush>
     <AllowUserValues>Разрешить пользовательские значения</AllowUserValues>
     <AllowUseTextBrush>Разрешить кисть текста</AllowUseTextBrush>
+    <AllowUseTextFormat>Разрешить формат текста</AllowUseTextFormat>
     <AllowUseTextOptions>Разрешить параметры текста</AllowUseTextOptions>
     <AllowUseVertAlignment>Разрешить верт. выравнивание</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Разрешить использовать как SQL параметр</AllowUsingAsSqlParameter>
@@ -3262,9 +3291,9 @@
     <AutoWidth>Автоширина</AutoWidth>
     <AutoWidthType>Тип авто-ширины</AutoWidthType>
     <AvailableInTheViewer>Показывать во вьювере</AvailableInTheViewer>
-    <AxisLabelsColor>Цвет подписей</AxisLabelsColor>
-    <AxisLineColor>Цвет линии</AxisLineColor>
-    <AxisTitleColor>Цвет заголовка</AxisTitleColor>
+    <AxisLabelsColor>Цвет подписей оси</AxisLabelsColor>
+    <AxisLineColor>Цвет линии оси</AxisLineColor>
+    <AxisTitleColor>Цвет заголовка оси</AxisTitleColor>
     <AxisValue>Значение оси</AxisValue>
     <BackColor>Цвет фона</BackColor>
     <Background>Фон</Background>
@@ -3308,9 +3337,9 @@
     <CellWidth>Ширина ячейки</CellWidth>
     <Center>Центр</Center>
     <CenterPoint>Точка центра</CenterPoint>
-    <ChartAreaBorderColor>Цвет границы</ChartAreaBorderColor>
+    <ChartAreaBorderColor>Цвет границы области</ChartAreaBorderColor>
     <ChartAreaBrush>Кисть области</ChartAreaBrush>
-    <ChartAreaShowShadow>Показать тень</ChartAreaShowShadow>
+    <ChartAreaShowShadow>Показать тень области</ChartAreaShowShadow>
     <ChartType>Тип диаграммы</ChartType>
     <Checked>Включено</Checked>
     <CheckOnClick>Включать при нажатии</CheckOnClick>
@@ -3337,7 +3366,7 @@
     <Color>Цвет</Color>
     <ColorDataColumn>Колонка данных цветов</ColorDataColumn>
     <ColorEach>Цвет для каждого</ColorEach>
-    <ColorMeter>Цвет</ColorMeter>
+    <ColorMeter>Цвет-измерение</ColorMeter>
     <Colors>Цвета</Colors>
     <ColorScaleCondition>Цветовая шкала</ColorScaleCondition>
     <ColorScaleType>Тип цветовой шкалы</ColorScaleType>
@@ -3400,6 +3429,7 @@
     <DependentColumn>Зависимая колонка</DependentColumn>
     <DependentValue>Зависимое значение</DependentValue>
     <Description>Описание</Description>
+    <Destination>Назначение</Destination>
     <DetectUrls>Определять гиперссылки</DetectUrls>
     <DialogResult>Результат диалога</DialogResult>
     <Diameter>Диаметр</Diameter>
@@ -3516,7 +3546,7 @@
     <GridOutline>Контур таблицы</GridOutline>
     <Group>Группа</Group>
     <GroupDataColumn>Колонка данных групп</GroupDataColumn>
-    <GroupMeter>Группа</GroupMeter>
+    <GroupMeter>Группа-измерение</GroupMeter>
     <GrowToHeight>Расти в высоту</GrowToHeight>
     <HeaderBackColor>Цвет заголовка</HeaderBackColor>
     <HeaderCanBreak>Заголовок может разрываться</HeaderCanBreak>
@@ -3598,8 +3628,8 @@
     <KeepSubReportTogether>Держать Вложенный отчет вместе</KeepSubReportTogether>
     <Key>Ключ</Key>
     <KeyDataColumn>Колонка данных с ключом</KeyDataColumn>
-    <KeyMeter>Ключ</KeyMeter>
-    <KeyMeters>Ключи</KeyMeters>
+    <KeyMeter>Ключ-измерение</KeyMeter>
+    <KeyMeters>Ключи-измерения</KeyMeters>
     <Keys>Ключи</Keys>
     <Label>Метка</Label>
     <LabelColor>Цвет заголовка</LabelColor>
@@ -3620,7 +3650,7 @@
     <LegendBorderColor>Цвет границы легенды</LegendBorderColor>
     <LegendBrush>Кисть легенды</LegendBrush>
     <LegendLabelsColor>Цвет подписей легенды</LegendLabelsColor>
-    <LegendTitleColor>Цвет заголовка</LegendTitleColor>
+    <LegendTitleColor>Цвет заголовка легенды</LegendTitleColor>
     <LegendValueType>Тип значения легенды</LegendValueType>
     <Length>Длина</Length>
     <LengthUnderLabels>Длина под подписью</LengthUnderLabels>
@@ -3708,10 +3738,12 @@
     <Name>Наименование</Name>
     <NameDataColumn>Колонка данных названий</NameDataColumn>
     <NameInSource>Наименование в источнике</NameInSource>
-    <NameMeter>Наименование</NameMeter>
+    <NameMeter>Наименование-измерение</NameMeter>
     <NameParent>Наименование главного</NameParent>
     <Namespaces>Пространства имен</Namespaces>
     <Negative>Негативный</Negative>
+    <NegativeSeriesColors>Цвета серий для отрицательных</NegativeSeriesColors>
+    <NegativeTextBrush>Цвет текста для отрицательных</NegativeTextBrush>
     <NestedLevel>Уровень вложенности</NestedLevel>
     <NewColumnAfter>Новая колонка после</NewColumnAfter>
     <NewColumnBefore>Новая колонка до</NewColumnBefore>
@@ -3727,6 +3759,8 @@
     <OddStyle>Стиль нечетных строк</OddStyle>
     <Offset>Смещение</Offset>
     <OffsetAngle>Угол смещения</OffsetAngle>
+    <OnClick>При нажатии</OnClick>
+    <OnHover>При наведении</OnHover>
     <OnlyText>Только текст</OnlyText>
     <OpenValues>Значения открытия</OpenValues>
     <Operation>Операция</Operation>
@@ -3751,6 +3785,7 @@
     <Path>Путь</Path>
     <PathData>Путь к XML данным</PathData>
     <PathSchema>Путь к XML схеме</PathSchema>
+    <Pattern>Шаблон</Pattern>
     <Placement>Размещение</Placement>
     <PlaceOnToolbox>Размещать в инструментарии</PlaceOnToolbox>
     <PointAtCenter>Точка в Центре</PointAtCenter>
@@ -3850,6 +3885,7 @@
     <SelectionMode>Способ выбора</SelectionMode>
     <SerialNumber>Серийный Номер</SerialNumber>
     <Series>Ряды</Series>
+    <SeriesColors>Цвета серий</SeriesColors>
     <SeriesLabels>Заголовки рядов</SeriesLabels>
     <SeriesLabelsBorderColor>Цвет границы</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>Кисть подписей</SeriesLabelsBrush>
@@ -3996,8 +4032,8 @@
     <Totals>Итоги</Totals>
     <TransparentColor>Цвет прозрачности</TransparentColor>
     <TrendLine>Линия тренда</TrendLine>
-    <TrendLineColor>Цвет</TrendLineColor>
-    <TrendLineShowShadow>Показать тень</TrendLineShowShadow>
+    <TrendLineColor>Цвет линии тренда</TrendLineColor>
+    <TrendLineShowShadow>Показать тень линии тренда</TrendLineShowShadow>
     <TrimExcessData>Отделять избыточные значения</TrimExcessData>
     <Trimming>Подгонка</Trimming>
     <Type>Тип</Type>
@@ -4030,7 +4066,7 @@
     <ValueFormat>Формат значения</ValueFormat>
     <ValueHigh>Значение максимума</ValueHigh>
     <ValueLow>Значение минимума</ValueLow>
-    <ValueMeter>Значение</ValueMeter>
+    <ValueMeter>Значение-измерение</ValueMeter>
     <ValueOpen>Значение открытия</ValueOpen>
     <Values>Значения</Values>
     <ValueType>Тип значения</ValueType>

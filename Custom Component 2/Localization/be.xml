@@ -219,6 +219,7 @@
     <MoveStripUp>Перамясціць паласу ўверх</MoveStripUp>
     <NoConditions>Няма ўмоў</NoConditions>
     <NoFilters>Няма фільтраў</NoFilters>
+    <Pareto>Парето</Pareto>
     <Pictorial>Піктаграфічная карта</Pictorial>
     <Pie>Кругавая</Pie>
     <Radar>Пялёсткавая</Radar>
@@ -334,6 +335,7 @@
     <AcceptTermsAndPrivacyPolicy>Я азнаёміўся з {0}, {1} і прымаю умовы.</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>Налады акаўнта</AccountSettings>
     <AddAPlace>Даданне месца</AddAPlace>
+    <AreYouSureYouWantDeleteReport>Вы сапраўды хочаце выдаліць справаздачу "{0}" з дыска?</AreYouSureYouWantDeleteReport>
     <ButtonChangePassword>Змяніць пароль</ButtonChangePassword>
     <ButtonDeleteAll>Выдаліць усе</ButtonDeleteAll>
     <ButtonDesign>Рэдагаваць справаздачу</ButtonDesign>
@@ -688,6 +690,7 @@
     <CurrentYear>Бягучы год</CurrentYear>
     <FirstQuarter>Першы квартал</FirstQuarter>
     <FourthQuarter>Чацвёрты квартал</FourthQuarter>
+    <Index>Індэкс</Index>
     <Last14Days>Апошнія 14 дзён</Last14Days>
     <Last30Days>Апошнія 30 дзён</Last30Days>
     <Last7Days>Апошнія 7 дзён</Last7Days>
@@ -700,12 +703,14 @@
     <PreviousQuarter>Папярэдні квартал</PreviousQuarter>
     <PreviousWeek>Папярэдні тыдзень</PreviousWeek>
     <PreviousYear>Папярэдні год</PreviousYear>
+    <Quarter>Квартал</Quarter>
     <QuarterToDate>З пачатку квартала</QuarterToDate>
     <SecondQuarter>Другі квартал</SecondQuarter>
     <ThirdQuarter>Трэці квартал</ThirdQuarter>
     <Today>Сёння</Today>
     <Tomorrow>Заўтра</Tomorrow>
     <WeekToDate>З пачатку тыдня</WeekToDate>
+    <Year>Год</Year>
     <YearToDate>З пачатку года</YearToDate>
     <Yesterday>Учора</Yesterday>
   </DatePickerRanges>
@@ -873,6 +878,7 @@
     <ExportTypeHtmlFile>HTML файл...</ExportTypeHtmlFile>
     <ExportTypeImageFile>Файл малюнка...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG малюнак...</ExportTypeJpegFile>
+    <ExportTypeJsonFile>JSON файл...</ExportTypeJsonFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web архіў...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX малюнак...</ExportTypePcxFile>
@@ -966,7 +972,7 @@
     <GifFiles>GIF малюнак (*.gif)|*.gif</GifFiles>
     <HtmlFiles>HTML файлы (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} файлы для перанятых справаздач (*.{1})|*.{2}</InheritedLanguageFiles>
-    <JpegFiles>JPEG малюнак (*.jpeg)|*.jpeg</JpegFiles>
+    <JpegFiles>JPEG малюнак (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <JsonDocumentFiles>JSON пабудаваныя справаздачы (*.mdc)|*.mdc</JsonDocumentFiles>
     <JsonFiles>JSON файлы (*.json)|*.json</JsonFiles>
     <JsonReportFiles>JSON шаблоны справаздач (*.mrt)|*.mrt</JsonReportFiles>
@@ -1028,6 +1034,16 @@
     <date10>*F</date10>
     <date11>MM.dd.yyyy</date11>
     <date12>MM/dd/yyyy</date12>
+    <date13>*g</date13>
+    <date14>*G</date14>
+    <date15>*y</date15>
+    <date16>*m</date16>
+    <date17>s</date17>
+    <date18>u</date18>
+    <date19>*Q</date19>
+    <date20>*YQ</date20>
+    <date21>QI</date21>
+    <date22>YQI</date22>
     <time01>t</time01>
     <time02>T</time02>
     <time03>HH:mm</time03>
@@ -1272,6 +1288,7 @@
     <nameOn>Уключана</nameOn>
     <nameTrue>Ісціна</nameTrue>
     <nameYes>Так</nameYes>
+    <NegativeInRed>Адмоўныя чырвоным</NegativeInRed>
     <NegativePattern>Адмоўны шаблон:</NegativePattern>
     <Number>Лікавы</Number>
     <Percentage>Адсоткавы</Percentage>
@@ -1283,12 +1300,14 @@
     <TextFormat>Фармат тэксту</TextFormat>
     <Time>Час</Time>
     <title>Фармат</title>
+    <UseAbbreviation>Скарыстаць абрэвіятуру</UseAbbreviation>
     <UseGroupSeparator>Падзельнік груп разрадаў</UseGroupSeparator>
     <UseLocalSetting>Рэгіянальныя налады</UseLocalSetting>
   </FormFormatEditor>
   <FormGlobalizationEditor>
     <AddCulture>&amp;Дадаць культуру</AddCulture>
     <AutoLocalizeReportOnRun>Аўтапераклад справаздачы пры старце</AutoLocalizeReportOnRun>
+    <CreateNewCulture>каб стварыць новую культуру</CreateNewCulture>
     <GetCulture>Узяць налады культуры з справаздачы</GetCulture>
     <qnGetCulture>Вы сапраўды хочаце ўзяць налады культуры з справаздачы і сцерці</qnGetCulture>
     <qnSetCulture>Вы сапраўды хочаце ўстанавiць налады культуры ў кампаненты справаздачы? Вы действительно хотите установить настройки культуры в компоненты отчета?</qnSetCulture>
@@ -1434,9 +1453,13 @@
     <CreateStylesCollection>Стварыць калекцыю стыляў</CreateStylesCollection>
     <CreateStylesFromColor>Стварыць стыль з абранага колеру</CreateStylesFromColor>
     <Duplicate>Капіраваць стыль</Duplicate>
+    <EditColors>[Змяніць колеры]</EditColors>
+    <FromStyle>Са стылю</FromStyle>
     <GetStyle>Стварыць стыль на аснове выдзеленых кампанентаў</GetStyle>
     <MoreStyles>Больш стыляў</MoreStyles>
+    <NotSpecified>Не паказана</NotSpecified>
     <Open>Адкрыць стыль</Open>
+    <Predefined>Наканаваныя</Predefined>
     <qnApplyStyleCollection>Вы сапраўды хочаце ўжыць калекцыю стыляў да кампанентаў справаздачы?</qnApplyStyleCollection>
     <Remove>Выдаліць стыль</Remove>
     <RemoveExistingStyles>Выдаліць абраныя стылі</RemoveExistingStyles>
@@ -2289,6 +2312,7 @@
     <SnapshotAlreadyProcessed>Здымак справаздачы ўжо апрацаваны!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Указаны элемент не "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Тэрмін дзеяння Вашай падпіскі мінуў!</SubscriptionExpired>
+    <SubscriptionExpiredDate>Тэрмін дзеяння Вашай падпіскі міне {0}</SubscriptionExpiredDate>
     <SubscriptionsOut10>10 дзён засталося, да завяршэння тэрміну дзеяння падпіскі!</SubscriptionsOut10>
     <SubscriptionsOut20>Тэрмін дзеяння падпіскі мінае праз 20 дзён!</SubscriptionsOut20>
     <SuccessfullyRenewed>Ваша падпіска была паспяхова абноўлена!</SuccessfullyRenewed>
@@ -2864,6 +2888,15 @@
     <StiImageRotationRotate180>Вугол зварота - 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Вугол зварота -  90° супраць гадзіннікавай стрэлкi</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Вугол зварота - 90° па гадзіннікавай стрэлке</StiImageRotationRotate90CW>
+    <StiInteractionOnClick>Не</StiInteractionOnClick>
+    <StiInteractionOnClickApplyFilter>Ужываць фільтр</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickOpenHyperlink>Адкрыць гіперспасылку</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickShowDashboard>Паказаць прыладавую панэль</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnHoverNone>Не</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowHyperlink>Паказваць гіперспасылку</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnHoverShowToolTip>Паказаць падказку</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>Бягучая закладка</StiInteractionOpenHyperlinkDestinationCurrentTab>
+    <StiInteractionOpenHyperlinkDestinationNewTab>Новая закладка</StiInteractionOpenHyperlinkDestinationNewTab>
     <StiItemSelectionModeMulti>Шмат элементаў</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Адзін элемент</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Трымаць дэталі разам</StiKeepDetailsKeepDetailsTogether>
@@ -3255,8 +3288,10 @@
     <AllowUseForeColor>Дазволіць колер пярэдняга фону</AllowUseForeColor>
     <AllowUseHorAlignment>Дазволіць выкарыст. гар. выраўнаванне</AllowUseHorAlignment>
     <AllowUseImage>Дазволiць выкарыстанне малюнка</AllowUseImage>
+    <AllowUseNegativeTextBrush>Дазволіць колер тэксту для адмоўных</AllowUseNegativeTextBrush>
     <AllowUserValues>Дазволіць карыстальнiцкія значэннi</AllowUserValues>
     <AllowUseTextBrush>Дазволіць выкарыст. пэндзаль тексту</AllowUseTextBrush>
+    <AllowUseTextFormat>Дазволіць фармат тэксту</AllowUseTextFormat>
     <AllowUseTextOptions>Дазволіць выкарыст. параметры тэксту</AllowUseTextOptions>
     <AllowUseVertAlignment>Дазволіць выкарыст. верт. выраўнаванне</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Дазволіць выкарыстоўваць як SQL параметр</AllowUsingAsSqlParameter>
@@ -3426,6 +3461,7 @@
     <DependentColumn>Залежная калонка</DependentColumn>
     <DependentValue>Залежнае значэнне</DependentValue>
     <Description>Апісанне</Description>
+    <Destination>Прызначэнне</Destination>
     <DetectUrls>Вызначаць гіперспасылкi</DetectUrls>
     <DialogResult>Вынік дыялогу</DialogResult>
     <Diameter>Дыяметр</Diameter>
@@ -3739,6 +3775,8 @@
     <NameParent>Найменне галоўнага</NameParent>
     <Namespaces>Прасторы імёнаў</Namespaces>
     <Negative>Негатыўны</Negative>
+    <NegativeSeriesColors>Колеры серый для адмоўных</NegativeSeriesColors>
+    <NegativeTextBrush>Колер тэксту для адмоўных</NegativeTextBrush>
     <NestedLevel>Узровень ўкладзенасці</NestedLevel>
     <NewColumnAfter>Новая калонка пасля</NewColumnAfter>
     <NewColumnBefore>Новая калонка да</NewColumnBefore>
@@ -3754,6 +3792,8 @@
     <OddStyle>Стыль няцотных радкоў</OddStyle>
     <Offset>Зрушэнне</Offset>
     <OffsetAngle>Кут зрушэння</OffsetAngle>
+    <OnClick>Пры націску</OnClick>
+    <OnHover>Пры навядзенні</OnHover>
     <OnlyText>Толькі тэкст</OnlyText>
     <OpenValues>Ззначэння адкрыцця</OpenValues>
     <Operation>Аперацыя</Operation>
@@ -3879,10 +3919,12 @@
     <SelectionMode>Спосаб выбару</SelectionMode>
     <SerialNumber>Серыйны Нумар</SerialNumber>
     <Series>Шэрагі</Series>
+    <SeriesColors>Колеры серый</SeriesColors>
     <SeriesLabels>Загалоўкі шэрагаў</SeriesLabels>
     <SeriesLabelsBorderColor>Колер мяжы</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>Пэндзаль подпісаў</SeriesLabelsBrush>
     <SeriesLabelsColor>Колер подпісаў</SeriesLabelsColor>
+    <SeriesLabelsLineColor>Колер лініі ў подпісы</SeriesLabelsLineColor>
     <SeriesLighting>Асвятленне шэрагаў</SeriesLighting>
     <SeriesShowShadow>Адлюстраванне цені шэрагаў</SeriesShowShadow>
     <SeriesTitle>Загаловак серыі</SeriesTitle>

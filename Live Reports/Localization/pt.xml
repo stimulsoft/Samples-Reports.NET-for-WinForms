@@ -97,6 +97,7 @@
     <AddAllColumns>Adicionar todas as colunas</AddAllColumns>
     <Attach>Attach</Attach>
     <Build>Construir...</Build>
+    <Buttons>Botões</Buttons>
     <Cancel>&amp;Cancelar</Cancel>
     <Check>Verificar</Check>
     <Close>Fechar</Close>
@@ -130,6 +131,7 @@
     <SetAll>Todos</SetAll>
     <ShowLess>Show Less</ShowLess>
     <ShowMore>Mostrar mais</ShowMore>
+    <ShowSpecific>Mostrar '{0}'</ShowSpecific>
     <Submit>Enviar</Submit>
     <Test>Testar</Test>
     <Up>Para cima</Up>
@@ -217,6 +219,7 @@
     <MoveStripUp>Mover faixa para cima</MoveStripUp>
     <NoConditions>Nenhuma condição</NoConditions>
     <NoFilters>Nenhum filtro</NoFilters>
+    <Pareto>Pareto</Pareto>
     <Pictorial>Pictorial</Pictorial>
     <Pie>Pie</Pie>
     <Radar>Radar</Radar>
@@ -332,6 +335,7 @@
     <AcceptTermsAndPrivacyPolicy>I read and accept the {0} and {1}</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>Configurações de Conta</AccountSettings>
     <AddAPlace>Add a Place</AddAPlace>
+    <AreYouSureYouWantDeleteReport>Tem a certeza que deseja eliminar o relatório "{0}" do disco?</AreYouSureYouWantDeleteReport>
     <ButtonChangePassword>Change Password</ButtonChangePassword>
     <ButtonDeleteAll>Delete All</ButtonDeleteAll>
     <ButtonDesign>Design Report</ButtonDesign>
@@ -360,6 +364,7 @@
     <CreatingReport>Creating report...</CreatingReport>
     <DashboardWindowTitleNew>New Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Eliminar ficheiro</DeleteFile>
+    <DoNotAskMe>Não perguntar novamente</DoNotAskMe>
     <ExecutionError>Execution error</ExecutionError>
     <ExpiredDate>Expired Date</ExpiredDate>
     <FileStorageWindowTitleEdit>Edit File Storage</FileStorageWindowTitleEdit>
@@ -416,6 +421,7 @@
     <Platforms>Platforms</Platforms>
     <PrivacyPolicy>Privacy</PrivacyPolicy>
     <Products>Products</Products>
+    <PublishMessage>Para publicar o relatório deverá submetê-lo em publish.stimulsoft.com</PublishMessage>
     <questionOpenThisFile>Quer realmente abrir o item '{0}'?</questionOpenThisFile>
     <questionOverrideItem>Quer realmente alterar o item '{0}'?</questionOverrideItem>
     <questionRemoveItem>Quer realmente remover o item '{0}'?</questionRemoveItem>
@@ -593,12 +599,14 @@
     <StiZipCode>Código postal</StiZipCode>
   </Components>
   <Dashboard>
+    <AddRange>Adicionar intervalo</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
     <CannotLoadDashboard>You cannot load a report with dashboards.</CannotLoadDashboard>
     <ChangeChartType>Change Chart Type</ChangeChartType>
     <ChangeMapType>Change Map Type</ChangeMapType>
+    <ClearAllFormatting>Limpar formatação</ClearAllFormatting>
     <ClearFilterFrom>Clear Filter from '{0}'</ClearFilterFrom>
     <ColorScale>Color Scale</ColorScale>
     <CustomFilter>Custom &amp;Filter...</CustomFilter>
@@ -623,18 +631,23 @@
     <Measure>Measure</Measure>
     <Measures>Measures</Measures>
     <NewDimension>New Dimension</NewDimension>
+    <NewField>Novo campo</NewField>
     <NewMeasure>New Measure</NewMeasure>
+    <NoRanges>Sem intervalos</NoRanges>
     <NoResult>No Result</NoResult>
     <NSelected>{0} selected</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Number Filters</NumberFilters>
     <ParentElement>Parent Element</ParentElement>
+    <RangeMode>Modo Intervalo</RangeMode>
+    <RangeType>Tipo Intervalo</RangeType>
     <RemoveActions>R&amp;emove Actions</RemoveActions>
     <RemoveAllFields>Remove All Fields</RemoveAllFields>
     <RemoveField>Remove Field</RemoveField>
     <ReplaceValues>Replace Values</ReplaceValues>
     <RowsCount>Rows Count</RowsCount>
     <SelectAll>(Select &amp;All)</SelectAll>
+    <ShowAllValue>Mostrar valores</ShowAllValue>
     <ShowAsPercentages>Show as Percentages</ShowAsPercentages>
     <SkipFirstRows>Skip First Rows</SkipFirstRows>
     <SortAZ>Sort A to Z</SortAZ>
@@ -674,6 +687,10 @@
     <CurrentYear>Current Year</CurrentYear>
     <FirstQuarter>First Quarter</FirstQuarter>
     <FourthQuarter>Fourth Quarter</FourthQuarter>
+    <Index>Indíce</Index>
+    <Last14Days>Últimos 14 dias</Last14Days>
+    <Last30Days>Últimos 30 dias</Last30Days>
+    <Last7Days>Últimos 7 dias</Last7Days>
     <MonthToDate>Month To Date</MonthToDate>
     <NextMonth>Next Month</NextMonth>
     <NextQuarter>Next Quarter</NextQuarter>
@@ -683,12 +700,14 @@
     <PreviousQuarter>Previous Quarter</PreviousQuarter>
     <PreviousWeek>Previous Week</PreviousWeek>
     <PreviousYear>Previous Year</PreviousYear>
+    <Quarter>Trimestre</Quarter>
     <QuarterToDate>Quarter To Date</QuarterToDate>
     <SecondQuarter>Second Quarter</SecondQuarter>
     <ThirdQuarter>Third Quarter</ThirdQuarter>
     <Today>Today</Today>
     <Tomorrow>Tomorrow</Tomorrow>
     <WeekToDate>Week To Date</WeekToDate>
+    <Year>Ano</Year>
     <YearToDate>Year To Date</YearToDate>
     <Yesterday>Yesterday</Yesterday>
   </DatePickerRanges>
@@ -856,6 +875,7 @@
     <ExportTypeHtmlFile>Ficheiro HTML...</ExportTypeHtmlFile>
     <ExportTypeImageFile>Ficheiro de Imagem...</ExportTypeImageFile>
     <ExportTypeJpegFile>Imagem JPEG...</ExportTypeJpegFile>
+    <ExportTypeJsonFile>Ficheiro JSON...</ExportTypeJsonFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>Ficheiro MHT Web ...</ExportTypeMhtFile>
     <ExportTypePcxFile>Imagem PCX ...</ExportTypePcxFile>
@@ -892,6 +912,7 @@
     <NoMoreThan>Não mais que</NoMoreThan>
     <OpenAfterExport>Abrir depois da exportação</OpenAfterExport>
     <PdfACompliance>Conformidade PDF/A</PdfACompliance>
+    <PrintingReport>A imprimir Relatório</PrintingReport>
     <RemoveEmptySpaceAtBottom>Remover o espaço vazio na parte inferior da página</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Restringir edição:</RestrictEditing>
     <Scale>Escala:</Scale>
@@ -947,7 +968,7 @@
     <GifFiles>Ficheiros de Imagem GIF (*.gif)|*.gif</GifFiles>
     <HtmlFiles>Ficheiros HTML (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} Ficheiros para relatórios herdados (*.{1})|*.{2}</InheritedLanguageFiles>
-    <JpegFiles>Ficheiros de Imagem JPEG (*.jpeg)|*.jpeg</JpegFiles>
+    <JpegFiles>Ficheiros de Imagem JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <JsonDocumentFiles>Relatórios JSON (*.mdc)|*.mdc</JsonDocumentFiles>
     <JsonFiles>Ficheiros JSON (*.json)|*.json</JsonFiles>
     <JsonReportFiles>Template de relatório JSON(*.mrt)|*.mrt</JsonReportFiles>
@@ -1010,6 +1031,16 @@
     <date10>*F</date10>
     <date11>dd.MM.yyyy</date11>
     <date12>dd/MM/yyyy</date12>
+    <date13>*g</date13>
+    <date14>*G</date14>
+    <date15>*y</date15>
+    <date16>*m</date16>
+    <date17>s</date17>
+    <date18>u</date18>
+    <date19>*Q</date19>
+    <date20>*YQ</date20>
+    <date21>QI</date21>
+    <date22>YQI</date22>
     <time01>t</time01>
     <time02>T</time02>
     <time03>HH:mm</time03>
@@ -1252,6 +1283,7 @@
     <nameOn>Ligado</nameOn>
     <nameTrue>Verdadeiro</nameTrue>
     <nameYes>Sim</nameYes>
+    <NegativeInRed>Negativos a vermelho</NegativeInRed>
     <NegativePattern>Padrão negativo:</NegativePattern>
     <Number>Número</Number>
     <Percentage>Percentagem</Percentage>
@@ -1263,12 +1295,14 @@
     <TextFormat>Formato do texto</TextFormat>
     <Time>Hora</Time>
     <title>Formato</title>
+    <UseAbbreviation>Usar Abreviaturas</UseAbbreviation>
     <UseGroupSeparator>Usar separador de grupos</UseGroupSeparator>
     <UseLocalSetting>Usar definições locais</UseLocalSetting>
   </FormFormatEditor>
   <FormGlobalizationEditor>
     <AddCulture>&amp;Adicionar Cultura</AddCulture>
     <AutoLocalizeReportOnRun>Auto Localizar relatório em rxecução</AutoLocalizeReportOnRun>
+    <CreateNewCulture>para criar uma nova lingua</CreateNewCulture>
     <GetCulture>Obter configurações de cultura do relatório</GetCulture>
     <qnGetCulture>Deseja realmente obter as configurações de cultura do relatório e substituir as configurações da cultura atual?</qnGetCulture>
     <qnSetCulture>Deseja realmente definir configurações da cultura para componentes do Relatório?</qnSetCulture>
@@ -1284,6 +1318,8 @@
   <FormOptions>
     <AutoSave>Gravar automáticamente</AutoSave>
     <AutoSaveReportToReportClass>Gravar automáticamente relatorios para ficheiros C# ou Vb.Net</AutoSaveReportToReportClass>
+    <BlankDashboard>Dashboard vazio</BlankDashboard>
+    <BlankReport>Relatório vazio</BlankReport>
     <Default>Padrão</Default>
     <Drawing>Desenho</Drawing>
     <DrawMarkersWhenMoving>Desenhar marcadores ao mover</DrawMarkersWhenMoving>
@@ -1329,9 +1365,11 @@
     <ShowDialogForms>Show Dialog Forms</ShowDialogForms>
     <ShowDimensionLines>Mostrar linhas de dimensão</ShowDimensionLines>
     <ShowOldGaugeEditor>Show Old Gauge Editor</ShowOldGaugeEditor>
+    <StartScreen>Ecrã inicial</StartScreen>
     <title>Opções</title>
     <UseComponentColor>Usar a cor do componente para preenchimento</UseComponentColor>
     <UseLastFormat>Usar último formato utilizado</UseLastFormat>
+    <Welcome>Bemvindo</Welcome>
   </FormOptions>
   <FormPageSetup>
     <ApplyTo>Aplicar a</ApplyTo>
@@ -1405,12 +1443,17 @@
     <ApplyStyleCollectionToReportComponents>Aplicar coleção de estilo nos Componentes do Relatório</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Aplicar estilos</ApplyStyles>
     <ColorCollectionEditor>Editor de coleção de cores</ColorCollectionEditor>
+    <CreateNewComponentStyle>para criar o novo estilo do componente</CreateNewComponentStyle>
     <CreateStyleCollection>Criar coleção de estilos</CreateStyleCollection>
     <CreateStylesFromColor>Criar um estilo da cor selecionada</CreateStylesFromColor>
     <Duplicate>Duplicar estilo</Duplicate>
+    <EditColors>[Editar Cores]</EditColors>
+    <FromStyle>Do estilo</FromStyle>
     <GetStyle>Obter estilo de componentes selecionados</GetStyle>
     <MoreStyles>Mais estilos</MoreStyles>
+    <NotSpecified>Não especificado</NotSpecified>
     <Open>Abrir estilo</Open>
+    <Predefined>Predefinido</Predefined>
     <qnApplyStyleCollection>Deseja aplicar a coleção de estilo nos componentes do relatório?</qnApplyStyleCollection>
     <Remove>Eliminar estilo</Remove>
     <RemoveExistingStyles>Remover estilos existentes</RemoveExistingStyles>
@@ -1744,6 +1787,7 @@
     <CopyStyle>Copiar estilo</CopyStyle>
     <CopyToClipboard>Copiar para o Clipboard</CopyToClipboard>
     <CurrencySymbol>Selecione o símbolo da moeda.</CurrencySymbol>
+    <DashboardNew>Criar um novo dashboard.</DashboardNew>
     <DataStore>Ver dados, registrados num relatório.</DataStore>
     <DateTimeFormat>Selecione o formato da data e hora para os componentes selecionados.</DateTimeFormat>
     <DockingPanels>Configurações do Painel.</DockingPanels>
@@ -2223,6 +2267,7 @@
     <SnapshotAlreadyProcessed>The report snapshot is already processed!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Your subscription has expired!</SubscriptionExpired>
+    <SubscriptionExpiredDate>A sua subscrição irá expirar em {0}</SubscriptionExpiredDate>
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -2341,6 +2386,7 @@
     <ControlCategory>Controlo</ControlCategory>
     <ControlsEventsCategory>Eventos de controlos</ControlsEventsCategory>
     <CrossTabCategory>Separador CrossTab</CrossTabCategory>
+    <DashboardCategory>Dashboard</DashboardCategory>
     <DataCategory>Dados</DataCategory>
     <DatePickerCategory>Date Picker</DatePickerCategory>
     <DescriptionCategory>descrição</DescriptionCategory>
@@ -2763,6 +2809,10 @@
     <StiFormStartModeOnStart>No inicio</StiFormStartModeOnStart>
     <StiGaugeCalculationModeAuto>Auto</StiGaugeCalculationModeAuto>
     <StiGaugeCalculationModeCustom>Custom</StiGaugeCalculationModeCustom>
+    <StiGaugeRangeModePercentage>Percentagem</StiGaugeRangeModePercentage>
+    <StiGaugeRangeModeValue>Valor</StiGaugeRangeModeValue>
+    <StiGaugeRangeTypeColor>Cor</StiGaugeRangeTypeColor>
+    <StiGaugeRangeTypeNone>Nenhum</StiGaugeRangeTypeNone>
     <StiGaugeTypeFullCircular>Full Circular</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Half-Circular</StiGaugeTypeHalfCircular>
     <StiGaugeTypeLinear>Linear</StiGaugeTypeLinear>
@@ -2785,6 +2835,15 @@
     <StiImageRotationRotate180>Rotação 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Rotação 90° CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Rotação 90° CW</StiImageRotationRotate90CW>
+    <StiInteractionOnClick>Nenhum</StiInteractionOnClick>
+    <StiInteractionOnClickApplyFilter>Aplicar filtro</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickOpenHyperlink>Abrir Hyperlink</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickShowDashboard>Mostrar Dashboard</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnHoverNone>Nenhum</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowHyperlink>Mostrar Hyperlink</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnHoverShowToolTip>Mostrar Tooltip</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>Tab atual</StiInteractionOpenHyperlinkDestinationCurrentTab>
+    <StiInteractionOpenHyperlinkDestinationNewTab>Novo Tab</StiInteractionOpenHyperlinkDestinationNewTab>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>One</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Mantenha detalhes juntos</StiKeepDetailsKeepDetailsTogether>
@@ -2950,6 +3009,8 @@
     <StiShowYAxisBoth>Ambos</StiShowYAxisBoth>
     <StiShowYAxisCenter>Centro</StiShowYAxisCenter>
     <StiShowYAxisLeft>Esquerdo</StiShowYAxisLeft>
+    <StiSizeModeAutoSize>100%</StiSizeModeAutoSize>
+    <StiSizeModeFit>Largura da página</StiSizeModeFit>
     <StiSortDirectionAsc>Crescente</StiSortDirectionAsc>
     <StiSortDirectionDesc>Decrescente</StiSortDirectionDesc>
     <StiSortDirectionNone>Nenhum</StiSortDirectionNone>
@@ -3078,6 +3139,7 @@
     <ProcessCellEvent>Processar cell</ProcessCellEvent>
     <ProcessChartEvent>Processar gráfico</ProcessChartEvent>
     <RenderingEvent>Rendering</RenderingEvent>
+    <ReportCacheProcessingEvent>Cache do Relatório em processamento</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Índice selecionado alterado</SelectedIndexChangedEvent>
     <StateRestoreEvent>Estado restabelecido</StateRestoreEvent>
     <StateSaveEvent>A gravar estado</StateSaveEvent>
@@ -3169,8 +3231,10 @@
     <AllowUseForeColor>Permitir usar a cor da frente</AllowUseForeColor>
     <AllowUseHorAlignment>Permitir utilizar o alinhamento horizontal</AllowUseHorAlignment>
     <AllowUseImage>Permitir utilizar Imagem</AllowUseImage>
+    <AllowUseNegativeTextBrush>Permitir usar pincel no texto negativo</AllowUseNegativeTextBrush>
     <AllowUserValues>Permitir valores do utilizador</AllowUserValues>
     <AllowUseTextBrush>Permitir utilizar pincel de formatação de texto</AllowUseTextBrush>
+    <AllowUseTextFormat>Permitir formatação do texto</AllowUseTextFormat>
     <AllowUseTextOptions>Permitir utilizar opções de texto</AllowUseTextOptions>
     <AllowUseVertAlignment>Permitir utilizar o alinhamento vertical</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Permitir utilizar como parâmetro de SQL</AllowUsingAsSqlParameter>
@@ -3181,6 +3245,7 @@
     <Area>Area</Area>
     <Argument>Argumento</Argument>
     <ArgumentDataColumn>Argumento da coluna de dados</ArgumentDataColumn>
+    <ArgumentFormat>Formato do argumento</ArgumentFormat>
     <Arguments>Arguments</Arguments>
     <ArrowHeight>Altura da seta</ArrowHeight>
     <ArrowStyle>Estilo da seta</ArrowStyle>
@@ -3277,6 +3342,7 @@
     <ColorDataColumn>Color Data Column</ColorDataColumn>
     <ColorEach>Colorir cada um</ColorEach>
     <ColorMeter>Color</ColorMeter>
+    <Colors>Cores</Colors>
     <ColorScaleCondition>Cor da condição da escala</ColorScaleCondition>
     <ColorScaleType>Cor do tipo de escala</ColorScaleType>
     <Column>Coluna</Column>
@@ -3315,9 +3381,11 @@
     <DataAdapters>Adaptadores de dados</DataAdapters>
     <DataBarCondition>Data Bar Condition</DataBarCondition>
     <DataBindings>Ligações de dados</DataBindings>
+    <DataColor>Cor dos Dados</DataColor>
     <DataColumn>Coluna de dados</DataColumn>
     <DataColumns>Colunas de dados</DataColumns>
     <DataField>Campo de dados</DataField>
+    <DataForeground>Primeiro plano dos dados</DataForeground>
     <DataRelation>Relação de dados</DataRelation>
     <DataRows>As linhas de dados</DataRows>
     <DataSource>Origem de dados</DataSource>
@@ -3335,6 +3403,7 @@
     <DependentColumn>Coluna dependente</DependentColumn>
     <DependentValue>Valor dependente</DependentValue>
     <Description>Descrição</Description>
+    <Destination>Destino</Destination>
     <DetectUrls>Detectar URLS</DetectUrls>
     <DialogResult>Diálogo do Resultado</DialogResult>
     <Diameter>Diâmetro</Diameter>
@@ -3423,6 +3492,8 @@
     <FooterCanBreak>Rodapé pode quebrar</FooterCanBreak>
     <FooterCanGrow>Rodapé pode crescer</FooterCanGrow>
     <FooterCanShrink>O rodapé de página pode encolher</FooterCanShrink>
+    <FooterColor>Cor do Rodapé</FooterColor>
+    <FooterForeground>Primeiro plano do Rodapé</FooterForeground>
     <FooterPrintAtBottom>Imprimir o rodapé de página na parte inferior</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Imprimir rodapé de página se vazio</FooterPrintIfEmpty>
     <FooterPrintOn>Imprimir rodapé de página em</FooterPrintOn>
@@ -3438,6 +3509,7 @@
     <Functions>Funções</Functions>
     <GlobalizationStrings>String da globalização</GlobalizationStrings>
     <GlobalizedName>Nome na globalização</GlobalizedName>
+    <GridColor>Cor da Grelha</GridColor>
     <GridLineColor>Cor das linhas da grelha</GridLineColor>
     <GridLinesHor>Linhas horizontais da grelha</GridLinesHor>
     <GridLinesHorColor>Cor das linhas horizontais da grelha</GridLinesHorColor>
@@ -3454,8 +3526,10 @@
     <HeaderCanBreak>O cabeçalho pode quebrar</HeaderCanBreak>
     <HeaderCanGrow>O cabeçalho pode crescer</HeaderCanGrow>
     <HeaderCanShrink>O cabeçalho de página pode encolher</HeaderCanShrink>
+    <HeaderColor>Cor do cabeçalho</HeaderColor>
     <HeaderFont>Fonte do cabeçalho</HeaderFont>
     <HeaderForeColor>Cabeçalho da cor da frente</HeaderForeColor>
+    <HeaderForeground>Primeiro plano do Cabeçalho</HeaderForeground>
     <HeaderPrintAtBottom>Imprimir cabeçalho na parte inferior</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>Imprimir cabeçalho se vazio</HeaderPrintIfEmpty>
     <HeaderPrintOn>Imprimir cabeçalho em</HeaderPrintOn>
@@ -3464,6 +3538,7 @@
     <HeaderRowsCount>Número de linhas do cabeçalho</HeaderRowsCount>
     <Headers>Cabeçalhos</Headers>
     <HeaderText>Texto do cabeçalho</HeaderText>
+    <HeatmapColors>Cor dos Mapas de Calor</HeatmapColors>
     <Height>Altura</Height>
     <HideSeriesWithEmptyTitle>Esconder séries com título vazio</HideSeriesWithEmptyTitle>
     <HideZeros>Esconder zeros</HideZeros>
@@ -3495,7 +3570,9 @@
     <ImportRelations>Importar relações</ImportRelations>
     <Increment>Incremento</Increment>
     <Indent>Recorte</Indent>
+    <IndividualColor>Cor Individual</IndividualColor>
     <InitBy>Iniciado por</InitBy>
+    <InitialSelection>Seleção inicial</InitialSelection>
     <Insert>Inserir</Insert>
     <Interaction>interação</Interaction>
     <InterlacedBrush>Pincel interlaçado</InterlacedBrush>
@@ -3528,14 +3605,17 @@
     <Keys>Chaves</Keys>
     <Label>Label</Label>
     <LabelColor>Cor da Label</LabelColor>
+    <LabelForeground>Primeiro plano da Label</LabelForeground>
     <LabelRotationMode>Modo de rotação da Label</LabelRotationMode>
     <Labels>Labels</Labels>
     <LabelsColor>Cores das labels</LabelsColor>
+    <LabelShadowForeground>Sombra do Primeiro plano da Label</LabelShadowForeground>
     <LabelsOffset>Labels Offset</LabelsOffset>
     <Language>Linguagem</Language>
     <LargeHeight>Altura da grande</LargeHeight>
     <LargeHeightFactor>Fator da altura</LargeHeightFactor>
     <Latitude>Latitude</Latitude>
+    <Layout>Layout</Layout>
     <Left>Esquerda</Left>
     <LeftSide>Lado esquerdo</LeftSide>
     <Legend>Legenda</Legend>
@@ -3634,6 +3714,8 @@
     <NameParent>Nome do progenitor</NameParent>
     <Namespaces>Namespaces</Namespaces>
     <Negative>Negativo</Negative>
+    <NegativeSeriesColors>Cor das séries negativas</NegativeSeriesColors>
+    <NegativeTextBrush>Pincel do texto negativo</NegativeTextBrush>
     <NestedLevel>Nível agrupado</NestedLevel>
     <NewColumnAfter>Nova coluna após</NewColumnAfter>
     <NewColumnBefore>Nova coluna antes</NewColumnBefore>
@@ -3649,6 +3731,8 @@
     <OddStyle>Estilo linhas impares</OddStyle>
     <Offset>Compensar</Offset>
     <OffsetAngle>Deslocamento angular</OffsetAngle>
+    <OnClick>On Click</OnClick>
+    <OnHover>On Hover</OnHover>
     <OnlyText>Só texto</OnlyText>
     <OpenValues>Open Values</OpenValues>
     <Operation>Operação</Operation>
@@ -3774,10 +3858,12 @@
     <SelectionMode>Modo de seleção</SelectionMode>
     <SerialNumber>Serial Number</SerialNumber>
     <Series>Séries</Series>
+    <SeriesColors>Cor das Séries</SeriesColors>
     <SeriesLabels>Labels das séries</SeriesLabels>
     <SeriesLabelsBorderColor>Cor da margem</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>Labels do pincel</SeriesLabelsBrush>
     <SeriesLabelsColor>Cor das Labels</SeriesLabelsColor>
+    <SeriesLabelsLineColor>Cor da linha das Labels</SeriesLabelsLineColor>
     <SeriesLighting>Series Lighting</SeriesLighting>
     <SeriesShowShadow>Series Show Shadow</SeriesShowShadow>
     <SeriesTitle>Series Title</SeriesTitle>
@@ -3790,6 +3876,7 @@
     <ShiftMode>Mudar modo</ShiftMode>
     <ShortName>Short Name</ShortName>
     <ShortValue>Short Value</ShortValue>
+    <ShowAllValue>Mostrar todos os valores</ShowAllValue>
     <ShowBehind>Mostrar atrás</ShowBehind>
     <ShowDialog>Mostrar diálogo da visualização</ShowDialog>
     <ShowEdgeValues>Mostrar valores das extremidades</ShowEdgeValues>
@@ -3948,6 +4035,7 @@
     <ValueDataColumnLow>Valor baixo da coluna de dados</ValueDataColumnLow>
     <ValueDataColumnOpen>Valor de abertura da coluna de dados</ValueDataColumnOpen>
     <ValueEnd>Valor Final</ValueEnd>
+    <ValueFormat>Formatação do valor</ValueFormat>
     <ValueHigh>Valor limite superior</ValueHigh>
     <ValueLow>Valor limite inferior</ValueLow>
     <ValueMeter>Value</ValueMeter>
@@ -4102,6 +4190,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <BusinessObjects>Objectos de negócio</BusinessObjects>
     <Categorized>Categorizado</Categorized>
     <Charts>Gráficos</Charts>
+    <Checking>A verificar...</Checking>
     <ClickForMoreDetails>Clique para mais detalhes</ClickForMoreDetails>
     <CollapseAll>Recolher tudo</CollapseAll>
     <Collection>Coleção</Collection>
@@ -4447,6 +4536,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <MasterDetailReport>Relatório Master-Detail</MasterDetailReport>
     <NoFunction>[Nenhuma função]</NoFunction>
     <OpenExistingReport>Abrir relatório</OpenExistingReport>
+    <OpenFrom>Abrir a partir de {0}</OpenFrom>
     <Preview>Pré-visualizar</Preview>
     <Reset>&amp;Redefinir</Reset>
     <Results>Resultados</Results>
@@ -4458,6 +4548,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <title>Novo relatório</title>
     <Totals>Totais</Totals>
     <UsingReportWizard>A usar o assistente de relatório</UsingReportWizard>
+    <YouHaveNotOpenedAnyReportRecently>Não abrir nenhum relatório recentemente. Para visualizar um relatório, comece por clickar em "Abrir Relatório Existente".</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
   <Zoom>
     <EmptyValue>Vazio</EmptyValue>

@@ -10,7 +10,7 @@
     <AbbreviatedDayWednesday>수</AbbreviatedDayWednesday>
     <Attachment>첨부 파일 :</Attachment>
     <ButtonNext>다음</ButtonNext>
-    <ButtonPrev>전에</ButtonPrev>
+    <ButtonPrev>이전</ButtonPrev>
     <ButtonSend>전송</ButtonSend>
     <CategoryAlreadyExists>그 이름의 카테고리가 이미 존재합니다!</CategoryAlreadyExists>
     <DayFriday>금요일</DayFriday>
@@ -20,7 +20,7 @@
     <DayThursday>목요일</DayThursday>
     <DayTuesday>화요일</DayTuesday>
     <DayWednesday>수요일</DayWednesday>
-    <Email>E 메일 :</Email>
+    <Email>이메일 :</Email>
     <EmailOptions>메일 옵션</EmailOptions>
     <FirstPage>첫 페이지</FirstPage>
     <Hours>시간</Hours>
@@ -61,7 +61,7 @@
     <TextItemsRoot>루트</TextItemsRoot>
     <TodayDate>오늘</TodayDate>
     <WholeReport>전체 보고서</WholeReport>
- </A_WebViewer>
+  </A_WebViewer>
   <Adapters>
     <AdapterBusinessObjects>비즈니스 오브젝트에서 데이터</AdapterBusinessObjects>
     <AdapterConnection>{0}에서 데이터</AdapterConnection>
@@ -87,16 +87,17 @@
     <AdapterUserSources>사용자 소스에서 데이터</AdapterUserSources>
     <AdapterVirtualSource>다른 데이터 소스에서 데이터</AdapterVirtualSource>
     <AdapterVistaDBConnection>VistaDB 연결에서 데이터</AdapterVistaDBConnection>
- </Adapters>
+  </Adapters>
   <BarCode>
-   <Post>게시물</Post>
-     <TwoDimensional>2차원</TwoDimensional>
- </BarCode>
+    <Post>게시물</Post>
+    <TwoDimensional>2차원</TwoDimensional>
+  </BarCode>
   <Buttons>
     <Add>추가</Add>
     <AddAllColumns>모든 열을 추가</AddAllColumns>
     <Attach>연결</Attach>
     <Build>빌드...</Build>
+    <Buttons>버튼</Buttons>
     <Cancel>취소(&amp;C)</Cancel>
     <Check>확인</Check>
     <Close>닫기</Close>
@@ -115,7 +116,7 @@
     <MoveRight>오른쪽으로 이동</MoveRight>
     <MoveToResource>리소스로 이동</MoveToResource>
     <No>아니오(&amp;N)</No>
-    <Ok>OK(&amp;O)</Ok>
+    <Ok>확인(&amp;O)</Ok>
     <Open>열기</Open>
     <Print>인쇄</Print>
     <Publish>공개</Publish>
@@ -130,12 +131,13 @@
     <SetAll>모든 설정</SetAll>
     <ShowLess>적게 표시</ShowLess>
     <ShowMore>더보기</ShowMore>
+    <ShowSpecific>보기 '{0}'</ShowSpecific>
     <Submit>제출</Submit>
     <Test>테스트</Test>
     <Up>업</Up>
     <Upload>업로드</Upload>
     <Yes>예(&amp;Y)</Yes>
- </Buttons>
+  </Buttons>
   <Chart>
     <AddCondition>조건을 추가(&amp;A)</AddCondition>
     <AddConstantLine>제한선을 추가(&amp;A)</AddConstantLine>
@@ -176,7 +178,7 @@
     <LabelAlignment>정렬 :</LabelAlignment>
     <LabelAlignmentHorizontal>가로 :</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>수직 :</LabelAlignmentVertical>
-    <LabelAngle>각도 :</LabelAngle>
+    <LabelAngle>회전 :</LabelAngle>
     <LabelArgumentDataColumn>인수 데이터 열 :</LabelArgumentDataColumn>
     <LabelAutoRotation>자동 회전 :</LabelAutoRotation>
     <LabelCloseValueDataColumn>클로즈 값의 데이터 열 :</LabelCloseValueDataColumn>
@@ -217,6 +219,7 @@
     <MoveStripUp>지구를 위로 이동</MoveStripUp>
     <NoConditions>조건없음</NoConditions>
     <NoFilters>필터 없음</NoFilters>
+    <Pareto>파레토</Pareto>
     <Pictorial>사진</Pictorial>
     <Pie>파이</Pie>
     <Radar>레이더</Radar>
@@ -246,12 +249,12 @@
     <Spline>스플라인</Spline>
     <SplineArea>스플라인 영역</SplineArea>
     <SplineRange>스플라인 범위</SplineRange>
-    <StackedArea>쌓인 영역</StackedArea>
+    <StackedArea>스택 영역</StackedArea>
     <StackedBar>스택 바</StackedBar>
-    <StackedColumn>쌓인 열</StackedColumn>
-    <StackedLine>쌓인 라인</StackedLine>
-    <StackedSpline>쌓인 스플라인</StackedSpline>
-    <StackedSplineArea>쌓인 스플라인 영역</StackedSplineArea>
+    <StackedColumn>스택 열</StackedColumn>
+    <StackedLine>스택 라인</StackedLine>
+    <StackedSpline>스택 스플라인</StackedSpline>
+    <StackedSplineArea>스택 스플라인 영역</StackedSplineArea>
     <SteppedArea>단계 영역</SteppedArea>
     <SteppedLine>단계 라인</SteppedLine>
     <SteppedRange>계단 범위</SteppedRange>
@@ -260,7 +263,7 @@
     <StripsEditorForm>스트립 편집기 양식</StripsEditorForm>
     <Style>스타일</Style>
     <Treemap>트리 그림</Treemap>
- </Chart>
+  </Chart>
   <ChartRibbon>
     <Axes>축</Axes>
     <AxesArrowStyle>화살표 스타일</AxesArrowStyle>
@@ -327,11 +330,12 @@
     <VerticalMajorMinor>&lt; b &gt; Major &amp; &amp; 작은 그리드 라인 &lt; /b &gt; &lt; br &gt; 메이저 단위와 마이너 단위의 수직 눈금 선 표시 &lt; /br &gt;</VerticalMajorMinor>
     <VerticalMinor>&lt; b &gt; Minor &lt; /b &gt; &lt; br &gt; 작은 단위의 수직 눈금 선 표시 &lt; /br &gt;</VerticalMinor>
     <VerticalNone>&lt; b &gt; None &lt; /b &gt; &lt; br &gt; 수직 눈금 선을 표시하지 &lt; /br &gt;</VerticalNone>
- </ChartRibbon>
+  </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>나는 {0}과 {1}을 읽고 동의합니다.</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>계정 설정</AccountSettings>
     <AddAPlace>위치 추가</AddAPlace>
+    <AreYouSureYouWantDeleteReport>디스크에서 "{0}" 보고서를 삭제하시겠습니까?</AreYouSureYouWantDeleteReport>
     <ButtonChangePassword>비밀번호 변경</ButtonChangePassword>
     <ButtonDeleteAll>삭제</ButtonDeleteAll>
     <ButtonDesign>디자인 보고서</ButtonDesign>
@@ -360,6 +364,7 @@
     <CreatingReport>보고서 작성 중...</CreatingReport>
     <DashboardWindowTitleNew>새로운 대시 보드</DashboardWindowTitleNew>
     <DeleteFile>파일을 삭제하는</DeleteFile>
+	<DoNotAskMe>다시 묻지 마세요</DoNotAskMe>
     <ExecutionError>실행 오류</ExecutionError>
     <ExpiredDate>만료</ExpiredDate>
     <FileStorageWindowTitleEdit>파일 저장 편집</FileStorageWindowTitleEdit>
@@ -416,6 +421,7 @@
     <Platforms>플랫폼</Platforms>
     <PrivacyPolicy>개인 정보 보호</PrivacyPolicy>
     <Products>제품</Products>
+    <PublishMessage>이 보고서를 게시하려면 publish.stimulsoft.com 서비스에 제출해야 합니다.</PublishMessage>
     <questionOpenThisFile>당신은 '{0}'항목을 열어 하시겠습니까?</questionOpenThisFile>
     <questionOverrideItem>당신은 정말 '{0}'항목을 대체 하시겠습니까?</questionOverrideItem>
     <questionRemoveItem>당신은 정말 '{0}'항목을 삭제 하시겠습니까?</questionRemoveItem>
@@ -428,8 +434,7 @@
     <RibbonButtonAddWorkspace>작업 공간 추가</RibbonButtonAddWorkspace>
     <RibbonButtonFolder>폴더</RibbonButtonFolder>
     <RibbonTabUsers>사용자</RibbonTabUsers>
-	
-    <Root>루트</Root>
+	<Root>루트</Root>
     <RootFolder>루트 폴더</RootFolder>
     <Save>저장</Save>
     <SaveAccountSettings>계정 설정을 저장</SaveAccountSettings>
@@ -522,7 +527,7 @@
     <WizardRegisteredShare>허용 된 액세스</WizardRegisteredShare>
     <WizardRegisteredShareDescription>모든 작업 공간에서 등록 된 사용자 만 외부 액세스.</WizardRegisteredShareDescription>
     <WizardXmlDescription>XML 데이터를 포함하는 보고서를 작성합니다.</WizardXmlDescription>
- </Cloud>
+  </Cloud>
   <Components>
     <StiBarCode>바코드</StiBarCode>
     <StiChart>차트</StiChart>
@@ -595,15 +600,13 @@
   </Components>
   <Dashboard>
     <AddRange>범위 추가</AddRange>
-    <RangeMode>범위 모드</RangeMode>
-    <RangeType>범위 타입</RangeType>
-    <ShowAllValue>모든값 표시</ShowAllValue>
     <AfterGroupingData>데이터를 그룹화 한 후 적용</AfterGroupingData>
     <Blanks>(공백)</Blanks>
     <BooleanFilters>부울 필터</BooleanFilters>
     <CannotLoadDashboard>대시 보드 보고서를로드 할 수 없습니다.</CannotLoadDashboard>
     <ChangeChartType>차트 유형 변경</ChangeChartType>
     <ChangeMapType>지도 유형 변경</ChangeMapType>
+    <ClearAllFormatting>모든 서식 지우기</ClearAllFormatting>
     <ClearFilterFrom>'{0}'의 필터를 지우려면</ClearFilterFrom>
     <ColorScale>컬러 스케일</ColorScale>
     <CustomFilter>사용자 &amp; 필터...</CustomFilter>
@@ -628,17 +631,22 @@
     <Measure>측정</Measure>
     <Measures>조치</Measures>
     <NewDimension>새로운 차원</NewDimension>
+    <NewField>새로운 필드</NewField>
     <NewMeasure>새로운 척도</NewMeasure>
+    <NoRanges>범위가 없습니다</NoRanges>
     <NoResult>검색 결과가 없습니다</NoResult>
     <NSelected>{0}이 선택되었습니다</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>수치 필터</NumberFilters>
     <ParentElement>부모 요소</ParentElement>
+    <RangeMode>범위 모드</RangeMode>
+    <RangeType>범위 타입</RangeType>
     <RemoveActions>액션의 삭제</RemoveActions>
     <RemoveAllFields>모든 필드를 삭제</RemoveAllFields>
     <RemoveField>필드를 삭제</RemoveField>
     <ReplaceValues>값을 대체</ReplaceValues>
     <RowsCount>행수</RowsCount>
+    <ShowAllValue>모든값 표시</ShowAllValue>
     <SelectAll>(모두 선택)</SelectAll>
     <ShowAsPercentages>백분율로 표시</ShowAsPercentages>
     <SkipFirstRows>첫 행 건너 뛰기</SkipFirstRows>
@@ -671,7 +679,7 @@
     <DatabaseUniDirect>Uni 직접 연결</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB 연결</DatabaseVistaDB>
     <DatabaseXml>XML 데이터</DatabaseXml>
- </Database>
+  </Database>
   <DatePickerRanges>
     <CurrentMonth>이달</CurrentMonth>
     <CurrentQuarter>현재 분기</CurrentQuarter>
@@ -679,6 +687,10 @@
     <CurrentYear>올해</CurrentYear>
     <FirstQuarter>1 분기</FirstQuarter>
     <FourthQuarter>4 분기</FourthQuarter>
+    <Index>인덱스</Index>
+	<Last7Days>지난 7일</Last7Days>
+    <Last14Days>지난 14일</Last14Days>
+    <Last30Days>지난 30일</Last30Days>
     <MonthToDate>지난 한 달간</MonthToDate>
     <NextMonth>다음달</NextMonth>
     <NextQuarter>다음 분기</NextQuarter>
@@ -688,12 +700,14 @@
     <PreviousQuarter>전분기</PreviousQuarter>
     <PreviousWeek>지난 주</PreviousWeek>
     <PreviousYear>전년</PreviousYear>
+    <Quarter>분기</Quarter>
     <QuarterToDate>이번 분기</QuarterToDate>
     <SecondQuarter>2 분기</SecondQuarter>
     <ThirdQuarter>3 분기</ThirdQuarter>
     <Today>오늘</Today>
     <Tomorrow>내일</Tomorrow>
     <WeekToDate>주말까지</WeekToDate>
+    <Year>연</Year>
     <YearToDate>연초</YearToDate>
     <Yesterday>어제</Yesterday>
   </DatePickerRanges>
@@ -861,6 +875,7 @@
     <ExportTypeHtmlFile>HTML 파일...</ExportTypeHtmlFile>
     <ExportTypeImageFile>이미지 파일...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG 이미지...</ExportTypeJpegFile>
+    <ExportTypeJsonFile>JSON 파일...</ExportTypeJsonFile>
     <ExportTypeMetafile>Windows 메타 파일...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT 웹 아카이브...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX 이미지...</ExportTypePcxFile>
@@ -897,6 +912,7 @@
     <NoMoreThan>에 지나지 않습니다</NoMoreThan>
     <OpenAfterExport>내보내기 후 열기</OpenAfterExport>
     <PdfACompliance>PDF</PdfACompliance>
+    <PrintingReport>보고서 인쇄</PrintingReport>
     <RemoveEmptySpaceAtBottom>페이지 하단의 공백을 제거</RemoveEmptySpaceAtBottom>
     <RestrictEditing>편집 제한 :</RestrictEditing>
     <Scale>규모 :</Scale>
@@ -982,7 +998,7 @@
     <XmlFiles>XML 파일 (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS 파일 (*.xps)|*.xps</XpsFiles>
     <ZipArchives>ZIP 압축 파일 (*.zip)|*.zip</ZipArchives>
- </FileFilters>
+  </FileFilters>
   <Formats>
     <custom01>d</custom01>
     <custom02>D</custom02>
@@ -1014,6 +1030,16 @@
     <date10>*F</date10>
     <date11>yyyy.MM.dd</date11>
     <date12>yyyy/dd/MM</date12>
+    <date13>*g</date13>
+    <date14>*G</date14>
+    <date15>*y</date15>
+    <date16>*m</date16>
+    <date17>s</date17>
+    <date18>u</date18>
+    <date19>*Q</date19>
+    <date20>*YQ</date20>
+    <date21>QI</date21>
+    <date22>YQI</date22>	
     <time01>*t</time01>
     <time02>*T</time02>
     <time03>HH:mm</time03>
@@ -1050,7 +1076,7 @@
     <AaBbCcYyZz>AaBbCcYyZz</AaBbCcYyZz>
     <AddCondition>조건을 추가(&amp;A)</AddCondition>
     <AddLevel>레벨을 추가</AddLevel>
-    <AssignExpression>식을 대입하면</AssignExpression>
+    <AssignExpression>표현식 할당</AssignExpression>
     <BreakIfTrue>True이면 브레이크</BreakIfTrue>
     <BreakIfTrueToolTip>현재의 조건을 충족하는 경우 조건 처리를 중단합니다.</BreakIfTrueToolTip>
     <ChangeFont>글꼴 변경...</ChangeFont>
@@ -1164,7 +1190,7 @@
     <Child>자식</Child>
     <ChildOfBusinessObject>비즈니스 객체의 자식</ChildOfBusinessObject>
     <ChildSource>자식 데이터 소스 :</ChildSource>
-    <ClickHere>여기</ClickHere>
+    <ClickHere>여기를 클릭</ClickHere>
     <ColumnEdit>열 편집</ColumnEdit>
     <ColumnNew>새 열</ColumnNew>
     <CreateNewDataSource>새 데이터 소스를 생성</CreateNewDataSource>
@@ -1204,7 +1230,7 @@
     <NewItem>추가</NewItem>
     <OpenAssembly>오픈 어셈블리</OpenAssembly>
     <Parent>부모</Parent>
-    <ParentSource>부모 데이터 소스 :</ParentSource>
+    <ParentSource>부모 소스 :</ParentSource>
     <Queries>쿼리</Queries>
     <QueryNew>새 쿼리</QueryNew>
     <QueryText>텍스트 조회</QueryText>
@@ -1256,6 +1282,7 @@
     <nameOn>On</nameOn>
     <nameTrue>True</nameTrue>
     <nameYes>Yes</nameYes>
+    <NegativeInRed>음수 빨간색</NegativeInRed>
     <NegativePattern>음수 패턴 :</NegativePattern>
     <Number>숫자</Number>
     <Percentage>백분율</Percentage>
@@ -1268,17 +1295,19 @@
     <Time>시간</Time>
     <title>형식</title>
     <UseGroupSeparator>그룹 구분 기호를 사용</UseGroupSeparator>
+    <UseAbbreviation>약어 사용</UseAbbreviation>
     <UseLocalSetting>로컬 설정을 사용</UseLocalSetting>
   </FormFormatEditor>
   <FormGlobalizationEditor>
-    <AddCulture>컬쳐 추가(&amp;A)</AddCulture>
+    <AddCulture>문화권 추가(&amp;A)</AddCulture>
     <AutoLocalizeReportOnRun>실행시 자동으로 지역화 보고서</AutoLocalizeReportOnRun>
+    <CreateNewCulture>새 문화권 작성하기</CreateNewCulture>
     <GetCulture>보고서에서 문화권을 가져오기</GetCulture>
-    <qnGetCulture>정말보고에서 문화의 설정을 가져 현재 문화의 설정을 덮어 줄까?</qnGetCulture>
-    <qnSetCulture>당신은 정말 문화 구성 요소를보고하도록 설정 하시겠습니까?</qnSetCulture>
-    <RemoveCulture>문화를 삭제(&amp;R)</RemoveCulture>
-    <SetCulture>culture 설정을 보고서로 설정</SetCulture>
-    <title>세계화 편집기</title>
+    <qnGetCulture>보고서에서 문화권의 설정을 가져와서  현재 문화권의 설정을 덮어쓸까요?</qnGetCulture>
+    <qnSetCulture>보고서 구성 요소에 문화권 설정 하시겠습니까?</qnSetCulture>
+    <RemoveCulture>문화권을 삭제(&amp;R)</RemoveCulture>
+    <SetCulture>문화권 설정을 보고서로 설정</SetCulture>
+    <title>국제화 편집기</title>
   </FormGlobalizationEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>외부 문서에 대한 하이퍼 링크</HyperlinkExternalDocuments>
@@ -1288,6 +1317,8 @@
   <FormOptions>
     <AutoSave>자동 저장</AutoSave>
     <AutoSaveReportToReportClass>C #이나 VB.NET 파일에 보고서를 자동 저장</AutoSaveReportToReportClass>
+    <BlankDashboard>빈 대시보드</BlankDashboard>
+    <BlankReport>빈 보고서</BlankReport>
     <Default>기본</Default>
     <Drawing>그림 그리기</Drawing>
     <DrawMarkersWhenMoving>이동시 마커를 그리는</DrawMarkersWhenMoving>
@@ -1333,13 +1364,15 @@
     <ShowDialogForms>대화 폼을 표시</ShowDialogForms>
     <ShowDimensionLines>치수선을 표시</ShowDimensionLines>
     <ShowOldGaugeEditor>오래된 게이지 편집기보기</ShowOldGaugeEditor>
+    <StartScreen>시작 화면</StartScreen>
     <title>옵션</title>
     <UseComponentColor>채우기에 구성 요소 색상을 사용</UseComponentColor>
     <UseLastFormat>마지막 서식을 사용</UseLastFormat>
+    <Welcome>시작화면</Welcome>
   </FormOptions>
   <FormPageSetup>
     <ApplyTo>에 적용</ApplyTo>
-    <Bottom>하의 :</Bottom>
+    <Bottom>아래쪽 :</Bottom>
     <Columns>컬럼</Columns>
     <groupColumns>페이지 열</groupColumns>
     <groupImage>워터 마크 이미지</groupImage>
@@ -1349,7 +1382,7 @@
     <groupPaperSource>용지 소스</groupPaperSource>
     <groupText>워터 마크 텍스트</groupText>
     <Height>높이 :</Height>
-    <labelAngle>각도 :</labelAngle>
+    <labelAngle>회전 :</labelAngle>
     <labelColumnGaps>열 간격 :</labelColumnGaps>
     <labelColumnWidth>열 너비 :</labelColumnWidth>
     <labelImageAlignment>이미지 정렬 :</labelImageAlignment>
@@ -1378,7 +1411,7 @@
     <ScaleContent>스케일 콘텐츠</ScaleContent>
     <Size>크기 :</Size>
     <title>페이지 설정</title>
-    <Top>위 :</Top>
+    <Top>위쪽 :</Top>
     <Width>폭 :</Width>
  </FormPageSetup>
   <FormReportSetup>
@@ -1390,7 +1423,7 @@
     <groupUnits>보고서의 크기와 좌표는 지정된 단위로 표시됩니다</groupUnits>
     <labelInfoDescription>보고서의 정보를 표시</labelInfoDescription>
     <labelInfoMain>기본 보고서 매개 변수 변경</labelInfoMain>
-    <labelNumberOfPass>패스 :</labelNumberOfPass>
+    <labelNumberOfPass>엔진실행 :</labelNumberOfPass>
     <labelReportCacheMode>보고서 캐시 모드 :</labelReportCacheMode>
     <ReportChanged>보고서가 변경되었습니다 :</ReportChanged>
     <ReportCreated>작성된 보고서 :</ReportCreated>
@@ -1409,11 +1442,16 @@
     <ApplyStyleCollectionToReportComponents>보고서 구성 요소에 스타일 컬렉션을 적용하는</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>스타일 적용</ApplyStyles>
     <ColorCollectionEditor>컬러 컬렉션 편집기</ColorCollectionEditor>
-    <CreateStyleCollection>스타일 컬렉션을 생성</CreateStyleCollection>
+    <CreateNewComponentStyle>새 구성요소 스타일을 작성</CreateNewComponentStyle>
+	<CreateStyleCollection>스타일 컬렉션을 생성</CreateStyleCollection>
     <Duplicate>복제 스타일</Duplicate>
+    <EditColors>[색상 편집]</EditColors>
+    <FromStyle>스타일에서</FromStyle>
     <GetStyle>선택한 구성 요소에서 스타일을 가져오기</GetStyle>
-    <MoreStyles>더 스타일</MoreStyles>
-    <Open>오픈 스타일</Open>
+    <MoreStyles>다른 스타일</MoreStyles>
+    <NotSpecified>지정되지 않음</NotSpecified>
+    <Open>오픈 스타일</Open>
+    <Predefined>미리 정의됨</Predefined>
     <qnApplyStyleCollection>보고서 구성 요소에 스타일 컬렉션을 적용 하시겠습니까?</qnApplyStyleCollection>
     <Remove>스타일을 제거</Remove>
     <RemoveExistingStyles>기존 스타일을 제거</RemoveExistingStyles>
@@ -1428,8 +1466,8 @@
     <LabelDataColumn>데이터 열 :</LabelDataColumn>
     <LabelShowInsteadNullValues>대신 Null 값을 표시 :</LabelShowInsteadNullValues>
     <LabelSummaryFunction>요약 기능 :</LabelSummaryFunction>
-    <pageExpression>식</pageExpression>
-    <pageSummary>개요</pageSummary>
+    <pageExpression>표현식</pageExpression>
+    <pageSummary>요약</pageSummary>
     <pageSystemVariable>시스템 변수</pageSystemVariable>
     <RunningTotal>실행 합계</RunningTotal>
     <SummaryRunning>요약 실행</SummaryRunning>
@@ -1516,8 +1554,8 @@
     <ZoomTwoPages>2 페이지</ZoomTwoPages>
     <ZoomXXPages>{0} X {1} 페이지</ZoomXXPages>
     <ZoomXXPagesCancel>취소</ZoomXXPagesCancel>
-  </FormViewer>
-  <FormViewerFind>
+  </FormViewer>
+  <FormViewerFind>
     <Close>닫기</Close>
     <FindNext>다음 검색</FindNext>
     <FindPrevious>이전 검색</FindPrevious>
@@ -1560,7 +1598,7 @@
     <barname_caption>새 도구 모음</barname_caption>
     <barname_msginvalidname>도구 모음 이름은 비워 둘 수 없습니다.</barname_msginvalidname>
     <barname_name>도구 모음 이름(&amp; T) :</barname_name>
-    <barname_ok>[OK]</barname_ok>
+    <barname_ok>[확인]</barname_ok>
     <barrename_caption>도구 모음의 이름을 변경</barrename_caption>
     <barsys_autohide_tooltip>자동 숨기기</barsys_autohide_tooltip>
     <barsys_close_tooltip>닫기</barsys_close_tooltip>
@@ -1577,7 +1615,7 @@
     <colorpickerdialog_customcolorslabel>색상 :</colorpickerdialog_customcolorslabel>
     <colorpickerdialog_greenlabel>녹색(&amp;G) :</colorpickerdialog_greenlabel>
     <colorpickerdialog_newcolorlabel>새로운</colorpickerdialog_newcolorlabel>
-    <colorpickerdialog_okbutton>[OK]</colorpickerdialog_okbutton>
+    <colorpickerdialog_okbutton>[확인]</colorpickerdialog_okbutton>
     <colorpickerdialog_redlabel>빨강(&amp;R) :</colorpickerdialog_redlabel>
     <colorpickerdialog_rgblabel>RGB</colorpickerdialog_rgblabel>
     <colorpickerdialog_standardcolorslabel>색상 :</colorpickerdialog_standardcolorslabel>
@@ -1731,10 +1769,10 @@
     <BorderColor>선택한 구성 요소의 테두리 색상을 선택합니다.</BorderColor>
     <BorderSidesAll>선택한 구성 요소의 모든면을 선택합니다.</BorderSidesAll>
     <BorderSidesBottom>선택한 구성 요소의 아래쪽 테두리를 선택합니다.</BorderSidesBottom>
-    <BorderSidesLeft>선택한 구성 요소의 왼쪽 경계를 선택합니다.</BorderSidesLeft>
+    <BorderSidesLeft>선택한 구성 요소의 왼쪽 테두리를 선택합니다.</BorderSidesLeft>
     <BorderSidesNone>선택한 구성 요소의 모든면을 취소합니다.</BorderSidesNone>
     <BorderSidesRight>선택한 구성 요소의 오른쪽의 스위치를 켭니다.</BorderSidesRight>
-    <BorderSidesTop>선택한 구성 요소에 대한 경계의 스위치를 켭니다.</BorderSidesTop>
+    <BorderSidesTop>선택한 구성 요소에 대한 테두리의 스위치를 켭니다.</BorderSidesTop>
     <BorderStyle>선택한 구성 요소의 테두리 스타일을 선택합니다.</BorderStyle>
     <BringToFront>선택한 구성 요소를 전면으로 이동합니다.</BringToFront>
     <CenterHorizontally>구성 요소가 배치되는 컨테이너의 가장자리에 구성 요소를 가로로 정렬 할 수 있습니다.</CenterHorizontally>
@@ -1745,6 +1783,7 @@
     <CopyStyle>스타일을 복사</CopyStyle>
     <CopyToClipboard>클립 보드에 복사</CopyToClipboard>
     <CurrencySymbol>클립 보드에 복사...</CurrencySymbol>
+	<DashboardNew>새 대시보드를 생성하십시오.</DashboardNew>
     <DataStore>보고서에 등록 된 데이터를 표시합니다.</DataStore>
     <DateTimeFormat>선택한 구성 요소의 날짜 및 시간 형식을 선택합니다.</DateTimeFormat>
     <DockingPanels>패널 설정.</DockingPanels>
@@ -1794,12 +1833,12 @@
     <menuEditDelete>선택한 구성 요소를 제거합니다.</menuEditDelete>
     <menuEditPaste>클립 보드의 내용을 보고서에 붙여 넣습니다.</menuEditPaste>
     <menuFAQPage>자주 질문되는 Web 페이지로 이동합니다.</menuFAQPage>
-    <menuGlobalizationStrings>현재 보고서의 세계화 문자열 편집기를 호출합니다.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>현재 보고서의 국제화 문자열 편집기를 호출합니다.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>보고서 생성기 버전과 .NET Framework 버전에 대한 정보를 가져옵니다.</menuHelpAboutProgramm>
     <menuHomePage>제품의 홈페이지로 이동합니다.</menuHomePage>
     <menuPageOptions>현재 페이지의 기본 매개 변수를 설정합니다. 모든 페이지 옵션은 속성 패널을 사용하여 변경할 수 있습니다.</menuPageOptions>
     <menuPagesManager>페이지 관리자를 실행합니다. 페이지 이동, 페이지 제거 및 새 페이지를 만들 수 있습니다.</menuPagesManager>
-    <menuPreviewSettings>현재 보고서를 미리 설정 편집기를 호출합니다. 설정은 현재 보고서를 표시하는 경우에만 적용됩니다.</menuPreviewSettings>
+    <menuPreviewSettings>현재 보고서의 미리보기 설정 편집기를 호출합니다. 설정은 현재 보고서를 표시하는 경우에만 적용됩니다.</menuPreviewSettings>
     <menuPrint>인쇄하기 전에 프린터 인쇄 매수 및 기타 인쇄 옵션을 선택하십시오.</menuPrint>
     <menuPrintPreview>인쇄하기 전에 보고서를 미리 봅니다.</menuPrintPreview>
     <menuPrintQuick>보고서를 직접 기본 프린터로 인쇄합니다. 인쇄 대화 상자가 표시되지 않습니다.</menuPrintQuick>
@@ -1877,7 +1916,7 @@
     <AllowModifyContents>텍스트 편집에 대한 액세스가 제한되어 있습니다.</AllowModifyContents>
     <AllowPrintDocument>인쇄 작업에 대한 액세스가 제한되어 있습니다.</AllowPrintDocument>
     <Bookmarks>빠른 탐색에 사용되는 북마크 패널을 표시하여 북마크 된 위치로 직접 이동합니다.</Bookmarks>
-    <BorderType>컴퍼넌트의 경계 유형 : 단순 - 문자 의한 구성 요소의 선 그리기 - -</BorderType>
+    <BorderType>컴퍼넌트의 테두리 유형 : 단순 - 문자 의한 구성 요소의 선 그리기 - -</BorderType>
     <Close>보고서 미리보기를 닫습니다.</Close>
     <CloseDotMatrix>도트 매트릭스 뷰어를 닫습니다.</CloseDotMatrix>
     <Compressed>준비 문서의 압축. 항상 파일 압축을 포함하는 것이 좋습니다.</Compressed>
@@ -1889,7 +1928,7 @@
     <DigitalSignature>파일의 디지털 서명.</DigitalSignature>
     <DitheringType>디더링 유형 : 없음 - 디더링없이 주문도, FloydSt. - 디더링 있습니다.</DitheringType>
     <DotMatrixMode>이 모드에서는 도트 매트릭스 프린터로 인쇄하는 경우 보고서 표시 방법을 확인할 수 있습니다.</DotMatrixMode>
-    <DrawBorder>그림 문자로 컴퍼넌트의 경계를 그립니다.</DrawBorder>
+    <DrawBorder>그림 문자로 컴퍼넌트의 테두리를 그립니다.</DrawBorder>
     <Edit>요소를 편집합니다.</Edit>
     <EmbeddedFonts>글꼴 파일을 PDF 파일에 포함합니다.</EmbeddedFonts>
     <EmbeddedImageData>이미지를 HTML 파일에 직접 포함합니다.</EmbeddedImageData>
@@ -2109,7 +2148,7 @@
   </Messages>
   <Notices>
     <AccessDenied>액세스가 거부되었습니다!</AccessDenied>
-    <AccountLocked>당신의 계정은 잠겨 있습니다! 그것을 해결하려면, sales @ stimulsoft.com로 연락 주시기 바랍니다!</AccountLocked>
+    <AccountLocked>당신의 계정은 잠겨 있습니다! 그것을 해결하려면, sales@stimulsoft.com로 연락 주시기 바랍니다!</AccountLocked>
     <ActivationExpiriedBeforeFirstRelease>Stimulsoft Reports.Ultimate 구독, Stimulsoft Reports.Server의 첫 번째 버전보다 이전에 만료되었습니다.</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>라이센스 파일이 올바르지 않습니다. sales@stimulsoft.com 문의하십시오.</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>당신의 계정은 잠겨 있습니다. sales@stimulsoft.com 문의하십시오.</ActivationLockedAccount>
@@ -2151,7 +2190,7 @@
     <EndDateShouldBeGreaterThanCurrentDate>종료일 현재 날짜보다 커야합니다.</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>종료일은 시작일보다 커야합니다.</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>실행 오류</ExecutionError>
-    <IsIdentical>"{0}"및 "{1}"은 동일합니다. "</IsIdentical>
+    <IsIdentical>"{0}"및 "{1}"은 동일합니다.</IsIdentical>
     <IsNotAuthorized>"{0}"에 대한 액세스 권한이 없습니다!</IsNotAuthorized>
     <IsNotCorrect>"{0}"은 잘못된 것입니다!</IsNotCorrect>
     <IsNotDeleted>"{0}"은 삭제되지 않습니다!</IsNotDeleted>
@@ -2217,7 +2256,8 @@
     <SessionTimeOut>세션 타임 아웃</SessionTimeOut>
     <SnapshotAlreadyProcessed>보고서 스냅 샷은 이미 처리되어 있습니다!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>지정된 항목은 "{0}"은 없습니다!</SpecifiedItemIsNot>
-    <SubscriptionExpired>당신의 구독은 만료되었습니다!</SubscriptionExpired>
+    <SubscriptionExpired>당신의 구독이 만료되었습니다!</SubscriptionExpired>
+	<SubscriptionExpiredDate>구독은 {0}에 만료됩니다.</SubscriptionExpiredDate>
     <SubscriptionsOut10>정기 구독 만료 후 10 일이 경과했습니다!</SubscriptionsOut10>
     <SubscriptionsOut20>구독 기간은 20 일에 끝납니다!</SubscriptionsOut20>
     <SuccessfullyRenewed>당신의 가입이 성공적으로 업데이트되었습니다!</SuccessfullyRenewed>
@@ -2325,7 +2365,7 @@
     <BarCodeCategory>바코드</BarCodeCategory>
     <BehaviorCategory>동작</BehaviorCategory>
     <CapNeedle>모자 니들</CapNeedle>
-    <CellCategory>세포</CellCategory>
+    <CellCategory>셀</CellCategory>
     <ChartAdditionalCategory>추가 차트</ChartAdditionalCategory>
     <ChartCategory>차트</ChartCategory>
     <ChartMap>지도</ChartMap>
@@ -2336,6 +2376,7 @@
     <ControlCategory>컨트롤</ControlCategory>
     <ControlsEventsCategory>컨트롤 이벤트</ControlsEventsCategory>
     <CrossTabCategory>크로스 탭</CrossTabCategory>
+    <DashboardCategory>대시 보드</DashboardCategory>
     <DataCategory>데이터</DataCategory>
     <DatePickerCategory>데이트 피커</DatePickerCategory>
     <DescriptionCategory>설명</DescriptionCategory>
@@ -2541,10 +2582,6 @@
     <YellowGreen>옐로우 그린</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
-    <StiGaugeRangeModePercentage>퍼센트</StiGaugeRangeModePercentage>
-    <StiGaugeRangeModeValue>값</StiGaugeRangeModeValue>
-    <StiGaugeRangeTypeNone>None</StiGaugeRangeTypeNone>
-    <StiGaugeRangeTypeColor>색상</StiGaugeRangeTypeColor>
     <boolFalse>False</boolFalse>
     <boolTrue>True</boolTrue>
     <BorderStyleFixed3D>고정 3D</BorderStyleFixed3D>
@@ -2579,7 +2616,7 @@
     <DialogResultIgnore>무시</DialogResultIgnore>
     <DialogResultNo>아니오</DialogResultNo>
     <DialogResultNone>없음</DialogResultNone>
-    <DialogResultOK>[OK]</DialogResultOK>
+    <DialogResultOK>[확인]</DialogResultOK>
     <DialogResultRetry>재시도</DialogResultRetry>
     <DialogResultYes>예</DialogResultYes>
     <DuplexDefault>기본</DuplexDefault>
@@ -2756,6 +2793,10 @@
     <StiFormStartModeOnStart>시작</StiFormStartModeOnStart>
     <StiGaugeCalculationModeAuto>자동</StiGaugeCalculationModeAuto>
     <StiGaugeCalculationModeCustom>사용자</StiGaugeCalculationModeCustom>
+    <StiGaugeRangeModePercentage>퍼센트</StiGaugeRangeModePercentage>
+    <StiGaugeRangeModeValue>값</StiGaugeRangeModeValue>
+    <StiGaugeRangeTypeNone>None</StiGaugeRangeTypeNone>
+    <StiGaugeRangeTypeColor>색상</StiGaugeRangeTypeColor>
     <StiGaugeTypeFullCircular>전체 원형</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>반원형</StiGaugeTypeHalfCircular>
     <StiGaugeTypeLinear>선형</StiGaugeTypeLinear>
@@ -2778,6 +2819,15 @@
     <StiImageRotationRotate180>180° 회전</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>반시계방향 90°회전</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>시계방향 90°회전</StiImageRotationRotate90CW>
+    <StiInteractionOnClick>없음</StiInteractionOnClick>
+    <StiInteractionOnClickApplyFilter>필터 적용</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickOpenHyperlink>하이퍼링크 열기</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickShowDashboard>대시보드 보기</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnHoverNone>없음</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowHyperlink>하이퍼링크 보기</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnHoverShowToolTip>툴팁 보기</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>현재 탭</StiInteractionOpenHyperlinkDestinationCurrentTab>
+    <StiInteractionOpenHyperlinkDestinationNewTab>새 탭</StiInteractionOpenHyperlinkDestinationNewTab>
     <StiItemSelectionModeMulti>멀티</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>1</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>내용을 정리해</StiKeepDetailsKeepDetailsTogether>
@@ -2928,6 +2978,8 @@
     <StiShowYAxisBoth>모두</StiShowYAxisBoth>
     <StiShowYAxisCenter>센터</StiShowYAxisCenter>
     <StiShowYAxisLeft>왼쪽</StiShowYAxisLeft>
+    <StiSizeModeAutoSize>자동 크기</StiSizeModeAutoSize>
+    <StiSizeModeFit>Fit</StiSizeModeFit>
     <StiSortDirectionAsc>오름차순</StiSortDirectionAsc>
     <StiSortDirectionDesc>내림차순</StiSortDirectionDesc>
     <StiSortDirectionNone>없음</StiSortDirectionNone>
@@ -3018,7 +3070,7 @@
     <GetBookmarkEvent>북마크 가져 오기</GetBookmarkEvent>
     <GetCollapsedEvent>축소</GetCollapsedEvent>
     <GetCrossValueEvent>크로스 가치를 가져오기</GetCrossValueEvent>
-    <GetCutPieListEvent>컷 파이 목록을 가져 오려면</GetCutPieListEvent>
+    <GetCutPieListEvent>컷 파이 목록을 가져오기</GetCutPieListEvent>
     <GetDataUrlEvent>DataUrl을 가져오기</GetDataUrlEvent>
     <GetDisplayCrossValueEvent>크로스 값을 표시한다</GetDisplayCrossValueEvent>
     <GetDrillDownReportEvent>드릴 다운 보고서의 취득</GetDrillDownReportEvent>
@@ -3056,6 +3108,7 @@
     <ProcessCellEvent>프로세스 셀</ProcessCellEvent>
     <ProcessChartEvent>프로세스 차트</ProcessChartEvent>
     <RenderingEvent>렌더링</RenderingEvent>
+    <ReportCacheProcessingEvent>보고서 캐시 처리</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>선택된 인덱스가 변경</SelectedIndexChangedEvent>
     <StateRestoreEvent>상태 복원</StateRestoreEvent>
     <StateSaveEvent>상태를 저장</StateSaveEvent>
@@ -3147,18 +3200,21 @@
     <AllowUseForeColor>포 컬러의 사용을 허용</AllowUseForeColor>
     <AllowUseHorAlignment>수평 정렬을 사용할 수 있도록하는</AllowUseHorAlignment>
     <AllowUseImage>이미지 사용을 허용</AllowUseImage>
+    <AllowUseNegativeTextBrush>네거티브 텍스트 브러시 사용허용</AllowUseNegativeTextBrush>
     <AllowUserValues>사용자 값을 허용</AllowUserValues>
     <AllowUseTextBrush>텍스트 브러쉬의 사용을 허용</AllowUseTextBrush>
+    <AllowUseTextFormat>텍스트 형식 사용허용</AllowUseTextFormat>
     <AllowUseTextOptions>텍스트 옵션의 사용을 허용</AllowUseTextOptions>
     <AllowUseVertAlignment>Vert Alignment를 사용할 수 있도록하는</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>SQL 매개 변수로 사용을 허용</AllowUsingAsSqlParameter>
     <AlternatingBackColor>배경색 교대</AlternatingBackColor>
-    <Anchor>앵커</Anchor>
-    <Angle>각도</Angle>
+    <Anchor>고정</Anchor>
+    <Angle>회전</Angle>
     <Antialiasing>안티 앨리어싱</Antialiasing>
     <Area>영역</Area>
     <Argument>인수</Argument>
     <ArgumentDataColumn>인수 데이터 열</ArgumentDataColumn>
+	<ArgumentFormat>인수 형식</ArgumentFormat>
     <Arguments>인수</Arguments>
     <ArrowHeight>화살표의 높이</ArrowHeight>
     <ArrowStyle>화살표 스타일</ArrowStyle>
@@ -3189,26 +3245,26 @@
     <BarCodeType>바코드 유형</BarCodeType>
     <BasicStyleColor>기본 스타일 색상</BasicStyleColor>
     <Blend>혼합</Blend>
-    <Bold>대담한</Bold>
+    <Bold>진하게</Bold>
     <Bookmark>북마크</Bookmark>
-    <Border>경계</Border>
+    <Border>테두리</Border>
     <BorderBrush>테두리 브러쉬</BorderBrush>
     <BorderColor>보더 색상</BorderColor>
-    <BorderColorNegative>테두리 색상 부정적인</BorderColorNegative>
+    <BorderColorNegative>네거티브 테두리 색상</BorderColorNegative>
     <Borders>테두리</Borders>
     <BorderSize>국경 크기</BorderSize>
     <BorderStyle>테두리 스타일</BorderStyle>
     <BorderWidth>테두리 폭</BorderWidth>
     <Bottom>하단</Bottom>
-    <BottomSide>하단 측</BottomSide>
+    <BottomSide>하단 사이드</BottomSide>
     <BreakIfLessThan>Less than Less보다 브레이크</BreakIfLessThan>
     <Brush>브러쉬</Brush>
-    <BrushNegative>브러쉬 부정적인</BrushNegative>
+    <BrushNegative>네거티브 브러쉬</BrushNegative>
     <BrushType>브러쉬 타입</BrushType>
     <BusinessObject>비즈니스 오브젝트</BusinessObject>
     <CacheAllData>모든 데이터를 캐시</CacheAllData>
     <CacheTotals>캐시 총</CacheTotals>
-    <CalcInvisible>Calc Invisible</CalcInvisible>
+    <CalcInvisible>Calc 표시안함</CalcInvisible>
     <CalculatedDataColumn>계산 된 데이터 열</CalculatedDataColumn>
     <CalculationMode>계산 모드</CalculationMode>
     <CanBreak>끊을 수 있습니다</CanBreak>
@@ -3219,8 +3275,8 @@
     <Category>카테고리</Category>
     <CategoryConnections>연결</CategoryConnections>
     <CellDockStyle>셀 독 스타일</CellDockStyle>
-    <CellHeight>세포의 높이</CellHeight>
-    <CellType>세포 유형</CellType>
+    <CellHeight>셀의 높이</CellHeight>
+    <CellType>셀 유형</CellType>
     <CellWidth>셀 폭</CellWidth>
     <Center>센터</Center>
     <CenterPoint>중심점</CenterPoint>
@@ -3254,10 +3310,11 @@
     <ColorDataColumn>색상 데이터 열</ColorDataColumn>
     <ColorEach>각 색상</ColorEach>
     <ColorMeter>색상</ColorMeter>
+	<Colors>색상</Colors>
     <ColorScaleCondition>컬러 스케일 조건</ColorScaleCondition>
     <ColorScaleType>컬러 스케일 유형</ColorScaleType>
     <Column>열</Column>
-    <ColumnCount>렬수</ColumnCount>
+    <ColumnCount>열수</ColumnCount>
     <ColumnDirection>열 방향</ColumnDirection>
     <ColumnGaps>열 간격</ColumnGaps>
     <ColumnHeadersVisible>열 머리글이 표시되는</ColumnHeadersVisible>
@@ -3283,7 +3340,7 @@
     <Create>만들기</Create>
     <CreateFieldOnDoubleClick>더블 클릭하여 필드를 생성</CreateFieldOnDoubleClick>
     <CreateLabel>레이블을 만들기</CreateLabel>
-    <Culture>문화</Culture>
+    <Culture>문화권</Culture>
     <CustomFonts>사용자 정의 글꼴</CustomFonts>
     <CustomFormat>사용자 정의 형식</CustomFormat>
     <CutPieList>컷 파이 목록</CutPieList>
@@ -3292,12 +3349,14 @@
     <DataAdapters>데이터 어댑터</DataAdapters>
     <DataBarCondition>데이터 막대의 상태</DataBarCondition>
     <DataBindings>데이터 바인딩</DataBindings>
+	<DataColor>데이터 색상</DataColor>
     <DataColumn>데이터 열</DataColumn>
     <DataColumns>데이터 열</DataColumns>
     <DataField>데이터 필드</DataField>
+	<DataForeground>데이터 전경</DataForeground>
     <DataRelation>데이터 관계</DataRelation>
     <DataRows>데이터 행</DataRows>
-    <DataSource>정보 데이터</DataSource>
+    <DataSource>데이터 소스</DataSource>
     <DataSources>데이터 소스</DataSources>
     <DataTextField>데이터 텍스트 필드</DataTextField>
     <DataTransformation>데이터 변환</DataTransformation>
@@ -3312,6 +3371,7 @@
     <DependentColumn>종속 열</DependentColumn>
     <DependentValue>종속 가치</DependentValue>
     <Description>설명</Description>
+    <Destination>목적지</Destination>
     <DetectUrls>URL을 감지</DetectUrls>
     <DialogResult>대화 결과</DialogResult>
     <Diameter>지름</Diameter>
@@ -3363,7 +3423,7 @@
     <EnumeratorType>열거 형</EnumeratorType>
     <ErrorCorrectionLevel>오류 수정 수준</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>오류 정정 수준</ErrorsCorrectionLevel>
-    <EvenStyle>우연한 스타일</EvenStyle>
+    <EvenStyle>짝수행 스타일</EvenStyle>
     <ExcelSheet>Excel 시트</ExcelSheet>
     <ExcelValue>Excel 값</ExcelValue>
     <Exponential>기하 급수적</Exponential>
@@ -3400,6 +3460,8 @@
     <FooterCanBreak>바닥 글이 손상</FooterCanBreak>
     <FooterCanGrow>바닥 글이 늘어납니다</FooterCanGrow>
     <FooterCanShrink>바닥 글은 축소 할 수 있습니다</FooterCanShrink>
+    <FooterColor>바닥 글 색상</FooterColor>
+    <FooterForeground>바닥글 전경</FooterForeground>
     <FooterPrintAtBottom>꼬리말 인쇄 하단</FooterPrintAtBottom>
     <FooterPrintIfEmpty>꼬리말 인쇄가 빈 경우</FooterPrintIfEmpty>
     <FooterPrintOn>바닥 글 인쇄 설정</FooterPrintOn>
@@ -3413,14 +3475,15 @@
     <FullConvertExpression>전체 변환 식 ​​</FullConvertExpression>
     <Function>함수</Function>
     <Functions>기능</Functions>
-    <GlobalizationStrings>세계화 문자열</GlobalizationStrings>
-    <GlobalizedName>세계화 된 이름</GlobalizedName>
-    <GridLineColor>눈금 선 색상</GridLineColor>
-    <GridLinesHor>눈금 선 가로</GridLinesHor>
-    <GridLinesHorColor>눈금 선 가로 색상</GridLinesHorColor>
-    <GridLinesHorRight>눈금 선 수평 오른쪽</GridLinesHorRight>
-    <GridLineStyle>눈금 선 스타일</GridLineStyle>
-    <GridLinesVert>격자 선 수직</GridLinesVert>
+    <GlobalizationStrings>국제화 문자열</GlobalizationStrings>
+    <GlobalizedName>국제화 된 이름</GlobalizedName>
+	<GridColor>그리드 색상</GridColor>    
+	<GridLineColor>그리드 선 색상</GridLineColor>
+    <GridLinesHor>그리드 선 가로</GridLinesHor>
+    <GridLinesHorColor>그리드 선 가로 색상</GridLinesHorColor>
+    <GridLinesHorRight>그리드 선 수평 오른쪽</GridLinesHorRight>
+    <GridLineStyle>그리드 선 스타일</GridLineStyle>
+    <GridLinesVert>그리드 선 수직</GridLinesVert>
     <GridLinesVertColor>그리드 선의 수직 색상</GridLinesVertColor>
     <GridOutline>그리드 개요</GridOutline>
     <Group>그룹</Group>
@@ -3431,18 +3494,21 @@
     <HeaderCanBreak>헤더 중단 할 수 있습니다</HeaderCanBreak>
     <HeaderCanGrow>헤더를 늘리기</HeaderCanGrow>
     <HeaderCanShrink>헤더는 축소 할 수 있습니다</HeaderCanShrink>
+	<HeaderColor>해더 색상</HeaderColor>
     <HeaderFont>헤더 글꼴</HeaderFont>
     <HeaderForeColor>헤더 전경색</HeaderForeColor>
+    <HeaderForeground>헤더 전경</HeaderForeground>
     <HeaderPrintAtBottom>헤더 프린트 하단</HeaderPrintAtBottom>
-    <HeaderPrintIfEmpty>헤더 인쇄가 비어 있으면</HeaderPrintIfEmpty>
+    <HeaderPrintIfEmpty>헤더 인쇄가 비어 있음</HeaderPrintIfEmpty>
     <HeaderPrintOn>헤더 인쇄 설정</HeaderPrintOn>
     <HeaderPrintOnAllPages>모든 페이지에 머리글 인쇄</HeaderPrintOnAllPages>
     <HeaderPrintOnEvenOddPages>페이지의 머리글 인쇄</HeaderPrintOnEvenOddPages>
     <HeaderRowsCount>헤더 행수</HeaderRowsCount>
     <Headers>헤더</Headers>
     <HeaderText>헤더 텍스트</HeaderText>
+	<HeatmapColors>히트 맵 색상</HeatmapColors>
     <Height>높이</Height>
-    <HideSeriesWithEmptyTitle>빈 제목으로 시리즈를 숨기려면</HideSeriesWithEmptyTitle>
+    <HideSeriesWithEmptyTitle>빈 제목으로 시리즈를 숨기기</HideSeriesWithEmptyTitle>
     <HideZeros>0을 숨기기</HideZeros>
     <High>높은</High>
     <HighlightCondition>하이라이트 조건</HighlightCondition>
@@ -3472,7 +3538,9 @@
     <ImportRelations>관계를 가져 오기</ImportRelations>
     <Increment>증가</Increment>
     <Indent>들여 쓰기</Indent>
+	<IndividualColor>개별 색상</IndividualColor>
     <InitBy>초기</InitBy>
+    <InitialSelection>초기 선택</InitialSelection>
     <Insert>삽입</Insert>
     <Interaction>상호 작용</Interaction>
     <InterlacedBrush>인터레이스 브러쉬</InterlacedBrush>
@@ -3505,28 +3573,31 @@
     <Keys>키</Keys>
     <Label>라벨</Label>
     <LabelColor>라벨 색상</LabelColor>
+	<LabelForeground>라벨 전경</LabelForeground>
     <LabelRotationMode>레이블 회전 모드</LabelRotationMode>
     <Labels>라벨</Labels>
     <LabelsColor>라벨 색상</LabelsColor>
+	<LabelShadowForeground>라벨 그림자 전경</LabelShadowForeground>
     <LabelsOffset>레이블 오프셋</LabelsOffset>
     <Language>언어</Language>
     <LargeHeight>페이지 길게보기</LargeHeight>
     <LargeHeightFactor>높이 계수</LargeHeightFactor>
     <Latitude>위도</Latitude>
+	<Layout>레이아웃</Layout>
     <Left>왼쪽</Left>
-    <LeftSide>왼쪽</LeftSide>
+    <LeftSide>왼쪽 사이드</LeftSide>
     <Legend>전설</Legend>
-    <LegendBorderColor>보더 색상</LegendBorderColor>
+    <LegendBorderColor>레전드 보더 색상</LegendBorderColor>
     <LegendBrush>레전드 브러쉬</LegendBrush>
-    <LegendLabelsColor>라벨 색상</LegendLabelsColor>
-    <LegendTitleColor>제목 색상</LegendTitleColor>
+    <LegendLabelsColor>레전드 라벨 색상</LegendLabelsColor>
+    <LegendTitleColor>레전드 제목 색상</LegendTitleColor>
     <LegendValueType>범례 값의 유형</LegendValueType>
     <Length>길이</Length>
     <LengthUnderLabels>레이블 아래 길이</LengthUnderLabels>
     <Lighting>점등</Lighting>
     <Linear>선형</Linear>
     <LineColor>선 색상</LineColor>
-    <LineColorNegative>라인 컬러 네거티브</LineColorNegative>
+    <LineColorNegative>네거티브 라인 컬러</LineColorNegative>
     <LineLimit>행 제한</LineLimit>
     <LineMarker>라인 마커</LineMarker>
     <LinesOfUnderline>밑줄 선</LinesOfUnderline>
@@ -3556,7 +3627,7 @@
     <MajorInterval>메이저 간격</MajorInterval>
     <MapID>맵 ID</MapID>
     <Maps>지도</Maps>
-    <MapStyle>스타일</MapStyle>
+    <MapStyle>맵 스타일</MapStyle>
     <MapType>지도의 종류</MapType>
     <Margin>여백</Margin>
     <Margins>여백</Margins>
@@ -3603,29 +3674,33 @@
     <Module>모듈</Module>
     <Move>이동</Move>
     <Multiline>여러 줄</Multiline>
-    <MultipleFactor>다 인자</MultipleFactor>
+    <MultipleFactor>이미지 비율</MultipleFactor>
     <Name>이름</Name>
     <NameDataColumn>이름 데이터 열</NameDataColumn>
     <NameInSource>소스 이름</NameInSource>
     <NameMeter>이름</NameMeter>
     <NameParent>부모의 이름</NameParent>
     <Namespaces>네임 스페이스</Namespaces>
-    <Negative>음</Negative>
+    <Negative>음수</Negative>
+    <NegativeSeriesColors>네거티브 시리즈 색상</NegativeSeriesColors>
+    <NegativeTextBrush>네거티브 텍스트 브러쉬</NegativeTextBrush>
     <NestedLevel>중첩 수준</NestedLevel>
     <NewColumnAfter>새 열 후</NewColumnAfter>
     <NewColumnBefore>앞에 새로운 열</NewColumnBefore>
     <NewPageAfter>새 페이지 후</NewPageAfter>
-    <NewPageBefore>전에 새로운 페이지</NewPageBefore>
+    <NewPageBefore>새로운 페이지 이전</NewPageBefore>
     <NextPage>다음 페이지</NextPage>
     <NoIcon>아이콘 없음</NoIcon>
     <NullText>널 텍스트</NullText>
     <NumberOfColumns>열 수</NumberOfColumns>
     <NumberOfCopies>매수</NumberOfCopies>
-    <NumberOfPass>패스</NumberOfPass>
+    <NumberOfPass>엔진실행</NumberOfPass>
     <NumberOfValues>값의 수</NumberOfValues>
-    <OddStyle>이상한 스타일</OddStyle>
+    <OddStyle>홀수행 스타일</OddStyle>
     <Offset>오프셋</Offset>
     <OffsetAngle>오프셋 각도</OffsetAngle>
+    <OnClick>온 클릭</OnClick>
+    <OnHover>온 호버</OnHover>
     <OnlyText>텍스트</OnlyText>
     <OpenValues>오픈 가치</OpenValues>
     <Operation>작업</Operation>
@@ -3659,20 +3734,20 @@
     <PreferredRowHeight>우선 행의 높이</PreferredRowHeight>
     <PreventIntersection>교차를 방지</PreventIntersection>
     <PreviewMode>미리보기 모드</PreviewMode>
-    <PreviewSettings>미리 설정</PreviewSettings>
-    <Printable>인쇄</Printable>
+    <PreviewSettings>미리보기 설정</PreviewSettings>
+    <Printable>인쇄 여부</Printable>
     <PrintAtBottom>하단에 인쇄</PrintAtBottom>
     <PrinterName>프린터 이름</PrinterName>
     <PrinterSettings>프린터 설정</PrinterSettings>
-    <PrintHeadersFootersFromPreviousPage>이전 페이지 머리글과 바닥 글을 인쇄하는</PrintHeadersFootersFromPreviousPage>
+    <PrintHeadersFootersFromPreviousPage>이전 페이지에서 머리글 및 바닥글 인쇄</PrintHeadersFootersFromPreviousPage>
     <PrintIfDetailEmpty>상세가 빈 경우 인쇄</PrintIfDetailEmpty>
     <PrintIfEmpty>빈 경우 인쇄</PrintIfEmpty>
     <PrintIfParentDisabled>부모를 사용할 수없는 경우에 표시</PrintIfParentDisabled>
-    <PrintOn>인쇄</PrintOn>
+    <PrintOn>인쇄 범위</PrintOn>
     <PrintOnAllPages>모든 페이지에 인쇄</PrintOnAllPages>
     <PrintOnEvenOddPages>홀수 페이지 인쇄</PrintOnEvenOddPages>
     <PrintOnPreviousPage>이전에 인쇄</PrintOnPreviousPage>
-    <PrintTitleOnAllPages>모든 페이지에 제목을 인쇄하는</PrintTitleOnAllPages>
+    <PrintTitleOnAllPages>모든 페이지에 제목을 인쇄</PrintTitleOnAllPages>
     <PrintVerticalBars>세로줄 인쇄</PrintVerticalBars>
     <ProcessAt>프로세스</ProcessAt>
     <ProcessAtEnd>마지막 과정</ProcessAtEnd>
@@ -3687,7 +3762,7 @@
     <RangeFrom>에서</RangeFrom>
     <RangeScrollEnabled>범위의 스크롤을 활성화</RangeScrollEnabled>
     <RangeTo>에</RangeTo>
-    <Ratio>비</Ratio>
+    <Ratio>비율</Ratio>
     <RatioY>비율 Y</RatioY>
     <ReadOnly>읽기 전용</ReadOnly>
     <RecentFonts>최근의 글꼴</RecentFonts>
@@ -3713,7 +3788,7 @@
     <RequestFromUser>사용자의 요청</RequestFromUser>
     <RequestParameters>요청 매개 변수</RequestParameters>
     <ResetDataSource>데이터 소스를 재설정</ResetDataSource>
-    <ResetPageNumber>재설정 페이지 번호</ResetPageNumber>
+    <ResetPageNumber>페이지 번호 재설정</ResetPageNumber>
     <Resize>크기를 변경</Resize>
     <Resource>리소스</Resource>
     <Resources>리소스</Resources>
@@ -3723,7 +3798,7 @@
     <ReverseHor>역 수평</ReverseHor>
     <ReverseVert>역 수직</ReverseVert>
     <Right>오른쪽</Right>
-    <RightSide>오른쪽</RightSide>
+    <RightSide>오른쪽 사이드</RightSide>
     <RightToLeft>오른쪽에서 왼쪽으로</RightToLeft>
     <Rotation>회전</Rotation>
     <RotationLabels>회전 라벨</RotationLabels>
@@ -3749,10 +3824,12 @@
     <SelectionMode>선택 모드</SelectionMode>
     <SerialNumber>일련 번호</SerialNumber>
     <Series>시리즈</Series>
+    <SeriesColors>시리즈 색상</SeriesColors>
     <SeriesLabels>시리즈 레이블</SeriesLabels>
-    <SeriesLabelsBorderColor>보더 색상</SeriesLabelsBorderColor>
-    <SeriesLabelsBrush>라벨 브러쉬</SeriesLabelsBrush>
-    <SeriesLabelsColor>라벨 색상</SeriesLabelsColor>
+    <SeriesLabelsBorderColor>시리즈 보더 색상</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>시리즈 라벨 브러쉬</SeriesLabelsBrush>
+    <SeriesLabelsColor>시리즈 라벨 색상</SeriesLabelsColor>
+	<SeriesLabelsLineColor>라벨 선 색상</SeriesLabelsLineColor>
     <SeriesLighting>시리즈 조명</SeriesLighting>
     <SeriesShowShadow>시리즈 쇼 그림자</SeriesShowShadow>
     <SeriesTitle>시리즈 제목</SeriesTitle>
@@ -3765,6 +3842,7 @@
     <ShiftMode>시프트 모드</ShiftMode>
     <ShortName>짧은 이름</ShortName>
     <ShortValue>짧은 값</ShortValue>
+    <ShowAllValue>모든 값 표시</ShowAllValue>
     <ShowBehind>쇼 뒤에</ShowBehind>
     <ShowDialog>대화 상자를 표시</ShowDialog>
     <ShowEdgeValues>에지 값을 표시한다</ShowEdgeValues>
@@ -3778,11 +3856,10 @@
     <ShowNulls>널값 보기</ShowNulls>
     <ShowOthers>밖에도 표시</ShowOthers>
     <ShowPercents>백분율을 표시</ShowPercents>
-    <ShowQuietZoneIndicator>조용한 영역 아이콘 표시</ShowQuietZoneIndicator>
-    <ShowQuietZones>조용한 영역을 표시</ShowQuietZones>
+    <ShowQuietZoneIndicator>여백영역 아이콘 표시</ShowQuietZoneIndicator>
+    <ShowQuietZones>여백영역을 표시</ShowQuietZones>
     <ShowScrollBar>스크롤 막대를 표시</ShowScrollBar>
     <ShowSelectAll>모두 선택을 표시</ShowSelectAll>
-	<ShowAllValue>모든 값을 표시</ShowAllValue>
     <ShowSeriesLabels>시리즈 레이블을 표시</ShowSeriesLabels>
     <ShowShadow>섀도우보기</ShowShadow>
     <ShowTotal>전체보기</ShowTotal>
@@ -3793,7 +3870,7 @@
     <ShowZeros>0을 표시</ShowZeros>
     <ShrinkFontToFit>Shrink Font to Fit</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>글꼴을 축소하고 최소 크기에 맞추기</ShrinkFontToFitMinimumSize>
-    <Side>측</Side>
+    <Side>사이드</Side>
     <Sides>사이드</Sides>
     <Simple>간단</Simple>
     <Size>크기</Size>
@@ -3843,8 +3920,8 @@
     <StyleColors>스타일 색상</StyleColors>
     <Styles>스타일</Styles>
     <SubReportPage>하위 보고서</SubReportPage>
-    <Summaries>개요</Summaries>
-    <Summary>개요</Summary>
+    <Summaries>요약</Summaries>
+    <Summary>요약</Summary>
     <SummaryExpression>요약 식</SummaryExpression>
     <SummarySortDirection>요약 정렬 방향</SummarySortDirection>
     <SummaryType>요약 유형</SummaryType>
@@ -3887,13 +3964,13 @@
     <Topmost>상단</Topmost>
     <TopmostLine>탑 라인</TopmostLine>
     <TopN>상위 N</TopN>
-    <TopSide>상단 측</TopSide>
+    <TopSide>상단 사이드</TopSide>
     <Total>총</Total>
     <Totals>총</Totals>
     <TransparentColor>투명한 색</TransparentColor>
     <TrendLine>추세선</TrendLine>
-    <TrendLineColor>색상</TrendLineColor>
-    <TrendLineShowShadow>섀도우보기</TrendLineShowShadow>
+    <TrendLineColor>추세선 색상</TrendLineColor>
+    <TrendLineShowShadow>추세선 섀도우보기</TrendLineShowShadow>
     <TrimExcessData>불필요한 데이터를 삭제</TrimExcessData>
     <Trimming>자르기</Trimming>
     <Type>유형</Type>
@@ -3922,7 +3999,8 @@
     <ValueDataColumnHigh>값의 데이터 열이 높은</ValueDataColumnHigh>
     <ValueDataColumnLow>값의 데이터 열이 낮은</ValueDataColumnLow>
     <ValueDataColumnOpen>값의 데이터 열을 열</ValueDataColumnOpen>
-    <ValueEnd>가치 엔드</ValueEnd>
+    <ValueEnd>엔드 값</ValueEnd>
+    <ValueFormat>값 형식</ValueFormat>
     <ValueHigh>높은 값</ValueHigh>
     <ValueLow>값이 낮은</ValueLow>
     <ValueMeter>값</ValueMeter>
@@ -3968,7 +4046,7 @@
     <Highlight>하이라이트</Highlight>
     <HighlightText>하이라이트 텍스트</HighlightText>
     <HotTrack>핫 트랙</HotTrack>
-    <InactiveBorder>비활성 경계</InactiveBorder>
+    <InactiveBorder>비활성 테두리</InactiveBorder>
     <InactiveCaption>비활성 캡션</InactiveCaption>
     <InactiveCaptionText>비활성 캡션 텍스트</InactiveCaptionText>
     <Info>정보</Info>
@@ -4058,14 +4136,13 @@
     <qnRemoveServiceCategory>카테고리를 삭제 하시겠습니까?</qnRemoveServiceCategory>
     <qnRemoveUnused>Unused을 삭제 하시겠습니까?</qnRemoveUnused>
     <qnReplace>기존 항목 {0}을 바꾸시겠습니까?</qnReplace>
-    <qnRestoreDefault>기본값 복원?</qnRestoreDefault>
+    <qnRestoreDefault>기본값 복원 하시겠습니까?</qnRestoreDefault>
     <qnSaveChanges>{0}의 변경 사항을 저장 하시겠습니까?</qnSaveChanges>
     <qnSaveChangesToPreviewPage>페이지의 변경 사항을 저장 하시겠습니까?</qnSaveChangesToPreviewPage>
     <qnSynchronize>데이터 저장소의 내용과 사전의 내용이 동기화되어 있습니까?</qnSynchronize>
     <qnSynchronizeServices>동기화 서비스?</qnSynchronizeServices>
   </Questions>
   <Report>
-	<Checking>확인중...</Checking>
     <ActiveRelation>활성 관계</ActiveRelation>
     <Address>주소</Address>
     <Alphabetical>알파벳</Alphabetical>
@@ -4075,6 +4152,7 @@
     <BusinessObjects>비즈니스 오브젝트</BusinessObjects>
     <Categorized>재진</Categorized>
     <Charts>차트</Charts>
+	<Checking>확인중...</Checking>
     <ClickForMoreDetails>고급을 클릭하십시오</ClickForMoreDetails>
     <CollapseAll>모두 축소</CollapseAll>
     <Collection>컬렉션</Collection>
@@ -4101,7 +4179,7 @@
     <GenerateNewCode>새로운 코드를 생성하는</GenerateNewCode>
     <History>역사</History>
     <Infographics>인포그래픽</Infographics>
-    <InfoMessage>{0} - {1} 발견했다.</InfoMessage>
+    <InfoMessage>{0} - {1} 발견 했습니다.</InfoMessage>
     <InformationMessages>정보 메시지</InformationMessages>
     <LabelAlias>별칭 :</LabelAlias>
     <LabelAuthor>저자 :</LabelAuthor>
@@ -4140,7 +4218,7 @@
     <NoIssues>문제 없습니다</NoIssues>
     <NoNewVersions>새로운 버전은 없습니다!</NoNewVersions>
     <NotAssigned>할당되지 않음</NotAssigned>
-    <Office2010Back>백</Office2010Back>
+    <Office2010Back>이전</Office2010Back>
     <PageNofM>{1} 페이지 {0}</PageNofM>
     <PreparingReport>보고서의 준비</PreparingReport>
     <Professional>전문가</Professional>
@@ -4152,7 +4230,7 @@
     <RangePage>페이지 범위</RangePage>
     <RangePages>페이지 :</RangePages>
     <ReportChecker>보고서 체커</ReportChecker>
-    <ReportRenderingMessages>렌더링 메시지를보고</ReportRenderingMessages>
+    <ReportRenderingMessages>보고서 렌더링 메시지</ReportRenderingMessages>
     <RestartDesigner>보고서 디자이너를 다시 시작해야합니다</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>보고서 페이지 또는 양식을 저장할</SaveReportPagesOrFormsFromReport>
     <SavingReport>보고서 저장</SavingReport>
@@ -4390,7 +4468,7 @@
     <infoFilters>보고서 데이터 필터링</infoFilters>
     <infoGroups>그룹화에 필요한 열을 선택합니다.</infoGroups>
     <infoLabelSettings>라벨 설정합니다.</infoLabelSettings>
-    <infoLanguages>보고서 문화를 선택합니다.</infoLanguages>
+    <infoLanguages>보고서 문화권을 선택합니다.</infoLanguages>
     <infoLayout>보고서의 레이아웃을 지정합니다.</infoLayout>
     <infoRelation>사용 가능한 데이터 관계를 하나 선택합니다.</infoRelation>
     <infoSelectColumns>정보가 표시되는 열을 선택합니다.</infoSelectColumns>
@@ -4416,9 +4494,10 @@
     <Layout>레이아웃</Layout>
     <Mapping>맵핑</Mapping>
     <MarkAll>전체 마크</MarkAll>
-    <MasterDetailReport>마스터 상세 보고서</MasterDetailReport>
+    <MasterDetailReport>마스터 디테일 보고서</MasterDetailReport>
     <NoFunction>없음</NoFunction>
-    <OpenExistingReport>기존 파일을 여는</OpenExistingReport>
+    <OpenExistingReport>기존 파일 열기</OpenExistingReport>
+	<OpenFrom>{0}에서 열기</OpenFrom>
     <Preview>미리보기</Preview>
     <Reset>재설정(&amp;R)</Reset>
     <Results>및 결과</Results>
@@ -4428,8 +4507,9 @@
     <StandardReport>표준 보고서</StandardReport>
     <Themes>테마</Themes>
     <title>새 보고서</title>
-    <Totals>총</Totals>
+    <Totals>요약</Totals>
     <UsingReportWizard>보고서 마법사의 사용</UsingReportWizard>
+    <YouHaveNotOpenedAnyReportRecently>최근에 어떤 보고서도 열지 않았습니다. 리포트를 찾아보려면 먼저 기존 파일 열기를 누르십시오.</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
   <Zoom>
     <EmptyValue>빈 값</EmptyValue>

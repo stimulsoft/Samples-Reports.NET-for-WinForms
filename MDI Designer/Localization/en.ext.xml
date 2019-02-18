@@ -96,6 +96,8 @@
     <StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>The number of CrossGroupFooter does not correspond to the number of CrossGroupHeader in the '{0}' container. Odd components will not be rendered.</StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>
     <StiDataSourcesForImageCheckLong>Several data sources are set for the '{0}' component.</StiDataSourcesForImageCheckLong>
     <StiDataSourcesForImageCheckShort>Several data sources are set</StiDataSourcesForImageCheckShort>
+    <StiEventsAtInterpretationCheckLong>The script in the '{0}' event in the '{1}' component doesn't work in the interpretation mode.</StiEventsAtInterpretationCheckLong>
+    <StiEventsAtInterpretationCheckShort>Events in Interpretation</StiEventsAtInterpretationCheckShort>
     <StiFontMissingCheckLong>The font '{0}' specified for the component '{1}' is not found.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>The font is not found.</StiFontMissingCheckShort>
     <StiFunctionsOnlyForEngineV2CheckLong>System variables which are not available in the EngineV1 are used in the report. Do you want to use EngineV2.</StiFunctionsOnlyForEngineV2CheckLong>
@@ -221,8 +223,10 @@
     <StiDuplicatedNameCheckShort>The components with duplicate names are found</StiDuplicatedNameCheckShort>
     <StiDuplicatedNameInSourceInDataRelationReportCheckLong>The '{0}' relations are found in the report. They have equal ('{1}') values in the NameInSource. All values in the NameInSource should be unique in the range of one relation to one database! It is necessary to correct these fields of relations.</StiDuplicatedNameInSourceInDataRelationReportCheckLong>
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>Duplicates in relations</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
-	<StiCloudCompilationModeCheckShort>This report is in the compilation mode</StiCloudCompilationModeCheckShort>
-	<StiCloudCompilationModeCheckLong>Stimulsoft Cloud cannot preview this report in the compilation mode. Change the report to the interpretation mode.</StiCloudCompilationModeCheckLong>
+    <StiCloudCompilationModeCheckShort>This report is in the compilation mode</StiCloudCompilationModeCheckShort>
+    <StiCloudCompilationModeCheckLong>Stimulsoft Cloud cannot preview this report in the compilation mode. Change the report to the interpretation mode.</StiCloudCompilationModeCheckLong>
+    <StiNetCoreCompilationModeCheckShort>This report is in the compilation mode</StiNetCoreCompilationModeCheckShort>
+    <StiNetCoreCompilationModeCheckLong>Stimulsoft .NET Core engine cannot render this report in the compilation mode. Change the report to the interpretation mode.</StiNetCoreCompilationModeCheckLong>
   </CheckReport>
   <CheckVariable>
     <StiVariableRecursionCheckLong>The '{0}' variable has a expression with recursion. It's impossible to refer to the Variable in its own expression.</StiVariableRecursionCheckLong>

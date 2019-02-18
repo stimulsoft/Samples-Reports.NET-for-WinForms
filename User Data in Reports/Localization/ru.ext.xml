@@ -96,6 +96,8 @@
     <StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>В контейнере '{0}' количество CrossGroupFooter не соответствует количеству CrossGroupHeader. Лишние компоненты не будут построены.</StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>
     <StiDataSourcesForImageCheckLong>У компонента '{0}' задано больше одного источника данных.</StiDataSourcesForImageCheckLong>
     <StiDataSourcesForImageCheckShort>Задано несколько источников данных</StiDataSourcesForImageCheckShort>
+    <StiEventsAtInterpretationCheckLong>Скрипт в событии {0} в компоненте {1} не работает в режиме интерпретации.</StiEventsAtInterpretationCheckLong>
+    <StiEventsAtInterpretationCheckShort>События в интерпретации</StiEventsAtInterpretationCheckShort>
     <StiFilterCircularDependencyElementCheckLong>Циклическая зависимость фильтра найдена у '{0}' элемента. Пожалуйста, проверьте свойство 'Главный элемент' у '{0}' элемента!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Циклическая зависимость фильтра</StiFilterCircularDependencyElementCheckShort>
     <StiFilterValueCheckLong>Для компонента {0} задан фильтр, но в нём не задано значение. Поэтому фильтр не применяется.</StiFilterValueCheckLong>
@@ -227,10 +229,16 @@
     <StiDuplicatedNameCheckShort>Найдены компоненты с одинаковым именем</StiDuplicatedNameCheckShort>
     <StiDuplicatedNameInSourceInDataRelationReportCheckLong>В отчете найдены связи '{0}', которые имеют одинаковые значения ('{1}') в поле Наименование в источнике (NameInSource). Все значения в поле Наименование в источнике (NameInSource) должны быть уникальными в пределах одного соединения, к одной базе данных! Необходимо скорректировать эти поля у связей.</StiDuplicatedNameInSourceInDataRelationReportCheckLong>
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>Дубликаты в связях</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
+    <StiNetCoreCompilationModeCheckLong>Stimulsoft .NET Core генератор не может построить отчёт в режиме компиляции. Переключите отчёт в режим интерпретации.</StiNetCoreCompilationModeCheckLong>
+    <StiNetCoreCompilationModeCheckShort>Отчёт в режиме компиляции</StiNetCoreCompilationModeCheckShort>
   </CheckReport>
   <CheckVariable>
+    <StiVariableInitializationCheckLong>Переменная '{0}' имеет неправильное значение по умолчанию. Невозможно инициализировать переменную указанным значением.</StiVariableInitializationCheckLong>
+    <StiVariableInitializationCheckShort>Начальное значение</StiVariableInitializationCheckShort>
     <StiVariableRecursionCheckLong>Переменная '{0}' содержит выражение с рекурсией. Нельзя ссылаться на переменную в выражении этой же переменной.</StiVariableRecursionCheckLong>
     <StiVariableRecursionCheckShort>Рекурсивное выражение</StiVariableRecursionCheckShort>
+    <StiVariableTypeCheckLong>Чтобы зависимые переменные работали правильно, их типы и типы их столбцов должны совпадать.</StiVariableTypeCheckLong>
+    <StiVariableTypeCheckShort>Типы переменных не совпадают.</StiVariableTypeCheckShort>
   </CheckVariable>
   <Font>
     <Bold>Значение определяет, что текст жирный.</Bold>
@@ -686,67 +694,22 @@
     <Table>Настройки таблицы диграммы.</Table>
     <Title>Настройки заголовка диаграммы.</Title>
     <VertSpacing>Вертикальное пространство между границей диаграммы и диаграммой.</VertSpacing>
-  </StiChart>  
+  </StiChart>
   <StiChartElement>
     <Arguments>Аргументы диаграммы.</Arguments>
-    <Values>Значения диаграммы.</Values>
-    <EndValues>Конечные значения диаграммы.</EndValues>
     <CloseValues>Закрывающие значения диаграммы.</CloseValues>
-    <LowValues>Минимальные значения диаграммы.</LowValues>
-    <HighValues>Максимальные значения диаграммы.</HighValues>
-    <Weights>Весовые значения диаграммы.</Weights>
-    <Series>Ряды диаграммы.</Series>
     <ColorEach>Значение определяет, что каждый элемент ряда отрисован по своему собственному цвету.</ColorEach>
-    <Group></Group>
+    <EndValues>Конечные значения диаграммы.</EndValues>
+    <Group />
+    <HighValues>Максимальные значения диаграммы.</HighValues>
+    <LowValues>Минимальные значения диаграммы.</LowValues>
+    <Series>Ряды диаграммы.</Series>
     <Style>Стиль диаграммы.</Style>
     <TextFormat>Формат текста.</TextFormat>
     <Title>Заголовок диаграммы.</Title>
+    <Values>Значения диаграммы.</Values>
+    <Weights>Весовые значения диаграммы.</Weights>
   </StiChartElement>
-  <StiTableElement>
-    <Columns>Колонки отображаемые в таблице</Columns>
-    <SizeMode></SizeMode>
-    <Group></Group>
-    <Title>Заголовок таблицы.</Title>
-    <Style>Стиль таблицы.</Style>
-  </StiTableElement>
-  <StiGaugeElement>
-    <Series>Ряды измерительного прибора.</Series>
-    <Style>Стиль измерительного прибора.</Style>
-    <Font>Шрифт текста.</Font>
-    <ForeColor>Цвет текста.</ForeColor>
-    <Title>Заголовок измерительного прибора.</Title>
-  </StiGaugeElement>
-  <StiTitle>
-    <BackColor>Цвет заднего фона для заголовка.</BackColor>
-    <ForeColor>Цвет текста заголовка.</ForeColor>
-    <Text>Текст заголовка.</Text>
-    <Font>Шрифт заголовка.</Font>
-    <HorAlignment>Горизонтальное выравнивание текста.</HorAlignment>
-    <Visible>Видимость заголовка.</Visible>
-  </StiTitle>
-  <StiElement>
-    <BackColor>Цвет заднего фона для элемента.</BackColor>
-    <Margin>Отступ снаружи элемента.</Margin>
-    <Padding>Отступ внутри элемента.</Padding>
-  </StiElement>
-  <StiSimpleBorder>
-    <Color>Цвет границы.</Color>
-    <Side>Края границы.</Side>
-    <Size>Размер границы.</Size>
-    <Style>Стиль границы.</Style>
-  </StiSimpleBorder>
-  <StiMargin>
-    <Left>Значение задает отступ от левого края элемента.</Left>
-    <Right>Значение задает отступ от правого края элемента.</Right>
-    <Top>Значение задает отступ от верхнего края элемента.</Top>
-    <Bottom>Значение задает отступ от нижнего края элемента.</Bottom>
-  </StiMargin>
-  <StiPadding>
-    <Left>Значение задает отступ внутри элемента от левой границы и его содержимым.</Left>
-    <Right>Значение задает отступ внутри элемента от правой границы и его содержимым.</Right>
-    <Top>Значение задает отступ внутри элемента от верхней границы и его содержимым.</Top>
-    <Bottom>Значение задает отступ внутри элемента от нижней границы и его содержимым.</Bottom>
-  </StiPadding>
   <StiChartTable>
     <Font>Шрифт таблицы диаграммы.</Font>
     <GridLineColor>Цвет линий сетки.</GridLineColor>
@@ -1144,6 +1107,11 @@
     <SupplementCode>Код дополнительного штрих-кода.</SupplementCode>
     <SupplementType>Тип дополнительного штрих-кода.</SupplementType>
   </StiEAN8BarCodeType>
+  <StiElement>
+    <BackColor>Цвет заднего фона для элемента.</BackColor>
+    <Margin>Отступ снаружи элемента.</Margin>
+    <Padding>Отступ внутри элемента.</Padding>
+  </StiElement>
   <StiEmptyBand>
     <BeginRenderEvent>Возникает, когда бенд начинает строиться.</BeginRenderEvent>
     <EndRenderEvent>Возникает при завершении построения бенда.</EndRenderEvent>
@@ -1188,6 +1156,13 @@
     <ValueDataColumnEnd>Имя колонки, которое содержит конечное значение.</ValueDataColumnEnd>
     <ValueEnd>Выражение конечного значения. Пример: {Order.Value}</ValueEnd>
   </StiGanttSeries>
+  <StiGaugeElement>
+    <Font>Шрифт текста.</Font>
+    <ForeColor>Цвет текста.</ForeColor>
+    <Series>Ряды измерительного прибора.</Series>
+    <Style>Стиль измерительного прибора.</Style>
+    <Title>Заголовок измерительного прибора.</Title>
+  </StiGaugeElement>
   <StiGlareBrush>
     <Angle>Угол, который измеряется в градусах по часовой стрелке от оси x.</Angle>
     <EndColor>Конечный цвет градиента.</EndColor>
@@ -1412,6 +1387,12 @@
     <KeysBinding>Привязка данных для ключей.</KeysBinding>
     <SelectedKeyBinding>Привязка данных для выбранного ключа.</SelectedKeyBinding>
   </StiLookUpBoxControl>
+  <StiMargin>
+    <Bottom>Значение задает отступ от нижнего края элемента.</Bottom>
+    <Left>Значение задает отступ от левого края элемента.</Left>
+    <Right>Значение задает отступ от правого края элемента.</Right>
+    <Top>Значение задает отступ от верхнего края элемента.</Top>
+  </StiMargin>
   <StiMarker>
     <Angle>Угол поворота маркера.</Angle>
     <BorderColor>Цвет границы маркера.</BorderColor>
@@ -1441,6 +1422,12 @@
   <StiOutsidePieLabels>
     <LineLength>Длина линии между границами заголовков рядов и границей кольцевых рядов.</LineLength>
   </StiOutsidePieLabels>
+  <StiPadding>
+    <Bottom>Значение задает отступ внутри элемента от нижней границы и его содержимым.</Bottom>
+    <Left>Значение задает отступ внутри элемента от левой границы и его содержимым.</Left>
+    <Right>Значение задает отступ внутри элемента от правой границы и его содержимым.</Right>
+    <Top>Значение задает отступ внутри элемента от верхней границы и его содержимым.</Top>
+  </StiPadding>
   <StiPage>
     <BeginRenderEvent>Возникает, когда страница начинает строиться.</BeginRenderEvent>
     <ColumnBeginRenderEvent>Возникает, когда начинается построение колонки.</ColumnBeginRenderEvent>
@@ -1532,6 +1519,7 @@
     <ShowDialog>Значение определяет, будет ли показан диалог печати.</ShowDialog>
   </StiPrinterSettings>
   <StiQRCodeBarCodeType>
+    <ErrorCorrectionLevel>Получает или задает уровень исправления ошибок.</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Уровень коррекции ошибок. Чем выше уровень, тем больше информации для восстановления штрихкода добавляется.</ErrorsCorrectionLevel>
     <Height>Коэффициент высоты штрих-кода.</Height>
     <MatrixSize>Размер матрицы штрих-кода.</MatrixSize>
@@ -1775,6 +1763,12 @@
   <StiShapeTypeService>
     <Direction>Направление стрелки.</Direction>
   </StiShapeTypeService>
+  <StiSimpleBorder>
+    <Color>Цвет границы.</Color>
+    <Side>Края границы.</Side>
+    <Size>Размер границы.</Size>
+    <Style>Стиль границы.</Style>
+  </StiSimpleBorder>
   <StiSimpleText>
     <GetValueEvent>Срабатывает, когда текст подготавливается для построения.</GetValueEvent>
     <GlobalizedName>Значение, которое используется как ключ для Globalization Manager.</GlobalizedName>
@@ -1846,6 +1840,13 @@
     <HeaderRowsCount>Количество рядов заголовка в таблице.</HeaderRowsCount>
     <RowCount>Количество рядов в таблице.</RowCount>
   </StiTable>
+  <StiTableElement>
+    <Columns>Колонки отображаемые в таблице</Columns>
+    <Group />
+    <SizeMode />
+    <Style>Стиль таблицы.</Style>
+    <Title>Заголовок таблицы.</Title>
+  </StiTableElement>
   <StiText>
     <AllowHtmlTags>Значение определяет, что данный компонент разрешает HTML теги в тексте.</AllowHtmlTags>
     <Angle>Угол поворота текста.</Angle>
@@ -1893,6 +1894,14 @@
     <Trimming>Тип обрезания окончания строки.</Trimming>
     <WordWrap>Перенос текста.</WordWrap>
   </StiTextOptions>
+  <StiTitle>
+    <BackColor>Цвет заднего фона для заголовка.</BackColor>
+    <Font>Шрифт заголовка.</Font>
+    <ForeColor>Цвет текста заголовка.</ForeColor>
+    <HorAlignment>Горизонтальное выравнивание текста.</HorAlignment>
+    <Text>Текст заголовка.</Text>
+    <Visible>Видимость заголовка.</Visible>
+  </StiTitle>
   <StiTreeViewControl>
     <AfterSelectEvent>Возникает, когда свойство AfterSelect изменилось.</AfterSelectEvent>
   </StiTreeViewControl>
