@@ -97,6 +97,7 @@
     <AddAllColumns>Legg til alle kolonner</AddAllColumns>
     <Attach>Legg ved</Attach>
     <Build>Bygg...</Build>
+    <Buttons>Knapper</Buttons>
     <Cancel>&amp;Avbryt</Cancel>
     <Check>Sjekk</Check>
     <Close>Lukk</Close>
@@ -130,6 +131,7 @@
     <SetAll>Sett alle</SetAll>
     <ShowLess>Vis mindre</ShowLess>
     <ShowMore>Vis mer</ShowMore>
+    <ShowSpecific>Vis '{0}'</ShowSpecific>
     <Submit>Send inn</Submit>
     <Test>Test</Test>
     <Up>Opp</Up>
@@ -217,6 +219,7 @@
     <MoveStripUp>Flytt strimmel opp</MoveStripUp>
     <NoConditions>Ingen betingelser</NoConditions>
     <NoFilters>Ingen filtre</NoFilters>
+    <Pareto>Pareto</Pareto>
     <Pictorial>Billedlig</Pictorial>
     <Pie>Pai</Pie>
     <Radar>Radar</Radar>
@@ -332,6 +335,7 @@
     <AcceptTermsAndPrivacyPolicy>Jeg har lest og akseptert {0} og {1}</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>Kontoinstillinger</AccountSettings>
     <AddAPlace>Legg til sted</AddAPlace>
+    <AreYouSureYouWantDeleteReport>Er du sikker på at du vil slette "{0}" rapporten fra disken?</AreYouSureYouWantDeleteReport>
     <ButtonChangePassword>Bytt passord</ButtonChangePassword>
     <ButtonDeleteAll>Slett alt</ButtonDeleteAll>
     <ButtonDesign>Design rapport</ButtonDesign>
@@ -360,6 +364,7 @@
     <CreatingReport>Lager rapport ...</CreatingReport>
     <DashboardWindowTitleNew>Nytt dashbord</DashboardWindowTitleNew>
     <DeleteFile>Slett fil</DeleteFile>
+    <DoNotAskMe>Ikke spør meg igjen</DoNotAskMe>
     <ExecutionError>Eksekveringsfeil</ExecutionError>
     <ExpiredDate>Utløpt dato</ExpiredDate>
     <FileStorageWindowTitleEdit>Rediger fillagring</FileStorageWindowTitleEdit>
@@ -416,6 +421,7 @@
     <Platforms>Plattformer</Platforms>
     <PrivacyPolicy>Personvern-policy</PrivacyPolicy>
     <Products>Produkter</Products>
+    <PublishMessage>For å publisere denne rapporten må du sende den til vår service publish.stimulsoft.com</PublishMessage>
     <questionOpenThisFile>Er du sikker på at du vil åpne '{0}'?</questionOpenThisFile>
     <questionOverrideItem>Er du sikker på at du vil overskrive '{0}'?</questionOverrideItem>
     <questionRemoveItem>Vil du virkelig slette '{0}'?</questionRemoveItem>
@@ -594,12 +600,14 @@
     <StiZipCode>Postnummer</StiZipCode>
   </Components>
   <Dashboard>
+    <AddRange>Legg til utvalg</AddRange>
     <AfterGroupingData>Bruk etter gruppering av data</AfterGroupingData>
     <Blanks>(Tomme)</Blanks>
     <BooleanFilters>Boolske filtere</BooleanFilters>
     <CannotLoadDashboard>Du kan ikke laste en rapport med instrumentbord.</CannotLoadDashboard>
     <ChangeChartType>Endre diagramtype</ChangeChartType>
     <ChangeMapType>Endre karttype</ChangeMapType>
+    <ClearAllFormatting>Slett all formatering</ClearAllFormatting>
     <ClearFilterFrom>Nullstill filter fra "0"</ClearFilterFrom>
     <ColorScale>Fargeskala</ColorScale>
     <CustomFilter>Egendefinert &amp;filter...</CustomFilter>
@@ -624,18 +632,23 @@
     <Measure>Mål</Measure>
     <Measures>Mål</Measures>
     <NewDimension>Ny dimensjon</NewDimension>
+    <NewField>Nytt felt</NewField>
     <NewMeasure>Nytt mål</NewMeasure>
+    <NoRanges>Ingen utvalg</NoRanges>
     <NoResult>Ikke noe resultat</NoResult>
     <NSelected>{0} valgt</NSelected>
     <Nulls>(Nullverdier)</Nulls>
     <NumberFilters>Tallfiltre</NumberFilters>
     <ParentElement>Overordnet element</ParentElement>
+    <RangeMode>Utvalgsmodus</RangeMode>
+    <RangeType>Utvalgstype</RangeType>
     <RemoveActions>Fj&amp;ern handlinger</RemoveActions>
     <RemoveAllFields>Fjern alle felter</RemoveAllFields>
     <RemoveField>Fjern felt</RemoveField>
     <ReplaceValues>Erstatt verdier</ReplaceValues>
     <RowsCount>Antall rader</RowsCount>
     <SelectAll>(Velg &amp;alle)</SelectAll>
+    <ShowAllValue>Vis (Alle) verdier</ShowAllValue>
     <ShowAsPercentages>Vis som prosent</ShowAsPercentages>
     <SkipFirstRows>Hopp over første rader</SkipFirstRows>
     <SortAZ>Sorter A til Å</SortAZ>
@@ -675,6 +688,10 @@
     <CurrentYear>Dette året</CurrentYear>
     <FirstQuarter>Første kvartal</FirstQuarter>
     <FourthQuarter>Fjerde kvartal</FourthQuarter>
+    <Index>Indeks</Index>
+    <Last14Days>Siste 14 dager</Last14Days>
+    <Last30Days>Siste 30 dager</Last30Days>
+    <Last7Days>Siste 7 dager</Last7Days>
     <MonthToDate>Måned til dato</MonthToDate>
     <NextMonth>Neste måned</NextMonth>
     <NextQuarter>Neste kvartal</NextQuarter>
@@ -684,12 +701,14 @@
     <PreviousQuarter>Forrige kvartal</PreviousQuarter>
     <PreviousWeek>Forrige uke</PreviousWeek>
     <PreviousYear>I fjor</PreviousYear>
+    <Quarter>Kvartal</Quarter>
     <QuarterToDate>Kvartal til dato</QuarterToDate>
     <SecondQuarter>Andre kvartal</SecondQuarter>
     <ThirdQuarter>Tredje kvartal</ThirdQuarter>
     <Today>I dag</Today>
     <Tomorrow>I morgen</Tomorrow>
     <WeekToDate>Uke til dato</WeekToDate>
+    <Year>År</Year>
     <YearToDate>År til dato</YearToDate>
     <Yesterday>I går</Yesterday>
   </DatePickerRanges>
@@ -857,6 +876,7 @@
     <ExportTypeHtmlFile>HTML-fil...</ExportTypeHtmlFile>
     <ExportTypeImageFile>Bildefil ...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG-bilde...</ExportTypeJpegFile>
+    <ExportTypeJsonFile>JSON Fil...</ExportTypeJsonFile>
     <ExportTypeMetafile>Windows Metafil...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Webarkiv...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX-bilde...</ExportTypePcxFile>
@@ -893,6 +913,7 @@
     <NoMoreThan>Ikke mer enn</NoMoreThan>
     <OpenAfterExport>Åpne etter eksportering</OpenAfterExport>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
+    <PrintingReport>Skriver rapport</PrintingReport>
     <RemoveEmptySpaceAtBottom>Fjern tomrom nederst  på siden</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Begrense redigering:</RestrictEditing>
     <Scale>Skala:</Scale>
@@ -1262,6 +1283,7 @@
     <nameOn>På</nameOn>
     <nameTrue>Rett</nameTrue>
     <nameYes>Ja</nameYes>
+    <NegativeInRed>Negativ i rødt</NegativeInRed>
     <NegativePattern>Negativt mønster:</NegativePattern>
     <Number>Nummer</Number>
     <Percentage>Prosent</Percentage>
@@ -1273,12 +1295,14 @@
     <TextFormat>Tekstformat</TextFormat>
     <Time>Tid</Time>
     <title>Format</title>
+    <UseAbbreviation>Bruk forkortelse</UseAbbreviation>
     <UseGroupSeparator>Bruk gruppeseparator</UseGroupSeparator>
     <UseLocalSetting>Bruk lokale instillinger</UseLocalSetting>
   </FormFormatEditor>
   <FormGlobalizationEditor>
     <AddCulture>&amp;Legg til språkinstilling</AddCulture>
     <AutoLocalizeReportOnRun>Automatisk språktilpassing ved rapportgenerering</AutoLocalizeReportOnRun>
+    <CreateNewCulture>for å skape den nye kulturen</CreateNewCulture>
     <GetCulture>Hent språkinstillinger fra rapport</GetCulture>
     <qnGetCulture>Vil du virkelig hente språkinstillinger fra rapport og overskrive gjeldene instillinger?</qnGetCulture>
     <qnSetCulture>Vil du virkelig lagre språkinstillinger til rapportkompoenter?</qnSetCulture>
@@ -1294,6 +1318,8 @@
   <FormOptions>
     <AutoSave>Autolagring</AutoSave>
     <AutoSaveReportToReportClass>Autolagre rapport til C# or VB.NET-fil</AutoSaveReportToReportClass>
+    <BlankDashboard>Blankt dashbord</BlankDashboard>
+    <BlankReport>Blank rapport</BlankReport>
     <Default>Standard</Default>
     <Drawing>Tegning</Drawing>
     <DrawMarkersWhenMoving>Tegn markører under flytting</DrawMarkersWhenMoving>
@@ -1339,9 +1365,11 @@
     <ShowDialogForms>Vis dialogbilde</ShowDialogForms>
     <ShowDimensionLines>Vis dimensjonslinjer</ShowDimensionLines>
     <ShowOldGaugeEditor>Vis gammelt målerredigerings-program</ShowOldGaugeEditor>
+    <StartScreen>Startskjerm</StartScreen>
     <title>Instillinger</title>
     <UseComponentColor>Bruk komponentfarge for fylling</UseComponentColor>
     <UseLastFormat>Sist brukte format</UseLastFormat>
+    <Welcome>Velkommen</Welcome>
   </FormOptions>
   <FormPageSetup>
     <ApplyTo>Anvend til</ApplyTo>
@@ -1415,11 +1443,16 @@
     <ApplyStyleCollectionToReportComponents>Bruk stilsamling på rapportkomponenter</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Bruk stiler</ApplyStyles>
     <ColorCollectionEditor>Farge kolleksjonseditor</ColorCollectionEditor>
+    <CreateNewComponentStyle>for å lage den nye komponentstilen</CreateNewComponentStyle>
     <CreateStyleCollection>Lag stilsamling</CreateStyleCollection>
     <Duplicate>Kopier stil</Duplicate>
+    <EditColors>[Rediger farger]</EditColors>
+    <FromStyle>Fra stil</FromStyle>
     <GetStyle>Hent stil fra valgte komponenter</GetStyle>
     <MoreStyles>Flere stiler</MoreStyles>
+    <NotSpecified>Ikke angitt</NotSpecified>
     <Open>Åpne stil</Open>
+    <Predefined>Forhåndsdefinert</Predefined>
     <qnApplyStyleCollection>Vil du bruke stilsamling på rapportkomponenter?</qnApplyStyleCollection>
     <Remove>Fjern stil</Remove>
     <RemoveExistingStyles>Fjern eksisterende stiler</RemoveExistingStyles>
@@ -1751,6 +1784,7 @@
     <CopyStyle>Kopier stil</CopyStyle>
     <CopyToClipboard>Kopier til utklippstavlen</CopyToClipboard>
     <CurrencySymbol>Velg valutasymbol.</CurrencySymbol>
+    <DashboardNew>Lag et nytt dashbord.</DashboardNew>
     <DataStore>Vis data registrert i en rapport.</DataStore>
     <DateTimeFormat>Velg dato- og tidsformat for valgte komponenter.</DateTimeFormat>
     <DockingPanels>Panelinstillinger.</DockingPanels>
@@ -2219,6 +2253,7 @@
     <SnapshotAlreadyProcessed>Rapport-øyeblikksbildet har allerede blitt behandlet!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Det angitte elementet er ikke "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Abonnementet ditt er utløpt!</SubscriptionExpired>
+    <SubscriptionExpiredDate>Abonnementet utløper den {0}</SubscriptionExpiredDate>
     <SubscriptionsOut10>10 dager til abonnementet utløper!</SubscriptionsOut10>
     <SubscriptionsOut20>Abonnements-perioden utløper om 20 dager!</SubscriptionsOut20>
     <SuccessfullyRenewed>Oppdateringen av abonnementet ditt var vellykket!</SuccessfullyRenewed>
@@ -2337,6 +2372,7 @@
     <ControlCategory>Kontroll</ControlCategory>
     <ControlsEventsCategory>Kontrollhendelser</ControlsEventsCategory>
     <CrossTabCategory>Krysstabell</CrossTabCategory>
+    <DashboardCategory>Dashbord</DashboardCategory>
     <DataCategory>Data</DataCategory>
     <DatePickerCategory>Datovelger</DatePickerCategory>
     <DescriptionCategory>Beskrivelse</DescriptionCategory>
@@ -2753,6 +2789,10 @@
     <StiFormStartModeOnStart>Ved start</StiFormStartModeOnStart>
     <StiGaugeCalculationModeAuto>Auto</StiGaugeCalculationModeAuto>
     <StiGaugeCalculationModeCustom>Egendefinert</StiGaugeCalculationModeCustom>
+    <StiGaugeRangeModePercentage>Prosent</StiGaugeRangeModePercentage>
+    <StiGaugeRangeModeValue>Verdi</StiGaugeRangeModeValue>
+    <StiGaugeRangeTypeColor>Farge</StiGaugeRangeTypeColor>
+    <StiGaugeRangeTypeNone>Ingen</StiGaugeRangeTypeNone>
     <StiGaugeTypeFullCircular>Full sirkulær</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Halv-sirkulær</StiGaugeTypeHalfCircular>
     <StiGaugeTypeLinear>Lineær</StiGaugeTypeLinear>
@@ -2775,6 +2815,15 @@
     <StiImageRotationRotate180>Roter 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Roter 90° CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Roter 90° CW</StiImageRotationRotate90CW>
+    <StiInteractionOnClick>Ingen</StiInteractionOnClick>
+    <StiInteractionOnClickApplyFilter>Legg til filter</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickOpenHyperlink>Åpne hyperlenke</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickShowDashboard>Vis dashbord</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnHoverNone>Ingen</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowHyperlink>Vis hyperlenke</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnHoverShowToolTip>Vis tool tip</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>Aktuell arkfane</StiInteractionOpenHyperlinkDestinationCurrentTab>
+    <StiInteractionOpenHyperlinkDestinationNewTab>Ny arkfane</StiInteractionOpenHyperlinkDestinationNewTab>
     <StiItemSelectionModeMulti>Mange</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>En</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Hold detaljer sammen</StiKeepDetailsKeepDetailsTogether>
@@ -2925,6 +2974,8 @@
     <StiShowYAxisBoth>Begge</StiShowYAxisBoth>
     <StiShowYAxisCenter>Senter</StiShowYAxisCenter>
     <StiShowYAxisLeft>Venstre</StiShowYAxisLeft>
+    <StiSizeModeAutoSize>Automatisk størrelse</StiSizeModeAutoSize>
+    <StiSizeModeFit>Tilpass</StiSizeModeFit>
     <StiSortDirectionAsc>Stigende</StiSortDirectionAsc>
     <StiSortDirectionDesc>Synkende</StiSortDirectionDesc>
     <StiSortDirectionNone>Ingen</StiSortDirectionNone>
@@ -3053,6 +3104,7 @@
     <ProcessCellEvent>Prosesser celle</ProcessCellEvent>
     <ProcessChartEvent>Prosesser diagram</ProcessChartEvent>
     <RenderingEvent>Rendering</RenderingEvent>
+    <ReportCacheProcessingEvent>Rapportminne prosesserer</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Valgt indeks endret</SelectedIndexChangedEvent>
     <StateRestoreEvent>Tilbakestill tilstand</StateRestoreEvent>
     <StateSaveEvent>Lagre tilstand</StateSaveEvent>
@@ -3144,8 +3196,10 @@
     <AllowUseForeColor>Tillat bruk av forgrunnsfarge</AllowUseForeColor>
     <AllowUseHorAlignment>Tillat horisontal justering</AllowUseHorAlignment>
     <AllowUseImage>Tillat bruk av bilder</AllowUseImage>
+    <AllowUseNegativeTextBrush>Tillat å bruke negativ tekstbørste</AllowUseNegativeTextBrush>
     <AllowUserValues>Tillat brukerverdier</AllowUserValues>
     <AllowUseTextBrush>Tillat tekstbørste</AllowUseTextBrush>
+    <AllowUseTextFormat>Tillat å bruke tekstformat</AllowUseTextFormat>
     <AllowUseTextOptions>Tillat bruk av tekstinstillinger</AllowUseTextOptions>
     <AllowUseVertAlignment>Tillat vertikal justering</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Tillat å bruke som SQL-parameter</AllowUsingAsSqlParameter>
@@ -3156,6 +3210,7 @@
     <Area>Område</Area>
     <Argument>Argument</Argument>
     <ArgumentDataColumn>Argument datakolonne</ArgumentDataColumn>
+    <ArgumentFormat>Argumentformat</ArgumentFormat>
     <Arguments>Argumenter</Arguments>
     <ArrowHeight>Pilhøyde</ArrowHeight>
     <ArrowStyle>Pilstil</ArrowStyle>
@@ -3251,6 +3306,7 @@
     <ColorDataColumn>Farge datakolonne</ColorDataColumn>
     <ColorEach>Farge hver</ColorEach>
     <ColorMeter>Farge</ColorMeter>
+    <Colors>Farger</Colors>
     <ColorScaleCondition>Vilkår for fargeskala</ColorScaleCondition>
     <ColorScaleType>Type fargeskala</ColorScaleType>
     <Column>Kolonne</Column>
@@ -3289,9 +3345,11 @@
     <DataAdapters>Dataadaptere</DataAdapters>
     <DataBarCondition>Vilkår for datalinje</DataBarCondition>
     <DataBindings>Databindinger</DataBindings>
+    <DataColor>Datafarge</DataColor>
     <DataColumn>Datakolonne</DataColumn>
     <DataColumns>Datakolonner</DataColumns>
     <DataField>Datafelt</DataField>
+    <DataForeground>Data forgrunn</DataForeground>
     <DataRelation>Datarelasjon</DataRelation>
     <DataRows>Datarader</DataRows>
     <DataSource>Datakilde</DataSource>
@@ -3309,6 +3367,7 @@
     <DependentColumn>Avhengig kolonne</DependentColumn>
     <DependentValue>Avhengig verdi</DependentValue>
     <Description>Beskrivelse</Description>
+    <Destination>Destinasjon</Destination>
     <DetectUrls>Oppdag URL-er</DetectUrls>
     <DialogResult>Dialogresultat</DialogResult>
     <Diameter>Diameter</Diameter>
@@ -3397,6 +3456,8 @@
     <FooterCanBreak>Bunntekst kan bryte</FooterCanBreak>
     <FooterCanGrow>Bunntekst kan vokse</FooterCanGrow>
     <FooterCanShrink>Bunntekst kan krympe</FooterCanShrink>
+    <FooterColor>Bunntekst-farge</FooterColor>
+    <FooterForeground>Bunntekst forgrunn</FooterForeground>
     <FooterPrintAtBottom>Bunntekstutskrift på bunnen</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Bunntekstutskrift om tom</FooterPrintIfEmpty>
     <FooterPrintOn>Bunntekstutskrift på</FooterPrintOn>
@@ -3412,6 +3473,7 @@
     <Functions>Funksjoner</Functions>
     <GlobalizationStrings>Globaliseringsstrenger</GlobalizationStrings>
     <GlobalizedName>Globalisert navn</GlobalizedName>
+    <GridColor>Rutenettfarge</GridColor>
     <GridLineColor>Farge på rutenett</GridLineColor>
     <GridLinesHor>Horisontalt rutenett</GridLinesHor>
     <GridLinesHorColor>Ruteark-linjer vannrett farge</GridLinesHorColor>
@@ -3428,8 +3490,10 @@
     <HeaderCanBreak>Topptekst kan bryte</HeaderCanBreak>
     <HeaderCanGrow>Topptekst kan vokse</HeaderCanGrow>
     <HeaderCanShrink>Topptekst kan krympe</HeaderCanShrink>
+    <HeaderColor>Tittelfarge</HeaderColor>
     <HeaderFont>Skrifttype i topptekst</HeaderFont>
     <HeaderForeColor>Forgrunnsfarge topptekst</HeaderForeColor>
+    <HeaderForeground>Tittelforgrunn</HeaderForeground>
     <HeaderPrintAtBottom>Topptekstutskrift på bunnen</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>Topptekstutskrift om tom</HeaderPrintIfEmpty>
     <HeaderPrintOn>Topptekstutskrift på</HeaderPrintOn>
@@ -3438,6 +3502,7 @@
     <HeaderRowsCount>Antall rader i topptekst</HeaderRowsCount>
     <Headers>Topptekster</Headers>
     <HeaderText>Topptekst</HeaderText>
+    <HeatmapColors>Fargediagram farger</HeatmapColors>
     <Height>Høyde</Height>
     <HideSeriesWithEmptyTitle>Skjul serier uten tittel</HideSeriesWithEmptyTitle>
     <HideZeros>Skjul nuller</HideZeros>
@@ -3469,7 +3534,9 @@
     <ImportRelations>Importer relasjoner</ImportRelations>
     <Increment>Øk</Increment>
     <Indent>Innrykk</Indent>
+    <IndividualColor>Individuell farge</IndividualColor>
     <InitBy>Initialisere av</InitBy>
+    <InitialSelection>Initielt utvalg</InitialSelection>
     <Insert>Sett inn</Insert>
     <Interaction>Interaksjon</Interaction>
     <InterlacedBrush>Sammenflettet børste</InterlacedBrush>
@@ -3502,14 +3569,17 @@
     <Keys>Nøkler</Keys>
     <Label>Etikett</Label>
     <LabelColor>Farge på etikett</LabelColor>
+    <LabelForeground>Etikett forgrunn</LabelForeground>
     <LabelRotationMode>Etikett rotasjons-modus</LabelRotationMode>
     <Labels>Etiketter</Labels>
     <LabelsColor>Farge på etiketter</LabelsColor>
+    <LabelShadowForeground>Etikett skygge-forgrunn</LabelShadowForeground>
     <LabelsOffset>Etikettoppveining</LabelsOffset>
     <Language>Språk</Language>
     <LargeHeight>Stor høyde</LargeHeight>
     <LargeHeightFactor>Stor høydefaktor</LargeHeightFactor>
     <Latitude>Breddegrad</Latitude>
+    <Layout>Utkast</Layout>
     <Left>Venstre</Left>
     <LeftSide>Venstre side</LeftSide>
     <Legend>Forklaring</Legend>
@@ -3608,6 +3678,8 @@
     <NameParent>Overordnet navn</NameParent>
     <Namespaces>Namespaces</Namespaces>
     <Negative>Negativ</Negative>
+    <NegativeSeriesColors>Negativ serie-farge</NegativeSeriesColors>
+    <NegativeTextBrush>Negativ tekstbørste</NegativeTextBrush>
     <NestedLevel>Nøstet nivå</NestedLevel>
     <NewColumnAfter>Ny kolonne etter</NewColumnAfter>
     <NewColumnBefore>Ny kolonne før</NewColumnBefore>
@@ -3623,6 +3695,8 @@
     <OddStyle>Ujevn stil</OddStyle>
     <Offset>Forskyvning</Offset>
     <OffsetAngle>Forskyvningsvinkel</OffsetAngle>
+    <OnClick>Ved klikk</OnClick>
+    <OnHover>Ved sveving</OnHover>
     <OnlyText>Bare tekst</OnlyText>
     <OpenValues>Initielle verdier</OpenValues>
     <Operation>Operasjon</Operation>
@@ -3746,10 +3820,12 @@
     <SelectionMode>Valgmodus</SelectionMode>
     <SerialNumber>Serie nummer</SerialNumber>
     <Series>Serier</Series>
+    <SeriesColors>Seriefarge</SeriesColors>
     <SeriesLabels>Serieetiketter</SeriesLabels>
     <SeriesLabelsBorderColor>Kantfarge</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>Etikett-pensel</SeriesLabelsBrush>
     <SeriesLabelsColor>Etikettfarge</SeriesLabelsColor>
+    <SeriesLabelsLineColor>Etikett linjefarge</SeriesLabelsLineColor>
     <SeriesLighting>Serie-belysning</SeriesLighting>
     <SeriesShowShadow>Serie vis skygge</SeriesShowShadow>
     <SeriesTitle>Serie tittel</SeriesTitle>
@@ -3762,6 +3838,7 @@
     <ShiftMode>Flyttemodus</ShiftMode>
     <ShortName>Kort navn</ShortName>
     <ShortValue>Kort verdi</ShortValue>
+    <ShowAllValue>Vis hele verdien</ShowAllValue>
     <ShowBehind>Vis bak</ShowBehind>
     <ShowDialog>Vis dialog</ShowDialog>
     <ShowEdgeValues>Vis kantverdier</ShowEdgeValues>
@@ -3919,6 +3996,7 @@
     <ValueDataColumnLow>Verdi for datakolonnen Lav</ValueDataColumnLow>
     <ValueDataColumnOpen>Verdi for datakolonnen Åpning</ValueDataColumnOpen>
     <ValueEnd>Verdi slutt</ValueEnd>
+    <ValueFormat>Verdiformat</ValueFormat>
     <ValueHigh>Verdi høy</ValueHigh>
     <ValueLow>Verdi lav</ValueLow>
     <ValueMeter>Verdi</ValueMeter>
@@ -4070,6 +4148,7 @@
     <BusinessObjects>Business Objects</BusinessObjects>
     <Categorized>Kategorisert</Categorized>
     <Charts>Diagrammer</Charts>
+    <Checking>Sjekker...</Checking>
     <ClickForMoreDetails>Klikk for flere detaljer</ClickForMoreDetails>
     <CollapseAll>Kollaps alle</CollapseAll>
     <Collection>Samling</Collection>
@@ -4414,6 +4493,7 @@
     <MasterDetailReport>Master-Detail rapport</MasterDetailReport>
     <NoFunction>[Ingen]</NoFunction>
     <OpenExistingReport>Åpne eksisterende rapport</OpenExistingReport>
+    <OpenFrom>Åpne fra {0}</OpenFrom>
     <Preview>Forhåndsvisning</Preview>
     <Reset>&amp;Omstart</Reset>
     <Results>Resultater</Results>
@@ -4425,6 +4505,7 @@
     <title>Ny rapport</title>
     <Totals>Totalt</Totals>
     <UsingReportWizard>Bruk rapportveiviser</UsingReportWizard>
+    <YouHaveNotOpenedAnyReportRecently>Du har ikke åpnet noen rapport nylig. For å se etter en rapport, start med å klikke på Åpne eksisterende fil.</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
   <Zoom>
     <EmptyValue>Tom verdi</EmptyValue>

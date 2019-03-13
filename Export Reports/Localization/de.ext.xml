@@ -96,6 +96,8 @@
     <StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>Die Anzahl der Kreuz-Gruppenfüße stimmt nicht mit der Anzahl der Kreuz-Gruppenköpfe im Container '{0}' überein. Gerade Komponenten werden nicht dargestellt.</StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>
     <StiDataSourcesForImageCheckLong>Mehrere Datenquellen wurden für die Komponente '{0}' ausgewählt.</StiDataSourcesForImageCheckLong>
     <StiDataSourcesForImageCheckShort>Mehrere Datenquellen wurden ausgewählt</StiDataSourcesForImageCheckShort>
+    <StiEventsAtInterpretationCheckLong>Das Skript im '{0}' Ereignis in der '{1}' Komponente arbeitet nicht im Interpretation-Modus.</StiEventsAtInterpretationCheckLong>
+    <StiEventsAtInterpretationCheckShort>Ereignisse in Interpretation</StiEventsAtInterpretationCheckShort>
     <StiFontMissingCheckLong>Die für Komponente '{1}' angegebene Schrift '{0}' ist nicht gefunden.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>Die Schrift ist nicht gefunden.</StiFontMissingCheckShort>
     <StiFunctionsOnlyForEngineV2CheckLong>Systemvariable werden im Report benutzt, die nicht in der EngineV1 nicht verfügbar sind. Soll EngineV2 benutzt werden ?</StiFunctionsOnlyForEngineV2CheckLong>
@@ -223,10 +225,16 @@
     <StiDuplicatedNameCheckShort>Die Komponenten mit dem gleichen Namen sind gefunden</StiDuplicatedNameCheckShort>
     <StiDuplicatedNameInSourceInDataRelationReportCheckLong>'{0}' Beziehungen wurden im Report gefunden. Sie haben gleiche Werte ('{1}') in 'Name in der Datenquelle' . Alle Werte in 'Name in der Datenquelle' sollten eindeutig im Bereich einer Beziehung einer Datenbank sein! Es ist notwendig, diese Felder in den Beziehungen zu korrigieren.</StiDuplicatedNameInSourceInDataRelationReportCheckLong>
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>Duplikate in Beziehungen</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
+    <StiNetCoreCompilationModeCheckLong>Stimulsoft .NET Core-Engine kann nicht diesen Bericht im Kompilation-Modus rendern. Wechseln Sie den Bericht in Interpretation-Modus.</StiNetCoreCompilationModeCheckLong>
+    <StiNetCoreCompilationModeCheckShort>Dieser Bericht ist im Kompilation-Modus</StiNetCoreCompilationModeCheckShort>
   </CheckReport>
   <CheckVariable>
+    <StiVariableInitializationCheckLong>Die '{0}' Variable hat den falschen Standardwert. Es ist unmöglich, die Variable mit dem angegebenen Wert zu initialisieren.</StiVariableInitializationCheckLong>
+    <StiVariableInitializationCheckShort>Initialisierungswert</StiVariableInitializationCheckShort>
     <StiVariableRecursionCheckLong>Die '{0}' Variable hat einen Ausdruck mit der Rekursion. Es ist unmoglich, auf die kalkulierte Spalte in ihrem eigenen Ausdruck zu verweisen.</StiVariableRecursionCheckLong>
     <StiVariableRecursionCheckShort>Rekursiver Ausdruck</StiVariableRecursionCheckShort>
+    <StiVariableTypeCheckLong>Damit die abhängigen Variablen richtig arbeiten, müssen ihre Typen den Typen ihrer Spalten entsprechen.</StiVariableTypeCheckLong>
+    <StiVariableTypeCheckShort>Variablentypen entsrechen nicht.</StiVariableTypeCheckShort>
   </CheckVariable>
   <Font>
     <Bold>Wert, der anzeigt, ob dieser Zeichensatz fett dargestellt wird.</Bold>
@@ -683,6 +691,21 @@
     <Title>Einrichtung des Diagrammtitels.</Title>
     <VertSpacing>Vertikaler Zwischenraum zwischen dem Diagramm und seiner Umrahmung.</VertSpacing>
   </StiChart>
+  <StiChartElement>
+    <Arguments>Argumente des Diagramms.</Arguments>
+    <CloseValues>Schlusswerte des Diagramms.</CloseValues>
+    <ColorEach />
+    <EndValues>Endwerte des Diagramms.</EndValues>
+    <Group />
+    <HighValues>Höchstwerte des Diagramms.</HighValues>
+    <LowValues>Tiefstwerte des Diagramms.</LowValues>
+    <Series>Diagrammserien.</Series>
+    <Style>Die Art des Diagramms.</Style>
+    <TextFormat>Das Textformat.</TextFormat>
+    <Title>Diagrammtitel.</Title>
+    <Values>Diagrammwerte.</Values>
+    <Weights>Gewichtswerte des Diagramms.</Weights>
+  </StiChartElement>
   <StiChartTable>
     <Font>Die Farbe der Diagrammtabelle.</Font>
     <GridLineColor>Eine Farbe der Rasterlinien.</GridLineColor>
@@ -1080,6 +1103,11 @@
     <SupplementCode>Liest oder setzt die Komponente der Barcode-Ergänzung.</SupplementCode>
     <SupplementType>Liest oder setzt den Typ der Code-Ergänzung.</SupplementType>
   </StiEAN8BarCodeType>
+  <StiElement>
+    <BackColor>Die Hintergrundfarbe für das Element.</BackColor>
+    <Margin>Innenabstand des Elementes.</Margin>
+    <Padding>Außenabstand des Elementes.</Padding>
+  </StiElement>
   <StiEmptyBand>
     <BeginRenderEvent>Tritt zu Beginn der Band-Aufbereitung auf.</BeginRenderEvent>
     <EndRenderEvent>Tritt zum Ende der Band-Aufbereitung auf.</EndRenderEvent>
@@ -1348,6 +1376,12 @@
     <KeysBinding>Datenbindungen für die Schlüssel.</KeysBinding>
     <SelectedKeyBinding>Datenbindungen für die ausgewählten Schlüssel.</SelectedKeyBinding>
   </StiLookUpBoxControl>
+  <StiMargin>
+    <Bottom>Der Wert stellt einen Innenabstand von der Unterkante des Elementes ein.</Bottom>
+    <Left>Der Wert stellt einen Innenabstand von der linken Kante des Elementes ein.</Left>
+    <Right>Der Wert stellt einen Innenabstand von der rechten Kante des Elementes ein.</Right>
+    <Top>Der Wert stellt einen Innenabstand von der Oberkante des Elementes ein.</Top>
+  </StiMargin>
   <StiMarker>
     <Angle>Umdrehungswinkel der Markierung.</Angle>
     <BorderColor>Rahmenfarbe der Markierung.</BorderColor>
@@ -1377,6 +1411,12 @@
   <StiOutsidePieLabels>
     <LineLength>Linienlänge zwischen den Rahmen von Reihenbezeichnungen und den Rahmen von Tortendarstellungen.</LineLength>
   </StiOutsidePieLabels>
+  <StiPadding>
+    <Bottom>Der Wert stellt einen Außenabstand innerhalb des Elementes zwischen unterer Grenze und dessen Inhalt.</Bottom>
+    <Left>Der Wert stellt einen Außenabstand innerhalb des Elementes zwischen linker Grenze und dessen Inhalt.</Left>
+    <Right>TDer Wert stellt einen Außenabstand innerhalb des Elementes zwischen rechter Grenze und dessen Inhalt.</Right>
+    <Top>Der Wert stellt einen Außenabstand innerhalb des Elementes zwischen oberer Grenze und dessen Inhalt.</Top>
+  </StiPadding>
   <StiPage>
     <BeginRenderEvent>Auftreten bei Beginn der Ausführung einer Seite.</BeginRenderEvent>
     <ColumnBeginRenderEvent>Auftreten bei Beginn der Darstellung einer Spalte.</ColumnBeginRenderEvent>
@@ -1710,6 +1750,12 @@
   <StiShapeTypeService>
     <Direction>Pfeilrichtung.</Direction>
   </StiShapeTypeService>
+  <StiSimpleBorder>
+    <Color>Die Randfarbe.</Color>
+    <Side>Randrahmen.</Side>
+    <Size>Die Randgröße.</Size>
+    <Style>Die Randart.</Style>
+  </StiSimpleBorder>
   <StiSimpleText>
     <GetValueEvent>Tritt auf, wenn der Text für die Ausführung vorbereitet wird.</GetValueEvent>
     <GlobalizedName>Wert, der als Schlüssel für den Globalization Manager benutzt wird.</GlobalizedName>
@@ -1781,6 +1827,13 @@
     <HeaderRowsCount>Anzahl der Kopfzeilen in der Tabelle.</HeaderRowsCount>
     <RowCount>Reihenanzahl in der Tabelle.</RowCount>
   </StiTable>
+  <StiTableElement>
+    <Columns>Die Spalten werden in der Tabelle angezeigt</Columns>
+    <Group />
+    <SizeMode />
+    <Style>Tabellenart.</Style>
+    <Title>Tabellentitel.</Title>
+  </StiTableElement>
   <StiText>
     <AllowHtmlTags>Wert, der anzeigt, ob die Komponente HTM-Tags zulässt.</AllowHtmlTags>
     <Angle>Winkel der Textrotation.</Angle>
@@ -1828,6 +1881,14 @@
     <Trimming>Eine Art, das Ende einer Zeile abzuschneiden.</Trimming>
     <WordWrap>Zeilenumbruch.</WordWrap>
   </StiTextOptions>
+  <StiTitle>
+    <BackColor>Hintergrungfarbe für den Titel.</BackColor>
+    <Font>Titelschrift.</Font>
+    <ForeColor>Die Strichcodefarbe.</ForeColor>
+    <HorAlignment>Horizontale Ausrichtung des Textes.</HorAlignment>
+    <Text>Text des Titels.</Text>
+    <Visible>Sichtbarkeit des Titels.</Visible>
+  </StiTitle>
   <StiTreeViewControl>
     <AfterSelectEvent>Tritt auf wenn die Eigenschaft 'Nach dem Auswählen' geändert wurde.</AfterSelectEvent>
   </StiTreeViewControl>
