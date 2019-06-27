@@ -12,6 +12,7 @@
     <ButtonNext>下一步</ButtonNext>
     <ButtonPrev>前一步</ButtonPrev>
     <ButtonSend>发送</ButtonSend>
+    <CategoryAlreadyExists>该名称类别已存在！</CategoryAlreadyExists>
     <DayFriday>周五</DayFriday>
     <DayMonday>周一</DayMonday>
     <DaySaturday>周六</DaySaturday>
@@ -87,25 +88,38 @@
     <AdapterVirtualSource>从其他数据源获取数据</AdapterVirtualSource>
     <AdapterVistaDBConnection>从 VistaDB 连接获取数据</AdapterVistaDBConnection>
   </Adapters>
+  <BarCode>
+    <Post>提交</Post>
+    <TwoDimensional>二维的</TwoDimensional>
+  </BarCode>
   <Buttons>
     <Add>添加</Add>
     <AddAllColumns>添加所有列</AddAllColumns>
+    <Attach>连接</Attach>
     <Build>生成...</Build>
+    <Buttons>按键</Buttons>
     <Cancel>取消(&amp;C)</Cancel>
+    <Check>校验</Check>
     <Close>关闭</Close>
     <Delete>删除</Delete>
     <Design>设计</Design>
     <Down>向下</Down>
     <Duplicate>重复</Duplicate>
     <Export>导出</Export>
+    <ForceDelete>强制删除</ForceDelete>
     <Help>帮助</Help>
+    <LessOptions>减少选项</LessOptions>
     <LoadDataSet>加载数据集(*.data)</LoadDataSet>
+    <More>更多</More>
+    <MoreOptions>更多选项</MoreOptions>
     <MoveLeft>左移</MoveLeft>
     <MoveRight>右移</MoveRight>
+    <MoveToResource>移至资源</MoveToResource>
     <No>否</No>
     <Ok>确定(&amp;O)</Ok>
     <Open>打开</Open>
     <Print>打印</Print>
+    <Publish>发布</Publish>
     <QuickPrint>快速打印</QuickPrint>
     <Remove>移除</Remove>
     <RemoveAll>全部移除</RemoveAll>
@@ -115,9 +129,13 @@
     <Save>保存</Save>
     <SaveCopy>备份</SaveCopy>
     <SetAll>显示所有</SetAll>
+    <ShowLess>显示减少</ShowLess>
+    <ShowMore>显示增加</ShowMore>
+    <ShowSpecific>显示 '{0}'</ShowSpecific>
     <Submit>提交</Submit>
     <Test>测试</Test>
     <Up>向上</Up>
+    <Upload>上传</Upload>
     <Yes>是</Yes>
   </Buttons>
   <Chart>
@@ -134,6 +152,7 @@
     <Bubble>气泡图</Bubble>
     <Candlestick>烛台图</Candlestick>
     <ChartConditionsCollectionForm>条件</ChartConditionsCollectionForm>
+    <ChartEditorForm>图表编辑器</ChartEditorForm>
     <ChartFiltersCollectionForm>过滤</ChartFiltersCollectionForm>
     <ChartType>图表类型</ChartType>
     <CheckBoxAutoRotation>自动旋转</CheckBoxAutoRotation>
@@ -180,6 +199,11 @@
     <LabelsOutside>之外</LabelsOutside>
     <LabelsOutsideBase>基点之外</LabelsOutsideBase>
     <LabelsOutsideEnd>顶点之外</LabelsOutsideEnd>
+    <LabelsStyleCategory>类别</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>类别 - 总额百分比</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>类别 - 值</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>总额百分比</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>值</LabelsStyleValue>
     <LabelsTwoColumns>两栏</LabelsTwoColumns>
     <LabelTextAfter>文本之后:</LabelTextAfter>
     <LabelTextBefore>文本之前:</LabelTextBefore>
@@ -201,6 +225,8 @@
     <MoveStripUp>上移长条</MoveStripUp>
     <NoConditions>无条件</NoConditions>
     <NoFilters>无过滤</NoFilters>
+    <Pareto>Pareto</Pareto>
+    <Pictorial>图示</Pictorial>
     <Pie>饼图</Pie>
     <Radar>雷达图</Radar>
     <RadarArea>雷达面积图</RadarArea>
@@ -222,6 +248,10 @@
     <SeriesColorsCollectionForm>序列颜色</SeriesColorsCollectionForm>
     <SeriesEditorForm>序列编辑器</SeriesEditorForm>
     <Serieses>序列</Serieses>
+    <SparklinesArea>区域</SparklinesArea>
+    <SparklinesColumn>列</SparklinesColumn>
+    <SparklinesLine>行</SparklinesLine>
+    <SparklinesWinLoss>赢 / 输</SparklinesWinLoss>
     <Spline>曲线图</Spline>
     <SplineArea>曲线面积图</SplineArea>
     <SplineRange>平滑曲边范围图</SplineRange>
@@ -238,6 +268,7 @@
     <Strip>长条</Strip>
     <StripsEditorForm>长条编辑表单</StripsEditorForm>
     <Style>样式</Style>
+    <Treemap>树状图</Treemap>
   </Chart>
   <ChartRibbon>
     <Axes>轴</Axes>
@@ -307,17 +338,83 @@
     <VerticalNone>&lt;b&gt;无&lt;/b&gt;&lt;br&gt;不显示垂直网格线&lt;/br&gt;</VerticalNone>
   </ChartRibbon>
   <Cloud>
+    <AcceptTermsAndPrivacyPolicy>我已阅读并接受 {0} 和 {1}</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>帐户设置</AccountSettings>
+    <AddAPlace>增加一个位置</AddAPlace>
+    <AreYouSureYouWantDeleteReport>您确定要从磁盘中删除"{0}" 报告吗?</AreYouSureYouWantDeleteReport>
+    <ButtonChangePassword>更改密码</ButtonChangePassword>
+    <ButtonDeleteAll>全部删除</ButtonDeleteAll>
+    <ButtonDesign>设计报表</ButtonDesign>
+    <ButtonLater>请稍后</ButtonLater>
+    <ButtonLogout>注销</ButtonLogout>
+    <ButtonPublish>发布</ButtonPublish>
+    <ButtonPurchase>购买</ButtonPurchase>
+    <ButtonRecover>恢复</ButtonRecover>
+    <ButtonRenew>更新</ButtonRenew>
+    <ButtonResendEmail>重发邮件</ButtonResendEmail>
+    <ButtonResetPassword>重置密码</ButtonResetPassword>
+    <ButtonRun>运行</ButtonRun>
+    <ButtonShare>分享</ButtonShare>
+    <ButtonSignUp>注册</ButtonSignUp>
+    <ButtonSkip>跳过</ButtonSkip>
+    <ButtonView>视图</ButtonView>
+    <ButtonWhereUsed>用于何处？</ButtonWhereUsed>
     <Cancel>取消</Cancel>
+    <CheckBoxMoveToRecycleBin>移至回收站</CheckBoxMoveToRecycleBin>
+    <CheckBoxRememberMe>记住账号</CheckBoxRememberMe>
+    <CheckForUpdate>检查更新</CheckForUpdate>
+    <Cloud>云端</Cloud>
     <Collection>集合</Collection>
     <Create>创建</Create>
+    <CreateError>创建报表时出错！</CreateError>
     <CreateNewCollection>创建新集合</CreateNewCollection>
+    <CreatingReport>创建报表...</CreatingReport>
+    <DashboardWindowTitleNew>新仪表盘</DashboardWindowTitleNew>
     <DeleteFile>删除文档</DeleteFile>
+    <DoNotAskMe>不再询问</DoNotAskMe>
+    <ExecutionError>执行错误</ExecutionError>
+    <ExpiredDate>日期已失效</ExpiredDate>
+    <FileStorageWindowTitleEdit>编辑文件存储</FileStorageWindowTitleEdit>
+    <FileStorageWindowTitleNew>新文件存储</FileStorageWindowTitleNew>
+    <FolderWindowTitleEdit>编辑文件夹</FolderWindowTitleEdit>
+    <FolderWindowTitleNew>新文件夹</FolderWindowTitleNew>
+    <ForExample>例如</ForExample>
+    <GroupBoxAttachedItems>附加项目</GroupBoxAttachedItems>
+    <HyperlinkAgreeToTerms>注册即表示您同意条款</HyperlinkAgreeToTerms>
+    <HyperlinkAlreadyHaveAccount>已有账户</HyperlinkAlreadyHaveAccount>
+    <HyperlinkForgotPassword>忘记密码</HyperlinkForgotPassword>
+    <HyperlinkHavePassword>有密码</HyperlinkHavePassword>
+    <HyperlinkRegisterAccount>注册免费账户</HyperlinkRegisterAccount>
     <labelCollectionName>集合名称:</labelCollectionName>
+    <LabelCreated>创建:</LabelCreated>
+    <LabelCreateFolder>创建一个可以放置其他项目的新类别</LabelCreateFolder>
+    <LabelCreateReportTemplate>创建报告模板</LabelCreateReportTemplate>
+    <LabelCurrentPassword>当前密码:</LabelCurrentPassword>
+    <LabelDataFile>数据文件:</LabelDataFile>
+    <LabelDataUrl>数据网址:</LabelDataUrl>
+    <LabelEndDate>结束日期:</LabelEndDate>
     <labelFileName>文档名称:</labelFileName>
+    <LabelForeground>前景:</LabelForeground>
+    <LabelFromReport>来自报告</LabelFromReport>
+    <LabelFromReportCode>来自报告 (define in code)</LabelFromReportCode>
+    <LabelLastLogin>最后一次登录:</LabelLastLogin>
+    <LabelLastTime>最后一次:</LabelLastTime>
+    <LabelModified>修改:</LabelModified>
+    <LabelNewPassword>新密码:</LabelNewPassword>
+    <LabelNextTime>下一次:</LabelNextTime>
     <labelPassword>密码:</labelPassword>
+    <LabelPermission>许可:</LabelPermission>
+    <LabelPicture>图片:</LabelPicture>
+    <LabelRenderedReport>已渲染的报表</LabelRenderedReport>
+    <LabelResponseAsFile>响应为文件</LabelResponseAsFile>
+    <LabelResultType>结果类型:</LabelResultType>
+    <LabelSeparateReport>单独的报表（和脚本）文件</LabelSeparateReport>
+    <LabelShowReport>显示报告:</LabelShowReport>
     <labelUserName>用户名:</labelUserName>
+    <License>许可证</License>
+    <LicenseInformation>许可证信息</LicenseInformation>
     <Login>登陆</Login>
+    <NofM>{0}: {2} 的 {1}</NofM>
     <Open>打开</Open>
     <OpenFile>打开文档</OpenFile>
     <OperationCreate>创建 '{0}'</OperationCreate>
@@ -328,17 +425,115 @@
     <OperationRename>重命名 '{0}' 到 '{1}'</OperationRename>
     <OperationUpload>上传 '{0}' 到服务器</OperationUpload>
     <page>页面</page>
+    <Platforms>平台</Platforms>
+    <PrivacyPolicy>隐私</PrivacyPolicy>
+    <Products>产品</Products>
+    <PublishMessage>要发布此报告，您应将其提交至我们的服务器publish.stimulsoft.com</PublishMessage>
     <questionOpenThisFile>你确定要打开 '{0}'项吗 ?</questionOpenThisFile>
     <questionOverrideItem>你真的想要覆盖 '{0}' 项吗?</questionOverrideItem>
     <questionRemoveItem>你确定要移除 '{0}'项吗 ?</questionRemoveItem>
     <RefreshList>刷新列表</RefreshList>
     <ReportDocumentFormatNotRecognized>“{ 0 }”项目的格式不能被识别为被渲染的报表格式!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>“{ 0 }”项目的格式不能被识别为报告模板格式!</ReportTemplateFormatNotRecognized>
+    <RequestChangesWhenSavingToCloud>保存到云端时请求更改</RequestChangesWhenSavingToCloud>
+    <RibbonButtonAddRole>增加角色</RibbonButtonAddRole>
+    <RibbonButtonAddUser>增加用户</RibbonButtonAddUser>
+    <RibbonButtonAddWorkspace>增加工作区</RibbonButtonAddWorkspace>
+    <RibbonButtonFolder>文件夹</RibbonButtonFolder>
+    <RibbonTabUsers>用户</RibbonTabUsers>
     <Root>根</Root>
+    <RootFolder>根文件夹</RootFolder>
     <Save>保存</Save>
     <SaveAccountSettings>保存帐户设置</SaveAccountSettings>
+    <SaveAsType>保存类型</SaveAsType>
     <SaveFile>保存文档</SaveFile>
+    <SavingToStimulsoftCloudPleaseWait>正在将该报告保存至 Stimulsoft 云端，请耐心等待!</SavingToStimulsoftCloudPleaseWait>
+    <ShareWindowTitleNew>分享</ShareWindowTitleNew>
     <ShowAllFiles>显示所有文档</ShowAllFiles>
+    <ShowNotificationMessages>显示通知信息</ShowNotificationMessages>
+    <Subscriptions>技术服务</Subscriptions>
+    <TabItemEmbedCode>嵌入代码</TabItemEmbedCode>
+    <TabItemQRCode>二维码</TabItemQRCode>
+    <TabItemShare>分享链接</TabItemShare>
+    <TermsOfUse>条款</TermsOfUse>
+    <TextActivated>激活</TextActivated>
+    <TextActivationDate>激活日期</TextActivationDate>
+    <TextDelete>删除</TextDelete>
+    <TextDeletingItems>删除项目...</TextDeletingItems>
+    <TextDescriptionChanges>请键入更改说明:</TextDescriptionChanges>
+    <TextFirstName>名字</TextFirstName>
+    <TextFromTo>从 {0} 到{1} (Total - {2})</TextFromTo>
+    <TextItemsWorkspace>工作区</TextItemsWorkspace>
+    <TextLastName>姓</TextLastName>
+    <TextModify>修改</TextModify>
+    <TextNoNotifications>没有通知</TextNoNotifications>
+    <TextOwner>所有者</TextOwner>
+    <TextProfile>简况</TextProfile>
+    <TextReports>报表</TextReports>
+    <TextRestoringItems>恢复项目...</TextRestoringItems>
+    <TextRole>角色</TextRole>
+    <TextRun>运行</TextRun>
+    <TextUser>用户</TextUser>
+    <TextUserName>用户名 (Email)</TextUserName>
+    <TimeHoursAgoFive>五小时前, {0:t}</TimeHoursAgoFive>
+    <TimeHoursAgoFour>四小时前, {0:t}</TimeHoursAgoFour>
+    <TimeHoursAgoOne>一小时前, {0:t}</TimeHoursAgoOne>
+    <TimeHoursAgoThree>三小时前, {0:t}</TimeHoursAgoThree>
+    <TimeHoursAgoTwo>两小时前, {0:t}</TimeHoursAgoTwo>
+    <TimeMinutesAgoFive>五分钟前, {0:t}</TimeMinutesAgoFive>
+    <TimeMinutesAgoFour>四分钟前, {0:t}</TimeMinutesAgoFour>
+    <TimeMinutesAgoLessOne>不到一分钟前</TimeMinutesAgoLessOne>
+    <TimeMinutesAgoN>{0} 分钟前, {1:t}</TimeMinutesAgoN>
+    <TimeMinutesAgoOne>一分钟前o, {0:t}</TimeMinutesAgoOne>
+    <TimeMinutesAgoThree>三分钟前, {0:t}</TimeMinutesAgoThree>
+    <TimeMinutesAgoTwo>两分钟前, {0:t}</TimeMinutesAgoTwo>
+    <TimeToday>今天, {0:t}</TimeToday>
+    <TimeYesterday>昨天, {0:t}</TimeYesterday>
+    <ToolTipAddRole>在工作区创建新角色.</ToolTipAddRole>
+    <ToolTipAddUser>在所选角色中创建新用户.</ToolTipAddUser>
+    <ToolTipAspNet>将所选报表发送到ASP.NET应用程序.</ToolTipAspNet>
+    <ToolTipAspNetMvc>将所选报表发送到ASP.NET MVC应用程序.</ToolTipAspNetMvc>
+    <ToolTipAttach>将项目附加到所选报表.</ToolTipAttach>
+    <ToolTipCreate>新建项目.</ToolTipCreate>
+    <ToolTipDelete>删除所选项目.</ToolTipDelete>
+    <ToolTipDeleted>显示已删除的项目</ToolTipDeleted>
+    <ToolTipDownload>下载所选项目.</ToolTipDownload>
+    <ToolTipEdit>编辑所选项目.</ToolTipEdit>
+    <ToolTipGridMode>列表显示</ToolTipGridMode>
+    <ToolTipInfo>查看详情</ToolTipInfo>
+    <ToolTipJs>将所选报表发布为HTML页面</ToolTipJs>
+    <ToolTipPublish>准备即将部署在应用程序中的所选报表.</ToolTipPublish>
+    <ToolTipRecover>恢复所选项目.</ToolTipRecover>
+    <ToolTipRunWithoutPreview>无需预览渲染所选报表</ToolTipRunWithoutPreview>
+    <ToolTipShare>分享所选文件.</ToolTipShare>
+    <ToolTipSort>给选项排序</ToolTipSort>
+    <ToolTipThumbnailMode>缩略图视图</ToolTipThumbnailMode>
+    <ToolTipViewFile>显示所选文件.</ToolTipViewFile>
+    <ToolTipViewReport>在查看器中显示所选报表.</ToolTipViewReport>
+    <WeDidntFindAnything>我们在这里找不到任何要展示的东西.</WeDidntFindAnything>
+    <WindowDescriptionDelete>您确定要删除所选项目吗?</WindowDescriptionDelete>
+    <WindowDescriptionRecover>所选项目将从回收站中恢复.</WindowDescriptionRecover>
+    <WindowTitleDelete>删除项目</WindowTitleDelete>
+    <WindowTitleForgotPassword>忘记密码</WindowTitleForgotPassword>
+    <WindowTitleLogin>登录</WindowTitleLogin>
+    <WindowTitleRecover>恢复项目</WindowTitleRecover>
+    <WindowTitleRoleEdit>编辑角色</WindowTitleRoleEdit>
+    <WindowTitleRoleNew>新建角色</WindowTitleRoleNew>
+    <WindowTitleSignUp>注册</WindowTitleSignUp>
+    <WindowTitleUserEdit>编辑用户</WindowTitleUserEdit>
+    <WindowTitleUserNew>新建用户</WindowTitleUserNew>
+    <WindowTitleWorkspaceEdit>编辑工作区</WindowTitleWorkspaceEdit>
+    <WindowTitleWorkspaceNew>新建工作区</WindowTitleWorkspaceNew>
+    <WizardBlankReportDescription>新建空白报表</WizardBlankReportDescription>
+    <WizardExcelDescription>使用Excel数据新建报表.</WizardExcelDescription>
+    <WizardJsonDescription>使用JSON数据新建报表.</WizardJsonDescription>
+    <WizardPrivateShare>禁止访问</WizardPrivateShare>
+    <WizardPrivateShareDescription>对项目的外部访问受到限制.</WizardPrivateShareDescription>
+    <WizardPublicShare>公共访问</WizardPublicShare>
+    <WizardPublicShareDescription>任何未授权用户的外部访问.</WizardPublicShareDescription>
+    <WizardRegisteredShare>授权访问</WizardRegisteredShare>
+    <WizardRegisteredShareDescription>仅对任何工作区的注册用户进行外部访问.</WizardRegisteredShareDescription>
+    <WizardXmlDescription>使用XML数据创建报表.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>条形码</StiBarCode>
@@ -348,6 +543,7 @@
     <StiClone>克隆</StiClone>
     <StiColumnFooterBand>栏尾</StiColumnFooterBand>
     <StiColumnHeaderBand>栏首</StiColumnHeaderBand>
+    <StiComboBox>组合框</StiComboBox>
     <StiComponent>组件</StiComponent>
     <StiContainer>容器</StiContainer>
     <StiContourText>交互式轮廓文本</StiContourText>
@@ -364,7 +560,9 @@
     <StiCrossSummaryHeader>交叉汇总头</StiCrossSummaryHeader>
     <StiCrossTab>交叉-Tab</StiCrossTab>
     <StiCrossTitle>交叉标题</StiCrossTitle>
+    <StiDashboard>仪表盘</StiDashboard>
     <StiDataBand>数据区</StiDataBand>
+    <StiDatePicker>日期选择器</StiDatePicker>
     <StiEmptyBand>空白区</StiEmptyBand>
     <StiFooterBand>页脚</StiFooterBand>
     <StiGauge>仪表</StiGauge>
@@ -374,12 +572,22 @@
     <StiHierarchicalBand>分级区</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>横线</StiHorizontalLinePrimitive>
     <StiImage>图片</StiImage>
+    <StiIndicator>指示符</StiIndicator>
+    <StiListBox>列表框</StiListBox>
+    <StiMap>地图</StiMap>
+    <StiOnlineMap>在线地图</StiOnlineMap>
     <StiOverlayBand>覆盖</StiOverlayBand>
     <StiPage>页</StiPage>
     <StiPageFooterBand>页脚</StiPageFooterBand>
     <StiPageHeaderBand>页眉</StiPageHeaderBand>
     <StiPanel>面板</StiPanel>
+    <StiPivotColumn>关键列</StiPivotColumn>
+    <StiPivotRow>关键行</StiPivotRow>
+    <StiPivotSummary>关键总结</StiPivotSummary>
+    <StiPivotTable>关键表格</StiPivotTable>
+    <StiProgress>进程</StiProgress>
     <StiRectanglePrimitive>矩形</StiRectanglePrimitive>
+    <StiRegionMap>区域地图</StiRegionMap>
     <StiReport>报表</StiReport>
     <StiReportSummaryBand>报表合计区</StiReportSummaryBand>
     <StiReportTitleBand>报表标题区</StiReportTitleBand>
@@ -391,16 +599,90 @@
     <StiTable>表格</StiTable>
     <StiText>文本</StiText>
     <StiTextInCells>单元格文本</StiTextInCells>
+    <StiTreeView>树视图</StiTreeView>
+    <StiTreeViewBox>树视图框</StiTreeViewBox>
     <StiVerticalLinePrimitive>竖线</StiVerticalLinePrimitive>
     <StiWinControl>Windows 控件</StiWinControl>
     <StiZipCode>邮政编码</StiZipCode>
   </Components>
+  <Dashboard>
+    <AddRange>添加范围</AddRange>
+    <AfterGroupingData>分组数据后应用</AfterGroupingData>
+    <AllowUserDrillDown>允许用户下行查看</AllowUserDrillDown>
+    <AllowUserFiltering>允许用户筛选</AllowUserFiltering>
+    <AllowUserSorting>允许用户排序</AllowUserSorting>
+    <Blanks>(Blanks)</Blanks>
+    <BooleanFilters>布尔过滤器</BooleanFilters>
+    <CannotLoadDashboard>无法使用仪表盘加载报表.</CannotLoadDashboard>
+    <ChangeChartType>更改图表类型</ChangeChartType>
+    <ChangeMapType>更改地图类型</ChangeMapType>
+    <ClearAllFormatting>清除所有格式</ClearAllFormatting>
+    <ClearFilterFrom>从 '{0}'清除过滤器</ClearFilterFrom>
+    <ColorScale>色标</ColorScale>
+    <ColumnInteractions>纵列交互</ColumnInteractions>
+    <CustomFilter>自定义 &amp;过滤器...</CustomFilter>
+    <DataBars>数据条</DataBars>
+    <DataNotDefined>数据未定义</DataNotDefined>
+    <DateFilters>日期过滤器</DateFilters>
+    <Dimension>维</Dimension>
+    <Dimensions>维</Dimensions>
+    <DragDropDataFromDictionary>拖&amp;从字典中删除数据</DragDropDataFromDictionary>
+    <DrillDown>下行</DrillDown>
+    <DrillDownSelected>下行选择</DrillDownSelected>
+    <DrillUp>上行</DrillUp>
+    <DuplicateField>重复字段</DuplicateField>
+    <EditExpression>编辑表达式</EditExpression>
+    <EmptyDashboardFooter>拖 &amp; 从工具箱中删除组件或从字典中删除数据</EmptyDashboardFooter>
+    <EmptyDashboardHeader>仪表盘为空</EmptyDashboardHeader>
+    <FieldInteractions>字段交互</FieldInteractions>
+    <FieldTypeRestrictionHint>只能使用 '{0}' 类型字段!</FieldTypeRestrictionHint>
+    <FirstLastPoints>第一/最后一点</FirstLastPoints>
+    <FirstRowIndex>第一行索引</FirstRowIndex>
+    <HighLowPoints>高 / 低点</HighLowPoints>
+    <ImageNotSpecified>未指定图像</ImageNotSpecified>
+    <Indicator>指示器</Indicator>
+    <InitialValue>初始值</InitialValue>
+    <LimitRows>跳过和限制行</LimitRows>
+    <Measure>测量</Measure>
+    <Measures>测量</Measures>
+    <NewDimension>新尺寸</NewDimension>
+    <NewField>新领域</NewField>
+    <NewMeasure>新测量</NewMeasure>
+    <NoRanges>没有范围</NoRanges>
+    <NoResult>没有结果</NoResult>
+    <NSelected>{0} 选择</NSelected>
+    <Nulls>(Nulls)</Nulls>
+    <NumberFilters>数字过滤器</NumberFilters>
+    <ParentElement>父元素</ParentElement>
+    <RangeMode>范围模式</RangeMode>
+    <RangeType>范围类型</RangeType>
+    <RemoveActions>R&amp;删除动作</RemoveActions>
+    <RemoveAllFields>删除所有字段</RemoveAllFields>
+    <RemoveField>删除字段</RemoveField>
+    <ReplaceValues>替换值</ReplaceValues>
+    <RowsCount>行数</RowsCount>
+    <RunFieldsEditor>运行字段编辑器</RunFieldsEditor>
+    <RunFieldsEditorInfo>运行字段编辑器来更改每个表纵列的交互。</RunFieldsEditorInfo>
+    <SelectAll>(Select &amp;All)</SelectAll>
+    <ShowAllValue>显示 (All)值</ShowAllValue>
+    <ShowAsPercentages>显示为百分比</ShowAsPercentages>
+    <SkipFirstRows>跳过第一行</SkipFirstRows>
+    <SortAZ>从A到Z排序</SortAZ>
+    <SortLargestToSmallest>从最大到最小排序</SortLargestToSmallest>
+    <SortSmallestToLargest>从最小到最大排序</SortSmallestToLargest>
+    <SortZA>从Z到A排序</SortZA>
+    <Sparklines>走势图</Sparklines>
+    <StringFilters>字符串筛选器</StringFilters>
+    <TransformationHint>单击表标题去应用排序，过滤或更改数据。此转换仅适用于此数据项目。</TransformationHint>
+    <Trend>趋向</Trend>
+  </Dashboard>
   <Database>
     <Connection>连接</Connection>
     <Database>{0}连接</Database>
     <DatabaseDB2>IBM DB2 连接</DatabaseDB2>
     <DatabaseFirebird>Firebird 连接</DatabaseFirebird>
     <DatabaseInformix>Informix连接</DatabaseInformix>
+    <DatabaseJson>JSON数据</DatabaseJson>
     <DatabaseMySQL>MySQL 连接</DatabaseMySQL>
     <DatabaseOdbc>ODBC 连接</DatabaseOdbc>
     <DatabaseOleDb>OLE DB 连接</DatabaseOleDb>
@@ -415,6 +697,37 @@
     <DatabaseVistaDB>VistaDB 连接</DatabaseVistaDB>
     <DatabaseXml>Xml 数据</DatabaseXml>
   </Database>
+  <DatePickerRanges>
+    <CurrentMonth>本月</CurrentMonth>
+    <CurrentQuarter>本季度</CurrentQuarter>
+    <CurrentWeek>本周</CurrentWeek>
+    <CurrentYear>本年</CurrentYear>
+    <FirstQuarter>第一季度</FirstQuarter>
+    <FourthQuarter>第四季度</FourthQuarter>
+    <Index>指数</Index>
+    <Last14Days>最近14天</Last14Days>
+    <Last30Days>最近30天</Last30Days>
+    <Last7Days>最近7天</Last7Days>
+    <MonthToDate>本月至今</MonthToDate>
+    <NextMonth>下月</NextMonth>
+    <NextQuarter>下季度</NextQuarter>
+    <NextWeek>下周</NextWeek>
+    <NextYear>下年</NextYear>
+    <PreviousMonth>上月</PreviousMonth>
+    <PreviousQuarter>上季度</PreviousQuarter>
+    <PreviousWeek>上周</PreviousWeek>
+    <PreviousYear>上年</PreviousYear>
+    <Quarter>季度</Quarter>
+    <QuarterToDate>本季度至今</QuarterToDate>
+    <SecondQuarter>第二季度</SecondQuarter>
+    <ThirdQuarter>第三季度</ThirdQuarter>
+    <Today>今日</Today>
+    <Tomorrow>明日</Tomorrow>
+    <WeekToDate>本周至今</WeekToDate>
+    <Year>年</Year>
+    <YearToDate>本年至今</YearToDate>
+    <Yesterday>昨天</Yesterday>
+  </DatePickerRanges>
   <DesignerFx>
     <AlreadyExists>'{0}' 已存在.</AlreadyExists>
     <CanNotLoadThisReportTemplate>无法加载此报表模板.</CanNotLoadThisReportTemplate>
@@ -519,6 +832,7 @@
     <NoServices>在 '{0}'找不到服务</NoServices>
     <NotAssign>数据源未定义.</NotAssign>
     <NotCorrectFormat>输入的字符串格式不正确.</NotCorrectFormat>
+    <PrimaryColumnAction>无法将此操作应用于 '{0}'的主列.</PrimaryColumnAction>
     <RelationsNotFound>找不到关系定义.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>由于错误,报表无法保存!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>找不到服务 '{0}'.</ServiceNotFound>
@@ -531,11 +845,14 @@
     <AllowEditable>允许编辑:</AllowEditable>
     <AllowModifyContents>允许修改内容</AllowModifyContents>
     <AllowPrintDocument>允许打印文档</AllowPrintDocument>
+    <Auto>自动的</Auto>
     <BandsFilter>带区过滤器:</BandsFilter>
+    <CancelExport>取消输出</CancelExport>
     <Color>颜色</Color>
     <Compressed>压缩</Compressed>
     <CompressToArchive>压缩存档</CompressToArchive>
     <ContinuousPages>连续页码</ContinuousPages>
+    <DataAndHeaders>数据和标题</DataAndHeaders>
     <DataAndHeadersFooters>数据和页眉/页脚</DataAndHeadersFooters>
     <DataOnly>纯数据</DataOnly>
     <DigitalSignature>数字签名</DigitalSignature>
@@ -548,6 +865,7 @@
     <Encoding>编码:</Encoding>
     <EncryptionError>加密步骤错误</EncryptionError>
     <EscapeCodes>转义代码</EscapeCodes>
+    <Exactly>精确地</Exactly>
     <ExceptEditableFields>除可编辑字段外</ExceptEditableFields>
     <ExportDataOnly>仅导出数据</ExportDataOnly>
     <ExportEachPageToSheet>导出每页到工作表</ExportEachPageToSheet>
@@ -575,6 +893,7 @@
     <ExportTypeHtmlFile>HTML 文件...</ExportTypeHtmlFile>
     <ExportTypeImageFile>图像文件...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG 图片...</ExportTypeJpegFile>
+    <ExportTypeJsonFile>JSON文件...</ExportTypeJsonFile>
     <ExportTypeMetafile>Windows 图元文件...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive文件...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX 图像...</ExportTypePcxFile>
@@ -599,6 +918,7 @@
     <ImageMonochrome>单色</ImageMonochrome>
     <ImageQuality>图像质量</ImageQuality>
     <ImageResolution>清晰度:</ImageResolution>
+    <ImageResolutionMode>图像分辨率模式:</ImageResolutionMode>
     <ImageType>图片类型</ImageType>
     <labelEncryptionKeyLength>密钥长度:</labelEncryptionKeyLength>
     <labelOwnerPassword>所有者密码:</labelOwnerPassword>
@@ -607,8 +927,10 @@
     <MonochromeDitheringType>单色抖动式:</MonochromeDitheringType>
     <MoreSettings>更多设置</MoreSettings>
     <MultipleFiles>Multiple 文件</MultipleFiles>
+    <NoMoreThan>不超过</NoMoreThan>
     <OpenAfterExport>导出后打开</OpenAfterExport>
     <PdfACompliance>PDF/A规格</PdfACompliance>
+    <PrintingReport>打印报告</PrintingReport>
     <RemoveEmptySpaceAtBottom>移除页面底部的空白空间</RemoveEmptySpaceAtBottom>
     <RestrictEditing>编辑限制:</RestrictEditing>
     <Scale>缩放:</Scale>
@@ -639,11 +961,13 @@
     <Zoom>缩放:</Zoom>
   </Export>
   <FileFilters>
+    <AllFiles>所有文件</AllFiles>
     <AllImageFiles>全部图片文件</AllImageFiles>
     <BitmapFiles>Bitmap 文件</BitmapFiles>
     <BmpFiles>BMP 图片 (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>打开 Calc files (*.ods)|*.ods 文档</CalcFiles>
     <CsvFiles>CSV 文件 (*.csv)|*.csv</CsvFiles>
+    <DashboardTemplates>仪表盘模板 (*.sbi)|*.sbi</DashboardTemplates>
     <DataSetXmlData>DataSet XML data (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XML schema (*.xsd)|*.xsd</DataSetXmlSchema>
     <DbfFiles>DBF 文件 (*.dbf)|*.dbf</DbfFiles>
@@ -655,6 +979,7 @@
     <EncryptedDocumentFiles>加密报表文件 (*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>加密报表模板 (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 files (*.xlsx)|*.xlsx</Excel2007Files>
+    <ExcelAllFiles>微软电子表格文件 (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
     <ExcelFiles>Microsoft Excel 文件 (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML 文件 (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE 文件 (*.exe)|*.exe</ExeFiles>
@@ -662,6 +987,9 @@
     <HtmlFiles>HTML 文件 (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} 继承报表文件 (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG 图片 (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
+    <JsonDocumentFiles>JSON报表文件 (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonFiles>JSON文件 (*.json)|*.json</JsonFiles>
+    <JsonReportFiles>JSON报表模板 (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} 文件 (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Silverligh报表类 (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>元文件</MetaFiles>
@@ -673,6 +1001,7 @@
     <PdfFiles>Adobe PDF files (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG 图片 (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013文件 (*.pptx)|*.pptx</Ppt2007Files>
+    <ReportEmbededDataFiles>报告嵌入数据的模板(*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Files report (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>独立报表(*.exe)|*.exe</StandaloneReportFiles>
@@ -683,6 +1012,7 @@
     <TiffFiles>TIFF 图片 (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Text (*.txt)|*.txt</TxtFiles>
     <Word2007Files>Microsoft Word 2007-2016 files (*.docx)|*.docx</Word2007Files>
+    <WordFiles>微软文字处理软件97-2003文件 (*.doc)|*.doc</WordFiles>
     <WriterFiles>打开 Writer files (*.odt)|*.odt 文档</WriterFiles>
     <XmlFiles>XML 文件 (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS files (*.xps)|*.xps</XpsFiles>
@@ -766,6 +1096,8 @@
     <AddCondition>添加条件(&amp;A)</AddCondition>
     <AddLevel>添加级别</AddLevel>
     <AssignExpression>分配表达式</AssignExpression>
+    <BreakIfTrue>如果属实就中断</BreakIfTrue>
+    <BreakIfTrueToolTip>如果满足当前条件，则中断条件处理</BreakIfTrueToolTip>
     <ChangeFont>改变字体</ChangeFont>
     <ComponentIsEnabled>组件已激活</ComponentIsEnabled>
     <NoConditions>无条件</NoConditions>
@@ -783,15 +1115,23 @@
     <title>交叉报表设计</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <ClientId>用户ID</ClientId>
+    <ClientSecret>用户隐私</ClientSecret>
     <ConnectionString>连接字符串:</ConnectionString>
+    <DashboardConnections>仪表盘连接</DashboardConnections>
     <DB2Edit>编辑 IBM DB2 连接</DB2Edit>
     <DB2New>新建 IBM DB2 连接</DB2New>
     <EditConnection>编辑 {0} 连接</EditConnection>
+    <Favorites>偏好</Favorites>
     <FirebirdEdit>编辑 Firebird 连接</FirebirdEdit>
     <FirebirdNew>新建 Firebird 连接</FirebirdNew>
+    <FirstRowIsHeader>第一行为标题</FirstRowIsHeader>
+    <ImportData>导入数据</ImportData>
     <InformixEdit>编辑Informix连接</InformixEdit>
     <InformixNew>新建Informix连接</InformixNew>
     <InitialCatalog>初始化分类:</InitialCatalog>
+    <JsonEdit>编辑JSON数据</JsonEdit>
+    <JsonNew>更新JSON数据</JsonNew>
     <MySQLEdit>编辑 MySQL 连接</MySQLEdit>
     <MySQLNew>新建 MySQL 连接</MySQLNew>
     <NewConnection>新建{0}连接</NewConnection>
@@ -804,10 +1144,18 @@
     <OracleODPEdit>编辑Oracle ODP.NET连接</OracleODPEdit>
     <OracleODPNew>新建Oracle ODP.NET连接</OracleODPNew>
     <PathData>路径到 XML Data:</PathData>
+    <PathJsonData>JSON数据的路径:</PathJsonData>
     <PathSchema>路径到 XSD Schema:</PathSchema>
+    <PathToData>数据路径:</PathToData>
+    <Pin>固定</Pin>
     <PostgreSQLEdit>编辑 PostgreSQL 连接</PostgreSQLEdit>
     <PostgreSQLNew>新建 PostgreSQL 连接</PostgreSQLNew>
     <PromptUserNameAndPassword>提示用户名和密码</PromptUserNameAndPassword>
+    <RecentConnections>近期</RecentConnections>
+    <RelationDirection>关系方向:</RelationDirection>
+    <ReportConnections>报表连接</ReportConnections>
+    <SelectData>选择数据</SelectData>
+    <SpreadsheetId>电子表格ID</SpreadsheetId>
     <SqlCeEdit>编辑 SQLServerCE 连接</SqlCeEdit>
     <SqlCeNew>新建 SQLServerCE 连接</SqlCeNew>
     <SqlEdit>编辑 SQL 连接</SqlEdit>
@@ -818,13 +1166,15 @@
     <TeradataNew>新建Teradata连接</TeradataNew>
     <UniDirectEdit>编辑Uni Direct连接</UniDirectEdit>
     <UniDirectNew>新建Uni Direct连接</UniDirectNew>
+    <Unpin>取消固定</Unpin>
+    <UseBearerAuthentication>使用不记名身份认证</UseBearerAuthentication>
     <VistaDBEdit>编辑 VistaDB 连接</VistaDBEdit>
     <VistaDBNew>新建 VistaDB 连接</VistaDBNew>
     <XmlEdit>编辑 XML Data</XmlEdit>
     <XmlNew>新建 XML Data</XmlNew>
+    <XmlType>XML类型:</XmlType>
   </FormDatabaseEdit>
   <FormDesigner>
-    <Others>其它</Others>
     <Code>代码</Code>
     <ColumnsOne>一</ColumnsOne>
     <ColumnsThree>三</ColumnsThree>
@@ -832,6 +1182,7 @@
     <CompilingReport>编译报表</CompilingReport>
     <DockingPanels>面板</DockingPanels>
     <HtmlPreview>HTML 预览</HtmlPreview>
+    <JsPreview>JS预览</JsPreview>
     <labelPleaseSelectTypeOfInterface>请选择接口类型</labelPleaseSelectTypeOfInterface>
     <LoadImage>加载图片...</LoadImage>
     <LocalizePropertyGrid>本地化属性</LocalizePropertyGrid>
@@ -839,6 +1190,7 @@
     <MarginsNormal>正常</MarginsNormal>
     <MarginsWide>宽</MarginsWide>
     <OrderToolbars>重置工具栏</OrderToolbars>
+    <Others>其它</Others>
     <Pages>页面</Pages>
     <Preview>预览</Preview>
     <PropertyChange>属性改变 '{0}'</PropertyChange>
@@ -857,10 +1209,14 @@
     <CalcColumnNew>新建计算列</CalcColumnNew>
     <CategoryEdit>编辑分类</CategoryEdit>
     <CategoryNew>新建分类</CategoryNew>
+    <Child>儿童</Child>
     <ChildOfBusinessObject>Business Object的子项</ChildOfBusinessObject>
     <ChildSource>子数据源:</ChildSource>
+    <ClickHere>单击此处</ClickHere>
     <ColumnEdit>编辑列</ColumnEdit>
     <ColumnNew>新建列</ColumnNew>
+    <CreateNewDataSource>创建新数据源</CreateNewDataSource>
+    <CreateNewReport>创建新报表</CreateNewReport>
     <CsvSeparatorComma>停顿</CsvSeparatorComma>
     <CsvSeparatorOther>其他</CsvSeparatorOther>
     <CsvSeparatorSemicolon>分号</CsvSeparatorSemicolon>
@@ -875,12 +1231,16 @@
     <DataSourceEdit>编辑数据源</DataSourceEdit>
     <DataSourceNew>新建数据源</DataSourceNew>
     <DataSourcesNew>新建数据源</DataSourcesNew>
+    <DataTransformationEdit>编辑数据转换</DataTransformationEdit>
+    <DataTransformationNew>更新数据转换</DataTransformationNew>
     <Delete>删除</Delete>
     <DesignTimeQueryText>设计时查询文本</DesignTimeQueryText>
     <DictionaryMerge>合并字典...</DictionaryMerge>
     <DictionaryNew>新建字典...</DictionaryNew>
     <DictionaryOpen>打开字典...</DictionaryOpen>
     <DictionarySaveAs>保存字典为...</DictionarySaveAs>
+    <DragNewDataSource>直接将您的数据拖动至此面板</DragNewDataSource>
+    <DragNewReport>直接将您的报表拖动至此面板</DragNewReport>
     <EditQuery>编辑查询</EditQuery>
     <ExecutedSQLStatementSuccessfully>SQL脚本执行成功</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>新表达式</ExpressionNew>
@@ -891,19 +1251,30 @@
     <NewBusinessObject>新建Business Object</NewBusinessObject>
     <NewItem>新项目</NewItem>
     <OpenAssembly>打开集合</OpenAssembly>
+    <Parent>父母</Parent>
     <ParentSource>父数据库:</ParentSource>
     <Queries>查询</Queries>
     <QueryNew>新建查询</QueryNew>
     <QueryText>查询文本</QueryText>
+    <QueryTimeout>查询超时</QueryTimeout>
     <RelationEdit>编辑关系</RelationEdit>
     <RelationNew>新建关系</RelationNew>
+    <ResourceEdit>编辑资源</ResourceEdit>
+    <ResourceNew>更新资源</ResourceNew>
     <RetrieveColumns>获取所有列</RetrieveColumns>
+    <RetrieveColumnsAllowRun>允许存储过程运行</RetrieveColumnsAllowRun>
+    <RetrieveColumnsAndParameters>检索列和参数</RetrieveColumnsAndParameters>
+    <RetrieveParameters>检索参数</RetrieveParameters>
     <RetrievingDatabaseInformation>检索数据库信息...</RetrievingDatabaseInformation>
     <Run>运行</Run>
     <SelectTypeOfBusinessObject>选择Business Object类型</SelectTypeOfBusinessObject>
+    <SkipSchemaWizard>跳过模式向导</SkipSchemaWizard>
     <SortItems>排序项目</SortItems>
     <Synchronize>同步</Synchronize>
     <SynchronizeHint>同步数据源和字典内容</SynchronizeHint>
+    <TextDropDataFileHere>将数据文件拖至此处</TextDropDataFileHere>
+    <TextDropFileHere>将文件拖至此处</TextDropFileHere>
+    <TextDropImageHere>将图像文件拖至此处</TextDropImageHere>
     <title>字典设计器</title>
     <ValueNew>新值</ValueNew>
     <VariableEdit>编辑变量</VariableEdit>
@@ -933,6 +1304,7 @@
     <nameOn>开</nameOn>
     <nameTrue>真</nameTrue>
     <nameYes>是</nameYes>
+    <NegativeInRed>负数为红色</NegativeInRed>
     <NegativePattern>负数:</NegativePattern>
     <Number>数字</Number>
     <Percentage>百分数</Percentage>
@@ -944,12 +1316,14 @@
     <TextFormat>文本格式</TextFormat>
     <Time>时间</Time>
     <title>格式</title>
+    <UseAbbreviation>使用缩写词</UseAbbreviation>
     <UseGroupSeparator>使用分组符</UseGroupSeparator>
     <UseLocalSetting>使用本地设置</UseLocalSetting>
   </FormFormatEditor>
   <FormGlobalizationEditor>
     <AddCulture>添加 Culture(&amp;A)</AddCulture>
     <AutoLocalizeReportOnRun>运行时自动本地化报表</AutoLocalizeReportOnRun>
+    <CreateNewCulture>创建新文化</CreateNewCulture>
     <GetCulture>从报表中获取区域性设置</GetCulture>
     <qnGetCulture>你确定要从报告中获得区域性设置并且覆盖当前的区域性设置吗?</qnGetCulture>
     <qnSetCulture>你确定要把区域性设置设定到报表组件里吗?</qnSetCulture>
@@ -957,9 +1331,16 @@
     <SetCulture>将区域性设置设定到报告</SetCulture>
     <title>全局编辑器</title>
   </FormGlobalizationEditor>
+  <FormInteraction>
+    <HyperlinkExternalDocuments>超链接至外部文档</HyperlinkExternalDocuments>
+    <HyperlinkUsingInteractionBookmark>超链接使用书签</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionTag>超链接使用标签</HyperlinkUsingInteractionTag>
+  </FormInteraction>
   <FormOptions>
     <AutoSave>自动保存</AutoSave>
     <AutoSaveReportToReportClass>自动保存报表到 C# 或 VB.NET 文件</AutoSaveReportToReportClass>
+    <BlankDashboard>空白仪表盘</BlankDashboard>
+    <BlankReport>空白报表</BlankReport>
     <Default>默认</Default>
     <Drawing>图纸</Drawing>
     <DrawMarkersWhenMoving>移动时绘制标注</DrawMarkersWhenMoving>
@@ -1002,10 +1383,14 @@
     <Minutes>{0} 分钟</Minutes>
     <SaveReportEvery>保存全部报表</SaveReportEvery>
     <SelectUILanguage>选择界面语言</SelectUILanguage>
+    <ShowDialogForms>显示对话框窗口</ShowDialogForms>
     <ShowDimensionLines>显示尺寸线</ShowDimensionLines>
+    <ShowOldGaugeEditor>显示旧测量编辑器</ShowOldGaugeEditor>
+    <StartScreen>启动屏幕</StartScreen>
     <title>选项</title>
     <UseComponentColor>用组件颜色填充</UseComponentColor>
     <UseLastFormat>使用上次格式</UseLastFormat>
+    <Welcome>欢迎</Welcome>
   </FormOptions>
   <FormPageSetup>
     <ApplyTo>应用于</ApplyTo>
@@ -1031,6 +1416,7 @@
     <labelMultipleFactor>多重因素:</labelMultipleFactor>
     <labelPaperSourceOfFirstPage>首页纸张来源：</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>其它页纸张来源:</labelPaperSourceOfOtherPages>
+    <labelSelectBrush>选择笔刷:</labelSelectBrush>
     <labelSelectColor>选择颜色:</labelSelectColor>
     <labelSelectFont>选择字体:</labelSelectFont>
     <labelSelectImage>选择图像:</labelSelectImage>
@@ -1074,13 +1460,20 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>添加样式</Add>
+    <AddCollectionName>添加集合名称</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>应用样式集合到报告组件</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>应用样式</ApplyStyles>
+    <ColorCollectionEditor>集合编辑器涂色</ColorCollectionEditor>
+    <CreateNewComponentStyle>创建新组建样式</CreateNewComponentStyle>
     <CreateStyleCollection>创建样式集</CreateStyleCollection>
     <Duplicate>复制样式</Duplicate>
+    <EditColors>[Edit Colors]</EditColors>
+    <FromStyle>来自风格</FromStyle>
     <GetStyle>从所选组件中获得样式</GetStyle>
     <MoreStyles>更多样式</MoreStyles>
+    <NotSpecified>未指定</NotSpecified>
     <Open>打开样式</Open>
+    <Predefined>预定义</Predefined>
     <qnApplyStyleCollection>你要把样式集应用到报表组件里吗?</qnApplyStyleCollection>
     <Remove>移除样式</Remove>
     <RemoveExistingStyles>移除已有样式</RemoveExistingStyles>
@@ -1125,6 +1518,7 @@
     <PageSizeForm>页面尺寸</PageSizeForm>
     <PagesManagerForm>页面管理器</PagesManagerForm>
     <PromptForm>输入登录信息到数据库</PromptForm>
+    <ReportWizard>报表向导</ReportWizard>
     <ServiceSelectForm>选择服务</ServiceSelectForm>
     <SqlExpressionsForm>SQL 表达式</SqlExpressionsForm>
     <SubReportPageSelectForm>选择子报表页面</SubReportPageSelectForm>
@@ -1190,6 +1584,38 @@
     <FindPrevious>搜索前一个</FindPrevious>
     <FindWhat>查找内容:</FindWhat>
   </FormViewerFind>
+  <Gauge>
+    <AddNewItem>新增项目</AddNewItem>
+    <BarRangeList>条范围列表</BarRangeList>
+    <GaugeEditorForm>测量编辑器</GaugeEditorForm>
+    <Kind>类</Kind>
+    <LinearBar>线性条</LinearBar>
+    <LinearMarker>线性标志</LinearMarker>
+    <LinearRange>线性范围</LinearRange>
+    <LinearRangeList>线性范围列表</LinearRangeList>
+    <LinearScale>线性标尺</LinearScale>
+    <LinearTickLabelCustom>线性刻度标签自定义</LinearTickLabelCustom>
+    <LinearTickLabelMajor>线性刻度主要标签</LinearTickLabelMajor>
+    <LinearTickLabelMinor>线性刻度次要标签</LinearTickLabelMinor>
+    <LinearTickMarkCustom>线性刻度标志自定义</LinearTickMarkCustom>
+    <LinearTickMarkMajor>线性刻度主要标志</LinearTickMarkMajor>
+    <LinearTickMarkMinor>线性刻度次要标志</LinearTickMarkMinor>
+    <Needle>指针</Needle>
+    <RadialBar>径向条</RadialBar>
+    <RadialMarker>径向标记</RadialMarker>
+    <RadialRange>径向范围</RadialRange>
+    <RadialRangeList>径向范围列表</RadialRangeList>
+    <RadialScale>径向缩放</RadialScale>
+    <RadialTickLabelCustom>径向刻度标签自定义</RadialTickLabelCustom>
+    <RadialTickLabelMajor>径向刻度主要标签</RadialTickLabelMajor>
+    <RadialTickLabelMinor>径向刻度次要标签</RadialTickLabelMinor>
+    <RadialTickMarkCustom>径向刻度标志自定义</RadialTickMarkCustom>
+    <RadialTickMarkMajor>径向刻度主要标志</RadialTickMarkMajor>
+    <RadialTickMarkMinor>径向刻度次要标志</RadialTickMarkMinor>
+    <StateIndicator>状态指示器</StateIndicator>
+    <StateIndicatorFilter>状态指示筛选</StateIndicatorFilter>
+    <TickCustomValue>刻度自定义值</TickCustomValue>
+  </Gauge>
   <Gui>
     <barname_cancel>取消</barname_cancel>
     <barname_caption>新建工具栏</barname_caption>
@@ -1281,11 +1707,13 @@
   <HelpComponents>
     <StiBarCode>该组件允许在报表中显示条形码.条形码数据以字符串的形式发送给对象.字符串可包含任意字符,但只允许被选定的图表可以显示符号.</StiBarCode>
     <StiChart>该组件允许在报表中显示图表.提供了不同类型的图表,,例如条形图, 折线图, 饼图, 圆环图, 线形表,面积图, 甘特图, 散点图等. </StiChart>
+    <StiChartElement>该元素允许图表显示在仪表盘中。不同类型的图表均可使用。</StiChartElement>
     <StiCheckBox>该组件用于在报告中显示复选框.它可以显示两种模式:“启用”或“禁用”.</StiCheckBox>
     <StiChildBand>子级区用于把两个带区输出到一个数据行.</StiChildBand>
     <StiClone>该组件用于克隆报表的一部分到报表的所需部分.克隆只适用于面板的内容.</StiClone>
     <StiColumnFooterBand>该组件用于在数据区上输出栏尾.栏尾在每个栏尾只能输出一次.放置在该组件上的所有组件也会在每个栏位下输出.</StiColumnFooterBand>
     <StiColumnHeaderBand>该组件用于在数据区上输出栏首.栏尾在每个栏首只能输出一次.放置在该组件上的所有组件也会在每个栏位下输出.</StiColumnHeaderBand>
+    <StiComboBoxElement>表示直接在控件中键入值或从现有选项列表中进行选择的组合框。</StiComboBoxElement>
     <StiContainer>该组件是可放置其他组件的矩形区域.当容器移动时,放置在其中的其他组件也会跟着移动. 容器可放置在带区和页面上.</StiContainer>
     <StiCrossDataBand>该带区是连接到数据源的.在数据源中有多少行它就会输出多少次.交叉区从左往右输出.</StiCrossDataBand>
     <StiCrossFooterBand>该带区用于输出一个交叉数据区的页脚.该带区在数据区的所有行后输出一次.交叉区从左往右输出.</StiCrossFooterBand>
@@ -1294,33 +1722,54 @@
     <StiCrossHeaderBand>该带区用于输出页眉.它用于与交叉区建立关系.交叉区从左往右输出.</StiCrossHeaderBand>
     <StiCrossTab>交叉表组件跟表格一样用于表示结构化数据.</StiCrossTab>
     <StiDataBand>数据区要连接到数据源,数据源有多少笔数据,它就输出多少次.</StiDataBand>
+    <StiDatePickerElement>该元素用于选择日期和时间。</StiDatePickerElement>
     <StiEmptyBand>该带区用于填充页面底部的空白区.其填充报表每页的空白区.</StiEmptyBand>
+    <StiFilterCategory>用于选择和筛选值的一种元素。</StiFilterCategory>
     <StiFooterBand>该带区用于输出数据区的总计.它放置在数据区的下面且在每次数据区的所有行输出后输出一次.</StiFooterBand>
+    <StiGauge>组件允许您在预定义的范围内显示值。它可以有不同的图形表示。</StiGauge>
+    <StiGaugeElement>元素允许您在预定义的范围内显示值。它可以有不同的图形表示。</StiGaugeElement>
     <StiGroupFooterBand>分组页脚区用于输出分组页脚.该带区放置在数据区的后面.并且该数据区是与分组页眉绑定的.每个分组属于特定的分组页眉.在没有分组页眉时分组页脚将不会输出.</StiGroupFooterBand>
     <StiGroupHeaderBand>该带区是渲染分组报表的基础之一.该组件的分组的显示信息放置在分组页眉上.该信息可以是分组名,日期,分组条件等.该带区在每个分组的开始输出.</StiGroupHeaderBand>
     <StiHeaderBand>该带区用于输出页眉.它与数据区一起使用.</StiHeaderBand>
     <StiHierarchicalBand>该带区要连接到数据源,数据源有多少笔数据,它就输出多少次.数据以树状结构输出.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>该组件用于输出横线.</StiHorizontalLinePrimitive>
     <StiImage>该组件用于输出图片.它支持下面的图片格式,像BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
+    <StiImageElement>该元素用于输出图像，它支持以下图形格式，如BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiIndicatorElement>元素显示输入数据之间的值差。</StiIndicatorElement>
+    <StiListBoxElement>元素允许从列表中选择项。</StiListBoxElement>
+    <StiMap>该组件用于显示地理目标数据。</StiMap>
+    <StiMapCategory>用于处理地图和数据的一组元素。</StiMapCategory>
+    <StiMapElement>该元素用于显示地理目标数据。</StiMapElement>
+    <StiOnlineMapElement>该元素用于在在线地图上显示地理标记。</StiOnlineMapElement>
     <StiOverlayBand>该带区用于在页面上输出水印.</StiOverlayBand>
     <StiPageFooterBand>该带区用于在每页底端输出信息，像页码,日期及其他附加信息.</StiPageFooterBand>
     <StiPageHeaderBand>该带区用于输出页眉如页码,日期及其他附加信息.它在每页的顶部输出.</StiPageHeaderBand>
     <StiPanel>它是一个矩形区域,其他组件如带区都可放置在其中.当移动面板时,其上面的组件也会跟着移动.面板可放置在带区和页面上.</StiPanel>
+    <StiPanelElement>矩形区域可以包含其他元素。当面板被移动时，其中的元素也被移动。</StiPanelElement>
+    <StiPivotTableElement>数据透视表元素用于将结构化数据表示为表。</StiPivotTableElement>
+    <StiProgressElement>元素显示输入数据的比率。它可以用不同的方式呈现-饼状图，环状图和条形图。</StiProgressElement>
     <StiRectanglePrimitive>该组件用于输出矩形.</StiRectanglePrimitive>
+    <StiRegionMapElement>该元素用于显示地理目标数据。</StiRegionMapElement>
     <StiReportSummaryBand>该带区用于输出整个报表的总计.它在报表的结尾输出一次.</StiReportSummaryBand>
     <StiReportTitleBand>该带区用于输出报表的标题.在报表的开始输出.</StiReportTitleBand>
     <StiRichText>该组件用于输出和编辑RTF文本.它也支持加载和保存RTF格式的文件.</StiRichText>
     <StiRoundedRectanglePrimitive>该组件用于输出圆角矩形.</StiRoundedRectanglePrimitive>
     <StiShape>该组件用于插入现成的形状,如箭头,斜线,反斜线,水平线,双竖线,椭圆,矩形,圆角矩形,双横线,三角形,垂直线.</StiShape>
+    <StiShapeElement>该元素用于插入现成的形状，如箭头、对角线向下、对角线向上、水平线、左右线、椭圆、矩形，圆角矩形，上下线，三角形，垂直线。</StiShapeElement>
     <StiSubReport>该组件用于在报表的不同位置输出附加数据.</StiSubReport>
     <StiTable>该组件为有组织的使用垂直列和水平行模型的数据元素的集合.</StiTable>
+    <StiTableElement>该元素是一组使用垂直列和水平行模型组织的数据元素。</StiTableElement>
     <StiText>该组件是输出数据作为文本的基本对象.</StiText>
+    <StiTextElement>该元素是将数据输出为文本的基本对象。</StiTextElement>
     <StiTextInCells>该组件用于在单元格中输出文本.它经常用于创建表格.</StiTextInCells>
+    <StiTreeViewBoxElement>元素用于以树的形式在下拉列表中选择值。</StiTreeViewBoxElement>
+    <StiTreeViewElement>表示以树的形式显示分层数据的元素。</StiTreeViewElement>
     <StiVerticalLinePrimitive>该组件用于输出竖线.</StiVerticalLinePrimitive>
     <StiWinControl>该组件允许显示.NET Framework中的可见对象.</StiWinControl>
     <StiZipCode>该组件用于输出邮政编码.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
+    <ActiveRelation>设置绑定两个表的优先关系。该关系用于数据转换和仪表盘。每个数据源中只能有一个活跃的关系。</ActiveRelation>
     <Align>改变选中组件的位置.</Align>
     <AlignBottom>组件内容底部对齐.</AlignBottom>
     <AlignCenter>组件内容中间对齐.</AlignCenter>
@@ -1357,6 +1806,7 @@
     <CopyStyle>复本样式</CopyStyle>
     <CopyToClipboard>复制到剪贴板</CopyToClipboard>
     <CurrencySymbol>选择货币符号.</CurrencySymbol>
+    <DashboardNew>创建新仪表盘。</DashboardNew>
     <DataStore>显示已注册在报表里的数据.</DataStore>
     <DateTimeFormat>选择所选组件的日期和时间样式.</DateTimeFormat>
     <DockingPanels>面板设置.</DockingPanels>
@@ -1390,6 +1840,7 @@
     <GridMode>用线或点显示网格.</GridMode>
     <ImageAlignment>将水印图像放到页面上.</ImageAlignment>
     <ImageTransparency>改变水印图像的透明度.</ImageTransparency>
+    <LineSpacing>选择文本之间或段落之间的间距。</LineSpacing>
     <Link>把组件链接到当前的容器.</Link>
     <LoadImage>从文件加载水印图像.</LoadImage>
     <Lock>锁定组件. 组件不能移动和变更尺寸.</Lock>
@@ -1545,6 +1996,7 @@
     <PutFeedPageCode>用指定字符在最终文档里插入页面.</PutFeedPageCode>
     <RangePages>处理页面数目. 你可以指定单一页面，页面列表(用逗号隔开), 或者指定范围，可通过设置范围的起始页和结束页，用 "-" 隔开。 例如: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>最小化页面底部的空白空间.</RemoveEmptySpaceAtBottom>
+    <Resources>显示资源面板</Resources>
     <RestrictEditing>限制Word文档的变化.</RestrictEditing>
     <Save>保存报表以便进一步使用.</Save>
     <ScaleHtml>导出后报表页面和项的尺寸.</ScaleHtml>
@@ -1572,6 +2024,12 @@
     <ZoomTwoPages>缩放报表以便在窗口中显示双页.</ZoomTwoPages>
     <ZoomTxt>报表尺寸: X - 改变水平尺寸, Y - 改变垂直尺寸.</ZoomTxt>
   </HelpViewer>
+  <Interface>
+    <Mouse>鼠标</Mouse>
+    <MouseDescription>优化鼠标使用</MouseDescription>
+    <Touch>触摸</Touch>
+    <TouchDescription>优化触摸使用</TouchDescription>
+  </Interface>
   <MainMenu>
     <menuCheckIssues>检查问题</menuCheckIssues>
     <menuContextClone>克隆...</menuContextClone>
@@ -1598,6 +2056,7 @@
     <menuEditDataParameterNew>新建参数...</menuEditDataParameterNew>
     <menuEditDataSourceNew>新建数据源...</menuEditDataSourceNew>
     <menuEditDataSourcesNew>新建数据源...</menuEditDataSourcesNew>
+    <menuEditDataTransformationNew>更新数据转换...</menuEditDataTransformationNew>
     <menuEditDelete>删除(&amp;D)</menuEditDelete>
     <menuEditEdit>编辑</menuEditEdit>
     <menuEditImportRelations>导入关系...</menuEditImportRelations>
@@ -1606,14 +2065,20 @@
     <menuEditRedoText>重做(&amp;R){0}</menuEditRedoText>
     <menuEditRelationNew>新建关系...</menuEditRelationNew>
     <menuEditRemoveUnused>移除未使用的项目</menuEditRemoveUnused>
+    <menuEditResourceNew>New Resource...</menuEditResourceNew>
     <menuEditSelectAll>全选(&amp;A)</menuEditSelectAll>
     <menuEditSynchronize>同步</menuEditSynchronize>
     <menuEditUndo>撤销(&amp;U)</menuEditUndo>
     <menuEditUndoText>撤销(&amp;U) {0}</menuEditUndoText>
     <menuEditVariableNew>新建变量...</menuEditVariableNew>
     <menuEditViewData>查看数据...</menuEditViewData>
+    <menuEmbedAllDataToResources>嵌入所有数据至资源</menuEmbedAllDataToResources>
     <menuFile>文件(&amp;F)</menuFile>
     <menuFileClose>关闭(&amp;C)</menuFileClose>
+    <menuFileDashboardDelete>删除仪表盘</menuFileDashboardDelete>
+    <menuFileDashboardNew>更新仪表盘</menuFileDashboardNew>
+    <menuFileDashboardOpen>&amp;打开仪表盘...</menuFileDashboardOpen>
+    <menuFileDashboardSaveAs>保存仪表盘 &amp;为...</menuFileDashboardSaveAs>
     <menuFileExit>退出(&amp;X)</menuFileExit>
     <menuFileExportXMLSchema>导出为XML Schema...</menuFileExportXMLSchema>
     <menuFileFormNew>新建窗体</menuFileFormNew>
@@ -1652,6 +2117,7 @@
     <menuInsertRowAbove>上方插入行</menuInsertRowAbove>
     <menuInsertRowBelow>下方插入行</menuInsertRowBelow>
     <menuJoinCells>连接单元格</menuJoinCells>
+    <menuMakeThisRelationActive>激活该关系</menuMakeThisRelationActive>
     <menuSelectColumn>选择列</menuSelectColumn>
     <menuSelectRow>选择行</menuSelectRow>
     <menuTable>表格</menuTable>
@@ -1678,11 +2144,184 @@
     <menuViewQuickInfoShowFieldsOnly>只显示字段</menuViewQuickInfoShowFieldsOnly>
     <menuViewShowGrid>显示网格</menuViewShowGrid>
     <menuViewShowHeaders>显示标题栏</menuViewShowHeaders>
+    <menuViewShowInsertTab>显示 '插入' 选项卡</menuViewShowInsertTab>
     <menuViewShowOrder>显示次序</menuViewShowOrder>
     <menuViewShowRulers>显示标尺</menuViewShowRulers>
+    <menuViewShowToolbox>显示工具箱</menuViewShowToolbox>
     <menuViewToolbars>工具栏</menuViewToolbars>
-    <menuEditResourceNew>New Resource...</menuEditResourceNew>
   </MainMenu>
+  <Map>
+    <LinkDataForm>链接数据</LinkDataForm>
+    <MapEditorForm>地图编辑器</MapEditorForm>
+  </Map>
+  <Messages>
+    <ChangeRequestTimeout>SQL查询的请求超时超过报表设计器的请求超时。将设计器组件的请求超时设置为不小于超过{0}秒。</ChangeRequestTimeout>
+    <DoNotShowAgain>不再显示</DoNotShowAgain>
+    <MessageTimeOutExpired>命令超时已过期!</MessageTimeOutExpired>
+    <RenderingWillOccurInTheInterpretationMode>查看共享报告时，以解释模式呈现!</RenderingWillOccurInTheInterpretationMode>
+    <ResourceCannotBeDeleted>资源 "{0}" 在报表中使用，无法删除!</ResourceCannotBeDeleted>
+    <ShareURLOfTheItemHasBeenUpdated>该项目的共享URL已更新!</ShareURLOfTheItemHasBeenUpdated>
+    <ShareYourReportYouShouldSave>为分享您的报表，请您将其保存到Stimulsoft云端!</ShareYourReportYouShouldSave>
+    <TextRegistrationSuccessfully>
+     注册成功完成!
+
+      电子邮件已发送至"{0}".
+      该邮件包含一个确认注册的链接。请您按照邮件中的链接进行操作，完成注册。
+    </TextRegistrationSuccessfully>
+    <ThisFieldIsNotSpecified>未指定该字段!</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>此功能将嵌入所有报表数据至报表资源中，并使您的报表独立。小心！您的所有数据设置将被更改，且不可复原。请先备份您的报表。{0}您确定吗?</ThisFunctionEmbedsAllReportDataToTheReport>
+  </Messages>
+  <Notices>
+    <AccessDenied>拒绝访问!</AccessDenied>
+    <AccountLocked>您的账户已被锁定。为解除锁定，请将您的请求发送至sales@stimulsoft.com!</AccountLocked>
+    <ActivationExpiriedBeforeFirstRelease>您订阅的报表编辑软件比我们的第一个版本早过期。服务器已发布！</ActivationExpiriedBeforeFirstRelease>
+    <ActivationLicenseIsNotCorrect>许可证文件不正确！请联系我们的销售部门sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
+    <ActivationLockedAccount>您的账户已被锁定。请联系我们的销售部门sales@stimulsoft.com!</ActivationLockedAccount>
+    <ActivationMaxActivationsReached>您已达到最大激活次数。请联系我们的销售部门sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationServerIsNotAvailableNow>报表编辑软件服务器现在不可用！请稍后再试！.</ActivationServerIsNotAvailableNow>
+    <ActivationServerVersionNotAllowed>您无法激活此版本的Stimulsoft Reports.服务器，因为您订阅的程序已过期！请登录您的账户，检查可以安装和激活的版本。</ActivationServerVersionNotAllowed>
+    <ActivationSomeTroublesOccurred>激活期间出错。请稍后再试。</ActivationSomeTroublesOccurred>
+    <ActivationUserNameOrPasswordIsWrong>您的用户名（电子邮件）或密码错误!</ActivationUserNameOrPasswordIsWrong>
+    <ActivationWrongAccountType>您的账户类型不允许激活服务器!</ActivationWrongAccountType>
+    <AuthAccountCantBeUsedNow>该账户现在不能使用!</AuthAccountCantBeUsedNow>
+    <AuthAccountIsNotActivated>账户尚未激活! 请按照注册时发送到电子邮件的说明进行操作。</AuthAccountIsNotActivated>
+    <AuthCantChangeRoleBecauseLastAdministratorUser>无法更改用户角色，因为这是此工作区中的最后一个管理员用户!</AuthCantChangeRoleBecauseLastAdministratorUser>
+    <AuthCantChangeRoleBecauseLastSupervisorUser>无法更改用户角色，因为这是此服务器上的最后一个主管用户!</AuthCantChangeRoleBecauseLastSupervisorUser>
+    <AuthCantChangeSystemRole>无法更改系统角色!</AuthCantChangeSystemRole>
+    <AuthCantDeleteHimselfUser>用户不能删除自己!</AuthCantDeleteHimselfUser>
+    <AuthCantDeleteLastAdministratorUser>无法删除该用户，因为这是此工作区的最后一个管理员用户!</AuthCantDeleteLastAdministratorUser>
+    <AuthCantDeleteLastSupervisorUser>无法删除用户，因为这是此服务器上的最后一个主管用户!</AuthCantDeleteLastSupervisorUser>
+    <AuthCantDeleteSystemRole>无法删除该角色，因为它是系统角色!</AuthCantDeleteSystemRole>
+    <AuthCantDisableUserBecauseLastAdministratorUser>无法禁用用户，因为这是此工作区的最后一个管理员用户!</AuthCantDisableUserBecauseLastAdministratorUser>
+    <AuthCantDisableUserBecauseLastSupervisorUser>无法禁用用户，因为这是此服务器上的最后一个主管用户!</AuthCantDisableUserBecauseLastSupervisorUser>
+    <AuthFirstNameIsNotSpecified>未指定名字!</AuthFirstNameIsNotSpecified>
+    <AuthLastNameIsNotSpecified>未指定姓氏!</AuthLastNameIsNotSpecified>
+    <AuthOAuthIdNotSpecified>未指定OAuth标识!</AuthOAuthIdNotSpecified>
+    <AuthPasswordIsNotCorrect>密码错误!</AuthPasswordIsNotCorrect>
+    <AuthPasswordIsNotSpecified>未指定密码!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooShort>密码太短 (最小长度为6个字符)!</AuthPasswordIsTooShort>
+    <AuthRoleCantBeDeletedBecauseUsedByUsers>无法删除该角色，其他用户正在使用.</AuthRoleCantBeDeletedBecauseUsedByUsers>
+    <AuthRoleNameAlreadyExists>具有指定名称 "{0}"的用户已存在!</AuthRoleNameAlreadyExists>
+    <AuthRoleNameIsSystemRole>具有指定名称"{0}"的角色是系统角色!</AuthRoleNameIsSystemRole>
+    <AuthSendMessageWithInstructions>带有进一步说明的消息已发送到"{0}"!</AuthSendMessageWithInstructions>
+    <AuthUserHasLoggedOut>您已注销!</AuthUserHasLoggedOut>
+    <AuthUserNameAlreadyExists>用户名（电子邮件）已存在!</AuthUserNameAlreadyExists>
+    <AuthUserNameIsNotSpecified>未指定用户名（电子邮件）!</AuthUserNameIsNotSpecified>
+    <AuthUserNameOrPasswordIsNotCorrect>用户名（电子邮件）或密码错误!</AuthUserNameOrPasswordIsNotCorrect>
+    <AuthUserNameShouldLookLikeAnEmailAddress>用户名应类似于电子邮件地址!</AuthUserNameShouldLookLikeAnEmailAddress>
+    <AuthWorkspaceNameAlreadyInUse>工作区名称已存在!</AuthWorkspaceNameAlreadyInUse>
+    <CommandTimeOut>处理命令的等待时间已过!</CommandTimeOut>
+    <Congratulations>祝贺您!</Congratulations>
+    <EndDateShouldBeGreaterThanCurrentDate>结束日期应大于当前日期!</EndDateShouldBeGreaterThanCurrentDate>
+    <EndDateShouldBeGreaterThanStartDate>结束日期应大于开始日期!</EndDateShouldBeGreaterThanStartDate>
+    <ExecutionError>执行错误</ExecutionError>
+    <IsIdentical>"{0}" 和 "{1}" 是相同的."</IsIdentical>
+    <IsNotAuthorized>无法访问"{0}"!</IsNotAuthorized>
+    <IsNotCorrect>"{0}" 错误!</IsNotCorrect>
+    <IsNotDeleted>"{0}"未删除!</IsNotDeleted>
+    <IsNotEqual>"{0}" 不相等!</IsNotEqual>
+    <IsNotFound>未找到"{0}" !</IsNotFound>
+    <IsNotRecognized>"{0}"无法识别!</IsNotRecognized>
+    <IsNotSpecified>"{0}"未指定!</IsNotSpecified>
+    <IsRequiredFile>您应该至少添加一个文件!</IsRequiredFile>
+    <ItemCantBeAttachedToItself>项目本身不能附加!</ItemCantBeAttachedToItself>
+    <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>无法删除元素"{0}" ，因为他们被附加到其他元素上!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
+    <ItemCantBeMovedToSpecifiedPlace>无法将项目移动至指定位置!</ItemCantBeMovedToSpecifiedPlace>
+    <ItemDoesNotSupport>该项不支持"{0}"!</ItemDoesNotSupport>
+    <KeyAndToKeyAreEqual>Key键和ToKey键是相等的!</KeyAndToKeyAreEqual>
+    <MessageMaximumFileSizeExceeded>注意! 您试图添加的文件大小超过了允许的最大量，是否仍要添加此文件（报表处理可能会显著减慢）?</MessageMaximumFileSizeExceeded>
+    <NewProduct>新产品已添加到您的订阅中!</NewProduct>
+    <NewVersionsAvailable>新版本可用!</NewVersionsAvailable>
+    <NotificationFailed>结果失败!</NotificationFailed>
+    <NotificationFilesUploadingComplete>文件上传成功.</NotificationFilesUploadingComplete>
+    <NotificationFileUploading>文件"{0}"正在上传.</NotificationFileUploading>
+    <NotificationItemDelete>项目正在删除.</NotificationItemDelete>
+    <NotificationItemDeleteComplete>已成功删除项目.</NotificationItemDeleteComplete>
+    <NotificationItemRestore>正在恢复项目.</NotificationItemRestore>
+    <NotificationItemRestoreComplete>已成功恢复项目.</NotificationItemRestoreComplete>
+    <NotificationItemTransfer>项目正在转移.</NotificationItemTransfer>
+    <NotificationItemTransferComplete>已成功转移项目.</NotificationItemTransferComplete>
+    <NotificationItemWaitingProcessing>项目正在等待处理.</NotificationItemWaitingProcessing>
+    <NotificationMailing>发送</NotificationMailing>
+    <NotificationMailingComplete>邮件"{0}" 已完成.</NotificationMailingComplete>
+    <NotificationMailingWaitingProcessing>邮件"{0}"正在等待处理.</NotificationMailingWaitingProcessing>
+    <NotificationOperationAborted>操作已终止!</NotificationOperationAborted>
+    <NotificationRecycleBinCleaning>回收站正在清理.</NotificationRecycleBinCleaning>
+    <NotificationRecycleBinCleaningComplete>回收站已成功清理.</NotificationRecycleBinCleaningComplete>
+    <NotificationRecycleBinWaitingProcessing>回收站清理正在等待处理.</NotificationRecycleBinWaitingProcessing>
+    <NotificationReportExporting>报表"{0}" 正在导出</NotificationReportExporting>
+    <NotificationReportExportingComplete>报表"{0}"已成功导出.</NotificationReportExportingComplete>
+    <NotificationReportRendering>正在打开报表"{0}"。</NotificationReportRendering>
+    <NotificationReportRenderingComplete>报表 "{0}" 已呈现.</NotificationReportRenderingComplete>
+    <NotificationReportWaitingProcessing>报表 "{0}"正在等待处理.</NotificationReportWaitingProcessing>
+    <NotificationSchedulerRunning>调度程序 "{0}" 正在运行.</NotificationSchedulerRunning>
+    <NotificationSchedulerRunningComplete>调度程序 "{0}" 完成运行.</NotificationSchedulerRunningComplete>
+    <NotificationSchedulerWaitingProcessing>调度程序 "{0}" 正在等待处理.</NotificationSchedulerWaitingProcessing>
+    <NotificationTitleFilesUploading>上传文件</NotificationTitleFilesUploading>
+    <NotificationTitleItemRefreshing>正在刷新"{0}"项目</NotificationTitleItemRefreshing>
+    <NotificationTitleItemTransferring>正在转移"{0}"项目</NotificationTitleItemTransferring>
+    <NotificationTitleMailing>正在邮寄"{0}"</NotificationTitleMailing>
+    <NotificationTitleReportExporting>正在导出"{0}"报告</NotificationTitleReportExporting>
+    <NotificationTitleReportRendering>正在打开"{0}"报告</NotificationTitleReportRendering>
+    <NotificationTitleSchedulerRunning>调度程序"{0}"正在运行</NotificationTitleSchedulerRunning>
+    <NotificationTransferring>"{0}"正在转移到"{1}".</NotificationTransferring>
+    <NotificationTransferringComplete>"{0}" 成功转移到"{1}".</NotificationTransferringComplete>
+    <NotificationValueIsNotCorrect>此值对类型{0}不正确</NotificationValueIsNotCorrect>
+    <OutOfRange>超出范围("{0}")!</OutOfRange>
+    <ParsingCommandException>处理指定的可拓展标记语言命令中的异常: {0}</ParsingCommandException>
+    <QuotaMaximumComputingCyclesCountExceeded>超出最大计算周期数。</QuotaMaximumComputingCyclesCountExceeded>
+    <QuotaMaximumDataRowsCountExceeded>超出数据源中的最大数据行。</QuotaMaximumDataRowsCountExceeded>
+    <QuotaMaximumFileSizeExceeded>超出最大文件大小。</QuotaMaximumFileSizeExceeded>
+    <QuotaMaximumItemsCountExceeded>超出最大项目数。</QuotaMaximumItemsCountExceeded>
+    <QuotaMaximumReportPagesCountExceeded>超出最大报表页数。</QuotaMaximumReportPagesCountExceeded>
+    <QuotaMaximumResourcesCountExceeded>超出最大资源数。</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumUsersCountExceeded>超出最大用户数。</QuotaMaximumUsersCountExceeded>
+    <QuotaMaximumWorkspacesCountExceeded>超出最大工作区数。</QuotaMaximumWorkspacesCountExceeded>
+    <SchedulerCantRunItSelf>调度程序无法自行运行！</SchedulerCantRunItSelf>
+    <SessionTimeOut>会话超时</SessionTimeOut>
+    <SnapshotAlreadyProcessed>报表快照已处理完毕!</SnapshotAlreadyProcessed>
+    <SpecifiedItemIsNot>"{0}"不是指定项!</SpecifiedItemIsNot>
+    <SubscriptionExpired>您的订阅已过期!</SubscriptionExpired>
+    <SubscriptionExpiredDate>您的订阅将于{0}过期</SubscriptionExpiredDate>
+    <SubscriptionsOut10>订阅还有10天到期!</SubscriptionsOut10>
+    <SubscriptionsOut20>订阅将在20天后到期!</SubscriptionsOut20>
+    <SuccessfullyRenewed>您的订阅已成功更新!</SuccessfullyRenewed>
+    <TrialToLicense>感谢您选择了Stimulsoft!</TrialToLicense>
+    <VersionCopyFromItem>从项目"{0}"中复制。</VersionCopyFromItem>
+    <VersionCreatedFromFile>从文件"{0}"中创建。</VersionCreatedFromFile>
+    <VersionCreatedFromItem>从项目"{0}"中创建。</VersionCreatedFromItem>
+    <VersionLoadedFromFile>从文件"{0}"中加载。</VersionLoadedFromFile>
+    <VersionNewItemCreation>新项目创建。</VersionNewItemCreation>
+    <Warning>警告</Warning>
+    <WindowClosePreventWhileUploading>部分文件正在上传，现在关闭页面会丢失。您确定要关闭页面吗？</WindowClosePreventWhileUploading>
+    <WithSpecifiedKeyIsNotFound>找不到具有指定键的"{0}"!</WithSpecifiedKeyIsNotFound>
+    <WouldYouLikeToUpdateNow>您想现在更新吗?</WouldYouLikeToUpdateNow>
+    <YourTimeSessionHasExpired>您的时间会话已过期!</YourTimeSessionHasExpired>
+    <YouUsingTrialVersion>您正在使用试用版!</YouUsingTrialVersion>
+  </Notices>
+  <NuGet>
+    <AlreadyDownloaded>已下载</AlreadyDownloaded>
+    <AssemblyLoadedSuccessfully>程序集已成功加载。</AssemblyLoadedSuccessfully>
+    <AssemblyNotFound>不能找到程序集{0}来使用{1}连接!</AssemblyNotFound>
+    <Author>作者</Author>
+    <Dependencies>依赖关系:</Dependencies>
+    <Download>下载</Download>
+    <DownloadAll>全部下载</DownloadAll>
+    <DownloadAndInstall>下载并安装</DownloadAndInstall>
+    <Downloads>下载:</Downloads>
+    <IAccept>我接受</IAccept>
+    <IDecline>我拒绝</IDecline>
+    <LicenceFormDesc>以下软件包要求您在安装前接受其许可条款。</LicenceFormDesc>
+    <LicenceFormDesc1>单击“我接受”即表示您同意上述软件包的许可条款。如果您不同意许可条款，请点击“我拒绝”。</LicenceFormDesc1>
+    <LicenceFormTitle>接受许可证</LicenceFormTitle>
+    <License>许可证:</License>
+    <ProjectUrl>项目网址:</ProjectUrl>
+    <ReportAbuse>报表滥用:</ReportAbuse>
+    <RetrievingInformation>正在检索信息...</RetrievingInformation>
+    <Tags>标签:</Tags>
+    <Title>NuGet的数据适配器</Title>
+    <ViewLicense>查看许可证</ViewLicense>
+  </NuGet>
   <Panels>
     <Dictionary>字典</Dictionary>
     <Messages>消息</Messages>
@@ -1697,57 +2336,123 @@
     <StiLoadPasswordForm>文档加密</StiLoadPasswordForm>
     <StiSavePasswordForm>密码</StiSavePasswordForm>
   </Password>
+  <Permissions>
+    <AdminAPI>应用程序编程接口</AdminAPI>
+    <AdminBackgroundTasks>后台任务</AdminBackgroundTasks>
+    <AdminPermissions>权限</AdminPermissions>
+    <AdminRecycleBin>回收站</AdminRecycleBin>
+    <AdminShare>分享</AdminShare>
+    <AdminTransfers>转移</AdminTransfers>
+    <ItemCalendars>日历</ItemCalendars>
+    <ItemCloudStorages>云储存</ItemCloudStorages>
+    <ItemContactLists>联系人列表</ItemContactLists>
+    <ItemDashboards>仪表盘</ItemDashboards>
+    <ItemDataSources>数据源</ItemDataSources>
+    <ItemFiles>文件</ItemFiles>
+    <ItemFolders>文件夹</ItemFolders>
+    <ItemReportSnapshots>报表快照</ItemReportSnapshots>
+    <ItemReportTemplates>报表模板</ItemReportTemplates>
+    <ItemSchedulers>调度程序</ItemSchedulers>
+    <ReportDesignerBusinessObjects>业务对象</ReportDesignerBusinessObjects>
+    <ReportDesignerDataColumns>数据列</ReportDesignerDataColumns>
+    <ReportDesignerDataConnections>数据连接</ReportDesignerDataConnections>
+    <ReportDesignerDataRelations>数据关系</ReportDesignerDataRelations>
+    <ReportDesignerDataSources>数据源</ReportDesignerDataSources>
+    <ReportDesignerDictionaryActions>字典操作</ReportDesignerDictionaryActions>
+    <ReportDesignerRestrictions>限制</ReportDesignerRestrictions>
+    <ReportDesignerVariables>变量</ReportDesignerVariables>
+    <SystemBackupRestore>备份&amp; 恢复</SystemBackupRestore>
+    <SystemEmailTemplates>邮件模板</SystemEmailTemplates>
+    <SystemLicensing>许可</SystemLicensing>
+    <SystemMonitoring>监控</SystemMonitoring>
+    <SystemUpdate>更新</SystemUpdate>
+    <SystemWorkspaces>工作区</SystemWorkspaces>
+    <TextAdministration>管理</TextAdministration>
+    <TextItems>项目</TextItems>
+    <TextReportDesigner>报表设计器</TextReportDesigner>
+    <TextSystem>系统</TextSystem>
+    <TextUsers>用户</TextUsers>
+    <UserHimself>自己</UserHimself>
+    <UserRoles>角色</UserRoles>
+    <Users>用户</Users>
+    <UserWorkspace>工作区</UserWorkspace>
+  </Permissions>
   <PlacementComponent>
     <MoveLeftFreeSpace>将控件移动到空白区域的左边，将控件高度增加到空白空间高度.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>将控件移动到空白空间的右边，将控件高度增加到空白空间高度.</MoveRightFreeSpace>
   </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>外观</AppearanceCategory>
+    <AreaCategory>区域</AreaCategory>
     <ArgumentCategory>参数</ArgumentCategory>
+    <AxisCategory>轴线</AxisCategory>
     <BarCodeAdditionalCategory>附加条形码</BarCodeAdditionalCategory>
     <BarCodeCategory>条形码</BarCodeCategory>
     <BehaviorCategory>行为</BehaviorCategory>
+    <CapNeedle>帽针</CapNeedle>
     <CellCategory>单元格</CellCategory>
     <ChartAdditionalCategory>附加图表</ChartAdditionalCategory>
     <ChartCategory>图标</ChartCategory>
+    <ChartMap>Map地图</ChartMap>
     <CheckCategory>复选</CheckCategory>
     <ColorsCategory>颜色</ColorsCategory>
     <ColumnsCategory>分栏</ColumnsCategory>
+    <ComboBoxCategory>组合框</ComboBoxCategory>
     <ControlCategory>控件</ControlCategory>
     <ControlsEventsCategory>控件事件</ControlsEventsCategory>
     <CrossTabCategory>交叉 Tab</CrossTabCategory>
+    <DashboardCategory>仪表盘</DashboardCategory>
     <DataCategory>数据</DataCategory>
+    <DatePickerCategory>日期选择器</DatePickerCategory>
     <DescriptionCategory>描述</DescriptionCategory>
     <DesignCategory>设计</DesignCategory>
     <DisplayCategory>显示</DisplayCategory>
     <ExportCategory>导出</ExportCategory>
     <ExportEventsCategory>导出事件</ExportEventsCategory>
     <FooterTableCategory>页脚表</FooterTableCategory>
+    <GaugeCategory>量规</GaugeCategory>
+    <GridLinesCategory>网格线</GridLinesCategory>
     <HeaderTableCategory>标题表</HeaderTableCategory>
     <HierarchicalCategory>分级</HierarchicalCategory>
     <ImageAdditionalCategory>附加图片</ImageAdditionalCategory>
     <ImageCategory>图片</ImageCategory>
+    <IndicatorCategory>指示符</IndicatorCategory>
+    <InterlacingCategory>交错</InterlacingCategory>
+    <LabelsCategory>标签</LabelsCategory>
+    <LegendCategory>图例</LegendCategory>
+    <ListBoxCategory>列表框</ListBoxCategory>
     <MainCategory>Main</MainCategory>
     <MarkerCategory>标注</MarkerCategory>
     <MiscCategory>其他</MiscCategory>
     <MouseEventsCategory>鼠标事件</MouseEventsCategory>
     <NavigationCategory>导航</NavigationCategory>
     <NavigationEventsCategory>导航事件</NavigationEventsCategory>
+    <Needle>指针</Needle>
+    <OnlineMapCategory>在线地图</OnlineMapCategory>
     <OptionsCategory>选项</OptionsCategory>
     <PageAdditionalCategory>附加页面</PageAdditionalCategory>
     <PageCategory>页面</PageCategory>
     <PageColumnBreakCategory>分页</PageColumnBreakCategory>
     <ParametersCategory>参数</ParametersCategory>
+    <PivotTableCategory>数据透视表</PivotTableCategory>
     <PositionCategory>位置</PositionCategory>
     <PrimitiveCategory>图元</PrimitiveCategory>
     <PrintEventsCategory>打印事件</PrintEventsCategory>
+    <ProgressCategory>进程</ProgressCategory>
+    <RegionMapCategory>区域地图</RegionMapCategory>
     <RenderEventsCategory>渲染事件</RenderEventsCategory>
+    <SeriesCategory>系列</SeriesCategory>
+    <SeriesLabelsCategory>系列标签</SeriesLabelsCategory>
     <ShapeCategory>形状</ShapeCategory>
+    <Size>尺寸</Size>
     <SubReportCategory>子报表</SubReportCategory>
     <TableCategory>表</TableCategory>
     <TextAdditionalCategory>附加文本</TextAdditionalCategory>
     <TextCategory>文本</TextCategory>
     <TitleCategory>标题</TitleCategory>
+    <TreeViewBoxCategory>树视图框</TreeViewBoxCategory>
+    <TreeViewCategory>树视图</TreeViewCategory>
+    <TrendLineCategory>趋势线</TrendLineCategory>
     <ValueCategory>值</ValueCategory>
     <ValueCloseCategory>收盘值</ValueCloseCategory>
     <ValueEndCategory>Value End</ValueEndCategory>
@@ -1972,6 +2677,8 @@
     <PictureBoxSizeModeCenterImage>图片中间</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>正常</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>适应图片</PictureBoxSizeModeStretchImage>
+    <RelationDirectionChildToParent>儿童与家长</RelationDirectionChildToParent>
+    <RelationDirectionParentToChild>家长与儿童</RelationDirectionParentToChild>
     <RightToLeftInherit>继承</RightToLeftInherit>
     <RightToLeftNo>否</RightToLeftNo>
     <RightToLeftYes>是</RightToLeftYes>
@@ -1979,6 +2686,10 @@
     <SelectionModeMultiSimple>简单复选</SelectionModeMultiSimple>
     <SelectionModeNone>无</SelectionModeNone>
     <SelectionModeOne>单选</SelectionModeOne>
+    <StiAnchorModeBottom>底部</StiAnchorModeBottom>
+    <StiAnchorModeLeft>左边</StiAnchorModeLeft>
+    <StiAnchorModeRight>右边</StiAnchorModeRight>
+    <StiAnchorModeTop>顶端</StiAnchorModeTop>
     <StiAngleAngle0>0度</StiAngleAngle0>
     <StiAngleAngle180>180度</StiAngleAngle180>
     <StiAngleAngle270>270度</StiAngleAngle270>
@@ -2022,6 +2733,11 @@
     <StiCapStyleOval>椭圆</StiCapStyleOval>
     <StiCapStyleSquare>正方形</StiCapStyleSquare>
     <StiCapStyleStealth>隐形</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>类别</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>类别 - 总额百分比</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>类别 - 值</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>总额百分比</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>值</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>底部</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>左端</StiChartTitleDockLeft>
     <StiChartTitleDockRight>右端</StiChartTitleDockRight>
@@ -2050,9 +2766,15 @@
     <StiCrossHorAlignmentLeft>居左</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>无</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>居右</StiCrossHorAlignmentRight>
+    <StiDateSelectionModeAutoRange>自动范围</StiDateSelectionModeAutoRange>
+    <StiDateSelectionModeRange>范围</StiDateSelectionModeRange>
+    <StiDateSelectionModeSingle>单独</StiDateSelectionModeSingle>
     <StiDateTimeTypeDate>日期</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>时间和日期</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>时间</StiDateTimeTypeTime>
+    <StiDisplayNameTypeFull>完整</StiDisplayNameTypeFull>
+    <StiDisplayNameTypeNone>无</StiDisplayNameTypeNone>
+    <StiDisplayNameTypeShort>简短</StiDisplayNameTypeShort>
     <StiDockStyleBottom>底部</StiDockStyleBottom>
     <StiDockStyleFill>填充</StiDockStyleFill>
     <StiDockStyleLeft>左</StiDockStyleLeft>
@@ -2079,6 +2801,8 @@
     <StiFilterConditionEqualTo>等于</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>大于</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>大于或等于</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsBlank>为空白</StiFilterConditionIsBlank>
+    <StiFilterConditionIsNotBlank>不为空白</StiFilterConditionIsNotBlank>
     <StiFilterConditionIsNotNull>不为空</StiFilterConditionIsNotNull>
     <StiFilterConditionIsNull>空</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>小于</StiFilterConditionLessThan>
@@ -2106,6 +2830,15 @@
     <StiFormStartModeOnEnd>在结束</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>在预览</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>在开始</StiFormStartModeOnStart>
+    <StiGaugeCalculationModeAuto>自动</StiGaugeCalculationModeAuto>
+    <StiGaugeCalculationModeCustom>自定义</StiGaugeCalculationModeCustom>
+    <StiGaugeRangeModePercentage>百分比</StiGaugeRangeModePercentage>
+    <StiGaugeRangeModeValue>值</StiGaugeRangeModeValue>
+    <StiGaugeRangeTypeColor>颜色</StiGaugeRangeTypeColor>
+    <StiGaugeRangeTypeNone>无</StiGaugeRangeTypeNone>
+    <StiGaugeTypeFullCircular>整圆</StiGaugeTypeFullCircular>
+    <StiGaugeTypeHalfCircular>半圆</StiGaugeTypeHalfCircular>
+    <StiGaugeTypeLinear>线性</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>升序</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>降序</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>无</StiGroupSortDirectionNone>
@@ -2125,10 +2858,23 @@
     <StiImageRotationRotate180>旋转 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>旋转 90° CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>旋转 90° CW</StiImageRotationRotate90CW>
+    <StiInteractionOnClick>无</StiInteractionOnClick>
+    <StiInteractionOnClickApplyFilter>应用过滤器</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>下行</StiInteractionOnClickDrillDown>
+    <StiInteractionOnClickOpenHyperlink>打开超链接</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickShowDashboard>显示仪表盘</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnHoverNone>无</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowHyperlink>显示超链接</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnHoverShowToolTip>显示工具提示</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>当前标签</StiInteractionOpenHyperlinkDestinationCurrentTab>
+    <StiInteractionOpenHyperlinkDestinationNewTab>新标签</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemSelectionModeMulti>多种</StiItemSelectionModeMulti>
+    <StiItemSelectionModeOne>一种</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>明细始终一起</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>第一条明细始终一起</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>第一行始终一起</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>无</StiKeepDetailsNone>
+    <StiLabelsPlacementAutoRotation>自动旋转</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>无</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>单线</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>双线</StiLabelsPlacementTwoLines>
@@ -2146,6 +2892,15 @@
     <StiLegendVertAlignmentCenter>居中</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>居顶</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>顶端外侧</StiLegendVertAlignmentTopOutside>
+    <StiMapModeChoropleth>专题地图</StiMapModeChoropleth>
+    <StiMapModeOnline>在线</StiMapModeOnline>
+    <StiMapTypeGroup>组</StiMapTypeGroup>
+    <StiMapTypeHeatmap>热图</StiMapTypeHeatmap>
+    <StiMapTypeHeatmapWithGroup>群热图</StiMapTypeHeatmapWithGroup>
+    <StiMapTypeIndividual>个体</StiMapTypeIndividual>
+    <StiMapTypeNone>无</StiMapTypeNone>
+    <StiMapTypePoints>点</StiMapTypePoints>
+    <StiMarkerAlignmentCenter>居中</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>居左</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>居右</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>圆</StiMarkerTypeCircle>
@@ -2161,6 +2916,16 @@
     <StiNestedFactorNormal>常规</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>双通道</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>单通道</StiNumberOfPassSinglePass>
+    <StiOnlineMapLocationTypeAdminDivision1>管理分配1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>管理分配2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>自动</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>国家范围</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>邻居</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>居住地</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>邮编1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>邮编2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>邮编3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>邮编4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>水平</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>水平靠右</StiOrientationHorizontalRight>
     <StiOrientationVertical>垂直</StiOrientationVertical>
@@ -2208,6 +2973,9 @@
     <StiProcessingDuplicatesTypeMerge>合并</StiProcessingDuplicatesTypeMerge>
     <StiProcessingDuplicatesTypeNone>无</StiProcessingDuplicatesTypeNone>
     <StiProcessingDuplicatesTypeRemoveText>移除文本</StiProcessingDuplicatesTypeRemoveText>
+    <StiProgressElementModeCircle>圆圈</StiProgressElementModeCircle>
+    <StiProgressElementModeDataBars>数据条</StiProgressElementModeDataBars>
+    <StiProgressElementModePie>饼状图</StiProgressElementModePie>
     <StiRadarStyleXFCircle>圆</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>多边形</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>自动</StiReportCacheModeAuto>
@@ -2225,6 +2993,9 @@
     <StiRestrictionsAllowResize>允许改变大小</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>允许选择</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>无</StiRestrictionsNone>
+    <StiSelectionModeFirst>第一</StiSelectionModeFirst>
+    <StiSelectionModeFromVariable>来自变量</StiSelectionModeFromVariable>
+    <StiSelectionModeNothing>无</StiSelectionModeNothing>
     <StiSeriesLabelsValueTypeArgument>参数</StiSeriesLabelsValueTypeArgument>
     <StiSeriesLabelsValueTypeArgumentValue>参数 - 值</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>序列标题</StiSeriesLabelsValueTypeSeriesTitle>
@@ -2258,6 +3029,8 @@
     <StiShowYAxisBoth>全部</StiShowYAxisBoth>
     <StiShowYAxisCenter>中间</StiShowYAxisCenter>
     <StiShowYAxisLeft>左</StiShowYAxisLeft>
+    <StiSizeModeAutoSize>自动调整尺寸</StiSizeModeAutoSize>
+    <StiSizeModeFit>适配</StiSizeModeFit>
     <StiSortDirectionAsc>升序</StiSortDirectionAsc>
     <StiSortDirectionDesc>降序</StiSortDirectionDesc>
     <StiSortDirectionNone>无</StiSortDirectionNone>
@@ -2312,6 +3085,8 @@
     <StiVertAlignmentTop>顶端</StiVertAlignmentTop>
     <StiViewModeNormal>正常</StiViewModeNormal>
     <StiViewModePageBreakPreview>跨页预览</StiViewModePageBreakPreview>
+    <StiXmlTypeAdoNetXml>ADO.NET XML</StiXmlTypeAdoNetXml>
+    <StiXmlTypeXml>XML</StiXmlTypeXml>
     <StringAlignmentCenter>居中</StringAlignmentCenter>
     <StringAlignmentFar>远</StringAlignmentFar>
     <StringAlignmentNear>近</StringAlignmentNear>
@@ -2384,6 +3159,7 @@
     <ProcessCellEvent>处理单元格</ProcessCellEvent>
     <ProcessChartEvent>处理图表</ProcessChartEvent>
     <RenderingEvent>正在渲染</RenderingEvent>
+    <ReportCacheProcessingEvent>报告缓存处理</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>所选索引改变后</SelectedIndexChangedEvent>
     <StateRestoreEvent>状态还原</StateRestoreEvent>
     <StateSaveEvent>状态保存</StateSaveEvent>
@@ -2439,6 +3215,7 @@
     <Sphere>球形</Sphere>
     <Trellis>方格</Trellis>
     <Vertical>竖线</Vertical>
+    <Wave>波</Wave>
     <Weave>编织线</Weave>
     <WideDownwardDiagonal>宽向下对角线</WideDownwardDiagonal>
     <WideUpwardDiagonal>宽向上对角线</WideUpwardDiagonal>
@@ -2447,6 +3224,7 @@
   <PropertyMain>
     <AcceptsReturn>接受返回</AcceptsReturn>
     <AcceptsTab>接受Tab</AcceptsTab>
+    <Actual>实际</Actual>
     <AddClearZone>添加空白区</AddClearZone>
     <Advanced>高级</Advanced>
     <AggregateFunction>聚合函数</AggregateFunction>
@@ -2473,22 +3251,33 @@
     <AllowUseForeColor>允许使用前景色</AllowUseForeColor>
     <AllowUseHorAlignment>允许使用水平对齐</AllowUseHorAlignment>
     <AllowUseImage>允许使用图像</AllowUseImage>
+    <AllowUseNegativeTextBrush>允许使用负文本画笔</AllowUseNegativeTextBrush>
     <AllowUserValues>允许用户值</AllowUserValues>
     <AllowUseTextBrush>允许使用文本刷</AllowUseTextBrush>
+    <AllowUseTextFormat>允许使用文本格式</AllowUseTextFormat>
     <AllowUseTextOptions>允许使用文本选项</AllowUseTextOptions>
     <AllowUseVertAlignment>允许使用垂直对齐</AllowUseVertAlignment>
+    <AllowUsingAsSqlParameter>允许作为结构化查询语言参数使用</AllowUsingAsSqlParameter>
     <AlternatingBackColor>交替背景色</AlternatingBackColor>
+    <AlternatingCellBackColor>交替单元格背景色</AlternatingCellBackColor>
+    <AlternatingCellForeColor>交替单元格前景色</AlternatingCellForeColor>
+    <AlternatingDataColor>交替数据颜色</AlternatingDataColor>
+    <AlternatingDataForeground>交替数据前景</AlternatingDataForeground>
+    <Anchor>锚点</Anchor>
     <Angle>角度</Angle>
     <Antialiasing>混叠效应</Antialiasing>
     <Area>区域</Area>
     <Argument>参数</Argument>
     <ArgumentDataColumn>参数列</ArgumentDataColumn>
+    <ArgumentFormat>参数格式</ArgumentFormat>
+    <Arguments>参数</Arguments>
     <ArrowHeight>箭头高度</ArrowHeight>
     <ArrowStyle>箭头样式</ArrowStyle>
     <ArrowWidth>箭头宽度</ArrowWidth>
     <AspectRatio>长宽比</AspectRatio>
     <Author>作者</Author>
     <Auto>自动</Auto>
+    <AutoCalculateCenterPoint>自动计算中心点</AutoCalculateCenterPoint>
     <AutoDataColumns>自动数据列</AutoDataColumns>
     <AutoDataRows>自动数据行</AutoDataRows>
     <AutoLocalizeReportOnRun>运行时自动本地化报表</AutoLocalizeReportOnRun>
@@ -2500,19 +3289,28 @@
     <AutoSeriesTitleDataColumn>自动序列数据列标题</AutoSeriesTitleDataColumn>
     <AutoWidth>自动宽度</AutoWidth>
     <AutoWidthType>自动宽度类型</AutoWidthType>
+    <AvailableInTheViewer>在查看器中可用</AvailableInTheViewer>
+    <AxisLabelsColor>轴标签颜色</AxisLabelsColor>
+    <AxisLineColor>轴线颜色</AxisLineColor>
+    <AxisTitleColor>轴标题颜色</AxisTitleColor>
     <AxisValue>轴值</AxisValue>
     <BackColor>背景色</BackColor>
     <Background>背景</Background>
     <BackgroundColor>背景颜色</BackgroundColor>
+    <BandColor>条纹颜色</BandColor>
     <BarCodeType>条形码类型</BarCodeType>
     <BasicStyleColor>基本类型颜色</BasicStyleColor>
     <Blend>混合</Blend>
     <Bold>粗体</Bold>
     <Bookmark>书签</Bookmark>
     <Border>边框</Border>
+    <BorderBrush>边界刷</BorderBrush>
     <BorderColor>边框颜色</BorderColor>
+    <BorderColorNegative>负值边框颜色</BorderColorNegative>
     <Borders>边框</Borders>
+    <BorderSize>边框尺寸</BorderSize>
     <BorderStyle>边框样式</BorderStyle>
+    <BorderWidth>边框宽度</BorderWidth>
     <Bottom>底端</Bottom>
     <BottomSide>底部大小</BottomSide>
     <BreakIfLessThan>小于时截断</BreakIfLessThan>
@@ -2521,6 +3319,7 @@
     <BrushType>格式刷类型</BrushType>
     <BusinessObject>Business Object</BusinessObject>
     <CacheAllData>缓存全部数据</CacheAllData>
+    <CacheTotals>缓存总计</CacheTotals>
     <CalcInvisible>计算列不可见</CalcInvisible>
     <CalculatedDataColumn>计算列</CalculatedDataColumn>
     <CalculationMode>计算模式</CalculationMode>
@@ -2531,10 +3330,17 @@
     <Categories>分类</Categories>
     <Category>分类</Category>
     <CategoryConnections>连接</CategoryConnections>
+    <CellBackColor>单元格背景色</CellBackColor>
     <CellDockStyle>单元停靠样式</CellDockStyle>
+    <CellForeColor>单元格前景色</CellForeColor>
     <CellHeight>单元格高度</CellHeight>
     <CellType>单元类型</CellType>
     <CellWidth>单元格宽度</CellWidth>
+    <Center>中心</Center>
+    <CenterPoint>中心点</CenterPoint>
+    <ChartAreaBorderColor>图表区边框颜色</ChartAreaBorderColor>
+    <ChartAreaBrush>图表区刷</ChartAreaBrush>
+    <ChartAreaShowShadow>图表区显示为阴影</ChartAreaShowShadow>
     <ChartType>图表类型</ChartType>
     <Checked>选中</Checked>
     <CheckOnClick>点击选择</CheckOnClick>
@@ -2550,6 +3356,7 @@
     <ChildSource>子数据源</ChildSource>
     <ClearFormat>清除格式</ClearFormat>
     <CloneContainer>克隆容器</CloneContainer>
+    <CloseValues>关闭值</CloseValues>
     <Code>代码</Code>
     <CodePage>代码页</CodePage>
     <Collapsed>折叠</Collapsed>
@@ -2558,17 +3365,23 @@
     <Collate>比较</Collate>
     <CollectionName>集合名称</CollectionName>
     <Color>颜色</Color>
+    <ColorDataColumn>数据列涂色</ColorDataColumn>
     <ColorEach>颜色每</ColorEach>
+    <ColorMeter>颜色</ColorMeter>
+    <Colors>颜色</Colors>
     <ColorScaleCondition>色度条件</ColorScaleCondition>
     <ColorScaleType>色度类型</ColorScaleType>
     <Column>栏</Column>
     <ColumnCount>列个数</ColumnCount>
     <ColumnDirection>方向</ColumnDirection>
     <ColumnGaps>间距</ColumnGaps>
+    <ColumnHeaderBackColor>列标头背景色</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>列标头前景色</ColumnHeaderForeColor>
     <ColumnHeadersVisible>标题可见</ColumnHeadersVisible>
     <Columns>栏数</Columns>
     <ColumnWidth>栏宽</ColumnWidth>
     <CommandTimeout>命令超时</CommandTimeout>
+    <CompanyPrefix>公司前缀</CompanyPrefix>
     <ComponentStyle>组件样式</ComponentStyle>
     <Condition>条件</Condition>
     <ConditionOptions>条件选项</ConditionOptions>
@@ -2588,6 +3401,7 @@
     <CreateFieldOnDoubleClick>双击创建字段</CreateFieldOnDoubleClick>
     <CreateLabel>创建标签</CreateLabel>
     <Culture>区域</Culture>
+    <CustomFonts>自定义字体</CustomFonts>
     <CustomFormat>自定义格式</CustomFormat>
     <CutPieList>Cut Pie列表</CutPieList>
     <Data>数据</Data>
@@ -2595,27 +3409,35 @@
     <DataAdapters>数据适配器</DataAdapters>
     <DataBarCondition>数据条条件</DataBarCondition>
     <DataBindings>数据绑定</DataBindings>
+    <DataColor>数据涂色</DataColor>
     <DataColumn>数据列</DataColumn>
     <DataColumns>数据列</DataColumns>
     <DataField>数据字段</DataField>
+    <DataForeground>数据前景</DataForeground>
     <DataRelation>数据关系</DataRelation>
     <DataRows>数据行</DataRows>
     <DataSource>数据源</DataSource>
     <DataSources>数据源</DataSources>
     <DataTextField>数据字段文本</DataTextField>
+    <DataTransformation>数据转换</DataTransformation>
     <DataType>数据类型</DataType>
+    <DataUrl>数据网址</DataUrl>
     <DateInfo>数据信息</DateInfo>
     <DateTimeStep>日期时间间隔</DateTimeStep>
     <Default>默认</Default>
+    <DefaultColor>默认颜色</DefaultColor>
     <DefaultHeightCell>默认单元高度</DefaultHeightCell>
     <DefaultNamespace>默认命名空间</DefaultNamespace>
     <DependentColumn>依赖列</DependentColumn>
     <DependentValue>依赖值</DependentValue>
     <Description>描述</Description>
+    <Destination>终点</Destination>
     <DetectUrls>指向 Urls</DetectUrls>
     <DialogResult>对话框结果</DialogResult>
     <Diameter>直径</Diameter>
     <Direction>方向</Direction>
+    <Disabled>残缺</Disabled>
+    <DisplayNameType>显示名称类型</DisplayNameType>
     <DisplayValue>显示值</DisplayValue>
     <Distance>距离</Distance>
     <DistanceBetweenTabs>制表符间距</DistanceBetweenTabs>
@@ -2642,6 +3464,10 @@
     <DropShadow>下拉阴影</DropShadow>
     <Duplex>全双工</Duplex>
     <Editable>可编辑</Editable>
+    <Effects>效果</Effects>
+    <EmptyBorderBrush>清空边框刷</EmptyBorderBrush>
+    <EmptyBorderWidth>清空边框宽度</EmptyBorderWidth>
+    <EmptyBrush>清空画刷</EmptyBrush>
     <EmptyValue>空值</EmptyValue>
     <Enabled>可用</Enabled>
     <EnableLog>使用日志</EnableLog>
@@ -2649,6 +3475,9 @@
     <EncodingType>编码类型</EncodingType>
     <EndCap>结束端</EndCap>
     <EndColor>结束颜色</EndColor>
+    <EndValue>结束值</EndValue>
+    <EndValues>结束值</EndValues>
+    <EndWidth>结束宽度</EndWidth>
     <EngineVersion>引擎版本</EngineVersion>
     <EnumeratorSeparator>Enumerator 分隔符</EnumeratorSeparator>
     <EnumeratorType>Enumerator 类型</EnumeratorType>
@@ -2660,11 +3489,15 @@
     <Exponential>指数</Exponential>
     <ExportAsImage>导出为图像</ExportAsImage>
     <Expression>表达式</Expression>
+    <ExtensionDigit>扩展数字</ExtensionDigit>
     <FaqPage>FAQ</FaqPage>
+    <Field>领域</Field>
     <FieldIs>字段是</FieldIs>
     <File>文件</File>
     <Fill>填充</Fill>
+    <FillColor>颜色填充</FillColor>
     <Filter>过滤</Filter>
+    <FilterElements>过滤元素</FilterElements>
     <FilterEngine>过滤引擎</FilterEngine>
     <FilterMode>过滤模式</FilterMode>
     <FilterOn>启用过滤</FilterOn>
@@ -2687,6 +3520,8 @@
     <FooterCanBreak>页脚可以中断</FooterCanBreak>
     <FooterCanGrow>页脚可以放大</FooterCanGrow>
     <FooterCanShrink>页脚可以收缩</FooterCanShrink>
+    <FooterColor>页脚颜色</FooterColor>
+    <FooterForeground>页脚前景</FooterForeground>
     <FooterPrintAtBottom>底部打印页脚</FooterPrintAtBottom>
     <FooterPrintIfEmpty>空白处打印页脚</FooterPrintIfEmpty>
     <FooterPrintOn>页脚打印</FooterPrintOn>
@@ -2702,19 +3537,28 @@
     <Functions>函数</Functions>
     <GlobalizationStrings>全局字符串</GlobalizationStrings>
     <GlobalizedName>全局名称</GlobalizedName>
+    <GlyphColor>字形颜色</GlyphColor>
+    <GridColor>网格颜色</GridColor>
     <GridLineColor>网格线颜色</GridLineColor>
     <GridLinesHor>水平网格线</GridLinesHor>
+    <GridLinesHorColor>网格线水平颜色</GridLinesHorColor>
     <GridLinesHorRight>网格线水平向右</GridLinesHorRight>
     <GridLineStyle>网格线样式</GridLineStyle>
     <GridLinesVert>垂直网格线</GridLinesVert>
+    <GridLinesVertColor>网格线垂直颜色</GridLinesVertColor>
     <GridOutline>网格大纲</GridOutline>
+    <Group>组</Group>
+    <GroupDataColumn>组数据列</GroupDataColumn>
+    <GroupMeter>组</GroupMeter>
     <GrowToHeight>适应高度</GrowToHeight>
     <HeaderBackColor>标题背景色</HeaderBackColor>
     <HeaderCanBreak>页眉可以中断</HeaderCanBreak>
     <HeaderCanGrow>页眉可以放大</HeaderCanGrow>
     <HeaderCanShrink>页眉可以缩小</HeaderCanShrink>
+    <HeaderColor>标题颜色</HeaderColor>
     <HeaderFont>标题字体</HeaderFont>
     <HeaderForeColor>标题前景色</HeaderForeColor>
+    <HeaderForeground>标题前景</HeaderForeground>
     <HeaderPrintAtBottom>底部打印页眉</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>空白处打印页眉</HeaderPrintIfEmpty>
     <HeaderPrintOn>页眉打印</HeaderPrintOn>
@@ -2723,14 +3567,25 @@
     <HeaderRowsCount>页眉行数</HeaderRowsCount>
     <Headers>页眉</Headers>
     <HeaderText>标题文本</HeaderText>
+    <HeatmapColors>热图颜色</HeatmapColors>
     <Height>高度</Height>
     <HideSeriesWithEmptyTitle>空标题的隐藏系列</HideSeriesWithEmptyTitle>
     <HideZeros>零不显示</HideZeros>
     <High>高</High>
     <HighlightCondition>高亮条件</HighlightCondition>
+    <HighValues>高值</HighValues>
     <HorAlignment>水平位置</HorAlignment>
     <HorSpacing>水平间距</HorSpacing>
+    <HotBackColor>热门背景色</HotBackColor>
+    <HotColumnHeaderBackColor>热门列标题背景色</HotColumnHeaderBackColor>
+    <HotForeColor>热门前景色</HotForeColor>
+    <HotGlyphColor>热门字形色</HotGlyphColor>
+    <HotHeaderColor>热门标题颜色</HotHeaderColor>
     <HotkeyPrefix>热键前缀</HotkeyPrefix>
+    <HotRowHeaderBackColor>热门行标题背景色</HotRowHeaderBackColor>
+    <HotSelectedBackColor>热门选定背景色</HotSelectedBackColor>
+    <HotSelectedForeColor>热门选定前景色</HotSelectedForeColor>
+    <HotSelectedGlyphColor>热门选定字形色</HotSelectedGlyphColor>
     <HtmlTags>Html Tag</HtmlTags>
     <Hyperlink>超链接</Hyperlink>
     <HyperlinkDataColumn>超链接数据列</HyperlinkDataColumn>
@@ -2753,13 +3608,18 @@
     <ImportRelations>导入关系</ImportRelations>
     <Increment>增量</Increment>
     <Indent>缩进</Indent>
+    <IndividualColor>个人颜色</IndividualColor>
     <InitBy>初始化通过</InitBy>
+    <InitialSelection>初始选择</InitialSelection>
     <Insert>插入</Insert>
     <Interaction>互动</Interaction>
     <InterlacedBrush>画笔行距</InterlacedBrush>
     <InterlacingHor>水平行距</InterlacingHor>
+    <InterlacingHorBrush>隔行水平刷</InterlacingHorBrush>
     <InterlacingVert>垂直行距</InterlacingVert>
+    <InterlacingVertBrush>隔行垂直刷</InterlacingVertBrush>
     <Interpolation>插值</Interpolation>
+    <IsReversed>反向</IsReversed>
     <Italic>斜体</Italic>
     <Item>项目</Item>
     <ItemHeight>项目高度</ItemHeight>
@@ -2773,31 +3633,49 @@
     <KeepGroupHeaderTogether>保持分组头在一起</KeepGroupHeaderTogether>
     <KeepGroupTogether>保持分组一起</KeepGroupTogether>
     <KeepHeaderTogether>保持页眉一起</KeepHeaderTogether>
+    <KeepMergedCellsTogether>将合并单元格保持在一起</KeepMergedCellsTogether>
     <KeepReportSummaryTogether>保持报表合计在一起</KeepReportSummaryTogether>
     <KeepSubReportTogether>保持子报表连接</KeepSubReportTogether>
     <Key>键值</Key>
     <KeyDataColumn>数据列key</KeyDataColumn>
+    <KeyMeter>键</KeyMeter>
+    <KeyMeters>键</KeyMeters>
     <Keys>密钥</Keys>
+    <Label>标签</Label>
     <LabelColor>标签颜色</LabelColor>
+    <LabelForeground>前景加标签</LabelForeground>
+    <LabelRotationMode>旋转模式加标签</LabelRotationMode>
     <Labels>标签</Labels>
     <LabelsColor>标签颜色</LabelsColor>
+    <LabelShadowForeground>前景加标签阴影</LabelShadowForeground>
     <LabelsOffset>Labels Offset</LabelsOffset>
     <Language>语言</Language>
     <LargeHeight>高度拉伸</LargeHeight>
     <LargeHeightFactor>高度拉伸倍数</LargeHeightFactor>
+    <Latitude>纬度</Latitude>
+    <Layout>布局</Layout>
     <Left>左</Left>
     <LeftSide>左边</LeftSide>
     <Legend>图例</Legend>
+    <LegendBorderColor>图例边框颜色</LegendBorderColor>
+    <LegendBrush>图例画刷</LegendBrush>
+    <LegendLabelsColor>图例标签颜色</LegendLabelsColor>
+    <LegendTitleColor>图例标题颜色</LegendTitleColor>
     <LegendValueType>图例值类型</LegendValueType>
     <Length>长度</Length>
     <LengthUnderLabels>标签下的长度</LengthUnderLabels>
     <Lighting>加亮</Lighting>
     <Linear>线性</Linear>
+    <LinearBarBorderBrush>线形条边框刷</LinearBarBorderBrush>
+    <LinearBarBrush>线形条刷</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>线形条空白边框刷 </LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>线形条空白刷</LinearBarEmptyBrush>
     <LineColor>线颜色</LineColor>
     <LineColorNegative>负值线条颜色</LineColorNegative>
     <LineLimit>线界限</LineLimit>
     <LineMarker>标记线</LineMarker>
     <LinesOfUnderline>下划线</LinesOfUnderline>
+    <LineSpacing>行间距</LineSpacing>
     <LineStyle>线样式</LineStyle>
     <LineWidth>线宽</LineWidth>
     <Linked>链接</Linked>
@@ -2817,11 +3695,20 @@
     <Locked>固定</Locked>
     <Logarithmic>对数的</Logarithmic>
     <LogarithmicScale>对数刻度</LogarithmicScale>
+    <Longitude>经度</Longitude>
     <Low>低</Low>
+    <LowValues>低值</LowValues>
+    <MajorInterval>主区间</MajorInterval>
+    <MapID>地图ID</MapID>
+    <Maps>地图</Maps>
+    <MapStyle>地图风格</MapStyle>
+    <MapType>地图类型</MapType>
+    <Margin>边缘</Margin>
     <Margins>页边距</Margins>
     <Marker>标记</Marker>
     <MarkerAlignment>对齐标注</MarkerAlignment>
     <MarkerBorder>书签边框</MarkerBorder>
+    <MarkerBrush>标记刷</MarkerBrush>
     <MarkerColor>标注颜色</MarkerColor>
     <MarkerSize>标注尺寸</MarkerSize>
     <MarkerType>标注类型</MarkerType>
@@ -2833,6 +3720,7 @@
     <MaxDropDownItems>最大下拉项目</MaxDropDownItems>
     <MaxHeight>最大高度</MaxHeight>
     <Maximum>最大值</Maximum>
+    <MaximumValue>最大值</MaximumValue>
     <MaxLength>最大长度</MaxLength>
     <MaxNumberOfLines>最大行号</MaxNumberOfLines>
     <MaxSize>最大尺寸</MaxSize>
@@ -2845,8 +3733,10 @@
     <MinHeight>最小高度</MinHeight>
     <Minimum>最小值</Minimum>
     <MinimumFontSize>最小字体尺寸</MinimumFontSize>
+    <MinimumValue>最低值</MinimumValue>
     <MinorColor>Minor 颜色</MinorColor>
     <MinorCount>Minor 数量</MinorCount>
+    <MinorInterval>次要间隔</MinorInterval>
     <MinorLength>Minor 长度</MinorLength>
     <MinorStyle>Minor 样式</MinorStyle>
     <MinorVisible>Minor 可见</MinorVisible>
@@ -2854,16 +3744,27 @@
     <MinSize>最小尺寸</MinSize>
     <MinValue>最小值</MinValue>
     <MinWidth>最小宽度</MinWidth>
+    <MirrorMargins>镜像边缘</MirrorMargins>
     <Mode>模式</Mode>
     <Module>模式</Module>
     <Move>移动</Move>
     <Multiline>多行</Multiline>
     <MultipleFactor>放大倍数</MultipleFactor>
     <Name>名称</Name>
+    <NameDataColumn>名称数据列</NameDataColumn>
     <NameInSource>命名源</NameInSource>
+    <NameMeter>名称</NameMeter>
     <NameParent>父级名称</NameParent>
     <Namespaces>命名空间</Namespaces>
+    <NeedleBorderBrush>针形边框刷</NeedleBorderBrush>
+    <NeedleBorderWidth>针形边框宽度</NeedleBorderWidth>
+    <NeedleBrush>针形刷</NeedleBrush>
+    <NeedleCapBorderBrush>针帽刷</NeedleCapBorderBrush>
+    <NeedleCapBrush>针帽刷</NeedleCapBrush>
     <Negative>负</Negative>
+    <NegativeColor>负色</NegativeColor>
+    <NegativeSeriesColors>负值系列颜色</NegativeSeriesColors>
+    <NegativeTextBrush>负值文本画刷</NegativeTextBrush>
     <NestedLevel>嵌套层级</NestedLevel>
     <NewColumnAfter>在后插入新列</NewColumnAfter>
     <NewColumnBefore>在前插入新列</NewColumnBefore>
@@ -2877,11 +3778,18 @@
     <NumberOfPass>通道数</NumberOfPass>
     <NumberOfValues>值数量</NumberOfValues>
     <OddStyle>奇数行样式</OddStyle>
+    <Offset>偏移</Offset>
+    <OffsetAngle>偏移角度</OffsetAngle>
+    <OnClick>点击</OnClick>
+    <OnDataManipulation>数据处理中</OnDataManipulation>
+    <OnHover>停留</OnHover>
     <OnlyText>仅文本</OnlyText>
+    <OpenValues>打开值</OpenValues>
     <Operation>操作</Operation>
     <Options>选项</Options>
     <Orientation>定向</Orientation>
     <OthersText>其他文本</OthersText>
+    <Padding>填充</Padding>
     <PageHeight>页高</PageHeight>
     <PageNumbers>页码</PageNumbers>
     <PageWidth>页宽</PageWidth>
@@ -2901,11 +3809,13 @@
     <Path>路径</Path>
     <PathData>路径数据</PathData>
     <PathSchema>路径图示</PathSchema>
+    <Pattern>模式</Pattern>
     <Placement>放置</Placement>
     <PlaceOnToolbox>放置工具箱</PlaceOnToolbox>
     <PointAtCenter>指向中心</PointAtCenter>
     <Position>位置</Position>
     <Positive>正</Positive>
+    <PositiveColor>正色</PositiveColor>
     <PreferredColumnWidth>首选列宽</PreferredColumnWidth>
     <PreferredRowHeight>首选行高</PreferredRowHeight>
     <PreventIntersection>防止重叠</PreventIntersection>
@@ -2928,27 +3838,41 @@
     <ProcessAt>过程</ProcessAt>
     <ProcessAtEnd>在结束时处理</ProcessAtEnd>
     <ProcessingDuplicates>正在处理重复</ProcessingDuplicates>
+    <ProcessTilde>工艺波浪</ProcessTilde>
     <ProductHomePage>产品主页</ProductHomePage>
     <RadarStyle>雷达样式</RadarStyle>
+    <RadialBarBorderBrush>径向栏边框刷</RadialBarBorderBrush>
+    <RadialBarBrush>径向栏画刷</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>径向栏空白边框刷</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>径向栏空白刷</RadialBarEmptyBrush>
+    <Radius>半径</Radius>
+    <RadiusMode>半径模式</RadiusMode>
     <Range>范围</Range>
+    <RangeColorMode>范围内颜色模式</RangeColorMode>
     <RangeFrom>来自</RangeFrom>
     <RangeScrollEnabled>范围滚动启用</RangeScrollEnabled>
     <RangeTo>到</RangeTo>
     <Ratio>比率</Ratio>
     <RatioY>Y比例</RatioY>
     <ReadOnly>只读</ReadOnly>
+    <RecentFonts>最近使用的字体</RecentFonts>
     <ReconnectOnEachRow>每行重新连接</ReconnectOnEachRow>
     <ReferencedAssemblies>引用程序集</ReferencedAssemblies>
     <Refresh>刷新</Refresh>
+    <RefreshTime>刷新时间</RefreshTime>
+    <Regular>常规</Regular>
     <Relation>关系</Relation>
     <RelationName>关系名称</RelationName>
     <Relations>关系</Relations>
+    <RelativeHeight>相对高度</RelativeHeight>
+    <RelativeWidth>相对宽度</RelativeWidth>
     <RemoveUnusedDataBeforeStart>在开始前移除未使用数据</RemoveUnusedDataBeforeStart>
     <RenderTo>渲染到</RenderTo>
     <ReportAlias>报表别名</ReportAlias>
     <ReportAuthor>报表作者</ReportAuthor>
     <ReportCacheMode>报表缓存模式</ReportCacheMode>
     <ReportDescription>报表描述</ReportDescription>
+    <ReportImage>报表图像</ReportImage>
     <ReportName>报表名称</ReportName>
     <ReportUnit>报表单位</ReportUnit>
     <RequestFromUser>要求用户输入</RequestFromUser>
@@ -2956,7 +3880,10 @@
     <ResetDataSource>重设数据源</ResetDataSource>
     <ResetPageNumber>重设页码</ResetPageNumber>
     <Resize>调整大小</Resize>
+    <Resource>资源</Resource>
+    <Resources>资源</Resources>
     <Restrictions>限制</Restrictions>
+    <RetrieveOnlyUsedData>仅检索已用数据</RetrieveOnlyUsedData>
     <ReturnValue>返回值</ReturnValue>
     <ReverseHor>水平翻转</ReverseHor>
     <ReverseVert>垂直翻转</ReverseVert>
@@ -2966,14 +3893,25 @@
     <Rotation>旋转</Rotation>
     <RotationLabels>旋转标签</RotationLabels>
     <Round>环绕</Round>
+    <RoundValues>圆值</RoundValues>
     <RowCount>行数</RowCount>
+    <RowHeaderBackColor>行标背景色</RowHeaderBackColor>
+    <RowHeaderForeColor>行标前景色</RowHeaderForeColor>
     <RowHeadersVisible>行标题可见</RowHeadersVisible>
     <RowHeaderWidth>行标题宽度</RowHeaderWidth>
+    <Rows>行</Rows>
     <Scale>缩放</Scale>
     <ScaleHor>水平缩放</ScaleHor>
     <ScriptLanguage>脚本语言</ScriptLanguage>
     <SegmentPerHeight>纵向连页</SegmentPerHeight>
     <SegmentPerWidth>横向连页</SegmentPerWidth>
+    <SelectedBackColor>选定背景色</SelectedBackColor>
+    <SelectedCellBackColor>选定单元格背景色</SelectedCellBackColor>
+    <SelectedCellForeColor>选定单元格前景色</SelectedCellForeColor>
+    <SelectedDataColor>选定数据颜色</SelectedDataColor>
+    <SelectedDataForeground>选定数据前景</SelectedDataForeground>
+    <SelectedForeColor>选定前景色</SelectedForeColor>
+    <SelectedGlyphColor>选定字形色</SelectedGlyphColor>
     <SelectedIndex>选择索引</SelectedIndex>
     <SelectedItem>选择项目</SelectedItem>
     <SelectedKey>所选键</SelectedKey>
@@ -2983,8 +3921,18 @@
     <SelectionEnabled>选择启用</SelectionEnabled>
     <SelectionForeColor>选择前景色</SelectionForeColor>
     <SelectionMode>选择模式</SelectionMode>
+    <SeparatorColor>分隔符颜色</SeparatorColor>
+    <SerialNumber>序列号</SerialNumber>
     <Series>序列</Series>
+    <SeriesColors>颜色系列</SeriesColors>
     <SeriesLabels>序列标签</SeriesLabels>
+    <SeriesLabelsBorderColor>标签边框颜色系列</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>标签画刷系列</SeriesLabelsBrush>
+    <SeriesLabelsColor>标签颜色系列</SeriesLabelsColor>
+    <SeriesLabelsLineColor>标签线颜色</SeriesLabelsLineColor>
+    <SeriesLighting>系列高亮</SeriesLighting>
+    <SeriesShowShadow>阴影展示系列</SeriesShowShadow>
+    <SeriesTitle>标题系列</SeriesTitle>
     <Shadow>阴影</Shadow>
     <ShadowBrush>阴影刷</ShadowBrush>
     <ShadowColor>阴影颜色</ShadowColor>
@@ -2992,6 +3940,9 @@
     <ShapeType>形状类型</ShapeType>
     <Shift>Shift</Shift>
     <ShiftMode>Shift 模式</ShiftMode>
+    <ShortName>简称</ShortName>
+    <ShortValue>简值</ShortValue>
+    <ShowAllValue>显示所有值</ShowAllValue>
     <ShowBehind>显示于后面</ShowBehind>
     <ShowDialog>显示对话框</ShowDialog>
     <ShowEdgeValues>显示边框值</ShowEdgeValues>
@@ -3000,6 +3951,7 @@
     <ShowInPercent>显示为百分比</ShowInPercent>
     <ShowLabels>显示标签</ShowLabels>
     <ShowLabelText>显示标签文本</ShowLabelText>
+    <ShowLegend>显示图例</ShowLegend>
     <ShowMarker>显示标注</ShowMarker>
     <ShowNulls>显示空值</ShowNulls>
     <ShowOnZeroValues>显示零值</ShowOnZeroValues>
@@ -3008,6 +3960,7 @@
     <ShowQuietZoneIndicator>显示空白区指示符</ShowQuietZoneIndicator>
     <ShowQuietZones>显示空白区</ShowQuietZones>
     <ShowScrollBar>显示滚动条</ShowScrollBar>
+    <ShowSelectAll>显示全选</ShowSelectAll>
     <ShowSeriesLabels>显示系列标签</ShowSeriesLabels>
     <ShowShadow>显示阴影</ShowShadow>
     <ShowTotal>显示合计</ShowTotal>
@@ -3023,7 +3976,13 @@
     <Simple>简单</Simple>
     <Size>尺寸</Size>
     <SizeMode>尺寸模式</SizeMode>
+    <Skin>皮肤</Skin>
     <SkipFirst>忽略第一个</SkipFirst>
+    <SkipIndices>跳过索引</SkipIndices>
+    <SkipIndicesObj>跳过索引</SkipIndicesObj>
+    <SkipMajorValues>跳过主要值</SkipMajorValues>
+    <SkipValues>跳过值</SkipValues>
+    <SkipValuesObj>跳过值</SkipValuesObj>
     <Smoothing>平滑</Smoothing>
     <Sort>排序</Sort>
     <SortBy>排序为</SortBy>
@@ -3043,6 +4002,8 @@
     <StartNewPage>开始新页</StartNewPage>
     <StartNewPageIfLessThan>开始新页如果少于</StartNewPageIfLessThan>
     <StartPosition>起始位置</StartPosition>
+    <StartValue>起始值</StartValue>
+    <StartWidth>起始宽度</StartWidth>
     <Step>步骤</Step>
     <Stop>停止</Stop>
     <StopBeforePage>停止于页面</StopBeforePage>
@@ -3050,12 +4011,17 @@
     <StoreImagesInResources>将图像存储在资源</StoreImagesInResources>
     <Stretch>拉伸</Stretch>
     <StretchToPrintArea>拉伸至打印区域</StretchToPrintArea>
+    <Strikeout>删除线</Strikeout>
     <StripBrush>长条刷</StripBrush>
     <Strips>长条</Strips>
+    <Stroke>笔画</Stroke>
+    <StructuredAppendPosition>结构化附加位置</StructuredAppendPosition>
+    <StructuredAppendTotal>结构化附加所有</StructuredAppendTotal>
     <Style>样式</Style>
     <StyleColors>样式颜色</StyleColors>
     <Styles>样式</Styles>
     <SubReportPage>子报表页面</SubReportPage>
+    <Summaries>总结</Summaries>
     <Summary>聚合</Summary>
     <SummaryExpression>统计表达式</SummaryExpression>
     <SummarySortDirection>统计排序方向</SummarySortDirection>
@@ -3063,12 +4029,15 @@
     <SummaryValues>合计值</SummaryValues>
     <SupplementCode>附加码</SupplementCode>
     <SupplementType>附加码类型</SupplementType>
+    <SweepAngle>扫略角度</SweepAngle>
+    <SystemFonts>系统字体</SystemFonts>
     <SystemVariable>系统变量</SystemVariable>
     <SystemVariables>系统变量</SystemVariables>
     <Table>表</Table>
     <Tag>标识</Tag>
     <TagDataColumn>标签数据列</TagDataColumn>
     <TagValue>标识值</TagValue>
+    <Target>目标</Target>
     <Tension>拉伸</Tension>
     <Text>文本</Text>
     <TextAfter>文本于后</TextAfter>
@@ -3081,6 +4050,16 @@
     <TextOnly>仅文本</TextOnly>
     <TextOptions>文本选项</TextOptions>
     <TextQuality>文本质量</TextQuality>
+    <TickLabelMajorFont>刻度标签主要字体</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>刻度标签主要文本刷</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>刻度标签次要字体</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>刻度标签次要文本刷</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>刻度线主要边框</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>刻度线主要边框宽度</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>刻度线主要画刷</TickMarkMajorBrush>
+    <TickMarkMinorBorder>刻度线次要边框</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>刻度线次要边框宽度</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>刻度线次要画刷</TickMarkMinorBrush>
     <Ticks>记号</Ticks>
     <Title>标题</Title>
     <TitleBeforeHeader>标题在页眉前</TitleBeforeHeader>
@@ -3099,8 +4078,12 @@
     <TopSide>顶部</TopSide>
     <Total>总计</Total>
     <Totals>总计</Totals>
+    <TrackColor>轨迹颜色</TrackColor>
     <TransparentColor>透明色</TransparentColor>
     <TrendLine>趋势线</TrendLine>
+    <TrendLineColor>趋线颜色</TrendLineColor>
+    <TrendLineShowShadow>趋线显示阴影</TrendLineShowShadow>
+    <TrimExcessData>清理多余数据</TrimExcessData>
     <Trimming>截断</Trimming>
     <Type>类型</Type>
     <TypeName>类型名称</TypeName>
@@ -3114,10 +4097,12 @@
     <UseAliases>使用别名</UseAliases>
     <UseExternalReport>使用外部报表</UseExternalReport>
     <UseParentStyles>使用父级样式</UseParentStyles>
+    <UseRangeColor>使用范围颜色</UseRangeColor>
     <UseRectangularSymbols>使用矩形符号</UseRectangularSymbols>
     <UseSeriesColor>使用序列颜色</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>显示列汇总</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>显示行汇总</UseStyleOfSummaryInRowTotal>
+    <UseValuesFromTheSpecifiedRange>使用指定范围内的值</UseValuesFromTheSpecifiedRange>
     <Value>值</Value>
     <ValueClose>收盘值</ValueClose>
     <ValueDataColumn>值数据列</ValueDataColumn>
@@ -3127,8 +4112,10 @@
     <ValueDataColumnLow>最低值数据列</ValueDataColumnLow>
     <ValueDataColumnOpen>开盘值数据列值</ValueDataColumnOpen>
     <ValueEnd>成交值</ValueEnd>
+    <ValueFormat>值的格式</ValueFormat>
     <ValueHigh>最高值</ValueHigh>
     <ValueLow>最低值</ValueLow>
+    <ValueMeter>值</ValueMeter>
     <ValueOpen>开盘值</ValueOpen>
     <Values>值</Values>
     <ValueType>值类型</ValueType>
@@ -3143,6 +4130,7 @@
     <Watermark>水印</Watermark>
     <Weight>加权</Weight>
     <WeightDataColumn>加权数据列</WeightDataColumn>
+    <Weights>权重</Weights>
     <Width>宽度</Width>
     <WindowState>窗口状态</WindowState>
     <WordWrap>自动换行</WordWrap>
@@ -3189,6 +4177,7 @@
     <BadFromObjectExpression>无效的 FROM 表达式!</BadFromObjectExpression>
     <BadObjectName>无效对象名!</BadObjectName>
     <BadSelectStatement>无效 SELECT 语句!</BadSelectStatement>
+    <Collections>集合</Collections>
     <CreateLinksFromForeignKeys>通过外键创建链接</CreateLinksFromForeignKeys>
     <CriteriaAlias>别名</CriteriaAlias>
     <CriteriaCriteria>过滤</CriteriaCriteria>
@@ -3258,6 +4247,7 @@
     <qnRemoveService>您是否想要移除服务?</qnRemoveService>
     <qnRemoveServiceCategory>您是否想要移除分类?</qnRemoveServiceCategory>
     <qnRemoveUnused>您是否想要移除未使用的项目?</qnRemoveUnused>
+    <qnReplace>是否要替换现有项{0}?</qnReplace>
     <qnRestoreDefault>恢复默认?</qnRestoreDefault>
     <qnSaveChanges>保存改变在{0}?</qnSaveChanges>
     <qnSaveChangesToPreviewPage>您是否要保存页面改变?</qnSaveChangesToPreviewPage>
@@ -3265,6 +4255,8 @@
     <qnSynchronizeServices>是否同步服务?</qnSynchronizeServices>
   </Questions>
   <Report>
+    <ActiveRelation>激活关系</ActiveRelation>
+    <Address>地址</Address>
     <Alphabetical>按字母顺序</Alphabetical>
     <Bands>栏</Bands>
     <Basic>基本</Basic>
@@ -3272,6 +4264,7 @@
     <BusinessObjects>Business Objects</BusinessObjects>
     <Categorized>分类</Categorized>
     <Charts>图表</Charts>
+    <Checking>检查...</Checking>
     <ClickForMoreDetails>单击获得详细资料</ClickForMoreDetails>
     <CollapseAll>全部折叠</CollapseAll>
     <Collection>集合</Collection>
@@ -3285,6 +4278,7 @@
     <CrossBands>交叉栏</CrossBands>
     <Dialogs>报表控件</Dialogs>
     <EditStyles>[编辑样式]</EditStyles>
+    <Enhancements>增强</Enhancements>
     <Errors>错误</Errors>
     <EventsTab>事件表</EventsTab>
     <ExpandAll>全部展开</ExpandAll>
@@ -3292,7 +4286,11 @@
     <FilterOr>或</FilterOr>
     <FinishingReport>正在完成报表</FinishingReport>
     <FirstPass>第一通道</FirstPass>
+    <FixedBugs>修复错误</FixedBugs>
+    <Gallery>图库</Gallery>
     <GenerateNewCode>生成新代码</GenerateNewCode>
+    <History>历史记录</History>
+    <Infographics>信息图</Infographics>
     <InfoMessage>{0} - {1} 查找.</InfoMessage>
     <InformationMessages>信息类消息</InformationMessages>
     <LabelAlias>别名:</LabelAlias>
@@ -3318,6 +4316,7 @@
     <LabelNestedLevel>嵌套等级:</LabelNestedLevel>
     <LabelPassword>密码:</LabelPassword>
     <LabelPixels>像素:</LabelPixels>
+    <LabelQueryTimeout>查询超时:</LabelQueryTimeout>
     <LabelSystemVariable>系统变量:</LabelSystemVariable>
     <LabelTotals>合计</LabelTotals>
     <LabelType>类型:</LabelType>
@@ -3325,8 +4324,11 @@
     <LabelValue>值:</LabelValue>
     <LoadingReport>正在加载报表</LoadingReport>
     <nameAssembly>程序集</nameAssembly>
+    <NewFeatures>新功能</NewFeatures>
     <No>否</No>
+    <NoFixes>没有修复或更新的版本!</NoFixes>
     <NoIssues>没有问题</NoIssues>
+    <NoNewVersions>没有可用的新版本!</NoNewVersions>
     <NotAssigned>未设置</NotAssigned>
     <Office2010Back>返回</Office2010Back>
     <PageNofM>{0} / {1}页</PageNofM>
@@ -3361,10 +4363,24 @@
     <StyleNote>注释</StyleNote>
     <StyleWarning>警告</StyleWarning>
     <Warnings>警告</Warnings>
+    <WhatsNewInVersion>{0}中的新功能</WhatsNewInVersion>
     <When>当{0} {1}</When>
     <WhenAnd>当 {0} {1} 及</WhenAnd>
     <WhenValueIs>当值是</WhenValueIs>
   </Report>
+  <ReportInfo>
+    <CheckIssuesAdditionalDescription>检查报表中的错误并找出其中的不准确之处。</CheckIssuesAdditionalDescription>
+    <EncryptWithPassword>使用密码加密</EncryptWithPassword>
+    <EncryptWithPasswordAdditionalDescription>设置密码，以防止未经授权使用报表。</EncryptWithPasswordAdditionalDescription>
+    <EncryptWithPasswordDescription>保护报表</EncryptWithPasswordDescription>
+    <Info>信息</Info>
+    <ReportOptions>报表选项</ReportOptions>
+    <ReportOptionsAdditionalDescription>设置报表中的基本信息和参数。</ReportOptionsAdditionalDescription>
+  </ReportInfo>
+  <ReportOpen>
+    <Browse>浏览</Browse>
+    <Import>输入</Import>
+  </ReportOpen>
   <Services>
     <categoryContextTools>文本工具</categoryContextTools>
     <categoryDesigner>设计</categoryDesigner>
@@ -3390,6 +4406,7 @@
     <Division>分割</Division>
     <Equal>等于</Equal>
     <EquationShapes>Equation Shapes</EquationShapes>
+    <Flowchart>流程图</Flowchart>
     <FlowchartCard>流程图：卡片</FlowchartCard>
     <FlowchartCollate>流程图：整理</FlowchartCollate>
     <FlowchartDecision>流程图：决策</FlowchartDecision>
@@ -3404,6 +4421,7 @@
     <Lines>线</Lines>
     <Minus>负号</Minus>
     <Multiply>乘</Multiply>
+    <Octagon>八角形</Octagon>
     <Oval>椭圆</Oval>
     <Parallelogram>平行四边形</Parallelogram>
     <Plus>加</Plus>
@@ -3533,13 +4551,22 @@
     <TextEditor>文本编辑器</TextEditor>
     <title>工具箱</title>
   </Toolbox>
+  <WelcomeScreen>
+    <Description>我们已为您挑选了我们认为最适合快速入门的报表。</Description>
+    <GetStartedWithDashboards>开始使用控制面板</GetStartedWithDashboards>
+    <GetStartedWithReports>开始使用报表</GetStartedWithReports>
+    <MoreReports>更多报表</MoreReports>
+    <Title>欢迎使用Stimulsoft演示版</Title>
+  </WelcomeScreen>
   <Wizards>
+    <BlankDashboard>空白仪表盘</BlankDashboard>
     <BlankReport>空白报表</BlankReport>
     <ButtonBack>&lt; 上一步(&amp;B)</ButtonBack>
     <ButtonCancel>取消</ButtonCancel>
     <ButtonFinish>完成(&amp;F)</ButtonFinish>
     <ButtonNext>下一步(&amp;N) &gt;</ButtonNext>
     <ColumnsOrder>列的顺序</ColumnsOrder>
+    <Company>公司</Company>
     <Custom>自定义</Custom>
     <DataRelation>关系</DataRelation>
     <DataSource>数据源</DataSource>
@@ -3547,20 +4574,24 @@
     <DefaultThemes>默认主题</DefaultThemes>
     <Filters>过滤</Filters>
     <FromReportTemplate>从报表模板</FromReportTemplate>
+    <groupCreateNewDashboard>新建仪表盘</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>创建新页面或窗体</groupCreateNewPageOrForm>
     <groupCreateNewReport>创建新报表</groupCreateNewReport>
     <Groups>分组</Groups>
     <groupTemplates>模板</groupTemplates>
     <groupWizards>向导</groupWizards>
     <infoColumnsOrder>按需要顺序调整列。</infoColumnsOrder>
+    <infoCompanyInfo>输入您的公司信息。</infoCompanyInfo>
     <infoDataSource>选择一个数据源。</infoDataSource>
     <infoDataSources>选择现有的数据源.</infoDataSources>
     <infoFilters>为您的报表过滤数据</infoFilters>
     <infoGroups>按需要选择列进行分组。</infoGroups>
     <infoLabelSettings>进行标签设置。</infoLabelSettings>
+    <infoLanguages>选择报表文化。</infoLanguages>
     <infoLayout>指定报表布局.</infoLayout>
     <infoRelation>选择一个现有的数据关系.</infoRelation>
     <infoSelectColumns>按所要显示的信息选择列。</infoSelectColumns>
+    <infoSelectTemplate>根据需要选择合适的模板。</infoSelectTemplate>
     <infoSort>设置数据排序。您可以选择多列进行排序。</infoSort>
     <infoThemes>选择报表主题.</infoThemes>
     <infoTotals>为您的报表添加摘要信息。</infoTotals>
@@ -3580,20 +4611,24 @@
     <LabelVerticalGap>垂直间距:</LabelVerticalGap>
     <LabelWidth>宽:</LabelWidth>
     <Layout>布局</Layout>
+    <Mapping>制图</Mapping>
     <MarkAll>全选(&amp;A)</MarkAll>
     <MasterDetailReport>报表主要细节</MasterDetailReport>
     <NoFunction>[无]</NoFunction>
     <OpenExistingReport>打开已经存在的报表</OpenExistingReport>
+    <OpenFrom>从{0}中打开</OpenFrom>
     <Preview>预览</Preview>
     <Reset>重置(&amp;R)</Reset>
     <Results>结果</Results>
     <SelectColumns>选择列</SelectColumns>
+    <SelectTemplate>模板</SelectTemplate>
     <Sort>排序</Sort>
     <StandardReport>标准报表</StandardReport>
     <Themes>主题</Themes>
     <title>新建报表</title>
     <Totals>总计</Totals>
     <UsingReportWizard>使用报表向导</UsingReportWizard>
+    <YouHaveNotOpenedAnyReportRecently>您最近没有打开任何报表。要浏览报告，请先单击“打开现有文件”。</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
   <Zoom>
     <EmptyValue>空值</EmptyValue>

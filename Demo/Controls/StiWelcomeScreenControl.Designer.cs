@@ -43,7 +43,6 @@ namespace Demo
             // 
             // 
             // 
-            this.checkBoxDisplayWelcomeScreenAgain.BackgroundStyle.Class = "";
             this.checkBoxDisplayWelcomeScreenAgain.BackgroundStyle.CornerType = Stimulsoft.Controls.Win.DotNetBar.eCornerType.Square;
             this.checkBoxDisplayWelcomeScreenAgain.CheckBoxPosition = Stimulsoft.Controls.Win.DotNetBar.eCheckBoxPosition.Right;
             this.checkBoxDisplayWelcomeScreenAgain.Checked = true;
@@ -62,6 +61,7 @@ namespace Demo
             // buttonSampleProject
             // 
             this.buttonSampleProject.ButtonStyle = 1;
+            this.buttonSampleProject.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonSampleProject.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonSampleProject.Header = "";
             this.buttonSampleProject.Image = global::Demo.Properties.Resources.buttonSampleProject;
@@ -69,9 +69,11 @@ namespace Demo
             this.buttonSampleProject.Name = "buttonSampleProject";
             this.buttonSampleProject.Size = new System.Drawing.Size(445, 68);
             this.buttonSampleProject.TabIndex = 18;
+            this.buttonSampleProject.Click += new System.EventHandler(this.buttons_Click);
             // 
             // buttonForum
             // 
+            this.buttonForum.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonForum.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonForum.Header = "";
             this.buttonForum.Image = global::Demo.Properties.Resources.buttonForum;
@@ -84,6 +86,7 @@ namespace Demo
             // buttonSupport
             // 
             this.buttonSupport.ButtonStyle = 1;
+            this.buttonSupport.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonSupport.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonSupport.Header = "";
             this.buttonSupport.Image = global::Demo.Properties.Resources.buttonSupport;
@@ -95,6 +98,7 @@ namespace Demo
             // 
             // buttonDocumentation
             // 
+            this.buttonDocumentation.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonDocumentation.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonDocumentation.Header = "";
             this.buttonDocumentation.Image = global::Demo.Properties.Resources.buttonDocumentation;
@@ -106,6 +110,7 @@ namespace Demo
             // 
             // buttonDemo
             // 
+            this.buttonDemo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonDemo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonDemo.Header = "";
             this.buttonDemo.Image = global::Demo.Properties.Resources.buttonDemo;
@@ -117,6 +122,7 @@ namespace Demo
             // buttonVideo
             // 
             this.buttonVideo.ButtonStyle = 1;
+            this.buttonVideo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonVideo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonVideo.Header = "";
             this.buttonVideo.Image = global::Demo.Properties.Resources.buttonVideo;

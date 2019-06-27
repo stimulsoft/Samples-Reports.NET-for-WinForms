@@ -199,6 +199,11 @@
     <LabelsOutside>之外</LabelsOutside>
     <LabelsOutsideBase>基点之外</LabelsOutsideBase>
     <LabelsOutsideEnd>顶点之外</LabelsOutsideEnd>
+    <LabelsStyleCategory>类别</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>类别 - 总额百分比</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>类别 - 值</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>总额百分比</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>值</LabelsStyleValue>
     <LabelsTwoColumns>两栏</LabelsTwoColumns>
     <LabelTextAfter>文本之后:</LabelTextAfter>
     <LabelTextBefore>文本之前:</LabelTextBefore>
@@ -357,6 +362,7 @@
     <Cancel>取消</Cancel>
     <CheckBoxMoveToRecycleBin>移至回收站</CheckBoxMoveToRecycleBin>
     <CheckBoxRememberMe>记住账号</CheckBoxRememberMe>
+    <CheckForUpdate>检查更新</CheckForUpdate>
     <Cloud>云端</Cloud>
     <Collection>集合</Collection>
     <Create>创建</Create>
@@ -602,6 +608,9 @@
   <Dashboard>
     <AddRange>添加范围</AddRange>
     <AfterGroupingData>分组数据后应用</AfterGroupingData>
+    <AllowUserDrillDown>允许用户下行查看</AllowUserDrillDown>
+    <AllowUserFiltering>允许用户筛选</AllowUserFiltering>
+    <AllowUserSorting>允许用户排序</AllowUserSorting>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>布尔过滤器</BooleanFilters>
     <CannotLoadDashboard>无法使用仪表盘加载报表.</CannotLoadDashboard>
@@ -610,6 +619,7 @@
     <ClearAllFormatting>清除所有格式</ClearAllFormatting>
     <ClearFilterFrom>从 '{0}'清除过滤器</ClearFilterFrom>
     <ColorScale>色标</ColorScale>
+    <ColumnInteractions>纵列交互</ColumnInteractions>
     <CustomFilter>自定义 &amp;过滤器...</CustomFilter>
     <DataBars>数据条</DataBars>
     <DataNotDefined>数据未定义</DataNotDefined>
@@ -617,10 +627,14 @@
     <Dimension>维</Dimension>
     <Dimensions>维</Dimensions>
     <DragDropDataFromDictionary>拖&amp;从字典中删除数据</DragDropDataFromDictionary>
+    <DrillDown>下行</DrillDown>
+    <DrillDownSelected>下行选择</DrillDownSelected>
+    <DrillUp>上行</DrillUp>
     <DuplicateField>重复字段</DuplicateField>
     <EditExpression>编辑表达式</EditExpression>
     <EmptyDashboardFooter>拖 &amp; 从工具箱中删除组件或从字典中删除数据</EmptyDashboardFooter>
     <EmptyDashboardHeader>仪表盘为空</EmptyDashboardHeader>
+    <FieldInteractions>字段交互</FieldInteractions>
     <FieldTypeRestrictionHint>只能使用 '{0}' 类型字段!</FieldTypeRestrictionHint>
     <FirstLastPoints>第一/最后一点</FirstLastPoints>
     <FirstRowIndex>第一行索引</FirstRowIndex>
@@ -647,6 +661,8 @@
     <RemoveField>删除字段</RemoveField>
     <ReplaceValues>替换值</ReplaceValues>
     <RowsCount>行数</RowsCount>
+    <RunFieldsEditor>运行字段编辑器</RunFieldsEditor>
+    <RunFieldsEditorInfo>运行字段编辑器来更改每个表纵列的交互。</RunFieldsEditorInfo>
     <SelectAll>(Select &amp;All)</SelectAll>
     <ShowAllValue>显示 (All)值</ShowAllValue>
     <ShowAsPercentages>显示为百分比</ShowAsPercentages>
@@ -831,6 +847,7 @@
     <AllowPrintDocument>允许打印文档</AllowPrintDocument>
     <Auto>自动的</Auto>
     <BandsFilter>带区过滤器:</BandsFilter>
+    <CancelExport>取消输出</CancelExport>
     <Color>颜色</Color>
     <Compressed>压缩</Compressed>
     <CompressToArchive>压缩存档</CompressToArchive>
@@ -984,6 +1001,7 @@
     <PdfFiles>Adobe PDF files (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG 图片 (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013文件 (*.pptx)|*.pptx</Ppt2007Files>
+    <ReportEmbededDataFiles>报告嵌入数据的模板(*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Files report (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>独立报表(*.exe)|*.exe</StandaloneReportFiles>
@@ -1097,6 +1115,8 @@
     <title>交叉报表设计</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <ClientId>用户ID</ClientId>
+    <ClientSecret>用户隐私</ClientSecret>
     <ConnectionString>连接字符串:</ConnectionString>
     <DashboardConnections>仪表盘连接</DashboardConnections>
     <DB2Edit>编辑 IBM DB2 连接</DB2Edit>
@@ -1135,6 +1155,7 @@
     <RelationDirection>关系方向:</RelationDirection>
     <ReportConnections>报表连接</ReportConnections>
     <SelectData>选择数据</SelectData>
+    <SpreadsheetId>电子表格ID</SpreadsheetId>
     <SqlCeEdit>编辑 SQLServerCE 连接</SqlCeEdit>
     <SqlCeNew>新建 SQLServerCE 连接</SqlCeNew>
     <SqlEdit>编辑 SQL 连接</SqlEdit>
@@ -2051,6 +2072,7 @@
     <menuEditUndoText>撤销(&amp;U) {0}</menuEditUndoText>
     <menuEditVariableNew>新建变量...</menuEditVariableNew>
     <menuEditViewData>查看数据...</menuEditViewData>
+    <menuEmbedAllDataToResources>嵌入所有数据至资源</menuEmbedAllDataToResources>
     <menuFile>文件(&amp;F)</menuFile>
     <menuFileClose>关闭(&amp;C)</menuFileClose>
     <menuFileDashboardDelete>删除仪表盘</menuFileDashboardDelete>
@@ -2147,6 +2169,7 @@
       该邮件包含一个确认注册的链接。请您按照邮件中的链接进行操作，完成注册。
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>未指定该字段!</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>此功能将嵌入所有报表数据至报表资源中，并使您的报表独立。小心！您的所有数据设置将被更改，且不可复原。请先备份您的报表。{0}您确定吗?</ThisFunctionEmbedsAllReportDataToTheReport>
   </Messages>
   <Notices>
     <AccessDenied>拒绝访问!</AccessDenied>
@@ -2395,6 +2418,7 @@
     <ImageCategory>图片</ImageCategory>
     <IndicatorCategory>指示符</IndicatorCategory>
     <InterlacingCategory>交错</InterlacingCategory>
+    <LabelsCategory>标签</LabelsCategory>
     <LegendCategory>图例</LegendCategory>
     <ListBoxCategory>列表框</ListBoxCategory>
     <MainCategory>Main</MainCategory>
@@ -2709,6 +2733,11 @@
     <StiCapStyleOval>椭圆</StiCapStyleOval>
     <StiCapStyleSquare>正方形</StiCapStyleSquare>
     <StiCapStyleStealth>隐形</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>类别</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>类别 - 总额百分比</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>类别 - 值</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>总额百分比</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>值</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>底部</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>左端</StiChartTitleDockLeft>
     <StiChartTitleDockRight>右端</StiChartTitleDockRight>
@@ -2831,6 +2860,7 @@
     <StiImageRotationRotate90CW>旋转 90° CW</StiImageRotationRotate90CW>
     <StiInteractionOnClick>无</StiInteractionOnClick>
     <StiInteractionOnClickApplyFilter>应用过滤器</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>下行</StiInteractionOnClickDrillDown>
     <StiInteractionOnClickOpenHyperlink>打开超链接</StiInteractionOnClickOpenHyperlink>
     <StiInteractionOnClickShowDashboard>显示仪表盘</StiInteractionOnClickShowDashboard>
     <StiInteractionOnHoverNone>无</StiInteractionOnHoverNone>
@@ -2870,6 +2900,7 @@
     <StiMapTypeIndividual>个体</StiMapTypeIndividual>
     <StiMapTypeNone>无</StiMapTypeNone>
     <StiMapTypePoints>点</StiMapTypePoints>
+    <StiMarkerAlignmentCenter>居中</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>居左</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>居右</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>圆</StiMarkerTypeCircle>
@@ -2885,6 +2916,16 @@
     <StiNestedFactorNormal>常规</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>双通道</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>单通道</StiNumberOfPassSinglePass>
+    <StiOnlineMapLocationTypeAdminDivision1>管理分配1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>管理分配2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>自动</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>国家范围</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>邻居</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>居住地</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>邮编1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>邮编2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>邮编3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>邮编4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>水平</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>水平靠右</StiOrientationHorizontalRight>
     <StiOrientationVertical>垂直</StiOrientationVertical>
@@ -3218,6 +3259,10 @@
     <AllowUseVertAlignment>允许使用垂直对齐</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>允许作为结构化查询语言参数使用</AllowUsingAsSqlParameter>
     <AlternatingBackColor>交替背景色</AlternatingBackColor>
+    <AlternatingCellBackColor>交替单元格背景色</AlternatingCellBackColor>
+    <AlternatingCellForeColor>交替单元格前景色</AlternatingCellForeColor>
+    <AlternatingDataColor>交替数据颜色</AlternatingDataColor>
+    <AlternatingDataForeground>交替数据前景</AlternatingDataForeground>
     <Anchor>锚点</Anchor>
     <Angle>角度</Angle>
     <Antialiasing>混叠效应</Antialiasing>
@@ -3252,6 +3297,7 @@
     <BackColor>背景色</BackColor>
     <Background>背景</Background>
     <BackgroundColor>背景颜色</BackgroundColor>
+    <BandColor>条纹颜色</BandColor>
     <BarCodeType>条形码类型</BarCodeType>
     <BasicStyleColor>基本类型颜色</BasicStyleColor>
     <Blend>混合</Blend>
@@ -3284,7 +3330,9 @@
     <Categories>分类</Categories>
     <Category>分类</Category>
     <CategoryConnections>连接</CategoryConnections>
+    <CellBackColor>单元格背景色</CellBackColor>
     <CellDockStyle>单元停靠样式</CellDockStyle>
+    <CellForeColor>单元格前景色</CellForeColor>
     <CellHeight>单元格高度</CellHeight>
     <CellType>单元类型</CellType>
     <CellWidth>单元格宽度</CellWidth>
@@ -3327,6 +3375,8 @@
     <ColumnCount>列个数</ColumnCount>
     <ColumnDirection>方向</ColumnDirection>
     <ColumnGaps>间距</ColumnGaps>
+    <ColumnHeaderBackColor>列标头背景色</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>列标头前景色</ColumnHeaderForeColor>
     <ColumnHeadersVisible>标题可见</ColumnHeadersVisible>
     <Columns>栏数</Columns>
     <ColumnWidth>栏宽</ColumnWidth>
@@ -3487,6 +3537,7 @@
     <Functions>函数</Functions>
     <GlobalizationStrings>全局字符串</GlobalizationStrings>
     <GlobalizedName>全局名称</GlobalizedName>
+    <GlyphColor>字形颜色</GlyphColor>
     <GridColor>网格颜色</GridColor>
     <GridLineColor>网格线颜色</GridLineColor>
     <GridLinesHor>水平网格线</GridLinesHor>
@@ -3525,7 +3576,16 @@
     <HighValues>高值</HighValues>
     <HorAlignment>水平位置</HorAlignment>
     <HorSpacing>水平间距</HorSpacing>
+    <HotBackColor>热门背景色</HotBackColor>
+    <HotColumnHeaderBackColor>热门列标题背景色</HotColumnHeaderBackColor>
+    <HotForeColor>热门前景色</HotForeColor>
+    <HotGlyphColor>热门字形色</HotGlyphColor>
+    <HotHeaderColor>热门标题颜色</HotHeaderColor>
     <HotkeyPrefix>热键前缀</HotkeyPrefix>
+    <HotRowHeaderBackColor>热门行标题背景色</HotRowHeaderBackColor>
+    <HotSelectedBackColor>热门选定背景色</HotSelectedBackColor>
+    <HotSelectedForeColor>热门选定前景色</HotSelectedForeColor>
+    <HotSelectedGlyphColor>热门选定字形色</HotSelectedGlyphColor>
     <HtmlTags>Html Tag</HtmlTags>
     <Hyperlink>超链接</Hyperlink>
     <HyperlinkDataColumn>超链接数据列</HyperlinkDataColumn>
@@ -3606,6 +3666,10 @@
     <LengthUnderLabels>标签下的长度</LengthUnderLabels>
     <Lighting>加亮</Lighting>
     <Linear>线性</Linear>
+    <LinearBarBorderBrush>线形条边框刷</LinearBarBorderBrush>
+    <LinearBarBrush>线形条刷</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>线形条空白边框刷 </LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>线形条空白刷</LinearBarEmptyBrush>
     <LineColor>线颜色</LineColor>
     <LineColorNegative>负值线条颜色</LineColorNegative>
     <LineLimit>线界限</LineLimit>
@@ -3644,6 +3708,7 @@
     <Marker>标记</Marker>
     <MarkerAlignment>对齐标注</MarkerAlignment>
     <MarkerBorder>书签边框</MarkerBorder>
+    <MarkerBrush>标记刷</MarkerBrush>
     <MarkerColor>标注颜色</MarkerColor>
     <MarkerSize>标注尺寸</MarkerSize>
     <MarkerType>标注类型</MarkerType>
@@ -3691,7 +3756,13 @@
     <NameMeter>名称</NameMeter>
     <NameParent>父级名称</NameParent>
     <Namespaces>命名空间</Namespaces>
+    <NeedleBorderBrush>针形边框刷</NeedleBorderBrush>
+    <NeedleBorderWidth>针形边框宽度</NeedleBorderWidth>
+    <NeedleBrush>针形刷</NeedleBrush>
+    <NeedleCapBorderBrush>针帽刷</NeedleCapBorderBrush>
+    <NeedleCapBrush>针帽刷</NeedleCapBrush>
     <Negative>负</Negative>
+    <NegativeColor>负色</NegativeColor>
     <NegativeSeriesColors>负值系列颜色</NegativeSeriesColors>
     <NegativeTextBrush>负值文本画刷</NegativeTextBrush>
     <NestedLevel>嵌套层级</NestedLevel>
@@ -3710,6 +3781,7 @@
     <Offset>偏移</Offset>
     <OffsetAngle>偏移角度</OffsetAngle>
     <OnClick>点击</OnClick>
+    <OnDataManipulation>数据处理中</OnDataManipulation>
     <OnHover>停留</OnHover>
     <OnlyText>仅文本</OnlyText>
     <OpenValues>打开值</OpenValues>
@@ -3737,11 +3809,13 @@
     <Path>路径</Path>
     <PathData>路径数据</PathData>
     <PathSchema>路径图示</PathSchema>
+    <Pattern>模式</Pattern>
     <Placement>放置</Placement>
     <PlaceOnToolbox>放置工具箱</PlaceOnToolbox>
     <PointAtCenter>指向中心</PointAtCenter>
     <Position>位置</Position>
     <Positive>正</Positive>
+    <PositiveColor>正色</PositiveColor>
     <PreferredColumnWidth>首选列宽</PreferredColumnWidth>
     <PreferredRowHeight>首选行高</PreferredRowHeight>
     <PreventIntersection>防止重叠</PreventIntersection>
@@ -3767,6 +3841,10 @@
     <ProcessTilde>工艺波浪</ProcessTilde>
     <ProductHomePage>产品主页</ProductHomePage>
     <RadarStyle>雷达样式</RadarStyle>
+    <RadialBarBorderBrush>径向栏边框刷</RadialBarBorderBrush>
+    <RadialBarBrush>径向栏画刷</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>径向栏空白边框刷</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>径向栏空白刷</RadialBarEmptyBrush>
     <Radius>半径</Radius>
     <RadiusMode>半径模式</RadiusMode>
     <Range>范围</Range>
@@ -3817,6 +3895,8 @@
     <Round>环绕</Round>
     <RoundValues>圆值</RoundValues>
     <RowCount>行数</RowCount>
+    <RowHeaderBackColor>行标背景色</RowHeaderBackColor>
+    <RowHeaderForeColor>行标前景色</RowHeaderForeColor>
     <RowHeadersVisible>行标题可见</RowHeadersVisible>
     <RowHeaderWidth>行标题宽度</RowHeaderWidth>
     <Rows>行</Rows>
@@ -3825,6 +3905,13 @@
     <ScriptLanguage>脚本语言</ScriptLanguage>
     <SegmentPerHeight>纵向连页</SegmentPerHeight>
     <SegmentPerWidth>横向连页</SegmentPerWidth>
+    <SelectedBackColor>选定背景色</SelectedBackColor>
+    <SelectedCellBackColor>选定单元格背景色</SelectedCellBackColor>
+    <SelectedCellForeColor>选定单元格前景色</SelectedCellForeColor>
+    <SelectedDataColor>选定数据颜色</SelectedDataColor>
+    <SelectedDataForeground>选定数据前景</SelectedDataForeground>
+    <SelectedForeColor>选定前景色</SelectedForeColor>
+    <SelectedGlyphColor>选定字形色</SelectedGlyphColor>
     <SelectedIndex>选择索引</SelectedIndex>
     <SelectedItem>选择项目</SelectedItem>
     <SelectedKey>所选键</SelectedKey>
@@ -3834,6 +3921,7 @@
     <SelectionEnabled>选择启用</SelectionEnabled>
     <SelectionForeColor>选择前景色</SelectionForeColor>
     <SelectionMode>选择模式</SelectionMode>
+    <SeparatorColor>分隔符颜色</SeparatorColor>
     <SerialNumber>序列号</SerialNumber>
     <Series>序列</Series>
     <SeriesColors>颜色系列</SeriesColors>
@@ -3962,6 +4050,16 @@
     <TextOnly>仅文本</TextOnly>
     <TextOptions>文本选项</TextOptions>
     <TextQuality>文本质量</TextQuality>
+    <TickLabelMajorFont>刻度标签主要字体</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>刻度标签主要文本刷</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>刻度标签次要字体</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>刻度标签次要文本刷</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>刻度线主要边框</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>刻度线主要边框宽度</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>刻度线主要画刷</TickMarkMajorBrush>
+    <TickMarkMinorBorder>刻度线次要边框</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>刻度线次要边框宽度</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>刻度线次要画刷</TickMarkMinorBrush>
     <Ticks>记号</Ticks>
     <Title>标题</Title>
     <TitleBeforeHeader>标题在页眉前</TitleBeforeHeader>
@@ -3980,6 +4078,7 @@
     <TopSide>顶部</TopSide>
     <Total>总计</Total>
     <Totals>总计</Totals>
+    <TrackColor>轨迹颜色</TrackColor>
     <TransparentColor>透明色</TransparentColor>
     <TrendLine>趋势线</TrendLine>
     <TrendLineColor>趋线颜色</TrendLineColor>
@@ -4452,6 +4551,13 @@
     <TextEditor>文本编辑器</TextEditor>
     <title>工具箱</title>
   </Toolbox>
+  <WelcomeScreen>
+    <Description>我们已为您挑选了我们认为最适合快速入门的报表。</Description>
+    <GetStartedWithDashboards>开始使用控制面板</GetStartedWithDashboards>
+    <GetStartedWithReports>开始使用报表</GetStartedWithReports>
+    <MoreReports>更多报表</MoreReports>
+    <Title>欢迎使用Stimulsoft演示版</Title>
+  </WelcomeScreen>
   <Wizards>
     <BlankDashboard>空白仪表盘</BlankDashboard>
     <BlankReport>空白报表</BlankReport>

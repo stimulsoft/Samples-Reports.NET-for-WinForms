@@ -108,9 +108,11 @@
     <Export>Export</Export>
     <ForceDelete>Force Delete</ForceDelete>
     <Help>Help</Help>
+    <Install>Install</Install>
     <LessOptions>Less Options</LessOptions>
     <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
     <More>More</More>
+    <MoreApps>More Apps</MoreApps>
     <MoreOptions>More Options</MoreOptions>
     <MoveLeft>Move Left</MoveLeft>
     <MoveRight>Move Right</MoveRight>
@@ -136,10 +138,10 @@
     <Test>Test</Test>
     <Up>Up</Up>
     <Upload>Upload</Upload>
+    <Waiting>Waiting</Waiting>
     <Yes>&amp;Yes</Yes>
   </Buttons>
   <Chart>
-    <Pareto>Pareto</Pareto>
     <AddCondition>&amp;Add Condition</AddCondition>
     <AddConstantLine>Add Constant Line</AddConstantLine>
     <AddFilter>&amp;Add Filter</AddFilter>
@@ -199,6 +201,11 @@
     <LabelsOutside>Outside</LabelsOutside>
     <LabelsOutsideBase>Outside Base</LabelsOutsideBase>
     <LabelsOutsideEnd>Outside End</LabelsOutsideEnd>
+    <LabelsStyleCategory>Category</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>Category - Percent Of Total</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>Category - Value</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>Percent Of Total</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>Value</LabelsStyleValue>
     <LabelsTwoColumns>Two Columns</LabelsTwoColumns>
     <LabelTextAfter>Text After:</LabelTextAfter>
     <LabelTextBefore>Text Before:</LabelTextBefore>
@@ -220,6 +227,7 @@
     <MoveStripUp>Move Strip Up</MoveStripUp>
     <NoConditions>No Conditions</NoConditions>
     <NoFilters>No Filters</NoFilters>
+    <Pareto>Pareto</Pareto>
     <Pictorial>Pictorial</Pictorial>
     <Pie>Pie</Pie>
     <Radar>Radar</Radar>
@@ -332,11 +340,12 @@
     <VerticalNone>&lt;b&gt;None&lt;/b&gt;&lt;br&gt;Do not display Vertical Gridlines&lt;/br&gt;</VerticalNone>
   </ChartRibbon>
   <Cloud>
-    <CheckForUpdate>Check for Update</CheckForUpdate>
     <AcceptTermsAndPrivacyPolicy>I read and accept the {0} and {1}</AcceptTermsAndPrivacyPolicy>
     <AccountSettings>Account Settings</AccountSettings>
     <AddAPlace>Add a Place</AddAPlace>
     <AreYouSureYouWantDeleteReport>Are you sure you want to delete "{0}" report from disk?</AreYouSureYouWantDeleteReport>
+    <Authorize>Authorize</Authorize>
+    <AuthorizeWithLicenseKey>Authorize with License Key</AuthorizeWithLicenseKey>
     <ButtonChangePassword>Change Password</ButtonChangePassword>
     <ButtonDeleteAll>Delete All</ButtonDeleteAll>
     <ButtonDesign>Design Report</ButtonDesign>
@@ -357,6 +366,7 @@
     <Cancel>Cancel</Cancel>
     <CheckBoxMoveToRecycleBin>Move to Recycle Bin</CheckBoxMoveToRecycleBin>
     <CheckBoxRememberMe>Remember Me</CheckBoxRememberMe>
+    <CheckForUpdate>Check for Update</CheckForUpdate>
     <Cloud>Cloud</Cloud>
     <Collection>Collection</Collection>
     <Create>Create</Create>
@@ -379,10 +389,14 @@
     <HyperlinkForgotPassword>Forgot password</HyperlinkForgotPassword>
     <HyperlinkHavePassword>Have password</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>Register FREE account</HyperlinkRegisterAccount>
+    <InstallSamples>Install Samples</InstallSamples>
     <labelCollectionName>Collection Name:</labelCollectionName>
     <LabelCreated>Created:</LabelCreated>
     <LabelCreateFolder>Create a new category in which you can place other items.</LabelCreateFolder>
+    <LabelAddFolder>Add your local folder with reports and dashboards.</LabelAddFolder>
+    <LabelAddCloudFolder>Connect your Stimulsoft Cloud folder with reports and dashboards.</LabelAddCloudFolder>
     <LabelCreateReportTemplate>Create report template.</LabelCreateReportTemplate>
+    <LabelCreateNewDashboard>Create new dashboard.</LabelCreateNewDashboard>
     <LabelCurrentPassword>Current Password:</LabelCurrentPassword>
     <LabelDataFile>Data File:</LabelDataFile>
     <LabelDataUrl>Data URL:</LabelDataUrl>
@@ -407,6 +421,7 @@
     <labelUserName>User Name:</labelUserName>
     <License>License</License>
     <LicenseInformation>License Information</LicenseInformation>
+    <LicenseKey>License Key</LicenseKey>
     <Login>Log In</Login>
     <NofM>{0}: {1} of {2}</NofM>
     <Open>Open</Open>
@@ -420,8 +435,10 @@
     <OperationUpload>Upload '{0}' to Server</OperationUpload>
     <page>page</page>
     <Platforms>Platforms</Platforms>
+    <Port>Port</Port>
     <PrivacyPolicy>Privacy</PrivacyPolicy>
     <Products>Products</Products>
+    <Proxy>Proxy</Proxy>
     <PublishMessage>In order to publish this report you should submit it to our service publish.stimulsoft.com</PublishMessage>
     <questionOpenThisFile>Are you sure want to open '{0}' item?</questionOpenThisFile>
     <questionOverrideItem>Do you really want to override '{0}' item?</questionOverrideItem>
@@ -460,7 +477,10 @@
     <TextItemsWorkspace>Workspace</TextItemsWorkspace>
     <TextLastName>Last Name</TextLastName>
     <TextModify>Modify</TextModify>
+    <TextNoFavoriteFiles>No favorite files</TextNoFavoriteFiles>
+    <TextNoFiles>No files</TextNoFiles>
     <TextNoNotifications>No Notifications</TextNoNotifications>
+    <TextNoRecentFiles>No recent files</TextNoRecentFiles>
     <TextOwner>Owner</TextOwner>
     <TextProfile>Profile</TextProfile>
     <TextReports>Reports</TextReports>
@@ -529,6 +549,14 @@
     <WizardRegisteredShareDescription>External access only for registered users from any workspace.</WizardRegisteredShareDescription>
     <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
   </Cloud>
+  <Desktop>
+    <ButtonCreateReport>Create Report</ButtonCreateReport>
+    <ButtonCreateDashboard>Create Dashboard</ButtonCreateDashboard>
+    <ButtonAddFolder>Add Folder</ButtonAddFolder>
+    <ButtonAddCloud>Add Cloud</ButtonAddCloud>
+    <InstallSamplesDesc>Let's install our sample projects. They will help you learn the basics of working with our software.</InstallSamplesDesc>
+    <DoYouWantToInstallReports>Do you want to install templates of reports and dashboards?</DoYouWantToInstallReports>
+  </Desktop>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiChart>Chart</StiChart>
@@ -602,6 +630,9 @@
   <Dashboard>
     <AddRange>Add Range</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
+    <AllowUserDrillDown>Allow User Drill Down</AllowUserDrillDown>
+    <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
+    <AllowUserSorting>Allow User Sorting</AllowUserSorting>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
     <CannotLoadDashboard>You cannot load a report with dashboards.</CannotLoadDashboard>
@@ -610,6 +641,7 @@
     <ClearAllFormatting>Clear All Formatting</ClearAllFormatting>
     <ClearFilterFrom>Clear Filter from '{0}'</ClearFilterFrom>
     <ColorScale>Color Scale</ColorScale>
+    <ColumnInteractions>Column Interactions</ColumnInteractions>
     <CustomFilter>Custom &amp;Filter...</CustomFilter>
     <DataBars>Data Bars</DataBars>
     <DataNotDefined>Data is not defined</DataNotDefined>
@@ -617,10 +649,14 @@
     <Dimension>Dimension</Dimension>
     <Dimensions>Dimensions</Dimensions>
     <DragDropDataFromDictionary>Drag &amp; drop data from Dictionary</DragDropDataFromDictionary>
+    <DrillDown>Drill Down</DrillDown>
+    <DrillDownSelected>Drill Down Selected</DrillDownSelected>
+    <DrillUp>Drill Up</DrillUp>
     <DuplicateField>Duplicate Field</DuplicateField>
     <EditExpression>Edit Expression</EditExpression>
     <EmptyDashboardFooter>Drag &amp; drop component from ToolBox or data from Dictionary</EmptyDashboardFooter>
     <EmptyDashboardHeader>Dashboard is empty</EmptyDashboardHeader>
+    <FieldInteractions>Field Interactions</FieldInteractions>
     <FieldTypeRestrictionHint>Only '{0}' type field can be used!</FieldTypeRestrictionHint>
     <FirstLastPoints>First / Last Points</FirstLastPoints>
     <FirstRowIndex>First Row Index</FirstRowIndex>
@@ -646,7 +682,10 @@
     <RemoveAllFields>Remove All Fields</RemoveAllFields>
     <RemoveField>Remove Field</RemoveField>
     <ReplaceValues>Replace Values</ReplaceValues>
+    <ReportSnapshot>Report Snapshot</ReportSnapshot>
     <RowsCount>Rows Count</RowsCount>
+    <RunFieldsEditor>Run Fields Editor</RunFieldsEditor>
+    <RunFieldsEditorInfo>Run the Fields Editor to change interaction of each table column.</RunFieldsEditorInfo>
     <SelectAll>(Select &amp;All)</SelectAll>
     <ShowAllValue>Show (All) Value</ShowAllValue>
     <ShowAsPercentages>Show as Percentages</ShowAsPercentages>
@@ -659,8 +698,6 @@
     <StringFilters>String Filters</StringFilters>
     <TransformationHint>Click on the table header to apply sorting, filtering or change data. This transformation will be applied only to the data of this item.</TransformationHint>
     <Trend>Trend</Trend>
-    <AllowUserSorting>Allow User Sorting</AllowUserSorting>
-    <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
   </Dashboard>
   <Database>
     <Connection>Connection</Connection>
@@ -690,6 +727,7 @@
     <CurrentYear>Current Year</CurrentYear>
     <FirstQuarter>First Quarter</FirstQuarter>
     <FourthQuarter>Fourth Quarter</FourthQuarter>
+    <Index>Index</Index>
     <Last14Days>Last 14 Days</Last14Days>
     <Last30Days>Last 30 Days</Last30Days>
     <Last7Days>Last 7 Days</Last7Days>
@@ -702,17 +740,16 @@
     <PreviousQuarter>Previous Quarter</PreviousQuarter>
     <PreviousWeek>Previous Week</PreviousWeek>
     <PreviousYear>Previous Year</PreviousYear>
+    <Quarter>Quarter</Quarter>
     <QuarterToDate>Quarter To Date</QuarterToDate>
     <SecondQuarter>Second Quarter</SecondQuarter>
     <ThirdQuarter>Third Quarter</ThirdQuarter>
     <Today>Today</Today>
     <Tomorrow>Tomorrow</Tomorrow>
     <WeekToDate>Week To Date</WeekToDate>
+    <Year>Year</Year>
     <YearToDate>Year To Date</YearToDate>
     <Yesterday>Yesterday</Yesterday>
-    <Quarter>Quarter</Quarter>
-    <Year>Year</Year>
-    <Index>Index</Index>
   </DatePickerRanges>
   <DesignerFx>
     <AlreadyExists>'{0}' already exists.</AlreadyExists>
@@ -833,6 +870,7 @@
     <AllowPrintDocument>Allow Print Document</AllowPrintDocument>
     <Auto>Auto</Auto>
     <BandsFilter>Bands Filter:</BandsFilter>
+    <CancelExport>Cancel Export</CancelExport>
     <Color>Color</Color>
     <Compressed>Compressed</Compressed>
     <CompressToArchive>Compress to Archive</CompressToArchive>
@@ -854,6 +892,7 @@
     <ExceptEditableFields>Except Editable Fields</ExceptEditableFields>
     <ExportDataOnly>Export Data Only</ExportDataOnly>
     <ExportEachPageToSheet>Export Each Page to Sheet</ExportEachPageToSheet>
+    <Exporting>Exporting</Exporting>
     <ExportingCalculatingCoordinates>Calculating Coordinates</ExportingCalculatingCoordinates>
     <ExportingCreatingDocument>Creating Document</ExportingCreatingDocument>
     <ExportingFormatingObjects>Formatting Objects</ExportingFormatingObjects>
@@ -986,6 +1025,7 @@
     <PdfFiles>Adobe PDF Files (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG Images (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013 Files (*.pptx)|*.pptx</Ppt2007Files>
+    <ReportEmbededDataFiles>Report Templates with Embedded Data (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Report Templates (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Standalone Reports (*.exe)|*.exe</StandaloneReportFiles>
@@ -1033,7 +1073,6 @@
     <date10>*F</date10>
     <date11>MM.dd.yyyy</date11>
     <date12>dd/MM/yyyy</date12>
-
     <date13>*g</date13>
     <date14>*G</date14>
     <date15>*y</date15>
@@ -1044,8 +1083,6 @@
     <date20>*YQ</date20>
     <date21>QI</date21>
     <date22>YQI</date22>
-    
-
     <time01>*t</time01>
     <time02>*T</time02>
     <time03>HH:mm</time03>
@@ -1102,6 +1139,8 @@
     <title>Cross-Tab Designer</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <ClientId>Client Id</ClientId>
+    <ClientSecret>Client Secret</ClientSecret>
     <ConnectionString>Connection String:</ConnectionString>
     <DashboardConnections>Dashboard Connections</DashboardConnections>
     <DB2Edit>Edit IBM DB2 Connection</DB2Edit>
@@ -1140,6 +1179,7 @@
     <RelationDirection>Relation Direction:</RelationDirection>
     <ReportConnections>Report Connections</ReportConnections>
     <SelectData>Select Data</SelectData>
+    <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
     <SqlCeEdit>Edit SQLServerCE Connection</SqlCeEdit>
     <SqlCeNew>New SQLServerCE Connection</SqlCeNew>
     <SqlEdit>Edit SQL Connection</SqlEdit>
@@ -1772,6 +1812,7 @@
     <AngleWatermark>The watermark text rotation angle.</AngleWatermark>
     <Background>Change the background of the selected components.</Background>
     <biConditions>Control list of conditions of the selected components.</biConditions>
+    <Interaction>Control an interaction of the selected components.</Interaction>
     <BorderColor>Select the border color of the selected component.</BorderColor>
     <BorderSidesAll>Switch on all borders sides of the selected components.</BorderSidesAll>
     <BorderSidesBottom>Switch on bottom border side of the selected components.</BorderSidesBottom>
@@ -2014,6 +2055,12 @@
     <TouchDescription>Optimized for used with touch</TouchDescription>
   </Interface>
   <MainMenu>
+    <menuHelpDocumentation>Documentation</menuHelpDocumentation>
+    <menuHelpVideos>Videos</menuHelpVideos>
+    <menuHelpSamples>Samples</menuHelpSamples>
+    <menuHelpForum>Forum</menuHelpForum>
+    <menuHelpDemos>Demos</menuHelpDemos>
+    <menuHelpTrainingCourses>Training Courses</menuHelpTrainingCourses>
     <menuCheckIssues>Check for Issues</menuCheckIssues>
     <menuContextClone>Clone...</menuContextClone>
     <menuContextDesign>Design...</menuContextDesign>
@@ -2055,6 +2102,7 @@
     <menuEditUndoText>&amp;Undo {0}</menuEditUndoText>
     <menuEditVariableNew>New Variable...</menuEditVariableNew>
     <menuEditViewData>View Data...</menuEditViewData>
+    <menuEmbedAllDataToResources>Embed all data to resources</menuEmbedAllDataToResources>
     <menuFile>&amp;File</menuFile>
     <menuFileClose>&amp;Close</menuFileClose>
     <menuFileDashboardDelete>Delete Dashboard</menuFileDashboardDelete>
@@ -2151,19 +2199,21 @@
       It contains a link to confirm your registration. To complete the registration please follow the link from the email you received.
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>This function embeds all report data to the report resources and makes your report standalone. Be careful! All your data settings will be changed and can't be restored.Please, make a backup copy of your report firstly.{0}Are you sure?</ThisFunctionEmbedsAllReportDataToTheReport>
+    <YouNeedToLoginFirstToStartUsingTheSoftware>You need to login first to start using the software. The application will close if you quit the login form.</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
   <Notices>
     <AccessDenied>Access Denied!</AccessDenied>
     <AccountLocked>Your account is locked! In order to resolve it, please send your request to sales@stimulsoft.com!</AccountLocked>
-    <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Reports.Server was released!</ActivationExpiriedBeforeFirstRelease>
+    <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Server was released!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>License file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
-    <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Reports.Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Reports.Server you can install and activate.</ActivationServerVersionNotAllowed>
+    <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
-    <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Reports.Server!</ActivationWrongAccountType>
+    <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Server!</ActivationWrongAccountType>
     <AuthAccountCantBeUsedNow>The account cannot be used now!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>The account is not activated yet! Please follow the instructions sent to the Email during registration.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>The user role cannot be changed because this is the last administrator user in this workspace!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2399,6 +2449,7 @@
     <ImageCategory>Image</ImageCategory>
     <IndicatorCategory>Indicator</IndicatorCategory>
     <InterlacingCategory>Interlacing</InterlacingCategory>
+    <LabelsCategory>Labels</LabelsCategory>
     <LegendCategory>Legend</LegendCategory>
     <ListBoxCategory>List Box</ListBoxCategory>
     <MainCategory>Main</MainCategory>
@@ -2459,6 +2510,7 @@
     <Brown>Brown</Brown>
     <BurlyWood>Burly Wood</BurlyWood>
     <CadetBlue>Cadet Blue</CadetBlue>
+    <Carmine>Carmine</Carmine>
     <Chartreuse>Chartreuse</Chartreuse>
     <Chocolate>Chocolate</Chocolate>
     <Coral>Coral</Coral>
@@ -2580,6 +2632,7 @@
     <Tomato>Tomato</Tomato>
     <Transparent>Transparent</Transparent>
     <Turquoise>Turquoise</Turquoise>
+    <VeryDarkGray>Very Dark Gray</VeryDarkGray>
     <Violet>Violet</Violet>
     <Wheat>Wheat</Wheat>
     <White>White</White>
@@ -2588,15 +2641,6 @@
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
-    <StiInteractionOnHoverNone>None</StiInteractionOnHoverNone>
-    <StiInteractionOnHoverShowToolTip>Show Tool Tip</StiInteractionOnHoverShowToolTip>
-    <StiInteractionOnHoverShowHyperlink>Show Hyperlink</StiInteractionOnHoverShowHyperlink>
-    <StiInteractionOnClick>None</StiInteractionOnClick>
-    <StiInteractionOnClickShowDashboard>Show Dashboard</StiInteractionOnClickShowDashboard>
-    <StiInteractionOnClickOpenHyperlink>Open Hyperlink</StiInteractionOnClickOpenHyperlink>
-    <StiInteractionOnClickApplyFilter>Apply Filter</StiInteractionOnClickApplyFilter>
-    <StiInteractionOpenHyperlinkDestinationNewTab>New Tab</StiInteractionOpenHyperlinkDestinationNewTab>
-    <StiInteractionOpenHyperlinkDestinationCurrentTab>Current Tab</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <boolFalse>False</boolFalse>
     <boolTrue>True</boolTrue>
     <BorderStyleFixed3D>Fixed 3D</BorderStyleFixed3D>
@@ -2714,6 +2758,11 @@
     <StiCapStyleOval>Oval</StiCapStyleOval>
     <StiCapStyleSquare>Square</StiCapStyleSquare>
     <StiCapStyleStealth>Stealth</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>Category</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>Category - Percent Of Total</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>Category - Value</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>Percent Of Total</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>Value</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>Bottom</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>Left</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Right</StiChartTitleDockRight>
@@ -2834,6 +2883,16 @@
     <StiImageRotationRotate180>Rotate 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Rotate 90° CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Rotate 90° CW</StiImageRotationRotate90CW>
+    <StiInteractionOnClick>None</StiInteractionOnClick>
+    <StiInteractionOnClickApplyFilter>Apply Filter</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>Drill Down</StiInteractionOnClickDrillDown>
+    <StiInteractionOnClickOpenHyperlink>Open Hyperlink</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickShowDashboard>Show Dashboard</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnHoverNone>None</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowHyperlink>Show Hyperlink</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnHoverShowToolTip>Show Tool Tip</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>Current Tab</StiInteractionOpenHyperlinkDestinationCurrentTab>
+    <StiInteractionOpenHyperlinkDestinationNewTab>New Tab</StiInteractionOpenHyperlinkDestinationNewTab>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>One</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Keep Details Together</StiKeepDetailsKeepDetailsTogether>
@@ -2866,8 +2925,8 @@
     <StiMapTypeIndividual>Individual</StiMapTypeIndividual>
     <StiMapTypeNone>None</StiMapTypeNone>
     <StiMapTypePoints>Points</StiMapTypePoints>
-    <StiMarkerAlignmentLeft>Left</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentCenter>Center</StiMarkerAlignmentCenter>
+    <StiMarkerAlignmentLeft>Left</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Right</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Circle</StiMarkerTypeCircle>
     <StiMarkerTypeHexagon>Hexagon</StiMarkerTypeHexagon>
@@ -2882,6 +2941,16 @@
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Double Pass</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Single Pass</StiNumberOfPassSinglePass>
+    <StiOnlineMapLocationTypeAdminDivision1>AdminDivision1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>AdminDivision2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>Auto</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>CountryRegion</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>Neighborhood</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>PopulatedPlace</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>Postcode1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>Postcode2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>Postcode3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>Postcode4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>Horizontal</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>Horizontal Right</StiOrientationHorizontalRight>
     <StiOrientationVertical>Vertical</StiOrientationVertical>
@@ -3178,11 +3247,6 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
-    <Pattern>Pattern</Pattern>
-    <Destination>Destination</Destination>
-    <OnClick>On Click</OnClick>
-    <OnHover>On Hover</OnHover>
-    <OnDataManipulation>On Data Manipulation</OnDataManipulation>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
     <Actual>Actual</Actual>
@@ -3220,6 +3284,10 @@
     <AllowUseVertAlignment>Allow Use Vert Alignment</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Allow using as SQL parameter</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Alternating Back Color</AlternatingBackColor>
+    <AlternatingCellBackColor>Alternating Cell Back Color</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Alternating Cell Fore Color</AlternatingCellForeColor>
+    <AlternatingDataColor>Alternating Data Color</AlternatingDataColor>
+    <AlternatingDataForeground>Alternating Data Foreground</AlternatingDataForeground>
     <Anchor>Anchor</Anchor>
     <Angle>Angle</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
@@ -3254,6 +3322,7 @@
     <BackColor>Back Color</BackColor>
     <Background>Background</Background>
     <BackgroundColor>Background Color</BackgroundColor>
+    <BandColor>Band Color</BandColor>
     <BarCodeType>Bar Code Type</BarCodeType>
     <BasicStyleColor>Basic Style Color</BasicStyleColor>
     <Blend>Blend</Blend>
@@ -3286,7 +3355,9 @@
     <Categories>Categories</Categories>
     <Category>Category</Category>
     <CategoryConnections>Connections</CategoryConnections>
+    <CellBackColor>Cell Back Color</CellBackColor>
     <CellDockStyle>Cell Dock Style</CellDockStyle>
+    <CellForeColor>Cell Fore Color</CellForeColor>
     <CellHeight>Cell Height</CellHeight>
     <CellType>Cell Type</CellType>
     <CellWidth>Cell Width</CellWidth>
@@ -3329,6 +3400,8 @@
     <ColumnCount>Column Count</ColumnCount>
     <ColumnDirection>Column Direction</ColumnDirection>
     <ColumnGaps>Column Gaps</ColumnGaps>
+    <ColumnHeaderBackColor>Column Header Back Color</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Column Header Fore Color</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Column Headers Visible</ColumnHeadersVisible>
     <Columns>Columns</Columns>
     <ColumnWidth>Column Width</ColumnWidth>
@@ -3383,6 +3456,7 @@
     <DependentColumn>Dependent Column</DependentColumn>
     <DependentValue>Dependent Value</DependentValue>
     <Description>Description</Description>
+    <Destination>Destination</Destination>
     <DetectUrls>Detect URLs</DetectUrls>
     <DialogResult>Dialog Result</DialogResult>
     <Diameter>Diameter</Diameter>
@@ -3488,6 +3562,7 @@
     <Functions>Functions</Functions>
     <GlobalizationStrings>Globalization Strings</GlobalizationStrings>
     <GlobalizedName>Globalized Name</GlobalizedName>
+    <GlyphColor>Glyph Color</GlyphColor>
     <GridColor>Grid Color</GridColor>
     <GridLineColor>Grid Line Color</GridLineColor>
     <GridLinesHor>Grid Lines Horizontal</GridLinesHor>
@@ -3526,7 +3601,16 @@
     <HighValues>High Values</HighValues>
     <HorAlignment>Horizontal Alignment</HorAlignment>
     <HorSpacing>Horizontal Spacing</HorSpacing>
+    <HotBackColor>Hot Back Color</HotBackColor>
+    <HotColumnHeaderBackColor>Hot Column Header Back Color</HotColumnHeaderBackColor>
+    <HotForeColor>Hot Fore Color</HotForeColor>
+    <HotGlyphColor>Hot Glyph Color</HotGlyphColor>
+    <HotHeaderColor>Hot Header Color</HotHeaderColor>
     <HotkeyPrefix>Hotkey Prefix</HotkeyPrefix>
+    <HotRowHeaderBackColor>Hot Row Header Back Color</HotRowHeaderBackColor>
+    <HotSelectedBackColor>Hot Selected Back Color</HotSelectedBackColor>
+    <HotSelectedForeColor>Hot Selected Fore Color</HotSelectedForeColor>
+    <HotSelectedGlyphColor>Hot Selected Glyph Color</HotSelectedGlyphColor>
     <HtmlTags>HTML Tags</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Hyperlink Data Column</HyperlinkDataColumn>
@@ -3607,6 +3691,10 @@
     <LengthUnderLabels>Length under Labels</LengthUnderLabels>
     <Lighting>Lighting</Lighting>
     <Linear>Linear</Linear>
+    <LinearBarBorderBrush>Linear Bar Border Brush</LinearBarBorderBrush>
+    <LinearBarBrush>Linear Bar Brush</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>Linear Bar Empty Border Brush</LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>Linear Bar Empty Brush</LinearBarEmptyBrush>
     <LineColor>Line Color</LineColor>
     <LineColorNegative>Line Color Negative</LineColorNegative>
     <LineLimit>Line Limit</LineLimit>
@@ -3645,6 +3733,7 @@
     <Marker>Marker</Marker>
     <MarkerAlignment>Marker Alignment</MarkerAlignment>
     <MarkerBorder>Marker Border</MarkerBorder>
+    <MarkerBrush>Marker Brush</MarkerBrush>
     <MarkerColor>Marker Color</MarkerColor>
     <MarkerSize>Marker Size</MarkerSize>
     <MarkerType>Marker Type</MarkerType>
@@ -3692,7 +3781,13 @@
     <NameMeter>Name Meter</NameMeter>
     <NameParent>Parent Name</NameParent>
     <Namespaces>Namespaces</Namespaces>
+    <NeedleBorderBrush>Needle Border Brush</NeedleBorderBrush>
+    <NeedleBorderWidth>Needle Border Width</NeedleBorderWidth>
+    <NeedleBrush>Needle Brush</NeedleBrush>
+    <NeedleCapBorderBrush>Needle Cap Border Brush</NeedleCapBorderBrush>
+    <NeedleCapBrush>Needle Cap Brush</NeedleCapBrush>
     <Negative>Negative</Negative>
+    <NegativeColor>Negative Color</NegativeColor>
     <NegativeSeriesColors>Negative Series Colors</NegativeSeriesColors>
     <NegativeTextBrush>Negative Text Brush</NegativeTextBrush>
     <NestedLevel>Nested Level</NestedLevel>
@@ -3710,6 +3805,9 @@
     <OddStyle>Odd Style</OddStyle>
     <Offset>Offset</Offset>
     <OffsetAngle>Offset Angle</OffsetAngle>
+    <OnClick>On Click</OnClick>
+    <OnDataManipulation>On Data Manipulation</OnDataManipulation>
+    <OnHover>On Hover</OnHover>
     <OnlyText>Only Text</OnlyText>
     <OpenValues>Open Values</OpenValues>
     <Operation>Operation</Operation>
@@ -3734,11 +3832,13 @@
     <Path>Path</Path>
     <PathData>Path Data</PathData>
     <PathSchema>Path Schema</PathSchema>
+    <Pattern>Pattern</Pattern>
     <Placement>Placement</Placement>
     <PlaceOnToolbox>Place on Toolbox</PlaceOnToolbox>
     <PointAtCenter>Point at Center</PointAtCenter>
     <Position>Position</Position>
     <Positive>Positive</Positive>
+    <PositiveColor>Positive Color</PositiveColor>
     <PreferredColumnWidth>Preferred Column Width</PreferredColumnWidth>
     <PreferredRowHeight>Preferred Row Height</PreferredRowHeight>
     <PreventIntersection>Prevent Intersection</PreventIntersection>
@@ -3764,6 +3864,10 @@
     <ProcessTilde>Process Tilde</ProcessTilde>
     <ProductHomePage>Product Home Page</ProductHomePage>
     <RadarStyle>Radar Style</RadarStyle>
+    <RadialBarBorderBrush>Radial Bar Border Brush</RadialBarBorderBrush>
+    <RadialBarBrush>Radial Bar Brush</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>Radial Bar Empty Border Brush</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>Radial Bar Empty Brush</RadialBarEmptyBrush>
     <Radius>Radius</Radius>
     <RadiusMode>Radius Mode</RadiusMode>
     <Range>Range</Range>
@@ -3791,6 +3895,7 @@
     <ReportAuthor>Report Author</ReportAuthor>
     <ReportCacheMode>Report Cache Mode</ReportCacheMode>
     <ReportDescription>Report Description</ReportDescription>
+    <ReportIcon>Report Icon</ReportIcon>
     <ReportImage>Report Image</ReportImage>
     <ReportName>Report Name</ReportName>
     <ReportUnit>Report Unit</ReportUnit>
@@ -3814,6 +3919,8 @@
     <Round>Round</Round>
     <RoundValues>Round Values</RoundValues>
     <RowCount>Row Count</RowCount>
+    <RowHeaderBackColor>Row Header Back Color</RowHeaderBackColor>
+    <RowHeaderForeColor>Row Header Fore Color</RowHeaderForeColor>
     <RowHeadersVisible>Row Headers Visible</RowHeadersVisible>
     <RowHeaderWidth>Row Header Width</RowHeaderWidth>
     <Rows>Rows</Rows>
@@ -3822,6 +3929,13 @@
     <ScriptLanguage>Script Language</ScriptLanguage>
     <SegmentPerHeight>Segment per Height</SegmentPerHeight>
     <SegmentPerWidth>Segment per Width</SegmentPerWidth>
+    <SelectedBackColor>Selected Back Color</SelectedBackColor>
+    <SelectedCellBackColor>Selected Cell Back Color</SelectedCellBackColor>
+    <SelectedCellForeColor>Selected Cell Fore Color</SelectedCellForeColor>
+    <SelectedDataColor>Selected Data Color</SelectedDataColor>
+    <SelectedDataForeground>Selected Data Foreground</SelectedDataForeground>
+    <SelectedForeColor>Selected Fore Color</SelectedForeColor>
+    <SelectedGlyphColor>Selected Glyph Color</SelectedGlyphColor>
     <SelectedIndex>Selected Index</SelectedIndex>
     <SelectedItem>Selected Item</SelectedItem>
     <SelectedKey>Selected Key</SelectedKey>
@@ -3831,6 +3945,7 @@
     <SelectionEnabled>Selection Enabled</SelectionEnabled>
     <SelectionForeColor>Selection Fore Color</SelectionForeColor>
     <SelectionMode>Selection Mode</SelectionMode>
+    <SeparatorColor>Separator Color</SeparatorColor>
     <SerialNumber>Serial Number</SerialNumber>
     <Series>Series</Series>
     <SeriesColors>Series Colors</SeriesColors>
@@ -3958,6 +4073,16 @@
     <TextOnly>Text Only</TextOnly>
     <TextOptions>Text Options</TextOptions>
     <TextQuality>Text Quality</TextQuality>
+    <TickLabelMajorFont>Tick Label Major Font</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>Tick Label Major Text Brush</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Tick Label Minor Font</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Tick Label Minor Text Brush</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Tick Mark Major Border</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>Tick Mark Major Border Width</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>Tick Mark Major Brush</TickMarkMajorBrush>
+    <TickMarkMinorBorder>Tick Mark Minor Border</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>Tick Mark Minor Border Width</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>Tick Mark Minor Brush</TickMarkMinorBrush>
     <Ticks>Ticks</Ticks>
     <Title>Title</Title>
     <TitleBeforeHeader>Title before Header</TitleBeforeHeader>
@@ -3976,6 +4101,7 @@
     <TopSide>Top Side</TopSide>
     <Total>Total</Total>
     <Totals>Totals</Totals>
+    <TrackColor>Track Color</TrackColor>
     <TransparentColor>Transparent Color</TransparentColor>
     <TrendLine>Trend Line</TrendLine>
     <TrendLineColor>Trend Line Color</TrendLineColor>
@@ -4448,6 +4574,16 @@
     <TextEditor>Text Editor</TextEditor>
     <title>Toolbox</title>
   </Toolbox>
+  <WelcomeScreen>
+    <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be canceled.</AllDownloadsWillCanceled>
+    <Description>We have selected for you reports that we think are the best for a quick start.</Description>
+    <GetStarted>Get Started</GetStarted>
+    <GetStartedWithDashboards>Get Started with Dashboards</GetStartedWithDashboards>
+    <GetStartedWithReports>Get Started with Reports</GetStartedWithReports>
+    <MoreReports>More Reports</MoreReports>
+    <ShowNextTime>Show '{0}' next time</ShowNextTime>
+    <Title>Welcome to Stimulsoft Demo</Title>
+  </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankReport>Blank Report</BlankReport>

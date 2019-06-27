@@ -204,7 +204,10 @@
     <Information>Information. </Information>
     <RenderingMessage>Report Rendering Message. </RenderingMessage>
     <Warning>Warning! </Warning>
-  </CheckGlobal>
+  </CheckGlobal>  
+  <CheckLicense>
+    <StiLicenseTrialCheckLong>You are using the trial version of Stimulsoft Reports and Dashboards. To use the software in production you should purchase a license.</StiLicenseTrialCheckLong>
+  </CheckLicense>
   <CheckPage>
     <StiLostPointsOnPageCheckLong>Lost points are found on the '{0}' page: {1}. Points are invisible and used in the following primitives: vertical line, rectangle and rounded rectangle. If the point does not match to any components then it can be deleted.</StiLostPointsOnPageCheckLong>
     <StiLostPointsOnPageCheckShort>Lost points</StiLostPointsOnPageCheckShort>
@@ -504,6 +507,19 @@
     <SupplementType>A type of supplement code.</SupplementType>
     <UseRectangularSymbols>A value that indicates will RectangularSymbols be used or not.</UseRectangularSymbols>
   </StiBarCodeTypeService>
+  <StiDialogStyle>
+    <GlyphColor>A glyph color of the style.</GlyphColor>
+    <HotBackColor>A background color of a hot of the style.</HotBackColor>
+    <HotForeColor>A foreground color of a hot item of the style.</HotForeColor>
+    <HotGlyphColor>A glyph color of a hot item of the style.</HotGlyphColor>
+    <HotSelectedBackColor>A background color of a hot selected item of the style.</HotSelectedBackColor>
+    <HotSelectedForeColor>A foreground color of a hot selected item of the style.</HotSelectedForeColor>
+    <HotSelectedGlyphColor>A glyph color of a hot selected item of the style.</HotSelectedGlyphColor>
+    <SelectedBackColor>A background color of a selected item of the style.</SelectedBackColor>
+    <SelectedForeColor>A foreground color of a selected item of the style.</SelectedForeColor>
+    <SelectedGlyphColor>A glyph color of a selected item of the style.</SelectedGlyphColor>
+    <SeparatorColor>A color for drawing of the style.</SeparatorColor>
+  </StiDialogStyle>
   <StiBaseStyle>
     <AllowUseBackColor>A value which indicates whether a report engine can use BackColor for dialog controls.</AllowUseBackColor>
     <AllowUseBorderFormatting>A value which indicates whether a report engine can use Border formatting or not.</AllowUseBorderFormatting>
@@ -518,7 +534,7 @@
     <AllowUseTextOptions>A value which indicates whether a report engine can use TextOptions formatting or not.</AllowUseTextOptions>
     <AllowUseVertAlignment>A value which indicates whether a report engine can use VertAlignment formatting or not.</AllowUseVertAlignment>
     <AxisLabelsColor>A color of labels drawing.</AxisLabelsColor>
-    <AxisLineColor>Line color which used to draw axis.</AxisLineColor>
+    <AxisLineColor>A line color which used to draw axis.</AxisLineColor>
     <AxisTitleColor>A color which will be used for title drawing.</AxisTitleColor>
     <BackColor>A background color for drawing this style.</BackColor>
     <BasicStyleColor>A base color for drawing this style.</BasicStyleColor>
@@ -533,8 +549,8 @@
     <Description>A style description.</Description>
     <Font>A font for drawing this style.</Font>
     <ForeColor>A foreground color for drawing this style.</ForeColor>
-    <GridLinesHorColor>Color which will be used for drawing horizontal grid lines.</GridLinesHorColor>
-    <GridLinesVertColor>Color which will be used for drawing vertical grid lines.</GridLinesVertColor>
+    <GridLinesHorColor>A color which will be used for drawing horizontal grid lines.</GridLinesHorColor>
+    <GridLinesVertColor>A color which will be used for drawing vertical grid lines.</GridLinesVertColor>
     <HorAlignment>A horizontal alignment of the style.</HorAlignment>
     <Image>An image to fill the Image property of the Image component.</Image>
     <InterlacingHorBrush>A brush that is used for drawing horizontal interlacing bar.</InterlacingHorBrush>
@@ -542,7 +558,7 @@
     <LegendBorderColor>A border color.</LegendBorderColor>
     <LegendBrush>A background brush of legend.</LegendBrush>
     <LegendLabelsColor>A color of the labels.</LegendLabelsColor>
-    <LegendTitleColor>Title color of legend.</LegendTitleColor>
+    <LegendTitleColor>A title color of legend.</LegendTitleColor>
     <Name>A style name.</Name>
     <SeriesLabelsBorderColor>A border color of series labels.</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>A brush that will be used to fill area of series labels.</SeriesLabelsBrush>

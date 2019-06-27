@@ -18,6 +18,8 @@
     <SetGrowToHeightToTrue>Définir la propriété Agrandir à la hauteur à oui</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>Définir la valeur de la propriété Autoriser les balises HTML du composant à oui, pour afficher correctement les balises HTML.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>Définir la propriété Nombre de passes à Double Passe pour le calcul correct de variables.</StiAllowOnDoublePassActionLong>
+    <StiApplyGeneralTextFormatLong>Appliquer le format "Générale"  pour le composant '{0}'.</StiApplyGeneralTextFormatLong>
+    <StiApplyGeneralTextFormatShort>Appliquer format général</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>Définir la propriété Cassable du composant à oui.</StiCanBreakComponentInContainerActionLong>
     <StiCanGrowComponentInContainerActionLong>Définir la propriété Auto-extensible du conteneur à oui.</StiCanGrowComponentInContainerActionLong>
     <StiCanGrowGrowToHeightComponentInContainerLong>La propriété Agrandir à la hauteur va être définie à oui pour tous les composants dans le conteneur. Cette opération ne garanti pas une correction à 100%!</StiCanGrowGrowToHeightComponentInContainerLong>
@@ -77,6 +79,8 @@
     <StiComponentBoundsAreOutOfBandShort>Le composant est partiellement en dehors de la bande.</StiComponentBoundsAreOutOfBandShort>
     <StiComponentExpressionCheckLong>L'expression dans la propriété {0} de '{1}' ne peut pas être évaluée!</StiComponentExpressionCheckLong>
     <StiComponentExpressionCheckShort>L'expression ne peut pas être évaluée!</StiComponentExpressionCheckShort>
+    <StiComponentResourceCheckLong>La ressource '{0}' spécifiée pour le composant '{1}' n'a pas été trouvé dans le dictionnaire du rapport.</StiComponentResourceCheckLong>
+    <StiComponentResourceCheckShort>La ressource spécifiée n'a pas été trouvé !</StiComponentResourceCheckShort>
     <StiComponentStyleIsNotFoundCheckAtPageLong>Le style spécifié pour la page '{0}' n'existe pas.</StiComponentStyleIsNotFoundCheckAtPageLong>
     <StiComponentStyleIsNotFoundCheckLong>Le style spécifié pour le composant '{0}' n'existe pas.</StiComponentStyleIsNotFoundCheckLong>
     <StiComponentStyleIsNotFoundCheckShort>Le style spécifié n'existe pas</StiComponentStyleIsNotFoundCheckShort>
@@ -92,6 +96,8 @@
     <StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>Le nombre de pied de groupe de tableau croisé ne correspond pas au  nombre d’en-tête de groupe de tableau croisé sur le conteneur '{0}'. Les composants impairs ne seront pas rendus.</StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>
     <StiDataSourcesForImageCheckLong>Plusieurs sources de données ont été définies pour le composant '{0}'.</StiDataSourcesForImageCheckLong>
     <StiDataSourcesForImageCheckShort>Plusieurs sources de données ont été définies</StiDataSourcesForImageCheckShort>
+    <StiEventsAtInterpretationCheckLong>Le script dans l'événement '{0}' du composant '{1}' ne marche pas dans le mode interprétation.</StiEventsAtInterpretationCheckLong>
+    <StiEventsAtInterpretationCheckShort>Évènements dans le mode interprétation</StiEventsAtInterpretationCheckShort>
     <StiFontMissingCheckLong>La police '{0}' spécifiée pour le composant '{1}' n'a pas été trouvée.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>La police n'a pas été trouvée</StiFontMissingCheckShort>
     <StiFunctionsOnlyForEngineV2CheckLong>Des variables système qui ne sont pas disponibles dans l'EngineV1 sont utilisées dans le rapport. Voulez-vous utiliser l'EngineV2.</StiFunctionsOnlyForEngineV2CheckLong>
@@ -145,6 +151,8 @@
     <StiSystemTextObsoleteCheckShort>Le composant est obsolète</StiSystemTextObsoleteCheckShort>
     <StiTextColorEqualToBackColorCheckLong>La raison possible est que les valeurs des propriétés Remplissage du Texte et Remplissage du composant '{0}' ont été mal définies. Le texte ne sera pas visible.</StiTextColorEqualToBackColorCheckLong>
     <StiTextColorEqualToBackColorCheckShort>La propriété Remplissage du texte est égale à la propriété Remplissage</StiTextColorEqualToBackColorCheckShort>
+    <StiTextTextFormatCheckLong>Le format sélectionné pour le composant '{0}' n'est pas spécifié.</StiTextTextFormatCheckLong>
+    <StiTextTextFormatCheckShort>Le format n'est pas spécifié.</StiTextTextFormatCheckShort>
     <StiTotalPageCountDoublePassCheckLong>Les variables système TotalPageCount, TotalPageCountThrough dans les scripts et conditions fournissent des résultats incorrects en mode simple passe. Il est requis de définir la propriété Nombre de passes du rapport à double passe.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>Le composant '{0}' est inconnu. Le moteur d'impression est incapable d'identifier ce composant. Il s'agit peut-être d'un composant personnalisé. Ce rapport ne peut pas être rendu!</StiUndefinedComponentCheckLong>
     <StiUndefinedComponentCheckShort>Composant inconnu</StiUndefinedComponentCheckShort>
@@ -162,6 +170,8 @@
   <CheckConnection>
     <StiUndefinedConnectionCheckLong>La connexion inconnue '{0}' a été trouvée. Le moteur d'impression ne peut pas traiter correctement ce type de connexion avec la base de données!  Il s'agit peut-être d'une connexion personnalisée. Ce rapport ne peut pas être rendu!</StiUndefinedConnectionCheckLong>
     <StiUndefinedConnectionCheckShort>Type de connexion inconnu</StiUndefinedConnectionCheckShort>
+    <StiUnsupportedConnectionCheckLong>Le rapport contient une connexion '{0}' qui n'est pas supportée par la plateforme sélectionnée. Merci de changer les options pour cette connexion.</StiUnsupportedConnectionCheckLong>
+    <StiUnsupportedConnectionCheckShort>Type de connexion non supporté</StiUnsupportedConnectionCheckShort>
   </CheckConnection>
   <CheckDataRelation>
     <StiDifferentAmountOfKeysInDataRelationCheckLong>Le nombre de clés parentes pour la relation '{0}' ne correspond pas au nombre de clés enfantes.  La relation ne peut pas être créée pendant le rendu du rapport!</StiDifferentAmountOfKeysInDataRelationCheckLong>
@@ -215,10 +225,16 @@
     <StiDuplicatedNameCheckShort>Des composants ont le même nom</StiDuplicatedNameCheckShort>
     <StiDuplicatedNameInSourceInDataRelationReportCheckLong>Les  relations'{0}' ont été trouvées dans le rapport. Elles ont des valeurs égales ('{1}') dans le nom dans la source. Toutes les valeurs dans Nom dans la source devraient être uniques dans une relations d'une base de données! Il est nécessaire de corriger ces champs de ces relations.</StiDuplicatedNameInSourceInDataRelationReportCheckLong>
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>Doublons dans les relations</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
+    <StiNetCoreCompilationModeCheckLong>Stimulsoft .NET Core engine ne peut pas faire le rendu de ce rapport dans le mode de compilation. Changez le mode d'interprétation du rapport.</StiNetCoreCompilationModeCheckLong>
+    <StiNetCoreCompilationModeCheckShort>Ce rapport est en mode compilation</StiNetCoreCompilationModeCheckShort>
   </CheckReport>
   <CheckVariable>
+    <StiVariableInitializationCheckLong>La variable '{0}' a une valeur par défaut erronée. Il est impossible d'initialiser la variable avec une valeur spécifique.</StiVariableInitializationCheckLong>
+    <StiVariableInitializationCheckShort>Initialisation de la valeur</StiVariableInitializationCheckShort>
     <StiVariableRecursionCheckLong>La variable '{0}' a une expression avec une récursion. Il est impossible de référencer une variable dans sa propre expression.</StiVariableRecursionCheckLong>
     <StiVariableRecursionCheckShort>Expression récursive</StiVariableRecursionCheckShort>
+    <StiVariableTypeCheckLong>Afin que les variables dépendante puissent fonctionner correctement, leurs types et le type de leurs colonnes doivent correspondre.</StiVariableTypeCheckLong>
+    <StiVariableTypeCheckShort>Les types de variable ne correspondent pas.</StiVariableTypeCheckShort>
   </CheckVariable>
   <Font>
     <Bold>Une valeur qui indique si cette police est en gras.</Bold>
@@ -229,16 +245,19 @@
     <Underline>Une valeur qui indique si cette police est soulignée.</Underline>
   </Font>
   <Publish>
-    <Publish>Publiier</Publish>
-	<ActionDesign>Conception</ActionDesign>
+    <ActionDesign>Conception</ActionDesign>
     <ActionExport>Exporter</ActionExport>
     <ActionShow>Afficher</ActionShow>
+    <AddNewConnection>Ajouter une nouvelle connexion</AddNewConnection>
+    <Cancel>Annuler</Cancel>
     <Close>Fermer</Close>
     <ConnectionsFromReport>Utiliser la connexion du rapport</ConnectionsFromReport>
     <ConnectionsRegData>Enregistrer les données du code</ConnectionsRegData>
     <ConnectionsReplace>Remplacer la chaîne de connexion</ConnectionsReplace>
     <Copy>Copier</Copy>
+    <CopyingLibraries>Copie des fichiers du projet...</CopyingLibraries>
     <DeployReportPlatform>Déployer le rapport vers la plateforme:</DeployReportPlatform>
+    <DownloadingLibraries>Téléchargement des librairies...</DownloadingLibraries>
     <ExportFormat>Exporter le rapport vers:</ExportFormat>
     <ExportFormatData>Données</ExportFormatData>
     <ExportFormatDataType>Type de données:</ExportFormatDataType>
@@ -270,21 +289,29 @@
     <LoadReportString>Chaîne</LoadReportString>
     <ParametersFromReport>Utiliser la valeur depuis le raport</ParametersFromReport>
     <ParametersReplace>Remplacer la valeur depuis le code</ParametersReplace>
+    <ParametersReplacePhpInfo>Le paramètre va être supprimé du dictionnaire du rapport et ne peut être utilisé que dans une requête SQL.</ParametersReplacePhpInfo>
     <ParametersRequestFromUser>Demander à l'utilisateur</ParametersRequestFromUser>
+    <Publish>Publiier</Publish>
     <PublishType>Type de publication du rapport:</PublishType>
     <PublishTypeProject>Projet</PublishTypeProject>
     <PublishTypeStandalone>Autonome</PublishTypeStandalone>
+    <ReadMore>Lire plus</ReadMore>
     <RegDataOnlyForPreview>Utiliser uniquement pour l'aperçu du rapport</RegDataOnlyForPreview>
     <RegDataSynchronize>Synchroniser le dictionnaire du rapport</RegDataSynchronize>
+    <ReplaceConnectionString>Remplacer la chaine de connexion</ReplaceConnectionString>
+    <ReplacePathToData>Remplacer le chemin de la donnée</ReplacePathToData>
     <ReportAction>Que faire avec le rapport:</ReportAction>
+    <ReportErrors>Malheuresement, à cause d'erreurs, le rapport ne peut pas être publié !</ReportErrors>
     <SaveProjectPackage>Enregistrer le projet de paquet</SaveProjectPackage>
     <SaveStandalone>Enregistrer en autonome</SaveStandalone>
     <SaveStandalonePackage>Enregistrer le paquet autonome</SaveStandalonePackage>
+    <SearchLibraries>Recherche des librairies...</SearchLibraries>
     <ShowMore>Afficher plus</ShowMore>
     <ShowOptions>Afficher les options</ShowOptions>
     <ThemeBackground>Arrière plan:</ThemeBackground>
     <ThemeStyle>Style du thème:</ThemeStyle>
     <TrialVersion>Version d'essai</TrialVersion>
+    <Use>Utiliser</Use>
     <UseCompilationCache>Utiliser le cache de compilation</UseCompilationCache>
     <UseCompressedScripts>Utiliser lles scripts compressés</UseCompressedScripts>
     <UseWpfDesignerV2>Utiliser le concepteur V2</UseWpfDesignerV2>
@@ -664,6 +691,21 @@
     <Title>Paramètres du titre.</Title>
     <VertSpacing>Espace vertical entre la bordure du graphique et le graphique.</VertSpacing>
   </StiChart>
+  <StiChartElement>
+    <Arguments>Arguments du graphique.</Arguments>
+    <CloseValues>Fermer les valeurs du graphique.</CloseValues>
+    <ColorEach />
+    <EndValues>Valeurs de fin du graphique.</EndValues>
+    <Group />
+    <HighValues>Valeurs hautes du graphique.</HighValues>
+    <LowValues>Valeurs basses du graphique.</LowValues>
+    <Series>Graphique en séries.</Series>
+    <Style>Style du graphique.</Style>
+    <TextFormat>Format du texte.</TextFormat>
+    <Title>Titre du graphique.</Title>
+    <Values>Valeurs du graphique.</Values>
+    <Weights>Poid des valeurs du graphique.</Weights>
+  </StiChartElement>
   <StiChartTable>
     <Font>Police de la table du graphique.</Font>
     <GridLineColor>Couleur des lignes de grille.</GridLineColor>
@@ -876,6 +918,7 @@
     <GetCrossValueEvent>Se produit pour obtenir une valeur.</GetCrossValueEvent>
     <GetDisplayCrossValueEvent>Se produit pour obtenir une valeur à afficher.</GetDisplayCrossValueEvent>
     <HideZeros>Valeur indiquant si les zéros doivent être affichés.</HideZeros>
+    <KeepMergedCellsTogether>Une valeur indiquant que les cellules fusionnées ne seront pas séparées sur la page suivante.</KeepMergedCellsTogether>
     <MergeHeaders>Valeur indiquant si le valeurs égales des en-têtes doivent ter fusionnées en une seule.</MergeHeaders>
     <PrintOnAllPages>Valeur indiquant si le composant doit être imprimé sur toutes les pages.</PrintOnAllPages>
     <ShowPercents>Valeur indiquant que les valeurs de cellules doivent être affichées en %.</ShowPercents>
@@ -1060,6 +1103,11 @@
     <SupplementCode>Définit ou obtient le supplément du code barre.</SupplementCode>
     <SupplementType>Définit ou obtient le type de supplément du code barre.</SupplementType>
   </StiEAN8BarCodeType>
+  <StiElement>
+    <BackColor>Une couleur de fond pour le contrôle.</BackColor>
+    <Margin>Marge du contrôle.</Margin>
+    <Padding>Marge intérieur du contrôle.</Padding>
+  </StiElement>
   <StiEmptyBand>
     <BeginRenderEvent>Se produit quand le rendu de la bande démarre.</BeginRenderEvent>
     <EndRenderEvent>Se produit quand le rendu de la bande est terminé.</EndRenderEvent>
@@ -1328,6 +1376,12 @@
     <KeysBinding>Liaison de données pour les clés.</KeysBinding>
     <SelectedKeyBinding>Liaison de données pour la clé sélectionnée.</SelectedKeyBinding>
   </StiLookUpBoxControl>
+  <StiMargin>
+    <Bottom>Cette valeur ajoute une marge à partir du coin inférieur du contrôle.</Bottom>
+    <Left>Cette valeur ajoute une marge à partir du coin gauche du contrôle.</Left>
+    <Right>Cette valeur ajoute une marge à partir du coin droit du contrôle.</Right>
+    <Top>Cette valeur ajoute une marge à partir du coin supérieur du contrôle.</Top>
+  </StiMargin>
   <StiMarker>
     <Angle>Angle de rotation du marqueur.</Angle>
     <BorderColor>Couleur de la bordure.</BorderColor>
@@ -1357,6 +1411,12 @@
   <StiOutsidePieLabels>
     <LineLength>Longueur de la ligne entre la série d'étiquettes et la série camembert.</LineLength>
   </StiOutsidePieLabels>
+  <StiPadding>
+    <Bottom>Cette valeur ajoute une marge intérieure pour l'élément à partir de la bordure inférieure du contrôle et de son contenu.</Bottom>
+    <Left>Cette valeur ajoute une marge intérieure pour l'élément à partir de la bordure gauche du contrôle et de son contenu.</Left>
+    <Right>Cette valeur ajoute une marge intérieure pour l'élément à partir de la bordure droit du contrôle et de son contenu.</Right>
+    <Top>Cette valeur ajoute une marge intérieure pour l'élément à partir de la bordure supérieur du contrôle et de son contenu</Top>
+  </StiPadding>
   <StiPage>
     <BeginRenderEvent>Se produit quand la page commence son rendu.</BeginRenderEvent>
     <ColumnBeginRenderEvent>Se produit quand une colonne commence son rendu.</ColumnBeginRenderEvent>
@@ -1690,6 +1750,12 @@
   <StiShapeTypeService>
     <Direction>Sens de la flèche.</Direction>
   </StiShapeTypeService>
+  <StiSimpleBorder>
+    <Color>Une couleur de bordure.</Color>
+    <Side>Bordure du cadre.</Side>
+    <Size>Une taille de bordure.</Size>
+    <Style>Un style de bordure.</Style>
+  </StiSimpleBorder>
   <StiSimpleText>
     <GetValueEvent>Se produit pour obtenir la valeur du texte.</GetValueEvent>
     <GlobalizedName>Une valeur utilisée comme clé pour le gestionnaire de traductions.</GlobalizedName>
@@ -1761,6 +1827,13 @@
     <HeaderRowsCount>Nombre de lignes d'en-tête dans le tableau.</HeaderRowsCount>
     <RowCount>Nombre de lignes dans le tableau.</RowCount>
   </StiTable>
+  <StiTableElement>
+    <Columns>Colonnes affichés dans la table</Columns>
+    <Group />
+    <SizeMode />
+    <Style>Table style.</Style>
+    <Title>Table title.</Title>
+  </StiTableElement>
   <StiText>
     <AllowHtmlTags>Une valeur indiquant si ce composant autorise les balises HTML dans le texte.</AllowHtmlTags>
     <Angle>Angle de rotation du texte.</Angle>
@@ -1808,6 +1881,14 @@
     <Trimming>Type de découpage de la fin de la ligne.</Trimming>
     <WordWrap>Retour à la ligne.</WordWrap>
   </StiTextOptions>
+  <StiTitle>
+    <BackColor>Couleur de fond pour un titre.</BackColor>
+    <Font>Police d'un titre.</Font>
+    <ForeColor>Couleur du texte d'un titre.</ForeColor>
+    <HorAlignment>Alignement horizontal du texte.</HorAlignment>
+    <Text>Le texte d'un titre.</Text>
+    <Visible>Visibilité du titre.</Visible>
+  </StiTitle>
   <StiTreeViewControl>
     <AfterSelectEvent>Se produit après la sélection.</AfterSelectEvent>
   </StiTreeViewControl>

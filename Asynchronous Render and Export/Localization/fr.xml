@@ -198,6 +198,11 @@
     <LabelsOutside>Externe</LabelsOutside>
     <LabelsOutsideBase>Base externe</LabelsOutsideBase>
     <LabelsOutsideEnd>Sommet externe</LabelsOutsideEnd>
+    <LabelsStyleCategory>Catégorie</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>Catégorie - Pourcentage du Total</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>Categorie - Valeur</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>Pourcentage du Total</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>Valeur</LabelsStyleValue>
     <LabelsTwoColumns>Deux colonnes</LabelsTwoColumns>
     <LabelTextAfter>Texte aprés :</LabelTextAfter>
     <LabelTextBefore>Texte avant :</LabelTextBefore>
@@ -356,6 +361,7 @@
     <Cancel>Annuler</Cancel>
     <CheckBoxMoveToRecycleBin>Déplacer vers la corbeille</CheckBoxMoveToRecycleBin>
     <CheckBoxRememberMe>Me rappeler</CheckBoxRememberMe>
+    <CheckForUpdate>Mettre à jour</CheckForUpdate>
     <Cloud>Cloud</Cloud>
     <Collection>Collection</Collection>
     <Create>Créer</Create>
@@ -601,6 +607,9 @@
   <Dashboard>
     <AddRange>Ajouter un intervalle</AddRange>
     <AfterGroupingData>Appliquer après groupement des données</AfterGroupingData>
+    <AllowUserDrillDown>Autoriser le drill down utilisateur</AllowUserDrillDown>
+    <AllowUserFiltering>Autoriser le filtrage utilisateur</AllowUserFiltering>
+    <AllowUserSorting>Autoriser le tri utilisateur</AllowUserSorting>
     <Blanks>(Vides)</Blanks>
     <BooleanFilters>Filtres booléen</BooleanFilters>
     <CannotLoadDashboard>Vous ne pouvez pas charger un modèle avec tableau de bord.</CannotLoadDashboard>
@@ -609,6 +618,7 @@
     <ClearAllFormatting>Effacer toute la mise en forme</ClearAllFormatting>
     <ClearFilterFrom>Effacer le filtre de '{0}'</ClearFilterFrom>
     <ColorScale>Échelle de couleur</ColorScale>
+    <ColumnInteractions>Interactions de colonne</ColumnInteractions>
     <CustomFilter>Filtres personnalisée...</CustomFilter>
     <DataBars>Barres de donnée</DataBars>
     <DataNotDefined>Données non définie</DataNotDefined>
@@ -616,10 +626,14 @@
     <Dimension>Dimension</Dimension>
     <Dimensions>Dimensions</Dimensions>
     <DragDropDataFromDictionary>Glisser &amp; déposer des données depuis le dictionnaire</DragDropDataFromDictionary>
+    <DrillDown>Drill Down</DrillDown>
+    <DrillDownSelected>Drill Down sélectionné</DrillDownSelected>
+    <DrillUp>Drill Up</DrillUp>
     <DuplicateField>Dupliquer le champ</DuplicateField>
     <EditExpression>Éditer la formule</EditExpression>
     <EmptyDashboardFooter>Glisser &amp; déposer des composants depuis la boite à outils ou des données depuis le dictionnaire</EmptyDashboardFooter>
     <EmptyDashboardHeader>Le tableau de bord est vide</EmptyDashboardHeader>
+    <FieldInteractions>Interactions de champs</FieldInteractions>
     <FieldTypeRestrictionHint>Seul le champ de type '{0}' peut être utilisé !</FieldTypeRestrictionHint>
     <FirstLastPoints>Premier / Dernier points</FirstLastPoints>
     <FirstRowIndex>Index de la première colonne</FirstRowIndex>
@@ -646,6 +660,8 @@
     <RemoveField>Supprimer le champ</RemoveField>
     <ReplaceValues>Remplacer les valeurs</ReplaceValues>
     <RowsCount>Nombre de lignes</RowsCount>
+    <RunFieldsEditor>Lancer l'éditeur de champs</RunFieldsEditor>
+    <RunFieldsEditorInfo>Lancer l'éditeur de champs pour changer l'interaction de chaque colonne de la table.</RunFieldsEditorInfo>
     <SelectAll>(Tous sélectionner)</SelectAll>
     <ShowAllValue>Afficher la valeur (total)</ShowAllValue>
     <ShowAsPercentages>Afficher en pourcentages</ShowAsPercentages>
@@ -830,6 +846,7 @@
     <AllowPrintDocument>Autoriser l'impression du document</AllowPrintDocument>
     <Auto>Auto</Auto>
     <BandsFilter>filtre de bandes r:</BandsFilter>
+    <CancelExport>Annuler l'export</CancelExport>
     <Color>Couleur</Color>
     <Compressed>Compressé</Compressed>
     <CompressToArchive>Compresser dans une archive</CompressToArchive>
@@ -983,6 +1000,7 @@
     <PdfFiles>Fichiers Adobe PDF (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>Fichiers PNG (*.png)|*.png</PngFiles>
     <Ppt2007Files>Fichiers Microsoft PowerPoint 2007/2013 (*.pptx)|*.pptx</Ppt2007Files>
+    <ReportEmbededDataFiles>Modèles de rapport avec données intégrées (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Fichiers Rapport (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Fichiers Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Rapport autonome (*.exe)|*.exe</StandaloneReportFiles>
@@ -1096,6 +1114,8 @@
     <title>Tableau croisé</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <ClientId>Client Id</ClientId>
+    <ClientSecret>Client Secret</ClientSecret>
     <ConnectionString>Chaîne de connexion :</ConnectionString>
     <DashboardConnections>Connexions du tableau de bord</DashboardConnections>
     <DB2Edit>Modifier la connexion IBM DB2</DB2Edit>
@@ -1134,6 +1154,7 @@
     <RelationDirection>Direction de la relation:</RelationDirection>
     <ReportConnections>Connexions du rapport</ReportConnections>
     <SelectData>Sélectionner les données</SelectData>
+    <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
     <SqlCeEdit>Modifier la connexion SQLServerCE</SqlCeEdit>
     <SqlCeNew>Nouvelle connexion SQLServerCE</SqlCeNew>
     <SqlEdit>Éditer la connexion SQL</SqlEdit>
@@ -2059,6 +2080,7 @@
     <menuEditUndoText>Annuler {0}</menuEditUndoText>
     <menuEditVariableNew>Nouvelle variable...</menuEditVariableNew>
     <menuEditViewData>Afficher les données...</menuEditViewData>
+    <menuEmbedAllDataToResources>Embarquer toutes les données dans les ressources</menuEmbedAllDataToResources>
     <menuFile>Fichier</menuFile>
     <menuFileClose>&amp;Fermer</menuFileClose>
     <menuFileDashboardDelete>Supprimer le tableau de bord</menuFileDashboardDelete>
@@ -2161,19 +2183,20 @@
 L'e-mail a été envoyé à "{0}".
 Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enregistrement, cliquez sur le lien dans l'e-mail que vous avez reçu.</TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>Ce champ n'est pas spécifié!</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>Cette fonction embarque toutes les données du rapport vers les ressources du rapport et rends votre rapport indépendant. Soyez prudent !  Toutes les données concernant les préférences seront changées et ne pourront pas être restauré. Merci de faire une sauvegarde de votre rapport au préalable. {0} Êtes-vous sûr ?</ThisFunctionEmbedsAllReportDataToTheReport>
   </Messages>
   <Notices>
     <AccessDenied>Accès refusé!</AccessDenied>
     <AccountLocked>Votre compte est verrouillé! Pour le déverrouiller, envoyez une demande à sales@stimulsoft.com!</AccountLocked>
-    <ActivationExpiriedBeforeFirstRelease>Votre abonnement à Stimulsoft Reports.Ultimate a expiré plus tôt que la première version sortie de notre Stimulsoft Reports.Server!</ActivationExpiriedBeforeFirstRelease>
+    <ActivationExpiriedBeforeFirstRelease>Votre abonnement à Stimulsoft Reports.Ultimate a expiré plus tôt que la première version sortie de notre Stimulsoft Server!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>Fichier de licence incorrect! Contactez notre service commercial à sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Votre compte est verrouillé. Contactez notre service commercial à sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationMaxActivationsReached>Vous avez atteint le nombre maximum d'activations. Contactez notre service commercial à sales@stimulsoft.com!</ActivationMaxActivationsReached>
     <ActivationServerIsNotAvailableNow>Le serveur d'activation Stimulsoft n'est pas disponible actuellement! Réessayez plus tard.</ActivationServerIsNotAvailableNow>
-    <ActivationServerVersionNotAllowed>Vous ne pouvez pas activer cette version de Stimulsoft Reports.Server car votre abonnement a expiré! Connectez-vous sur votre compte et vérifiez quelle version de Stimulsoft Reports.Server vous pouvez installer et activer.</ActivationServerVersionNotAllowed>
+    <ActivationServerVersionNotAllowed>Vous ne pouvez pas activer cette version de Stimulsoft Server car votre abonnement a expiré! Connectez-vous sur votre compte et vérifiez quelle version de Stimulsoft Server vous pouvez installer et activer.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Une erreur est survenue pendant l'activation. Réessayez plus tard.</ActivationSomeTroublesOccurred>
     <ActivationUserNameOrPasswordIsWrong>Votre nom d'utilisateur (Email) ou mot de passe est incorrect!</ActivationUserNameOrPasswordIsWrong>
-    <ActivationWrongAccountType>Votre type de compte n'autorise pas Stimulsoft Reports.Server!</ActivationWrongAccountType>
+    <ActivationWrongAccountType>Votre type de compte n'autorise pas Stimulsoft Server!</ActivationWrongAccountType>
     <AuthAccountCantBeUsedNow>Le compte ne peut pas être utilisé maintenant!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>Le compte n'est pas encore activé! Suivez les intructions envoyées par e-mail lors de votre enregistrement.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Le rôle utilisateur ne peut pas être modifié car c'est le dernier administrateur dans cet espace de travail!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2409,6 +2432,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ImageCategory>Image</ImageCategory>
     <IndicatorCategory>Indicateur</IndicatorCategory>
     <InterlacingCategory>Entrelacement</InterlacingCategory>
+    <LabelsCategory>Labels</LabelsCategory>
     <LegendCategory>Légende</LegendCategory>
     <ListBoxCategory>Liste</ListBoxCategory>
     <MainCategory>Principal</MainCategory>
@@ -2721,6 +2745,11 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <StiCapStyleOval>Ovale</StiCapStyleOval>
     <StiCapStyleSquare>Carré</StiCapStyleSquare>
     <StiCapStyleStealth>Transparent</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>Catégorie</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>Catégorie - Pourcentage du total</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>Catégorie - Valeur</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>Pourcentage du total</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>Valeur</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>Bas</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>Gauche</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Droite</StiChartTitleDockRight>
@@ -2843,6 +2872,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <StiImageRotationRotate90CW>Pivoter à 90° à droite</StiImageRotationRotate90CW>
     <StiInteractionOnClick>Aucun</StiInteractionOnClick>
     <StiInteractionOnClickApplyFilter>Appliquer le filtre</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>Drill Down</StiInteractionOnClickDrillDown>
     <StiInteractionOnClickOpenHyperlink>Ouvrir l'hyper lien</StiInteractionOnClickOpenHyperlink>
     <StiInteractionOnClickShowDashboard>Afficher le tableau de bord</StiInteractionOnClickShowDashboard>
     <StiInteractionOnHoverNone>Aucun</StiInteractionOnHoverNone>
@@ -2897,6 +2927,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <StiMapTypeIndividual>Individuel</StiMapTypeIndividual>
     <StiMapTypeNone>Aucun</StiMapTypeNone>
     <StiMapTypePoints>Points</StiMapTypePoints>
+    <StiMarkerAlignmentCenter>Centre</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>Gauche</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Droite</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Cercle</StiMarkerTypeCircle>
@@ -2912,6 +2943,16 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Double Passe</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Simple Passe</StiNumberOfPassSinglePass>
+    <StiOnlineMapLocationTypeAdminDivision1>AdminDivision1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>AdminDivision2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>Auto</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>RegionDuPays</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>Voisinage</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>LieuPeuplé</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>CodePostal1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>CodePostal2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>CodePostal3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>CodePostal4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>Horizontal</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>Horizontal à droite</StiOrientationHorizontalRight>
     <StiOrientationVertical>Vertical</StiOrientationVertical>
@@ -3245,6 +3286,10 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <AllowUseVertAlignment>Autoriser alignement vertical</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Autoriser en tant que paramètres SQL</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Couleur de fond alternative</AlternatingBackColor>
+    <AlternatingCellBackColor>Alterner la couleur de fond</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Alterner la couleur du texte</AlternatingCellForeColor>
+    <AlternatingDataColor>Alterner la couleur des données</AlternatingDataColor>
+    <AlternatingDataForeground>Alterner les données de premier plan</AlternatingDataForeground>
     <Anchor>Ancrage</Anchor>
     <Angle>Angle</Angle>
     <Antialiasing>Anticrénelage</Antialiasing>
@@ -3279,6 +3324,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <BackColor>Couleur de fond</BackColor>
     <Background>Arrière-plan</Background>
     <BackgroundColor>Couleur d'arrière-plan</BackgroundColor>
+    <BandColor>Couleur de bande</BandColor>
     <BarCodeType>Type de code-barres</BarCodeType>
     <BasicStyleColor>Style de couleurs de base</BasicStyleColor>
     <BindingColumn>Colonne dépendante</BindingColumn>
@@ -3312,7 +3358,9 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Categories>Catégories</Categories>
     <Category>Catégorie</Category>
     <CategoryConnections>Connexions</CategoryConnections>
+    <CellBackColor>Couleur de fond de cellule</CellBackColor>
     <CellDockStyle>Style d'ancrage des cellules</CellDockStyle>
+    <CellForeColor>Couleur du texte de cellule</CellForeColor>
     <CellHeight>Hauteur de cellule</CellHeight>
     <CellType>Type de cellules</CellType>
     <CellWidth>Largeur de cellule</CellWidth>
@@ -3355,6 +3403,8 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ColumnCount>Nombre de colonnes</ColumnCount>
     <ColumnDirection>Direction de la colonne</ColumnDirection>
     <ColumnGaps>Distance entre deux colonnes</ColumnGaps>
+    <ColumnHeaderBackColor>Couleur de fond des colonnes d'en-tête</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Couleur du texte des colonnes d'en-tête</ColumnHeaderForeColor>
     <ColumnHeadersVisible>En-têtes de colonnes visibles</ColumnHeadersVisible>
     <Columns>Colonnes</Columns>
     <ColumnWidth>Largeur de colonne</ColumnWidth>
@@ -3515,6 +3565,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Functions>Fonctions</Functions>
     <GlobalizationStrings>Chaines de localisation</GlobalizationStrings>
     <GlobalizedName>Nom localisé</GlobalizedName>
+    <GlyphColor>Couleur de Glyphe</GlyphColor>
     <GridColor>Couleur de grille</GridColor>
     <GridLineColor>Couleur de trait de la grille</GridLineColor>
     <GridLinesHor>Lignes de grille horizontales</GridLinesHor>
@@ -3553,7 +3604,16 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <HighValues>Valeurs hautes</HighValues>
     <HorAlignment>Alignement horizontal</HorAlignment>
     <HorSpacing>Espacement Hor</HorSpacing>
+    <HotBackColor>Couleur de fond des données chaudes</HotBackColor>
+    <HotColumnHeaderBackColor>Couleur de fond des colonnes de données chaudes</HotColumnHeaderBackColor>
+    <HotForeColor>Couleur de texte chaud</HotForeColor>
+    <HotGlyphColor>Couleur de glyphe chaud</HotGlyphColor>
+    <HotHeaderColor>Couleur d'en-tête chaud</HotHeaderColor>
     <HotkeyPrefix>Préfixe de la touche d'accès rapide</HotkeyPrefix>
+    <HotRowHeaderBackColor>Couleur de fond chaud de la ligne d'en-tête</HotRowHeaderBackColor>
+    <HotSelectedBackColor>Couleur de fond de sélection chaud</HotSelectedBackColor>
+    <HotSelectedForeColor>Couleur de texte chaud sélectionné</HotSelectedForeColor>
+    <HotSelectedGlyphColor>Couleur de glyphe chaud selectionnér</HotSelectedGlyphColor>
     <HtmlTags>Balises Html</HtmlTags>
     <Hyperlink>Lien hypertexte</Hyperlink>
     <HyperlinkDataColumn>Colonne de données hyperlien</HyperlinkDataColumn>
@@ -3634,6 +3694,10 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <LengthUnderLabels>Longueur sous les étiquettes</LengthUnderLabels>
     <Lighting>Éclairage</Lighting>
     <Linear>Linéaire</Linear>
+    <LinearBarBorderBrush>Brosse de bordure de barre linéaire</LinearBarBorderBrush>
+    <LinearBarBrush>Brosse barre linéaire</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>Brosse bare linéaire vide</LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>Barre linéaire brosse vide</LinearBarEmptyBrush>
     <LineColor>Couleur de ligne</LineColor>
     <LineColorNegative>Ligne couleur négative</LineColorNegative>
     <LineLimit>Limite de ligne</LineLimit>
@@ -3672,6 +3736,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Marker>Marqueur</Marker>
     <MarkerAlignment>Alignement des graduations</MarkerAlignment>
     <MarkerBorder>Bordure du marqueur</MarkerBorder>
+    <MarkerBrush>Brosse du marqueur</MarkerBrush>
     <MarkerColor>Couleur des graduations principales</MarkerColor>
     <MarkerSize>Taille des graduations principales</MarkerSize>
     <MarkerType>Type marqueur</MarkerType>
@@ -3719,7 +3784,13 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <NameMeter>Nom</NameMeter>
     <NameParent>Nom du parent</NameParent>
     <Namespaces>Espaces de noms</Namespaces>
+    <NeedleBorderBrush>Brosse de bordure d'aiguille</NeedleBorderBrush>
+    <NeedleBorderWidth>Largeur de la bordure d'aiguille</NeedleBorderWidth>
+    <NeedleBrush>Brosse d'aiguille</NeedleBrush>
+    <NeedleCapBorderBrush>Brosse de bordure à aiguille</NeedleCapBorderBrush>
+    <NeedleCapBrush>Brosse à aiguille</NeedleCapBrush>
     <Negative>Negatif</Negative>
+    <NegativeColor>Couleur négative</NegativeColor>
     <NegativeSeriesColors>Couleurs de séries négative</NegativeSeriesColors>
     <NegativeTextBrush>Pinceau texte négatif</NegativeTextBrush>
     <NestedLevel>Niveau imbriqué</NestedLevel>
@@ -3738,6 +3809,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Offset>Décallage</Offset>
     <OffsetAngle>angle du décallage</OffsetAngle>
     <OnClick>Au clique</OnClick>
+    <OnDataManipulation>Lors de la manipulation de données</OnDataManipulation>
     <OnHover>Au survol</OnHover>
     <OnlyText>Texte uniquement</OnlyText>
     <OpenValues>Ouvrir les valeurs</OpenValues>
@@ -3763,11 +3835,13 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Path>Chemin</Path>
     <PathData>Chemin des données</PathData>
     <PathSchema>Chemin du schéma</PathSchema>
+    <Pattern>Modèle</Pattern>
     <Placement>Placement</Placement>
     <PlaceOnToolbox>Afficher dans la boîte à outils</PlaceOnToolbox>
     <PointAtCenter>Point au centre</PointAtCenter>
     <Position>Position</Position>
     <Positive>Positif</Positive>
+    <PositiveColor>Couleur positive</PositiveColor>
     <PreferredColumnWidth>Largeur de colonne préférée</PreferredColumnWidth>
     <PreferredRowHeight>Hauteur de colonne préférée</PreferredRowHeight>
     <PreventIntersection>Empêcher intersection</PreventIntersection>
@@ -3793,6 +3867,10 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ProcessTilde>Traiter le Tilde</ProcessTilde>
     <ProductHomePage>Page d'accueil du produit</ProductHomePage>
     <RadarStyle>Style radar</RadarStyle>
+    <RadialBarBorderBrush>Brosse de bordure de barre radiale</RadialBarBorderBrush>
+    <RadialBarBrush>Brosse de barre radiale</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>Brosse à bordure vide de Barre radiale</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>Brosse de Barre radiale vide</RadialBarEmptyBrush>
     <Radius>Radar</Radius>
     <RadiusMode>Mode de radar</RadiusMode>
     <Range>Gamme</Range>
@@ -3843,6 +3921,8 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Round>Arrondir</Round>
     <RoundValues>Valeurs arrondies</RoundValues>
     <RowCount>Nombre de lignes</RowCount>
+    <RowHeaderBackColor>Couleur de fond de la ligne d'en-tête</RowHeaderBackColor>
+    <RowHeaderForeColor>Couleur du texte de la ligne d'en-tête</RowHeaderForeColor>
     <RowHeadersVisible>En-têtes de ligne visibles</RowHeadersVisible>
     <RowHeaderWidth>Largeur des en-têtes de ligne</RowHeaderWidth>
     <Rows>Lignes</Rows>
@@ -3851,6 +3931,13 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ScriptLanguage>Language de script</ScriptLanguage>
     <SegmentPerHeight>Segments par hauteur</SegmentPerHeight>
     <SegmentPerWidth>Segments par largeur</SegmentPerWidth>
+    <SelectedBackColor>Couleur de fond de sélection</SelectedBackColor>
+    <SelectedCellBackColor>Couleur de fond de la cellule sélectionnée</SelectedCellBackColor>
+    <SelectedCellForeColor>Couleur du texte de la cellule sélectionnée</SelectedCellForeColor>
+    <SelectedDataColor>Couleur de sélection des données</SelectedDataColor>
+    <SelectedDataForeground>Données d'avant plan sélectionné</SelectedDataForeground>
+    <SelectedForeColor>Couleur de texte sélectionné</SelectedForeColor>
+    <SelectedGlyphColor>Couleur du glyphe sélectionné</SelectedGlyphColor>
     <SelectedIndex>Index sélectionné</SelectedIndex>
     <SelectedItem>Élément sélectionné</SelectedItem>
     <SelectedKey>Clé sélectionnées</SelectedKey>
@@ -3860,6 +3947,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <SelectionEnabled>Sélection activée</SelectionEnabled>
     <SelectionForeColor>Couleur  de la sélection</SelectionForeColor>
     <SelectionMode>Mode de sélection</SelectionMode>
+    <SeparatorColor>Couleur de séparation</SeparatorColor>
     <SerialNumber>Numéro de série</SerialNumber>
     <Series>Série</Series>
     <SeriesColors>Couleurs des séries</SeriesColors>
@@ -3988,6 +4076,16 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <TextOnly>Texte seulement</TextOnly>
     <TextOptions>Options de texte</TextOptions>
     <TextQuality>Qualité du texte</TextQuality>
+    <TickLabelMajorFont>Police principale du label de coche</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>Brosse principale du label de coche</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Police mineure du label de coche</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Brosse mineure du label de coche</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Brosse mineure du label de coche</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>Largeur de bordure de coche principale</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>Brosse principale de coche</TickMarkMajorBrush>
+    <TickMarkMinorBorder>Brosse mineure de coche</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>Largeur de bordure de coche mineure</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>Brosse mineure de coche</TickMarkMinorBrush>
     <Ticks>Intervalles</Ticks>
     <Title>Titre</Title>
     <TitleBeforeHeader>Titre avant l'en-tête</TitleBeforeHeader>
@@ -4006,6 +4104,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <TopSide>Bord haur</TopSide>
     <Total>Total</Total>
     <Totals>Totals</Totals>
+    <TrackColor>Suivre couleur</TrackColor>
     <TransparentColor>Couleur transparente</TransparentColor>
     <TrendLine>Ligne de tendance</TrendLine>
     <TrendLineColor>Couleur</TrendLineColor>
@@ -4480,6 +4579,13 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <TextEditor>Éditeur de texte</TextEditor>
     <title>Boîte à outils</title>
   </Toolbox>
+  <WelcomeScreen>
+    <Description>Nous avons sélectionné pour vous des rapports que nous pensons être les meilleurs pour commencer rapidement.</Description>
+    <GetStartedWithDashboards>Commencer avec les Tableaux de bords</GetStartedWithDashboards>
+    <GetStartedWithReports>Commencer avec les Rapports</GetStartedWithReports>
+    <MoreReports>Plus de rapports</MoreReports>
+    <Title>Bienvenue dans la démo de Stimulsoft</Title>
+  </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Tableau de bord vierge</BlankDashboard>
     <BlankReport>Rapport vide</BlankReport>

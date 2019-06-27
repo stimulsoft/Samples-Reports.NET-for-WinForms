@@ -198,6 +198,11 @@
     <LabelsOutside>外側</LabelsOutside>
     <LabelsOutsideBase>ベース外</LabelsOutsideBase>
     <LabelsOutsideEnd>外端</LabelsOutsideEnd>
+    <LabelsStyleCategory>カテゴリ</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>カテゴリ - 合計の割合</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>カテゴリ - 値</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>合計の割合</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>値</LabelsStyleValue>
     <LabelsTwoColumns>2つの列</LabelsTwoColumns>
     <LabelTextAfter>テキスト後：</LabelTextAfter>
     <LabelTextBefore>前のテキスト：</LabelTextBefore>
@@ -356,6 +361,7 @@
     <Cancel>キャンセル</Cancel>
     <CheckBoxMoveToRecycleBin>ごみ箱に移動</CheckBoxMoveToRecycleBin>
     <CheckBoxRememberMe>私を覚えてますか</CheckBoxRememberMe>
+    <CheckForUpdate>更新確認</CheckForUpdate>
     <Cloud>雲</Cloud>
     <Collection>コレクション</Collection>
     <Create>作成</Create>
@@ -601,6 +607,9 @@
   <Dashboard>
     <AddRange>範囲を追加</AddRange>
     <AfterGroupingData>データをグループ化した後に適用</AfterGroupingData>
+    <AllowUserDrillDown>ユーザードリルダウンの許可</AllowUserDrillDown>
+    <AllowUserFiltering>ユーザーフィルターの許可</AllowUserFiltering>
+    <AllowUserSorting>ユーザーソートの許可</AllowUserSorting>
     <Blanks>（ブランク）</Blanks>
     <BooleanFilters>ブーリアンフィルタ</BooleanFilters>
     <CannotLoadDashboard>ダッシュボードでレポートを読み込むことはできません。</CannotLoadDashboard>
@@ -609,6 +618,7 @@
     <ClearAllFormatting>すべての書式設定をクリア</ClearAllFormatting>
     <ClearFilterFrom>'{0}'のフィルタをクリア</ClearFilterFrom>
     <ColorScale>カラースケール</ColorScale>
+    <ColumnInteractions>カラム相互作用</ColumnInteractions>
     <CustomFilter>カスタムフィルタ...</CustomFilter>
     <DataBars>データバー</DataBars>
     <DataNotDefined>データが定義されていません</DataNotDefined>
@@ -616,10 +626,14 @@
     <Dimension>寸法</Dimension>
     <Dimensions>寸法</Dimensions>
     <DragDropDataFromDictionary>辞書からデータをドラッグアンドドロップ</DragDropDataFromDictionary>
+    <DrillDown>ドリルダウン</DrillDown>
+    <DrillDownSelected>ドリルダウン選択</DrillDownSelected>
+    <DrillUp>ドリルアップ</DrillUp>
     <DuplicateField>重複フィールド</DuplicateField>
     <EditExpression>式を編集</EditExpression>
     <EmptyDashboardFooter>部品をツールボックスまたは辞書からのデータのドラッグ＆ドロップ</EmptyDashboardFooter>
     <EmptyDashboardHeader>ダッシュボードが空です</EmptyDashboardHeader>
+    <FieldInteractions>フィールド相互作用</FieldInteractions>
     <FieldTypeRestrictionHint>'{0}'タイプフィールドのみ使用できます。</FieldTypeRestrictionHint>
     <FirstLastPoints>最初</FirstLastPoints>
     <FirstRowIndex>最初の行のインデックス</FirstRowIndex>
@@ -646,6 +660,8 @@
     <RemoveField>フィールドを削除</RemoveField>
     <ReplaceValues>値を置き換える</ReplaceValues>
     <RowsCount>行数</RowsCount>
+    <RunFieldsEditor>フィールドエディタ実行</RunFieldsEditor>
+    <RunFieldsEditorInfo>各テーブル列の相互作用を変更するには、フィールドエディタを実行します。</RunFieldsEditorInfo>
     <SelectAll>（すべて選択）</SelectAll>
     <ShowAllValue>すべての値を表示</ShowAllValue>
     <ShowAsPercentages>パーセンテージとして表示</ShowAsPercentages>
@@ -830,6 +846,7 @@
     <AllowPrintDocument>印刷ドキュメントを許可</AllowPrintDocument>
     <Auto>自動</Auto>
     <BandsFilter>バンドフィルター：</BandsFilter>
+    <CancelExport>エキスポートキャンセル</CancelExport>
     <Color>色</Color>
     <Compressed>圧縮された</Compressed>
     <CompressToArchive>アーカイブに圧縮</CompressToArchive>
@@ -983,6 +1000,7 @@
     <PdfFiles>Adobe PDFファイル(*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG画像(*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007</Ppt2007Files>
+    <ReportEmbededDataFiles>埋め込みデータありのレポートテンプレート</ReportEmbededDataFiles>
     <ReportFiles>レポートテンプレート(*.mrt)|</ReportFiles>
     <RtfFiles>リッチテキスト(*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>スタンドアロンレポート(*.exe)|*.exe</StandaloneReportFiles>
@@ -1030,6 +1048,16 @@
     <date10>*F</date10>
     <date11>MM.dd.yyyy</date11>
     <date12>dd/MM/yyyy</date12>
+    <date13>*g</date13>
+    <date14>*G</date14>
+    <date15>*y</date15>
+    <date16>*m</date16>
+    <date17>s</date17>
+    <date18>u</date18>
+    <date19>*Q</date19>
+    <date20>*YQ</date20>
+    <date21>QI</date21>
+    <date22>YQI</date22>
     <time01>*t</time01>
     <time02>*T</time02>
     <time03>HH:mm</time03>
@@ -1086,6 +1114,8 @@
     <title>クロスタブデザイナー</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <ClientId>クライアントId</ClientId>
+    <ClientSecret>クライアントシークレット</ClientSecret>
     <ConnectionString>接続文字列：</ConnectionString>
     <DashboardConnections>ダッシュボード接続</DashboardConnections>
     <DB2Edit>IBM DB2接続の編集</DB2Edit>
@@ -1124,6 +1154,7 @@
     <RelationDirection>リレーションの方向：</RelationDirection>
     <ReportConnections>レポート接続</ReportConnections>
     <SelectData>データの選択</SelectData>
+    <SpreadsheetId>スプレッドシートId</SpreadsheetId>
     <SqlCeEdit>SQLServerCE接続を編集</SqlCeEdit>
     <SqlCeNew>新規SQLServerCE接続</SqlCeNew>
     <SqlEdit>SQL接続の編集</SqlEdit>
@@ -2039,6 +2070,7 @@
     <menuEditUndoText>アンドゥ{0}</menuEditUndoText>
     <menuEditVariableNew>新規変数...</menuEditVariableNew>
     <menuEditViewData>データを表示...</menuEditViewData>
+    <menuEmbedAllDataToResources>すべてのデータをリソースに埋め込む</menuEmbedAllDataToResources>
     <menuFile>ファイル</menuFile>
     <menuFileClose>閉じる</menuFileClose>
     <menuFileDashboardDelete>ダッシュボードの削除</menuFileDashboardDelete>
@@ -2135,19 +2167,20 @@
     あなたの登録を確認するためのリンクが含まれています。 登録を完了するには、受け取った電子メールのリンクをクリックしてください。
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>このフィールドは指定されていません！</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>この機能は、すべてのレポートデータをレポートリソースに埋め込み、レポートをスタンドアロンにします。注意してください！データ設定はすべて変更され、復元することはできません。まず、レポートのバックアップコピーを作成してください。よろしいですか？</ThisFunctionEmbedsAllReportDataToTheReport>
   </Messages>
   <Notices>
     <AccessDenied>アクセスが拒否されました！</AccessDenied>
     <AccountLocked>あなたのアカウントはロックされています！ それを解決するには、sales@stimulsoft.comまでご連絡ください！</AccountLocked>
-    <ActivationExpiriedBeforeFirstRelease>Stimulsoft Reports.Ultimateの購読は、Stimulsoft Reports.Serverの最初のバージョンよりも前に期限切れになりました。</ActivationExpiriedBeforeFirstRelease>
+    <ActivationExpiriedBeforeFirstRelease>Stimulsoft Reports.Ultimateの購読は、Stimulsoft Serverの最初のバージョンよりも前に期限切れになりました。</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>ライセンスファイルが正しくありません。 sales@stimulsoft.comまでお問い合わせください。</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>あなたのアカウントはロックされています。 sales@stimulsoft.comまでお問い合わせください。</ActivationLockedAccount>
     <ActivationMaxActivationsReached>あなたは最大数のアクティベーションに達しました。 sales@stimulsoft.comまでお問い合わせください。</ActivationMaxActivationsReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Serverは現在利用できません！ 後でもう一度お試しください。</ActivationServerIsNotAvailableNow>
-    <ActivationServerVersionNotAllowed>サブスクリプションプログラムが期限切れになったため、Stimulsoft Reports.Serverのこのバージョンをアクティブ化することはできません！ アカウントにログインし、インストールして有効にできるStimulsoft Reports.Serverのバージョンを確認してください。</ActivationServerVersionNotAllowed>
+    <ActivationServerVersionNotAllowed>サブスクリプションプログラムが期限切れになったため、Stimulsoft Serverのこのバージョンをアクティブ化することはできません！ アカウントにログインし、インストールして有効にできるStimulsoft Serverのバージョンを確認してください。</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>有効化中にエラーが発生しました。 後でもう一度お試しください。</ActivationSomeTroublesOccurred>
     <ActivationUserNameOrPasswordIsWrong>あなたのユーザー名（電子メール）またはパスワードが間違っています！</ActivationUserNameOrPasswordIsWrong>
-    <ActivationWrongAccountType>あなたのアカウントタイプはStimulsoft Reports.Serverを有効にすることができません！</ActivationWrongAccountType>
+    <ActivationWrongAccountType>あなたのアカウントタイプはStimulsoft Serverを有効にすることができません！</ActivationWrongAccountType>
     <AuthAccountCantBeUsedNow>アカウントは今使用できません！</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>アカウントはまだ有効になっていません！ 登録時にEメールに送られた指示に従ってください。</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>このワークスペースの最後の管理者ユーザーであるため、ユーザーロールは変更できません。</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2383,6 +2416,7 @@
     <ImageCategory>画像</ImageCategory>
     <IndicatorCategory>インジケータ</IndicatorCategory>
     <InterlacingCategory>インターレース</InterlacingCategory>
+    <LabelsCategory>ラベル</LabelsCategory>
     <LegendCategory>凡例</LegendCategory>
     <ListBoxCategory>リストボックス</ListBoxCategory>
     <MainCategory>メイン</MainCategory>
@@ -2689,6 +2723,11 @@
     <StiCapStyleOval>楕円形</StiCapStyleOval>
     <StiCapStyleSquare>平方</StiCapStyleSquare>
     <StiCapStyleStealth>ステルス</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>カテゴリ</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>カテゴリ - 合計の割合</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>カテゴリ - 値</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>合計の割合</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>値</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>下部</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>左</StiChartTitleDockLeft>
     <StiChartTitleDockRight>右</StiChartTitleDockRight>
@@ -2811,6 +2850,7 @@
     <StiImageRotationRotate90CW>90°CW回転</StiImageRotationRotate90CW>
     <StiInteractionOnClick>無し</StiInteractionOnClick>
     <StiInteractionOnClickApplyFilter>フィルター適用</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>ドリルダウン</StiInteractionOnClickDrillDown>
     <StiInteractionOnClickOpenHyperlink>ハイパーリンクを開く</StiInteractionOnClickOpenHyperlink>
     <StiInteractionOnClickShowDashboard>ダッシュボードを表示</StiInteractionOnClickShowDashboard>
     <StiInteractionOnHoverNone>無</StiInteractionOnHoverNone>
@@ -2850,6 +2890,7 @@
     <StiMapTypeIndividual>個人</StiMapTypeIndividual>
     <StiMapTypeNone>なし</StiMapTypeNone>
     <StiMapTypePoints>ポイント</StiMapTypePoints>
+    <StiMarkerAlignmentCenter>中央</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>左</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>右</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>サークル</StiMarkerTypeCircle>
@@ -2865,6 +2906,16 @@
     <StiNestedFactorNormal>ノーマル</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>ダブルパス</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>シングルパス</StiNumberOfPassSinglePass>
+    <StiOnlineMapLocationTypeAdminDivision1>管理者分割1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>管理者分割2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>自動</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>国リージョン</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>付近</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>居住地</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>郵便番号1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>郵便番号2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>郵便番号3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>郵便番号4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>水平</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>水平右</StiOrientationHorizontalRight>
     <StiOrientationVertical>垂直</StiOrientationVertical>
@@ -3198,6 +3249,10 @@
     <AllowUseVertAlignment>Vert Alignmentの使用を許可</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>SQLパラメータとしての使用を許可</AllowUsingAsSqlParameter>
     <AlternatingBackColor>バックカラー交互</AlternatingBackColor>
+    <AlternatingCellBackColor>交互セルの背景色</AlternatingCellBackColor>
+    <AlternatingCellForeColor>交互セルの前景色</AlternatingCellForeColor>
+    <AlternatingDataColor>交互データ色</AlternatingDataColor>
+    <AlternatingDataForeground>交互データの前景</AlternatingDataForeground>
     <Anchor>アンカー</Anchor>
     <Angle>角度</Angle>
     <Antialiasing>アンチエイリアシング</Antialiasing>
@@ -3232,6 +3287,7 @@
     <BackColor>バックカラー</BackColor>
     <Background>バックグラウンド</Background>
     <BackgroundColor>背景色</BackgroundColor>
+    <BandColor>バンド色</BandColor>
     <BarCodeType>バーコードタイプ</BarCodeType>
     <BasicStyleColor>基本スタイルカラー</BasicStyleColor>
     <Blend>ブレンド</Blend>
@@ -3264,7 +3320,9 @@
     <Categories>カテゴリー</Categories>
     <Category>カテゴリー</Category>
     <CategoryConnections>接続</CategoryConnections>
+    <CellBackColor>セル背景色</CellBackColor>
     <CellDockStyle>セルドックスタイル</CellDockStyle>
+    <CellForeColor>セル前景色</CellForeColor>
     <CellHeight>セルの高さ</CellHeight>
     <CellType>セル型</CellType>
     <CellWidth>セル幅</CellWidth>
@@ -3307,6 +3365,8 @@
     <ColumnCount>列数</ColumnCount>
     <ColumnDirection>列方向</ColumnDirection>
     <ColumnGaps>列間隔</ColumnGaps>
+    <ColumnHeaderBackColor>カラムヘッダ背景色</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>カラムヘッダ前景色</ColumnHeaderForeColor>
     <ColumnHeadersVisible>列見出しが表示される</ColumnHeadersVisible>
     <Columns>カラム</Columns>
     <ColumnWidth>列幅</ColumnWidth>
@@ -3467,6 +3527,7 @@
     <Functions>関数</Functions>
     <GlobalizationStrings>グローバル対応文字列</GlobalizationStrings>
     <GlobalizedName>グローバル対応名</GlobalizedName>
+    <GlyphColor>グリフ色</GlyphColor>
     <GridColor>グリッドカラー</GridColor>
     <GridLineColor>グリッド線の色</GridLineColor>
     <GridLinesHor>グリッド線水平</GridLinesHor>
@@ -3505,7 +3566,16 @@
     <HighValues>高い価値</HighValues>
     <HorAlignment>水平方向の整列</HorAlignment>
     <HorSpacing>水平間隔</HorSpacing>
+    <HotBackColor>ホット背景色</HotBackColor>
+    <HotColumnHeaderBackColor>ホットカラムヘッダ背景色</HotColumnHeaderBackColor>
+    <HotForeColor>ホット前景色</HotForeColor>
+    <HotGlyphColor>ホットグリフ色</HotGlyphColor>
+    <HotHeaderColor>ホットヘッダ色</HotHeaderColor>
     <HotkeyPrefix>ホットキープレフィックス</HotkeyPrefix>
+    <HotRowHeaderBackColor>ホット行ヘッダ背景色</HotRowHeaderBackColor>
+    <HotSelectedBackColor>ホット選択背景色</HotSelectedBackColor>
+    <HotSelectedForeColor>ホット選択前景色</HotSelectedForeColor>
+    <HotSelectedGlyphColor>ホット選択グリフ色</HotSelectedGlyphColor>
     <HtmlTags>HTMLタグ</HtmlTags>
     <Hyperlink>ハイパーリンク</Hyperlink>
     <HyperlinkDataColumn>ハイパーリンクデータ列</HyperlinkDataColumn>
@@ -3586,6 +3656,10 @@
     <LengthUnderLabels>ラベルの下の長さ</LengthUnderLabels>
     <Lighting>点灯</Lighting>
     <Linear>リニア</Linear>
+    <LinearBarBorderBrush>リニアバー境界ブラシLinear Bar Border Brush</LinearBarBorderBrush>
+    <LinearBarBrush>リニアバーブラシ</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>リニアバー空境界ブラシ</LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>リニアバー空ブラシ</LinearBarEmptyBrush>
     <LineColor>線の色</LineColor>
     <LineColorNegative>ラインカラーネガティブ</LineColorNegative>
     <LineLimit>行制限</LineLimit>
@@ -3624,6 +3698,7 @@
     <Marker>マーカー</Marker>
     <MarkerAlignment>マーカーアラインメント</MarkerAlignment>
     <MarkerBorder>マーカーボーダー</MarkerBorder>
+    <MarkerBrush>メーカーブラシ</MarkerBrush>
     <MarkerColor>マーカーの色</MarkerColor>
     <MarkerSize>マーカーサイズ</MarkerSize>
     <MarkerType>マーカータイプ</MarkerType>
@@ -3671,7 +3746,13 @@
     <NameMeter>名前</NameMeter>
     <NameParent>親の名前</NameParent>
     <Namespaces>名前空間</Namespaces>
+    <NeedleBorderBrush>ニードル境界ブラシ</NeedleBorderBrush>
+    <NeedleBorderWidth>ニードル境界幅</NeedleBorderWidth>
+    <NeedleBrush>ニードルブラシ</NeedleBrush>
+    <NeedleCapBorderBrush>ニードルキャップ境界ブラシ</NeedleCapBorderBrush>
+    <NeedleCapBrush>ニードルキャップブラシ</NeedleCapBrush>
     <Negative>負</Negative>
+    <NegativeColor>ネガティブカラー</NegativeColor>
     <NegativeSeriesColors>シリーズ色反転</NegativeSeriesColors>
     <NegativeTextBrush>テキストブラシ反転</NegativeTextBrush>
     <NestedLevel>入れ子レベル</NestedLevel>
@@ -3690,6 +3771,7 @@
     <Offset>オフセット</Offset>
     <OffsetAngle>オフセット角</OffsetAngle>
     <OnClick>クリック時</OnClick>
+    <OnDataManipulation>データ操作</OnDataManipulation>
     <OnHover>ホバー時</OnHover>
     <OnlyText>テキストのみ</OnlyText>
     <OpenValues>オープンな価値</OpenValues>
@@ -3715,11 +3797,13 @@
     <Path>パス</Path>
     <PathData>パスデータ</PathData>
     <PathSchema>パススキーマ</PathSchema>
+    <Pattern>パターン</Pattern>
     <Placement>配置</Placement>
     <PlaceOnToolbox>ツールボックス上の場所</PlaceOnToolbox>
     <PointAtCenter>センターを指す</PointAtCenter>
     <Position>ポジション</Position>
     <Positive>ポジティブ</Positive>
+    <PositiveColor>ポジティブカラー</PositiveColor>
     <PreferredColumnWidth>優先カラム幅</PreferredColumnWidth>
     <PreferredRowHeight>優先行の高さ</PreferredRowHeight>
     <PreventIntersection>交差を防ぐ</PreventIntersection>
@@ -3745,6 +3829,10 @@
     <ProcessTilde>プロセスチルダ</ProcessTilde>
     <ProductHomePage>製品のホームページ</ProductHomePage>
     <RadarStyle>レーダースタイル</RadarStyle>
+    <RadialBarBorderBrush>放射バー境界ブラシ</RadialBarBorderBrush>
+    <RadialBarBrush>放射バーブラシ</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>放射バー空境界ブラシ</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>放射バー空ブラシ</RadialBarEmptyBrush>
     <Radius>半径</Radius>
     <RadiusMode>半径モード</RadiusMode>
     <Range>範囲</Range>
@@ -3795,6 +3883,8 @@
     <Round>円形</Round>
     <RoundValues>ラウンド値</RoundValues>
     <RowCount>行数</RowCount>
+    <RowHeaderBackColor>行ヘッダ背景色</RowHeaderBackColor>
+    <RowHeaderForeColor>行ヘッダ前景色</RowHeaderForeColor>
     <RowHeadersVisible>行ヘッダが表示される</RowHeadersVisible>
     <RowHeaderWidth>行ヘッダの幅</RowHeaderWidth>
     <Rows>行</Rows>
@@ -3803,6 +3893,13 @@
     <ScriptLanguage>スクリプト言語</ScriptLanguage>
     <SegmentPerHeight>高さのセグメント数</SegmentPerHeight>
     <SegmentPerWidth>幅のセグメント数</SegmentPerWidth>
+    <SelectedBackColor>選択背景色</SelectedBackColor>
+    <SelectedCellBackColor>選択セル背景色</SelectedCellBackColor>
+    <SelectedCellForeColor>選択セル前景色</SelectedCellForeColor>
+    <SelectedDataColor>選択データ色</SelectedDataColor>
+    <SelectedDataForeground>選択データ前景</SelectedDataForeground>
+    <SelectedForeColor>選択前景色</SelectedForeColor>
+    <SelectedGlyphColor>選択グリフ色</SelectedGlyphColor>
     <SelectedIndex>選択されたインデックス</SelectedIndex>
     <SelectedItem>選択項目</SelectedItem>
     <SelectedKey>選択されたキー</SelectedKey>
@@ -3812,6 +3909,7 @@
     <SelectionEnabled>選択有効</SelectionEnabled>
     <SelectionForeColor>選択色</SelectionForeColor>
     <SelectionMode>選択モード</SelectionMode>
+    <SeparatorColor>分離色</SeparatorColor>
     <SerialNumber>シリアルナンバー</SerialNumber>
     <Series>シリーズ</Series>
     <SeriesColors>シリーズ色</SeriesColors>
@@ -3939,6 +4037,16 @@
     <TextOnly>テキストのみ</TextOnly>
     <TextOptions>テキストオプション</TextOptions>
     <TextQuality>テキスト品質</TextQuality>
+    <TickLabelMajorFont>目盛ラベル主フォント</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>目盛ラベル主テキストブラシ</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>目盛ラベル副フォント</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>目盛ラベル副テキストブラシ</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>目盛マーク主境界</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>目盛マーク主境界幅</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>目盛マーク主ブラシ</TickMarkMajorBrush>
+    <TickMarkMinorBorder>目盛マーク副境界</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>目盛マーク副ブラシ幅</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>目盛マーク副ブラシ</TickMarkMinorBrush>
     <Ticks>ティック</Ticks>
     <Title>タイトル</Title>
     <TitleBeforeHeader>ヘッダ前のタイトル</TitleBeforeHeader>
@@ -3957,6 +4065,7 @@
     <TopSide>トップサイド</TopSide>
     <Total>合計</Total>
     <Totals>合計</Totals>
+    <TrackColor>トラック色</TrackColor>
     <TransparentColor>透明な色</TransparentColor>
     <TrendLine>トレンドライン</TrendLine>
     <TrendLineColor>色</TrendLineColor>
@@ -4429,6 +4538,13 @@
     <TextEditor>テキストエディタ</TextEditor>
     <title>ツールボックス</title>
   </Toolbox>
+  <WelcomeScreen>
+    <Description>素早くスタートするために最善と考えられるレポートを選択しました。</Description>
+    <GetStartedWithDashboards>最初のダッシュボード</GetStartedWithDashboards>
+    <GetStartedWithReports>最初のレポート</GetStartedWithReports>
+    <MoreReports>レポートを見る</MoreReports>
+    <Title>ようこそStimulsoftデモへ</Title>
+  </WelcomeScreen>
   <Wizards>
     <BlankDashboard>ブランクダッシュボード</BlankDashboard>
     <BlankReport>空白レポート</BlankReport>

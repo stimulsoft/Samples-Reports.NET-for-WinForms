@@ -198,6 +198,11 @@
     <LabelsOutside>Външен</LabelsOutside>
     <LabelsOutsideBase>Външен начало</LabelsOutsideBase>
     <LabelsOutsideEnd>Външен край</LabelsOutsideEnd>
+    <LabelsStyleCategory>Категория</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>Категория - Процент от общо</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>Категорив - Стойност</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>Процент от общо</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>Стойност</LabelsStyleValue>
     <LabelsTwoColumns>Две колони</LabelsTwoColumns>
     <LabelTextAfter>Текст след:</LabelTextAfter>
     <LabelTextBefore>Текст преди:</LabelTextBefore>
@@ -356,6 +361,7 @@
     <Cancel>Отказ</Cancel>
     <CheckBoxMoveToRecycleBin>Преместване в кошчето</CheckBoxMoveToRecycleBin>
     <CheckBoxRememberMe>Запомни ме</CheckBoxRememberMe>
+    <CheckForUpdate>Проверка за актуализация</CheckForUpdate>
     <Cloud>Облак</Cloud>
     <Collection>Колекция</Collection>
     <Create>Създай</Create>
@@ -602,6 +608,9 @@
   <Dashboard>
     <AddRange>Добавяне обхват</AddRange>
     <AfterGroupingData>Приложете след групиране на данните</AfterGroupingData>
+    <AllowUserDrillDown>Разрешаване на детаилизиране</AllowUserDrillDown>
+    <AllowUserFiltering>Резрешаване филтриране</AllowUserFiltering>
+    <AllowUserSorting>Разрешаване сортиране</AllowUserSorting>
     <Blanks>(Бланки)</Blanks>
     <BooleanFilters>Булеви филтри</BooleanFilters>
     <CannotLoadDashboard>Не можете да заредите отчет с табла за управление.</CannotLoadDashboard>
@@ -610,6 +619,7 @@
     <ClearAllFormatting>Изчистване на цялото форматиране</ClearAllFormatting>
     <ClearFilterFrom>изчистване на филтъра от '{0}'</ClearFilterFrom>
     <ColorScale>Скала с цветове</ColorScale>
+    <ColumnInteractions>Взаимодействия с колони</ColumnInteractions>
     <CustomFilter>Потрбителски &amp;филтри...</CustomFilter>
     <DataBars>Лената с данни</DataBars>
     <DataNotDefined>Недефинирани данни</DataNotDefined>
@@ -617,10 +627,14 @@
     <Dimension>Размер</Dimension>
     <Dimensions>Размери</Dimensions>
     <DragDropDataFromDictionary>Плъзнете и пуснете данните от речника</DragDropDataFromDictionary>
+    <DrillDown>Детайлизиране</DrillDown>
+    <DrillDownSelected>Избрано детайлизиране</DrillDownSelected>
+    <DrillUp>Навигиране навътре</DrillUp>
     <DuplicateField>Дублирано поле</DuplicateField>
     <EditExpression>Редакция израз</EditExpression>
     <EmptyDashboardFooter>Плъзнете и пуснете компонентите от инструментатиума или данните от речника</EmptyDashboardFooter>
     <EmptyDashboardHeader>Таблото е празно</EmptyDashboardHeader>
+    <FieldInteractions>Взаимодействия с полета</FieldInteractions>
     <FieldTypeRestrictionHint>Само '{0}' тип поле може да се използва!</FieldTypeRestrictionHint>
     <FirstLastPoints>Първа / Последна точки</FirstLastPoints>
     <FirstRowIndex>Индекс първи ред</FirstRowIndex>
@@ -647,6 +661,8 @@
     <RemoveField>Премахни поле</RemoveField>
     <ReplaceValues>Заменете стойноститеReplace Values</ReplaceValues>
     <RowsCount>Брой редове</RowsCount>
+    <RunFieldsEditor>Стартиране редактор на полета</RunFieldsEditor>
+    <RunFieldsEditorInfo>Стартиране редактора на полетата за промяна на всяка колона в таблицата.</RunFieldsEditorInfo>
     <SelectAll>(Избери &amp;всички)</SelectAll>
     <ShowAllValue>Покажи (всяка) Стойност</ShowAllValue>
     <ShowAsPercentages>Показване като проценти</ShowAsPercentages>
@@ -831,6 +847,7 @@
     <AllowPrintDocument>Пазрешава печат на документ</AllowPrintDocument>
     <Auto>Авто</Auto>
     <BandsFilter>Филтър секции:</BandsFilter>
+    <CancelExport>Прекъсване на Експорта</CancelExport>
     <Color>Цвят</Color>
     <Compressed>Компресиран</Compressed>
     <CompressToArchive>Компресирай в архива</CompressToArchive>
@@ -985,6 +1002,7 @@
     <PdfFiles>Adobe PDF файлове (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG картинка (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013 файлове (*.pptx)|*.pptx</Ppt2007Files>
+    <ReportEmbededDataFiles>Шаблони на отчет с вградени данни (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Файл отчети (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Автономен отчет (*.exe)|*.exe</StandaloneReportFiles>
@@ -1098,6 +1116,8 @@
     <title>Дизайнер крос-таблица</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <ClientId>Клиент Ид</ClientId>
+    <ClientSecret>Клиентска тайна</ClientSecret>
     <ConnectionString>Израз за връзка:</ConnectionString>
     <DashboardConnections>Връзки на таблото</DashboardConnections>
     <DB2Edit>Редакция IBM DB2 връзка</DB2Edit>
@@ -1136,6 +1156,7 @@
     <RelationDirection>Посока на релация:</RelationDirection>
     <ReportConnections>Скорошни Връзки</ReportConnections>
     <SelectData>Избери данни</SelectData>
+    <SpreadsheetId>електронна таблица Ид</SpreadsheetId>
     <SqlCeEdit>Редакция SQLServerCE връзка</SqlCeEdit>
     <SqlCeNew>Нова SQLServerCE връзка</SqlCeNew>
     <SqlEdit>Редакция Sql връзка</SqlEdit>
@@ -2052,6 +2073,7 @@
     <menuEditUndoText>&amp;Отмени {0}</menuEditUndoText>
     <menuEditVariableNew>Нова променлива...</menuEditVariableNew>
     <menuEditViewData>Преглед данни...</menuEditViewData>
+    <menuEmbedAllDataToResources>Вграждане всички данни в ресурси</menuEmbedAllDataToResources>
     <menuFile>&amp;Файл</menuFile>
     <menuFileClose>&amp;Затвори</menuFileClose>
     <menuFileDashboardDelete>Изтриване на Таблото за Управление</menuFileDashboardDelete>
@@ -2152,19 +2174,20 @@
 Изпратен е Email до "{0}".
 Той съдържа връзка за потвърждение на вашата регистрация. За да завършите регистрацията моля последвайте линка от Email-a, който сте получили.</TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>Това поле не е определено!</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>Тази функция вгражда всички отчетни данни в ресурсите на отчета и прави вашия отчет самостоятелен. Бъдете внимателени! Всички ваши настройки за данни ще бъдат променени и не могат да бъдат възстановени. Моля, първо направете резервно копие на отчета. {0} Сигурни ли сте?</ThisFunctionEmbedsAllReportDataToTheReport>
   </Messages>
   <Notices>
     <AccessDenied>Достъпът забранен!</AccessDenied>
     <AccountLocked>Вашата регистрация е заключена! За да разрешите проблема, се обърнете към sales@stimulsoft.com!</AccountLocked>
-    <ActivationExpiriedBeforeFirstRelease>Вашият абонамент на Stimulsoft Reports.Ultimate изтече по-рано от публикуване на първата версия на нашия Stimulsoft Reports.Server!</ActivationExpiriedBeforeFirstRelease>
+    <ActivationExpiriedBeforeFirstRelease>Вашият абонамент на Stimulsoft Reports.Ultimate изтече по-рано от публикуване на първата версия на нашия Stimulsoft Server!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>Некоректен лицензен файл! Моля, свържете се с нашия отдел продажби в sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Профилът ви е заключен. Моля, свържете се с нашия отдел продажби в sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationMaxActivationsReached>Вие достигнахте максимално разрешения брой на активации. Моля, свържете се с нашия отдел продажби в sales@stimulsoft.com!</ActivationMaxActivationsReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server в момента не е наличен! Опитайте отново по-късно.</ActivationServerIsNotAvailableNow>
-    <ActivationServerVersionNotAllowed>Вие не можете да активирате тази версия на Stimulsoft Reports.Server защото абонамента ви е изтекъл! Моля, влезте в профила си и проверите коя версия на Stimulsoft Reports.Server можете да инсталирате и активирте.</ActivationServerVersionNotAllowed>
+    <ActivationServerVersionNotAllowed>Вие не можете да активирате тази версия на Stimulsoft Server защото абонамента ви е изтекъл! Моля, влезте в профила си и проверите коя версия на Stimulsoft Server можете да инсталирате и активирте.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Възникна грешка при активиране. Моля, опитайте отново по-късно.</ActivationSomeTroublesOccurred>
     <ActivationUserNameOrPasswordIsWrong>Грешно потребителско име (Email) или парола!</ActivationUserNameOrPasswordIsWrong>
-    <ActivationWrongAccountType>Типа на профила ви не позволява да активирате Stimulsoft Reports.Server!</ActivationWrongAccountType>
+    <ActivationWrongAccountType>Типа на профила ви не позволява да активирате Stimulsoft Server!</ActivationWrongAccountType>
     <AuthAccountCantBeUsedNow>Профила не може да бъде използван сега!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>Профила ви не е активиран все още! Моля, следвайте инструкциите, изпратени на Email по време на регистрацията.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Ролята на потребител все още не може да се промени, тъй като това е последният потребител администратор в това работно пространство!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2400,6 +2423,7 @@
     <ImageCategory>Картинка</ImageCategory>
     <IndicatorCategory>Индикатор</IndicatorCategory>
     <InterlacingCategory>Презредова Развивка</InterlacingCategory>
+    <LabelsCategory>Етикети</LabelsCategory>
     <LegendCategory>Легенда</LegendCategory>
     <ListBoxCategory>List Box</ListBoxCategory>
     <MainCategory>Основни</MainCategory>
@@ -2706,6 +2730,11 @@
     <StiCapStyleOval>Овал</StiCapStyleOval>
     <StiCapStyleSquare>Квадрат</StiCapStyleSquare>
     <StiCapStyleStealth>Stealth</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>Категория</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>Категория - процент от общо</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>Категория - стойност</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>Процент от общо</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>Стойност</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>Отдолу</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>Отлявао</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Отдясно</StiChartTitleDockRight>
@@ -2828,6 +2857,7 @@
     <StiImageRotationRotate90CW>Ротация 90° по часовникова стралка</StiImageRotationRotate90CW>
     <StiInteractionOnClick>Нито един</StiInteractionOnClick>
     <StiInteractionOnClickApplyFilter>Приложи филтър</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>Детайлизиране</StiInteractionOnClickDrillDown>
     <StiInteractionOnClickOpenHyperlink>Отвори хиперлинк</StiInteractionOnClickOpenHyperlink>
     <StiInteractionOnClickShowDashboard>Покажи таблото</StiInteractionOnClickShowDashboard>
     <StiInteractionOnHoverNone>Нито един</StiInteractionOnHoverNone>
@@ -2882,6 +2912,7 @@
     <StiMapTypeIndividual>Индивидуален</StiMapTypeIndividual>
     <StiMapTypeNone>Нищо</StiMapTypeNone>
     <StiMapTypePoints>Точки</StiMapTypePoints>
+    <StiMarkerAlignmentCenter>Центриране</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>Отляво</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Отдясно</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Кръг</StiMarkerTypeCircle>
@@ -2897,6 +2928,16 @@
     <StiNestedFactorNormal>Нормалноl</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Два прехода</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Един преход</StiNumberOfPassSinglePass>
+    <StiOnlineMapLocationTypeAdminDivision1>Админ отдел1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>Админ отдел2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>Автоматично</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>Държава (регион)</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>Квартал</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>Населено място</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>Пощенски код1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>Пощенски код2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>Пощенски код3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>Пощенски код4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>Хоризонтално</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>Хоризонтално дясно</StiOrientationHorizontalRight>
     <StiOrientationVertical>Верикално</StiOrientationVertical>
@@ -3230,6 +3271,10 @@
     <AllowUseVertAlignment>Разреши използване вертик. подравняване</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Разреши използване като SQL параметър</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Алтернативен цвят на фона</AlternatingBackColor>
+    <AlternatingCellBackColor>Черен цвят на гърба</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Черен цвят на предните редове</AlternatingCellForeColor>
+    <AlternatingDataColor>Редуващи се цветове на данните</AlternatingDataColor>
+    <AlternatingDataForeground>Редуващи се данни на преден план</AlternatingDataForeground>
     <Anchor>Котва</Anchor>
     <Angle>Ъгъл</Angle>
     <Antialiasing>Прозрачност</Antialiasing>
@@ -3264,6 +3309,7 @@
     <BackColor>Цвят Фон</BackColor>
     <Background>Фон</Background>
     <BackgroundColor>Цвят заден фон</BackgroundColor>
+    <BandColor>Цвят на лентата</BandColor>
     <BarCodeType>Тип баркод</BarCodeType>
     <BasicStyleColor>Основен цвят стил</BasicStyleColor>
     <BindingColumn>Свързваща колона</BindingColumn>
@@ -3297,7 +3343,9 @@
     <Categories>Категории</Categories>
     <Category>Категория</Category>
     <CategoryConnections>Връзки</CategoryConnections>
+    <CellBackColor>Цвят на задната част на клетката</CellBackColor>
     <CellDockStyle>Стил Dock Клетка</CellDockStyle>
+    <CellForeColor>Цвят на предната част на клетката</CellForeColor>
     <CellHeight>Височина клетка</CellHeight>
     <CellType>Тип Клетка</CellType>
     <CellWidth>Ширина клетка</CellWidth>
@@ -3340,6 +3388,8 @@
     <ColumnCount>Брой колони</ColumnCount>
     <ColumnDirection>Направление колона</ColumnDirection>
     <ColumnGaps>Разстояние м/у колоните</ColumnGaps>
+    <ColumnHeaderBackColor>Цвят на гърба на колоната</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Цвят на заглавката на колоната</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Видими заглавия колона</ColumnHeadersVisible>
     <Columns>Колони</Columns>
     <ColumnWidth>Ширина колони</ColumnWidth>
@@ -3500,6 +3550,7 @@
     <Functions>Функции</Functions>
     <GlobalizationStrings>Редове превод</GlobalizationStrings>
     <GlobalizedName>Глобализация</GlobalizedName>
+    <GlyphColor>Цвят на глифа</GlyphColor>
     <GridColor>Цвят на решетката</GridColor>
     <GridLineColor>Цвят линии мрежа</GridLineColor>
     <GridLinesHor>Хоризонтални линии мрежа</GridLinesHor>
@@ -3538,7 +3589,16 @@
     <HighValues>Високи стойности</HighValues>
     <HorAlignment>Хоризонтално подравняване</HorAlignment>
     <HorSpacing>Разстояние между хоризонтали</HorSpacing>
+    <HotBackColor>Цвят на горещия гръб Hot Back Color</HotBackColor>
+    <HotColumnHeaderBackColor>Горещ цвят на гърба на колоната</HotColumnHeaderBackColor>
+    <HotForeColor>Hot преден цвят</HotForeColor>
+    <HotGlyphColor>Hot цвят на глифа</HotGlyphColor>
+    <HotHeaderColor>Hot цвят на заглавката</HotHeaderColor>
     <HotkeyPrefix>Пефикс горещ клавиш</HotkeyPrefix>
+    <HotRowHeaderBackColor>Hot цвят на гърба на ред</HotRowHeaderBackColor>
+    <HotSelectedBackColor>Hot избран Цвят на гърба</HotSelectedBackColor>
+    <HotSelectedForeColor>Hot избран преден цвят</HotSelectedForeColor>
+    <HotSelectedGlyphColor>Hot избран цвят на глифа</HotSelectedGlyphColor>
     <HtmlTags>Html тагове</HtmlTags>
     <Hyperlink>Хиперлинк</Hyperlink>
     <HyperlinkDataColumn>Колона данни хипер-връзка</HyperlinkDataColumn>
@@ -3620,6 +3680,10 @@
     <LengthUnderLabels>Дължина под етикети</LengthUnderLabels>
     <Lighting>Осветяване</Lighting>
     <Linear>Линейно</Linear>
+    <LinearBarBorderBrush>Линейна четка за граница на лента</LinearBarBorderBrush>
+    <LinearBarBrush>Линейна четка</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>Линейна лента Празна граница четка</LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>Линейна лента Празна четка</LinearBarEmptyBrush>
     <LineColor>Цвят линия</LineColor>
     <LineColorNegative>Цвят Линия на Негатив</LineColorNegative>
     <LineLimit>Лимит линия</LineLimit>
@@ -3658,6 +3722,7 @@
     <Marker>Маркер</Marker>
     <MarkerAlignment>Подравняване маркер</MarkerAlignment>
     <MarkerBorder>Очертание на маркера</MarkerBorder>
+    <MarkerBrush>Четка за маркиране</MarkerBrush>
     <MarkerColor>Цвят маркер</MarkerColor>
     <MarkerSize>Размер маркер</MarkerSize>
     <MarkerType>Тип маркер</MarkerType>
@@ -3705,7 +3770,13 @@
     <NameMeter>Име</NameMeter>
     <NameParent>Име на родител</NameParent>
     <Namespaces>Пространство от имена</Namespaces>
+    <NeedleBorderBrush>Четка за игла</NeedleBorderBrush>
+    <NeedleBorderWidth>Ширина на иглената граница</NeedleBorderWidth>
+    <NeedleBrush>Четка за игла</NeedleBrush>
+    <NeedleCapBorderBrush>Четка с капачка за игла</NeedleCapBorderBrush>
+    <NeedleCapBrush>Четка с капачка за игла</NeedleCapBrush>
     <Negative>Отрицателни</Negative>
+    <NegativeColor>Отрицателен цвят</NegativeColor>
     <NegativeSeriesColors>Цвят на отрицателните серии</NegativeSeriesColors>
     <NegativeTextBrush>Четка за отрицателен текст</NegativeTextBrush>
     <NestedLevel>Ниво на вложеност</NestedLevel>
@@ -3724,6 +3795,7 @@
     <Offset>Отместване</Offset>
     <OffsetAngle>Ъгъл на Отместване</OffsetAngle>
     <OnClick>При щракване</OnClick>
+    <OnDataManipulation>При манипулиранер на данни</OnDataManipulation>
     <OnHover>При посочване</OnHover>
     <OnlyText>Само текст</OnlyText>
     <OpenValues>Отворени стойности</OpenValues>
@@ -3749,11 +3821,13 @@
     <Path>Пътека</Path>
     <PathData>Пътека Данни</PathData>
     <PathSchema>Пътека Схема</PathSchema>
+    <Pattern>Модел</Pattern>
     <Placement>Разположение</Placement>
     <PlaceOnToolbox>Место в инструментариум</PlaceOnToolbox>
     <PointAtCenter>Точка в център</PointAtCenter>
     <Position>Позиция</Position>
     <Positive>Положителни</Positive>
+    <PositiveColor>Положителен цвят</PositiveColor>
     <PreferredColumnWidth>Предпочитана ширина на колона</PreferredColumnWidth>
     <PreferredRowHeight>Предпочитана височина на ред</PreferredRowHeight>
     <PreventIntersection>Продотвратяване на пресичане</PreventIntersection>
@@ -3779,6 +3853,10 @@
     <ProcessTilde>Тилда</ProcessTilde>
     <ProductHomePage>Начална страница на продукта</ProductHomePage>
     <RadarStyle>Стил радар</RadarStyle>
+    <RadialBarBorderBrush>Четка с радиална лента</RadialBarBorderBrush>
+    <RadialBarBrush>Четка за радиална лента</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>Радиална лента Празна четка за граница</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>Радиална лента Празна четка</RadialBarEmptyBrush>
     <Radius>Радиус</Radius>
     <RadiusMode>Режим на Радиус</RadiusMode>
     <Range>Диапазон</Range>
@@ -3829,6 +3907,8 @@
     <Round>Закръгленост</Round>
     <RoundValues>Закръглени стойности</RoundValues>
     <RowCount>Брой редове</RowCount>
+    <RowHeaderBackColor>Цвят на гърба на заглавния ред</RowHeaderBackColor>
+    <RowHeaderForeColor>Цвят на заглавката на ред</RowHeaderForeColor>
     <RowHeadersVisible>Видимост на заглавия редове</RowHeadersVisible>
     <RowHeaderWidth>Ширина на заглавия редове</RowHeaderWidth>
     <Rows>Редове</Rows>
@@ -3837,6 +3917,13 @@
     <ScriptLanguage>Скриптов език</ScriptLanguage>
     <SegmentPerHeight>Сегменти по височина</SegmentPerHeight>
     <SegmentPerWidth>Сегменти по ширина</SegmentPerWidth>
+    <SelectedBackColor>Избран Цвят на гърба</SelectedBackColor>
+    <SelectedCellBackColor>Избран цвят на задната част на клетката</SelectedCellBackColor>
+    <SelectedCellForeColor>Избран цветен преден цвят</SelectedCellForeColor>
+    <SelectedDataColor>Цвят на избраните данни</SelectedDataColor>
+    <SelectedDataForeground>Избрани данни на преден план</SelectedDataForeground>
+    <SelectedForeColor>Избран преден цвят</SelectedForeColor>
+    <SelectedGlyphColor>Избрани цветове на глифа</SelectedGlyphColor>
     <SelectedIndex>Избран индекс</SelectedIndex>
     <SelectedItem>Избран елемент</SelectedItem>
     <SelectedKey>Избран индекс</SelectedKey>
@@ -3846,6 +3933,7 @@
     <SelectionEnabled>Избирането е разрешено</SelectionEnabled>
     <SelectionForeColor>Избор цвят текст</SelectionForeColor>
     <SelectionMode>Режим на избор</SelectionMode>
+    <SeparatorColor>Цвят на разделителя</SeparatorColor>
     <SerialNumber>Сериен номер</SerialNumber>
     <Series>Серии</Series>
     <SeriesColors>Цветове на сериите</SeriesColors>
@@ -3974,6 +4062,16 @@
     <TextOnly>Само текст</TextOnly>
     <TextOptions>Опции на текст</TextOptions>
     <TextQuality>Качество на текста</TextQuality>
+    <TickLabelMajorFont>Етикет на основен шрифт</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>Етикет на основната четка на текст</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Етикет второстепеннен шрифт</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Етикет на второстепенна четка текст</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Маркиране на основната ивица</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>Маркиране ширината на основната ивица</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>Маркиране на основната четка</TickMarkMajorBrush>
+    <TickMarkMinorBorder>Маркирана на второстепенната ивица</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>маркиране шириина на второстеп. ивица</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>Маркирана на второстепенна четка</TickMarkMinorBrush>
     <Ticks>Отметки</Ticks>
     <Title>Заглавия</Title>
     <TitleBeforeHeader>Титул преди заглавие</TitleBeforeHeader>
@@ -3992,6 +4090,7 @@
     <TopSide>Горна страна</TopSide>
     <Total>Общо</Total>
     <Totals>Сбор</Totals>
+    <TrackColor>Цвят на проследяване</TrackColor>
     <TransparentColor>Прозрачен цвят</TransparentColor>
     <TrendLine>Насочваща линия</TrendLine>
     <TrendLineColor>Цвят</TrendLineColor>
@@ -4466,6 +4565,13 @@
     <TextEditor>Текстови редактор</TextEditor>
     <title>Инструментариум</title>
   </Toolbox>
+  <WelcomeScreen>
+    <Description>Избрали сме за Вас отчети, които според нас са най-добри за бърз старт.</Description>
+    <GetStartedWithDashboards>Започнете с таблата за управление</GetStartedWithDashboards>
+    <GetStartedWithReports>Започнете с отчетите</GetStartedWithReports>
+    <MoreReports>Още отчети</MoreReports>
+    <Title>Добре дошли в Stimulsoft Demo</Title>
+  </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Празно табло</BlankDashboard>
     <BlankReport>Празен отчет</BlankReport>

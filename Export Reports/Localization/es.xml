@@ -198,6 +198,11 @@
     <LabelsOutside>Exterior</LabelsOutside>
     <LabelsOutsideBase>Exterior Base</LabelsOutsideBase>
     <LabelsOutsideEnd>Exterior Final</LabelsOutsideEnd>
+    <LabelsStyleCategory>Categoría</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>Categoría - Porcentaje del total</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>Categoría - Valor</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>Porcentaje del total</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>Value</LabelsStyleValue>
     <LabelsTwoColumns>Dos Columnas</LabelsTwoColumns>
     <LabelTextAfter>Texto Después:</LabelTextAfter>
     <LabelTextBefore>Texto Antes:</LabelTextBefore>
@@ -356,6 +361,7 @@
     <Cancel>Cancelar</Cancel>
     <CheckBoxMoveToRecycleBin>Mover a la Papelera</CheckBoxMoveToRecycleBin>
     <CheckBoxRememberMe>Recuérdame</CheckBoxRememberMe>
+    <CheckForUpdate>Buscar actualizaciones</CheckForUpdate>
     <Cloud>Nube</Cloud>
     <Collection>Colección</Collection>
     <Create>Crear</Create>
@@ -602,6 +608,9 @@
   <Dashboard>
     <AddRange>Agregar rango</AddRange>
     <AfterGroupingData>Aplicar después de agrupar los datos</AfterGroupingData>
+    <AllowUserDrillDown>Permitir que el usuario profundice</AllowUserDrillDown>
+    <AllowUserFiltering>Permitir que el usuario filtre</AllowUserFiltering>
+    <AllowUserSorting>Permitir que el usuario ordene</AllowUserSorting>
     <Blanks>(Espacios en blanco)</Blanks>
     <BooleanFilters>Filtros lógicos</BooleanFilters>
     <CannotLoadDashboard>No puede cargar un informe con paneles.</CannotLoadDashboard>
@@ -610,6 +619,7 @@
     <ClearAllFormatting>Borrar todo el formateo</ClearAllFormatting>
     <ClearFilterFrom>Borrar filtro de '{0}'</ClearFilterFrom>
     <ColorScale>Escala de color</ColorScale>
+    <ColumnInteractions>Interacciones de la columna</ColumnInteractions>
     <CustomFilter>&amp;Filtro personalizado...</CustomFilter>
     <DataBars>Barras de datos</DataBars>
     <DataNotDefined>Los datos no están definidos</DataNotDefined>
@@ -617,10 +627,14 @@
     <Dimension>Dimensión</Dimension>
     <Dimensions>Dimensiones</Dimensions>
     <DragDropDataFromDictionary>Arrastrar y soltar datos del diccionario</DragDropDataFromDictionary>
+    <DrillDown>Profundizar</DrillDown>
+    <DrillDownSelected>Profundizar Seleccionado</DrillDownSelected>
+    <DrillUp>Subir nivel</DrillUp>
     <DuplicateField>Duplicar Campo</DuplicateField>
     <EditExpression>Editar Expresión</EditExpression>
     <EmptyDashboardFooter>Arrastrar y soltar componente de las Herramientas o datos del Diccionario</EmptyDashboardFooter>
     <EmptyDashboardHeader>Consola vacía</EmptyDashboardHeader>
+    <FieldInteractions>Interacciones de campo</FieldInteractions>
     <FieldTypeRestrictionHint>¡Solo se puede usar el campo de tipo '{0}'!</FieldTypeRestrictionHint>
     <FirstLastPoints>Primeros / Últimos Puntos</FirstLastPoints>
     <FirstRowIndex>Índice de la primera fila</FirstRowIndex>
@@ -647,6 +661,8 @@
     <RemoveField>Eliminar Campo</RemoveField>
     <ReplaceValues>Reemplazar valores</ReplaceValues>
     <RowsCount>Recuento de filas</RowsCount>
+    <RunFieldsEditor>Ejecutar editor de campos</RunFieldsEditor>
+    <RunFieldsEditorInfo>Ejecute el editor de campos para cambiar la interacción de cada columna de la tabla.</RunFieldsEditorInfo>
     <SelectAll>(Seleccion&amp;ar todos)</SelectAll>
     <ShowAllValue>Mostrar Valor (Todos)</ShowAllValue>
     <ShowAsPercentages>Mostrar como porcentajes</ShowAsPercentages>
@@ -831,6 +847,7 @@
     <AllowPrintDocument>Permitir Imprimir Documentos</AllowPrintDocument>
     <Auto>Auto</Auto>
     <BandsFilter>Filtro de Encabezados:</BandsFilter>
+    <CancelExport>Cancelar exportación</CancelExport>
     <Color>Color</Color>
     <Compressed>Comprimir</Compressed>
     <CompressToArchive>Comprimir a Archivo</CompressToArchive>
@@ -985,6 +1002,7 @@
     <PdfFiles>Archivos de Adobe PDF(*.pdf)|*.pdf</PdfFiles>
     <PngFiles>Archivos de Imagen PNG (*.png)|*.png</PngFiles>
     <Ppt2007Files>Ficheros de Microsoft PowerPoint 2007/2013 (*.pptx)|*.pptx</Ppt2007Files>
+    <ReportEmbededDataFiles>Plantillas de Informes con datos embebidos (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Archivos de Informe (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Archivos Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Informe ejecutable (*.exe)|*.exe</StandaloneReportFiles>
@@ -1098,6 +1116,8 @@
     <title>Diseñador de Informes Cruzados</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <ClientId>Identificación del cliente</ClientId>
+    <ClientSecret>Secreto del cliente</ClientSecret>
     <ConnectionString>Cadena de Conexión</ConnectionString>
     <DashboardConnections>Conexiones de Consola</DashboardConnections>
     <DB2Edit>Editar Conexión IBM DB2</DB2Edit>
@@ -1136,6 +1156,7 @@
     <RelationDirection>Dirección de relación:</RelationDirection>
     <ReportConnections>Conexiones de Informe</ReportConnections>
     <SelectData>Seleccionar Datos</SelectData>
+    <SpreadsheetId>Identidad de hoja de cálculo</SpreadsheetId>
     <SqlCeEdit>Editar Conexión SQLServerCE</SqlCeEdit>
     <SqlCeNew>Nueva Conexión SQLServerCE</SqlCeNew>
     <SqlEdit>Editar Conexión SQL</SqlEdit>
@@ -2052,6 +2073,7 @@
     <menuEditUndoText>&amp;Deshacer {0}</menuEditUndoText>
     <menuEditVariableNew>Nueva Variable...</menuEditVariableNew>
     <menuEditViewData>Mostrar los Datos...</menuEditViewData>
+    <menuEmbedAllDataToResources>Incrustar todos los datos a los recursos</menuEmbedAllDataToResources>
     <menuFile>&amp;Archivo</menuFile>
     <menuFileClose>&amp;Cerrar</menuFileClose>
     <menuFileDashboardDelete>Eliminar consola</menuFileDashboardDelete>
@@ -2152,19 +2174,20 @@
 Se ha enviado un correo a "{0}".
 Contiene un enlace para confirmar su registro. Para completar el registro, por favor siga el enlace del correo electrónico que recibió.</TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>¡Éste campo no se ha especificado!</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>Esta función incorpora todos los datos del informe a los recursos del informe y hace que su informe sea independiente. ¡Ten cuidado! Se cambiarán todas las configuraciones de datos y no se podrán restaurar. Por favor, haga una copia de seguridad de su informe en primer lugar.{0}¿Está seguro?</ThisFunctionEmbedsAllReportDataToTheReport>
   </Messages>
   <Notices>
     <AccessDenied>Access Denied!</AccessDenied>
     <AccountLocked>¡Tu cuenta esta bloqueada! Para resolverlo, ¡envíe su solicitud a sales@stimulsoft.com!</AccountLocked>
-    <ActivationExpiriedBeforeFirstRelease>¡Su suscripción de Stimulsoft Reports.Ultimate expiró antes de la primera versión de nuestro Stimulsoft Reports.Server fue lanzado!</ActivationExpiriedBeforeFirstRelease>
+    <ActivationExpiriedBeforeFirstRelease>¡Su suscripción de Stimulsoft Reports.Ultimate expiró antes de la primera versión de nuestro Stimulsoft Server fue lanzado!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>¡El fichero de licencia no es correcto! Por favor, póngase en contacto con nuestro departamento de ventas en sales@stimulsoft.com</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>¡Su cuenta esta bloqueada. Por favor, póngase en contacto con nuestro departamento de ventas en sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationMaxActivationsReached>¡Ha alcanzado el número máximo de activaciones. Por favor, póngase en contacto con nuestro departamento de ventas en sales@stimulsoft.com!</ActivationMaxActivationsReached>
     <ActivationServerIsNotAvailableNow>¡El servidor de activaciones de Stimulsoft no está disponible en estos momentos! Por favor, inténtelo de nuevo más tarde.</ActivationServerIsNotAvailableNow>
-    <ActivationServerVersionNotAllowed>¡No se puede activar esta versión de Stimulsoft Reports.Server porque su programa de suscripción ha caducado! Por favor, acceda a su cuenta y comprobar la versión de la Stimulsoft Reports.Server puede instalar y activar.</ActivationServerVersionNotAllowed>
+    <ActivationServerVersionNotAllowed>¡No se puede activar esta versión de Stimulsoft Server porque su programa de suscripción ha caducado! Por favor, acceda a su cuenta y comprobar la versión de la Stimulsoft Server puede instalar y activar.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Se produjo un error durante la activación. Por favor, inténtelo de nuevo más tarde.</ActivationSomeTroublesOccurred>
     <ActivationUserNameOrPasswordIsWrong>¡Su nombre de usuario (correo electrónico) o la contraseña es incorrecta!</ActivationUserNameOrPasswordIsWrong>
-    <ActivationWrongAccountType>¡Su tipo de cuenta no permite activar Stimulsoft Reports.Server!</ActivationWrongAccountType>
+    <ActivationWrongAccountType>¡Su tipo de cuenta no permite activar Stimulsoft Server!</ActivationWrongAccountType>
     <AuthAccountCantBeUsedNow>¡La cuenta no se puede utilizar ahora!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>¡La cuenta no está activada todavía! Por favor, siga las instrucciones enviadas al correo electrónico durante el registro.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>¡El rol de usuario no se puede cambiar porque este es el último usuario del administrador en este espacio de trabajo!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2400,6 +2423,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ImageCategory>Imagen</ImageCategory>
     <IndicatorCategory>Indicador</IndicatorCategory>
     <InterlacingCategory>Entrelazado</InterlacingCategory>
+    <LabelsCategory>Etiquetas</LabelsCategory>
     <LegendCategory>Leyenda</LegendCategory>
     <ListBoxCategory>Cuadro de lista</ListBoxCategory>
     <MainCategory>Principal</MainCategory>
@@ -2706,6 +2730,11 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiCapStyleOval>Oval</StiCapStyleOval>
     <StiCapStyleSquare>Cuadrado</StiCapStyleSquare>
     <StiCapStyleStealth>Furtiva</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>Categoría</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>Categoría - Porcentaje del total</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>Categoría - Valor</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>Porcentaje del total</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>Valor</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>Inferior</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>Izquierda</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Derecha</StiChartTitleDockRight>
@@ -2828,6 +2857,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiImageRotationRotate90CW>Rotar 90° Con</StiImageRotationRotate90CW>
     <StiInteractionOnClick>Ninguno</StiInteractionOnClick>
     <StiInteractionOnClickApplyFilter>Aplicar filtro</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>Profundizar</StiInteractionOnClickDrillDown>
     <StiInteractionOnClickOpenHyperlink>Abrir hipervínculo</StiInteractionOnClickOpenHyperlink>
     <StiInteractionOnClickShowDashboard>Mostrar panel de control</StiInteractionOnClickShowDashboard>
     <StiInteractionOnHoverNone>Ninguno</StiInteractionOnHoverNone>
@@ -2882,6 +2912,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiMapTypeIndividual>Individual</StiMapTypeIndividual>
     <StiMapTypeNone>Ninguno</StiMapTypeNone>
     <StiMapTypePoints>Puntos</StiMapTypePoints>
+    <StiMarkerAlignmentCenter>Centrar</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>Izquierda</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Derecha</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Circulo</StiMarkerTypeCircle>
@@ -2897,6 +2928,16 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Dos Pases</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Un Pase</StiNumberOfPassSinglePass>
+    <StiOnlineMapLocationTypeAdminDivision1>DivisiónAdmin1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>DivisiónAdmin2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>Auto</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>Región</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>Vecindario</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>SitioPoblado</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>CódigoPostal1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>CódigoPostal2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>CódigoPostal3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>CódigoPostal4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>Horizontal</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>Derecha Horizontal</StiOrientationHorizontalRight>
     <StiOrientationVertical>Vertical</StiOrientationVertical>
@@ -3230,6 +3271,10 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <AllowUseVertAlignment>Permitir Usar Alin.Vert.</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Permitir usar como parámetro de SQL</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Color del Fondo Alternativo</AlternatingBackColor>
+    <AlternatingCellBackColor>Color de fondo de celda alternante</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Color de primer plano de celda alternante</AlternatingCellForeColor>
+    <AlternatingDataColor>Color de datos alternos</AlternatingDataColor>
+    <AlternatingDataForeground>Datos alternativos en primer plano</AlternatingDataForeground>
     <Anchor>Ancla</Anchor>
     <Angle>Ángulo</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
@@ -3264,6 +3309,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <BackColor>Color del Fondo</BackColor>
     <Background>Fondo</Background>
     <BackgroundColor>Color del Fondo</BackgroundColor>
+    <BandColor>Color de la banda</BandColor>
     <BarCodeType>Tipo de Código de Barras</BarCodeType>
     <BasicStyleColor>Color del Estilo Básico</BasicStyleColor>
     <BindingColumn>Enlace de Columna</BindingColumn>
@@ -3297,7 +3343,9 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Categories>Categorías</Categories>
     <Category>Categoría</Category>
     <CategoryConnections>Conexiones</CategoryConnections>
+    <CellBackColor>Color de fondo de la Celda</CellBackColor>
     <CellDockStyle>Estilo de Atracar Celdas</CellDockStyle>
+    <CellForeColor>Color primer plano de la Celda</CellForeColor>
     <CellHeight>Altura Celda</CellHeight>
     <CellType>Tipo de Celda</CellType>
     <CellWidth>Anchura Celda</CellWidth>
@@ -3340,6 +3388,8 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ColumnCount>Número Columnas</ColumnCount>
     <ColumnDirection>Dirección de la Columna</ColumnDirection>
     <ColumnGaps>Aberturas entre Columna</ColumnGaps>
+    <ColumnHeaderBackColor>Columna de fondo del encabezado</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Columna primer plano del encabezado</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Columna Encabezados Visibles</ColumnHeadersVisible>
     <Columns>Columnas</Columns>
     <ColumnWidth>Anchura de la Columna</ColumnWidth>
@@ -3500,6 +3550,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Functions>Funciones</Functions>
     <GlobalizationStrings>Cadenas de Traducción</GlobalizationStrings>
     <GlobalizedName>Nombre Traducida</GlobalizedName>
+    <GlyphColor>Color de glifo</GlyphColor>
     <GridColor>Color de cuadrícula</GridColor>
     <GridLineColor>Color de la Línea de la Rejilla</GridLineColor>
     <GridLinesHor>Líneas de Rejilla Horizontal</GridLinesHor>
@@ -3538,7 +3589,16 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <HighValues>Valores altos</HighValues>
     <HorAlignment>Alineamiento Horizontal</HorAlignment>
     <HorSpacing>Alineamiento Horizontal</HorSpacing>
+    <HotBackColor>Color de fondo interactivo</HotBackColor>
+    <HotColumnHeaderBackColor>Color primer plano interactivo del encabezado</HotColumnHeaderBackColor>
+    <HotForeColor>Color primer plano interactivo</HotForeColor>
+    <HotGlyphColor>Color de glifo interactivo</HotGlyphColor>
+    <HotHeaderColor>Color del encabezado interactivo</HotHeaderColor>
     <HotkeyPrefix>Tecla de Prefijo</HotkeyPrefix>
+    <HotRowHeaderBackColor>Color de fondo del encabezado de fila interactivo</HotRowHeaderBackColor>
+    <HotSelectedBackColor>Color de fondo seleccionado interactivo</HotSelectedBackColor>
+    <HotSelectedForeColor>Color primer plano seleccionado interactivo</HotSelectedForeColor>
+    <HotSelectedGlyphColor>Color de glifo seleccionado interactivo</HotSelectedGlyphColor>
     <HtmlTags>Etiquetas Html</HtmlTags>
     <Hyperlink>Hipervinculo</Hyperlink>
     <HyperlinkDataColumn>Columna de Hipervínculos</HyperlinkDataColumn>
@@ -3620,6 +3680,10 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <LengthUnderLabels>Longitud debajo de etiquetas</LengthUnderLabels>
     <Lighting>Iluminación</Lighting>
     <Linear>Lineal</Linear>
+    <LinearBarBorderBrush>Broche de borde de barra lineal</LinearBarBorderBrush>
+    <LinearBarBrush>Broche de barra lineal</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>Broche de borde vacío de barra lineal</LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>Broche vacío de barra lineal</LinearBarEmptyBrush>
     <LineColor>Color de la Línea</LineColor>
     <LineColorNegative>Color de Línea Negativa</LineColorNegative>
     <LineLimit>Limite de Línea</LineLimit>
@@ -3658,6 +3722,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Marker>Marcador</Marker>
     <MarkerAlignment>Alineamiento Marcador</MarkerAlignment>
     <MarkerBorder>Marcador de Borde</MarkerBorder>
+    <MarkerBrush>Broche marcador</MarkerBrush>
     <MarkerColor>Color del Marcador</MarkerColor>
     <MarkerSize>Tamaño del Marcador</MarkerSize>
     <MarkerType>Tipo del Marcador</MarkerType>
@@ -3705,7 +3770,13 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <NameMeter>Nombre</NameMeter>
     <NameParent>Nombre del padre</NameParent>
     <Namespaces>Espacios de Nombre</Namespaces>
+    <NeedleBorderBrush>Broche de aguja de borde</NeedleBorderBrush>
+    <NeedleBorderWidth>Ancho aguja de borde</NeedleBorderWidth>
+    <NeedleBrush>Broche de aguja</NeedleBrush>
+    <NeedleCapBorderBrush>Broche de terminal de aguja</NeedleCapBorderBrush>
+    <NeedleCapBrush>Broche de terminal de aguja</NeedleCapBrush>
     <Negative>Negativo</Negative>
+    <NegativeColor>Color negativo</NegativeColor>
     <NegativeSeriesColors>Colores de series negativos</NegativeSeriesColors>
     <NegativeTextBrush>Pincel de texto negativo</NegativeTextBrush>
     <NestedLevel>Nivel de Anidación</NestedLevel>
@@ -3724,6 +3795,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Offset>Desplazamiento</Offset>
     <OffsetAngle>Ángulo de Desplazamiento</OffsetAngle>
     <OnClick>On Clic</OnClick>
+    <OnDataManipulation>Sobre la manipulación de datos</OnDataManipulation>
     <OnHover>On Hover</OnHover>
     <OnlyText>Solo Texto</OnlyText>
     <OpenValues>Valores abiertos</OpenValues>
@@ -3749,11 +3821,13 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Path>Camino</Path>
     <PathData>Camino de Datos</PathData>
     <PathSchema>Camino de Esquema</PathSchema>
+    <Pattern>Patrón</Pattern>
     <Placement>Emplazamiento</Placement>
     <PlaceOnToolbox>Colocar en la caja de Herramientas</PlaceOnToolbox>
     <PointAtCenter>Punto Central</PointAtCenter>
     <Position>Posición</Position>
     <Positive>Positivo</Positive>
+    <PositiveColor>Color positivo</PositiveColor>
     <PreferredColumnWidth>Anchura Preferida de la Columna</PreferredColumnWidth>
     <PreferredRowHeight>Altura Preferida de la Línea</PreferredRowHeight>
     <PreventIntersection>Prevenir Intersección</PreventIntersection>
@@ -3779,6 +3853,10 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ProcessTilde>Procesar Tilde</ProcessTilde>
     <ProductHomePage>Sitio Web del Producto</ProductHomePage>
     <RadarStyle>Estilo Radar</RadarStyle>
+    <RadialBarBorderBrush>Broche de borde de barra radial</RadialBarBorderBrush>
+    <RadialBarBrush>Broche de barra radial</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>Broche de borde vacío de barra radial</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>Broche vacío de barra radial</RadialBarEmptyBrush>
     <Radius>Radio</Radius>
     <RadiusMode>Modo Radio</RadiusMode>
     <Range>Rango</Range>
@@ -3829,6 +3907,8 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Round>Redondear</Round>
     <RoundValues>Redondear Valores</RoundValues>
     <RowCount>Número de Filas</RowCount>
+    <RowHeaderBackColor>Color de fondo de encabezado de fila</RowHeaderBackColor>
+    <RowHeaderForeColor>Color primer plano de encabezado de fila</RowHeaderForeColor>
     <RowHeadersVisible>Fila del Cabeceras Visíble</RowHeadersVisible>
     <RowHeaderWidth>Anchura de la Fila de Cabecera</RowHeaderWidth>
     <Rows>Filas</Rows>
@@ -3837,6 +3917,13 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ScriptLanguage>Lenguaje del Script</ScriptLanguage>
     <SegmentPerHeight>Segmento por Altura</SegmentPerHeight>
     <SegmentPerWidth>Segmento por Anchura</SegmentPerWidth>
+    <SelectedBackColor>Color de fondo seleccionado</SelectedBackColor>
+    <SelectedCellBackColor>Color de fondo de celda seleccionada</SelectedCellBackColor>
+    <SelectedCellForeColor>Color primer plano de celda seleccionada</SelectedCellForeColor>
+    <SelectedDataColor>Color de datos de celda seleccionada</SelectedDataColor>
+    <SelectedDataForeground>Color primer plano de datos de celda seleccionada</SelectedDataForeground>
+    <SelectedForeColor>Color primer plano seleccionado</SelectedForeColor>
+    <SelectedGlyphColor>Color glifo seleccionado</SelectedGlyphColor>
     <SelectedIndex>Índice Seleccionado</SelectedIndex>
     <SelectedItem>Elemento Seleccionado</SelectedItem>
     <SelectedKey>Llave Seleccionada</SelectedKey>
@@ -3846,6 +3933,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <SelectionEnabled>Selección Habilitado</SelectionEnabled>
     <SelectionForeColor>Color Primer Plano de la Selección</SelectionForeColor>
     <SelectionMode>Modo de Selección</SelectionMode>
+    <SeparatorColor>Color del separador</SeparatorColor>
     <SerialNumber>Número de Serie</SerialNumber>
     <Series>Series</Series>
     <SeriesColors>Colores de series</SeriesColors>
@@ -3974,6 +4062,16 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <TextOnly>Solo Texto</TextOnly>
     <TextOptions>Opciones de Texto</TextOptions>
     <TextQuality>Calidad de Texto</TextQuality>
+    <TickLabelMajorFont>Fuente de etiqueta de palomita mayor</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>Broche de etiqueta de palomita mayor</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Fuente de etiqueta de palomita menor</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Broche de etiqueta de palomita menor</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Borde de etiqueta de palomita mayor</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>Ancho de borde de etiqueta de palomita mayor</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>Broche de palomita mayor</TickMarkMajorBrush>
+    <TickMarkMinorBorder>Borde de palomita mayor</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>Ancho de borde de palomita mayor</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>Broche de palomita menor</TickMarkMinorBrush>
     <Ticks>Marcas</Ticks>
     <Title>Título</Title>
     <TitleBeforeHeader>Título Antes de Encabezado</TitleBeforeHeader>
@@ -3992,6 +4090,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <TopSide>Borde Superior</TopSide>
     <Total>Total</Total>
     <Totals>Totales</Totals>
+    <TrackColor>Color de la pista</TrackColor>
     <TransparentColor>Color Transparente</TransparentColor>
     <TrendLine>Línea de Tendencias</TrendLine>
     <TrendLineColor>Color</TrendLineColor>
@@ -4466,6 +4565,13 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <TextEditor>Editor de Texto</TextEditor>
     <title>Caja de Herramientas</title>
   </Toolbox>
+  <WelcomeScreen>
+    <Description>Hemos seleccionado para usted los informes que creemos que son los mejores para un inicio rápido.</Description>
+    <GetStartedWithDashboards>Empezar con los tableros</GetStartedWithDashboards>
+    <GetStartedWithReports>Empezar con los informes</GetStartedWithReports>
+    <MoreReports>Más informes</MoreReports>
+    <Title>Bienvenido al demo de Stimulsoft</Title>
+  </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Consola Vacía</BlankDashboard>
     <BlankReport>Informe en Blanco</BlankReport>

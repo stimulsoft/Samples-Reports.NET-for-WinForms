@@ -109,10 +109,11 @@ namespace Demo
 
             if (!this.DesignMode)
             {
-                buttonSupport.Tag = "http://www.stimulsoft.com/support.aspx";
-                buttonVideo.Tag = "http://www.stimulsoft.com/Videos.aspx";
-                buttonForum.Tag = "http://forum.stimulsoft.com/";
-                buttonDocumentation.Tag = "http://www.stimulsoft.com/Documentation.aspx";
+                buttonSupport.Tag = "https://www.stimulsoft.com/en/support";
+                buttonVideo.Tag = "https://www.stimulsoft.com/en/videos";
+                buttonForum.Tag = "https://forum.stimulsoft.com/";
+                buttonDocumentation.Tag = "https://www.stimulsoft.com/en/documentation";
+                buttonSampleProject.Tag = "https://www.stimulsoft.com/en/samples";
             }
         }
     }

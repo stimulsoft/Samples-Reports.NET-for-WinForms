@@ -739,24 +739,6 @@ namespace Demo
             ShowStartPage();
         }
 
-        private void buttonSampleProject_Click(object sender, EventArgs e)
-        {
-            bool state = false;
-
-            if (applicationPath != null)
-            {
-                string path = applicationPath + "Samples\\";
-                if (Directory.Exists(path))
-                {
-                    state = true;
-                    System.Diagnostics.Process.Start(path);
-                }
-            }
-
-            if (!state)
-                MessageBox.Show("Path is not found");
-        }
-
         private void StiDemoForm_SizeChanged(object sender, EventArgs e)
         {
             int xPos = (this.ClientSize.Width - welcomeScreen.Width) / 2;
@@ -800,7 +782,6 @@ namespace Demo
             this.welcomeScreen.checkBoxDisplayWelcomeScreenAgain.CheckedChanged += new EventHandler(checkBoxDisplayWelcomeScreenAgain_CheckedChanged);
 
             this.welcomeScreen.buttonDemo.Click += new EventHandler(buttonDemo_Click);
-            this.welcomeScreen.buttonSampleProject.Click += new EventHandler(buttonSampleProject_Click);
 
             this.welcomeScreen.welcome = (string)demoLocalization["Welcome"];
             this.welcomeScreen.welcomeDescription = (string)demoLocalization["WelcomeDesc"];

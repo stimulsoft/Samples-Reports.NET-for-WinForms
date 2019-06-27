@@ -164,6 +164,8 @@
     <StiWidthHeightZeroComponentCheckShortWidthHeight>'{0}'구성 요소의 높이와 너비는 0입니다.</StiWidthHeightZeroComponentCheckShortWidthHeight>
     <StiWordWrapCanGrowTextDoesNotFitLong>WordWrap 속성이 true로 설정되어 CanGrow 속성이 false로 설정되어있는 경우 '{0}'구성 요소의 텍스트를 완전히 표시 할 수 없습니다. CanGrow 속성을 true로 설정하는 것이 좋습니다.</StiWordWrapCanGrowTextDoesNotFitLong>
     <StiWordWrapCanGrowTextDoesNotFitShort>텍스트가 맞지 않습니다</StiWordWrapCanGrowTextDoesNotFitShort>
+    <StiTextTextFormatCheckShort>형식이 지정되지 않았습니다.</StiTextTextFormatCheckShort>
+    <StiTextTextFormatCheckLong>'{0}'구성 요소에 대해 선택한 형식이 지정되지 않았습니다.</StiTextTextFormatCheckLong>
   </CheckComponent>
   <CheckConnection>
     <StiUndefinedConnectionCheckLong>정의되지 않은 '{0}'연결 발견했다. 보고서 도구는 데이터베이스와 이런 종류의 연결을 제대로 처리 할 수 ​​없습니다. 고객 유형의 연결이 보고서에서 사용되는 수 있습니다. 이 보고서는 렌더링 할 수 없습니다!</StiUndefinedConnectionCheckLong>
@@ -211,8 +213,6 @@
     <StiOrientationPageCheckShort>페이지 방향이 {0}에서 잘못된 것입니다.</StiOrientationPageCheckShort>
   </CheckPage>
   <CheckReport>
-    <StiCloudCompilationModeCheckLong>Stimulsoft Cloud는이 보고서를 컴파일 모드에서 미리 볼 수 없습니다. 보고서를 통역 모드로 변경합니다.</StiCloudCompilationModeCheckLong>
-    <StiCloudCompilationModeCheckShort>이 보고서는 컴파일 모드입니다</StiCloudCompilationModeCheckShort>
     <StiCompilationErrorAssemblyCheckLong>파일 또는 어셈블리 '{0}'또는 해당 종속성 중 하나를로드 할 수 없습니다.</StiCompilationErrorAssemblyCheckLong>
     <StiCompilationErrorCheck2Long>컴파일 오류는 '{2}'구성 요소 '{1}'속성에 있습니다 :</StiCompilationErrorCheck2Long>
     <StiCompilationErrorCheck3Long>컴파일 오류는 '{2}'구성 요소 '{1}'이벤트에서 발견 :</StiCompilationErrorCheck3Long>
@@ -223,6 +223,10 @@
     <StiDuplicatedNameCheckShort>중복 된 이름의 구성 요소가 발견</StiDuplicatedNameCheckShort>
     <StiDuplicatedNameInSourceInDataRelationReportCheckLong>보고서에 '{0}'관계가 있습니다. 그들은 NameInSource 동등한 ( '{1}') 값을 가지고 있습니다. NameInSource의 모든 하나의 관계에서 하나의 데이터베이스 범위에서 고유해야합니다. 이러한 관계 필드를 수정해야합니다.</StiDuplicatedNameInSourceInDataRelationReportCheckLong>
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>릴레이션에서 중복됩니다.</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
+    <StiCloudCompilationModeCheckLong>Stimulsoft Cloud는이 보고서를 컴파일 모드에서 미리 볼 수 없습니다. 보고서를 통역 모드로 변경합니다.</StiCloudCompilationModeCheckLong>
+    <StiCloudCompilationModeCheckShort>이 보고서는 컴파일 모드입니다</StiCloudCompilationModeCheckShort>
+    <StiNetCoreCompilationModeCheckShort>이 보고서는 편집 모드입니다.</StiNetCoreCompilationModeCheckShort>
+    <StiNetCoreCompilationModeCheckLong>Stimulsoft .NET Core 엔진이 컴파일 모드에서 이 보고서를 렌더링 할 수 없습니다. 보고서를 해석 모드로 변경하십시오.</StiNetCoreCompilationModeCheckLong>
   </CheckReport>
   <CheckVariable>
     <StiVariableRecursionCheckLong>'{0}'변수는 재귀를 수반하는 식입니다. Variable을 자신의 식에서 참조하는 것은 불가능합니다.</StiVariableRecursionCheckLong>
