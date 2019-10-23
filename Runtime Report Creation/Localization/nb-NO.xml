@@ -198,6 +198,11 @@
     <LabelsOutside>Utside</LabelsOutside>
     <LabelsOutsideBase>Utside base</LabelsOutsideBase>
     <LabelsOutsideEnd>Utside slutt</LabelsOutsideEnd>
+    <LabelsStyleCategory>Kategori</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>Kategori - prosent av total</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>Kategori - verdi</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>Prosent av total</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>Verdi</LabelsStyleValue>
     <LabelsTwoColumns>To kolonner</LabelsTwoColumns>
     <LabelTextAfter>Tekst etter:</LabelTextAfter>
     <LabelTextBefore>Tekst før:</LabelTextBefore>
@@ -356,6 +361,7 @@
     <Cancel>Avbryt</Cancel>
     <CheckBoxMoveToRecycleBin>Flytt til papirkurv</CheckBoxMoveToRecycleBin>
     <CheckBoxRememberMe>Husk meg</CheckBoxRememberMe>
+    <CheckForUpdate>Sjekk etter oppdatering</CheckForUpdate>
     <Cloud>Sky</Cloud>
     <Collection>Samling</Collection>
     <Create>Lag</Create>
@@ -602,6 +608,9 @@
   <Dashboard>
     <AddRange>Legg til utvalg</AddRange>
     <AfterGroupingData>Bruk etter gruppering av data</AfterGroupingData>
+    <AllowUserDrillDown>Tillat bruker å drille ned</AllowUserDrillDown>
+    <AllowUserFiltering>Tillat bruker å filtrere</AllowUserFiltering>
+    <AllowUserSorting>Tillat bruker å sortere</AllowUserSorting>
     <Blanks>(Tomme)</Blanks>
     <BooleanFilters>Boolske filtere</BooleanFilters>
     <CannotLoadDashboard>Du kan ikke laste en rapport med instrumentbord.</CannotLoadDashboard>
@@ -610,6 +619,7 @@
     <ClearAllFormatting>Slett all formatering</ClearAllFormatting>
     <ClearFilterFrom>Nullstill filter fra "0"</ClearFilterFrom>
     <ColorScale>Fargeskala</ColorScale>
+    <ColumnInteractions>Kolonne-interaksjon</ColumnInteractions>
     <CustomFilter>Egendefinert &amp;filter...</CustomFilter>
     <DataBars>Datastolper</DataBars>
     <DataNotDefined>Data er ikke definert</DataNotDefined>
@@ -617,10 +627,14 @@
     <Dimension>Dimensjon</Dimension>
     <Dimensions>Dimensjoner</Dimensions>
     <DragDropDataFromDictionary>Dra&amp;slipp data fra ordbok</DragDropDataFromDictionary>
+    <DrillDown>Drill ned</DrillDown>
+    <DrillDownSelected>Drill ned valgt</DrillDownSelected>
+    <DrillUp>Drill opp</DrillUp>
     <DuplicateField>Dupliser felt</DuplicateField>
     <EditExpression>Rediger uttrykk</EditExpression>
     <EmptyDashboardFooter>Dra &amp; slipp komponent fra verktøykasse eller data fra ordbok</EmptyDashboardFooter>
     <EmptyDashboardHeader>Dashbordet er tomt</EmptyDashboardHeader>
+    <FieldInteractions>Felt-interaksjoner</FieldInteractions>
     <FieldTypeRestrictionHint>Kun felt av type '{0}' kan brukes!</FieldTypeRestrictionHint>
     <FirstLastPoints>Første/siste poeng</FirstLastPoints>
     <FirstRowIndex>Første radindeks</FirstRowIndex>
@@ -647,6 +661,8 @@
     <RemoveField>Fjern felt</RemoveField>
     <ReplaceValues>Erstatt verdier</ReplaceValues>
     <RowsCount>Antall rader</RowsCount>
+    <RunFieldsEditor>Kjør felt-editor</RunFieldsEditor>
+    <RunFieldsEditorInfo>Kjør felt-editoren for å endre interaksjon for hver tabell-kolonne.</RunFieldsEditorInfo>
     <SelectAll>(Velg &amp;alle)</SelectAll>
     <ShowAllValue>Vis (Alle) verdier</ShowAllValue>
     <ShowAsPercentages>Vis som prosent</ShowAsPercentages>
@@ -831,6 +847,7 @@
     <AllowPrintDocument>Tillat utskrift av dokument</AllowPrintDocument>
     <Auto>Auto</Auto>
     <BandsFilter>Båndfilter:</BandsFilter>
+    <CancelExport>Avbryt eksport</CancelExport>
     <Color>Farge</Color>
     <Compressed>Komprimert</Compressed>
     <CompressToArchive>Komprimer til arkiv</CompressToArchive>
@@ -984,6 +1001,7 @@
     <PdfFiles>Adobe PDF-filer (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG-bilde (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2010-filer (*.pptx)|*.pptx</Ppt2007Files>
+    <ReportEmbededDataFiles>Rapport-maler med innebygde data (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Files report (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Standalone report (*.exe)|*.exe</StandaloneReportFiles>
@@ -1097,6 +1115,8 @@
     <title>Cross-Tab-designer</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <ClientId>Klient-id</ClientId>
+    <ClientSecret>Klienthemmelighet</ClientSecret>
     <ConnectionString>Tilkoblingsstreng:</ConnectionString>
     <DashboardConnections>Dashbord-koblinger</DashboardConnections>
     <DB2Edit>Rediger IBM DB2-tilkobling</DB2Edit>
@@ -1135,6 +1155,7 @@
     <RelationDirection>Relasjons-retning:</RelationDirection>
     <ReportConnections>Rapport-koblinger</ReportConnections>
     <SelectData>Velg data</SelectData>
+    <SpreadsheetId>Regneark-id</SpreadsheetId>
     <SqlCeEdit>Rediger SQLServerCE-tilkobling</SqlCeEdit>
     <SqlCeNew>Ny SQLServerCE-tilkobling</SqlCeNew>
     <SqlEdit>Rediger SQL-tilkobling</SqlEdit>
@@ -2050,6 +2071,7 @@
     <menuEditUndoText>&amp;Angre {0}</menuEditUndoText>
     <menuEditVariableNew>Ny variabel...</menuEditVariableNew>
     <menuEditViewData>Vis data...</menuEditViewData>
+    <menuEmbedAllDataToResources>Bygg inn alle data til ressurser</menuEmbedAllDataToResources>
     <menuFile>&amp;Fil</menuFile>
     <menuFileClose>&amp;Lukk</menuFileClose>
     <menuFileDashboardDelete>Slett instrumentbord</menuFileDashboardDelete>
@@ -2141,6 +2163,7 @@
     <ShareYourReportYouShouldSave>For å dele rapporten din bør du lagre den til Stimulsoft-skyen!</ShareYourReportYouShouldSave>
     <TextRegistrationSuccessfully>Registreringen ble avsluttet med suksess! E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreringen. For å fullføre registreringen, må du følge lenken i e-posten du mottok.</TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>Dette feltet er ikke spesifisert!</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>Denne funksjonen bygger inn alle rapportdata til rapport-ressursen og gjør rapporten din frittstående. Vær forsiktig! Alle datainnstillingene dine vil bli endret og kan ikke tilbakestilles. Vennligst ta en sikkerhetskopi av rapporten din først.{0}Er du sikker?</ThisFunctionEmbedsAllReportDataToTheReport>
   </Messages>
   <Notices>
     <AccessDenied>Ingen tilgang!</AccessDenied>
@@ -2389,6 +2412,7 @@
     <ImageCategory>Bilde</ImageCategory>
     <IndicatorCategory>Indikator</IndicatorCategory>
     <InterlacingCategory>Sammenfletting</InterlacingCategory>
+    <LabelsCategory>Etiketter</LabelsCategory>
     <LegendCategory>Bildetekst</LegendCategory>
     <ListBoxCategory>Listeboks</ListBoxCategory>
     <MainCategory>Hjem</MainCategory>
@@ -2695,6 +2719,11 @@
     <StiCapStyleOval>Oval</StiCapStyleOval>
     <StiCapStyleSquare>Firkant</StiCapStyleSquare>
     <StiCapStyleStealth>Skjult</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>Kategori</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>Kategori - prosent av total</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>Kategori - verdi</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>Prosent av total</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>Verdi</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>Bunn</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>Venstre</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Høyre</StiChartTitleDockRight>
@@ -2817,6 +2846,7 @@
     <StiImageRotationRotate90CW>Roter 90° CW</StiImageRotationRotate90CW>
     <StiInteractionOnClick>Ingen</StiInteractionOnClick>
     <StiInteractionOnClickApplyFilter>Legg til filter</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>Drill ned</StiInteractionOnClickDrillDown>
     <StiInteractionOnClickOpenHyperlink>Åpne hyperlenke</StiInteractionOnClickOpenHyperlink>
     <StiInteractionOnClickShowDashboard>Vis dashbord</StiInteractionOnClickShowDashboard>
     <StiInteractionOnHoverNone>Ingen</StiInteractionOnHoverNone>
@@ -2856,6 +2886,7 @@
     <StiMapTypeIndividual>Individuell</StiMapTypeIndividual>
     <StiMapTypeNone>Ingen</StiMapTypeNone>
     <StiMapTypePoints>Punkter</StiMapTypePoints>
+    <StiMarkerAlignmentCenter>Sentrer</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>Venstre</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Høyre</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Sirkel</StiMarkerTypeCircle>
@@ -2871,6 +2902,16 @@
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Dobbelpassering</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Enkelpassering</StiNumberOfPassSinglePass>
+    <StiOnlineMapLocationTypeAdminDivision1>Admindivisjon1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>Admindivisjon2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>Auto</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>Landregion</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>Nabolag</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>Befolket område</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>Postnummer1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>Postnummer2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>Postnummer3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>Postnummer4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>Horisontal</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>Horisontal høyre</StiOrientationHorizontalRight>
     <StiOrientationVertical>Vertikal</StiOrientationVertical>
@@ -3204,6 +3245,10 @@
     <AllowUseVertAlignment>Tillat vertikal justering</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Tillat å bruke som SQL-parameter</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Varierende bakgrunnsfarge</AlternatingBackColor>
+    <AlternatingCellBackColor>Vekslende cellebakrunnsfarge</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Vekslende celleforgrunnsfarge</AlternatingCellForeColor>
+    <AlternatingDataColor>Vekslende datafarge</AlternatingDataColor>
+    <AlternatingDataForeground>Vekslende dataforgrunn</AlternatingDataForeground>
     <Anchor>Anker</Anchor>
     <Angle>Vinkel</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
@@ -3238,6 +3283,7 @@
     <BackColor>Bakgrunnsfarge</BackColor>
     <Background>Bakgrunn</Background>
     <BackgroundColor>Bakgrunnsfarge</BackgroundColor>
+    <BandColor>Båndfarge</BandColor>
     <BarCodeType>Strekkodetype</BarCodeType>
     <BasicStyleColor>Grunnleggende stilfarge</BasicStyleColor>
     <Blend>Blande</Blend>
@@ -3270,7 +3316,9 @@
     <Categories>Kategorier</Categories>
     <Category>Kategori</Category>
     <CategoryConnections>Tilkoblinger</CategoryConnections>
+    <CellBackColor>Celle bakgrunnsfarge</CellBackColor>
     <CellDockStyle>Cellens dokkstil</CellDockStyle>
+    <CellForeColor>Celle forgrunnsfarge</CellForeColor>
     <CellHeight>Cellehøyde</CellHeight>
     <CellType>Celletype</CellType>
     <CellWidth>Cellebredde</CellWidth>
@@ -3313,6 +3361,8 @@
     <ColumnCount>Antall kolonner</ColumnCount>
     <ColumnDirection>Kolonneretning</ColumnDirection>
     <ColumnGaps>Kolonneavstand</ColumnGaps>
+    <ColumnHeaderBackColor>Kolonneoverskrift bakgrunnsfarge</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Kolonneoverskrift forgrunnsfarge</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Kolonnetopptekst synlig</ColumnHeadersVisible>
     <Columns>Kolonner</Columns>
     <ColumnWidth>Kolonnebredde</ColumnWidth>
@@ -3473,6 +3523,7 @@
     <Functions>Funksjoner</Functions>
     <GlobalizationStrings>Globaliseringsstrenger</GlobalizationStrings>
     <GlobalizedName>Globalisert navn</GlobalizedName>
+    <GlyphColor>Symbolfarge</GlyphColor>
     <GridColor>Rutenettfarge</GridColor>
     <GridLineColor>Farge på rutenett</GridLineColor>
     <GridLinesHor>Horisontalt rutenett</GridLinesHor>
@@ -3511,7 +3562,16 @@
     <HighValues>Høye verdier</HighValues>
     <HorAlignment>Horisontal justering</HorAlignment>
     <HorSpacing>Horisontal avstand</HorSpacing>
+    <HotBackColor>Het bakgrunnsfarge</HotBackColor>
+    <HotColumnHeaderBackColor>Het kolnneoverskrift bakgrunnsfarge</HotColumnHeaderBackColor>
+    <HotForeColor>Het forgrunnsfarge</HotForeColor>
+    <HotGlyphColor>Het symbolfarge</HotGlyphColor>
+    <HotHeaderColor>Het overskriftfarge</HotHeaderColor>
     <HotkeyPrefix>Hurtigtastprefiks</HotkeyPrefix>
+    <HotRowHeaderBackColor>Het radoverskrift bakgrunnsfarge</HotRowHeaderBackColor>
+    <HotSelectedBackColor>Het valgt bakgrunnsfarge</HotSelectedBackColor>
+    <HotSelectedForeColor>Het valgt forgrunnsfarge</HotSelectedForeColor>
+    <HotSelectedGlyphColor>Het valgt symbolfarge</HotSelectedGlyphColor>
     <HtmlTags>Html-tags</HtmlTags>
     <Hyperlink>Hyperkobling</Hyperlink>
     <HyperlinkDataColumn>Hyperkobling datakolonne</HyperlinkDataColumn>
@@ -3592,6 +3652,10 @@
     <LengthUnderLabels>Lengde under etiketter</LengthUnderLabels>
     <Lighting>Belysning</Lighting>
     <Linear>Lineær</Linear>
+    <LinearBarBorderBrush>Lineær stolpe kantbørste</LinearBarBorderBrush>
+    <LinearBarBrush>Lineær stolpebørste</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>Lineær stolpe tom kantbørste</LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>Lineær stolpe tom børste</LinearBarEmptyBrush>
     <LineColor>Linjefarge</LineColor>
     <LineColorNegative>Negativ linjefarge</LineColorNegative>
     <LineLimit>Linjebegrensning</LineLimit>
@@ -3630,6 +3694,7 @@
     <Marker>Markør</Marker>
     <MarkerAlignment>Markørjustering</MarkerAlignment>
     <MarkerBorder>Markørramme</MarkerBorder>
+    <MarkerBrush>Markør børste</MarkerBrush>
     <MarkerColor>Markørfarge</MarkerColor>
     <MarkerSize>Markørstørrelse</MarkerSize>
     <MarkerType>Markørtype</MarkerType>
@@ -3677,7 +3742,13 @@
     <NameMeter>Navn</NameMeter>
     <NameParent>Overordnet navn</NameParent>
     <Namespaces>Namespaces</Namespaces>
+    <NeedleBorderBrush>Nål kantbørste</NeedleBorderBrush>
+    <NeedleBorderWidth>Nål kantbredde</NeedleBorderWidth>
+    <NeedleBrush>Nålebørste</NeedleBrush>
+    <NeedleCapBorderBrush>Nåldeksel kantbørste</NeedleCapBorderBrush>
+    <NeedleCapBrush>Nåldeksel børste</NeedleCapBrush>
     <Negative>Negativ</Negative>
+    <NegativeColor>Negativ farge</NegativeColor>
     <NegativeSeriesColors>Negativ serie-farge</NegativeSeriesColors>
     <NegativeTextBrush>Negativ tekstbørste</NegativeTextBrush>
     <NestedLevel>Nøstet nivå</NestedLevel>
@@ -3696,6 +3767,7 @@
     <Offset>Forskyvning</Offset>
     <OffsetAngle>Forskyvningsvinkel</OffsetAngle>
     <OnClick>Ved klikk</OnClick>
+    <OnDataManipulation>På data-manipulering</OnDataManipulation>
     <OnHover>Ved sveving</OnHover>
     <OnlyText>Bare tekst</OnlyText>
     <OpenValues>Initielle verdier</OpenValues>
@@ -3721,11 +3793,13 @@
     <Path>Sti</Path>
     <PathData>Stidata</PathData>
     <PathSchema>Stiskjema</PathSchema>
+    <Pattern>Mønster</Pattern>
     <Placement>Plassering</Placement>
     <PlaceOnToolbox>Plasser på verktøyboks</PlaceOnToolbox>
     <PointAtCenter>Pek på sentrum</PointAtCenter>
     <Position>Posisjon</Position>
     <Positive>Positiv</Positive>
+    <PositiveColor>Positiv farge</PositiveColor>
     <PreferredColumnWidth>Foretrukket kolonnebredde</PreferredColumnWidth>
     <PreferredRowHeight>Foretrukket radhøyde</PreferredRowHeight>
     <PreventIntersection>Forhindre kryssning</PreventIntersection>
@@ -3751,6 +3825,10 @@
     <ProcessTilde>Prosesser tilde</ProcessTilde>
     <ProductHomePage>Produktets hjemmeside</ProductHomePage>
     <RadarStyle>Radarstil</RadarStyle>
+    <RadialBarBorderBrush>Radial stolpe kantbørste</RadialBarBorderBrush>
+    <RadialBarBrush>Radial stolpe børste</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>Radial stolpe tom kantbørste</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>Radial stolpe tom børste</RadialBarEmptyBrush>
     <Radius>Radius</Radius>
     <RadiusMode>Radiusmodus</RadiusMode>
     <Range>Rekkevidde</Range>
@@ -3801,6 +3879,8 @@
     <Round>Runde</Round>
     <RoundValues>Avrund verdier</RoundValues>
     <RowCount>Antall rader</RowCount>
+    <RowHeaderBackColor>Radoverskrift bakgrunnsfarge</RowHeaderBackColor>
+    <RowHeaderForeColor>Radoverskrift forgrunnsfarge</RowHeaderForeColor>
     <RowHeadersVisible>Synlige radtitler</RowHeadersVisible>
     <RowHeaderWidth>Bredde på radtittel</RowHeaderWidth>
     <Rows>Rader</Rows>
@@ -3809,6 +3889,13 @@
     <ScriptLanguage>Skriptspråk</ScriptLanguage>
     <SegmentPerHeight>Segment per høyde</SegmentPerHeight>
     <SegmentPerWidth>Segment per bredde</SegmentPerWidth>
+    <SelectedBackColor>Valgt bakgrunnsfarge</SelectedBackColor>
+    <SelectedCellBackColor>Valgt celle bakgrunnsfarge</SelectedCellBackColor>
+    <SelectedCellForeColor>Valgt celle forgrunnsfarge</SelectedCellForeColor>
+    <SelectedDataColor>Valgt datafarge</SelectedDataColor>
+    <SelectedDataForeground>Valgt dataforgrunn</SelectedDataForeground>
+    <SelectedForeColor>Valgt forgrunnsfarge</SelectedForeColor>
+    <SelectedGlyphColor>Valgt symbolfarge</SelectedGlyphColor>
     <SelectedIndex>Valgt indeks</SelectedIndex>
     <SelectedItem>Valgt objekt</SelectedItem>
     <SelectedKey>Valgt nøkkel</SelectedKey>
@@ -3818,6 +3905,7 @@
     <SelectionEnabled>Utvalg aktivert</SelectionEnabled>
     <SelectionForeColor>Velge forgrunnsfarge</SelectionForeColor>
     <SelectionMode>Valgmodus</SelectionMode>
+    <SeparatorColor>Separator-farge</SeparatorColor>
     <SerialNumber>Serie nummer</SerialNumber>
     <Series>Serier</Series>
     <SeriesColors>Seriefarge</SeriesColors>
@@ -3945,6 +4033,16 @@
     <TextOnly>Bare tekst</TextOnly>
     <TextOptions>Tekstinstillinger</TextOptions>
     <TextQuality>Tekstkvalitet</TextQuality>
+    <TickLabelMajorFont>Aksemerkeetikett større skrift</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>Aksemerkeetikett større tekstbørste</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Aksemerkeetikett mindre skrift</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Aksemerkeetikett mindre tekstbørste</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Aksemerke større kant</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>Aksemerke større kantbredde</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>Aksemerke større børste</TickMarkMajorBrush>
+    <TickMarkMinorBorder>Aksemerke mindre kant</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>Aksemerke mindre kantbredde</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>Aksemerke mindre børste</TickMarkMinorBrush>
     <Ticks>Haker</Ticks>
     <Title>Tittel</Title>
     <TitleBeforeHeader>Tittel før topptekst</TitleBeforeHeader>
@@ -3963,6 +4061,7 @@
     <TopSide>Toppside</TopSide>
     <Total>Total</Total>
     <Totals>Totaler</Totals>
+    <TrackColor>Sporfarge</TrackColor>
     <TransparentColor>Gjennomsiktig farge</TransparentColor>
     <TrendLine>Trendlinje</TrendLine>
     <TrendLineColor>Farge</TrendLineColor>
@@ -4435,6 +4534,13 @@
     <TextEditor>Tekstredigering</TextEditor>
     <title>Verktøyboks</title>
   </Toolbox>
+  <WelcomeScreen>
+    <Description>Vi har valgt noen rapporter for deg som vi tror er de beste for en rask start.</Description>
+    <GetStartedWithDashboards>Kom i gang med instrumentbord</GetStartedWithDashboards>
+    <GetStartedWithReports>Kom i gang med rapporter</GetStartedWithReports>
+    <MoreReports>Flere rapporter</MoreReports>
+    <Title>Velkommen til Stimulsoft demo</Title>
+  </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Tomt dashbord</BlankDashboard>
     <BlankReport>Tom rapport</BlankReport>

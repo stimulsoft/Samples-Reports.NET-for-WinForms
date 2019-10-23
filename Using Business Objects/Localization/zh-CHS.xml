@@ -108,9 +108,11 @@
     <Export>导出</Export>
     <ForceDelete>强制删除</ForceDelete>
     <Help>帮助</Help>
+    <Install>安装</Install>
     <LessOptions>减少选项</LessOptions>
     <LoadDataSet>加载数据集(*.data)</LoadDataSet>
     <More>更多</More>
+    <MoreApps>更多应用</MoreApps>
     <MoreOptions>更多选项</MoreOptions>
     <MoveLeft>左移</MoveLeft>
     <MoveRight>右移</MoveRight>
@@ -136,6 +138,7 @@
     <Test>测试</Test>
     <Up>向上</Up>
     <Upload>上传</Upload>
+    <Waiting>等待</Waiting>
     <Yes>是</Yes>
   </Buttons>
   <Chart>
@@ -342,6 +345,8 @@
     <AccountSettings>帐户设置</AccountSettings>
     <AddAPlace>增加一个位置</AddAPlace>
     <AreYouSureYouWantDeleteReport>您确定要从磁盘中删除"{0}" 报告吗?</AreYouSureYouWantDeleteReport>
+    <Authorize>授权</Authorize>
+    <AuthorizeWithLicenseKey>许可证密钥授权</AuthorizeWithLicenseKey>
     <ButtonChangePassword>更改密码</ButtonChangePassword>
     <ButtonDeleteAll>全部删除</ButtonDeleteAll>
     <ButtonDesign>设计报表</ButtonDesign>
@@ -385,9 +390,13 @@
     <HyperlinkForgotPassword>忘记密码</HyperlinkForgotPassword>
     <HyperlinkHavePassword>有密码</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>注册免费账户</HyperlinkRegisterAccount>
+    <InstallSamples>示例安装</InstallSamples>
+    <LabelAddCloudFolder>连接您的Stimulsoft云文件夹与报表,仪表盘</LabelAddCloudFolder>
+    <LabelAddFolder>添加含报表和仪表盘的本地文件夹</LabelAddFolder>
     <labelCollectionName>集合名称:</labelCollectionName>
     <LabelCreated>创建:</LabelCreated>
     <LabelCreateFolder>创建一个可以放置其他项目的新类别</LabelCreateFolder>
+    <LabelCreateNewDashboard>创建新仪表盘</LabelCreateNewDashboard>
     <LabelCreateReportTemplate>创建报告模板</LabelCreateReportTemplate>
     <LabelCurrentPassword>当前密码:</LabelCurrentPassword>
     <LabelDataFile>数据文件:</LabelDataFile>
@@ -413,6 +422,7 @@
     <labelUserName>用户名:</labelUserName>
     <License>许可证</License>
     <LicenseInformation>许可证信息</LicenseInformation>
+    <LicenseKey>许可证密钥</LicenseKey>
     <Login>登陆</Login>
     <NofM>{0}: {2} 的 {1}</NofM>
     <Open>打开</Open>
@@ -426,8 +436,10 @@
     <OperationUpload>上传 '{0}' 到服务器</OperationUpload>
     <page>页面</page>
     <Platforms>平台</Platforms>
+    <Port>端口</Port>
     <PrivacyPolicy>隐私</PrivacyPolicy>
     <Products>产品</Products>
+    <Proxy>代理</Proxy>
     <PublishMessage>要发布此报告，您应将其提交至我们的服务器publish.stimulsoft.com</PublishMessage>
     <questionOpenThisFile>你确定要打开 '{0}'项吗 ?</questionOpenThisFile>
     <questionOverrideItem>你真的想要覆盖 '{0}' 项吗?</questionOverrideItem>
@@ -466,7 +478,10 @@
     <TextItemsWorkspace>工作区</TextItemsWorkspace>
     <TextLastName>姓</TextLastName>
     <TextModify>修改</TextModify>
+    <TextNoFavoriteFiles>无收藏文件夹</TextNoFavoriteFiles>
+    <TextNoFiles>无文件夹</TextNoFiles>
     <TextNoNotifications>没有通知</TextNoNotifications>
+    <TextNoRecentFiles>无最近文件夹</TextNoRecentFiles>
     <TextOwner>所有者</TextOwner>
     <TextProfile>简况</TextProfile>
     <TextReports>报表</TextReports>
@@ -626,18 +641,22 @@
     <DateFilters>日期过滤器</DateFilters>
     <Dimension>维</Dimension>
     <Dimensions>维</Dimensions>
+    <DragDropData>拖动 &amp; 丢弃数据</DragDropData>
     <DragDropDataFromDictionary>拖&amp;从字典中删除数据</DragDropDataFromDictionary>
     <DrillDown>下行</DrillDown>
+    <DrillDownFiltered>向下过滤</DrillDownFiltered>
     <DrillDownSelected>下行选择</DrillDownSelected>
     <DrillUp>上行</DrillUp>
     <DuplicateField>重复字段</DuplicateField>
     <EditExpression>编辑表达式</EditExpression>
+    <EditField>编辑字段</EditField>
     <EmptyDashboardFooter>拖 &amp; 从工具箱中删除组件或从字典中删除数据</EmptyDashboardFooter>
     <EmptyDashboardHeader>仪表盘为空</EmptyDashboardHeader>
     <FieldInteractions>字段交互</FieldInteractions>
     <FieldTypeRestrictionHint>只能使用 '{0}' 类型字段!</FieldTypeRestrictionHint>
     <FirstLastPoints>第一/最后一点</FirstLastPoints>
     <FirstRowIndex>第一行索引</FirstRowIndex>
+    <FullRowSelect>全行选择</FullRowSelect>
     <HighLowPoints>高 / 低点</HighLowPoints>
     <ImageNotSpecified>未指定图像</ImageNotSpecified>
     <Indicator>指示器</Indicator>
@@ -660,6 +679,7 @@
     <RemoveAllFields>删除所有字段</RemoveAllFields>
     <RemoveField>删除字段</RemoveField>
     <ReplaceValues>替换值</ReplaceValues>
+    <ReportSnapshot>报告快照</ReportSnapshot>
     <RowsCount>行数</RowsCount>
     <RunFieldsEditor>运行字段编辑器</RunFieldsEditor>
     <RunFieldsEditorInfo>运行字段编辑器来更改每个表纵列的交互。</RunFieldsEditorInfo>
@@ -761,6 +781,15 @@
     <TestConnection>测试连接</TestConnection>
     <TextNotFound>无法找到指定文本. 文本: {0}</TextNotFound>
   </DesignerFx>
+  <Desktop>
+    <ButtonAddCloud>新增云文件夹</ButtonAddCloud>
+    <ButtonAddFolder>新增文件夹</ButtonAddFolder>
+    <ButtonCreateDashboard>创建仪表盘</ButtonCreateDashboard>
+    <ButtonCreateReport>创建报表</ButtonCreateReport>
+    <DoYouWantToInstallReports>是否安装报表和仪表盘模板？</DoYouWantToInstallReports>
+    <InstallSamplesDesc>安装示例项目。它将帮助您学习使用本软件的基础知识。</InstallSamplesDesc>
+    <WhoAreYou>您是谁？</WhoAreYou>
+  </Desktop>
   <Dialogs>
     <StiButtonControl>按钮</StiButtonControl>
     <StiCheckBoxControl>复选框</StiCheckBoxControl>
@@ -816,6 +845,7 @@
     <titleReplace>替换</titleReplace>
     <ToggleAllOutlining>全部切换到大纲视图(&amp;L)</ToggleAllOutlining>
     <ToggleOutliningExpansion>切换到大纲视图扩展(&amp;T)</ToggleOutliningExpansion>
+    <TypeToSearch>输入搜索</TypeToSearch>
     <UseRegularExpressions>正则表达式(&amp;R)</UseRegularExpressions>
   </Editor>
   <Errors>
@@ -869,6 +899,7 @@
     <ExceptEditableFields>除可编辑字段外</ExceptEditableFields>
     <ExportDataOnly>仅导出数据</ExportDataOnly>
     <ExportEachPageToSheet>导出每页到工作表</ExportEachPageToSheet>
+    <Exporting>输出</Exporting>
     <ExportingCalculatingCoordinates>正在计算坐标</ExportingCalculatingCoordinates>
     <ExportingCreatingDocument>创建文档</ExportingCreatingDocument>
     <ExportingFormatingObjects>正在格式化对象</ExportingFormatingObjects>
@@ -1382,6 +1413,7 @@
     <MessageTopBottomNotValid>顶部和底部的价值无效.</MessageTopBottomNotValid>
     <Minutes>{0} 分钟</Minutes>
     <SaveReportEvery>保存全部报表</SaveReportEvery>
+    <ScaleMode>缩放模式</ScaleMode>
     <SelectUILanguage>选择界面语言</SelectUILanguage>
     <ShowDialogForms>显示对话框窗口</ShowDialogForms>
     <ShowDimensionLines>显示尺寸线</ShowDimensionLines>
@@ -1840,6 +1872,7 @@
     <GridMode>用线或点显示网格.</GridMode>
     <ImageAlignment>将水印图像放到页面上.</ImageAlignment>
     <ImageTransparency>改变水印图像的透明度.</ImageTransparency>
+    <Interaction>控制选定组件的交互</Interaction>
     <LineSpacing>选择文本之间或段落之间的间距。</LineSpacing>
     <Link>把组件链接到当前的容器.</Link>
     <LoadImage>从文件加载水印图像.</LoadImage>
@@ -2108,10 +2141,16 @@
     <menuHelp>帮助(&amp;H)</menuHelp>
     <menuHelpAboutProgramm>关于(&amp;A)...</menuHelpAboutProgramm>
     <menuHelpContents>内容(&amp;C)...</menuHelpContents>
+    <menuHelpDemos>演示</menuHelpDemos>
+    <menuHelpDocumentation>文档</menuHelpDocumentation>
     <menuHelpFAQPage>FAQ</menuHelpFAQPage>
+    <menuHelpForum>论坛</menuHelpForum>
     <menuHelpHowToRegister>如何注册</menuHelpHowToRegister>
     <menuHelpProductHomePage>产品主页</menuHelpProductHomePage>
+    <menuHelpSamples>示例</menuHelpSamples>
     <menuHelpSupport>技术支持(&amp;S)</menuHelpSupport>
+    <menuHelpTrainingCourses>培训课程</menuHelpTrainingCourses>
+    <menuHelpVideos>视频</menuHelpVideos>
     <menuInsertColumnToLeft>左侧插入列</menuInsertColumnToLeft>
     <menuInsertColumnToRight>右侧插入列</menuInsertColumnToRight>
     <menuInsertRowAbove>上方插入行</menuInsertRowAbove>
@@ -2170,6 +2209,7 @@
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>未指定该字段!</ThisFieldIsNotSpecified>
     <ThisFunctionEmbedsAllReportDataToTheReport>此功能将嵌入所有报表数据至报表资源中，并使您的报表独立。小心！您的所有数据设置将被更改，且不可复原。请先备份您的报表。{0}您确定吗?</ThisFunctionEmbedsAllReportDataToTheReport>
+    <YouNeedToLoginFirstToStartUsingTheSoftware>您需要先登录才能开始使用本软件。如果您退出登录，应用程序将关闭。</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
   <Notices>
     <AccessDenied>拒绝访问!</AccessDenied>
@@ -2269,6 +2309,7 @@
     <NotificationValueIsNotCorrect>此值对类型{0}不正确</NotificationValueIsNotCorrect>
     <OutOfRange>超出范围("{0}")!</OutOfRange>
     <ParsingCommandException>处理指定的可拓展标记语言命令中的异常: {0}</ParsingCommandException>
+    <PleaseLogin>请在生成报表前使用您的Stimusoft账户登录或注册一个新账户。</PleaseLogin>
     <QuotaMaximumComputingCyclesCountExceeded>超出最大计算周期数。</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>超出数据源中的最大数据行。</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>超出最大文件大小。</QuotaMaximumFileSizeExceeded>
@@ -2308,6 +2349,7 @@
     <Download>下载</Download>
     <DownloadAll>全部下载</DownloadAll>
     <DownloadAndInstall>下载并安装</DownloadAndInstall>
+    <DownloadDataAdapter>下载数据适配器</DownloadDataAdapter>
     <Downloads>下载:</Downloads>
     <IAccept>我接受</IAccept>
     <IDecline>我拒绝</IDecline>
@@ -2479,6 +2521,7 @@
     <Brown>褐色</Brown>
     <BurlyWood>实木色</BurlyWood>
     <CadetBlue>刺桧蓝色</CadetBlue>
+    <Carmine>紫红色</Carmine>
     <Chartreuse>亮黄绿色</Chartreuse>
     <Chocolate>巧克力色</Chocolate>
     <Coral>珊瑚色</Coral>
@@ -2602,6 +2645,7 @@
     <Tomato>番茄色</Tomato>
     <Transparent>透明色</Transparent>
     <Turquoise>翠蓝色</Turquoise>
+    <VeryDarkGray>深灰色</VeryDarkGray>
     <Violet>紫色</Violet>
     <Wheat>浅黄色</Wheat>
     <White>白色</White>
@@ -2772,6 +2816,11 @@
     <StiDateTimeTypeDate>日期</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>时间和日期</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>时间</StiDateTimeTypeTime>
+    <StiDesignerScaleModeAutomaticScaling>自动缩放</StiDesignerScaleModeAutomaticScaling>
+    <StiDesignerScaleModeScaling100>100%缩放</StiDesignerScaleModeScaling100>
+    <StiDesignerSpecificationAuto>自动决定</StiDesignerSpecificationAuto>
+    <StiDesignerSpecificationBICreator>我是BI创建者</StiDesignerSpecificationBICreator>
+    <StiDesignerSpecificationDeveloper>我是开发者</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>完整</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>无</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>简短</StiDisplayNameTypeShort>
@@ -2794,6 +2843,9 @@
     <StiEnumeratorTypeArabic>阿拉伯数字</StiEnumeratorTypeArabic>
     <StiEnumeratorTypeNone>无</StiEnumeratorTypeNone>
     <StiEnumeratorTypeRoman>罗马数字</StiEnumeratorTypeRoman>
+    <StiExtendedStyleBoolFalse>错误</StiExtendedStyleBoolFalse>
+    <StiExtendedStyleBoolFromStyle>选择风格</StiExtendedStyleBoolFromStyle>
+    <StiExtendedStyleBoolTrue>正确</StiExtendedStyleBoolTrue>
     <StiFilterConditionBeginningWith>开始于</StiFilterConditionBeginningWith>
     <StiFilterConditionBetween>在两者之间</StiFilterConditionBetween>
     <StiFilterConditionContaining>包含</StiFilterConditionContaining>
@@ -2827,6 +2879,16 @@
     <StiFilterItemValueOpen>开盘值</StiFilterItemValueOpen>
     <StiFilterModeAnd>与</StiFilterModeAnd>
     <StiFilterModeOr>或</StiFilterModeOr>
+    <StiFontIconGroupAccessibilityIcons>可及性</StiFontIconGroupAccessibilityIcons>
+    <StiFontIconGroupBrandIcons>品牌</StiFontIconGroupBrandIcons>
+    <StiFontIconGroupDirectionalIcons>方向性</StiFontIconGroupDirectionalIcons>
+    <StiFontIconGroupGenderIcons>性别</StiFontIconGroupGenderIcons>
+    <StiFontIconGroupMedicalIcons>医学</StiFontIconGroupMedicalIcons>
+    <StiFontIconGroupPaymentIcons>支付</StiFontIconGroupPaymentIcons>
+    <StiFontIconGroupSpinnerIcons>微调</StiFontIconGroupSpinnerIcons>
+    <StiFontIconGroupTransportationIcons>运输</StiFontIconGroupTransportationIcons>
+    <StiFontIconGroupVideoPlayerIcons>视频</StiFontIconGroupVideoPlayerIcons>
+    <StiFontIconGroupWebApplicationIcons>应用</StiFontIconGroupWebApplicationIcons>
     <StiFormStartModeOnEnd>在结束</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>在预览</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>在开始</StiFormStartModeOnStart>
@@ -2845,6 +2907,11 @@
     <StiHorAlignmentCenter>居中</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>居左</StiHorAlignmentLeft>
     <StiHorAlignmentRight>居右</StiHorAlignmentRight>
+    <StiIconAlignmentBottom>底部</StiIconAlignmentBottom>
+    <StiIconAlignmentLeft>左边</StiIconAlignmentLeft>
+    <StiIconAlignmentNone>无</StiIconAlignmentNone>
+    <StiIconAlignmentRight>右边</StiIconAlignmentRight>
+    <StiIconAlignmentTop>顶端</StiIconAlignmentTop>
     <StiImageProcessingDuplicatesTypeGlobalHide>全部隐藏</StiImageProcessingDuplicatesTypeGlobalHide>
     <StiImageProcessingDuplicatesTypeGlobalMerge>全部合并</StiImageProcessingDuplicatesTypeGlobalMerge>
     <StiImageProcessingDuplicatesTypeGlobalRemoveImage>全部移动图像</StiImageProcessingDuplicatesTypeGlobalRemoveImage>
@@ -2904,6 +2971,7 @@
     <StiMarkerAlignmentLeft>居左</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>居右</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>圆</StiMarkerTypeCircle>
+    <StiMarkerTypeHalfCircle>半圆</StiMarkerTypeHalfCircle>
     <StiMarkerTypeHexagon>六边形</StiMarkerTypeHexagon>
     <StiMarkerTypeRectangle>矩形</StiMarkerTypeRectangle>
     <StiMarkerTypeStar5>五角星</StiMarkerTypeStar5>
@@ -3010,6 +3078,8 @@
     <StiSeriesSortTypeArgument>参数</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>无</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>值</StiSeriesSortTypeValue>
+    <StiSeriesXAxisBottomXAxis>底部X轴</StiSeriesXAxisBottomXAxis>
+    <StiSeriesXAxisTopXAxis>顶部X轴</StiSeriesXAxisTopXAxis>
     <StiSeriesYAxisLeftYAxis>Y 轴左端</StiSeriesYAxisLeftYAxis>
     <StiSeriesYAxisRightYAxis>Y 轴右端</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>向下</StiShapeDirectionDown>
@@ -3521,6 +3591,8 @@
     <FooterCanGrow>页脚可以放大</FooterCanGrow>
     <FooterCanShrink>页脚可以收缩</FooterCanShrink>
     <FooterColor>页脚颜色</FooterColor>
+    <FooterFont>页脚字体</FooterFont>
+    <FooterForeColor>页脚前色</FooterForeColor>
     <FooterForeground>页脚前景</FooterForeground>
     <FooterPrintAtBottom>底部打印页脚</FooterPrintAtBottom>
     <FooterPrintIfEmpty>空白处打印页脚</FooterPrintIfEmpty>
@@ -3590,6 +3662,7 @@
     <Hyperlink>超链接</Hyperlink>
     <HyperlinkDataColumn>超链接数据列</HyperlinkDataColumn>
     <Icon>图标</Icon>
+    <IconAlignment>图标对齐</IconAlignment>
     <IconSet>图标集</IconSet>
     <IconSetCondition>图标集条件</IconSetCondition>
     <Idents>页面边框</Idents>
@@ -3665,6 +3738,7 @@
     <Length>长度</Length>
     <LengthUnderLabels>标签下的长度</LengthUnderLabels>
     <Lighting>加亮</Lighting>
+    <LimitRows>限制行</LimitRows>
     <Linear>线性</Linear>
     <LinearBarBorderBrush>线形条边框刷</LinearBarBorderBrush>
     <LinearBarBrush>线形条刷</LinearBarBrush>
@@ -3707,6 +3781,7 @@
     <Margins>页边距</Margins>
     <Marker>标记</Marker>
     <MarkerAlignment>对齐标注</MarkerAlignment>
+    <MarkerAngle>标记角</MarkerAngle>
     <MarkerBorder>书签边框</MarkerBorder>
     <MarkerBrush>标记刷</MarkerBrush>
     <MarkerColor>标注颜色</MarkerColor>
@@ -3850,8 +3925,10 @@
     <Range>范围</Range>
     <RangeColorMode>范围内颜色模式</RangeColorMode>
     <RangeFrom>来自</RangeFrom>
+    <RangeMode>范围模式</RangeMode>
     <RangeScrollEnabled>范围滚动启用</RangeScrollEnabled>
     <RangeTo>到</RangeTo>
+    <RangeType>范围类型</RangeType>
     <Ratio>比率</Ratio>
     <RatioY>Y比例</RatioY>
     <ReadOnly>只读</ReadOnly>
@@ -3872,6 +3949,7 @@
     <ReportAuthor>报表作者</ReportAuthor>
     <ReportCacheMode>报表缓存模式</ReportCacheMode>
     <ReportDescription>报表描述</ReportDescription>
+    <ReportIcon>报告图标</ReportIcon>
     <ReportImage>报表图像</ReportImage>
     <ReportName>报表名称</ReportName>
     <ReportUnit>报表单位</ReportUnit>
@@ -3931,6 +4009,7 @@
     <SeriesLabelsColor>标签颜色系列</SeriesLabelsColor>
     <SeriesLabelsLineColor>标签线颜色</SeriesLabelsLineColor>
     <SeriesLighting>系列高亮</SeriesLighting>
+    <SeriesShowBorder>系列展示边框</SeriesShowBorder>
     <SeriesShowShadow>阴影展示系列</SeriesShowShadow>
     <SeriesTitle>标题系列</SeriesTitle>
     <Shadow>阴影</Shadow>
@@ -4038,6 +4117,7 @@
     <TagDataColumn>标签数据列</TagDataColumn>
     <TagValue>标识值</TagValue>
     <Target>目标</Target>
+    <TargetIcon>目标图标</TargetIcon>
     <Tension>拉伸</Tension>
     <Text>文本</Text>
     <TextAfter>文本于后</TextAfter>
@@ -4122,6 +4202,7 @@
     <ValueTypeSeparator>值类型分隔符</ValueTypeSeparator>
     <Variable>变量</Variable>
     <Variables>变量</Variables>
+    <Variation>变化</Variation>
     <Version>版本</Version>
     <VertAlignment>垂直位置</VertAlignment>
     <VertSpacing>垂直间距</VertSpacing>
@@ -4330,6 +4411,7 @@
     <NoIssues>没有问题</NoIssues>
     <NoNewVersions>没有可用的新版本!</NoNewVersions>
     <NotAssigned>未设置</NotAssigned>
+    <Null>空值</Null>
     <Office2010Back>返回</Office2010Back>
     <PageNofM>{0} / {1}页</PageNofM>
     <PreparingReport>正在准备报表</PreparingReport>
@@ -4552,10 +4634,13 @@
     <title>工具箱</title>
   </Toolbox>
   <WelcomeScreen>
+    <AllDownloadsWillCanceled>确定要关闭此窗口吗？所有下载将被取消</AllDownloadsWillCanceled>
     <Description>我们已为您挑选了我们认为最适合快速入门的报表。</Description>
+    <GetStarted>开始</GetStarted>
     <GetStartedWithDashboards>开始使用控制面板</GetStartedWithDashboards>
     <GetStartedWithReports>开始使用报表</GetStartedWithReports>
     <MoreReports>更多报表</MoreReports>
+    <ShowNextTime>下次展示 '{0}' </ShowNextTime>
     <Title>欢迎使用Stimulsoft演示版</Title>
   </WelcomeScreen>
   <Wizards>

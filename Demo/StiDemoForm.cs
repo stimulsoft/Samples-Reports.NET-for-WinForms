@@ -246,7 +246,7 @@ namespace Demo
 
             blockApplyStyle = true;
 
-            this.viewerControl.ApplyStyle(StiGlobalGuiStyle.Office2010Silver);
+            this.viewerControl.ApplyStyle();
 
             this.viewerControl.View.BackColor =
             this.viewerControl.BackColor = Color.FromArgb(255, 0xdc, 0xe2, 0xe8);
@@ -698,22 +698,6 @@ namespace Demo
             }
         }
 
-        private void border_Paint(object sender, PaintEventArgs e)
-        {
-            Rectangle rect = new Rectangle(4, 0, 4, border.Height);
-
-            using (SolidBrush brush1 = new SolidBrush(Color.FromArgb(255, 0xdc, 0xe2, 0xe8)))
-                e.Graphics.FillRectangle(brush1, rect);
-
-            using (LinearGradientBrush brush = new LinearGradientBrush(rect,
-                Color.FromArgb(0x99, 0xb7, 0xbb, 0xbf),
-                Color.FromArgb(0x99, 0xdc, 0xe2, 0xe8),
-                0f))
-            {
-                e.Graphics.FillRectangle(brush, rect);
-            }
-        }
-
         private void linkLabel1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://www.stimulsoft.com");
@@ -803,10 +787,7 @@ namespace Demo
             this.viewerControl.StatusBar.RoundCorners = true;
             this.viewerControl.FindBar.RoundCorners = true;
             viewerControl.Close += new EventHandler(viewerControl_Close);
-            this.viewerControl.GlobalGuiStyleChanged += delegate
-            {
-                ApplyStyle();
-            };
+            
             ApplyStyle();
 
             CreateHelpResourcesMenu();

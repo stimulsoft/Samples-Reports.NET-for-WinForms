@@ -390,13 +390,13 @@
     <HyperlinkHavePassword>Have password</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>Register FREE account</HyperlinkRegisterAccount>
     <InstallSamples>Install Samples</InstallSamples>
+    <LabelAddCloudFolder>Connect your Stimulsoft Cloud folder with reports and dashboards.</LabelAddCloudFolder>
+    <LabelAddFolder>Add your local folder with reports and dashboards.</LabelAddFolder>
     <labelCollectionName>Collection Name:</labelCollectionName>
     <LabelCreated>Created:</LabelCreated>
     <LabelCreateFolder>Create a new category in which you can place other items.</LabelCreateFolder>
-    <LabelAddFolder>Add your local folder with reports and dashboards.</LabelAddFolder>
-    <LabelAddCloudFolder>Connect your Stimulsoft Cloud folder with reports and dashboards.</LabelAddCloudFolder>
-    <LabelCreateReportTemplate>Create report template.</LabelCreateReportTemplate>
     <LabelCreateNewDashboard>Create new dashboard.</LabelCreateNewDashboard>
+    <LabelCreateReportTemplate>Create report template.</LabelCreateReportTemplate>
     <LabelCurrentPassword>Current Password:</LabelCurrentPassword>
     <LabelDataFile>Data File:</LabelDataFile>
     <LabelDataUrl>Data URL:</LabelDataUrl>
@@ -446,7 +446,7 @@
     <RefreshList>Refresh List</RefreshList>
     <ReportDocumentFormatNotRecognized>Format of '{0}' item is not recognized as rendered report format!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>Format of '{0}' item is not recognized as report template format!</ReportTemplateFormatNotRecognized>
-    <RequestChangesWhenSavingToCloud>Request Changes when Saving to Cloud</RequestChangesWhenSavingToCloud>
+    <RequestChangesWhenSavingToCloud>Request Changes when Saving to Stimulsoft Cloud</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>Add Role</RibbonButtonAddRole>
     <RibbonButtonAddUser>Add User</RibbonButtonAddUser>
     <RibbonButtonAddWorkspace>Add Workspace</RibbonButtonAddWorkspace>
@@ -549,14 +549,6 @@
     <WizardRegisteredShareDescription>External access only for registered users from any workspace.</WizardRegisteredShareDescription>
     <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
   </Cloud>
-  <Desktop>
-    <ButtonCreateReport>Create Report</ButtonCreateReport>
-    <ButtonCreateDashboard>Create Dashboard</ButtonCreateDashboard>
-    <ButtonAddFolder>Add Folder</ButtonAddFolder>
-    <ButtonAddCloud>Add Cloud</ButtonAddCloud>
-    <InstallSamplesDesc>Let's install our sample projects. They will help you learn the basics of working with our software.</InstallSamplesDesc>
-    <DoYouWantToInstallReports>Do you want to install templates of reports and dashboards?</DoYouWantToInstallReports>
-  </Desktop>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiChart>Chart</StiChart>
@@ -628,12 +620,14 @@
     <StiZipCode>ZIP Code</StiZipCode>
   </Components>
   <Dashboard>
+   
     <AddRange>Add Range</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
     <AllowUserDrillDown>Allow User Drill Down</AllowUserDrillDown>
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
     <Blanks>(Blanks)</Blanks>
+    <FullRowSelect>Full Row Select</FullRowSelect>
     <BooleanFilters>Boolean Filters</BooleanFilters>
     <CannotLoadDashboard>You cannot load a report with dashboards.</CannotLoadDashboard>
     <ChangeChartType>Change Chart Type</ChangeChartType>
@@ -649,11 +643,14 @@
     <Dimension>Dimension</Dimension>
     <Dimensions>Dimensions</Dimensions>
     <DragDropDataFromDictionary>Drag &amp; drop data from Dictionary</DragDropDataFromDictionary>
+    <DragDropData>Drag &amp; drop data</DragDropData>
     <DrillDown>Drill Down</DrillDown>
-    <DrillDownSelected>Drill Down Selected</DrillDownSelected>
+    <DrillDownSelected>Drill-Down Selected</DrillDownSelected>
+    <DrillDownFiltered>Drill-Down Filtered</DrillDownFiltered>
     <DrillUp>Drill Up</DrillUp>
     <DuplicateField>Duplicate Field</DuplicateField>
     <EditExpression>Edit Expression</EditExpression>
+    <EditField>Edit Field</EditField>
     <EmptyDashboardFooter>Drag &amp; drop component from ToolBox or data from Dictionary</EmptyDashboardFooter>
     <EmptyDashboardHeader>Dashboard is empty</EmptyDashboardHeader>
     <FieldInteractions>Field Interactions</FieldInteractions>
@@ -784,6 +781,15 @@
     <TestConnection>Test Connection</TestConnection>
     <TextNotFound>The specified text was not found. Text : {0}</TextNotFound>
   </DesignerFx>
+  <Desktop>
+    <ButtonAddCloud>Add Cloud Folder</ButtonAddCloud>
+    <ButtonAddFolder>Add Folder</ButtonAddFolder>
+    <ButtonCreateDashboard>Create Dashboard</ButtonCreateDashboard>
+    <ButtonCreateReport>Create Report</ButtonCreateReport>
+    <DoYouWantToInstallReports>Do you want to install templates of reports and dashboards?</DoYouWantToInstallReports>
+    <InstallSamplesDesc>Let's install our sample projects. They will help you learn the basics of working with our software.</InstallSamplesDesc>
+    <WhoAreYou>Who Are you?</WhoAreYou>
+  </Desktop>
   <Dialogs>
     <StiButtonControl>Button</StiButtonControl>
     <StiCheckBoxControl>Check Box</StiCheckBoxControl>
@@ -828,6 +834,7 @@
     <ReplaceAll>Replace &amp;All</ReplaceAll>
     <ReplaceWith>Replace With:</ReplaceWith>
     <Search>Search</Search>
+    <TypeToSearch>Type to search</TypeToSearch>
     <SearchHiddenText>Hidden Text</SearchHiddenText>
     <SearchUp>Search &amp;Up</SearchUp>
     <SelectionOnly>Selection &amp;Only</SelectionOnly>
@@ -1406,6 +1413,7 @@
     <MessageTopBottomNotValid>Top and Bottom value is not a valid.</MessageTopBottomNotValid>
     <Minutes>{0} minutes</Minutes>
     <SaveReportEvery>Save Report Every:</SaveReportEvery>
+    <ScaleMode>Scale Mode</ScaleMode>
     <SelectUILanguage>Select UI Language</SelectUILanguage>
     <ShowDialogForms>Show Dialog Forms</ShowDialogForms>
     <ShowDimensionLines>Show Dimension Lines</ShowDimensionLines>
@@ -1812,7 +1820,6 @@
     <AngleWatermark>The watermark text rotation angle.</AngleWatermark>
     <Background>Change the background of the selected components.</Background>
     <biConditions>Control list of conditions of the selected components.</biConditions>
-    <Interaction>Control an interaction of the selected components.</Interaction>
     <BorderColor>Select the border color of the selected component.</BorderColor>
     <BorderSidesAll>Switch on all borders sides of the selected components.</BorderSidesAll>
     <BorderSidesBottom>Switch on bottom border side of the selected components.</BorderSidesBottom>
@@ -1864,6 +1871,7 @@
     <GridMode>Show grid in lines or dots.</GridMode>
     <ImageAlignment>Put a watermark image on a page.</ImageAlignment>
     <ImageTransparency>Change the transparency of the watermark image.</ImageTransparency>
+    <Interaction>Control an interaction of the selected components.</Interaction>
     <LineSpacing>Choose how much space appears between lines of text or between paragraphs.</LineSpacing>
     <Link>Link the component to the current container.</Link>
     <LoadImage>Load watermark images from the file.</LoadImage>
@@ -1922,7 +1930,7 @@
     <ShowBehind>Show the watermark text behind the components.</ShowBehind>
     <ShowImageBehind>Put the watermark image behind all components on a page.</ShowImageBehind>
     <ShowToolbox>Show the toolbox.</ShowToolbox>
-    <StimulsoftHelp>Help Stimulsoft</StimulsoftHelp>
+    <StimulsoftHelp>Stimulsoft Help</StimulsoftHelp>
     <StyleDesigner>Run Style Designer.</StyleDesigner>
     <TellMeMore>Tell me more</TellMeMore>
     <Text>Watermark text.</Text>
@@ -2055,12 +2063,6 @@
     <TouchDescription>Optimized for used with touch</TouchDescription>
   </Interface>
   <MainMenu>
-    <menuHelpDocumentation>Documentation</menuHelpDocumentation>
-    <menuHelpVideos>Videos</menuHelpVideos>
-    <menuHelpSamples>Samples</menuHelpSamples>
-    <menuHelpForum>Forum</menuHelpForum>
-    <menuHelpDemos>Demos</menuHelpDemos>
-    <menuHelpTrainingCourses>Training Courses</menuHelpTrainingCourses>
     <menuCheckIssues>Check for Issues</menuCheckIssues>
     <menuContextClone>Clone...</menuContextClone>
     <menuContextDesign>Design...</menuContextDesign>
@@ -2138,10 +2140,16 @@
     <menuHelp>&amp;Help</menuHelp>
     <menuHelpAboutProgramm>&amp;About...</menuHelpAboutProgramm>
     <menuHelpContents>&amp;Contents</menuHelpContents>
+    <menuHelpDemos>Demos</menuHelpDemos>
+    <menuHelpDocumentation>Documentation</menuHelpDocumentation>
     <menuHelpFAQPage>FAQ Page</menuHelpFAQPage>
+    <menuHelpForum>Forum</menuHelpForum>
     <menuHelpHowToRegister>How to Register</menuHelpHowToRegister>
     <menuHelpProductHomePage>Product Home Page</menuHelpProductHomePage>
+    <menuHelpSamples>Samples</menuHelpSamples>
     <menuHelpSupport>&amp;Support</menuHelpSupport>
+    <menuHelpTrainingCourses>Training Courses</menuHelpTrainingCourses>
+    <menuHelpVideos>Videos</menuHelpVideos>
     <menuInsertColumnToLeft>Insert Column To Left</menuInsertColumnToLeft>
     <menuInsertColumnToRight>Insert Column To Right</menuInsertColumnToRight>
     <menuInsertRowAbove>Insert Row Above</menuInsertRowAbove>
@@ -2300,6 +2308,7 @@
     <NotificationValueIsNotCorrect>This value is not correct for the type {0}</NotificationValueIsNotCorrect>
     <OutOfRange>Out of range ("{0}")!</OutOfRange>
     <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
+    <PleaseLogin>Please login using your Stimulsoft account credentials or register a new account before publishing report.</PleaseLogin>
     <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles count exceeded.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Maximum data rows count in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
@@ -2339,6 +2348,7 @@
     <Download>Download</Download>
     <DownloadAll>Download All</DownloadAll>
     <DownloadAndInstall>Download and Install</DownloadAndInstall>
+    <DownloadDataAdapter>Download Data Adapter</DownloadDataAdapter>
     <Downloads>Downloads:</Downloads>
     <IAccept>I Accept</IAccept>
     <IDecline>I Decline</IDecline>
@@ -2797,6 +2807,11 @@
     <StiDateTimeTypeDate>Date</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Date and Time</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Time</StiDateTimeTypeTime>
+    <StiDesignerScaleModeAutomaticScaling>Automatic Scaling</StiDesignerScaleModeAutomaticScaling>
+    <StiDesignerScaleModeScaling100>100% Scaling</StiDesignerScaleModeScaling100>
+    <StiDesignerSpecificationAuto>Determine Automatically</StiDesignerSpecificationAuto>
+    <StiDesignerSpecificationBICreator>I'm BI Creator</StiDesignerSpecificationBICreator>
+    <StiDesignerSpecificationDeveloper>I'm Developer</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>Full</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>None</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>Short</StiDisplayNameTypeShort>
@@ -2819,6 +2834,9 @@
     <StiEnumeratorTypeArabic>Arabic</StiEnumeratorTypeArabic>
     <StiEnumeratorTypeNone>None</StiEnumeratorTypeNone>
     <StiEnumeratorTypeRoman>Roman</StiEnumeratorTypeRoman>
+    <StiExtendedStyleBoolFalse>False</StiExtendedStyleBoolFalse>
+    <StiExtendedStyleBoolFromStyle>From Style</StiExtendedStyleBoolFromStyle>
+    <StiExtendedStyleBoolTrue>True</StiExtendedStyleBoolTrue>
     <StiFilterConditionBeginningWith>beginning with</StiFilterConditionBeginningWith>
     <StiFilterConditionBetween>between</StiFilterConditionBetween>
     <StiFilterConditionContaining>containing</StiFilterConditionContaining>
@@ -2852,6 +2870,16 @@
     <StiFilterItemValueOpen>Value Open</StiFilterItemValueOpen>
     <StiFilterModeAnd>And</StiFilterModeAnd>
     <StiFilterModeOr>Or</StiFilterModeOr>
+    <StiFontIconGroupAccessibilityIcons>Accessibility</StiFontIconGroupAccessibilityIcons>
+    <StiFontIconGroupBrandIcons>Brand</StiFontIconGroupBrandIcons>
+    <StiFontIconGroupDirectionalIcons>Directional</StiFontIconGroupDirectionalIcons>
+    <StiFontIconGroupGenderIcons>Gender</StiFontIconGroupGenderIcons>
+    <StiFontIconGroupMedicalIcons>Medical</StiFontIconGroupMedicalIcons>
+    <StiFontIconGroupPaymentIcons>Payment</StiFontIconGroupPaymentIcons>
+    <StiFontIconGroupSpinnerIcons>Spinner</StiFontIconGroupSpinnerIcons>
+    <StiFontIconGroupTransportationIcons>Transportation</StiFontIconGroupTransportationIcons>
+    <StiFontIconGroupVideoPlayerIcons>Video</StiFontIconGroupVideoPlayerIcons>
+    <StiFontIconGroupWebApplicationIcons>Application</StiFontIconGroupWebApplicationIcons>
     <StiFormStartModeOnEnd>On End</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>On Preview</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>On Start</StiFormStartModeOnStart>
@@ -2870,6 +2898,11 @@
     <StiHorAlignmentCenter>Center</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Left</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Right</StiHorAlignmentRight>
+    <StiIconAlignmentBottom>Bottom</StiIconAlignmentBottom>
+    <StiIconAlignmentLeft>Left</StiIconAlignmentLeft>
+    <StiIconAlignmentNone>None</StiIconAlignmentNone>
+    <StiIconAlignmentRight>Right</StiIconAlignmentRight>
+    <StiIconAlignmentTop>Top</StiIconAlignmentTop>
     <StiImageProcessingDuplicatesTypeGlobalHide>Global Hide</StiImageProcessingDuplicatesTypeGlobalHide>
     <StiImageProcessingDuplicatesTypeGlobalMerge>Global Merge</StiImageProcessingDuplicatesTypeGlobalMerge>
     <StiImageProcessingDuplicatesTypeGlobalRemoveImage>Global Remove Image</StiImageProcessingDuplicatesTypeGlobalRemoveImage>
@@ -2929,6 +2962,7 @@
     <StiMarkerAlignmentLeft>Left</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Right</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Circle</StiMarkerTypeCircle>
+    <StiMarkerTypeHalfCircle>Half Circle</StiMarkerTypeHalfCircle>
     <StiMarkerTypeHexagon>Hexagon</StiMarkerTypeHexagon>
     <StiMarkerTypeRectangle>Rectangle</StiMarkerTypeRectangle>
     <StiMarkerTypeStar5>Star 5</StiMarkerTypeStar5>
@@ -3037,6 +3071,8 @@
     <StiSeriesSortTypeValue>Value</StiSeriesSortTypeValue>
     <StiSeriesYAxisLeftYAxis>Left Y Axis</StiSeriesYAxisLeftYAxis>
     <StiSeriesYAxisRightYAxis>Right Y Axis</StiSeriesYAxisRightYAxis>
+    <StiSeriesXAxisBottomXAxis>Bottom X Axis</StiSeriesXAxisBottomXAxis>
+    <StiSeriesXAxisTopXAxis>Top X Axis</StiSeriesXAxisTopXAxis>
     <StiShapeDirectionDown>Down</StiShapeDirectionDown>
     <StiShapeDirectionLeft>Left</StiShapeDirectionLeft>
     <StiShapeDirectionRight>Right</StiShapeDirectionRight>
@@ -3247,6 +3283,8 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
+    <Variation>Variation</Variation>
+    <TargetIcon>Target Icon</TargetIcon>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
     <Actual>Actual</Actual>
@@ -3546,6 +3584,8 @@
     <FooterCanGrow>Footer Can Grow</FooterCanGrow>
     <FooterCanShrink>Footer Can Shrink</FooterCanShrink>
     <FooterColor>Footer Color</FooterColor>
+    <FooterFont>Footer Font</FooterFont>
+    <FooterForeColor>Footer Fore Color</FooterForeColor>
     <FooterForeground>Footer Foreground</FooterForeground>
     <FooterPrintAtBottom>Footer Print At Bottom</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Footer Print If Empty</FooterPrintIfEmpty>
@@ -3615,6 +3655,7 @@
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Hyperlink Data Column</HyperlinkDataColumn>
     <Icon>Icon</Icon>
+    <IconAlignment>Icon Alignment</IconAlignment>
     <IconSet>Icon Set</IconSet>
     <IconSetCondition>Icon Set Condition</IconSetCondition>
     <Idents>Indents</Idents>
@@ -3690,6 +3731,7 @@
     <Length>Length</Length>
     <LengthUnderLabels>Length under Labels</LengthUnderLabels>
     <Lighting>Lighting</Lighting>
+    <LimitRows>Limit Rows</LimitRows>
     <Linear>Linear</Linear>
     <LinearBarBorderBrush>Linear Bar Border Brush</LinearBarBorderBrush>
     <LinearBarBrush>Linear Bar Brush</LinearBarBrush>
@@ -3732,6 +3774,7 @@
     <Margins>Margins</Margins>
     <Marker>Marker</Marker>
     <MarkerAlignment>Marker Alignment</MarkerAlignment>
+    <MarkerAngle>Marker Angle</MarkerAngle>
     <MarkerBorder>Marker Border</MarkerBorder>
     <MarkerBrush>Marker Brush</MarkerBrush>
     <MarkerColor>Marker Color</MarkerColor>
@@ -3873,8 +3916,10 @@
     <Range>Range</Range>
     <RangeColorMode>Range Color Mode</RangeColorMode>
     <RangeFrom>From</RangeFrom>
+    <RangeMode>Range Mode</RangeMode>
     <RangeScrollEnabled>Range Scroll Enabled</RangeScrollEnabled>
     <RangeTo>To</RangeTo>
+    <RangeType>Range Type</RangeType>
     <Ratio>Ratio</Ratio>
     <RatioY>Ratio Y</RatioY>
     <ReadOnly>Read Only</ReadOnly>
@@ -3955,6 +4000,7 @@
     <SeriesLabelsColor>Series Labels Color</SeriesLabelsColor>
     <SeriesLabelsLineColor>Labels Line Color</SeriesLabelsLineColor>
     <SeriesLighting>Series Lighting</SeriesLighting>
+    <SeriesShowBorder>Series Show Border</SeriesShowBorder>
     <SeriesShowShadow>Series Show Shadow</SeriesShowShadow>
     <SeriesTitle>Series Title</SeriesTitle>
     <Shadow>Shadow</Shadow>
@@ -4278,6 +4324,7 @@
     <qnSynchronizeServices>Synchronized services?</qnSynchronizeServices>
   </Questions>
   <Report>
+    <Null>Null</Null>
     <ActiveRelation>Active Relation</ActiveRelation>
     <Address>Address</Address>
     <Alphabetical>Alphabetical</Alphabetical>

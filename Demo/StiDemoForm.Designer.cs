@@ -62,14 +62,13 @@ namespace Demo
             // 
             // border
             // 
-            this.border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(226)))), ((int)(((byte)(232)))));
             this.border.Dock = System.Windows.Forms.DockStyle.Right;
-            this.border.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.border.Location = new System.Drawing.Point(300, 0);
+            this.border.ForeColor = System.Drawing.Color.White;
+            this.border.Location = new System.Drawing.Point(304, 0);
             this.border.Name = "border";
-            this.border.Size = new System.Drawing.Size(8, 550);
+            this.border.Size = new System.Drawing.Size(4, 550);
             this.border.TabIndex = 5;
-            this.border.Paint += new System.Windows.Forms.PaintEventHandler(this.border_Paint);
             // 
             // lbStatus
             // 
@@ -78,7 +77,7 @@ namespace Demo
             this.lbStatus.ForeColor = System.Drawing.Color.Gray;
             this.lbStatus.Location = new System.Drawing.Point(0, 504);
             this.lbStatus.Name = "lbStatus";
-            this.lbStatus.Size = new System.Drawing.Size(300, 16);
+            this.lbStatus.Size = new System.Drawing.Size(304, 16);
             this.lbStatus.TabIndex = 7;
             this.lbStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -89,7 +88,7 @@ namespace Demo
             this.linkLabel1.Image = global::Demo.Properties.Resources.Hyperlink;
             this.linkLabel1.Location = new System.Drawing.Point(0, 521);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(300, 29);
+            this.linkLabel1.Size = new System.Drawing.Size(304, 29);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel1.Click += new System.EventHandler(this.linkLabel1_Click);
@@ -136,7 +135,7 @@ namespace Demo
             this.separator2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.separator2.Location = new System.Drawing.Point(0, 520);
             this.separator2.Name = "separator2";
-            this.separator2.Size = new System.Drawing.Size(300, 1);
+            this.separator2.Size = new System.Drawing.Size(304, 1);
             this.separator2.TabIndex = 30;
             this.separator2.Paint += new System.Windows.Forms.PaintEventHandler(this.separator1_Paint);
             // 
@@ -145,7 +144,7 @@ namespace Demo
             this.separator1.Dock = System.Windows.Forms.DockStyle.Top;
             this.separator1.Location = new System.Drawing.Point(0, 85);
             this.separator1.Name = "separator1";
-            this.separator1.Size = new System.Drawing.Size(300, 1);
+            this.separator1.Size = new System.Drawing.Size(304, 1);
             this.separator1.TabIndex = 29;
             this.separator1.Paint += new System.Windows.Forms.PaintEventHandler(this.separator1_Paint);
             // 
@@ -156,7 +155,7 @@ namespace Demo
             this.pictureBox1.Image = global::Demo.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 85);
+            this.pictureBox1.Size = new System.Drawing.Size(304, 85);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
