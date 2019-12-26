@@ -272,6 +272,9 @@
     <Style>Стыль</Style>
     <Treemap>Дрэвападобная</Treemap>
   </Chart>
+  <CharterMapEditor>
+    <Characters>Знакі</Characters>
+  </CharterMapEditor>
   <ChartRibbon>
     <Axes>Восi</Axes>
     <AxesArrowStyle>Стыль стрэлкі</AxesArrowStyle>
@@ -459,6 +462,7 @@
     <SaveAsType>Захаваць як тып</SaveAsType>
     <SaveFile>Захаваць файл</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Справаздача захоўваецца ў воблака. Чакайце, калі ласка!</SavingToStimulsoftCloudPleaseWait>
+    <SearchForOnlineTemplates>Пошук справаздач у сеткі</SearchForOnlineTemplates>
     <ShareWindowTitleNew>Доступ</ShareWindowTitleNew>
     <ShowAllFiles>Захаваць усе файлы</ShowAllFiles>
     <ShowNotificationMessages>Паказваць апавяшчэнні</ShowNotificationMessages>
@@ -681,6 +685,7 @@
     <RemoveActions>Выдаліць дзеянні</RemoveActions>
     <RemoveAllFields>Выдаліць усе палі</RemoveAllFields>
     <RemoveField>Выдаліць поле</RemoveField>
+    <RemoveMobileSurface>Выдаліць мабільную паверхню</RemoveMobileSurface>
     <ReplaceValues>Замяніць значэнні</ReplaceValues>
     <ReportSnapshot>Здымак справаздачы</ReportSnapshot>
     <RowsCount>Колькасць радкоў</RowsCount>
@@ -692,12 +697,16 @@
     <SkipFirstRows>Прапусціць першыя радкі</SkipFirstRows>
     <SortAZ>Сартаванне ад А до Я</SortAZ>
     <SortLargestToSmallest>Сартаванне ад максімальнага да мінімальнага</SortLargestToSmallest>
+    <SortNewestToOldest>Сартаваць ад новых да старых</SortNewestToOldest>
+    <SortOldestToNewest>Сартаваць ад старых да новых</SortOldestToNewest>
     <SortSmallestToLargest>Сартаванне ад мінімальнага да максімальнага</SortSmallestToLargest>
     <SortZA>Сартаванне ад Я до А</SortZA>
     <Sparklines>Спарклайны</Sparklines>
     <StringFilters>Радковыя фільтры</StringFilters>
     <TransformationHint>Націсніце на загаловак табліцы, каб ужыць сартаванне, фільтрацыю ці змяніць дадзеныя. Гэта ператварэнне будзе ўжывацца толькі да дадзеных гэтага элемента.</TransformationHint>
     <Trend>Трэнд</Trend>
+    <ViewModeDesktop>Настольны</ViewModeDesktop>
+    <ViewModeMobile>Мабільны</ViewModeMobile>
   </Dashboard>
   <Database>
     <Connection>Злучэнне</Connection>
@@ -825,6 +834,7 @@
     <FindWhat>Знайсці:</FindWhat>
     <FromCursor>Ад пазіцыі курсора</FromCursor>
     <GotoLine>Перайсці на лінію</GotoLine>
+    <InsertSymbol>Уставіць знак</InsertSymbol>
     <Line>Лінія: {0}</Line>
     <LineNumber>Нумар лініі:</LineNumber>
     <LineNumberIndex>Нумар лініі ({0} - {1})</LineNumberIndex>
@@ -1199,6 +1209,7 @@
     <SqlNew>Новае SQL злучэнне</SqlNew>
     <TeradataEdit>Змена Teradata злучэння</TeradataEdit>
     <TeradataNew>Новае Teradata злучэнне</TeradataNew>
+    <Token>Токен</Token>
     <UniDirectEdit>Змяненне Uni Direct злучэнне</UniDirectEdit>
     <UniDirectNew>Новае Uni Direct злучэнне</UniDirectNew>
     <Unpin>Адмацаваць</Unpin>
@@ -3058,6 +3069,15 @@
     <StiNestedFactorNormal>Нармальны</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Два праходу</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Адзін праход</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Чорны-аквамарын-белы</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
+    <StiOnlineMapHeatmapColorGradientTypeBlueRed>Чырвона-блакітны</StiOnlineMapHeatmapColorGradientTypeBlueRed>
+    <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Колеравая гама</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
+    <StiOnlineMapHeatmapColorGradientTypeDeepSea>Глыбокае мора</StiOnlineMapHeatmapColorGradientTypeDeepSea>
+    <StiOnlineMapHeatmapColorGradientTypeHeatedMetal>Распалены метал</StiOnlineMapHeatmapColorGradientTypeHeatedMetal>
+    <StiOnlineMapHeatmapColorGradientTypeIncandescent>Лямпа напальвання</StiOnlineMapHeatmapColorGradientTypeIncandescent>
+    <StiOnlineMapHeatmapColorGradientTypeSteppedColors>Ступеністыя колеры</StiOnlineMapHeatmapColorGradientTypeSteppedColors>
+    <StiOnlineMapHeatmapColorGradientTypeSunrise>Узыход сонца</StiOnlineMapHeatmapColorGradientTypeSunrise>
+    <StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>Бачнае выпрамяненне</StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>
     <StiOnlineMapLocationTypeAdminDivision1>Адміністрацыйнае дзяленне першага ўзроўню</StiOnlineMapLocationTypeAdminDivision1>
     <StiOnlineMapLocationTypeAdminDivision2>Адміністрацыйнае дзяленне другога ўзроўню</StiOnlineMapLocationTypeAdminDivision2>
     <StiOnlineMapLocationTypeAuto>Аўто</StiOnlineMapLocationTypeAuto>
@@ -3208,6 +3228,8 @@
     <StiTableAutoWidthTypeFullTable>Поўная табліца</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Апошняя калонка</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Не</StiTableAutoWidthTypeNone>
+    <StiTargetModePercentage>Доля</StiTargetModePercentage>
+    <StiTargetModeVariation>Адхіленне</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Па цэнтры</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Па левым боку</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Па правым боку</StiTextHorAlignmentRight>
@@ -3583,6 +3605,7 @@
     <Description>Апісанне</Description>
     <Destination>Прызначэнне</Destination>
     <DetectUrls>Вызначаць гіперспасылкi</DetectUrls>
+    <DeviceWidth>Шырыня прылады</DeviceWidth>
     <DialogResult>Вынік дыялогу</DialogResult>
     <Diameter>Дыяметр</Diameter>
     <Direction>Кірунак</Direction>
@@ -4203,6 +4226,7 @@
     <TagValue>Значэнне Тэга</TagValue>
     <Target>Мэта</Target>
     <TargetIcon>Абразок мэты</TargetIcon>
+    <TargetMode>Рэжым мэты</TargetMode>
     <Tension>Напружанасць</Tension>
     <Text>Тэкст</Text>
     <TextAfter>Тэкст да</TextAfter>
@@ -4745,6 +4769,7 @@
     <DefaultThemes>Убудаваныя тэмы</DefaultThemes>
     <Filters>Фільтры</Filters>
     <FromReportTemplate>Справаздача з шаблону</FromReportTemplate>
+    <GetData>Атрымаць дадзеныя</GetData>
     <groupCreateNewDashboard>Стварыць новую панэль індыкатараў</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Стварыць новую старонку або форму</groupCreateNewPageOrForm>
     <groupCreateNewReport>Стварыць новую справаздачу</groupCreateNewReport>
@@ -4791,6 +4816,7 @@
     <Preview>Папярэдні прагляд</Preview>
     <Reset>&amp;Скінуць</Reset>
     <Results>Вынікі</Results>
+    <RunWizard>Запусціць</RunWizard>
     <SelectColumns>Выбар калонак</SelectColumns>
     <SelectTemplate>Шаблон</SelectTemplate>
     <Sort>Сартаванне</Sort>
@@ -4798,6 +4824,7 @@
     <Themes>Тэмы</Themes>
     <title>Новая справаздача</title>
     <Totals>Падрахункі</Totals>
+    <UseDemoData>Дэманстрацыйныя дадзеныя</UseDemoData>
     <UsingReportWizard>Майстар справаздачы</UsingReportWizard>
     <YouHaveNotOpenedAnyReportRecently>У апошні час вы не адкрывалі справаздач. Каб знайсці справаздачу, пстрыкніце "Адкрыць файл".</YouHaveNotOpenedAnyReportRecently>
   </Wizards>

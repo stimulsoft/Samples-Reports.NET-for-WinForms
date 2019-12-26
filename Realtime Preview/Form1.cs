@@ -27,16 +27,17 @@ namespace RealtimePreview
 			//
 			InitializeComponent();
 
-            //
-            // TODO: Add any constructor code after InitializeComponent call
-            //
+			//
+			// TODO: Add any constructor code after InitializeComponent call
+			//
 
-            // How to Activate
-            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
-            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+			// How to Activate
+			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
-            stiReport1.Render();
+			stiPreviewControl1.PageViewMode = Stimulsoft.Report.Viewer.StiPageViewMode.Continuous;
+			stiReport1.Render();
 			StiComponentsCollection comps = stiReport1.RenderedPages[0].GetComponents();
 			text = comps["Text1"] as StiText;
 			chart = comps["Chart1"] as StiChart;

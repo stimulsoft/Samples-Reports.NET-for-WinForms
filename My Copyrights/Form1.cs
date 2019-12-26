@@ -77,6 +77,8 @@ namespace Copyrights
 
             dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
             dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
+
+            tbCopyright.Text = "(C) " + DateTime.Now.Year.ToString() + " My Company";
         }
 
 		/// <summary>
