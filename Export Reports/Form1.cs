@@ -36,19 +36,16 @@ namespace Export
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
-			InitializeComponent();
-
-            //
-            // TODO: Add any constructor code after InitializeComponent call
-            //
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
+
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
 
             lbReports.SelectedIndex = 0;
             
@@ -101,51 +98,51 @@ namespace Export
             this.groupBox1.Controls.Add(this.rbXls);
             this.groupBox1.Controls.Add(this.rbHtml);
             this.groupBox1.Controls.Add(this.rbPdf);
-            this.groupBox1.Location = new System.Drawing.Point(8, 16);
+            this.groupBox1.Location = new System.Drawing.Point(16, 30);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(120, 176);
+            this.groupBox1.Size = new System.Drawing.Size(240, 324);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Export Type";
             // 
             // rbRtf
             // 
-            this.rbRtf.Location = new System.Drawing.Point(8, 144);
+            this.rbRtf.Location = new System.Drawing.Point(16, 266);
             this.rbRtf.Name = "rbRtf";
-            this.rbRtf.Size = new System.Drawing.Size(104, 24);
+            this.rbRtf.Size = new System.Drawing.Size(208, 44);
             this.rbRtf.TabIndex = 4;
             this.rbRtf.Text = "Rtf";
             // 
             // rbTxt
             // 
-            this.rbTxt.Location = new System.Drawing.Point(8, 112);
+            this.rbTxt.Location = new System.Drawing.Point(16, 207);
             this.rbTxt.Name = "rbTxt";
-            this.rbTxt.Size = new System.Drawing.Size(104, 24);
+            this.rbTxt.Size = new System.Drawing.Size(208, 44);
             this.rbTxt.TabIndex = 3;
             this.rbTxt.Text = "Txt";
             // 
             // rbXls
             // 
-            this.rbXls.Location = new System.Drawing.Point(8, 80);
+            this.rbXls.Location = new System.Drawing.Point(16, 148);
             this.rbXls.Name = "rbXls";
-            this.rbXls.Size = new System.Drawing.Size(104, 24);
+            this.rbXls.Size = new System.Drawing.Size(208, 44);
             this.rbXls.TabIndex = 2;
             this.rbXls.Text = "Xls";
             // 
             // rbHtml
             // 
-            this.rbHtml.Location = new System.Drawing.Point(8, 48);
+            this.rbHtml.Location = new System.Drawing.Point(16, 89);
             this.rbHtml.Name = "rbHtml";
-            this.rbHtml.Size = new System.Drawing.Size(104, 24);
+            this.rbHtml.Size = new System.Drawing.Size(208, 44);
             this.rbHtml.TabIndex = 1;
             this.rbHtml.Text = "Html";
             // 
             // rbPdf
             // 
             this.rbPdf.Checked = true;
-            this.rbPdf.Location = new System.Drawing.Point(8, 16);
+            this.rbPdf.Location = new System.Drawing.Point(16, 30);
             this.rbPdf.Name = "rbPdf";
-            this.rbPdf.Size = new System.Drawing.Size(104, 24);
+            this.rbPdf.Size = new System.Drawing.Size(208, 44);
             this.rbPdf.TabIndex = 0;
             this.rbPdf.TabStop = true;
             this.rbPdf.Text = "Pdf";
@@ -153,31 +150,32 @@ namespace Export
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lbReports);
-            this.groupBox2.Location = new System.Drawing.Point(136, 16);
+            this.groupBox2.Location = new System.Drawing.Point(272, 30);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(192, 176);
+            this.groupBox2.Size = new System.Drawing.Size(384, 324);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Reports";
             // 
             // lbReports
             // 
+            this.lbReports.ItemHeight = 25;
             this.lbReports.Items.AddRange(new object[] {
             "SimpleList",
             "SimpleGroup",
             "Master-Detail",
             "Anchors",
             "MultiColumnList"});
-            this.lbReports.Location = new System.Drawing.Point(8, 16);
+            this.lbReports.Location = new System.Drawing.Point(16, 30);
             this.lbReports.Name = "lbReports";
-            this.lbReports.Size = new System.Drawing.Size(176, 147);
+            this.lbReports.Size = new System.Drawing.Size(352, 229);
             this.lbReports.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(162, 201);
+            this.button1.Location = new System.Drawing.Point(324, 371);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 28);
+            this.button1.Size = new System.Drawing.Size(150, 52);
             this.button1.TabIndex = 2;
             this.button1.Text = "Export";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -185,18 +183,18 @@ namespace Export
             // button2
             // 
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(250, 201);
+            this.button2.Location = new System.Drawing.Point(500, 371);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 28);
+            this.button2.Size = new System.Drawing.Size(150, 52);
             this.button2.TabIndex = 3;
             this.button2.Text = "Close";
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(74, 201);
+            this.button3.Location = new System.Drawing.Point(148, 371);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 28);
+            this.button3.Size = new System.Drawing.Size(150, 52);
             this.button3.TabIndex = 4;
             this.button3.Text = "Preview";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -204,9 +202,10 @@ namespace Export
             // Form1
             // 
             this.AcceptButton = this.button1;
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button2;
-            this.ClientSize = new System.Drawing.Size(336, 238);
+            this.ClientSize = new System.Drawing.Size(668, 442);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -231,6 +230,9 @@ namespace Export
 		[STAThread]
 		static void Main() 
 		{
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
 			Application.Run(new Form1());
 		}

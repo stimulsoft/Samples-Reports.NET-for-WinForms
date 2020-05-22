@@ -16,12 +16,12 @@ namespace Linq
 
         public Form1()
         {
-            InitializeComponent();
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
 
             Item[] items = new Item[] { new Book{Id = 1, Price = 13.50, Genre = "Comedy", Author = "Jim Bob"}, 
                                         new Book{Id = 2, Price = 8.50, Genre = "Drama", Author = "John Fox"},  

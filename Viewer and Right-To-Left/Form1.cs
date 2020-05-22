@@ -24,21 +24,18 @@ namespace ViewerAndRightToLeft
 
 		public Form1()
 		{
-			StiOptions.Viewer.RightToLeft = StiRightToLeftType.Yes;
-				
-			//
-			// Required for Windows Form Designer support
-			//
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            StiOptions.Viewer.RightToLeft = StiRightToLeftType.Yes;
+			
 			InitializeComponent();
 
             //
             // TODO: Add any constructor code after InitializeComponent call
             //
-
-            // How to Activate
-            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
-            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
         /// <summary>
@@ -75,11 +72,13 @@ namespace ViewerAndRightToLeft
             this.panel1.AllowDrop = true;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel1.Name = "panel1";
+            this.panel1.PageViewMode = Stimulsoft.Report.Viewer.StiPageViewMode.Continuous;
             this.panel1.Report = this.stiReport1;
             this.panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel1.ShowZoom = true;
-            this.panel1.Size = new System.Drawing.Size(688, 493);
+            this.panel1.Size = new System.Drawing.Size(1453, 972);
             this.panel1.TabIndex = 0;
             this.panel1.Close += new System.EventHandler(this.panel1_Close);
             // 
@@ -87,6 +86,7 @@ namespace ViewerAndRightToLeft
             // 
             this.stiReport1.CookieContainer = null;
             this.stiReport1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
+            this.stiReport1.Key = "bf9f9b4f945c4b6aa7d76b444c2c1c7a";
             this.stiReport1.ReferencedAssemblies = new string[] {
         "System.Dll",
         "System.Drawing.Dll",
@@ -98,11 +98,11 @@ namespace ViewerAndRightToLeft
         "Stimulsoft.Report.Dll"};
             this.stiReport1.ReportAlias = "Report";
             this.stiReport1.ReportGuid = "41599dc0625e4d03b314014f8926ee17";
-            this.stiReport1.ReportImage = null;
             this.stiReport1.ReportName = "Report";
             this.stiReport1.ReportSource = null;
             this.stiReport1.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
             this.stiReport1.ScriptLanguage = Stimulsoft.Report.StiReportLanguageType.CSharp;
+            this.stiReport1.StoreImagesInResources = true;
             this.stiReport1.UseProgressInThread = false;
             // 
             // dataSet1
@@ -112,8 +112,9 @@ namespace ViewerAndRightToLeft
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(688, 493);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1453, 972);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -133,6 +134,9 @@ namespace ViewerAndRightToLeft
 		[STAThread]
 		static void Main() 
 		{
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
 			Application.Run(new Form1());
 		}

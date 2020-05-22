@@ -27,19 +27,16 @@ namespace BusinessObjects
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
-			InitializeComponent();
-
-            //
-            // TODO: Add any constructor code after InitializeComponent call
-            //
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
+
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
         }
 
         /// <summary>
@@ -79,9 +76,9 @@ namespace BusinessObjects
             // btPreviewITypedList
             // 
             this.btPreviewITypedList.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btPreviewITypedList.Location = new System.Drawing.Point(152, 19);
+            this.btPreviewITypedList.Location = new System.Drawing.Point(304, 35);
             this.btPreviewITypedList.Name = "btPreviewITypedList";
-            this.btPreviewITypedList.Size = new System.Drawing.Size(75, 26);
+            this.btPreviewITypedList.Size = new System.Drawing.Size(150, 48);
             this.btPreviewITypedList.TabIndex = 1;
             this.btPreviewITypedList.Text = "Preview";
             this.btPreviewITypedList.Click += new System.EventHandler(this.btPreviewITypedList_Click);
@@ -90,9 +87,9 @@ namespace BusinessObjects
             // 
             this.btClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btClose.Location = new System.Drawing.Point(148, 150);
+            this.btClose.Location = new System.Drawing.Point(296, 290);
             this.btClose.Name = "btClose";
-            this.btClose.Size = new System.Drawing.Size(100, 26);
+            this.btClose.Size = new System.Drawing.Size(200, 48);
             this.btClose.TabIndex = 2;
             this.btClose.Text = "Close";
             this.btClose.Click += new System.EventHandler(this.btClose_Click);
@@ -100,9 +97,9 @@ namespace BusinessObjects
             // btPreviewIEnumerable
             // 
             this.btPreviewIEnumerable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btPreviewIEnumerable.Location = new System.Drawing.Point(152, 19);
+            this.btPreviewIEnumerable.Location = new System.Drawing.Point(304, 35);
             this.btPreviewIEnumerable.Name = "btPreviewIEnumerable";
-            this.btPreviewIEnumerable.Size = new System.Drawing.Size(75, 26);
+            this.btPreviewIEnumerable.Size = new System.Drawing.Size(150, 48);
             this.btPreviewIEnumerable.TabIndex = 1;
             this.btPreviewIEnumerable.Text = "Preview";
             this.btPreviewIEnumerable.Click += new System.EventHandler(this.btPreviewIEnumerable_Click);
@@ -110,9 +107,9 @@ namespace BusinessObjects
             // btDesignIEnumerable
             // 
             this.btDesignIEnumerable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btDesignIEnumerable.Location = new System.Drawing.Point(71, 19);
+            this.btDesignIEnumerable.Location = new System.Drawing.Point(142, 35);
             this.btDesignIEnumerable.Name = "btDesignIEnumerable";
-            this.btDesignIEnumerable.Size = new System.Drawing.Size(75, 26);
+            this.btDesignIEnumerable.Size = new System.Drawing.Size(150, 48);
             this.btDesignIEnumerable.TabIndex = 0;
             this.btDesignIEnumerable.Text = "Design";
             this.btDesignIEnumerable.Click += new System.EventHandler(this.btDesignIEnumerable_Click);
@@ -120,9 +117,9 @@ namespace BusinessObjects
             // btDesignITypedList
             // 
             this.btDesignITypedList.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btDesignITypedList.Location = new System.Drawing.Point(71, 19);
+            this.btDesignITypedList.Location = new System.Drawing.Point(142, 35);
             this.btDesignITypedList.Name = "btDesignITypedList";
-            this.btDesignITypedList.Size = new System.Drawing.Size(75, 26);
+            this.btDesignITypedList.Size = new System.Drawing.Size(150, 48);
             this.btDesignITypedList.TabIndex = 0;
             this.btDesignITypedList.Text = "Design";
             this.btDesignITypedList.Click += new System.EventHandler(this.btDesignITypedList_Click);
@@ -131,9 +128,9 @@ namespace BusinessObjects
             // 
             this.groupBox1.Controls.Add(this.btDesignIEnumerable);
             this.groupBox1.Controls.Add(this.btPreviewIEnumerable);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
+            this.groupBox1.Location = new System.Drawing.Point(16, 15);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(240, 58);
+            this.groupBox1.Size = new System.Drawing.Size(480, 107);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "IEnumerable";
@@ -142,17 +139,18 @@ namespace BusinessObjects
             // 
             this.groupBox2.Controls.Add(this.btDesignITypedList);
             this.groupBox2.Controls.Add(this.btPreviewITypedList);
-            this.groupBox2.Location = new System.Drawing.Point(8, 72);
+            this.groupBox2.Location = new System.Drawing.Point(16, 133);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(240, 58);
+            this.groupBox2.Size = new System.Drawing.Size(480, 107);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ITypedList";
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(257, 186);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(514, 356);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btClose);
@@ -176,6 +174,9 @@ namespace BusinessObjects
 		[STAThread]
 		static void Main() 
 		{
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
 			Application.Run(new Form1());
 		}

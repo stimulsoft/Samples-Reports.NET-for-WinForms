@@ -61,19 +61,16 @@ namespace Copyrights
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
-			InitializeComponent();
-
-            //
-            // TODO: Add any constructor code after InitializeComponent call
-            //
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
+
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
 
             dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
             dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
@@ -135,35 +132,35 @@ namespace Copyrights
             // 
             // tbCopyright
             // 
-            this.tbCopyright.Location = new System.Drawing.Point(128, 8);
+            this.tbCopyright.Location = new System.Drawing.Point(256, 15);
             this.tbCopyright.Name = "tbCopyright";
-            this.tbCopyright.Size = new System.Drawing.Size(184, 20);
+            this.tbCopyright.Size = new System.Drawing.Size(368, 31);
             this.tbCopyright.TabIndex = 0;
             this.tbCopyright.Text = "(C) 2010 MyCompany";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(8, 8);
+            this.label1.Location = new System.Drawing.Point(16, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 20);
+            this.label1.Size = new System.Drawing.Size(224, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Copyright string";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(58, 225);
+            this.button1.Location = new System.Drawing.Point(123, 415);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 26);
+            this.button1.Size = new System.Drawing.Size(150, 48);
             this.button1.TabIndex = 4;
             this.button1.Text = "Design";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(146, 225);
+            this.button2.Location = new System.Drawing.Point(299, 415);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 26);
+            this.button2.Size = new System.Drawing.Size(150, 48);
             this.button2.TabIndex = 5;
             this.button2.Text = "Preview";
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -172,27 +169,27 @@ namespace Copyrights
             // 
             this.groupBox1.Controls.Add(this.rbBehind);
             this.groupBox1.Controls.Add(this.rbFront);
-            this.groupBox1.Location = new System.Drawing.Point(8, 37);
+            this.groupBox1.Location = new System.Drawing.Point(16, 68);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(144, 72);
+            this.groupBox1.Size = new System.Drawing.Size(288, 133);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Position";
             // 
             // rbBehind
             // 
-            this.rbBehind.Location = new System.Drawing.Point(8, 40);
+            this.rbBehind.Location = new System.Drawing.Point(16, 74);
             this.rbBehind.Name = "rbBehind";
-            this.rbBehind.Size = new System.Drawing.Size(104, 24);
+            this.rbBehind.Size = new System.Drawing.Size(208, 44);
             this.rbBehind.TabIndex = 1;
             this.rbBehind.Text = "Behind";
             // 
             // rbFront
             // 
             this.rbFront.Checked = true;
-            this.rbFront.Location = new System.Drawing.Point(8, 16);
+            this.rbFront.Location = new System.Drawing.Point(16, 30);
             this.rbFront.Name = "rbFront";
-            this.rbFront.Size = new System.Drawing.Size(104, 24);
+            this.rbFront.Size = new System.Drawing.Size(208, 44);
             this.rbFront.TabIndex = 0;
             this.rbFront.TabStop = true;
             this.rbFront.Text = "Front";
@@ -204,51 +201,51 @@ namespace Copyrights
             this.groupBox2.Controls.Add(this.rbBottomRight);
             this.groupBox2.Controls.Add(this.rbCenter);
             this.groupBox2.Controls.Add(this.rbTopLeft);
-            this.groupBox2.Location = new System.Drawing.Point(168, 37);
+            this.groupBox2.Location = new System.Drawing.Point(336, 68);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(144, 144);
+            this.groupBox2.Size = new System.Drawing.Size(288, 266);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Place";
             // 
             // rbTopRight
             // 
-            this.rbTopRight.Location = new System.Drawing.Point(8, 40);
+            this.rbTopRight.Location = new System.Drawing.Point(16, 74);
             this.rbTopRight.Name = "rbTopRight";
-            this.rbTopRight.Size = new System.Drawing.Size(104, 24);
+            this.rbTopRight.Size = new System.Drawing.Size(208, 44);
             this.rbTopRight.TabIndex = 1;
             this.rbTopRight.Text = "TopRight";
             // 
             // rbBottomLeft
             // 
-            this.rbBottomLeft.Location = new System.Drawing.Point(8, 88);
+            this.rbBottomLeft.Location = new System.Drawing.Point(16, 162);
             this.rbBottomLeft.Name = "rbBottomLeft";
-            this.rbBottomLeft.Size = new System.Drawing.Size(104, 24);
+            this.rbBottomLeft.Size = new System.Drawing.Size(208, 45);
             this.rbBottomLeft.TabIndex = 3;
             this.rbBottomLeft.Text = "BottomLeft";
             // 
             // rbBottomRight
             // 
-            this.rbBottomRight.Location = new System.Drawing.Point(8, 112);
+            this.rbBottomRight.Location = new System.Drawing.Point(16, 207);
             this.rbBottomRight.Name = "rbBottomRight";
-            this.rbBottomRight.Size = new System.Drawing.Size(104, 24);
+            this.rbBottomRight.Size = new System.Drawing.Size(208, 44);
             this.rbBottomRight.TabIndex = 4;
             this.rbBottomRight.Text = "BottomRight";
             // 
             // rbCenter
             // 
-            this.rbCenter.Location = new System.Drawing.Point(8, 64);
+            this.rbCenter.Location = new System.Drawing.Point(16, 118);
             this.rbCenter.Name = "rbCenter";
-            this.rbCenter.Size = new System.Drawing.Size(104, 24);
+            this.rbCenter.Size = new System.Drawing.Size(208, 44);
             this.rbCenter.TabIndex = 2;
             this.rbCenter.Text = "Center";
             // 
             // rbTopLeft
             // 
             this.rbTopLeft.Checked = true;
-            this.rbTopLeft.Location = new System.Drawing.Point(8, 16);
+            this.rbTopLeft.Location = new System.Drawing.Point(16, 30);
             this.rbTopLeft.Name = "rbTopLeft";
-            this.rbTopLeft.Size = new System.Drawing.Size(104, 24);
+            this.rbTopLeft.Size = new System.Drawing.Size(208, 44);
             this.rbTopLeft.TabIndex = 0;
             this.rbTopLeft.TabStop = true;
             this.rbTopLeft.Text = "TopLeft";
@@ -257,27 +254,27 @@ namespace Copyrights
             // 
             this.groupBox3.Controls.Add(this.rbRectClient);
             this.groupBox3.Controls.Add(this.rbRectFull);
-            this.groupBox3.Location = new System.Drawing.Point(8, 109);
+            this.groupBox3.Location = new System.Drawing.Point(16, 201);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(144, 72);
+            this.groupBox3.Size = new System.Drawing.Size(288, 133);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Paint Rectangle";
             // 
             // rbRectClient
             // 
-            this.rbRectClient.Location = new System.Drawing.Point(8, 40);
+            this.rbRectClient.Location = new System.Drawing.Point(16, 74);
             this.rbRectClient.Name = "rbRectClient";
-            this.rbRectClient.Size = new System.Drawing.Size(104, 24);
+            this.rbRectClient.Size = new System.Drawing.Size(208, 44);
             this.rbRectClient.TabIndex = 1;
             this.rbRectClient.Text = "Client";
             // 
             // rbRectFull
             // 
             this.rbRectFull.Checked = true;
-            this.rbRectFull.Location = new System.Drawing.Point(8, 16);
+            this.rbRectFull.Location = new System.Drawing.Point(16, 30);
             this.rbRectFull.Name = "rbRectFull";
-            this.rbRectFull.Size = new System.Drawing.Size(104, 24);
+            this.rbRectFull.Size = new System.Drawing.Size(208, 44);
             this.rbRectFull.TabIndex = 0;
             this.rbRectFull.TabStop = true;
             this.rbRectFull.Text = "Full";
@@ -289,9 +286,9 @@ namespace Copyrights
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(234, 225);
+            this.button3.Location = new System.Drawing.Point(475, 415);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 26);
+            this.button3.Size = new System.Drawing.Size(150, 48);
             this.button3.TabIndex = 6;
             this.button3.Text = "Close";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -301,9 +298,9 @@ namespace Copyrights
             this.groupBox4.Controls.Add(this.cbDesigner);
             this.groupBox4.Controls.Add(this.cbPreview);
             this.groupBox4.Controls.Add(this.cbPrinter);
-            this.groupBox4.Location = new System.Drawing.Point(8, 184);
+            this.groupBox4.Location = new System.Drawing.Point(16, 340);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(304, 32);
+            this.groupBox4.Size = new System.Drawing.Size(608, 59);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             // 
@@ -311,9 +308,9 @@ namespace Copyrights
             // 
             this.cbDesigner.Checked = true;
             this.cbDesigner.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbDesigner.Location = new System.Drawing.Point(8, 9);
+            this.cbDesigner.Location = new System.Drawing.Point(16, 17);
             this.cbDesigner.Name = "cbDesigner";
-            this.cbDesigner.Size = new System.Drawing.Size(80, 20);
+            this.cbDesigner.Size = new System.Drawing.Size(160, 37);
             this.cbDesigner.TabIndex = 0;
             this.cbDesigner.Text = "Designer";
             // 
@@ -321,9 +318,9 @@ namespace Copyrights
             // 
             this.cbPreview.Checked = true;
             this.cbPreview.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPreview.Location = new System.Drawing.Point(104, 9);
+            this.cbPreview.Location = new System.Drawing.Point(208, 17);
             this.cbPreview.Name = "cbPreview";
-            this.cbPreview.Size = new System.Drawing.Size(72, 20);
+            this.cbPreview.Size = new System.Drawing.Size(144, 37);
             this.cbPreview.TabIndex = 0;
             this.cbPreview.Text = "Preview";
             // 
@@ -331,16 +328,17 @@ namespace Copyrights
             // 
             this.cbPrinter.Checked = true;
             this.cbPrinter.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPrinter.Location = new System.Drawing.Point(192, 9);
+            this.cbPrinter.Location = new System.Drawing.Point(384, 17);
             this.cbPrinter.Name = "cbPrinter";
-            this.cbPrinter.Size = new System.Drawing.Size(104, 20);
+            this.cbPrinter.Size = new System.Drawing.Size(208, 37);
             this.cbPrinter.TabIndex = 0;
             this.cbPrinter.Text = "Printer";
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(320, 261);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(640, 481);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -373,7 +371,10 @@ namespace Copyrights
 		[STAThread]
 		static void Main() 
 		{
-			StiPage.PagePainting += new StiPagePaintEventHandler(OnPagePainting);
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
+            StiPage.PagePainting += new StiPagePaintEventHandler(OnPagePainting);
 			StiPage.PagePainted += new StiPagePaintEventHandler(OnPagePainted);
 
             Application.EnableVisualStyles();

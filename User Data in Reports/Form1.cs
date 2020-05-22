@@ -30,19 +30,16 @@ namespace UserDataInReports
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
-			InitializeComponent();
-
-            //
-            // TODO: Add any constructor code after InitializeComponent call
-            //
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
+
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
 
             stiReport1.RegData("HatchStyleEnum", Enum.GetNames(typeof(HatchStyle)));
 						
@@ -86,9 +83,9 @@ namespace UserDataInReports
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button3.Location = new System.Drawing.Point(218, 42);
+            this.button3.Location = new System.Drawing.Point(432, 72);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(85, 26);
+            this.button3.Size = new System.Drawing.Size(170, 48);
             this.button3.TabIndex = 11;
             this.button3.Text = "Close";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -96,9 +93,9 @@ namespace UserDataInReports
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(126, 42);
+            this.button2.Location = new System.Drawing.Point(248, 72);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 26);
+            this.button2.Size = new System.Drawing.Size(170, 48);
             this.button2.TabIndex = 10;
             this.button2.Text = "Preview";
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -106,9 +103,9 @@ namespace UserDataInReports
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(34, 42);
+            this.button1.Location = new System.Drawing.Point(64, 72);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 26);
+            this.button1.Size = new System.Drawing.Size(170, 48);
             this.button1.TabIndex = 9;
             this.button1.Text = "Design";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -127,6 +124,7 @@ namespace UserDataInReports
             // 
             this.stiReport1.CookieContainer = null;
             this.stiReport1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
+            this.stiReport1.Key = "ba77c71630e4472785eb939520a6db29";
             this.stiReport1.ReferencedAssemblies = new string[] {
         "System.Dll",
         "System.Drawing.Dll",
@@ -138,7 +136,6 @@ namespace UserDataInReports
         "Stimulsoft.Report.Dll"};
             this.stiReport1.ReportAlias = "Report";
             this.stiReport1.ReportGuid = "9004eb010eec44b0925867c926808ffa";
-            this.stiReport1.ReportImage = null;
             this.stiReport1.ReportName = "Report";
             this.stiReport1.ReportSource = null;
             this.stiReport1.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
@@ -147,8 +144,9 @@ namespace UserDataInReports
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(334, 111);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(664, 199);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -169,6 +167,9 @@ namespace UserDataInReports
 		[STAThread]
 		static void Main() 
 		{
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
 			Application.Run(new Form1());
 		}

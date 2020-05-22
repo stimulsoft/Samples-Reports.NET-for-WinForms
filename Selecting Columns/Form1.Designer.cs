@@ -35,9 +35,10 @@ namespace SelectingColumns
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(90, 104);
+            this.button1.Location = new System.Drawing.Point(180, 200);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 40);
+            this.button1.Size = new System.Drawing.Size(300, 77);
             this.button1.TabIndex = 0;
             this.button1.Text = "Design Report";
             this.button1.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@ namespace SelectingColumns
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(90, 52);
+            this.button2.Location = new System.Drawing.Point(180, 100);
+            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 40);
+            this.button2.Size = new System.Drawing.Size(300, 77);
             this.button2.TabIndex = 0;
             this.button2.Text = "Show Report";
             this.button2.UseVisualStyleBackColor = true;
@@ -55,13 +57,14 @@ namespace SelectingColumns
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 196);
+            this.ClientSize = new System.Drawing.Size(658, 389);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Selecting Columns";

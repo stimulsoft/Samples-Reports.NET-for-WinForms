@@ -12,6 +12,9 @@ namespace GlobalEventsSaveAndLoad
         [STAThread]
         static void Main()
         {
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

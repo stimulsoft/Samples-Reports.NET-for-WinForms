@@ -27,19 +27,16 @@ namespace PrintGrid
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
+			// How to Activate
+			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
 			InitializeComponent();
 
             //
             // TODO: Add any constructor code after InitializeComponent call
             //
-
-            // How to Activate
-            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
-            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
         /// <summary>
@@ -74,9 +71,9 @@ namespace PrintGrid
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(380, 340);
+            this.button1.Location = new System.Drawing.Point(760, 628);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 26);
+            this.button1.Size = new System.Drawing.Size(150, 48);
             this.button1.TabIndex = 0;
             this.button1.Text = "Show";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -86,15 +83,16 @@ namespace PrintGrid
             this.dataGrid1.DataMember = "";
             this.dataGrid1.DataSource = this.dataView1;
             this.dataGrid1.HeaderForeColor = System.Drawing.SystemColors.ControlText;
-            this.dataGrid1.Location = new System.Drawing.Point(8, 8);
+            this.dataGrid1.Location = new System.Drawing.Point(16, 15);
             this.dataGrid1.Name = "dataGrid1";
-            this.dataGrid1.Size = new System.Drawing.Size(448, 328);
+            this.dataGrid1.Size = new System.Drawing.Size(896, 605);
             this.dataGrid1.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(464, 373);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(926, 692);
             this.Controls.Add(this.dataGrid1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -115,9 +113,12 @@ namespace PrintGrid
 		/// The main entry point for the application.
 		/// </summary>
 		[STAThread]
-		static void Main() 
+		static void Main()
 		{
-            Application.EnableVisualStyles();
+			// Enable HiDPI mode
+			Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
+			Application.EnableVisualStyles();
 			Application.Run(new Form1());
 		}
 

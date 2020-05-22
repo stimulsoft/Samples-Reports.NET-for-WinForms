@@ -14,12 +14,12 @@ namespace MemoryTest
 	{
 		public Form1()
 		{
-			InitializeComponent();
+			// How to Activate
+			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
-            // How to Activate
-            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
-            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+			InitializeComponent();
 
             var data = new DataSet();
             data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
@@ -70,6 +70,5 @@ namespace MemoryTest
 			GC.Collect();
 			GC.Collect();
 		}
-		
 	}
 }

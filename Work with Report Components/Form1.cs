@@ -27,19 +27,16 @@ namespace WorkWithReportComponents
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
-			InitializeComponent();
-
-            //
-            // TODO: Add any constructor code after InitializeComponent call
-            //
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
+
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
         }
 
         /// <summary>
@@ -78,9 +75,9 @@ namespace WorkWithReportComponents
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button3.Location = new System.Drawing.Point(237, 211);
+            this.button3.Location = new System.Drawing.Point(474, 381);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 26);
+            this.button3.Size = new System.Drawing.Size(150, 48);
             this.button3.TabIndex = 7;
             this.button3.Text = "Close";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -88,28 +85,28 @@ namespace WorkWithReportComponents
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
+            this.groupBox1.Location = new System.Drawing.Point(16, 15);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(304, 189);
+            this.groupBox1.Size = new System.Drawing.Size(608, 349);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Type Text";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(8, 16);
+            this.textBox1.Location = new System.Drawing.Point(16, 30);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 163);
+            this.textBox1.Size = new System.Drawing.Size(576, 300);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Sample Text";
             // 
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(154, 211);
+            this.button2.Location = new System.Drawing.Point(308, 381);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 26);
+            this.button2.Size = new System.Drawing.Size(150, 48);
             this.button2.TabIndex = 6;
             this.button2.Text = "Preview";
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -117,9 +114,9 @@ namespace WorkWithReportComponents
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(71, 211);
+            this.button1.Location = new System.Drawing.Point(142, 381);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 26);
+            this.button1.Size = new System.Drawing.Size(150, 48);
             this.button1.TabIndex = 5;
             this.button1.Text = "Design";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -128,6 +125,7 @@ namespace WorkWithReportComponents
             // 
             this.stiReport1.CookieContainer = null;
             this.stiReport1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
+            this.stiReport1.Key = "1251f444a62b4be883f2b39088f9d32c";
             this.stiReport1.ReferencedAssemblies = new string[] {
         "System.Dll",
         "System.Drawing.Dll",
@@ -139,17 +137,18 @@ namespace WorkWithReportComponents
         "Stimulsoft.Report.Dll"};
             this.stiReport1.ReportAlias = "Report";
             this.stiReport1.ReportGuid = "40db48e618a74c2ba7cc94a6b54a1efd";
-            this.stiReport1.ReportImage = null;
             this.stiReport1.ReportName = "Report";
             this.stiReport1.ReportSource = null;
             this.stiReport1.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
             this.stiReport1.ScriptLanguage = Stimulsoft.Report.StiReportLanguageType.CSharp;
+            this.stiReport1.StoreImagesInResources = true;
             this.stiReport1.UseProgressInThread = false;
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(319, 246);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(638, 445);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
@@ -174,6 +173,9 @@ namespace WorkWithReportComponents
 		[STAThread]
 		static void Main() 
 		{
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
 			Application.Run(new Form1());
 		}

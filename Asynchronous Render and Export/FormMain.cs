@@ -11,12 +11,12 @@ namespace Asynchronous_Render_and_Export
 
         public FormMain()
         {
-            InitializeComponent();
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
 
             labelLoad.Text = "Loading... ";
             Report = GetReport("Master-Detail.mrt");

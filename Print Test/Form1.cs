@@ -22,19 +22,16 @@ namespace PrintTest
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
+			// How to Activate
+			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
 			InitializeComponent();
 
             //
             // TODO: Add any constructor code after InitializeComponent call
             //
-
-            // How to Activate
-            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
-            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
         /// <summary>
@@ -71,9 +68,9 @@ namespace PrintTest
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(90, 70);
+            this.button1.Location = new System.Drawing.Point(180, 129);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 40);
+            this.button1.Size = new System.Drawing.Size(300, 74);
             this.button1.TabIndex = 0;
             this.button1.Text = "Print";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -84,8 +81,9 @@ namespace PrintTest
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(329, 196);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(674, 339);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -103,7 +101,10 @@ namespace PrintTest
 		[STAThread]
 		static void Main() 
 		{
-            Application.EnableVisualStyles();
+			// Enable HiDPI mode
+			Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
+			Application.EnableVisualStyles();
             Application.Run(new Form1());
 		}
 

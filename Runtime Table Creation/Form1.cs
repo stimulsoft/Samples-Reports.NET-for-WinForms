@@ -37,19 +37,16 @@ namespace RuntimeTableCreation
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
-			InitializeComponent();
-
-            //
-            // TODO: Add any constructor code after InitializeComponent call
-            //
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
+
+            //
+            // TODO: Add any constructor code after InitializeComponent call
+            //
         }
 
         /// <summary>
@@ -96,9 +93,9 @@ namespace RuntimeTableCreation
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(376, 344);
+            this.button1.Location = new System.Drawing.Point(752, 635);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 26);
+            this.button1.Size = new System.Drawing.Size(150, 48);
             this.button1.TabIndex = 0;
             this.button1.Text = "Show";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -108,18 +105,18 @@ namespace RuntimeTableCreation
             this.dataGrid1.DataMember = "";
             this.dataGrid1.DataSource = this.dataView1;
             this.dataGrid1.HeaderForeColor = System.Drawing.SystemColors.ControlText;
-            this.dataGrid1.Location = new System.Drawing.Point(8, 8);
+            this.dataGrid1.Location = new System.Drawing.Point(16, 15);
             this.dataGrid1.Name = "dataGrid1";
-            this.dataGrid1.Size = new System.Drawing.Size(448, 224);
+            this.dataGrid1.Size = new System.Drawing.Size(896, 413);
             this.dataGrid1.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(8, 238);
+            this.panel1.Location = new System.Drawing.Point(16, 439);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(448, 100);
+            this.panel1.Size = new System.Drawing.Size(896, 185);
             this.panel1.TabIndex = 2;
             // 
             // groupBox2
@@ -127,9 +124,9 @@ namespace RuntimeTableCreation
             this.groupBox2.Controls.Add(this.rbAWTLastColumns);
             this.groupBox2.Controls.Add(this.rbAWTFullTable);
             this.groupBox2.Controls.Add(this.rbAWTNone);
-            this.groupBox2.Location = new System.Drawing.Point(222, 3);
+            this.groupBox2.Location = new System.Drawing.Point(444, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(221, 94);
+            this.groupBox2.Size = new System.Drawing.Size(442, 173);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "AutoWidthType";
@@ -137,9 +134,9 @@ namespace RuntimeTableCreation
             // rbAWTLastColumns
             // 
             this.rbAWTLastColumns.AutoSize = true;
-            this.rbAWTLastColumns.Location = new System.Drawing.Point(6, 65);
+            this.rbAWTLastColumns.Location = new System.Drawing.Point(12, 120);
             this.rbAWTLastColumns.Name = "rbAWTLastColumns";
-            this.rbAWTLastColumns.Size = new System.Drawing.Size(85, 17);
+            this.rbAWTLastColumns.Size = new System.Drawing.Size(168, 29);
             this.rbAWTLastColumns.TabIndex = 5;
             this.rbAWTLastColumns.Text = "LastColumns";
             this.rbAWTLastColumns.UseVisualStyleBackColor = true;
@@ -147,9 +144,9 @@ namespace RuntimeTableCreation
             // rbAWTFullTable
             // 
             this.rbAWTFullTable.AutoSize = true;
-            this.rbAWTFullTable.Location = new System.Drawing.Point(6, 42);
+            this.rbAWTFullTable.Location = new System.Drawing.Point(12, 78);
             this.rbAWTFullTable.Name = "rbAWTFullTable";
-            this.rbAWTFullTable.Size = new System.Drawing.Size(68, 17);
+            this.rbAWTFullTable.Size = new System.Drawing.Size(132, 29);
             this.rbAWTFullTable.TabIndex = 4;
             this.rbAWTFullTable.Text = "FullTable";
             this.rbAWTFullTable.UseVisualStyleBackColor = true;
@@ -158,9 +155,9 @@ namespace RuntimeTableCreation
             // 
             this.rbAWTNone.AutoSize = true;
             this.rbAWTNone.Checked = true;
-            this.rbAWTNone.Location = new System.Drawing.Point(6, 19);
+            this.rbAWTNone.Location = new System.Drawing.Point(12, 35);
             this.rbAWTNone.Name = "rbAWTNone";
-            this.rbAWTNone.Size = new System.Drawing.Size(51, 17);
+            this.rbAWTNone.Size = new System.Drawing.Size(94, 29);
             this.rbAWTNone.TabIndex = 3;
             this.rbAWTNone.TabStop = true;
             this.rbAWTNone.Text = "None";
@@ -171,9 +168,9 @@ namespace RuntimeTableCreation
             this.groupBox1.Controls.Add(this.rbAWPage);
             this.groupBox1.Controls.Add(this.rbAWTable);
             this.groupBox1.Controls.Add(this.rbAWNone);
-            this.groupBox1.Location = new System.Drawing.Point(4, 3);
+            this.groupBox1.Location = new System.Drawing.Point(8, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(212, 94);
+            this.groupBox1.Size = new System.Drawing.Size(424, 173);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "AutoWidth";
@@ -181,9 +178,9 @@ namespace RuntimeTableCreation
             // rbAWPage
             // 
             this.rbAWPage.AutoSize = true;
-            this.rbAWPage.Location = new System.Drawing.Point(6, 65);
+            this.rbAWPage.Location = new System.Drawing.Point(12, 120);
             this.rbAWPage.Name = "rbAWPage";
-            this.rbAWPage.Size = new System.Drawing.Size(50, 17);
+            this.rbAWPage.Size = new System.Drawing.Size(93, 29);
             this.rbAWPage.TabIndex = 2;
             this.rbAWPage.Text = "Page";
             this.rbAWPage.UseVisualStyleBackColor = true;
@@ -192,9 +189,9 @@ namespace RuntimeTableCreation
             // 
             this.rbAWTable.AutoSize = true;
             this.rbAWTable.Checked = true;
-            this.rbAWTable.Location = new System.Drawing.Point(6, 42);
+            this.rbAWTable.Location = new System.Drawing.Point(12, 78);
             this.rbAWTable.Name = "rbAWTable";
-            this.rbAWTable.Size = new System.Drawing.Size(52, 17);
+            this.rbAWTable.Size = new System.Drawing.Size(97, 29);
             this.rbAWTable.TabIndex = 1;
             this.rbAWTable.TabStop = true;
             this.rbAWTable.Text = "Table";
@@ -203,17 +200,18 @@ namespace RuntimeTableCreation
             // rbAWNone
             // 
             this.rbAWNone.AutoSize = true;
-            this.rbAWNone.Location = new System.Drawing.Point(6, 19);
+            this.rbAWNone.Location = new System.Drawing.Point(12, 35);
             this.rbAWNone.Name = "rbAWNone";
-            this.rbAWNone.Size = new System.Drawing.Size(51, 17);
+            this.rbAWNone.Size = new System.Drawing.Size(94, 29);
             this.rbAWNone.TabIndex = 0;
             this.rbAWNone.Text = "None";
             this.rbAWNone.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(464, 379);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(925, 702);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGrid1);
             this.Controls.Add(this.button1);
@@ -242,6 +240,9 @@ namespace RuntimeTableCreation
 		[STAThread]
 		static void Main() 
 		{
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
 			Application.Run(new Form1());
 		}

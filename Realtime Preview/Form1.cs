@@ -22,19 +22,16 @@ namespace RealtimePreview
 
 		public Form1()
 		{
-			//
-			// Required for Windows Form Designer support
-			//
+			// How to Activate
+			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
 			InitializeComponent();
 
 			//
 			// TODO: Add any constructor code after InitializeComponent call
 			//
-
-			// How to Activate
-			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
-			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
 			stiPreviewControl1.PageViewMode = Stimulsoft.Report.Viewer.StiPageViewMode.Continuous;
 			stiReport1.Render();
@@ -76,6 +73,7 @@ namespace RealtimePreview
             // 
             this.stiReport1.CookieContainer = null;
             this.stiReport1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
+            this.stiReport1.Key = "49ac22ae6883465292fd416e4df0dfea";
             this.stiReport1.ReferencedAssemblies = new string[] {
         "System.Dll",
         "System.Drawing.Dll",
@@ -87,7 +85,6 @@ namespace RealtimePreview
         "Stimulsoft.Report.Dll"};
             this.stiReport1.ReportAlias = "Report";
             this.stiReport1.ReportGuid = "52dc044e321d4dc9860db01c975e370a";
-            this.stiReport1.ReportImage = null;
             this.stiReport1.ReportName = "Report";
             this.stiReport1.ReportSource = resources.GetString("stiReport1.ReportSource");
             this.stiReport1.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
@@ -100,12 +97,13 @@ namespace RealtimePreview
             this.stiPreviewControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stiPreviewControl1.Location = new System.Drawing.Point(8, 8);
+            this.stiPreviewControl1.Location = new System.Drawing.Point(16, 15);
+            this.stiPreviewControl1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.stiPreviewControl1.Name = "stiPreviewControl1";
             this.stiPreviewControl1.Report = this.stiReport1;
             this.stiPreviewControl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.stiPreviewControl1.ShowZoom = true;
-            this.stiPreviewControl1.Size = new System.Drawing.Size(576, 456);
+            this.stiPreviewControl1.Size = new System.Drawing.Size(1259, 888);
             this.stiPreviewControl1.TabIndex = 0;
             this.stiPreviewControl1.Close += new System.EventHandler(this.stiPreviewControl1_Close);
             // 
@@ -116,8 +114,9 @@ namespace RealtimePreview
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(592, 469);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1291, 912);
             this.Controls.Add(this.stiPreviewControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -136,6 +135,9 @@ namespace RealtimePreview
 		[STAThread]
 		static void Main() 
 		{
+			// Enable HiDPI mode
+			Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
 			Application.Run(new Form1());
 		}
 

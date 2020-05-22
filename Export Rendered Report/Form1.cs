@@ -21,14 +21,14 @@ namespace ExportRenderedReport
 
 		public Form1()
 		{
-			dataSet.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            dataSet.ReadXml("..\\..\\Data\\Demo.xml");
-			InitializeComponent();
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            dataSet.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            dataSet.ReadXml("..\\..\\Data\\Demo.xml");
+			InitializeComponent();
         }
 
         /// <summary>
@@ -59,17 +59,18 @@ namespace ExportRenderedReport
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(90, 70);
+            this.button7.Location = new System.Drawing.Point(180, 129);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(150, 40);
+            this.button7.Size = new System.Drawing.Size(300, 74);
             this.button7.TabIndex = 8;
             this.button7.Text = "Export";
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(329, 196);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(684, 359);
             this.Controls.Add(this.button7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -86,8 +87,11 @@ namespace ExportRenderedReport
 		/// The main entry point for the application.
 		/// </summary>
 		[STAThread]
-		static void Main() 
-		{
+		static void Main()
+        {
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
             Application.Run(new Form1());
 		}

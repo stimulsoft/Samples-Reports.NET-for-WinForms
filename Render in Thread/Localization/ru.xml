@@ -137,6 +137,8 @@
     <Submit>Применить</Submit>
     <Test>Проверка</Test>
     <Up>Вверх</Up>
+    <Upgrade>Улучшить</Upgrade>
+    <UpgradeNow>Улучшить сейчас</UpgradeNow>
     <Upload>Загрузить</Upload>
     <Waiting>Ожидание</Waiting>
     <Yes>&amp;Да</Yes>
@@ -270,7 +272,10 @@
     <Strip>Полоса</Strip>
     <StripsEditorForm>Редактор полос</StripsEditorForm>
     <Style>Стиль</Style>
+    <Sunburst>Солнечные лучи</Sunburst>
     <Treemap>Древовидная</Treemap>
+    <TrendLinesEditorForm>Редактор линий тренда</TrendLinesEditorForm>
+    <Waterfall>Водопад</Waterfall>
   </Chart>
   <CharterMapEditor>
     <Characters>Символы</Characters>
@@ -353,6 +358,7 @@
     <ButtonDeleteAll>Удалить все</ButtonDeleteAll>
     <ButtonDesign>Редактировать отчет</ButtonDesign>
     <ButtonLater>Позже</ButtonLater>
+    <ButtonLogInWith>Войти через {0}</ButtonLogInWith>
     <ButtonLogout>Выйти</ButtonLogout>
     <ButtonPublish>Опубликовать</ButtonPublish>
     <ButtonPurchase>Купить</ButtonPurchase>
@@ -363,6 +369,7 @@
     <ButtonRun>Запустить</ButtonRun>
     <ButtonShare>Доступ</ButtonShare>
     <ButtonSignUp>Регистрация</ButtonSignUp>
+    <ButtonSignUpWith>Регистрация через {0}</ButtonSignUpWith>
     <ButtonSkip>Пропустить</ButtonSkip>
     <ButtonView>Просмотр</ButtonView>
     <ButtonWhereUsed>Где используется?</ButtonWhereUsed>
@@ -641,6 +648,7 @@
     <ColumnInteractions>Взаимодействие колонок</ColumnInteractions>
     <CustomFilter>Пользовательский фильтр ...</CustomFilter>
     <DataBars>Гистограмма</DataBars>
+    <DataFilterGrouping>Данная операция применяется для группировки только различных колонок.</DataFilterGrouping>
     <DataNotDefined>Данные не указаны</DataNotDefined>
     <DateFilters>Фильтры дат</DateFilters>
     <Dimension>Измерение</Dimension>
@@ -702,6 +710,7 @@
     <StringFilters>Строковые фильтры</StringFilters>
     <TransformationHint>Нажмите на заголовок таблицы, чтобы применить сортировку, фильтрацию или изменить данные. Это преобразование будет применяться только к данным этого элемента.</TransformationHint>
     <Trend>Тренд</Trend>
+    <ViewEditCompilationNotice>Вы не можете редактировать отчет, у которого свойство отчета 'Режим вычислений' равно значению 'Компиляция'. Пожалуйста, установите для этого свойства значение 'Интерпретация'.</ViewEditCompilationNotice>
     <ViewModeDesktop>Настольный</ViewModeDesktop>
     <ViewModeMobile>Мобильный</ViewModeMobile>
   </Dashboard>
@@ -791,13 +800,20 @@
     <TextNotFound>Указанный текст не найден. Текст: {0}</TextNotFound>
   </DesignerFx>
   <Desktop>
+    <Beginner>Начинающий</Beginner>
     <ButtonAddCloud>Добавить папку из Stimulsoft Cloud</ButtonAddCloud>
     <ButtonAddFolder>Добавить папку</ButtonAddFolder>
     <ButtonCreateDashboard>Создать панель индикаторов</ButtonCreateDashboard>
     <ButtonCreateReport>Создать отчет</ButtonCreateReport>
+    <Creator>Редактор</Creator>
+    <Developer>Разработчик</Developer>
     <DoYouWantToInstallReports>Вы хотите установить шаблоны отчетов и панелей индикаторов?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Давайте установим наши примеры! Они помогут вам освоить работу с нашим продуктом.</InstallSamplesDesc>
+    <PleaseAnswerWhoAreYou>Пожалуйста, ответьте, кто вы?</PleaseAnswerWhoAreYou>
     <WhoAreYou>Кто Вы?</WhoAreYou>
+    <WhoAreYouBeginnerDescription>Оптимально подойдет для знакомства с возможностями дизайнера.</WhoAreYouBeginnerDescription>
+    <WhoAreYouCreatorDescription>Оптимально подойдет для создания отчетов и имеет необходимый функционал для дизайна.</WhoAreYouCreatorDescription>
+    <WhoAreYouDeveloperDescription>Оптимально подойдет для создания приложений. Доступен полный функционал для дизайна и встраивания компонентов.</WhoAreYouDeveloperDescription>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Кнопка</StiButtonControl>
@@ -831,6 +847,7 @@
     <FindWhat>Найти:</FindWhat>
     <FromCursor>От по&amp;зиции курсора</FromCursor>
     <GotoLine>&amp;Перейти на линию</GotoLine>
+    <InsertLink>Вставить ссылку</InsertLink>
     <InsertSymbol>Вставить символ</InsertSymbol>
     <Line>Линия: {0}</Line>
     <LineNumber>Номер линии:</LineNumber>
@@ -862,6 +879,7 @@
     <ComponentIsNotRelease>Компонент не реализует '{0}'</ComponentIsNotRelease>
     <ContainerIsNotValidForComponent>Контейнер {0} не подходит для компонента {1}</ContainerIsNotValidForComponent>
     <DataNotFound>Данные не найдены</DataNotFound>
+    <DataNotLoaded>Данные не загружены.</DataNotLoaded>
     <Error>Ошибка!</Error>
     <ErrorsList>Список ошибок</ErrorsList>
     <FieldRequire>Необходимо заполнить поле "{0}"</FieldRequire>
@@ -2236,12 +2254,16 @@
     <ActivationExpiriedBeforeFirstRelease>Ваша Программа Подписки для Stimulsoft Reports.Ultimate истекла раньше даты первого релиза Stimulsoft Server!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>Файл лицензии не корректен! Пожалуйста свяжитесь с нашим отделом продаж на sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Ваш аккаунт заблокирован. Пожалуйста, свяжитесь с нашим отделом продаж по sales@stimulsoft.com!</ActivationLockedAccount>
+    <ActivationLockedAccountExt>Ваш аккаунт заблокирован.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>Вы достигли максимального количества активаций лицензии. Пожалуйста, свяжитесь с нашим отделом продаж по sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxComputersReached>Вы уже зарегистрировали максимальное количество компьютеров, доступных для вашей подписки.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Сервер активации сейчас недоступен! Пожалуйста, попробуйте активировать лицензию позднее.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Вы не можете активировать эту версию Stimulsoft Server, т.к. Ваша Программа Подписки истекла! Пожалуйста, войдите в Ваш аккаунт на нашем сайте и проверьте, какую версию Stimulsoft Server Вы можете установить и активировать.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Во время активации лицензии произошла ошибка. Пожалуйста, попробуйте активировать лицензию позднее.</ActivationSomeTroublesOccurred>
+    <ActivationTrialExpired>Вы можете продолжить использовать Stimulsoft Designer, купив программное обеспечение.</ActivationTrialExpired>
     <ActivationUserNameOrPasswordIsWrong>Имя пользователя (Email) или пароль указаны неверно!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Ваш тип аккаунта не позволяет активировать лицензию Stimulsoft Server!</ActivationWrongAccountType>
+    <Alert>Тревога</Alert>
     <AuthAccountCantBeUsedNow>Аккаунт не может быть использован сейчас!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>Этот аккаунт не активирован! Пожалуйста, следуйте инструкциям, которые были отправлены на Ваш Email во время регистрации.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Роль данного пользователя не может быть изменена, т.к. это последний администратор в этом рабочем пространстве.</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2267,10 +2289,12 @@
     <AuthRoleNameAlreadyExists>Роль с указанным именем "{0}" уже существует!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Роль с указанным именем "{0}" это системная роль!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>На адрес электронной почты "{0}" отправлено сообщение с дальнейшими инструкциями!</AuthSendMessageWithInstructions>
+    <AuthTokenIsNotCorrect>Токен не верен!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Вы вышли из системы!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExist>Указанное имя пользователя уже используется!</AuthUserNameAlreadyExist>
     <AuthUserNameAlreadyExists>Имя пользователя (Email) уже используется!</AuthUserNameAlreadyExists>
     <AuthUserNameIsNotSpecified>Имя пользователя (Email) не указано!</AuthUserNameIsNotSpecified>
+    <AuthUserNameNotAssociatedWithYourAccount>Имя пользователя (Email) {0} не связано с вашей учетной записью {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameNotSpecified>Имя пользователя не указано!</AuthUserNameNotSpecified>
     <AuthUserNameOrPasswordIsNotCorrect>Имя пользователя или пароль указаны неверно!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Необходимо указать Email адрес для имени пользователя!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2297,10 +2321,13 @@
     <ItemCantBeMovedToSpecifiedPlace>Элемент не может быть перемещен в указанное место!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Элемент не поддерживает "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key и ToKey равны!</KeyAndToKeyAreEqual>
+    <MaximumComputers>Максимум компьютеров</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Внимание! Вы хотите добавить файл, но его размер превышает максимально-допустимый размер. Все равно добавить этот файл (обработка отчета может замедлиться)?</MessageMaximumFileSizeExceeded>
+    <NewDesignerAvailable>Stimulsoft Designer {0} доступен.</NewDesignerAvailable>
     <NewProduct>К Вашей подписке добавлен новый продукт!</NewProduct>
-    <NewVersionsAvailable>Новая версия доступна!</NewVersionsAvailable>
+    <NewVersionsAvailable>Новая версия</NewVersionsAvailable>
     <NotificationFailed>Неверный результат!</NotificationFailed>
+    <NotificationFailedAddFollowingFiles>Не удалось добавить следующие файлы. Превышен размер {0} МБ.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>Файлы успешно загружены.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>Загружается "{0}".</NotificationFileUploading>
     <NotificationItemDelete>Элементы удаляются.</NotificationItemDelete>
@@ -2360,9 +2387,11 @@
     <QuotaMaximumFileSizeExceeded>Максимальный размер файла превышен!</QuotaMaximumFileSizeExceeded>
     <QuotaMaximumItemCountExceeded>Максимальное количество элементов превышено.</QuotaMaximumItemCountExceeded>
     <QuotaMaximumItemsCountExceeded>Достигнут лимит на количество элементов!</QuotaMaximumItemsCountExceeded>
+    <QuotaMaximumRefreshCountExceeded>Превышено максимальное количество обновлений!</QuotaMaximumRefreshCountExceeded>
     <QuotaMaximumReportPagesCountExceeded>Достигнут лимит на количество страниц в отчете!</QuotaMaximumReportPagesCountExceeded>
     <QuotaMaximumReportsCountExceeded>Достигнут лимит на количество отчетов!</QuotaMaximumReportsCountExceeded>
     <QuotaMaximumResourcesCountExceeded>Достигнут лимит на максимальный размер ресурсов!</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumResourceSizeExceeded>Превышен максимальный размер ресурса.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumRoleCountExceeded>Максимальное количество пользовательских ролей превышено.</QuotaMaximumRoleCountExceeded>
     <QuotaMaximumRolesCountExceeded>Достигнут лимит на количество пользовательских ролей!</QuotaMaximumRolesCountExceeded>
     <QuotaMaximumSchedulersCountExceeded>Максимальное количество планировщиков превышено.</QuotaMaximumSchedulersCountExceeded>
@@ -2377,10 +2406,11 @@
     <SpecifiedItemIsNot>Указанный элемент не "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Срок действия Вашей подписки истек!</SubscriptionExpired>
     <SubscriptionExpiredDate>Срок действия Вашей подписки истечет {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredExt>Срок вашей подписки истек. Обновите подписку, чтобы получить последнюю версию.</SubscriptionExpiredExt>
     <SubscriptionsOut10>10 дней осталось, до завершения срока действия подписки!</SubscriptionsOut10>
     <SubscriptionsOut20>Срок действия подписки истекает через 20 дней!</SubscriptionsOut20>
     <SuccessfullyRenewed>Ваша подписка была успешно обновлена!</SuccessfullyRenewed>
-    <TrialToLicense>Спасибо, что выбрали Stimulsoft!</TrialToLicense>
+    <TrialToLicense>Спасибо, что выбрали наш программный продукт!</TrialToLicense>
     <VersionCopyFromItem>Копия элемента "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Создано из файла "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Создано из элемента "{0}".</VersionCreatedFromItem>
@@ -2391,6 +2421,8 @@
     <WithSpecifiedKeyIsNotFound>"{0}" с указанным ключом не найден!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Вы хотите обновить сейчас?</WouldYouLikeToUpdateNow>
     <YourTimeSessionHasExpired>Время сессии истекло!</YourTimeSessionHasExpired>
+    <YourTrialHasExpired>Срок вашей пробной версии истек.</YourTrialHasExpired>
+    <YourTrialWillExpire>Срок действия пробной версии истекает через {0} дней.</YourTrialWillExpire>
     <YouUsingTrialVersion>Вы используете тестовую версию!</YouUsingTrialVersion>
   </Notices>
   <NuGet>
@@ -2510,10 +2542,12 @@
     <DescriptionCategory>Описание</DescriptionCategory>
     <DesignCategory>Редактирование</DesignCategory>
     <DisplayCategory>Отображение</DisplayCategory>
+    <EngineCategory>Ядро</EngineCategory>
     <ExportCategory>Экспорт</ExportCategory>
     <ExportEventsCategory>События экспорта</ExportEventsCategory>
     <FooterTableCategory>Итог таблицы</FooterTableCategory>
     <GaugeCategory>Измерительный прибор</GaugeCategory>
+    <GlobalizationCategory>Глобализация</GlobalizationCategory>
     <GridLinesCategory>Линии сетки</GridLinesCategory>
     <HeaderTableCategory>Заголовок таблицы</HeaderTableCategory>
     <HierarchicalCategory>Дерево</HierarchicalCategory>
@@ -2563,6 +2597,7 @@
     <ValueHighCategory>Максимум</ValueHighCategory>
     <ValueLowCategory>Минимум</ValueLowCategory>
     <ValueOpenCategory>Открывающее значение</ValueOpenCategory>
+    <ViewCategory>Вид</ViewCategory>
     <WeightCategory>Вес</WeightCategory>
     <WinControlCategory>Win компонент</WinControlCategory>
     <ZipCodeCategory>Почтовый индекс</ZipCodeCategory>
@@ -2839,6 +2874,10 @@
     <StiChartTitleDockLeft>Слева</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Справа</StiChartTitleDockRight>
     <StiChartTitleDockTop>Сверху</StiChartTitleDockTop>
+    <StiChartTrendLineTypeExponential>Экспоненциальный</StiChartTrendLineTypeExponential>
+    <StiChartTrendLineTypeLinear>Линейный</StiChartTrendLineTypeLinear>
+    <StiChartTrendLineTypeLogarithmic>Логарифмический</StiChartTrendLineTypeLogarithmic>
+    <StiChartTrendLineTypeNone>Нет</StiChartTrendLineTypeNone>
     <StiCheckStyleCheck>Флажок</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Прямоугольник с флажком</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Крестик</StiCheckStyleCross>
@@ -2872,7 +2911,8 @@
     <StiDesignerScaleModeAutomaticScaling>Автомасштаб</StiDesignerScaleModeAutomaticScaling>
     <StiDesignerScaleModeScaling100>100% масштаб</StiDesignerScaleModeScaling100>
     <StiDesignerSpecificationAuto>Определять автоматически</StiDesignerSpecificationAuto>
-    <StiDesignerSpecificationBICreator>Я редактор BI</StiDesignerSpecificationBICreator>
+    <StiDesignerSpecificationBeginner>Я начинающий</StiDesignerSpecificationBeginner>
+    <StiDesignerSpecificationBICreator>Я редактор</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Я разработчик</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>Полное</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>Нет</StiDisplayNameTypeNone>
@@ -2942,6 +2982,9 @@
     <StiFontIconGroupTransportationIcons>Транспорт</StiFontIconGroupTransportationIcons>
     <StiFontIconGroupVideoPlayerIcons>Видео</StiFontIconGroupVideoPlayerIcons>
     <StiFontIconGroupWebApplicationIcons>Приложение</StiFontIconGroupWebApplicationIcons>
+    <StiFontSizeModeAuto>Авто</StiFontSizeModeAuto>
+    <StiFontSizeModeTarget>Цель</StiFontSizeModeTarget>
+    <StiFontSizeModeValue>Значение</StiFontSizeModeValue>
     <StiFormStartModeOnEnd>В конце</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>В предварительном просмотре</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>В начале</StiFormStartModeOnStart>
@@ -2951,9 +2994,11 @@
     <StiGaugeRangeModeValue>Значение</StiGaugeRangeModeValue>
     <StiGaugeRangeTypeColor>Цвет</StiGaugeRangeTypeColor>
     <StiGaugeRangeTypeNone>Нет</StiGaugeRangeTypeNone>
+    <StiGaugeTypeBullet>Пуля</StiGaugeTypeBullet>
     <StiGaugeTypeFullCircular>Полный циферблат</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Половина циферблата</StiGaugeTypeHalfCircular>
-    <StiGaugeTypeLinear>Линейный</StiGaugeTypeLinear>
+    <StiGaugeTypeHorizontalLinear>Горизонтальный линейный</StiGaugeTypeHorizontalLinear>
+    <StiGaugeTypeLinear>Вертикальный линейный</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>По возрастанию</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>По убыванию</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Нет</StiGroupSortDirectionNone>
@@ -3373,6 +3418,7 @@
     <AllowApplyBrush>Разр. исп. заполнение</AllowApplyBrush>
     <AllowApplyBrushNegative>Разрешить кисть негативных значений</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Разрешить цвет негативных значений</AllowApplyColorNegative>
+    <AllowApplyLineColor>Разрешить цвет линии</AllowApplyLineColor>
     <AllowApplyStyle>Разрешить применять стили</AllowApplyStyle>
     <AllowExpressions>Разрешить выражения</AllowExpressions>
     <AllowHtmlTags>Разрешить HTML теги</AllowHtmlTags>
@@ -3456,6 +3502,8 @@
     <Brush>Кисть</Brush>
     <BrushNegative>Кисть негативных значений</BrushNegative>
     <BrushType>Тип кисти</BrushType>
+    <BubbleBackColor>Цвет фона пузырька</BubbleBackColor>
+    <BubbleBorderColor>Цвет границы пузырька</BubbleBorderColor>
     <BusinessObject>Бизнес-объект</BusinessObject>
     <CacheAllData>Кэшировать все данные</CacheAllData>
     <CacheTotals>Кэшировать Totals-функции</CacheTotals>
@@ -3653,6 +3701,7 @@
     <FontItalic>Наклонный</FontItalic>
     <FontName>Наименование</FontName>
     <FontSize>Размер</FontSize>
+    <FontSizeMode>Режим размера шрифта</FontSizeMode>
     <FontStrikeout>Зачеркнутый</FontStrikeout>
     <FontSubscript>Нижний текст</FontSubscript>
     <FontSuperscript>Верхний текст</FontSuperscript>
@@ -3757,6 +3806,7 @@
     <InfographicsTitle>Заголовок</InfographicsTitle>
     <InitBy>Инициализировать</InitBy>
     <InitialSelection>Первоначальный выбор</InitialSelection>
+    <InitialSelectionSource>Исходный источник выбора</InitialSelectionSource>
     <Insert>Вставить</Insert>
     <Interaction>Взаимодействие</Interaction>
     <InterlacedBrush>Кисть чередования</InterlacedBrush>
@@ -3947,10 +3997,12 @@
     <PaperSourceOfOtherPages>Источник бумаги для остальных страниц</PaperSourceOfOtherPages>
     <Parameter>Параметр</Parameter>
     <Parameters>Параметры</Parameters>
+    <ParametersDateFormat>Формат даты параметров</ParametersDateFormat>
     <ParametersOrientation>Расположение параметров</ParametersOrientation>
     <ParentColumns>Колонки главного</ParentColumns>
     <ParentSource>Главный источник данных</ParentSource>
     <ParentValue>Главное значение</ParentValue>
+    <ParetoSeriesColors>Цвета серии Парето</ParetoSeriesColors>
     <PasswordChar>Символ пароля</PasswordChar>
     <Path>Путь</Path>
     <PathData>Путь к XML данным</PathData>
@@ -4094,6 +4146,7 @@
     <ShortValue>Короткое значение</ShortValue>
     <ShowAllValue>Показывать все значения</ShowAllValue>
     <ShowBehind>Показывать сзади</ShowBehind>
+    <ShowBubble>Показывать пузырьки</ShowBubble>
     <ShowDialog>Показывать диалог</ShowDialog>
     <ShowEdgeValues>Показывать крайние значения</ShowEdgeValues>
     <ShowImageBehind>Показывать изображения за</ShowImageBehind>
@@ -4235,6 +4288,7 @@
     <TransparentColor>Цвет прозрачности</TransparentColor>
     <TrendLine>Линия тренда</TrendLine>
     <TrendLineColor>Цвет линии тренда</TrendLineColor>
+    <TrendLines>Линии тренда</TrendLines>
     <TrendLineShowShadow>Показать тень линии тренда</TrendLineShowShadow>
     <TrimExcessData>Отделять избыточные значения</TrimExcessData>
     <Trimming>Подгонка</Trimming>
