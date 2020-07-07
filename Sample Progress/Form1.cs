@@ -48,11 +48,7 @@ namespace SampleProgress
 
 		void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
 		{
-			DataSet data = new DataSet();
-			data.ReadXml("..\\..\\Data\\Demo.xml");
-
-			report.RegData(data);
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SampleProgress.Master-Detail-Subdetail.mrt"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SampleProgress.MasterDetailSubdetail.mrt"))
             {
                 report.Load(stream);
             }

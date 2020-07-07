@@ -19,21 +19,11 @@ namespace Asynchronous_Render_and_Export
             InitializeComponent();
 
             labelLoad.Text = "Loading... ";
-            Report = GetReport("Master-Detail.mrt");
+
+            Report = new StiReport();
+            Report.Load("..\\MasterDetail.mrt");
+
             labelLoad.Text += "OK";
-        }
-
-        private StiReport GetReport(string name)
-        {
-            var dataSet = new DataSet();
-            dataSet.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            dataSet.ReadXml("..\\..\\Data\\Demo.xml");
-
-            var report = new StiReport();
-            report.Load("..\\..\\Reports\\" + name);
-            report.RegData(dataSet);
-
-            return report;
         }
 
         private async void buttonRender_Click(object sender, EventArgs e)

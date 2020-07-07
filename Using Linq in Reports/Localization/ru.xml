@@ -50,10 +50,10 @@
     <PreviousPage>Предыдущая страница</PreviousPage>
     <PrintContinue>Нажмите кнопку Печать для продолжения</PrintContinue>
     <PrintReport>Печатать</PrintReport>
-    <PrintToPdf>Печатать в PDF</PrintToPdf>
-    <PrintToXps>Печать в XPS</PrintToXps>
-    <PrintWithoutPreview>Печатать без просмотра</PrintWithoutPreview>
-    <PrintWithPreview>Печатать с просмотром</PrintWithPreview>
+    <PrintToPdf>PDF</PrintToPdf>
+    <PrintToXps>Microsoft XPS</PrintToXps>
+    <PrintWithoutPreview>Печать</PrintWithoutPreview>
+    <PrintWithPreview>Печать с просмотром</PrintWithPreview>
     <SaveReport>Сохранить</SaveReport>
     <Subject>Тема:</Subject>
     <TabItemContacts>Контакты</TabItemContacts>
@@ -62,6 +62,21 @@
     <TodayDate>Сегодня</TodayDate>
     <WholeReport>Весь отчет</WholeReport>
   </A_WebViewer>
+  <ExceptionProvider>
+    <SendErrorSuccess>Сообщение об ошибке успешно доставлено.</SendErrorSuccess>
+    <SendErrorFailed>Не удалось доставить сообщение об ошибке.</SendErrorFailed>
+    <Exception>Исключение</Exception>
+    <Assemblies>Сборки</Assemblies>
+    <Framework>Фреймворк</Framework>
+    <Message>Сообщение</Message>
+    <General>Основные</General>
+    <Source>Источник</Source>
+    <Number>Номер</Number>
+    <StackTrace>Трассировки стека</StackTrace>
+    <PleaseEnterDetailedInformation>Пожалуйста, введите подробную информацию о событиях, которые вызывают это исключение.</PleaseEnterDetailedInformation>
+    <SaveToFile>Сохранить в файл</SaveToFile>
+    <ExceptionReport>Отчет об исключении</ExceptionReport>
+  </ExceptionProvider>
   <Adapters>
     <AdapterBusinessObjects>Данные из Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Данные из {0}</AdapterConnection>
@@ -180,6 +195,7 @@
     <Gantt>Ганта</Gantt>
     <GridInterlaced>Чередование</GridInterlaced>
     <GridLines>Линии сетки</GridLines>
+    <Histogram>Гистограмм</Histogram>
     <LabelAlignment>Выравнивание:</LabelAlignment>
     <LabelAlignmentHorizontal>Горизонтальное:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Вертикальное:</LabelAlignmentVertical>
@@ -647,6 +663,7 @@
     <ColorScale>Цветовая шкала</ColorScale>
     <ColumnInteractions>Взаимодействие колонок</ColumnInteractions>
     <CustomFilter>Пользовательский фильтр ...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>Панели индикаторов не поддерживаются в WPF Дизайнере.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Гистограмма</DataBars>
     <DataFilterGrouping>Данная операция применяется для группировки только различных колонок.</DataFilterGrouping>
     <DataNotDefined>Данные не указаны</DataNotDefined>
@@ -805,11 +822,13 @@
     <ButtonAddFolder>Добавить папку</ButtonAddFolder>
     <ButtonCreateDashboard>Создать панель индикаторов</ButtonCreateDashboard>
     <ButtonCreateReport>Создать отчет</ButtonCreateReport>
-    <Creator>Редактор</Creator>
+    <ChooseYourSkillLevel>Выберите уровень сложности</ChooseYourSkillLevel>
+    <Creator>Creator</Creator>
     <Developer>Разработчик</Developer>
     <DoYouWantToInstallReports>Вы хотите установить шаблоны отчетов и панелей индикаторов?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Давайте установим наши примеры! Они помогут вам освоить работу с нашим продуктом.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>Пожалуйста, ответьте, кто вы?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Уровень сложности</SkillLevel>
     <WhoAreYou>Кто Вы?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Оптимально подойдет для знакомства с возможностями дизайнера.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Оптимально подойдет для создания отчетов и имеет необходимый функционал для дизайна.</WhoAreYouCreatorDescription>
@@ -1528,6 +1547,7 @@
     <ApplyStyleCollectionToReportComponents>Применить коллекцию стилей к компонентам отчета</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Применить стили</ApplyStyles>
     <ColorCollectionEditor>Редактор коллекции цветов</ColorCollectionEditor>
+    <CreateStyleOnBase>Создать стиль на основе другого стиля</CreateStyleOnBase>
     <CreateNewComponentStyle>для создания нового стиля компонента</CreateNewComponentStyle>
     <CreateStyleCollection>Создать коллекцию стилей</CreateStyleCollection>
     <CreateStylesCollection>Создать коллекцию стилей</CreateStylesCollection>
@@ -2421,7 +2441,7 @@
     <WithSpecifiedKeyIsNotFound>"{0}" с указанным ключом не найден!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Вы хотите обновить сейчас?</WouldYouLikeToUpdateNow>
     <YourTimeSessionHasExpired>Время сессии истекло!</YourTimeSessionHasExpired>
-    <YourTrialHasExpired>Срок вашей пробной версии истек.</YourTrialHasExpired>
+    <YourTrialHasExpired>Срок вашей пробной версии истек</YourTrialHasExpired>
     <YourTrialWillExpire>Срок действия пробной версии истекает через {0} дней.</YourTrialWillExpire>
     <YouUsingTrialVersion>Вы используете тестовую версию!</YouUsingTrialVersion>
   </Notices>
@@ -2533,6 +2553,7 @@
     <ColorsCategory>Цвета</ColorsCategory>
     <ColumnsCategory>Колонки</ColumnsCategory>
     <ComboBoxCategory>Поле со списком</ComboBoxCategory>
+    <CommonCategory>Общие</CommonCategory>
     <ControlCategory>Управление</ControlCategory>
     <ControlsEventsCategory>События элементов управления</ControlsEventsCategory>
     <CrossTabCategory>Кросс-таблица</CrossTabCategory>
@@ -2912,7 +2933,7 @@
     <StiDesignerScaleModeScaling100>100% масштаб</StiDesignerScaleModeScaling100>
     <StiDesignerSpecificationAuto>Определять автоматически</StiDesignerSpecificationAuto>
     <StiDesignerSpecificationBeginner>Я начинающий</StiDesignerSpecificationBeginner>
-    <StiDesignerSpecificationBICreator>Я редактор</StiDesignerSpecificationBICreator>
+    <StiDesignerSpecificationBICreator>Я Creator</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Я разработчик</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>Полное</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>Нет</StiDisplayNameTypeNone>
@@ -2928,6 +2949,9 @@
     <StiEanSupplementTypeFiveDigit>Пять цифр</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Нет</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Две цифры</StiEanSupplementTypeTwoDigit>
+    <StiEmptyCellsAsConnectPointsWithLine>Соединение точек линией</StiEmptyCellsAsConnectPointsWithLine>
+    <StiEmptyCellsAsGap>Разрыв</StiEmptyCellsAsGap>
+    <StiEmptyCellsAsZero>Ноль</StiEmptyCellsAsZero>
     <StiEmptySizeModeAlignFooterToBottom>Расположить итог по нижнему краю</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>Расположить итог по верхнему краю</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>Уменьшить высоту последней строки</StiEmptySizeModeDecreaseLastRow>
@@ -3185,8 +3209,8 @@
     <StiSeriesSortTypeArgument>Аргумент</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>Нет</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>Значение</StiSeriesSortTypeValue>
-    <StiSeriesXAxisBottomXAxis>Нижняя X ось</StiSeriesXAxisBottomXAxis>
-    <StiSeriesXAxisTopXAxis>Верхняя X ось</StiSeriesXAxisTopXAxis>
+    <StiSeriesXAxisBottomXAxis>Ось X нижняя</StiSeriesXAxisBottomXAxis>
+    <StiSeriesXAxisTopXAxis>Ось X верхняя</StiSeriesXAxisTopXAxis>
     <StiSeriesYAxisLeftYAxis>Ось Y левая</StiSeriesYAxisLeftYAxis>
     <StiSeriesYAxisRightYAxis>Ось Y правая</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>Вниз</StiShapeDirectionDown>

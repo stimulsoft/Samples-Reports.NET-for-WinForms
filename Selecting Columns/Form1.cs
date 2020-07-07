@@ -23,24 +23,24 @@ namespace SelectingColumns
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DataSet data = new DataSet();
-            data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            data.ReadXml("..\\..\\Data\\Demo.xml");
+            var data = new DataSet();
+            data.ReadXmlSchema("..\\Data\\Demo.xsd");
+            data.ReadXml("..\\Data\\Demo.xml");
 
-            StiReport report = new StiReport();
-            report.Load("..\\..\\Reports\\SelectingColumns.mrt");
+            var report = new StiReport();
+            report.Load("..\\SelectingColumns.mrt");
             report.RegData(data);
             report.Design();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DataSet data = new DataSet();
-            data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            data.ReadXml("..\\..\\Data\\Demo.xml");
+            var data = new DataSet();
+            data.ReadXmlSchema("..\\Data\\Demo.xsd");
+            data.ReadXml("..\\Data\\Demo.xml");
 
-            StiReport report = new StiReport();
-            report.Load("..\\..\\Reports\\SelectingColumns.mrt");
+            var report = new StiReport();
+            report.Load("..\\SelectingColumns.mrt");
             report.RegData(data);
             report.Show();
         }

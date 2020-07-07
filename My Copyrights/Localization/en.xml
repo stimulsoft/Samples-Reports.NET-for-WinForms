@@ -50,10 +50,10 @@
     <PreviousPage>Previous Page</PreviousPage>
     <PrintContinue>Click Print to continue</PrintContinue>
     <PrintReport>Print</PrintReport>
-    <PrintToPdf>Print to PDF</PrintToPdf>
-    <PrintToXps>Print to XPS</PrintToXps>
-    <PrintWithoutPreview>Print without Preview</PrintWithoutPreview>
-    <PrintWithPreview>Print with Preview</PrintWithPreview>
+    <PrintToPdf>PDF</PrintToPdf>
+    <PrintToXps>Microsoft XPS</PrintToXps>
+    <PrintWithoutPreview>Print</PrintWithoutPreview>
+    <PrintWithPreview>Preview</PrintWithPreview>
     <SaveReport>Save</SaveReport>
     <Subject>Subject:</Subject>
     <TabItemContacts>Contacts</TabItemContacts>
@@ -62,6 +62,21 @@
     <TodayDate>Today</TodayDate>
     <WholeReport>Whole Report</WholeReport>
   </A_WebViewer>
+  <ExceptionProvider>
+    <SendErrorSuccess>The error message delivered successfully.</SendErrorSuccess>
+    <SendErrorFailed>Failed to deliver the error message.</SendErrorFailed>
+    <Exception>Exception</Exception>
+    <Assemblies>Assemblies</Assemblies>
+    <Framework>Framework</Framework>
+    <Message>Message</Message>
+    <General>General</General>
+    <Source>Source</Source>
+    <Number>Number</Number>
+    <StackTrace>Stack Trace</StackTrace>
+    <PleaseEnterDetailedInformation>Please enter detailed information about events which cause this exception.</PleaseEnterDetailedInformation>
+    <SaveToFile>Save to File</SaveToFile>
+    <ExceptionReport>Exception Report</ExceptionReport>
+  </ExceptionProvider>
   <Adapters>
     <AdapterBusinessObjects>Data from Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Data from {0}</AdapterConnection>
@@ -144,6 +159,7 @@
     <Yes>&amp;Yes</Yes>
   </Buttons>
   <Chart>
+    <Histogram>Histogram</Histogram>
     <AddCondition>&amp;Add Condition</AddCondition>
     <AddConstantLine>Add Constant Line</AddConstantLine>
     <AddFilter>&amp;Add Filter</AddFilter>
@@ -349,7 +365,8 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>I read and accept the {0} and {1}</AcceptTermsAndPrivacyPolicy>
-    <AccountSettings>Account Settings</AccountSettings>
+    <Account>Account</Account>
+	<AccountSettings>Account Settings</AccountSettings>
     <AddAPlace>Add a Place</AddAPlace>
     <AreYouSureYouWantDeleteReport>Are you sure you want to delete "{0}" report from disk?</AreYouSureYouWantDeleteReport>
     <Authorize>Authorize</Authorize>
@@ -631,6 +648,7 @@
     <StiZipCode>ZIP Code</StiZipCode>
   </Components>
   <Dashboard>
+    <DashboardsNotSupportedIntheWPFDesigner>Dashboards are not supported in the WPF Designer.</DashboardsNotSupportedIntheWPFDesigner>
     <DataFilterGrouping>This operation is used for grouping different columns only.</DataFilterGrouping>
     <ViewEditCompilationNotice>You can't edit the report which has the 'Report.CalculationMode' property equals to 'Compilation' value. Please set that property to an 'Interpretation' value.</ViewEditCompilationNotice>
     <AddRange>Add Range</AddRange>
@@ -813,6 +831,8 @@
     <WhoAreYouBeginnerDescription>Perfect fit if you are doing the first run of the designer.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Perfect fit for creating reports. The necessary functionality for design is available.</WhoAreYouCreatorDescription>
     <WhoAreYouDeveloperDescription>Perfect fit for creating applications. Complete functionality for the report design and embedding components included.</WhoAreYouDeveloperDescription>
+    <SkillLevel>Skill Level</SkillLevel>
+    <ChooseYourSkillLevel>Choose your skill level</ChooseYourSkillLevel>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Button</StiButtonControl>
@@ -1301,7 +1321,7 @@
     <DragNewDataSource>drag your data directly to this panel</DragNewDataSource>
     <DragNewReport>drag your report directly to this panel</DragNewReport>
     <EditQuery>Edit Query</EditQuery>
-    <ExecutedSQLStatementSuccessfully>Executed SQL statement successfully</ExecutedSQLStatementSuccessfully>
+    <ExecutedSQLStatementSuccessfully>SQL statement executed successfully</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>New Expression</ExpressionNew>
     <GetColumnsFromAssembly>Get Columns from Assembly</GetColumnsFromAssembly>
     <ImportRelations>Import Relations</ImportRelations>
@@ -1524,6 +1544,7 @@
     <ApplyStyleCollectionToReportComponents>Apply Style Collection to Report Components</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Apply Styles</ApplyStyles>
     <ColorCollectionEditor>Color Collection Editor</ColorCollectionEditor>
+    <CreateStyleOnBase>Create a style based on another style</CreateStyleOnBase>
     <CreateNewComponentStyle>to create the new component style</CreateNewComponentStyle>
     <CreateStyleCollection>Create Style Collection</CreateStyleCollection>
     <Duplicate>Duplicate Style</Duplicate>
@@ -1699,6 +1720,7 @@
     <colorpickerdialog_newcolorlabel>New</colorpickerdialog_newcolorlabel>
     <colorpickerdialog_okbutton>OK</colorpickerdialog_okbutton>
     <colorpickerdialog_redlabel>&amp;Red:</colorpickerdialog_redlabel>
+    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
     <colorpickerdialog_rgblabel>RGB</colorpickerdialog_rgblabel>
     <colorpickerdialog_standardcolorslabel>Colors:</colorpickerdialog_standardcolorslabel>
     <colorpickerdialog_tabcustom>Custom</colorpickerdialog_tabcustom>
@@ -2377,7 +2399,7 @@
     <WithSpecifiedKeyIsNotFound>"{0}" with the specified key is not found!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Would you like to update now?</WouldYouLikeToUpdateNow>
     <YourTimeSessionHasExpired>Your time session has expired!</YourTimeSessionHasExpired>
-    <YourTrialHasExpired>Your trial has expired.</YourTrialHasExpired>
+    <YourTrialHasExpired>Your trial has expired</YourTrialHasExpired>
     <YourTrialWillExpire>Your trial will expire in {0} days.</YourTrialWillExpire>
     <YouUsingTrialVersion>You are using a trial version!</YouUsingTrialVersion>
   </Notices>
@@ -2477,6 +2499,7 @@
     <ChartAdditionalCategory>Chart Additional</ChartAdditionalCategory>
     <ChartCategory>Chart</ChartCategory>
     <ChartMap>Map</ChartMap>
+    <CommonCategory>Common</CommonCategory>
     <CheckCategory>Check</CheckCategory>
     <ColorsCategory>Colors</ColorsCategory>
     <ColumnsCategory>Columns</ColumnsCategory>
@@ -2696,6 +2719,9 @@
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
+    <StiEmptyCellsAsGap>Gap</StiEmptyCellsAsGap>
+    <StiEmptyCellsAsZero>Zero</StiEmptyCellsAsZero>
+    <StiEmptyCellsAsConnectPointsWithLine>Connect Points with Line</StiEmptyCellsAsConnectPointsWithLine>
     <boolFalse>False</boolFalse>
     <boolTrue>True</boolTrue>
     <BorderStyleFixed3D>Fixed 3D</BorderStyleFixed3D>
@@ -3349,6 +3375,7 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
+    <NoElements>No Elements</NoElements>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
     <Actual>Actual</Actual>
@@ -4070,7 +4097,7 @@
     <SeriesLabelsBorderColor>Series Labels Border Color</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>Series Labels Brush</SeriesLabelsBrush>
     <SeriesLabelsColor>Series Labels Color</SeriesLabelsColor>
-    <SeriesLabelsLineColor>Labels Line Color</SeriesLabelsLineColor>
+    <SeriesLabelsLineColor>Series Labels Line Color</SeriesLabelsLineColor>
     <SeriesLighting>Series Lighting</SeriesLighting>
     <SeriesShowBorder>Series Show Border</SeriesShowBorder>
     <SeriesShowShadow>Series Show Shadow</SeriesShowShadow>

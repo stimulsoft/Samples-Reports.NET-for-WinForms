@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="9">
+      <Categories Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Categories</Alias>
+        <Columns isList="true" count="3">
+          <value>CategoryID,System.Int32</value>
+          <value>CategoryName,System.String</value>
+          <value>Description,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>Demo.Categories</NameInSource>
+      </Categories>
+      <Customers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>CustomerID,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>Demo.Customers</NameInSource>
+      </Customers>
+      <Employees Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Employees</Alias>
+        <Columns isList="true" count="14">
+          <value>EmployeeID,System.Int32</value>
+          <value>LastName,System.String</value>
+          <value>FirstName,System.String</value>
+          <value>Title,System.String</value>
+          <value>BirthDate,System.DateTime</value>
+          <value>HireDate,System.DateTime</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>HomePhone,System.String</value>
+          <value>Notes,System.String</value>
+          <value>ReportsTo,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>Demo.Employees</NameInSource>
+      </Employees>
+      <Order_x0020_Details Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Order Details</Alias>
+        <Columns isList="true" count="5">
+          <value>OrderID,System.Int32</value>
+          <value>ProductID,System.Int32</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>Quantity,System.Int16</value>
+          <value>Discount,System.Single</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Order Details</Name>
+        <NameInSource>Demo.Order Details</NameInSource>
+      </Order_x0020_Details>
+      <Orders Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Orders</Alias>
+        <Columns isList="true" count="14">
+          <value>OrderID,System.Int32</value>
+          <value>CustomerID,System.String</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>OrderDate,System.DateTime</value>
+          <value>RequiredDate,System.DateTime</value>
+          <value>ShippedDate,System.DateTime</value>
+          <value>ShipVia,System.Int32</value>
+          <value>Freight,System.Decimal</value>
+          <value>ShipName,System.String</value>
+          <value>ShipAddress,System.String</value>
+          <value>ShipCity,System.String</value>
+          <value>ShipRegion,System.String</value>
+          <value>ShipPostalCode,System.String</value>
+          <value>ShipCountry,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>Demo.Orders</NameInSource>
+      </Orders>
+      <Products Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Products</Alias>
+        <Columns isList="true" count="7">
+          <value>ProductID,System.Int32</value>
+          <value>ProductName,System.String</value>
+          <value>SupplierID,System.Int32</value>
+          <value>CategoryID,System.Int32</value>
+          <value>QuantityPerUnit,System.String</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>UnitsInStock,System.Int16</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>Demo.Products</NameInSource>
+      </Products>
+      <Shippers Ref="8" type="DataTableSource" isKey="true">
+        <Alias>Shippers</Alias>
+        <Columns isList="true" count="3">
+          <value>ShipperID,System.Int32</value>
+          <value>CompanyName,System.String</value>
+          <value>Phone,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>Demo.Shippers</NameInSource>
+      </Shippers>
+      <Suppliers Ref="9" type="DataTableSource" isKey="true">
+        <Alias>Suppliers</Alias>
+        <Columns isList="true" count="12">
+          <value>SupplierID,System.Int32</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+          <value>HomePage,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>Demo.Suppliers</NameInSource>
+      </Suppliers>
+      <Countries Ref="10" type="DataTableSource" isKey="true">
+        <Alias>Countries</Alias>
+        <Columns isList="true" count="3">
+          <value>CountriesID,System.Int32</value>
+          <value>Flag,System.Byte[]</value>
+          <value>CountryName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Countries</Name>
+        <NameInSource>Demo.Countries</NameInSource>
+      </Countries>
+    </DataSources>
+    <Relations isList="true" count="8">
+      <Employees Ref="11" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ReportsTo</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesEmployees</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Employees>
+      <Products Ref="12" type="DataRelation" isKey="true">
+        <Alias>Products</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>ProductsOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </Products>
+      <Orders Ref="13" type="DataRelation" isKey="true">
+        <Alias>Orders</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>OrdersOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </Orders>
+      <Customers Ref="14" type="DataRelation" isKey="true">
+        <Alias>Customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>CustomersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Customers>
+      <Shippers Ref="15" type="DataRelation" isKey="true">
+        <Alias>Shippers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ShipVia</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>ShippersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ShipperID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Shippers>
+      <Employees Ref="16" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Employees>
+      <Categories Ref="17" type="DataRelation" isKey="true">
+        <Alias>Categories</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>CategoriesProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Categories>
+      <Suppliers Ref="18" type="DataRelation" isKey="true">
+        <Alias>Suppliers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>SuppliersProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </Suppliers>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="19" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <ReportTitleBand1 Ref="20" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,1.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text5 Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,22,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Sales by Country</Text>
+              <TextBrush>SaddleBrown</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="19" />
+          <Parent isRef="19" />
+        </ReportTitleBand1>
+        <CrossTab1 Ref="22" type="Stimulsoft.Report.CrossTab.StiCrossTab" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.2,19,6.4</ClientRectangle>
+          <Components isList="true" count="11">
+            <CrossTab1_ColTotal1 Ref="23" type="Stimulsoft.Report.CrossTab.StiCrossColumnTotal" isKey="true">
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>[255:255:235]</Brush>
+              <ClientRectangle>4.05,0.45,0.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>44f8bf61-84bf-42d7-a35d-47648c394584</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_ColTotal1</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>Total</Text>
+              <TextBrush>Black</TextBrush>
+            </CrossTab1_ColTotal1>
+            <CrossTab1_RowTotal1 Ref="24" type="Stimulsoft.Report.CrossTab.StiCrossRowTotal" isKey="true">
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>[255:255:235]</Brush>
+              <ClientRectangle>0,1.7,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>fad2a4b9-f09f-426f-9273-23ffbd0b8734</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_RowTotal1</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>Total</Text>
+              <TextBrush>Black</TextBrush>
+            </CrossTab1_RowTotal1>
+            <CrossTab1_Row1_Title Ref="25" type="Stimulsoft.Report.CrossTab.StiCrossTitle" isKey="true">
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>PeachPuff</Brush>
+              <ClientRectangle>0,0.45,1.4,0.4</ClientRectangle>
+              <Font>Arial,8,Bold</Font>
+              <Guid>1e71be2f-0c1e-4923-971b-ffecf0fee580</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Row1_Title</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>Year</Text>
+              <TextBrush>[105:68:35]</TextBrush>
+              <TypeOfComponent>Row:CrossTab1_Row1</TypeOfComponent>
+            </CrossTab1_Row1_Title>
+            <CrossTab1_LeftTitle Ref="26" type="Stimulsoft.Report.CrossTab.StiCrossTitle" isKey="true">
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>PeachPuff</Brush>
+              <ClientRectangle>0,0,2.8,0.4</ClientRectangle>
+              <Font>Arial,8,Bold</Font>
+              <Guid>1e6ec509-2973-4607-b730-333a13543827</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_LeftTitle</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>Date</Text>
+              <TextBrush>[105:68:35]</TextBrush>
+              <TypeOfComponent>LeftTitle</TypeOfComponent>
+            </CrossTab1_LeftTitle>
+            <CrossTab1_RowTotal2 Ref="27" type="Stimulsoft.Report.CrossTab.StiCrossRowTotal" isKey="true">
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>[255:255:235]</Brush>
+              <ClientRectangle>1.4,1.3,1.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>dfaf05c6-3500-4a1e-ad0f-6e0d280297c3</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_RowTotal2</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>Total</Text>
+              <TextBrush>Black</TextBrush>
+            </CrossTab1_RowTotal2>
+            <CrossTab1_Row2_Title Ref="28" type="Stimulsoft.Report.CrossTab.StiCrossTitle" isKey="true">
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>PeachPuff</Brush>
+              <ClientRectangle>1.4,0.45,1.4,0.4</ClientRectangle>
+              <Font>Arial,8,Bold</Font>
+              <Guid>ae3a4f36-638b-44a0-b140-30ad69fa9095</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Row2_Title</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>Month</Text>
+              <TextBrush>[105:68:35]</TextBrush>
+              <TypeOfComponent>Row:CrossTab1_Row2</TypeOfComponent>
+            </CrossTab1_Row2_Title>
+            <CrossTab1_Row1 Ref="29" type="Stimulsoft.Report.CrossTab.StiCrossRow" isKey="true">
+              <Alias>OrderDate</Alias>
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>PeachPuff</Brush>
+              <ClientRectangle>0,0.9,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <DisplayValue>{Order_Details.Orders.OrderDate.Year}</DisplayValue>
+              <Font>Arial,8</Font>
+              <Guid>b2042f6f-0b63-4897-8b7e-22a9432f0e10</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Row1</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>OrderDate</Text>
+              <TextBrush>[105:68:35]</TextBrush>
+              <TotalGuid>fad2a4b9-f09f-426f-9273-23ffbd0b8734</TotalGuid>
+              <Value>{Order_Details.Orders.OrderDate.Year}</Value>
+            </CrossTab1_Row1>
+            <CrossTab1_Row2 Ref="30" type="Stimulsoft.Report.CrossTab.StiCrossRow" isKey="true">
+              <Alias>OrderDate</Alias>
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>PeachPuff</Brush>
+              <ClientRectangle>1.4,0.9,1.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <DisplayValue>{Order_Details.Orders.OrderDate.Month}</DisplayValue>
+              <Font>Arial,8</Font>
+              <Guid>2d5f3fbb-961b-4751-b80e-6188c3cba017</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Row2</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>OrderDate</Text>
+              <TextBrush>[105:68:35]</TextBrush>
+              <TotalGuid>dfaf05c6-3500-4a1e-ad0f-6e0d280297c3</TotalGuid>
+              <Value>{Order_Details.Orders.OrderDate.Month}</Value>
+            </CrossTab1_Row2>
+            <CrossTab1_Column1 Ref="31" type="Stimulsoft.Report.CrossTab.StiCrossColumn" isKey="true">
+              <Alias>Country</Alias>
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>PeachPuff</Brush>
+              <ClientRectangle>2.85,0.45,1.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <DisplayValue>{Order_Details.Orders.Customers.Country}</DisplayValue>
+              <Font>Arial,8</Font>
+              <Guid>0386a3eb-829e-4888-8cf6-13738d46c1a9</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Column1</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>Country</Text>
+              <TextBrush>[105:68:35]</TextBrush>
+              <TotalGuid>44f8bf61-84bf-42d7-a35d-47648c394584</TotalGuid>
+              <Value>{Order_Details.Orders.Customers.Country}</Value>
+            </CrossTab1_Column1>
+            <CrossTab1_Sum1 Ref="32" type="Stimulsoft.Report.CrossTab.StiCrossSummary" isKey="true">
+              <Alias>UnitPrice</Alias>
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>2.85,0.9,1.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>128804a7-2aab-4b7a-a41e-49459b3ad10d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Sum1</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>0</Text>
+              <TextBrush>Black</TextBrush>
+              <Value>{Order_Details.UnitPrice * Order_Details.Quantity}</Value>
+            </CrossTab1_Sum1>
+            <CrossTab1_RightTitle Ref="33" type="Stimulsoft.Report.CrossTab.StiCrossTitle" isKey="true">
+              <Border>All;[155:118:85];1;Solid;False;4;Black</Border>
+              <Brush>PeachPuff</Brush>
+              <ClientRectangle>2.85,0,2,0.4</ClientRectangle>
+              <Font>Arial,8,Bold</Font>
+              <Guid>9e4e6c9d-6943-4a5b-b35e-79ef4449a1d6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_RightTitle</Name>
+              <Page isRef="19" />
+              <Parent isRef="22" />
+              <Text>Country</Text>
+              <TextBrush>[105:68:35]</TextBrush>
+              <TypeOfComponent>RightTitle</TypeOfComponent>
+            </CrossTab1_RightTitle>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <CrossTabStyleIndex>2</CrossTabStyleIndex>
+          <DataRelationName />
+          <DataSourceName>Order Details</DataSourceName>
+          <EmptyValue />
+          <Filters isList="true" count="0" />
+          <Name>CrossTab1</Name>
+          <Page isRef="19" />
+          <Parent isRef="19" />
+          <Sort isList="true" count="0" />
+          <Wrap>True</Wrap>
+          <WrapGap>1</WrapGap>
+        </CrossTab1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>71e6f3c9dd884ec59fea9cfad05918bd</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <Page isRef="19" />
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="34" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="35" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Sales by Country</ReportAlias>
+  <ReportChanged>7/27/2007 6:47:21 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\.Reports\CrossTabSalesByCountry.mrt</ReportFile>
+  <ReportGuid>6148e76e95cf4566b5a81a9895ce81e2</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2009.3.600</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

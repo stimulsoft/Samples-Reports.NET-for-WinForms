@@ -72,8 +72,8 @@ namespace Copyrights
             // TODO: Add any constructor code after InitializeComponent call
             //
 
-            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
+            dataSet1.ReadXmlSchema("..\\Data\\Demo.xsd");
+            dataSet1.ReadXml("..\\Data\\Demo.xml");
 
             tbCopyright.Text = "(C) " + DateTime.Now.Year.ToString() + " My Company";
         }
@@ -394,7 +394,7 @@ namespace Copyrights
 		{
 			if (copyrightPosition == Position.Behind)
 			{
-				StiPage page = sender as StiPage;
+				var page = sender as StiPage;
 				DrawCopyright(page, e);
 			}
 
@@ -404,7 +404,7 @@ namespace Copyrights
 		{
 			if (copyrightPosition == Position.Front)
 			{
-				StiPage page = sender as StiPage;
+				var page = sender as StiPage;
 				DrawCopyright(page, e);
 			}
 
@@ -412,11 +412,11 @@ namespace Copyrights
 
 		private static void DrawCopyright(StiPage page, StiPagePaintEventArgs e)
 		{
-			if (e.IsPrinting && (!printer))return;
-			if (e.IsDesigning && (!designer))return;
-			if ((!e.IsDesigning) && (!e.IsPrinting) && (!preview))return;
+			if (e.IsPrinting && (!printer)) return;
+			if (e.IsDesigning && (!designer)) return;
+			if ((!e.IsDesigning) && (!e.IsPrinting) && (!preview)) return;
 
-			Rectangle rect = e.FullRectangle;
+			var rect = e.FullRectangle;
 			if (rectClient)rect = e.ClientRectangle;
 
 			using (Font font = new Font("Arial", 20 * (float)page.Zoom))
@@ -460,11 +460,11 @@ namespace Copyrights
 			if (rbBehind.Checked)copyrightPosition = Position.Behind;
 			else copyrightPosition = Position.Front;
 
-				 if (rbTopLeft.Checked)		copyrightPlace = Place.TopLeft;
-			else if (rbTopRight.Checked)	copyrightPlace = Place.TopRight;
-			else if (rbCenter.Checked)		copyrightPlace = Place.Center;			
-			else if (rbBottomLeft.Checked)	copyrightPlace = Place.BottomLeft;
-			else if (rbBottomRight.Checked)	copyrightPlace = Place.BottomRight;
+            if (rbTopLeft.Checked) copyrightPlace = Place.TopLeft;
+            else if (rbTopRight.Checked) copyrightPlace = Place.TopRight;
+            else if (rbCenter.Checked) copyrightPlace = Place.Center;			
+            else if (rbBottomLeft.Checked) copyrightPlace = Place.BottomLeft;
+            else if (rbBottomRight.Checked) copyrightPlace = Place.BottomRight;
 
 			rectFull = rbRectFull.Checked;
 			rectClient = rbRectClient.Checked;
@@ -478,7 +478,7 @@ namespace Copyrights
 		{
 			FillCopyrightParam();
 			
-			StiReport report = new StiReport();
+			var report = new StiReport();
 			report.RegData(dataSet1);
 			report.Load("..\\Copyrights.mrt");
 			report.Design();
@@ -488,7 +488,7 @@ namespace Copyrights
 		{
 			FillCopyrightParam();
 
-			StiReport report = new StiReport();
+			var report = new StiReport();
 			report.RegData(dataSet1);
 			report.Load("..\\Copyrights.mrt");
 			report.Show();

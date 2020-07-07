@@ -143,18 +143,8 @@ namespace ViewerAndRightToLeft
 
 		private void Form1_Load(object sender, System.EventArgs e)
 		{
-			if (File.Exists("..\\..\\Data\\Demo.xsd"))dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-			else MessageBox.Show("File \"Demo.xsd\" not found");
-
-			if (File.Exists("..\\..\\Data\\Demo.xsd"))dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
-			else MessageBox.Show("File \"Demo.xml\" not found");
-
-			dataSet1.DataSetName = "Demo";
-			stiReport1.RegData(dataSet1);
-			
-			if (File.Exists("..\\..\\Reports\\BookmarksHyperlinks.mrt"))stiReport1.Load("..\\..\\Reports\\BookmarksHyperlinks.mrt");
-			else MessageBox.Show("File \"BookmarksHyperlinks.mrt\" not found");
-			stiReport1.Load("..\\..\\Reports\\BookmarksHyperlinks.mrt");
+			if (File.Exists("..\\BookmarksAndHyperlinks.mrt")) stiReport1.Load("..\\BookmarksAndHyperlinks.mrt");
+			else MessageBox.Show("File \"BookmarksAndHyperlinks.mrt\" not found");
 
 			stiReport1.Render(true);
             stiReport1.Info.Zoom = panel1.Zoom;

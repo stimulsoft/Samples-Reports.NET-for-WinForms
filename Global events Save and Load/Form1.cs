@@ -29,7 +29,7 @@ namespace GlobalEventsSaveAndLoad
             e.Processed = true;
 
             StiReport report = new StiReport();
-            report.Load("..\\..\\Reports\\SimpleList.mrt");
+            report.Load("..\\SimpleList.mrt");
             designerControl1.Report = report;
         }
 

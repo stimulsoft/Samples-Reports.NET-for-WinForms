@@ -50,9 +50,9 @@
     <PreviousPage>Папярэдняя старонка</PreviousPage>
     <PrintContinue>Націсніце кнопку Друк для працягу</PrintContinue>
     <PrintReport>Друкаваць</PrintReport>
-    <PrintToPdf>Друкаваць у PDF</PrintToPdf>
-    <PrintToXps>Друк ў XPS</PrintToXps>
-    <PrintWithoutPreview>Друкаваць без прагляду</PrintWithoutPreview>
+    <PrintToPdf>PDF</PrintToPdf>
+    <PrintToXps>Microsoft XPS</PrintToXps>
+    <PrintWithoutPreview>Друкаваць</PrintWithoutPreview>
     <PrintWithPreview>Друкаваць з праглядам</PrintWithPreview>
     <SaveReport>Захаваць</SaveReport>
     <Subject>Тэма:</Subject>
@@ -180,6 +180,7 @@
     <Gantt>Ганта</Gantt>
     <GridInterlaced>Чаргаванне</GridInterlaced>
     <GridLines>Лініі сеткі</GridLines>
+    <Histogram>Гістаграм</Histogram>
     <LabelAlignment>Выраўнаванне:</LabelAlignment>
     <LabelAlignmentHorizontal>Гарызантальнае:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Вертыкальнае:</LabelAlignmentVertical>
@@ -298,9 +299,9 @@
     <AxesTicksNone>Не</AxesTicksNone>
     <AxesVisible>Паказваць</AxesVisible>
     <AxesXAxis>Вось X</AxesXAxis>
-    <AxesXTopAxis>Верхняя вось X</AxesXTopAxis>
+    <AxesXTopAxis>Вось X верхняя</AxesXTopAxis>
     <AxesYAxis>Вось Y</AxesYAxis>
-    <AxesYRightAxis>Правая вось Y</AxesYRightAxis>
+    <AxesYRightAxis>Вось Y Правая</AxesYRightAxis>
     <CenterLabels>Па цэнтру</CenterLabels>
     <ChangeType>Змяніць тып</ChangeType>
     <GridLines>Лініі сеткі</GridLines>
@@ -648,6 +649,7 @@
     <ColorScale>Колеравая шкала</ColorScale>
     <ColumnInteractions>Узаемадзеянне калонак</ColumnInteractions>
     <CustomFilter>Карыстацкі фільтр ...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>Панэлі індыкатараў не падтрымваюцца ў WPF дызайнеру.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Гістаграма</DataBars>
     <DataFilterGrouping>Дадзеная аперацыя ўжываецца для групоўкі толькі розных калонак.</DataFilterGrouping>
     <DataNotDefined>Дадзеныя не абраны</DataNotDefined>
@@ -808,11 +810,13 @@
     <ButtonAddFolder>Дадаць тэчку</ButtonAddFolder>
     <ButtonCreateDashboard>Стварыць панэль індыкатараў</ButtonCreateDashboard>
     <ButtonCreateReport>Стварыць справаздачу</ButtonCreateReport>
-    <Creator>Рэдактар</Creator>
+    <ChooseYourSkillLevel>выберыце ровень складанасці</ChooseYourSkillLevel>
+    <Creator>Creator</Creator>
     <Developer>Распрацоўнік</Developer>
     <DoYouWantToInstallReports>Вы хочаце ўсталяваць шаблоны справаздач і панэляў індыкатараў?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Давайце ўсталюем нашы прыклады! Яны дапамогуць вам асвоіць працу з нашым прадуктам.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>Калі ласка, адкажыце, хто вы?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Ровень складанасці</SkillLevel>
     <WhoAreYou>Хто Вы?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Аптымальна падыдзе для знаёмства з магчымасцямі дызайнера.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Аптымальна падыдзе для стварэння справаздач і мае патрэбны функцыянал для дызайну.</WhoAreYouCreatorDescription>
@@ -898,6 +902,21 @@
     <ReportCannotBeSaveDueToErrors>Справаздача з памылкамі не можа быць захавана!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' сэрвіс не знойдзены</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Зборкі</Assemblies>
+    <Exception>Вынятак</Exception>
+    <ExceptionReport>Справаздача пра вынятак</ExceptionReport>
+    <Framework>Фрэймўорк</Framework>
+    <General>Асноўныя</General>
+    <Message>Паведамленне</Message>
+    <Number>Нумар</Number>
+    <PleaseEnterDetailedInformation>Калі ласка, увядзіце дэталёвую інфармацыю пра падзеі, якія выклікаюць гэта вынятак.</PleaseEnterDetailedInformation>
+    <SaveToFile>Захаваць у файл</SaveToFile>
+    <SendErrorFailed>Не атрымалася даставіць паведамленне пра абмылу.</SendErrorFailed>
+    <SendErrorSuccess>Паведамленне пра абмылу паспяхова дастаўлена.</SendErrorSuccess>
+    <Source>Крыніца</Source>
+    <StackTrace>Трасаванні стэка</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Дадаць падзельнікі старонак</AddPageBreaks>
     <AllBands>Усе бэнды</AllBands>
@@ -2432,7 +2451,7 @@
     <WithSpecifiedKeyIsNotFound>"{0}" з паказаным ключом не знойдзены!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Вы хочаце абнавіць зараз?</WouldYouLikeToUpdateNow>
     <YourTimeSessionHasExpired>Час сесіі скончыўся!</YourTimeSessionHasExpired>
-    <YourTrialHasExpired>Тэрмін вашай спробавай версіі мінуў.</YourTrialHasExpired>
+    <YourTrialHasExpired>Тэрмін вашай спробавай версіі мінуў</YourTrialHasExpired>
     <YourTrialWillExpire>Тэрмін дзеяння спробавай версіі сцякае цераз {0} дзён.</YourTrialWillExpire>
     <YouUsingTrialVersion>Вы скарыстаеце тэставую версію!</YouUsingTrialVersion>
   </Notices>
@@ -2544,6 +2563,7 @@
     <ColorsCategory>Колеры</ColorsCategory>
     <ColumnsCategory>Калонкі</ColumnsCategory>
     <ComboBoxCategory>Поле са спісам</ComboBoxCategory>
+    <CommonCategory>Агульныя</CommonCategory>
     <ControlCategory>Кіраванне</ControlCategory>
     <ControlsEventsCategory>Падзеі элементаў кіравання</ControlsEventsCategory>
     <CrossTabCategory>Крос-табліца</CrossTabCategory>
@@ -2929,7 +2949,7 @@
     <StiDesignerScaleModeScaling100>100% маштаб</StiDesignerScaleModeScaling100>
     <StiDesignerSpecificationAuto>Вызначаць аўтаматычна</StiDesignerSpecificationAuto>
     <StiDesignerSpecificationBeginner>Я пачатковец</StiDesignerSpecificationBeginner>
-    <StiDesignerSpecificationBICreator>Я рэдактар</StiDesignerSpecificationBICreator>
+    <StiDesignerSpecificationBICreator>Я Creator</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Я распрацоўнік</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>Поўнае</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>Не</StiDisplayNameTypeNone>
@@ -2945,6 +2965,9 @@
     <StiEanSupplementTypeFiveDigit>Пяць лічбаў</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Не</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Дзве лічбы</StiEanSupplementTypeTwoDigit>
+    <StiEmptyCellsAsConnectPointsWithLine>Злучэнне кропак лініяй</StiEmptyCellsAsConnectPointsWithLine>
+    <StiEmptyCellsAsGap>Разрыў</StiEmptyCellsAsGap>
+    <StiEmptyCellsAsZero>Нуль</StiEmptyCellsAsZero>
     <StiEmptySizeModeAlignFooterToBottom>Выраўноўваць падрахунак па ніжнім боку</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>Выраўноўваць падрахунак па верхнім боку</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>Памяншаць вышыню апошняга радка</StiEmptySizeModeDecreaseLastRow>
@@ -3217,10 +3240,10 @@
     <StiSeriesSortTypeArgument>Аргумент</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>Не</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>Значэнне</StiSeriesSortTypeValue>
-    <StiSeriesXAxisBottomXAxis>Ніжняя X вось</StiSeriesXAxisBottomXAxis>
-    <StiSeriesXAxisTopXAxis>Верхняя X вось</StiSeriesXAxisTopXAxis>
-    <StiSeriesYAxisLeftYAxis>Левая вось Y</StiSeriesYAxisLeftYAxis>
-    <StiSeriesYAxisRightYAxis>Правая вось Y</StiSeriesYAxisRightYAxis>
+    <StiSeriesXAxisBottomXAxis>Вось X ніжняя</StiSeriesXAxisBottomXAxis>
+    <StiSeriesXAxisTopXAxis>Вось X верхняя</StiSeriesXAxisTopXAxis>
+    <StiSeriesYAxisLeftYAxis>Вось Y левая</StiSeriesYAxisLeftYAxis>
+    <StiSeriesYAxisRightYAxis>Вось Y правая</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>Уніз</StiShapeDirectionDown>
     <StiShapeDirectionLeft>Налева</StiShapeDirectionLeft>
     <StiShapeDirectionRight>Направа</StiShapeDirectionRight>
@@ -4207,7 +4230,7 @@
     <ShowUpDown>Паказваць уверх уніз</ShowUpDown>
     <ShowValue>Паказваць значэнне</ShowValue>
     <ShowXAxis>Паказваць вось X</ShowXAxis>
-    <ShowYAxis>Паказваць Y вось</ShowYAxis>
+    <ShowYAxis>Паказваць вось Y</ShowYAxis>
     <ShowZeros>Паказваць нулі</ShowZeros>
     <ShrinkFontToFit>Паменшыць шрыфт каб змясціць</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Паменшыць шрыфт каб змясціць мінімальны памер</ShrinkFontToFitMinimumSize>
@@ -4381,9 +4404,9 @@
     <Wrap>Перанос</Wrap>
     <WrapGap>Прамежак пераносу</WrapGap>
     <XAxis>Вось X</XAxis>
-    <XTopAxis>X Вось Верхняя</XTopAxis>
+    <XTopAxis>Вось X Верхняя</XTopAxis>
     <YAxis>Вось Y</YAxis>
-    <YRightAxis>Y Вось Правая</YRightAxis>
+    <YRightAxis>Вось Y Правая</YRightAxis>
     <Zoom>Маштаб</Zoom>
   </PropertyMain>
   <PropertySystemColors>

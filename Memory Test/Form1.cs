@@ -21,21 +21,15 @@ namespace MemoryTest
 
 			InitializeComponent();
 
-            var data = new DataSet();
-            data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            data.ReadXml("..\\..\\Data\\Demo.xml");
-
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("MemoryTest.Master-Detail-Subdetail.mrt"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("MemoryTest.MasterDetailSubdetail.mrt"))
             {
-                report1.RegData(data);
                 report1.Load(stream);
                 report1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV1;
                 report1.Compile();
             }
 
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("MemoryTest.Master-Detail-Subdetail.mrt"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("MemoryTest.MasterDetailSubdetail.mrt"))
             {
-                report2.RegData(data);
                 report2.Load(stream);
                 report2.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
                 report2.Compile();

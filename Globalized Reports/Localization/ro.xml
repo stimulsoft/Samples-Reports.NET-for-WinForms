@@ -50,7 +50,7 @@
     <PreviousPage>Pagina anterioară</PreviousPage>
     <PrintContinue>Apăsaţi Imprimă pentru a continua</PrintContinue>
     <PrintReport>Imprimă</PrintReport>
-    <PrintToPdf>Imprimă PDF</PrintToPdf>
+    <PrintToPdf>PDF</PrintToPdf>
     <PrintToXps>Imprimă către XPS</PrintToXps>
     <PrintWithoutPreview>Imprimă fară previzualizare</PrintWithoutPreview>
     <PrintWithPreview>Imprimă cu previzualizare</PrintWithPreview>
@@ -139,6 +139,8 @@
     <Submit>Trimite</Submit>
     <Test>Test</Test>
     <Up>Sus</Up>
+    <Upgrade>Actualizare</Upgrade>
+    <UpgradeNow>Actualizare Acum</UpgradeNow>
     <Upload>Încarcă</Upload>
     <Waiting>Aşteptare</Waiting>
     <Yes>&amp;Da</Yes>
@@ -180,6 +182,7 @@
     <Gantt>Punte</Gantt>
     <GridInterlaced>Încrucişate</GridInterlaced>
     <GridLines>Linii în grilă</GridLines>
+    <Histogram>Histogramă</Histogram>
     <LabelAlignment>Aliniere:</LabelAlignment>
     <LabelAlignmentHorizontal>Orizontală:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Verticală:</LabelAlignmentVertical>
@@ -272,8 +275,14 @@
     <Strip>Fâşie</Strip>
     <StripsEditorForm>Editor de fâşii</StripsEditorForm>
     <Style>Stil</Style>
+    <Sunburst>Diagramă Sunburst</Sunburst>
     <Treemap>Hartă arbore</Treemap>
+    <TrendLinesEditorForm>Editor Trend Lines</TrendLinesEditorForm>
+    <Waterfall>Cascadă</Waterfall>
   </Chart>
+  <CharterMapEditor>
+    <Characters>Caractere</Characters>
+  </CharterMapEditor>
   <ChartRibbon>
     <Axes>Axe</Axes>
     <AxesArrowStyle>Stil Arrow </AxesArrowStyle>
@@ -352,6 +361,7 @@
     <ButtonDeleteAll>Șterge tot</ButtonDeleteAll>
     <ButtonDesign>Design Raport</ButtonDesign>
     <ButtonLater>Mai târziu</ButtonLater>
+    <ButtonLogInWith>Logare cu {0}</ButtonLogInWith>
     <ButtonLogout>Deconectare</ButtonLogout>
     <ButtonPublish>Publicare</ButtonPublish>
     <ButtonPurchase>Cumpără</ButtonPurchase>
@@ -362,6 +372,7 @@
     <ButtonRun>Execuţie</ButtonRun>
     <ButtonShare>Partajare</ButtonShare>
     <ButtonSignUp>Înscriere</ButtonSignUp>
+    <ButtonSignUpWith>Inscriere cu {0}</ButtonSignUpWith>
     <ButtonSkip>Trece peste</ButtonSkip>
     <ButtonView>Vedere</ButtonView>
     <ButtonWhereUsed>Unde se utilizează?</ButtonWhereUsed>
@@ -461,6 +472,7 @@
     <SaveAsType>Salvare ca tip</SaveAsType>
     <SaveFile>Salvează Fişier</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Salvare raport în Stimulsoft Cloud. Vă rugăm aşteptaţi!</SavingToStimulsoftCloudPleaseWait>
+    <SearchForOnlineTemplates>Căutare șabloane online</SearchForOnlineTemplates>
     <ShareWindowTitleNew>Partajare</ShareWindowTitleNew>
     <ShowAllFiles>Arată Toate Fişierele</ShowAllFiles>
     <ShowNotificationMessages>Afișare mesaje de notificare</ShowNotificationMessages>
@@ -639,6 +651,7 @@
     <ColumnInteractions>Coloana interacțiuni</ColumnInteractions>
     <CustomFilter>&amp;Filtru Customizat...</CustomFilter>
     <DataBars>Bare de date</DataBars>
+    <DataFilterGrouping>Această operație este utilizată doar pentru gruparea diferitelor coloane.</DataFilterGrouping>
     <DataNotDefined>Datele nu sunt definite</DataNotDefined>
     <DateFilters>Filtre de Date</DateFilters>
     <Dimension>Dimensiune</Dimension>
@@ -680,6 +693,7 @@
     <RemoveActions>&amp;Eliminare Acțiuni</RemoveActions>
     <RemoveAllFields>Eliminare Toate Câmpurile</RemoveAllFields>
     <RemoveField>Eliminare Câmp</RemoveField>
+    <RemoveMobileSurface>Eliminare suprafața mobilă</RemoveMobileSurface>
     <ReplaceValues>Înlocuire valori</ReplaceValues>
     <ReportSnapshot>Raport instantaneu</ReportSnapshot>
     <RowsCount>Număr de Rânduri</RowsCount>
@@ -691,12 +705,17 @@
     <SkipFirstRows>Omitere primele rânduri</SkipFirstRows>
     <SortAZ>Sortare de la A la Z</SortAZ>
     <SortLargestToSmallest>Sortare de la cel mai mare la cel mai mic</SortLargestToSmallest>
+    <SortNewestToOldest>Sortare cel mai nou la cel mai vechi</SortNewestToOldest>
+    <SortOldestToNewest>Sortare cel mai vechi la cel mai nou</SortOldestToNewest>
     <SortSmallestToLargest>Sortare de la cel mai mic la cel mai mare</SortSmallestToLargest>
     <SortZA>Sortare de la Z la A</SortZA>
     <Sparklines>Sparkline-uri</Sparklines>
     <StringFilters>Şir de filtre</StringFilters>
     <TransformationHint>Dați clic pe antetul tabelului pentru a aplica sortarea, filtrarea sau modificarea datelor. Această transformare se va aplica numai datelor din acest articol.</TransformationHint>
     <Trend>Tendinţă</Trend>
+    <ViewEditCompilationNotice>Nu puteți edita raportul care are proprietatea „Report.CalculationMode” egală cu valoarea „Compilation”. Vă rugăm să setați acea proprietate la valoarea „Interpretation”</ViewEditCompilationNotice>
+    <ViewModeDesktop>Desktop</ViewModeDesktop>
+    <ViewModeMobile>Mobil</ViewModeMobile>
   </Dashboard>
   <Database>
     <Connection>Conexiune</Connection>
@@ -797,13 +816,20 @@
     <TextNotFound>Textul specificat nu a fost găsit. Text : {0}</TextNotFound>
   </DesignerFx>
   <Desktop>
+    <Beginner>Începător</Beginner>
     <ButtonAddCloud>Adăugare Folder Cloud</ButtonAddCloud>
     <ButtonAddFolder>Adăugare Folder</ButtonAddFolder>
     <ButtonCreateDashboard>Creare Panou de control</ButtonCreateDashboard>
     <ButtonCreateReport>Creare Raport</ButtonCreateReport>
+    <Creator>Creator</Creator>
+    <Developer>Dezvoltator</Developer>
     <DoYouWantToInstallReports>Doriți să instalați șabloane de rapoarte și panouri de control?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Să instalăm proiectele noastre de probă. Va vor ajuta să învățați elementele de bază ale lucrului cu software-ul nostru.</InstallSamplesDesc>
+    <PleaseAnswerWhoAreYou>Vă rugăm, răspundeți cine sunteți?</PleaseAnswerWhoAreYou>
     <WhoAreYou>Cine ești tu?</WhoAreYou>
+    <WhoAreYouBeginnerDescription>Potrivire perfectă dacă faceți prima execuție a designerului.</WhoAreYouBeginnerDescription>
+    <WhoAreYouCreatorDescription>Potrivire perfectă pentru crearea de rapoarte. Funcționalitatea necesară pentru proiectare este disponibilă.</WhoAreYouCreatorDescription>
+    <WhoAreYouDeveloperDescription>Potrivire perfectă pentru crearea de aplicații. Funcționalitate completă pentru designul raportului și componentele de încorporare incluse.</WhoAreYouDeveloperDescription>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Buton</StiButtonControl>
@@ -837,6 +863,8 @@
     <FindWhat>Găseşte:</FindWhat>
     <FromCursor>De la cursor</FromCursor>
     <GotoLine>Salt la linia</GotoLine>
+    <InsertLink>Inserare Link</InsertLink>
+    <InsertSymbol>Inserare Simbol</InsertSymbol>
     <Line>Linia: {0}</Line>
     <LineNumber>Număr linie:</LineNumber>
     <LineNumberIndex>Număr linie ({0} - {1})</LineNumberIndex>
@@ -867,6 +895,7 @@
     <ComponentIsNotRelease>Componenta "{0}" nu este implementată.</ComponentIsNotRelease>
     <ContainerIsNotValidForComponent>Containerul {0} nu este valabil pentru componenta {1}.</ContainerIsNotValidForComponent>
     <DataNotFound>Datele nu au fost gasite.</DataNotFound>
+    <DataNotLoaded>Nu s-au încărcat date.</DataNotLoaded>
     <Error>Eroare!</Error>
     <ErrorsList>Listă de erori</ErrorsList>
     <FieldRequire>Câmpul "{0}" trebuie completat.</FieldRequire>
@@ -1211,6 +1240,7 @@
     <SqlNew>Conexiune nouă SQL</SqlNew>
     <TeradataEdit>Editare Conexiune Teradata</TeradataEdit>
     <TeradataNew>Conexiune Teradata Nouă</TeradataNew>
+    <Token>Token</Token>
     <UniDirectEdit>Editează conexiunea Uni Direct</UniDirectEdit>
     <UniDirectNew>Conexiune nouă Uni Direct</UniDirectNew>
     <Unpin>Eliberare</Unpin>
@@ -2244,12 +2274,16 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ActivationExpiriedBeforeFirstRelease>Abonamentul Stimulsoft Reports.Ultimate a expirat mai devreme decât lansarea primii versiuni a Stimulsoft Server!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>Fișierul de licență nu este corect! Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Contul dvs. este blocat. Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationLockedAccount>
+    <ActivationLockedAccountExt>Contul dvs. este blocat.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>Ați atins numărul maxim de activări. Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxComputersReached>Ați înregistrat deja numărul maxim de calculatoare disponibile pentru abonament.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Serverul pentru activare Stimulsoft nu este disponibil acum! Vă rugăm să încercați din nou mai târziu.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Nu puteți activa această versiune de Stimulsoft Server deoarece abonamentul dvs. a expirat! Conectați-vă la contul dvs. și verificați ce versiune Stimulsoft Server puteți instala și activa.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>A apărut o eroare în timpul activării. Vă rugăm să încercați din nou mai târziu.</ActivationSomeTroublesOccurred>
+    <ActivationTrialExpired>Puteți continua să utilizați Stimulsoft Designer achiziționând software-ul.</ActivationTrialExpired>
     <ActivationUserNameOrPasswordIsWrong>Nume utilizator (e-mail) sau parola greșită!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Tipul dvs. de cont nu permite activarea Stimulsoft Server!</ActivationWrongAccountType>
+    <Alert>Alertă</Alert>
     <AuthAccountCantBeUsedNow>Contul nu poate fi utilizat acum!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>Contul nu este activat încă! Vă rugăm să urmați instrucțiunile trimise in e-mail la înregistrare.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Rolul de utilizator nu poate fi schimbat, deoarece este ultimul administrator în acest spațiu de lucru!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2271,9 +2305,11 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AuthRoleNameAlreadyExists>Rolul denumit "{0}" există deja!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Rolul denumit "{0}" este un rol de sistem!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Un mesaj cu instrucțiuni suplimentare este trimis către "{0}"!</AuthSendMessageWithInstructions>
+    <AuthTokenIsNotCorrect>Token-ul nu este corect!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>V-ați deconectat!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>Numele de utilizator (e-mail) este deja în uz!</AuthUserNameAlreadyExists>
     <AuthUserNameIsNotSpecified>Numele de utilizator (e-mail) nu este specificat!</AuthUserNameIsNotSpecified>
+    <AuthUserNameNotAssociatedWithYourAccount>Nume utilizator (e-mail) {0} nu este asociat cu contul dvs. {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Numele de utilizator (e-mail) sau parola este incorectă!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Numele de utilizator ar trebui să fie similar cu adresa de e-mail!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>Numele spațiului de lucru este deja utilizat!</AuthWorkspaceNameAlreadyInUse>
@@ -2296,10 +2332,13 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ItemCantBeMovedToSpecifiedPlace>Articolul nu poate fi mutat într-un loc specific!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Articolul nu suportă "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key și ToKey sunt egale!</KeyAndToKeyAreEqual>
+    <MaximumComputers>Maxim de calculatoare</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Atenţie! Dimensiunea fișierului pe care încercați să-l adăugați depășește dimensiunea maximă permisă. Doriți să adăugați oricum acest fișier (procesarea rapoartelor se poate încetini semnificativ)?</MessageMaximumFileSizeExceeded>
+    <NewDesignerAvailable>Stimulsoft Designer {0} este disponibil.</NewDesignerAvailable>
     <NewProduct>Un nou produs este adăugat la abonament!</NewProduct>
     <NewVersionsAvailable>Este disponibilă o nouă versiune!</NewVersionsAvailable>
     <NotificationFailed>Rezultatul a eșuat!</NotificationFailed>
+    <NotificationFailedAddFollowingFiles>Nu s-au putut adăuga următoarele fișiere. Au depășit dimensiunea de {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>Fișierele încărcate cu succes.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>Fișierul "{0}" se încarcă.</NotificationFileUploading>
     <NotificationItemDelete>Elementele se șterg.</NotificationItemDelete>
@@ -2341,8 +2380,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <QuotaMaximumDataRowsCountExceeded>Numărul maxim de rânduri dintr-o singură sursă de date a fost depășit.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>S-a depășit dimensiunea maximă a fișierului.</QuotaMaximumFileSizeExceeded>
     <QuotaMaximumItemsCountExceeded>Numărul maxim de elemente a fost depășit.</QuotaMaximumItemsCountExceeded>
+    <QuotaMaximumRefreshCountExceeded>Numărul maxim de actualizari a fost depășit</QuotaMaximumRefreshCountExceeded>
     <QuotaMaximumReportPagesCountExceeded>S-a depășit numărul maxim de pagini raport.</QuotaMaximumReportPagesCountExceeded>
     <QuotaMaximumResourcesCountExceeded>Număr resurse maxime depășit.</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumResourceSizeExceeded>Dimensiunea maximă a resurselor a fost depășită.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>S-a depășit numărul maxim de utilizatori.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>S-a depășit numărul maxim Spații de lucru.</QuotaMaximumWorkspacesCountExceeded>
     <SchedulerCantRunItSelf>Planificatorul nu se poate rula!</SchedulerCantRunItSelf>
@@ -2351,6 +2392,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <SpecifiedItemIsNot>Articolul specificat nu este "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Abonamentul dvs. a expirat!</SubscriptionExpired>
     <SubscriptionExpiredDate>Abonamentul va expira la data de {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredExt>Abonamentul dvs. a expirat. Actualizați-vă abonamentul pentru a obține ultima versiune.</SubscriptionExpiredExt>
     <SubscriptionsOut10>Au mai rămas 10 zile până la expirarea abonamentului!</SubscriptionsOut10>
     <SubscriptionsOut20>Perioada de abonare expiră în 20 de zile!</SubscriptionsOut20>
     <SuccessfullyRenewed>Abonamentul dvs. a fost actualizat cu succes!</SuccessfullyRenewed>
@@ -2365,6 +2407,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <WithSpecifiedKeyIsNotFound>"{0}" cu cheia specificată nu s-a găsit!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Doriți să actualizați acum?</WouldYouLikeToUpdateNow>
     <YourTimeSessionHasExpired>Sesiunea de timp a expirat!</YourTimeSessionHasExpired>
+    <YourTrialHasExpired>Evaluarea dvs. a expirat</YourTrialHasExpired>
+    <YourTrialWillExpire>Evaluarea dvs. va expira în {0} zile.</YourTrialWillExpire>
     <YouUsingTrialVersion>Utilizați o versiune de probă!</YouUsingTrialVersion>
   </Notices>
   <NuGet>
@@ -2478,10 +2522,12 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DisplayCategory>Afişare</DisplayCategory>
     <DuplexDefault>Implicit</DuplexDefault>
     <DuplexSimplex>Simplex</DuplexSimplex>
+    <EngineCategory>Dispozitiv</EngineCategory>
     <ExportCategory>Export</ExportCategory>
     <ExportEventsCategory>Exportă evenimente</ExportEventsCategory>
     <FooterTableCategory>Tabelă Subsol</FooterTableCategory>
     <GaugeCategory>Control Ecartament</GaugeCategory>
+    <GlobalizationCategory>Globalizare</GlobalizationCategory>
     <GridLinesCategory>Linii Grilă</GridLinesCategory>
     <HeaderTableCategory>Tabelă Antet</HeaderTableCategory>
     <HierarchicalCategory>Ierarhic</HierarchicalCategory>
@@ -2546,6 +2592,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ValueHighCategory>Valoare Mare</ValueHighCategory>
     <ValueLowCategory>Valoare Mică</ValueLowCategory>
     <ValueOpenCategory>Valoare Deschidere</ValueOpenCategory>
+    <ViewCategory>Vedere</ViewCategory>
     <WeightCategory>Lăţime</WeightCategory>
     <WinControlCategory>Control Win</WinControlCategory>
     <ZipCodeCategory>Cod Zip</ZipCodeCategory>
@@ -2828,6 +2875,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiChartTitleDockLeft>Stânga</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Dreapta</StiChartTitleDockRight>
     <StiChartTitleDockTop>Sus</StiChartTitleDockTop>
+    <StiChartTrendLineTypeExponential>Exponenţial</StiChartTrendLineTypeExponential>
+    <StiChartTrendLineTypeLinear>Liniar</StiChartTrendLineTypeLinear>
+    <StiChartTrendLineTypeLogarithmic>Logaritmic</StiChartTrendLineTypeLogarithmic>
+    <StiChartTrendLineTypeNone>Nici unul</StiChartTrendLineTypeNone>
     <StiCheckStyleCheck>În carouri</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Dreptunghi Bifat</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Încrucişat</StiCheckStyleCross>
@@ -2861,6 +2912,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiDesignerScaleModeAutomaticScaling>Scalare automată</StiDesignerScaleModeAutomaticScaling>
     <StiDesignerScaleModeScaling100>Scalare 100%</StiDesignerScaleModeScaling100>
     <StiDesignerSpecificationAuto>Determină automat</StiDesignerSpecificationAuto>
+    <StiDesignerSpecificationBeginner>Sunt începător</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>Sunt Creator</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Sunt dezvoltator</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>Complet</StiDisplayNameTypeFull>
@@ -2877,6 +2929,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiEanSupplementTypeFiveDigit>5Cifre</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Niciunul</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>2Cifre</StiEanSupplementTypeTwoDigit>
+    <StiEmptyCellsAsConnectPointsWithLine>Conectați punctele cu linia</StiEmptyCellsAsConnectPointsWithLine>
+    <StiEmptyCellsAsGap>Decalaj</StiEmptyCellsAsGap>
+    <StiEmptyCellsAsZero>Zero</StiEmptyCellsAsZero>
     <StiEmptySizeModeAlignFooterToBottom>Aliniază indice jos cu marginea de jos</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>Aliniază indice jos cu marginea de sus</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>Micşorează ultimul rând</StiEmptySizeModeDecreaseLastRow>
@@ -2931,6 +2986,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiFontIconGroupTransportationIcons>Transport</StiFontIconGroupTransportationIcons>
     <StiFontIconGroupVideoPlayerIcons>Video</StiFontIconGroupVideoPlayerIcons>
     <StiFontIconGroupWebApplicationIcons>Aplicație</StiFontIconGroupWebApplicationIcons>
+    <StiFontSizeModeAuto>Auto</StiFontSizeModeAuto>
+    <StiFontSizeModeTarget>Ţintă</StiFontSizeModeTarget>
+    <StiFontSizeModeValue>Valoare</StiFontSizeModeValue>
     <StiFormStartModeOnEnd>La sfârşit</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>La previzualizare</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>La start</StiFormStartModeOnStart>
@@ -2940,8 +2998,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiGaugeRangeModeValue>Valoare</StiGaugeRangeModeValue>
     <StiGaugeRangeTypeColor>Culoare</StiGaugeRangeTypeColor>
     <StiGaugeRangeTypeNone>Nici unul</StiGaugeRangeTypeNone>
+    <StiGaugeTypeBullet>Glonţ</StiGaugeTypeBullet>
     <StiGaugeTypeFullCircular>Circular complet</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Semicircular</StiGaugeTypeHalfCircular>
+    <StiGaugeTypeHorizontalLinear>Liniar orizontal</StiGaugeTypeHorizontalLinear>
     <StiGaugeTypeLinear>Liniar</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>Crescător</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Descrescător</StiGroupSortDirectionDescending>
@@ -3041,6 +3101,15 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Dublă trecere</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Simplă trecere</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Alb Black Aqua</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
+    <StiOnlineMapHeatmapColorGradientTypeBlueRed>Albastru roșu</StiOnlineMapHeatmapColorGradientTypeBlueRed>
+    <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Spectru de culoare</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
+    <StiOnlineMapHeatmapColorGradientTypeDeepSea>Adâncime mare</StiOnlineMapHeatmapColorGradientTypeDeepSea>
+    <StiOnlineMapHeatmapColorGradientTypeHeatedMetal>Metal încălzit</StiOnlineMapHeatmapColorGradientTypeHeatedMetal>
+    <StiOnlineMapHeatmapColorGradientTypeIncandescent>Incandescent</StiOnlineMapHeatmapColorGradientTypeIncandescent>
+    <StiOnlineMapHeatmapColorGradientTypeSteppedColors>Culorile în trepte</StiOnlineMapHeatmapColorGradientTypeSteppedColors>
+    <StiOnlineMapHeatmapColorGradientTypeSunrise>Răsărit</StiOnlineMapHeatmapColorGradientTypeSunrise>
+    <StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>Spectru vizibil</StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>
     <StiOnlineMapLocationTypeAdminDivision1>DiviziuneAdmin1</StiOnlineMapLocationTypeAdminDivision1>
     <StiOnlineMapLocationTypeAdminDivision2>DiviziuneAdmin2</StiOnlineMapLocationTypeAdminDivision2>
     <StiOnlineMapLocationTypeAuto>Auto</StiOnlineMapLocationTypeAuto>
@@ -3188,6 +3257,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiTableAutoWidthTypeFullTable>Tabelă plină</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Ultimile coloane</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Niciunul</StiTableAutoWidthTypeNone>
+    <StiTargetModePercentage>Procentaj</StiTargetModePercentage>
+    <StiTargetModeVariation>Variație</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Centrat</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Stânga</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Dreapta</StiTextHorAlignmentRight>
@@ -3364,6 +3435,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AllowApplyBrush>Permite aplicarea pensulei</AllowApplyBrush>
     <AllowApplyBrushNegative>Permite Aplicarea Pensulei Negative</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Permite Aplicarea Culorii Negative</AllowApplyColorNegative>
+    <AllowApplyLineColor>Permiteți aplicare culoare linie</AllowApplyLineColor>
     <AllowApplyStyle>Permite aplicarea stilului</AllowApplyStyle>
     <AllowExpressions>Permite Expresii</AllowExpressions>
     <AllowHtmlTags>Permite tag-uri Html </AllowHtmlTags>
@@ -3447,6 +3519,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Brush>Pensulă</Brush>
     <BrushNegative>Pensulă Negativă</BrushNegative>
     <BrushType>Tipul pensulei</BrushType>
+    <BubbleBackColor>Culoare fundal Balon</BubbleBackColor>
+    <BubbleBorderColor>Culoare bordură Balon</BubbleBorderColor>
     <BusinessObject>Element Business Object</BusinessObject>
     <CacheAllData>Ţine toate datele în Cache</CacheAllData>
     <CacheTotals>Arhivă Totaluri</CacheTotals>
@@ -3563,6 +3637,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Description>Descriere</Description>
     <Destination>Destinaţie</Destination>
     <DetectUrls>Detectează Url-uri</DetectUrls>
+    <DeviceWidth>Lățime dispozitiv</DeviceWidth>
     <DialogResult>Rezultat</DialogResult>
     <Diameter>Diametru</Diameter>
     <Direction>Direcţie</Direction>
@@ -3642,6 +3717,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <FontItalic>Stil înclinat</FontItalic>
     <FontName>Numele fontului</FontName>
     <FontSize>Dimensiuni stil caractere</FontSize>
+    <FontSizeMode>Mod Dimensiune font</FontSizeMode>
     <FontStrikeout>Caracter barat</FontStrikeout>
     <FontSubscript>Ca indice jos</FontSubscript>
     <FontSuperscript>Ca indice sus</FontSuperscript>
@@ -3745,6 +3821,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <InfographicsTitle>Titlu</InfographicsTitle>
     <InitBy>Iniţializat de</InitBy>
     <InitialSelection>Selecția inițială</InitialSelection>
+    <InitialSelectionSource>Sursa inițială de selecție</InitialSelectionSource>
     <Insert>Inserează</Insert>
     <Interaction>Interacţiune</Interaction>
     <InterlacedBrush>Pensulă întreţesută</InterlacedBrush>
@@ -3937,10 +4014,12 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <PaperSourceOtherPages>Sursa hârtiei pentru celelalte pagini</PaperSourceOtherPages>
     <Parameter>Parametru</Parameter>
     <Parameters>Parametri</Parameters>
+    <ParametersDateFormat>Parametri Format data</ParametersDateFormat>
     <ParametersOrientation>Parametri Orientare</ParametersOrientation>
     <ParentColumns>Coloane părinte</ParentColumns>
     <ParentSource>Sursa de date părinte</ParentSource>
     <ParentValue>Valoare părinte</ParentValue>
+    <ParetoSeriesColors>Culori seria Pareto</ParetoSeriesColors>
     <PasswordChar>Caracter parolă</PasswordChar>
     <Path>Cale</Path>
     <PathData>Cale Date</PathData>
@@ -4084,6 +4163,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ShortValue>Valoare scurtă</ShortValue>
     <ShowAllValue>Arată Toate Valorile</ShowAllValue>
     <ShowBehind>Afişează în spate</ShowBehind>
+    <ShowBubble>Arată Balon</ShowBubble>
     <ShowDialog>Arată căsuţă</ShowDialog>
     <ShowEdgeValues>Arată valorile marginilor</ShowEdgeValues>
     <ShowImageBehind>Arată imagine fundal</ShowImageBehind>
@@ -4180,6 +4260,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <TagValue>Valoare Tag</TagValue>
     <Target>Ţintă</Target>
     <TargetIcon>Pictograma țintă</TargetIcon>
+    <TargetMode>Mod țintă</TargetMode>
     <Tension>Tensiune</Tension>
     <Text>Text</Text>
     <TextAfter>Text după</TextAfter>
@@ -4224,6 +4305,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <TransparentColor>Culoarea de transparenţă</TransparentColor>
     <TrendLine>Orientare Linie</TrendLine>
     <TrendLineColor>Culoare</TrendLineColor>
+    <TrendLines>Linii tendință</TrendLines>
     <TrendLineShowShadow>Arată Umbră</TrendLineShowShadow>
     <TrimExcessData>Ajustare date excesive</TrimExcessData>
     <Trimming>Scurtare text</Trimming>
@@ -4724,6 +4806,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DefaultThemes>Temele implicite</DefaultThemes>
     <Filters>Filtre</Filters>
     <FromReportTemplate>Din template de raport</FromReportTemplate>
+    <GetData>Obțineți date</GetData>
     <groupCreateNewDashboard>Creare panou control</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Creare pagină nouă sau un formular</groupCreateNewPageOrForm>
     <groupCreateNewReport>Creare raport nou</groupCreateNewReport>
@@ -4770,6 +4853,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Preview>Previzualizare</Preview>
     <Reset>&amp;Resetează</Reset>
     <Results>Rezultate</Results>
+    <RunWizard>Executare Wizard</RunWizard>
     <SelectColumns>Selectează Coloanele</SelectColumns>
     <SelectTemplate>Șablon</SelectTemplate>
     <Sort>Sortare</Sort>
@@ -4777,6 +4861,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Themes>Teme</Themes>
     <title>Raport Nou</title>
     <Totals>Totaluri</Totals>
+    <UseDemoData>Utilizare Date Demo</UseDemoData>
     <UsingReportWizard>Utilizează Wizard de raport</UsingReportWizard>
     <YouHaveNotOpenedAnyReportRecently>Nu ați deschis recent niciun raport. Pentru a alege unul, dați clic pe Deschide Fișier Existent.</YouHaveNotOpenedAnyReportRecently>
   </Wizards>

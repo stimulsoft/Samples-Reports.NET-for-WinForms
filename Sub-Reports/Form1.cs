@@ -31,17 +31,12 @@ namespace SubReports
 		private System.Windows.Forms.CheckBox checkBoxPrintOnPreviousPage;
 		private System.Windows.Forms.CheckBox checkBoxResetPageNumber;
 		
-		DataSet dataSet = new DataSet();
-
 		public Form1()
 		{
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
-
-            dataSet.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            dataSet.ReadXml("..\\..\\Data\\Demo.xml");
 
             InitializeComponent();
         }
@@ -237,7 +232,6 @@ namespace SubReports
             {
                 report.Load(stream);
             }
-			report.RegData(dataSet);
 			return report;
 		}
 
@@ -249,39 +243,39 @@ namespace SubReports
 
 		private void button2_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = GetReport("SimpleList.mrt");
+			var report = GetReport("SimpleList.mrt");
 			report.Design();
 		}
 
 		private void button3_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = GetReport("SimpleGroup.mrt");
+			var report = GetReport("SimpleGroup.mrt");
 			report.Show();
 		}
 
 		private void button4_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = GetReport("SimpleGroup.mrt");
+			var report = GetReport("SimpleGroup.mrt");
 			report.Design();
 		}
 
 		private void button6_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = GetReport("Master-Detail.mrt");
+			var report = GetReport("MasterDetail.mrt");
 			report.Show();
 		}
 
 		private void button5_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = GetReport("Master-Detail.mrt");
+			var report = GetReport("MasterDetail.mrt");
 			report.Design();
 		}
 
 		private void button7_Click(object sender, System.EventArgs e)
 		{
-			StiReport report1 = GetReport("SimpleList.mrt");
-			StiReport report2 = GetReport("SimpleGroup.mrt");
-			StiReport report3 = GetReport("Master-Detail.mrt");
+			var report1 = GetReport("SimpleList.mrt");
+			var report2 = GetReport("SimpleGroup.mrt");
+			var report3 = GetReport("MasterDetail.mrt");
 
 			var report = new StiReport();
 			report.SubReports.Add(report1);

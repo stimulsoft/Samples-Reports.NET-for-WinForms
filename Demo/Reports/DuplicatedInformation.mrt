@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="9">
+      <Categories Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Categories</Alias>
+        <Columns isList="true" count="3">
+          <value>CategoryID,System.Int32</value>
+          <value>CategoryName,System.String</value>
+          <value>Description,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>Demo.Categories</NameInSource>
+      </Categories>
+      <Customers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>CustomerID,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>Demo.Customers</NameInSource>
+      </Customers>
+      <Employees Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Employees</Alias>
+        <Columns isList="true" count="14">
+          <value>EmployeeID,System.Int32</value>
+          <value>LastName,System.String</value>
+          <value>FirstName,System.String</value>
+          <value>Title,System.String</value>
+          <value>BirthDate,System.DateTime</value>
+          <value>HireDate,System.DateTime</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>HomePhone,System.String</value>
+          <value>Notes,System.String</value>
+          <value>ReportsTo,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>Demo.Employees</NameInSource>
+      </Employees>
+      <Order_x0020_Details Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Order Details</Alias>
+        <Columns isList="true" count="5">
+          <value>OrderID,System.Int32</value>
+          <value>ProductID,System.Int32</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>Quantity,System.Int16</value>
+          <value>Discount,System.Single</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Order Details</Name>
+        <NameInSource>Demo.Order Details</NameInSource>
+      </Order_x0020_Details>
+      <Orders Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Orders</Alias>
+        <Columns isList="true" count="14">
+          <value>OrderID,System.Int32</value>
+          <value>CustomerID,System.String</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>OrderDate,System.DateTime</value>
+          <value>RequiredDate,System.DateTime</value>
+          <value>ShippedDate,System.DateTime</value>
+          <value>ShipVia,System.Int32</value>
+          <value>Freight,System.Decimal</value>
+          <value>ShipName,System.String</value>
+          <value>ShipAddress,System.String</value>
+          <value>ShipCity,System.String</value>
+          <value>ShipRegion,System.String</value>
+          <value>ShipPostalCode,System.String</value>
+          <value>ShipCountry,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>Demo.Orders</NameInSource>
+      </Orders>
+      <Products Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Products</Alias>
+        <Columns isList="true" count="7">
+          <value>ProductID,System.Int32</value>
+          <value>ProductName,System.String</value>
+          <value>SupplierID,System.Int32</value>
+          <value>CategoryID,System.Int32</value>
+          <value>QuantityPerUnit,System.String</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>UnitsInStock,System.Int16</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>Demo.Products</NameInSource>
+      </Products>
+      <Shippers Ref="8" type="DataTableSource" isKey="true">
+        <Alias>Shippers</Alias>
+        <Columns isList="true" count="3">
+          <value>ShipperID,System.Int32</value>
+          <value>CompanyName,System.String</value>
+          <value>Phone,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>Demo.Shippers</NameInSource>
+      </Shippers>
+      <Suppliers Ref="9" type="DataTableSource" isKey="true">
+        <Alias>Suppliers</Alias>
+        <Columns isList="true" count="12">
+          <value>SupplierID,System.Int32</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+          <value>HomePage,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>Demo.Suppliers</NameInSource>
+      </Suppliers>
+      <Countries Ref="10" type="DataTableSource" isKey="true">
+        <Alias>Countries</Alias>
+        <Columns isList="true" count="3">
+          <value>CountriesID,System.Int32</value>
+          <value>Flag,System.Byte[]</value>
+          <value>CountryName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Countries</Name>
+        <NameInSource>Demo.Countries</NameInSource>
+      </Countries>
+    </DataSources>
+    <Relations isList="true" count="8">
+      <Employees Ref="11" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ReportsTo</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesEmployees</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Employees>
+      <Products Ref="12" type="DataRelation" isKey="true">
+        <Alias>Products</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>ProductsOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </Products>
+      <Orders Ref="13" type="DataRelation" isKey="true">
+        <Alias>Orders</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>OrdersOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </Orders>
+      <Customers Ref="14" type="DataRelation" isKey="true">
+        <Alias>Customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>CustomersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Customers>
+      <Shippers Ref="15" type="DataRelation" isKey="true">
+        <Alias>Shippers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ShipVia</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>ShippersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ShipperID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Shippers>
+      <Employees Ref="16" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Employees>
+      <Categories Ref="17" type="DataRelation" isKey="true">
+        <Alias>Categories</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>CategoriesProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Categories>
+      <Suppliers Ref="18" type="DataRelation" isKey="true">
+        <Alias>Suppliers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>SuppliersProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </Suppliers>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV1</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="19" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="3">
+        <Container1 Ref="20" type="Container" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>PapayaWhip</Brush>
+          <ClientRectangle>1.2,1.8,11.6,5</ClientRectangle>
+          <Components isList="true" count="1">
+            <DataBand1 Ref="21" type="DataBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <BusinessObjectGuid isNull="true" />
+              <ClientRectangle>0,0.4,11.6,0.6</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text1 Ref="22" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,8.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,14</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text1</Name>
+                  <Page isRef="19" />
+                  <Parent isRef="21" />
+                  <Text>{Categories.CategoryName}</Text>
+                  <TextBrush>Black</TextBrush>
+                </Text1>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataSourceName>Categories</DataSourceName>
+              <Filters isList="true" count="0" />
+              <Name>DataBand1</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Sort isList="true" count="0" />
+            </DataBand1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>Container1</Name>
+          <Page isRef="19" />
+          <Parent isRef="19" />
+        </Container1>
+        <Clone1 Ref="23" type="Clone" isKey="true">
+          <BeforePrintEvent>Categories.First();</BeforePrintEvent>
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Khaki</Brush>
+          <ClientRectangle>1.2,7.2,11.6,5</ClientRectangle>
+          <Container isRef="20" />
+          <Name>Clone1</Name>
+          <Page isRef="19" />
+          <Parent isRef="19" />
+        </Clone1>
+        <Clone2 Ref="24" type="Clone" isKey="true">
+          <BeforePrintEvent>Categories.First();</BeforePrintEvent>
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>PaleGoldenrod</Brush>
+          <ClientRectangle>1.2,12.8,11.6,5</ClientRectangle>
+          <Container isRef="20" />
+          <Name>Clone2</Name>
+          <Page isRef="19" />
+          <Parent isRef="19" />
+        </Clone2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>2f3cd648c58c46d0b3a8edfc4ff51490</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="25" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="26" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>3/18/2011 10:32:46 AM</ReportChanged>
+  <ReportCreated>6/14/2006 5:45:09 PM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\Demo\Bin\Reports\DuplicatedInformation.mrt</ReportFile>
+  <ReportGuid>0e46b475d12f4b97a2ccf3b4722dc6af</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2011.1.921</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

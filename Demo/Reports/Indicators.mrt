@@ -1,0 +1,1692 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="13">
+      <Categories Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Categories</Alias>
+        <Columns isList="true" count="4">
+          <value>CategoryID,System.Int32</value>
+          <value>CategoryName,System.String</value>
+          <value>Description,System.String</value>
+          <value>Picture,System.Byte[]</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>Demo.Categories</NameInSource>
+      </Categories>
+      <Customers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>CustomerID,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>Demo.Customers</NameInSource>
+      </Customers>
+      <Employees Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Employees</Alias>
+        <Columns isList="true" count="17">
+          <value>EmployeeID,System.Int32</value>
+          <value>LastName,System.String</value>
+          <value>FirstName,System.String</value>
+          <value>Title,System.String</value>
+          <value>TitleOfCourtesy,System.String</value>
+          <value>BirthDate,System.DateTime</value>
+          <value>HireDate,System.DateTime</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>HomePhone,System.String</value>
+          <value>Extension,System.String</value>
+          <value>Photo,System.Byte[]</value>
+          <value>Notes,System.String</value>
+          <value>ReportsTo,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>Demo.Employees</NameInSource>
+      </Employees>
+      <Order_x0020_Details Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Order Details</Alias>
+        <Columns isList="true" count="5">
+          <value>OrderID,System.Int32</value>
+          <value>ProductID,System.Int32</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>Quantity,System.Int16</value>
+          <value>Discount,System.Single</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Order Details</Name>
+        <NameInSource>Demo.Order Details</NameInSource>
+      </Order_x0020_Details>
+      <Orders Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Orders</Alias>
+        <Columns isList="true" count="14">
+          <value>OrderID,System.Int32</value>
+          <value>CustomerID,System.String</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>OrderDate,System.DateTime</value>
+          <value>RequiredDate,System.DateTime</value>
+          <value>ShippedDate,System.DateTime</value>
+          <value>ShipVia,System.Int32</value>
+          <value>Freight,System.Decimal</value>
+          <value>ShipName,System.String</value>
+          <value>ShipAddress,System.String</value>
+          <value>ShipCity,System.String</value>
+          <value>ShipRegion,System.String</value>
+          <value>ShipPostalCode,System.String</value>
+          <value>ShipCountry,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>Demo.Orders</NameInSource>
+      </Orders>
+      <Products Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Products</Alias>
+        <Columns isList="true" count="10">
+          <value>ProductID,System.Int32</value>
+          <value>ProductName,System.String</value>
+          <value>SupplierID,System.Int32</value>
+          <value>CategoryID,System.Int32</value>
+          <value>QuantityPerUnit,System.String</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>UnitsInStock,System.Int16</value>
+          <value>UnitsOnOrder,System.Int16</value>
+          <value>ReorderLevel,System.Int16</value>
+          <value>Discontinued,System.Boolean</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>Demo.Products</NameInSource>
+      </Products>
+      <Shippers Ref="8" type="DataTableSource" isKey="true">
+        <Alias>Shippers</Alias>
+        <Columns isList="true" count="3">
+          <value>ShipperID,System.Int32</value>
+          <value>CompanyName,System.String</value>
+          <value>Phone,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>Demo.Shippers</NameInSource>
+      </Shippers>
+      <Suppliers Ref="9" type="DataTableSource" isKey="true">
+        <Alias>Suppliers</Alias>
+        <Columns isList="true" count="12">
+          <value>SupplierID,System.Int32</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+          <value>HomePage,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>Demo.Suppliers</NameInSource>
+      </Suppliers>
+      <Countries Ref="10" type="DataTableSource" isKey="true">
+        <Alias>Countries</Alias>
+        <Columns isList="true" count="3">
+          <value>CountriesID,System.Int32</value>
+          <value>Flag,System.Byte[]</value>
+          <value>CountryName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Countries</Name>
+        <NameInSource>Demo.Countries</NameInSource>
+      </Countries>
+      <States Ref="11" type="DataTableSource" isKey="true">
+        <Alias>States</Alias>
+        <Columns isList="true" count="4">
+          <value>Name,System.String</value>
+          <value>USPS,System.String</value>
+          <value>Population,System.Int32</value>
+          <value>Capital,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>States</Name>
+        <NameInSource>Demo.States</NameInSource>
+      </States>
+      <Auto Ref="12" type="DataTableSource" isKey="true">
+        <Alias>Auto</Alias>
+        <Columns isList="true" count="7">
+          <value>Rank,System.Double</value>
+          <value>Country,System.String</value>
+          <value>Year2009,System.Double</value>
+          <value>Year2005,System.Double</value>
+          <value>Year2000,System.Double</value>
+          <value>Variation20002005,Variation20002005,System.Int32,Auto.Year2005_x0020__x003E__x0020_Auto.Year2000_x0020__x003F__x0020_1_x0020_:_x0020_2</value>
+          <value>Variation20052009,Variation20052009,System.Int32,Auto.Year2009_x0020__x003E__x0020_Auto.Year2005_x0020__x003F__x0020_1_x0020_:_x0020_2</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Auto</Name>
+        <NameInSource>Demo.Auto</NameInSource>
+      </Auto>
+      <GlobalGrowth Ref="13" type="DataTableSource" isKey="true">
+        <Alias>GlobalGrowth</Alias>
+        <Columns isList="true" count="5">
+          <value>Region,System.String</value>
+          <value>Year2006,System.Double</value>
+          <value>Year2007,System.Double</value>
+          <value>Year2008,System.Double</value>
+          <value>Year2009,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>GlobalGrowth</Name>
+        <NameInSource>Demo.GlobalGrowth</NameInSource>
+      </GlobalGrowth>
+      <Opec Ref="14" type="DataTableSource" isKey="true">
+        <Alias>Opec</Alias>
+        <Columns isList="true" count="9">
+          <value>Year,System.Double</value>
+          <value>Iran,System.Double</value>
+          <value>Iraq,System.Double</value>
+          <value>Kuwait,System.Double</value>
+          <value>Saudi_x0020_Arabia,System.Double</value>
+          <value>UAE,System.Double</value>
+          <value>Venezuela,System.Double</value>
+          <value>Libya,System.Double</value>
+          <value>Nigeria,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Opec</Name>
+        <NameInSource>Demo.Opec</NameInSource>
+      </Opec>
+    </DataSources>
+    <Relations isList="true" count="8">
+      <Employees Ref="15" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ReportsTo</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesEmployees</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Employees>
+      <Products Ref="16" type="DataRelation" isKey="true">
+        <Alias>Products</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>ProductsOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </Products>
+      <Orders Ref="17" type="DataRelation" isKey="true">
+        <Alias>Orders</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>OrdersOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </Orders>
+      <Customers Ref="18" type="DataRelation" isKey="true">
+        <Alias>Customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>CustomersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Customers>
+      <Shippers Ref="19" type="DataRelation" isKey="true">
+        <Alias>Shippers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ShipVia</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>ShippersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ShipperID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Shippers>
+      <Employees Ref="20" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Employees>
+      <Categories Ref="21" type="DataRelation" isKey="true">
+        <Alias>Categories</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>CategoriesProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Categories>
+      <Suppliers Ref="22" type="DataRelation" isKey="true">
+        <Alias>Suppliers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>SuppliersProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </Suppliers>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="23" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="14">
+        <PageFooterBand2 Ref="24" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.9,19,0.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text5 Ref="25" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.8,0.4,12.2,0.4</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>ef0e7029c2ed4533ac23d67acf672504</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="23" />
+              <Parent isRef="24" />
+              <Text>{PageNofM}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>ad5dd646c93f4256a4c1c8c52f327341</Guid>
+          <Name>PageFooterBand2</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+        </PageFooterBand2>
+        <ReportTitleBand1 Ref="26" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,2</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="27" type="Text" isKey="true">
+              <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.4,0,9.6,0.8</ClientRectangle>
+              <ComponentStyle>Title1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>158431c4baee45fabd4d695df709dcd8</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="23" />
+              <Parent isRef="26" />
+              <Text>Stimulsoft</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="28" type="Text" isKey="true">
+              <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,9.4,0.8</ClientRectangle>
+              <ComponentStyle>Title1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>edbac365b4dd4196b98770062a6f8d75</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="23" />
+              <Parent isRef="26" />
+              <Text>Indicators</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text15 Ref="29" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,1,14.6,0.8</ClientRectangle>
+              <ComponentStyle>Title2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>ee2ee01f40f04a5da7cdd6c89e96b59b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="23" />
+              <Parent isRef="26" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text15>
+            <Text18 Ref="30" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>14.6,1,4.4,0.8</ClientRectangle>
+              <ComponentStyle>Title2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>6948a939cfd643bf86bd246673de031a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="23" />
+              <Parent isRef="26" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextFormat Ref="31" type="DateFormat" isKey="true">
+                <StringFormat>yyyy, MMMM</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>029be4a6407f4bbeb3ba1fc6641f7369</Guid>
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+        </ReportTitleBand1>
+        <HeaderBand1 Ref="32" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,3.2,19,0.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text1 Ref="33" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.2,19,0.6</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <Guid>2ddb39158d0f4d45ac1c896464e487ef</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="23" />
+              <Parent isRef="32" />
+              <Text>Data Bar Condition</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <PrintOnAllPages>False</PrintOnAllPages>
+        </HeaderBand1>
+        <HeaderBand2 Ref="34" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,4.8,19,0.6</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text12 Ref="35" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>12.4,0,3.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="23" />
+              <Parent isRef="34" />
+              <Text>Year 2008</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text11 Ref="36" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>9,0,3.4,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="23" />
+              <Parent isRef="34" />
+              <Text>Year 2007</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text10 Ref="37" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>5.8,0,3.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="23" />
+              <Parent isRef="34" />
+              <Text>Year 2006</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text13 Ref="38" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>15.6,0,3.4,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="23" />
+              <Parent isRef="34" />
+              <Text>Year 2009</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text9 Ref="39" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>0,0,5.8,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="23" />
+              <Parent isRef="34" />
+              <Text>Region</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand2</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+        </HeaderBand2>
+        <DataGlobalGrowth Ref="40" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,6.2,19,0.6</ClientRectangle>
+          <Components isList="true" count="5">
+            <DataGlobalGrowth_Region Ref="41" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,5.8,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataGlobalGrowth_Region</Name>
+              <Page isRef="23" />
+              <Parent isRef="40" />
+              <Text>{GlobalGrowth.Region}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataGlobalGrowth_Region>
+            <DataGlobalGrowth_Year2006 Ref="42" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.8,0,3.2,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>DataBar,GlobalGrowth.Year2006,Gradient,Green,Red,False,DarkGreen,DarkRed,Default,Auto,-10,Auto,10</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataGlobalGrowth_Year2006</Name>
+              <Page isRef="23" />
+              <Parent isRef="40" />
+              <Text>{GlobalGrowth.Year2006}%</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataGlobalGrowth_Year2006>
+            <DataGlobalGrowth_Year2007 Ref="43" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9,0,3.4,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>DataBar,GlobalGrowth.Year2007,Gradient,Green,Red,False,DarkGreen,DarkRed,Default,Auto,-10,Auto,10</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataGlobalGrowth_Year2007</Name>
+              <Page isRef="23" />
+              <Parent isRef="40" />
+              <Text>{GlobalGrowth.Year2007}%</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataGlobalGrowth_Year2007>
+            <DataGlobalGrowth_Year2008 Ref="44" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>12.4,0,3.2,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>DataBar,GlobalGrowth.Year2008,Gradient,Green,Red,False,DarkGreen,DarkRed,Default,Auto,-10,Auto,10</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataGlobalGrowth_Year2008</Name>
+              <Page isRef="23" />
+              <Parent isRef="40" />
+              <Text>{GlobalGrowth.Year2008}%</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataGlobalGrowth_Year2008>
+            <DataGlobalGrowth_Year2009 Ref="45" type="Text" isKey="true">
+              <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.6,0,3.4,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>DataBar,GlobalGrowth.Year2009,Gradient,Green,Red,False,DarkGreen,DarkRed,Default,Auto,-10,Auto,10</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataGlobalGrowth_Year2009</Name>
+              <Page isRef="23" />
+              <Parent isRef="40" />
+              <Text>{GlobalGrowth.Year2009}%</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataGlobalGrowth_Year2009>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>GlobalGrowth</DataSourceName>
+          <EvenStyle>Data2</EvenStyle>
+          <Filters isList="true" count="0" />
+          <Name>DataGlobalGrowth</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <Sort isList="true" count="0" />
+        </DataGlobalGrowth>
+        <FooterBand2 Ref="46" type="FooterBand" isKey="true">
+          <Border>Top;[193:152:89];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,7.6,19,0.8</ClientRectangle>
+          <Components isList="true" count="0" />
+          <ComponentStyle>Footer1</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand2</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+        </FooterBand2>
+        <HeaderBand4 Ref="47" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,9.2,19,0.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text3 Ref="48" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.2,19,0.6</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <Guid>6b29f05f00fb419cb89b0cc0df6e0106</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="23" />
+              <Parent isRef="47" />
+              <Text>Color Scale Condition</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>d0860a00b21d492ab162965a694f962f</Guid>
+          <Name>HeaderBand4</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <PrintOnAllPages>False</PrintOnAllPages>
+        </HeaderBand4>
+        <HeaderOpec Ref="49" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.8,19,0.6</ClientRectangle>
+          <Components isList="true" count="9">
+            <HeaderOpec_Year Ref="50" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>0,0,1.4,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_Year</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>Year</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_Year>
+            <HeaderOpec_Iran Ref="51" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>1.4,0,2.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_Iran</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>Iran</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_Iran>
+            <HeaderOpec_Iraq Ref="52" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>3.6,0,2.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_Iraq</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>Iraq</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_Iraq>
+            <HeaderOpec_Kuwait Ref="53" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>5.8,0,2.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_Kuwait</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>Kuwait</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_Kuwait>
+            <HeaderOpec_Saudi_Arabia Ref="54" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>8,0,2.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_Saudi_Arabia</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>Saudi Arabia</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_Saudi_Arabia>
+            <HeaderOpec_UAE Ref="55" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>10.2,0,2.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_UAE</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>UAE</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_UAE>
+            <HeaderOpec_Venezuela Ref="56" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>12.4,0,2.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_Venezuela</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>Venezuela</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_Venezuela>
+            <HeaderOpec_Libya Ref="57" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>14.6,0,2.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_Libya</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>Libya</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_Libya>
+            <HeaderOpec_Nigeria Ref="58" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>16.8,0,2.2,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderOpec_Nigeria</Name>
+              <Page isRef="23" />
+              <Parent isRef="49" />
+              <Text>Nigeria</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderOpec_Nigeria>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderOpec</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+        </HeaderOpec>
+        <DataOpec Ref="59" type="DataBand" isKey="true">
+          <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,12.2,19,0.6</ClientRectangle>
+          <Components isList="true" count="17">
+            <DataOpec_Year Ref="60" type="Text" isKey="true">
+              <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.4,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_Year</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.Year}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_Year>
+            <DataOpec_Iran Ref="61" type="Text" isKey="true">
+              <Border>Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.6,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_Iran</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.Iran}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_Iran>
+            <DataOpec_Iraq Ref="62" type="Text" isKey="true">
+              <Border>Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.8,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_Iraq</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.Iraq}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_Iraq>
+            <DataOpec_Kuwait Ref="63" type="Text" isKey="true">
+              <Border>Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_Kuwait</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.Kuwait}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_Kuwait>
+            <DataOpec_Saudi_Arabia Ref="64" type="Text" isKey="true">
+              <Border>Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9.2,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_Saudi_Arabia</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.Saudi_Arabia}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_Saudi_Arabia>
+            <DataOpec_UAE Ref="65" type="Text" isKey="true">
+              <Border>Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.4,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_UAE</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.UAE}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_UAE>
+            <DataOpec_Venezuela Ref="66" type="Text" isKey="true">
+              <Border>Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.6,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_Venezuela</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.Venezuela}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_Venezuela>
+            <DataOpec_Libya Ref="67" type="Text" isKey="true">
+              <Border>Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.8,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_Libya</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.Libya}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_Libya>
+            <DataOpec_Nigeria Ref="68" type="Text" isKey="true">
+              <Border>Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>18,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataOpec_Nigeria</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <Text>{Opec.Nigeria}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataOpec_Nigeria>
+            <Text4 Ref="69" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.6,0.2,1,0.2</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>ColorScale,Opec.Iran,Color2,Red,Yellow,Green,Auto,0,Auto,50,Auto,100</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <Guid>2044c204d6014b58ab7bba8b22193291</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text6 Ref="70" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.8,0.2,1,0.2</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>ColorScale,Opec.Iraq,Color2,Red,Yellow,Green,Auto,0,Auto,50,Auto,100</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <Guid>3d568cf132ca4de98e26576288c48896</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text7 Ref="71" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6,0.2,1,0.2</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>ColorScale,Opec.Kuwait,Color2,Red,Yellow,Green,Auto,0,Auto,50,Auto,100</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <Guid>2c1224840e8f40e88c15109a8ff6e467</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text8 Ref="72" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>8.2,0.2,1,0.2</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>ColorScale,Opec.Saudi_Arabia,Color2,Red,Yellow,Green,Auto,0,Auto,50,Auto,100</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <Guid>3d50e19a81c04e1daabe8ef92362edda</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text14 Ref="73" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.4,0.2,1,0.2</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>ColorScale,Opec.UAE,Color2,Red,Yellow,Green,Auto,0,Auto,50,Auto,100</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <Guid>d90b1ed8ed1b48919538228e3b80c157</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text16 Ref="74" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>12.6,0.2,1,0.2</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>ColorScale,Opec.Venezuela,Color2,Red,Yellow,Green,Auto,0,Auto,50,Auto,100</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <Guid>ce8459fe6e2b4deaabcb08541e7e1de1</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text17 Ref="75" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>14.8,0.2,1,0.2</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>ColorScale,Opec.Libya,Color2,Red,Yellow,Green,Auto,0,Auto,50,Auto,100</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <Guid>d6274f63100942c7b01d25cf1b4490ca</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text19 Ref="76" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>17,0.2,1,0.2</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>ColorScale,Opec.Nigeria,Color2,Red,Yellow,Green,Auto,0,Auto,50,Auto,100</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <Guid>2103b76883f6481da3a9218703164836</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="23" />
+              <Parent isRef="59" />
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Opec</DataSourceName>
+          <EvenStyle>Data2</EvenStyle>
+          <Filters isList="true" count="0" />
+          <Name>DataOpec</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <Sort isList="true" count="0" />
+        </DataOpec>
+        <FooterBand3 Ref="77" type="FooterBand" isKey="true">
+          <Border>Top;[193:152:89];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,13.6,19,0.6</ClientRectangle>
+          <Components isList="true" count="0" />
+          <ComponentStyle>Footer1</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <Guid>0a417c80ef9a402cbe2729c02c3aa2b6</Guid>
+          <Name>FooterBand3</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+        </FooterBand3>
+        <HeaderBand3 Ref="78" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,15,19,0.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text2 Ref="79" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.2,19,0.6</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <Guid>22e0908897ca4567bc625e917889c09a</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="23" />
+              <Parent isRef="78" />
+              <Text>Icon Set Condition</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>28f94277170e432eab78b49907609f31</Guid>
+          <Name>HeaderBand3</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <PrintOnAllPages>False</PrintOnAllPages>
+        </HeaderBand3>
+        <HeaderAuto Ref="80" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,16.6,19,0.6</ClientRectangle>
+          <Components isList="true" count="5">
+            <HeaderAuto_Rank Ref="81" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>0,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderAuto_Rank</Name>
+              <Page isRef="23" />
+              <Parent isRef="80" />
+              <Text>Rank</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderAuto_Rank>
+            <HeaderAuto_Country Ref="82" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>1,0,6.6,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderAuto_Country</Name>
+              <Page isRef="23" />
+              <Parent isRef="80" />
+              <Text>Country</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderAuto_Country>
+            <HeaderAuto_Year2009 Ref="83" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>15.2,0,3.8,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderAuto_Year2009</Name>
+              <Page isRef="23" />
+              <Parent isRef="80" />
+              <Text>Year 2009</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderAuto_Year2009>
+            <HeaderAuto_Year2005 Ref="84" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>11.4,0,3.8,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderAuto_Year2005</Name>
+              <Page isRef="23" />
+              <Parent isRef="80" />
+              <Text>Year 2005</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderAuto_Year2005>
+            <HeaderAuto_Year2000 Ref="85" type="Text" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>7.6,0,3.8,0.6</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderAuto_Year2000</Name>
+              <Page isRef="23" />
+              <Parent isRef="80" />
+              <Text>Year 2000</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderAuto_Year2000>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderAuto</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+        </HeaderAuto>
+        <DataAuto Ref="86" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,18,19,0.6</ClientRectangle>
+          <Components isList="true" count="5">
+            <DataAuto_Rank Ref="87" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataAuto_Rank</Name>
+              <Page isRef="23" />
+              <Parent isRef="86" />
+              <Text>{Auto.Rank}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataAuto_Rank>
+            <DataAuto_Country Ref="88" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1,0,6.6,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataAuto_Country</Name>
+              <Page isRef="23" />
+              <Parent isRef="86" />
+              <Text>{Auto.Country}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataAuto_Country>
+            <DataAuto_Year2009 Ref="89" type="Text" isKey="true">
+              <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.2,0,3.8,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>IconSet,Auto.Variation20052009,TrafficLightsUnrimmed3,MiddleRight,TriangleRed_x002C_MoreThan_x002C_Value_x002C__x005F_x0031_,TriangleGreen_x002C_MoreThan_x002C_Value_x002C__x005F_x0030_,None_x002C_MoreThan_x002C_Percent_x002C__x005F_x0030_,null,null</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataAuto_Year2009</Name>
+              <Page isRef="23" />
+              <Parent isRef="86" />
+              <Text>{Auto.Year2009}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextFormat Ref="90" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataAuto_Year2009>
+            <DataAuto_Year2005 Ref="91" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.4,0,3.8,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>IconSet,Auto.Variation20002005,ArrowsColored3,MiddleRight,TriangleRed_x002C_MoreThan_x002C_Value_x002C__x005F_x0031_,TriangleGreen_x002C_MoreThan_x002C_Value_x002C__x005F_x0030_,None_x002C_MoreThan_x002C_Percent_x002C__x005F_x0030_,null,null</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataAuto_Year2005</Name>
+              <Page isRef="23" />
+              <Parent isRef="86" />
+              <Text>{Auto.Year2005}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextFormat Ref="92" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataAuto_Year2005>
+            <DataAuto_Year2000 Ref="93" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.6,0,3.8,0.6</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataAuto_Year2000</Name>
+              <Page isRef="23" />
+              <Parent isRef="86" />
+              <Text>{Auto.Year2000}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextFormat Ref="94" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataAuto_Year2000>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Auto</DataSourceName>
+          <EvenStyle>Data2</EvenStyle>
+          <Filters isList="true" count="0" />
+          <Name>DataAuto</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <Sort isList="true" count="0" />
+        </DataAuto>
+        <FooterBand1 Ref="95" type="FooterBand" isKey="true">
+          <Border>Top;[193:152:89];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,19.4,19,0.6</ClientRectangle>
+          <Components isList="true" count="0" />
+          <ComponentStyle>Footer1</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <Guid>f72f58baaa4940b79a87b62443a6bd71</Guid>
+          <Name>FooterBand1</Name>
+          <Page isRef="23" />
+          <Parent isRef="23" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+        </FooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>286dd70aba9b4ab79e5f6f6eedf510b9</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="96" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[100:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="97" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Highlight Condition</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>7/2/2012 1:33:25 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportDescription>This sample shows how to use indicators in the report.</ReportDescription>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\Demo\Bin\Reports\Indicators.mrt</ReportFile>
+  <ReportGuid>733a6219f5ff4f038d47fbbb48e2123f</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2012.2.1312</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Components;
+using Stimulsoft.Base.Drawing;
+
+namespace Reports
+{
+    
+    public class HighlightCondition : Stimulsoft.Report.StiReport
+    {
+        
+		public HighlightCondition()
+        {
+            this.InitializeComponent();
+        }
+        
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="10">
+    <Title1 Ref="98" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,19</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Title1</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Title1>
+    <Title2 Ref="99" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Title2</Name>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Title2>
+    <Header1 Ref="100" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,19</Font>
+      <Name>Header1</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Header2 Ref="101" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,12,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header2</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header2>
+    <Header3 Ref="102" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>[242:234:221]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header3</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header3>
+    <Data1 Ref="103" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Data1</Name>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data1>
+    <Data2 Ref="104" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseFont>False</AllowUseFont>
+      <AllowUseTextBrush>False</AllowUseTextBrush>
+      <AllowUseTextOptions>False</AllowUseTextOptions>
+      <Brush>[240:237:232]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Data2</Name>
+      <TextBrush>Black</TextBrush>
+    </Data2>
+    <Data3 Ref="105" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>[240:237:232]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Data3</Name>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data3>
+    <Footer1 Ref="106" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>Top;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Footer1</Name>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+    <Footer2 Ref="107" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,12,Bold</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer2</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer2>
+  </Styles>
+</StiSerializer>

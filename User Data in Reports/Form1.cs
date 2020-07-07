@@ -174,7 +174,7 @@ namespace UserDataInReports
 			Application.Run(new Form1());
 		}
 
-		private void button1_Click(object sender, System.EventArgs e)
+		private void button1_Click(object sender, EventArgs e)
 		{
 			stiReport1.Load("..\\UserData.mrt");
 			stiReport1.Design();
@@ -182,9 +182,9 @@ namespace UserDataInReports
 
 		private void stiUserData1_GetData(object sender, Stimulsoft.Report.Dictionary.StiUserGetDataEventArgs e)
 		{
-			if (e.ColumnName == "Name")e.Data = assemblys[e.Position].Name;
-			if (e.ColumnName == "ReturnType")e.Data = assemblys[e.Position].ReturnType.Name;
-			if (e.ColumnName == "IsStatic")e.Data = assemblys[e.Position].IsStatic;
+			if (e.ColumnName == "Name") e.Data = assemblys[e.Position].Name;
+			if (e.ColumnName == "ReturnType") e.Data = assemblys[e.Position].ReturnType.Name;
+			if (e.ColumnName == "IsStatic") e.Data = assemblys[e.Position].IsStatic;
 			if (e.ColumnName == "Parameters")
 			{
 				ParameterInfo[] pars = assemblys[e.Position].GetParameters();

@@ -26,20 +26,20 @@ namespace ExportManyFilesToOneBigPDF
             report.RenderedPages.CanUseCacheMode = true;
             report.RenderedPages.CacheMode = true;
             report.RenderedPages.Clear();
+            report.ReportUnit = StiReportUnitType.HundredthsOfInch;
 
             var tempReport = new StiReport();
-            for (int index = 0; index < 1000; index++)
+            for (int index = 0; index < 30; index++)
             {
-                using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ExportManyFilesToOneBigPDF.MasterDetail.mdc"))
+                using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ExportManyFilesToOneBigPDF.MasterDetailSubdetail.mdc"))
                 {
                     tempReport.LoadDocument(stream);
                 }
-                tempReport.ReportUnit = report.ReportUnit;
 
                 foreach (StiPage page in tempReport.RenderedPages)
                 {
                     page.Report = tempReport;
-                    page.Guid = System.Guid.NewGuid().ToString().Replace("-", "");
+                    page.Guid = Guid.NewGuid().ToString().Replace("-", "");
                     report.RenderedPages.Add(page);
                 }
             }

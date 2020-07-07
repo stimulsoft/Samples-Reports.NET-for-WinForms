@@ -20,8 +20,8 @@ namespace CrossTabRuntime
         private void button1_Click(object sender, EventArgs e)
         {
             var data = new DataSet();
-            data.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            data.ReadXml("..\\..\\Data\\Demo.xml");
+            data.ReadXmlSchema("..\\Data\\Demo.xsd");
+            data.ReadXml("..\\Data\\Demo.xml");
 
             var report = new StiReport();
             report.RegData("Demo", data);

@@ -87,7 +87,7 @@ namespace Demo
         private bool blockApplyStyle;
         private MethodInfo[] assemblys;
         private StiWelcomeScreenControl welcomeScreen;
-        private string applicationPath = "..\\..\\";
+        private string applicationPath = "..\\";
         private Hashtable reportsHelper = new Hashtable();
         private Hashtable demoLocalization = new Hashtable();
         private Bitmap videoBitmap = global::Demo.Properties.Resources.Video;

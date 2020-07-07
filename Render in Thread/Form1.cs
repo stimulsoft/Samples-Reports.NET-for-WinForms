@@ -30,16 +30,11 @@ namespace RenderInThread
 
 		private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
 		{
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("RenderInThread.Master-Detail-Subdetail.mrt"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("RenderInThread.MasterDetailSubdetail.mrt"))
             {
                 report.Load(stream);
             }
 
-			DataSet data = new DataSet();
-			data.ReadXmlSchema("..\\..\\Data\\demo.xsd");
-            data.ReadXml("..\\..\\Data\\demo.xml");
-
-			report.RegData(data);
 			report.IsRendered = false;
 			report.Compile();
 			report.CompiledReport.Rendering += new EventHandler(CompiledReport_Rendering);

@@ -50,7 +50,7 @@
     <PreviousPage>Página anterior</PreviousPage>
     <PrintContinue>Clique em imprimir para continuar</PrintContinue>
     <PrintReport>Imprimir</PrintReport>
-    <PrintToPdf>Imprimir para PDF</PrintToPdf>
+    <PrintToPdf>PDF</PrintToPdf>
     <PrintToXps>Imprimir para XPS</PrintToXps>
     <PrintWithoutPreview>Imprimir sem pré-visualização</PrintWithoutPreview>
     <PrintWithPreview>Imprimir com pré-visualização</PrintWithPreview>
@@ -137,6 +137,8 @@
     <Submit>Enviar</Submit>
     <Test>Testar</Test>
     <Up>Para cima</Up>
+    <Upgrade>Atualizar</Upgrade>
+    <UpgradeNow>Atualizar</UpgradeNow>
     <Upload>Upload</Upload>
     <Waiting>Aguarde</Waiting>
     <Yes>&amp;Sim</Yes>
@@ -178,6 +180,7 @@
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Entrelaçado</GridInterlaced>
     <GridLines>Linhas da grid</GridLines>
+    <Histogram>Histograma</Histogram>
     <LabelAlignment>Alinhamento:</LabelAlignment>
     <LabelAlignmentHorizontal>Horizontal:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Vertical:</LabelAlignmentVertical>
@@ -270,8 +273,14 @@
     <Strip>Faixa</Strip>
     <StripsEditorForm>Formulário de edição de faixas</StripsEditorForm>
     <Style>Style</Style>
+    <Sunburst>Raio de sol</Sunburst>
     <Treemap>Treemap</Treemap>
+    <TrendLinesEditorForm>Editor linha tendencial</TrendLinesEditorForm>
+    <Waterfall>Queda de água</Waterfall>
   </Chart>
+  <CharterMapEditor>
+    <Characters>Caracteres</Characters>
+  </CharterMapEditor>
   <ChartRibbon>
     <Axes>Eixos</Axes>
     <AxesArrowStyle>Estilo da seta</AxesArrowStyle>
@@ -350,6 +359,7 @@
     <ButtonDeleteAll>Delete All</ButtonDeleteAll>
     <ButtonDesign>Design Report</ButtonDesign>
     <ButtonLater>Later</ButtonLater>
+    <ButtonLogInWith>Efetuar log in com {0}</ButtonLogInWith>
     <ButtonLogout>Logout</ButtonLogout>
     <ButtonPublish>Publish</ButtonPublish>
     <ButtonPurchase>Purchase</ButtonPurchase>
@@ -360,6 +370,7 @@
     <ButtonRun>Run</ButtonRun>
     <ButtonShare>Share</ButtonShare>
     <ButtonSignUp>Sign Up</ButtonSignUp>
+    <ButtonSignUpWith>Registar com {0}</ButtonSignUpWith>
     <ButtonSkip>Skip</ButtonSkip>
     <ButtonView>View</ButtonView>
     <ButtonWhereUsed>Where is it used?</ButtonWhereUsed>
@@ -459,6 +470,7 @@
     <SaveAsType>Save as type</SaveAsType>
     <SaveFile>Gravar ficheiro</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Saving the report to Stimulsoft Cloud. Please wait!</SavingToStimulsoftCloudPleaseWait>
+    <SearchForOnlineTemplates>Procurar templates online</SearchForOnlineTemplates>
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Mostrar todos os ficheiros</ShowAllFiles>
     <ShowNotificationMessages>Show Notification Messages</ShowNotificationMessages>
@@ -636,6 +648,7 @@
     <ColumnInteractions>Interações de colunas</ColumnInteractions>
     <CustomFilter>Custom &amp;Filter...</CustomFilter>
     <DataBars>Data Bars</DataBars>
+    <DataFilterGrouping>Esta operação só é usada para agrupar colunas diferentes.</DataFilterGrouping>
     <DataNotDefined>Data is not defined</DataNotDefined>
     <DateFilters>Date Filters</DateFilters>
     <Dimension>Dimension</Dimension>
@@ -677,6 +690,7 @@
     <RemoveActions>R&amp;emove Actions</RemoveActions>
     <RemoveAllFields>Remove All Fields</RemoveAllFields>
     <RemoveField>Remove Field</RemoveField>
+    <RemoveMobileSurface>Remover superficie móvel</RemoveMobileSurface>
     <ReplaceValues>Replace Values</ReplaceValues>
     <ReportSnapshot>Snapshot do relatório</ReportSnapshot>
     <RowsCount>Rows Count</RowsCount>
@@ -688,12 +702,17 @@
     <SkipFirstRows>Skip First Rows</SkipFirstRows>
     <SortAZ>Sort A to Z</SortAZ>
     <SortLargestToSmallest>Sort Largest to Smallest</SortLargestToSmallest>
+    <SortNewestToOldest>Ordenar do mais recente para o mais antigo</SortNewestToOldest>
+    <SortOldestToNewest>Ordenar do mais antigo para o mais recente</SortOldestToNewest>
     <SortSmallestToLargest>Sort Smallest to Largest</SortSmallestToLargest>
     <SortZA>Sort Z to A</SortZA>
     <Sparklines>Sparklines</Sparklines>
     <StringFilters>String Filters</StringFilters>
     <TransformationHint>Click on the table header to apply sorting, filtering or change data. This transformation will be applied only to the data of this item.</TransformationHint>
     <Trend>Trend</Trend>
+    <ViewEditCompilationNotice>Náo pode editar relatórios com a propriedade 'Report.CalculationMode' igual a 'Compilation'. Por favor altere a propriedade para 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewModeDesktop>Desktop</ViewModeDesktop>
+    <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
   <Database>
     <Connection>Ligação</Connection>
@@ -781,13 +800,20 @@
     <TextNotFound>O texto especificado não foi encontrado. texto : {0}</TextNotFound>
   </DesignerFx>
   <Desktop>
+    <Beginner>Principiante</Beginner>
     <ButtonAddCloud>Adicionar pasta na Cloud</ButtonAddCloud>
     <ButtonAddFolder>Adicionar pasta</ButtonAddFolder>
     <ButtonCreateDashboard>Criar dashboard</ButtonCreateDashboard>
     <ButtonCreateReport>Criar relatório</ButtonCreateReport>
+    <Creator>Criador</Creator>
+    <Developer>Programador</Developer>
     <DoYouWantToInstallReports>Deseja instalar templates de relatórios ou dashboards?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Vamos instalar os nossos projetos exemplo. Estes exemplos de projetos irão ajudá-lo a aprender o básico para usar o nosso software.</InstallSamplesDesc>
+    <PleaseAnswerWhoAreYou>Qual o seu nível?</PleaseAnswerWhoAreYou>
     <WhoAreYou>Quem és tu?</WhoAreYou>
+    <WhoAreYouBeginnerDescription>Perfeito para uma introdução ao designer.</WhoAreYouBeginnerDescription>
+    <WhoAreYouCreatorDescription>Perfeito para criar relatórios. Estão disponíveis as funções necessárias de design.</WhoAreYouCreatorDescription>
+    <WhoAreYouDeveloperDescription>Perfeito para criar aplicações. Estão disponíveis as funções completas de design e componentes auxiliares.</WhoAreYouDeveloperDescription>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Botão</StiButtonControl>
@@ -821,6 +847,8 @@
     <FindWhat>Pesquisar:</FindWhat>
     <FromCursor>Desde o cursor</FromCursor>
     <GotoLine>vá para a &amp;linha</GotoLine>
+    <InsertLink>Inserir Link</InsertLink>
+    <InsertSymbol>Inserir Simbolo</InsertSymbol>
     <Line>Linha: {0}</Line>
     <LineNumber>Linha número:</LineNumber>
     <LineNumberIndex>Linha número ({0} - {1})</LineNumberIndex>
@@ -851,6 +879,7 @@
     <ComponentIsNotRelease>Componente "{0}" não libertado.</ComponentIsNotRelease>
     <ContainerIsNotValidForComponent>Recipiente {0} não é válido para componente {1}.</ContainerIsNotValidForComponent>
     <DataNotFound>Dados não encontrados.</DataNotFound>
+    <DataNotLoaded>Nenhuns dados carregados.</DataNotLoaded>
     <Error>Erro!</Error>
     <ErrorsList>Lista de erros</ErrorsList>
     <FieldRequire>Campo "{0}" necessita de ser preenchido.</FieldRequire>
@@ -1195,6 +1224,7 @@
     <SqlNew>Nova conexão SQL</SqlNew>
     <TeradataEdit>Editar conexão Teradata</TeradataEdit>
     <TeradataNew>Nova conexão do Teradata</TeradataNew>
+    <Token>Token</Token>
     <UniDirectEdit>Editar Uni conexão Direta</UniDirectEdit>
     <UniDirectNew>Nova Uni conexão Direta</UniDirectNew>
     <Unpin>Unpin</Unpin>
@@ -2225,12 +2255,16 @@
     <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Server was released!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>License file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
+    <ActivationLockedAccountExt>A sua conta está bloqueada.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxComputersReached>Já registou o número máximo de computadores para a sua subscrição.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
+    <ActivationTrialExpired>Poderá continuar a usar o Stimulsoft Designer se comprar o software.</ActivationTrialExpired>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Server!</ActivationWrongAccountType>
+    <Alert>Alerta</Alert>
     <AuthAccountCantBeUsedNow>The account cannot be used now!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>The account is not activated yet! Please follow the instructions sent to the Email during registration.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>The user role cannot be changed because this is the last administrator user in this workspace!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2252,9 +2286,11 @@
     <AuthRoleNameAlreadyExists>The role with the specified name "{0}" already exists!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>The role with the specified name "{0}" is a system role!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>A message with further instructions is sent to "{0}"!</AuthSendMessageWithInstructions>
+    <AuthTokenIsNotCorrect>Token incorrecto!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>You have logged out!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>The username (Email) is already in use!</AuthUserNameAlreadyExists>
     <AuthUserNameIsNotSpecified>The username (Email) is not specified!</AuthUserNameIsNotSpecified>
+    <AuthUserNameNotAssociatedWithYourAccount>Este username (email) {0} não está associado à sua {1} conta!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>The username (Email) or password is incorrect!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>The username should be similar to the Email address!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>The workspace name is already in use!</AuthWorkspaceNameAlreadyInUse>
@@ -2277,10 +2313,13 @@
     <ItemCantBeMovedToSpecifiedPlace>The item cannot be moved to a specified place!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>The item does not support "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>A Key and ToKey are equal!</KeyAndToKeyAreEqual>
+    <MaximumComputers>Maximo número de computadores</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Attention! The size of the file that you are trying to add exceeds the maximum-allowed size. Do you want to add this file anyway (report processing may slow down significantly)?</MessageMaximumFileSizeExceeded>
+    <NewDesignerAvailable>Stimulsoft Designer {0} está disponível.</NewDesignerAvailable>
     <NewProduct>A new product is added to your subscription!</NewProduct>
     <NewVersionsAvailable>New version available!</NewVersionsAvailable>
     <NotificationFailed>Failed result!</NotificationFailed>
+    <NotificationFailedAddFollowingFiles>Falha ao carregar os seguintes ficheiros. Excederam o limite de {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>The files uploaded successfully.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>The file "{0}" is uploading.</NotificationFileUploading>
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
@@ -2322,8 +2361,10 @@
     <QuotaMaximumDataRowsCountExceeded>Maximum data rows count in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
     <QuotaMaximumItemsCountExceeded>Maximum items count exceeded.</QuotaMaximumItemsCountExceeded>
+    <QuotaMaximumRefreshCountExceeded>Nº de vezes de refresh excedido</QuotaMaximumRefreshCountExceeded>
     <QuotaMaximumReportPagesCountExceeded>Maximum report pages count exceeded.</QuotaMaximumReportPagesCountExceeded>
     <QuotaMaximumResourcesCountExceeded>Maximum resources count exceeded.</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumResourceSizeExceeded>Tamanho máximo do recurso excedido.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Maximum users count exceeded.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximum workspaces count exceeded.</QuotaMaximumWorkspacesCountExceeded>
     <SchedulerCantRunItSelf>The scheduler cannot run itself!</SchedulerCantRunItSelf>
@@ -2332,6 +2373,7 @@
     <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Your subscription has expired!</SubscriptionExpired>
     <SubscriptionExpiredDate>A sua subscrição irá expirar em {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredExt>A sua subscrição expirou. Atualize a sua subscrição para obter a última versão.</SubscriptionExpiredExt>
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -2346,6 +2388,8 @@
     <WithSpecifiedKeyIsNotFound>"{0}" with the specified key is not found!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Would you like to update now?</WouldYouLikeToUpdateNow>
     <YourTimeSessionHasExpired>Your time session has expired!</YourTimeSessionHasExpired>
+    <YourTrialHasExpired>O periodo de demonstração expirou</YourTrialHasExpired>
+    <YourTrialWillExpire>O periodo de demonstração expira daqui a {0} dias.</YourTrialWillExpire>
     <YouUsingTrialVersion>You are using a trial version!</YouUsingTrialVersion>
   </Notices>
   <NuGet>
@@ -2457,10 +2501,12 @@
     <DescriptionCategory>descrição</DescriptionCategory>
     <DesignCategory>Design</DesignCategory>
     <DisplayCategory>Ver</DisplayCategory>
+    <EngineCategory>Motor</EngineCategory>
     <ExportCategory>Exportar</ExportCategory>
     <ExportEventsCategory>Eventos de exportação</ExportEventsCategory>
     <FooterTableCategory>Rodapé da tabela</FooterTableCategory>
     <GaugeCategory>Gauge</GaugeCategory>
+    <GlobalizationCategory>Globalização</GlobalizationCategory>
     <GridLinesCategory>Linhas da grelha</GridLinesCategory>
     <HeaderTableCategory>Cabeçalho da tabela</HeaderTableCategory>
     <HierarchicalCategory>Hierárquico</HierarchicalCategory>
@@ -2510,6 +2556,7 @@
     <ValueHighCategory>Valor Elevado</ValueHighCategory>
     <ValueLowCategory>Valor mais baixo</ValueLowCategory>
     <ValueOpenCategory>Valor Abertura</ValueOpenCategory>
+    <ViewCategory>Vista</ViewCategory>
     <WeightCategory>Peso</WeightCategory>
     <WinControlCategory>Controlos do Windows</WinControlCategory>
     <ZipCodeCategory>Código Postal</ZipCodeCategory>
@@ -2792,6 +2839,10 @@
     <StiChartTitleDockLeft>Esquerda</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Direita</StiChartTitleDockRight>
     <StiChartTitleDockTop>Topo</StiChartTitleDockTop>
+    <StiChartTrendLineTypeExponential>Exponencial</StiChartTrendLineTypeExponential>
+    <StiChartTrendLineTypeLinear>Linear</StiChartTrendLineTypeLinear>
+    <StiChartTrendLineTypeLogarithmic>Logaritmica</StiChartTrendLineTypeLogarithmic>
+    <StiChartTrendLineTypeNone>Nenhum</StiChartTrendLineTypeNone>
     <StiCheckStyleCheck>Conferência</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Marcar retângulo</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Cruz</StiCheckStyleCross>
@@ -2825,6 +2876,7 @@
     <StiDesignerScaleModeAutomaticScaling>Zoom automático</StiDesignerScaleModeAutomaticScaling>
     <StiDesignerScaleModeScaling100>Zoom 100%</StiDesignerScaleModeScaling100>
     <StiDesignerSpecificationAuto>Determinar automaticamente</StiDesignerSpecificationAuto>
+    <StiDesignerSpecificationBeginner>Sou um principiante</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>Sou um analista de BI</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Sou um programador</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>Full</StiDisplayNameTypeFull>
@@ -2841,6 +2893,9 @@
     <StiEanSupplementTypeFiveDigit>Cinco dígitos</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Nenhum</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Dois dígitos</StiEanSupplementTypeTwoDigit>
+    <StiEmptyCellsAsConnectPointsWithLine>Conectar os pontos com linha</StiEmptyCellsAsConnectPointsWithLine>
+    <StiEmptyCellsAsGap>Espaço</StiEmptyCellsAsGap>
+    <StiEmptyCellsAsZero>Zero</StiEmptyCellsAsZero>
     <StiEmptySizeModeAlignFooterToBottom>Alinhar rodapé ao fundo</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>Alinhar cabeçalho ao topo</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>Decrementar última linha</StiEmptySizeModeDecreaseLastRow>
@@ -2895,6 +2950,9 @@
     <StiFontIconGroupTransportationIcons>Transportes</StiFontIconGroupTransportationIcons>
     <StiFontIconGroupVideoPlayerIcons>Video</StiFontIconGroupVideoPlayerIcons>
     <StiFontIconGroupWebApplicationIcons>Aplicação</StiFontIconGroupWebApplicationIcons>
+    <StiFontSizeModeAuto>Auto</StiFontSizeModeAuto>
+    <StiFontSizeModeTarget>Alvo</StiFontSizeModeTarget>
+    <StiFontSizeModeValue>Valor</StiFontSizeModeValue>
     <StiFormStartModeOnEnd>Na extremidade</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>Na visualização</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>No inicio</StiFormStartModeOnStart>
@@ -2904,8 +2962,10 @@
     <StiGaugeRangeModeValue>Valor</StiGaugeRangeModeValue>
     <StiGaugeRangeTypeColor>Cor</StiGaugeRangeTypeColor>
     <StiGaugeRangeTypeNone>Nenhum</StiGaugeRangeTypeNone>
+    <StiGaugeTypeBullet>Marca</StiGaugeTypeBullet>
     <StiGaugeTypeFullCircular>Full Circular</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Half-Circular</StiGaugeTypeHalfCircular>
+    <StiGaugeTypeHorizontalLinear>Linear Horizontal</StiGaugeTypeHorizontalLinear>
     <StiGaugeTypeLinear>Linear</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>Crescente</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Decrescente</StiGroupSortDirectionDescending>
@@ -3005,6 +3065,15 @@
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Dupla passagem</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Passagem única</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Preto Branco Agua</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
+    <StiOnlineMapHeatmapColorGradientTypeBlueRed>Azul Vermelho</StiOnlineMapHeatmapColorGradientTypeBlueRed>
+    <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Espectro de cores</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
+    <StiOnlineMapHeatmapColorGradientTypeDeepSea>Oceano profundo</StiOnlineMapHeatmapColorGradientTypeDeepSea>
+    <StiOnlineMapHeatmapColorGradientTypeHeatedMetal>Metal aquecido</StiOnlineMapHeatmapColorGradientTypeHeatedMetal>
+    <StiOnlineMapHeatmapColorGradientTypeIncandescent>Incandescente</StiOnlineMapHeatmapColorGradientTypeIncandescent>
+    <StiOnlineMapHeatmapColorGradientTypeSteppedColors>Cores graduais</StiOnlineMapHeatmapColorGradientTypeSteppedColors>
+    <StiOnlineMapHeatmapColorGradientTypeSunrise>Nascer do sol</StiOnlineMapHeatmapColorGradientTypeSunrise>
+    <StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>Espectro visivel</StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>
     <StiOnlineMapLocationTypeAdminDivision1>DivisãoAdministrativa1</StiOnlineMapLocationTypeAdminDivision1>
     <StiOnlineMapLocationTypeAdminDivision2>DivisãoAdministrativa2</StiOnlineMapLocationTypeAdminDivision2>
     <StiOnlineMapLocationTypeAuto>Auto</StiOnlineMapLocationTypeAuto>
@@ -3152,6 +3221,8 @@
     <StiTableAutoWidthTypeFullTable>Tabela completa</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Últimas colunas</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Nenhum</StiTableAutoWidthTypeNone>
+    <StiTargetModePercentage>Percentagem</StiTargetModePercentage>
+    <StiTargetModeVariation>Variação</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Centro</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Esquerda</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Direita</StiTextHorAlignmentRight>
@@ -3326,6 +3397,7 @@
     <AllowApplyBrush>Permitir aplicar o pincel de formatação</AllowApplyBrush>
     <AllowApplyBrushNegative>Permitir aplicar escova negativa</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Permitir aplicar negativo colorido</AllowApplyColorNegative>
+    <AllowApplyLineColor>Permitir aplicação de cores nas linhas</AllowApplyLineColor>
     <AllowApplyStyle>Permitir aplicar estilo</AllowApplyStyle>
     <AllowExpressions>Permitir expressões</AllowExpressions>
     <AllowHtmlTags>Permitir Tags Html</AllowHtmlTags>
@@ -3409,6 +3481,8 @@
     <Brush>Preenchimento</Brush>
     <BrushNegative>Escova negativa</BrushNegative>
     <BrushType>Tipo de pincel</BrushType>
+    <BubbleBackColor>Cor de fundo da bolha</BubbleBackColor>
+    <BubbleBorderColor>Cor da linha da bolha</BubbleBorderColor>
     <BusinessObject>Objeto de negócio</BusinessObject>
     <CacheAllData>Colocar em cache todos os dados</CacheAllData>
     <CacheTotals>Os totais da cache</CacheTotals>
@@ -3525,6 +3599,7 @@
     <Description>Descrição</Description>
     <Destination>Destino</Destination>
     <DetectUrls>Detectar URLS</DetectUrls>
+    <DeviceWidth>Comprimento do dispositivo</DeviceWidth>
     <DialogResult>Diálogo do Resultado</DialogResult>
     <Diameter>Diâmetro</Diameter>
     <Direction>Direção</Direction>
@@ -3604,6 +3679,7 @@
     <FontItalic>Itálico</FontItalic>
     <FontName>Nome da fonte</FontName>
     <FontSize>Tamanho da fonte</FontSize>
+    <FontSizeMode>Modo tamanho do tipo de letra</FontSizeMode>
     <FontStrikeout>Riscar</FontStrikeout>
     <FontSubscript>Diminuir tamanho</FontSubscript>
     <FontSuperscript>Aumentar tamanho</FontSuperscript>
@@ -3706,6 +3782,7 @@
     <IndividualColor>Cor Individual</IndividualColor>
     <InitBy>Iniciado por</InitBy>
     <InitialSelection>Seleção inicial</InitialSelection>
+    <InitialSelectionSource>Fonte inicial selecionada</InitialSelectionSource>
     <Insert>Inserir</Insert>
     <Interaction>interação</Interaction>
     <InterlacedBrush>Pincel interlaçado</InterlacedBrush>
@@ -3898,10 +3975,12 @@
     <PaperSourceOtherPages>Origem do papel das outras páginas</PaperSourceOtherPages>
     <Parameter>Parâmetro</Parameter>
     <Parameters>Parâmetros</Parameters>
+    <ParametersDateFormat>Parametros do formato de datas</ParametersDateFormat>
     <ParametersOrientation>Orientação dos parâmetros</ParametersOrientation>
     <ParentColumns>Colunas progenitor</ParentColumns>
     <ParentSource>Fonte de Dados do progenitor</ParentSource>
     <ParentValue>Valor do progenitor</ParentValue>
+    <ParetoSeriesColors>Séries de cores Pareto</ParetoSeriesColors>
     <PasswordChar>Caracter de password</PasswordChar>
     <Path>Caminho</Path>
     <PathData>Caminho dos dados</PathData>
@@ -4045,6 +4124,7 @@
     <ShortValue>Short Value</ShortValue>
     <ShowAllValue>Mostrar todos os valores</ShowAllValue>
     <ShowBehind>Mostrar atrás</ShowBehind>
+    <ShowBubble>Mostrar bolha</ShowBubble>
     <ShowDialog>Mostrar diálogo da visualização</ShowDialog>
     <ShowEdgeValues>Mostrar valores das extremidades</ShowEdgeValues>
     <ShowImageBehind>Mostrar imagem atrás</ShowImageBehind>
@@ -4140,6 +4220,7 @@
     <TagValue>Valor da tag</TagValue>
     <Target>Target</Target>
     <TargetIcon>Icon do Objetivo</TargetIcon>
+    <TargetMode>Modo alvo</TargetMode>
     <Tension>Tensão</Tension>
     <Text>Texto</Text>
     <TextAfter>Texto depois</TextAfter>
@@ -4184,6 +4265,7 @@
     <TransparentColor>Cor transparente</TransparentColor>
     <TrendLine>Linha Trend</TrendLine>
     <TrendLineColor>Cor</TrendLineColor>
+    <TrendLines>Linhas tendenciais</TrendLines>
     <TrendLineShowShadow>Mostrar sombra</TrendLineShowShadow>
     <TrimExcessData>Trim Excess Data</TrimExcessData>
     <Trimming>Trimming</Trimming>
@@ -4685,6 +4767,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <DefaultThemes>Temas padrão</DefaultThemes>
     <Filters>Filtros</Filters>
     <FromReportTemplate>De um modelo de relatório</FromReportTemplate>
+    <GetData>Obter dados</GetData>
     <groupCreateNewDashboard>Create a New Dashboard</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Criar uma nova página ou formulário</groupCreateNewPageOrForm>
     <groupCreateNewReport>Crie um novo relatório</groupCreateNewReport>
@@ -4731,6 +4814,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Preview>Pré-visualizar</Preview>
     <Reset>&amp;Redefinir</Reset>
     <Results>Resultados</Results>
+    <RunWizard>Usar assistente</RunWizard>
     <SelectColumns>Selecione as colunas</SelectColumns>
     <SelectTemplate>Template</SelectTemplate>
     <Sort>Ordenar</Sort>
@@ -4738,6 +4822,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Themes>Temas</Themes>
     <title>Novo relatório</title>
     <Totals>Totais</Totals>
+    <UseDemoData>Usar dados da Demo</UseDemoData>
     <UsingReportWizard>A usar o assistente de relatório</UsingReportWizard>
     <YouHaveNotOpenedAnyReportRecently>Não abrir nenhum relatório recentemente. Para visualizar um relatório, comece por clickar em "Abrir Relatório Existente".</YouHaveNotOpenedAnyReportRecently>
   </Wizards>

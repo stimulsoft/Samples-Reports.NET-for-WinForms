@@ -35,10 +35,10 @@ namespace RuntimeReportCreation
 
 			InitializeComponent();
 
-            if (File.Exists("..\\..\\Data\\Demo.xsd"))dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
+            if (File.Exists("..\\Data\\Demo.xsd")) dataSet1.ReadXmlSchema("..\\Data\\Demo.xsd");
 			else MessageBox.Show("File \"Demo.xsd\" not found");
 
-			if (File.Exists("..\\..\\Data\\Demo.xsd"))dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
+			if (File.Exists("..\\Data\\Demo.xsd")) dataSet1.ReadXml("..\\Data\\Demo.xml");
 			else MessageBox.Show("File \"Demo.xml\" not found");
 
 			dataSet1.DataSetName = "Demo";
@@ -120,7 +120,7 @@ namespace RuntimeReportCreation
 
 		private void button1_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = new StiReport();
+			var report = new StiReport();
 
 			//Add data to datastore
 			report.RegData(dataSet1);
@@ -128,16 +128,16 @@ namespace RuntimeReportCreation
 			//Fill dictionary
 			report.Dictionary.Synchronize();
 
-			StiPage page = report.Pages[0];
+			var page = report.Pages[0];
 
 			//Create HeaderBand
-			StiHeaderBand headerBand = new StiHeaderBand();
+			var headerBand = new StiHeaderBand();
 			headerBand.Height = 0.5;
 			headerBand.Name = "HeaderBand";
 			page.Components.Add(headerBand);
 
 			//Create text on header
-			StiText headerText = new StiText(new RectangleD(0, 0, 5, 0.5));
+			var headerText = new StiText(new RectangleD(0, 0, 5, 0.5));
 			headerText.Text = "CompanyName";
 			headerText.HorAlignment = StiTextHorAlignment.Center;
 			headerText.Name = "HeaderText";
@@ -145,26 +145,26 @@ namespace RuntimeReportCreation
 			headerBand.Components.Add(headerText);
 			
 			//Create Databand
-			StiDataBand dataBand = new StiDataBand();
+			var dataBand = new StiDataBand();
 			dataBand.DataSourceName = "Customers";
 			dataBand.Height = 0.5;
 			dataBand.Name = "DataBand";
 			page.Components.Add(dataBand);
 
 			//Create text
-			StiText dataText = new StiText(new RectangleD(0, 0, 5, 0.5));
+			var dataText = new StiText(new RectangleD(0, 0, 5, 0.5));
 			dataText.Text = "{Line}.{Customers.CompanyName}";
 			dataText.Name = "DataText";
 			dataBand.Components.Add(dataText);
 
 			//Create FooterBand
-			StiFooterBand footerBand = new StiFooterBand();
+			var footerBand = new StiFooterBand();
 			footerBand.Height = 0.5;
 			footerBand.Name = "FooterBand";
 			page.Components.Add(footerBand);
 
 			//Create text on footer
-			StiText footerText = new StiText(new RectangleD(0, 0, 5, 0.5));
+			var footerText = new StiText(new RectangleD(0, 0, 5, 0.5));
 			footerText.Text = "Count - {Count()}";
 			footerText.HorAlignment = StiTextHorAlignment.Right;
 			footerText.Name = "FooterText";

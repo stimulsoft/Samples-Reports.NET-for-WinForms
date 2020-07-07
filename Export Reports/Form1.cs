@@ -16,8 +16,6 @@ namespace Export
 	{
 		private string path = string.Empty;
 
-		DataSet dataSet1 = new DataSet();
-
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.GroupBox groupBox2;
 		private System.Windows.Forms.Button button1;
@@ -48,9 +46,6 @@ namespace Export
             //
 
             lbReports.SelectedIndex = 0;
-            
-            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-			dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
 		}
 
 		/// <summary>
@@ -111,7 +106,7 @@ namespace Export
             this.rbRtf.Name = "rbRtf";
             this.rbRtf.Size = new System.Drawing.Size(208, 44);
             this.rbRtf.TabIndex = 4;
-            this.rbRtf.Text = "Rtf";
+            this.rbRtf.Text = "RTF";
             // 
             // rbTxt
             // 
@@ -119,7 +114,7 @@ namespace Export
             this.rbTxt.Name = "rbTxt";
             this.rbTxt.Size = new System.Drawing.Size(208, 44);
             this.rbTxt.TabIndex = 3;
-            this.rbTxt.Text = "Txt";
+            this.rbTxt.Text = "Text";
             // 
             // rbXls
             // 
@@ -127,7 +122,7 @@ namespace Export
             this.rbXls.Name = "rbXls";
             this.rbXls.Size = new System.Drawing.Size(208, 44);
             this.rbXls.TabIndex = 2;
-            this.rbXls.Text = "Xls";
+            this.rbXls.Text = "Excel";
             // 
             // rbHtml
             // 
@@ -135,7 +130,7 @@ namespace Export
             this.rbHtml.Name = "rbHtml";
             this.rbHtml.Size = new System.Drawing.Size(208, 44);
             this.rbHtml.TabIndex = 1;
-            this.rbHtml.Text = "Html";
+            this.rbHtml.Text = "HTML";
             // 
             // rbPdf
             // 
@@ -145,7 +140,7 @@ namespace Export
             this.rbPdf.Size = new System.Drawing.Size(208, 44);
             this.rbPdf.TabIndex = 0;
             this.rbPdf.TabStop = true;
-            this.rbPdf.Text = "Pdf";
+            this.rbPdf.Text = "PDF";
             // 
             // groupBox2
             // 
@@ -163,7 +158,7 @@ namespace Export
             this.lbReports.Items.AddRange(new object[] {
             "SimpleList",
             "SimpleGroup",
-            "Master-Detail",
+            "MasterDetail",
             "Anchors",
             "MultiColumnList"});
             this.lbReports.Location = new System.Drawing.Point(16, 30);
@@ -244,17 +239,15 @@ namespace Export
 
 		private void button1_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = new StiReport();
-			report.RegData(dataSet1);
-
-			report.Load("..\\..\\Reports\\" + (string)lbReports.SelectedItem + ".mrt");
-			report.Render(false);			
+			var report = new StiReport();
+			report.Load("..\\Reports\\" + (string)lbReports.SelectedItem + ".mrt");
+			report.Render(false);
 
 			string file = (string)lbReports.SelectedItem + ".";
 
 			if (rbPdf.Checked)
 			{
-				file += "pdf";				
+				file += "pdf";
 				report.ExportDocument(StiExportFormat.Pdf, file);
 				System.Diagnostics.Process.Start(file);
 			}
@@ -286,10 +279,9 @@ namespace Export
 
 		private void button3_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = new StiReport();
-			report.RegData(dataSet1);
+			var report = new StiReport();
 
-			report.Load("..\\..\\Reports\\" + (string)lbReports.SelectedItem + ".mrt");
+			report.Load("..\\Reports\\" + (string)lbReports.SelectedItem + ".mrt");
 			report.Render();
 			report.Show(true);
 		}

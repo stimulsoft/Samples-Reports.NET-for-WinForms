@@ -17,8 +17,6 @@ namespace ExportRenderedReport
 		private System.Windows.Forms.Button button7;
         private System.ComponentModel.Container components = null;
 		
-		DataSet dataSet = new DataSet();
-
 		public Form1()
 		{
             // How to Activate
@@ -26,8 +24,6 @@ namespace ExportRenderedReport
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
-            dataSet.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-            dataSet.ReadXml("..\\..\\Data\\Demo.xml");
 			InitializeComponent();
         }
 
@@ -59,7 +55,7 @@ namespace ExportRenderedReport
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(180, 129);
+            this.button7.Location = new System.Drawing.Point(190, 129);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(300, 74);
             this.button7.TabIndex = 8;
@@ -99,19 +95,20 @@ namespace ExportRenderedReport
 		private StiReport GetReport(string name)
 		{
 			var report = new StiReport();
-            report.Load("..\\..\\Reports\\" + name);
-            report.RegData(dataSet);
+            report.Load("..\\Reports\\" + name);
             report.Render(false);
+
 			return report;
 		}
 
 		private void button7_Click(object sender, System.EventArgs e)
 		{
-			StiReport report1 = GetReport("SimpleList.mrt");
-            StiReport report2 = GetReport("SimpleGroup.mrt");
-			StiReport report3 = GetReport("Master-Detail.mrt");
+			var report1 = GetReport("SimpleList.mrt");
+            var report2 = GetReport("SimpleGroup.mrt");
+			var report3 = GetReport("MasterDetail.mrt");
 
-            StiReport report = new StiReport();
+            var report = new StiReport();
+            report.ReportUnit = report1.ReportUnit;
             report.Render(false);
             report.RenderedPages.Clear();
             
@@ -129,6 +126,7 @@ namespace ExportRenderedReport
             {
                 report.RenderedPages.Add(page);
             }
+
 			report.ExportDocument(StiExportFormat.Pdf, "d:\\file.pdf");
 		}
 	}

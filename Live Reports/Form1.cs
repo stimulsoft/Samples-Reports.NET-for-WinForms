@@ -40,8 +40,8 @@ namespace LiveReports
             // TODO: Add any constructor code after InitializeComponent call
             //
 
-            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-			dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
+            dataSet1.ReadXmlSchema("..\\Data\\Demo.xsd");
+			dataSet1.ReadXml("..\\Data\\Demo.xml");
 		}
 
 		/// <summary>
@@ -149,7 +149,7 @@ namespace LiveReports
 		/// The main entry point for the application.
 		/// </summary>
 		[STAThread]
-		static void Main() 
+		static void Main()
 		{
 			// Enable HiDPI mode
 			Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
@@ -160,7 +160,7 @@ namespace LiveReports
 
 		private void button1_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = new StiReport();
+			var report = new StiReport();
 			report.RegData(dataSet1);
 
 			report.Load("..\\LiveReports.mrt");
@@ -174,16 +174,17 @@ namespace LiveReports
 
 		private void click(object sender, EventArgs e)
 		{
-			StiComponent comp = sender as StiComponent;
-			string customerID = (string)comp.BookmarkValue;
+			var comp = sender as StiComponent;
+			var customerID = (string)comp.BookmarkValue;
             
 			if (customerID != null)
 			{
-				StiReport report = new StiReport();
+				var report = new StiReport();
 				report.RegData(dataSet1);
 				report.Load("..\\Details.mrt");
-				StiDataBand dataBand = (StiDataBand)report.Pages["Page1"].Components["DataBand1"];
-                StiFilter filter = new StiFilter("{Orders.CustomerID==\"" + customerID + "\"}");
+
+				var dataBand = (StiDataBand)report.Pages["Page1"].Components["DataBand1"];
+                var filter = new StiFilter("{Orders.CustomerID==\"" + customerID + "\"}");
 				dataBand.Filters.Add(filter);
 				report.Show();
 			}
@@ -191,7 +192,7 @@ namespace LiveReports
 
 		private void button2_Click(object sender, System.EventArgs e)
 		{
-			StiReport report = new StiReport();
+			var report = new StiReport();
 			report.RegData(dataSet1);
 			report.Load("..\\LiveReports.mrt");
 			report.Compile();

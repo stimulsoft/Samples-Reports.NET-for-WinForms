@@ -35,19 +35,13 @@ namespace RenderInThread2
 		private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
 		{
             var report = new StiReport();
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("RenderInThread2.Master-Detail-Subdetail.mrt"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("RenderInThread2.MasterDetailSubdetail.mrt"))
             {
                 report.Load(stream);
             }
 
-			DataSet data = new DataSet();
-			data.ReadXmlSchema("..\\..\\Data\\demo.xsd");
-            data.ReadXml("..\\..\\Data\\demo.xml");
-
-			report.RegData(data);
 			report.IsRendered = false;
-			report.Compile();
-            report.CompiledReport.EndRender += new EventHandler(CompiledReport_Rendering);
+            report.EndRender += new EventHandler(CompiledReport_Rendering);
             report.Render(false);
 		}
 

@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <Customers Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>CustomerID,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Country,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>Demo.Customers</NameInSource>
+      </Customers>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="3">
+        <PageFooterBand1 Ref="4" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,27.3,19,0.4</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text6 Ref="5" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.8,0,12.2,0.4</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>2bd8b2177cde45d6b995a28d3ab2d64c</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{PageNofM}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>cca0f36e34c44efea111c977c1bc305b</Guid>
+          <Name>PageFooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand1>
+        <ReportTitleBand2 Ref="6" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,2</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="7" type="Text" isKey="true">
+              <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.6,0,4.4,0.8</ClientRectangle>
+              <ComponentStyle>Title1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>7ff0deb9a94b49ba81ee14bd445f9346</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>Stimulsoft</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="8" type="Text" isKey="true">
+              <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,14.6,0.8</ClientRectangle>
+              <ComponentStyle>Title1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>601fe0b7ed9643ae93fbf744506faf59</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>The Table with using FixedWidth property</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text17 Ref="9" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,1,14.6,0.8</ClientRectangle>
+              <ComponentStyle>Title2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>d05efacda147445fa782615c36512c4e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text17>
+            <Text18 Ref="10" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>14.6,1,4.4,0.8</ClientRectangle>
+              <ComponentStyle>Title2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>7a45f7805c874caa96901f87d8ebc8fc</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextFormat Ref="11" type="DateFormat" isKey="true">
+                <StringFormat>yyyy, MMMM</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>8844d6d7cbab4a6aba92643b20a23043</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ReportTitleBand2>
+        <TableCustomers Ref="12" type="Stimulsoft.Report.Components.Table.StiTable" isKey="true">
+          <AutoWidth>Table</AutoWidth>
+          <AutoWidthType>FullTable</AutoWidthType>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,3.2,19,1.6</ClientRectangle>
+          <Components isList="true" count="10">
+            <TableCustomers_Cell1 Ref="13" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>0,0,3.8,0.8</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>0</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell1</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>Company</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell1>
+            <TableCustomers_Cell2 Ref="14" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>3.8,0,3.8,0.8</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>1</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell2</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>Address</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell2>
+            <TableCustomers_Cell3 Ref="15" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>7.6,0,1.6,0.8</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>2</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell3</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>City</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell3>
+            <TableCustomers_Cell4 Ref="16" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>9.2,0,7.8,0.8</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>5</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell4</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>Phone</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell4>
+            <TableCustomers_Cell5 Ref="17" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[242:234:221]</Brush>
+              <ClientRectangle>17,0,2,0.8</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <ID>6</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell5</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>Fax</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell5>
+            <TableCustomers_Cell6 Ref="18" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.8,3.8,0.8</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>_x007B__x0028_Line_x0020__x0025__x0020_2_x0029__x0020__x0021__x003D_1_x007D_,Black,Bisque,Arial_x002C_9_x002C_Regular_x002C_Point_x002C_False_x002C_204,True,False,,Data2,None</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <ID>7</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell6</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Customers.CompanyName}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell6>
+            <TableCustomers_Cell7 Ref="19" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.8,0.8,3.8,0.8</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>_x007B__x0028_Line_x0020__x0025__x0020_2_x0029__x0020__x0021__x003D_1_x007D_,Black,Bisque,Arial_x002C_9_x002C_Regular_x002C_Point_x002C_False_x002C_204,True,False,,Data2,None</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <ID>8</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell7</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Customers.Address}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell7>
+            <TableCustomers_Cell8 Ref="20" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.6,0.8,1.6,0.8</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>_x007B__x0028_Line_x0020__x0025__x0020_2_x0029__x0020__x0021__x003D_1_x007D_,Black,Bisque,Arial_x002C_9_x002C_Regular_x002C_Point_x002C_False_x002C_204,True,False,,Data2,None</value>
+              </Conditions>
+              <FixedWidth>True</FixedWidth>
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <ID>9</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell8</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Customers.City}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell8>
+            <TableCustomers_Cell9 Ref="21" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.2,0.8,7.8,0.8</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>_x007B__x0028_Line_x0020__x0025__x0020_2_x0029__x0020__x0021__x003D_1_x007D_,Black,Bisque,Arial_x002C_9_x002C_Regular_x002C_Point_x002C_False_x002C_204,True,False,,Data2,None</value>
+              </Conditions>
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <ID>12</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell9</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Customers.Phone}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell9>
+            <TableCustomers_Cell10 Ref="22" type="Stimulsoft.Report.Components.Table.StiTableCell" isKey="true">
+              <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17,0.8,2,0.8</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>_x007B__x0028_Line_x0020__x0025__x0020_2_x0029__x0020__x0021__x003D_1_x007D_,Black,Bisque,Arial_x002C_9_x002C_Regular_x002C_Point_x002C_False_x002C_204,True,False,,Data2,None</value>
+              </Conditions>
+              <FixedWidth>True</FixedWidth>
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <ID>13</ID>
+              <JoinCells isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
+              <Name>TableCustomers_Cell10</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+              <Text>{Customers.Fax}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TableCustomers_Cell10>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Customers</DataSourceName>
+          <Filters isList="true" count="0" />
+          <HeaderRowsCount>1</HeaderRowsCount>
+          <MinHeight>0.4</MinHeight>
+          <Name>TableCustomers</Name>
+          <NumberID>14</NumberID>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <RowCount>2</RowCount>
+          <Sort isList="true" count="0" />
+        </TableCustomers>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>366bfdc35bcf48f3aeb38f2b5f58db21</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="23" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100,Bold</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PreviewSettings>33538047</PreviewSettings>
+  <PrinterSettings Ref="24" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Simple List</ReportAlias>
+  <ReportChanged>3/24/2011 3:24:43 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportDescription>This sample demontrates the behavior of the Table component when the FixedWidth property of columns is set to true.</ReportDescription>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\Demo\Bin\Reports\TableFixedColumns.mrt</ReportFile>
+  <ReportGuid>69b4578e47034560a94213c1e3213af0</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2011.1.923</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class SimpleList : Stimulsoft.Report.StiReport
+    {
+        
+		public SimpleList()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="12">
+    <Title1 Ref="25" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Font>Arial,19</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Title1</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Title1>
+    <Title2 Ref="26" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Font>Arial,9</Font>
+      <Name>Title2</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Title2>
+    <Header1 Ref="27" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Font>Arial,19</Font>
+      <Name>Header1</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Header2 Ref="28" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Font>Arial,12,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header2</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header2>
+    <Header3 Ref="29" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseHorAlignment>True</AllowUseHorAlignment>
+      <AllowUseVertAlignment>True</AllowUseVertAlignment>
+      <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>[242:234:221]</Brush>
+      <Font>Arial,9,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header3</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header3>
+    <Header4 Ref="30" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Font>Arial,9,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header4</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header4>
+    <Data1 Ref="31" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Font>Arial,9</Font>
+      <Name>Data1</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data1>
+    <Data2 Ref="32" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseFont>False</AllowUseFont>
+      <AllowUseTextBrush>False</AllowUseTextBrush>
+      <AllowUseTextOptions>False</AllowUseTextOptions>
+      <Brush>[240:237:232]</Brush>
+      <Font>Arial,9</Font>
+      <Name>Data2</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>Black</TextBrush>
+    </Data2>
+    <Data3 Ref="33" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>[240:237:232]</Brush>
+      <Font>Arial,9</Font>
+      <Name>Data3</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data3>
+    <Footer1 Ref="34" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>Top;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Font>Arial,9</Font>
+      <Name>Footer1</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+    <Footer2 Ref="35" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Font>Arial,12,Bold</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer2</Name>
+      <StyleCode>None</StyleCode>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer2>
+    <CrossTab Ref="36" type="Stimulsoft.Report.StiCrossTabStyle" isKey="true">
+      <Color>242, 234, 221</Color>
+      <Name>CrossTab</Name>
+    </CrossTab>
+  </Styles>
+</StiSerializer>

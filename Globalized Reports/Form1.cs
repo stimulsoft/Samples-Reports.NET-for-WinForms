@@ -40,8 +40,8 @@ namespace GlobalizedReport
             // TODO: Add any constructor code after InitializeComponent call
             //
 
-            dataSet1.ReadXmlSchema("..\\..\\Data\\Demo.xsd");
-			dataSet1.ReadXml("..\\..\\Data\\Demo.xml");
+            dataSet1.ReadXmlSchema("..\\Data\\Demo.xsd");
+			dataSet1.ReadXml("..\\Data\\Demo.xml");
 		}
 
 		/// <summary>
