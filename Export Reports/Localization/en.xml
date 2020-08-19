@@ -636,6 +636,7 @@
     <StiRichText>Rich Text</StiRichText>
     <StiRoundedRectanglePrimitive>Rounded Rectangle</StiRoundedRectanglePrimitive>
     <StiShape>Shape</StiShape>
+	<StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-Report</StiSubReport>
     <StiSystemText>System Text</StiSystemText>
     <StiTable>Table</StiTable>
@@ -656,6 +657,7 @@
     <AllowUserDrillDown>Allow User Drill-Down</AllowUserDrillDown>
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
+    <Blank>(Blank)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
     <CannotLoadDashboard>You cannot load a report with dashboards.</CannotLoadDashboard>
@@ -716,6 +718,7 @@
     <RunFieldsEditorInfo>Run the Fields Editor to change interaction of each table column.</RunFieldsEditorInfo>
     <SelectAll>(Select &amp;All)</SelectAll>
     <ShowAllValue>Show (All) Value</ShowAllValue>
+    <ShowBlanks>Show Blanks</ShowBlanks>
     <ShowAsPercentages>Show as Percentages</ShowAsPercentages>
     <SkipFirstRows>Skip First Rows</SkipFirstRows>
     <SortAZ>Sort A to Z</SortAZ>
@@ -1193,6 +1196,8 @@
     <title>Cross-Tab Designer</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+	<AccessToken>Access token</AccessToken>
+	<AuthorizationCode>Authorization Code</AuthorizationCode>
     <ClientId>Client Id</ClientId>
     <ClientSecret>Client Secret</ClientSecret>
     <ConnectionString>Connection String:</ConnectionString>
@@ -1204,6 +1209,8 @@
     <FirebirdEdit>Edit Firebird Connection</FirebirdEdit>
     <FirebirdNew>New Firebird Connection</FirebirdNew>
     <FirstRowIsHeader>First Row is Header</FirstRowIsHeader>
+	<GetAuthorizationCode>Get authorization code</GetAuthorizationCode>
+    <GetTokens>Get tokens</GetTokens>
     <ImportData>Import Data</ImportData>
     <InformixEdit>Edit Informix Connection</InformixEdit>
     <InformixNew>New Informix Connection</InformixNew>
@@ -1230,7 +1237,10 @@
     <PostgreSQLNew>New PostgreSQL Connection</PostgreSQLNew>
     <PromptUserNameAndPassword>Prompt User Name and Password</PromptUserNameAndPassword>
     <RecentConnections>Recent</RecentConnections>
-    <RelationDirection>Relation Direction:</RelationDirection>
+    <RedirectUrl>Redirect URL</RedirectUrl>
+	  <RefreshToken>Refresh token</RefreshToken>
+	  <RefreshAccessToken>Refresh access token</RefreshAccessToken>
+	  <RelationDirection>Relation Direction:</RelationDirection>
     <ReportConnections>Report Connections</ReportConnections>
     <SelectData>Select Data</SelectData>
     <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
@@ -1247,6 +1257,8 @@
     <UniDirectNew>New Uni Direct Connection</UniDirectNew>
     <Unpin>Unpin</Unpin>
     <UseBearerAuthentication>Use Bearer Authentication</UseBearerAuthentication>
+    <UseToken>Use Token</UseToken>
+	  <UseOwnClientID>Use own "Client ID" and "Client Secret"</UseOwnClientID>;
     <VistaDBEdit>Edit VistaDB Connection</VistaDBEdit>
     <VistaDBNew>New VistaDB Connection</VistaDBNew>
     <XmlEdit>Edit XML Data</XmlEdit>
@@ -2509,6 +2521,7 @@
     <CrossTabCategory>Cross-Tab</CrossTabCategory>
     <DashboardCategory>Dashboard</DashboardCategory>
     <DataCategory>Data</DataCategory>
+	<DataCells>Data Cells</DataCells>
     <DatePickerCategory>Date Picker</DatePickerCategory>
     <DescriptionCategory>Description</DescriptionCategory>
     <DesignCategory>Design</DesignCategory>
@@ -4058,6 +4071,7 @@
     <Right>Right</Right>
     <RightSide>Right Side</RightSide>
     <RightToLeft>Right to Left</RightToLeft>
+    <RotationMode>Rotation Mode</RotationMode>
     <Rotation>Rotation</Rotation>
     <RotationLabels>Rotation Labels</RotationLabels>
     <Round>Round</Round>

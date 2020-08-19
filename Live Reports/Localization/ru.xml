@@ -62,21 +62,6 @@
     <TodayDate>Сегодня</TodayDate>
     <WholeReport>Весь отчет</WholeReport>
   </A_WebViewer>
-  <ExceptionProvider>
-    <SendErrorSuccess>Сообщение об ошибке успешно доставлено.</SendErrorSuccess>
-    <SendErrorFailed>Не удалось доставить сообщение об ошибке.</SendErrorFailed>
-    <Exception>Исключение</Exception>
-    <Assemblies>Сборки</Assemblies>
-    <Framework>Фреймворк</Framework>
-    <Message>Сообщение</Message>
-    <General>Основные</General>
-    <Source>Источник</Source>
-    <Number>Номер</Number>
-    <StackTrace>Трассировки стека</StackTrace>
-    <PleaseEnterDetailedInformation>Пожалуйста, введите подробную информацию о событиях, которые вызывают это исключение.</PleaseEnterDetailedInformation>
-    <SaveToFile>Сохранить в файл</SaveToFile>
-    <ExceptionReport>Отчет об исключении</ExceptionReport>
-  </ExceptionProvider>
   <Adapters>
     <AdapterBusinessObjects>Данные из Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Данные из {0}</AdapterConnection>
@@ -365,6 +350,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>Я ознакомился с {0}, {1} и принимаю условия.</AcceptTermsAndPrivacyPolicy>
+    <Account>Аккаунт</Account>
     <AccountSettings>Настройки аккаунта</AccountSettings>
     <AddAPlace>Добавление места</AddAPlace>
     <AreYouSureYouWantDeleteReport>Вы действительно хотите удалить отчет "{0}" с диска?</AreYouSureYouWantDeleteReport>
@@ -636,6 +622,7 @@
     <StiRichText>Rich текст</StiRichText>
     <StiRoundedRectanglePrimitive>Закругленный прямоугольник</StiRoundedRectanglePrimitive>
     <StiShape>Геометрия</StiShape>
+    <StiSparkline>Спарклайн</StiSparkline>
     <StiSubReport>Вложенный отчет</StiSubReport>
     <StiSystemText>Системный текст</StiSystemText>
     <StiTable>Таблица</StiTable>
@@ -653,6 +640,7 @@
     <AllowUserDrillDown>Разрешить пользовательскую детализацию</AllowUserDrillDown>
     <AllowUserFiltering>Разрешить пользовательскую фильтрацию</AllowUserFiltering>
     <AllowUserSorting>Разрешить пользовательскую сортировку</AllowUserSorting>
+    <Blank>(Пустой)</Blank>
     <Blanks>(Пробелы)</Blanks>
     <BooleanFilters>Булевские фильтры</BooleanFilters>
     <CannotLoadDashboard>Не возможно загрузить отчет содержащий панель индикаторов.</CannotLoadDashboard>
@@ -716,6 +704,7 @@
     <SelectAll>(В&amp;ыбрать все)</SelectAll>
     <ShowAllValue>Показывать (Все) элемент</ShowAllValue>
     <ShowAsPercentages>Показать в процентах</ShowAsPercentages>
+    <ShowBlanks>Отобразить пустоты</ShowBlanks>
     <SkipFirstRows>Пропустить первые строки</SkipFirstRows>
     <SortAZ>Сортировка от А до Я</SortAZ>
     <SortLargestToSmallest>Сортировка от максимального к минимальному</SortLargestToSmallest>
@@ -914,6 +903,21 @@
     <ReportCannotBeSaveDueToErrors>Отчет с ошибками не может быть сохранен!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' сервис не найден</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Сборки</Assemblies>
+    <Exception>Исключение</Exception>
+    <ExceptionReport>Отчет об исключении</ExceptionReport>
+    <Framework>Фреймворк</Framework>
+    <General>Основные</General>
+    <Message>Сообщение</Message>
+    <Number>Номер</Number>
+    <PleaseEnterDetailedInformation>Пожалуйста, введите подробную информацию о событиях, которые вызывают это исключение.</PleaseEnterDetailedInformation>
+    <SaveToFile>Сохранить в файл</SaveToFile>
+    <SendErrorFailed>Не удалось доставить сообщение об ошибке.</SendErrorFailed>
+    <SendErrorSuccess>Сообщение об ошибке успешно доставлено.</SendErrorSuccess>
+    <Source>Источник</Source>
+    <StackTrace>Трассировки стека</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Добавить разделители страниц</AddPageBreaks>
     <AllBands>Все бэнды</AllBands>
@@ -1194,6 +1198,8 @@
     <title>Редактор Кросс-Отчета</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>Токен доступа</AccessToken>
+    <AuthorizationCode>Код авторизации</AuthorizationCode>
     <ClientId>Идентификатор клиента</ClientId>
     <ClientSecret>Секрет клиента</ClientSecret>
     <ConnectionString>Строка соединения:</ConnectionString>
@@ -1205,6 +1211,8 @@
     <FirebirdEdit>Изменение Firebird соединения</FirebirdEdit>
     <FirebirdNew>Новое Firebird соединение</FirebirdNew>
     <FirstRowIsHeader>Первая строка это заголовки</FirstRowIsHeader>
+    <GetAuthorizationCode>Получить код авторизации</GetAuthorizationCode>
+    <GetTokens>Получить токен</GetTokens>
     <ImportData>Импорт данных</ImportData>
     <InformixEdit>Изменение Informix соединения</InformixEdit>
     <InformixNew>Новое Informix соединение</InformixNew>
@@ -1231,6 +1239,9 @@
     <PostgreSQLNew>Новое PostgreSQL соединение</PostgreSQLNew>
     <PromptUserNameAndPassword>Запрос имени пользователя и пароля</PromptUserNameAndPassword>
     <RecentConnections>Последние</RecentConnections>
+    <RedirectUrl>URL перенаправления</RedirectUrl>
+    <RefreshAccessToken>Обновить токен доступа</RefreshAccessToken>
+    <RefreshToken>Обновить токен</RefreshToken>
     <RelationDirection>Направление связи:</RelationDirection>
     <ReportConnections>Соединения отчета</ReportConnections>
     <SelectData>Выберите данные</SelectData>
@@ -1248,6 +1259,8 @@
     <UniDirectNew>Новое Uni Direct соединение</UniDirectNew>
     <Unpin>Убрать выбор</Unpin>
     <UseBearerAuthentication>Использовать Bearer аутентификацию</UseBearerAuthentication>
+    <UseOwnClientID>Использовать собственные «Client ID» и «Client Secret»</UseOwnClientID>
+    <UseToken>Использовать токен</UseToken>
     <VistaDBEdit>Изменение VistaDB соединения</VistaDBEdit>
     <VistaDBNew>Новое VistaDB соединение</VistaDBNew>
     <XmlEdit>Изменение XML данных</XmlEdit>
@@ -1547,9 +1560,9 @@
     <ApplyStyleCollectionToReportComponents>Применить коллекцию стилей к компонентам отчета</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Применить стили</ApplyStyles>
     <ColorCollectionEditor>Редактор коллекции цветов</ColorCollectionEditor>
-    <CreateStyleOnBase>Создать стиль на основе другого стиля</CreateStyleOnBase>
     <CreateNewComponentStyle>для создания нового стиля компонента</CreateNewComponentStyle>
     <CreateStyleCollection>Создать коллекцию стилей</CreateStyleCollection>
+    <CreateStyleOnBase>Создать стиль на основе другого стиля</CreateStyleOnBase>
     <CreateStylesCollection>Создать коллекцию стилей</CreateStylesCollection>
     <CreateStylesFromColor>Создать стиль из выбранного цвета</CreateStylesFromColor>
     <Duplicate>Копировать стиль</Duplicate>
@@ -1715,6 +1728,7 @@
     <colorpicker_nofill>Нет заливки</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Стандартные цвета</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Цвета темы</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>&amp;Альфа:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Синий:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Отмена</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Цвета</colorpickerdialog_caption>
@@ -3993,6 +4007,7 @@
     <NewPageAfter>Новая страница после</NewPageAfter>
     <NewPageBefore>Новая страница до</NewPageBefore>
     <NextPage>Следующая страница</NextPage>
+    <NoElements>Нет элементов</NoElements>
     <NoIcon>Нет значка</NoIcon>
     <NullText>Нулевой текст</NullText>
     <NumberOfColumns>Количество колонок</NumberOfColumns>
@@ -4117,6 +4132,7 @@
     <RightToLeft>Справа налево</RightToLeft>
     <Rotation>Поворот</Rotation>
     <RotationLabels>Поворот подписей</RotationLabels>
+    <RotationMode>Режим поворота</RotationMode>
     <Round>Округлость</Round>
     <RoundValues>Округлять значения</RoundValues>
     <RowCount>Количество строк</RowCount>
