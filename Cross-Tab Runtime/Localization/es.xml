@@ -350,6 +350,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>He leído y acepto el {0} y {1}</AcceptTermsAndPrivacyPolicy>
+    <Account>Cuenta</Account>
     <AccountSettings>Opciones de la cuenta</AccountSettings>
     <AddAPlace>Añadir un lugar</AddAPlace>
     <AreYouSureYouWantDeleteReport>¿Está seguro de que desea eliminar el informe "{0}" del disco?</AreYouSureYouWantDeleteReport>
@@ -621,6 +622,7 @@
     <StiRichText>Texto Enriquecido</StiRichText>
     <StiRoundedRectanglePrimitive>Rectángulo Redondeado</StiRoundedRectanglePrimitive>
     <StiShape>Forma</StiShape>
+    <StiSparkline>Minigráfico</StiSparkline>
     <StiSubReport>Subinforme</StiSubReport>
     <StiSystemText>Texto de Sistema</StiSystemText>
     <StiTable>Tabla</StiTable>
@@ -638,6 +640,7 @@
     <AllowUserDrillDown>Permitir que el usuario profundice</AllowUserDrillDown>
     <AllowUserFiltering>Permitir que el usuario filtre</AllowUserFiltering>
     <AllowUserSorting>Permitir que el usuario ordene</AllowUserSorting>
+    <Blank>(EnBlanco)</Blank>
     <Blanks>(Espacios en blanco)</Blanks>
     <BooleanFilters>Filtros lógicos</BooleanFilters>
     <CannotLoadDashboard>No puede cargar un informe con paneles.</CannotLoadDashboard>
@@ -648,6 +651,7 @@
     <ColorScale>Escala de color</ColorScale>
     <ColumnInteractions>Interacciones de la columna</ColumnInteractions>
     <CustomFilter>&amp;Filtro personalizado...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>El diseñador WPF no soporta Consolas.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Barras de datos</DataBars>
     <DataFilterGrouping>Esta operación se usa para agrupar solo columnas diferentes.</DataFilterGrouping>
     <DataNotDefined>Los datos no están definidos</DataNotDefined>
@@ -700,6 +704,7 @@
     <SelectAll>(Seleccion&amp;ar todos)</SelectAll>
     <ShowAllValue>Mostrar Valor (Todos)</ShowAllValue>
     <ShowAsPercentages>Mostrar como porcentajes</ShowAsPercentages>
+    <ShowBlanks>Mostrar Blancos</ShowBlanks>
     <SkipFirstRows>Saltar primeras filas</SkipFirstRows>
     <SortAZ>Ordenar de la A a la Z</SortAZ>
     <SortLargestToSmallest>Ordenar de mayor a menor</SortLargestToSmallest>
@@ -806,11 +811,13 @@
     <ButtonAddFolder>Agregar carpeta</ButtonAddFolder>
     <ButtonCreateDashboard>Crear nuevo panel</ButtonCreateDashboard>
     <ButtonCreateReport>Crear nuevo informe</ButtonCreateReport>
+    <ChooseYourSkillLevel>Elige tu nivel de habilidad</ChooseYourSkillLevel>
     <Creator>Creador</Creator>
     <Developer>Desarrollador</Developer>
     <DoYouWantToInstallReports>¿Desea instalar plantillas de informes y paneles?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Instalemos nuestros proyectos de ejemplo. Le ayudarán a aprender los conceptos básicos para trabajar con nuestro software.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>Por favor, responde quién eres?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Nivel de habilidad</SkillLevel>
     <WhoAreYou>¿Quién eres tú?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Ajuste perfecto si está haciendo la primera ejecución del diseñador.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Ajuste perfecto para crear informes. La funcionalidad necesaria para el diseño está disponible.</WhoAreYouCreatorDescription>
@@ -896,6 +903,21 @@
     <ReportCannotBeSaveDueToErrors>¡No se puede guardar el informe debido a unos errores!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>Servicio '{0}' no encontrado</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Ensamblados</Assemblies>
+    <Exception>Excepción</Exception>
+    <ExceptionReport>Informe de excepciones</ExceptionReport>
+    <Framework>Framework</Framework>
+    <General>General</General>
+    <Message>Mensaje</Message>
+    <Number>Número</Number>
+    <PleaseEnterDetailedInformation>Introduzca información detallada sobre los eventos que causan esta excepción.</PleaseEnterDetailedInformation>
+    <SaveToFile>Guardar en fichero</SaveToFile>
+    <SendErrorFailed>No se pudo entregar el mensaje de error.</SendErrorFailed>
+    <SendErrorSuccess>El mensaje de error entregado con éxito.</SendErrorSuccess>
+    <Source>Fuente</Source>
+    <StackTrace>Seguimiento de pila</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Añadir Saltos de Página</AddPageBreaks>
     <AllBands>Todos los Encabezados</AllBands>
@@ -1176,6 +1198,8 @@
     <title>Diseñador de Informes Cruzados</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>Token de acceso</AccessToken>
+    <AuthorizationCode>Código de Autorización</AuthorizationCode>
     <ClientId>Identificación del cliente</ClientId>
     <ClientSecret>Secreto del cliente</ClientSecret>
     <ConnectionString>Cadena de Conexión</ConnectionString>
@@ -1187,6 +1211,8 @@
     <FirebirdEdit>Editar Conexión Firebird</FirebirdEdit>
     <FirebirdNew>Nueva Conexión Firebird</FirebirdNew>
     <FirstRowIsHeader>La Primera Fila es una Cabecera</FirstRowIsHeader>
+    <GetAuthorizationCode>Obtener el código de autorización</GetAuthorizationCode>
+    <GetTokens>Obtener tokens</GetTokens>
     <ImportData>Importar Datos</ImportData>
     <InformixEdit>Editar Conexión Informix</InformixEdit>
     <InformixNew>Nueva Conexión Informix</InformixNew>
@@ -1213,6 +1239,9 @@
     <PostgreSQLNew>Nueva Conexión PostgreSQL</PostgreSQLNew>
     <PromptUserNameAndPassword>Preguntar Nombre de Usuario y Contraseña</PromptUserNameAndPassword>
     <RecentConnections>Recientes</RecentConnections>
+    <RedirectUrl>URL de redireccionamiento</RedirectUrl>
+    <RefreshAccessToken>Actualizar el token de acceso</RefreshAccessToken>
+    <RefreshToken>Actualizar token</RefreshToken>
     <RelationDirection>Dirección de relación:</RelationDirection>
     <ReportConnections>Conexiones de Informe</ReportConnections>
     <SelectData>Seleccionar Datos</SelectData>
@@ -1230,6 +1259,8 @@
     <UniDirectNew>Nueva Conexión Unidireccional</UniDirectNew>
     <Unpin>Liberar</Unpin>
     <UseBearerAuthentication>Utilizar Aautenticación de Portador</UseBearerAuthentication>
+    <UseOwnClientID>Utilice su propio "ID de cliente" y "Cliente secreto"</UseOwnClientID>
+    <UseToken>Usar token</UseToken>
     <VistaDBEdit>Editar Conexión VistaDB</VistaDBEdit>
     <VistaDBNew>Nueva Conexión VistaDB</VistaDBNew>
     <XmlEdit>Editar Conexión de Datos XML</XmlEdit>
@@ -1529,9 +1560,10 @@
     <ColorCollectionEditor>Editor de Colecciones de Colores</ColorCollectionEditor>
     <CreateNewComponentStyle>para crear un nuevo estilo de componente</CreateNewComponentStyle>
     <CreateStyleCollection>Create una Colección de Estilos</CreateStyleCollection>
+    <CreateStyleOnBase>Crea un estilo basado en otro estilo</CreateStyleOnBase>
     <CreateStylesFromColor>Crear Estilo desde Color Seleccionado</CreateStylesFromColor>
     <Duplicate>Duplicar Estilo</Duplicate>
-    <EditColors>[Editar Colores]</EditColors>
+    <EditColors>Editar Colores</EditColors>
     <FromStyle>Apartir de un Estilo</FromStyle>
     <GetStyle>Obtener Estilo desde Componente Seleccionado</GetStyle>
     <MoreStyles>Más Estilos</MoreStyles>
@@ -1693,6 +1725,7 @@
     <colorpicker_nofill>&amp;Sin Relleno</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Colores Estándar</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Colores de Tema</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>&amp;Alfa:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Azul:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Cancelar</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Colores</colorpickerdialog_caption>
@@ -2489,6 +2522,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ColorsCategory>Colores</ColorsCategory>
     <ColumnsCategory>Columnas</ColumnsCategory>
     <ComboBoxCategory>Caja combo</ComboBoxCategory>
+    <CommonCategory>Común</CommonCategory>
     <ControlCategory>Controles</ControlCategory>
     <ControlsEventsCategory>Eventos de los controles</ControlsEventsCategory>
     <CrossTabCategory>Lengüeta Cruzada</CrossTabCategory>
@@ -3937,6 +3971,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <NewPageAfter>Nueva Página Después</NewPageAfter>
     <NewPageBefore>Nueva Página Antes</NewPageBefore>
     <NextPage>Próxima Página</NextPage>
+    <NoElements>Sin elementos</NoElements>
     <NoIcon>Sin Ícono</NoIcon>
     <NullText>Texto Nulo</NullText>
     <NumberOfColumns>Número de Columnas</NumberOfColumns>
@@ -4061,6 +4096,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <RightToLeft>Derecha hacia la Izquierda</RightToLeft>
     <Rotation>Rotación</Rotation>
     <RotationLabels>Rotación de Etiquetas</RotationLabels>
+    <RotationMode>Modo de rotación</RotationMode>
     <Round>Redondear</Round>
     <RoundValues>Redondear Valores</RoundValues>
     <RowCount>Número de Filas</RowCount>
@@ -4453,7 +4489,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <CrossBands>Banda de Cruzamiento</CrossBands>
     <Dashboard>Consola</Dashboard>
     <Dialogs>Diálogos</Dialogs>
-    <EditStyles>[Editar Estilos]</EditStyles>
+    <EditStyles>Editar Estilos</EditStyles>
     <Enhancements>Mejoras</Enhancements>
     <Errors>Errores</Errors>
     <EventsTab>Pestaña de Eventos</EventsTab>

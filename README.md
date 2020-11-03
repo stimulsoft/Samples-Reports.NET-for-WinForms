@@ -16,7 +16,6 @@ This repository has many examples (Visual Studio Projects) each in different fol
 * Global events Save and Load
 * Globalized Reports
 * Live Reports
-* MDI Designer
 * Memory Test
 * My Copyrights
 * Print Grid

@@ -154,6 +154,7 @@
     <AxisReverse>Перевернуть</AxisReverse>
     <AxisX>Ось X</AxisX>
     <AxisY>Ось Y</AxisY>
+    <BoxAndWhisker>Ящик с усами</BoxAndWhisker>
     <Bubble>Пузырьковая</Bubble>
     <Candlestick>Японские свечи</Candlestick>
     <ChartConditionsCollectionForm>Условия</ChartConditionsCollectionForm>
@@ -532,7 +533,7 @@
     <ToolTipJs>Опубликовать выбранный отчет в виде HTML страницы</ToolTipJs>
     <ToolTipPublish>Подготовить выбранный отчет для использования в Вашем приложении.</ToolTipPublish>
     <ToolTipRecover>Восстановить выделенные элементы.</ToolTipRecover>
-    <ToolTipRunWithoutPreview>Построить выделенный отчет без предварительного просмотра.</ToolTipRunWithoutPreview>
+    <ToolTipRunWithoutPreview>Построить выделенный отчет без просмотра.</ToolTipRunWithoutPreview>
     <ToolTipShare>Разрешить совместный доступ к выделенному файлу.</ToolTipShare>
     <ToolTipSort>Настройки сортировки</ToolTipSort>
     <ToolTipThumbnailMode>В виде эскизов</ToolTipThumbnailMode>
@@ -626,6 +627,7 @@
     <StiSubReport>Вложенный отчет</StiSubReport>
     <StiSystemText>Системный текст</StiSystemText>
     <StiTable>Таблица</StiTable>
+    <StiTableOfContents>Оглавление</StiTableOfContents>
     <StiText>Текст</StiText>
     <StiTextInCells>Текст в ячейках</StiTextInCells>
     <StiTreeView>Дерево</StiTreeView>
@@ -1204,6 +1206,7 @@
     <ClientSecret>Секрет клиента</ClientSecret>
     <ConnectionString>Строка соединения:</ConnectionString>
     <DashboardConnections>Соединения панели индикаторов</DashboardConnections>
+    <DatabaseSecret>Секрет базы данных</DatabaseSecret>
     <DB2Edit>Новое IBM DB2 соединение</DB2Edit>
     <DB2New>Изменение IBM DB2 соединения</DB2New>
     <EditConnection>Изменение {0} соединения</EditConnection>
@@ -1213,6 +1216,8 @@
     <FirstRowIsHeader>Первая строка это заголовки</FirstRowIsHeader>
     <GetAuthorizationCode>Получить код авторизации</GetAuthorizationCode>
     <GetTokens>Получить токен</GetTokens>
+    <GisEdit>Изменение GIS данных</GisEdit>
+    <GisNew>Новые GIS данные</GisNew>
     <ImportData>Импорт данных</ImportData>
     <InformixEdit>Изменение Informix соединения</InformixEdit>
     <InformixNew>Новое Informix соединение</InformixNew>
@@ -1231,6 +1236,7 @@
     <OracleODPEdit>Изменение Oracle ODP.NET соединения</OracleODPEdit>
     <OracleODPNew>Новое Oracle ODP.NET соединение</OracleODPNew>
     <PathData>Путь к XML данным:</PathData>
+    <PathGisData>Путь к GIS данным:</PathGisData>
     <PathJsonData>Путь к JSON данным:</PathJsonData>
     <PathSchema>Путь к XSD схеме:</PathSchema>
     <PathToData>Путь к данным:</PathToData>
@@ -1663,7 +1669,7 @@
     <SendEMail>Отправить по Email...</SendEMail>
     <StatusBar>Статусная панель</StatusBar>
     <Thumbnails>Эскизы</Thumbnails>
-    <title>Предварительный просмотр</title>
+    <title>Просмотр</title>
     <titlePageSettings>Настройка страницы</titlePageSettings>
     <Toolbar>Панель инструментов</Toolbar>
     <VerScrollBar>Вертикальная полоса прокрутки</VerScrollBar>
@@ -1728,7 +1734,7 @@
     <colorpicker_nofill>Нет заливки</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Стандартные цвета</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Цвета темы</colorpicker_themecolorslabel>
-    <colorpickerdialog_alphalabel>&amp;Альфа:</colorpickerdialog_alphalabel>
+    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Синий:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Отмена</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Цвета</colorpickerdialog_caption>
@@ -1944,7 +1950,7 @@
     <Link>Связать выделенные компоненты с контейнерами, в которых они находятся.</Link>
     <LoadImage>Загрузить изображение для водяного знака из файла.</LoadImage>
     <Lock>Блокировка выделенных компонентов. Компоненты не могут быть перемещены, и нельзя изменить их размеры.</Lock>
-    <MainMenu>Нажмите здесь, чтобы увидеть список возможных операций с отчетом, в том числе операции открытия, закрытия и предварительного просмотра.</MainMenu>
+    <MainMenu>Нажмите здесь, чтобы увидеть список возможных операций с отчетом, в том числе операции открытия, закрытия и просмотра.</MainMenu>
     <MakeHorizontalSpacingEqual>Позволяет установить равные горизонтальные расстояния между отдельными компонентами.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Позволяет установить равные вертикальные расстояния между отдельными компонентами.</MakeVerticalSpacingEqual>
     <Margins>Выберите размер полей у текущей страницы.</Margins>
@@ -1961,9 +1967,9 @@
     <menuHomePage>Перейти на домашнюю Web-страницу продукта.</menuHomePage>
     <menuPageOptions>Произвести настройку основных параметров текущей страницы. Все параметры страницы можно изменить при помощи панели Свойства.</menuPageOptions>
     <menuPagesManager>Запустить Менеджер Страниц. С его помощью можно перемещать, удалять страницы и создавать новые.</menuPagesManager>
-    <menuPreviewSettings>Вызвать редактор внешнего вида окна предварительного просмотра текущего отчета. Настройки будут применяться только при просмотре текущего отчета.</menuPreviewSettings>
+    <menuPreviewSettings>Вызвать редактор внешнего вида окна просмотра текущего отчета. Настройки будут применяться только при просмотре текущего отчета.</menuPreviewSettings>
     <menuPrint>Выбрать принтер, количество копий и другие параметры перед печатью.</menuPrint>
-    <menuPrintPreview>Выполнить предварительный просмотр отчета перед печатью.</menuPrintPreview>
+    <menuPrintPreview>Выполнить просмотр отчета перед печатью.</menuPrintPreview>
     <menuPrintQuick>Распечатать отчет на принтере, который выбран по умолчанию. Диалог печати не отображается.</menuPrintQuick>
     <menuReportOptions>Произвести настройку основных параметров отчета. Все параметры отчета можно изменить при помощи панели Свойства.</menuReportOptions>
     <menuStyleDesigner>Вызвать редактор стилей текущего отчета.</menuStyleDesigner>
@@ -1988,7 +1994,7 @@
     <Redo>Повторить ранее отменные изменения в дизайнере отчетов.</Redo>
     <ReportNew>Создать новый отчет.</ReportNew>
     <ReportOpen>Открыть отчет в дизайнере.</ReportOpen>
-    <ReportPreview>Предварительный просмотр редактируемого отчета.</ReportPreview>
+    <ReportPreview>Просмотр редактируемого отчета.</ReportPreview>
     <ReportSave>Сохранить редактируемый отчет.</ReportSave>
     <SelectAll>Выбрать все компоненты на странице.</SelectAll>
     <SelectUILanguage>Выбрать язык интерфейса.</SelectUILanguage>
@@ -2040,8 +2046,8 @@
     <AllowPrintDocument>Ограниченный доступ к операции печать.</AllowPrintDocument>
     <Bookmarks>Отображение панели закладок, которая служит для быстрой навигации по отчету при помощи закладок отчета.</Bookmarks>
     <BorderType>Тип границы компонентов: простая - отрисовка границы компонентов символами +,-, |. Unicode одинарная - отрисовка границ компонентов символами псевдографики одинарными, Unicode двойная - отрисовка границ компонентов двойными символами псевдографики.</BorderType>
-    <Close>Свернуть закладку предварительного просмотра.</Close>
-    <CloseDotMatrix>Свернуть закладку предварительного просмотра для матричных принтеров.</CloseDotMatrix>
+    <Close>Свернуть закладку просмотра.</Close>
+    <CloseDotMatrix>Свернуть закладку просмотра для матричных принтеров.</CloseDotMatrix>
     <Compressed>Сжатие конечного документа. Рекомендуется всегда включать сжатие файла.</Compressed>
     <CompressToArchive>Упаковать все файлы и папки в zip архив.</CompressToArchive>
     <ContinuousPages>Режим расположения страниц отчета в виде вертикальной ленты.</ContinuousPages>
@@ -2573,6 +2579,7 @@
     <CrossTabCategory>Кросс-таблица</CrossTabCategory>
     <DashboardCategory>Панель индикаторов</DashboardCategory>
     <DataCategory>Данные</DataCategory>
+    <DataCells>Ячейки данных</DataCells>
     <DatePickerCategory>Выбор даты</DatePickerCategory>
     <DescriptionCategory>Описание</DescriptionCategory>
     <DesignCategory>Редактирование</DesignCategory>
@@ -3024,7 +3031,7 @@
     <StiFontSizeModeTarget>Цель</StiFontSizeModeTarget>
     <StiFontSizeModeValue>Значение</StiFontSizeModeValue>
     <StiFormStartModeOnEnd>В конце</StiFormStartModeOnEnd>
-    <StiFormStartModeOnPreview>В предварительном просмотре</StiFormStartModeOnPreview>
+    <StiFormStartModeOnPreview>В просмотре</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>В начале</StiFormStartModeOnStart>
     <StiGaugeCalculationModeAuto>Авто</StiGaugeCalculationModeAuto>
     <StiGaugeCalculationModeCustom>По выбору</StiGaugeCalculationModeCustom>
@@ -3726,7 +3733,7 @@
     <Filter>Фильтр</Filter>
     <FilterElements>Элементы фильтрации</FilterElements>
     <FilterEngine>Режим фильтрации</FilterEngine>
-    <FilterMode>Режим фильтрации</FilterMode>
+    <FilterMode>Операция фильтров</FilterMode>
     <FilterOn>Фильтр включен</FilterOn>
     <Filters>Фильтры</Filters>
     <FirstTabOffset>Позиция первого символа</FirstTabOffset>
@@ -3821,6 +3828,7 @@
     <HyperlinkDataColumn>Колонка данных гиперссылок</HyperlinkDataColumn>
     <Icon>Значок</Icon>
     <IconAlignment>Выравнивание значка</IconAlignment>
+    <IconColor>Цвет значка</IconColor>
     <IconSet>Набор значков</IconSet>
     <IconSetCondition>Набор значков</IconSetCondition>
     <Idents>Идентификаторы</Idents>
@@ -4056,8 +4064,8 @@
     <PreferredColumnWidth>Предпочтительная ширина колонки</PreferredColumnWidth>
     <PreferredRowHeight>Предпочтительная высота колонки</PreferredRowHeight>
     <PreventIntersection>Избегать пересечения</PreventIntersection>
-    <PreviewMode>Режим предварительного просмотра</PreviewMode>
-    <PreviewSettings>Настройка предварительного просмотра</PreviewSettings>
+    <PreviewMode>Режим просмотра</PreviewMode>
+    <PreviewSettings>Настройка просмотра</PreviewSettings>
     <Printable>Печатать</Printable>
     <PrintAtBottom>Печатать внизу</PrintAtBottom>
     <PrinterName>Наименование принтера</PrinterName>
@@ -4191,11 +4199,13 @@
     <ShowEdgeValues>Показывать крайние значения</ShowEdgeValues>
     <ShowImageBehind>Показывать изображения за</ShowImageBehind>
     <ShowInLegend>Показывать в легенде</ShowInLegend>
+    <ShowInnerPoints>Показать точки выбросов</ShowInnerPoints>
     <ShowInPercent>Показывать в процентах</ShowInPercent>
     <ShowLabels>Показывать подписи</ShowLabels>
     <ShowLabelText>Показывать текст</ShowLabelText>
     <ShowLegend>Показывать легенду</ShowLegend>
     <ShowMarker>Показывать маркер</ShowMarker>
+    <ShowMeanMarkers>Показать средние метки</ShowMeanMarkers>
     <ShowName>Показывать наименование</ShowName>
     <ShowNulls>Показывать неопределенные</ShowNulls>
     <ShowOnZeroValues>Показывать при нулевых величинах</ShowOnZeroValues>

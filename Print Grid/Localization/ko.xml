@@ -350,6 +350,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>나는 {0}의 {1}을 읽고 동의합니다.</AcceptTermsAndPrivacyPolicy>
+    <Account>계정</Account>
     <AccountSettings>계정 설정</AccountSettings>
     <AddAPlace>위치 추가</AddAPlace>
     <AreYouSureYouWantDeleteReport>디스크에서 "{0}" 보고서를 삭제하시겠습니까?</AreYouSureYouWantDeleteReport>
@@ -620,6 +621,7 @@
     <StiRichText>서식있는 텍스트</StiRichText>
     <StiRoundedRectanglePrimitive>둥근 직사각형</StiRoundedRectanglePrimitive>
     <StiShape>모양</StiShape>
+    <StiSparkline>스파크라인</StiSparkline>
     <StiSubReport>하위 보고서</StiSubReport>
     <StiSystemText>시스템 텍스트</StiSystemText>
     <StiTable>테이블</StiTable>
@@ -637,6 +639,7 @@
     <AllowUserDrillDown>사용자 드릴다운허용</AllowUserDrillDown>
     <AllowUserFiltering>사용자 필터허용</AllowUserFiltering>
     <AllowUserSorting>사용자 정렬허용</AllowUserSorting>
+    <Blank>(공백)</Blank>
     <Blanks>(공백)</Blanks>
     <BooleanFilters>부울 필터</BooleanFilters>
     <CannotLoadDashboard>대시보드 보고서를로드 할 수 없습니다.</CannotLoadDashboard>
@@ -647,6 +650,7 @@
     <ColorScale>컬러 스케일</ColorScale>
     <ColumnInteractions>컬럼 상호작용</ColumnInteractions>
     <CustomFilter>사용자 &amp; 필터...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>WPF Designer에서는 대시 보드가 지원되지 않습니다.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>데이터 바</DataBars>
     <DataFilterGrouping>이 작업은 다른 열을 그룹화하는 데만 사용됩니다.</DataFilterGrouping>
     <DataNotDefined>데이터가 정의되어 있지 않습니다</DataNotDefined>
@@ -699,6 +703,7 @@
     <SelectAll>(모두 선택)</SelectAll>
     <ShowAllValue>모든값 표시</ShowAllValue>
     <ShowAsPercentages>백분율로 표시</ShowAsPercentages>
+    <ShowBlanks>빈값 표시</ShowBlanks>
     <SkipFirstRows>첫 행 건너 뛰기</SkipFirstRows>
     <SortAZ>Z를 Z로 정렬</SortAZ>
     <SortLargestToSmallest>최소에서 최소로 정렬</SortLargestToSmallest>
@@ -805,11 +810,13 @@
     <ButtonAddFolder>폴더 추가</ButtonAddFolder>
     <ButtonCreateDashboard>대시보드 생성</ButtonCreateDashboard>
     <ButtonCreateReport>리포트 생성</ButtonCreateReport>
+    <ChooseYourSkillLevel>작업 수준을 선택하세요</ChooseYourSkillLevel>
     <Creator>생성자</Creator>
     <Developer>개발자</Developer>
     <DoYouWantToInstallReports>보고서 및 대시보드 템플릿을 설치 하시겠습니까?</DoYouWantToInstallReports>
     <InstallSamplesDesc>샘플 프로젝트를 설치합니다. 소프트웨어 작업의 기본 사항을 배우는데 도움이됩니다.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>당신이 누구신지 대답하십시오?</PleaseAnswerWhoAreYou>
+    <SkillLevel>기술 수준</SkillLevel>
     <WhoAreYou>당신은 누구십니까?</WhoAreYou>
     <WhoAreYouBeginnerDescription>디자이너를 처음 실행하는 경우에 적합합니다.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>보고서 작성에 적합합니다. 디자인에 필요한 기능을 사용할 수 있습니다.</WhoAreYouCreatorDescription>
@@ -895,6 +902,21 @@
     <ReportCannotBeSaveDueToErrors>오류에 대한 보고서를 저장할 수 없습니다.</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}'서비스를 찾을 수 없습니다.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>어셈블리</Assemblies>
+    <Exception>예외</Exception>
+    <ExceptionReport>예외 리포트</ExceptionReport>
+    <Framework>프레임워크</Framework>
+    <General>일반</General>
+    <Message>메세지</Message>
+    <Number>숫자</Number>
+    <PleaseEnterDetailedInformation>이 예외를 유발하는 이벤트에 대한 자세한 정보를 입력하십시오.</PleaseEnterDetailedInformation>
+    <SaveToFile>파일로 저장</SaveToFile>
+    <SendErrorFailed>오류 메시지를 전달하지 못했습니다.</SendErrorFailed>
+    <SendErrorSuccess>오류 메시지가 성공적으로 전달되었습니다.</SendErrorSuccess>
+    <Source>소스</Source>
+    <StackTrace>스택 트레이스</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>페이지 나누기 추가</AddPageBreaks>
     <AllBands>모든 밴드</AllBands>
@@ -1174,6 +1196,8 @@
     <title>크로스 탭 디자이너</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>액세스 토큰</AccessToken>
+    <AuthorizationCode>인증 코드</AuthorizationCode>
     <ClientId>클라이언트 아이디</ClientId>
     <ClientSecret>클라이언트 암호</ClientSecret>
     <ConnectionString>연결 문자열 :</ConnectionString>
@@ -1185,6 +1209,8 @@
     <FirebirdEdit>Firebird 연결 편집</FirebirdEdit>
     <FirebirdNew>새로운 Firebird 연결</FirebirdNew>
     <FirstRowIsHeader>첫 줄은 헤더입니다</FirstRowIsHeader>
+    <GetAuthorizationCode>인증코드 받기</GetAuthorizationCode>
+    <GetTokens>토큰 받기</GetTokens>
     <ImportData>데이터 가져 오기</ImportData>
     <InformixEdit>Informix 연결 편집</InformixEdit>
     <InformixNew>새로운 Informix 연결</InformixNew>
@@ -1211,6 +1237,9 @@
     <PostgreSQLNew>새로운 PostgreSQL 연결</PostgreSQLNew>
     <PromptUserNameAndPassword>프롬프트에 사용자 이름과 암호</PromptUserNameAndPassword>
     <RecentConnections>최근</RecentConnections>
+    <RedirectUrl>리다이렉트 URL</RedirectUrl>
+    <RefreshAccessToken>액세스 토큰 새로고침</RefreshAccessToken>
+    <RefreshToken>토큰 새로고침</RefreshToken>
     <RelationDirection>관계의 방향 :</RelationDirection>
     <ReportConnections>보고서 연결</ReportConnections>
     <SelectData>데이터 선택</SelectData>
@@ -1228,6 +1257,8 @@
     <UniDirectNew>새로운 유니 다이렉트</UniDirectNew>
     <Unpin>고정 해제</Unpin>
     <UseBearerAuthentication>무기명 인증을 사용</UseBearerAuthentication>
+    <UseOwnClientID>"클라이언트ID" 와 "클라이언트비번" 사용</UseOwnClientID>
+    <UseToken>토큰 사용</UseToken>
     <VistaDBEdit>VistaDB 연결 편집</VistaDBEdit>
     <VistaDBNew>새로운 VistaDB 연결</VistaDBNew>
     <XmlEdit>XML 데이터의 편집</XmlEdit>
@@ -1527,8 +1558,9 @@
     <ColorCollectionEditor>컬러 컬렉션 편집기</ColorCollectionEditor>
     <CreateNewComponentStyle>새 구성요소 스타일을 작성</CreateNewComponentStyle>
     <CreateStyleCollection>스타일 컬렉션을 생성</CreateStyleCollection>
+    <CreateStyleOnBase>다른 스타일을 기반으로 스타일 만들기</CreateStyleOnBase>
     <Duplicate>복제 스타일</Duplicate>
-    <EditColors>[색상 편집]</EditColors>
+    <EditColors>색상 편집</EditColors>
     <FromStyle>스타일에서</FromStyle>
     <GetStyle>선택한 구성 요소에서 스타일을 가져오기</GetStyle>
     <MoreStyles>다른 스타일</MoreStyles>
@@ -1690,6 +1722,7 @@
     <colorpicker_nofill>없음(&amp;N)</colorpicker_nofill>
     <colorpicker_standardcolorslabel>표준색</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>테마의 색상</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>알파(&amp;A):</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>파랑(&amp;B) :</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>취소</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>색상</colorpickerdialog_caption>
@@ -2482,6 +2515,7 @@
     <ColorsCategory>색상</ColorsCategory>
     <ColumnsCategory>열</ColumnsCategory>
     <ComboBoxCategory>콤보 상자</ComboBoxCategory>
+    <CommonCategory>공통</CommonCategory>
     <ControlCategory>컨트롤</ControlCategory>
     <ControlsEventsCategory>컨트롤 이벤트</ControlsEventsCategory>
     <CrossTabCategory>크로스 탭</CrossTabCategory>
@@ -3913,6 +3947,7 @@
     <NewPageAfter>새 페이지 후</NewPageAfter>
     <NewPageBefore>새로운 페이지 이전</NewPageBefore>
     <NextPage>다음 페이지</NextPage>
+    <NoElements>요소 없음</NoElements>
     <NoIcon>아이콘 없음</NoIcon>
     <NullText>널 텍스트</NullText>
     <NumberOfColumns>열 수</NumberOfColumns>
@@ -4037,6 +4072,7 @@
     <RightToLeft>오른쪽에서 왼쪽으로</RightToLeft>
     <Rotation>회전</Rotation>
     <RotationLabels>회전 라벨</RotationLabels>
+    <RotationMode>회전 모드</RotationMode>
     <Round>원</Round>
     <RoundValues>라운드 값</RoundValues>
     <RowCount>행수</RowCount>
@@ -4427,7 +4463,7 @@
     <CreatingReport>보고서 작성</CreatingReport>
     <CrossBands>크로스</CrossBands>
     <Dialogs>대화</Dialogs>
-    <EditStyles>[스타일 편집</EditStyles>
+    <EditStyles>스타일 편집</EditStyles>
     <Enhancements>강화</Enhancements>
     <Errors>오류</Errors>
     <EventsTab>이벤트 탭</EventsTab>

@@ -62,21 +62,6 @@
     <TodayDate>Today</TodayDate>
     <WholeReport>Whole Report</WholeReport>
   </A_WebViewer>
-  <ExceptionProvider>
-    <SendErrorSuccess>The error message delivered successfully.</SendErrorSuccess>
-    <SendErrorFailed>Failed to deliver the error message.</SendErrorFailed>
-    <Exception>Exception</Exception>
-    <Assemblies>Assemblies</Assemblies>
-    <Framework>Framework</Framework>
-    <Message>Message</Message>
-    <General>General</General>
-    <Source>Source</Source>
-    <Number>Number</Number>
-    <StackTrace>Stack Trace</StackTrace>
-    <PleaseEnterDetailedInformation>Please enter detailed information about events which cause this exception.</PleaseEnterDetailedInformation>
-    <SaveToFile>Save to File</SaveToFile>
-    <ExceptionReport>Exception Report</ExceptionReport>
-  </ExceptionProvider>
   <Adapters>
     <AdapterBusinessObjects>Data from Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Data from {0}</AdapterConnection>
@@ -159,7 +144,6 @@
     <Yes>&amp;Yes</Yes>
   </Buttons>
   <Chart>
-    <Histogram>Histogram</Histogram>
     <AddCondition>&amp;Add Condition</AddCondition>
     <AddConstantLine>Add Constant Line</AddConstantLine>
     <AddFilter>&amp;Add Filter</AddFilter>
@@ -170,6 +154,7 @@
     <AxisReverse>Reverse</AxisReverse>
     <AxisX>Axis X</AxisX>
     <AxisY>Axis Y</AxisY>
+    <BoxAndWhisker>Box and Whisker</BoxAndWhisker>
     <Bubble>Bubble</Bubble>
     <Candlestick>Candlestick</Candlestick>
     <ChartConditionsCollectionForm>Conditions</ChartConditionsCollectionForm>
@@ -196,6 +181,7 @@
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Interlaced</GridInterlaced>
     <GridLines>Grid Lines</GridLines>
+    <Histogram>Histogram</Histogram>
     <LabelAlignment>Alignment:</LabelAlignment>
     <LabelAlignmentHorizontal>Horizontal:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Vertical:</LabelAlignmentVertical>
@@ -366,7 +352,7 @@
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>I read and accept the {0} and {1}</AcceptTermsAndPrivacyPolicy>
     <Account>Account</Account>
-	<AccountSettings>Account Settings</AccountSettings>
+    <AccountSettings>Account Settings</AccountSettings>
     <AddAPlace>Add a Place</AddAPlace>
     <AreYouSureYouWantDeleteReport>Are you sure you want to delete "{0}" report from disk?</AreYouSureYouWantDeleteReport>
     <Authorize>Authorize</Authorize>
@@ -636,10 +622,11 @@
     <StiRichText>Rich Text</StiRichText>
     <StiRoundedRectanglePrimitive>Rounded Rectangle</StiRoundedRectanglePrimitive>
     <StiShape>Shape</StiShape>
-	<StiSparkline>Sparkline</StiSparkline>
+    <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-Report</StiSubReport>
     <StiSystemText>System Text</StiSystemText>
     <StiTable>Table</StiTable>
+    <StiTableOfContents>Table of Contents</StiTableOfContents>
     <StiText>Text</StiText>
     <StiTextInCells>Text in Cells</StiTextInCells>
     <StiTreeView>Tree View</StiTreeView>
@@ -649,9 +636,6 @@
     <StiZipCode>ZIP Code</StiZipCode>
   </Components>
   <Dashboard>
-    <DashboardsNotSupportedIntheWPFDesigner>Dashboards are not supported in the WPF Designer.</DashboardsNotSupportedIntheWPFDesigner>
-    <DataFilterGrouping>This operation is used for grouping different columns only.</DataFilterGrouping>
-    <ViewEditCompilationNotice>You can't edit the report which has the 'Report.CalculationMode' property equals to 'Compilation' value. Please set that property to an 'Interpretation' value.</ViewEditCompilationNotice>
     <AddRange>Add Range</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
     <AllowUserDrillDown>Allow User Drill-Down</AllowUserDrillDown>
@@ -668,7 +652,9 @@
     <ColorScale>Color Scale</ColorScale>
     <ColumnInteractions>Column Interactions</ColumnInteractions>
     <CustomFilter>Custom &amp;Filter...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>Dashboards are not supported in the WPF Designer.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Data Bars</DataBars>
+    <DataFilterGrouping>This operation is used for grouping different columns only.</DataFilterGrouping>
     <DataNotDefined>Data is not defined</DataNotDefined>
     <DateFilters>Date Filters</DateFilters>
     <Dimension>Dimension</Dimension>
@@ -718,8 +704,8 @@
     <RunFieldsEditorInfo>Run the Fields Editor to change interaction of each table column.</RunFieldsEditorInfo>
     <SelectAll>(Select &amp;All)</SelectAll>
     <ShowAllValue>Show (All) Value</ShowAllValue>
-    <ShowBlanks>Show Blanks</ShowBlanks>
     <ShowAsPercentages>Show as Percentages</ShowAsPercentages>
+    <ShowBlanks>Show Blanks</ShowBlanks>
     <SkipFirstRows>Skip First Rows</SkipFirstRows>
     <SortAZ>Sort A to Z</SortAZ>
     <SortLargestToSmallest>Sort Largest to Smallest</SortLargestToSmallest>
@@ -731,6 +717,7 @@
     <StringFilters>String Filters</StringFilters>
     <TransformationHint>Click on the table header to apply sorting, filtering or change data. This transformation will be applied only to the data of this item.</TransformationHint>
     <Trend>Trend</Trend>
+    <ViewEditCompilationNotice>You can't edit the report which has the 'Report.CalculationMode' property equals to 'Compilation' value. Please set that property to an 'Interpretation' value.</ViewEditCompilationNotice>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -825,17 +812,17 @@
     <ButtonAddFolder>Add Folder</ButtonAddFolder>
     <ButtonCreateDashboard>Create Dashboard</ButtonCreateDashboard>
     <ButtonCreateReport>Create Report</ButtonCreateReport>
+    <ChooseYourSkillLevel>Choose your skill level</ChooseYourSkillLevel>
     <Creator>Creator</Creator>
     <Developer>Developer</Developer>
     <DoYouWantToInstallReports>Do you want to install templates of reports and dashboards?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Let's install our sample projects. They will help you learn the basics of working with our software.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>Please, answer who you are?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Skill Level</SkillLevel>
     <WhoAreYou>Who Are you?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Perfect fit if you are doing the first run of the designer.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Perfect fit for creating reports. The necessary functionality for design is available.</WhoAreYouCreatorDescription>
     <WhoAreYouDeveloperDescription>Perfect fit for creating applications. Complete functionality for the report design and embedding components included.</WhoAreYouDeveloperDescription>
-    <SkillLevel>Skill Level</SkillLevel>
-    <ChooseYourSkillLevel>Choose your skill level</ChooseYourSkillLevel>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Button</StiButtonControl>
@@ -917,6 +904,21 @@
     <ReportCannotBeSaveDueToErrors>Report cannot be saved due to errors!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' Service not found.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Assemblies</Assemblies>
+    <Exception>Exception</Exception>
+    <ExceptionReport>Exception Report</ExceptionReport>
+    <Framework>Framework</Framework>
+    <General>General</General>
+    <Message>Message</Message>
+    <Number>Number</Number>
+    <PleaseEnterDetailedInformation>Please enter detailed information about events which cause this exception.</PleaseEnterDetailedInformation>
+    <SaveToFile>Save to File</SaveToFile>
+    <SendErrorFailed>Failed to deliver the error message.</SendErrorFailed>
+    <SendErrorSuccess>The error message delivered successfully.</SendErrorSuccess>
+    <Source>Source</Source>
+    <StackTrace>Stack Trace</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Add Page Breaks</AddPageBreaks>
     <AllBands>All bands</AllBands>
@@ -1196,12 +1198,13 @@
     <title>Cross-Tab Designer</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
-	<AccessToken>Access token</AccessToken>
-	<AuthorizationCode>Authorization Code</AuthorizationCode>
+    <AccessToken>Access token</AccessToken>
+    <AuthorizationCode>Authorization Code</AuthorizationCode>
     <ClientId>Client Id</ClientId>
     <ClientSecret>Client Secret</ClientSecret>
     <ConnectionString>Connection String:</ConnectionString>
     <DashboardConnections>Dashboard Connections</DashboardConnections>
+    <DatabaseSecret>Database Secret</DatabaseSecret>
     <DB2Edit>Edit IBM DB2 Connection</DB2Edit>
     <DB2New>New IBM DB2 Connection</DB2New>
     <EditConnection>Edit {0} Connection</EditConnection>
@@ -1209,8 +1212,10 @@
     <FirebirdEdit>Edit Firebird Connection</FirebirdEdit>
     <FirebirdNew>New Firebird Connection</FirebirdNew>
     <FirstRowIsHeader>First Row is Header</FirstRowIsHeader>
-	<GetAuthorizationCode>Get authorization code</GetAuthorizationCode>
+    <GetAuthorizationCode>Get authorization code</GetAuthorizationCode>
     <GetTokens>Get tokens</GetTokens>
+    <GisEdit>Edit GIS Data</GisEdit>
+    <GisNew>New GIS Data</GisNew>
     <ImportData>Import Data</ImportData>
     <InformixEdit>Edit Informix Connection</InformixEdit>
     <InformixNew>New Informix Connection</InformixNew>
@@ -1229,6 +1234,7 @@
     <OracleODPEdit>Edit Oracle ODP.NET Connection</OracleODPEdit>
     <OracleODPNew>New Oracle ODP.NET Connection</OracleODPNew>
     <PathData>Path to XML Data:</PathData>
+    <PathGisData>Path to Gis Data:</PathGisData>
     <PathJsonData>Path to JSON Data:</PathJsonData>
     <PathSchema>Path to XSD Schema:</PathSchema>
     <PathToData>Path to Data:</PathToData>
@@ -1238,9 +1244,9 @@
     <PromptUserNameAndPassword>Prompt User Name and Password</PromptUserNameAndPassword>
     <RecentConnections>Recent</RecentConnections>
     <RedirectUrl>Redirect URL</RedirectUrl>
-	  <RefreshToken>Refresh token</RefreshToken>
-	  <RefreshAccessToken>Refresh access token</RefreshAccessToken>
-	  <RelationDirection>Relation Direction:</RelationDirection>
+    <RefreshAccessToken>Refresh access token</RefreshAccessToken>
+    <RefreshToken>Refresh token</RefreshToken>
+    <RelationDirection>Relation Direction:</RelationDirection>
     <ReportConnections>Report Connections</ReportConnections>
     <SelectData>Select Data</SelectData>
     <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
@@ -1257,8 +1263,8 @@
     <UniDirectNew>New Uni Direct Connection</UniDirectNew>
     <Unpin>Unpin</Unpin>
     <UseBearerAuthentication>Use Bearer Authentication</UseBearerAuthentication>
+    <UseOwnClientID>Use own "Client ID" and "Client Secret"</UseOwnClientID>
     <UseToken>Use Token</UseToken>
-	  <UseOwnClientID>Use own "Client ID" and "Client Secret"</UseOwnClientID>;
     <VistaDBEdit>Edit VistaDB Connection</VistaDBEdit>
     <VistaDBNew>New VistaDB Connection</VistaDBNew>
     <XmlEdit>Edit XML Data</XmlEdit>
@@ -1556,9 +1562,9 @@
     <ApplyStyleCollectionToReportComponents>Apply Style Collection to Report Components</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Apply Styles</ApplyStyles>
     <ColorCollectionEditor>Color Collection Editor</ColorCollectionEditor>
-    <CreateStyleOnBase>Create a style based on another style</CreateStyleOnBase>
     <CreateNewComponentStyle>to create the new component style</CreateNewComponentStyle>
     <CreateStyleCollection>Create Style Collection</CreateStyleCollection>
+    <CreateStyleOnBase>Create a style based on another style</CreateStyleOnBase>
     <Duplicate>Duplicate Style</Duplicate>
     <EditColors>[Edit Colors]</EditColors>
     <FromStyle>From Style</FromStyle>
@@ -1722,6 +1728,7 @@
     <colorpicker_nofill>&amp;No Fill</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Standard Colors</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Theme Colors</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Blue:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Cancel</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Colors</colorpickerdialog_caption>
@@ -1732,7 +1739,6 @@
     <colorpickerdialog_newcolorlabel>New</colorpickerdialog_newcolorlabel>
     <colorpickerdialog_okbutton>OK</colorpickerdialog_okbutton>
     <colorpickerdialog_redlabel>&amp;Red:</colorpickerdialog_redlabel>
-    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
     <colorpickerdialog_rgblabel>RGB</colorpickerdialog_rgblabel>
     <colorpickerdialog_standardcolorslabel>Colors:</colorpickerdialog_standardcolorslabel>
     <colorpickerdialog_tabcustom>Custom</colorpickerdialog_tabcustom>
@@ -2511,17 +2517,17 @@
     <ChartAdditionalCategory>Chart Additional</ChartAdditionalCategory>
     <ChartCategory>Chart</ChartCategory>
     <ChartMap>Map</ChartMap>
-    <CommonCategory>Common</CommonCategory>
     <CheckCategory>Check</CheckCategory>
     <ColorsCategory>Colors</ColorsCategory>
     <ColumnsCategory>Columns</ColumnsCategory>
     <ComboBoxCategory>Combo Box</ComboBoxCategory>
+    <CommonCategory>Common</CommonCategory>
     <ControlCategory>Control</ControlCategory>
     <ControlsEventsCategory>Controls Events</ControlsEventsCategory>
     <CrossTabCategory>Cross-Tab</CrossTabCategory>
     <DashboardCategory>Dashboard</DashboardCategory>
     <DataCategory>Data</DataCategory>
-	<DataCells>Data Cells</DataCells>
+    <DataCells>Data Cells</DataCells>
     <DatePickerCategory>Date Picker</DatePickerCategory>
     <DescriptionCategory>Description</DescriptionCategory>
     <DesignCategory>Design</DesignCategory>
@@ -2732,9 +2738,6 @@
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
-    <StiEmptyCellsAsGap>Gap</StiEmptyCellsAsGap>
-    <StiEmptyCellsAsZero>Zero</StiEmptyCellsAsZero>
-    <StiEmptyCellsAsConnectPointsWithLine>Connect Points with Line</StiEmptyCellsAsConnectPointsWithLine>
     <boolFalse>False</boolFalse>
     <boolTrue>True</boolTrue>
     <BorderStyleFixed3D>Fixed 3D</BorderStyleFixed3D>
@@ -2915,6 +2918,9 @@
     <StiEanSupplementTypeFiveDigit>FiveDigit</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>None</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>TwoDigit</StiEanSupplementTypeTwoDigit>
+    <StiEmptyCellsAsConnectPointsWithLine>Connect Points with Line</StiEmptyCellsAsConnectPointsWithLine>
+    <StiEmptyCellsAsGap>Gap</StiEmptyCellsAsGap>
+    <StiEmptyCellsAsZero>Zero</StiEmptyCellsAsZero>
     <StiEmptySizeModeAlignFooterToBottom>Align Footer to Bottom</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>Align Footer to Top</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>Decrease Last Row</StiEmptySizeModeDecreaseLastRow>
@@ -3388,7 +3394,6 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
-    <NoElements>No Elements</NoElements>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
     <Actual>Actual</Actual>
@@ -3670,7 +3675,7 @@
     <Filter>Filter</Filter>
     <FilterElements>Filter Elements</FilterElements>
     <FilterEngine>Filter Engine</FilterEngine>
-    <FilterMode>Filter Mode</FilterMode>
+    <FilterMode>Filters Operation</FilterMode>
     <FilterOn>Filter On</FilterOn>
     <Filters>Filters</Filters>
     <FirstTabOffset>First Tab Offset</FirstTabOffset>
@@ -3765,6 +3770,7 @@
     <HyperlinkDataColumn>Hyperlink Data Column</HyperlinkDataColumn>
     <Icon>Icon</Icon>
     <IconAlignment>Icon Alignment</IconAlignment>
+    <IconColor>Icon Color</IconColor>
     <IconSet>Icon Set</IconSet>
     <IconSetCondition>Icon Set Condition</IconSetCondition>
     <Idents>Indents</Idents>
@@ -3949,6 +3955,7 @@
     <NewPageAfter>New Page After</NewPageAfter>
     <NewPageBefore>New Page Before</NewPageBefore>
     <NextPage>Next Page</NextPage>
+    <NoElements>No Elements</NoElements>
     <NoIcon>No Icon</NoIcon>
     <NullText>Null Text</NullText>
     <NumberOfColumns>Number of Columns</NumberOfColumns>
@@ -4071,9 +4078,9 @@
     <Right>Right</Right>
     <RightSide>Right Side</RightSide>
     <RightToLeft>Right to Left</RightToLeft>
-    <RotationMode>Rotation Mode</RotationMode>
     <Rotation>Rotation</Rotation>
     <RotationLabels>Rotation Labels</RotationLabels>
+    <RotationMode>Rotation Mode</RotationMode>
     <Round>Round</Round>
     <RoundValues>Round Values</RoundValues>
     <RowCount>Row Count</RowCount>
@@ -4132,11 +4139,13 @@
     <ShowEdgeValues>Show Edge Values</ShowEdgeValues>
     <ShowImageBehind>Show Image Behind</ShowImageBehind>
     <ShowInLegend>Show in Legend</ShowInLegend>
+    <ShowInnerPoints>Show Inner Points</ShowInnerPoints>
     <ShowInPercent>Show in Percent</ShowInPercent>
     <ShowLabels>Show Labels</ShowLabels>
     <ShowLabelText>Show Label Text</ShowLabelText>
     <ShowLegend>Show Legend</ShowLegend>
     <ShowMarker>Show Marker</ShowMarker>
+    <ShowMeanMarkers>Show Mean Markers</ShowMeanMarkers>
     <ShowNulls>Show Nulls</ShowNulls>
     <ShowOthers>Show Others</ShowOthers>
     <ShowPercents>Show Percents</ShowPercents>
@@ -4175,6 +4184,7 @@
     <SortingEnabled>Sorting Enabled</SortingEnabled>
     <SortType>Sort Type</SortType>
     <Space>Space</Space>
+	<SpaceRatio>Space Ratio</SpaceRatio>
     <Spacing>Spacing</Spacing>
     <SqlCommand>Sql Command</SqlCommand>
     <StartAngle>Start Angle</StartAngle>
@@ -4280,7 +4290,8 @@
     <UnlimitedBreakable>Unlimited Breakable</UnlimitedBreakable>
     <UnlimitedHeight>Unlimited Height</UnlimitedHeight>
     <UnlimitedWidth>Unlimited Width</UnlimitedWidth>
-    <UseAliases>Use Aliases</UseAliases>
+    <UpperMarks>Upper Marks</UpperMarks>
+	<UseAliases>Use Aliases</UseAliases>
     <UseExternalReport>Use External Report</UseExternalReport>
     <UseParentStyles>Use Parent Styles</UseParentStyles>
     <UseRangeColor>Use Range Color</UseRangeColor>

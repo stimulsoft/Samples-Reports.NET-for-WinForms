@@ -171,7 +171,7 @@ namespace RealtimePreview
 
 			rect = stiPreviewControl1.GetComponentRect(chart);
 			stiPreviewControl1.InvalidatePageRect(rect.ToRectangle());
-			//stiPreviewControl1.View.Invalidate();			
+			//stiPreviewControl1.View.Invalidate();
 		}
 
 		private void stiPreviewControl1_Close(object sender, System.EventArgs e)
@@ -182,6 +182,7 @@ namespace RealtimePreview
 		private void Form1_Load(object sender, System.EventArgs e)
 		{
 			timer1.Enabled = true;
+			stiPreviewControl1.SetZoomOnePage();
 		}
 	}
 }

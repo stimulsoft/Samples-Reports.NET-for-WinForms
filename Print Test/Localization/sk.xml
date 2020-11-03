@@ -350,6 +350,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>Čítal som a akceptujem {0} a {1}</AcceptTermsAndPrivacyPolicy>
+    <Account>Účet</Account>
     <AccountSettings>Nastavenie konta</AccountSettings>
     <AddAPlace>Pridať miesto</AddAPlace>
     <AreYouSureYouWantDeleteReport>Naozaj chcete vymazať "{0}" report z disku?</AreYouSureYouWantDeleteReport>
@@ -621,6 +622,7 @@
     <StiRichText>Rich text</StiRichText>
     <StiRoundedRectanglePrimitive>Oblý obdĺžnik</StiRoundedRectanglePrimitive>
     <StiShape>Tvar</StiShape>
+    <StiSparkline>Krivka</StiSparkline>
     <StiSubReport>Podzostava</StiSubReport>
     <StiSystemText>Systémový text</StiSystemText>
     <StiTable>Tabuľka</StiTable>
@@ -638,6 +640,7 @@
     <AllowUserDrillDown>Povoliť užívateľskú nižšiu úroveň</AllowUserDrillDown>
     <AllowUserFiltering>Povoliť užívateľské filtrovanie</AllowUserFiltering>
     <AllowUserSorting>Povoliť užívateľské triedenie</AllowUserSorting>
+    <Blank>(Prázdny)</Blank>
     <Blanks>(Prázdne)</Blanks>
     <BooleanFilters>Booleovské filtre</BooleanFilters>
     <CannotLoadDashboard>Nemôžete načítať prehľad s riadiacimi panelmi.</CannotLoadDashboard>
@@ -648,6 +651,7 @@
     <ColorScale>Farebná škála</ColorScale>
     <ColumnInteractions>Interakcie stĺpca</ColumnInteractions>
     <CustomFilter>Zákaznícky &amp;filter...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>Riadiace panely nie sú podporované vo WPF dizajnéri.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Panely pre dáta</DataBars>
     <DataFilterGrouping>Táto operácia sa používa len na zoskupovanie rôznych stĺpcov.</DataFilterGrouping>
     <DataNotDefined>Dáta nie sú definované</DataNotDefined>
@@ -700,6 +704,7 @@
     <SelectAll>(Vybrať &amp;všetko)</SelectAll>
     <ShowAllValue>Ukázať (všetky) hodnoty</ShowAllValue>
     <ShowAsPercentages>Zobraziť ako percentá</ShowAsPercentages>
+    <ShowBlanks>Ukázať prázdne</ShowBlanks>
     <SkipFirstRows>Preskočiť prvé riadky</SkipFirstRows>
     <SortAZ>Triediť od A po Z</SortAZ>
     <SortLargestToSmallest>Triediť od najväčšej hodnoty po najmenšiu</SortLargestToSmallest>
@@ -806,11 +811,13 @@
     <ButtonAddFolder>Pridať priečinok</ButtonAddFolder>
     <ButtonCreateDashboard>Vytvoriť riadiaci panel</ButtonCreateDashboard>
     <ButtonCreateReport>Vytvoriť zostavu</ButtonCreateReport>
+    <ChooseYourSkillLevel>Vyberte úroveň vašich skúseností</ChooseYourSkillLevel>
     <Creator>Tvorca</Creator>
     <Developer>Vývojár</Developer>
     <DoYouWantToInstallReports>Chcete nainštalovať šablóny pre zostavy a riadiace panely?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Poďme nainštalovať naše vzorové projekty. Pomôžu vám naučiť sa základy práce s naším softvérom.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>Odpovedzte prosím, kto ste?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Úroveň skúseností</SkillLevel>
     <WhoAreYou>Kto si?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Dokonale sa hodí, ak prvýkrát spúšťate dizajnér.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Dokonale sa hodí na vytváranie prehľadov. K dispozícii je potrebná funkčnosť pre navrhovanie.</WhoAreYouCreatorDescription>
@@ -896,6 +903,21 @@
     <ReportCannotBeSaveDueToErrors>Zostava nemôže byť uložená z dôvodu výskytu chýb!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' Služba nenájdená.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Zostavenia (assemblies)</Assemblies>
+    <Exception>Výnimka</Exception>
+    <ExceptionReport>Zostava výnimky</ExceptionReport>
+    <Framework>Framework</Framework>
+    <General>Všeobecný</General>
+    <Message>Správa</Message>
+    <Number>Číslo</Number>
+    <PleaseEnterDetailedInformation>Prosím zadajte detailnejšie informácie o prípadoch, pri ktorých vzniká táto výnimka.</PleaseEnterDetailedInformation>
+    <SaveToFile>Uložiť do súboru</SaveToFile>
+    <SendErrorFailed>Nastal problém pri doručení správy o chybe.</SendErrorFailed>
+    <SendErrorSuccess>Správa o chybe bola úspešne doručená.</SendErrorSuccess>
+    <Source>Zdroj</Source>
+    <StackTrace>Obsah zásobníka</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Vložiť konce stránok</AddPageBreaks>
     <AllBands>Všetky pruhy</AllBands>
@@ -1176,6 +1198,8 @@
     <title>Návrhár krížovej tabuľky</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>Prístupový token</AccessToken>
+    <AuthorizationCode>Autorizačný kód</AuthorizationCode>
     <ClientId>Id klienta</ClientId>
     <ClientSecret>Hodnota kľúča klienta</ClientSecret>
     <ConnectionString>Pripájací reťazec:</ConnectionString>
@@ -1187,6 +1211,8 @@
     <FirebirdEdit>Upraviť Firebird pripojenie</FirebirdEdit>
     <FirebirdNew>Nové Firebird pripojenie</FirebirdNew>
     <FirstRowIsHeader>Prvý riadok je hlavička</FirstRowIsHeader>
+    <GetAuthorizationCode>Zadajte autorizačný kód</GetAuthorizationCode>
+    <GetTokens>Zadajte tokeny</GetTokens>
     <ImportData>Importuj dáta</ImportData>
     <InformixEdit>Upraviť Informix pripojenie</InformixEdit>
     <InformixNew>Nové Informix pripojenie</InformixNew>
@@ -1213,6 +1239,9 @@
     <PostgreSQLNew>Nové PostgreSQL pripojenie</PostgreSQLNew>
     <PromptUserNameAndPassword>Meno a heslo</PromptUserNameAndPassword>
     <RecentConnections>Posledné</RecentConnections>
+    <RedirectUrl>Presmerovať URL</RedirectUrl>
+    <RefreshAccessToken>Obnoviť prístupový token</RefreshAccessToken>
+    <RefreshToken>Obnoviť token</RefreshToken>
     <RelationDirection>Smer relácie:</RelationDirection>
     <ReportConnections>Posledné pripojenia</ReportConnections>
     <SelectData>Vybrať dáta</SelectData>
@@ -1230,6 +1259,8 @@
     <UniDirectNew>Nové jednosmerné pripojenie</UniDirectNew>
     <Unpin>Odopni</Unpin>
     <UseBearerAuthentication>Použiť overenie nosičom (Bearer Authentication)</UseBearerAuthentication>
+    <UseOwnClientID>Použiť vlastný "Client ID" a "Client Secret"</UseOwnClientID>
+    <UseToken>Použiť token</UseToken>
     <VistaDBEdit>Edituj VistaDB pripojenie</VistaDBEdit>
     <VistaDBNew>Nové VistaDB pripojenie</VistaDBNew>
     <XmlEdit>Upraviť XML dáta</XmlEdit>
@@ -1529,9 +1560,10 @@
     <ColorCollectionEditor>Editor farieb</ColorCollectionEditor>
     <CreateNewComponentStyle>vytvoriť nový štýl</CreateNewComponentStyle>
     <CreateStyleCollection>Vytvoriť štýl</CreateStyleCollection>
+    <CreateStyleOnBase>Vytvoriť štýl na základe iného štýlu</CreateStyleOnBase>
     <CreateStylesFromColor>Vytvoriť štýl z vybranej farby</CreateStylesFromColor>
     <Duplicate>Vytvor kópiu štýlu</Duplicate>
-    <EditColors>[Editovať farby]</EditColors>
+    <EditColors>Editovať farby</EditColors>
     <FromStyle>Zo štýlu</FromStyle>
     <GetStyle>Vziať štýl z vybraných komponentov</GetStyle>
     <MoreStyles>Viac štýlov</MoreStyles>
@@ -1694,6 +1726,7 @@
     <colorpicker_nofill>&amp;Bez výplne</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Štandardné farby</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Tematické farby</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>&amp;Abecedne:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Modrá:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Zrušiť</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Farby</colorpickerdialog_caption>
@@ -2490,6 +2523,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <ColorsCategory>Farby</ColorsCategory>
     <ColumnsCategory>Stĺpce</ColumnsCategory>
     <ComboBoxCategory>Rozbaľovací zoznam</ComboBoxCategory>
+    <CommonCategory>Spoločné</CommonCategory>
     <ControlCategory>Ovládací prvok</ControlCategory>
     <ControlsEventsCategory>Udalosti ovládacích prvkov</ControlsEventsCategory>
     <CrossTabCategory>Krížová tabuľka</CrossTabCategory>
@@ -3944,6 +3978,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <NewPageAfter>Nová stránka po</NewPageAfter>
     <NewPageBefore>Nová stránka pred</NewPageBefore>
     <NextPage>Ďalšia strana</NextPage>
+    <NoElements>Žiadny element</NoElements>
     <NoIcon>Žiadna ikona</NoIcon>
     <NullText>Prázdny text</NullText>
     <NumberOfColumns>Počet stĺpcov</NumberOfColumns>
@@ -4070,6 +4105,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <RightToLeft>Sprava doľava</RightToLeft>
     <Rotation>Rotácia</Rotation>
     <RotationLabels>Označenia otočenia</RotationLabels>
+    <RotationMode>Mód otáčania</RotationMode>
     <Round>Zaokrúhliť</Round>
     <RoundValues>Zaokrúhliť hodnoty</RoundValues>
     <RowCount>Počet riadkov</RowCount>
@@ -4462,7 +4498,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <CrossBands>Krížové pruhy</CrossBands>
     <Dashboard>Riadiaci panel</Dashboard>
     <Dialogs>Ovládacie prvky zostavy</Dialogs>
-    <EditStyles>[Upraviť štýly]</EditStyles>
+    <EditStyles>Upraviť štýly</EditStyles>
     <Enhancements>Rozšírenia</Enhancements>
     <Errors>Chyby</Errors>
     <EventsTab>Záložka udalostí</EventsTab>

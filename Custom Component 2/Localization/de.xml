@@ -154,6 +154,7 @@
     <AxisReverse>Vertauschen</AxisReverse>
     <AxisX>X Achse</AxisX>
     <AxisY>Y Achse</AxisY>
+    <BoxAndWhisker>Box-Plot</BoxAndWhisker>
     <Bubble>Blase</Bubble>
     <Candlestick>Kerzen</Candlestick>
     <ChartConditionsCollectionForm>Bedingungen</ChartConditionsCollectionForm>
@@ -603,7 +604,7 @@
     <StiListBox>Listenfeld</StiListBox>
     <StiMap>Karte</StiMap>
     <StiOnlineMap>Online-Karte</StiOnlineMap>
-    <StiOverlayBand>Overlay</StiOverlayBand>
+    <StiOverlayBand>Überlagerung</StiOverlayBand>
     <StiPage>Seite</StiPage>
     <StiPageFooterBand>Seitenfuß</StiPageFooterBand>
     <StiPageHeaderBand>Seitenkopf</StiPageHeaderBand>
@@ -626,6 +627,7 @@
     <StiSubReport>Unterbericht</StiSubReport>
     <StiSystemText>Systemtext</StiSystemText>
     <StiTable>Tabelle</StiTable>
+    <StiTableOfContents>Inhaltstabelle</StiTableOfContents>
     <StiText>Text</StiText>
     <StiTextInCells>Text in Zellen</StiTextInCells>
     <StiTreeView>Baumansicht</StiTreeView>
@@ -1204,6 +1206,7 @@
     <ClientSecret>Geheimer Clientschlüssel</ClientSecret>
     <ConnectionString>Verbindungszeichenfolge:</ConnectionString>
     <DashboardConnections>Dashboard-Verbindung</DashboardConnections>
+    <DatabaseSecret>Datenbank-Geheimnis</DatabaseSecret>
     <DB2Edit>IBM DB2 Verbindung ändern</DB2Edit>
     <DB2New>Neue IBM DB2 Verbindung</DB2New>
     <EditConnection>{0} Verbindung bearbeiten</EditConnection>
@@ -1213,6 +1216,8 @@
     <FirstRowIsHeader>In der ersten Reihe sind die Kopfdaten</FirstRowIsHeader>
     <GetAuthorizationCode>Autorisierungscode erhalten</GetAuthorizationCode>
     <GetTokens>Token erhalten</GetTokens>
+    <GisEdit>GIS-Daten bearbeiten</GisEdit>
+    <GisNew>Neue GIS-Daten</GisNew>
     <ImportData>Import der Daten</ImportData>
     <InformixEdit>Informix-Verbindung ändern</InformixEdit>
     <InformixNew>Neue Informix-Verbindung</InformixNew>
@@ -1231,6 +1236,7 @@
     <OracleODPEdit>Oracle ODP.NET Verbindung ändern</OracleODPEdit>
     <OracleODPNew>Neue Oracle ODP.NET Verbindung</OracleODPNew>
     <PathData>Pfad zu XML-Daten:</PathData>
+    <PathGisData>Weg zu Gis-Daten:</PathGisData>
     <PathJsonData>Pfad zu JSON-Daten:</PathJsonData>
     <PathSchema>Pfad zu XSD-Schema:</PathSchema>
     <PathToData>Pfad zu Daten:</PathToData>
@@ -1288,14 +1294,14 @@
     <Preview>Vorschau</Preview>
     <PropertyChange>Eigenschaft '{0}' bearbeiten</PropertyChange>
     <RTPreview>WinRT Vorschau</RTPreview>
-    <SetupToolbox>Werkzeuge einrichten</SetupToolbox>
+    <SetupToolbox>Toolbox einrichten</SetupToolbox>
     <ShowDescription>Beschreibungen einblenden</ShowDescription>
     <SLPreview>Silverlight Vorschau</SLPreview>
     <title>Designer</title>
     <WebPreview>Flash Vorschau</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
-    <Actions>Funktionen</Actions>
+    <Actions>Aktionen</Actions>
     <AutoSort>Automatische Sortierung</AutoSort>
     <BusinessObjectEdit>Geschäftsobjekt ändern</BusinessObjectEdit>
     <CalcColumnEdit>Berechnete Spalte bearbeiten</CalcColumnEdit>
@@ -1563,7 +1569,7 @@
     <CreateStyleOnBase>Einen Stil aufgrund anderes Stiles erstellen</CreateStyleOnBase>
     <CreateStylesFromColor>Stil aus gewählter Farbe erstellen</CreateStylesFromColor>
     <Duplicate>Stil kopieren</Duplicate>
-    <EditColors>[Farben bearbeiten]</EditColors>
+    <EditColors>Farben bearbeiten</EditColors>
     <FromStyle>Aus der Art</FromStyle>
     <GetStyle>Stil von ausgewählten Komponenten übernehmen</GetStyle>
     <MoreStyles>Mehr Stile</MoreStyles>
@@ -1995,7 +2001,7 @@
     <Shadow>Schattierung</Shadow>
     <ShowBehind>Hinten anzeigen</ShowBehind>
     <ShowImageBehind>Bild dahinter anzeigen</ShowImageBehind>
-    <ShowToolbox>Werkzeuge</ShowToolbox>
+    <ShowToolbox>Toolbox</ShowToolbox>
     <StimulsoftHelp>Stimulsoft Hilfe</StimulsoftHelp>
     <StyleDesigner>Stile</StyleDesigner>
     <TellMeMore>weitere Informationen</TellMeMore>
@@ -2558,6 +2564,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <CrossTabCategory>Kreuztabelle</CrossTabCategory>
     <DashboardCategory>Dashboard</DashboardCategory>
     <DataCategory>Daten</DataCategory>
+    <DataCells>Datenzellen</DataCells>
     <DatePickerCategory>Datumsauswahl</DatePickerCategory>
     <DescriptionCategory>Beschreibung</DescriptionCategory>
     <DesignCategory>Entwurf</DesignCategory>
@@ -3822,6 +3829,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HyperlinkDataColumn>Hyperlink Datenspalte</HyperlinkDataColumn>
     <Icon>Symbol</Icon>
     <IconAlignment>Symbol-Ausrichtung</IconAlignment>
+    <IconColor>Symbolfarbe</IconColor>
     <IconSet>Symbolliste</IconSet>
     <IconSetCondition>Symbolliste Bedingung</IconSetCondition>
     <Idents>Bezeichner</Idents>
@@ -4050,7 +4058,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <PathSchema>Pfad Schema</PathSchema>
     <Pattern>Muster</Pattern>
     <Placement>Platzierung</Placement>
-    <PlaceOnToolbox>Auf die Werkzeuge platzieren</PlaceOnToolbox>
+    <PlaceOnToolbox>Auf die Toolbox platzieren</PlaceOnToolbox>
     <PointAtCenter>Punkt in der Mitte</PointAtCenter>
     <Position>Position</Position>
     <Positive>Positiv</Positive>
@@ -4193,11 +4201,13 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ShowEdgeValues>Werte an den Ränder anzeigen</ShowEdgeValues>
     <ShowImageBehind>Bild dahinter anzeigen</ShowImageBehind>
     <ShowInLegend>In Legende anzeigen</ShowInLegend>
+    <ShowInnerPoints>Innere Punkte anzeigen</ShowInnerPoints>
     <ShowInPercent>Anzeige in Prozent</ShowInPercent>
     <ShowLabels>Beschriftungen anzeigen</ShowLabels>
     <ShowLabelText>Text anzeigen</ShowLabelText>
     <ShowLegend>Beschriftung anzeigen</ShowLegend>
     <ShowMarker>Marker anzeigen</ShowMarker>
+    <ShowMeanMarkers>Mittelmarker anzeigen</ShowMeanMarkers>
     <ShowNulls>Nullen anzeigen</ShowNulls>
     <ShowOnZeroValues>Bei 0-Werten anzeigen</ShowOnZeroValues>
     <ShowOthers>Andere anzeigen</ShowOthers>
@@ -4527,7 +4537,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <CrossBands>Kreuz</CrossBands>
     <Dashboard>Dashboard</Dashboard>
     <Dialogs>Steuerelemente</Dialogs>
-    <EditStyles>[Stile bearbeiten]</EditStyles>
+    <EditStyles>Stile bearbeiten</EditStyles>
     <Enhancements>Erweiterungen</Enhancements>
     <Errors>Fehler</Errors>
     <EventsTab>Ereignisse</EventsTab>
@@ -4789,7 +4799,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ToolbarStandard>Standard</ToolbarStandard>
     <ToolbarStyle>Stile</ToolbarStyle>
     <ToolbarTextFormat>Textformat</ToolbarTextFormat>
-    <ToolbarTools>Werkzeuge</ToolbarTools>
+    <ToolbarTools>Toolbox</ToolbarTools>
     <ToolbarViewOptions>Vorschau Optionen</ToolbarViewOptions>
     <ToolbarWatermarkImage>Wasserzeichen-Bild</ToolbarWatermarkImage>
     <ToolbarWatermarkText>Wasserzeichen-Text</ToolbarWatermarkText>
@@ -4800,7 +4810,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Select>Auswählen</Select>
     <Style>Stil kopieren</Style>
     <TextEditor>Text-Editor</TextEditor>
-    <title>Werkzeuge</title>
+    <title>Toolbox</title>
   </Toolbox>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Möchten Sie wirklich dieses Fenster schließen? Alle Downloads werden abgebrochen werden.</AllDownloadsWillCanceled>
