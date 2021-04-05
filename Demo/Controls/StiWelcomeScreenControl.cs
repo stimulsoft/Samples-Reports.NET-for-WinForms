@@ -37,6 +37,7 @@ using Stimulsoft.Report;
 using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.ComponentModel;
+using Stimulsoft.Base;
 
 namespace Demo
 {
@@ -74,9 +75,9 @@ namespace Demo
 
 
             // Description
-            using (Font font = new Font("Segoe UI", 12.75F))
+            using (Font font = new Font("Segoe UI", StiScale.I(12)))
             {
-                StiTextRenderer.DrawText(g, welcomeDescription, font, new RectangleD(0, 68, 890, 142), Color.FromArgb(45, 45, 45),
+                StiTextRenderer.DrawText(g, welcomeDescription, font, new RectangleD(0, StiScale.I(68), StiScale.I(890), StiScale.I(142)), Color.FromArgb(45, 45, 45),
                     Color.Transparent, 1, StiTextHorAlignment.Width, StiVertAlignment.Top, true,
                     false, StiDpiHelper.GraphicsScale, 0, StringTrimming.None, false, true);
             }
@@ -86,7 +87,7 @@ namespace Demo
                 StringFormat sf = new StringFormat();
                 sf.Alignment = StringAlignment.Center;
                 sf.LineAlignment = StringAlignment.Center;
-                g.DrawString(welcome, font, new SolidBrush(Color.FromArgb(99, 99, 99)), new RectangleF(0, 0, 890, 68), sf);
+                g.DrawString(welcome, font, new SolidBrush(Color.FromArgb(99, 99, 99)), new RectangleF(0, 0, StiScale.I(890), StiScale.I(68)), sf);
 
                 sf.Dispose();
             }
@@ -110,7 +111,7 @@ namespace Demo
             if (!this.DesignMode)
             {
                 buttonSupport.Tag = "https://www.stimulsoft.com/en/support";
-                buttonVideo.Tag = "https://www.stimulsoft.com/en/videos";
+                buttonVideo.Tag = "https://www.youtube.com/user/StimulsoftVideos";
                 buttonForum.Tag = "https://forum.stimulsoft.com/";
                 buttonDocumentation.Tag = "https://www.stimulsoft.com/en/documentation";
                 buttonSampleProject.Tag = "https://www.stimulsoft.com/en/samples";

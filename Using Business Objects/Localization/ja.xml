@@ -149,11 +149,13 @@
     <AddFilter>&amp;フィルターの追加</AddFilter>
     <AddSeries>&amp;シリーズを追加</AddSeries>
     <AddStrip>ストリップを追加</AddStrip>
+    <AddTrendLine>トレンドラインを追加</AddTrendLine>
     <Area>エリア</Area>
     <Axes>軸</Axes>
     <AxisReverse>逆</AxisReverse>
     <AxisX>軸X</AxisX>
     <AxisY>軸Y</AxisY>
+    <BoxAndWhisker>箱とヒゲ</BoxAndWhisker>
     <Bubble>バブル</Bubble>
     <Candlestick>ローソク足</Candlestick>
     <ChartConditionsCollectionForm>条件</ChartConditionsCollectionForm>
@@ -435,6 +437,7 @@
     <LicenseInformation>ライセンス情報</LicenseInformation>
     <LicenseKey>ライセンスキー</LicenseKey>
     <Login>ログイン</Login>
+    <MyTeam>自分のチーム</MyTeam>
     <NofM>{0}：{2}の{1}</NofM>
     <Open>開いた</Open>
     <OpenFile>ファイルを開く</OpenFile>
@@ -479,6 +482,7 @@
     <TabItemEmbedCode>埋め込みコード</TabItemEmbedCode>
     <TabItemQRCode>QRコード</TabItemQRCode>
     <TabItemShare>共有へのリンク</TabItemShare>
+    <Team>チーム</Team>
     <TermsOfUse>条項</TermsOfUse>
     <TextActivated>活性化</TextActivated>
     <TextActivationDate>有効化日付</TextActivationDate>
@@ -625,6 +629,7 @@
     <StiSubReport>サブレポート</StiSubReport>
     <StiSystemText>システムテキスト</StiSystemText>
     <StiTable>表</StiTable>
+    <StiTableOfContents>目次</StiTableOfContents>
     <StiText>テキスト</StiText>
     <StiTextInCells>セル内テキスト</StiTextInCells>
     <StiTreeView>ツリー表示</StiTreeView>
@@ -897,6 +902,7 @@
     <NoServices>サービスは '{0}'に見つかりません</NoServices>
     <NotAssign>データソースが指定されていません。</NotAssign>
     <NotCorrectFormat>入力文字列は、正しい形式ではありませんでした。</NotCorrectFormat>
+    <OneTableOfContentsAllowed>レポートで同時に使用できる「目次」コンポーネントは1つだけです。</OneTableOfContentsAllowed>
     <PrimaryColumnAction>このアクションを '{0}'のプライマリ列に適用できません。</PrimaryColumnAction>
     <RelationsNotFound>リレーションが見つかりません。</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>エラーのためレポートを保存できません。</ReportCannotBeSaveDueToErrors>
@@ -1202,6 +1208,7 @@
     <ClientSecret>クライアントシークレット</ClientSecret>
     <ConnectionString>接続文字列：</ConnectionString>
     <DashboardConnections>ダッシュボード接続</DashboardConnections>
+    <DatabaseSecret>データベースシークレット</DatabaseSecret>
     <DB2Edit>IBM DB2接続の編集</DB2Edit>
     <DB2New>新規IBM DB2接続</DB2New>
     <EditConnection>{0}接続の編集</EditConnection>
@@ -1211,6 +1218,8 @@
     <FirstRowIsHeader>最初の行をヘッダとする</FirstRowIsHeader>
     <GetAuthorizationCode>認証コードを取得</GetAuthorizationCode>
     <GetTokens>トークンを取得</GetTokens>
+    <GisEdit>GISデータの編集</GisEdit>
+    <GisNew>新しいGISデータ</GisNew>
     <ImportData>データのインポート</ImportData>
     <InformixEdit>Informix接続の編集</InformixEdit>
     <InformixNew>新規Informix接続</InformixNew>
@@ -1229,6 +1238,7 @@
     <OracleODPEdit>Oracle ODP.NET接続の編集</OracleODPEdit>
     <OracleODPNew>新規Oracle ODP.NET接続</OracleODPNew>
     <PathData>XMLデータへパス：</PathData>
+    <PathGisData>GISデータへのパス：</PathGisData>
     <PathJsonData>JSONデータのパス：</PathJsonData>
     <PathSchema>XSDスキーマのパス：</PathSchema>
     <PathToData>データのパス：</PathToData>
@@ -2312,6 +2322,7 @@
     <AuthTokenIsNotCorrect>トークンが正しくありません！</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>あなたはログアウトしました！</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>ユーザー名（Email）はすでに使用中です！</AuthUserNameAlreadyExists>
+    <AuthUserNameEmailIsBlocked>このメールアドレスは使用できません！</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>ユーザー名（電子メール）は指定されていません！</AuthUserNameIsNotSpecified>
     <AuthUserNameNotAssociatedWithYourAccount>ユーザー名（メール）{0}は{1}アカウントに関連付けられていません！</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>ユーザー名（電子メール）またはパスワードが間違っています！</AuthUserNameOrPasswordIsNotCorrect>
@@ -2521,6 +2532,7 @@
     <CrossTabCategory>クロスタブ</CrossTabCategory>
     <DashboardCategory>ダッシュボード</DashboardCategory>
     <DataCategory>データ</DataCategory>
+    <DataCells>データセル</DataCells>
     <DatePickerCategory>デートピッカー</DatePickerCategory>
     <DescriptionCategory>説明</DescriptionCategory>
     <DesignCategory>設計</DesignCategory>
@@ -2567,6 +2579,7 @@
     <Size>サイズ</Size>
     <SubReportCategory>サブレポート</SubReportCategory>
     <TableCategory>表</TableCategory>
+    <TableOfContents>目次</TableOfContents>
     <TextAdditionalCategory>追加テキスト</TextAdditionalCategory>
     <TextCategory>テキスト</TextCategory>
     <TitleCategory>タイトル</TitleCategory>
@@ -3429,6 +3442,7 @@
     <AlternatingCellForeColor>交互セルの前景色</AlternatingCellForeColor>
     <AlternatingDataColor>交互データ色</AlternatingDataColor>
     <AlternatingDataForeground>交互データの前景</AlternatingDataForeground>
+    <Always>常に</Always>
     <Anchor>アンカー</Anchor>
     <Angle>角度</Angle>
     <Antialiasing>アンチエイリアシング</Antialiasing>
@@ -3568,6 +3582,7 @@
     <Create>作成</Create>
     <CreateFieldOnDoubleClick>ダブルクリックでフィールドを作成</CreateFieldOnDoubleClick>
     <CreateLabel>ラベルを作成</CreateLabel>
+    <CrossFiltering>クロスフィルタリング</CrossFiltering>
     <Culture>言語</Culture>
     <CustomFonts>カスタムフォント</CustomFonts>
     <CustomFormat>カスタムフォーマット</CustomFormat>
@@ -3704,6 +3719,7 @@
     <ForeColor>フォアカラー</ForeColor>
     <Format>フォーマット</Format>
     <From>から</From>
+    <FrozenColumns>カラム固定</FrozenColumns>
     <FullConvertExpression>フルコンバート式</FullConvertExpression>
     <Function>関数</Function>
     <Functions>関数</Functions>
@@ -3739,6 +3755,7 @@
     <HeaderRowsCount>ヘッダ行数</HeaderRowsCount>
     <Headers>ヘッダ</Headers>
     <HeaderText>ヘッダテキスト</HeaderText>
+    <Heading>見出し</Heading>
     <HeatmapColors>ヒートマップ色</HeatmapColors>
     <Height>高さ</Height>
     <HideSeriesWithEmptyTitle>空のタイトルでシリーズを非表示</HideSeriesWithEmptyTitle>
@@ -3763,6 +3780,7 @@
     <HyperlinkDataColumn>ハイパーリンクデータ列</HyperlinkDataColumn>
     <Icon>アイコン</Icon>
     <IconAlignment>アイコンの配置</IconAlignment>
+    <IconColor>アイコン Color</IconColor>
     <IconSet>アイコンセット</IconSet>
     <IconSetCondition>アイコンセット条件</IconSetCondition>
     <Idents>インデント</Idents>
@@ -4131,11 +4149,13 @@
     <ShowEdgeValues>エッジ値表示</ShowEdgeValues>
     <ShowImageBehind>後ろに画像を表示</ShowImageBehind>
     <ShowInLegend>凡例内表示</ShowInLegend>
+    <ShowInnerPoints>インナーポイントを表示</ShowInnerPoints>
     <ShowInPercent>％で表示</ShowInPercent>
     <ShowLabels>ラベル表示</ShowLabels>
     <ShowLabelText>ラベルテキスト表示</ShowLabelText>
     <ShowLegend>凡例表示</ShowLegend>
     <ShowMarker>ショーマーカー</ShowMarker>
+    <ShowMeanMarkers>平均マーカーを表示</ShowMeanMarkers>
     <ShowNulls>NULL表示</ShowNulls>
     <ShowOthers>その他表示</ShowOthers>
     <ShowPercents>パーセンテージ表示</ShowPercents>
@@ -4174,6 +4194,7 @@
     <SortingEnabled>並べ替えを有効</SortingEnabled>
     <SortType>ソートタイプ</SortType>
     <Space>スペース</Space>
+    <SpaceRatio>スペース比率</SpaceRatio>
     <Spacing>間隔</Spacing>
     <SqlCommand>SQLコマンド</SqlCommand>
     <StartAngle>開始角度</StartAngle>
@@ -4261,6 +4282,7 @@
     <TopN>トップN</TopN>
     <TopSide>トップサイド</TopSide>
     <Total>合計</Total>
+    <TotalLabel>トータルラベル</TotalLabel>
     <Totals>合計</Totals>
     <TrackColor>トラック色</TrackColor>
     <TransparentColor>透明な色</TransparentColor>
@@ -4279,6 +4301,7 @@
     <UnlimitedBreakable>無制限の改行</UnlimitedBreakable>
     <UnlimitedHeight>無制限の高さ</UnlimitedHeight>
     <UnlimitedWidth>無制限の幅</UnlimitedWidth>
+    <UpperMarks>アッパーマーク</UpperMarks>
     <UseAliases>エイリアスを使用</UseAliases>
     <UseExternalReport>外部レポートを使用</UseExternalReport>
     <UseParentStyles>親スタイルを使用</UseParentStyles>
@@ -4504,6 +4527,7 @@
     <LabelPixels>ピクセル：</LabelPixels>
     <LabelQueryTimeout>クエリのタイムアウト：</LabelQueryTimeout>
     <LabelSystemVariable>システム変数：</LabelSystemVariable>
+    <LabelTableOfContentsHint>目次を構成するコンポーネントを確認してください。 1つのコンポーネントは1つの見出しレベルに相当します。</LabelTableOfContentsHint>
     <LabelTotals>合計</LabelTotals>
     <LabelType>タイプ：</LabelType>
     <LabelUserName>ユーザー名：</LabelUserName>

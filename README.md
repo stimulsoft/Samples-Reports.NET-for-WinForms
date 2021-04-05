@@ -1,44 +1,33 @@
 # WinForms C# samples for Stimulsoft Reports.Net
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.Net reporting tool in the Windows Forms applications, using C# code and WinForms components.
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.Net reporting tool in the Windows Forms applications, using C# code and WinForms components. These products are compatible with .NET Framework 4.5 and higher. 
 
 # Overview
 This repository has many examples (Visual Studio Projects) each in different folders:
-* Create Report in Runtime from Business Object
-* Cross-Tab Runtime
-* Custom Component
-* Custom Component 2
-* Custom Viewer
+* Asynchronous Render and Export
+* Burn Copyrights on Report Pages
+* Custom Components
+* Customize Report Viewer
 * Demo
-* Export many files to One Big PDF
-* Export Rendered Report
+* Export many reports to One Big PDF
 * Export Reports
-* Global events Save and Load
 * Globalized Reports
 * Live Reports
 * Memory Test
-* My Copyrights
-* Print Grid
-* Print Test
-* Realtime Preview
-* Render in Thread
-* Render in Thread 2
+* Realtime Report Animation
+* Render Report in Thread
+* Rendering Progress
 * Runtime Report Creation
-* Runtime Table Creation
-* Sample Progress
 * Save and Load Report in Designer
-* Selecting Columns
-* Sub-Reports
 * User Data in Reports
 * Using Business Objects
 * Using Linq in Reports
 * Using Report Variables
+* Using the Form to Select Columns
 * Viewer and Right-To-Left
-* Work with Report Components
+* Working with Sub-Reports
 
 They are all combined in a Visual Studio solution (.sln-file).
-
-The **Report** folder has all report files for sample projects (.mrt format), the **Data** folder has sample of data files (NWIND.MDB, Demo.xml and Demo.xsd) required for building reports.
 
 # Running samples
 In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project as Startup Project. The required libraries will be automatically downloaded from NuGet repository.

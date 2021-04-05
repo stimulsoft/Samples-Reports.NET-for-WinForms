@@ -149,11 +149,13 @@
     <AddFilter>&amp;Добави филтър</AddFilter>
     <AddSeries>&amp;Добави серия</AddSeries>
     <AddStrip>Добави ивица</AddStrip>
+    <AddTrendLine>Добави линия на тренда</AddTrendLine>
     <Area>Област</Area>
     <Axes>Оси</Axes>
     <AxisReverse>Обърни</AxisReverse>
     <AxisX>Ос X</AxisX>
     <AxisY>Ос Y</AxisY>
+    <BoxAndWhisker>Кутия с Мустаци</BoxAndWhisker>
     <Bubble>Bubble</Bubble>
     <Candlestick>Свещник</Candlestick>
     <ChartConditionsCollectionForm>Условия</ChartConditionsCollectionForm>
@@ -435,6 +437,7 @@
     <LicenseInformation>Информация за лиценза</LicenseInformation>
     <LicenseKey>Лицензен ключ</LicenseKey>
     <Login>Вход</Login>
+    <MyTeam>Моят отбор</MyTeam>
     <NofM>{0}: {1} от {2}</NofM>
     <Open>Отвори</Open>
     <OpenFile>Отвори файл</OpenFile>
@@ -479,6 +482,7 @@
     <TabItemEmbedCode>Вграден код</TabItemEmbedCode>
     <TabItemQRCode>QR код</TabItemQRCode>
     <TabItemShare>Връзка за споделяне</TabItemShare>
+    <Team>Отбор</Team>
     <TermsOfUse>Условия</TermsOfUse>
     <TextActivated>Активиран</TextActivated>
     <TextActivationDate>Дата на активация</TextActivationDate>
@@ -626,6 +630,7 @@
     <StiSubReport>Вложен отчет</StiSubReport>
     <StiSystemText>Системен текст</StiSystemText>
     <StiTable>Таблица</StiTable>
+    <StiTableOfContents>Съдържание</StiTableOfContents>
     <StiText>Текст</StiText>
     <StiTextInCells>Текст в клетки</StiTextInCells>
     <StiTreeView>Tree View</StiTreeView>
@@ -898,6 +903,7 @@
     <NoServices>Услугите не са намерени '{0}'</NoServices>
     <NotAssign>Източника на данни е неопределен.</NotAssign>
     <NotCorrectFormat>Въведения низ е с некоректен формат.</NotCorrectFormat>
+    <OneTableOfContentsAllowed>Само един компонент 'Съдържание' може да се използва едновременно в отчет!</OneTableOfContentsAllowed>
     <PrimaryColumnAction>Това действие не може да се приложи в основната колона на '{0}'.</PrimaryColumnAction>
     <RelationsNotFound>Релациите не са намерени.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>Поради грешки отчета не може да се съхрани!</ReportCannotBeSaveDueToErrors>
@@ -1204,6 +1210,7 @@
     <ClientSecret>Клиентска тайна</ClientSecret>
     <ConnectionString>Израз за връзка:</ConnectionString>
     <DashboardConnections>Връзки на таблото</DashboardConnections>
+    <DatabaseSecret>Секрет на базата данни</DatabaseSecret>
     <DB2Edit>Редакция IBM DB2 връзка</DB2Edit>
     <DB2New>Нова IBM DB2 връзка</DB2New>
     <EditConnection>Редакция {0} връзка</EditConnection>
@@ -1213,6 +1220,8 @@
     <FirstRowIsHeader>Първият ред е заглавие</FirstRowIsHeader>
     <GetAuthorizationCode>Вземете код за оторизация</GetAuthorizationCode>
     <GetTokens>Вземете токен</GetTokens>
+    <GisEdit>Редакция GIS данни</GisEdit>
+    <GisNew>Нови GIS данни</GisNew>
     <ImportData>Импорт Данни</ImportData>
     <InformixEdit>Редакция Informix връзка</InformixEdit>
     <InformixNew>Нова Informix връзка</InformixNew>
@@ -1231,6 +1240,7 @@
     <OracleODPEdit>Редакция Oracle ODP.NET връзка</OracleODPEdit>
     <OracleODPNew>Нова Oracle ODP.NET връзка</OracleODPNew>
     <PathData>Пътека до XML данни:</PathData>
+    <PathGisData>Пътека към Gis данни:</PathGisData>
     <PathJsonData>Пътека до JSON Данни:</PathJsonData>
     <PathSchema>Пътека до XSD Схема:</PathSchema>
     <PathToData>Пътека до Данни:</PathToData>
@@ -2319,6 +2329,7 @@
     <AuthTokenIsNotCorrect>Токена не е коректен!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Вие излезнахте!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>Потребителят (Email) вече се използва!</AuthUserNameAlreadyExists>
+    <AuthUserNameEmailIsBlocked>Този е-майл адрес не може да се използва!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Потребителят (Email) не е зададен!</AuthUserNameIsNotSpecified>
     <AuthUserNameNotAssociatedWithYourAccount>Потребителско име (имейл) {0} не е свързано с вашия акаунт {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Грешно потребителско име (Email) или парола!</AuthUserNameOrPasswordIsNotCorrect>
@@ -2528,6 +2539,7 @@
     <CrossTabCategory>Крос-таблица</CrossTabCategory>
     <DashboardCategory>Табло</DashboardCategory>
     <DataCategory>Данни</DataCategory>
+    <DataCells>Клетка с данни</DataCells>
     <DatePickerCategory>Date Picker</DatePickerCategory>
     <DescriptionCategory>Описание</DescriptionCategory>
     <DesignCategory>Дизайн</DesignCategory>
@@ -2574,6 +2586,7 @@
     <Size>Размер</Size>
     <SubReportCategory>Под-справка</SubReportCategory>
     <TableCategory>Таблица</TableCategory>
+    <TableOfContents>Съдържание</TableOfContents>
     <TextAdditionalCategory>Текст, още</TextAdditionalCategory>
     <TextCategory>Текст</TextCategory>
     <TitleCategory>Заглавие</TitleCategory>
@@ -3451,6 +3464,7 @@
     <AlternatingCellForeColor>Черен цвят на предните редове</AlternatingCellForeColor>
     <AlternatingDataColor>Редуващи се цветове на данните</AlternatingDataColor>
     <AlternatingDataForeground>Редуващи се данни на преден план</AlternatingDataForeground>
+    <Always>Винаги</Always>
     <Anchor>Котва</Anchor>
     <Angle>Ъгъл</Angle>
     <Antialiasing>Прозрачност</Antialiasing>
@@ -3591,6 +3605,7 @@
     <Create>Създай</Create>
     <CreateFieldOnDoubleClick>Създаване на поле при двойно щракване</CreateFieldOnDoubleClick>
     <CreateLabel>Създаване етикет</CreateLabel>
+    <CrossFiltering>Кръстосано филтриране</CrossFiltering>
     <Culture>Култура</Culture>
     <CustomFonts>Персонален шрифт</CustomFonts>
     <CustomFormat>Формат по избор</CustomFormat>
@@ -3727,6 +3742,7 @@
     <ForeColor>Цвят текст</ForeColor>
     <Format>Формат</Format>
     <From>От</From>
+    <FrozenColumns>Замразени колони</FrozenColumns>
     <FullConvertExpression>Пълно конжертиране на израз</FullConvertExpression>
     <Function>Функция</Function>
     <Functions>Функции</Functions>
@@ -3762,6 +3778,7 @@
     <HeaderRowsCount>Брояч редове</HeaderRowsCount>
     <Headers>Заглавия</Headers>
     <HeaderText>Текст заглавие</HeaderText>
+    <Heading>Заглавие</Heading>
     <HeatmapColors>Цветове Heatmap</HeatmapColors>
     <Height>Височина</Height>
     <HideSeriesWithEmptyTitle>Скриване на серии с празни заглавия</HideSeriesWithEmptyTitle>
@@ -3786,6 +3803,7 @@
     <HyperlinkDataColumn>Колона данни хипер-връзка</HyperlinkDataColumn>
     <Icon>Икона</Icon>
     <IconAlignment>Подравняване на иконите</IconAlignment>
+    <IconColor>Цвят на икона</IconColor>
     <IconSet>Множесто икони</IconSet>
     <IconSetCondition>Условие за множество икони</IconSetCondition>
     <Idents>Идентификатори</Idents>
@@ -4155,11 +4173,13 @@
     <ShowEdgeValues>Показване на крайни стойности</ShowEdgeValues>
     <ShowImageBehind>Показване на картинка отзад</ShowImageBehind>
     <ShowInLegend>Показване в легенда</ShowInLegend>
+    <ShowInnerPoints>Показване на вътрешни точки</ShowInnerPoints>
     <ShowInPercent>Показване в процент</ShowInPercent>
     <ShowLabels>Показване на етикети</ShowLabels>
     <ShowLabelText>Показване текст на етикет</ShowLabelText>
     <ShowLegend>Показване Леганда</ShowLegend>
     <ShowMarker>Показване на маркер</ShowMarker>
+    <ShowMeanMarkers>Показване на средни маркери</ShowMeanMarkers>
     <ShowNulls>Покажи Nulls</ShowNulls>
     <ShowOnZeroValues>Показване при нулева стойност</ShowOnZeroValues>
     <ShowOthers>Покажи други</ShowOthers>
@@ -4199,6 +4219,7 @@
     <SortingEnabled>Сортирането е разрешено</SortingEnabled>
     <SortType>Тип на сортиране</SortType>
     <Space>Разредка</Space>
+    <SpaceRatio>Space Ratio</SpaceRatio>
     <Spacing>Разстояние</Spacing>
     <SqlCommand>Sql команда</SqlCommand>
     <StartAngle>Начален ъгъл</StartAngle>
@@ -4286,6 +4307,7 @@
     <TopN>Първите N</TopN>
     <TopSide>Горна страна</TopSide>
     <Total>Общо</Total>
+    <TotalLabel>Етикет Общо</TotalLabel>
     <Totals>Сбор</Totals>
     <TrackColor>Цвят на проследяване</TrackColor>
     <TransparentColor>Прозрачен цвят</TransparentColor>
@@ -4304,6 +4326,7 @@
     <UnlimitedBreakable>Unlimited Breakable</UnlimitedBreakable>
     <UnlimitedHeight>Неограничена височина</UnlimitedHeight>
     <UnlimitedWidth>Неограничена ширина</UnlimitedWidth>
+    <UpperMarks>Горни маркери</UpperMarks>
     <UseAliases>Използване на псевдоними</UseAliases>
     <UseExternalReport>Използване на външен отчет</UseExternalReport>
     <UseParentStyles>Използване на родителските стилове</UseParentStyles>
@@ -4531,6 +4554,7 @@
     <LabelPixels>Пиксели:</LabelPixels>
     <LabelQueryTimeout>Таймаут на запитване:</LabelQueryTimeout>
     <LabelSystemVariable>Системна променлива:</LabelSystemVariable>
+    <LabelTableOfContentsHint>Моля, проверете компонентите, които трябва да съставят съдържанието. Един компонент е равен на едно ниво на заглавието.</LabelTableOfContentsHint>
     <LabelTotals>Сумарно</LabelTotals>
     <LabelType>Тип:</LabelType>
     <LabelUserName>Потребителско име:</LabelUserName>

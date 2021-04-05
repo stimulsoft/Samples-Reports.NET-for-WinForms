@@ -154,6 +154,7 @@
     <AxisReverse>Obrnuto</AxisReverse>
     <AxisX>Os X</AxisX>
     <AxisY>Os Y</AxisY>
+    <BoxAndWhisker>Box i Whisker</BoxAndWhisker>
     <Bubble>Balon</Bubble>
     <Candlestick>Svijećnjak</Candlestick>
     <ChartConditionsCollectionForm>Uvjeti</ChartConditionsCollectionForm>
@@ -350,6 +351,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>Pročitao sam i prihvaćam {0} i {1}</AcceptTermsAndPrivacyPolicy>
+    <Account>Račun</Account>
     <AccountSettings>Postavke računa</AccountSettings>
     <AddAPlace>Dodaj mjesto</AddAPlace>
     <AreYouSureYouWantDeleteReport>Jeste li sigurni da želite obrisati "{0}" izvještaj sa diska?</AreYouSureYouWantDeleteReport>
@@ -621,9 +623,11 @@
     <StiRichText>Rich tekst</StiRichText>
     <StiRoundedRectanglePrimitive>Zaobljeni pravokutnik</StiRoundedRectanglePrimitive>
     <StiShape>Oblik</StiShape>
+    <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Podizvještaj</StiSubReport>
     <StiSystemText>Sistemski tekst</StiSystemText>
     <StiTable>Tablica</StiTable>
+    <StiTableOfContents>Tabela sadržaja</StiTableOfContents>
     <StiText>Tekst</StiText>
     <StiTextInCells>Tekst u ćelijama</StiTextInCells>
     <StiTreeView>Prikaz stabla</StiTreeView>
@@ -638,6 +642,7 @@
     <AllowUserDrillDown>Dopusti korisniku pretraživanje kroz razine naniže</AllowUserDrillDown>
     <AllowUserFiltering>Dopusti korisniku filtriranje</AllowUserFiltering>
     <AllowUserSorting>Dopusti korisniku poredavanje</AllowUserSorting>
+    <Blank>(Prazno)</Blank>
     <Blanks>(Prazno)</Blanks>
     <BooleanFilters>Boolean filteri</BooleanFilters>
     <CannotLoadDashboard>Nije moguće učitati izvještaj sa kontrolnom pločom.</CannotLoadDashboard>
@@ -648,6 +653,7 @@
     <ColorScale>Ljestvica boja</ColorScale>
     <ColumnInteractions>Interakcije sa stupcima</ColumnInteractions>
     <CustomFilter>Prilagođeni &amp;filter...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>Kontrolne ploče nisu podržane u WPF designer-u.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Podatkovne trake</DataBars>
     <DataFilterGrouping>Ova operacija se koristi samo za grupiranje različitih stupaca.</DataFilterGrouping>
     <DataNotDefined>Podaci nisu definirani</DataNotDefined>
@@ -700,6 +706,7 @@
     <SelectAll>(Odaberi &amp;sve)</SelectAll>
     <ShowAllValue>Prikaži (sve) vrijednosti</ShowAllValue>
     <ShowAsPercentages>Prikaži kao postotke</ShowAsPercentages>
+    <ShowBlanks>Prikaži prazne</ShowBlanks>
     <SkipFirstRows>Preskoči prvih redova</SkipFirstRows>
     <SortAZ>Poredaj A prema Z</SortAZ>
     <SortLargestToSmallest>Poredaj najveći prema najmanjem</SortLargestToSmallest>
@@ -806,11 +813,13 @@
     <ButtonAddFolder>Dodaj mapu</ButtonAddFolder>
     <ButtonCreateDashboard>Kreiraj nadzornu ploču</ButtonCreateDashboard>
     <ButtonCreateReport>Kreiraj izvještaj</ButtonCreateReport>
+    <ChooseYourSkillLevel>Odaberite razinu svoje vještine</ChooseYourSkillLevel>
     <Creator>Kreator</Creator>
     <Developer>Developer</Developer>
     <DoYouWantToInstallReports>Želite li instalirati predloške izvještaja i nadzornih ploča?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Idemo instalirati uzorke projekata. Oni će vam pomoći savladati osnove rada sa našim software-om.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>Molim, odgovorite tko ste?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Razina vještine</SkillLevel>
     <WhoAreYou>Tko ste vi?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Odličan izbor ako pokrećete dizajner po prvi puta.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Odličan izbor za izradu izvještaja. Dostupne su neophodne funkcionalnosti za dizajn.</WhoAreYouCreatorDescription>
@@ -896,6 +905,21 @@
     <ReportCannotBeSaveDueToErrors>Izvještaj se ne može spremiti zbog greške!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' Servis nije nađen.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Assembly datoteke</Assemblies>
+    <Exception>Greška</Exception>
+    <ExceptionReport>Izvještaj greške</ExceptionReport>
+    <Framework>Framework</Framework>
+    <General>Općenito</General>
+    <Message>Poruka</Message>
+    <Number>Broj</Number>
+    <PleaseEnterDetailedInformation>Molim unesite detaljne informacije o događajima koji prouzročuju ovu grešku.</PleaseEnterDetailedInformation>
+    <SaveToFile>Spremi u datoteku</SaveToFile>
+    <SendErrorFailed>Neuspjela dostava poruke o grešci.</SendErrorFailed>
+    <SendErrorSuccess>Poruka o grešci je uspješno dostavljena.</SendErrorSuccess>
+    <Source>Izvor</Source>
+    <StackTrace>Stack Trace</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Dodaj prijelome stranice</AddPageBreaks>
     <AllBands>Sve trake</AllBands>
@@ -1175,10 +1199,13 @@
     <title>Cross-Tab dizajner</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>Pristupni token</AccessToken>
+    <AuthorizationCode>Autorizacijski kod</AuthorizationCode>
     <ClientId>ID klijenta</ClientId>
     <ClientSecret>Tajna klijenta</ClientSecret>
     <ConnectionString>Konekcijski string:</ConnectionString>
     <DashboardConnections>Konekcije kontrolne ploče</DashboardConnections>
+    <DatabaseSecret>Tajna baze podataka</DatabaseSecret>
     <DB2Edit>Uredi IBM DB2 konekciju</DB2Edit>
     <DB2New>Nova IBM DB2 konekcija</DB2New>
     <EditConnection>Uredi {0} konekciju</EditConnection>
@@ -1186,6 +1213,10 @@
     <FirebirdEdit>Uredi Firebird konekciju</FirebirdEdit>
     <FirebirdNew>Nova Firebird konekcija</FirebirdNew>
     <FirstRowIsHeader>Prvi red je zaglavlje</FirstRowIsHeader>
+    <GetAuthorizationCode>Dohvati autorizacijski kod</GetAuthorizationCode>
+    <GetTokens>Dohvati tokene</GetTokens>
+    <GisEdit>Uredi GIS podatke</GisEdit>
+    <GisNew>Novi GIS podaci</GisNew>
     <ImportData>Uvezi podatke</ImportData>
     <InformixEdit>Izmjeni Informix konekciju</InformixEdit>
     <InformixNew>Nova Informix konekcija</InformixNew>
@@ -1204,6 +1235,7 @@
     <OracleODPEdit>Uredi Oracle ODP.NET konekciju</OracleODPEdit>
     <OracleODPNew>Nova Oracle ODP.NET konekcija</OracleODPNew>
     <PathData>Put do XML podataka:</PathData>
+    <PathGisData>Put do GIS podataka:</PathGisData>
     <PathJsonData>Put do JSON podataka:</PathJsonData>
     <PathSchema>Put do XSD scheme:</PathSchema>
     <PathToData>Put do podataka:</PathToData>
@@ -1212,6 +1244,9 @@
     <PostgreSQLNew>Nova PostgreSQL konekcija</PostgreSQLNew>
     <PromptUserNameAndPassword>Upitaj za korisničko ime i lozinku</PromptUserNameAndPassword>
     <RecentConnections>Nedavni</RecentConnections>
+    <RedirectUrl>Preusmjerni URL</RedirectUrl>
+    <RefreshAccessToken>Osvježi pristupni token</RefreshAccessToken>
+    <RefreshToken>Osvježi token</RefreshToken>
     <RelationDirection>Smjer relacije:</RelationDirection>
     <ReportConnections>Konekcije izvještaja</ReportConnections>
     <SelectData>Odaberi podatke</SelectData>
@@ -1229,6 +1264,8 @@
     <UniDirectNew>Nova Uni Direct konekcija</UniDirectNew>
     <Unpin>Otkvači</Unpin>
     <UseBearerAuthentication>Koristi autentifikaciju nosioca</UseBearerAuthentication>
+    <UseOwnClientID>Koristi vlastiti "Client ID" i "Client Secret"</UseOwnClientID>
+    <UseToken>Koristi token</UseToken>
     <VistaDBEdit>Uredi VistaDB konekciju</VistaDBEdit>
     <VistaDBNew>NOva VistaDB konekcija</VistaDBNew>
     <XmlEdit>Uredi XML podatke</XmlEdit>
@@ -1528,6 +1565,7 @@
     <ColorCollectionEditor>Editor kolekcije boja</ColorCollectionEditor>
     <CreateNewComponentStyle>da bi se napravio novi stil komponente</CreateNewComponentStyle>
     <CreateStyleCollection>Kreiraj kolekciju stilova</CreateStyleCollection>
+    <CreateStyleOnBase>Kreiraj stil baziran na drugom stilu</CreateStyleOnBase>
     <CreateStylesFromColor>Kreiraj stil iz odabrane boje</CreateStylesFromColor>
     <Duplicate>Dupliciraj stil</Duplicate>
     <EditColors>Uredi boje</EditColors>
@@ -1692,6 +1730,7 @@
     <colorpicker_nofill>&amp;Bez popune</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Standardne boje</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Boje teme</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>&amp;Alfa:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Plava:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Odustani</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Boje</colorpickerdialog_caption>
@@ -2488,11 +2527,13 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <ColorsCategory>Boje</ColorsCategory>
     <ColumnsCategory>Stupci</ColumnsCategory>
     <ComboBoxCategory>Kombinirani okvir</ComboBoxCategory>
+    <CommonCategory>Zajedničko</CommonCategory>
     <ControlCategory>Kontrola</ControlCategory>
     <ControlsEventsCategory>Događaji kontrola</ControlsEventsCategory>
     <CrossTabCategory>Cross-Tab</CrossTabCategory>
     <DashboardCategory>Dashboard</DashboardCategory>
     <DataCategory>Podaci</DataCategory>
+    <DataCells>Data ćelije</DataCells>
     <DatePickerCategory>Odabir datuma</DatePickerCategory>
     <DescriptionCategory>Opis</DescriptionCategory>
     <DesignCategory>Dizajn</DesignCategory>
@@ -3751,6 +3792,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <HyperlinkDataColumn>Hiperveza podatkovni stupac</HyperlinkDataColumn>
     <Icon>Ikona</Icon>
     <IconAlignment>Poravnanje ikone</IconAlignment>
+    <IconColor>Boja ikone</IconColor>
     <IconSet>Set ikona</IconSet>
     <IconSetCondition>Uvjet seta ikona</IconSetCondition>
     <Idents>Uvlake</Idents>
@@ -3935,6 +3977,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <NewPageAfter>Nova stranica nakon</NewPageAfter>
     <NewPageBefore>Nova stranica prije</NewPageBefore>
     <NextPage>Slijedeća stranica</NextPage>
+    <NoElements>bez elemenata</NoElements>
     <NoIcon>Bez ikone</NoIcon>
     <NullText>Null tekst</NullText>
     <NumberOfColumns>Broj stupaca</NumberOfColumns>
@@ -4059,6 +4102,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <RightToLeft>Sa desna na lijevo</RightToLeft>
     <Rotation>Rotacija</Rotation>
     <RotationLabels>Rotacijske labele</RotationLabels>
+    <RotationMode>Mod rotacije</RotationMode>
     <Round>Okruglo</Round>
     <RoundValues>Zaokružene vrijednosti</RoundValues>
     <RowCount>Broj redaka</RowCount>
@@ -4117,11 +4161,13 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <ShowEdgeValues>Prikaži rubne vrijednosti</ShowEdgeValues>
     <ShowImageBehind>Prikaži sliku iza</ShowImageBehind>
     <ShowInLegend>Prikaži u legendi</ShowInLegend>
+    <ShowInnerPoints>Prikaži unutarnje točke</ShowInnerPoints>
     <ShowInPercent>Prikaži u postotcima</ShowInPercent>
     <ShowLabels>Prikaži labele</ShowLabels>
     <ShowLabelText>Prikaži tekst labele</ShowLabelText>
     <ShowLegend>Prikaži legendu</ShowLegend>
     <ShowMarker>Prikaži oznaku</ShowMarker>
+    <ShowMeanMarkers>Prikaži srednje markere</ShowMeanMarkers>
     <ShowNulls>Prikaži null vrijednosti</ShowNulls>
     <ShowOnZeroValues>Prikaži kod nula vrijednosti</ShowOnZeroValues>
     <ShowOthers>Prikaži druge</ShowOthers>

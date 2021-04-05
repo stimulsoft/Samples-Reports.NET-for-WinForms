@@ -149,11 +149,13 @@
     <AddFilter>필터 추가(&amp;A)</AddFilter>
     <AddSeries>시리즈를 추가(&amp;A)</AddSeries>
     <AddStrip>스트립을 추가</AddStrip>
+    <AddTrendLine>추세 라인 추가</AddTrendLine>
     <Area>영역</Area>
     <Axes>축</Axes>
     <AxisReverse>역</AxisReverse>
     <AxisX>축 X</AxisX>
     <AxisY>축 Y</AxisY>
+    <BoxAndWhisker>봉차트</BoxAndWhisker>
     <Bubble>버블</Bubble>
     <Candlestick>캔들</Candlestick>
     <ChartConditionsCollectionForm>조건</ChartConditionsCollectionForm>
@@ -435,6 +437,7 @@
     <LicenseInformation>라이센스 정보</LicenseInformation>
     <LicenseKey>라이센스키</LicenseKey>
     <Login>로그인</Login>
+    <MyTeam>내 팀</MyTeam>
     <NofM>{0} : {2}의 {1}</NofM>
     <Open>열기</Open>
     <OpenFile>열기</OpenFile>
@@ -479,6 +482,7 @@
     <TabItemEmbedCode>소스 코드</TabItemEmbedCode>
     <TabItemQRCode>QR 코드</TabItemQRCode>
     <TabItemShare>공유 링크</TabItemShare>
+    <Team>팀</Team>
     <TermsOfUse>조항</TermsOfUse>
     <TextActivated>활성화</TextActivated>
     <TextActivationDate>활성화 날짜</TextActivationDate>
@@ -625,6 +629,7 @@
     <StiSubReport>하위 보고서</StiSubReport>
     <StiSystemText>시스템 텍스트</StiSystemText>
     <StiTable>테이블</StiTable>
+    <StiTableOfContents>목차</StiTableOfContents>
     <StiText>텍스트</StiText>
     <StiTextInCells>셀의 텍스트</StiTextInCells>
     <StiTreeView>트리보기</StiTreeView>
@@ -897,6 +902,7 @@
     <NoServices>서비스는 '{0}'에서 찾을 수 없습니다</NoServices>
     <NotAssign>데이터 소스가 지정되어 있지 않습니다.</NotAssign>
     <NotCorrectFormat>입력 문자열이 올바른 형식이 없습니다.</NotCorrectFormat>
+    <OneTableOfContentsAllowed>보고서에서 '목차' 구성요소는 동시에 한 개만 사용할 수 있습니다!</OneTableOfContentsAllowed>
     <PrimaryColumnAction>이 작업을 '{0}'의 기본 라인에 적용 할 수 없습니다.</PrimaryColumnAction>
     <RelationsNotFound>관계가 없습니다.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>오류에 대한 보고서를 저장할 수 없습니다.</ReportCannotBeSaveDueToErrors>
@@ -1081,7 +1087,7 @@
     <PcxFiles>PCX 이미지 (*.pcx)|*.pcx</PcxFiles>
     <PdfFiles>Adobe PDF 파일 (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG 이미지 (*.png)|*.png</PngFiles>
-    <Ppt2007Files>Microsoft PowerPoint 2007</Ppt2007Files>
+    <Ppt2007Files>Microsoft PowerPoint 2007/2013 (*.pptx)|*.pptx</Ppt2007Files>
     <ReportEmbededDataFiles>데이타포함 된 보고서 템플릿 (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>보고서 템플릿 (*.mrt) |</ReportFiles>
     <RtfFiles>서식있는 텍스트 (*.rtf)|*.rtf</RtfFiles>
@@ -1202,6 +1208,7 @@
     <ClientSecret>클라이언트 암호</ClientSecret>
     <ConnectionString>연결 문자열 :</ConnectionString>
     <DashboardConnections>대시보드 연결</DashboardConnections>
+    <DatabaseSecret>데이터베이스 비밀번호</DatabaseSecret>
     <DB2Edit>IBM DB2 연결 편집</DB2Edit>
     <DB2New>새로운 IBM DB2 연결</DB2New>
     <EditConnection>{0} 연결 편집</EditConnection>
@@ -1211,6 +1218,8 @@
     <FirstRowIsHeader>첫 줄은 헤더입니다</FirstRowIsHeader>
     <GetAuthorizationCode>인증코드 받기</GetAuthorizationCode>
     <GetTokens>토큰 받기</GetTokens>
+    <GisEdit>GIS 데이터 편집</GisEdit>
+    <GisNew>신규 GIS 데이터</GisNew>
     <ImportData>데이터 가져 오기</ImportData>
     <InformixEdit>Informix 연결 편집</InformixEdit>
     <InformixNew>새로운 Informix 연결</InformixNew>
@@ -1229,6 +1238,7 @@
     <OracleODPEdit>Oracle ODP.NET 연결 편집</OracleODPEdit>
     <OracleODPNew>새로운 Oracle ODP.NET 연결</OracleODPNew>
     <PathData>XML 데이터 경로 :</PathData>
+    <PathGisData>GIS 경로 데이터:</PathGisData>
     <PathJsonData>JSON 데이터 경로 :</PathJsonData>
     <PathSchema>XSD 스키마 경로 :</PathSchema>
     <PathToData>데이터 경로 :</PathToData>
@@ -2312,6 +2322,7 @@
     <AuthTokenIsNotCorrect>토큰이 맞지 않습니다!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>당신은 로그 아웃했습니다!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>사용자 이름 (Email)은 이미 사용 중입니다!</AuthUserNameAlreadyExists>
+    <AuthUserNameEmailIsBlocked>이 이메일 주소는 사용할 수 없습니다!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>사용자 이름 (이메일)는 지정되지 않습니다!</AuthUserNameIsNotSpecified>
     <AuthUserNameNotAssociatedWithYourAccount>당신의  {1}계정의  사용자 이름 (이메일) {0} 관련이 없습니다!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>사용자 이름 (이메일) 또는 암호가 잘못되었습니다!</AuthUserNameOrPasswordIsNotCorrect>
@@ -2521,6 +2532,7 @@
     <CrossTabCategory>크로스 탭</CrossTabCategory>
     <DashboardCategory>대시보드</DashboardCategory>
     <DataCategory>데이터</DataCategory>
+    <DataCells>데이터 셀</DataCells>
     <DatePickerCategory>날자 선택기</DatePickerCategory>
     <DescriptionCategory>설명</DescriptionCategory>
     <DesignCategory>디자인</DesignCategory>
@@ -2567,6 +2579,7 @@
     <Size>크기</Size>
     <SubReportCategory>하위 보고서</SubReportCategory>
     <TableCategory>테이블</TableCategory>
+    <TableOfContents>목차</TableOfContents>
     <TextAdditionalCategory>추가 텍스트</TextAdditionalCategory>
     <TextCategory>텍스트</TextCategory>
     <TitleCategory>제목</TitleCategory>
@@ -3429,6 +3442,7 @@
     <AlternatingCellForeColor>교대 셀 전경 색상</AlternatingCellForeColor>
     <AlternatingDataColor>교대 데이타 색상</AlternatingDataColor>
     <AlternatingDataForeground>교대 데이타 전경</AlternatingDataForeground>
+    <Always>항상</Always>
     <Anchor>고정</Anchor>
     <Angle>회전</Angle>
     <Antialiasing>안티 앨리어싱</Antialiasing>
@@ -3568,6 +3582,7 @@
     <Create>만들기</Create>
     <CreateFieldOnDoubleClick>더블 클릭하여 필드를 생성</CreateFieldOnDoubleClick>
     <CreateLabel>라벨 만들기</CreateLabel>
+    <CrossFiltering>교차 필터링</CrossFiltering>
     <Culture>문화권</Culture>
     <CustomFonts>사용자 정의 글꼴</CustomFonts>
     <CustomFormat>사용자 정의 형식</CustomFormat>
@@ -3704,6 +3719,7 @@
     <ForeColor>전경색</ForeColor>
     <Format>형식</Format>
     <From>에서</From>
+    <FrozenColumns>고정 컬럼</FrozenColumns>
     <FullConvertExpression>전체 변환 식 ​​</FullConvertExpression>
     <Function>함수</Function>
     <Functions>기능</Functions>
@@ -3739,6 +3755,7 @@
     <HeaderRowsCount>헤더 행수</HeaderRowsCount>
     <Headers>헤더</Headers>
     <HeaderText>헤더 텍스트</HeaderText>
+    <Heading>헤딩</Heading>
     <HeatmapColors>히트 맵 색상</HeatmapColors>
     <Height>높이</Height>
     <HideSeriesWithEmptyTitle>빈 제목으로 시리즈를 숨기기</HideSeriesWithEmptyTitle>
@@ -3763,6 +3780,7 @@
     <HyperlinkDataColumn>하이퍼 링크 데이터 열</HyperlinkDataColumn>
     <Icon>아이콘</Icon>
     <IconAlignment>아이콘 정렬</IconAlignment>
+    <IconColor>아이콘 색상</IconColor>
     <IconSet>아이콘 세트</IconSet>
     <IconSetCondition>아이콘 세트 조건</IconSetCondition>
     <Idents>들여 쓰기</Idents>
@@ -4131,11 +4149,13 @@
     <ShowEdgeValues>에지 값을 표시한다</ShowEdgeValues>
     <ShowImageBehind>뒤에 이미지를 표시</ShowImageBehind>
     <ShowInLegend>범례</ShowInLegend>
+    <ShowInnerPoints>내부 포인터 표시</ShowInnerPoints>
     <ShowInPercent>%로 표시</ShowInPercent>
     <ShowLabels>라벨 표시</ShowLabels>
     <ShowLabelText>라벨 텍스트를 보기</ShowLabelText>
     <ShowLegend>전설보기</ShowLegend>
     <ShowMarker>쇼 마커</ShowMarker>
+    <ShowMeanMarkers>평균 마커 표시</ShowMeanMarkers>
     <ShowNulls>널값 보기</ShowNulls>
     <ShowOthers>밖에도 표시</ShowOthers>
     <ShowPercents>백분율을 표시</ShowPercents>
@@ -4174,6 +4194,7 @@
     <SortingEnabled>정렬을 사용</SortingEnabled>
     <SortType>정렬 유형</SortType>
     <Space>공간</Space>
+    <SpaceRatio>공백 비율</SpaceRatio>
     <Spacing>간격</Spacing>
     <SqlCommand>SQL 명령</SqlCommand>
     <StartAngle>시작 각도</StartAngle>
@@ -4261,6 +4282,7 @@
     <TopN>상위 N</TopN>
     <TopSide>상단 사이드</TopSide>
     <Total>총</Total>
+    <TotalLabel>총 라벨</TotalLabel>
     <Totals>총</Totals>
     <TrackColor>Track 색</TrackColor>
     <TransparentColor>투명한 색</TransparentColor>
@@ -4279,6 +4301,7 @@
     <UnlimitedBreakable>무제한 나누기</UnlimitedBreakable>
     <UnlimitedHeight>무제한 높이</UnlimitedHeight>
     <UnlimitedWidth>무제한 폭</UnlimitedWidth>
+    <UpperMarks>상단 마크</UpperMarks>
     <UseAliases>별칭을 사용</UseAliases>
     <UseExternalReport>외부 보고서를 사용</UseExternalReport>
     <UseParentStyles>부모 스타일을 사용</UseParentStyles>
@@ -4504,6 +4527,7 @@
     <LabelPixels>픽셀 :</LabelPixels>
     <LabelQueryTimeout>쿼리 제한 시간 :</LabelQueryTimeout>
     <LabelSystemVariable>시스템 변수 :</LabelSystemVariable>
+    <LabelTableOfContentsHint>Please, check the components which should form the table of contents. One component is equal to one heading level.</LabelTableOfContentsHint>
     <LabelTotals>총</LabelTotals>
     <LabelType>유형 :</LabelType>
     <LabelUserName>사용자 이름 :</LabelUserName>

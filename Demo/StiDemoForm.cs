@@ -44,6 +44,7 @@ using System.Xml;
 using System.Drawing.Drawing2D;
 using Stimulsoft.Report.Dictionary;
 using Stimulsoft.Base.Localization;
+using Stimulsoft.Base;
 
 namespace Demo
 {
@@ -398,7 +399,7 @@ namespace Demo
             buttonHelpResources.Name = "buttonHelpResources";
 
             Size buttonSize = TextRenderer.MeasureText((string)demoLocalization["ButtonHelpResources"], this.viewerControl.ToolBar.Font, new Size(110, 22));
-            buttonHelpResources.FixedSize = new Size(buttonSize.Width + 25, 22);
+            buttonHelpResources.FixedSize = new Size(buttonSize.Width + 25, StiScale.I(22));
 
             #region Other buttons
             labelHelp = new LabelItem();
@@ -414,42 +415,42 @@ namespace Demo
 
             ButtonItem buttonDocumentation = new ButtonItem();
             buttonDocumentation.Image = global::Demo.Properties.Resources.Documentation;
-            buttonDocumentation.Tag = "http://www.stimulsoft.com/Documentation.aspx";
+            buttonDocumentation.Tag = "https://www.stimulsoft.com/en/documentation";
             buttonDocumentation.Text = (string)demoLocalization["ButtonDocumentation"];
             buttonDocumentation.Name = "buttonDocumentation";
             buttonDocumentation.Click += new EventHandler(buttonHyperlink_Click);
 
             ButtonItem buttonSupport = new ButtonItem();
             buttonSupport.Image = global::Demo.Properties.Resources.Support;
-            buttonSupport.Tag = "http://www.stimulsoft.com/support.aspx";
+            buttonSupport.Tag = "https://www.stimulsoft.com/en/support";
             buttonSupport.Text = (string)demoLocalization["ButtonSupport"];
             buttonSupport.Name = "buttonSupport";
             buttonSupport.Click += new EventHandler(buttonHyperlink_Click);
 
             ButtonItem buttonForum = new ButtonItem();
             buttonForum.Image = global::Demo.Properties.Resources.Forum;
-            buttonForum.Tag = "http://forum.stimulsoft.com/";
+            buttonForum.Tag = "https://forum.stimulsoft.com/";
             buttonForum.Text = (string)demoLocalization["ButtonForum"];
             buttonForum.Name = "buttonForum";
             buttonForum.Click += new EventHandler(buttonHyperlink_Click);
 
             ButtonItem buttonKnowledgebase = new ButtonItem();
             buttonKnowledgebase.Image = global::Demo.Properties.Resources.Knowledgebase;
-            buttonKnowledgebase.Tag = "http://stimulsoft.helpserve.com/index.php?_m=knowledgebase&_a=view";
+            buttonKnowledgebase.Tag = "https://stimulsoft.zendesk.com/hc/en-us";
             buttonKnowledgebase.Text = (string)demoLocalization["ButtonKnowledgebase"];
             buttonKnowledgebase.Name = "buttonKnowledgebase";
             buttonKnowledgebase.Click += new EventHandler(buttonHyperlink_Click);
 
             ButtonItem buttonPurchase = new ButtonItem();
             buttonPurchase.Image = global::Demo.Properties.Resources.Purchase;
-            buttonPurchase.Tag = "http://www.stimulsoft.com/Purchase.aspx";
+            buttonPurchase.Tag = "https://www.stimulsoft.com/en/online-store";
             buttonPurchase.Text = (string)demoLocalization["ButtonPurchase"];
             buttonPurchase.Name = "buttonPurchase";
             buttonPurchase.Click += new EventHandler(buttonHyperlink_Click);
 
             ButtonItem buttonAllVideos = new ButtonItem();
             buttonAllVideos.Image = global::Demo.Properties.Resources.Video;
-            buttonAllVideos.Tag = "http://www.stimulsoft.com/Videos.aspx";
+            buttonAllVideos.Tag = "https://www.youtube.com/user/StimulsoftVideos";
             buttonAllVideos.Text = (string)demoLocalization["ButtonVideos"];
             buttonAllVideos.Name = "buttonVideos";
             buttonAllVideos.Click += new EventHandler(buttonHyperlink_Click);
@@ -474,7 +475,7 @@ namespace Demo
             buttonDesign.Click += new EventHandler(btDesign_Click);
 
             buttonSize = TextRenderer.MeasureText((string)demoLocalization["ButtonDesign"], this.viewerControl.ToolBar.Font, new Size(130, 22));
-            buttonDesign.FixedSize = new Size(buttonSize.Width + 15, 22);
+            buttonDesign.FixedSize = new Size(buttonSize.Width + 15, StiScale.I(22));
 
             ButtonItem buttonGotoStartPage = new ButtonItem();
             buttonGotoStartPage.Image = global::Demo.Properties.Resources.Help;
@@ -756,7 +757,7 @@ namespace Demo
             #region Create Welcome Screen
             this.welcomeScreen = new StiWelcomeScreenControl();
             this.welcomeScreen.Location = new Point(50, 50);
-            this.welcomeScreen.Size = new Size(900, 550);
+            this.welcomeScreen.Size = new Size(StiScale.I(900), StiScale.I(550));
             this.welcomeScreen.Visible = false;
             this.Controls.Add(this.welcomeScreen);
 

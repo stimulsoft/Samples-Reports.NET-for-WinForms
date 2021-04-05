@@ -149,11 +149,13 @@
     <AddFilter>添加过滤(&amp;A)</AddFilter>
     <AddSeries>添加(&amp;A)</AddSeries>
     <AddStrip>添加长条</AddStrip>
+    <AddTrendLine>添加趋势线</AddTrendLine>
     <Area>面积图</Area>
     <Axes>坐标</Axes>
     <AxisReverse>反转</AxisReverse>
     <AxisX>X 轴</AxisX>
     <AxisY>Y 轴</AxisY>
+    <BoxAndWhisker>箱线</BoxAndWhisker>
     <Bubble>气泡图</Bubble>
     <Candlestick>烛台图</Candlestick>
     <ChartConditionsCollectionForm>条件</ChartConditionsCollectionForm>
@@ -351,6 +353,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>我已阅读并接受 {0} 和 {1}</AcceptTermsAndPrivacyPolicy>
+    <Account>账户</Account>
     <AccountSettings>帐户设置</AccountSettings>
     <AddAPlace>增加一个位置</AddAPlace>
     <AreYouSureYouWantDeleteReport>您确定要从磁盘中删除"{0}" 报告吗?</AreYouSureYouWantDeleteReport>
@@ -435,6 +438,7 @@
     <LicenseInformation>许可证信息</LicenseInformation>
     <LicenseKey>许可证密钥</LicenseKey>
     <Login>登陆</Login>
+    <MyTeam>我的团队</MyTeam>
     <NofM>{0}: {2} 的 {1}</NofM>
     <Open>打开</Open>
     <OpenFile>打开文档</OpenFile>
@@ -479,6 +483,7 @@
     <TabItemEmbedCode>嵌入代码</TabItemEmbedCode>
     <TabItemQRCode>二维码</TabItemQRCode>
     <TabItemShare>分享链接</TabItemShare>
+    <Team>团队</Team>
     <TermsOfUse>条款</TermsOfUse>
     <TextActivated>激活</TextActivated>
     <TextActivationDate>激活日期</TextActivationDate>
@@ -621,9 +626,11 @@
     <StiRichText>富文本</StiRichText>
     <StiRoundedRectanglePrimitive>圆角矩形</StiRoundedRectanglePrimitive>
     <StiShape>形状</StiShape>
+    <StiSparkline> 火花谱线</StiSparkline>
     <StiSubReport>子报表</StiSubReport>
     <StiSystemText>系统文本</StiSystemText>
     <StiTable>表格</StiTable>
+    <StiTableOfContents> 目录 </StiTableOfContents>
     <StiText>文本</StiText>
     <StiTextInCells>单元格文本</StiTextInCells>
     <StiTreeView>树视图</StiTreeView>
@@ -638,6 +645,7 @@
     <AllowUserDrillDown>允许用户下行查看</AllowUserDrillDown>
     <AllowUserFiltering>允许用户筛选</AllowUserFiltering>
     <AllowUserSorting>允许用户排序</AllowUserSorting>
+    <Blank>(空白)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>布尔过滤器</BooleanFilters>
     <CannotLoadDashboard>无法使用仪表盘加载报表.</CannotLoadDashboard>
@@ -648,6 +656,7 @@
     <ColorScale>色标</ColorScale>
     <ColumnInteractions>纵列交互</ColumnInteractions>
     <CustomFilter>自定义 &amp;过滤器...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>WPF设计器不支持仪表板.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>数据条</DataBars>
     <DataFilterGrouping>此操作仅用于对不同的列进行分组.</DataFilterGrouping>
     <DataNotDefined>数据未定义</DataNotDefined>
@@ -700,6 +709,7 @@
     <SelectAll>(Select &amp;All)</SelectAll>
     <ShowAllValue>显示 (All)值</ShowAllValue>
     <ShowAsPercentages>显示为百分比</ShowAsPercentages>
+    <ShowBlanks>显示空白 </ShowBlanks>
     <SkipFirstRows>跳过第一行</SkipFirstRows>
     <SortAZ>从A到Z排序</SortAZ>
     <SortLargestToSmallest>从最大到最小排序</SortLargestToSmallest>
@@ -806,11 +816,13 @@
     <ButtonAddFolder>新增文件夹</ButtonAddFolder>
     <ButtonCreateDashboard>创建仪表盘</ButtonCreateDashboard>
     <ButtonCreateReport>创建报表</ButtonCreateReport>
+    <ChooseYourSkillLevel>选择你的技能等级</ChooseYourSkillLevel>
     <Creator>报表创建者</Creator>
     <Developer>开发者</Developer>
     <DoYouWantToInstallReports>是否安装报表和仪表盘模板？</DoYouWantToInstallReports>
     <InstallSamplesDesc>安装示例项目。它将帮助您学习使用本软件的基础知识。</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>请问您是?</PleaseAnswerWhoAreYou>
+    <SkillLevel>技能等级</SkillLevel>
     <WhoAreYou>您是谁？</WhoAreYou>
     <WhoAreYouBeginnerDescription>非常适合初次设计报表者</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>非常适合报表创建者，设计所需功能一应俱全</WhoAreYouCreatorDescription>
@@ -891,11 +903,27 @@
     <NoServices>在 '{0}'找不到服务</NoServices>
     <NotAssign>数据源未定义.</NotAssign>
     <NotCorrectFormat>输入的字符串格式不正确.</NotCorrectFormat>
+    <OneTableOfContentsAllowed>一个报表中只能同时使用一个“目录”组件 !</OneTableOfContentsAllowed>
     <PrimaryColumnAction>无法将此操作应用于 '{0}'的主列.</PrimaryColumnAction>
     <RelationsNotFound>找不到关系定义.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>由于错误,报表无法保存!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>找不到服务 '{0}'.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>组合</Assemblies>
+    <Exception>异常</Exception>
+    <ExceptionReport>异常报告</ExceptionReport>
+    <Framework>框架</Framework>
+    <General>常规</General>
+    <Message>消息</Message>
+    <Number>编号</Number>
+    <PleaseEnterDetailedInformation>请输入导致此异常事件的详细信息.</PleaseEnterDetailedInformation>
+    <SaveToFile>保存到文件</SaveToFile>
+    <SendErrorFailed>无法传递出错消息.</SendErrorFailed>
+    <SendErrorSuccess>出错消息传递成功.</SendErrorSuccess>
+    <Source>信息来源</Source>
+    <StackTrace>堆栈跟踪</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>增加分页符</AddPageBreaks>
     <AllBands>所有带区</AllBands>
@@ -1175,10 +1203,13 @@
     <title>交叉报表设计</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>访问令牌</AccessToken>
+    <AuthorizationCode>授权码模式</AuthorizationCode>
     <ClientId>用户ID</ClientId>
     <ClientSecret>用户隐私</ClientSecret>
     <ConnectionString>连接字符串:</ConnectionString>
     <DashboardConnections>仪表盘连接</DashboardConnections>
+    <DatabaseSecret>数据库秘钥</DatabaseSecret>
     <DB2Edit>编辑 IBM DB2 连接</DB2Edit>
     <DB2New>新建 IBM DB2 连接</DB2New>
     <EditConnection>编辑 {0} 连接</EditConnection>
@@ -1186,6 +1217,10 @@
     <FirebirdEdit>编辑 Firebird 连接</FirebirdEdit>
     <FirebirdNew>新建 Firebird 连接</FirebirdNew>
     <FirstRowIsHeader>第一行为标题</FirstRowIsHeader>
+    <GetAuthorizationCode>获取授权码</GetAuthorizationCode>
+    <GetTokens>获取令牌</GetTokens>
+    <GisEdit>编辑GIS数据 </GisEdit>
+    <GisNew>新GIS数据 a</GisNew>
     <ImportData>导入数据</ImportData>
     <InformixEdit>编辑Informix连接</InformixEdit>
     <InformixNew>新建Informix连接</InformixNew>
@@ -1204,6 +1239,7 @@
     <OracleODPEdit>编辑Oracle ODP.NET连接</OracleODPEdit>
     <OracleODPNew>新建Oracle ODP.NET连接</OracleODPNew>
     <PathData>路径到 XML Data:</PathData>
+    <PathGisData>Gis数据路径:</PathGisData>
     <PathJsonData>JSON数据的路径:</PathJsonData>
     <PathSchema>路径到 XSD Schema:</PathSchema>
     <PathToData>数据路径:</PathToData>
@@ -1212,6 +1248,9 @@
     <PostgreSQLNew>新建 PostgreSQL 连接</PostgreSQLNew>
     <PromptUserNameAndPassword>提示用户名和密码</PromptUserNameAndPassword>
     <RecentConnections>近期</RecentConnections>
+    <RedirectUrl>重定向URL</RedirectUrl>
+    <RefreshAccessToken>刷新访问令牌</RefreshAccessToken>
+    <RefreshToken>刷新令牌</RefreshToken>
     <RelationDirection>关系方向:</RelationDirection>
     <ReportConnections>报表连接</ReportConnections>
     <SelectData>选择数据</SelectData>
@@ -1229,6 +1268,8 @@
     <UniDirectNew>新建Uni Direct连接</UniDirectNew>
     <Unpin>取消固定</Unpin>
     <UseBearerAuthentication>使用不记名身份认证</UseBearerAuthentication>
+    <UseOwnClientID>使用自己的“客户ID”和“客户秘钥”</UseOwnClientID>
+    <UseToken>使用令牌</UseToken>
     <VistaDBEdit>编辑 VistaDB 连接</VistaDBEdit>
     <VistaDBNew>新建 VistaDB 连接</VistaDBNew>
     <XmlEdit>编辑 XML Data</XmlEdit>
@@ -1528,7 +1569,9 @@
     <ColorCollectionEditor>集合编辑器涂色</ColorCollectionEditor>
     <CreateNewComponentStyle>创建新组建样式</CreateNewComponentStyle>
     <CreateStyleCollection>创建样式集</CreateStyleCollection>
+    <CreateStyleOnBase>基于其他样式创建样式</CreateStyleOnBase>
     <Duplicate>复制样式</Duplicate>
+    <EditColors>编辑颜色 </EditColors>
     <FromStyle>来自风格</FromStyle>
     <GetStyle>从所选组件中获得样式</GetStyle>
     <MoreStyles>更多样式</MoreStyles>
@@ -1691,6 +1734,7 @@
     <colorpicker_nofill>无填充(&amp;N)</colorpicker_nofill>
     <colorpicker_standardcolorslabel>标准颜色</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>主题颜色</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel />
     <colorpickerdialog_bluelabel>蓝(&amp;B):</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>取消</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>颜色</colorpickerdialog_caption>
@@ -2280,6 +2324,7 @@
     <AuthTokenIsNotCorrect>Token 不正确!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>您已注销!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>用户名（电子邮件）已存在!</AuthUserNameAlreadyExists>
+    <AuthUserNameEmailIsBlocked>无法使用此电子邮件地址!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>未指定用户名（电子邮件）!</AuthUserNameIsNotSpecified>
     <AuthUserNameNotAssociatedWithYourAccount>用户名(电子邮件){0}与您的{1}帐户无法关联!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>用户名（电子邮件）或密码错误!</AuthUserNameOrPasswordIsNotCorrect>
@@ -2483,11 +2528,13 @@
     <ColorsCategory>颜色</ColorsCategory>
     <ColumnsCategory>分栏</ColumnsCategory>
     <ComboBoxCategory>组合框</ComboBoxCategory>
+    <CommonCategory>共同</CommonCategory>
     <ControlCategory>控件</ControlCategory>
     <ControlsEventsCategory>控件事件</ControlsEventsCategory>
     <CrossTabCategory>交叉 Tab</CrossTabCategory>
     <DashboardCategory>仪表盘</DashboardCategory>
     <DataCategory>数据</DataCategory>
+    <DataCells>数据单元</DataCells>
     <DatePickerCategory>日期选择器</DatePickerCategory>
     <DescriptionCategory>描述</DescriptionCategory>
     <DesignCategory>设计</DesignCategory>
@@ -2534,6 +2581,7 @@
     <Size>尺寸</Size>
     <SubReportCategory>子报表</SubReportCategory>
     <TableCategory>表</TableCategory>
+    <TableOfContents>目录</TableOfContents>
     <TextAdditionalCategory>附加文本</TextAdditionalCategory>
     <TextCategory>文本</TextCategory>
     <TitleCategory>标题</TitleCategory>
@@ -3404,6 +3452,7 @@
     <AlternatingCellForeColor>交替单元格前景色</AlternatingCellForeColor>
     <AlternatingDataColor>交替数据颜色</AlternatingDataColor>
     <AlternatingDataForeground>交替数据前景</AlternatingDataForeground>
+    <Always>一贯</Always>
     <Anchor>锚点</Anchor>
     <Angle>角度</Angle>
     <Antialiasing>混叠效应</Antialiasing>
@@ -3543,6 +3592,7 @@
     <Create>创建</Create>
     <CreateFieldOnDoubleClick>双击创建字段</CreateFieldOnDoubleClick>
     <CreateLabel>创建标签</CreateLabel>
+    <CrossFiltering>交叉过滤</CrossFiltering>
     <Culture>区域</Culture>
     <CustomFonts>自定义字体</CustomFonts>
     <CustomFormat>自定义格式</CustomFormat>
@@ -3679,6 +3729,7 @@
     <ForeColor>前景色</ForeColor>
     <Format>格式</Format>
     <From>来自</From>
+    <FrozenColumns>冻结列</FrozenColumns>
     <FullConvertExpression>完整转换表达式</FullConvertExpression>
     <Function>函数</Function>
     <Functions>函数</Functions>
@@ -3714,6 +3765,7 @@
     <HeaderRowsCount>页眉行数</HeaderRowsCount>
     <Headers>页眉</Headers>
     <HeaderText>标题文本</HeaderText>
+    <Heading>标题</Heading>
     <HeatmapColors>热图颜色</HeatmapColors>
     <Height>高度</Height>
     <HideSeriesWithEmptyTitle>空标题的隐藏系列</HideSeriesWithEmptyTitle>
@@ -3738,6 +3790,7 @@
     <HyperlinkDataColumn>超链接数据列</HyperlinkDataColumn>
     <Icon>图标</Icon>
     <IconAlignment>图标对齐</IconAlignment>
+    <IconColor>图标颜色</IconColor>
     <IconSet>图标集</IconSet>
     <IconSetCondition>图标集条件</IconSetCondition>
     <Idents>页面边框</Idents>
@@ -3922,6 +3975,7 @@
     <NewPageAfter>在后插入新页</NewPageAfter>
     <NewPageBefore>在前插入新面</NewPageBefore>
     <NextPage>后页</NextPage>
+    <NoElements>无元素</NoElements>
     <NoIcon>无图标</NoIcon>
     <NullText>无效文本</NullText>
     <NumberOfColumns>栏数</NumberOfColumns>
@@ -4048,6 +4102,7 @@
     <RightToLeft>从右到左</RightToLeft>
     <Rotation>旋转</Rotation>
     <RotationLabels>旋转标签</RotationLabels>
+    <RotationMode>旋转模式</RotationMode>
     <Round>环绕</Round>
     <RoundValues>圆值</RoundValues>
     <RowCount>行数</RowCount>
@@ -4106,11 +4161,13 @@
     <ShowEdgeValues>显示边框值</ShowEdgeValues>
     <ShowImageBehind>显示图片于后面</ShowImageBehind>
     <ShowInLegend>显示图例</ShowInLegend>
+    <ShowInnerPoints>显示内部点</ShowInnerPoints>
     <ShowInPercent>显示为百分比</ShowInPercent>
     <ShowLabels>显示标签</ShowLabels>
     <ShowLabelText>显示标签文本</ShowLabelText>
     <ShowLegend>显示图例</ShowLegend>
     <ShowMarker>显示标注</ShowMarker>
+    <ShowMeanMarkers>显示平均标记</ShowMeanMarkers>
     <ShowNulls>显示空值</ShowNulls>
     <ShowOnZeroValues>显示零值</ShowOnZeroValues>
     <ShowOthers>显示其他</ShowOthers>
@@ -4150,6 +4207,7 @@
     <SortingEnabled>可排序</SortingEnabled>
     <SortType>排序类型</SortType>
     <Space>空格</Space>
+    <SpaceRatio>空间比</SpaceRatio>
     <Spacing>间隔</Spacing>
     <SqlCommand>Sql命令</SqlCommand>
     <StartAngle>开始角度</StartAngle>
@@ -4237,6 +4295,7 @@
     <TopN>Top N</TopN>
     <TopSide>顶部</TopSide>
     <Total>总计</Total>
+    <TotalLabel>标签</TotalLabel>
     <Totals>总计</Totals>
     <TrackColor>轨迹颜色</TrackColor>
     <TransparentColor>透明色</TransparentColor>
@@ -4255,6 +4314,7 @@
     <UnlimitedBreakable>不限制分页</UnlimitedBreakable>
     <UnlimitedHeight>不限制高度</UnlimitedHeight>
     <UnlimitedWidth>不限制宽度</UnlimitedWidth>
+    <UpperMarks>上标记</UpperMarks>
     <UseAliases>使用别名</UseAliases>
     <UseExternalReport>使用外部报表</UseExternalReport>
     <UseParentStyles>使用父级样式</UseParentStyles>
@@ -4480,6 +4540,7 @@
     <LabelPixels>像素:</LabelPixels>
     <LabelQueryTimeout>查询超时:</LabelQueryTimeout>
     <LabelSystemVariable>系统变量:</LabelSystemVariable>
+    <LabelTableOfContentsHint>请检查一下目录中应该包含的组件。一个组件等于一个标题级别.</LabelTableOfContentsHint>
     <LabelTotals>合计</LabelTotals>
     <LabelType>类型:</LabelType>
     <LabelUserName>用户:</LabelUserName>

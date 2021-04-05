@@ -35,6 +35,7 @@ using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.ComponentModel;
 using Stimulsoft.Base.Drawing;
+using Stimulsoft.Base;
 
 namespace Demo.Controls
 {
@@ -154,11 +155,11 @@ namespace Demo.Controls
             {
                 g.DrawImage(image, new RectangleF(18, 18, 32, 32));
             }
-
+            
             // Header
             using (Font font = new Font("Segoe UI", 16))
             {
-                g.DrawString(this.header, font, (IsMouseOver ? selectedTextBrush : textBrush), 67, -8);
+                g.DrawString(this.header, font, (IsMouseOver ? selectedTextBrush : textBrush), 67, StiScale.I(-8));
             }
 
             // Desription
@@ -168,7 +169,7 @@ namespace Demo.Controls
                 sf.Trimming = StringTrimming.EllipsisWord;
                 sf.Alignment = StringAlignment.Center;
 
-                StiTextDrawing.DrawStringWidth(g, this.Text, this.Font, (IsMouseOver ? selectedTextBrush : textBrush), new RectangleD(70, 18, 365, 50), sf);
+                StiTextDrawing.DrawStringWidth(g, this.Text, this.Font, (IsMouseOver ? selectedTextBrush : textBrush), new RectangleD(70, StiScale.I(18), StiScale.I(365), StiScale.I(50)), sf);
             }
             #endregion
 

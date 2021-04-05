@@ -154,6 +154,7 @@
     <AxisReverse>ღერძების შებრუნება</AxisReverse>
     <AxisX>X ღერძი</AxisX>
     <AxisY>Y ღერძი</AxisY>
+    <BoxAndWhisker>ყუთი ულვაშებით</BoxAndWhisker>
     <Bubble>ბუშტი</Bubble>
     <Candlestick>იაპონური სანთელი</Candlestick>
     <ChartConditionsCollectionForm>პირობები</ChartConditionsCollectionForm>
@@ -350,6 +351,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>წავიკითხე და ვეთანხმები {0} და {1}</AcceptTermsAndPrivacyPolicy>
+    <Account>მომხმარებელი</Account>
     <AccountSettings>ექაუნთის პარამეტრები</AccountSettings>
     <AddAPlace>ადგილის დამატება</AddAPlace>
     <AreYouSureYouWantDeleteReport>თქვენ ნამდვილად გსურთ წაშალოთ "{0}" რეპორტი დისკიდან?</AreYouSureYouWantDeleteReport>
@@ -622,9 +624,11 @@
     <StiRichText>ტექსტის ფორმატირების ველი</StiRichText>
     <StiRoundedRectanglePrimitive>მომრგვალებული მართკუთხედი</StiRoundedRectanglePrimitive>
     <StiShape>ფიგურა</StiShape>
+    <StiSparkline>სპარკლაინი</StiSparkline>
     <StiSubReport>ქვე-რეპორტი</StiSubReport>
     <StiSystemText>სისტემური ტექსტი</StiSystemText>
     <StiTable>ცხრილი</StiTable>
+    <StiTableOfContents>სარჩევი</StiTableOfContents>
     <StiText>ტექსტი</StiText>
     <StiTextInCells>ტექსტი უჯრედებში</StiTextInCells>
     <StiTreeView>ხე</StiTreeView>
@@ -639,6 +643,7 @@
     <AllowUserDrillDown>სამომხმარებლო დეტალიზაციის დაშვება</AllowUserDrillDown>
     <AllowUserFiltering>სამომხმარებლო ფილტრაციის დაშვება</AllowUserFiltering>
     <AllowUserSorting>სამომხმარებლო სორტირების დაშვება</AllowUserSorting>
+    <Blank>(ცარიელი)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>ლოგიკური ფილტრები</BooleanFilters>
     <CannotLoadDashboard>შეუძლებელია რეპორტის ატვირთვა Dashboard-ით.</CannotLoadDashboard>
@@ -649,6 +654,7 @@
     <ColorScale>ფერთა პალიტრა</ColorScale>
     <ColumnInteractions>სვეტების ურთიერთქმედება</ColumnInteractions>
     <CustomFilter>მომხმარებლის ფილტრები...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>ინდიკატრორების პანელი არ არის მხარდაჭერილი WPF დიზაინერში.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>მონაცემთა სვეტები</DataBars>
     <DataFilterGrouping>ეს ოპერაცია გამოიყენება მხოლოდ სხვადასხვა სვეტების დაჯგუფების მიზნით.</DataFilterGrouping>
     <DataNotDefined>მონაცემი არ არის განსაზღვრული</DataNotDefined>
@@ -701,6 +707,7 @@
     <SelectAll>(ყველას მონიშვნა)</SelectAll>
     <ShowAllValue>ჩვენება (ყველა) ელემენტის</ShowAllValue>
     <ShowAsPercentages>ჩვენება პროცენტებში</ShowAsPercentages>
+    <ShowBlanks>სიცარიელეების ჩვენება</ShowBlanks>
     <SkipFirstRows>პირველი სტრიქონის გამოტოვება</SkipFirstRows>
     <SortAZ>სორტირება ზრდადობით</SortAZ>
     <SortLargestToSmallest>სორტირება კლებადობით</SortLargestToSmallest>
@@ -809,11 +816,13 @@
     <ButtonAddFolder>ფოლდერის დამატება</ButtonAddFolder>
     <ButtonCreateDashboard>ინდიკატორების პანელის შექმნა</ButtonCreateDashboard>
     <ButtonCreateReport>რეპორტის შექმნა</ButtonCreateReport>
+    <ChooseYourSkillLevel>აირჩიეთ სირთულის დონე</ChooseYourSkillLevel>
     <Creator>რედაქტორი</Creator>
     <Developer>დეველოპერი</Developer>
     <DoYouWantToInstallReports>გნებავთ რეპორტებისა და ინდიკატორთა პანელების დაყენება?</DoYouWantToInstallReports>
     <InstallSamplesDesc>დავაყენოთ ჩვენი მაგალითები! ისინი მოგეხმარებიან ჩვენი პროდუქტის ათვისებაში.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>გთხოვთ, უპასუხოთ, ვინ ხართ?</PleaseAnswerWhoAreYou>
+    <SkillLevel>სირთულის დონე</SkillLevel>
     <WhoAreYou>რომელი ხართ?</WhoAreYou>
     <WhoAreYouBeginnerDescription>ოპტიმალურია დიზაინერის შესაძლებლებების გასაცნობად.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>ოპტიმალურია რეპორტების შესაქმნელად, ასევე გააჩნია აუცილებელი ფუნქციონალი  დიზაინისთვის.</WhoAreYouCreatorDescription>
@@ -899,6 +908,21 @@
     <ReportCannotBeSaveDueToErrors>შეუძლებელია რეპორტის შენახვა შეცდომების გამო!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' სერვისი არ არის ნაპოვნი.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>ნაკრები</Assemblies>
+    <Exception>გამონაკლისი</Exception>
+    <ExceptionReport>გამონაკლისების რეპორტი</ExceptionReport>
+    <Framework>ფრეიმვორკი</Framework>
+    <General>ძირითადი</General>
+    <Message>შეტყობინება</Message>
+    <Number>ნომერი</Number>
+    <PleaseEnterDetailedInformation>გთხოვთ, შეიყვანოთ დეტალური ინფომრაცია აღნიშნული გამონაკლისის შემთხვევების შესახებ.</PleaseEnterDetailedInformation>
+    <SaveToFile>შენახვა ფაილში</SaveToFile>
+    <SendErrorFailed>ვერ მოხერხდა შეცდომის შესახებ შეტყობინების გაგზავნა.</SendErrorFailed>
+    <SendErrorSuccess>შეცდომის შესახებ შეტყობინება წარმატებით გაიგზავნა.</SendErrorSuccess>
+    <Source>წყარო</Source>
+    <StackTrace>სტეკის ტრასირებები</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>გვერდის წყვეტის დამატება</AddPageBreaks>
     <AllBands>ყველა სვეტი</AllBands>
@@ -1179,10 +1203,13 @@
     <title>კროს-რეპორტის რედაქტირება</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>წვდომის ტოკენი</AccessToken>
+    <AuthorizationCode>ავტორიზაციის კოდი</AuthorizationCode>
     <ClientId>კლიენტის იდენტიფიკატორი</ClientId>
     <ClientSecret>კლიენტის საიდუმლო</ClientSecret>
     <ConnectionString>დაკავშირების სტრიქონი:</ConnectionString>
     <DashboardConnections>Dashboard კავშრები</DashboardConnections>
+    <DatabaseSecret>მონაცემთა ბაზის საიდუმლო</DatabaseSecret>
     <DB2Edit>ახალი IBM DB2 დაკავშირება</DB2Edit>
     <DB2New>IBM DB2 დაკავშირების შეცვლა</DB2New>
     <EditConnection>{0} დაკავშირების რედაქტირება</EditConnection>
@@ -1190,6 +1217,10 @@
     <FirebirdEdit>Firebird დაკავშირების შეცვლა</FirebirdEdit>
     <FirebirdNew>ახალი Firebird დაკავშირება</FirebirdNew>
     <FirstRowIsHeader>პირველი სტრიქონი სათაურებია</FirstRowIsHeader>
+    <GetAuthorizationCode>ავტორიზაციის კოდის მიღება</GetAuthorizationCode>
+    <GetTokens>ტოკენის მიღება</GetTokens>
+    <GisEdit>GIS მონაცემთა ცვლილება</GisEdit>
+    <GisNew>ახალი GIS მინაცემები</GisNew>
     <ImportData>მონაცემთა იმპორტი</ImportData>
     <InformixEdit>Informix დაკავშირების შეცვლა</InformixEdit>
     <InformixNew>ახალი Informix დაკავშირება</InformixNew>
@@ -1208,6 +1239,7 @@
     <OracleODPEdit>Oracle ODP.NET დაკავშირების შეცვლა</OracleODPEdit>
     <OracleODPNew>ახალი Oracle ODP.NET დაკავშირება</OracleODPNew>
     <PathData>XML მონაცემების გზა:</PathData>
+    <PathGisData>GIS მონაცემთა მისამართი:</PathGisData>
     <PathJsonData>JSON მონაცემთა მისამართი:</PathJsonData>
     <PathSchema>XSD-ს გზა :</PathSchema>
     <PathToData>მონაცემთა მისამართი:</PathToData>
@@ -1216,6 +1248,9 @@
     <PostgreSQLNew>ახალი PostgreSQL დაკავშირება</PostgreSQLNew>
     <PromptUserNameAndPassword>მომხმარებლის სახელის და პაროლის შემოწმება</PromptUserNameAndPassword>
     <RecentConnections>ბოლო გამოყენებული</RecentConnections>
+    <RedirectUrl>URL გადამისამართება</RedirectUrl>
+    <RefreshAccessToken>წვდომის ტოკენის განახლება</RefreshAccessToken>
+    <RefreshToken>ტოკენის განახლება</RefreshToken>
     <RelationDirection>კავშირის მიმართულება:</RelationDirection>
     <ReportConnections>პატაკის კავშირები</ReportConnections>
     <SelectData>აირჩიეთ მონაცემები</SelectData>
@@ -1233,6 +1268,8 @@
     <UniDirectNew>ახალი Uni Direct დაკავშირება</UniDirectNew>
     <Unpin>მიბმის მოხსნა</Unpin>
     <UseBearerAuthentication>Bearer აუტენტიფიკაციის გამოყენება</UseBearerAuthentication>
+    <UseOwnClientID>საკუთარი «Client ID» და «Client Secret» გამოყენება</UseOwnClientID>
+    <UseToken>ტოკენის გამოყენება</UseToken>
     <VistaDBEdit>VistaDB დაკავშირების შეცვლა</VistaDBEdit>
     <VistaDBNew>ახალი VistaDB დაკავშირება</VistaDBNew>
     <XmlEdit>XML დაკავშირების შეცვლა</XmlEdit>
@@ -1534,6 +1571,7 @@
     <ColorCollectionEditor>ფერთა კოლექციის რედაქტორი</ColorCollectionEditor>
     <CreateNewComponentStyle>კომპონენტის ახალი სტილის შესაქმნელად</CreateNewComponentStyle>
     <CreateStyleCollection>სტილების კოლექციის შექმნა</CreateStyleCollection>
+    <CreateStyleOnBase>ახალი სტილის შექმნა სხვა სტილის საფუძველზე</CreateStyleOnBase>
     <CreateStylesCollection>სტილების კოლექციის შექმნა</CreateStylesCollection>
     <CreateStylesFromColor>მონიშნული ფერისგან ახალი სტილის შექმნა</CreateStylesFromColor>
     <Duplicate>სტილის დუბლირება</Duplicate>
@@ -1699,6 +1737,7 @@
     <colorpicker_nofill>შევსების გარეშე</colorpicker_nofill>
     <colorpicker_standardcolorslabel>სტანდარტული ფერები</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>თემის ფერები</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>ლურჯი:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>გაუქმება</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>ფერები</colorpickerdialog_caption>
@@ -2546,11 +2585,13 @@
     <ColorsCategory>ფერი</ColorsCategory>
     <ColumnsCategory>სვეტები</ColumnsCategory>
     <ComboBoxCategory>ჩამოსაშლელი სია</ComboBoxCategory>
+    <CommonCategory>საერთო</CommonCategory>
     <ControlCategory>მართვა</ControlCategory>
     <ControlsEventsCategory>მართვის ელემენტების მოვლენები</ControlsEventsCategory>
     <CrossTabCategory>კროს-ცხრილი</CrossTabCategory>
     <DashboardCategory>ინდიკატორების პანელი</DashboardCategory>
     <DataCategory>მონაცემები</DataCategory>
+    <DataCells>მონაცემთა უჯრები</DataCells>
     <DatePickerCategory>თარიღის ასარჩევი</DatePickerCategory>
     <DescriptionCategory>აღწერა</DescriptionCategory>
     <DesignCategory>რედაქტირება</DesignCategory>
@@ -3816,6 +3857,7 @@
     <HyperlinkDataColumn>მონაცემთა სვეტის ჰიპერბმული</HyperlinkDataColumn>
     <Icon>პიქტოგრამა</Icon>
     <IconAlignment>ხატულების სწორება</IconAlignment>
+    <IconColor>ხატულის ფერი</IconColor>
     <IconSet>პიქტოგრამების კოლექცია</IconSet>
     <IconSetCondition>პიქტოგრამების კოლექციის თვისებები</IconSetCondition>
     <Idents>იდენტიფიკატორები</Idents>
@@ -4002,6 +4044,7 @@
     <NewPageAfter>სვეტის ქვევით ჩასმა</NewPageAfter>
     <NewPageBefore>სვეტის ზევით ჩასმა</NewPageBefore>
     <NextPage>შემდეგი გვერდი</NextPage>
+    <NoElements>ელემენტები არ არის</NoElements>
     <NoIcon>პიქტოგრამების გარეშე</NoIcon>
     <NullText>ნულოვანი ტექსტი</NullText>
     <NumberOfColumns>სვეტების რაოდენობა</NumberOfColumns>
@@ -4126,6 +4169,7 @@
     <RightToLeft>მარჯვნიდან მარცხნივ</RightToLeft>
     <Rotation>დატრიალება</Rotation>
     <RotationLabels>წარწერების დატრიალება</RotationLabels>
+    <RotationMode>მოტრიალების სტილი</RotationMode>
     <Round>სიმრგვალე</Round>
     <RoundValues>დამრგვალებული მნიშვნელობები</RoundValues>
     <RowCount>სტრიქონების დათვლა</RowCount>
@@ -4184,11 +4228,13 @@
     <ShowEdgeValues>საბოლოო მნიშვნელობების ჩვენება</ShowEdgeValues>
     <ShowImageBehind>უკან ჩვენება</ShowImageBehind>
     <ShowInLegend>ლეგენდაში ჩვენება</ShowInLegend>
+    <ShowInnerPoints>შიდა წერტილების ჩვენება</ShowInnerPoints>
     <ShowInPercent>პროცენტებში გამოტანა</ShowInPercent>
     <ShowLabels>წარწერების გამოტანა</ShowLabels>
     <ShowLabelText>ტექსტის ჩვენება</ShowLabelText>
     <ShowLegend>ლეგენდის გამოტანა</ShowLegend>
     <ShowMarker>მარკერის ჩვენება</ShowMarker>
+    <ShowMeanMarkers>საშუალო მარკერების ჩვენება</ShowMeanMarkers>
     <ShowName>სახელწოდების ჩვენება</ShowName>
     <ShowNulls>Null-ების ჩვენება</ShowNulls>
     <ShowOnZeroValues>ნულოვანი მნიშვნელობებისას ჩვენება</ShowOnZeroValues>

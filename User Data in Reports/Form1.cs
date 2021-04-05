@@ -190,19 +190,20 @@ namespace UserDataInReports
 				ParameterInfo[] pars = assemblys[e.Position].GetParameters();
 
 				string s = string.Empty;
-				foreach (ParameterInfo par in pars)s += par.ParameterType.Name + " " + par.Name + "\n";
+				foreach (ParameterInfo par in pars)
+                    s += par.ParameterType.Name + " " + par.Name + "\n";
 
 				e.Data = s;
 			}
 		}
 
-		private void button2_Click(object sender, System.EventArgs e)
+		private void button2_Click(object sender, EventArgs e)
 		{			
 			stiReport1.Load("..\\UserData.mrt");
 			stiReport1.Show();
 		}
 
-		private void button3_Click(object sender, System.EventArgs e)
+		private void button3_Click(object sender, EventArgs e)
 		{
 			Close();
 		}

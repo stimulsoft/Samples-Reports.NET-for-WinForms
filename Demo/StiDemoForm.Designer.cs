@@ -65,9 +65,10 @@ namespace Demo
             this.border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(226)))), ((int)(((byte)(232)))));
             this.border.Dock = System.Windows.Forms.DockStyle.Right;
             this.border.ForeColor = System.Drawing.Color.White;
-            this.border.Location = new System.Drawing.Point(608, 0);
+            this.border.Location = new System.Drawing.Point(304, 0);
+            this.border.Margin = new System.Windows.Forms.Padding(2);
             this.border.Name = "border";
-            this.border.Size = new System.Drawing.Size(8, 1000);
+            this.border.Size = new System.Drawing.Size(4, 525);
             this.border.TabIndex = 5;
             // 
             // lbStatus
@@ -75,9 +76,10 @@ namespace Demo
             this.lbStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbStatus.ForeColor = System.Drawing.Color.Gray;
-            this.lbStatus.Location = new System.Drawing.Point(0, 915);
+            this.lbStatus.Location = new System.Drawing.Point(0, 480);
+            this.lbStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbStatus.Name = "lbStatus";
-            this.lbStatus.Size = new System.Drawing.Size(608, 30);
+            this.lbStatus.Size = new System.Drawing.Size(304, 16);
             this.lbStatus.TabIndex = 7;
             this.lbStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -86,9 +88,10 @@ namespace Demo
             this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linkLabel1.Image = global::Demo.Properties.Resources.Hyperlink;
-            this.linkLabel1.Location = new System.Drawing.Point(0, 947);
+            this.linkLabel1.Location = new System.Drawing.Point(0, 497);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(608, 53);
+            this.linkLabel1.Size = new System.Drawing.Size(304, 28);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel1.Click += new System.EventHandler(this.linkLabel1_Click);
@@ -106,8 +109,9 @@ namespace Demo
             this.panel1.Controls.Add(this.buttonHiddenPreview);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(616, 1000);
+            this.panel1.Size = new System.Drawing.Size(308, 525);
             this.panel1.TabIndex = 29;
             // 
             // tvReports
@@ -121,10 +125,11 @@ namespace Demo
             this.tvReports.HideSelection = false;
             this.tvReports.ImageIndex = 0;
             this.tvReports.ImageList = this.ilReports;
-            this.tvReports.Location = new System.Drawing.Point(0, 168);
+            this.tvReports.Location = new System.Drawing.Point(0, 87);
+            this.tvReports.Margin = new System.Windows.Forms.Padding(2);
             this.tvReports.Name = "tvReports";
             this.tvReports.SelectedImageIndex = 0;
-            this.tvReports.Size = new System.Drawing.Size(596, 747);
+            this.tvReports.Size = new System.Drawing.Size(298, 393);
             this.tvReports.TabIndex = 0;
             this.tvReports.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvReports_AfterSelect);
             this.tvReports.DoubleClick += new System.EventHandler(this.btPreview_Click);
@@ -133,18 +138,20 @@ namespace Demo
             // separator2
             // 
             this.separator2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.separator2.Location = new System.Drawing.Point(0, 945);
+            this.separator2.Location = new System.Drawing.Point(0, 496);
+            this.separator2.Margin = new System.Windows.Forms.Padding(2);
             this.separator2.Name = "separator2";
-            this.separator2.Size = new System.Drawing.Size(608, 2);
+            this.separator2.Size = new System.Drawing.Size(304, 1);
             this.separator2.TabIndex = 30;
             this.separator2.Paint += new System.Windows.Forms.PaintEventHandler(this.separator1_Paint);
             // 
             // separator1
             // 
             this.separator1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.separator1.Location = new System.Drawing.Point(0, 157);
+            this.separator1.Location = new System.Drawing.Point(0, 82);
+            this.separator1.Margin = new System.Windows.Forms.Padding(2);
             this.separator1.Name = "separator1";
-            this.separator1.Size = new System.Drawing.Size(608, 2);
+            this.separator1.Size = new System.Drawing.Size(304, 1);
             this.separator1.TabIndex = 29;
             this.separator1.Paint += new System.Windows.Forms.PaintEventHandler(this.separator1_Paint);
             // 
@@ -154,17 +161,19 @@ namespace Demo
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::Demo.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(608, 157);
+            this.pictureBox1.Size = new System.Drawing.Size(304, 82);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
             // buttonHiddenPreview
             // 
-            this.buttonHiddenPreview.Location = new System.Drawing.Point(134, 469);
+            this.buttonHiddenPreview.Location = new System.Drawing.Point(67, 244);
+            this.buttonHiddenPreview.Margin = new System.Windows.Forms.Padding(2);
             this.buttonHiddenPreview.Name = "buttonHiddenPreview";
-            this.buttonHiddenPreview.Size = new System.Drawing.Size(2, 2);
+            this.buttonHiddenPreview.Size = new System.Drawing.Size(1, 1);
             this.buttonHiddenPreview.TabIndex = 31;
             this.buttonHiddenPreview.Text = "button1";
             this.buttonHiddenPreview.UseVisualStyleBackColor = true;
@@ -176,13 +185,12 @@ namespace Demo
             this.viewerControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.viewerControl.Location = new System.Drawing.Point(616, 2);
-            this.viewerControl.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.viewerControl.Location = new System.Drawing.Point(308, 1);
             this.viewerControl.Name = "viewerControl";
             this.viewerControl.Report = null;
             this.viewerControl.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.viewerControl.ShowZoom = true;
-            this.viewerControl.Size = new System.Drawing.Size(1278, 997);
+            this.viewerControl.Size = new System.Drawing.Size(639, 518);
             this.viewerControl.TabIndex = 31;
             // 
             // stiUserData1
@@ -193,13 +201,15 @@ namespace Demo
             // StiDemoForm
             // 
             this.AcceptButton = this.buttonHiddenPreview;
-            this.AutoScaleBaseSize = new System.Drawing.Size(10, 24);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1894, 1000);
+            this.ClientSize = new System.Drawing.Size(951, 525);
             this.Controls.Add(this.viewerControl);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(1920, 1071);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(967, 564);
             this.Name = "StiDemoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reports Demo";
