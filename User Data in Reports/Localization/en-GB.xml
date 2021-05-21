@@ -386,6 +386,7 @@
     <Create>Create</Create>
     <CreateError>Error while creating report!</CreateError>
     <CreateNewCollection>Create New Collection</CreateNewCollection>
+    <CreateYourTeam>Create your team</CreateYourTeam>
     <CreatingReport>Creating report...</CreatingReport>
     <DashboardWindowTitleNew>New Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Delete File</DeleteFile>
@@ -404,6 +405,8 @@
     <HyperlinkHavePassword>Have password</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>Register FREE account</HyperlinkRegisterAccount>
     <InstallSamples>Install Samples</InstallSamples>
+    <Invitations>Invitations</Invitations>
+    <Invite>Invite</Invite>
     <LabelAddCloudFolder>Connect your Stimulsoft Cloud folder with reports and dashboards.</LabelAddCloudFolder>
     <LabelAddFolder>Add your local folder with reports and dashboards.</LabelAddFolder>
     <labelCollectionName>Collection Name:</labelCollectionName>
@@ -419,6 +422,7 @@
     <LabelForeground>Foreground:</LabelForeground>
     <LabelFromReport>From Report</LabelFromReport>
     <LabelFromReportCode>From Report (define in code)</LabelFromReportCode>
+    <LabelInviteUser>Invite new users to your team. Send invitations to their emails.</LabelInviteUser>
     <LabelLastLogin>Last Log In:</LabelLastLogin>
     <LabelLastTime>Last Time:</LabelLastTime>
     <LabelModified>Modified:</LabelModified>
@@ -432,6 +436,7 @@
     <LabelResultType>Result Type:</LabelResultType>
     <LabelSeparateReport>Separate report (and scripts) file</LabelSeparateReport>
     <LabelShowReport>Show report:</LabelShowReport>
+    <LabelStartDate>Start Date:</LabelStartDate>
     <labelUserName>User Name:</labelUserName>
     <License>License</License>
     <LicenseInformation>License Information</LicenseInformation>
@@ -568,6 +573,7 @@
   </Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
+    <StiButton>Button</StiButton>
     <StiChart>Chart</StiChart>
     <StiCheckBox>Check Box</StiCheckBox>
     <StiChildBand>Child</StiChildBand>
@@ -606,6 +612,7 @@
     <StiIndicator>Indicator</StiIndicator>
     <StiListBox>List Box</StiListBox>
     <StiMap>Map</StiMap>
+    <StiMathFormula>Math Formula</StiMathFormula>
     <StiOnlineMap>Online Map</StiOnlineMap>
     <StiOverlayBand>Overlay</StiOverlayBand>
     <StiPage>Page</StiPage>
@@ -641,6 +648,7 @@
   <Dashboard>
     <AddRange>Add Range</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
+    <AllowUserColumnSelection>Allow User Column Selection</AllowUserColumnSelection>
     <AllowUserDrillDown>Allow User Drill-Down</AllowUserDrillDown>
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
@@ -685,6 +693,7 @@
     <LimitRows>Skip and Limit Rows</LimitRows>
     <Measure>Measure</Measure>
     <Measures>Measures</Measures>
+    <Metrics>Metrics</Metrics>
     <NewDimension>New Dimension</NewDimension>
     <NewField>New Field</NewField>
     <NewMeasure>New Measure</NewMeasure>
@@ -750,6 +759,7 @@
     <CurrentQuarter>Current Quarter</CurrentQuarter>
     <CurrentWeek>Current Week</CurrentWeek>
     <CurrentYear>Current Year</CurrentYear>
+    <DaysAgo>{0} Days Ago</DaysAgo>
     <FirstQuarter>First Quarter</FirstQuarter>
     <FourthQuarter>Fourth Quarter</FourthQuarter>
     <Index>Index</Index>
@@ -850,6 +860,8 @@
     <StiTreeViewControl>Tree View</StiTreeViewControl>
   </Dialogs>
   <Editor>
+    <AllowSQLFormatting>Allow SQL Formatting</AllowSQLFormatting>
+    <BetweenMetrics>Between 1 and 10 metrics can be selected.</BetweenMetrics>
     <CantFind>Cannot find the data you're searching for.</CantFind>
     <CollapseToDefinitions>C&amp;ollapse to Definitions</CollapseToDefinitions>
     <Column>Column: {0}</Column>
@@ -867,6 +879,7 @@
     <MarkAll>&amp;Mark All</MarkAll>
     <MatchCase>Match &amp;Case</MatchCase>
     <MatchWholeWord>Match &amp;Whole Word</MatchWholeWord>
+    <MaximumDimensions>Maximum 7 dimensions can be selected.</MaximumDimensions>
     <Outlining>Out&amp;lining</Outlining>
     <PromptOnReplace>Prompt on Replace</PromptOnReplace>
     <Replace>&amp;Replace</Replace>
@@ -910,6 +923,7 @@
   </Errors>
   <ExceptionProvider>
     <Assemblies>Assemblies</Assemblies>
+    <ClickIgnore>Click 'Ignore' to delete all auto-saved files.</ClickIgnore>
     <Exception>Exception</Exception>
     <ExceptionReport>Exception Report</ExceptionReport>
     <Framework>Framework</Framework>
@@ -922,6 +936,8 @@
     <SendErrorSuccess>The error message delivered successfully.</SendErrorSuccess>
     <Source>Source</Source>
     <StackTrace>Stack Trace</StackTrace>
+    <YouCanRestore>You can restore unsaved changes from a backup file.</YouCanRestore>
+    <YourPreviousWorkSession>In your previous work session, the designer terminated unexpectedly.</YourPreviousWorkSession>
   </ExceptionProvider>
   <Export>
     <AddPageBreaks>Add Page Breaks</AddPageBreaks>
@@ -948,6 +964,7 @@
     <DotMatrixMode>Dot-Matrix Mode</DotMatrixMode>
     <EmbeddedFonts>Embedded Fonts</EmbeddedFonts>
     <EmbeddedImageData>Embedded Image Data</EmbeddedImageData>
+    <EnableAnimation>Enable Animation</EnableAnimation>
     <Encoding>Encoding:</Encoding>
     <EncryptionError>Encryption error at step</EncryptionError>
     <EscapeCodes>Escape Codes</EscapeCodes>
@@ -1203,12 +1220,18 @@
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
     <AccessToken>Access token</AccessToken>
+    <AccountKey>Account Key</AccountKey>
+    <AccountName>Account Name</AccountName>
     <AuthorizationCode>Authorization Code</AuthorizationCode>
+    <BlobContentType>Blob Content Type</BlobContentType>
+    <BlobName>Blob Name</BlobName>
     <ClientId>Client Id</ClientId>
     <ClientSecret>Client Secret</ClientSecret>
     <ConnectionString>Connection String:</ConnectionString>
+    <ContainerName>Container Name</ContainerName>
     <DashboardConnections>Dashboard Connections</DashboardConnections>
     <DatabaseSecret>Database Secret</DatabaseSecret>
+    <DatasetId>Dataset Id</DatasetId>
     <DB2Edit>Edit IBM DB2 Connection</DB2Edit>
     <DB2New>New IBM DB2 Connection</DB2New>
     <EditConnection>Edit {0} Connection</EditConnection>
@@ -1245,6 +1268,7 @@
     <Pin>Pin</Pin>
     <PostgreSQLEdit>Edit PostgreSQL Connection</PostgreSQLEdit>
     <PostgreSQLNew>New PostgreSQL Connection</PostgreSQLNew>
+    <ProjectId>Project Id</ProjectId>
     <PromptUserNameAndPassword>Prompt User Name and Password</PromptUserNameAndPassword>
     <RecentConnections>Recent</RecentConnections>
     <RedirectUrl>Redirect URL</RedirectUrl>
@@ -1253,6 +1277,7 @@
     <RelationDirection>Relation Direction:</RelationDirection>
     <ReportConnections>Report Connections</ReportConnections>
     <SelectData>Select Data</SelectData>
+    <ServiceAccountKeyFile>Service Account Key File</ServiceAccountKeyFile>
     <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
     <SqlCeEdit>Edit SQLServerCE Connection</SqlCeEdit>
     <SqlCeNew>New SQLServerCE Connection</SqlCeNew>
@@ -1346,6 +1371,7 @@
     <ExecutedSQLStatementSuccessfully>Executed SQL statement successfully</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>New Expression</ExpressionNew>
     <GetColumnsFromAssembly>Get Columns from Assembly</GetColumnsFromAssembly>
+    <HideUnsupportedDatabases>Hide Unsupported Data Sources</HideUnsupportedDatabases>
     <ImportRelations>Import Relations</ImportRelations>
     <LabelSeparator>Separator:</LabelSeparator>
     <MarkUsedItems>Mark Used Items</MarkUsedItems>
@@ -1728,6 +1754,7 @@
     <barsys_autohide_tooltip>Auto-Hide</barsys_autohide_tooltip>
     <barsys_close_tooltip>Close</barsys_close_tooltip>
     <barsys_customize_tooltip>Customize</barsys_customize_tooltip>
+    <ClickAndDragPickColor>Click and Drag to pick colour</ClickAndDragPickColor>
     <colorpicker_morecolors>&amp;More Colours...</colorpicker_morecolors>
     <colorpicker_nofill>&amp;No Fill</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Standard Colours</colorpicker_standardcolorslabel>
@@ -2270,9 +2297,17 @@
     <LinkDataForm>Link Data</LinkDataForm>
     <MapEditorForm>Map Editor</MapEditorForm>
   </Map>
+  <MathFormula>
+    <Alphabets>Alphabets</Alphabets>
+    <Arrows>Arrows</Arrows>
+    <Formulas>Formulas</Formulas>
+    <Maths>Maths</Maths>
+    <Operators>Operators</Operators>
+  </MathFormula>
   <Messages>
     <ChangeRequestTimeout>The request timeout for SQL queries exceeds the request timeout of the report designer. Set the request timeout for the designer component in no less than {0} seconds.</ChangeRequestTimeout>
     <DoNotShowAgain>Do not show again</DoNotShowAgain>
+    <LatexFormat>The LaTeX format is used to display mathematical formulas.</LatexFormat>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
     <RenderingWillOccurInTheInterpretationMode>When viewing the shared report, the rendering will occur in the interpretation mode!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>The resource "{0}" cannot be deleted, because it is used in the report!</ResourceCannotBeDeleted>
@@ -2904,6 +2939,11 @@
     <StiCrossHorAlignmentLeft>Left</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>None</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Right</StiCrossHorAlignmentRight>
+    <StiDashboardContentAlignmentCenter>Centre</StiDashboardContentAlignmentCenter>
+    <StiDashboardContentAlignmentLeft>Left</StiDashboardContentAlignmentLeft>
+    <StiDashboardContentAlignmentRight>Right</StiDashboardContentAlignmentRight>
+    <StiDashboardContentAlignmentStretchX>Stretch X</StiDashboardContentAlignmentStretchX>
+    <StiDashboardContentAlignmentStretchXY>Stretch XY</StiDashboardContentAlignmentStretchXY>
     <StiDateSelectionModeAutoRange>Auto Range</StiDateSelectionModeAutoRange>
     <StiDateSelectionModeRange>Range</StiDateSelectionModeRange>
     <StiDateSelectionModeSingle>Single</StiDateSelectionModeSingle>
@@ -3593,11 +3633,13 @@
     <ConnectOnStart>Connect on Start</ConnectOnStart>
     <ConstantLines>Constant Lines</ConstantLines>
     <Container>Container</Container>
+    <ContentAlignment>Content Alignment</ContentAlignment>
     <ContinuousText>Continuous Text</ContinuousText>
     <ContourColor>Contour Colour</ContourColor>
     <Converting>Converting</Converting>
     <ConvertNulls>Convert Nulls</ConvertNulls>
     <Copies>Copies</Copies>
+    <CornerRadius>Corner Radius</CornerRadius>
     <Count>Count</Count>
     <CountData>Count Data</CountData>
     <Create>Create</Create>
@@ -3777,7 +3819,9 @@
     <Headers>Headers</Headers>
     <HeaderText>Header Text</HeaderText>
     <Heading>Heading</Heading>
+    <Heatmap>Heatmap</Heatmap>
     <HeatmapColors>Heatmap Colours</HeatmapColors>
+    <HeatmapWithGroup>Heatmap With Group</HeatmapWithGroup>
     <Height>Height</Height>
     <HideSeriesWithEmptyTitle>Hide Series with Empty Title</HideSeriesWithEmptyTitle>
     <HideZeros>Hide Zeros</HideZeros>
@@ -3799,6 +3843,7 @@
     <HtmlTags>HTML Tags</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Hyperlink Data Column</HyperlinkDataColumn>
+    <HyperlinkPattern>Hyperlink Pattern</HyperlinkPattern>
     <Icon>Icon</Icon>
     <IconAlignment>Icon Alignment</IconAlignment>
     <IconColor>Icon Colour</IconColor>
@@ -3865,6 +3910,7 @@
     <Language>Language</Language>
     <LargeHeight>Large Height</LargeHeight>
     <LargeHeightFactor>Large Height Factor</LargeHeightFactor>
+    <LaTexExpression>LaTex Expression</LaTexExpression>
     <Latitude>Latitude</Latitude>
     <Layout>Layout</Layout>
     <Left>Left</Left>
@@ -4056,6 +4102,8 @@
     <ProcessingDuplicates>Processing Duplicates</ProcessingDuplicates>
     <ProcessTilde>Process Tilde</ProcessTilde>
     <ProductHomePage>Product Home Page</ProductHomePage>
+    <Property>Property</Property>
+    <Provider>Provider</Provider>
     <RadarStyle>Radar Style</RadarStyle>
     <RadialBarBorderBrush>Radial Bar Border Brush</RadialBarBorderBrush>
     <RadialBarBrush>Radial Bar Brush</RadialBarBrush>
@@ -4168,6 +4216,7 @@
     <ShowBubble>Show Bubble</ShowBubble>
     <ShowDialog>Show Dialogue</ShowDialog>
     <ShowEdgeValues>Show Edge Values</ShowEdgeValues>
+    <ShowHyperlink>Show Hyperlink</ShowHyperlink>
     <ShowImageBehind>Show Image Behind</ShowImageBehind>
     <ShowInLegend>Show in Legend</ShowInLegend>
     <ShowInnerPoints>Show Inner Points</ShowInnerPoints>
@@ -4247,6 +4296,7 @@
     <SubReportPage>Sub Report Page</SubReportPage>
     <Summaries>Summaries</Summaries>
     <Summary>Summary</Summary>
+    <SummaryAlignment>Summary Alignment</SummaryAlignment>
     <SummaryExpression>Summary Expression</SummaryExpression>
     <SummarySortDirection>Summary Sort Direction</SummarySortDirection>
     <SummaryType>Summary Type</SummaryType>
@@ -4357,6 +4407,7 @@
     <VertSpacing>Vertical Spacing</VertSpacing>
     <ViewMode>View Mode</ViewMode>
     <Visible>Visible</Visible>
+    <VisualStates>Visual States</VisualStates>
     <Watermark>Watermark</Watermark>
     <Weight>Weight</Weight>
     <WeightDataColumn>Weight Data Column</WeightDataColumn>
@@ -4370,6 +4421,7 @@
     <XTopAxis>X Top Axis</XTopAxis>
     <YAxis>Y Axis</YAxis>
     <YRightAxis>Y Right Axis</YRightAxis>
+    <ZeroColor>Zero Colour</ZeroColor>
     <Zoom>Zoom</Zoom>
   </PropertyMain>
   <PropertySystemColors>
@@ -4594,6 +4646,11 @@
     <StyleNormal>Normal</StyleNormal>
     <StyleNote>Note</StyleNote>
     <StyleWarning>Warning</StyleWarning>
+    <VisualChecked>Checked</VisualChecked>
+    <VisualDefault>Default</VisualDefault>
+    <VisualDisabled>Disabled</VisualDisabled>
+    <VisualHovered>Hovered</VisualHovered>
+    <VisualPressed>Pressed</VisualPressed>
     <Warnings>Warnings</Warnings>
     <WhatsNewInVersion>What's New in {0}</WhatsNewInVersion>
     <When>when {0} {1}</When>

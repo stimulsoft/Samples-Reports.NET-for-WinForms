@@ -371,6 +371,7 @@
     <ButtonResendEmail>Resend Email</ButtonResendEmail>
     <ButtonResetPassword>Reset Password</ButtonResetPassword>
     <ButtonRun>Run</ButtonRun>
+    <ButtonShedule>Shedule</ButtonShedule>
     <ButtonShare>Share</ButtonShare>
     <ButtonSignUp>Sign Up</ButtonSignUp>
     <ButtonSignUpWith>Sign Up with {0}</ButtonSignUpWith>
@@ -386,6 +387,7 @@
     <Create>Create</Create>
     <CreateError>Error while creating report!</CreateError>
     <CreateNewCollection>Create New Collection</CreateNewCollection>
+    <CreateYourTeam>Create your team</CreateYourTeam>
     <CreatingReport>Creating report...</CreatingReport>
     <DashboardWindowTitleNew>New Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Delete File</DeleteFile>
@@ -433,6 +435,7 @@
     <LabelRenderedReport>Rendered report</LabelRenderedReport>
     <LabelResponseAsFile>Response as File</LabelResponseAsFile>
     <LabelResultType>Result Type:</LabelResultType>
+    <LabelStartDate>Start Date:</LabelStartDate>
     <LabelSeparateReport>Separate report (and scripts) file</LabelSeparateReport>
     <LabelShowReport>Show report:</LabelShowReport>
     <labelUserName>User Name:</labelUserName>
@@ -568,7 +571,8 @@
     <WizardRegisteredShare>Authorized Access</WizardRegisteredShare>
     <WizardRegisteredShareDescription>External access only for registered users from any workspace.</WizardRegisteredShareDescription>
     <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
-  </Cloud>
+  
+</Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiButton>Button</StiButton>
@@ -647,6 +651,7 @@
     <AddRange>Add Range</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
     <AllowUserDrillDown>Allow User Drill-Down</AllowUserDrillDown>
+	<AllowUserColumnSelection>Allow User Column Selection</AllowUserColumnSelection>
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
     <Blank>(Blank)</Blank>
@@ -690,6 +695,7 @@
     <LimitRows>Skip and Limit Rows</LimitRows>
     <Measure>Measure</Measure>
     <Measures>Measures</Measures>
+    <Metrics>Metrics</Metrics>
     <NewDimension>New Dimension</NewDimension>
     <NewField>New Field</NewField>
     <NewMeasure>New Measure</NewMeasure>
@@ -755,6 +761,7 @@
     <CurrentQuarter>Current Quarter</CurrentQuarter>
     <CurrentWeek>Current Week</CurrentWeek>
     <CurrentYear>Current Year</CurrentYear>
+    <DaysAgo>{0} Days Ago</DaysAgo>
     <FirstQuarter>First Quarter</FirstQuarter>
     <FourthQuarter>Fourth Quarter</FourthQuarter>
     <Index>Index</Index>
@@ -856,6 +863,7 @@
   </Dialogs>
   <Editor>
     <AllowSQLFormatting>Allow SQL Formatting</AllowSQLFormatting>
+    <BetweenMetrics>Between 1 and 10 metrics can be selected.</BetweenMetrics>
     <CantFind>Cannot find the data you're searching for.</CantFind>
     <CollapseToDefinitions>C&amp;ollapse to Definitions</CollapseToDefinitions>
     <Column>Column: {0}</Column>
@@ -875,6 +883,7 @@
     <MatchWholeWord>Match &amp;Whole Word</MatchWholeWord>
     <Outlining>Out&amp;lining</Outlining>
     <PromptOnReplace>Prompt on Replace</PromptOnReplace>
+    <MaximumDimensions>Maximum 7 dimensions can be selected.</MaximumDimensions>
     <Replace>&amp;Replace</Replace>
     <ReplaceAll>Replace &amp;All</ReplaceAll>
     <ReplaceWith>Replace With:</ReplaceWith>
@@ -916,6 +925,7 @@
   </Errors>
   <ExceptionProvider>
     <Assemblies>Assemblies</Assemblies>
+    <ClickIgnore>Click 'Ignore' to delete all auto-saved files.</ClickIgnore>
     <Exception>Exception</Exception>
     <ExceptionReport>Exception Report</ExceptionReport>
     <Framework>Framework</Framework>
@@ -928,6 +938,8 @@
     <SendErrorSuccess>The error message delivered successfully.</SendErrorSuccess>
     <Source>Source</Source>
     <StackTrace>Stack Trace</StackTrace>
+    <YourPreviousWorkSession>In your previous work session, the designer terminated unexpectedly.</YourPreviousWorkSession>
+    <YouCanRestore>You can restore unsaved changes from a backup file.</YouCanRestore>
   </ExceptionProvider>
   <Export>
     <AddPageBreaks>Add Page Breaks</AddPageBreaks>
@@ -1457,6 +1469,7 @@
     <AutoSave>Auto Save</AutoSave>
     <AutoSaveReportToReportClass>Auto Save Report to C# or VB.NET File</AutoSaveReportToReportClass>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
+	<BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
     <Default>Default</Default>
     <Drawing>Drawing</Drawing>
@@ -2304,7 +2317,7 @@
       It contains a link to confirm your registration. To complete the registration please follow the link from the Email you received.
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
-    <ThisFunctionEmbedsAllReportDataToTheReport>This function embeds all report data to the report resources and makes your report standalone. Be careful! All your data settings will be changed and can't be restored.Please, make a backup copy of your report firstly.{0}Are you sure?</ThisFunctionEmbedsAllReportDataToTheReport>
+    <ThisFunctionEmbedsAllReportDataToTheReport>This function embeds all report data to the report resources and makes your report standalone. Be careful! All your data settings will be changed and can't be restored. Please, make a backup copy of your report firstly.{0}Are you sure?</ThisFunctionEmbedsAllReportDataToTheReport>
     <YouNeedToLoginFirstToStartUsingTheSoftware>You need to login first to start using the software. The application will close if you quit the login form.</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
   <Notices>
@@ -3282,8 +3295,18 @@
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Typographic</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTimeDateStepNone>None</StiTimeDateStepNone>
+    <StiTimeDateStepSecond>Second</StiTimeDateStepSecond>
+    <StiTimeDateStepMinute>Minute</StiTimeDateStepMinute>
+    <StiTimeDateStepHour>Hour</StiTimeDateStepHour>
+    <StiTimeDateStepDay>Day</StiTimeDateStepDay>
+    <StiTimeDateStepMonth>Month</StiTimeDateStepMonth>
+    <StiTimeDateStepYear>Year</StiTimeDateStepYear>
     <StiTitlePositionInside>Inside</StiTitlePositionInside>
     <StiTitlePositionOutside>Outside</StiTitlePositionOutside>
+    <StiTopNModeNone>None</StiTopNModeNone>
+    <StiTopNModeTop>Top</StiTopNModeTop>
+    <StiTopNModeBottom>Bottom</StiTopNModeBottom>
     <StiTypeModeList>List</StiTypeModeList>
     <StiTypeModeNullableValue>Nullable Value</StiTypeModeNullableValue>
     <StiTypeModeRange>Range</StiTypeModeRange>
@@ -3624,6 +3647,7 @@
     <DataAdapters>Data Adapters</DataAdapters>
     <DataBarCondition>Data Bar Condition</DataBarCondition>
     <DataBindings>Data Bindings</DataBindings>
+    <DataCells>Data Cells</DataCells>
     <DataColor>Data Color</DataColor>
     <DataColumn>Data Column</DataColumn>
     <DataColumns>Data Columns</DataColumns>
@@ -3755,6 +3779,7 @@
     <FullConvertExpression>Full Convert Expression</FullConvertExpression>
     <Function>Function</Function>
     <Functions>Functions</Functions>
+    <GisSettings>Gis Settings</GisSettings>
     <GlobalizationStrings>Globalization Strings</GlobalizationStrings>
     <GlobalizedName>Globalized Name</GlobalizedName>
     <GlyphColor>Glyph Color</GlyphColor>
@@ -3773,6 +3798,7 @@
     <GrowToHeight>Grow to Height</GrowToHeight>
     <Heatmap>Heatmap</Heatmap>
     <HeatmapWithGroup>Heatmap With Group</HeatmapWithGroup>
+    <Header>Header</Header>
     <HeaderBackColor>Header Back Color</HeaderBackColor>
     <HeaderCanBreak>Header Can Break</HeaderCanBreak>
     <HeaderCanGrow>Header Can Grow</HeaderCanGrow>
@@ -3901,6 +3927,7 @@
     <LinearBarEmptyBrush>Linear Bar Empty Brush</LinearBarEmptyBrush>
     <LineColor>Line Color</LineColor>
     <LineColorNegative>Line Color Negative</LineColorNegative>
+    <LineLength>Line Length</LineLength>
     <LineLimit>Line Limit</LineLimit>
     <LineMarker>Line Marker</LineMarker>
     <LinesOfUnderline>Lines of Underline</LinesOfUnderline>
@@ -4072,6 +4099,7 @@
     <ProcessTilde>Process Tilde</ProcessTilde>
     <ProductHomePage>Product Home Page</ProductHomePage>
     <Provider>Provider</Provider>
+    <Property>Property</Property>
     <RadarStyle>Radar Style</RadarStyle>
     <RadialBarBorderBrush>Radial Bar Border Brush</RadialBarBorderBrush>
     <RadialBarBrush>Radial Bar Brush</RadialBarBrush>
@@ -4179,6 +4207,7 @@
     <ShiftMode>Shift Mode</ShiftMode>
     <ShortName>Short Name</ShortName>
     <ShortValue>Short Value</ShortValue>
+    <ShowPlacemark>Show Placemark</ShowPlacemark>
     <ShowAllValue>Show All Value</ShowAllValue>
     <ShowBehind>Show Behind</ShowBehind>
     <ShowBubble>Show Bubble</ShowBubble>
@@ -4197,6 +4226,7 @@
     <ShowNulls>Show Nulls</ShowNulls>
     <ShowOthers>Show Others</ShowOthers>
     <ShowPercents>Show Percents</ShowPercents>
+    <ShowTotalSummary>Show Total Summary</ShowTotalSummary>
     <ShowQuietZoneIndicator>Show Quiet Zone Indicator</ShowQuietZoneIndicator>
     <ShowQuietZones>Show Quiet Zones</ShowQuietZones>
     <ShowScrollBar>Show Scroll Bar</ShowScrollBar>
@@ -4264,7 +4294,8 @@
     <SubReportPage>Sub Report</SubReportPage>
     <Summaries>Summaries</Summaries>
     <Summary>Summary</Summary>
-    <SummaryExpression>Summary Expression</SummaryExpression>
+    <SummaryAlignment>Summary Alignment</SummaryAlignment>
+	<SummaryExpression>Summary Expression</SummaryExpression>
     <SummarySortDirection>Summary Sort Direction</SummarySortDirection>
     <SummaryType>Summary Type</SummaryType>
     <SummaryValues>Summary Values</SummaryValues>
@@ -4581,7 +4612,8 @@
     <NoNewVersions>There are no new versions available!</NoNewVersions>
     <NotAssigned>Not Assigned</NotAssigned>
     <Null>Null</Null>
-    <Office2010Back>Back</Office2010Back>
+	<Obsoleted>Obsoleted</Obsoleted>
+    <Office2010Back>Back</Office2010Back>	  
     <PageNofM>Page {0} of {1}</PageNofM>
     <PreparingReport>Preparing Report</PreparingReport>
     <Professional>Professional</Professional>
@@ -4819,6 +4851,7 @@
   </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
+    <BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
     <ButtonBack>&lt; &amp;Back</ButtonBack>
     <ButtonCancel>Cancel</ButtonCancel>
