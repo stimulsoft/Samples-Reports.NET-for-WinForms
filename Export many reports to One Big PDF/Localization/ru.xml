@@ -15,6 +15,7 @@
     <CategoryAlreadyExists>Категория с таким названием уже существует!</CategoryAlreadyExists>
     <DayFriday>Пятница</DayFriday>
     <DayMonday>Понедельник</DayMonday>
+    <Days>Дни</Days>
     <DaySaturday>Суббота</DaySaturday>
     <DaySunday>Воскресенье</DaySunday>
     <DayThursday>Четверг</DayThursday>
@@ -372,6 +373,7 @@
     <ButtonResetPassword>Сбросить</ButtonResetPassword>
     <ButtonRun>Запустить</ButtonRun>
     <ButtonShare>Доступ</ButtonShare>
+    <ButtonShedule>Расписание</ButtonShedule>
     <ButtonSignUp>Регистрация</ButtonSignUp>
     <ButtonSignUpWith>Регистрация через {0}</ButtonSignUpWith>
     <ButtonSkip>Пропустить</ButtonSkip>
@@ -500,6 +502,7 @@
     <TextItemsWorkspace>Рабочее пространство</TextItemsWorkspace>
     <TextLastName>Фамилия</TextLastName>
     <TextModify>Изменение</TextModify>
+    <TextNewsLetters>Рассылка новостей</TextNewsLetters>
     <TextNoFavoriteFiles>Нет избранных файлов</TextNoFavoriteFiles>
     <TextNoFiles>Нет файлов</TextNoFiles>
     <TextNoNotifications>Нет уведомлений</TextNoNotifications>
@@ -570,6 +573,8 @@
     <WizardPublicShareDescription>Внешний доступ для любого не авторизированного пользователя.</WizardPublicShareDescription>
     <WizardRegisteredShare>Авторизированный доступ</WizardRegisteredShare>
     <WizardRegisteredShareDescription>Внешний доступ только для зарегистрированных пользователей из любого рабочего пространства.</WizardRegisteredShareDescription>
+    <WizardTeamShare>Командный доступ</WizardTeamShare>
+    <WizardTeamShareDescription>Внешний доступ для пользователей одного рабочего пространства.</WizardTeamShareDescription>
     <WizardXmlDescription>Создание отчета с XML данными.</WizardXmlDescription>
   </Cloud>
   <Components>
@@ -1471,6 +1476,7 @@
     <AutoSave>Автосохранение</AutoSave>
     <AutoSaveReportToReportClass>Автоматически сохранять файл C# или VB.NET</AutoSaveReportToReportClass>
     <BlankDashboard>Пустая панель индикаторов</BlankDashboard>
+    <BlankForm>Пустая форма</BlankForm>
     <BlankReport>Пустой отчет</BlankReport>
     <Default>По умолчанию</Default>
     <Drawing>Отображение</Drawing>
@@ -1492,7 +1498,7 @@
     <groupGridDrawingOptions>Параметры отрисовки сетки</groupGridDrawingOptions>
     <groupGridOptions>Настройка сетки</groupGridOptions>
     <groupGridSize>Размер сетки</groupGridSize>
-    <groupMainOptions>Главные параметры дизайнера отчетов</groupMainOptions>
+    <groupMainOptions>Главные параметры дизайнера</groupMainOptions>
     <groupMarkersStyle>Стиль маркеров</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Свойства быстрой информации</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Пожалуйста, выберите тип GUI</groupPleaseSelectTypeOfGui>
@@ -2604,6 +2610,7 @@
     <BarCodeAdditionalCategory>Штрих-код, дополнительные</BarCodeAdditionalCategory>
     <BarCodeCategory>Штрих-код</BarCodeCategory>
     <BehaviorCategory>Поведение</BehaviorCategory>
+    <ButtonCategory>Кнопка</ButtonCategory>
     <CapNeedle>Основание стрелки</CapNeedle>
     <CellCategory>Ячейка</CellCategory>
     <ChartAdditionalCategory>Диаграмма, дополнительные</ChartAdditionalCategory>
@@ -2622,7 +2629,7 @@
     <DataCells>Ячейки данных</DataCells>
     <DatePickerCategory>Выбор даты</DatePickerCategory>
     <DescriptionCategory>Описание</DescriptionCategory>
-    <DesignCategory>Редактирование</DesignCategory>
+    <DesignCategory>Дизайн</DesignCategory>
     <DisplayCategory>Отображение</DisplayCategory>
     <EngineCategory>Ядро</EngineCategory>
     <ExportCategory>Экспорт</ExportCategory>
@@ -2639,6 +2646,8 @@
     <InterlacingCategory>Чередование</InterlacingCategory>
     <LabelsCategory>Метки</LabelsCategory>
     <LegendCategory>Легенда</LegendCategory>
+    <LinearScaleBarCategory>Линейная шкала</LinearScaleBarCategory>
+    <LinearScaleCategory>Линейная шкала</LinearScaleCategory>
     <ListBoxCategory>Список</ListBoxCategory>
     <MainCategory>Основные</MainCategory>
     <MarkerCategory>Маркер</MarkerCategory>
@@ -2647,6 +2656,7 @@
     <NavigationCategory>Навигация</NavigationCategory>
     <NavigationEventsCategory>Навигация</NavigationEventsCategory>
     <Needle>Стрелка</Needle>
+    <NeedleCategory>Стрелка</NeedleCategory>
     <OnlineMapCategory>Онлайн-карта</OnlineMapCategory>
     <OptionsCategory>Параметры</OptionsCategory>
     <PageAdditionalCategory>Страница, дополнительные</PageAdditionalCategory>
@@ -2658,6 +2668,7 @@
     <PrimitiveCategory>Примитив</PrimitiveCategory>
     <PrintEventsCategory>Печать</PrintEventsCategory>
     <ProgressCategory>Прогресс</ProgressCategory>
+    <RadialScaleBarCategory>Радиальная шкала</RadialScaleBarCategory>
     <RegionMapCategory>Региональная карта</RegionMapCategory>
     <RenderEventsCategory>Построение</RenderEventsCategory>
     <SeriesCategory>Серии</SeriesCategory>
@@ -2669,6 +2680,10 @@
     <TableOfContents>Оглавление</TableOfContents>
     <TextAdditionalCategory>Текст, дополнительные</TextAdditionalCategory>
     <TextCategory>Текст</TextCategory>
+    <TickLabelMajorCategory>Подписи основной метки</TickLabelMajorCategory>
+    <TickLabelMinorCategory>Подписи вспомогательной метки</TickLabelMinorCategory>
+    <TickMarkMajorCategory>Маркер основной метки</TickMarkMajorCategory>
+    <TickMarkMinorCategory>Маркер вспомогательной метки</TickMarkMinorCategory>
     <TitleCategory>Заголовок</TitleCategory>
     <TreeViewBoxCategory>Поле с деревом</TreeViewBoxCategory>
     <TreeViewCategory>Дерево</TreeViewCategory>
@@ -3002,6 +3017,10 @@
     <StiDesignerSpecificationBeginner>Я начинающий</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>Я Creator</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Я разработчик</StiDesignerSpecificationDeveloper>
+    <StiDirectionBottomToTop>Снизу вверх</StiDirectionBottomToTop>
+    <StiDirectionLeftToRight>Слева направо</StiDirectionLeftToRight>
+    <StiDirectionRightToLeft>Справа налево</StiDirectionRightToLeft>
+    <StiDirectionTopToBottom>Сверху вниз</StiDirectionTopToBottom>
     <StiDisplayNameTypeFull>Полное</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>Нет</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>Короткое</StiDisplayNameTypeShort>
@@ -3400,8 +3419,11 @@
     <EnterEvent>Получение выбора</EnterEvent>
     <ExportedEvent>После экспорта</ExportedEvent>
     <ExportingEvent>До экспорта</ExportingEvent>
+    <FillParametersEvent>Параметры заливки</FillParametersEvent>
     <GetArgumentEvent>Взять аргумент</GetArgumentEvent>
+    <GetBarCodeEvent>Взять штрих-код</GetBarCodeEvent>
     <GetBookmarkEvent>Взять закладку</GetBookmarkEvent>
+    <GetCheckedEvent>Взять флажок</GetCheckedEvent>
     <GetCollapsedEvent>Взять сворачивание</GetCollapsedEvent>
     <GetCrossValueEvent>Взять кросс-значение</GetCrossValueEvent>
     <GetCutPieListEvent>Взять список выдвинутых сегментов</GetCutPieListEvent>
@@ -3422,6 +3444,7 @@
     <GetListOfValuesEvent>Взять список значений</GetListOfValuesEvent>
     <GetListOfWeights>Взять список весовых значений</GetListOfWeights>
     <GetListOfWeightsEvent>Взять список весовых значений</GetListOfWeightsEvent>
+    <GetPointerEvent>Взять указатель</GetPointerEvent>
     <GetSummaryExpressionEvent>Взять выражение суммирования</GetSummaryExpressionEvent>
     <GetTagEvent>Взять тег</GetTagEvent>
     <GetTitleEvent>Взять заголовок</GetTitleEvent>
@@ -3982,6 +4005,7 @@
     <LinearBarBrush>Кисть линейной панели</LinearBarBrush>
     <LinearBarEmptyBorderBrush>Кисть границы пустой линейной панели</LinearBarEmptyBorderBrush>
     <LinearBarEmptyBrush>Кисть пустой линейной панели</LinearBarEmptyBrush>
+    <LinearScaleBrush>Кисть линейной шкалы</LinearScaleBrush>
     <LineColor>Цвет линии</LineColor>
     <LineColorNegative>Цвет линии негативных значений</LineColorNegative>
     <LineLength>Длина линии</LineLength>
@@ -4369,6 +4393,7 @@
     <TagDataColumn>Колонка данных тегов</TagDataColumn>
     <TagValue>Значение Тега</TagValue>
     <Target>Цель</Target>
+    <TargetColor>Цвет цели</TargetColor>
     <TargetIcon>Иконка цели</TargetIcon>
     <TargetMode>Режим цели</TargetMode>
     <Tension>Напряженность</Tension>
@@ -4672,6 +4697,7 @@
     <NoNewVersions>Новые версии не обнаружены!</NoNewVersions>
     <NotAssigned>Не назначено</NotAssigned>
     <Null>Пусто</Null>
+    <Obsoleted>Устаревший</Obsoleted>
     <Office2010Back>Назад</Office2010Back>
     <PageNofM>Страница {0} из {1}</PageNofM>
     <PreparingReport>Подготовка отчета</PreparingReport>
@@ -4728,6 +4754,71 @@
     <Browse>Обзор</Browse>
     <Import>Импорт</Import>
   </ReportOpen>
+  <Scheduler>
+    <ActionRunReport>Запустить отчет</ActionRunReport>
+    <AdvancedSettings>Расширенные настройки</AdvancedSettings>
+    <AllSchedulers>Все планировщики</AllSchedulers>
+    <CheckBoxOverwriteIfExists>Перезаписать если существует</CheckBoxOverwriteIfExists>
+    <DayAll>Все</DayAll>
+    <DayDayX>День {0}</DayDayX>
+    <DayLast>Последний</DayLast>
+    <DayNone>Ни одного</DayNone>
+    <DaysOfWeekAll>Все</DaysOfWeekAll>
+    <DaysOfWeekNone>Ни одного</DaysOfWeekNone>
+    <DelayTaskForUpToRandomDelay>Задержка задачи до (random delay)</DelayTaskForUpToRandomDelay>
+    <EditScheduler>Редактировать планировщик</EditScheduler>
+    <EnableSSL>Включить SSL</EnableSSL>
+    <Expire>Истекает</Expire>
+    <ForADuractionOf>На срок</ForADuractionOf>
+    <GetFolder>Получить папку</GetFolder>
+    <GroupBoxFiles>Файлы</GroupBoxFiles>
+    <Host>Хост</Host>
+    <LabelDaysOfWeek>Дни недели</LabelDaysOfWeek>
+    <LabelMessage>Сообщение</LabelMessage>
+    <LabelResultName>Наименование результата</LabelResultName>
+    <LabelRunAtDay>День запуска</LabelRunAtDay>
+    <LabelRunAtMonth>Месяц запуска</LabelRunAtMonth>
+    <LabelRunAtTime>Время запуска</LabelRunAtTime>
+    <LabelRunEvery>Запускать каждый</LabelRunEvery>
+    <LabelSubject>Тема</LabelSubject>
+    <LabelTo>Куда</LabelTo>
+    <MessageInvalidName>Имя не может содержать символы, недопустимые для имен файлов.</MessageInvalidName>
+    <MessageInvalidTaskName>Имя, заканчивающее точкой, за которой следует три или меньше символов, не может быть использовано.</MessageInvalidTaskName>
+    <MessagePropertyNotSet>'{0}' не задан!</MessagePropertyNotSet>
+    <NewAction>Новое действие</NewAction>
+    <NewScheduler>Новый планировщик</NewScheduler>
+    <NoShedulers>Нет планировщиков</NoShedulers>
+    <NumberOfDayAll>Все</NumberOfDayAll>
+    <NumberOfDayFirst>Первый</NumberOfDayFirst>
+    <NumberOfDayFourth>Четвертый</NumberOfDayFourth>
+    <NumberOfDayLast>Последний</NumberOfDayLast>
+    <NumberOfDayNone>Нет</NumberOfDayNone>
+    <NumberOfDaySecond>Секунда</NumberOfDaySecond>
+    <NumberOfDayThird>Третий</NumberOfDayThird>
+    <RadioButtonDay>День</RadioButtonDay>
+    <RadioButtonOn>По</RadioButtonOn>
+    <RepeatTaskEvery>Повторять задачу каждые</RepeatTaskEvery>
+    <Scheduler>Планировщик</Scheduler>
+    <Schedulers>Планировщики</Schedulers>
+    <SenderEmail>Email отправителя</SenderEmail>
+    <SmtpSettings>Настройки SMTP сервера</SmtpSettings>
+    <StopAllRunningTasksAtEndOfRepetitionDuraction>Остановить все выполняемые задачи по окончанию повторения.</StopAllRunningTasksAtEndOfRepetitionDuraction>
+    <StopTasksIfItRunsLongerThan>Остановить задачи если они работают дольше чем</StopTasksIfItRunsLongerThan>
+    <TextDragDropDestinationHere>Перетяните папку назначения сюда</TextDragDropDestinationHere>
+    <TextDragDropReportHere>Перетяните отчет сюда</TextDragDropReportHere>
+    <TextPressPlusIconAddNewAction>Щелкните значок плюс, чтобы добавить новое действие!</TextPressPlusIconAddNewAction>
+    <ToolTipSetParameters>Определение параметров отчета</ToolTipSetParameters>
+    <WizardDaily>Ежедневно</WizardDaily>
+    <WizardDailyDescription>Один раз в день, в указанное время.</WizardDailyDescription>
+    <WizardHourly>Ежечасно</WizardHourly>
+    <WizardHourlyDescription>Один раз в течение часа.</WizardHourlyDescription>
+    <WizardMonthly>Ежемесячно</WizardMonthly>
+    <WizardMonthlyDescription>Ежемесячно, в выбранные дни недели или дни месяца, в указанное время.</WizardMonthlyDescription>
+    <WizardOnce>Однократно</WizardOnce>
+    <WizardOnceDescription>Данный тип планировщика используется для запуска без расписания.</WizardOnceDescription>
+    <WizardWeekly>Еженедельно</WizardWeekly>
+    <WizardWeeklyDescription>В выбранные дни недели, в указанное время.</WizardWeeklyDescription>
+  </Scheduler>
   <Services>
     <categoryContextTools>Контекстное меню дизайнера</categoryContextTools>
     <categoryDesigner>Дизайнер</categoryDesigner>
@@ -4910,6 +5001,7 @@
   </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Пустая панель индикаторов</BlankDashboard>
+    <BlankForm>Пустая форма</BlankForm>
     <BlankReport>Пустой отчет</BlankReport>
     <ButtonBack>&lt; &amp;Назад</ButtonBack>
     <ButtonCancel>Отмена</ButtonCancel>

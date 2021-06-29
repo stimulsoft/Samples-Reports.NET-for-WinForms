@@ -31,6 +31,7 @@
     <Loading>Loading...</Loading>
     <Message>Message:</Message>
     <Minutes>Minutes</Minutes>
+    <Days>Days</Days>
     <MonthApril>April</MonthApril>
     <MonthAugust>August</MonthAugust>
     <MonthDecember>December</MonthDecember>
@@ -135,6 +136,7 @@
     <ShowMore>Show More</ShowMore>
     <ShowSpecific>Show '{0}'</ShowSpecific>
     <Submit>Submit</Submit>
+    <SwitchTo>Switch to {0}</SwitchTo>
     <Test>Test</Test>
     <Up>Up</Up>
     <Upgrade>Upgrade</Upgrade>
@@ -371,7 +373,7 @@
     <ButtonResendEmail>Resend Email</ButtonResendEmail>
     <ButtonResetPassword>Reset Password</ButtonResetPassword>
     <ButtonRun>Run</ButtonRun>
-    <ButtonShedule>Shedule</ButtonShedule>
+    <ButtonScheduler>Scheduler</ButtonScheduler>
     <ButtonShare>Share</ButtonShare>
     <ButtonSignUp>Sign Up</ButtonSignUp>
     <ButtonSignUpWith>Sign Up with {0}</ButtonSignUpWith>
@@ -500,6 +502,7 @@
     <TextItemsWorkspace>Workspace</TextItemsWorkspace>
     <TextLastName>Last Name</TextLastName>
     <TextModify>Modify</TextModify>
+	<TextNewsLetters>News Letters</TextNewsLetters>
     <TextNoFavoriteFiles>No favorite files</TextNoFavoriteFiles>
     <TextNoFiles>No files</TextNoFiles>
     <TextNoNotifications>No Notifications</TextNoNotifications>
@@ -570,9 +573,81 @@
     <WizardPublicShareDescription>External access for any unauthorized user.</WizardPublicShareDescription>
     <WizardRegisteredShare>Authorized Access</WizardRegisteredShare>
     <WizardRegisteredShareDescription>External access only for registered users from any workspace.</WizardRegisteredShareDescription>
-    <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
-  
+    <WizardTeamShare>Team Access</WizardTeamShare>
+    <WizardTeamShareDescription>External access for users of one workspace only.</WizardTeamShareDescription>
+	<WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
 </Cloud>
+  <Scheduler>
+    <Schedulers>Schedulers</Schedulers>
+    <Schedule>Schedule</Schedule>
+    <Scheduler>Scheduler</Scheduler>
+    <NoSchedulers>No Schedulers</NoSchedulers>
+    <PleaseSelectSchedulerType>Please select a scheduler type</PleaseSelectSchedulerType>
+    <NewScheduler>New Scheduler</NewScheduler>
+    <EditScheduler>Edit Scheduler</EditScheduler>
+    <NewAction>New Action</NewAction>
+    <ActionRunReport>Run Report</ActionRunReport>
+    <TextPressPlusIconAddNewAction>Click the icon plus to add a new action!</TextPressPlusIconAddNewAction>
+    <SmtpSettings>Smtp Settings</SmtpSettings>
+    <NoShedulers>No Shedulers</NoShedulers>
+    <SenderEmail>Sender Email</SenderEmail>
+    <Host>Host</Host>
+    <Logs>Logs</Logs>
+    <NoLogs>No Logs</NoLogs>
+    <EnableSSL>Enable SSL</EnableSSL>
+    <AdvancedSettings>Advanced Settings</AdvancedSettings>
+    <WizardOnce>Once</WizardOnce>
+    <WizardOnceDescription>Run the scheduler once at any time.</WizardOnceDescription>
+    <WizardHourly>Hourly</WizardHourly>
+    <WizardHourlyDescription>Once an hour.</WizardHourlyDescription>
+    <WizardDaily>Daily</WizardDaily>
+    <WizardDailyDescription>Once a day, at a specified time.</WizardDailyDescription>
+    <WizardWeekly>Weekly</WizardWeekly>
+    <WizardWeeklyDescription>On the selected days of the week, at a specified time.</WizardWeeklyDescription>
+    <WizardMonthly>Monthly</WizardMonthly>
+    <WizardMonthlyDescription>Monthly, on selected days of the week or days of the month, at a specified time.</WizardMonthlyDescription>
+    <RepeatTaskEvery>Repeat task every</RepeatTaskEvery>
+    <ForADuractionOf>for a duraction of</ForADuractionOf>
+    <StopAllRunningTasksAtEndOfRepetitionDuraction>Stop all running tasks at end of repetition duraction</StopAllRunningTasksAtEndOfRepetitionDuraction>
+    <DelayTaskForUpToRandomDelay>Delay task for up to (random delay)</DelayTaskForUpToRandomDelay>
+    <StopTasksIfItRunsLongerThan>Stop tasks if it runs longer than</StopTasksIfItRunsLongerThan>
+    <Expire>Expire</Expire>
+    <LabelRunAtTime>Run at Time</LabelRunAtTime>
+    <LabelRunEvery>Run Every</LabelRunEvery>
+    <LabelRunAtDay>Run at Day</LabelRunAtDay>
+    <RadioButtonDay>Day</RadioButtonDay>
+    <DayDayX>Day {0}</DayDayX>
+    <DayLast>Last</DayLast>
+    <DayAll>All</DayAll>
+    <DayNone>None</DayNone>
+    <RadioButtonOn>On</RadioButtonOn>
+    <NumberOfDayFirst>First</NumberOfDayFirst>
+    <NumberOfDaySecond>Second</NumberOfDaySecond>
+    <NumberOfDayThird>Third</NumberOfDayThird>
+    <NumberOfDayFourth>Fourth</NumberOfDayFourth>
+    <NumberOfDayLast>Last</NumberOfDayLast>
+    <NumberOfDayAll>All</NumberOfDayAll>
+    <NumberOfDayNone>None</NumberOfDayNone>
+    <DaysOfWeekAll>All</DaysOfWeekAll>
+    <DaysOfWeekNone>None</DaysOfWeekNone>
+    <MonthAll>All</MonthAll>
+    <MonthNone>None</MonthNone>
+    <LabelRunAtMonth>Run at Month</LabelRunAtMonth>
+    <LabelDaysOfWeek>Days of Week</LabelDaysOfWeek>
+    <TextDragDropReportHere>Drag &amp; Drop the Report Here</TextDragDropReportHere>
+    <ToolTipSetParameters>Defining Report Parameters</ToolTipSetParameters>
+    <GetFolder>Get Folder</GetFolder>
+    <TextDragDropDestinationHere>Drag &amp; Drop the Destination Folder Here</TextDragDropDestinationHere>
+    <LabelResultName>Result Name</LabelResultName>
+    <CheckBoxOverwriteIfExists>Overwrite If Exists</CheckBoxOverwriteIfExists>
+    <LabelTo>To</LabelTo>
+    <LabelSubject>Subject</LabelSubject>
+    <LabelMessage>Message</LabelMessage>
+    <GroupBoxFiles>Files</GroupBoxFiles>
+    <MessagePropertyNotSet>'{0}' not set!</MessagePropertyNotSet>
+    <MessageInvalidName>Task names may not include any characters which are invalid for file names.</MessageInvalidName>
+    <MessageInvalidTaskName>Task names ending with a period followed by three or fewer characters cannot be retrieved due to a bug in the native library.</MessageInvalidTaskName>
+  </Scheduler>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiButton>Button</StiButton>
@@ -818,6 +893,7 @@
     <RetrievingColumns>Retrieving Columns</RetrievingColumns>
     <SavingConfiguration>Saving Configuration</SavingConfiguration>
     <SavingReport>Saving Report</SavingReport>
+    <Saving>Saving</Saving>
     <TestConnection>Test Connection</TestConnection>
     <TextNotFound>The specified text was not found. Text : {0}</TextNotFound>
   </DesignerFx>
@@ -1472,6 +1548,7 @@
 	<BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
     <Default>Default</Default>
+    <DefaultScriptMode>Default Script Mode</DefaultScriptMode>
     <Drawing>Drawing</Drawing>
     <DrawMarkersWhenMoving>Draw Markers When Moving</DrawMarkersWhenMoving>
     <EditAfterInsert>Edit After Insert</EditAfterInsert>
@@ -1491,7 +1568,7 @@
     <groupGridDrawingOptions>Grid drawing options</groupGridDrawingOptions>
     <groupGridOptions>Grid options</groupGridOptions>
     <groupGridSize>Grid size</groupGridSize>
-    <groupMainOptions>Main options for working with report designer</groupMainOptions>
+    <groupMainOptions>Main options for working with designer</groupMainOptions>
     <groupMarkersStyle>Marker style</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Options of Quick Info</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Please, select the type of GUI</groupPleaseSelectTypeOfGui>
@@ -2555,6 +2632,7 @@
     <BarCodeAdditionalCategory>Bar Code Additional</BarCodeAdditionalCategory>
     <BarCodeCategory>Bar Code</BarCodeCategory>
     <BehaviorCategory>Behavior</BehaviorCategory>
+    <ButtonCategory>Button</ButtonCategory>
     <CapNeedle>Cap Needle</CapNeedle>
     <CellCategory>Cell</CellCategory>
     <ChartAdditionalCategory>Chart Additional</ChartAdditionalCategory>
@@ -2624,6 +2702,14 @@
     <TreeViewBoxCategory>Tree View Box</TreeViewBoxCategory>
     <TreeViewCategory>Tree View</TreeViewCategory>
     <TrendLineCategory>Trend Line</TrendLineCategory>
+    <TickMarkMajorCategory>Tick Mark Major</TickMarkMajorCategory>
+    <TickMarkMinorCategory>Tick Mark Minor</TickMarkMinorCategory>
+    <TickLabelMajorCategory>Tick Label Major</TickLabelMajorCategory>
+    <TickLabelMinorCategory>Tick Label Minor</TickLabelMinorCategory>
+    <LinearScaleBarCategory>Linear Scale Bar</LinearScaleBarCategory>
+    <LinearScaleCategory>Linear Scale</LinearScaleCategory>
+    <RadialScaleBarCategory>Radial Scale Bar</RadialScaleBarCategory>
+    <NeedleCategory>Needle</NeedleCategory>
     <ValueCategory>Value</ValueCategory>
     <ValueCloseCategory>Value Close</ValueCloseCategory>
     <ValueEndCategory>Value End</ValueEndCategory>
@@ -2953,6 +3039,10 @@
     <StiDesignerSpecificationBeginner>I'm Beginner</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>I'm Creator</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>I'm Developer</StiDesignerSpecificationDeveloper>
+    <StiDirectionBottomToTop>Bottom to Top</StiDirectionBottomToTop>
+    <StiDirectionLeftToRight>Left to Right</StiDirectionLeftToRight>
+    <StiDirectionRightToLeft>Right to Left</StiDirectionRightToLeft>
+    <StiDirectionTopToBottom>Top to Bottom</StiDirectionTopToBottom>
     <StiDisplayNameTypeFull>Full</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>None</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>Short</StiDisplayNameTypeShort>
@@ -3124,6 +3214,7 @@
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Double Pass</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Single Pass</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeAddRange>Add Range</StiOnlineMapHeatmapColorGradientTypeAddRange>
     <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Black Aqua White</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
     <StiOnlineMapHeatmapColorGradientTypeBlueRed>Blue Red</StiOnlineMapHeatmapColorGradientTypeBlueRed>
     <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Color Spectrum</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
@@ -3348,8 +3439,12 @@
     <EnterEvent>Enter</EnterEvent>
     <ExportedEvent>Exported</ExportedEvent>
     <ExportingEvent>Exporting</ExportingEvent>
+	<FillParametersEvent>Fill Parameters</FillParametersEvent>
     <GetArgumentEvent>Get Argument</GetArgumentEvent>
+    <GetBarCodeEvent>Get BarCode</GetBarCodeEvent>
     <GetBookmarkEvent>Get Bookmark</GetBookmarkEvent>
+    <GetPointerEvent>Get Pointer</GetPointerEvent>
+    <GetCheckedEvent>Get Checked</GetCheckedEvent>
     <GetCollapsedEvent>Get Collapsed</GetCollapsedEvent>
     <GetCrossValueEvent>Get Cross Value</GetCrossValueEvent>
     <GetCutPieListEvent>Get Cut Pie List</GetCutPieListEvent>
@@ -3534,6 +3629,7 @@
     <BarCodeType>Bar Code Type</BarCodeType>
     <BasicStyleColor>Basic Style Color</BasicStyleColor>
     <Blend>Blend</Blend>
+    <Blocks>Blocks</Blocks>
     <Bold>Bold</Bold>
     <Bookmark>Bookmark</Bookmark>
     <Border>Border</Border>
@@ -3724,6 +3820,7 @@
     <ErrorCorrectionLevel>Error Correction Level</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Errors Correction Level</ErrorsCorrectionLevel>
     <EvenStyle>Even Style</EvenStyle>
+	<ExceedMargins>Exceed Margins</ExceedMargins>
     <ExcelSheet>Excel Sheet</ExcelSheet>
     <ExcelValue>Excel Value</ExcelValue>
     <Exponential>Exponential</Exponential>
@@ -3930,6 +4027,7 @@
     <LineLength>Line Length</LineLength>
     <LineLimit>Line Limit</LineLimit>
     <LineMarker>Line Marker</LineMarker>
+    <LinearScaleBrush>Linear Scale Brush</LinearScaleBrush>
     <LinesOfUnderline>Lines of Underline</LinesOfUnderline>
     <LineSpacing>Line Spacing</LineSpacing>
     <LineStyle>Line Style</LineStyle>
@@ -4307,6 +4405,7 @@
     <SystemVariables>System Variables</SystemVariables>
     <Table>Table</Table>
     <Tag>Tag</Tag>
+    <TargetColor>Target Color</TargetColor>
     <TagDataColumn>Tag Data Column</TagDataColumn>
     <TagValue>Tag Value</TagValue>
     <Target>Target</Target>
@@ -4450,6 +4549,9 @@
     <WindowFrame>Window Frame</WindowFrame>
     <WindowText>Window Text</WindowText>
   </PropertySystemColors>
+  <PromptForm>
+    <CacheLoginData>Cache login data for current session</CacheLoginData>
+  </PromptForm>
   <QueryBuilder>
     <AddObject>Add Object</AddObject>
     <AddSubQuery>Add Derived Table</AddSubQuery>
