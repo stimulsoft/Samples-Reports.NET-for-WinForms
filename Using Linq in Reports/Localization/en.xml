@@ -482,7 +482,7 @@
     <SaveAsType>Save as type</SaveAsType>
     <SaveFile>Save File</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Saving the report to Stimulsoft Cloud. Please wait!</SavingToStimulsoftCloudPleaseWait>
-    <SearchForOnlineTemplates>Search for online templates</SearchForOnlineTemplates>
+    <SearchForOnlineTemplates>Search Stimulsoft templates online</SearchForOnlineTemplates>
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
     <ShowNotificationMessages>Show Notification Messages</ShowNotificationMessages>
@@ -580,6 +580,7 @@
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiButton>Button</StiButton>
+    <StiCards>Cards</StiCards>
     <StiChart>Chart</StiChart>
     <StiCheckBox>Check Box</StiCheckBox>
     <StiChildBand>Child</StiChildBand>
@@ -1144,7 +1145,7 @@
     <custom11>c1</custom11>
     <custom12>c2</custom12>
     <custom13>#.00</custom13>
-    <custom14>#,#</custom14>
+    <custom14>#.#</custom14>
     <custom15>n</custom15>
     <custom16>n1</custom16>
     <custom17>n2</custom17>
@@ -1477,6 +1478,7 @@
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
+    <BlankScreen>Blank Screen</BlankScreen>
     <Default>Default</Default>
     <DefaultScriptMode>Default Script Mode</DefaultScriptMode>
     <Drawing>Drawing</Drawing>
@@ -1880,6 +1882,7 @@
     <StiMap>This component is used to display data that is geographically targeted.</StiMap>
     <StiMapCategory>Group of elements for working with maps and data.</StiMapCategory>
     <StiMapElement>This element is used to display data that is geographically targeted.</StiMapElement>
+    <StiMathFormula>This component is used to display math formulas in a report.</StiMathFormula>
     <StiOnlineMapElement>This element is used to display geographic markers on the online map.</StiOnlineMapElement>
     <StiOverlayBand>This band is used to output watermarks on a page.</StiOverlayBand>
     <StiPageFooterBand>This band is used to output the information on the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
@@ -1896,9 +1899,11 @@
     <StiRoundedRectanglePrimitive>This component is used to output rounded rectangles.</StiRoundedRectanglePrimitive>
     <StiShape>This component is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShape>
     <StiShapeElement>This element is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShapeElement>
+    <StiSparkline>This component is used to create micrographics in a report. It allows you to track dynamically changing data as bars, lines, areas.</StiSparkline>
     <StiSubReport>This component is used to output additional data in different places of a report.</StiSubReport>
     <StiTable>This component is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTable>
     <StiTableElement>This element is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTableElement>
+    <StiTableOfContents>This component is used to create a table of contents in a report.</StiTableOfContents>
     <StiText>This component is a basic object to output data as a text.</StiText>
     <StiTextElement>This element is a basic object to output data as a text.</StiTextElement>
     <StiTextInCells>The component is used to output a text in cells. It is frequently used for creating forms.</StiTextInCells>
@@ -2318,6 +2323,7 @@
     <ResourceCannotBeDeleted>The resource "{0}" cannot be deleted, because it is used in the report!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>The share URL of the item has been updated!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>To share your report you should save the report to Stimulsoft Cloud!</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>Switching between modes will cause the loss of changes. Do you want to proceed?</SwitchingBetweenModes>
     <TextRegistrationSuccessfully>
       Registration completed successfully!
 
@@ -3575,6 +3581,8 @@
     <BorderStyle>Border Style</BorderStyle>
     <BorderWidth>Border Width</BorderWidth>
     <Bottom>Bottom</Bottom>
+    <BottomLeft>Bottom-Left</BottomLeft>
+    <BottomRight>Bottom-Right</BottomRight>
     <BottomSide>Bottom Side</BottomSide>
     <BreakIfLessThan>Break if Less Than</BreakIfLessThan>
     <Brush>Brush</Brush>
@@ -4249,6 +4257,7 @@
     <ShowInLegend>Show in Legend</ShowInLegend>
     <ShowInnerPoints>Show Inner Points</ShowInnerPoints>
     <ShowInPercent>Show in Percent</ShowInPercent>
+    <ShowLabel>Show Label</ShowLabel>
     <ShowLabels>Show Labels</ShowLabels>
     <ShowLabelText>Show Label Text</ShowLabelText>
     <ShowLegend>Show Legend</ShowLegend>
@@ -4345,6 +4354,7 @@
     <TargetColor>Target Color</TargetColor>
     <TargetIcon>Target Icon</TargetIcon>
     <TargetMode>Target Mode</TargetMode>
+    <TargetSettings>Target</TargetSettings>
     <Tension>Tension</Tension>
     <Text>Text</Text>
     <TextAfter>Text After</TextAfter>
@@ -4379,11 +4389,17 @@
     <ToolTip>Tool Tip</ToolTip>
     <ToolTipDataColumn>Tool Tip Data Column</ToolTipDataColumn>
     <Top>Top</Top>
+    <TopLeft>Top-Left</TopLeft>
     <Topmost>Topmost</Topmost>
     <TopmostLine>Topmost Line</TopmostLine>
     <TopN>Top N</TopN>
+    <TopRight>Top-Right</TopRight>
     <TopSide>Top Side</TopSide>
     <Total>Total</Total>
+    <TotalCellColumnBackColor>Total Cell Column Back Color</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Total Cell Column Fore Color</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Total Cell Row Back Color</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Total Cell Row Fore Color</TotalCellRowForeColor>
     <TotalLabel>Total Label</TotalLabel>
     <Totals>Totals</Totals>
     <TrackColor>Track Color</TrackColor>
@@ -4718,7 +4734,7 @@
     <EditScheduler>Edit Scheduler</EditScheduler>
     <EnableSSL>Enable SSL</EnableSSL>
     <Expire>Expire</Expire>
-    <ForADuractionOf>for a duraction of</ForADuractionOf>
+    <ForADurationOf>for a duration of</ForADurationOf>
     <GetFolder>Get Folder</GetFolder>
     <GroupBoxFiles>Files</GroupBoxFiles>
     <Host>Host</Host>
@@ -4742,7 +4758,6 @@
     <NewScheduler>New Scheduler</NewScheduler>
     <NoLogs>No Logs</NoLogs>
     <NoSchedulers>No Schedulers</NoSchedulers>
-    <NoShedulers>No Shedulers</NoShedulers>
     <NumberOfDayAll>All</NumberOfDayAll>
     <NumberOfDayFirst>First</NumberOfDayFirst>
     <NumberOfDayFourth>Fourth</NumberOfDayFourth>
@@ -4759,7 +4774,7 @@
     <Schedulers>Schedulers</Schedulers>
     <SenderEmail>Sender Email</SenderEmail>
     <SmtpSettings>Smtp Settings</SmtpSettings>
-    <StopAllRunningTasksAtEndOfRepetitionDuraction>Stop all running tasks at end of repetition duraction</StopAllRunningTasksAtEndOfRepetitionDuraction>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>Stop all running tasks at end of repetition duration</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Stop tasks if it runs longer than</StopTasksIfItRunsLongerThan>
     <TextDragDropDestinationHere>Drag &amp; Drop the Destination Folder Here</TextDragDropDestinationHere>
     <TextDragDropReportHere>Drag &amp; Drop the Report Here</TextDragDropReportHere>
@@ -4960,6 +4975,7 @@
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
+    <BlankScreen>Blank Screen</BlankScreen>
     <ButtonBack>&lt; &amp;Back</ButtonBack>
     <ButtonCancel>Cancel</ButtonCancel>
     <ButtonFinish>&amp;Finish</ButtonFinish>

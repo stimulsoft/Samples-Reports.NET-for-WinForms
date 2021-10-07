@@ -15,6 +15,7 @@
     <CategoryAlreadyExists>Ilyen nevű kategória már létezik!</CategoryAlreadyExists>
     <DayFriday>Péntek</DayFriday>
     <DayMonday>Hétfő</DayMonday>
+    <Days>Nap</Days>
     <DaySaturday>Szombat</DaySaturday>
     <DaySunday>Vasárnap</DaySunday>
     <DayThursday>Csütörtök</DayThursday>
@@ -135,6 +136,7 @@
     <ShowMore>Többet mutat</ShowMore>
     <ShowSpecific>Látszik '{0}'</ShowSpecific>
     <Submit>Elküld</Submit>
+    <SwitchTo>Váltás ide: {0}</SwitchTo>
     <Test>Teszt</Test>
     <Up>Fel</Up>
     <Upgrade>Frissítés</Upgrade>
@@ -371,6 +373,7 @@
     <ButtonResendEmail>Email újraküldése</ButtonResendEmail>
     <ButtonResetPassword>Jelszót alaphelyzetbe</ButtonResetPassword>
     <ButtonRun>Futtat</ButtonRun>
+    <ButtonScheduler>Ütemező</ButtonScheduler>
     <ButtonShare>Megoszt</ButtonShare>
     <ButtonSignUp>Feliratkozás</ButtonSignUp>
     <ButtonSignUpWith>Regisztráció: {0}</ButtonSignUpWith>
@@ -499,6 +502,7 @@
     <TextItemsWorkspace>Munkaterület</TextItemsWorkspace>
     <TextLastName>Vezetéknév</TextLastName>
     <TextModify>Módosít</TextModify>
+    <TextNewsLetters>Hírlevelek</TextNewsLetters>
     <TextNoFavoriteFiles>Nincs kedvenc fájl</TextNoFavoriteFiles>
     <TextNoFiles>Nincs fájl</TextNoFiles>
     <TextNoNotifications>Nincs értesítés</TextNoNotifications>
@@ -569,11 +573,14 @@
     <WizardPublicShareDescription>Külső hozzáférés bármely nem engedélyezett felhasználónak.</WizardPublicShareDescription>
     <WizardRegisteredShare>Engedélyezett hozzáférés</WizardRegisteredShare>
     <WizardRegisteredShareDescription>Külső hozzáférés kizárólag regisztrált felhasználóknak from any workspace.</WizardRegisteredShareDescription>
+    <WizardTeamShare>Csapat hozzáférés</WizardTeamShare>
+    <WizardTeamShareDescription>Külső hozzáférés kizárólag egy munkaterület felhasználói számára.</WizardTeamShareDescription>
     <WizardXmlDescription>Jelentés készítése Xml adatokkal.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>Vonalkód</StiBarCode>
     <StiButton>Gomb</StiButton>
+    <StiCards>Kártyák</StiCards>
     <StiChart>Diagram</StiChart>
     <StiCheckBox>Jelölőnégyzet</StiCheckBox>
     <StiChildBand>Gyermek sáv</StiChildBand>
@@ -672,6 +679,7 @@
     <Delta>Delta</Delta>
     <Dimension>Méret</Dimension>
     <Dimensions>Méretek</Dimensions>
+    <DragDropBlocks>Fogd és vidd a blokkokat a panelről</DragDropBlocks>
     <DragDropData>Adatok idehúzása</DragDropData>
     <DragDropDataFromDictionary>Fogd&amp;vidd az adatot a szótárból</DragDropDataFromDictionary>
     <DrillDown>Lefúrás</DrillDown>
@@ -816,6 +824,7 @@
     <ReportSuccessfullySaved>Dokumentum sikeresen mentve.</ReportSuccessfullySaved>
     <RetrieveError>Oszlop hibák lekérdezése</RetrieveError>
     <RetrievingColumns>Oszlopok lekérdezése</RetrievingColumns>
+    <Saving>Mentés</Saving>
     <SavingConfiguration>Beállítások mentése</SavingConfiguration>
     <SavingReport>Jelentés elmentése</SavingReport>
     <TestConnection>Kapcsolat teszteláse</TestConnection>
@@ -1470,8 +1479,10 @@
     <AutoSave>Automatikus mentés</AutoSave>
     <AutoSaveReportToReportClass>Automatikus jelentés mentés C# vagy VB.NET fájlba</AutoSaveReportToReportClass>
     <BlankDashboard>Üres irányítópult</BlankDashboard>
+    <BlankForm>Üres űrlap</BlankForm>
     <BlankReport>Üres riport</BlankReport>
     <Default>Alapértelmezett</Default>
+    <DefaultScriptMode>Alapértelmezett script mód</DefaultScriptMode>
     <Drawing>Rajzolás</Drawing>
     <DrawMarkersWhenMoving>Mutatók rajzolsáa mozgás közben</DrawMarkersWhenMoving>
     <EditAfterInsert>Beszúrás után szerkeszt</EditAfterInsert>
@@ -1874,6 +1885,7 @@
     <StiMap>Ez a komponens földrajzilag célzott adatokat jelenített meg.</StiMap>
     <StiMapCategory>Elemek csoportja a térképekkel és adatokkal való munkálkodáshoz.</StiMapCategory>
     <StiMapElement>Ez az elem földrajzilag célzott adatokat jeleníti meg.</StiMapElement>
+    <StiMathFormula>Ez a komponens a jelentésben lévő matematikai egyenletek megjelenítéséért felel.</StiMathFormula>
     <StiOnlineMapElement>Ez az elem földrajzi jelölőket jeleníti meg az online térképen.</StiOnlineMapElement>
     <StiOverlayBand>Ez a komponens vízjelek megjenítésére használható.</StiOverlayBand>
     <StiPageFooterBand>Ez a sáv az oldalak alján megjelenítendő adatok kezelésére szolgál min oldal lábléc.</StiPageFooterBand>
@@ -1890,9 +1902,11 @@
     <StiRoundedRectanglePrimitive>Lekerekített négyzetek rajzolására használhatjuk ezt a komponenst.</StiRoundedRectanglePrimitive>
     <StiShape>This component is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShape>
     <StiShapeElement>Ez az elem kész formák, például nyilak, átlós, vízszintes, függőleges vonalak, ellipszisek, téglalapok, lekerekített téglalapok, felső és alsó sorok, háromszögek berögzítésére használható.</StiShapeElement>
+    <StiSparkline>Ez a komponens mikrografikákat hoz létre egy jelentésben. Ennek segítségével követhető nyomon a dinamikusan változó adatok pl. vonalakban, csíkokban, területekben.</StiSparkline>
     <StiSubReport>Ez egy aljelentés készítését lehetővé tevő komponens.</StiSubReport>
     <StiTable>Ez a komponens szolgál az adatztok tánblázatos megjelenítésére, vannak sorai és oszlopai hasonlóan az excel táblázatokhoz.</StiTable>
     <StiTableElement>Ez az elem olyan adatelemek halmaza, amelyek függőleges oszlopok és vízszintes sorok modellezésével szerveznek.</StiTableElement>
+    <StiTableOfContents>Ez a komponens hoz létre egy tartalomjegyzéket a jelentésbe.</StiTableOfContents>
     <StiText>Ez a komponens az alap szövegek és adatok megjelenítésére szolgál.</StiText>
     <StiTextElement>Ez az elem egy alapvető objektum, amely az adatot szövegként továbbítja.</StiTextElement>
     <StiTextInCells>Szövegek megjelenítésére szolgál cellában. Ezt formok készítésekor lehet leginkább használni.</StiTextInCells>
@@ -1960,6 +1974,7 @@
     <FontStyleBoldWatermark>Vízjel félkövér.</FontStyleBoldWatermark>
     <FontStyleItalic>Dőlt.</FontStyleItalic>
     <FontStyleItalicWatermark>Vízjel dőlt.</FontStyleItalicWatermark>
+    <FontStyleStrikeout>Húzza át a szöveget.</FontStyleStrikeout>
     <FontStyleUnderline>Aláhúzott.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Vízjel aláhúzott.</FontStyleUnderlineWatermark>
     <FormatBoolean>Logikai változóhoz tartozóü formátum.</FormatBoolean>
@@ -2317,6 +2332,7 @@
     <ResourceCannotBeDeleted>A(z) "{0}" erőforrás nem törölhető, mert használatban van a reportban!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>Az elem megosztási URL-je frissítve lett!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>A jelentés megosztásához el kell mentenie a jelentést a Stimulsoft Cloud-ba!</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>Módok közti váltakozás módosítások elvesztését okozhatja. Biztos, hogy végrehajtja?</SwitchingBetweenModes>
     <TextRegistrationSuccessfully>Sikeres regisztráció!
 
 Az Emailt ide küldtük "{0}".
@@ -2552,6 +2568,9 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <MoveLeftFreeSpace>A komponenst a bal oldali szabad helyre mozgatja, magassága kitölti a rendelkezésre álló szabd helyet.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>A komponenst a jobb oldali szabad helyre mozgatja, magassága kitölti a rendelkezésre álló szabd helyet.</MoveRightFreeSpace>
   </PlacementComponent>
+  <PromptForm>
+    <CacheLoginData>Bejelentkezési adatok tárolása a jelenlegi munkamenetre</CacheLoginData>
+  </PromptForm>
   <PropertyCategory>
     <AppearanceCategory>Megjelenés</AppearanceCategory>
     <AreaCategory>Terület</AreaCategory>
@@ -2560,6 +2579,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <BarCodeAdditionalCategory>Vonalkód további</BarCodeAdditionalCategory>
     <BarCodeCategory>Vonalkód</BarCodeCategory>
     <BehaviorCategory>Viselkedés</BehaviorCategory>
+    <ButtonCategory>Gomb</ButtonCategory>
     <CapNeedle>Tűsapka</CapNeedle>
     <CellCategory>Cella</CellCategory>
     <ChartAdditionalCategory>Diagram további</ChartAdditionalCategory>
@@ -2595,6 +2615,8 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <InterlacingCategory>Átlapolás</InterlacingCategory>
     <LabelsCategory>Cimkék</LabelsCategory>
     <LegendCategory>Jelmagyarázat</LegendCategory>
+    <LinearScaleBarCategory>Vonalas skála sáv</LinearScaleBarCategory>
+    <LinearScaleCategory>Vonalas skála</LinearScaleCategory>
     <ListBoxCategory>Lista</ListBoxCategory>
     <MainCategory>Legfőbb</MainCategory>
     <MarkerCategory>Jelölés</MarkerCategory>
@@ -2603,6 +2625,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <NavigationCategory>Navigálás</NavigationCategory>
     <NavigationEventsCategory>Navigálás események</NavigationEventsCategory>
     <Needle>Tű</Needle>
+    <NeedleCategory>Tű</NeedleCategory>
     <OnlineMapCategory>Online Térkép</OnlineMapCategory>
     <OptionsCategory>Opciók</OptionsCategory>
     <PageAdditionalCategory>További oldal beállítások</PageAdditionalCategory>
@@ -2614,6 +2637,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <PrimitiveCategory>Eredeti</PrimitiveCategory>
     <PrintEventsCategory>Nyomtatás események</PrintEventsCategory>
     <ProgressCategory>Folyamat</ProgressCategory>
+    <RadialScaleBarCategory>Körös skála sáv</RadialScaleBarCategory>
     <RegionMapCategory>Regionális térkép</RegionMapCategory>
     <RenderEventsCategory>Render események</RenderEventsCategory>
     <SeriesCategory>Sorozatok</SeriesCategory>
@@ -2625,6 +2649,10 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <TableOfContents>Tartalomjegyzék</TableOfContents>
     <TextAdditionalCategory>Szöveg további</TextAdditionalCategory>
     <TextCategory>Szöveg</TextCategory>
+    <TickLabelMajorCategory>Nagy egység felirat</TickLabelMajorCategory>
+    <TickLabelMinorCategory>Kis egység felirat</TickLabelMinorCategory>
+    <TickMarkMajorCategory>Nagy egység jel</TickMarkMajorCategory>
+    <TickMarkMinorCategory>Kis egység jel</TickMarkMinorCategory>
     <TitleCategory>Cím</TitleCategory>
     <TreeViewBoxCategory>Fanézeti doboz</TreeViewBoxCategory>
     <TreeViewCategory>Fanézet</TreeViewCategory>
@@ -2958,6 +2986,10 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiDesignerSpecificationBeginner>Kezdő vagyok</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>Alkotó vagyok</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Fejlesztő vagyok</StiDesignerSpecificationDeveloper>
+    <StiDirectionBottomToTop>Alulról felfelé</StiDirectionBottomToTop>
+    <StiDirectionLeftToRight>Balról jobbra</StiDirectionLeftToRight>
+    <StiDirectionRightToLeft>Jobbról balra</StiDirectionRightToLeft>
+    <StiDirectionTopToBottom>Felülről lefelé</StiDirectionTopToBottom>
     <StiDisplayNameTypeFull>Teljes</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>Egyik sem</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>Short</StiDisplayNameTypeShort>
@@ -3144,6 +3176,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiNestedFactorNormal>Normál</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Dupla Pass</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Szimpla Pass</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeAddRange>Tartomány hozzáadása</StiOnlineMapHeatmapColorGradientTypeAddRange>
     <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Fekete-víz-fehér</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
     <StiOnlineMapHeatmapColorGradientTypeBlueRed>Kék-piros</StiOnlineMapHeatmapColorGradientTypeBlueRed>
     <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Szín spektrum</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
@@ -3315,8 +3348,18 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Nyomdai</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTimeDateStepDay>Nap</StiTimeDateStepDay>
+    <StiTimeDateStepHour>Óra</StiTimeDateStepHour>
+    <StiTimeDateStepMinute>Perc</StiTimeDateStepMinute>
+    <StiTimeDateStepMonth>Hónap</StiTimeDateStepMonth>
+    <StiTimeDateStepNone>Nincs</StiTimeDateStepNone>
+    <StiTimeDateStepSecond>Másodperc</StiTimeDateStepSecond>
+    <StiTimeDateStepYear>Év</StiTimeDateStepYear>
     <StiTitlePositionInside>Belső</StiTitlePositionInside>
     <StiTitlePositionOutside>Külső</StiTitlePositionOutside>
+    <StiTopNModeBottom>Alsó</StiTopNModeBottom>
+    <StiTopNModeNone>Nincs</StiTopNModeNone>
+    <StiTopNModeTop>Felső</StiTopNModeTop>
     <StiTypeModeList>Lista</StiTypeModeList>
     <StiTypeModeNullableValue>Nullable Value</StiTypeModeNullableValue>
     <StiTypeModeRange>Tartomány</StiTypeModeRange>
@@ -3358,8 +3401,11 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <EnterEvent>Belépés</EnterEvent>
     <ExportedEvent>Exporálva</ExportedEvent>
     <ExportingEvent>Exportálás</ExportingEvent>
+    <FillParametersEvent>Paraméterek kitöltése</FillParametersEvent>
     <GetArgumentEvent>Argumentum lekérés</GetArgumentEvent>
+    <GetBarCodeEvent>Vonalkód lekérése</GetBarCodeEvent>
     <GetBookmarkEvent>Könyvjelző lekérés</GetBookmarkEvent>
+    <GetCheckedEvent>Jelölés lekérése</GetCheckedEvent>
     <GetCollapsedEvent>Összezárt</GetCollapsedEvent>
     <GetCrossValueEvent>Kerszt érték lekérés</GetCrossValueEvent>
     <GetCutPieListEvent>Vágott pite listából lekér</GetCutPieListEvent>
@@ -3379,6 +3425,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <GetListOfValuesEvent>Érték lista lekérés</GetListOfValuesEvent>
     <GetListOfWeights>Súlyok listája</GetListOfWeights>
     <GetListOfWeightsEvent>Súlyok listája</GetListOfWeightsEvent>
+    <GetPointerEvent>Pont lekérése</GetPointerEvent>
     <GetSummaryExpressionEvent>Get Summary Expression</GetSummaryExpressionEvent>
     <GetTagEvent>Tag lekérés</GetTagEvent>
     <GetTitleEvent>Cím lekérés</GetTitleEvent>
@@ -3545,6 +3592,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <BasicStyleColor>Alap stílus szín</BasicStyleColor>
     <BindingColumn>Kapcsoló oszlop</BindingColumn>
     <Blend>Blend</Blend>
+    <Blocks>Blokkok</Blocks>
     <Bold>Félkövér</Bold>
     <Bookmark>Könyvjelző</Bookmark>
     <Border>Keret</Border>
@@ -3556,6 +3604,8 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <BorderStyle>Keret stílus</BorderStyle>
     <BorderWidth>Szegély szélesség</BorderWidth>
     <Bottom>Lent</Bottom>
+    <BottomLeft>Bal alsó</BottomLeft>
+    <BottomRight>Jobb alsó</BottomRight>
     <BottomSide>Alsó oldal</BottomSide>
     <BreakIfLessThan>Törés ha kevesebb mint</BreakIfLessThan>
     <Brush>Ecset</Brush>
@@ -3658,6 +3708,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <DataAdapters>Adapterek</DataAdapters>
     <DataBarCondition>Értéksáv kondíciók</DataBarCondition>
     <DataBindings>Adat kötés</DataBindings>
+    <DataCells>Adatcellák</DataCells>
     <DataColor>Adat szín</DataColor>
     <DataColumn>Adat oszlop</DataColumn>
     <DataColumns>Adat oszlop</DataColumns>
@@ -3734,6 +3785,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ErrorCorrectionLevel>Hibás korrekciós szint</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Hibás korrekciós szintek</ErrorsCorrectionLevel>
     <EvenStyle>Even Style</EvenStyle>
+    <ExceedMargins>Margók túllépése</ExceedMargins>
     <ExcelSheet>Excel munkalap</ExcelSheet>
     <ExcelValue>Excel érték</ExcelValue>
     <Exponential>Exponenciális</Exponential>
@@ -3789,6 +3841,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <FullConvertExpression>Teljesen konvertált kifejezés</FullConvertExpression>
     <Function>Funkció</Function>
     <Functions>Funkciók</Functions>
+    <GisSettings>Gis beállítások</GisSettings>
     <GlobalizationStrings>Honosítás szövegek</GlobalizationStrings>
     <GlobalizedName>Honosított név</GlobalizedName>
     <GlyphColor>Glyph szín</GlyphColor>
@@ -3805,6 +3858,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <GroupDataColumn>Csoport adatoszlop</GroupDataColumn>
     <GroupMeter>Csoport</GroupMeter>
     <GrowToHeight>Magasság megnyújtása</GrowToHeight>
+    <Header>Fejléc</Header>
     <HeaderBackColor>Fejléc háttée színe</HeaderBackColor>
     <HeaderCanBreak>Fejléc megszakítható</HeaderCanBreak>
     <HeaderCanGrow>Fejléc képes növekedni</HeaderCanGrow>
@@ -3934,8 +3988,10 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <LinearBarBrush>Egyenes sáv kitöltés</LinearBarBrush>
     <LinearBarEmptyBorderBrush>Egyenes sáv üres keret kitöltés</LinearBarEmptyBorderBrush>
     <LinearBarEmptyBrush>Egyenes sáv üres kitöltés</LinearBarEmptyBrush>
+    <LinearScaleBrush>Vonalas skála színe</LinearScaleBrush>
     <LineColor>Sor szín</LineColor>
     <LineColorNegative>Egyenes szín negatív</LineColorNegative>
+    <LineLength>Vonalhossz</LineLength>
     <LineLimit>Sor Limit</LineLimit>
     <LineMarker>Sor kijelölő</LineMarker>
     <LinesOfUnderline>Sor aláhúzás</LinesOfUnderline>
@@ -4225,6 +4281,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ShowInLegend>Feliratban megjelenik</ShowInLegend>
     <ShowInnerPoints>Belső pontok megjelenítése</ShowInnerPoints>
     <ShowInPercent>Százalálban megjelenik</ShowInPercent>
+    <ShowLabel>Felirat megjelenítése</ShowLabel>
     <ShowLabels>Cimkék megjelennek</ShowLabels>
     <ShowLabelText>Cimke szöveg megjelenik</ShowLabelText>
     <ShowLegend>Jelmagyarázat mutatása</ShowLegend>
@@ -4234,6 +4291,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ShowOnZeroValues>0 érték megjeleik</ShowOnZeroValues>
     <ShowOthers>Többi mutatása</ShowOthers>
     <ShowPercents>Százalékot mutat</ShowPercents>
+    <ShowPlacemark>Helyjelző megjelenítése</ShowPlacemark>
     <ShowQuietZoneIndicator>Üres zóna jelölő megjelenítés</ShowQuietZoneIndicator>
     <ShowQuietZones>"Nyugodt" zónák megjelenítése</ShowQuietZones>
     <ShowScrollBar>Scroll Bar mutatása</ShowScrollBar>
@@ -4241,6 +4299,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ShowSeriesLabels>Széria címkét megmutat</ShowSeriesLabels>
     <ShowShadow>Árnyék megjelenik</ShowShadow>
     <ShowTotal>Összesítés megjelenik</ShowTotal>
+    <ShowTotalSummary>Teljes összegzés megjelenítése</ShowTotalSummary>
     <ShowUpDown>Fel le megjelenik</ShowUpDown>
     <ShowValue>Érték megjelenik</ShowValue>
     <ShowXAxis>X tengely megjelenik</ShowXAxis>
@@ -4317,8 +4376,10 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <TagDataColumn>Cimke adatoszlop</TagDataColumn>
     <TagValue>Tag értég</TagValue>
     <Target>Cél</Target>
+    <TargetColor>Célszín</TargetColor>
     <TargetIcon>Célikon</TargetIcon>
     <TargetMode>Céltípus</TargetMode>
+    <TargetSettings>Cél</TargetSettings>
     <Tension>Feszítés</Tension>
     <Text>Szöveg</Text>
     <TextAfter>Szöveg utána</TextAfter>
@@ -4353,11 +4414,17 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ToolTip>Tool Tip</ToolTip>
     <ToolTipDataColumn>Tool Tip adat oszlop</ToolTipDataColumn>
     <Top>Fent</Top>
+    <TopLeft>Bal felső</TopLeft>
     <Topmost>Legmagasabb</Topmost>
     <TopmostLine>Legfelső sor</TopmostLine>
     <TopN>Top N</TopN>
+    <TopRight>Jobb felső</TopRight>
     <TopSide>Fenti oldal</TopSide>
     <Total>Totál</Total>
+    <TotalCellColumnBackColor>Összeg cellaoszlop háttérszíne</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Összeg cellaoszlop előszíne</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Összeg cellasor háttérszíne</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Összeg cellasor előszíne</TotalCellRowForeColor>
     <TotalLabel>Teljes címke</TotalLabel>
     <Totals>Totálok</Totals>
     <TrackColor>Nyom színe</TrackColor>
@@ -4567,6 +4634,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Dialogs>Dialogs</Dialogs>
     <EditStyles>Stílusok szerkesztése</EditStyles>
     <Enhancements>Fejlesztések</Enhancements>
+    <EnterDataManually>Adatok kézi kitöltése</EnterDataManually>
     <Errors>Hibák</Errors>
     <EventsTab>Események tab</EventsTab>
     <ExpandAll>Mindet kinyit</ExpandAll>
@@ -4620,6 +4688,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <NoNewVersions>Nem érhetők el új verziók!</NoNewVersions>
     <NotAssigned>Nincs kiválasztva</NotAssigned>
     <Null>Null</Null>
+    <Obsoleted>Elavult</Obsoleted>
     <Office2010Back>Vissza</Office2010Back>
     <PageNofM>Oldal {0} {1}-ból</PageNofM>
     <PreparingReport>Jelentés készítése</PreparingReport>
@@ -4652,6 +4721,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StyleNormal>Normél</StyleNormal>
     <StyleNote>Note</StyleNote>
     <StyleWarning>Warning</StyleWarning>
+    <UseDataFields>Adatmezők használata</UseDataFields>
     <VisualChecked>Kiválasztás</VisualChecked>
     <VisualDefault>Alapértelmezett</VisualDefault>
     <VisualDisabled>Tiltás</VisualDisabled>
@@ -4676,6 +4746,77 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Browse>Tallóz</Browse>
     <Import>Import</Import>
   </ReportOpen>
+  <Scheduler>
+    <ActionRunReport>Jelentés futtatása</ActionRunReport>
+    <AdvancedSettings>További beállítások</AdvancedSettings>
+    <CheckBoxOverwriteIfExists>Írja felül, ha létezik</CheckBoxOverwriteIfExists>
+    <DayAll>Összes</DayAll>
+    <DayDayX>{0}. nap</DayDayX>
+    <DayLast>Utolsó</DayLast>
+    <DayNone>Egy sem</DayNone>
+    <DaysOfWeekAll>Összes</DaysOfWeekAll>
+    <DaysOfWeekNone>Egy sem</DaysOfWeekNone>
+    <DelayTaskForUpToRandomDelay>Halassza a feladatot egészen (véletlenszerű halasztás)</DelayTaskForUpToRandomDelay>
+    <EditScheduler>Ütemező módosítása</EditScheduler>
+    <EnableSSL>SSL bekapcsolása</EnableSSL>
+    <Expire>Lejárat</Expire>
+    <ForADurationOf>az adott időre</ForADurationOf>
+    <GetFolder>Mappa lekérése</GetFolder>
+    <GroupBoxFiles>Fájlok</GroupBoxFiles>
+    <Host>Gazda</Host>
+    <Info>Windows Feladatütemező alkalmazza az ütemezések futtatását.</Info>
+    <LabelDaysOfWeek>Hét napja</LabelDaysOfWeek>
+    <LabelMessage>Üzenet</LabelMessage>
+    <LabelResultName>Eredmény neve</LabelResultName>
+    <LabelRunAtDay>Futtassa ezen napon:</LabelRunAtDay>
+    <LabelRunAtMonth>Futtassa ezen hónapon:</LabelRunAtMonth>
+    <LabelRunAtTime>Futtassa ezen időponton:</LabelRunAtTime>
+    <LabelRunEvery>Futtassa minden ezen alkalommal:</LabelRunEvery>
+    <LabelSubject>Tárgy</LabelSubject>
+    <LabelTo>Címzett(ek)</LabelTo>
+    <Logs>Jegyzetek</Logs>
+    <MessageInvalidName>A feladatok nevei nem tartalmazhatnak olyan karaktereket, amely érvénytelenek a fájlok neveihez.</MessageInvalidName>
+    <MessageInvalidTaskName>A feladatok azon nevei, amelyek ponttal végződnek három vagy kevesebb karakter előtt nem kérhetők le a natív könyvtárban lévő hiba miatt.</MessageInvalidTaskName>
+    <MessagePropertyNotSet>'{0}' nincs beállítva!</MessagePropertyNotSet>
+    <MonthAll>Minden</MonthAll>
+    <MonthNone>Egy se</MonthNone>
+    <NewAction>Új eljárás</NewAction>
+    <NewScheduler>Új ütemező</NewScheduler>
+    <NoLogs>Nincs jegyzet</NoLogs>
+    <NoSchedulers>Nincs ütemező</NoSchedulers>
+    <NumberOfDayAll>minden</NumberOfDayAll>
+    <NumberOfDayFirst>első</NumberOfDayFirst>
+    <NumberOfDayFourth>negyedik</NumberOfDayFourth>
+    <NumberOfDayLast>utolsó</NumberOfDayLast>
+    <NumberOfDayNone>semelyik</NumberOfDayNone>
+    <NumberOfDaySecond>második</NumberOfDaySecond>
+    <NumberOfDayThird>harmadik</NumberOfDayThird>
+    <PleaseSelectSchedulerType>Kérjük, válassza az ütemező típusát</PleaseSelectSchedulerType>
+    <RadioButtonDay>nap</RadioButtonDay>
+    <RadioButtonOn>ekkor</RadioButtonOn>
+    <RepeatTaskEvery>Ismételje a feladatot minden</RepeatTaskEvery>
+    <Schedule>Ütemezés</Schedule>
+    <Scheduler>Ütemező</Scheduler>
+    <Schedulers>Ütemezők</Schedulers>
+    <SenderEmail>Küldő email</SenderEmail>
+    <SmtpSettings>SMTP beállítások</SmtpSettings>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>Állítsa le az összes futtató feladatot az adott ismétlés időtartama végén</StopAllRunningTasksAtEndOfRepetitionDuration>
+    <StopTasksIfItRunsLongerThan>Állítsa le a feladatokat, ha az tovább tart, mint</StopTasksIfItRunsLongerThan>
+    <TextDragDropDestinationHere>Fogd és vidd a célmappát</TextDragDropDestinationHere>
+    <TextDragDropReportHere>Fogd és vidd a jelentést</TextDragDropReportHere>
+    <TextPressPlusIconAddNewAction>Kattintson a plusz ikonra az új eljárásért!</TextPressPlusIconAddNewAction>
+    <ToolTipSetParameters>Jelentés paraméterek definiálása</ToolTipSetParameters>
+    <WizardDaily>Naponta</WizardDaily>
+    <WizardDailyDescription>Egyszer a napban az adott időpontban.</WizardDailyDescription>
+    <WizardHourly>Óránként</WizardHourly>
+    <WizardHourlyDescription>Óránként egyszer.</WizardHourlyDescription>
+    <WizardMonthly>Havonta</WizardMonthly>
+    <WizardMonthlyDescription>Havonta a kiválasztott heti vagy havi napokon az adott időpontban.</WizardMonthlyDescription>
+    <WizardOnce>Egyszer</WizardOnce>
+    <WizardOnceDescription>Futtassa le egyszer az ütemezőt bármely időpontban.</WizardOnceDescription>
+    <WizardWeekly>Hetente</WizardWeekly>
+    <WizardWeeklyDescription>A hét adott napjain és azok időpontjában.</WizardWeeklyDescription>
+  </Scheduler>
   <Services>
     <categoryContextTools>Környezet eszközök</categoryContextTools>
     <categoryDesigner>Tervező</categoryDesigner>
@@ -4858,6 +4999,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
   </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Üres irányítópult</BlankDashboard>
+    <BlankForm>Üres űrlap</BlankForm>
     <BlankReport>Üres jelentés</BlankReport>
     <ButtonBack>&lt; &amp;Vissza</ButtonBack>
     <ButtonCancel>Mégsem</ButtonCancel>

@@ -15,6 +15,7 @@
     <CategoryAlreadyExists>The category with that name already exists!</CategoryAlreadyExists>
     <DayFriday>Friday</DayFriday>
     <DayMonday>Monday</DayMonday>
+    <Days>Days</Days>
     <DaySaturday>Saturday</DaySaturday>
     <DaySunday>Sunday</DaySunday>
     <DayThursday>Thursday</DayThursday>
@@ -135,6 +136,7 @@
     <ShowMore>Show More</ShowMore>
     <ShowSpecific>Show '{0}'</ShowSpecific>
     <Submit>Submit</Submit>
+    <SwitchTo>Switch to {0}</SwitchTo>
     <Test>Test</Test>
     <Up>Up</Up>
     <Upgrade>Upgrade</Upgrade>
@@ -371,6 +373,7 @@
     <ButtonResendEmail>Resend Email</ButtonResendEmail>
     <ButtonResetPassword>Reset Password</ButtonResetPassword>
     <ButtonRun>Run</ButtonRun>
+    <ButtonScheduler>Scheduler</ButtonScheduler>
     <ButtonShare>Share</ButtonShare>
     <ButtonSignUp>Sign Up</ButtonSignUp>
     <ButtonSignUpWith>Sign Up with {0}</ButtonSignUpWith>
@@ -499,6 +502,7 @@
     <TextItemsWorkspace>Workspace</TextItemsWorkspace>
     <TextLastName>Last Name</TextLastName>
     <TextModify>Modify</TextModify>
+    <TextNewsLetters>News Letters</TextNewsLetters>
     <TextNoFavoriteFiles>No favorite files</TextNoFavoriteFiles>
     <TextNoFiles>No files</TextNoFiles>
     <TextNoNotifications>No Notifications</TextNoNotifications>
@@ -569,11 +573,14 @@
     <WizardPublicShareDescription>External access for any unauthorized user.</WizardPublicShareDescription>
     <WizardRegisteredShare>Authorized Access</WizardRegisteredShare>
     <WizardRegisteredShareDescription>External access only for registered users from any workspace.</WizardRegisteredShareDescription>
+    <WizardTeamShare>Team Access</WizardTeamShare>
+    <WizardTeamShareDescription>External access for users of one workspace only.</WizardTeamShareDescription>
     <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiButton>Button</StiButton>
+    <StiCards>Cards</StiCards>
     <StiChart>Chart</StiChart>
     <StiCheckBox>Check Box</StiCheckBox>
     <StiChildBand>Child</StiChildBand>
@@ -670,6 +677,7 @@
     <DateFilters>Date Filters</DateFilters>
     <Dimension>Dimension</Dimension>
     <Dimensions>Dimensions</Dimensions>
+    <DragDropBlocks>Drag &amp; drop blocks from panel</DragDropBlocks>
     <DragDropData>Drag &amp; drop data</DragDropData>
     <DragDropDataFromDictionary>Drag &amp; drop data from Dictionary</DragDropDataFromDictionary>
     <DrillDown>Drill-Down</DrillDown>
@@ -814,6 +822,7 @@
     <ReportSuccessfullySaved>Report is successfully saved.</ReportSuccessfullySaved>
     <RetrieveError>Retrieve columns error</RetrieveError>
     <RetrievingColumns>Retrieving Columns</RetrievingColumns>
+    <Saving>Saving</Saving>
     <SavingConfiguration>Saving Configuration</SavingConfiguration>
     <SavingReport>Saving Report</SavingReport>
     <TestConnection>Test Connection</TestConnection>
@@ -1136,7 +1145,7 @@
     <custom11>c1</custom11>
     <custom12>c2</custom12>
     <custom13>#.00</custom13>
-    <custom14>#,#</custom14>
+    <custom14>#.#</custom14>
     <custom15>n</custom15>
     <custom16>n1</custom16>
     <custom17>n2</custom17>
@@ -1467,8 +1476,10 @@
     <AutoSave>Auto Save</AutoSave>
     <AutoSaveReportToReportClass>Auto Save Report to C# or VB.NET File</AutoSaveReportToReportClass>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
+    <BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
     <Default>Default</Default>
+    <DefaultScriptMode>Default Script Mode</DefaultScriptMode>
     <Drawing>Drawing</Drawing>
     <DrawMarkersWhenMoving>Draw Markers When Moving</DrawMarkersWhenMoving>
     <EditAfterInsert>Edit After Insert</EditAfterInsert>
@@ -1870,6 +1881,7 @@
     <StiMap>This component is used to display data that is geographically targeted.</StiMap>
     <StiMapCategory>Group of elements for working with maps and data.</StiMapCategory>
     <StiMapElement>This element is used to display data that is geographically targeted.</StiMapElement>
+    <StiMathFormula>This component is used to display math formulas in a report.</StiMathFormula>
     <StiOnlineMapElement>This element is used to display geographic markers on the online map.</StiOnlineMapElement>
     <StiOverlayBand>This band is used to output watermarks on a page.</StiOverlayBand>
     <StiPageFooterBand>This band is used to output the information on the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
@@ -1886,9 +1898,11 @@
     <StiRoundedRectanglePrimitive>This component is used to output rounded rectangles.</StiRoundedRectanglePrimitive>
     <StiShape>This component is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShape>
     <StiShapeElement>This element is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShapeElement>
+    <StiSparkline>This component is used to create micrographics in a report. It allows you to track dynamically changing data as bars, lines, areas.</StiSparkline>
     <StiSubReport>This component is used to output additional data in different places of a report.</StiSubReport>
     <StiTable>This component is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTable>
     <StiTableElement>This element is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTableElement>
+    <StiTableOfContents>This component is used to create a table of contents in a report.</StiTableOfContents>
     <StiText>This component is a basic object to output data as a text.</StiText>
     <StiTextElement>This element is a basic object to output data as a text.</StiTextElement>
     <StiTextInCells>The component is used to output a text in cells. It is frequently used for creating forms.</StiTextInCells>
@@ -1956,6 +1970,7 @@
     <FontStyleBoldWatermark>Make the text of the watermark bold.</FontStyleBoldWatermark>
     <FontStyleItalic>Make the text Italic.</FontStyleItalic>
     <FontStyleItalicWatermark>Make the watermark text Italic.</FontStyleItalicWatermark>
+    <FontStyleStrikeout>Make the text strikeout.</FontStyleStrikeout>
     <FontStyleUnderline>Make the text underlined.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Make the watermark text underlined.</FontStyleUnderlineWatermark>
     <FormatBoolean>This format is used to format values of the boolean type.</FormatBoolean>
@@ -2313,6 +2328,7 @@
     <ResourceCannotBeDeleted>The resource "{0}" cannot be deleted, because it is used in the report!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>The share URL of the item has been updated!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>To share your report you should save the report to Stimulsoft Cloud!</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>Switching between modes will cause the loss of changes. Do you want to proceed?</SwitchingBetweenModes>
     <TextRegistrationSuccessfully>
       Registration completed successfully!
 
@@ -2550,6 +2566,9 @@
     <MoveLeftFreeSpace>Moves a component to the left side of a free space, increasing the height of the component to the height of free space.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>Moves a component to the right side of a free space, increasing the height of the component to the height of free space.</MoveRightFreeSpace>
   </PlacementComponent>
+  <PromptForm>
+    <CacheLoginData>Cache login data for current session</CacheLoginData>
+  </PromptForm>
   <PropertyCategory>
     <AppearanceCategory>Appearance</AppearanceCategory>
     <AreaCategory>Area</AreaCategory>
@@ -2558,6 +2577,7 @@
     <BarCodeAdditionalCategory>Bar Code Additional</BarCodeAdditionalCategory>
     <BarCodeCategory>Bar Code</BarCodeCategory>
     <BehaviorCategory>Behavior</BehaviorCategory>
+    <ButtonCategory>Button</ButtonCategory>
     <CapNeedle>Cap Needle</CapNeedle>
     <CellCategory>Cell</CellCategory>
     <ChartAdditionalCategory>Chart Additional</ChartAdditionalCategory>
@@ -2593,6 +2613,8 @@
     <InterlacingCategory>Interlacing</InterlacingCategory>
     <LabelsCategory>Labels</LabelsCategory>
     <LegendCategory>Legend</LegendCategory>
+    <LinearScaleBarCategory>Linear Scale Bar</LinearScaleBarCategory>
+    <LinearScaleCategory>Linear Scale</LinearScaleCategory>
     <ListBoxCategory>List Box</ListBoxCategory>
     <MainCategory>Main</MainCategory>
     <MarkerCategory>Marker</MarkerCategory>
@@ -2601,6 +2623,7 @@
     <NavigationCategory>Navigation</NavigationCategory>
     <NavigationEventsCategory>Navigation Events</NavigationEventsCategory>
     <Needle>Needle</Needle>
+    <NeedleCategory>Needle</NeedleCategory>
     <OnlineMapCategory>Online Map</OnlineMapCategory>
     <OptionsCategory>Options</OptionsCategory>
     <PageAdditionalCategory>Page Additional</PageAdditionalCategory>
@@ -2612,6 +2635,7 @@
     <PrimitiveCategory>Primitive</PrimitiveCategory>
     <PrintEventsCategory>Print Events</PrintEventsCategory>
     <ProgressCategory>Progress</ProgressCategory>
+    <RadialScaleBarCategory>Radial Scale Bar</RadialScaleBarCategory>
     <RegionMapCategory>Region Map</RegionMapCategory>
     <RenderEventsCategory>Render Events</RenderEventsCategory>
     <SeriesCategory>Series</SeriesCategory>
@@ -2623,6 +2647,10 @@
     <TableOfContents>Table of Contents</TableOfContents>
     <TextAdditionalCategory>Text Additional</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
+    <TickLabelMajorCategory>Tick Label Major</TickLabelMajorCategory>
+    <TickLabelMinorCategory>Tick Label Minor</TickLabelMinorCategory>
+    <TickMarkMajorCategory>Tick Mark Major</TickMarkMajorCategory>
+    <TickMarkMinorCategory>Tick Mark Minor</TickMarkMinorCategory>
     <TitleCategory>Title</TitleCategory>
     <TreeViewBoxCategory>Tree View Box</TreeViewBoxCategory>
     <TreeViewCategory>Tree View</TreeViewCategory>
@@ -2956,6 +2984,10 @@
     <StiDesignerSpecificationBeginner>I'm Beginner</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>I'm Creator</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>I'm Developer</StiDesignerSpecificationDeveloper>
+    <StiDirectionBottomToTop>Bottom to Top</StiDirectionBottomToTop>
+    <StiDirectionLeftToRight>Left to Right</StiDirectionLeftToRight>
+    <StiDirectionRightToLeft>Right to Left</StiDirectionRightToLeft>
+    <StiDirectionTopToBottom>Top to Bottom</StiDirectionTopToBottom>
     <StiDisplayNameTypeFull>Full</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>None</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>Short</StiDisplayNameTypeShort>
@@ -3142,6 +3174,7 @@
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Double Pass</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Single Pass</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeAddRange>Add Range</StiOnlineMapHeatmapColorGradientTypeAddRange>
     <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Black Aqua White</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
     <StiOnlineMapHeatmapColorGradientTypeBlueRed>Blue Red</StiOnlineMapHeatmapColorGradientTypeBlueRed>
     <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Colour Spectrum</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
@@ -3313,8 +3346,18 @@
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Typographic</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTimeDateStepDay>Day</StiTimeDateStepDay>
+    <StiTimeDateStepHour>Hour</StiTimeDateStepHour>
+    <StiTimeDateStepMinute>Minute</StiTimeDateStepMinute>
+    <StiTimeDateStepMonth>Month</StiTimeDateStepMonth>
+    <StiTimeDateStepNone>None</StiTimeDateStepNone>
+    <StiTimeDateStepSecond>Second</StiTimeDateStepSecond>
+    <StiTimeDateStepYear>Year</StiTimeDateStepYear>
     <StiTitlePositionInside>Inside</StiTitlePositionInside>
     <StiTitlePositionOutside>Outside</StiTitlePositionOutside>
+    <StiTopNModeBottom>Bottom</StiTopNModeBottom>
+    <StiTopNModeNone>None</StiTopNModeNone>
+    <StiTopNModeTop>Top</StiTopNModeTop>
     <StiTypeModeList>List</StiTypeModeList>
     <StiTypeModeNullableValue>Nullable Value</StiTypeModeNullableValue>
     <StiTypeModeRange>Range</StiTypeModeRange>
@@ -3356,8 +3399,11 @@
     <EnterEvent>Enter</EnterEvent>
     <ExportedEvent>Exported</ExportedEvent>
     <ExportingEvent>Exporting</ExportingEvent>
+    <FillParametersEvent>Fill Parameters</FillParametersEvent>
     <GetArgumentEvent>Get Argument</GetArgumentEvent>
+    <GetBarCodeEvent>Get BarCode</GetBarCodeEvent>
     <GetBookmarkEvent>Get Bookmark</GetBookmarkEvent>
+    <GetCheckedEvent>Get Checked</GetCheckedEvent>
     <GetCollapsedEvent>Get Collapsed</GetCollapsedEvent>
     <GetCrossValueEvent>Get Cross Value</GetCrossValueEvent>
     <GetCutPieListEvent>Get Cut Pie List</GetCutPieListEvent>
@@ -3377,6 +3423,7 @@
     <GetListOfValuesEvent>Get List of Values</GetListOfValuesEvent>
     <GetListOfWeights>Get List of Weights</GetListOfWeights>
     <GetListOfWeightsEvent>Get List of Weights</GetListOfWeightsEvent>
+    <GetPointerEvent>Get Pointer</GetPointerEvent>
     <GetSummaryExpressionEvent>Get Summary Expression</GetSummaryExpressionEvent>
     <GetTagEvent>Get Tag</GetTagEvent>
     <GetTitleEvent>Get Title</GetTitleEvent>
@@ -3542,6 +3589,7 @@
     <BarCodeType>Bar Code Type</BarCodeType>
     <BasicStyleColor>Basic Style Colour</BasicStyleColor>
     <Blend>Blend</Blend>
+    <Blocks>Blocks</Blocks>
     <Bold>Bold</Bold>
     <Bookmark>Bookmark</Bookmark>
     <Border>Border</Border>
@@ -3553,6 +3601,8 @@
     <BorderStyle>Border Style</BorderStyle>
     <BorderWidth>Border Width</BorderWidth>
     <Bottom>Bottom</Bottom>
+    <BottomLeft>Bottom-Left</BottomLeft>
+    <BottomRight>Bottom-Right</BottomRight>
     <BottomSide>Bottom Side</BottomSide>
     <BreakIfLessThan>Break if Less Than</BreakIfLessThan>
     <Brush>Brush</Brush>
@@ -3655,6 +3705,7 @@
     <DataAdapters>Data Adapters</DataAdapters>
     <DataBarCondition>Data Bar Condition</DataBarCondition>
     <DataBindings>Data Bindings</DataBindings>
+    <DataCells>Data Cells</DataCells>
     <DataColor>Data Colour</DataColor>
     <DataColumn>Data Column</DataColumn>
     <DataColumns>Data Columns</DataColumns>
@@ -3731,6 +3782,7 @@
     <ErrorCorrectionLevel>Error Correction Level</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Errors Correction Level</ErrorsCorrectionLevel>
     <EvenStyle>Even Style</EvenStyle>
+    <ExceedMargins>Exceed Margins</ExceedMargins>
     <ExcelSheet>Excel Sheet</ExcelSheet>
     <ExcelValue>Excel Value</ExcelValue>
     <Exponential>Exponential</Exponential>
@@ -3786,6 +3838,7 @@
     <FullConvertExpression>Full Convert Expression</FullConvertExpression>
     <Function>Function</Function>
     <Functions>Functions</Functions>
+    <GisSettings>Gis Settings</GisSettings>
     <GlobalizationStrings>Globalization Strings</GlobalizationStrings>
     <GlobalizedName>Globalized Name</GlobalizedName>
     <GlyphColor>Glyph Colour</GlyphColor>
@@ -3802,6 +3855,7 @@
     <GroupDataColumn>Group Data Column</GroupDataColumn>
     <GroupMeter>Group</GroupMeter>
     <GrowToHeight>Grow to Height</GrowToHeight>
+    <Header>Header</Header>
     <HeaderBackColor>Header Back Colour</HeaderBackColor>
     <HeaderCanBreak>Header Can Break</HeaderCanBreak>
     <HeaderCanGrow>Header Can Grow</HeaderCanGrow>
@@ -3930,8 +3984,10 @@
     <LinearBarBrush>Linear Bar Brush</LinearBarBrush>
     <LinearBarEmptyBorderBrush>Linear Bar Empty Border Brush</LinearBarEmptyBorderBrush>
     <LinearBarEmptyBrush>Linear Bar Empty Brush</LinearBarEmptyBrush>
+    <LinearScaleBrush>Linear Scale Brush</LinearScaleBrush>
     <LineColor>Line Colour</LineColor>
     <LineColorNegative>Line Colour Negative</LineColorNegative>
+    <LineLength>Line Length</LineLength>
     <LineLimit>Line Limit</LineLimit>
     <LineMarker>Line Marker</LineMarker>
     <LinesOfUnderline>Lines of Underline</LinesOfUnderline>
@@ -4221,6 +4277,7 @@
     <ShowInLegend>Show in Legend</ShowInLegend>
     <ShowInnerPoints>Show Inner Points</ShowInnerPoints>
     <ShowInPercent>Show in Percent</ShowInPercent>
+    <ShowLabel>Show Label</ShowLabel>
     <ShowLabels>Show Labels</ShowLabels>
     <ShowLabelText>Show Label Text</ShowLabelText>
     <ShowLegend>Show Legend</ShowLegend>
@@ -4229,6 +4286,7 @@
     <ShowNulls>Show Nulls</ShowNulls>
     <ShowOthers>Show Others</ShowOthers>
     <ShowPercents>Show Percents</ShowPercents>
+    <ShowPlacemark>Show Placemark</ShowPlacemark>
     <ShowQuietZoneIndicator>Show Quiet Zone Indicator</ShowQuietZoneIndicator>
     <ShowQuietZones>Show Quiet Zones</ShowQuietZones>
     <ShowScrollBar>Show Scroll Bar</ShowScrollBar>
@@ -4236,6 +4294,7 @@
     <ShowSeriesLabels>Show Series Labels</ShowSeriesLabels>
     <ShowShadow>Show Shadow</ShowShadow>
     <ShowTotal>Show Total</ShowTotal>
+    <ShowTotalSummary>Show Total Summary</ShowTotalSummary>
     <ShowUpDown>Show Up Down</ShowUpDown>
     <ShowValue>Show Value</ShowValue>
     <ShowXAxis>Show X Axis</ShowXAxis>
@@ -4312,8 +4371,10 @@
     <TagDataColumn>Tag Data Column</TagDataColumn>
     <TagValue>Tag Value</TagValue>
     <Target>Target</Target>
+    <TargetColor>Target Colour</TargetColor>
     <TargetIcon>Target Icon</TargetIcon>
     <TargetMode>Target Mode</TargetMode>
+    <TargetSettings>Target</TargetSettings>
     <Tension>Tension</Tension>
     <Text>Text</Text>
     <TextAfter>Text After</TextAfter>
@@ -4348,11 +4409,17 @@
     <ToolTip>Tool Tip</ToolTip>
     <ToolTipDataColumn>Tool Tip Data Column</ToolTipDataColumn>
     <Top>Top</Top>
+    <TopLeft>Top-Left</TopLeft>
     <Topmost>Topmost</Topmost>
     <TopmostLine>Topmost Line</TopmostLine>
     <TopN>Top N</TopN>
+    <TopRight>Top-Right</TopRight>
     <TopSide>Top Side</TopSide>
     <Total>Total</Total>
+    <TotalCellColumnBackColor>Total Cell Column Back Colour</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Total Cell Column Fore Colour</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Total Cell Row Back Colour</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Total Cell Row Fore Colour</TotalCellRowForeColor>
     <TotalLabel>Total Label</TotalLabel>
     <Totals>Totals</Totals>
     <TrackColor>Track Colour</TrackColor>
@@ -4561,6 +4628,7 @@
     <Dialogs>Dialogues</Dialogs>
     <EditStyles>Edit Styles</EditStyles>
     <Enhancements>Enhancements</Enhancements>
+    <EnterDataManually>Enter data manually</EnterDataManually>
     <Errors>Errors</Errors>
     <EventsTab>Events Tab</EventsTab>
     <ExpandAll>Expand All</ExpandAll>
@@ -4614,6 +4682,7 @@
     <NoNewVersions>There are no new versions available!</NoNewVersions>
     <NotAssigned>Not Assigned</NotAssigned>
     <Null>Null</Null>
+    <Obsoleted>Obsoleted</Obsoleted>
     <Office2010Back>Back</Office2010Back>
     <PageNofM>Page {0} of {1}</PageNofM>
     <PreparingReport>Preparing Report</PreparingReport>
@@ -4646,6 +4715,7 @@
     <StyleNormal>Normal</StyleNormal>
     <StyleNote>Note</StyleNote>
     <StyleWarning>Warning</StyleWarning>
+    <UseDataFields>Use Data Fields</UseDataFields>
     <VisualChecked>Checked</VisualChecked>
     <VisualDefault>Default</VisualDefault>
     <VisualDisabled>Disabled</VisualDisabled>
@@ -4670,6 +4740,78 @@
     <Browse>Browse</Browse>
     <Import>Import</Import>
   </ReportOpen>
+  <Scheduler>
+    <ActionRunReport>Run Report</ActionRunReport>
+    <AdvancedSettings>Advanced Settings</AdvancedSettings>
+    <CheckBoxOverwriteIfExists>Overwrite If Exists</CheckBoxOverwriteIfExists>
+    <DayAll>All</DayAll>
+    <DayDayX>Day {0}</DayDayX>
+    <DayLast>Last</DayLast>
+    <DayNone>None</DayNone>
+    <DaysOfWeekAll>All</DaysOfWeekAll>
+    <DaysOfWeekNone>None</DaysOfWeekNone>
+    <DelayTaskForUpToRandomDelay>Delay task for up to (random delay)</DelayTaskForUpToRandomDelay>
+    <EditScheduler>Edit Scheduler</EditScheduler>
+    <EnableSSL>Enable SSL</EnableSSL>
+    <Expire>Expire</Expire>
+    <ForADurationOf>for a duration of</ForADurationOf>
+    <GetFolder>Get Folder</GetFolder>
+    <GroupBoxFiles>Files</GroupBoxFiles>
+    <Host>Host</Host>
+    <Info>Windows Task Scheduler is used to run schedulers.</Info>
+    <LabelDaysOfWeek>Days of Week</LabelDaysOfWeek>
+    <LabelMessage>Message</LabelMessage>
+    <LabelResultName>Result Name</LabelResultName>
+    <LabelRunAtDay>Run at Day</LabelRunAtDay>
+    <LabelRunAtMonth>Run at Month</LabelRunAtMonth>
+    <LabelRunAtTime>Run at Time</LabelRunAtTime>
+    <LabelRunEvery>Run Every</LabelRunEvery>
+    <LabelSubject>Subject</LabelSubject>
+    <LabelTo>To</LabelTo>
+    <Logs>Logs</Logs>
+    <MessageInvalidName>Task names may not include any characters which are invalid for file names.</MessageInvalidName>
+    <MessageInvalidTaskName>Task names ending with a period followed by three or fewer characters cannot be retrieved due to a bug in the native library.</MessageInvalidTaskName>
+    <MessagePropertyNotSet>'{0}' not set!</MessagePropertyNotSet>
+    <MonthAll>All</MonthAll>
+    <MonthNone>None</MonthNone>
+    <NewAction>New Action</NewAction>
+    <NewScheduler>New Scheduler</NewScheduler>
+    <NoLogs>No Logs</NoLogs>
+    <NoSchedulers>No Schedulers</NoSchedulers>
+    <NoShedulers>No Shedulers</NoShedulers>
+    <NumberOfDayAll>All</NumberOfDayAll>
+    <NumberOfDayFirst>First</NumberOfDayFirst>
+    <NumberOfDayFourth>Fourth</NumberOfDayFourth>
+    <NumberOfDayLast>Last</NumberOfDayLast>
+    <NumberOfDayNone>None</NumberOfDayNone>
+    <NumberOfDaySecond>Second</NumberOfDaySecond>
+    <NumberOfDayThird>Third</NumberOfDayThird>
+    <PleaseSelectSchedulerType>Please select a scheduler type</PleaseSelectSchedulerType>
+    <RadioButtonDay>Day</RadioButtonDay>
+    <RadioButtonOn>On</RadioButtonOn>
+    <RepeatTaskEvery>Repeat task every</RepeatTaskEvery>
+    <Schedule>Schedule</Schedule>
+    <Scheduler>Scheduler</Scheduler>
+    <Schedulers>Schedulers</Schedulers>
+    <SenderEmail>Sender Email</SenderEmail>
+    <SmtpSettings>Smtp Settings</SmtpSettings>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>Stop all running tasks at end of repetition duration</StopAllRunningTasksAtEndOfRepetitionDuration>
+    <StopTasksIfItRunsLongerThan>Stop tasks if it runs longer than</StopTasksIfItRunsLongerThan>
+    <TextDragDropDestinationHere>Drag &amp; Drop the Destination Folder Here</TextDragDropDestinationHere>
+    <TextDragDropReportHere>Drag &amp; Drop the Report Here</TextDragDropReportHere>
+    <TextPressPlusIconAddNewAction>Click the icon plus to add a new action!</TextPressPlusIconAddNewAction>
+    <ToolTipSetParameters>Defining Report Parameters</ToolTipSetParameters>
+    <WizardDaily>Daily</WizardDaily>
+    <WizardDailyDescription>Once a day, at a specified time.</WizardDailyDescription>
+    <WizardHourly>Hourly</WizardHourly>
+    <WizardHourlyDescription>Once an hour.</WizardHourlyDescription>
+    <WizardMonthly>Monthly</WizardMonthly>
+    <WizardMonthlyDescription>Monthly, on selected days of the week or days of the month, at a specified time.</WizardMonthlyDescription>
+    <WizardOnce>Once</WizardOnce>
+    <WizardOnceDescription>Run the scheduler once at any time.</WizardOnceDescription>
+    <WizardWeekly>Weekly</WizardWeekly>
+    <WizardWeeklyDescription>On the selected days of the week, at a specified time.</WizardWeeklyDescription>
+  </Scheduler>
   <Services>
     <categoryContextTools>Context Tools</categoryContextTools>
     <categoryDesigner>Designer</categoryDesigner>
@@ -4852,6 +4994,7 @@
   </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
+    <BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
     <ButtonBack>&lt; &amp;Back</ButtonBack>
     <ButtonCancel>Cancel</ButtonCancel>

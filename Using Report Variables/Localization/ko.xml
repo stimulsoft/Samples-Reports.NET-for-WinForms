@@ -15,6 +15,7 @@
     <CategoryAlreadyExists>그 이름의 카테고리가 이미 존재합니다!</CategoryAlreadyExists>
     <DayFriday>금요일</DayFriday>
     <DayMonday>월요일</DayMonday>
+    <Days>일</Days>
     <DaySaturday>토요일</DaySaturday>
     <DaySunday>일요일</DaySunday>
     <DayThursday>목요일</DayThursday>
@@ -135,6 +136,7 @@
     <ShowMore>더보기</ShowMore>
     <ShowSpecific>보기 '{0}'</ShowSpecific>
     <Submit>제출</Submit>
+    <SwitchTo>{0} 로 전환</SwitchTo>
     <Test>테스트</Test>
     <Up>업</Up>
     <Upgrade>업그레이드</Upgrade>
@@ -371,6 +373,7 @@
     <ButtonResendEmail>이메일을 재전송</ButtonResendEmail>
     <ButtonResetPassword>암호를 다시 설정</ButtonResetPassword>
     <ButtonRun>달리는</ButtonRun>
+    <ButtonScheduler>스케줄러</ButtonScheduler>
     <ButtonShare>공유</ButtonShare>
     <ButtonSignUp>가입</ButtonSignUp>
     <ButtonSignUpWith>{0}로 가입</ButtonSignUpWith>
@@ -499,6 +502,7 @@
     <TextItemsWorkspace>작업 공간</TextItemsWorkspace>
     <TextLastName>성</TextLastName>
     <TextModify>수정</TextModify>
+    <TextNewsLetters>뉴스레터</TextNewsLetters>
     <TextNoFavoriteFiles>즐겨찾는 파일 없음</TextNoFavoriteFiles>
     <TextNoFiles>파일 없음</TextNoFiles>
     <TextNoNotifications>알림 없음</TextNoNotifications>
@@ -569,11 +573,14 @@
     <WizardPublicShareDescription>권한이없는 사용자의 외부 액세스.</WizardPublicShareDescription>
     <WizardRegisteredShare>허용 된 액세스</WizardRegisteredShare>
     <WizardRegisteredShareDescription>모든 작업 공간에서 등록 된 사용자 만 외부 액세스.</WizardRegisteredShareDescription>
+    <WizardTeamShare>팀 액세스</WizardTeamShare>
+    <WizardTeamShareDescription>한 작업 공간의 사용자만 외부 액세스할 수 있습니다.</WizardTeamShareDescription>
     <WizardXmlDescription>XML 데이터를 포함하는 보고서를 작성합니다.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>바코드</StiBarCode>
     <StiButton>버튼</StiButton>
+    <StiCards>카드</StiCards>
     <StiChart>차트</StiChart>
     <StiCheckBox>체크박스</StiCheckBox>
     <StiChildBand>자식</StiChildBand>
@@ -670,6 +677,7 @@
     <DateFilters>날짜 필터</DateFilters>
     <Dimension>크기</Dimension>
     <Dimensions>크기</Dimensions>
+    <DragDropBlocks>패널에서 블록 드래그 앤 드롭 </DragDropBlocks>
     <DragDropData>드래그 앤 드롭 데이터</DragDropData>
     <DragDropDataFromDictionary>사전에서 데이터를 드래그 앤 드롭</DragDropDataFromDictionary>
     <DrillDown>드릴 다운</DrillDown>
@@ -814,6 +822,7 @@
     <ReportSuccessfullySaved>보고서는 성공적으로 저장되었습니다.</ReportSuccessfullySaved>
     <RetrieveError>열 취득 오류</RetrieveError>
     <RetrievingColumns>열 취득</RetrievingColumns>
+    <Saving>저장</Saving>
     <SavingConfiguration>설정 저장</SavingConfiguration>
     <SavingReport>보고서 저장</SavingReport>
     <TestConnection>테스트 연결</TestConnection>
@@ -1136,7 +1145,7 @@
     <custom11>c1</custom11>
     <custom12>c2</custom12>
     <custom13>#.00</custom13>
-    <custom14>#,#</custom14>
+    <custom14>#.#</custom14>
     <custom15>n</custom15>
     <custom16>n1</custom16>
     <custom17>n2</custom17>
@@ -1467,8 +1476,10 @@
     <AutoSave>자동 저장</AutoSave>
     <AutoSaveReportToReportClass>C #이나 VB.NET 파일에 보고서를 자동 저장</AutoSaveReportToReportClass>
     <BlankDashboard>빈 대시보드</BlankDashboard>
+    <BlankForm>비어있는 폼</BlankForm>
     <BlankReport>빈 보고서</BlankReport>
     <Default>기본</Default>
+    <DefaultScriptMode>기본 스크립트 모드</DefaultScriptMode>
     <Drawing>그림 그리기</Drawing>
     <DrawMarkersWhenMoving>이동시 마커를 그리는</DrawMarkersWhenMoving>
     <EditAfterInsert>삽입 후 편집</EditAfterInsert>
@@ -1870,6 +1881,7 @@
     <StiMap>이 구성 요소는 지리적으로 타겟팅 된 데이터를 표시하는 데 사용됩니다.</StiMap>
     <StiMapCategory>지도와 데이터를 처리하기위한 컴포넌트 군.</StiMapCategory>
     <StiMapElement>이 구성 요소는 지리적으로 타겟팅 된 데이터를 표시하는 데 사용됩니다.</StiMapElement>
+    <StiMathFormula>이 구성 요소는 보고서에 수학 공식을 표시하는 데 사용됩니다.</StiMathFormula>
     <StiOnlineMapElement>이 구성 요소는 온라인지도상의 지리적 표시를 표시하는 데 사용됩니다.</StiOnlineMapElement>
     <StiOverlayBand>이 밴드는 페이지에 워터 마크를 출력하는 데 사용됩니다.</StiOverlayBand>
     <StiPageFooterBand>이 밴드는 페이지 번호, 날짜 및 기타 정보 등 각 페이지의 하단에있는 정보를 출력하는 데 사용됩니다.</StiPageFooterBand>
@@ -1886,9 +1898,11 @@
     <StiRoundedRectanglePrimitive>이 구성 요소는 반올림 사각형을 출력하는 데 사용됩니다.</StiRoundedRectanglePrimitive>
     <StiShape>이 구성 요소는 반올림 사각형을 출력하는 데 사용됩니다....</StiShape>
     <StiShapeElement>이 구성 요소는 화살표 사선 아래, 대각선, 수평선, 왼쪽 및 오른쪽 선, 타원형, 사각형, 사각형, 상단과 하단 선, 삼각형, 수직선 등의 기성의 도형을 삽입하는 데 사용됩니다 있습니다.</StiShapeElement>
+    <StiSparkline>이 구성 요소는 보고서에서 마이크로그래픽을 만드는 데 사용됩니다. 막대(bar), 선, 영역으로 동적으로 변화하는 데이터를 추적할 수 있습니다.</StiSparkline>
     <StiSubReport>이 요소는 보고서의 다양한 장소에서 추가 데이터를 출력하는 데 사용됩니다.</StiSubReport>
     <StiTable>이 구성 요소는 수직 라인과 수평 라인의 모델을 사용하여 편성 된 일련의 데이터 요소입니다.</StiTable>
     <StiTableElement>이 구성 요소는 수직 라인과 수평 라인의 모델을 사용하여 편성 된 일련의 데이터 요소입니다.</StiTableElement>
+    <StiTableOfContents>이 구성 요소는 보고서의 목차를 만드는 데 사용됩니다.</StiTableOfContents>
     <StiText>이 구성 요소는 데이터를 텍스트로 출력하기위한 기본 개체입니다.</StiText>
     <StiTextElement>이 구성 요소는 데이터를 텍스트로 출력하기위한 기본 개체입니다.</StiTextElement>
     <StiTextInCells>이 구성 요소는 셀에 텍스트를 출력하는 데 사용됩니다. 양식 작성에 자주 사용됩니다.</StiTextInCells>
@@ -1956,6 +1970,7 @@
     <FontStyleBoldWatermark>워터 마크 텍스트를 굵게합니다.</FontStyleBoldWatermark>
     <FontStyleItalic>이탤릭체 텍스트를 만듭니다.</FontStyleItalic>
     <FontStyleItalicWatermark>워터 마크 텍스트를 이탤릭체로합니다.</FontStyleItalicWatermark>
+    <FontStyleStrikeout>텍스트를 취소선으로 만듭니다.</FontStyleStrikeout>
     <FontStyleUnderline>텍스트에 밑줄을 그어주십시오.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>워터 마크 텍스트에 밑줄을 붙인다.</FontStyleUnderlineWatermark>
     <FormatBoolean>이 형식은 부울 값의 서식에 사용됩니다.</FormatBoolean>
@@ -2307,6 +2322,7 @@
     <ResourceCannotBeDeleted>리소스 "{0}"은 보고서에서 사용되고 있기 때문에 삭제할 수 없습니다.</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>아이템 공유 URL이 업데이트되었습니다!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>보고서를 공유하려면 보고서를 Stimulsoft Cloud에 저장해야합니다.</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>모드를 전환하면 변경 사항이 손실됩니다. 진행 하시겠습니까?</SwitchingBetweenModes>
     <TextRegistrationSuccessfully>
     등록이 성공적으로 완료되었습니다!
 
@@ -2544,6 +2560,9 @@
     <MoveLeftFreeSpace>구성 요소를 공간의 왼쪽으로 이동하고 구성 요소의 높이를 공간의 높이까지 늘리십시오.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>구성 요소를 공간의 오른쪽으로 이동하고 구성 요소의 높이를 공간의 높이에 올립니다.</MoveRightFreeSpace>
   </PlacementComponent>
+  <PromptForm>
+    <CacheLoginData>현재 세션의 로그인 데이터를 캐시합니다.</CacheLoginData>
+  </PromptForm>
   <PropertyCategory>
     <AppearanceCategory>외관</AppearanceCategory>
     <AreaCategory>영역</AreaCategory>
@@ -2552,6 +2571,7 @@
     <BarCodeAdditionalCategory>바코드 추가</BarCodeAdditionalCategory>
     <BarCodeCategory>바코드</BarCodeCategory>
     <BehaviorCategory>동작</BehaviorCategory>
+    <ButtonCategory>버튼</ButtonCategory>
     <CapNeedle>모자 니들</CapNeedle>
     <CellCategory>셀</CellCategory>
     <ChartAdditionalCategory>추가 차트</ChartAdditionalCategory>
@@ -2587,6 +2607,8 @@
     <InterlacingCategory>인터레이스</InterlacingCategory>
     <LabelsCategory>라벨</LabelsCategory>
     <LegendCategory>범례</LegendCategory>
+    <LinearScaleBarCategory>선형 스케일 바</LinearScaleBarCategory>
+    <LinearScaleCategory>선형 스케일</LinearScaleCategory>
     <ListBoxCategory>목록 상자</ListBoxCategory>
     <MainCategory>메인</MainCategory>
     <MarkerCategory>마커</MarkerCategory>
@@ -2595,6 +2617,7 @@
     <NavigationCategory>탐색</NavigationCategory>
     <NavigationEventsCategory>탐색 이벤트</NavigationEventsCategory>
     <Needle>바늘</Needle>
+    <NeedleCategory>니들</NeedleCategory>
     <OnlineMapCategory>온라인지도</OnlineMapCategory>
     <OptionsCategory>옵션</OptionsCategory>
     <PageAdditionalCategory>추가 페이지</PageAdditionalCategory>
@@ -2606,6 +2629,7 @@
     <PrimitiveCategory>기본</PrimitiveCategory>
     <PrintEventsCategory>인쇄 이벤트</PrintEventsCategory>
     <ProgressCategory>진행</ProgressCategory>
+    <RadialScaleBarCategory>원형 스케일 바</RadialScaleBarCategory>
     <RegionMapCategory>지역지도</RegionMapCategory>
     <RenderEventsCategory>렌더링 이벤트</RenderEventsCategory>
     <SeriesCategory>시리즈</SeriesCategory>
@@ -2617,6 +2641,10 @@
     <TableOfContents>목차</TableOfContents>
     <TextAdditionalCategory>추가 텍스트</TextAdditionalCategory>
     <TextCategory>텍스트</TextCategory>
+    <TickLabelMajorCategory>주 눈금 라벨</TickLabelMajorCategory>
+    <TickLabelMinorCategory>부 눈금 라벨</TickLabelMinorCategory>
+    <TickMarkMajorCategory>주 눈금 마커 </TickMarkMajorCategory>
+    <TickMarkMinorCategory>부 눈금 마커</TickMarkMinorCategory>
     <TitleCategory>제목</TitleCategory>
     <TreeViewBoxCategory>트리 뷰 상자</TreeViewBoxCategory>
     <TreeViewCategory>트리 뷰</TreeViewCategory>
@@ -2950,6 +2978,10 @@
     <StiDesignerSpecificationBeginner>저는 초보자입니다</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>저는 Creator입니다</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>저는 개발자입니다</StiDesignerSpecificationDeveloper>
+    <StiDirectionBottomToTop>아래에서 위</StiDirectionBottomToTop>
+    <StiDirectionLeftToRight>왼쪽에서 오른쪽</StiDirectionLeftToRight>
+    <StiDirectionRightToLeft>오른쪽에서 왼쪽</StiDirectionRightToLeft>
+    <StiDirectionTopToBottom>위에서 아래</StiDirectionTopToBottom>
     <StiDisplayNameTypeFull>전체</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>없음</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>짧은</StiDisplayNameTypeShort>
@@ -3121,6 +3153,7 @@
     <StiNestedFactorNormal>일반</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>더블 패스</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>싱글 패스</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeAddRange>범위(Range) 추가</StiOnlineMapHeatmapColorGradientTypeAddRange>
     <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>블랙 아쿠아 화이트</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
     <StiOnlineMapHeatmapColorGradientTypeBlueRed>블루 레드</StiOnlineMapHeatmapColorGradientTypeBlueRed>
     <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>칼라 스펙트럼</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
@@ -3292,8 +3325,18 @@
     <StiTextQualityStandard>표준</StiTextQualityStandard>
     <StiTextQualityTypographic>활자</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTimeDateStepDay>일</StiTimeDateStepDay>
+    <StiTimeDateStepHour>시</StiTimeDateStepHour>
+    <StiTimeDateStepMinute>분</StiTimeDateStepMinute>
+    <StiTimeDateStepMonth>월</StiTimeDateStepMonth>
+    <StiTimeDateStepNone>None</StiTimeDateStepNone>
+    <StiTimeDateStepSecond>초</StiTimeDateStepSecond>
+    <StiTimeDateStepYear>년</StiTimeDateStepYear>
     <StiTitlePositionInside>내부</StiTitlePositionInside>
     <StiTitlePositionOutside>외부</StiTitlePositionOutside>
+    <StiTopNModeBottom>아래</StiTopNModeBottom>
+    <StiTopNModeNone>None</StiTopNModeNone>
+    <StiTopNModeTop>위</StiTopNModeTop>
     <StiTypeModeList>목록</StiTypeModeList>
     <StiTypeModeNullableValue>Nullable Value</StiTypeModeNullableValue>
     <StiTypeModeRange>범위</StiTypeModeRange>
@@ -3335,8 +3378,11 @@
     <EnterEvent>입력</EnterEvent>
     <ExportedEvent>내보내기 후</ExportedEvent>
     <ExportingEvent>내보내기 중</ExportingEvent>
+    <FillParametersEvent>매개변수 채우기</FillParametersEvent>
     <GetArgumentEvent>인수를 가져오기</GetArgumentEvent>
+    <GetBarCodeEvent>바코드 가져오기</GetBarCodeEvent>
     <GetBookmarkEvent>북마크 가져 오기</GetBookmarkEvent>
+    <GetCheckedEvent>Checked 가져오기</GetCheckedEvent>
     <GetCollapsedEvent>축소</GetCollapsedEvent>
     <GetCrossValueEvent>크로스 가치를 가져오기</GetCrossValueEvent>
     <GetCutPieListEvent>컷 파이 목록을 가져오기</GetCutPieListEvent>
@@ -3356,6 +3402,7 @@
     <GetListOfValuesEvent>값 목록을 가져오기</GetListOfValuesEvent>
     <GetListOfWeights>무게의 목록을 가져오기</GetListOfWeights>
     <GetListOfWeightsEvent>무게의 목록을 가져오기</GetListOfWeightsEvent>
+    <GetPointerEvent>포인터 가져오기</GetPointerEvent>
     <GetSummaryExpressionEvent>요약 식을 가져오기</GetSummaryExpressionEvent>
     <GetTagEvent>태그를 가져오기</GetTagEvent>
     <GetTitleEvent>제목 검색</GetTitleEvent>
@@ -3521,6 +3568,7 @@
     <BarCodeType>바코드 유형</BarCodeType>
     <BasicStyleColor>기본 스타일 색상</BasicStyleColor>
     <Blend>혼합</Blend>
+    <Blocks>블록</Blocks>
     <Bold>진하게</Bold>
     <Bookmark>북마크</Bookmark>
     <Border>테두리</Border>
@@ -3532,6 +3580,8 @@
     <BorderStyle>테두리 스타일</BorderStyle>
     <BorderWidth>테두리 폭</BorderWidth>
     <Bottom>하단</Bottom>
+    <BottomLeft>아래-왼쪽</BottomLeft>
+    <BottomRight>아래-오른쪽</BottomRight>
     <BottomSide>하단 사이드</BottomSide>
     <BreakIfLessThan>Less than Less보다 브레이크</BreakIfLessThan>
     <Brush>브러쉬</Brush>
@@ -3634,6 +3684,7 @@
     <DataAdapters>데이터 어댑터</DataAdapters>
     <DataBarCondition>데이터 막대의 상태</DataBarCondition>
     <DataBindings>데이터 바인딩</DataBindings>
+    <DataCells>데이터 셀s</DataCells>
     <DataColor>데이터 색상</DataColor>
     <DataColumn>데이터 열</DataColumn>
     <DataColumns>데이터 열</DataColumns>
@@ -3710,6 +3761,7 @@
     <ErrorCorrectionLevel>오류 수정 수준</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>오류 정정 수준</ErrorsCorrectionLevel>
     <EvenStyle>짝수행 스타일</EvenStyle>
+    <ExceedMargins>초과 여백</ExceedMargins>
     <ExcelSheet>Excel 시트</ExcelSheet>
     <ExcelValue>Excel 값</ExcelValue>
     <Exponential>기하 급수적</Exponential>
@@ -3765,6 +3817,7 @@
     <FullConvertExpression>전체 변환 식 ​​</FullConvertExpression>
     <Function>함수</Function>
     <Functions>기능</Functions>
+    <GisSettings>Gis 설정</GisSettings>
     <GlobalizationStrings>국제화 문자열</GlobalizationStrings>
     <GlobalizedName>국제화 된 이름</GlobalizedName>
     <GlyphColor>글리프 색상</GlyphColor>
@@ -3781,6 +3834,7 @@
     <GroupDataColumn>그룹 데이터 열</GroupDataColumn>
     <GroupMeter>Group</GroupMeter>
     <GrowToHeight>높이로 늘리기</GrowToHeight>
+    <Header>헤더</Header>
     <HeaderBackColor>헤더 배경색</HeaderBackColor>
     <HeaderCanBreak>헤더 중단 할 수 있습니다</HeaderCanBreak>
     <HeaderCanGrow>헤더를 늘리기</HeaderCanGrow>
@@ -3909,8 +3963,10 @@
     <LinearBarBrush>선형바 브러시</LinearBarBrush>
     <LinearBarEmptyBorderBrush>선형바 빈 테두리 브러시</LinearBarEmptyBorderBrush>
     <LinearBarEmptyBrush>선형바 빈 브러시</LinearBarEmptyBrush>
+    <LinearScaleBrush>선형 스케일 브러쉬</LinearScaleBrush>
     <LineColor>선 색상</LineColor>
     <LineColorNegative>네거티브 라인 컬러</LineColorNegative>
+    <LineLength>라인 길이</LineLength>
     <LineLimit>행 제한</LineLimit>
     <LineMarker>라인 마커</LineMarker>
     <LinesOfUnderline>밑줄 선</LinesOfUnderline>
@@ -4200,6 +4256,7 @@
     <ShowInLegend>범례</ShowInLegend>
     <ShowInnerPoints>내부 포인터 표시</ShowInnerPoints>
     <ShowInPercent>%로 표시</ShowInPercent>
+    <ShowLabel>라벨 보이기</ShowLabel>
     <ShowLabels>라벨 표시</ShowLabels>
     <ShowLabelText>라벨 텍스트를 보기</ShowLabelText>
     <ShowLegend>전설보기</ShowLegend>
@@ -4208,6 +4265,7 @@
     <ShowNulls>널값 보기</ShowNulls>
     <ShowOthers>밖에도 표시</ShowOthers>
     <ShowPercents>백분율을 표시</ShowPercents>
+    <ShowPlacemark>장소마커 보이기</ShowPlacemark>
     <ShowQuietZoneIndicator>여백영역 아이콘 표시</ShowQuietZoneIndicator>
     <ShowQuietZones>여백영역을 표시</ShowQuietZones>
     <ShowScrollBar>스크롤 막대를 표시</ShowScrollBar>
@@ -4215,6 +4273,7 @@
     <ShowSeriesLabels>시리즈 라벨을 표시</ShowSeriesLabels>
     <ShowShadow>섀도우보기</ShowShadow>
     <ShowTotal>전체보기</ShowTotal>
+    <ShowTotalSummary>총요약 보이기</ShowTotalSummary>
     <ShowUpDown>보기</ShowUpDown>
     <ShowValue>값을 표시</ShowValue>
     <ShowXAxis>X 축보기</ShowXAxis>
@@ -4291,8 +4350,10 @@
     <TagDataColumn>태그 데이터 열</TagDataColumn>
     <TagValue>태그 값</TagValue>
     <Target>대상</Target>
+    <TargetColor>대상 색상</TargetColor>
     <TargetIcon>대상 아이콘</TargetIcon>
     <TargetMode>대상 모드</TargetMode>
+    <TargetSettings>대상</TargetSettings>
     <Tension>텐션</Tension>
     <Text>텍스트</Text>
     <TextAfter>텍스트 후에</TextAfter>
@@ -4327,11 +4388,17 @@
     <ToolTip>툴팁</ToolTip>
     <ToolTipDataColumn>툴팁 데이터 열</ToolTipDataColumn>
     <Top>위</Top>
+    <TopLeft>위-왼쪽</TopLeft>
     <Topmost>상단</Topmost>
     <TopmostLine>탑 라인</TopmostLine>
     <TopN>상위 N</TopN>
+    <TopRight>위-오른쪽</TopRight>
     <TopSide>상단 사이드</TopSide>
     <Total>총</Total>
+    <TotalCellColumnBackColor>합계 셀 열 배경 색상</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>합계 셀 열 전경 색상</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>합계 셀 행(row) 배경 색상</TotalCellRowBackColor>
+    <TotalCellRowForeColor>합계 셀 행(row) 전경 색상</TotalCellRowForeColor>
     <TotalLabel>총 라벨</TotalLabel>
     <Totals>총</Totals>
     <TrackColor>Track 색</TrackColor>
@@ -4540,6 +4607,7 @@
     <Dialogs>대화</Dialogs>
     <EditStyles>스타일 편집</EditStyles>
     <Enhancements>강화</Enhancements>
+    <EnterDataManually>수동으로 데이터 입력</EnterDataManually>
     <Errors>오류</Errors>
     <EventsTab>이벤트 탭</EventsTab>
     <ExpandAll>모두 확장</ExpandAll>
@@ -4593,6 +4661,7 @@
     <NoNewVersions>새로운 버전은 없습니다!</NoNewVersions>
     <NotAssigned>할당되지 않음</NotAssigned>
     <Null>Null</Null>
+    <Obsoleted>오래됨</Obsoleted>
     <Office2010Back>이전</Office2010Back>
     <PageNofM>{1} 페이지 {0}</PageNofM>
     <PreparingReport>보고서의 준비</PreparingReport>
@@ -4625,6 +4694,7 @@
     <StyleNormal>일반</StyleNormal>
     <StyleNote>주의</StyleNote>
     <StyleWarning>경고</StyleWarning>
+    <UseDataFields>데이터 필드 사용</UseDataFields>
     <VisualChecked>체크됨</VisualChecked>
     <VisualDefault>기본</VisualDefault>
     <VisualDisabled>비활성화</VisualDisabled>
@@ -4649,6 +4719,77 @@
     <Browse>찾아보기</Browse>
     <Import>가져 오기</Import>
   </ReportOpen>
+  <Scheduler>
+    <ActionRunReport>리포트 실행</ActionRunReport>
+    <AdvancedSettings>고급 설정</AdvancedSettings>
+    <CheckBoxOverwriteIfExists>존재하는 경우 덮어쓰기</CheckBoxOverwriteIfExists>
+    <DayAll>전체</DayAll>
+    <DayDayX>{0} 일</DayDayX>
+    <DayLast>지난</DayLast>
+    <DayNone>None</DayNone>
+    <DaysOfWeekAll>전체</DaysOfWeekAll>
+    <DaysOfWeekNone>None</DaysOfWeekNone>
+    <DelayTaskForUpToRandomDelay>최대 (임의 지연)에 대한 작업 지연</DelayTaskForUpToRandomDelay>
+    <EditScheduler>스케줄러 편집</EditScheduler>
+    <EnableSSL>SSL 활성화</EnableSSL>
+    <Expire>만료</Expire>
+    <ForADurationOf>의 기간 동안</ForADurationOf>
+    <GetFolder>폴더 가져오기</GetFolder>
+    <GroupBoxFiles>파일</GroupBoxFiles>
+    <Host>호스트</Host>
+    <Info>Windows 작업 스케줄러는 스케줄러를 실행하는 데 사용됩니다.</Info>
+    <LabelDaysOfWeek>요일</LabelDaysOfWeek>
+    <LabelMessage>메세지</LabelMessage>
+    <LabelResultName>결과 이름</LabelResultName>
+    <LabelRunAtDay>매일 실행</LabelRunAtDay>
+    <LabelRunAtMonth>매달 실행</LabelRunAtMonth>
+    <LabelRunAtTime>매시간 실행</LabelRunAtTime>
+    <LabelRunEvery>항상 실행</LabelRunEvery>
+    <LabelSubject>제목</LabelSubject>
+    <LabelTo>To</LabelTo>
+    <Logs>로그</Logs>
+    <MessageInvalidName>작업 이름에는 파일 이름에 유효하지 않은 문자가 포함될 수 없습니다.</MessageInvalidName>
+    <MessageInvalidTaskName>마침표로 끝나는 작업 이름과 3자 이하의 문자는 기본 라이브러리의 버그로 인해 검색할 수 없습니다.</MessageInvalidTaskName>
+    <MessagePropertyNotSet>'{0}' 설정되지 않았습니다!</MessagePropertyNotSet>
+    <MonthAll>전체</MonthAll>
+    <MonthNone>None</MonthNone>
+    <NewAction>새로운 액션</NewAction>
+    <NewScheduler>새로운 스케쥴러</NewScheduler>
+    <NoLogs>로그가 없습니다.</NoLogs>
+    <NoSchedulers>일정이 없습니다.</NoSchedulers>
+    <NumberOfDayAll>All</NumberOfDayAll>
+    <NumberOfDayFirst>처음</NumberOfDayFirst>
+    <NumberOfDayFourth>네번째</NumberOfDayFourth>
+    <NumberOfDayLast>마지막</NumberOfDayLast>
+    <NumberOfDayNone>None</NumberOfDayNone>
+    <NumberOfDaySecond>두번째</NumberOfDaySecond>
+    <NumberOfDayThird>세번째</NumberOfDayThird>
+    <PleaseSelectSchedulerType>스케줄러 유형을 선택하세요.</PleaseSelectSchedulerType>
+    <RadioButtonDay>일</RadioButtonDay>
+    <RadioButtonOn>On</RadioButtonOn>
+    <RepeatTaskEvery>작업 반복</RepeatTaskEvery>
+    <Schedule>일정</Schedule>
+    <Scheduler>스케줄러</Scheduler>
+    <Schedulers>스케쥴러</Schedulers>
+    <SenderEmail>메일 보내기</SenderEmail>
+    <SmtpSettings>Smtp 설정</SmtpSettings>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>반복 기간이 끝나면 실행 중인 모든 작업을 중지합니다.</StopAllRunningTasksAtEndOfRepetitionDuration>
+    <StopTasksIfItRunsLongerThan>다음보다 오래 실행되는 경우 작업 중지</StopTasksIfItRunsLongerThan>
+    <TextDragDropDestinationHere>여기에 대상 폴더를 끌어다 놓습니다.</TextDragDropDestinationHere>
+    <TextDragDropReportHere>보고서를 여기에 끌어다 놓습니다.</TextDragDropReportHere>
+    <TextPressPlusIconAddNewAction>더하기 아이콘을 클릭하여 새 작업을 추가하세요!</TextPressPlusIconAddNewAction>
+    <ToolTipSetParameters>보고서 매개변수 정의</ToolTipSetParameters>
+    <WizardDaily>일간</WizardDaily>
+    <WizardDailyDescription>하루에 한번, 지정된 시간에.</WizardDailyDescription>
+    <WizardHourly>매시간</WizardHourly>
+    <WizardHourlyDescription>한 시간에 한번.</WizardHourlyDescription>
+    <WizardMonthly>월간</WizardMonthly>
+    <WizardMonthlyDescription>매월, 지정된 요일 또는 요일에 지정된 시간에.</WizardMonthlyDescription>
+    <WizardOnce>한번</WizardOnce>
+    <WizardOnceDescription>언제든지 스케줄러를 한 번 실행하십시오.</WizardOnceDescription>
+    <WizardWeekly>주간</WizardWeekly>
+    <WizardWeeklyDescription>선택한 요일, 지정된 시간에.</WizardWeeklyDescription>
+  </Scheduler>
   <Services>
     <categoryContextTools>컨텍스트 도구</categoryContextTools>
     <categoryDesigner>디자이너</categoryDesigner>
@@ -4831,6 +4972,7 @@
   </WelcomeScreen>
   <Wizards>
     <BlankDashboard>빈 대시보드</BlankDashboard>
+    <BlankForm>비어있는 폼</BlankForm>
     <BlankReport>빈 보고서</BlankReport>
     <ButtonBack>&lt; &amp; Back</ButtonBack>
     <ButtonCancel>취소</ButtonCancel>

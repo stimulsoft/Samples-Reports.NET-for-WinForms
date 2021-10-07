@@ -15,6 +15,7 @@
     <CategoryAlreadyExists>Kategorija sa tim imenom već postoji!</CategoryAlreadyExists>
     <DayFriday>Petak</DayFriday>
     <DayMonday>Ponedjeljak</DayMonday>
+    <Days>Dani</Days>
     <DaySaturday>Subota</DaySaturday>
     <DaySunday>Nedjelja</DaySunday>
     <DayThursday>Četvrtak</DayThursday>
@@ -135,6 +136,7 @@
     <ShowMore>Prikaži više</ShowMore>
     <ShowSpecific>Prikaži '{0}'</ShowSpecific>
     <Submit>Podnesi</Submit>
+    <SwitchTo>Prebaci na {0}</SwitchTo>
     <Test>Test</Test>
     <Up>Gore</Up>
     <Upgrade>Nadogradi</Upgrade>
@@ -371,6 +373,7 @@
     <ButtonResendEmail>Ponovno pošalji Email</ButtonResendEmail>
     <ButtonResetPassword>Resetiraj lozinku</ButtonResetPassword>
     <ButtonRun>Pokreni</ButtonRun>
+    <ButtonScheduler>Planer</ButtonScheduler>
     <ButtonShare>Podijeli</ButtonShare>
     <ButtonSignUp>Registriraj se</ButtonSignUp>
     <ButtonSignUpWith>Registriraj se sa {0}</ButtonSignUpWith>
@@ -499,6 +502,7 @@
     <TextItemsWorkspace>Radni prostor</TextItemsWorkspace>
     <TextLastName>Prezime</TextLastName>
     <TextModify>Izmijeni</TextModify>
+    <TextNewsLetters>Bilteni</TextNewsLetters>
     <TextNoFavoriteFiles>Nema omiljenih datoteka</TextNoFavoriteFiles>
     <TextNoFiles>Nema datoteka</TextNoFiles>
     <TextNoNotifications>Bez obavijesti</TextNoNotifications>
@@ -569,11 +573,14 @@
     <WizardPublicShareDescription>Vanjski pristup za sve nautorizirane korisnike.</WizardPublicShareDescription>
     <WizardRegisteredShare>Autorizirani pristup</WizardRegisteredShare>
     <WizardRegisteredShareDescription>Vanjski pristup samo za registrirane korisnike iz bilo kojeg radnog prostora.</WizardRegisteredShareDescription>
+    <WizardTeamShare>Timski pristup</WizardTeamShare>
+    <WizardTeamShareDescription>Vanjski pristup za korisnike samo jednog radnog prostora.</WizardTeamShareDescription>
     <WizardXmlDescription>Kreiraj izvještaj sa Xml podacima.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiButton>Gumb</StiButton>
+    <StiCards>Karte</StiCards>
     <StiChart>Grafikon</StiChart>
     <StiCheckBox>Potvrdni okvir</StiCheckBox>
     <StiChildBand>Dijete</StiChildBand>
@@ -671,6 +678,7 @@
     <DateFilters>Filteri datuma</DateFilters>
     <Dimension>Dimenzija</Dimension>
     <Dimensions>Dimenzije</Dimensions>
+    <DragDropBlocks>Povuci &amp; ispusti blokove sa ploče</DragDropBlocks>
     <DragDropData>Drag &amp; drop podatke</DragDropData>
     <DragDropDataFromDictionary>Povuci&amp;ispusti podatke iz Rječnika</DragDropDataFromDictionary>
     <DrillDown>Dubinski pretraži</DrillDown>
@@ -815,6 +823,7 @@
     <ReportSuccessfullySaved>Izvještaj je uspješno spremljen.</ReportSuccessfullySaved>
     <RetrieveError>Dohvati greške kolumni</RetrieveError>
     <RetrievingColumns>Dohvaćanje kolumni</RetrievingColumns>
+    <Saving>Spremanje</Saving>
     <SavingConfiguration>Spremanje konfiguracije</SavingConfiguration>
     <SavingReport>Spremanje izvještaja</SavingReport>
     <TestConnection>Test konekcije</TestConnection>
@@ -1468,8 +1477,10 @@
     <AutoSave>Automatsko spremanje</AutoSave>
     <AutoSaveReportToReportClass>Automatski spremi izvještaj u C# ili VB.Net datoteku</AutoSaveReportToReportClass>
     <BlankDashboard>Prazan Dashboard</BlankDashboard>
+    <BlankForm>Prazna forma</BlankForm>
     <BlankReport>Prazan izvještaj</BlankReport>
     <Default>Zadano</Default>
+    <DefaultScriptMode>Zadani mod skripte</DefaultScriptMode>
     <Drawing>Crtež</Drawing>
     <DrawMarkersWhenMoving>Crtaj oznake prilikom pomicanja</DrawMarkersWhenMoving>
     <EditAfterInsert>Uredi nakon insertiranja</EditAfterInsert>
@@ -1872,6 +1883,7 @@
     <StiMap>Ova komponenta se koristi za prikaz geografski označenih podataka.</StiMap>
     <StiMapCategory>Grupa elemenata za rad sa mapama i podacima.</StiMapCategory>
     <StiMapElement>Ovaj element se koristi za prikaz podataka koji su geografski ciljani.</StiMapElement>
+    <StiMathFormula>Ova komponenta se koristi za prikaz matematičkih formula u izvještaju.</StiMathFormula>
     <StiOnlineMapElement>Ovaj element se koristi za prikaz geografskih markera na online mapi.</StiOnlineMapElement>
     <StiOverlayBand>Ova traka se koristi za prikaz vodenih žigova na stranici.</StiOverlayBand>
     <StiPageFooterBand>Ova traka se koristi za prikaz informacija na dnu svake stranice. Ova traka se koristi za prikaz brojeva stranica, datuma, i drugih informacija.</StiPageFooterBand>
@@ -1888,9 +1900,11 @@
     <StiRoundedRectanglePrimitive>Ova komponenta se koristi za prikaz pravokutnika.</StiRoundedRectanglePrimitive>
     <StiShape>Ova komponenta se koristi za umetanje već postojećih oblika, kao što su strelice, dijagonalne linije, vodoravne linije, lijeve i desne linije, krugove, pravokutnike, zaobljene pravokutnike, gornje i donje linije, trokute, okomite linije.</StiShape>
     <StiShapeElement>Ovaj element se koristi za umetanje oblika kao što su strelice, dijagonalne linije prema dolje, dijagonalne linije prema gore, horizontalne linije, lijeve i desne linije, oval, pravokutnik, gornje i donje linije, trokuta, vertikalne linije.</StiShapeElement>
+    <StiSparkline>Ova komponenta se koristi za kreiranje mikrografika u izvještaju. Omogućava vam praćenje dinamički mijenjajućih podataka kao traka, linija, područja.</StiSparkline>
     <StiSubReport>Ova komponenta se koristi za prikaz dodatnih podataka na različitim mjestima u izvještaju.</StiSubReport>
     <StiTable>Ova komponenta predstavlja skup podatkovnih elemenata koje su organizirane koristeći model okomitih stupaca i vodoravnih redaka.</StiTable>
     <StiTableElement>Ovaj element je grupa podatkovnih elemenata koja je organizirana u model vertikalnih kolona i horizontalnih redova.</StiTableElement>
+    <StiTableOfContents>Ova komponenata se koristi za kreiranje tablice sadržaja u izvještaju.</StiTableOfContents>
     <StiText>Ova komponenta je osnovni objekt za prikaz teksta.</StiText>
     <StiTextElement>Ovaj element je osnovni objekt za prikaz podataka u obliku teksta.</StiTextElement>
     <StiTextInCells>Ova komponenta se koristi za prikaz teksta u ćelijama. Često se koristi za kreiranje formulara.</StiTextInCells>
@@ -1958,6 +1972,7 @@
     <FontStyleBoldWatermark>Podebljaj tekst vodenog žiga.</FontStyleBoldWatermark>
     <FontStyleItalic>Kurziv tekst.</FontStyleItalic>
     <FontStyleItalicWatermark>Kurziv tekst vodenog žiga.</FontStyleItalicWatermark>
+    <FontStyleStrikeout>Učinite tekst precrtanim.</FontStyleStrikeout>
     <FontStyleUnderline>Podcrtaj tekst.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Podcrtaj tekst vodenog žiga.</FontStyleUnderlineWatermark>
     <FormatBoolean>Ovaj format se koristi za oblikovanje vrijednosti tipa boolean.</FormatBoolean>
@@ -2315,6 +2330,7 @@
     <ResourceCannotBeDeleted>Resurs "{0}" se ne može obrisati jer se koristi u izvještaju!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>Dijeljeni URL stavke je ažuriran!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>Da bi dijelili vaš izvještaj, morate ga spremiti u Stimulsoft Cloud!</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>Prebacivanje između modova će prouzročiti gubitak promjena. Želite li nastaviti?</SwitchingBetweenModes>
     <TextRegistrationSuccessfully>Registracija uspješna!
 
 Email je poslan na "{0}".
@@ -2550,6 +2566,9 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <MoveLeftFreeSpace>Pomiče komponentu na lijevu stranu praznog prostora, povećavajući visinu komponente na visinu praznog prostora.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>Pomiče komponentu na desnu stranu praznog prostora, povećavajući visinu komponente na visinu praznog prostora.</MoveRightFreeSpace>
   </PlacementComponent>
+  <PromptForm>
+    <CacheLoginData>Stavite login podatke u predmemoriju za trenutnu sesiju</CacheLoginData>
+  </PromptForm>
   <PropertyCategory>
     <AppearanceCategory>Izgled</AppearanceCategory>
     <AreaCategory>Područje</AreaCategory>
@@ -2558,6 +2577,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <BarCodeAdditionalCategory>Bar Code dodatno</BarCodeAdditionalCategory>
     <BarCodeCategory>Bar Code</BarCodeCategory>
     <BehaviorCategory>Ponašanje</BehaviorCategory>
+    <ButtonCategory>Gumb</ButtonCategory>
     <CapNeedle>Kapica igle</CapNeedle>
     <CellCategory>Ćelija</CellCategory>
     <ChartAdditionalCategory>Grafikon dodatno</ChartAdditionalCategory>
@@ -2593,6 +2613,8 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <InterlacingCategory>Prepletanje</InterlacingCategory>
     <LabelsCategory>Oznake</LabelsCategory>
     <LegendCategory>Legenda</LegendCategory>
+    <LinearScaleBarCategory>Traka linearne skale</LinearScaleBarCategory>
+    <LinearScaleCategory>Linearna skala</LinearScaleCategory>
     <ListBoxCategory>Okvir za popis</ListBoxCategory>
     <MainCategory>Glavno</MainCategory>
     <MarkerCategory>Marker</MarkerCategory>
@@ -2601,6 +2623,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <NavigationCategory>Navigacija</NavigationCategory>
     <NavigationEventsCategory>Događaji navigacije</NavigationEventsCategory>
     <Needle>Igla</Needle>
+    <NeedleCategory>Igla</NeedleCategory>
     <OnlineMapCategory>Online mapa</OnlineMapCategory>
     <OptionsCategory>Opcije</OptionsCategory>
     <PageAdditionalCategory>Stranica dodatno</PageAdditionalCategory>
@@ -2612,6 +2635,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <PrimitiveCategory>Primitivno</PrimitiveCategory>
     <PrintEventsCategory>Događaji ispisa</PrintEventsCategory>
     <ProgressCategory>Napredak</ProgressCategory>
+    <RadialScaleBarCategory>Traka radijalne skale</RadialScaleBarCategory>
     <RegionMapCategory>Mapa regije</RegionMapCategory>
     <RenderEventsCategory>Događaji renderiranja</RenderEventsCategory>
     <SeriesCategory>Serije</SeriesCategory>
@@ -2623,6 +2647,10 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <TableOfContents>Sadržaj</TableOfContents>
     <TextAdditionalCategory>Tekst dodatno</TextAdditionalCategory>
     <TextCategory>Tekst</TextCategory>
+    <TickLabelMajorCategory>Označi glavnu oznaku</TickLabelMajorCategory>
+    <TickLabelMinorCategory>Označi sporednu oznaku</TickLabelMinorCategory>
+    <TickMarkMajorCategory>Označi glavni simbol</TickMarkMajorCategory>
+    <TickMarkMinorCategory>Označi sporedni simbol</TickMarkMinorCategory>
     <TitleCategory>Naslov</TitleCategory>
     <TreeViewBoxCategory>Okvir za prikaz stabla</TreeViewBoxCategory>
     <TreeViewCategory>Prikaz stabla</TreeViewCategory>
@@ -2956,6 +2984,10 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <StiDesignerSpecificationBeginner>Ja sam početnik</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>Ja sam kreator</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Ja sam developer</StiDesignerSpecificationDeveloper>
+    <StiDirectionBottomToTop>Dno prema vrhu</StiDirectionBottomToTop>
+    <StiDirectionLeftToRight>Lijevo na desno</StiDirectionLeftToRight>
+    <StiDirectionRightToLeft>Desno na lijevo</StiDirectionRightToLeft>
+    <StiDirectionTopToBottom>Vrh prema dnu</StiDirectionTopToBottom>
     <StiDisplayNameTypeFull>Puno</StiDisplayNameTypeFull>
     <StiDisplayNameTypeNone>Ništa</StiDisplayNameTypeNone>
     <StiDisplayNameTypeShort>Kratko</StiDisplayNameTypeShort>
@@ -3142,6 +3174,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <StiNestedFactorNormal>Normalno</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Dvostruki prolaz</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Jednostruki prolaz</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeAddRange>Dodaj raspon</StiOnlineMapHeatmapColorGradientTypeAddRange>
     <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Crna Aqua Bijela</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
     <StiOnlineMapHeatmapColorGradientTypeBlueRed>Plava Crvena</StiOnlineMapHeatmapColorGradientTypeBlueRed>
     <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Spektar boja</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
@@ -3313,8 +3346,18 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <StiTextQualityStandard>Standardno</StiTextQualityStandard>
     <StiTextQualityTypographic>Typographic</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTimeDateStepDay>Dan</StiTimeDateStepDay>
+    <StiTimeDateStepHour>Sat</StiTimeDateStepHour>
+    <StiTimeDateStepMinute>Minuta</StiTimeDateStepMinute>
+    <StiTimeDateStepMonth>Mjesec</StiTimeDateStepMonth>
+    <StiTimeDateStepNone>Ništa</StiTimeDateStepNone>
+    <StiTimeDateStepSecond>Sekunda</StiTimeDateStepSecond>
+    <StiTimeDateStepYear>Godina</StiTimeDateStepYear>
     <StiTitlePositionInside>Unutar</StiTitlePositionInside>
     <StiTitlePositionOutside>Izvan</StiTitlePositionOutside>
+    <StiTopNModeBottom>Dno</StiTopNModeBottom>
+    <StiTopNModeNone>Ništa</StiTopNModeNone>
+    <StiTopNModeTop>Vrh</StiTopNModeTop>
     <StiTypeModeList>Lista</StiTypeModeList>
     <StiTypeModeNullableValue>Nullable vrijednost</StiTypeModeNullableValue>
     <StiTypeModeRange>Opseg</StiTypeModeRange>
@@ -3356,8 +3399,11 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <EnterEvent>Ulaz</EnterEvent>
     <ExportedEvent>Eksportirano</ExportedEvent>
     <ExportingEvent>Eksportiranje</ExportingEvent>
+    <FillParametersEvent>Popuni parametre</FillParametersEvent>
     <GetArgumentEvent>Dohvati argument</GetArgumentEvent>
+    <GetBarCodeEvent>Dohvati BarCode</GetBarCodeEvent>
     <GetBookmarkEvent>Dohvati knjižnu oznaku</GetBookmarkEvent>
+    <GetCheckedEvent>Dohvati označene</GetCheckedEvent>
     <GetCollapsedEvent>Dohvati urušeno</GetCollapsedEvent>
     <GetCrossValueEvent>Dohvati Cross vrijednost</GetCrossValueEvent>
     <GetCutPieListEvent>Dohvati listu izrezane pite</GetCutPieListEvent>
@@ -3377,6 +3423,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <GetListOfValuesEvent>Dohvati listu vrijednosti</GetListOfValuesEvent>
     <GetListOfWeights>Dohvati listu težina</GetListOfWeights>
     <GetListOfWeightsEvent>Dohvati listu težina</GetListOfWeightsEvent>
+    <GetPointerEvent>Dohvati pokazatelj</GetPointerEvent>
     <GetSummaryExpressionEvent>Dohvati Summary Expression</GetSummaryExpressionEvent>
     <GetTagEvent>Dohvati oznaku</GetTagEvent>
     <GetTitleEvent>Dohvati naslov</GetTitleEvent>
@@ -3543,6 +3590,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <BasicStyleColor>Boja osnovnog stila</BasicStyleColor>
     <BindingColumn>Povezna kolona</BindingColumn>
     <Blend>Pomiješaj</Blend>
+    <Blocks>Blokovi</Blocks>
     <Bold>Podebljano</Bold>
     <Bookmark>Knjižna oznaka</Bookmark>
     <Border>Obrub</Border>
@@ -3554,6 +3602,8 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <BorderStyle>Stil obruba</BorderStyle>
     <BorderWidth>Širina obruba</BorderWidth>
     <Bottom>Dolje</Bottom>
+    <BottomLeft>Dno-Lijevo</BottomLeft>
+    <BottomRight>Dno-Desno</BottomRight>
     <BottomSide>Donja strana</BottomSide>
     <BreakIfLessThan>Prekini ako je manje od</BreakIfLessThan>
     <Brush>Četka</Brush>
@@ -3656,6 +3706,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <DataAdapters>Adapteri podataka</DataAdapters>
     <DataBarCondition>Data Bar uvjet</DataBarCondition>
     <DataBindings>Poveznice podataka</DataBindings>
+    <DataCells>Podatkovne ćelije</DataCells>
     <DataColor>Boja podatka</DataColor>
     <DataColumn>Stupac podataka</DataColumn>
     <DataColumns>Stupci podataka</DataColumns>
@@ -3732,6 +3783,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <ErrorCorrectionLevel>Stupanj ispravke greške</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Stupanj ispravke grešaka</ErrorsCorrectionLevel>
     <EvenStyle>Stil parni</EvenStyle>
+    <ExceedMargins>Prekorači margine</ExceedMargins>
     <ExcelSheet>Excel list</ExcelSheet>
     <ExcelValue>Excel vrijednost</ExcelValue>
     <Exponential>Eksponencijalno</Exponential>
@@ -3787,6 +3839,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <FullConvertExpression>Potpuno konvertiraj izraz</FullConvertExpression>
     <Function>Funkcija</Function>
     <Functions>Funkcije</Functions>
+    <GisSettings>Gis postavke</GisSettings>
     <GlobalizationStrings>Globalizacijski stringovi</GlobalizationStrings>
     <GlobalizedName>Globalizirani naziv</GlobalizedName>
     <GlyphColor>Boja glifa</GlyphColor>
@@ -3803,6 +3856,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <GroupDataColumn>Grupna podatkovna kolona</GroupDataColumn>
     <GroupMeter>Grupa</GroupMeter>
     <GrowToHeight>Narasti do visine</GrowToHeight>
+    <Header>Zaglavlje</Header>
     <HeaderBackColor>Pozadinska boja zaglavlja</HeaderBackColor>
     <HeaderCanBreak>Header se može prelomiti</HeaderCanBreak>
     <HeaderCanGrow>Header može narasti</HeaderCanGrow>
@@ -3931,8 +3985,10 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <LinearBarBrush>Linearni bar četka</LinearBarBrush>
     <LinearBarEmptyBorderBrush>Linearni Bar prazna četka obruba</LinearBarEmptyBorderBrush>
     <LinearBarEmptyBrush>Linearni Bar prazna četka</LinearBarEmptyBrush>
+    <LinearScaleBrush> Linear Scale Brush</LinearScaleBrush>
     <LineColor>Boja linije</LineColor>
     <LineColorNegative>Negativ boje linije</LineColorNegative>
+    <LineLength>Dužina linije</LineLength>
     <LineLimit>Ograničenje linije</LineLimit>
     <LineMarker>Marker linije</LineMarker>
     <LinesOfUnderline>Linije potcrtavanja</LinesOfUnderline>
@@ -4222,6 +4278,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <ShowInLegend>Prikaži u legendi</ShowInLegend>
     <ShowInnerPoints>Prikaži unutarnje točke</ShowInnerPoints>
     <ShowInPercent>Prikaži u postotcima</ShowInPercent>
+    <ShowLabel>Prikaži oznaku</ShowLabel>
     <ShowLabels>Prikaži labele</ShowLabels>
     <ShowLabelText>Prikaži tekst labele</ShowLabelText>
     <ShowLegend>Prikaži legendu</ShowLegend>
@@ -4231,6 +4288,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <ShowOnZeroValues>Prikaži kod nula vrijednosti</ShowOnZeroValues>
     <ShowOthers>Prikaži druge</ShowOthers>
     <ShowPercents>Prikaži postotke</ShowPercents>
+    <ShowPlacemark>Prikaži oznaku mjesta</ShowPlacemark>
     <ShowQuietZoneIndicator>Prikaži Quiet Zone indikator</ShowQuietZoneIndicator>
     <ShowQuietZones>Prikaži tihe zone</ShowQuietZones>
     <ShowScrollBar>Prikaži klizač</ShowScrollBar>
@@ -4238,6 +4296,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <ShowSeriesLabels>Prikaži nazive serija</ShowSeriesLabels>
     <ShowShadow>Prikaži sjenu</ShowShadow>
     <ShowTotal>Prikaži total</ShowTotal>
+    <ShowTotalSummary>Prikaži ukupni zbroj</ShowTotalSummary>
     <ShowUpDown>Prikaži gore dolje</ShowUpDown>
     <ShowValue>Prikaži vrijednost</ShowValue>
     <ShowXAxis>Prikaži os X</ShowXAxis>
@@ -4314,8 +4373,10 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <TagDataColumn>Oznaka podatkovni stupac</TagDataColumn>
     <TagValue>Tag vrijednost</TagValue>
     <Target>Cilj</Target>
+    <TargetColor>Ciljana boja</TargetColor>
     <TargetIcon>Ciljna ikona</TargetIcon>
     <TargetMode>Ciljni mod</TargetMode>
+    <TargetSettings>Cilj</TargetSettings>
     <Tension>Napetost</Tension>
     <Text>Tekst</Text>
     <TextAfter>Tekst nakon</TextAfter>
@@ -4350,11 +4411,17 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <ToolTip>Tool Tip</ToolTip>
     <ToolTipDataColumn>Tooltip podatkovni stupac</ToolTipDataColumn>
     <Top>Gore</Top>
+    <TopLeft>Vrh-Lijevo</TopLeft>
     <Topmost>Najviše</Topmost>
     <TopmostLine>Najviša linija</TopmostLine>
     <TopN>Prvih N</TopN>
+    <TopRight>Vrh-Desno</TopRight>
     <TopSide>Gornja strana</TopSide>
     <Total>Total</Total>
+    <TotalCellColumnBackColor>Boja pozadine stupca ćelije totala</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Boja teksta stupca ćelije totala</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Boja pozadine retka ćelije totala</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Boja teksta retka ćelije totala</TotalCellRowForeColor>
     <TotalLabel>Ukupna oznaka</TotalLabel>
     <Totals>Totali</Totals>
     <TrackColor>Prati boju</TrackColor>
@@ -4564,6 +4631,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <Dialogs>Dijalozi</Dialogs>
     <EditStyles>Uredi stilove</EditStyles>
     <Enhancements>Poboljšanja</Enhancements>
+    <EnterDataManually>Unesi podatke ručno</EnterDataManually>
     <Errors>Greške</Errors>
     <EventsTab>Kartica događaja</EventsTab>
     <ExpandAll>Raširi sve</ExpandAll>
@@ -4618,6 +4686,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <NoNewVersions>Nema novih verzija!</NoNewVersions>
     <NotAssigned>Nije dodijeljeno</NotAssigned>
     <Null>Null</Null>
+    <Obsoleted>Zastarjelo</Obsoleted>
     <Office2010Back>Natrag</Office2010Back>
     <PageNofM>Stranica {0} od {1}</PageNofM>
     <PreparingReport>Pripremanje izvještaja</PreparingReport>
@@ -4650,6 +4719,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <StyleNormal>Normalo</StyleNormal>
     <StyleNote>Opaska</StyleNote>
     <StyleWarning>Upozorenje</StyleWarning>
+    <UseDataFields>Koristi polja podataka</UseDataFields>
     <VisualChecked>Označeno</VisualChecked>
     <VisualDefault>Zadano</VisualDefault>
     <VisualDisabled>Onemogućeno</VisualDisabled>
@@ -4674,6 +4744,77 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <Browse>Pogledaj</Browse>
     <Import>Uvezi</Import>
   </ReportOpen>
+  <Scheduler>
+    <ActionRunReport>Pokreni izvještaj</ActionRunReport>
+    <AdvancedSettings>Napredne postavke</AdvancedSettings>
+    <CheckBoxOverwriteIfExists>Prepiši ako postoji</CheckBoxOverwriteIfExists>
+    <DayAll>Sve</DayAll>
+    <DayDayX>Dan {0}</DayDayX>
+    <DayLast>Posljednji</DayLast>
+    <DayNone>Ništa</DayNone>
+    <DaysOfWeekAll>Sve</DaysOfWeekAll>
+    <DaysOfWeekNone>Ništa</DaysOfWeekNone>
+    <DelayTaskForUpToRandomDelay>Odgodi zadatak za (slučajna odgoda)</DelayTaskForUpToRandomDelay>
+    <EditScheduler>Izmjeni planer</EditScheduler>
+    <EnableSSL>Omogući SSL</EnableSSL>
+    <Expire>Ističe</Expire>
+    <ForADurationOf>za trajanje od</ForADurationOf>
+    <GetFolder>Dohvati mapu</GetFolder>
+    <GroupBoxFiles>Datoteke</GroupBoxFiles>
+    <Host>Domaćin</Host>
+    <Info>Windows Task Scheduler koristi se za pokretanje planera.</Info>
+    <LabelDaysOfWeek>Dani u tjednu</LabelDaysOfWeek>
+    <LabelMessage>Poruka</LabelMessage>
+    <LabelResultName>Naziv rezultata</LabelResultName>
+    <LabelRunAtDay>Pokreni na dan</LabelRunAtDay>
+    <LabelRunAtMonth>Pokreni na mjesec</LabelRunAtMonth>
+    <LabelRunAtTime>Pokreni na vrijeme</LabelRunAtTime>
+    <LabelRunEvery>Pokreni svakih</LabelRunEvery>
+    <LabelSubject>Predmet</LabelSubject>
+    <LabelTo>Prima</LabelTo>
+    <Logs>Logovi</Logs>
+    <MessageInvalidName>Nazivi zadataka ne smiju sadržavati znakove koji su nevažeći za nazive datoteka.</MessageInvalidName>
+    <MessageInvalidTaskName>Nazivi zadataka koji završavaju točkom iza koje slijede tri ili manje znakova ne mogu se dohvatiti zbog greške u izvornom library-u.</MessageInvalidTaskName>
+    <MessagePropertyNotSet>'{0}' nije postavljen!</MessagePropertyNotSet>
+    <MonthAll>Sve</MonthAll>
+    <MonthNone>Ništa</MonthNone>
+    <NewAction>Nova akcija</NewAction>
+    <NewScheduler>Novi planer</NewScheduler>
+    <NoLogs>Nema logova</NoLogs>
+    <NoSchedulers>Nema planera</NoSchedulers>
+    <NumberOfDayAll>Sve</NumberOfDayAll>
+    <NumberOfDayFirst>Prvi</NumberOfDayFirst>
+    <NumberOfDayFourth>Četvrti</NumberOfDayFourth>
+    <NumberOfDayLast>Posljednji</NumberOfDayLast>
+    <NumberOfDayNone>Ništa</NumberOfDayNone>
+    <NumberOfDaySecond>Drugi</NumberOfDaySecond>
+    <NumberOfDayThird>Treći</NumberOfDayThird>
+    <PleaseSelectSchedulerType>Molim odaberite vrstu planera</PleaseSelectSchedulerType>
+    <RadioButtonDay>Dan</RadioButtonDay>
+    <RadioButtonOn>Uključeno</RadioButtonOn>
+    <RepeatTaskEvery>Ponovi zadataka svakih</RepeatTaskEvery>
+    <Schedule>Raspored</Schedule>
+    <Scheduler>Planer</Scheduler>
+    <Schedulers>Planeri</Schedulers>
+    <SenderEmail>Email pošiljatelja</SenderEmail>
+    <SmtpSettings>Smtp postavke</SmtpSettings>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>Zaustavi sve pokrenute zadatke na kraju trajanja ponavljanja</StopAllRunningTasksAtEndOfRepetitionDuration>
+    <StopTasksIfItRunsLongerThan>Zaustavi zadatke ako traju dulje od</StopTasksIfItRunsLongerThan>
+    <TextDragDropDestinationHere>Povuci &amp; ispusti odredišnu mapu ovdje</TextDragDropDestinationHere>
+    <TextDragDropReportHere>Povuci &amp; Uspusti izvještaj ovdje</TextDragDropReportHere>
+    <TextPressPlusIconAddNewAction>Klikni na plus ikonu za dodavanje nove akcije!</TextPressPlusIconAddNewAction>
+    <ToolTipSetParameters>Definiranje parametara izvještaja</ToolTipSetParameters>
+    <WizardDaily>Dnevno</WizardDaily>
+    <WizardDailyDescription>Jednom dnevnu, u određeno vrijeme</WizardDailyDescription>
+    <WizardHourly>Na sat</WizardHourly>
+    <WizardHourlyDescription>Jednom u satu.</WizardHourlyDescription>
+    <WizardMonthly>Mjesečno</WizardMonthly>
+    <WizardMonthlyDescription>Mjesečno, na odabrane dane u tjednu ili dane u mjesecu, u određeno vrijeme.</WizardMonthlyDescription>
+    <WizardOnce>Jednom</WizardOnce>
+    <WizardOnceDescription>Pokreni planer jednom u bilo koje vrijeme.</WizardOnceDescription>
+    <WizardWeekly>Tjedno</WizardWeekly>
+    <WizardWeeklyDescription>Na odabrane dane u tjednu, u određeno vrijeme.</WizardWeeklyDescription>
+  </Scheduler>
   <Services>
     <categoryContextTools>Kontekstualni alati</categoryContextTools>
     <categoryDesigner>Dizajner</categoryDesigner>
@@ -4856,6 +4997,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
   </WelcomeScreen>
   <Wizards>
     <BlankDashboard>Prazna kontrolna ploča</BlankDashboard>
+    <BlankForm>Prazna forma</BlankForm>
     <BlankReport>Prazan izvještaj</BlankReport>
     <ButtonBack>&lt; &amp;Natrag</ButtonBack>
     <ButtonCancel>Odustani</ButtonCancel>
