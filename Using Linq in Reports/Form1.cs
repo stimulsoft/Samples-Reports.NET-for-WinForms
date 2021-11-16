@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using Stimulsoft.Report;
 
-namespace Linq
+namespace Using_Linq_in_Reports
 {
     public partial class Form1 : Form
     {

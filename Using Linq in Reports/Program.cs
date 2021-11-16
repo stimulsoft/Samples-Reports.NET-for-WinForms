@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Linq
+namespace Using_Linq_in_Reports
 {
     static class Program
     {

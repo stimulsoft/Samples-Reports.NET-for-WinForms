@@ -1,4 +1,4 @@
-﻿namespace Linq
+﻿namespace Using_Linq_in_Reports
 {
     partial class Form1
     {
