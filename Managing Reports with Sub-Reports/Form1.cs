@@ -7,7 +7,7 @@ using System.Data;
 using Stimulsoft.Report;
 using System.Reflection;
 
-namespace Working_with_Sub_Reports
+namespace Managing_Reports_with_Sub_Reports
 {
 	/// <summary>
 	/// Summary description for Form1.
@@ -219,7 +219,7 @@ namespace Working_with_Sub_Reports
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sub-Reports";
+            this.Text = "Managing Reports with Sub-Reports";
             this.ResumeLayout(false);
 
 		}
@@ -241,7 +241,7 @@ namespace Working_with_Sub_Reports
 		private StiReport GetReport(string name)
 		{
 			var report = new StiReport();
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Working_with_Sub_Reports." + name))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Managing_Reports_with_Sub_Reports." + name))
             {
                 report.Load(stream);
             }
