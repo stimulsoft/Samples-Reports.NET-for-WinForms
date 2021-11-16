@@ -187,6 +187,7 @@ namespace Demo
             | System.Windows.Forms.AnchorStyles.Right)));
             this.viewerControl.Location = new System.Drawing.Point(308, 1);
             this.viewerControl.Name = "viewerControl";
+            this.viewerControl.PageViewMode = Stimulsoft.Report.Viewer.StiPageViewMode.Continuous;
             this.viewerControl.Report = null;
             this.viewerControl.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.viewerControl.ShowZoom = true;
