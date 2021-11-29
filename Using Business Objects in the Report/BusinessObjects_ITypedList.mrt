@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<StiSerializer version="1.0" application="StiReport">
+<StiSerializer version="1.02" type="Net" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="0" />
     <DataSources isList="true" count="2">
       <EmployeesITypedList Ref="2" type="Stimulsoft.Report.Dictionary.StiEnumerableSource" isKey="true">
@@ -11,9 +12,10 @@
           <value>Email,System.String</value>
           <value>_ID,System.Int32</value>
         </Columns>
-        <DataName>EmployeesITypedList</DataName>
         <Dictionary isRef="1" />
+        <Key>d3bac9aa71264e2a978fa5ef5675d309</Key>
         <Name>EmployeesITypedList</Name>
+        <NameInSource>EmployeesITypedList</NameInSource>
       </EmployeesITypedList>
       <PhonesITypedList Ref="3" type="Stimulsoft.Report.Dictionary.StiEnumerableSource" isKey="true">
         <Alias>PhonesITypedList</Alias>
@@ -22,9 +24,10 @@
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
         </Columns>
-        <DataName>PhonesITypedList</DataName>
         <Dictionary isRef="1" />
+        <Key>ed032e8f436d4e2a82153cdda236fc59</Key>
         <Name>PhonesITypedList</Name>
+        <NameInSource>PhonesITypedList</NameInSource>
       </PhonesITypedList>
     </DataSources>
     <Relations isList="true" count="1">
@@ -36,436 +39,408 @@
         <ChildSource isRef="3" />
         <Dictionary isRef="1" />
         <Name>ParentEmployeesITypedList</Name>
+        <NameInSource>PhonesITypedListRelation</NameInSource>
         <ParentColumns isList="true" count="1">
           <value>_ID</value>
         </ParentColumns>
         <ParentSource isRef="2" />
-        <RelationName>PhonesITypedListRelation</RelationName>
       </ParentEmployeesITypedList>
     </Relations>
     <Report isRef="0" />
+    <Resources isList="true" count="0" />
     <Variables isList="true" count="0" />
   </Dictionary>
-  <Language Ref="5" type="CSharp" isKey="true" />
-  <Modifiers isList="true" count="0" />
+  <EngineVersion>EngineV1</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>e8f738e1d55f4c70a3f3573b9881a414</Key>
+  <MetaTags isList="true" count="0" />
   <Pages isList="true" count="1">
-    <Page1 Ref="6" type="Page" isKey="true">
+    <Page1 Ref="5" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
       <Components isList="true" count="6">
-        <PageFooterBand1 Ref="7" type="PageFooterBand" isKey="true">
-          <ClientRectangle>0,26.91,19.03,0.8</ClientRectangle>
+        <PageFooterBand1 Ref="6" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1060.95,749.22,30</ClientRectangle>
           <Components isList="true" count="2">
-            <Text7 Ref="8" type="Text" isKey="true">
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text7 Ref="7" type="Text" isKey="true">
+              <Border>Top;[58:78:94];1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,4.8,0.8</ClientRectangle>
-              <Dock>Left</Dock>
-              <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="9" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <HorAlignment>Center</HorAlignment>
+              <ClientRectangle>0,0,400,30</ClientRectangle>
+              <ComponentStyle>Footer2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <DockStyle>Left</DockStyle>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <Hyperlink>http://www.stimulsoft.com</Hyperlink>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text7</Name>
-              <Page isRef="6" />
-              <Parent isRef="7" />
-              <Text>(c) 2004 Stimulsoft</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="10" type="GeneralFormat" isKey="true" />
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>(c) 2004 - {Today.Year} Stimulsoft</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text8 Ref="11" type="Text" isKey="true">
-              <Border>Top;Black;1;Solid;False;4;Black</Border>
+            <Text8 Ref="8" type="Text" isKey="true">
+              <Border>Top;[58:78:94];1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.83,0,14.2,0.8</ClientRectangle>
-              <Dock>Right</Dock>
-              <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="12" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
+              <ClientRectangle>400.22,0,349,30</ClientRectangle>
+              <ComponentStyle>Footer2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <DockStyle>Right</DockStyle>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <HorAlignment>Right</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text8</Name>
-              <Page isRef="6" />
-              <Parent isRef="7" />
+              <Page isRef="5" />
+              <Parent isRef="6" />
               <Text>{PageNofM}</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="13" type="GeneralFormat" isKey="true" />
+              <TextBrush>[158:158:158]</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text8>
           </Components>
-          <Dock>Bottom</Dock>
-          <Modifiers isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>PageFooterBand1</Name>
-          <Page isRef="6" />
-          <Parent isRef="6" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
         </PageFooterBand1>
-        <ReportTitleBand1 Ref="14" type="ReportTitleBand" isKey="true">
-          <ClientRectangle>0,0.4,19.03,2.2</ClientRectangle>
+        <ReportTitleBand1 Ref="9" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749.22,80</ClientRectangle>
           <Components isList="true" count="1">
-            <Text5 Ref="15" type="Text" isKey="true">
+            <Text5 Ref="10" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0.4,19,1.2</ClientRectangle>
-              <Font>Arial,36,Bold</Font>
-              <HighlightCondition Ref="16" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <HorAlignment>Center</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <ClientRectangle>0,0,749,60</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Margins>0,0,0,0</Margins>
               <Name>Text5</Name>
-              <Page isRef="6" />
-              <Parent isRef="14" />
+              <Page isRef="5" />
+              <Parent isRef="9" />
               <Text>ITypedList</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="17" type="GeneralFormat" isKey="true" />
+              <TextBrush>[158:158:158]</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text5>
           </Components>
-          <Dock>Top</Dock>
-          <Modifiers isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>ReportTitleBand1</Name>
-          <Page isRef="6" />
-          <Parent isRef="6" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
         </ReportTitleBand1>
-        <HeaderBand1 Ref="18" type="HeaderBand" isKey="true">
-          <ClientRectangle>0,3.4,19.03,1.2</ClientRectangle>
+        <HeaderBand1 Ref="11" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,140,749.22,50</ClientRectangle>
           <Components isList="true" count="1">
-            <Text10 Ref="19" type="Text" isKey="true">
-              <Border>All;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>Wheat</Brush>
-              <ClientRectangle>0,0,19,1</ClientRectangle>
-              <Font>Arial,20,Bold</Font>
-              <HighlightCondition Ref="20" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
+            <Text10 Ref="12" type="Text" isKey="true">
+              <Border>None;[96:125:139];1;Solid;False;4;Black</Border>
+              <Brush>[96:125:139]</Brush>
+              <ClientRectangle>0,0,749,40</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,14.25,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text10</Name>
-              <Page isRef="6" />
-              <Parent isRef="18" />
+              <Page isRef="5" />
+              <Parent isRef="11" />
               <Text>Employee Information</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="21" type="GeneralFormat" isKey="true" />
+              <TextBrush>[255:255:255]</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text10>
           </Components>
-          <Dock>Top</Dock>
-          <Modifiers isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>HeaderBand1</Name>
-          <Page isRef="6" />
-          <Parent isRef="6" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
         </HeaderBand1>
-        <DataBand1 Ref="22" type="DataBand" isKey="true">
-          <ClientRectangle>0,5.4,19.03,4.6</ClientRectangle>
+        <DataBand1 Ref="13" type="DataBand" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[77:182:172]</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,230,749.22,180</ClientRectangle>
           <Components isList="true" count="9">
-            <Text6 Ref="23" type="Text" isKey="true">
-              <Border>Top, Left, Right;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>Wheat</Brush>
-              <ClientRectangle>0,0,19,4.6</ClientRectangle>
-              <Font>Arial,20,Bold</Font>
-              <HighlightCondition Ref="24" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+            <Text6 Ref="14" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>[77:182:172]</Brush>
+              <ClientRectangle>0,0,749,180</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,16,Bold</Font>
+              <Margins>5,0,0,0</Margins>
               <Name>Text6</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
               <Text>{Line}</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="25" type="GeneralFormat" isKey="true" />
+              <TextBrush>[255:255:255]</TextBrush>
             </Text6>
-            <Text17 Ref="26" type="Text" isKey="true">
-              <Border>All;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>AntiqueWhite</Brush>
-              <ClientRectangle>7.8,0.6,8,0.8</ClientRectangle>
-              <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="27" type="HighlightCondition" isKey="true">
-                <Brush>LightCoral</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+            <Text17 Ref="15" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>310,20,410,30</ClientRectangle>
+              <ComponentStyle>Data2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Margins>5,0,0,0</Margins>
               <Name>Text17</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
               <Text>{EmployeesITypedList.EmployeeName}</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="28" type="GeneralFormat" isKey="true" />
+              <TextBrush>[74:74:74]</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text17>
-            <Text1 Ref="29" type="Text" isKey="true">
-              <Border>All;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>AntiqueWhite</Brush>
-              <ClientRectangle>7.8,1.6,10.4,0.8</ClientRectangle>
-              <Font>Arial,14</Font>
-              <HighlightCondition Ref="30" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+            <Text1 Ref="16" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>310,60,410,30</ClientRectangle>
+              <ComponentStyle>Data2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Margins>5,0,0,0</Margins>
               <Name>Text1</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
               <Text>{EmployeesITypedList.Department.Company.CompanyName}</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="31" type="GeneralFormat" isKey="true" />
+              <TextBrush>[74:74:74]</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <Text2 Ref="32" type="Text" isKey="true">
-              <Border>All;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>AntiqueWhite</Brush>
-              <ClientRectangle>7.8,2.6,10.4,0.8</ClientRectangle>
-              <Font>Arial,14</Font>
-              <HighlightCondition Ref="33" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+            <Text2 Ref="17" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>310,100,410,30</ClientRectangle>
+              <ComponentStyle>Data2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Margins>5,0,0,0</Margins>
               <Name>Text2</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
               <Text>{EmployeesITypedList.Department.DepartmentName}</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="34" type="GeneralFormat" isKey="true" />
+              <TextBrush>[74:74:74]</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text2>
-            <Text3 Ref="35" type="Text" isKey="true">
-              <Border>All;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>AntiqueWhite</Brush>
-              <ClientRectangle>7.8,3.6,6.2,0.8</ClientRectangle>
-              <Font>Arial,14</Font>
-              <HighlightCondition Ref="36" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+            <Text3 Ref="18" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>310,140,410,30</ClientRectangle>
+              <ComponentStyle>Data2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Margins>5,0,0,0</Margins>
               <Name>Text3</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
               <Text>{EmployeesITypedList.Email}</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="37" type="GeneralFormat" isKey="true" />
+              <TextBrush>[74:74:74]</TextBrush>
               <VertAlignment>Center</VertAlignment>
             </Text3>
-            <Text9 Ref="38" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>1.8,0.6,5.8,0.8</ClientRectangle>
-              <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="39" type="HighlightCondition" isKey="true">
-                <Brush>LightCoral</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
+            <Text9 Ref="19" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>70,20,230,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Bold</Font>
               <HorAlignment>Right</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,5,0,0</Margins>
               <Name>Text9</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
-              <Text>Name</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="40" type="GeneralFormat" isKey="true" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Name:</Text>
+              <TextBrush>[74:74:74]</TextBrush>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text9>
-            <Text14 Ref="41" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>1.8,1.6,5.8,0.8</ClientRectangle>
-              <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="42" type="HighlightCondition" isKey="true">
-                <Brush>LightCoral</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
+            <Text14 Ref="20" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>70,60,230,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Bold</Font>
               <HorAlignment>Right</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,5,0,0</Margins>
               <Name>Text14</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
-              <Text>Company</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="43" type="GeneralFormat" isKey="true" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Company:</Text>
+              <TextBrush>[74:74:74]</TextBrush>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text14>
-            <Text15 Ref="44" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>1.8,2.6,5.8,0.8</ClientRectangle>
-              <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="45" type="HighlightCondition" isKey="true">
-                <Brush>LightCoral</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
+            <Text15 Ref="21" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>70,100,230,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Bold</Font>
               <HorAlignment>Right</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,5,0,0</Margins>
               <Name>Text15</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
-              <Text>Department</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="46" type="GeneralFormat" isKey="true" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>Department:</Text>
+              <TextBrush>[74:74:74]</TextBrush>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text15>
-            <Text16 Ref="47" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>1.8,3.6,5.8,0.8</ClientRectangle>
-              <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="48" type="HighlightCondition" isKey="true">
-                <Brush>LightCoral</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
+            <Text16 Ref="22" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>70,140,230,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Bold</Font>
               <HorAlignment>Right</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,5,0,0</Margins>
               <Name>Text16</Name>
-              <Page isRef="6" />
-              <Parent isRef="22" />
-              <Text>E-mail</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="49" type="GeneralFormat" isKey="true" />
+              <Page isRef="5" />
+              <Parent isRef="13" />
+              <Text>E-mail:</Text>
+              <TextBrush>[74:74:74]</TextBrush>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text16>
           </Components>
-          <DataRelationName />
+          <ComponentStyle>Header3</ComponentStyle>
+          <Conditions isList="true" count="0" />
           <DataSourceName>EmployeesITypedList</DataSourceName>
-          <Dock>Top</Dock>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
           <KeepChildTogether>True</KeepChildTogether>
-          <KeepTogetherFirstChild>False</KeepTogetherFirstChild>
-          <Modifiers isList="true" count="0" />
+          <KeepDetails>KeepDetailsTogether</KeepDetails>
           <Name>DataBand1</Name>
-          <Page isRef="6" />
-          <Parent isRef="6" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
           <ResetDataSource>True</ResetDataSource>
           <Sort isList="true" count="2">
             <value>ASC</value>
             <value>EmployeeName</value>
           </Sort>
         </DataBand1>
-        <DataBand2 Ref="50" type="DataBand" isKey="true">
-          <ClientRectangle>0,10.8,19.03,1</ClientRectangle>
+        <DataBand2 Ref="23" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,450,749.22,40</ClientRectangle>
           <Components isList="true" count="3">
-            <Text20 Ref="51" type="Text" isKey="true">
-              <Border>Left, Right;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>Wheat</Brush>
-              <ClientRectangle>0,0,19,1</ClientRectangle>
-              <Font>Arial,20,Bold</Font>
-              <HighlightCondition Ref="52" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+            <Text20 Ref="24" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>[77:182:172]</Brush>
+              <ClientRectangle>0,0,749,40</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <Margins>0,0,0,0</Margins>
               <Name>Text20</Name>
-              <Page isRef="6" />
-              <Parent isRef="50" />
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="53" type="GeneralFormat" isKey="true" />
+              <Page isRef="5" />
+              <Parent isRef="23" />
+              <TextBrush>[255:255:255]</TextBrush>
             </Text20>
-            <Text4 Ref="54" type="Text" isKey="true">
-              <Border>All;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>AntiqueWhite</Brush>
-              <ClientRectangle>7.8,0,6.2,0.8</ClientRectangle>
-              <Font>Arial,14</Font>
-              <HighlightCondition Ref="55" type="HighlightCondition" isKey="true">
-                <Brush>PapayaWhip</Brush>
-                <Font>Arial,10</Font>
-                <TextBrush>Black</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+            <Text4 Ref="25" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>310,0,410,30</ClientRectangle>
+              <ComponentStyle>Data2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Margins>5,0,0,0</Margins>
               <Name>Text4</Name>
-              <Page isRef="6" />
-              <Parent isRef="50" />
+              <Page isRef="5" />
+              <Parent isRef="23" />
               <Text>{PhonesITypedList.Number}</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="56" type="NumberFormat" isKey="true">
+              <TextBrush>[74:74:74]</TextBrush>
+              <TextFormat Ref="26" type="NumberFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
               </TextFormat>
               <VertAlignment>Center</VertAlignment>
             </Text4>
-            <Text18 Ref="57" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>1.8,0,5.8,1</ClientRectangle>
-              <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="58" type="HighlightCondition" isKey="true">
-                <Brush>LightCoral</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
+            <Text18 Ref="27" type="Text" isKey="true">
+              <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[224:242:241]</Brush>
+              <ClientRectangle>70,0,230,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Bold</Font>
               <HorAlignment>Right</HorAlignment>
-              <MergeDuplicates>True</MergeDuplicates>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,5,0,0</Margins>
               <Name>Text18</Name>
-              <Page isRef="6" />
-              <Parent isRef="50" />
-              <Text>Phones</Text>
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="59" type="GeneralFormat" isKey="true" />
+              <Page isRef="5" />
+              <Parent isRef="23" />
+              <ProcessingDuplicates>Hide</ProcessingDuplicates>
+              <Text>Phones:</Text>
+              <TextBrush>[74:74:74]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text18>
           </Components>
+          <Conditions isList="true" count="0" />
           <DataRelationName>PhonesITypedListRelation</DataRelationName>
           <DataSourceName>PhonesITypedList</DataSourceName>
-          <Dock>Top</Dock>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
           <KeepChildTogether>True</KeepChildTogether>
-          <MasterComponent isRef="22" />
-          <Modifiers isList="true" count="0" />
+          <KeepDetails>KeepDetailsTogether</KeepDetails>
+          <MasterComponent isRef="13" />
           <Name>DataBand2</Name>
-          <Page isRef="6" />
-          <Parent isRef="6" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
           <Sort isList="true" count="2">
             <value>ASC</value>
             <value>ProductName</value>
           </Sort>
         </DataBand2>
-        <FooterBand1 Ref="60" type="FooterBand" isKey="true">
-          <ClientRectangle>0,12.6,19.03,1</ClientRectangle>
+        <FooterBand1 Ref="28" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,530,749.22,40</ClientRectangle>
           <Components isList="true" count="1">
-            <Text19 Ref="61" type="Text" isKey="true">
-              <Border>Left, Right, Bottom;SaddleBrown;3;Solid;False;4;Black</Border>
-              <Brush>Wheat</Brush>
-              <ClientRectangle>0,0,19,0.6</ClientRectangle>
-              <Font>Arial,20,Bold</Font>
-              <HighlightCondition Ref="62" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+            <Text19 Ref="29" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>[77:182:172]</Brush>
+              <ClientRectangle>0,0,749,20</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <Margins>0,0,0,0</Margins>
               <Name>Text19</Name>
-              <Page isRef="6" />
-              <Parent isRef="60" />
-              <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="63" type="GeneralFormat" isKey="true" />
+              <Page isRef="5" />
+              <Parent isRef="28" />
+              <TextBrush>[255:255:255]</TextBrush>
             </Text19>
           </Components>
-          <Dock>Top</Dock>
-          <Modifiers isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>FooterBand1</Name>
-          <Page isRef="6" />
-          <Parent isRef="6" />
+          <Page isRef="5" />
+          <Parent isRef="5" />
         </FooterBand1>
       </Components>
-      <Margins>0.99,0.99,0.99,0.99</Margins>
-      <Modifiers isList="true" count="0" />
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>b469d96eb97e4642be0c806065de46cc</Guid>
+      <Margins>38.9763779527559,38.9763779527559,38.9763779527559,38.9763779527559</Margins>
       <Name>Page1</Name>
-      <Page isRef="6" />
-      <PageHeight>29.69</PageHeight>
-      <PageWidth>21.01</PageWidth>
+      <PageHeight>1168.9</PageHeight>
+      <PageWidth>827.17</PageWidth>
       <Report isRef="0" />
     </Page1>
   </Pages>
-  <ReferencedAssemblies isList="true" count="8">
+  <ReferencedAssemblies isList="true" count="7">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
     <value>System.Windows.Forms.Dll</value>
@@ -473,38 +448,139 @@
     <value>System.Xml.Dll</value>
     <value>Stimulsoft.Base.Dll</value>
     <value>Stimulsoft.Report.Dll</value>
-    <value>Using_Business_Objects_in_the_Report.exe</value>
   </ReferencedAssemblies>
   <ReportAlias>ITypedList</ReportAlias>
   <ReportAuthor isNull="true" />
-  <ReportChanged>5/11/2005 1:20 AM</ReportChanged>
-  <ReportCreated>5/29/2004 10:59 AM</ReportCreated>
+  <ReportChanged>7/8/2021 9:35:34 AM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
   <ReportDescription isNull="true" />
+  <ReportFile>D:\Stimulsoft\Samples\Samples-ASP.NET-MVC-CSharp\Using Business Objects in the Report\Content\Reports\BusinessObjects_ITypedList.mrt</ReportFile>
+  <ReportGuid>1f13105b14094bfe9ea3b0171c2ac716</ReportGuid>
   <ReportName>Report</ReportName>
-  <ReportVersion>1.20</ReportVersion>
-  <Script>using System;
-using System.Drawing;
-using System.Windows.Forms;
-using System.Data;
-using Stimulsoft.Report;
-using Stimulsoft.Report.Components;
-using Stimulsoft.Base.Drawing;
-using Using_Business_Objects_in_the_Report;
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2021.3.4.0</ReportVersion>
+  <Script>
+	  using System;
+	  using System.Drawing;
+	  using System.Windows.Forms;
+	  using System.Data;
+	  using Stimulsoft.Report;
+	  using Stimulsoft.Report.Components;
+	  using Stimulsoft.Base.Drawing;
+	  using Using_Business_Objects_in_the_Report;
 
-namespace StiReports
-{
-    
-    public class Report : Stimulsoft.Report.StiReport
-    {
-        
-        public Report()
-        {
-            this.InitializeComponent();
-        }
-        
-        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
-    }
-}
-</Script>
-  <Unit Ref="64" type="cm" isKey="true" />
+	  namespace StiReports
+	  {
+
+	  public class Report : Stimulsoft.Report.StiReport
+	  {
+
+	  public Report()
+	  {
+	  this.InitializeComponent();
+	  }
+
+	  #region StiReport Designer generated code - do not modify
+	  #endregion StiReport Designer generated code - do not modify
+	  }
+	  }
+  </Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="9">
+    <Title1 Ref="30" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Left;[96:125:139];1;Solid;False;4;Black</Border>
+      <Brush>[96:125:139]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,14.25,Bold,Point,False,204</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Title1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Title1>
+    <Header2 Ref="31" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[158:158:158];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[158:158:158]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header2>
+    <Header_x0020_Master Ref="32" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[158:158:158];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,20.25,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header Master</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>White</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header_x0020_Master>
+    <Header3 Ref="33" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;Transparent;1;Solid;False;4;Black</Border>
+      <Brush>[77:182:172]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,12,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header3</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header3>
+    <Header4 Ref="34" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[96:125:139];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,10,Bold,Point,False,0</Font>
+      <Name>Header4</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[77:182:172]</TextBrush>
+    </Header4>
+    <Data1 Ref="35" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[182:182:182];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <Name>Data1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[74:74:74]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data1>
+    <Data2 Ref="36" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+      <Brush>[224:242:241]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <Name>Data2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[74:74:74]</TextBrush>
+    </Data2>
+    <Footer2 Ref="37" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[158:158:158]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer2>
+    <Footer_x0020_Master Ref="38" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer Master</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>White</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer_x0020_Master>
+  </Styles>
 </StiSerializer>
