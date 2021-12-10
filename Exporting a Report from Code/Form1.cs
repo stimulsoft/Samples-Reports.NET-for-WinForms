@@ -7,7 +7,7 @@ using System.Data;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Export;
 
-namespace Exporting_a_Report_to_the_Required_Format_from_Code
+namespace Exporting_a_Report_from_Code
 {
 	/// <summary>
 	/// Summary description for Form1.
@@ -224,7 +224,7 @@ namespace Exporting_a_Report_to_the_Required_Format_from_Code
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Exporting a Report to the Required Format from Code";
+            this.Text = "Exporting a Report from Code";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
