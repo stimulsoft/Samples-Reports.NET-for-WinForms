@@ -10,7 +10,7 @@ This repository has many examples (Visual Studio Projects) each in different fol
 * Customizing the Viewer
 * Demo
 * Exporting Many Files to Single PDF
-* Exporting a Report to the Required Format from Code
+* Exporting a Report from Code
 * Globalizing Reports
 * Drilling Down Report in Live
 * Testing Memory Usage in EngineV1 and EngineV2
