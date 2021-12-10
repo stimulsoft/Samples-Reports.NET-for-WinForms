@@ -656,13 +656,22 @@
     <StiWinControl>Win кампанент</StiWinControl>
     <StiZipCode>Паштовы індэкс</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Вылучыць усё</CheckedAll>
+    <HideText>Схаваць тэкст</HideText>
+    <KeysChangePosition>Клавішы (Налева, Угару, Направа, Уніз) выкарыстоўваюцца для змены пазіцыі тэксту</KeysChangePosition>
+    <KeysChangeSize>Shift + клавішы (Налева, Угару, Направа, Уніз) выкарыстоўваюцца для змены памеру вобласці тэксту</KeysChangeSize>
+    <UncheckedAll>Зняць усё</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Дадаць дыяпазон</AddRange>
     <AfterGroupingData>Ужыць пасля групоўкі</AfterGroupingData>
+    <AfterSortingData>Ужыць пасля групоўкі і сартавання</AfterSortingData>
     <AllowUserColumnSelection>Дазволіць выбар карыстацкай калонкі</AllowUserColumnSelection>
     <AllowUserDrillDown>Дазволіць карыстацкую дэталізацыю</AllowUserDrillDown>
     <AllowUserFiltering>Дазволіць карыстацкае фільтраванне</AllowUserFiltering>
     <AllowUserSorting>Дазволіць карыстацкае сартаванне</AllowUserSorting>
+    <BeforeTransformation>Ужыць да трансфармацыі</BeforeTransformation>
     <Blank>(Пусты)</Blank>
     <Blanks>(Прабелы)</Blanks>
     <BooleanFilters>Булеўскія фільтры</BooleanFilters>
@@ -717,6 +726,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Лікавыя фільтры</NumberFilters>
     <ParentElement>Галоўны элемент</ParentElement>
+    <Priority>Прыярытэт</Priority>
     <RangeMode>Рэжым дыяпазону</RangeMode>
     <RangeType>Тып дыяпазону</RangeType>
     <RemoveActions>Выдаліць дзеянні</RemoveActions>
@@ -1218,6 +1228,7 @@
     <AssignExpression>Прысвоіць выраз</AssignExpression>
     <BreakIfTrue>Сапыніць апрацоўку</BreakIfTrue>
     <BreakIfTrueToolTip>Спынiць апрацоўку умоў, калі бягучае выконваецца</BreakIfTrueToolTip>
+    <ChangeBorder>Змяніць мяжу...</ChangeBorder>
     <ChangeFont>Змяніць шрыфт</ChangeFont>
     <ComponentIsEnabled>Кампанент уключаны</ComponentIsEnabled>
     <NoConditions>Няма ўмоў</NoConditions>
@@ -2679,6 +2690,7 @@
     <ListBoxCategory>Спіс</ListBoxCategory>
     <MainCategory>Асноўныя</MainCategory>
     <MarkerCategory>Маркер</MarkerCategory>
+    <MathFormulaCategory>Матэматычная формула</MathFormulaCategory>
     <MiscCategory>Іншыя</MiscCategory>
     <MouseEventsCategory>Мыш</MouseEventsCategory>
     <NavigationCategory>Навігацыя</NavigationCategory>
@@ -3419,6 +3431,9 @@
     <StiTextQualityStandard>Стандарт</StiTextQualityStandard>
     <StiTextQualityTypographic>Друкарскі</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Змясціць</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Абразаць</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Перанос словаў</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Дзень</StiTimeDateStepDay>
     <StiTimeDateStepHour>Гадзіна</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Хвіліна</StiTimeDateStepMinute>
@@ -3674,6 +3689,7 @@
     <Borders>Межы</Borders>
     <BorderSize>Памер пэндзля</BorderSize>
     <BorderStyle>Стыль мяжы</BorderStyle>
+    <BorderThickness>Таўшчыня мяжы</BorderThickness>
     <BorderWidth>Таўшчыня мяжы</BorderWidth>
     <Bottom>Знізу</Bottom>
     <BottomLeft>Унізе-Злева</BottomLeft>
@@ -3710,7 +3726,10 @@
     <ChartAreaBrush>Пэндзаль вобласці</ChartAreaBrush>
     <ChartAreaShowShadow>Паказаць цень</ChartAreaShowShadow>
     <ChartType>Тып дыяграмы</ChartType>
+    <CheckAlignment>Выраўнанне сцяжка</CheckAlignment>
+    <CheckColor>Колер сцяжка</CheckColor>
     <Checked>Уключана</Checked>
+    <CheckedIcon>Значок - Адзначана</CheckedIcon>
     <CheckOnClick>Уключаць пры націску</CheckOnClick>
     <CheckStyle>Стыль сцяжка</CheckStyle>
     <CheckStyleForFalse>Стыль значка для False</CheckStyleForFalse>
@@ -3976,6 +3995,7 @@
     <HyperlinkPattern>Шаблон гіперспасылкі</HyperlinkPattern>
     <Icon>Значок</Icon>
     <IconAlignment>Выраўнанне значка</IconAlignment>
+    <IconBrush>Пэндзаль значка</IconBrush>
     <IconColor>Колер значка</IconColor>
     <IconSet>Набор значкоў</IconSet>
     <IconSetCondition>Набор значкоў</IconSetCondition>
@@ -4184,6 +4204,7 @@
     <OpenValues>Ззначэння адкрыцця</OpenValues>
     <Operation>Аперацыя</Operation>
     <Options>Параметры</Options>
+    <Options3D>3D параметры</Options3D>
     <Orientation>Арыентацыя</Orientation>
     <OthersText>Тэкст для астатніх значэнняў</OthersText>
     <Padding>Водступ ўнутры</Padding>
@@ -4517,6 +4538,7 @@
     <Type>Тып</Type>
     <TypeName>Найменне тыпу</TypeName>
     <Types>Тыпы</Types>
+    <UncheckedIcon>Значок - Не Адзначана</UncheckedIcon>
     <Underline>Падкрэслены</Underline>
     <UndoLimit>Колькасць крокаў</UndoLimit>
     <Unit>Адзінка вымярэння</Unit>
@@ -4722,6 +4744,8 @@
     <FinishingReport>Завяршэнне справаздачы</FinishingReport>
     <FirstPass>Першы праход</FirstPass>
     <FixedBugs>Выпраўленыя памылкі</FixedBugs>
+    <FromCurrentState>З бягучага стану</FromCurrentState>
+    <FromDefaultState>Са стану па змаўчанні</FromDefaultState>
     <Gallery>Галерэя</Gallery>
     <GenerateNewCode>Згенераваць новы код</GenerateNewCode>
     <History>Гісторыя</History>
@@ -4872,6 +4896,7 @@
     <NumberOfDayNone>Няма</NumberOfDayNone>
     <NumberOfDaySecond>Другі</NumberOfDaySecond>
     <NumberOfDayThird>Трэці</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Адкрыць планавальнік заданняў Windows</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Калі ласка, выберыце тып планавальніка</PleaseSelectSchedulerType>
     <RadioButtonDay>Дзень</RadioButtonDay>
     <RadioButtonOn>По</RadioButtonOn>

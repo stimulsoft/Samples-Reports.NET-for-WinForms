@@ -638,6 +638,7 @@
     <StiReportTitleBand>보고서의 제목</StiReportTitleBand>
     <StiRichText>서식있는 텍스트</StiRichText>
     <StiRoundedRectanglePrimitive>둥근 직사각형</StiRoundedRectanglePrimitive>
+    <StiScreen>화면</StiScreen>
     <StiShape>모양</StiShape>
     <StiSparkline>스파크라인</StiSparkline>
     <StiSubReport>하위 보고서</StiSubReport>
@@ -652,13 +653,22 @@
     <StiWinControl>윈도우컨트롤</StiWinControl>
     <StiZipCode>우편 번호</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>모두 선택</CheckedAll>
+    <HideText>문자 숨기기</HideText>
+    <KeysChangePosition>방향키 (←,↑,→,↓)는 텍스트의 위치를 변경</KeysChangePosition>
+    <KeysChangeSize>Shift + 방향키 (←,↑,→,↓)는 텍스트 영역의 크기를 변경</KeysChangeSize>
+    <UncheckedAll>선택 취소</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>범위 추가</AddRange>
     <AfterGroupingData>데이터를 그룹화 한 후 적용</AfterGroupingData>
+    <AfterSortingData>데이터를 그룹화 및 정렬한 후 적용</AfterSortingData>
     <AllowUserColumnSelection>사용자 열 선택 허용</AllowUserColumnSelection>
     <AllowUserDrillDown>사용자 드릴다운허용</AllowUserDrillDown>
     <AllowUserFiltering>사용자 필터허용</AllowUserFiltering>
     <AllowUserSorting>사용자 정렬허용</AllowUserSorting>
+    <BeforeTransformation>데이터 변환 전에 적용</BeforeTransformation>
     <Blank>(공백)</Blank>
     <Blanks>(공백)</Blanks>
     <BooleanFilters>부울 필터</BooleanFilters>
@@ -711,6 +721,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>수치 필터</NumberFilters>
     <ParentElement>부모 요소</ParentElement>
+    <Priority>우선 순위</Priority>
     <RangeMode>범위 모드</RangeMode>
     <RangeType>범위 타입</RangeType>
     <RemoveActions>액션의 삭제</RemoveActions>
@@ -1211,6 +1222,7 @@
     <AssignExpression>표현식 할당</AssignExpression>
     <BreakIfTrue>True이면 브레이크</BreakIfTrue>
     <BreakIfTrueToolTip>현재의 조건을 충족하는 경우 조건 처리를 중단합니다.</BreakIfTrueToolTip>
+    <ChangeBorder>테두리 변경...</ChangeBorder>
     <ChangeFont>글꼴 변경...</ChangeFont>
     <ComponentIsEnabled>요소는 유효합니다</ComponentIsEnabled>
     <NoConditions>조건없음</NoConditions>
@@ -1478,6 +1490,7 @@
     <BlankDashboard>빈 대시보드</BlankDashboard>
     <BlankForm>비어있는 폼</BlankForm>
     <BlankReport>빈 보고서</BlankReport>
+    <BlankScreen>빈 화면</BlankScreen>
     <Default>기본</Default>
     <DefaultScriptMode>기본 스크립트 모드</DefaultScriptMode>
     <Drawing>그림 그리기</Drawing>
@@ -2251,6 +2264,7 @@
     <menuFileReportWizardNew>마법사에서 새 보고서(&amp;W)...</menuFileReportWizardNew>
     <menuFileSave>저장(&amp;S)</menuFileSave>
     <menuFileSaveAs>다른 이름으로 저장...</menuFileSaveAs>
+    <menuFileScreenNew>새 화면</menuFileScreenNew>
     <menuHelp>도움말(&amp;H)</menuHelp>
     <menuHelpAboutProgramm>대하여(&amp;H)...</menuHelpAboutProgramm>
     <menuHelpContents>내용</menuHelpContents>
@@ -2612,6 +2626,7 @@
     <ListBoxCategory>목록 상자</ListBoxCategory>
     <MainCategory>메인</MainCategory>
     <MarkerCategory>마커</MarkerCategory>
+    <MathFormulaCategory>수학 공식</MathFormulaCategory>
     <MiscCategory>기타</MiscCategory>
     <MouseEventsCategory>마우스 이벤트</MouseEventsCategory>
     <NavigationCategory>탐색</NavigationCategory>
@@ -2937,6 +2952,9 @@
     <StiChartTrendLineTypeLinear>선형</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>로그</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>없음</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>체크</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>알수없음</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>언체크</StiCheckStateUnchecked>
     <StiCheckStyleCheck>확인</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>체크 사각형</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>크로스</StiCheckStyleCross>
@@ -3325,6 +3343,9 @@
     <StiTextQualityStandard>표준</StiTextQualityStandard>
     <StiTextQualityTypographic>활자</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>채우기</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>자르기</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>줄바꿈</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>일</StiTimeDateStepDay>
     <StiTimeDateStepHour>시</StiTimeDateStepHour>
     <StiTimeDateStepMinute>분</StiTimeDateStepMinute>
@@ -3578,6 +3599,7 @@
     <Borders>테두리</Borders>
     <BorderSize>테두리 크기</BorderSize>
     <BorderStyle>테두리 스타일</BorderStyle>
+    <BorderThickness>테두리 두께</BorderThickness>
     <BorderWidth>테두리 폭</BorderWidth>
     <Bottom>하단</Bottom>
     <BottomLeft>아래-왼쪽</BottomLeft>
@@ -3614,7 +3636,10 @@
     <ChartAreaBrush>영역 브러쉬</ChartAreaBrush>
     <ChartAreaShowShadow>섀도우보기</ChartAreaShowShadow>
     <ChartType>차트 종류</ChartType>
+    <CheckAlignment>정렬 체크</CheckAlignment>
+    <CheckColor>색상 체크</CheckColor>
     <Checked>체크박스값</Checked>
+    <CheckedIcon>아이콘 체크</CheckedIcon>
     <CheckOnClick>클릭하여 확인</CheckOnClick>
     <CheckStyle>체크 스타일</CheckStyle>
     <CheckStyleForFalse>Flase 스타일설정</CheckStyleForFalse>
@@ -3879,6 +3904,7 @@
     <HyperlinkPattern>하이퍼링크 패턴</HyperlinkPattern>
     <Icon>아이콘</Icon>
     <IconAlignment>아이콘 정렬</IconAlignment>
+    <IconBrush>브러시 아이콘</IconBrush>
     <IconColor>아이콘 색상</IconColor>
     <IconSet>아이콘 세트</IconSet>
     <IconSetCondition>아이콘 세트 조건</IconSetCondition>
@@ -4084,6 +4110,7 @@
     <OpenValues>오픈 가치</OpenValues>
     <Operation>작업</Operation>
     <Options>옵션</Options>
+    <Options3D>3D 옵션</Options3D>
     <Orientation>페이지방향</Orientation>
     <OthersText>기타 텍스트</OthersText>
     <Padding>패딩</Padding>
@@ -4412,6 +4439,7 @@
     <Type>유형</Type>
     <TypeName>유형 이름</TypeName>
     <Types>유형</Types>
+    <UncheckedIcon>언체크 아이콘</UncheckedIcon>
     <Underline>밑줄</Underline>
     <UndoLimit>취소 제한</UndoLimit>
     <Unit>단위</Unit>
@@ -4616,6 +4644,8 @@
     <FinishingReport>마무리 보고서</FinishingReport>
     <FirstPass>패스트 패스</FirstPass>
     <FixedBugs>고정 버그</FixedBugs>
+    <FromCurrentState>현재 상태</FromCurrentState>
+    <FromDefaultState>기본 상태</FromDefaultState>
     <Gallery>갤러리</Gallery>
     <GenerateNewCode>새로운 코드를 생성하는</GenerateNewCode>
     <History>역사</History>
@@ -4764,6 +4794,7 @@
     <NumberOfDayNone>None</NumberOfDayNone>
     <NumberOfDaySecond>두번째</NumberOfDaySecond>
     <NumberOfDayThird>세번째</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Windows 작업 스케줄러를 열기</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>스케줄러 유형을 선택하세요.</PleaseSelectSchedulerType>
     <RadioButtonDay>일</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
@@ -4974,6 +5005,7 @@
     <BlankDashboard>빈 대시보드</BlankDashboard>
     <BlankForm>비어있는 폼</BlankForm>
     <BlankReport>빈 보고서</BlankReport>
+    <BlankScreen>빈 화면</BlankScreen>
     <ButtonBack>&lt; &amp; Back</ButtonBack>
     <ButtonCancel>취소</ButtonCancel>
     <ButtonFinish>마무리(&amp;F)</ButtonFinish>

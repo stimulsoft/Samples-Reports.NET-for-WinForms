@@ -638,6 +638,7 @@
     <StiReportTitleBand>Report Title</StiReportTitleBand>
     <StiRichText>Rich Text</StiRichText>
     <StiRoundedRectanglePrimitive>Rounded Rectangle</StiRoundedRectanglePrimitive>
+    <StiScreen>Screen</StiScreen>
     <StiShape>Shape</StiShape>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-Report</StiSubReport>
@@ -652,13 +653,22 @@
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>ZIP Code</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Checked All</CheckedAll>
+    <HideText>Hide Text</HideText>
+    <KeysChangePosition>Keys (Left, Top, Right, Bottom) change the position of the text</KeysChangePosition>
+    <KeysChangeSize>Shift + keys (Left, Top, Right, Bottom) change the size of the text area</KeysChangeSize>
+    <UncheckedAll>Unchecked All</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Add Range</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
+    <AfterSortingData>Apply after grouping and sorting data</AfterSortingData>
     <AllowUserColumnSelection>Allow User Column Selection</AllowUserColumnSelection>
     <AllowUserDrillDown>Allow User Drill-Down</AllowUserDrillDown>
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
+    <BeforeTransformation>Apply before data transformation</BeforeTransformation>
     <Blank>(Blank)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
@@ -711,6 +721,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Number Filters</NumberFilters>
     <ParentElement>Parent Element</ParentElement>
+    <Priority>Priority</Priority>
     <RangeMode>Range Mode</RangeMode>
     <RangeType>Range Type</RangeType>
     <RemoveActions>R&amp;emove Actions</RemoveActions>
@@ -1211,6 +1222,7 @@
     <AssignExpression>Assign Expression</AssignExpression>
     <BreakIfTrue>Break if True</BreakIfTrue>
     <BreakIfTrueToolTip>Breaks condition processing if current one is fulfilled</BreakIfTrueToolTip>
+    <ChangeBorder>Change Border...</ChangeBorder>
     <ChangeFont>Change Font...</ChangeFont>
     <ComponentIsEnabled>Component is Enabled</ComponentIsEnabled>
     <NoConditions>No Conditions</NoConditions>
@@ -1478,6 +1490,7 @@
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
+    <BlankScreen>Blank Screen</BlankScreen>
     <Default>Default</Default>
     <DefaultScriptMode>Default Script Mode</DefaultScriptMode>
     <Drawing>Drawing</Drawing>
@@ -2251,6 +2264,7 @@
     <menuFileReportWizardNew>New Report with &amp;Wizard...</menuFileReportWizardNew>
     <menuFileSave>&amp;Save</menuFileSave>
     <menuFileSaveAs>Save As...</menuFileSaveAs>
+    <menuFileScreenNew>New Screen</menuFileScreenNew>
     <menuHelp>&amp;Help</menuHelp>
     <menuHelpAboutProgramm>&amp;About...</menuHelpAboutProgramm>
     <menuHelpContents>&amp;Contents</menuHelpContents>
@@ -2618,6 +2632,7 @@
     <ListBoxCategory>List Box</ListBoxCategory>
     <MainCategory>Main</MainCategory>
     <MarkerCategory>Marker</MarkerCategory>
+    <MathFormulaCategory>Math Formula</MathFormulaCategory>
     <MiscCategory>Misc</MiscCategory>
     <MouseEventsCategory>Mouse Events</MouseEventsCategory>
     <NavigationCategory>Navigation</NavigationCategory>
@@ -2943,6 +2958,9 @@
     <StiChartTrendLineTypeLinear>Linear</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>Logarithmic</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>None</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>Checked</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Indeterminate</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Unchecked</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Check</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Check Rectangle</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Cross</StiCheckStyleCross>
@@ -3346,6 +3364,9 @@
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Typographic</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Fit</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Trimming</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>WordWrap</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Day</StiTimeDateStepDay>
     <StiTimeDateStepHour>Hour</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Minute</StiTimeDateStepMinute>
@@ -3599,6 +3620,7 @@
     <Borders>Borders</Borders>
     <BorderSize>Border Size</BorderSize>
     <BorderStyle>Border Style</BorderStyle>
+    <BorderThickness>Border Thickness</BorderThickness>
     <BorderWidth>Border Width</BorderWidth>
     <Bottom>Bottom</Bottom>
     <BottomLeft>Bottom-Left</BottomLeft>
@@ -3635,7 +3657,10 @@
     <ChartAreaBrush>Area Brush</ChartAreaBrush>
     <ChartAreaShowShadow>Show Shadow</ChartAreaShowShadow>
     <ChartType>Chart Type</ChartType>
+    <CheckAlignment>Check Alignment</CheckAlignment>
+    <CheckColor>Check Colour</CheckColor>
     <Checked>Checked</Checked>
+    <CheckedIcon>Checked Icon</CheckedIcon>
     <CheckOnClick>Check on Click</CheckOnClick>
     <CheckStyle>Check Style</CheckStyle>
     <CheckStyleForFalse>Check Style for False</CheckStyleForFalse>
@@ -3900,6 +3925,7 @@
     <HyperlinkPattern>Hyperlink Pattern</HyperlinkPattern>
     <Icon>Icon</Icon>
     <IconAlignment>Icon Alignment</IconAlignment>
+    <IconBrush>Icon Brush</IconBrush>
     <IconColor>Icon Colour</IconColor>
     <IconSet>Icon Set</IconSet>
     <IconSetCondition>Icon Set Condition</IconSetCondition>
@@ -4105,6 +4131,7 @@
     <OpenValues>Open Values</OpenValues>
     <Operation>Operation</Operation>
     <Options>Options</Options>
+    <Options3D>Options 3D</Options3D>
     <Orientation>Orientation</Orientation>
     <OthersText>Others Text</OthersText>
     <Padding>Padding</Padding>
@@ -4433,6 +4460,7 @@
     <Type>Type</Type>
     <TypeName>Type Name</TypeName>
     <Types>Types</Types>
+    <UncheckedIcon>Unchecked Icon</UncheckedIcon>
     <Underline>Underline</Underline>
     <UndoLimit>Undo Limit</UndoLimit>
     <Unit>Unit</Unit>
@@ -4637,6 +4665,8 @@
     <FinishingReport>Finishing Report</FinishingReport>
     <FirstPass>First Pass</FirstPass>
     <FixedBugs>Fixed Bugs</FixedBugs>
+    <FromCurrentState>From Current State</FromCurrentState>
+    <FromDefaultState>From Default State</FromDefaultState>
     <Gallery>Gallery</Gallery>
     <GenerateNewCode>Generate New Code</GenerateNewCode>
     <History>History</History>
@@ -4786,6 +4816,7 @@
     <NumberOfDayNone>None</NumberOfDayNone>
     <NumberOfDaySecond>Second</NumberOfDaySecond>
     <NumberOfDayThird>Third</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Open Windows Task Scheduler</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Please select a scheduler type</PleaseSelectSchedulerType>
     <RadioButtonDay>Day</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
@@ -4996,6 +5027,7 @@
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
+    <BlankScreen>Blank Screen</BlankScreen>
     <ButtonBack>&lt; &amp;Back</ButtonBack>
     <ButtonCancel>Cancel</ButtonCancel>
     <ButtonFinish>&amp;Finish</ButtonFinish>

@@ -639,6 +639,7 @@
     <StiReportTitleBand>Заглавие на отчет</StiReportTitleBand>
     <StiRichText>Rich текст</StiRichText>
     <StiRoundedRectanglePrimitive>Закръглен правоъгълник</StiRoundedRectanglePrimitive>
+    <StiScreen>Екран</StiScreen>
     <StiShape>Очертание</StiShape>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Вложен отчет</StiSubReport>
@@ -653,13 +654,22 @@
     <StiWinControl>Win компонент</StiWinControl>
     <StiZipCode>Пощенски код</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Всичко е маркирано</CheckedAll>
+    <HideText>Скрий текст</HideText>
+    <KeysChangePosition>Стрелки (наляво, нагоре, надясно, надолу) за промяна позицията на текста</KeysChangePosition>
+    <KeysChangeSize>Shift + стрелки (наляво, нагоре, надясно, надолу) за промяна размера на текста</KeysChangeSize>
+    <UncheckedAll>Всички отметки премахнати</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Добавяне обхват</AddRange>
     <AfterGroupingData>Приложете след групиране на данните</AfterGroupingData>
+    <AfterSortingData>Приложете след групиране и сортиране на данните</AfterSortingData>
     <AllowUserColumnSelection>Разрешаване на избор на колона на потребителя</AllowUserColumnSelection>
     <AllowUserDrillDown>Разрешаване на детаилизиране</AllowUserDrillDown>
     <AllowUserFiltering>Резрешаване филтриране</AllowUserFiltering>
     <AllowUserSorting>Разрешаване сортиране</AllowUserSorting>
+    <BeforeTransformation>Приложете преди транформацията на данните</BeforeTransformation>
     <Blank>(Празно)</Blank>
     <Blanks>(Бланки)</Blanks>
     <BooleanFilters>Булеви филтри</BooleanFilters>
@@ -712,6 +722,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Числови филтри</NumberFilters>
     <ParentElement>Родителски елемент</ParentElement>
+    <Priority>Приоритет</Priority>
     <RangeMode>Режим на обхват</RangeMode>
     <RangeType>Тип обхват</RangeType>
     <RemoveActions>П&amp;ремахнете действията</RemoveActions>
@@ -1213,6 +1224,7 @@
     <AssignExpression>Присвои израз</AssignExpression>
     <BreakIfTrue>Прекъсни ако е вярно</BreakIfTrue>
     <BreakIfTrueToolTip>Условие за прекъсване, ако текущото условие е изпълнено</BreakIfTrueToolTip>
+    <ChangeBorder>Промяна на границата...</ChangeBorder>
     <ChangeFont>Смени шрифт...</ChangeFont>
     <ComponentIsEnabled>Компонента е разрешен</ComponentIsEnabled>
     <NoConditions>Няма условия</NoConditions>
@@ -1480,6 +1492,7 @@
     <BlankDashboard>Празно табло</BlankDashboard>
     <BlankForm>Празен формуляр</BlankForm>
     <BlankReport>Празен отчет</BlankReport>
+    <BlankScreen>Празен екран</BlankScreen>
     <Default>По подразбиране</Default>
     <DefaultScriptMode>Скриптов режим по подразбиране</DefaultScriptMode>
     <Drawing>Изобразяване</Drawing>
@@ -2254,6 +2267,7 @@
     <menuFileReportWizardNew>Нов отчет със &amp;съветник...</menuFileReportWizardNew>
     <menuFileSave>&amp;Съхрани</menuFileSave>
     <menuFileSaveAs>Съхрани като...</menuFileSaveAs>
+    <menuFileScreenNew>Нов екран</menuFileScreenNew>
     <menuHelp>&amp;Помощ</menuHelp>
     <menuHelpAboutProgramm>&amp;Относно...</menuHelpAboutProgramm>
     <menuHelpContents>&amp;Съдържание...</menuHelpContents>
@@ -2331,6 +2345,7 @@
     <ResourceCannotBeDeleted>Ресурсът "{0}" не може да бъде изтрит, защото се използва в отчета!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>URL адресът за споделяне на елемента е актуализиран!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>За да споделите отчета си, трябва да запазите отчета в Stimulsoft облака!</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>Превключването между режимите ще доведе до загуба на промени. Искаш ли да продължиш? </SwitchingBetweenModes>
     <TextRegistrationSuccessfully>Регистрацията е успешна!
 
 Изпратен е Email до "{0}".
@@ -2618,6 +2633,7 @@
     <ListBoxCategory>List Box</ListBoxCategory>
     <MainCategory>Основни</MainCategory>
     <MarkerCategory>Маркер</MarkerCategory>
+    <MathFormulaCategory>Мат. формула</MathFormulaCategory>
     <MiscCategory>Прочие</MiscCategory>
     <MouseEventsCategory>Мишка</MouseEventsCategory>
     <NavigationCategory>Навигация</NavigationCategory>
@@ -2943,6 +2959,9 @@
     <StiChartTrendLineTypeLinear>Линейно</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>Логаритмично</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>Нито един</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>С отметка</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Неопределено</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Без отметка</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Квадратче</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Правоъгълник с квадратче</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Кръст</StiCheckStyleCross>
@@ -3346,6 +3365,9 @@
     <StiTextQualityStandard>Стандарт</StiTextQualityStandard>
     <StiTextQualityTypographic>Типографски</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Напасни</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Подрязване</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>WordWrap</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Ден</StiTimeDateStepDay>
     <StiTimeDateStepHour>Час</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Минута</StiTimeDateStepMinute>
@@ -3600,6 +3622,7 @@
     <Borders>Граници</Borders>
     <BorderSize>Рзмер Ивица</BorderSize>
     <BorderStyle>Стил граница</BorderStyle>
+    <BorderThickness>Дебелина на границата </BorderThickness>
     <BorderWidth>Ширина на граница</BorderWidth>
     <Bottom>Отдолу</Bottom>
     <BottomLeft>Долу-ляво</BottomLeft>
@@ -3636,7 +3659,10 @@
     <ChartAreaBrush>Площ на Четка</ChartAreaBrush>
     <ChartAreaShowShadow>Покажи сянка</ChartAreaShowShadow>
     <ChartType>Тип диаграма</ChartType>
+    <CheckAlignment>Проверка подравняване</CheckAlignment>
+    <CheckColor>Проверка цвят</CheckColor>
     <Checked>Включено</Checked>
+    <CheckedIcon>Иконас отметка</CheckedIcon>
     <CheckOnClick>Маркирай при щракване</CheckOnClick>
     <CheckStyle>Стил квадратче</CheckStyle>
     <CheckStyleForFalse>Стил квадратче при False</CheckStyleForFalse>
@@ -3901,6 +3927,7 @@
     <HyperlinkPattern>Модел на хипервръзка</HyperlinkPattern>
     <Icon>Икона</Icon>
     <IconAlignment>Подравняване на иконите</IconAlignment>
+    <IconBrush>Четка за икони</IconBrush>
     <IconColor>Цвят на икона</IconColor>
     <IconSet>Множесто икони</IconSet>
     <IconSetCondition>Условие за множество икони</IconSetCondition>
@@ -4107,6 +4134,7 @@
     <OpenValues>Отворени стойности</OpenValues>
     <Operation>Операция</Operation>
     <Options>Опции</Options>
+    <Options3D>Опции 3D</Options3D>
     <Orientation>Ориентация</Orientation>
     <OthersText>Друг текст</OthersText>
     <Padding>Подложка</Padding>
@@ -4436,6 +4464,7 @@
     <Type>Тип</Type>
     <TypeName>Име на тип</TypeName>
     <Types>Типове</Types>
+    <UncheckedIcon>Икона без отметка</UncheckedIcon>
     <Underline>Подчертан</Underline>
     <UndoLimit>Брой стъпки</UndoLimit>
     <Unit>Мерна единица</Unit>
@@ -4641,6 +4670,8 @@
     <FinishingReport>Завършване отчета</FinishingReport>
     <FirstPass>Първи преход</FirstPass>
     <FixedBugs>Поправка на грешки</FixedBugs>
+    <FromCurrentState>От текущо състояние</FromCurrentState>
+    <FromDefaultState>От състояние по подразбиране</FromDefaultState>
     <Gallery>Галерия</Gallery>
     <GenerateNewCode>Генериране на нов код</GenerateNewCode>
     <History>История</History>
@@ -4760,6 +4791,7 @@
     <EnableSSL>Разреши SSL</EnableSSL>
     <Expire>Изтича</Expire>
     <ForADuractionOf>за продължителност от</ForADuractionOf>
+    <ForADurationOf>за продължителност от</ForADurationOf>
     <GetFolder>Вземете папка</GetFolder>
     <GroupBoxFiles>Файлове</GroupBoxFiles>
     <Host>Хост</Host>
@@ -4791,6 +4823,7 @@
     <NumberOfDayNone>Няма</NumberOfDayNone>
     <NumberOfDaySecond>Втори</NumberOfDaySecond>
     <NumberOfDayThird>Трети</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Отворете Windows Task Scheduler</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Моля изберете типа на разписанието</PleaseSelectSchedulerType>
     <RadioButtonDay>Ден</RadioButtonDay>
     <RadioButtonOn>Включен</RadioButtonOn>
@@ -4801,6 +4834,7 @@
     <SenderEmail>Имейл на изпращача </SenderEmail>
     <SmtpSettings>Smtp настойки</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuraction>Спрете всички изпълнявани задачи в края на продължителността на повторение </StopAllRunningTasksAtEndOfRepetitionDuraction>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>Спрете всички изпълнявани задачи в края на продължителността на повторението.</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Спрете задачите, ако работи по-дълго от </StopTasksIfItRunsLongerThan>
     <TextDragDropDestinationHere>Плъзнете &amp; Пуснете целевата папка тук</TextDragDropDestinationHere>
     <TextDragDropReportHere>Плъзнете &amp; Пуснете отчета тук</TextDragDropReportHere>
@@ -5001,6 +5035,7 @@
     <BlankDashboard>Празно табло</BlankDashboard>
     <BlankForm>Празен формуляр</BlankForm>
     <BlankReport>Празен отчет</BlankReport>
+    <BlankScreen>Празен екран</BlankScreen>
     <ButtonBack>&lt; &amp;Обратно</ButtonBack>
     <ButtonCancel>Отказ</ButtonCancel>
     <ButtonFinish>&amp;Край</ButtonFinish>

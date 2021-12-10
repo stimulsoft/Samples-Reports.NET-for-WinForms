@@ -639,6 +639,7 @@
     <StiReportTitleBand>Tiêu đề báo cáo</StiReportTitleBand>
     <StiRichText>Văn bản đa dạng</StiRichText>
     <StiRoundedRectanglePrimitive>Hình chữ nhật bo tròn</StiRoundedRectanglePrimitive>
+    <StiScreen>Màn hình</StiScreen>
     <StiShape>Hình dạng</StiShape>
     <StiSparkline>Biểu đồ Sparkline</StiSparkline>
     <StiSubReport>Báo cáo phụ</StiSubReport>
@@ -653,13 +654,22 @@
     <StiWinControl>Cửa sổ điều khiển</StiWinControl>
     <StiZipCode>Mã bưu chính</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Chọn tất cả</CheckedAll>
+    <HideText>Ẩn chữ</HideText>
+    <KeysChangePosition>Các phím (Trái, Trên, Phải, Dưới) thay đổi vị trí của văn bản</KeysChangePosition>
+    <KeysChangeSize>Shift + các phím (Trái, Trên, Phải, Dưới) thay đổi kích thước của vùng văn bản</KeysChangeSize>
+    <UncheckedAll>Bỏ chọn tất cả</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Thêm phạm vi</AddRange>
     <AfterGroupingData>Áp dụng sau khi nhóm dữ liệu</AfterGroupingData>
+    <AfterSortingData>Áp dụng sau khi nhóm và sắp xếp dữ liệu</AfterSortingData>
     <AllowUserColumnSelection>Cho phép lựa chọn cột người dùng</AllowUserColumnSelection>
     <AllowUserDrillDown>Cho phép truy cập sâu người dùng</AllowUserDrillDown>
     <AllowUserFiltering>Cho phép lọc người dùng</AllowUserFiltering>
     <AllowUserSorting>Cho phép sắp xếp người dùng</AllowUserSorting>
+    <BeforeTransformation>Áp dụng trước khi chuyển đổi dữ liệu</BeforeTransformation>
     <Blank>(Chỗ trống)</Blank>
     <Blanks>(Khoảng trống)</Blanks>
     <BooleanFilters>Bộ lọc boolean</BooleanFilters>
@@ -712,6 +722,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Bộ lọc số</NumberFilters>
     <ParentElement>Thành phần chính</ParentElement>
+    <Priority>Sự ưu tiên</Priority>
     <RangeMode>Chế độ phạm vi</RangeMode>
     <RangeType>Loại phạm vi</RangeType>
     <RemoveActions>Xóa tác vụ</RemoveActions>
@@ -1212,6 +1223,7 @@
     <AssignExpression>Gán biểu thức</AssignExpression>
     <BreakIfTrue>Ngắt nếu đúng</BreakIfTrue>
     <BreakIfTrueToolTip>Ngắt xử lý điều kiện hiện tại nếu nếu thỏa mãn</BreakIfTrueToolTip>
+    <ChangeBorder>Thay đổi đường viền...</ChangeBorder>
     <ChangeFont>Thay đổi phông chữ...</ChangeFont>
     <ComponentIsEnabled>Thành phần được kích hoạt</ComponentIsEnabled>
     <NoConditions>Không điều kiện</NoConditions>
@@ -1479,6 +1491,7 @@
     <BlankDashboard>Bảng điều khiển trống</BlankDashboard>
     <BlankForm>Mẫu trống</BlankForm>
     <BlankReport>Báo cáo trống</BlankReport>
+    <BlankScreen>Màn hình trống</BlankScreen>
     <Default>Mặc định</Default>
     <DefaultScriptMode>Chế độ tập lệnh mặc định</DefaultScriptMode>
     <Drawing>Vẽ</Drawing>
@@ -2252,6 +2265,7 @@
     <menuFileReportWizardNew>Tạo báo cáo mới với thuật sĩ...</menuFileReportWizardNew>
     <menuFileSave>Lưu</menuFileSave>
     <menuFileSaveAs>Lưu thành...</menuFileSaveAs>
+    <menuFileScreenNew>Màn hình mới</menuFileScreenNew>
     <menuHelp>Trợ giúp</menuHelp>
     <menuHelpAboutProgramm>Về chúng tôi...</menuHelpAboutProgramm>
     <menuHelpContents>Nội dung</menuHelpContents>
@@ -2619,6 +2633,7 @@
     <ListBoxCategory>Danh sách hộp</ListBoxCategory>
     <MainCategory>Chính</MainCategory>
     <MarkerCategory>Đánh dấu</MarkerCategory>
+    <MathFormulaCategory>Công thức toán học</MathFormulaCategory>
     <MiscCategory>Các thức khác</MiscCategory>
     <MouseEventsCategory>Sự kiện chuột</MouseEventsCategory>
     <NavigationCategory>Điều hướng</NavigationCategory>
@@ -2944,6 +2959,9 @@
     <StiChartTrendLineTypeLinear>Tuyến tính</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>Lôgarit</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>Không</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>Chọn</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Không xác định</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Bỏ chọn</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Kiểm tra</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Chữ nhật kiểm tra</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Chữ thập</StiCheckStyleCross>
@@ -3347,6 +3365,9 @@
     <StiTextQualityStandard>Tiêu chuẩn</StiTextQualityStandard>
     <StiTextQualityTypographic>In</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Vừa vặn</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Cắt</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Ngắt từ</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Ngày</StiTimeDateStepDay>
     <StiTimeDateStepHour>Giờ</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Phút</StiTimeDateStepMinute>
@@ -3600,6 +3621,7 @@
     <Borders>Đường viền</Borders>
     <BorderSize>Kích cỡ đường viền</BorderSize>
     <BorderStyle>Kiểu đường viền</BorderStyle>
+    <BorderThickness>Độ dày đường viền</BorderThickness>
     <BorderWidth>Chiều rộng đường viền</BorderWidth>
     <Bottom>Dưới</Bottom>
     <BottomLeft>Dưới cùng bên trái</BottomLeft>
@@ -3636,7 +3658,10 @@
     <ChartAreaBrush>Khung cọ</ChartAreaBrush>
     <ChartAreaShowShadow>Hiện bóng</ChartAreaShowShadow>
     <ChartType>Kiểu biểu đồ</ChartType>
+    <CheckAlignment>Chọn Căn chỉnh</CheckAlignment>
+    <CheckColor>Chọn Màu</CheckColor>
     <Checked>Đã kiểm tra</Checked>
+    <CheckedIcon>Biểu tượng đã chọn</CheckedIcon>
     <CheckOnClick>Kiểm tra khi nhấp chuột</CheckOnClick>
     <CheckStyle>Phong cách kiểm tra</CheckStyle>
     <CheckStyleForFalse>Phong cách kiểm tra cho sai</CheckStyleForFalse>
@@ -3901,6 +3926,7 @@
     <HyperlinkPattern>Mẫu siêu liên kết </HyperlinkPattern>
     <Icon>Biểu tượng</Icon>
     <IconAlignment>Sắp xếp biểu tượng</IconAlignment>
+    <IconBrush>Biểu tượng bàn chải</IconBrush>
     <IconColor>Màu biểu tượng</IconColor>
     <IconSet>Bộ biểu tượng</IconSet>
     <IconSetCondition>Điều kiện bộ biểu tượng</IconSetCondition>
@@ -4106,6 +4132,7 @@
     <OpenValues>Giá trị mở</OpenValues>
     <Operation>Hoạt động</Operation>
     <Options>Tùy chọn</Options>
+    <Options3D>Lựa chọn 3D</Options3D>
     <Orientation>Hướng</Orientation>
     <OthersText>Văn bản khác</OthersText>
     <Padding>Lề trong</Padding>
@@ -4434,6 +4461,7 @@
     <Type>Kiểu</Type>
     <TypeName>Tên kiểu</TypeName>
     <Types>Các kiểu</Types>
+    <UncheckedIcon>Biểu tượng đã bỏ chọn</UncheckedIcon>
     <Underline>Gạch chân</Underline>
     <UndoLimit>Giới hạn hoàn tác</UndoLimit>
     <Unit>Đơn vị</Unit>
@@ -4638,6 +4666,8 @@
     <FinishingReport>Hoàn thành báo cáo</FinishingReport>
     <FirstPass>Truyền đầu tiên</FirstPass>
     <FixedBugs>Các lỗi đã được sửa</FixedBugs>
+    <FromCurrentState>Từ trạng thái hiện tại</FromCurrentState>
+    <FromDefaultState>Từ trạng thái mặc định</FromDefaultState>
     <Gallery>Bộ sưu tập</Gallery>
     <GenerateNewCode>Tạo mã mới</GenerateNewCode>
     <History>Lịch sử</History>
@@ -4787,6 +4817,7 @@
     <NumberOfDayNone>Không</NumberOfDayNone>
     <NumberOfDaySecond>Ngày thứ hai</NumberOfDaySecond>
     <NumberOfDayThird>Ngày thứ ba</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Mở Trình lập lịch tác vụ của Windows</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Vui lòng chọn loại công cụ lập kế hoạch</PleaseSelectSchedulerType>
     <RadioButtonDay>Ngày</RadioButtonDay>
     <RadioButtonOn>Trên</RadioButtonOn>
@@ -4997,6 +5028,7 @@
     <BlankDashboard>Bảng thông tin trống</BlankDashboard>
     <BlankForm>Mẫu trống</BlankForm>
     <BlankReport>Báo cáo trống</BlankReport>
+    <BlankScreen>Màn hình trống</BlankScreen>
     <ButtonBack>Quay lại</ButtonBack>
     <ButtonCancel>Hủy</ButtonCancel>
     <ButtonFinish>Hoàn thành</ButtonFinish>

@@ -639,6 +639,7 @@
     <StiReportTitleBand>Berichtskopf</StiReportTitleBand>
     <StiRichText>RichText</StiRichText>
     <StiRoundedRectanglePrimitive>Abgerundetes Rechteck</StiRoundedRectanglePrimitive>
+    <StiScreen>Bildschirm</StiScreen>
     <StiShape>Geom. Formen</StiShape>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Unterbericht</StiSubReport>
@@ -653,13 +654,22 @@
     <StiWinControl>WinControl</StiWinControl>
     <StiZipCode>PLZ</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Alles ausgewählt</CheckedAll>
+    <HideText>Text ausblenden</HideText>
+    <KeysChangePosition>Die Tasten (links, oben, rechts, unten)werden für die Veränderung der Textposition verwendet</KeysChangePosition>
+    <KeysChangeSize>Shift + Tasten (links, oben, rechts, unten) werden für die Veränderung von Größe des Textbereiches</KeysChangeSize>
+    <UncheckedAll>Alles abgewählt</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Bereich hinzufügen</AddRange>
     <AfterGroupingData>Nach der Datengruppierung übernehmen</AfterGroupingData>
+    <AfterSortingData>Nach Sortierung und Gruppierung der Daten übernehmen</AfterSortingData>
     <AllowUserColumnSelection>Erlauben, den Benutzern die Spalten auszuwählen</AllowUserColumnSelection>
     <AllowUserDrillDown>Benutzer-Drill-Down erlauben</AllowUserDrillDown>
     <AllowUserFiltering>Benutzer-Filterung erlauben</AllowUserFiltering>
     <AllowUserSorting>Benutzer-Sortierung erlauben</AllowUserSorting>
+    <BeforeTransformation>Vor Datenumwandlung übernehmen</BeforeTransformation>
     <Blank>(Leer)</Blank>
     <Blanks>(Rohlinge)</Blanks>
     <BooleanFilters>Boolesche Filter</BooleanFilters>
@@ -712,6 +722,7 @@
     <Nulls>(Nullen)</Nulls>
     <NumberFilters>Anzahlfilter</NumberFilters>
     <ParentElement>Übergeordnetes Element</ParentElement>
+    <Priority>Priorität</Priority>
     <RangeMode>Bereich-Modus</RangeMode>
     <RangeType>Bereich-Typ</RangeType>
     <RemoveActions>Aktionen entfernen</RemoveActions>
@@ -1213,6 +1224,7 @@
     <AssignExpression>Ausdruck zuweisen</AssignExpression>
     <BreakIfTrue>Brechen wenn True</BreakIfTrue>
     <BreakIfTrueToolTip>Brechen die Bedingungsverarbeitung, wenn eine aktuelle schon erfüllt ist</BreakIfTrueToolTip>
+    <ChangeBorder>Grenze ändern...</ChangeBorder>
     <ChangeFont>Schriftart ändern</ChangeFont>
     <ComponentIsEnabled>Komponente aktiviert</ComponentIsEnabled>
     <NoConditions>Keine Bedingungen</NoConditions>
@@ -1480,6 +1492,7 @@
     <BlankDashboard>Leeres Dashboard</BlankDashboard>
     <BlankForm>Blankformular</BlankForm>
     <BlankReport>Leerer Bericht</BlankReport>
+    <BlankScreen>Leerer Bildschirm</BlankScreen>
     <Default>Standardwert</Default>
     <DefaultScriptMode>Standard-Skript-Modus</DefaultScriptMode>
     <Drawing>Zeichnen</Drawing>
@@ -2255,6 +2268,7 @@
     <menuFileReportWizardNew>Neuer Bericht &amp;Assistent...</menuFileReportWizardNew>
     <menuFileSave>&amp;Speichern</menuFileSave>
     <menuFileSaveAs>Speichern unter...</menuFileSaveAs>
+    <menuFileScreenNew>Neuer Bildschirm</menuFileScreenNew>
     <menuHelp>&amp;?</menuHelp>
     <menuHelpAboutProgramm>Info...</menuHelpAboutProgramm>
     <menuHelpContents>Inhaltsverzeichnis...</menuHelpContents>
@@ -2332,6 +2346,7 @@
     <ResourceCannotBeDeleted>Die Ressource "{0}" kann nicht gelöscht werden, weil sie im Bericht verwendet wird!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>Die URL-Adresse des Elementes ist aktualisiert!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>Um den Bericht freizugeben, sollen Sie den Bericht in Stimulsoft Cloud speichern!</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>Umschaltung zwischen Modi führt zum Verlust von Veränderungen. Wollen Sie fortfahren?</SwitchingBetweenModes>
     <TextRegistrationSuccessfully>Registrierung erfolgreich abgeschlossen!
 
 Die E-Mail ist an "{0}" gesendet.
@@ -2648,6 +2663,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ListBoxCategory>Listenfeld</ListBoxCategory>
     <MainCategory>Basis</MainCategory>
     <MarkerCategory>Marker</MarkerCategory>
+    <MathFormulaCategory>Mathematikformel</MathFormulaCategory>
     <MiscCategory>Diverses</MiscCategory>
     <MouseEventsCategory>Maus</MouseEventsCategory>
     <NavigationCategory>Navigation</NavigationCategory>
@@ -2979,6 +2995,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiChartTrendLineTypeLinear>Linear</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>Logarithmisch</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>Kein</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>Aktiviert</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Unbestimmt</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Deaktiviert</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Haken</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Check Rechteck</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Kreuz</StiCheckStyleCross>
@@ -3382,6 +3401,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Typographisch</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Passen</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Beschneiden</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Wortumbruch</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Tag</StiTimeDateStepDay>
     <StiTimeDateStepHour>Stunde</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Minute</StiTimeDateStepMinute>
@@ -3636,6 +3658,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Borders>Rahmen</Borders>
     <BorderSize>Randgröße</BorderSize>
     <BorderStyle>Rahmenstil</BorderStyle>
+    <BorderThickness>Randdicke</BorderThickness>
     <BorderWidth>Randbreite</BorderWidth>
     <Bottom>Unten</Bottom>
     <BottomLeft>Unten links</BottomLeft>
@@ -3672,7 +3695,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ChartAreaBrush>Bereich-Pinsel</ChartAreaBrush>
     <ChartAreaShowShadow>Schatten anzeigen</ChartAreaShowShadow>
     <ChartType>Diagrammtyp</ChartType>
+    <CheckAlignment>Kontrollkästchen-Ausrichtung</CheckAlignment>
+    <CheckColor>Kontrollkästchen-Farbe</CheckColor>
     <Checked>Checked</Checked>
+    <CheckedIcon>Symbol - Aktiviert</CheckedIcon>
     <CheckOnClick>Beim Klicken</CheckOnClick>
     <CheckStyle>Stil setzen</CheckStyle>
     <CheckStyleForFalse>Stil für Falsch</CheckStyleForFalse>
@@ -3937,6 +3963,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HyperlinkPattern>Hyperlink-Muster</HyperlinkPattern>
     <Icon>Symbol</Icon>
     <IconAlignment>Symbol-Ausrichtung</IconAlignment>
+    <IconBrush>Symbol-Pinsel</IconBrush>
     <IconColor>Symbolfarbe</IconColor>
     <IconSet>Symbolliste</IconSet>
     <IconSetCondition>Symbolliste Bedingung</IconSetCondition>
@@ -4143,6 +4170,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <OpenValues>Offene Werte</OpenValues>
     <Operation>Operation</Operation>
     <Options>Optionen</Options>
+    <Options3D>3D-Optionen</Options3D>
     <Orientation>Ausrichtung</Orientation>
     <OthersText>Anderer Text</OthersText>
     <Padding>Padding</Padding>
@@ -4474,6 +4502,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Type>Typ</Type>
     <TypeName>Typname</TypeName>
     <Types>Typen</Types>
+    <UncheckedIcon>Symbol - Deaktiviert</UncheckedIcon>
     <Underline>Unterstrichen</Underline>
     <UndoLimit>Rückgängig-Schritte</UndoLimit>
     <Unit>Einheiten</Unit>
@@ -4679,6 +4708,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <FinishingReport>Bericht wird abgeschlossen</FinishingReport>
     <FirstPass>Erster Durchlauf</FirstPass>
     <FixedBugs>Behobene Fehler</FixedBugs>
+    <FromCurrentState>aus aktuellem Zustand</FromCurrentState>
+    <FromDefaultState>aus standardmäßigem Zustand</FromDefaultState>
     <Gallery>Gallerie</Gallery>
     <GenerateNewCode>Neuen Quellcode generieren</GenerateNewCode>
     <History>Geschichte</History>
@@ -4797,6 +4828,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <EnableSSL>SSL aktivieren</EnableSSL>
     <Expire>Läuft ab</Expire>
     <ForADuractionOf>Für die Dauer von</ForADuractionOf>
+    <ForADurationOf>für die Dauer von</ForADurationOf>
     <GetFolder>Ordner erhalten</GetFolder>
     <GroupBoxFiles>Dateien</GroupBoxFiles>
     <Host>Host</Host>
@@ -4827,6 +4859,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <NumberOfDayNone>Keine</NumberOfDayNone>
     <NumberOfDaySecond>Zweiter</NumberOfDaySecond>
     <NumberOfDayThird>Dritter</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Windows-Task-Scheduler öffnen</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Bitte, wählen Sie den Scheduler-Typen aus</PleaseSelectSchedulerType>
     <RadioButtonDay>Tag</RadioButtonDay>
     <RadioButtonOn>An</RadioButtonOn>
@@ -4837,6 +4870,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SenderEmail>Sender-E-Mail</SenderEmail>
     <SmtpSettings>Smtp-Einstellungen</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuraction>Alle ausführende Aufgaben am Ende vom Wiederholen stoppen</StopAllRunningTasksAtEndOfRepetitionDuraction>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>Alle ausgeführende Aufgaben nach der Beendung von Wiedeholung stoppen</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Alle Aufgaben stoppen, wenn Sie arbeiten länger als</StopTasksIfItRunsLongerThan>
     <TextDragDropDestinationHere>Ziehen Sie das Zielort-Element hierhin</TextDragDropDestinationHere>
     <TextDragDropReportHere>Ziehen Sie den Bericht hierhin</TextDragDropReportHere>
@@ -5037,6 +5071,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <BlankDashboard>Leeres Dashboard</BlankDashboard>
     <BlankForm>Blankformular</BlankForm>
     <BlankReport>Leerer Bericht</BlankReport>
+    <BlankScreen>Leerer Bildschirm</BlankScreen>
     <ButtonBack>&lt; &amp;Zurück</ButtonBack>
     <ButtonCancel>Abbrechen</ButtonCancel>
     <ButtonFinish>&amp;Fertig</ButtonFinish>

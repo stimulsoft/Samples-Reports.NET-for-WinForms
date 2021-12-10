@@ -638,6 +638,7 @@
     <StiReportTitleBand>Título do relatório</StiReportTitleBand>
     <StiRichText>Rich Text</StiRichText>
     <StiRoundedRectanglePrimitive>Retângulo arredondado</StiRoundedRectanglePrimitive>
+    <StiScreen>Ecrã</StiScreen>
     <StiShape>Forma</StiShape>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub relatório</StiSubReport>
@@ -652,13 +653,22 @@
     <StiWinControl>Controlo Windows</StiWinControl>
     <StiZipCode>Código postal</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Marcar todos</CheckedAll>
+    <HideText>Esconder Texto</HideText>
+    <KeysChangePosition>Teclas (Seta Esquerda, Seta Cima, Seta Direita, Seta Baixo) para mudar a posição do texto</KeysChangePosition>
+    <KeysChangeSize>Shift + Tecla (Seta Esquerda, Seta Cima, Seta Direita, Seta Baixo) para mudar o tamanho do texto</KeysChangeSize>
+    <UncheckedAll>Desmarcar todas</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Adicionar intervalo</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
+    <AfterSortingData>Aplicar depois de agrupar e ordenar os dados</AfterSortingData>
     <AllowUserColumnSelection>Permitir selecionar colunas ao utilizador</AllowUserColumnSelection>
     <AllowUserDrillDown>Permitir o utilizador desagregar</AllowUserDrillDown>
     <AllowUserFiltering>Permitir o utilizador filtragem</AllowUserFiltering>
     <AllowUserSorting>Permitir ordenação do utilizador</AllowUserSorting>
+    <BeforeTransformation>Aplicar antes de alterar os dados</BeforeTransformation>
     <Blank>(Vazio)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
@@ -711,6 +721,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Number Filters</NumberFilters>
     <ParentElement>Parent Element</ParentElement>
+    <Priority>Prioridade</Priority>
     <RangeMode>Modo Intervalo</RangeMode>
     <RangeType>Tipo Intervalo</RangeType>
     <RemoveActions>R&amp;emove Actions</RemoveActions>
@@ -1212,6 +1223,7 @@
     <AssignExpression>Atribuir expressão</AssignExpression>
     <BreakIfTrue>Pare se Verdadeiro</BreakIfTrue>
     <BreakIfTrueToolTip>Para o processamento de condição, se a condição atual é cumprida</BreakIfTrueToolTip>
+    <ChangeBorder>Mudar limite...</ChangeBorder>
     <ChangeFont>Alterar fonte</ChangeFont>
     <ComponentIsEnabled>Componente está ativado</ComponentIsEnabled>
     <NoConditions>Nenhuma condição</NoConditions>
@@ -1479,6 +1491,7 @@
     <BlankDashboard>Dashboard vazio</BlankDashboard>
     <BlankForm>Formulário em branco</BlankForm>
     <BlankReport>Relatório vazio</BlankReport>
+    <BlankScreen>Ecrã vazio</BlankScreen>
     <Default>Padrão</Default>
     <DefaultScriptMode>Modo de Script por defeito</DefaultScriptMode>
     <Drawing>Desenho</Drawing>
@@ -2255,6 +2268,7 @@
     <menuFileReportWizardNew>Novo relatório com &amp;assistente...</menuFileReportWizardNew>
     <menuFileSave>&amp;Gravar</menuFileSave>
     <menuFileSaveAs>Gravar Como...</menuFileSaveAs>
+    <menuFileScreenNew>Novo ecrã</menuFileScreenNew>
     <menuHelp>&amp;Ajuda</menuHelp>
     <menuHelpAboutProgramm>&amp;Sobre...</menuHelpAboutProgramm>
     <menuHelpContents>&amp;Conteúdo...</menuHelpContents>
@@ -2622,6 +2636,7 @@
     <ListBoxCategory>List Box</ListBoxCategory>
     <MainCategory>Principal</MainCategory>
     <MarkerCategory>Marcador</MarkerCategory>
+    <MathFormulaCategory>Formula matemática</MathFormulaCategory>
     <MiscCategory>Miscelânea</MiscCategory>
     <MouseEventsCategory>Eventos do Rato</MouseEventsCategory>
     <NavigationCategory>Navegação</NavigationCategory>
@@ -2953,6 +2968,9 @@
     <StiChartTrendLineTypeLinear>Linear</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>Logaritmica</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>Nenhum</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>Marcado</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Indeterminado</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Desmarcado</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Conferência</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Marcar retângulo</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Cruz</StiCheckStyleCross>
@@ -3356,6 +3374,9 @@
     <StiTextQualityStandard>Padrão</StiTextQualityStandard>
     <StiTextQualityTypographic>Tipográfico</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Caber</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Trimming</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Quebra de palavras</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Dia</StiTimeDateStepDay>
     <StiTimeDateStepHour>Hora</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Minuto</StiTimeDateStepMinute>
@@ -3610,6 +3631,7 @@
     <Borders>Limites</Borders>
     <BorderSize>Tamanho do limite</BorderSize>
     <BorderStyle>Estilo do limite</BorderStyle>
+    <BorderThickness>Espessura limite</BorderThickness>
     <BorderWidth>Largura do limite</BorderWidth>
     <Bottom>Fundo</Bottom>
     <BottomLeft>Fundo-Esquerda</BottomLeft>
@@ -3646,7 +3668,10 @@
     <ChartAreaBrush>Área de pincel</ChartAreaBrush>
     <ChartAreaShowShadow>Mostrar sombra</ChartAreaShowShadow>
     <ChartType>Tipo de gráficos</ChartType>
+    <CheckAlignment>Alinhamento caixa de seleção</CheckAlignment>
+    <CheckColor>Cor da caixa de seleção</CheckColor>
     <Checked>Selecionado</Checked>
+    <CheckedIcon>Icon Marcado</CheckedIcon>
     <CheckOnClick>Mudar valor com click</CheckOnClick>
     <CheckStyle>Estilo da checkBox</CheckStyle>
     <CheckStyleForFalse>Estilo para falso</CheckStyleForFalse>
@@ -3911,6 +3936,7 @@
     <HyperlinkPattern>Padrão do Hyperlink</HyperlinkPattern>
     <Icon>Ícone</Icon>
     <IconAlignment>Alinhamento do Icon</IconAlignment>
+    <IconBrush>Icon Pincel</IconBrush>
     <IconColor>Cor do Icon</IconColor>
     <IconSet>Definir ícone</IconSet>
     <IconSetCondition>Condição do conjunto de icones</IconSetCondition>
@@ -4116,6 +4142,7 @@
     <OpenValues>Open Values</OpenValues>
     <Operation>Operação</Operation>
     <Options>Opções</Options>
+    <Options3D>Opções 3D</Options3D>
     <Orientation>Orientação</Orientation>
     <OthersText>Texto dos outros</OthersText>
     <Padding>Padding</Padding>
@@ -4447,6 +4474,7 @@
     <Type>Tipo</Type>
     <TypeName>Tipo de nome</TypeName>
     <Types>Tipos</Types>
+    <UncheckedIcon>Icon Desmarcado</UncheckedIcon>
     <Underline>Sublinhar</Underline>
     <UndoLimit>Desfazer limite</UndoLimit>
     <Unit>Unidade</Unit>
@@ -4655,6 +4683,8 @@ contexto do painel de propriedades.</qnConfiguration>
     <FinishingReport>A finalizar relatório</FinishingReport>
     <FirstPass>Primeira passagem</FirstPass>
     <FixedBugs>Fixed Bugs</FixedBugs>
+    <FromCurrentState>A partir do estado atual</FromCurrentState>
+    <FromDefaultState>A partir do estado por defeito</FromDefaultState>
     <Gallery>Gallery</Gallery>
     <GenerateNewCode>Gerar novo código</GenerateNewCode>
     <History>History</History>
@@ -4804,6 +4834,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <NumberOfDayNone>Nenhum</NumberOfDayNone>
     <NumberOfDaySecond>Segundo</NumberOfDaySecond>
     <NumberOfDayThird>Terceiro</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Abrir agendador de tarefas do Windows</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Por favor selecione um tipo de Calendário de Tarefas</PleaseSelectSchedulerType>
     <RadioButtonDay>Dia</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
@@ -5014,6 +5045,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankForm>Formulário em branco</BlankForm>
     <BlankReport>Relatório em branco</BlankReport>
+    <BlankScreen>Ecrã vazio</BlankScreen>
     <ButtonBack>&lt; &amp;Anterior</ButtonBack>
     <ButtonCancel>Cancelar</ButtonCancel>
     <ButtonFinish>&amp;Fim</ButtonFinish>

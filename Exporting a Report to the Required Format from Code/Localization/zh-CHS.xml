@@ -639,6 +639,7 @@
     <StiReportTitleBand>报表标题区</StiReportTitleBand>
     <StiRichText>富文本</StiRichText>
     <StiRoundedRectanglePrimitive>圆角矩形</StiRoundedRectanglePrimitive>
+    <StiScreen>屏幕</StiScreen>
     <StiShape>形状</StiShape>
     <StiSparkline> 火花谱线</StiSparkline>
     <StiSubReport>子报表</StiSubReport>
@@ -653,13 +654,22 @@
     <StiWinControl>Windows 控件</StiWinControl>
     <StiZipCode>邮政编码</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>全选</CheckedAll>
+    <HideText>隐藏文本</HideText>
+    <KeysChangePosition>键(左，上，右，下)改变文本的位置  </KeysChangePosition>
+    <KeysChangeSize>Shift +键(左，上，右，下)改变文本区域的大小  </KeysChangeSize>
+    <UncheckedAll>取消全选</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>添加范围</AddRange>
     <AfterGroupingData>分组数据后应用</AfterGroupingData>
+    <AfterSortingData>在分组和整理数据后应用</AfterSortingData>
     <AllowUserColumnSelection>允许用户选择列</AllowUserColumnSelection>
     <AllowUserDrillDown>允许用户下行查看</AllowUserDrillDown>
     <AllowUserFiltering>允许用户筛选</AllowUserFiltering>
     <AllowUserSorting>允许用户排序</AllowUserSorting>
+    <BeforeTransformation>在数据转换之前应用</BeforeTransformation>
     <Blank>(空白)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>布尔过滤器</BooleanFilters>
@@ -712,6 +722,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>数字过滤器</NumberFilters>
     <ParentElement>父元素</ParentElement>
+    <Priority>优先</Priority>
     <RangeMode>范围模式</RangeMode>
     <RangeType>范围类型</RangeType>
     <RemoveActions>R&amp;删除动作</RemoveActions>
@@ -1212,6 +1223,7 @@
     <AssignExpression>分配表达式</AssignExpression>
     <BreakIfTrue>如果属实就中断</BreakIfTrue>
     <BreakIfTrueToolTip>如果满足当前条件，则中断条件处理</BreakIfTrueToolTip>
+    <ChangeBorder>边界变更...</ChangeBorder>
     <ChangeFont>改变字体</ChangeFont>
     <ComponentIsEnabled>组件已激活</ComponentIsEnabled>
     <NoConditions>无条件</NoConditions>
@@ -1479,6 +1491,7 @@
     <BlankDashboard>空白仪表盘</BlankDashboard>
     <BlankForm>空白格式</BlankForm>
     <BlankReport>空白报表</BlankReport>
+    <BlankScreen>黑屏</BlankScreen>
     <Default>默认</Default>
     <DefaultScriptMode>默认脚本模式</DefaultScriptMode>
     <Drawing>图纸</Drawing>
@@ -2253,6 +2266,7 @@
     <menuFileReportWizardNew>新建报表向导...</menuFileReportWizardNew>
     <menuFileSave>保存报表(&amp;S)...</menuFileSave>
     <menuFileSaveAs>另存为...</menuFileSaveAs>
+    <menuFileScreenNew>新屏幕</menuFileScreenNew>
     <menuHelp>帮助(&amp;H)</menuHelp>
     <menuHelpAboutProgramm>关于(&amp;A)...</menuHelpAboutProgramm>
     <menuHelpContents>内容(&amp;C)...</menuHelpContents>
@@ -2614,6 +2628,7 @@
     <ListBoxCategory>列表框</ListBoxCategory>
     <MainCategory>Main</MainCategory>
     <MarkerCategory>标注</MarkerCategory>
+    <MathFormulaCategory>数学公式</MathFormulaCategory>
     <MiscCategory>其他</MiscCategory>
     <MouseEventsCategory>鼠标事件</MouseEventsCategory>
     <NavigationCategory>导航</NavigationCategory>
@@ -2947,6 +2962,9 @@
     <StiChartTrendLineTypeLinear>线型</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>对数</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>无</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>选中</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>模糊</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>取消</StiCheckStateUnchecked>
     <StiCheckStyleCheck>复选</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Check Rectangle</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>交叉</StiCheckStyleCross>
@@ -3335,6 +3353,9 @@
     <StiTextQualityStandard>标准</StiTextQualityStandard>
     <StiTextQualityTypographic>印刷质量</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>所见即所得</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>适应</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>修整</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>自动换行</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>天</StiTimeDateStepDay>
     <StiTimeDateStepHour>小时</StiTimeDateStepHour>
     <StiTimeDateStepMinute>分</StiTimeDateStepMinute>
@@ -3588,6 +3609,7 @@
     <Borders>边框</Borders>
     <BorderSize>边框尺寸</BorderSize>
     <BorderStyle>边框样式</BorderStyle>
+    <BorderThickness>边框粗细</BorderThickness>
     <BorderWidth>边框宽度</BorderWidth>
     <Bottom>底端</Bottom>
     <BottomLeft>左下</BottomLeft>
@@ -3624,7 +3646,10 @@
     <ChartAreaBrush>图表区刷</ChartAreaBrush>
     <ChartAreaShowShadow>图表区显示为阴影</ChartAreaShowShadow>
     <ChartType>图表类型</ChartType>
+    <CheckAlignment>对齐</CheckAlignment>
+    <CheckColor>颜色选择</CheckColor>
     <Checked>选中</Checked>
+    <CheckedIcon>检查图标</CheckedIcon>
     <CheckOnClick>点击选择</CheckOnClick>
     <CheckStyle>选择样式</CheckStyle>
     <CheckStyleForFalse>未选中样式</CheckStyleForFalse>
@@ -3889,6 +3914,7 @@
     <HyperlinkPattern>超链接模式</HyperlinkPattern>
     <Icon>图标</Icon>
     <IconAlignment>图标对齐</IconAlignment>
+    <IconBrush>图标刷</IconBrush>
     <IconColor>图标颜色</IconColor>
     <IconSet>图标集</IconSet>
     <IconSetCondition>图标集条件</IconSetCondition>
@@ -4094,6 +4120,7 @@
     <OpenValues>打开值</OpenValues>
     <Operation>操作</Operation>
     <Options>选项</Options>
+    <Options3D>3D选项</Options3D>
     <Orientation>定向</Orientation>
     <OthersText>其他文本</OthersText>
     <Padding>填充</Padding>
@@ -4425,6 +4452,7 @@
     <Type>类型</Type>
     <TypeName>类型名称</TypeName>
     <Types>类型</Types>
+    <UncheckedIcon>未选中图标</UncheckedIcon>
     <Underline>下划线</Underline>
     <UndoLimit>撤销限制</UndoLimit>
     <Unit>单位</Unit>
@@ -4629,6 +4657,8 @@
     <FinishingReport>正在完成报表</FinishingReport>
     <FirstPass>第一通道</FirstPass>
     <FixedBugs>修复错误</FixedBugs>
+    <FromCurrentState>从当前状态</FromCurrentState>
+    <FromDefaultState>从默认状态</FromDefaultState>
     <Gallery>图库</Gallery>
     <GenerateNewCode>生成新代码</GenerateNewCode>
     <History>历史记录</History>
@@ -4778,6 +4808,7 @@
     <NumberOfDayNone>空</NumberOfDayNone>
     <NumberOfDaySecond>第二</NumberOfDaySecond>
     <NumberOfDayThird>第三</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>打开Windows任务计划程序</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>请选择调度程序类型</PleaseSelectSchedulerType>
     <RadioButtonDay>天</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
@@ -4988,6 +5019,7 @@
     <BlankDashboard>空白仪表盘</BlankDashboard>
     <BlankForm>空白格式</BlankForm>
     <BlankReport>空白报表</BlankReport>
+    <BlankScreen>黑屏</BlankScreen>
     <ButtonBack>&lt; 上一步(&amp;B)</ButtonBack>
     <ButtonCancel>取消</ButtonCancel>
     <ButtonFinish>完成(&amp;F)</ButtonFinish>

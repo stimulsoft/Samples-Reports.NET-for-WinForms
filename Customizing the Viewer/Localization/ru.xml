@@ -655,17 +655,26 @@
     <StiWinControl>Win компонент</StiWinControl>
     <StiZipCode>Почтовый индекс</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Выделить все</CheckedAll>
+    <HideText>Скрыть текст</HideText>
+    <KeysChangePosition>Клавиши (Влево, Вверх, Вправо, Вниз) используются для изменения позиции текста</KeysChangePosition>
+    <KeysChangeSize>Shift + клавиши (Влево, Вверх, Вправо, Вниз) используются для изменения размера области текста</KeysChangeSize>
+    <UncheckedAll>Снять все</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Добавить диапазон</AddRange>
     <AfterGroupingData>Применить после группировки</AfterGroupingData>
+    <AfterSortingData>Применить после группировки и сортировки</AfterSortingData>
     <AllowUserColumnSelection>Разрешить выбор пользовательской колонки</AllowUserColumnSelection>
     <AllowUserDrillDown>Разрешить пользовательскую детализацию</AllowUserDrillDown>
     <AllowUserFiltering>Разрешить пользовательскую фильтрацию</AllowUserFiltering>
     <AllowUserSorting>Разрешить пользовательскую сортировку</AllowUserSorting>
+    <BeforeTransformation>Применить до трансформации</BeforeTransformation>
     <Blank>(Пустой)</Blank>
     <Blanks>(Пробелы)</Blanks>
     <BooleanFilters>Булевские фильтры</BooleanFilters>
-    <CannotLoadDashboard>Не возможно загрузить отчет содержащий панель индикаторов.</CannotLoadDashboard>
+    <CannotLoadDashboard>Невозможно загрузить отчет, содержащий панель индикаторов.</CannotLoadDashboard>
     <ChangeChartType>Изменить тип диаграммы</ChangeChartType>
     <ChangeMapType>Изменить тип карты</ChangeMapType>
     <ClearAllFormatting>Очистить все форматирование</ClearAllFormatting>
@@ -714,6 +723,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Числовые фильтры</NumberFilters>
     <ParentElement>Главный элемент</ParentElement>
+    <Priority>Приоритет</Priority>
     <RangeMode>Режим диапазона</RangeMode>
     <RangeType>Тип диапазона</RangeType>
     <RemoveActions>Удалить действия</RemoveActions>
@@ -1215,6 +1225,7 @@
     <AssignExpression>Присвоить выражение</AssignExpression>
     <BreakIfTrue>Прервать обработку</BreakIfTrue>
     <BreakIfTrueToolTip>Прекращать обработку условий если текущее выполняется</BreakIfTrueToolTip>
+    <ChangeBorder>Изменить границу...</ChangeBorder>
     <ChangeFont>Изменить шрифт</ChangeFont>
     <ComponentIsEnabled>Компонент включен</ComponentIsEnabled>
     <NoConditions>Нет условий</NoConditions>
@@ -2668,6 +2679,7 @@
     <ListBoxCategory>Список</ListBoxCategory>
     <MainCategory>Основные</MainCategory>
     <MarkerCategory>Маркер</MarkerCategory>
+    <MathFormulaCategory>Математическая формула</MathFormulaCategory>
     <MiscCategory>Прочие</MiscCategory>
     <MouseEventsCategory>Мышь</MouseEventsCategory>
     <NavigationCategory>Навигация</NavigationCategory>
@@ -3387,6 +3399,9 @@
     <StiTextQualityStandard>Стандарт</StiTextQualityStandard>
     <StiTextQualityTypographic>Типографский</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Вместить</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Обрезать</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Перенос слов</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>День</StiTimeDateStepDay>
     <StiTimeDateStepHour>Час</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Минута</StiTimeDateStepMinute>
@@ -3642,6 +3657,7 @@
     <Borders>Границы</Borders>
     <BorderSize>Размер кисти</BorderSize>
     <BorderStyle>Стиль границы</BorderStyle>
+    <BorderThickness>Толщина границы</BorderThickness>
     <BorderWidth>Ширина границы</BorderWidth>
     <Bottom>Снизу</Bottom>
     <BottomLeft>Внизу-Слева</BottomLeft>
@@ -3678,7 +3694,10 @@
     <ChartAreaBrush>Кисть области</ChartAreaBrush>
     <ChartAreaShowShadow>Показать тень области</ChartAreaShowShadow>
     <ChartType>Тип диаграммы</ChartType>
+    <CheckAlignment>Выравнивание флажка</CheckAlignment>
+    <CheckColor>Цвет флажка</CheckColor>
     <Checked>Включено</Checked>
+    <CheckedIcon>Значок - Отмечено</CheckedIcon>
     <CheckOnClick>Включать при нажатии</CheckOnClick>
     <CheckStyle>Стиль флажка</CheckStyle>
     <CheckStyleForFalse>Стиль значка для False</CheckStyleForFalse>
@@ -3944,6 +3963,7 @@
     <HyperlinkPattern>Шаблон гиперссылки</HyperlinkPattern>
     <Icon>Значок</Icon>
     <IconAlignment>Выравнивание значка</IconAlignment>
+    <IconBrush>Кисть значка</IconBrush>
     <IconColor>Цвет значка</IconColor>
     <IconSet>Набор значков</IconSet>
     <IconSetCondition>Набор значков</IconSetCondition>
@@ -4151,6 +4171,7 @@
     <OpenValues>Значения открытия</OpenValues>
     <Operation>Операция</Operation>
     <Options>Параметры</Options>
+    <Options3D>3D параметры</Options3D>
     <Orientation>Ориентация</Orientation>
     <OthersText>Текст для остальных значений</OthersText>
     <Padding>Отступ внутри</Padding>
@@ -4481,6 +4502,7 @@
     <Type>Тип</Type>
     <TypeName>Наименование типа</TypeName>
     <Types>Типы</Types>
+    <UncheckedIcon>Значок - Не Отмечено</UncheckedIcon>
     <Underline>Подчеркнутый</Underline>
     <UndoLimit>Количество шагов</UndoLimit>
     <Unit>Единица измерения</Unit>
@@ -4686,6 +4708,8 @@
     <FinishingReport>Завершение отчета</FinishingReport>
     <FirstPass>Первый проход</FirstPass>
     <FixedBugs>Исправленные ошибки</FixedBugs>
+    <FromCurrentState>Из текущего состояния</FromCurrentState>
+    <FromDefaultState>Из состояния по умолчанию</FromDefaultState>
     <Gallery>Галерея</Gallery>
     <GenerateNewCode>Сгенерировать новый код</GenerateNewCode>
     <History>История</History>
@@ -4835,6 +4859,7 @@
     <NumberOfDayNone>Нет</NumberOfDayNone>
     <NumberOfDaySecond>Второй</NumberOfDaySecond>
     <NumberOfDayThird>Третий</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Открыть планировщик задач Windows</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Пожалуйста, выберите тип планировщика</PleaseSelectSchedulerType>
     <RadioButtonDay>День</RadioButtonDay>
     <RadioButtonOn>По</RadioButtonOn>

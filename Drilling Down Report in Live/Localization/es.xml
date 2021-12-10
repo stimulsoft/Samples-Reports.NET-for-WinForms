@@ -639,6 +639,7 @@
     <StiReportTitleBand>Título Informe</StiReportTitleBand>
     <StiRichText>Texto Enriquecido</StiRichText>
     <StiRoundedRectanglePrimitive>Rectángulo Redondeado</StiRoundedRectanglePrimitive>
+    <StiScreen>Pantalla</StiScreen>
     <StiShape>Forma</StiShape>
     <StiSparkline>Minigráfico</StiSparkline>
     <StiSubReport>Subinforme</StiSubReport>
@@ -653,13 +654,22 @@
     <StiWinControl>Control Windows</StiWinControl>
     <StiZipCode>Código Postal</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Marcado todo</CheckedAll>
+    <HideText>Ocultar Texto</HideText>
+    <KeysChangePosition>Las teclas (izquierda, superior, derecha, inferior) cambian la posición del texto</KeysChangePosition>
+    <KeysChangeSize>Mayús + teclas (izquierda, superior, derecha, inferior) cambian el tamaño del área de texto</KeysChangeSize>
+    <UncheckedAll>Desmarcado todo</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Agregar rango</AddRange>
     <AfterGroupingData>Aplicar después de agrupar los datos</AfterGroupingData>
+    <AfterSortingData>Aplicar después de agrupar y ordenar datos</AfterSortingData>
     <AllowUserColumnSelection>Permitir al usuario seleccionar columnas</AllowUserColumnSelection>
     <AllowUserDrillDown>Permitir que el usuario profundice</AllowUserDrillDown>
     <AllowUserFiltering>Permitir que el usuario filtre</AllowUserFiltering>
     <AllowUserSorting>Permitir que el usuario ordene</AllowUserSorting>
+    <BeforeTransformation>Aplicar antes de la transformación de datos</BeforeTransformation>
     <Blank>(EnBlanco)</Blank>
     <Blanks>(Espacios en blanco)</Blanks>
     <BooleanFilters>Filtros lógicos</BooleanFilters>
@@ -712,6 +722,7 @@
     <Nulls>(Nulos)</Nulls>
     <NumberFilters>Filtros Numéricos</NumberFilters>
     <ParentElement>Elemento primario</ParentElement>
+    <Priority>Prioridad</Priority>
     <RangeMode>Modo de rango</RangeMode>
     <RangeType>Tipo de rango</RangeType>
     <RemoveActions>&amp;Eliminar acciones</RemoveActions>
@@ -1213,6 +1224,7 @@
     <AssignExpression>Asignar Expresión</AssignExpression>
     <BreakIfTrue>Parar se es Verdadero</BreakIfTrue>
     <BreakIfTrueToolTip>Detiene el proceso si la condición actual se cumple</BreakIfTrueToolTip>
+    <ChangeBorder>Cambiar borde...</ChangeBorder>
     <ChangeFont>Cambiar Fuente...</ChangeFont>
     <ComponentIsEnabled>Componente Habilitado</ComponentIsEnabled>
     <NoConditions>Sin Condiciones</NoConditions>
@@ -1480,6 +1492,7 @@
     <BlankDashboard>Tablero en blanco</BlankDashboard>
     <BlankForm>Formulario en blanco</BlankForm>
     <BlankReport>Informe en blanco</BlankReport>
+    <BlankScreen>Pantalla en blanco</BlankScreen>
     <Default>Estándar</Default>
     <DefaultScriptMode>Modo de secuencia de comandos predeterminado</DefaultScriptMode>
     <Drawing>Dibujo</Drawing>
@@ -2254,6 +2267,7 @@
     <menuFileReportWizardNew>Nuevo Informe usando &amp;Asistente...</menuFileReportWizardNew>
     <menuFileSave>&amp;Guardar</menuFileSave>
     <menuFileSaveAs>Guardar Como...</menuFileSaveAs>
+    <menuFileScreenNew>Nueva pantalla</menuFileScreenNew>
     <menuHelp>&amp;Ayuda</menuHelp>
     <menuHelpAboutProgramm>Acerca de...</menuHelpAboutProgramm>
     <menuHelpContents>&amp;Contenido...</menuHelpContents>
@@ -2619,6 +2633,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ListBoxCategory>Cuadro de lista</ListBoxCategory>
     <MainCategory>Principal</MainCategory>
     <MarkerCategory>Marcador</MarkerCategory>
+    <MathFormulaCategory>Fórmula matemática</MathFormulaCategory>
     <MiscCategory>Miscelánea</MiscCategory>
     <MouseEventsCategory>Eventos del Ratón</MouseEventsCategory>
     <NavigationCategory>Navegación</NavigationCategory>
@@ -2944,6 +2959,9 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiChartTrendLineTypeLinear>Linear</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>Logarítmico</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>Ninguno</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>Marcado</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Indeterminado</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Desmarcado</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Seleccionado</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Rectángulo Chequeado</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Cruz</StiCheckStyleCross>
@@ -3347,6 +3365,9 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiTextQualityStandard>Estándar</StiTextQualityStandard>
     <StiTextQualityTypographic>Tipográfico</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Ajustar</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Recortar</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Ajuste de línea</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Día</StiTimeDateStepDay>
     <StiTimeDateStepHour>Hora</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Minuto</StiTimeDateStepMinute>
@@ -3601,6 +3622,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Borders>Margenes</Borders>
     <BorderSize>Tamaño del borde</BorderSize>
     <BorderStyle>Estilo de Margen</BorderStyle>
+    <BorderThickness>Grosor del borde</BorderThickness>
     <BorderWidth>Anchura del Marco</BorderWidth>
     <Bottom>Inferior</Bottom>
     <BottomLeft>Abajo-Izquierda</BottomLeft>
@@ -3637,7 +3659,10 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ChartAreaBrush>Broche de Área</ChartAreaBrush>
     <ChartAreaShowShadow>Mostrar Sombra</ChartAreaShowShadow>
     <ChartType>Tipo de Gráfico</ChartType>
+    <CheckAlignment>Alineación marcado</CheckAlignment>
+    <CheckColor>Color marcado</CheckColor>
     <Checked>Seleccionado</Checked>
+    <CheckedIcon>Ícono marcado</CheckedIcon>
     <CheckOnClick>Seleccionar con Clic</CheckOnClick>
     <CheckStyle>Estilo del Seleccionado</CheckStyle>
     <CheckStyleForFalse>Estilo de Verificación en Falso</CheckStyleForFalse>
@@ -3902,6 +3927,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <HyperlinkPattern>Patrón de hipervínculo</HyperlinkPattern>
     <Icon>Ícono</Icon>
     <IconAlignment>Alineación de iconos</IconAlignment>
+    <IconBrush>Pincel de icono</IconBrush>
     <IconColor>Color del ícono</IconColor>
     <IconSet>Conjunto de Íconos</IconSet>
     <IconSetCondition>Condición de Conjunto de Íconos</IconSetCondition>
@@ -4108,6 +4134,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <OpenValues>Valores abiertos</OpenValues>
     <Operation>Operación</Operation>
     <Options>Opciones</Options>
+    <Options3D>Opciones 3D</Options3D>
     <Orientation>Orientación</Orientation>
     <OthersText>Texto 'Otros'</OthersText>
     <Padding>Relleno</Padding>
@@ -4437,6 +4464,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Type>Tipo</Type>
     <TypeName>Nombre de Tipo</TypeName>
     <Types>Tipos</Types>
+    <UncheckedIcon>Ícono desmarcado</UncheckedIcon>
     <Underline>Subrayado</Underline>
     <UndoLimit>Limite Deshacer</UndoLimit>
     <Unit>Unidad</Unit>
@@ -4642,6 +4670,8 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <FinishingReport>Finalizando Informe</FinishingReport>
     <FirstPass>Primer Pase</FirstPass>
     <FixedBugs>Errores arreglados</FixedBugs>
+    <FromCurrentState>Desde el estado actual</FromCurrentState>
+    <FromDefaultState>Desde el estado predeterminado</FromDefaultState>
     <Gallery>Galería</Gallery>
     <GenerateNewCode>Generar Nuevo Código</GenerateNewCode>
     <History>Historial</History>
@@ -4791,6 +4821,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <NumberOfDayNone>Ninguno</NumberOfDayNone>
     <NumberOfDaySecond>Segundo</NumberOfDaySecond>
     <NumberOfDayThird>Tercer</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Abra el programador de tareas de Windows</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Seleccione un tipo de planificador</PleaseSelectSchedulerType>
     <RadioButtonDay>Día</RadioButtonDay>
     <RadioButtonOn>Encendido</RadioButtonOn>
@@ -5001,6 +5032,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <BlankDashboard>Consola Vacía</BlankDashboard>
     <BlankForm>Formulario en blanco</BlankForm>
     <BlankReport>Informe en Blanco</BlankReport>
+    <BlankScreen>Pantalla en blanco</BlankScreen>
     <ButtonBack>&lt; &amp;Anterior</ButtonBack>
     <ButtonCancel>Cancelar</ButtonCancel>
     <ButtonFinish>&amp;Finalizar</ButtonFinish>

@@ -639,6 +639,7 @@
     <StiReportTitleBand>Jelentés cím</StiReportTitleBand>
     <StiRichText>Rich Text</StiRichText>
     <StiRoundedRectanglePrimitive>Kerekítet téglalap</StiRoundedRectanglePrimitive>
+    <StiScreen>Képernyő</StiScreen>
     <StiShape>Shape</StiShape>
     <StiSparkline>Értékgörbe</StiSparkline>
     <StiSubReport>Beágyazott jelentés</StiSubReport>
@@ -653,13 +654,22 @@
     <StiWinControl>Win kontrol</StiWinControl>
     <StiZipCode>Irányítószám</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Összes jelölése</CheckedAll>
+    <HideText>Szöveg elrejtése</HideText>
+    <KeysChangePosition>Billentyűk (Bal, Fel, Jobb, Le) a szöveg elhelyezéséhez</KeysChangePosition>
+    <KeysChangeSize>Shift + billentyű (Bal, Fel, Jobb, Le) a szövegmező méretének változtatásához</KeysChangeSize>
+    <UncheckedAll>Összes bejelölés eltávolítása</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Tartomány hozzáadás</AddRange>
     <AfterGroupingData>Alkalmazás adatok csoportosítása után</AfterGroupingData>
+    <AfterSortingData>Alkalmazás az adatok csoportosítása, rendezése után</AfterSortingData>
     <AllowUserColumnSelection>Felhasználói oszlop kiválasztásának engedélyezése</AllowUserColumnSelection>
     <AllowUserDrillDown>Felhasználói lefúrás engedélyezése</AllowUserDrillDown>
     <AllowUserFiltering>Felhasználói szűrés engedélyezése</AllowUserFiltering>
     <AllowUserSorting>Felhasználói rendezés engedélyezése</AllowUserSorting>
+    <BeforeTransformation>Alkalmazás adatváltoztatás előtt</BeforeTransformation>
     <Blank>(Üres)</Blank>
     <Blanks>(Üresek)</Blanks>
     <BooleanFilters>Logikai szűrők</BooleanFilters>
@@ -713,6 +723,7 @@
     <Nulls>(Nullok)</Nulls>
     <NumberFilters>Szám szűrők</NumberFilters>
     <ParentElement>Szülő elem</ParentElement>
+    <Priority>Prioritás</Priority>
     <RangeMode>Tartomány mód</RangeMode>
     <RangeType>Tartomány típus</RangeType>
     <RemoveActions>Végrehajtások törlése</RemoveActions>
@@ -1214,6 +1225,7 @@
     <AssignExpression>Kifejezés hozzárendelés</AssignExpression>
     <BreakIfTrue>Megszakít ha igaz</BreakIfTrue>
     <BreakIfTrueToolTip>Megszakítja a feltétel feldolgozást ha az aktuális feltétel teljesül</BreakIfTrueToolTip>
+    <ChangeBorder>Keret változtatása...</ChangeBorder>
     <ChangeFont>Betűtípus változtat...</ChangeFont>
     <ComponentIsEnabled>Komponens engedélyezve</ComponentIsEnabled>
     <NoConditions>Nincs feltétel</NoConditions>
@@ -1481,6 +1493,7 @@
     <BlankDashboard>Üres irányítópult</BlankDashboard>
     <BlankForm>Üres űrlap</BlankForm>
     <BlankReport>Üres riport</BlankReport>
+    <BlankScreen>Üres képernyő</BlankScreen>
     <Default>Alapértelmezett</Default>
     <DefaultScriptMode>Alapértelmezett script mód</DefaultScriptMode>
     <Drawing>Rajzolás</Drawing>
@@ -2255,6 +2268,7 @@
     <menuFileReportWizardNew>Új jelentés &amp;varázslóval...</menuFileReportWizardNew>
     <menuFileSave>Mentés...</menuFileSave>
     <menuFileSaveAs>Mentés másként...</menuFileSaveAs>
+    <menuFileScreenNew>Új képernyő</menuFileScreenNew>
     <menuHelp>&amp;Segítség</menuHelp>
     <menuHelpAboutProgramm>&amp;Névjegy...</menuHelpAboutProgramm>
     <menuHelpContents>&amp;Tartalom...</menuHelpContents>
@@ -2620,6 +2634,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ListBoxCategory>Lista</ListBoxCategory>
     <MainCategory>Legfőbb</MainCategory>
     <MarkerCategory>Jelölés</MarkerCategory>
+    <MathFormulaCategory>Matematikai egyenlet</MathFormulaCategory>
     <MiscCategory>Egyéb</MiscCategory>
     <MouseEventsCategory>Egér események</MouseEventsCategory>
     <NavigationCategory>Navigálás</NavigationCategory>
@@ -2945,6 +2960,9 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiChartTrendLineTypeLinear>Lineáris</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>Logaritmikus</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>Semmilyen</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>Bejelölve</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Határozatlan</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Nincs bejelölve</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Pipa</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Téglalap-Pipa</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Kereszt</StiCheckStyleCross>
@@ -3348,6 +3366,9 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Nyomdai</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Elférés</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Ritkítás</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Sortörés</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Nap</StiTimeDateStepDay>
     <StiTimeDateStepHour>Óra</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Perc</StiTimeDateStepMinute>
@@ -3602,6 +3623,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Borders>Keretek</Borders>
     <BorderSize>Szegély méret</BorderSize>
     <BorderStyle>Keret stílus</BorderStyle>
+    <BorderThickness>Szegély vastagsága</BorderThickness>
     <BorderWidth>Szegély szélesség</BorderWidth>
     <Bottom>Lent</Bottom>
     <BottomLeft>Bal alsó</BottomLeft>
@@ -3638,7 +3660,10 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ChartAreaBrush>Terület ecset</ChartAreaBrush>
     <ChartAreaShowShadow>Árnyék mutatása</ChartAreaShowShadow>
     <ChartType>Diagram típus</ChartType>
+    <CheckAlignment>Bejelölés elhelyezése</CheckAlignment>
+    <CheckColor>Bejelölés színe</CheckColor>
     <Checked>Bekapcsolva</Checked>
+    <CheckedIcon>Bejelölés ikon</CheckedIcon>
     <CheckOnClick>Clickre bekapcsol</CheckOnClick>
     <CheckStyle>"Pipa" stílus</CheckStyle>
     <CheckStyleForFalse>"Pipa" stílus kikapcsolva</CheckStyleForFalse>
@@ -3903,6 +3928,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <HyperlinkPattern>Hiperhivatkozás minta</HyperlinkPattern>
     <Icon>Ikon</Icon>
     <IconAlignment>Ikonelhelyezés</IconAlignment>
+    <IconBrush>Ecset ikon</IconBrush>
     <IconColor>Ikon színe</IconColor>
     <IconSet>Ikonok</IconSet>
     <IconSetCondition>Ikonok kondíciói</IconSetCondition>
@@ -4109,6 +4135,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <OpenValues>Értékek megnyitása</OpenValues>
     <Operation>Művelet</Operation>
     <Options>Opciók</Options>
+    <Options3D>3D beállítások</Options3D>
     <Orientation>Tájolás</Orientation>
     <OthersText>Többi szöveg</OthersText>
     <Padding>Belső margók</Padding>
@@ -4438,6 +4465,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Type>Típus</Type>
     <TypeName>Típus neve</TypeName>
     <Types>Típusok</Types>
+    <UncheckedIcon>Bejelöletlen ikon</UncheckedIcon>
     <Underline>Aláhúzás</Underline>
     <UndoLimit>Undo Limit</UndoLimit>
     <Unit>Egység</Unit>
@@ -4643,6 +4671,8 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <FinishingReport>Jelentés befejezése</FinishingReport>
     <FirstPass>First Pass</FirstPass>
     <FixedBugs>Javított hibák</FixedBugs>
+    <FromCurrentState>Jelenlegi állapotból</FromCurrentState>
+    <FromDefaultState>Alap állapotból</FromDefaultState>
     <Gallery>Galéria</Gallery>
     <GenerateNewCode>Új kód generálás</GenerateNewCode>
     <History>Előzmények</History>
@@ -4791,6 +4821,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <NumberOfDayNone>semelyik</NumberOfDayNone>
     <NumberOfDaySecond>második</NumberOfDaySecond>
     <NumberOfDayThird>harmadik</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Windows Feladatütemező megnyitása</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Kérjük, válassza az ütemező típusát</PleaseSelectSchedulerType>
     <RadioButtonDay>nap</RadioButtonDay>
     <RadioButtonOn>ekkor</RadioButtonOn>
@@ -5001,6 +5032,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <BlankDashboard>Üres irányítópult</BlankDashboard>
     <BlankForm>Üres űrlap</BlankForm>
     <BlankReport>Üres jelentés</BlankReport>
+    <BlankScreen>Üres képernyő</BlankScreen>
     <ButtonBack>&lt; &amp;Vissza</ButtonBack>
     <ButtonCancel>Mégsem</ButtonCancel>
     <ButtonFinish>&amp;Befejez</ButtonFinish>
