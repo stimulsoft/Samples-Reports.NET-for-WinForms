@@ -638,6 +638,7 @@
     <StiReportTitleBand>Τίτλος Αναφοράς</StiReportTitleBand>
     <StiRichText>Εμπλουτισμένο Κείμενο</StiRichText>
     <StiRoundedRectanglePrimitive>Στρογγυλεμένο Ορθογώνιο</StiRoundedRectanglePrimitive>
+    <StiScreen>Οθόνη</StiScreen>
     <StiShape>Σχήμα</StiShape>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Υπο-Αναφορά</StiSubReport>
@@ -652,13 +653,22 @@
     <StiWinControl>Στοιχείο Των Windows</StiWinControl>
     <StiZipCode>Τ.Κ.</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Επιλογή Όλων</CheckedAll>
+    <HideText>Απόκρυψη Κειμένου</HideText>
+    <KeysChangePosition>Τα Πλήκτρα (Αριστερά, Πάνω, Δεξιά, Κάτω) αλλάζουν τη θέση του κειμένου</KeysChangePosition>
+    <KeysChangeSize>Ο συνδυασμός Shift και πλήκτρων (Αριστερά, Πάνω, Δεξιά, Κάτω) αλλάζει το μέγεθος της περιοχής κειμένου  τη θέση του κειμένου</KeysChangeSize>
+    <UncheckedAll>Αποεπιλογή όλων</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Προσθήκη Εύρους</AddRange>
     <AfterGroupingData>Εφαρμογή αφού γίνει ομαδοποίηση δεδομένων</AfterGroupingData>
+    <AfterSortingData>Εφαρμογή μετά την ομαδοποίηση και ταξινόμηση δεδομένων</AfterSortingData>
     <AllowUserColumnSelection>Επιστρέψτε την Επιλογή Στηλών Χρήστη</AllowUserColumnSelection>
     <AllowUserDrillDown>Να επιτρέπεται στον χρήστη το Drill Down</AllowUserDrillDown>
     <AllowUserFiltering>Να επιτρέπεται στον χρήστη το φιλτράρισμα</AllowUserFiltering>
     <AllowUserSorting>Να επιτρέπεται στον χρήστη η ταξινόμηση</AllowUserSorting>
+    <BeforeTransformation>Εφαρμογή πριν τον μετασχηματισμό των δεδομένων</BeforeTransformation>
     <Blank>(Κενό)</Blank>
     <Blanks>(Κενά)</Blanks>
     <BooleanFilters>Δυαδικά Φίλτρα</BooleanFilters>
@@ -711,6 +721,7 @@
     <Nulls>(Κενά)</Nulls>
     <NumberFilters>Αρίθμηση Φίλτρων</NumberFilters>
     <ParentElement>Στοιχείο Πατέρας</ParentElement>
+    <Priority>Προτεραιότητα</Priority>
     <RangeMode>Λειτουργία Εύρους</RangeMode>
     <RangeType>Τύπος Εύρους</RangeType>
     <RemoveActions>Αφαί&amp;ρεση Ενεργειών</RemoveActions>
@@ -1211,6 +1222,7 @@
     <AssignExpression>Ανάθεση Έκφρασης</AssignExpression>
     <BreakIfTrue>Διακοπή εάν Αληθές</BreakIfTrue>
     <BreakIfTrueToolTip>Διακοπή επεξεργασίας συνθήκης εάν η τρέχουσα πληρείται</BreakIfTrueToolTip>
+    <ChangeBorder>Αλλαγή περιθωρίου...</ChangeBorder>
     <ChangeFont>Αλλαγή Γραμματοσειράς...</ChangeFont>
     <ComponentIsEnabled>Το εξάρτημα είναι ενεργό</ComponentIsEnabled>
     <NoConditions>Χωρίς Συνθήκες</NoConditions>
@@ -1478,6 +1490,7 @@
     <BlankDashboard>Κενό Ταμπλό</BlankDashboard>
     <BlankForm>Κενή Φόρμα</BlankForm>
     <BlankReport>Κενή Αναφορά</BlankReport>
+    <BlankScreen>Κενή Οθόνη</BlankScreen>
     <Default>Προεπιλογή</Default>
     <DefaultScriptMode>Default τρόπος λειτουργίας scripts</DefaultScriptMode>
     <Drawing>Σχεδίαση</Drawing>
@@ -2251,6 +2264,7 @@
     <menuFileReportWizardNew>Νέα Αναφορά με τον &amp;Οδηγό...</menuFileReportWizardNew>
     <menuFileSave>&amp;Αποθήκευση</menuFileSave>
     <menuFileSaveAs>Αποθήκευση Ως...</menuFileSaveAs>
+    <menuFileScreenNew>Νέα Οθόνη</menuFileScreenNew>
     <menuHelp>&amp;Βοήθεια</menuHelp>
     <menuHelpAboutProgramm>&amp;Σχετικά...</menuHelpAboutProgramm>
     <menuHelpContents>&amp;Περιεχόμενα...</menuHelpContents>
@@ -2328,6 +2342,7 @@
     <ResourceCannotBeDeleted>Ο πόρος "{0}" δεν είναι δυνατό να διαγραφεί, γιατί χρησιμοποιείται από την αναφορά!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>Το λινκ διαμοιρασμού του στοιχείου έχει ανανεωθεί!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>Για να μοιραστείτε την αναφορά σας πρέπει να αποθηκεύσετε την αναφορά στο υπολογιστικό νέφος της Stimulsoft!</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>Αλλαγή μεταξύ modes λειτουργίας θα οδηγήσει σε απώλεια των αλλαγών. Επιθυμείτε να προχωρήσετε?</SwitchingBetweenModes>
     <TextRegistrationSuccessfully>Η εγγραφή ήταν επιτυχής!
 
 Το μειλ στάλθηκε στο "{0}".
@@ -2615,6 +2630,7 @@
     <ListBoxCategory>Πλαίσιο Λίστας</ListBoxCategory>
     <MainCategory>Βασικά</MainCategory>
     <MarkerCategory>Δείκτης</MarkerCategory>
+    <MathFormulaCategory>Μαθηματικός Τύπος</MathFormulaCategory>
     <MiscCategory>Διάφορα</MiscCategory>
     <MouseEventsCategory>Γεγονότα Ποντικιού</MouseEventsCategory>
     <NavigationCategory>Πλοήγηση</NavigationCategory>
@@ -2940,6 +2956,9 @@
     <StiChartTrendLineTypeLinear>Γραμμικό</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>Λογαριθμικό</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>Κανένα</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>Επιλεγμένο</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Απροσδιόριστο</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Μη Επιλεγμένο</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Τσεκ</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Τσεκ-Ορθογώνιο</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Σταυρός</StiCheckStyleCross>
@@ -3343,6 +3362,9 @@
     <StiTextQualityStandard>Τυπική</StiTextQualityStandard>
     <StiTextQualityTypographic>Τυπογραφική</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Ότι Βλέπω Στην Οθόνη</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Προσαρμογή στο μέγεθος</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Περικοπή στο μέγεθος</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Μεταφορά λέξεων σε επόμενη γραμμή</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Ημέρα</StiTimeDateStepDay>
     <StiTimeDateStepHour>Ώρα</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Λεπτό</StiTimeDateStepMinute>
@@ -3596,6 +3618,7 @@
     <Borders>Όρια</Borders>
     <BorderSize>Μέγεθος Περιθωρίου</BorderSize>
     <BorderStyle>Στυλ Ορίου</BorderStyle>
+    <BorderThickness>Πάχος Περιθωρίου</BorderThickness>
     <BorderWidth>Πλάτος Περιθωρίου</BorderWidth>
     <Bottom>Κάτω</Bottom>
     <BottomLeft>Κάτω αριστερά</BottomLeft>
@@ -3632,7 +3655,10 @@
     <ChartAreaBrush>Βούρτσα Εμβαδού</ChartAreaBrush>
     <ChartAreaShowShadow>Εμφάνιση Σκιάς</ChartAreaShowShadow>
     <ChartType>Τύπος Διαγράμματος</ChartType>
+    <CheckAlignment>Έλεγχος Στοίχισης</CheckAlignment>
+    <CheckColor>Έλεγχος Χρώματος</CheckColor>
     <Checked>Τσεκαρισμένο</Checked>
+    <CheckedIcon>Ελεγμένο Εικονίδιο</CheckedIcon>
     <CheckOnClick>Τσεκάρισμα στο κλικ</CheckOnClick>
     <CheckStyle>Στυλ Τσεκαρίσματος</CheckStyle>
     <CheckStyleForFalse>Στυλ Τσεκαρίσματος για ΨΕΥΔΕΣ</CheckStyleForFalse>
@@ -3897,6 +3923,7 @@
     <HyperlinkPattern>Μοτίβο Υπερσυνδέσμων</HyperlinkPattern>
     <Icon>Εικονίδιο</Icon>
     <IconAlignment>Στοίχιση Εικονιδίων</IconAlignment>
+    <IconBrush>Εικονίδιο Βούρτσας</IconBrush>
     <IconColor>Χρώμα Εικονιδίων</IconColor>
     <IconSet>Σετ Εικονιδίων</IconSet>
     <IconSetCondition>Συνθήκη Σετ Εικονιδίων</IconSetCondition>
@@ -4102,6 +4129,7 @@
     <OpenValues>Ανοικτές Τιμές</OpenValues>
     <Operation>Λειτουργία</Operation>
     <Options>Επιλογές</Options>
+    <Options3D>Επιλογές 3D</Options3D>
     <Orientation>Προσανατολισμός</Orientation>
     <OthersText>Κείμενο για τα Υπόλοιπα</OthersText>
     <Padding>Εσωτερικό Περιθώριο</Padding>
@@ -4430,6 +4458,7 @@
     <Type>Τύπος</Type>
     <TypeName>Όνομα Τύπου</TypeName>
     <Types>Τύποι</Types>
+    <UncheckedIcon>Μη Επιλεγμένο Εικονίδιο</UncheckedIcon>
     <Underline>Υπογράμμιση</Underline>
     <UndoLimit>Όριο Αναίρεσης</UndoLimit>
     <Unit>Μονάδα</Unit>
@@ -4635,6 +4664,8 @@
     <FinishingReport>Ολοκλήρωση Αναφοράς</FinishingReport>
     <FirstPass>Πρώτο Πέρασμα</FirstPass>
     <FixedBugs>Διορθωμένα Προβλήματα</FixedBugs>
+    <FromCurrentState>Από την Τρέχουσα Κατάσταση</FromCurrentState>
+    <FromDefaultState>Από την εξ Ορισμού Κατάσταση</FromDefaultState>
     <Gallery>Έκθεση</Gallery>
     <GenerateNewCode>Παραγωγή Νέου Κώδικα</GenerateNewCode>
     <History>Ιστορικό</History>
@@ -4718,6 +4749,7 @@
     <VisualChecked>Επιλεγμένο</VisualChecked>
     <VisualDefault>Default</VisualDefault>
     <VisualDisabled>Απενεργοποιημένο</VisualDisabled>
+    <VisualHover>Hover</VisualHover>
     <VisualPressed>Πατημένο</VisualPressed>
     <Warnings>Προειδοποιήσεις</Warnings>
     <WhatsNewInVersion>Τι είναι νέο στην έκδοση {0}</WhatsNewInVersion>
@@ -4754,6 +4786,7 @@
     <EnableSSL>Ενεργοποίηση SSL</EnableSSL>
     <Expire>Λήξη</Expire>
     <ForADuractionOf>για διάρκεια</ForADuractionOf>
+    <ForADurationOf>για διάρκεια</ForADurationOf>
     <GetFolder>Λήψη φακέλου</GetFolder>
     <GroupBoxFiles>Αρχεία</GroupBoxFiles>
     <Host>Host</Host>
@@ -4785,6 +4818,7 @@
     <NumberOfDayNone>Καμία</NumberOfDayNone>
     <NumberOfDaySecond>Δεύτερη</NumberOfDaySecond>
     <NumberOfDayThird>Τρίτη</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Ανοίξτε τον Task Scheduler των Windows</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Παρακαλώ επιλέξτε έναν τύπο χρονοπρογραμματισμού</PleaseSelectSchedulerType>
     <RadioButtonDay>Ημέρα</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
@@ -4795,6 +4829,7 @@
     <SenderEmail>Email Αποστολέα</SenderEmail>
     <SmtpSettings>Ρυθμίσεις Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuraction>Σταμάτημα όλων των ενεργειών που εκτελούνται με το τέλος της διάρκειας επανάληψης</StopAllRunningTasksAtEndOfRepetitionDuraction>
+    <StopAllRunningTasksAtEndOfRepetitionDuration>Σταματήσετε όλα τα tasks που είναι σε εξέλιξη στο τέλος της διάρκειας επανάληψης</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Σταμάτημα των ενεργειών εάν εκτελούνται για περισσότερο από</StopTasksIfItRunsLongerThan>
     <TextDragDropDestinationHere>Σύρετε και αφήσετε τον φάκελο προορισμού εδώ:</TextDragDropDestinationHere>
     <TextDragDropReportHere>Σύρετε και αφήσετε την αναφορά εδώ:</TextDragDropReportHere>
@@ -4995,6 +5030,7 @@
     <BlankDashboard>Κενό Ταμπλό</BlankDashboard>
     <BlankForm>Κενή φόρμα</BlankForm>
     <BlankReport>Κενή Αναφορά</BlankReport>
+    <BlankScreen>Κενή Οθόνη</BlankScreen>
     <ButtonBack>&lt; &amp;Πίσω</ButtonBack>
     <ButtonCancel>Ακύρωση</ButtonCancel>
     <ButtonFinish>&amp;Τέλος</ButtonFinish>
