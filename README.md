@@ -4,28 +4,29 @@
 
 # Overview
 This repository has many examples (Visual Studio Projects) each in different folders:
-* Rendering and Exporting a Report Asynchronously
-* Using the Report Page Canvas for the Copyrights
 * Adding a Custom Component to the Designer
+* Adding a Font to the Resource
+* Creating Report at Runtime
 * Customizing the Viewer
 * Demo
+* Drilling Down Report in Live
 * Exporting Many Files to Single PDF
 * Exporting a Report from Code
 * Globalizing Reports
-* Drilling Down Report in Live
-* Testing Memory Usage in EngineV1 and EngineV2
+* Managing Reports with Sub-Reports
 * Previewing a Report with AutoUpdate in Realtime
+* Rendering and Exporting a Report Asynchronously
 * Rendering Several Reports in the Thread
 * Showing a Progress while Rendering a Report
-* Creating Report at Runtime
 * Saving and Loading a Report in the Designer
-* Using User Data in Reports
+* Testing Memory Usage in EngineV1 and EngineV2
 * Using Business Objects in the Report
 * Using Linq in Reports
 * Using Report Variables in Code
 * Using the Form to Select Columns
+* Using the Report Page Canvas for the Copyrights
 * Using the Right-To-Left Mode in the Viewer
-* Managing Reports with Sub-Reports
+* Using User Data in Reports
 
 They are all combined in a Visual Studio solution (.sln-file).
 
