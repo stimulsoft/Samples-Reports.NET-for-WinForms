@@ -17,10 +17,11 @@ This repository has many examples (Visual Studio Projects) each in different fol
 * Previewing a Report with AutoUpdate in Realtime
 * Rendering and Exporting a Report Asynchronously
 * Rendering Several Reports in the Thread
-* Showing a Progress while Rendering a Report
 * Saving and Loading a Report in the Designer
+* Showing a Progress while Rendering a Report
 * Testing Memory Usage in EngineV1 and EngineV2
 * Using Business Objects in the Report
+* Using a Custom Data Adapter
 * Using Linq in Reports
 * Using Report Variables in Code
 * Using the Form to Select Columns
