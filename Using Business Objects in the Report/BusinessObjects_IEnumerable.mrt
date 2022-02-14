@@ -7,10 +7,10 @@
       <EmployeeIEnumerable Ref="2" type="Stimulsoft.Report.Dictionary.StiEnumerableSource" isKey="true">
         <Alias>EmployeeIEnumerable</Alias>
         <Columns isList="true" count="4">
-          <value>Department,Using_Business_Objects_in_the_Report.Department</value>
-          <value>EmployeeName,System.String</value>
-          <value>Email,System.String</value>
           <value>_ID,System.Int32</value>
+          <value>Department,Using_Business_Objects_in_the_Report.Department</value>
+          <value>Email,System.String</value>
+          <value>EmployeeName,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Key>49fb3bc4246c45c99ab91b153ac4b607</Key>
@@ -20,9 +20,9 @@
       <EmployeeIEnumerable_Phones Ref="3" type="Stimulsoft.Report.Dictionary.StiEnumerableSource" isKey="true">
         <Alias>EmployeeIEnumerable_Phones</Alias>
         <Columns isList="true" count="3">
-          <value>Number,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
+          <value>Number,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Key>357e37a65526429caf749de070ed67fe</Key>
@@ -50,7 +50,7 @@
     <Resources isList="true" count="0" />
     <Variables isList="true" count="0" />
   </Dictionary>
-  <EngineVersion>EngineV1</EngineVersion>
+  <EngineVersion>EngineV2</EngineVersion>
   <GlobalizationStrings isList="true" count="0" />
   <Key>744e9b6fb4524f13b1a2ae6e2ce56a68</Key>
   <MetaTags isList="true" count="0" />
@@ -466,11 +466,11 @@
   </ReferencedAssemblies>
   <ReportAlias>IEnumerable</ReportAlias>
   <ReportAuthor isNull="true" />
-  <ReportChanged>7/8/2021 8:44:32 AM</ReportChanged>
+  <ReportChanged>2/14/2022 5:37:09 PM</ReportChanged>
   <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
   <ReportDescription isNull="true" />
-  <ReportFile>D:\Stimulsoft\Samples\Samples-ASP.NET-MVC-CSharp\Using Business Objects in the Report\Content\Reports\BusinessObjects_IEnumerable.mrt</ReportFile>
-  <ReportGuid>762ca6e89d424c0299a34c97952e3767</ReportGuid>
+  <ReportFile>D:\Stimulsoft\Samples\Samples-WinForms-CSharp\Using Business Objects in the Report\BusinessObjects_IEnumerable.mrt</ReportFile>
+  <ReportGuid>e4ffa48ec26d49f9ab4ab19263e035b4</ReportGuid>
   <ReportImage>iVBORw0KGgoAAAANSUhEUgAAASAAAAGWCAMAAADvzq7aAAAABGdBTUEAALGPC/xhBQAAAYBQTFRF
 uMbKyNfZR7ar9Pr5uh0WvLy83/Lx6vf2jNHK1d3hjpCQqL7D0ayn8fLzrLe46erq4fPxWU9B2+3s
 bsa+zs/P5vb1tMDApKqqy+Dj49zW/f7/+v39X3yL1NTVcImV+vr6tHNWxc/V7vn34+ns1eTj4/X1
@@ -954,7 +954,7 @@ YcrgMJDRBXM1/nIAWubhM0EL8JmgBfhM0AJ8JmgBPhO0AJ8JWoDPBC3AZ4IW4DNBC/CZoAX4TNAC
 fCZoAT4TtACfCVoAhv3/U0N8l9qv4JUAAAAASUVORK5CYII=</ReportImage>
   <ReportName>Report</ReportName>
   <ReportUnit>HundredthsOfInch</ReportUnit>
-  <ReportVersion>2021.3.4.0</ReportVersion>
+  <ReportVersion>2022.1.6.0</ReportVersion>
   <Script>
 	  using System;
 	  using System.Drawing;
@@ -977,7 +977,7 @@ fCZoAT4TtACfCVoAhv3/U0N8l9qv4JUAAAAASUVORK5CYII=</ReportImage>
 	  }
 
 	  #region StiReport Designer generated code - do not modify
-	  #endregion StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
 	  }
 	  }
   </Script>

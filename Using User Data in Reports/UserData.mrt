@@ -1,309 +1,269 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<StiSerializer version="1.0" application="StiReport">
+<StiSerializer version="1.02" type="Net" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="0" />
     <DataSources isList="true" count="1">
       <UserData Ref="2" type="Stimulsoft.Report.Dictionary.StiUserSource" isKey="true">
         <Alias>UserData</Alias>
         <Columns isList="true" count="4">
-          <value>Name,System.Object</value>
-          <value>ReturnType,System.Object</value>
           <value>IsStatic,System.Object</value>
+          <value>Name,System.Object</value>
           <value>Parameters,System.Object</value>
+          <value>ReturnType,System.Object</value>
         </Columns>
-        <DataName>UserData</DataName>
         <Dictionary isRef="1" />
+        <Key>fec33798afe24e0ba0c9a8ea89926e9f</Key>
         <Name>UserData</Name>
+        <NameInSource>UserData</NameInSource>
       </UserData>
     </DataSources>
     <Relations isList="true" count="0" />
     <Report isRef="0" />
+    <Resources isList="true" count="0" />
     <Variables isList="true" count="0" />
   </Dictionary>
-  <Language Ref="3" type="CSharp" isKey="true" />
-  <Modifiers isList="true" count="0" />
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>9518a7fd5b4e4eb2b2c7ae700ab73067</Key>
+  <MetaTags isList="true" count="0" />
   <Pages isList="true" count="1">
-    <Page1 Ref="4" type="Page" isKey="true">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
       <Components isList="true" count="4">
-        <PageFooterBand1 Ref="5" type="PageFooterBand" isKey="true">
-          <ClientRectangle>0,26.91,19.03,0.8</ClientRectangle>
+        <PageFooterBand1 Ref="4" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.9,19,0.8</ClientRectangle>
           <Components isList="true" count="2">
-            <Text7 Ref="6" type="Text" isKey="true">
+            <Text7 Ref="5" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,7,0.8</ClientRectangle>
-              <Dock>Left</Dock>
+              <Conditions isList="true" count="0" />
+              <DockStyle>Left</DockStyle>
+              <Expressions isList="true" count="0" />
               <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="7" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
               <HorAlignment>Center</HorAlignment>
               <Hyperlink>http://www.stimulsoft.com</Hyperlink>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text7</Name>
-              <Page isRef="4" />
-              <Parent isRef="5" />
+              <Page isRef="3" />
+              <Parent isRef="4" />
               <Text>(c) 2003-2006 Stimulsoft</Text>
               <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="8" type="GeneralFormat" isKey="true" />
               <VertAlignment>Center</VertAlignment>
             </Text7>
-            <Text8 Ref="9" type="Text" isKey="true">
+            <Text8 Ref="6" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>7.03,0,12,0.8</ClientRectangle>
-              <Dock>Right</Dock>
+              <ClientRectangle>7,0,12,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <DockStyle>Right</DockStyle>
+              <Expressions isList="true" count="0" />
               <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="10" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
               <HorAlignment>Right</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text8</Name>
-              <Page isRef="4" />
-              <Parent isRef="5" />
+              <Page isRef="3" />
+              <Parent isRef="4" />
               <Text>{PageNofM}</Text>
               <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="11" type="GeneralFormat" isKey="true" />
               <VertAlignment>Center</VertAlignment>
             </Text8>
           </Components>
-          <Dock>Bottom</Dock>
-          <Modifiers isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>PageFooterBand1</Name>
-          <Page isRef="4" />
-          <Parent isRef="4" />
+          <Page isRef="3" />
+          <Parent isRef="3" />
         </PageFooterBand1>
-        <ReportTitleBand1 Ref="12" type="ReportTitleBand" isKey="true">
-          <ClientRectangle>0,0.4,19.03,2.6</ClientRectangle>
+        <ReportTitleBand1 Ref="7" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,2.6</ClientRectangle>
           <Components isList="true" count="2">
-            <Text6 Ref="13" type="Text" isKey="true">
+            <Text6 Ref="8" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0,1.6,19,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,22</Font>
-              <HighlightCondition Ref="14" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
               <HorAlignment>Center</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text6</Name>
-              <Page isRef="4" />
-              <Parent isRef="12" />
+              <Page isRef="3" />
+              <Parent isRef="7" />
               <Text>Methods of Graphics class</Text>
               <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="15" type="GeneralFormat" isKey="true" />
               <VertAlignment>Center</VertAlignment>
             </Text6>
-            <Text5 Ref="16" type="Text" isKey="true">
+            <Text5 Ref="9" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,19,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,36,Bold</Font>
-              <HighlightCondition Ref="17" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
               <HorAlignment>Center</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text5</Name>
-              <Page isRef="4" />
-              <Parent isRef="12" />
+              <Page isRef="3" />
+              <Parent isRef="7" />
               <Text>User Data</Text>
               <TextBrush>SaddleBrown</TextBrush>
-              <TextFormat Ref="18" type="GeneralFormat" isKey="true" />
               <VertAlignment>Center</VertAlignment>
             </Text5>
           </Components>
-          <Dock>Top</Dock>
-          <Modifiers isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>ReportTitleBand1</Name>
-          <Page isRef="4" />
-          <Parent isRef="4" />
+          <Page isRef="3" />
+          <Parent isRef="3" />
         </ReportTitleBand1>
-        <HeaderBand1 Ref="19" type="HeaderBand" isKey="true">
-          <ClientRectangle>0,3.8,19.03,0.6</ClientRectangle>
+        <HeaderBand1 Ref="10" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,3.8,19,0.6</ClientRectangle>
           <Components isList="true" count="4">
-            <Text11 Ref="20" type="Text" isKey="true">
+            <Text11 Ref="11" type="Text" isKey="true">
               <Brush>Peru</Brush>
               <ClientRectangle>3.8,0,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="21" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text11</Name>
-              <Page isRef="4" />
-              <Parent isRef="19" />
+              <Page isRef="3" />
+              <Parent isRef="10" />
               <Text>Is static</Text>
               <TextBrush>White</TextBrush>
-              <TextFormat Ref="22" type="GeneralFormat" isKey="true" />
               <VertAlignment>Center</VertAlignment>
             </Text11>
-            <Text10 Ref="23" type="Text" isKey="true">
+            <Text10 Ref="12" type="Text" isKey="true">
               <Brush>Peru</Brush>
               <ClientRectangle>0,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="24" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text10</Name>
-              <Page isRef="4" />
-              <Parent isRef="19" />
+              <Page isRef="3" />
+              <Parent isRef="10" />
               <Text>Return type</Text>
               <TextBrush>White</TextBrush>
-              <TextFormat Ref="25" type="GeneralFormat" isKey="true" />
               <VertAlignment>Center</VertAlignment>
             </Text10>
-            <Text12 Ref="26" type="Text" isKey="true">
+            <Text12 Ref="13" type="Text" isKey="true">
               <Brush>Peru</Brush>
               <ClientRectangle>5.8,0,7.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="27" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text12</Name>
-              <Page isRef="4" />
-              <Parent isRef="19" />
+              <Page isRef="3" />
+              <Parent isRef="10" />
               <Text>Name</Text>
               <TextBrush>White</TextBrush>
-              <TextFormat Ref="28" type="GeneralFormat" isKey="true" />
               <VertAlignment>Center</VertAlignment>
             </Text12>
-            <Text13 Ref="29" type="Text" isKey="true">
+            <Text13 Ref="14" type="Text" isKey="true">
               <Brush>Peru</Brush>
               <ClientRectangle>13.2,0,5.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,14,Bold</Font>
-              <HighlightCondition Ref="30" type="HighlightCondition" isKey="true">
-                <Brush>Transparent</Brush>
-                <Font>Arial,8</Font>
-                <TextBrush>Red</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text13</Name>
-              <Page isRef="4" />
-              <Parent isRef="19" />
+              <Page isRef="3" />
+              <Parent isRef="10" />
               <Text>Parameters</Text>
               <TextBrush>White</TextBrush>
-              <TextFormat Ref="31" type="GeneralFormat" isKey="true" />
               <VertAlignment>Center</VertAlignment>
             </Text13>
           </Components>
-          <Dock>Top</Dock>
-          <Modifiers isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>HeaderBand1</Name>
-          <Page isRef="4" />
-          <Parent isRef="4" />
+          <Page isRef="3" />
+          <Parent isRef="3" />
         </HeaderBand1>
-        <DataBand1 Ref="32" type="DataBand" isKey="true">
-          <CanGrow>True</CanGrow>
-          <ClientRectangle>0,5.2,19.03,0.6</ClientRectangle>
+        <DataBand1 Ref="15" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,5.2,19,0.6</ClientRectangle>
           <Components isList="true" count="4">
-            <Text3 Ref="33" type="Text" isKey="true">
+            <Text3 Ref="16" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,10</Font>
-              <HighlightCondition Ref="34" type="HighlightCondition" isKey="true">
-                <Brush>PapayaWhip</Brush>
-                <Condition>(Line &amp; 1) == 1</Condition>
-                <Font>Arial,10</Font>
-                <TextBrush>Black</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text3</Name>
-              <Page isRef="4" />
-              <Parent isRef="32" />
+              <Page isRef="3" />
+              <Parent isRef="15" />
               <Text>{UserData.ReturnType}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="35" type="GeneralFormat" isKey="true" />
             </Text3>
-            <Text2 Ref="36" type="Text" isKey="true">
+            <Text2 Ref="17" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>5.8,0,7.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,10</Font>
-              <HighlightCondition Ref="37" type="HighlightCondition" isKey="true">
-                <Brush>PapayaWhip</Brush>
-                <Condition>(Line &amp; 1) == 1</Condition>
-                <Font>Arial,10</Font>
-                <TextBrush>Black</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
-              <Page isRef="4" />
-              <Parent isRef="32" />
+              <Page isRef="3" />
+              <Parent isRef="15" />
               <Text>{UserData.Name}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="38" type="GeneralFormat" isKey="true" />
             </Text2>
-            <Text4 Ref="39" type="Text" isKey="true">
+            <Text4 Ref="18" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>13.2,0,5.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,10</Font>
-              <HighlightCondition Ref="40" type="HighlightCondition" isKey="true">
-                <Brush>PapayaWhip</Brush>
-                <Condition>(Line &amp; 1) == 1</Condition>
-                <Font>Arial,10</Font>
-                <TextBrush>Black</TextBrush>
-              </HighlightCondition>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text4</Name>
-              <Page isRef="4" />
-              <Parent isRef="32" />
+              <Page isRef="3" />
+              <Parent isRef="15" />
               <Text>{UserData.Parameters}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="41" type="GeneralFormat" isKey="true" />
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
             </Text4>
-            <Text1 Ref="42" type="Text" isKey="true">
+            <Text1 Ref="19" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>3.8,0,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Arial,10</Font>
-              <HighlightCondition Ref="43" type="HighlightCondition" isKey="true">
-                <Brush>PapayaWhip</Brush>
-                <Condition>(Line &amp; 1) == 1</Condition>
-                <Font>Arial,10</Font>
-                <TextBrush>Black</TextBrush>
-              </HighlightCondition>
               <HorAlignment>Center</HorAlignment>
-              <Modifiers isList="true" count="0" />
+              <Margins>0,0,0,0</Margins>
               <Name>Text1</Name>
-              <Page isRef="4" />
-              <Parent isRef="32" />
+              <Page isRef="3" />
+              <Parent isRef="15" />
               <Text>{UserData.IsStatic}</Text>
               <TextBrush>Black</TextBrush>
-              <TextFormat Ref="44" type="GeneralFormat" isKey="true" />
             </Text1>
           </Components>
-          <DataRelationName />
+          <Conditions isList="true" count="0" />
           <DataSourceName>UserData</DataSourceName>
-          <Dock>Top</Dock>
-          <Modifiers isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
           <Name>DataBand1</Name>
-          <Page isRef="4" />
-          <Parent isRef="4" />
+          <Page isRef="3" />
+          <Parent isRef="3" />
           <Sort isList="true" count="0" />
         </DataBand1>
       </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>4d1c4001b6224b11a8d6684be4ae48a2</Guid>
       <Margins>1,1,1,1</Margins>
-      <Modifiers isList="true" count="0" />
       <Name>Page1</Name>
-      <Page isRef="4" />
-      <PageHeight>29.70</PageHeight>
+      <PageHeight>29.7</PageHeight>
       <PageWidth>21</PageWidth>
       <Report isRef="0" />
     </Page1>
@@ -319,11 +279,14 @@
   </ReferencedAssemblies>
   <ReportAlias>User Data</ReportAlias>
   <ReportAuthor isNull="true" />
-  <ReportChanged>3/2/2005 1:07 PM</ReportChanged>
-  <ReportCreated>5/29/2004 10:59 AM</ReportCreated>
+  <ReportChanged>2/14/2022 5:36:36 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
   <ReportDescription isNull="true" />
+  <ReportFile>D:\Stimulsoft\Samples\Samples-WinForms-CSharp\Using User Data in Reports\UserData.mrt</ReportFile>
+  <ReportGuid>2516fdedc64d4aa3a2dab47c97bfe11f</ReportGuid>
   <ReportName>Report</ReportName>
-  <ReportVersion>1.20</ReportVersion>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2022.1.6.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -343,9 +306,11 @@ namespace StiReports
             this.InitializeComponent();
         }
         
-        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
     }
 }
 </Script>
-  <Unit Ref="45" type="cm" isKey="true" />
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
 </StiSerializer>

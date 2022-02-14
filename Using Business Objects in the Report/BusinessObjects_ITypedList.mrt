@@ -7,10 +7,10 @@
       <EmployeesITypedList Ref="2" type="Stimulsoft.Report.Dictionary.StiEnumerableSource" isKey="true">
         <Alias>EmployeesITypedList</Alias>
         <Columns isList="true" count="4">
-          <value>Department,Using_Business_Objects_in_the_Report.Department</value>
-          <value>EmployeeName,System.String</value>
-          <value>Email,System.String</value>
           <value>_ID,System.Int32</value>
+          <value>Department,Using_Business_Objects_in_the_Report.Department</value>
+          <value>Email,System.String</value>
+          <value>EmployeeName,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Key>d3bac9aa71264e2a978fa5ef5675d309</Key>
@@ -20,9 +20,9 @@
       <PhonesITypedList Ref="3" type="Stimulsoft.Report.Dictionary.StiEnumerableSource" isKey="true">
         <Alias>PhonesITypedList</Alias>
         <Columns isList="true" count="3">
-          <value>Number,System.String</value>
           <value>_ID,System.Int32</value>
           <value>_parentID,System.Int32</value>
+          <value>Number,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Key>ed032e8f436d4e2a82153cdda236fc59</Key>
@@ -50,7 +50,7 @@
     <Resources isList="true" count="0" />
     <Variables isList="true" count="0" />
   </Dictionary>
-  <EngineVersion>EngineV1</EngineVersion>
+  <EngineVersion>EngineV2</EngineVersion>
   <GlobalizationStrings isList="true" count="0" />
   <Key>e8f738e1d55f4c70a3f3573b9881a414</Key>
   <MetaTags isList="true" count="0" />
@@ -451,14 +451,14 @@
   </ReferencedAssemblies>
   <ReportAlias>ITypedList</ReportAlias>
   <ReportAuthor isNull="true" />
-  <ReportChanged>7/8/2021 9:35:34 AM</ReportChanged>
+  <ReportChanged>2/14/2022 5:37:17 PM</ReportChanged>
   <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
   <ReportDescription isNull="true" />
-  <ReportFile>D:\Stimulsoft\Samples\Samples-ASP.NET-MVC-CSharp\Using Business Objects in the Report\Content\Reports\BusinessObjects_ITypedList.mrt</ReportFile>
-  <ReportGuid>1f13105b14094bfe9ea3b0171c2ac716</ReportGuid>
+  <ReportFile>D:\Stimulsoft\Samples\Samples-WinForms-CSharp\Using Business Objects in the Report\BusinessObjects_ITypedList.mrt</ReportFile>
+  <ReportGuid>25e7c285b0b54612bd7a33b3beeace45</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>HundredthsOfInch</ReportUnit>
-  <ReportVersion>2021.3.4.0</ReportVersion>
+  <ReportVersion>2022.1.6.0</ReportVersion>
   <Script>
 	  using System;
 	  using System.Drawing;
@@ -481,7 +481,7 @@
 	  }
 
 	  #region StiReport Designer generated code - do not modify
-	  #endregion StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
 	  }
 	  }
   </Script>

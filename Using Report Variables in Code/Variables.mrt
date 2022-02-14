@@ -1,280 +1,239 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<StiSerializer version="1.0" application="StiReport">
+<StiSerializer version="1.02" type="Net" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
     <DataSources isList="true" count="0" />
     <Relations isList="true" count="0" />
     <Report isRef="0" />
+    <Resources isList="true" count="0" />
     <Variables isList="true" count="6">
-      <value>Category,Name,System.String,_x0022__x0022_,False</value>
-      <value>Category,Surname,System.String,_x0022__x0022_,False</value>
-      <value>Category,Email,E-mail,System.String,_x0022__x0022_,False</value>
-      <value>Category,Address,System.String,_x0022__x0022_,False</value>
-      <value>Category,BirthDay,System.DateTime,DateTime.Now,False</value>
-      <value>Category,Sex,System.Boolean,true,False</value>
+      <value>Category,Address,Address,,System.String,_x0022__x0022_,False,False,False,False</value>
+      <value>Category,BirthDay,BirthDay,,System.DateTime,DateTime.Now,False,True,False,False</value>
+      <value>Category,Email,E-mail,,System.String,_x0022__x0022_,False,False,False,False</value>
+      <value>Category,Name,Name,,System.String,_x0022__x0022_,False,False,False,False</value>
+      <value>Category,Sex,Sex,,System.Boolean,true,False,False,False,False</value>
+      <value>Category,Surname,Surname,,System.String,_x0022__x0022_,False,False,False,False</value>
     </Variables>
   </Dictionary>
-  <Language Ref="2" type="CSharp" isKey="true" />
-  <Modifiers isList="true" count="0" />
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>2cd8a848efb949f19b68b48842e3a2c8</Key>
+  <MetaTags isList="true" count="0" />
   <Pages isList="true" count="1">
-    <Page1 Ref="3" type="Page" isKey="true">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
       <Components isList="true" count="13">
-        <Text1 Ref="4" type="Text" isKey="true">
+        <Text1 Ref="3" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,2.2,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="5" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
           <HorAlignment>Right</HorAlignment>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text1</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>Name</Text>
           <TextBrush>Black</TextBrush>
-          <TextFormat Ref="6" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text1>
-        <Text2 Ref="7" type="Text" isKey="true">
+        <Text2 Ref="4" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,3.6,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="8" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
           <HorAlignment>Right</HorAlignment>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text2</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>Surname</Text>
           <TextBrush>Black</TextBrush>
-          <TextFormat Ref="9" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text2>
-        <Text3 Ref="10" type="Text" isKey="true">
+        <Text3 Ref="5" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,5,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="11" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
           <HorAlignment>Right</HorAlignment>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text3</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>E-mail</Text>
           <TextBrush>Black</TextBrush>
-          <TextFormat Ref="12" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text3>
-        <Text5 Ref="13" type="Text" isKey="true">
+        <Text5 Ref="6" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,6.4,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="14" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
           <HorAlignment>Right</HorAlignment>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text5</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>Address</Text>
           <TextBrush>Black</TextBrush>
-          <TextFormat Ref="15" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text5>
-        <Text7 Ref="16" type="Text" isKey="true">
+        <Text7 Ref="7" type="Text" isKey="true">
           <Border>All;Black;1;Solid;False;4;Black</Border>
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,2.2,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="17" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text7</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>{Name}</Text>
           <TextBrush>RoyalBlue</TextBrush>
-          <TextFormat Ref="18" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text7>
-        <Text8 Ref="19" type="Text" isKey="true">
+        <Text8 Ref="8" type="Text" isKey="true">
           <Border>All;Black;1;Solid;False;4;Black</Border>
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,3.6,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="20" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text8</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>{Surname}</Text>
           <TextBrush>RoyalBlue</TextBrush>
-          <TextFormat Ref="21" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text8>
-        <Text9 Ref="22" type="Text" isKey="true">
+        <Text9 Ref="9" type="Text" isKey="true">
           <Border>All;Black;1;Solid;False;4;Black</Border>
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,5,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="23" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text9</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>{Email}</Text>
           <TextBrush>RoyalBlue</TextBrush>
-          <TextFormat Ref="24" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text9>
-        <Text11 Ref="25" type="Text" isKey="true">
+        <Text11 Ref="10" type="Text" isKey="true">
           <Border>All;Black;1;Solid;False;4;Black</Border>
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,6.4,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="26" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text11</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>{Address}</Text>
           <TextBrush>RoyalBlue</TextBrush>
-          <TextFormat Ref="27" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text11>
-        <Text13 Ref="28" type="Text" isKey="true">
+        <Text13 Ref="11" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.42,0.6,8.2,0.8</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,24</Font>
-          <HighlightCondition Ref="29" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
           <HorAlignment>Center</HorAlignment>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text13</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>Variables</Text>
           <TextBrush>Black</TextBrush>
-          <TextFormat Ref="30" type="GeneralFormat" isKey="true" />
         </Text13>
-        <Text4 Ref="31" type="Text" isKey="true">
+        <Text4 Ref="12" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,7.8,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="32" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
           <HorAlignment>Right</HorAlignment>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text4</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>Sex</Text>
           <TextBrush>Black</TextBrush>
-          <TextFormat Ref="33" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text4>
-        <Text6 Ref="34" type="Text" isKey="true">
+        <Text6 Ref="13" type="Text" isKey="true">
           <Border>All;Black;1;Solid;False;4;Black</Border>
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,7.8,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="35" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text6</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>{Sex}</Text>
           <TextBrush>RoyalBlue</TextBrush>
-          <TextFormat Ref="36" type="BooleanFormat" isKey="true">
+          <TextFormat Ref="14" type="BooleanFormat" isKey="true">
             <FalseDisplay>Female</FalseDisplay>
+            <NullDisplay> </NullDisplay>
             <StringFormat />
             <TrueDisplay>Male</TrueDisplay>
           </TextFormat>
           <VertAlignment>Center</VertAlignment>
         </Text6>
-        <Text10 Ref="37" type="Text" isKey="true">
+        <Text10 Ref="15" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,9.2,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="38" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
           <HorAlignment>Right</HorAlignment>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text10</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>Birth Day</Text>
           <TextBrush>Black</TextBrush>
-          <TextFormat Ref="39" type="GeneralFormat" isKey="true" />
           <VertAlignment>Center</VertAlignment>
         </Text10>
-        <Text12 Ref="40" type="Text" isKey="true">
+        <Text12 Ref="16" type="Text" isKey="true">
           <Border>All;Black;1;Solid;False;4;Black</Border>
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,9.2,7.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
-          <HighlightCondition Ref="41" type="HighlightCondition" isKey="true">
-            <Brush>Transparent</Brush>
-            <Font>Arial,8</Font>
-            <TextBrush>Red</TextBrush>
-          </HighlightCondition>
-          <Modifiers isList="true" count="0" />
+          <Margins>0,0,0,0</Margins>
           <Name>Text12</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
+          <Page isRef="2" />
+          <Parent isRef="2" />
           <Text>{BirthDay}</Text>
           <TextBrush>RoyalBlue</TextBrush>
-          <TextFormat Ref="42" type="DateFormat" isKey="true">
+          <TextFormat Ref="17" type="DateFormat" isKey="true">
             <StringFormat>D</StringFormat>
           </TextFormat>
           <VertAlignment>Center</VertAlignment>
         </Text12>
       </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>63199c3e9839455ea363e27bcd62ba8d</Guid>
       <Margins>0.99,0.99,0.99,0.99</Margins>
-      <Modifiers isList="true" count="0" />
       <Name>Page1</Name>
-      <Page isRef="3" />
       <PageHeight>29.69</PageHeight>
       <PageWidth>21.01</PageWidth>
       <Report isRef="0" />
@@ -289,13 +248,16 @@
     <value>Stimulsoft.Base.Dll</value>
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
-  <RenderProvider Ref="43" type="RenderProvider" isKey="true" />
   <ReportAlias>Report</ReportAlias>
   <ReportAuthor isNull="true" />
-  <ReportChanged>12/13/2004 2:08 PM</ReportChanged>
-  <ReportCreated>12/13/2004 12:12 AM</ReportCreated>
+  <ReportChanged>2/14/2022 5:36:48 PM</ReportChanged>
+  <ReportCreated>12/13/2004 12:12:00 AM</ReportCreated>
   <ReportDescription isNull="true" />
+  <ReportFile>D:\Stimulsoft\Samples\Samples-WinForms-CSharp\Using Report Variables in Code\Variables.mrt</ReportFile>
+  <ReportGuid>dd12236175bb4151a67851e60350f8cc</ReportGuid>
   <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2022.1.6.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -315,9 +277,11 @@ namespace StiReports
             this.InitializeComponent();
         }
         
-        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
     }
 }
 </Script>
-  <Unit Ref="44" type="cm" isKey="true" />
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
 </StiSerializer>
