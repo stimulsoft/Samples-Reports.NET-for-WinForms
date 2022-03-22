@@ -121,6 +121,7 @@
     <No>いいえ</No>
     <Ok>OK</Ok>
     <Open>開く</Open>
+    <OpenContainingFolder>包含するフォルダを開く</OpenContainingFolder>
     <Print>印刷</Print>
     <Publish>公開</Publish>
     <QuickPrint>クイックプリント</QuickPrint>
@@ -135,6 +136,7 @@
     <ShowLess>少なく表示</ShowLess>
     <ShowMore>もっと表示</ShowMore>
     <ShowSpecific>'{0}'の表示</ShowSpecific>
+    <Sign>サイン</Sign>
     <Submit>サブミット</Submit>
     <SwitchTo>{0}に切り替えます</SwitchTo>
     <Test>テスト</Test>
@@ -208,6 +210,7 @@
     <LabelsOutside>外側</LabelsOutside>
     <LabelsOutsideBase>ベース外</LabelsOutsideBase>
     <LabelsOutsideEnd>外端</LabelsOutsideEnd>
+    <LabelsOverlay>オーバーレイ</LabelsOverlay>
     <LabelsStyleCategory>カテゴリ</LabelsStyleCategory>
     <LabelsStyleCategoryPercentOfTotal>カテゴリ - 合計の割合</LabelsStyleCategoryPercentOfTotal>
     <LabelsStyleCategoryValue>カテゴリ - 値</LabelsStyleCategoryValue>
@@ -236,6 +239,7 @@
     <NoFilters>フィルタなし</NoFilters>
     <Pareto>パレット</Pareto>
     <Pictorial>画像</Pictorial>
+    <PictorialStacked>積み上げ図</PictorialStacked>
     <Pie>パイ</Pie>
     <Radar>レーダー</Radar>
     <RadarArea>レーダーエリア</RadarArea>
@@ -249,6 +253,7 @@
     <RemoveFilter>&amp;フィルタを削除</RemoveFilter>
     <RemoveSeries>&amp;シリーズを削除</RemoveSeries>
     <RemoveStrip>ストリップを削除</RemoveStrip>
+    <Ribbon>リボン</Ribbon>
     <RunChartWizard>グラフとウィザードを実行</RunChartWizard>
     <Scatter>散布</Scatter>
     <ScatterLine>散布ライン</ScatterLine>
@@ -638,7 +643,9 @@
     <StiReportTitleBand>レポートタイトル</StiReportTitleBand>
     <StiRichText>リッチテキスト</StiRichText>
     <StiRoundedRectanglePrimitive>角丸矩形</StiRoundedRectanglePrimitive>
+    <StiScreen>画面</StiScreen>
     <StiShape>図形</StiShape>
+    <StiSignature>サイン</StiSignature>
     <StiSparkline>スパークライン</StiSparkline>
     <StiSubReport>サブレポート</StiSubReport>
     <StiSystemText>システムテキスト</StiSystemText>
@@ -652,13 +659,22 @@
     <StiWinControl>勝利のコントロール</StiWinControl>
     <StiZipCode>Zipコード</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>すべてチェック済</CheckedAll>
+    <HideText>テキストを非表示</HideText>
+    <KeysChangePosition>キー（左、上、右、下）はテキストの位置を変更</KeysChangePosition>
+    <KeysChangeSize>Shift + キー（左、上、右、下）は、テキスト領域のサイズを変更</KeysChangeSize>
+    <UncheckedAll>すべての未チェック</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>範囲を追加</AddRange>
     <AfterGroupingData>データをグループ化した後に適用</AfterGroupingData>
+    <AfterSortingData>データをグループ化して並べ替えた後に適用する</AfterSortingData>
     <AllowUserColumnSelection>ユーザー列の選択を許可する</AllowUserColumnSelection>
     <AllowUserDrillDown>ユーザードリルダウンの許可</AllowUserDrillDown>
     <AllowUserFiltering>ユーザーフィルターの許可</AllowUserFiltering>
     <AllowUserSorting>ユーザーソートの許可</AllowUserSorting>
+    <BeforeTransformation>データ変換前に適用</BeforeTransformation>
     <Blank>(ブランク)</Blank>
     <Blanks>（ブランク）</Blanks>
     <BooleanFilters>ブーリアンフィルタ</BooleanFilters>
@@ -711,6 +727,7 @@
     <Nulls>（Nulls）</Nulls>
     <NumberFilters>数値フィルタ</NumberFilters>
     <ParentElement>親要素</ParentElement>
+    <Priority>優先順位</Priority>
     <RangeMode>範囲指定モード</RangeMode>
     <RangeType>範囲指定タイプ</RangeType>
     <RemoveActions>アクションの削除</RemoveActions>
@@ -1211,6 +1228,7 @@
     <AssignExpression>式を代入</AssignExpression>
     <BreakIfTrue>Trueの場合はブレーク</BreakIfTrue>
     <BreakIfTrueToolTip>現在の条件が満たされている場合、条件処理を中断します。</BreakIfTrueToolTip>
+    <ChangeBorder>境界線を変更...</ChangeBorder>
     <ChangeFont>フォントを変更...</ChangeFont>
     <ComponentIsEnabled>部品は有効です</ComponentIsEnabled>
     <NoConditions>条件なし</NoConditions>
@@ -1478,6 +1496,7 @@
     <BlankDashboard>空白ダッシュボード</BlankDashboard>
     <BlankForm>空白のフォーム</BlankForm>
     <BlankReport>空白レポート</BlankReport>
+    <BlankScreen>空白の画面</BlankScreen>
     <Default>デフォルト</Default>
     <DefaultScriptMode>デフォルトのスクリプトモード</DefaultScriptMode>
     <Drawing>お絵かき</Drawing>
@@ -2251,6 +2270,7 @@
     <menuFileReportWizardNew>ウィザードで新規レポート...</menuFileReportWizardNew>
     <menuFileSave>保存</menuFileSave>
     <menuFileSaveAs>名前を付けて保存...</menuFileSaveAs>
+    <menuFileScreenNew>新しい画面</menuFileScreenNew>
     <menuHelp>ヘルプ</menuHelp>
     <menuHelpAboutProgramm>本製品について</menuHelpAboutProgramm>
     <menuHelpContents>内容</menuHelpContents>
@@ -2612,6 +2632,7 @@
     <ListBoxCategory>リストボックス</ListBoxCategory>
     <MainCategory>メイン</MainCategory>
     <MarkerCategory>マーカー</MarkerCategory>
+    <MathFormulaCategory>数式</MathFormulaCategory>
     <MiscCategory>その他</MiscCategory>
     <MouseEventsCategory>マウスイベント</MouseEventsCategory>
     <NavigationCategory>ナビゲーション</NavigationCategory>
@@ -2937,6 +2958,9 @@
     <StiChartTrendLineTypeLinear>線形</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>対数</StiChartTrendLineTypeLogarithmic>
     <StiChartTrendLineTypeNone>なし</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>チェック済み</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>不定</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>未チェック</StiCheckStateUnchecked>
     <StiCheckStyleCheck>チェック</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>チェック矩形</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>クロス</StiCheckStyleCross>
@@ -3223,6 +3247,24 @@
     <StiProgressElementModeCircle>サークル</StiProgressElementModeCircle>
     <StiProgressElementModeDataBars>データバー</StiProgressElementModeDataBars>
     <StiProgressElementModePie>パイ</StiProgressElementModePie>
+    <StiQRCodeBodyShapeTypeCircle>円</StiQRCodeBodyShapeTypeCircle>
+    <StiQRCodeBodyShapeTypeCircular>円形</StiQRCodeBodyShapeTypeCircular>
+    <StiQRCodeBodyShapeTypeDiamond>ダイヤモンド</StiQRCodeBodyShapeTypeDiamond>
+    <StiQRCodeBodyShapeTypeDockedDiamonds>結合ダイヤモンド</StiQRCodeBodyShapeTypeDockedDiamonds>
+    <StiQRCodeBodyShapeTypeDot>ドット</StiQRCodeBodyShapeTypeDot>
+    <StiQRCodeBodyShapeTypeRoundedSquare>角丸正方形</StiQRCodeBodyShapeTypeRoundedSquare>
+    <StiQRCodeBodyShapeTypeSquare>四角</StiQRCodeBodyShapeTypeSquare>
+    <StiQRCodeBodyShapeTypeStar>星</StiQRCodeBodyShapeTypeStar>
+    <StiQRCodeBodyShapeTypeZebraCross>しま模様</StiQRCodeBodyShapeTypeZebraCross>
+    <StiQRCodeBodyShapeTypeZebraHorizontal>水平ゼブラ</StiQRCodeBodyShapeTypeZebraHorizontal>
+    <StiQRCodeBodyShapeTypeZebraVertical>垂直ゼブラ</StiQRCodeBodyShapeTypeZebraVertical>
+    <StiQRCodeEyeBallShapeTypeCircle>円</StiQRCodeEyeBallShapeTypeCircle>
+    <StiQRCodeEyeBallShapeTypeDots>ドット</StiQRCodeEyeBallShapeTypeDots>
+    <StiQRCodeEyeBallShapeTypeRound>丸</StiQRCodeEyeBallShapeTypeRound>
+    <StiQRCodeEyeBallShapeTypeSquare>四角</StiQRCodeEyeBallShapeTypeSquare>
+    <StiQRCodeEyeBallShapeTypeStar>星</StiQRCodeEyeBallShapeTypeStar>
+    <StiQRCodeEyeBallShapeTypeZebraHorizontal>水平ゼブラ</StiQRCodeEyeBallShapeTypeZebraHorizontal>
+    <StiQRCodeEyeBallShapeTypeZebraVertical>垂直ゼブラ</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>サークル</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>ポリゴン</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>オート</StiReportCacheModeAuto>
@@ -3278,6 +3320,9 @@
     <StiShowYAxisBoth>両方</StiShowYAxisBoth>
     <StiShowYAxisCenter>中央</StiShowYAxisCenter>
     <StiShowYAxisLeft>左</StiShowYAxisLeft>
+    <StiSignatureTypeDigitalSignature>デジタル署名</StiSignatureTypeDigitalSignature>
+    <StiSignatureTypeDraw>描画</StiSignatureTypeDraw>
+    <StiSignatureTypeSelectStyle>スタイル選択</StiSignatureTypeSelectStyle>
     <StiSizeModeAutoSize>自動サイズ</StiSizeModeAutoSize>
     <StiSizeModeFit>一致</StiSizeModeFit>
     <StiSortDirectionAsc>昇順</StiSortDirectionAsc>
@@ -3325,6 +3370,9 @@
     <StiTextQualityStandard>標準</StiTextQualityStandard>
     <StiTextQualityTypographic>活字</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>フィット</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>トリミング</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>ワードラップ</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>日</StiTimeDateStepDay>
     <StiTimeDateStepHour>時</StiTimeDateStepHour>
     <StiTimeDateStepMinute>分</StiTimeDateStepMinute>
@@ -3569,6 +3617,8 @@
     <BasicStyleColor>基本スタイルカラー</BasicStyleColor>
     <Blend>ブレンド</Blend>
     <Blocks>ブロック</Blocks>
+    <BodyBrush>ボディブラシ</BodyBrush>
+    <BodyShape>ボディシェイプ</BodyShape>
     <Bold>大胆な</Bold>
     <Bookmark>ブックマーク</Bookmark>
     <Border>境界</Border>
@@ -3578,6 +3628,7 @@
     <Borders>罫線</Borders>
     <BorderSize>ボーダーサイズ</BorderSize>
     <BorderStyle>ボーダースタイル</BorderStyle>
+    <BorderThickness>境界線幅</BorderThickness>
     <BorderWidth>ボーダー幅</BorderWidth>
     <Bottom>下</Bottom>
     <BottomLeft>左下</BottomLeft>
@@ -3614,7 +3665,10 @@
     <ChartAreaBrush>エリアブラシ</ChartAreaBrush>
     <ChartAreaShowShadow>シャドーを表示</ChartAreaShowShadow>
     <ChartType>グラフの種類</ChartType>
+    <CheckAlignment>配置チェック</CheckAlignment>
+    <CheckColor>色チェック</CheckColor>
     <Checked>チェック済み</Checked>
+    <CheckedIcon>チェック済アイコン</CheckedIcon>
     <CheckOnClick>クリックしてチェック</CheckOnClick>
     <CheckStyle>チェックスタイル</CheckStyle>
     <CheckStyleForFalse>スタイルのチェックで偽</CheckStyleForFalse>
@@ -3768,6 +3822,10 @@
     <ExportAsImage>イメージとしてエクスポート</ExportAsImage>
     <Expression>式</Expression>
     <ExtensionDigit>内線番号</ExtensionDigit>
+    <EyeBallBrush>アイボールブラシ</EyeBallBrush>
+    <EyeBallShape>アイボールシェイプ</EyeBallShape>
+    <EyeFrameBrush>アイフレームブラシ</EyeFrameBrush>
+    <EyeFrameShape>アイフレームシェイプ</EyeFrameShape>
     <FaqPage>FAQページ</FaqPage>
     <Field>フィールド</Field>
     <FieldIs>フィールドIs</FieldIs>
@@ -3879,6 +3937,7 @@
     <HyperlinkPattern>ハイパーリンクパターン</HyperlinkPattern>
     <Icon>アイコン</Icon>
     <IconAlignment>アイコンの配置</IconAlignment>
+    <IconBrush>アイコンブラシ</IconBrush>
     <IconColor>アイコン Color</IconColor>
     <IconSet>アイコンセット</IconSet>
     <IconSetCondition>アイコンセット条件</IconSetCondition>
@@ -4081,9 +4140,11 @@
     <OnDataManipulation>データ操作</OnDataManipulation>
     <OnHover>ホバー時</OnHover>
     <OnlyText>テキストのみ</OnlyText>
+    <Opacity>不透明度</Opacity>
     <OpenValues>オープンな価値</OpenValues>
     <Operation>操作</Operation>
     <Options>オプション</Options>
+    <Options3D>オプション3D</Options3D>
     <Orientation>回転</Orientation>
     <OthersText>その他のテキスト</OthersText>
     <Padding>パディング</Padding>
@@ -4227,7 +4288,9 @@
     <SeparatorColor>分離色</SeparatorColor>
     <SerialNumber>シリアルナンバー</SerialNumber>
     <Series>シリーズ</Series>
+    <SeriesBorderThickness>シリーズボーダー幅</SeriesBorderThickness>
     <SeriesColors>シリーズ色</SeriesColors>
+    <SeriesCornerRadius>シリーズコーナー半径</SeriesCornerRadius>
     <SeriesLabels>シリーズラベル</SeriesLabels>
     <SeriesLabelsBorderColor>ボーダの色</SeriesLabelsBorderColor>
     <SeriesLabelsBrush>ラベルブラシ</SeriesLabelsBrush>
@@ -4283,6 +4346,7 @@
     <ShrinkFontToFitMinimumSize>フォントを縮小して最小サイズに適合</ShrinkFontToFitMinimumSize>
     <Side>側</Side>
     <Sides>サイド</Sides>
+    <SignatureType>タイプ</SignatureType>
     <Simple>シンプル</Simple>
     <Size>サイズ</Size>
     <SizeMode>サイズモード</SizeMode>
@@ -4412,6 +4476,7 @@
     <Type>タイプ</Type>
     <TypeName>タイプ名</TypeName>
     <Types>タイプ</Types>
+    <UncheckedIcon>未チェックアイコン</UncheckedIcon>
     <Underline>アンダーライン</Underline>
     <UndoLimit>元に戻す制限</UndoLimit>
     <Unit>単位</Unit>
@@ -4463,6 +4528,7 @@
     <WordWrap>単語単位の改行</WordWrap>
     <Wrap>ラップ</Wrap>
     <WrapGap>ラップギャップ</WrapGap>
+    <WrapLine>ラップライン</WrapLine>
     <XAxis>X軸</XAxis>
     <XTopAxis>Xトップ軸</XTopAxis>
     <YAxis>Y軸</YAxis>
@@ -4616,6 +4682,8 @@
     <FinishingReport>仕上げレポート</FinishingReport>
     <FirstPass>ファーストパス</FirstPass>
     <FixedBugs>固定バグ</FixedBugs>
+    <FromCurrentState>現在の状態から</FromCurrentState>
+    <FromDefaultState>デフォルト状態から</FromDefaultState>
     <Gallery>ギャラリー</Gallery>
     <GenerateNewCode>新規コードを生成</GenerateNewCode>
     <History>履歴</History>
@@ -4698,6 +4766,7 @@
     <VisualChecked>チェック済み</VisualChecked>
     <VisualDefault>デフォルト</VisualDefault>
     <VisualDisabled>無効</VisualDisabled>
+    <VisualHover>ホバー</VisualHover>
     <VisualHovered>ホバーされた</VisualHovered>
     <VisualPressed>押された</VisualPressed>
     <Warnings>警告</Warnings>
@@ -4765,6 +4834,7 @@
     <NumberOfDayNone>なし</NumberOfDayNone>
     <NumberOfDaySecond>第2</NumberOfDaySecond>
     <NumberOfDayThird>第3</NumberOfDayThird>
+    <OpenWindowsTaskScheduler>Windowsタスクスケジューラを開く</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>スケジューラタイプを選択してください</PleaseSelectSchedulerType>
     <RadioButtonDay>日</RadioButtonDay>
     <RadioButtonOn>オン</RadioButtonOn>
@@ -4848,6 +4918,17 @@
     <Triangle>三角形</Triangle>
     <VerticalLine>垂直線</VerticalLine>
   </Shapes>
+  <Signature>
+    <DigitalSignatureEmptyWatermark>PDFビューアにデジタル署名を配置</DigitalSignatureEmptyWatermark>
+    <FullName>フルネーム</FullName>
+    <Initials>イニシャル</Initials>
+    <InitialsSimple>簡易イニシャル</InitialsSimple>
+    <InsertImage>画像を挿入</InsertImage>
+    <InsertText>テキストを挿入</InsertText>
+    <NoSavedItems>保存されたアイテムはありません</NoSavedItems>
+    <SignatureSavedSuccessfully>署名が正常に保存されました。</SignatureSavedSuccessfully>
+    <UseBrush>ブラシを使用する</UseBrush>
+  </Signature>
   <SystemVariables>
     <Column>現在の列番号を返します（1から始まります）。</Column>
     <GroupLine>現在のグループ行番号を返します（1から始まります）。</GroupLine>
@@ -4975,6 +5056,7 @@
     <BlankDashboard>ブランクダッシュボード</BlankDashboard>
     <BlankForm>空白のフォーム</BlankForm>
     <BlankReport>空白レポート</BlankReport>
+    <BlankScreen>空白の画面</BlankScreen>
     <ButtonBack>戻る</ButtonBack>
     <ButtonCancel>キャンセル</ButtonCancel>
     <ButtonFinish>終了</ButtonFinish>
