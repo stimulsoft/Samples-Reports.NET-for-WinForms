@@ -1866,6 +1866,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>이 구성 요소는 보고서에 바코드를 표시 할 수 있습니다. 바코드 데이터는 문자열로 객체에 전달됩니다. 문자열에 어떤 기호를 포함 할 수 있지만, 선택한 그림이 허가 된 기호만을 표시 할 수 있습니다.</StiBarCode>
+    <StiButtonElement>이 구성 요소는 사용자가 상호 작용할 때 이벤트 스크립트를 실행하는 데 사용됩니다.</StiButtonElement>
+    <StiCardsElement>이 구성 요소는 그룹화된 데이터를 카드로 표시하는 데 사용됩니다.</StiCardsElement>
     <StiChart>이 구성 요소는 보고서에 그래프를 볼 수 있습니다. 다른 유형의 차트가 제공됩니다. 바, 선, 파이, 도넛, 선, 공간, 간트, 분산 형 등</StiChart>
     <StiChartElement>이 구성 요소는 대시보드에 차트를 표시 할 수 있습니다. 다른 유형의 차트가 제공됩니다.</StiChartElement>
     <StiCheckBox>이 구성 요소는 보고서에 확인란을 표시 할 수 있습니다. 「유효」또는 「무효」의 2 개의 모드를 볼 수 있습니다.</StiCheckBox>
@@ -2593,6 +2595,7 @@
     <BehaviorCategory>동작</BehaviorCategory>
     <ButtonCategory>버튼</ButtonCategory>
     <CapNeedle>모자 니들</CapNeedle>
+    <CardsCategory>카드</CardsCategory>
     <CellCategory>셀</CellCategory>
     <ChartAdditionalCategory>추가 차트</ChartAdditionalCategory>
     <ChartCategory>차트</ChartCategory>
@@ -3128,12 +3131,16 @@
     <StiInteractionOnHoverShowToolTip>툴팁 보기</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>현재 탭</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>새 탭</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>수평</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>수직</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>멀티</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>1</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>내용을 정리해</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>함께 세부 사항을 유지하기</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>첫 줄을 함께 유지</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>없음</StiKeepDetailsNone>
+    <StiLabelPlacementInside>내부</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>외부</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>자동 회전</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>없음</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>행</StiLabelsPlacementOneLine>
@@ -3209,6 +3216,9 @@
     <StiPenStyleDouble>더블</StiPenStyleDouble>
     <StiPenStyleNone>없음</StiPenStyleNone>
     <StiPenStyleSolid>솔리드</StiPenStyleSolid>
+    <StiPlacementInside>내부</StiPlacementInside>
+    <StiPlacementOutside>외부</StiPlacementOutside>
+    <StiPlacementOverlay>오버레이</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>모듈로 10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>모듈로 11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>없음</StiPlesseyCheckSumNone>
@@ -3323,6 +3333,7 @@
     <StiSignatureTypeDigitalSignature>디지털 서명</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>그리기</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>스타일 선택</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>타입</StiSignatureTypeType>
     <StiSizeModeAutoSize>자동 크기</StiSizeModeAutoSize>
     <StiSizeModeFit>Fit</StiSizeModeFit>
     <StiSortDirectionAsc>오름차순</StiSortDirectionAsc>
@@ -3818,6 +3829,7 @@
     <ExceedMargins>초과 여백</ExceedMargins>
     <ExcelSheet>Excel 시트</ExcelSheet>
     <ExcelValue>Excel 값</ExcelValue>
+    <Expand>확장</Expand>
     <Exponential>기하 급수적</Exponential>
     <ExportAsImage>이미지로 내보내기</ExportAsImage>
     <Expression>식</Expression>
@@ -3873,6 +3885,7 @@
     <From>에서</From>
     <FrozenColumns>고정 컬럼</FrozenColumns>
     <FullConvertExpression>전체 변환 식 ​​</FullConvertExpression>
+    <FullName>전체 이름</FullName>
     <Function>함수</Function>
     <Functions>기능</Functions>
     <GisSettings>Gis 설정</GisSettings>
@@ -3931,6 +3944,7 @@
     <HotSelectedBackColor>Hot 선택된 배경 색상</HotSelectedBackColor>
     <HotSelectedForeColor>Hot 선택된 전경 색상</HotSelectedForeColor>
     <HotSelectedGlyphColor>Hot 선택된 글리프 색상</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML 미리보기 모드</HtmlPreviewMode>
     <HtmlTags>HTML 태그</HtmlTags>
     <Hyperlink>하이퍼 링크</Hyperlink>
     <HyperlinkDataColumn>하이퍼 링크 데이터 열</HyperlinkDataColumn>
@@ -3959,6 +3973,7 @@
     <Indent>들여 쓰기</Indent>
     <IndividualColor>개별 색상</IndividualColor>
     <InitBy>초기</InitBy>
+    <Initials>머리글자</Initials>
     <InitialSelection>초기 선택</InitialSelection>
     <InitialSelectionSource>초기 선택 원본</InitialSelectionSource>
     <Insert>삽입</Insert>
@@ -4285,6 +4300,7 @@
     <SelectionEnabled>선택 유효</SelectionEnabled>
     <SelectionForeColor>선택 색상</SelectionForeColor>
     <SelectionMode>선택 모드</SelectionMode>
+    <SelectStyle>스타일 선택</SelectStyle>
     <SeparatorColor>구분기호 색상</SeparatorColor>
     <SerialNumber>일련 번호</SerialNumber>
     <Series>시리즈</Series>
@@ -4450,7 +4466,11 @@
     <To>에</To>
     <Today>오늘</Today>
     <ToolTip>툴팁</ToolTip>
+    <ToolTipBorder>툴 팁 테두리</ToolTipBorder>
+    <ToolTipBrush>툴 팁 브러쉬</ToolTipBrush>
+    <ToolTipCornerRadius>툴 팁 모서리 라운드</ToolTipCornerRadius>
     <ToolTipDataColumn>툴팁 데이터 열</ToolTipDataColumn>
+    <ToolTipTextBrush>툴 팁 텍스트 브러쉬</ToolTipTextBrush>
     <Top>위</Top>
     <TopLeft>위-왼쪽</TopLeft>
     <Topmost>상단</Topmost>
@@ -4648,6 +4668,29 @@
     <qnSynchronize>데이터 저장소의 내용과 사전의 내용이 동기화되어 있습니까?</qnSynchronize>
     <qnSynchronizeServices>동기화 서비스?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>플레이스 추가</AddAPlace>
+    <AddAPlaceDesc>보고서를 클라우드에 더 쉽게 저장할 수 있도록 위치를 추가할 수 있습니다.</AddAPlaceDesc>
+    <ChooseALocation>위치 선택</ChooseALocation>
+    <ClearUnpinnedItems>고정되지 않은 항목 지우기</ClearUnpinnedItems>
+    <CopyPathToClipboard>경로를 클립보드에 복사</CopyPathToClipboard>
+    <DateModified>수정일자</DateModified>
+    <Documents>문서</Documents>
+    <DoYouWantTo>하고 싶습니까:</DoYouWantTo>
+    <LastWeek>지난 주</LastWeek>
+    <LocalDisk>로칼 디스크 ({0})</LocalDisk>
+    <MessageInvalidFolderName>잘못된 폴더 이름.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>해당 이름이 이미 있습니다. 다른 이름을 사용하십시오.</MessageThatNameAlreadyExists>
+    <MoreLocations>기타 위치 →</MoreLocations>
+    <Older>오래된</Older>
+    <Pinned>고정된</Pinned>
+    <PinToList>목록에 고정</PinToList>
+    <PinToRecentList>최근 목록에 고정</PinToRecentList>
+    <RemoveFromList>목록에서 제거</RemoveFromList>
+    <ReplaceExistingFile>기존 파일 바꾸기.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>다른 이름으로 변경 내용 저장.</SaveChangesWithADifferentName>
+    <UnpinFromList>목록에서 잠금 해제</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>활성 관계</ActiveRelation>
     <Address>주소</Address>
@@ -4922,7 +4965,9 @@
     <Initials>머리글자</Initials>
     <InsertImage>이미지 삽입</InsertImage>
     <InsertText>텍스트 삽입</InsertText>
+    <LoadSignature>서명 불러오기</LoadSignature>
     <NoSavedItems>저장된 내용 없음</NoSavedItems>
+    <SaveSignature>서명 저장하기</SaveSignature>
     <SignatureSavedSuccessfully>서명이 성공적으로 저장되었습니다.</SignatureSavedSuccessfully>
     <UseBrush>브러시 사용</UseBrush>
   </Signature>

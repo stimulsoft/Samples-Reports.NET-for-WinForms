@@ -1869,6 +1869,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>Este componente permite mostrar códigos de barras num relatório. Bar-code dados são enviados para um objeto como uma string. A seqüência pode conter símbolos, mas apenas símbolos permitidos para o gráfico selecionado pode ser exibida.</StiBarCode>
+    <StiButtonElement>Este componente é usado para executar uma script de evento quando um utilizador está a interagir.</StiButtonElement>
+    <StiCardsElement>Este componente é usado para mostrar os dados agrupados como cards.</StiCardsElement>
     <StiChart>Este componente permite mostrar gráficos num relatório. Diferentes tipos de gráficos estão disponíveis. Entre eles estão as barras, linhas, pizza, rosca, linhas, áreas, Gantt, gráficos de dispersão, etc</StiChart>
     <StiChartElement>This element allows showing charts in a dashboard. Different types of charts are available.</StiChartElement>
     <StiCheckBox>Este componente permite mostrar um checkbox num relatório. Ele pode exibir dois modos: "permitir" ou "desativar".</StiCheckBox>
@@ -2603,6 +2605,7 @@
     <BehaviorCategory>Comportamento</BehaviorCategory>
     <ButtonCategory>Botão</ButtonCategory>
     <CapNeedle>Cap Agulha</CapNeedle>
+    <CardsCategory>Cards</CardsCategory>
     <CellCategory>Célula</CellCategory>
     <ChartAdditionalCategory>Gráfico adicional</ChartAdditionalCategory>
     <ChartCategory>Gráficos</ChartCategory>
@@ -3144,12 +3147,16 @@
     <StiInteractionOnHoverShowToolTip>Mostrar Tooltip</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Tab atual</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Novo Tab</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Horizontal</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Vertical</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>One</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Mantenha detalhes juntos</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Manter primeiro detalhe junto</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Manter primeira linha junta</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Nenhum</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Interior</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Exterior</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>Auto Rotation</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Nenhum</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Uma linha</StiLabelsPlacementOneLine>
@@ -3240,6 +3247,9 @@
     <StiPenStyleDouble>Duplo</StiPenStyleDouble>
     <StiPenStyleNone>Nenhum</StiPenStyleNone>
     <StiPenStyleSolid>Sólido</StiPenStyleSolid>
+    <StiPlacementInside>Interior</StiPlacementInside>
+    <StiPlacementOutside>Exterior</StiPlacementOutside>
+    <StiPlacementOverlay>Sobreposição</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo 10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo 11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Nenhum</StiPlesseyCheckSumNone>
@@ -3354,6 +3364,7 @@
     <StiSignatureTypeDigitalSignature>Assinatura Digital</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Desenhar</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Selecione Estilo</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Tipo</StiSignatureTypeType>
     <StiSizeModeAutoSize>100%</StiSizeModeAutoSize>
     <StiSizeModeFit>Largura da página</StiSizeModeFit>
     <StiSortDirectionAsc>Crescente</StiSortDirectionAsc>
@@ -3850,6 +3861,7 @@
     <ExceedMargins>Margens excedidas</ExceedMargins>
     <ExcelSheet>Folha excel</ExcelSheet>
     <ExcelValue>Valor excel</ExcelValue>
+    <Expand>Expandir</Expand>
     <Exponential>Exponencial</Exponential>
     <ExportAsImage>Exportar como imagem</ExportAsImage>
     <Expression>Expressão</Expression>
@@ -3905,6 +3917,7 @@
     <From>De</From>
     <FrozenColumns>Colunas fixas</FrozenColumns>
     <FullConvertExpression>Expressão convertida</FullConvertExpression>
+    <FullName>Nome completo</FullName>
     <Function>Função</Function>
     <Functions>Funções</Functions>
     <GisSettings>Definições Gis</GisSettings>
@@ -3963,6 +3976,7 @@
     <HotSelectedBackColor>Cor quente do fundo selecionado</HotSelectedBackColor>
     <HotSelectedForeColor>Cor quente do texto selecionado</HotSelectedForeColor>
     <HotSelectedGlyphColor>Cor quente do glyph selecionado</HotSelectedGlyphColor>
+    <HtmlPreviewMode>Pré-visualização HTML</HtmlPreviewMode>
     <HtmlTags>Tags HTML</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Coluna de dados Hyperlink</HyperlinkDataColumn>
@@ -3991,6 +4005,7 @@
     <Indent>Recorte</Indent>
     <IndividualColor>Cor Individual</IndividualColor>
     <InitBy>Iniciado por</InitBy>
+    <Initials>Iniciais</Initials>
     <InitialSelection>Seleção inicial</InitialSelection>
     <InitialSelectionSource>Fonte inicial selecionada</InitialSelectionSource>
     <Insert>Inserir</Insert>
@@ -4319,6 +4334,7 @@
     <SelectionEnabled>Seleção ativada</SelectionEnabled>
     <SelectionForeColor>Seleção da cor da frente</SelectionForeColor>
     <SelectionMode>Modo de seleção</SelectionMode>
+    <SelectStyle>Selecione estilo</SelectStyle>
     <SeparatorColor>Cor do separador</SeparatorColor>
     <SerialNumber>Serial Number</SerialNumber>
     <Series>Séries</Series>
@@ -4485,7 +4501,11 @@
     <To>Para</To>
     <Today>Hoje</Today>
     <ToolTip>Ajuda da ferramenta</ToolTip>
+    <ToolTipBorder>Tool Tip Limite</ToolTipBorder>
+    <ToolTipBrush>Tool Tip Pincel</ToolTipBrush>
+    <ToolTipCornerRadius>Tool Tip Raio do Canto</ToolTipCornerRadius>
     <ToolTipDataColumn>Ajuda da coluna de dados</ToolTipDataColumn>
+    <ToolTipTextBrush>Tool Tip Pincel de texto</ToolTipTextBrush>
     <Top>Topo</Top>
     <TopLeft>Topo-Esquerda</TopLeft>
     <Topmost>Mais alto</Topmost>
@@ -4686,6 +4706,29 @@ contexto do painel de propriedades.</qnConfiguration>
     <qnSynchronize>Sincronizar dados armazenados e o conteúdo do dicionário?</qnSynchronize>
     <qnSynchronizeServices>Sincronizar serviço?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Adicionar uma localização</AddAPlace>
+    <AddAPlaceDesc>Pode adicionar localizações para ser mais fácil gravar relatórios para a cloud.</AddAPlaceDesc>
+    <ChooseALocation>Escolher uma localização</ChooseALocation>
+    <ClearUnpinnedItems>Limpar items fixos</ClearUnpinnedItems>
+    <CopyPathToClipboard>Copiar caminho para a área de transferência</CopyPathToClipboard>
+    <DateModified>Data modificação</DateModified>
+    <Documents>Documentos</Documents>
+    <DoYouWantTo>Deseja:</DoYouWantTo>
+    <LastWeek>Última semana</LastWeek>
+    <LocalDisk>Disco local ({0})</LocalDisk>
+    <MessageInvalidFolderName>Nome da pasta inválido.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Este nome já existe. Por favor use um nome diferente.</MessageThatNameAlreadyExists>
+    <MoreLocations>Mais localizações →</MoreLocations>
+    <Older>Mais antigo</Older>
+    <Pinned>Fixo</Pinned>
+    <PinToList>Fixar em lista</PinToList>
+    <PinToRecentList>Fixar em lista recente</PinToRecentList>
+    <RemoveFromList>Remover da lista</RemoveFromList>
+    <ReplaceExistingFile>Substituir ficheiro existente.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Gravar alterações com um nome diferente.</SaveChangesWithADifferentName>
+    <UnpinFromList>Desafixar da lista</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Active Relation</ActiveRelation>
     <Address>Address</Address>
@@ -4962,7 +5005,9 @@ contexto do painel de propriedades.</qnConfiguration>
     <Initials>Iniciais</Initials>
     <InsertImage>Inserir Imagem</InsertImage>
     <InsertText>Inserir Texto</InsertText>
+    <LoadSignature>Carregar assinatura</LoadSignature>
     <NoSavedItems>Nenhum elemento gravado</NoSavedItems>
+    <SaveSignature>Gravar assinatura</SaveSignature>
     <SignatureSavedSuccessfully>Assinatura gravada com sucesso.</SignatureSavedSuccessfully>
     <UseBrush>Usar pincel</UseBrush>
   </Signature>

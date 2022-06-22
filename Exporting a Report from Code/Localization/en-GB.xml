@@ -1866,6 +1866,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>This component allows showing bar codes in a report. Bar code data are sent to an object as a string. The string may contain any symbols but only allowed symbols for the selected chart can be displayed.</StiBarCode>
+    <StiButtonElement>This component is used to execute an event script when a user is interacting.</StiButtonElement>
+    <StiCardsElement>This component is used to display grouped data as cards.</StiCardsElement>
     <StiChart>This component allows showing charts in a report. Different types of charts are available. Among them are bar, line, pie, doughnut, lines, areas, Gantt, scatter charts etc. </StiChart>
     <StiChartElement>This element allows showing charts in a dashboard. Different types of charts are available.</StiChartElement>
     <StiCheckBox>This component allows showing a checkbox in a report. It can display two modes: "enable" or "disable".</StiCheckBox>
@@ -2599,6 +2601,7 @@
     <BehaviorCategory>Behavior</BehaviorCategory>
     <ButtonCategory>Button</ButtonCategory>
     <CapNeedle>Cap Needle</CapNeedle>
+    <CardsCategory>Cards</CardsCategory>
     <CellCategory>Cell</CellCategory>
     <ChartAdditionalCategory>Chart Additional</ChartAdditionalCategory>
     <ChartCategory>Chart</ChartCategory>
@@ -3134,6 +3137,8 @@
     <StiInteractionOnHoverShowToolTip>Show Tool Tip</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Current Tab</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>New Tab</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Horizontal</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Vertical</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>One</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Keep Details Together</StiKeepDetailsKeepDetailsTogether>
@@ -3349,6 +3354,7 @@
     <StiSignatureTypeDigitalSignature>Digital Signature</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Draw</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Select Style</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Type</StiSignatureTypeType>
     <StiSizeModeAutoSize>Auto Size</StiSizeModeAutoSize>
     <StiSizeModeFit>Fit</StiSizeModeFit>
     <StiSortDirectionAsc>Ascending</StiSortDirectionAsc>
@@ -3844,6 +3850,7 @@
     <ExceedMargins>Exceed Margins</ExceedMargins>
     <ExcelSheet>Excel Sheet</ExcelSheet>
     <ExcelValue>Excel Value</ExcelValue>
+    <Expand>Expand</Expand>
     <Exponential>Exponential</Exponential>
     <ExportAsImage>Export as Image</ExportAsImage>
     <Expression>Expression</Expression>
@@ -3899,6 +3906,7 @@
     <From>From</From>
     <FrozenColumns>Frozen Columns</FrozenColumns>
     <FullConvertExpression>Full Convert Expression</FullConvertExpression>
+    <FullName>Full Name</FullName>
     <Function>Function</Function>
     <Functions>Functions</Functions>
     <GisSettings>Gis Settings</GisSettings>
@@ -3957,6 +3965,7 @@
     <HotSelectedBackColor>Hot Selected Back Colour</HotSelectedBackColor>
     <HotSelectedForeColor>Hot Selected Fore Colour</HotSelectedForeColor>
     <HotSelectedGlyphColor>Hot Selected Glyph Colour</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML Preview Mode</HtmlPreviewMode>
     <HtmlTags>HTML Tags</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Hyperlink Data Column</HyperlinkDataColumn>
@@ -3985,6 +3994,7 @@
     <Indent>Indent</Indent>
     <IndividualColor>Individual Colour</IndividualColor>
     <InitBy>Init by</InitBy>
+    <Initials>Initials</Initials>
     <InitialSelection>Initial Selection</InitialSelection>
     <InitialSelectionSource>Initial Selection Source</InitialSelectionSource>
     <Insert>Insert</Insert>
@@ -4311,6 +4321,7 @@
     <SelectionEnabled>Selection Enabled</SelectionEnabled>
     <SelectionForeColor>Selection Fore Colour</SelectionForeColor>
     <SelectionMode>Selection Mode</SelectionMode>
+    <SelectStyle>Select Style</SelectStyle>
     <SeparatorColor>Separator Colour</SeparatorColor>
     <SerialNumber>Serial Number</SerialNumber>
     <Series>Series</Series>
@@ -4476,7 +4487,11 @@
     <To>To</To>
     <Today>Today</Today>
     <ToolTip>Tool Tip</ToolTip>
+    <ToolTipBorder>Tool Tip Border</ToolTipBorder>
+    <ToolTipBrush>Tool Tip Brush</ToolTipBrush>
+    <ToolTipCornerRadius>Tool Tip Corner Radius</ToolTipCornerRadius>
     <ToolTipDataColumn>Tool Tip Data Column</ToolTipDataColumn>
+    <ToolTipTextBrush>Tool Tip Text Brush</ToolTipTextBrush>
     <Top>Top</Top>
     <TopLeft>Top-Left</TopLeft>
     <Topmost>Topmost</Topmost>
@@ -4674,6 +4689,29 @@
     <qnSynchronize>Synchronized contents of the Data Store and contents of the Dictionary?</qnSynchronize>
     <qnSynchronizeServices>Synchronized services?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Add a Place</AddAPlace>
+    <AddAPlaceDesc>You can add locations to make it easier to save Reports to the cloud.</AddAPlaceDesc>
+    <ChooseALocation>Choose a Location</ChooseALocation>
+    <ClearUnpinnedItems>Clear unpinned items</ClearUnpinnedItems>
+    <CopyPathToClipboard>Copy path to clipboard</CopyPathToClipboard>
+    <DateModified>Date modified</DateModified>
+    <Documents>Documents</Documents>
+    <DoYouWantTo>Do you want to:</DoYouWantTo>
+    <LastWeek>Last Week</LastWeek>
+    <LocalDisk>Local Disk ({0})</LocalDisk>
+    <MessageInvalidFolderName>Invalid folder name.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>That name already exists. Please use a different name.</MessageThatNameAlreadyExists>
+    <MoreLocations>More Locations →</MoreLocations>
+    <Older>Older</Older>
+    <Pinned>Pinned</Pinned>
+    <PinToList>Pin to list</PinToList>
+    <PinToRecentList>Pin to Recent list</PinToRecentList>
+    <RemoveFromList>Remove from list</RemoveFromList>
+    <ReplaceExistingFile>Replace existing file.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Save changes with a different name.</SaveChangesWithADifferentName>
+    <UnpinFromList>Unpin from list</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Active Relation</ActiveRelation>
     <Address>Address</Address>
@@ -4949,7 +4987,9 @@
     <Initials>Initials</Initials>
     <InsertImage>Insert Image</InsertImage>
     <InsertText>Insert Text</InsertText>
+    <LoadSignature>Load signature</LoadSignature>
     <NoSavedItems>No saved items</NoSavedItems>
+    <SaveSignature>Save signature</SaveSignature>
     <SignatureSavedSuccessfully>Signature saved successfully.</SignatureSavedSuccessfully>
     <UseBrush>Use Brush</UseBrush>
   </Signature>

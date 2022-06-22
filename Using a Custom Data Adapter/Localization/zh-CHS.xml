@@ -1868,6 +1868,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>该组件允许在报表中显示条形码.条形码数据以字符串的形式发送给对象.字符串可包含任意字符,但只允许被选定的图表可以显示符号.</StiBarCode>
+    <StiButtonElement>该组件用于在用户交互时执行事件脚本</StiButtonElement>
+    <StiCardsElement>此组件用于将分组数据显示为卡片</StiCardsElement>
     <StiChart>该组件允许在报表中显示图表.提供了不同类型的图表,,例如条形图, 折线图, 饼图, 圆环图, 线形表,面积图, 甘特图, 散点图等. </StiChart>
     <StiChartElement>该元素允许图表显示在仪表盘中。不同类型的图表均可使用。</StiChartElement>
     <StiCheckBox>该组件用于在报告中显示复选框.它可以显示两种模式:“启用”或“禁用”.</StiCheckBox>
@@ -2595,6 +2597,7 @@
     <BehaviorCategory>行为</BehaviorCategory>
     <ButtonCategory>按钮</ButtonCategory>
     <CapNeedle>帽针</CapNeedle>
+    <CardsCategory>卡片</CardsCategory>
     <CellCategory>单元格</CellCategory>
     <ChartAdditionalCategory>附加图表</ChartAdditionalCategory>
     <ChartCategory>图标</ChartCategory>
@@ -3138,12 +3141,16 @@
     <StiInteractionOnHoverShowToolTip>显示工具提示</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>当前标签</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>新标签</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>横向</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>纵向</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>多种</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>一种</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>明细始终一起</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>第一条明细始终一起</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>第一行始终一起</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>无</StiKeepDetailsNone>
+    <StiLabelPlacementInside>内</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>外</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>自动旋转</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>无</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>单线</StiLabelsPlacementOneLine>
@@ -3219,6 +3226,9 @@
     <StiPenStyleDouble>Double</StiPenStyleDouble>
     <StiPenStyleNone>无</StiPenStyleNone>
     <StiPenStyleSolid>实线</StiPenStyleSolid>
+    <StiPlacementInside>内</StiPlacementInside>
+    <StiPlacementOutside>外</StiPlacementOutside>
+    <StiPlacementOverlay>覆盖</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>无</StiPlesseyCheckSumNone>
@@ -3333,6 +3343,7 @@
     <StiSignatureTypeDigitalSignature>数字签名</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>手写</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>选择风格</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>类型</StiSignatureTypeType>
     <StiSizeModeAutoSize>自动调整尺寸</StiSizeModeAutoSize>
     <StiSizeModeFit>适配</StiSizeModeFit>
     <StiSortDirectionAsc>升序</StiSortDirectionAsc>
@@ -3828,6 +3839,7 @@
     <ExceedMargins>超出</ExceedMargins>
     <ExcelSheet>Excel Sheet</ExcelSheet>
     <ExcelValue>Excel值</ExcelValue>
+    <Expand>扩展</Expand>
     <Exponential>指数</Exponential>
     <ExportAsImage>导出为图像</ExportAsImage>
     <Expression>表达式</Expression>
@@ -3883,6 +3895,7 @@
     <From>来自</From>
     <FrozenColumns>冻结列</FrozenColumns>
     <FullConvertExpression>完整转换表达式</FullConvertExpression>
+    <FullName>全名</FullName>
     <Function>函数</Function>
     <Functions>函数</Functions>
     <GisSettings>Gis设置</GisSettings>
@@ -3941,6 +3954,7 @@
     <HotSelectedBackColor>热门选定背景色</HotSelectedBackColor>
     <HotSelectedForeColor>热门选定前景色</HotSelectedForeColor>
     <HotSelectedGlyphColor>热门选定字形色</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML预览模式</HtmlPreviewMode>
     <HtmlTags>Html Tag</HtmlTags>
     <Hyperlink>超链接</Hyperlink>
     <HyperlinkDataColumn>超链接数据列</HyperlinkDataColumn>
@@ -3969,6 +3983,7 @@
     <Indent>缩进</Indent>
     <IndividualColor>个人颜色</IndividualColor>
     <InitBy>初始化通过</InitBy>
+    <Initials>缩写</Initials>
     <InitialSelection>初始选择</InitialSelection>
     <InitialSelectionSource>最初选择来源</InitialSelectionSource>
     <Insert>插入</Insert>
@@ -4297,6 +4312,7 @@
     <SelectionEnabled>选择启用</SelectionEnabled>
     <SelectionForeColor>选择前景色</SelectionForeColor>
     <SelectionMode>选择模式</SelectionMode>
+    <SelectStyle>选择样式</SelectStyle>
     <SeparatorColor>分隔符颜色</SeparatorColor>
     <SerialNumber>序列号</SerialNumber>
     <Series>序列</Series>
@@ -4463,7 +4479,11 @@
     <To>到</To>
     <Today>当天</Today>
     <ToolTip>提示信息</ToolTip>
+    <ToolTipBorder>工具提示边框</ToolTipBorder>
+    <ToolTipBrush>工具提示刷</ToolTipBrush>
+    <ToolTipCornerRadius>工具提示圆角</ToolTipCornerRadius>
     <ToolTipDataColumn>工具提示数据列</ToolTipDataColumn>
+    <ToolTipTextBrush>工具提示文本刷</ToolTipTextBrush>
     <Top>顶端</Top>
     <TopLeft>左上</TopLeft>
     <Topmost>顶端的</Topmost>
@@ -4661,6 +4681,29 @@
     <qnSynchronize>是否同步数据存储和数据字典的内容?</qnSynchronize>
     <qnSynchronizeServices>是否同步服务?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>添加位置</AddAPlace>
+    <AddAPlaceDesc>您可以添加位置以便更容易地将Reports保存到云中</AddAPlaceDesc>
+    <ChooseALocation>选择位置</ChooseALocation>
+    <ClearUnpinnedItems>清除未固定项目</ClearUnpinnedItems>
+    <CopyPathToClipboard>复制路径到剪贴板</CopyPathToClipboard>
+    <DateModified>修改日期</DateModified>
+    <Documents>文档</Documents>
+    <DoYouWantTo>您想要:</DoYouWantTo>
+    <LastWeek>上周</LastWeek>
+    <LocalDisk>本地磁盘({0})</LocalDisk>
+    <MessageInvalidFolderName>无效的文件夹名称</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>该名称已经存在了，请使用不同的名称</MessageThatNameAlreadyExists>
+    <MoreLocations>更多位置→</MoreLocations>
+    <Older>旧的</Older>
+    <Pinned>已固定的</Pinned>
+    <PinToList>固定要列表</PinToList>
+    <PinToRecentList>固定到近期列表</PinToRecentList>
+    <RemoveFromList>从列表中删除</RemoveFromList>
+    <ReplaceExistingFile>替换现有的文件</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>使用其他名称保存更改</SaveChangesWithADifferentName>
+    <UnpinFromList>从列表中取消固定</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>激活关系</ActiveRelation>
     <Address>地址</Address>
@@ -4936,7 +4979,9 @@
     <Initials>大写字母</Initials>
     <InsertImage>插入图片</InsertImage>
     <InsertText>插入文本</InsertText>
+    <LoadSignature>加载签名</LoadSignature>
     <NoSavedItems>没有保存的项目</NoSavedItems>
+    <SaveSignature>保存签名</SaveSignature>
     <SignatureSavedSuccessfully>签名保存成功.</SignatureSavedSuccessfully>
     <UseBrush>使用画笔</UseBrush>
   </Signature>

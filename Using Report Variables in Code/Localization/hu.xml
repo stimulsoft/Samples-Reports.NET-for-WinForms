@@ -1870,6 +1870,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>Ez a komponens hivatott vonalkódokat megjeléeníteni. A vonalkódok adatát egy stringeben fogadja. A string tartalmazhat olyan speciális szimbólumokat amit a vonalkód képes megjeleníteni.</StiBarCode>
+    <StiButtonElement>Ez a komponens egy olyan eseményfolyamat végrehajtására szolgál, amikor a felhasználó kapcsolatba lép.</StiButtonElement>
+    <StiCardsElement>Ez a komponens arra szolgál, hogy kártyákként jelenítsen meg csoportosított adatokat.</StiCardsElement>
     <StiChart>Ez a komponens szolgál a diagrammok megjelenítésére. ülönböző diagrammok vannak. Ezek: sáv, vonal, torta, doughnut, vonalas, terület alapú, stb. </StiChart>
     <StiChartElement>Ezen elem segítségével grafikonokat lehet megjeleníteni az irányítópulton. Különböző típusú grafikonok érhetők el.</StiChartElement>
     <StiCheckBox>Ez a komponenss a jelölő négyzet. Két állapota van bekapcsolva és a kikapcsolva</StiCheckBox>
@@ -2601,6 +2603,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <BehaviorCategory>Viselkedés</BehaviorCategory>
     <ButtonCategory>Gomb</ButtonCategory>
     <CapNeedle>Tűsapka</CapNeedle>
+    <CardsCategory>Kártyák</CardsCategory>
     <CellCategory>Cella</CellCategory>
     <ChartAdditionalCategory>Diagram további</ChartAdditionalCategory>
     <ChartCategory>Diagram</ChartCategory>
@@ -3136,12 +3139,16 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiInteractionOnHoverShowToolTip>Tool Tip megmutatása</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Aktuális Tab</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Új Tab</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Vízszintes</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Függőleges</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Több</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Egy</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Részletek összetartása</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Első részlet összetartása</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Első sor összetartása</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Egyik sem</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Belső</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Külső</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>Automatikus elforgatás</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Nincs</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Egy sor</StiLabelsPlacementOneLine>
@@ -3232,6 +3239,9 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiPenStyleDouble>Dupla</StiPenStyleDouble>
     <StiPenStyleNone>Nincs</StiPenStyleNone>
     <StiPenStyleSolid>Solid</StiPenStyleSolid>
+    <StiPlacementInside>Belső</StiPlacementInside>
+    <StiPlacementOutside>Külső</StiPlacementOutside>
+    <StiPlacementOverlay>Borítás</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Nincs</StiPlesseyCheckSumNone>
@@ -3346,6 +3356,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiSignatureTypeDigitalSignature>Digitális aláírás</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Rajz</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Stílus kiválasztása</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Típus</StiSignatureTypeType>
     <StiSizeModeAutoSize>Auto méret</StiSizeModeAutoSize>
     <StiSizeModeFit>Nyújt</StiSizeModeFit>
     <StiSortDirectionAsc>Növekvő</StiSortDirectionAsc>
@@ -3842,6 +3853,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ExceedMargins>Margók túllépése</ExceedMargins>
     <ExcelSheet>Excel munkalap</ExcelSheet>
     <ExcelValue>Excel érték</ExcelValue>
+    <Expand>Kinyit</Expand>
     <Exponential>Exponenciális</Exponential>
     <ExportAsImage>Exportálás képként</ExportAsImage>
     <Expression>Kifejezés</Expression>
@@ -3897,6 +3909,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <From>tól</From>
     <FrozenColumns>Rögzített oszlopok</FrozenColumns>
     <FullConvertExpression>Teljesen konvertált kifejezés</FullConvertExpression>
+    <FullName>Teljes név</FullName>
     <Function>Funkció</Function>
     <Functions>Funkciók</Functions>
     <GisSettings>Gis beállítások</GisSettings>
@@ -3955,6 +3968,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <HotSelectedBackColor>Forró kiválasztott háttérszín</HotSelectedBackColor>
     <HotSelectedForeColor>Forró kiválasztott betűszín</HotSelectedForeColor>
     <HotSelectedGlyphColor>Forró kiválasztott írásjel szín</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML előnézeti mód</HtmlPreviewMode>
     <HtmlTags>Html Tagok</HtmlTags>
     <Hyperlink>Hiperhivatkozás</Hyperlink>
     <HyperlinkDataColumn>Hivatkozás adatoszlop</HyperlinkDataColumn>
@@ -3984,6 +3998,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <IndividualColor>Egyedi szín</IndividualColor>
     <InfographicsTitle>Cím</InfographicsTitle>
     <InitBy>Inicializálás</InitBy>
+    <Initials>Monogram</Initials>
     <InitialSelection>Kezdeti kiválasztás</InitialSelection>
     <InitialSelectionSource>Kezdeti kiválasztási forrás</InitialSelectionSource>
     <Insert>Beszúr</Insert>
@@ -4310,6 +4325,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <SelectionEnabled>Választás engedélyezve</SelectionEnabled>
     <SelectionForeColor>Kiválasztás betüszín</SelectionForeColor>
     <SelectionMode>Kiválasztás módja</SelectionMode>
+    <SelectStyle>Stílus kiválasztása</SelectStyle>
     <SeparatorColor>Választó szín</SeparatorColor>
     <SerialNumber>Sorozatszám</SerialNumber>
     <Series>Sorozat</Series>
@@ -4476,7 +4492,11 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <To>ig</To>
     <Today>Ma</Today>
     <ToolTip>Tool Tip</ToolTip>
+    <ToolTipBorder>Súgó keret</ToolTipBorder>
+    <ToolTipBrush>Súgó szín</ToolTipBrush>
+    <ToolTipCornerRadius>Súgó kerekített sarok</ToolTipCornerRadius>
     <ToolTipDataColumn>Tool Tip adat oszlop</ToolTipDataColumn>
+    <ToolTipTextBrush>Súgó szövegszín</ToolTipTextBrush>
     <Top>Fent</Top>
     <TopLeft>Bal felső</TopLeft>
     <Topmost>Legmagasabb</Topmost>
@@ -4674,6 +4694,29 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <qnSynchronize>Synchronized contents of the Data Store and contents of the Dictionary?</qnSynchronize>
     <qnSynchronizeServices>Synchronized services?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Helyszín hozzáadása</AddAPlace>
+    <AddAPlaceDesc>Hozzá tud adni helyszíneket a reportok felhőbe való mentés könnyítéséhez.</AddAPlaceDesc>
+    <ChooseALocation>Válasszon egy helyszínt</ChooseALocation>
+    <ClearUnpinnedItems>Nem rögzített elemek törlése</ClearUnpinnedItems>
+    <CopyPathToClipboard>Útvonal másolása a vágólapra</CopyPathToClipboard>
+    <DateModified>Módosítás dátuma</DateModified>
+    <Documents>Dokumentumok</Documents>
+    <DoYouWantTo>Szeretné:</DoYouWantTo>
+    <LastWeek>Múlt hét</LastWeek>
+    <LocalDisk>Helyi lemez ({0})</LocalDisk>
+    <MessageInvalidFolderName>Érvénytelen mappanév.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Ez a név már létezik. Kérjük adjon egy másik nevet!</MessageThatNameAlreadyExists>
+    <MoreLocations>További helyszínek →</MoreLocations>
+    <Older>Régebbi</Older>
+    <Pinned>Rögzítve</Pinned>
+    <PinToList>Rögzítés a listához</PinToList>
+    <PinToRecentList>Rögzítés az aktuális listához</PinToRecentList>
+    <RemoveFromList>Eltávolítás a listáról</RemoveFromList>
+    <ReplaceExistingFile>Létező fájl kicserélése.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Változtatások mentése egy másik névvel.</SaveChangesWithADifferentName>
+    <UnpinFromList>Feloldás a listáról</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Aktív kapcsolat</ActiveRelation>
     <Address>Címek</Address>
@@ -4949,7 +4992,9 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Initials>Monogram</Initials>
     <InsertImage>Kép rögzítése</InsertImage>
     <InsertText>Szöveg rögzítése</InsertText>
+    <LoadSignature>Aláírás betöltése</LoadSignature>
     <NoSavedItems>Nincs mentett elem</NoSavedItems>
+    <SaveSignature>Aláírás mentése</SaveSignature>
     <SignatureSavedSuccessfully>Aláírás sikeresen elmentve.</SignatureSavedSuccessfully>
     <UseBrush>Ecset felhasználása</UseBrush>
   </Signature>

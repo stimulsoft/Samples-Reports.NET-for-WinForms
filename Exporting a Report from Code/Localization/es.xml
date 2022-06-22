@@ -1869,6 +1869,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>Este componente permite mostrar códigos de barras en el informe. Los datos del código de barras se suministra en una cadena. La cadena puede contener cualquier símbolo pero solamente símbolos permitidos se mostrarán.</StiBarCode>
+    <StiButtonElement>Este componente se usa para ejecutar un script de evento cuando un usuario está interactuando.</StiButtonElement>
+    <StiCardsElement>Este componente se utiliza para mostrar datos agrupados como fichas.</StiCardsElement>
     <StiChart>Este componente permite mostrar un gráfico en el informe. Existen diferentes tipos de gráficos, entre ellos hay gráficos de: barras, líneas, tarta, donut, áreas, Gantt, dispersión etc. </StiChart>
     <StiChartElement>Este elemento permite mostrar gráficos en un tablero de instrumentos. Diferentes tipos de gráficos están disponibles.</StiChartElement>
     <StiCheckBox>Este componente permite mostrar una caja de verificación en el informe. Se permite mostrar dos estados, "seleccionado" y "no seleccionado".</StiCheckBox>
@@ -2600,6 +2602,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <BehaviorCategory>Comportamiento</BehaviorCategory>
     <ButtonCategory>Botón</ButtonCategory>
     <CapNeedle>Tapa de la aguja</CapNeedle>
+    <CardsCategory>Fichas</CardsCategory>
     <CellCategory>Celda</CellCategory>
     <ChartAdditionalCategory>Gráfico Adicional</ChartAdditionalCategory>
     <ChartCategory>Gráfico</ChartCategory>
@@ -3135,12 +3138,16 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiInteractionOnHoverShowToolTip>Mostrar ayuda</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Pestaña actual</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Nueva pestaña</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Horizontal</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Vertical</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Uno</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Mantener Detalles Juntos</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Mantener Primier Detalle Junto</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Mantener Primera Fila Junta</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Ninguno</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Dentro</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Fuera</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>Rotación automática</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Ninguno</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Una Línea</StiLabelsPlacementOneLine>
@@ -3231,6 +3238,9 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiPenStyleDouble>Doble</StiPenStyleDouble>
     <StiPenStyleNone>Ninguno</StiPenStyleNone>
     <StiPenStyleSolid>Sólido</StiPenStyleSolid>
+    <StiPlacementInside>Dentro</StiPlacementInside>
+    <StiPlacementOutside>Fuera</StiPlacementOutside>
+    <StiPlacementOverlay>Solapar</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Ninguno</StiPlesseyCheckSumNone>
@@ -3345,6 +3355,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiSignatureTypeDigitalSignature>Firma digital</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Dibujar</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Seleccionar estilo</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Tipo</StiSignatureTypeType>
     <StiSizeModeAutoSize>Tamaño automático</StiSizeModeAutoSize>
     <StiSizeModeFit>Ajustar</StiSizeModeFit>
     <StiSortDirectionAsc>Ascendente</StiSortDirectionAsc>
@@ -3841,6 +3852,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ExceedMargins>Exceder los márgenes</ExceedMargins>
     <ExcelSheet>Hoja Excel</ExcelSheet>
     <ExcelValue>Valor Excel</ExcelValue>
+    <Expand>Expandir</Expand>
     <Exponential>Exponencial</Exponential>
     <ExportAsImage>Exportar Imagen Como</ExportAsImage>
     <Expression>Expresión</Expression>
@@ -3896,6 +3908,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <From>Desde</From>
     <FrozenColumns>Columnas congeladas</FrozenColumns>
     <FullConvertExpression>Conversión Expresión Total</FullConvertExpression>
+    <FullName>Nombre completo</FullName>
     <Function>Función</Function>
     <Functions>Funciones</Functions>
     <GisSettings>Configuración de Gis</GisSettings>
@@ -3954,6 +3967,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <HotSelectedBackColor>Color de fondo seleccionado interactivo</HotSelectedBackColor>
     <HotSelectedForeColor>Color primer plano seleccionado interactivo</HotSelectedForeColor>
     <HotSelectedGlyphColor>Color de glifo seleccionado interactivo</HotSelectedGlyphColor>
+    <HtmlPreviewMode>Modo de vista previa HTML</HtmlPreviewMode>
     <HtmlTags>Etiquetas Html</HtmlTags>
     <Hyperlink>Hipervinculo</Hyperlink>
     <HyperlinkDataColumn>Columna de Hipervínculos</HyperlinkDataColumn>
@@ -3983,6 +3997,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <IndividualColor>Color individual</IndividualColor>
     <InfographicsTitle>Título</InfographicsTitle>
     <InitBy>Iniciar por</InitBy>
+    <Initials>Inicials</Initials>
     <InitialSelection>Selección inicial</InitialSelection>
     <InitialSelectionSource>Fuente de selección inicial</InitialSelectionSource>
     <Insert>Insertar</Insert>
@@ -4309,6 +4324,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <SelectionEnabled>Selección Habilitado</SelectionEnabled>
     <SelectionForeColor>Color Primer Plano de la Selección</SelectionForeColor>
     <SelectionMode>Modo de Selección</SelectionMode>
+    <SelectStyle>Seleccionar estilo</SelectStyle>
     <SeparatorColor>Color del separador</SeparatorColor>
     <SerialNumber>Número de Serie</SerialNumber>
     <Series>Series</Series>
@@ -4475,7 +4491,11 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <To>Hasta</To>
     <Today>Hoy</Today>
     <ToolTip>Ayuda Emergente</ToolTip>
+    <ToolTipBorder>Borde de información sobre herramientas</ToolTipBorder>
+    <ToolTipBrush>Brocha de información sobre herramientas</ToolTipBrush>
+    <ToolTipCornerRadius>Radio de esquinas de información sobre herramientas</ToolTipCornerRadius>
     <ToolTipDataColumn>Columna de Sugerencias</ToolTipDataColumn>
+    <ToolTipTextBrush>Brocha de texto de información sobre herramientas</ToolTipTextBrush>
     <Top>Superior</Top>
     <TopLeft>Arriba-Izquierda</TopLeft>
     <Topmost>Encima</Topmost>
@@ -4673,6 +4693,29 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <qnSynchronize>¿Sincronizar datos almacenados y el contenido del diccionario?</qnSynchronize>
     <qnSynchronizeServices>¿Sincronizar Servicio?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Añadir un sitio</AddAPlace>
+    <AddAPlaceDesc>Puede agregar ubicaciones para que sea más fácil guardar los informes en la nube.</AddAPlaceDesc>
+    <ChooseALocation>Elija una ubicación</ChooseALocation>
+    <ClearUnpinnedItems>Borrar elementos no fijados</ClearUnpinnedItems>
+    <CopyPathToClipboard>Copiar ruta al portapapeles</CopyPathToClipboard>
+    <DateModified>Fecha modificada</DateModified>
+    <Documents>Documentos</Documents>
+    <DoYouWantTo>Quieres:</DoYouWantTo>
+    <LastWeek>Semana pasada</LastWeek>
+    <LocalDisk>Disco local ({0})</LocalDisk>
+    <MessageInvalidFolderName>Nombre de carpeta no válido.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Ese nombre ya existe. Utilice un nombre diferente.</MessageThatNameAlreadyExists>
+    <MoreLocations>Más ubicaciones →</MoreLocations>
+    <Older>Más viejo</Older>
+    <Pinned>Fijado</Pinned>
+    <PinToList>Anclar a la lista</PinToList>
+    <PinToRecentList>Anclar a la lista de recientes</PinToRecentList>
+    <RemoveFromList>Quitar de la lista</RemoveFromList>
+    <ReplaceExistingFile>Reemplazar archivo existente.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Guarde los cambios con un nombre diferente.</SaveChangesWithADifferentName>
+    <UnpinFromList>Desanclar de la lista</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Relación activa</ActiveRelation>
     <Address>Dirección</Address>
@@ -4949,7 +4992,9 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Initials>Iniciales</Initials>
     <InsertImage>Insertar imagen</InsertImage>
     <InsertText>Insertar texto</InsertText>
+    <LoadSignature>Cargar firma</LoadSignature>
     <NoSavedItems>No hay elementos guardados</NoSavedItems>
+    <SaveSignature>Guardar firma</SaveSignature>
     <SignatureSavedSuccessfully>Firma guardada con éxito.</SignatureSavedSuccessfully>
     <UseBrush>Usar brocha</UseBrush>
   </Signature>

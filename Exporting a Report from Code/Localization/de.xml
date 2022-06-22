@@ -585,7 +585,7 @@
   <Components>
     <StiBarCode>Barcode</StiBarCode>
     <StiButton>Schaltfläche</StiButton>
-    <StiCards>Karten</StiCards>
+    <StiCards>Kacheln</StiCards>
     <StiChart>Diagramm</StiChart>
     <StiCheckBox>Kontrollkästchen</StiCheckBox>
     <StiChildBand>Untergeordnetes Band</StiChildBand>
@@ -1870,6 +1870,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>Mit Hilfe dieser Komponente werden Barcodes in einem Bericht dargestellt. Die Daten des Barcodes werden der Komponente als Text (String) übergeben. Der Text kann beliebige Symbole enthalten, aber nur Symbole für das ausgewählte Diagramm können angezeigt werden.</StiBarCode>
+    <StiButtonElement>Diese Komponente wird für Ausführen vom Script des Ereignisses bei der Benutzer-Interagierung verwendet.</StiButtonElement>
+    <StiCardsElement>Diese Komponente wird für Anzeige von gruppierten Daten als Kacheln verwendet.</StiCardsElement>
     <StiChart>Mit Hilfe dieser Komponente werden Diagramme in einem Bericht dargestellt. Es sind verschiedene Diagrammtypen verfügbar (Balken-, Linien-, Kreis-, Ring-, Bereich-, Gantt-, Streudiagramme usw.)</StiChart>
     <StiChartElement>Dieses Element erlaubt Diagramme im Dashboard zu zeigen. Verschiedene Typen der Diagramme sind verfügbar.</StiChartElement>
     <StiCheckBox>Mit Hilfe dieser Komponente können Checkboxen in einem Bericht dargestellt werden. Die Komponente kann auf zwei Arten angezeigt werden: "gecheckt" oder "nicht gecheckt".</StiCheckBox>
@@ -2630,6 +2632,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <BehaviorCategory>Verhalten</BehaviorCategory>
     <ButtonCategory>Schaltfläche</ButtonCategory>
     <CapNeedle>Nadelkappe</CapNeedle>
+    <CardsCategory>Kacheln</CardsCategory>
     <CellCategory>Zelle</CellCategory>
     <ChartAdditionalCategory>Diagramm (weitere)</ChartAdditionalCategory>
     <ChartCategory>Diagramm</ChartCategory>
@@ -3171,12 +3174,16 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiInteractionOnHoverShowToolTip>Tool-Tip anzeigen</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Aktuelle Registerkarte</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Neue Registerkarte</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Horizontal</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Vertikal</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Ein</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Alle Details</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Erstes Detail</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Erste Zeile</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Nichts</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Innerhalb</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Außerhalb</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>Automatische Rotation</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Kein</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Eine Zeile</StiLabelsPlacementOneLine>
@@ -3267,6 +3274,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiPenStyleDouble>Double</StiPenStyleDouble>
     <StiPenStyleNone>Kein</StiPenStyleNone>
     <StiPenStyleSolid>Durchgängig</StiPenStyleSolid>
+    <StiPlacementInside>Innerhalb</StiPlacementInside>
+    <StiPlacementOutside>Außerhalb</StiPlacementOutside>
+    <StiPlacementOverlay>Überlagerung</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Kein</StiPlesseyCheckSumNone>
@@ -3381,6 +3391,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiSignatureTypeDigitalSignature>Digitale Unterschreibung</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Zeichnen</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Stil auswählen</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Typ</StiSignatureTypeType>
     <StiSizeModeAutoSize>Auto-Größe</StiSizeModeAutoSize>
     <StiSizeModeFit>Passen</StiSizeModeFit>
     <StiSortDirectionAsc>Aufsteigend</StiSortDirectionAsc>
@@ -3877,6 +3888,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ExceedMargins>Ränder überschreiten</ExceedMargins>
     <ExcelSheet>Excel-Datenblatt</ExcelSheet>
     <ExcelValue>Excel-Wert</ExcelValue>
+    <Expand>Erweitern</Expand>
     <Exponential>Exponentiell</Exponential>
     <ExportAsImage>Als Bild exportieren</ExportAsImage>
     <Expression>Ausdruck</Expression>
@@ -3932,6 +3944,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <From>Von</From>
     <FrozenColumns>Frozen Columns</FrozenColumns>
     <FullConvertExpression>Ausdruck komplett konvertieren</FullConvertExpression>
+    <FullName>Voller Name</FullName>
     <Function>Funktion</Function>
     <Functions>Funktionen</Functions>
     <GisSettings>Gis-Einstellungen</GisSettings>
@@ -3990,6 +4003,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HotSelectedBackColor>Ausgewählte Hintergrundfarbe beim Daraufzeigen</HotSelectedBackColor>
     <HotSelectedForeColor>Ausgewählte Vordergrundfarbe beim Daraufzeigen</HotSelectedForeColor>
     <HotSelectedGlyphColor>Ausgewählte Glyphenfarbe beim Daraufzeigen</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML-Vorschaumodus</HtmlPreviewMode>
     <HtmlTags>Html-Tag</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Hyperlink Datenspalte</HyperlinkDataColumn>
@@ -4019,6 +4033,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <IndividualColor>Individuelle Farbe</IndividualColor>
     <InfographicsTitle>Titel</InfographicsTitle>
     <InitBy>Initialisierung durch</InitBy>
+    <Initials>Initialen</Initials>
     <InitialSelection>Ursprüngliche Auswahl</InitialSelection>
     <InitialSelectionSource>Interne Auswahl-Quelle</InitialSelectionSource>
     <Insert>Einfügen</Insert>
@@ -4347,6 +4362,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SelectionEnabled>Auswahl aktivieren</SelectionEnabled>
     <SelectionForeColor>Auswahl-Textfarbe</SelectionForeColor>
     <SelectionMode>Auswahl-Modus</SelectionMode>
+    <SelectStyle>Stil verwenden</SelectStyle>
     <SeparatorColor>Trennzeichenfarbe</SeparatorColor>
     <SerialNumber>Seriennummer</SerialNumber>
     <Series>Reihen</Series>
@@ -4513,7 +4529,11 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <To>Bis</To>
     <Today>Heute</Today>
     <ToolTip>ToolTip</ToolTip>
+    <ToolTipBorder>Toolpip-Rand</ToolTipBorder>
+    <ToolTipBrush>Tooltip-Pinsel</ToolTipBrush>
+    <ToolTipCornerRadius>Tooltip-Eckenradius</ToolTipCornerRadius>
     <ToolTipDataColumn>Tooltip-Datenspalte</ToolTipDataColumn>
+    <ToolTipTextBrush>Tooltip-Textpinsel</ToolTipTextBrush>
     <Top>Oben</Top>
     <TopLeft>Oben links</TopLeft>
     <Topmost>Zuoberst</Topmost>
@@ -4711,6 +4731,29 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <qnSynchronize>Die Inhalte vom Daten-Depot mit den Inhalten vom Wörterbuch synchronisieren?</qnSynchronize>
     <qnSynchronizeServices>Dienste synchronisieren?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Speicherort hinzufügen</AddAPlace>
+    <AddAPlaceDesc>Sie können die Speicherort hinzufügen, um die Berichte einfacher in Cloud zu speichern. You cal add locations to make it easier to save Reports to the cloud.</AddAPlaceDesc>
+    <ChooseALocation>Speicherort auswählen</ChooseALocation>
+    <ClearUnpinnedItems>Nicht angeheftete Elemente entfernen</ClearUnpinnedItems>
+    <CopyPathToClipboard>Weg zur Zwischenablage kopieren</CopyPathToClipboard>
+    <DateModified>Änderungsdatum</DateModified>
+    <Documents>Dokumente</Documents>
+    <DoYouWantTo>Möchten Sie:</DoYouWantTo>
+    <LastWeek>Letzte Woche</LastWeek>
+    <LocalDisk>Lokale Festplatte ({0})</LocalDisk>
+    <MessageInvalidFolderName>Ungültiger Ordner-Name.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Dieser Name existiert schon. Bitte, wählen Sie einen anderen Namen aus.</MessageThatNameAlreadyExists>
+    <MoreLocations>Mehr Speicherorten →</MoreLocations>
+    <Older>Ältere</Older>
+    <Pinned>Angeheftet</Pinned>
+    <PinToList>An Liste anheften</PinToList>
+    <PinToRecentList>An zuletzt verwendete Liste anheften</PinToRecentList>
+    <RemoveFromList>Aus der Liste entfernen</RemoveFromList>
+    <ReplaceExistingFile>Existierte Datei ersetzen.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Die Änderungen mit dem anderen Namen speichern.</SaveChangesWithADifferentName>
+    <UnpinFromList>Aus der Liste losheften</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Aktive Verbindung</ActiveRelation>
     <Address>Adresse</Address>
@@ -4988,7 +5031,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Initials>Initialen</Initials>
     <InsertImage>Bild einfügen</InsertImage>
     <InsertText>Text einfügen</InsertText>
+    <LoadSignature>Unterschrift laden</LoadSignature>
     <NoSavedItems>Keine gespeicherten Elemente</NoSavedItems>
+    <SaveSignature>Unterschrift speichern</SaveSignature>
     <SignatureSavedSuccessfully>Die Unterschreibung ist erfolgreich gespeichert.</SignatureSavedSuccessfully>
     <UseBrush>Bürste verwenden</UseBrush>
   </Signature>

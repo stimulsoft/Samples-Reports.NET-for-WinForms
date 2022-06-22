@@ -1870,6 +1870,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>Tento prvok umožňuje zobraziť čiarové kódy v zostave. Údaje čiarového kódu sú posielané objektu ako reťazec. Reťazec môže obsahovať akýkoľvek znak, ale iba povolené znaky pre vybraný graf sú zobrazené.</StiBarCode>
+    <StiButtonElement>Tento komponent sa používa na vykonanie skriptu udalosti pri interakcii používateľa.</StiButtonElement>
+    <StiCardsElement>Tento komponent sa používa na zobrazenie zoskupených údajov ako kariet.</StiCardsElement>
     <StiChart>Tento prvok umožňuje zobraziť grafy v zostave. K dispozícii sú rôzne typy grafov. Medzi nimi stĺpcový, čiarový, koláčový, prstencový, burzový, priestorový, Ganttov, bodový graf atď. </StiChart>
     <StiChartElement>Tento prvok umožňuje zobrazovanie grafov na riadiacom paneli. Existujú rôzne typy tabuliek.</StiChartElement>
     <StiCheckBox>Tento prvok umožňuje zobraziť zaškrtávacie políčko v zostave. Umožňuje zobraziť dva módy: "enable" alebo "disable".</StiCheckBox>
@@ -2601,6 +2603,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <BehaviorCategory>Správanie</BehaviorCategory>
     <ButtonCategory>Tlačidlo</ButtonCategory>
     <CapNeedle>Špica hrotu</CapNeedle>
+    <CardsCategory>Karty</CardsCategory>
     <CellCategory>Bunky</CellCategory>
     <ChartAdditionalCategory>Graf ďalší</ChartAdditionalCategory>
     <ChartCategory>Graf</ChartCategory>
@@ -3142,12 +3145,16 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <StiInteractionOnHoverShowToolTip>Ukázať nápovedu</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Aktuálna záložka</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Nová záložka</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Vodorovne</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Zvisle</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Hromadne</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Jednotlivo</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Udržať detaily spolu</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Udržať prvý detail spolu</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Udržať prvý riadok spolu</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Žiadne</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Vnútri</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Vonku</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>Automatická rotácia</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Žiadny</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Jedna čiara</StiLabelsPlacementOneLine>
@@ -3238,6 +3245,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <StiPenStyleDouble>Dvojitá</StiPenStyleDouble>
     <StiPenStyleNone>Žiadna</StiPenStyleNone>
     <StiPenStyleSolid>Plná</StiPenStyleSolid>
+    <StiPlacementInside>Vnútri</StiPlacementInside>
+    <StiPlacementOutside>Vonku</StiPlacementOutside>
+    <StiPlacementOverlay>Prekrytie</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo 10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo 11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Nič</StiPlesseyCheckSumNone>
@@ -3352,6 +3362,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <StiSignatureTypeDigitalSignature>Digitálny podpis</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Kresliť</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Vyberať štýl</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Typ</StiSignatureTypeType>
     <StiSizeModeAutoSize>Automatická veľkosť</StiSizeModeAutoSize>
     <StiSizeModeFit>Prispôsobiť</StiSizeModeFit>
     <StiSortDirectionAsc>Vzostupne</StiSortDirectionAsc>
@@ -3848,6 +3859,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <ExceedMargins>Prekročiť okraje</ExceedMargins>
     <ExcelSheet>Excel list</ExcelSheet>
     <ExcelValue>Excel hodnota</ExcelValue>
+    <Expand>Rozbaliť</Expand>
     <Exponential>Exponenciálne</Exponential>
     <ExportAsImage>Exportovať ako obrázok</ExportAsImage>
     <Expression>Výraz</Expression>
@@ -3903,6 +3915,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <From>Od</From>
     <FrozenColumns>Ukotvené stĺpce</FrozenColumns>
     <FullConvertExpression>Úplná konverzia výrazu</FullConvertExpression>
+    <FullName>Celé meno</FullName>
     <Function>Funkcia</Function>
     <Functions>Funkcie</Functions>
     <GisSettings>Gis nastavenia</GisSettings>
@@ -3961,6 +3974,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <HotSelectedBackColor>Aktuálne vybraná farba pozadia</HotSelectedBackColor>
     <HotSelectedForeColor>Aktuálne vybraná farba popredia</HotSelectedForeColor>
     <HotSelectedGlyphColor>Aktuálne vybraná farba piktogramu</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML náhľad</HtmlPreviewMode>
     <HtmlTags>Html tagy</HtmlTags>
     <Hyperlink>Hypertextový odkaz</Hyperlink>
     <HyperlinkDataColumn>Dátový stĺpec - hyperlinka</HyperlinkDataColumn>
@@ -3990,6 +4004,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <IndividualColor>Individuálna farba</IndividualColor>
     <InfographicsTitle>Titulok</InfographicsTitle>
     <InitBy>Initicializovať s</InitBy>
+    <Initials>Iniciály</Initials>
     <InitialSelection>Inicializácia výberu</InitialSelection>
     <InitialSelectionSource>Zdroj počiatočného výberu</InitialSelectionSource>
     <Insert>Vložiť</Insert>
@@ -4318,6 +4333,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <SelectionEnabled>Výber povolený</SelectionEnabled>
     <SelectionForeColor>Farba textu výberu</SelectionForeColor>
     <SelectionMode>Mód výberu</SelectionMode>
+    <SelectStyle>Vybrať štýl</SelectStyle>
     <SeparatorColor>Vybraná farba</SeparatorColor>
     <SerialNumber>Sériové čislo</SerialNumber>
     <Series>Rad</Series>
@@ -4484,7 +4500,11 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <To>Do</To>
     <Today>Dnes</Today>
     <ToolTip>Pomoc</ToolTip>
+    <ToolTipBorder>Okraj - popis</ToolTipBorder>
+    <ToolTipBrush>Výplň - popis</ToolTipBrush>
+    <ToolTipCornerRadius>Polomer rohu - popis</ToolTipCornerRadius>
     <ToolTipDataColumn>Dátový stĺpec - nápoveda</ToolTipDataColumn>
+    <ToolTipTextBrush>Výplň textu - popis</ToolTipTextBrush>
     <Top>Vrch</Top>
     <TopLeft>Hore vľavo</TopLeft>
     <Topmost>Topmost</Topmost>
@@ -4682,6 +4702,29 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <qnSynchronize>Synchronizovať obsah dátového úložiska a obsah slovníka?</qnSynchronize>
     <qnSynchronizeServices>Synchronizovať služby?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Pridať miesto</AddAPlace>
+    <AddAPlaceDesc>Môžete pridať miesta, aby ste uľahčili ukladanie zostáv do cloudu.</AddAPlaceDesc>
+    <ChooseALocation>Vyberte umiestnenie</ChooseALocation>
+    <ClearUnpinnedItems>Vymazať nepripnuté položky</ClearUnpinnedItems>
+    <CopyPathToClipboard>Skopírujte cestu do schránky</CopyPathToClipboard>
+    <DateModified>Dátum zmenený</DateModified>
+    <Documents>Dokumenty</Documents>
+    <DoYouWantTo>Požadujete:</DoYouWantTo>
+    <LastWeek>Minulý týždeň</LastWeek>
+    <LocalDisk>Lokálny disk ({0})</LocalDisk>
+    <MessageInvalidFolderName>Neplatný názov priečinka.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Toto meno už existuje. Použite iný názov.</MessageThatNameAlreadyExists>
+    <MoreLocations>Viac umiestnení →</MoreLocations>
+    <Older>Staršie</Older>
+    <Pinned>Pripnuté</Pinned>
+    <PinToList>Pripnúť do zoznamu</PinToList>
+    <PinToRecentList>Pripnúť do zoznamu Nedávne</PinToRecentList>
+    <RemoveFromList>Vymazať zo zoznamu</RemoveFromList>
+    <ReplaceExistingFile>Nahradiť existujúci súbor.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Uložiť zmeny pod iným názvom.</SaveChangesWithADifferentName>
+    <UnpinFromList>Odopnúť zo zoznamu</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Aktívna relácia</ActiveRelation>
     <Address>Adresa</Address>
@@ -4960,7 +5003,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Initials>Iniciály</Initials>
     <InsertImage>Vložiť obrázok</InsertImage>
     <InsertText>Vložiť text</InsertText>
+    <LoadSignature>Načítať podpis</LoadSignature>
     <NoSavedItems>Neuložené položky</NoSavedItems>
+    <SaveSignature>Uložiť podpis</SaveSignature>
     <SignatureSavedSuccessfully>Podpis bol úspešne uložený.</SignatureSavedSuccessfully>
     <UseBrush>Použiť výplň</UseBrush>
   </Signature>

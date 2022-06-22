@@ -1873,8 +1873,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>Компонент используется для отображения в отчете штрих-кодов. Данные для кодирования штрих-кода устанавливаются в виде строки. Строка может содержать любые символы, но только разрешенные символы для указанного типа штрих-кода будут отображаться.</StiBarCode>
-    <StiButtonElement>This component is used to execute an event script when a user is interacting.</StiButtonElement>
-	  <StiCardsElement>This component is used to display grouped data as cards.</StiCardsElement>
+    <StiButtonElement>Этот компонент используется для выполнения сценария события, при пользовательском взаимодействии.</StiButtonElement>
+    <StiCardsElement>Этот компонент используется для отображения сгруппированных данных в виде карточек.</StiCardsElement>
     <StiChart>Этот компонент используется для отображения диаграмм в отчете. Доступно множество различных типов диаграмм.</StiChart>
     <StiChartElement>Этот компонент используется для отображения диаграмм в панели индикаторов. Доступно множество различных типов диаграмм.</StiChartElement>
     <StiCheckBox>Компонент для отображения флажков в отчете. Он может менять свой внешний вид в зависимости от условия, которое может принимать два значения: "включено" или "выключено".</StiCheckBox>
@@ -2648,6 +2648,7 @@
     <BehaviorCategory>Поведение</BehaviorCategory>
     <ButtonCategory>Кнопка</ButtonCategory>
     <CapNeedle>Основание стрелки</CapNeedle>
+    <CardsCategory>Карточки</CardsCategory>
     <CellCategory>Ячейка</CellCategory>
     <ChartAdditionalCategory>Диаграмма, дополнительные</ChartAdditionalCategory>
     <ChartCategory>Диаграмма</ChartCategory>
@@ -3183,6 +3184,8 @@
     <StiInteractionOnHoverShowToolTip>Показать подсказку</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Текущая закладка</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Новая закладка</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Горизонтально</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Вертикально</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Много элементов</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Один элемент</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Держать детали вместе</StiKeepDetailsKeepDetailsTogether>
@@ -3383,6 +3386,7 @@
     <StiSignatureTypeDigitalSignature>Цифровая подпись</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Рисовать</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Выбрать стиль</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Тип</StiSignatureTypeType>
     <StiSizeModeAutoSize>Авторазмер</StiSizeModeAutoSize>
     <StiSizeModeFit>Поместить</StiSizeModeFit>
     <StiSortDirectionAsc>По возрастанию</StiSortDirectionAsc>
@@ -3884,6 +3888,7 @@
     <ExceedMargins>Выход за рамки</ExceedMargins>
     <ExcelSheet>Лист Excel</ExcelSheet>
     <ExcelValue>Excel значение</ExcelValue>
+    <Expand>Развернуть</Expand>
     <Exponential>Экспоненциальная</Exponential>
     <ExportAsImage>Экспортировать как изображение</ExportAsImage>
     <Expression>Выражение</Expression>
@@ -3939,6 +3944,7 @@
     <From>С</From>
     <FrozenColumns>Зафиксированные колонки</FrozenColumns>
     <FullConvertExpression>Полностью конвертировать выражение</FullConvertExpression>
+    <FullName>Полное имя</FullName>
     <Function>Функция</Function>
     <Functions>Функции</Functions>
     <GisSettings>Настройки Gis</GisSettings>
@@ -3997,6 +4003,7 @@
     <HotSelectedBackColor>Цвет выделенного фона при наведении</HotSelectedBackColor>
     <HotSelectedForeColor>Цвет выделенного текста при наведении</HotSelectedForeColor>
     <HotSelectedGlyphColor>Цвет выделенного символа при наведении</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML Просмотр</HtmlPreviewMode>
     <HtmlTags>HTML-теги</HtmlTags>
     <Hyperlink>Гиперссылка</Hyperlink>
     <HyperlinkDataColumn>Колонка данных гиперссылок</HyperlinkDataColumn>
@@ -4027,6 +4034,7 @@
     <IndividualColor>Индивидуальный цвет</IndividualColor>
     <InfographicsTitle>Заголовок</InfographicsTitle>
     <InitBy>Инициализировать</InitBy>
+    <Initials>Инициалы</Initials>
     <InitialSelection>Первоначальный выбор</InitialSelection>
     <InitialSelectionSource>Исходный источник выбора</InitialSelectionSource>
     <Insert>Вставить</Insert>
@@ -4353,6 +4361,7 @@
     <SelectionEnabled>Выбор включен</SelectionEnabled>
     <SelectionForeColor>Цвет текста выбора</SelectionForeColor>
     <SelectionMode>Способ выбора</SelectionMode>
+    <SelectStyle>Выбрать стиль</SelectStyle>
     <SeparatorColor>Цвет разделителя</SeparatorColor>
     <SerialNumber>Серийный Номер</SerialNumber>
     <Series>Ряды</Series>
@@ -4520,7 +4529,11 @@
     <To>По</To>
     <Today>Сегодня</Today>
     <ToolTip>Подсказка</ToolTip>
+    <ToolTipBorder>Граница подсказки</ToolTipBorder>
+    <ToolTipBrush>Кисть подсказки</ToolTipBrush>
+    <ToolTipCornerRadius>Радиус закругления подсказки</ToolTipCornerRadius>
     <ToolTipDataColumn>Колонка данных подсказок</ToolTipDataColumn>
+    <ToolTipTextBrush>Кисть текста подсказки</ToolTipTextBrush>
     <Top>Сверху</Top>
     <TopLeft>Сверху-Слева</TopLeft>
     <Topmost>Самый верхний</Topmost>
@@ -4718,6 +4731,29 @@
     <qnSynchronize>Синхронизировать содержимое Хранилища Данных и содержимое Словаря?</qnSynchronize>
     <qnSynchronizeServices>Синхронизировать сервисы?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Добавить место</AddAPlace>
+    <AddAPlaceDesc>Вы можете добавить местоположения, чтобы упростить сохранение отчетов в облаке.</AddAPlaceDesc>
+    <ChooseALocation>Выбрать место</ChooseALocation>
+    <ClearUnpinnedItems>Очистить неприкрепленные элементы</ClearUnpinnedItems>
+    <CopyPathToClipboard>Копировать путь в буфер обмена</CopyPathToClipboard>
+    <DateModified>Дата изменения</DateModified>
+    <Documents>Документы</Documents>
+    <DoYouWantTo>Вы хотите:</DoYouWantTo>
+    <LastWeek>Прошлая неделя</LastWeek>
+    <LocalDisk>Локальный диск ({0})</LocalDisk>
+    <MessageInvalidFolderName>Недопустимое имя папки.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Это имя уже существует. Пожалуйста, используйте другое имя.</MessageThatNameAlreadyExists>
+    <MoreLocations>Больше →</MoreLocations>
+    <Older>Совсем давно</Older>
+    <Pinned>Закрепленные</Pinned>
+    <PinToList>Закрепить в списке</PinToList>
+    <PinToRecentList>Закрепить в списке последних</PinToRecentList>
+    <RemoveFromList>Удалить из списка</RemoveFromList>
+    <ReplaceExistingFile>Заменить существующий файл.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Сохранить изменения под другим именем.</SaveChangesWithADifferentName>
+    <UnpinFromList>Открепить из списка</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Активная связь</ActiveRelation>
     <Address>Адрес</Address>
@@ -4994,7 +5030,9 @@
     <Initials>Инициалы</Initials>
     <InsertImage>Вставить изображение</InsertImage>
     <InsertText>Вставить текст</InsertText>
+    <LoadSignature>Загрузить подпись</LoadSignature>
     <NoSavedItems>Нет сохраненных элементов</NoSavedItems>
+    <SaveSignature>Сохранить подпись</SaveSignature>
     <SignatureSavedSuccessfully>Подпись успешно сохранена.</SignatureSavedSuccessfully>
     <UseBrush>Использовать кисть</UseBrush>
   </Signature>

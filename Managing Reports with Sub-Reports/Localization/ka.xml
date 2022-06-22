@@ -1876,6 +1876,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ შტრიხკოდი. მონაცემები გადაეცემა სტრიქონის ფორმატში. მხოლოდ დაშვებული სიმბოლების გამოჩენაა შესაძლებელი.</StiBarCode>
+    <StiButtonElement>ეს კომპონენტი გამოიყენება მოვლენის სკრიპტის შესასრულებლად მომხმარებელთან ურთიერთობის დროს.</StiButtonElement>
+    <StiCardsElement>ეს კომპონენტი გამოიყენება ბარათების სახით დაჯგუფებული მონაცემების საჩვენებლად.</StiCardsElement>
     <StiChart>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ გრაფიკი. ხელმისაწვდომია გრაფიკების დიდი არჩევანი.</StiChart>
     <StiChartElement>ეს ელემენტი საშუალებას იძლევა ჩარტებში აჩვენოთ ინსტრუმენტთა დაფა. ხელმისაწვდომია გრაფიკების სხვადასხვა ტიპები.</StiChartElement>
     <StiCheckBox>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ მოსანიშნი კომპონენტი. აქვს ორი რეჟიმი: "ჩართულია" და "გამორთულია".</StiCheckBox>
@@ -2658,6 +2660,7 @@
     <BehaviorCategory>ქცევა</BehaviorCategory>
     <ButtonCategory>ღილაკი</ButtonCategory>
     <CapNeedle>ისრის საძირკველი</CapNeedle>
+    <CardsCategory>ბარათები</CardsCategory>
     <CellCategory>უჯრა</CellCategory>
     <ChartAdditionalCategory>დიაგრამა, დამატებითი</ChartAdditionalCategory>
     <ChartCategory>დიაგრამები</ChartCategory>
@@ -3193,12 +3196,16 @@
     <StiInteractionOnHoverShowToolTip>მინიშნების ჩვენება</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>მიმდინარე ჩასანიშნი</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>ახალი ჩასანიშნი</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>ჰორიზონტალურად</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>ვერტიკალურად</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>მულტი</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>ერთი</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>დეტალები ერთად</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>პირველადი დეტალები ერთად</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>პირველი სტრიქონი მთლიანად</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>None</StiKeepDetailsNone>
+    <StiLabelPlacementInside>შიგნიდან</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>გარედან</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>ავტომატური მოტრიალება</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>None</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>ერთ სტრიქონად</StiLabelsPlacementOneLine>
@@ -3289,6 +3296,9 @@
     <StiPenStyleDouble>ორმაგი</StiPenStyleDouble>
     <StiPenStyleNone>None</StiPenStyleNone>
     <StiPenStyleSolid>მთლიანი</StiPenStyleSolid>
+    <StiPlacementInside>შიგნით</StiPlacementInside>
+    <StiPlacementOutside>გარეთ</StiPlacementOutside>
+    <StiPlacementOverlay>გადაფარვა</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>None</StiPlesseyCheckSumNone>
@@ -3403,6 +3413,7 @@
     <StiSignatureTypeDigitalSignature>ციფრული ხელისმოწერა</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>დახატვა</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>სტილის არჩევა</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>ტიპი</StiSignatureTypeType>
     <StiSizeModeAutoSize>ავტოზომა</StiSizeModeAutoSize>
     <StiSizeModeFit>განთავსება</StiSizeModeFit>
     <StiSortDirectionAsc>ზრდადობით</StiSortDirectionAsc>
@@ -3906,6 +3917,7 @@
     <ExceedMargins>ჩარჩოებიდან გამოსვლა</ExceedMargins>
     <ExcelSheet>Excel-ის ჩასანიშნი</ExcelSheet>
     <ExcelValue>Excel-ის მნიშვნელობა</ExcelValue>
+    <Expand>გაფართოება</Expand>
     <Exponential>ექპონენციალური</Exponential>
     <ExportAsImage>ექსპორტი სურათად</ExportAsImage>
     <Expression>გამოთქმა</Expression>
@@ -3961,6 +3973,7 @@
     <From>საიდან</From>
     <FrozenColumns>ფიქსირებული სვეტები</FrozenColumns>
     <FullConvertExpression>გამოთქმის მთლიანი კონვერტაცია</FullConvertExpression>
+    <FullName>სრული სახელი</FullName>
     <Function>ფუნქცია</Function>
     <Functions>ფუნქციები</Functions>
     <GisSettings>Gis პარამეტრები</GisSettings>
@@ -4019,6 +4032,7 @@
     <HotSelectedBackColor>არჩევის ფონის ფერი მიტანისას</HotSelectedBackColor>
     <HotSelectedForeColor>არჩევის ტექსტის ფერი მიტანისას</HotSelectedForeColor>
     <HotSelectedGlyphColor>არჩევის სიმბოლოს ფერი მიტანისას</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTML გადახედვა</HtmlPreviewMode>
     <HtmlTags>Html ტეგები</HtmlTags>
     <Hyperlink>ბმული</Hyperlink>
     <HyperlinkDataColumn>მონაცემთა სვეტის ჰიპერბმული</HyperlinkDataColumn>
@@ -4049,6 +4063,7 @@
     <IndividualColor>ინდივიდუალური ფერი</IndividualColor>
     <InfographicsTitle>წარწერა</InfographicsTitle>
     <InitBy>ინიციალიზაცია</InitBy>
+    <Initials>ინიციალები</Initials>
     <InitialSelection>საწყისი არჩევანი</InitialSelection>
     <InitialSelectionSource>არჩევნის პირველადი წყარო</InitialSelectionSource>
     <Insert>ჩასმა</Insert>
@@ -4375,6 +4390,7 @@
     <SelectionEnabled>მონიშვნა დაშვებულია</SelectionEnabled>
     <SelectionForeColor>მონიშნული ტექსტის ფერი</SelectionForeColor>
     <SelectionMode>მონიშვნის მეთოდი</SelectionMode>
+    <SelectStyle>სტილის არჩევა</SelectStyle>
     <SeparatorColor>გამყოფის ფერი</SeparatorColor>
     <SerialNumber>სერიული ნომრები</SerialNumber>
     <Series>სერიები</Series>
@@ -4542,7 +4558,11 @@
     <To>მდე</To>
     <Today>დღეს</Today>
     <ToolTip>მინიშნება</ToolTip>
+    <ToolTipBorder>მინიშნების ზღვარი </ToolTipBorder>
+    <ToolTipBrush>მინიშნების ფუნჯი</ToolTipBrush>
+    <ToolTipCornerRadius>მინიშნების მომრგვალების რადიუსი</ToolTipCornerRadius>
     <ToolTipDataColumn>მინიშნების მონაცემთა სვეტი</ToolTipDataColumn>
+    <ToolTipTextBrush>მინიშნების ტექსტის ფუნჯი</ToolTipTextBrush>
     <Top>ზემოთ</Top>
     <TopLeft>ზედა მარცხენა</TopLeft>
     <Topmost>პირველივე</Topmost>
@@ -4740,6 +4760,29 @@
     <qnSynchronize>გნებავთ მონაცემთა საცავისა და ლექსიკონის სინქრონიზაცია?</qnSynchronize>
     <qnSynchronizeServices>გნებავთ სერვისების სინქრონიზაცია?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>ადგილმდებარეობის დამატება</AddAPlace>
+    <AddAPlaceDesc>თქვენ შეგიძლიათ დაამატოთ ადგილმდებარეობა, რათა გაიმარტივოთ რეპორტების შენახვა ღრუბელში.</AddAPlaceDesc>
+    <ChooseALocation>ადგილმდებარეობის არჩევა</ChooseALocation>
+    <ClearUnpinnedItems>მიუმაგრებელი ელემენტების გაწმენდა</ClearUnpinnedItems>
+    <CopyPathToClipboard>გზის კოპირება ბუფერში</CopyPathToClipboard>
+    <DateModified>ცვლილების თარიღი</DateModified>
+    <Documents>დოკუმენტები</Documents>
+    <DoYouWantTo>თქვენ გსურთ:</DoYouWantTo>
+    <LastWeek>გასული კვირა</LastWeek>
+    <LocalDisk>ლოკალური დისკი ({0})</LocalDisk>
+    <MessageInvalidFolderName>საქაღალდის არასწორი სახელი.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>ეს სახელი უკვე არსებობს. გთხოვთ, გამოიყენოთ სხვა სახელი.</MessageThatNameAlreadyExists>
+    <MoreLocations>მეტი →</MoreLocations>
+    <Older>დიდი ხნის წინ</Older>
+    <Pinned>ჩამაგრებული</Pinned>
+    <PinToList>სიაში ჩამაგრება</PinToList>
+    <PinToRecentList>ჩამაგრება უკანასკნელების სიაში</PinToRecentList>
+    <RemoveFromList>სიიდან წაშლა</RemoveFromList>
+    <ReplaceExistingFile>არსებული ფაილის ჩანაცვლება.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>ცვლილების შენახვა სხვა სახელით.</SaveChangesWithADifferentName>
+    <UnpinFromList>სიიდან ამოგდება</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>აქტიური კავშირი</ActiveRelation>
     <Address>მისამართი</Address>
@@ -5017,7 +5060,9 @@
     <Initials>ინიციალები</Initials>
     <InsertImage>გამოსახულების ჩასმა</InsertImage>
     <InsertText>ტექსტის ჩასმა</InsertText>
+    <LoadSignature>ხელმოწერის ჩატვირთვა</LoadSignature>
     <NoSavedItems>შენახული ელემენტები არ მოიპოვება</NoSavedItems>
+    <SaveSignature>ხელმოწერის შენახვა</SaveSignature>
     <SignatureSavedSuccessfully>ხელისმოწერა წარმატებით შენახულია.</SignatureSavedSuccessfully>
     <UseBrush>ფუნჯის გამოყენება</UseBrush>
   </Signature>
