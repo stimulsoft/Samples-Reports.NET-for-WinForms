@@ -1,6 +1,6 @@
-# WinForms C# samples for Stimulsoft Reports.Net
+# WinForms C# samples for Stimulsoft Reports.NET
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.Net reporting tool in the Windows Forms applications, using C# code and WinForms components. These products are compatible with .NET Framework 4.5 and higher. 
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.NET reporting tool in the Windows Forms applications, using C# code and WinForms components. These products are compatible with .NET Framework 4.5.2 and higher. 
 
 # Overview
 This repository has many examples (Visual Studio Projects) each in different folders:
@@ -34,12 +34,12 @@ They are all combined in a Visual Studio solution (.sln-file).
 # Running samples
 In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project as Startup Project. The required libraries will be automatically downloaded from NuGet repository.
 
-# Stimulsoft Reports.Net
-Stimulsoft Reports.Net is a .NET based reporting tool which helps you create flexible and feature rich reports. All reports are created in a report designer with handy and user-friendly interface. Using Stimulsoft Reports.Net you can create reports on the basis of various data sources. Created reports can be used both in Windows Forms and ASP.NET. Rendered reports can be exported to different formats.
+# Stimulsoft Reports.NET
+Stimulsoft Reports.NET is a .NET based reporting tool which helps you create flexible and feature rich reports. All reports are created in a report designer with handy and user-friendly interface. Using Stimulsoft Reports.NET you can create reports on the basis of various data sources. Created reports can be used both in Windows Forms and ASP.NET. Rendered reports can be exported to different formats.
 
 You can try the [Live Demo](https://demo.stimulsoft.com/#Net)
 
-Read more about [Stimulsoft Reports.Net](https://www.stimulsoft.com/en/products/reports-net)
+Read more about [Stimulsoft Reports.NET](https://www.stimulsoft.com/en/products/reports-net)
 
 [Free Download](https://www.stimulsoft.com/en/downloads)
 
