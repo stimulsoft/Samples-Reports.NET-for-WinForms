@@ -1867,6 +1867,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>Thành phần này cho phép hiển thị mã vạch trong một báo cáo. Dữ liệu mã vạch được gửi đến một đối tượng dưới dạng một chuỗi. Chuỗi có thể chứa bất kỳ ký hiệu nào nhưng chỉ ký hiệu được cho phép của biểu đồ đã chọn có thể được hiển thị.</StiBarCode>
+    <StiButtonElement>Thành phần này được sử dụng để thực thi một tập lệnh sự kiện khi người dùng đang tương tác.</StiButtonElement>
+    <StiCardsElement>Thành phần này được sử dụng để hiển thị dữ liệu được tổng hợp dưới dạng thẻ.</StiCardsElement>
     <StiChart>Thành phần này cho phép hiển thị biểu đồ trong một báo cáo. Các loại biểu đồ khác nhau đã sẵn. Trong số đó có biểu đồ thanh, đường thanh, đường, vùng, Gantt, biểu đồ tán xạ... </StiChart>
     <StiChartElement>Phần tử này cho phép hiển thị biểu đồ trong trang tổng quan. Có nhiều loại biểu đồ khác nhau có sẵn.</StiChartElement>
     <StiCheckBox>Thành phần này cho phép hiển thị một hộp chọn trong một báo cáo. Nó có thể hiển thị hai chế độ: "cho phép" hoặc "vô hiệu hóa".</StiCheckBox>
@@ -2600,6 +2602,7 @@
     <BehaviorCategory>Thuộc tính</BehaviorCategory>
     <ButtonCategory>Nút</ButtonCategory>
     <CapNeedle>Nắp chụp kim</CapNeedle>
+    <CardsCategory>Thẻ</CardsCategory>
     <CellCategory>Ô</CellCategory>
     <ChartAdditionalCategory>Biểu đồ bổ sung</ChartAdditionalCategory>
     <ChartCategory>Biểu đồ</ChartCategory>
@@ -3135,12 +3138,16 @@
     <StiInteractionOnHoverShowToolTip>Hiển thị mẹo công cụ</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Thẻ hiện tại</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Thẻ mới</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Ngang</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Dọc</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Nhiều</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Một</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Giữ chi tiết cùng nhau</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Giữ chi tiết đầu tiên cùng nhau</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Giữ hàng đầu cùng nhau</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Không</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Bên trong</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Bên ngoài</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>Xoay tự động</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Không</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Một dòng</StiLabelsPlacementOneLine>
@@ -3231,6 +3238,9 @@
     <StiPenStyleDouble>Gấp đôi</StiPenStyleDouble>
     <StiPenStyleNone>Không</StiPenStyleNone>
     <StiPenStyleSolid>Đặc</StiPenStyleSolid>
+    <StiPlacementInside>Bên trong</StiPlacementInside>
+    <StiPlacementOutside>Bên ngoài</StiPlacementOutside>
+    <StiPlacementOverlay>Lớp phủ</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Không</StiPlesseyCheckSumNone>
@@ -3345,6 +3355,7 @@
     <StiSignatureTypeDigitalSignature>Chữ ký số</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Vẽ</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Chọn kiểu</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Loại</StiSignatureTypeType>
     <StiSizeModeAutoSize>Kích thước tự động</StiSizeModeAutoSize>
     <StiSizeModeFit>Phù hợp</StiSizeModeFit>
     <StiSortDirectionAsc>Tăng dần</StiSortDirectionAsc>
@@ -3840,6 +3851,7 @@
     <ExceedMargins>Vượt quá lề</ExceedMargins>
     <ExcelSheet>Bảng tính Excel</ExcelSheet>
     <ExcelValue>Giá trị Excel</ExcelValue>
+    <Expand>Mở rộng</Expand>
     <Exponential>Lũy thừa</Exponential>
     <ExportAsImage>Xuất như hình ảnh</ExportAsImage>
     <Expression>Biểu thức</Expression>
@@ -3895,6 +3907,7 @@
     <From>Từ</From>
     <FrozenColumns>Cột đông lạnh</FrozenColumns>
     <FullConvertExpression>Biểu thức chuyển đổi đầy đủ</FullConvertExpression>
+    <FullName>Tên đầy đủ</FullName>
     <Function>Chức năng</Function>
     <Functions>Các chức năng</Functions>
     <GisSettings>Cài đặt Gis</GisSettings>
@@ -3953,6 +3966,7 @@
     <HotSelectedBackColor>Màu nền nóng được chọn</HotSelectedBackColor>
     <HotSelectedForeColor>Màu viền nóng được chọn</HotSelectedForeColor>
     <HotSelectedGlyphColor>Màu nét nóng được chọn</HotSelectedGlyphColor>
+    <HtmlPreviewMode>Chế độ xem trước HTML</HtmlPreviewMode>
     <HtmlTags>Thẻ HTML</HtmlTags>
     <Hyperlink>Liên kết</Hyperlink>
     <HyperlinkDataColumn>Cột dữ liệu liên kết</HyperlinkDataColumn>
@@ -3981,6 +3995,7 @@
     <Indent>Thụt lề</Indent>
     <IndividualColor>Màu cá nhân</IndividualColor>
     <InitBy>Khởi đầu bởi</InitBy>
+    <Initials>Tên viết tắt</Initials>
     <InitialSelection>Lựa chọn ban đầu</InitialSelection>
     <InitialSelectionSource>Nguồn lựa chọn ban đầu</InitialSelectionSource>
     <Insert>Chèn</Insert>
@@ -4307,6 +4322,7 @@
     <SelectionEnabled>Kích hoạt lựa chọn</SelectionEnabled>
     <SelectionForeColor>Chọn màu phía trên</SelectionForeColor>
     <SelectionMode>Chế độ lựa chọn</SelectionMode>
+    <SelectStyle>Chọn kiểu</SelectStyle>
     <SeparatorColor>Màu phân cách</SeparatorColor>
     <SerialNumber>Số dòng</SerialNumber>
     <Series>Dòng</Series>
@@ -4472,7 +4488,11 @@
     <To>Tới</To>
     <Today>Hôm nay</Today>
     <ToolTip>Chú thích</ToolTip>
+    <ToolTipBorder>Đường viền công cụ chú giải</ToolTipBorder>
+    <ToolTipBrush>Cọ công cụ chú giải</ToolTipBrush>
+    <ToolTipCornerRadius>Bán kính góc công cụ chú giải</ToolTipCornerRadius>
     <ToolTipDataColumn>Chú thích dữ liệu cột</ToolTipDataColumn>
+    <ToolTipTextBrush>Chữ cọ công cụ chú giải</ToolTipTextBrush>
     <Top>Trên</Top>
     <TopLeft>Phía trên bên trái</TopLeft>
     <Topmost>Trên cùng</Topmost>
@@ -4670,6 +4690,29 @@
     <qnSynchronize>Đồng bộ hóa nội dung của kho dữ liệu và nội dung của từ điển?</qnSynchronize>
     <qnSynchronizeServices>Đồng bộ dịch vụ?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Thêm địa điểm</AddAPlace>
+    <AddAPlaceDesc>Bạn có thể thêm vị trí để lưu Báo cáo vào đám mây dễ dàng hơn.</AddAPlaceDesc>
+    <ChooseALocation>Chọn một vị trí</ChooseALocation>
+    <ClearUnpinnedItems>Xóa các mục đã bỏ ghim</ClearUnpinnedItems>
+    <CopyPathToClipboard>Sao chép đường dẫn vào khay nhớ tạm</CopyPathToClipboard>
+    <DateModified>Ngày sửa đổi</DateModified>
+    <Documents>Các tài liệu</Documents>
+    <DoYouWantTo>Bạn có muốn:</DoYouWantTo>
+    <LastWeek>Tuần trước</LastWeek>
+    <LocalDisk>Ổ đĩa cục bộ ({0})</LocalDisk>
+    <MessageInvalidFolderName>Tên thư mục không hợp lệ.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Tên đó đã tồn tại. Vui lòng sử dụng một tên khác.</MessageThatNameAlreadyExists>
+    <MoreLocations>Các vị trí khác →</MoreLocations>
+    <Older>Cũ hơn</Older>
+    <Pinned>Đã ghim</Pinned>
+    <PinToList>Ghim vào danh sách</PinToList>
+    <PinToRecentList>Ghim vào danh sách Gần đây</PinToRecentList>
+    <RemoveFromList>Xóa từ danh sách</RemoveFromList>
+    <ReplaceExistingFile>Thay thế tập tin có sẵn.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Lưu các thay đổi với một tên khác.</SaveChangesWithADifferentName>
+    <UnpinFromList>Bỏ ghim khỏi danh sách</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Kích hoạt quan hệ</ActiveRelation>
     <Address>Địa chỉ</Address>
@@ -4946,7 +4989,9 @@
     <InitialsSimple>FN</InitialsSimple>
     <InsertImage>Chèn hình ảnh</InsertImage>
     <InsertText>Chèn chữ</InsertText>
+    <LoadSignature>Tải chữ ký</LoadSignature>
     <NoSavedItems>Không có mục đã lưu</NoSavedItems>
+    <SaveSignature>Lưu chữ ký</SaveSignature>
     <SignatureSavedSuccessfully>Chữ ký đã được lưu thành công.</SignatureSavedSuccessfully>
     <UseBrush>Sử dụng cọ</UseBrush>
   </Signature>

@@ -1871,6 +1871,8 @@ sucedida</ConnectionSuccessfull>
   </Gui>
   <HelpComponents>
     <StiBarCode>Este componente permite mostrar códigos de barras em um relatório. Bar-code dados são enviados para um objeto como uma string. A seqüência pode conter símbolos, mas apenas símbolos permitidos para o gráfico selecionado pode ser exibida.</StiBarCode>
+    <StiButtonElement>Este componente é usado para executar um script de evento quando um usuário está interagindo.</StiButtonElement>
+    <StiCardsElement>Este componente é usado para exibir dados agrupados como cartões.</StiCardsElement>
     <StiChart>Este componente permite mostrar gráficos em um relatório. Diferentes tipos de gráficos estão disponíveis. Entre eles estão as barras, linhas, pizza, rosca, linhas, áreas, Gantt, gráficos de dispersão, etc</StiChart>
     <StiChartElement>Este elemento permite mostrar gráficos em um painel. Diferentes tipos de gráficos estão disponíveis.</StiChartElement>
     <StiCheckBox>Este componente permite mostrar um checkbox em um relatório. Ele pode exibir dois modos: "permitir" ou "desativar".</StiCheckBox>
@@ -2611,6 +2613,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <BehaviorCategory>Comportamento</BehaviorCategory>
     <ButtonCategory>Botão</ButtonCategory>
     <CapNeedle>Capa Agulha</CapNeedle>
+    <CardsCategory>Cartões</CardsCategory>
     <CellCategory>Célula</CellCategory>
     <ChartAdditionalCategory>Gráfico Adicional</ChartAdditionalCategory>
     <ChartCategory>Gráficos</ChartCategory>
@@ -3152,12 +3155,16 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiInteractionOnHoverShowToolTip>Mostrar Dica de Ferramenta</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Aba Atual</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Nova aba</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Horizontal</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Vertical</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Um</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Manter detalhes juntos</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Manter Primeiro Detalhe Junto</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Manter Primeira Linha Junto</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Nenhum</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Lado de Dentro</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Lado de Fora</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>Auto Rotação</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Nenhum</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Uma Linha</StiLabelsPlacementOneLine>
@@ -3248,6 +3255,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiPenStyleDouble>Duplo</StiPenStyleDouble>
     <StiPenStyleNone>Nenhum</StiPenStyleNone>
     <StiPenStyleSolid>Sólido</StiPenStyleSolid>
+    <StiPlacementInside>Lado de Dentro</StiPlacementInside>
+    <StiPlacementOutside>Lado de Fora</StiPlacementOutside>
+    <StiPlacementOverlay>Sobreposição</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo 10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo 11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Nenhum</StiPlesseyCheckSumNone>
@@ -3362,6 +3372,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiSignatureTypeDigitalSignature>Assinatura digital</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Desenhar</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Selecionar estilo</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Modelo</StiSignatureTypeType>
     <StiSizeModeAutoSize>Tamanho automático</StiSizeModeAutoSize>
     <StiSizeModeFit>Ajustes</StiSizeModeFit>
     <StiSortDirectionAsc>Crescente</StiSortDirectionAsc>
@@ -3858,6 +3869,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <ExceedMargins>Exceder as margens</ExceedMargins>
     <ExcelSheet>Supere Folha</ExcelSheet>
     <ExcelValue>Valor Excel</ExcelValue>
+    <Expand>Expandir</Expand>
     <Exponential>Exponencial</Exponential>
     <ExportAsImage>Exportação como Imagem</ExportAsImage>
     <Expression>Expressão</Expression>
@@ -3913,6 +3925,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <From>De</From>
     <FrozenColumns>Colunas congeladas</FrozenColumns>
     <FullConvertExpression>Conversão Completa da Expressão</FullConvertExpression>
+    <FullName>Nome completo</FullName>
     <Function>Função</Function>
     <Functions>Funções</Functions>
     <GisSettings>Configurações Gis</GisSettings>
@@ -3971,6 +3984,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <HotSelectedBackColor>Cor traseira selecionada quente</HotSelectedBackColor>
     <HotSelectedForeColor>Cor selecionada quente da frente</HotSelectedForeColor>
     <HotSelectedGlyphColor>Cor selecionada quente do glifo</HotSelectedGlyphColor>
+    <HtmlPreviewMode>Modo de visualização HTML</HtmlPreviewMode>
     <HtmlTags>Etiquetas HTML</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Coluna de Dados Hyperlink</HyperlinkDataColumn>
@@ -3999,6 +4013,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Indent>Recorte</Indent>
     <IndividualColor>Cor individual</IndividualColor>
     <InitBy>Iniciar por</InitBy>
+    <Initials>Iniciais</Initials>
     <InitialSelection>Seleção Inicial</InitialSelection>
     <InitialSelectionSource>Origem da seleção inicial</InitialSelectionSource>
     <Insert>Inserir</Insert>
@@ -4327,6 +4342,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <SelectionEnabled>Seleção Ativado</SelectionEnabled>
     <SelectionForeColor>Seleção da Cor da Frente</SelectionForeColor>
     <SelectionMode>Modo de seleção</SelectionMode>
+    <SelectStyle>Selecionar Estilo</SelectStyle>
     <SeparatorColor>Cor do separador</SeparatorColor>
     <SerialNumber>Número de série</SerialNumber>
     <Series>Séries</Series>
@@ -4493,7 +4509,11 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <To>Para</To>
     <Today>Hoje</Today>
     <ToolTip>Dica da Ferramenta</ToolTip>
+    <ToolTipBorder>Borda da dica de ferramenta</ToolTipBorder>
+    <ToolTipBrush>Pincel de ponta de ferramenta</ToolTipBrush>
+    <ToolTipCornerRadius>Raio do canto da ponta da ferramenta</ToolTipCornerRadius>
     <ToolTipDataColumn>Coluna da Dica da Ferramenta</ToolTipDataColumn>
+    <ToolTipTextBrush>Pincel de texto de dica de ferramenta</ToolTipTextBrush>
     <Top>Topo</Top>
     <TopLeft>Topo-Esquerda</TopLeft>
     <Topmost>Mais alto</Topmost>
@@ -4695,6 +4715,29 @@ contexto do painel de propriedades.</qnConfiguration>
     <qnSynchronize>Sincronizar dados armazenados e o conteúdo do dicionário?</qnSynchronize>
     <qnSynchronizeServices>Sincronizar serviço?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Adicionar um lugar</AddAPlace>
+    <AddAPlaceDesc>Você pode adicionar locais para facilitar o salvamento de relatórios na nuvem.</AddAPlaceDesc>
+    <ChooseALocation>Escolha um local</ChooseALocation>
+    <ClearUnpinnedItems>Limpar itens não fixados</ClearUnpinnedItems>
+    <CopyPathToClipboard>Copiar caminho para a área de transferência</CopyPathToClipboard>
+    <DateModified>Data modificada</DateModified>
+    <Documents>Documentos</Documents>
+    <DoYouWantTo>Você quer:</DoYouWantTo>
+    <LastWeek>Semana passada</LastWeek>
+    <LocalDisk>Disco local ({0})</LocalDisk>
+    <MessageInvalidFolderName>Nome de pasta inválido.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Esse nome já existe. Por favor, use um nome diferente.</MessageThatNameAlreadyExists>
+    <MoreLocations>Mais locais →</MoreLocations>
+    <Older>Mais velho</Older>
+    <Pinned>Fixada</Pinned>
+    <PinToList>Fixar na lista</PinToList>
+    <PinToRecentList>Fixar na lista recente</PinToRecentList>
+    <RemoveFromList>Remover da lista</RemoveFromList>
+    <ReplaceExistingFile>Substituir arquivo existente.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Salvar alterações com um nome diferente.</SaveChangesWithADifferentName>
+    <UnpinFromList>Desafixar da lista</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Relação ativa</ActiveRelation>
     <Address>Endereço</Address>
@@ -4973,7 +5016,9 @@ contexto do painel de propriedades.</qnConfiguration>
     <Initials>Iniciais</Initials>
     <InsertImage>Inserir Imagem</InsertImage>
     <InsertText>Inserir texto</InsertText>
+    <LoadSignature>Carregar assinatura</LoadSignature>
     <NoSavedItems>Nenhum item salvo</NoSavedItems>
+    <SaveSignature>Salvar assinatura</SaveSignature>
     <SignatureSavedSuccessfully>Assinatura salva com sucesso.</SignatureSavedSuccessfully>
     <UseBrush>Usar pincel</UseBrush>
   </Signature>
