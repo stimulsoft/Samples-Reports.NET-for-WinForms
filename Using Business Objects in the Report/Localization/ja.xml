@@ -1866,6 +1866,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>この部品により、レポートにバーコードを表示することができます。 バーコードデータは文字列としてオブジェクトに送られます。 文字列には任意の記号を含めることができますが、選択した図表に対して許可された記号のみを表示することができます。</StiBarCode>
+    <StiButtonElement>このコンポーネントは、ユーザーとの対話時にイベントスクリプトを実行するために使用されます。</StiButtonElement>
+    <StiCardsElement>グループ化されたデータをカードとして表示するためのコンポーネントです。</StiCardsElement>
     <StiChart>この部品により、レポートにグラフを表示できます。 異なるタイプのグラフが利用可能です。 バー、ライン、パイ、ドーナツ、ライン、エリア、ガント、散布図など</StiChart>
     <StiChartElement>この部品により、ダッシュボードにグラフを表示することができます。 異なるタイプのグラフが利用可能です。</StiChartElement>
     <StiCheckBox>この部品により、レポートにチェックボックスを表示することができます。 「有効」または「無効」の2つのモードを表示できます。</StiCheckBox>
@@ -1917,6 +1919,7 @@
     <StiRoundedRectanglePrimitive>この部品は、丸められた長方形を出力するために使用されます。</StiRoundedRectanglePrimitive>
     <StiShape>この部品は、丸められた長方形を出力するために使用されます。...</StiShape>
     <StiShapeElement>この部品は、矢印、斜線下、対角線上、水平線、左および右線、楕円形、四角形、四角形、上部および下部線、三角形、垂直線などの既成の図形を挿入するために使用されます。</StiShapeElement>
+    <StiSignature>このコンポーネントは、レポートに電子署名またはデジタル署名を追加するために使用されます。</StiSignature>
     <StiSparkline>このコンポーネントは、レポートにマイクログラフィックを作成するために使用されます。 動的に変化するデータを棒、線、領域として追跡できます。</StiSparkline>
     <StiSubReport>この部品は、レポートのさまざまな場所で追加データを出力するために使用されます。</StiSubReport>
     <StiTable>この部品は、垂直列と水平行のモデルを使用して編成された一連のデータ要素です。</StiTable>
@@ -2593,6 +2596,7 @@
     <BehaviorCategory>動作</BehaviorCategory>
     <ButtonCategory>ボタン</ButtonCategory>
     <CapNeedle>キャップニードル</CapNeedle>
+    <CardsCategory>カード</CardsCategory>
     <CellCategory>細胞</CellCategory>
     <ChartAdditionalCategory>追加グラフ</ChartAdditionalCategory>
     <ChartCategory>グラフ</ChartCategory>
@@ -3128,12 +3132,16 @@
     <StiInteractionOnHoverShowToolTip>ツールチップを表示</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>現在のタブ</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>新しタブ</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>水平</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>垂直</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>マルチ</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>1</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>詳細をまとめて</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>詳細を同時に保持</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>最初の行を同時に保持</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>なし</StiKeepDetailsNone>
+    <StiLabelPlacementInside>内部</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>外部</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>自動回転</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>なし</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>1行</StiLabelsPlacementOneLine>
@@ -3209,6 +3217,9 @@
     <StiPenStyleDouble>ダブル</StiPenStyleDouble>
     <StiPenStyleNone>なし</StiPenStyleNone>
     <StiPenStyleSolid>固体</StiPenStyleSolid>
+    <StiPlacementInside>内部</StiPlacementInside>
+    <StiPlacementOutside>外部</StiPlacementOutside>
+    <StiPlacementOverlay>オーバーレイ</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>モジュロ10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>モジュロ11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>なし</StiPlesseyCheckSumNone>
@@ -3323,6 +3334,7 @@
     <StiSignatureTypeDigitalSignature>デジタル署名</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>描画</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>スタイル選択</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>タイプ</StiSignatureTypeType>
     <StiSizeModeAutoSize>自動サイズ</StiSizeModeAutoSize>
     <StiSizeModeFit>一致</StiSizeModeFit>
     <StiSortDirectionAsc>昇順</StiSortDirectionAsc>
@@ -3818,6 +3830,7 @@
     <ExceedMargins>マージン超え</ExceedMargins>
     <ExcelSheet>Excelシート</ExcelSheet>
     <ExcelValue>Excelの値</ExcelValue>
+    <Expand>拡大</Expand>
     <Exponential>指数関数的</Exponential>
     <ExportAsImage>イメージとしてエクスポート</ExportAsImage>
     <Expression>式</Expression>
@@ -3873,6 +3886,7 @@
     <From>から</From>
     <FrozenColumns>カラム固定</FrozenColumns>
     <FullConvertExpression>フルコンバート式</FullConvertExpression>
+    <FullName>氏名</FullName>
     <Function>関数</Function>
     <Functions>関数</Functions>
     <GisSettings>GIS設定</GisSettings>
@@ -3893,6 +3907,7 @@
     <GroupMeter>Group</GroupMeter>
     <GrowToHeight>高さ拡張</GrowToHeight>
     <Header>ヘッダ</Header>
+    <HeaderAlignment>ヘッダーアライメント</HeaderAlignment>
     <HeaderBackColor>ヘッダのバックカラー</HeaderBackColor>
     <HeaderCanBreak>ヘッダ改行可能</HeaderCanBreak>
     <HeaderCanGrow>ヘッダ拡張可能</HeaderCanGrow>
@@ -3931,6 +3946,7 @@
     <HotSelectedBackColor>ホット選択背景色</HotSelectedBackColor>
     <HotSelectedForeColor>ホット選択前景色</HotSelectedForeColor>
     <HotSelectedGlyphColor>ホット選択グリフ色</HotSelectedGlyphColor>
+    <HtmlPreviewMode>HTMLプレビューモード</HtmlPreviewMode>
     <HtmlTags>HTMLタグ</HtmlTags>
     <Hyperlink>ハイパーリンク</Hyperlink>
     <HyperlinkDataColumn>ハイパーリンクデータ列</HyperlinkDataColumn>
@@ -3959,6 +3975,7 @@
     <Indent>インデント</Indent>
     <IndividualColor>単一色</IndividualColor>
     <InitBy>イニシエータ</InitBy>
+    <Initials>イニシャル</Initials>
     <InitialSelection>初期選択</InitialSelection>
     <InitialSelectionSource>最初の選択ソース</InitialSelectionSource>
     <Insert>挿入</Insert>
@@ -4159,6 +4176,7 @@
     <Parameters>パラメーター</Parameters>
     <ParametersDateFormat>パラメータ日付形式</ParametersDateFormat>
     <ParametersOrientation>パラメータの方向</ParametersOrientation>
+    <ParameterWidth>パラメータ幅</ParameterWidth>
     <ParentColumns>親カラム</ParentColumns>
     <ParentSource>親データソース</ParentSource>
     <ParentValue>親値</ParentValue>
@@ -4285,6 +4303,7 @@
     <SelectionEnabled>選択有効</SelectionEnabled>
     <SelectionForeColor>選択色</SelectionForeColor>
     <SelectionMode>選択モード</SelectionMode>
+    <SelectStyle>セレクトスタイル</SelectStyle>
     <SeparatorColor>分離色</SeparatorColor>
     <SerialNumber>シリアルナンバー</SerialNumber>
     <Series>シリーズ</Series>
@@ -4450,7 +4469,11 @@
     <To>に</To>
     <Today>今日</Today>
     <ToolTip>ツールチップ</ToolTip>
+    <ToolTipBorder>ツールチップボーダー</ToolTipBorder>
+    <ToolTipBrush>ツールチップブラシ</ToolTipBrush>
+    <ToolTipCornerRadius>ツールチップコーナー半径</ToolTipCornerRadius>
     <ToolTipDataColumn>ツールチップデータ列</ToolTipDataColumn>
+    <ToolTipTextBrush>ツールチップテキストブラシ</ToolTipTextBrush>
     <Top>上</Top>
     <TopLeft>左上</TopLeft>
     <Topmost>一番上</Topmost>
@@ -4648,6 +4671,35 @@
     <qnSynchronize>データストアの内容と辞書の内容が同期されていますか？</qnSynchronize>
     <qnSynchronizeServices>同期サービス？</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>場所を追加</AddAPlace>
+    <AddAPlaceDesc>場所を追加することで、Reportを簡単にクラウドに保存することができます。</AddAPlaceDesc>
+    <ChooseALocation>場所を選ぶ</ChooseALocation>
+    <ClearUnpinnedItems>ピン留めされていない項目をクリアする</ClearUnpinnedItems>
+    <CopyPathToClipboard>パスをクリップボードにコピーする</CopyPathToClipboard>
+    <DateModified>修正日</DateModified>
+    <Documents>ドキュメント</Documents>
+    <DoYouWantTo>する事：</DoYouWantTo>
+    <LastWeek>先週</LastWeek>
+    <LocalDisk>ローカルディスク ({0})</LocalDisk>
+    <MessageInvalidFolderName>フォルダ名が無効です。</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>その名前はすでに存在しています。別の名前を使用してください。</MessageThatNameAlreadyExists>
+    <MoreLocations>その他の拠点 →</MoreLocations>
+    <Older>古い</Older>
+    <OtherLocations>その他の場所</OtherLocations>
+    <Personal>個人</Personal>
+    <Pinned>ピン留め</Pinned>
+    <PinToList>リストにピン留めする</PinToList>
+    <PinToRecentList>最近のリストにピン留めする</PinToRecentList>
+    <RemoveFromList>一覧から削除する</RemoveFromList>
+    <ReplaceExistingFile>既存のファイルを置き換える</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>別の名前で変更を保存</SaveChangesWithADifferentName>
+    <SaveThisFile>このファイルを保存する</SaveThisFile>
+    <SelectToNavigateUpOneLevel>1つ上の階層に移動する場合は選択</SelectToNavigateUpOneLevel>
+    <SetAsDefaultLocation>デフォルトの場所に設定</SetAsDefaultLocation>
+    <ThisPC>このPC</ThisPC>
+    <UnpinFromList>リストからピンを外す</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>アクティブなリレーション</ActiveRelation>
     <Address>住所</Address>
@@ -4924,7 +4976,9 @@
     <Initials>イニシャル</Initials>
     <InsertImage>画像を挿入</InsertImage>
     <InsertText>テキストを挿入</InsertText>
+    <LoadSignature>署名のロード</LoadSignature>
     <NoSavedItems>保存されたアイテムはありません</NoSavedItems>
+    <SaveSignature>署名の保存</SaveSignature>
     <SignatureSavedSuccessfully>署名が正常に保存されました。</SignatureSavedSuccessfully>
     <UseBrush>ブラシを使用する</UseBrush>
   </Signature>

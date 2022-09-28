@@ -612,6 +612,7 @@
     <StiDashboard>Dashboard</StiDashboard>
     <StiDataBand>Data</StiDataBand>
     <StiDatePicker>Date Picker</StiDatePicker>
+    <StiElectronicSignature>Electronic Signature</StiElectronicSignature>
     <StiEmptyBand>Empty Data</StiEmptyBand>
     <StiFooterBand>Footer</StiFooterBand>
     <StiGauge>Gauge</StiGauge>
@@ -631,6 +632,7 @@
     <StiPageFooterBand>Page Footer</StiPageFooterBand>
     <StiPageHeaderBand>Page Header</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
+    <StiPdfDigitalSignature>PDF Digital Signature</StiPdfDigitalSignature>
     <StiPivotColumn>Pivot Column</StiPivotColumn>
     <StiPivotRow>Pivot Row</StiPivotRow>
     <StiPivotSummary>Pivot Summary</StiPivotSummary>
@@ -1919,6 +1921,7 @@
     <StiRoundedRectanglePrimitive>This component is used to output rounded rectangles.</StiRoundedRectanglePrimitive>
     <StiShape>This component is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShape>
     <StiShapeElement>This element is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShapeElement>
+    <StiSignature>This component is used to add an electronic or digital signature to a report.</StiSignature>
     <StiSparkline>This component is used to create micrographics in a report. It allows you to track dynamically changing data as bars, lines, areas.</StiSparkline>
     <StiSubReport>This component is used to output additional data in different places of a report.</StiSubReport>
     <StiTable>This component is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTable>
@@ -2984,6 +2987,9 @@
     <StiColorScaleTypeColor3>3-Color Scale</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>Across Then Down</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>Down Then Across</StiColumnDirectionDownThenAcross>
+    <StiColumnShape3DBox>Box</StiColumnShape3DBox>
+    <StiColumnShape3DPartialPyramid>Partial Pyramid</StiColumnShape3DPartialPyramid>
+    <StiColumnShape3DPyramid>Pyramid</StiColumnShape3DPyramid>
     <StiCrossHorAlignmentCenter>Center</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Left</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>None</StiCrossHorAlignmentNone>
@@ -3715,6 +3721,7 @@
     <ColumnHeaderForeColor>Column Header Fore Color</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Column Headers Visible</ColumnHeadersVisible>
     <Columns>Columns</Columns>
+    <ColumnShape>Column Shape</ColumnShape>
     <ColumnWidth>Column Width</ColumnWidth>
     <CommandTimeout>Command Timeout</CommandTimeout>
     <CompanyPrefix>Company Prefix</CompanyPrefix>
@@ -3763,6 +3770,7 @@
     <DataType>Data Type</DataType>
     <DataUrl>Data URL</DataUrl>
     <DateInfo>Date Info</DateInfo>
+    <DateTimeMode>DateTime Mode</DateTimeMode>
     <DateTimeStep>Date Time Step</DateTimeStep>
     <Default>Default</Default>
     <DefaultColor>Default Color</DefaultColor>
@@ -3905,7 +3913,7 @@
     <GroupMeter>Group Meter</GroupMeter>
     <GrowToHeight>Grow to Height</GrowToHeight>
     <Header>Header</Header>
-	<HeaderAlignment>Header Alignment</HeaderAlignment>
+    <HeaderAlignment>Header Alignment</HeaderAlignment>
     <HeaderBackColor>Header Back Color</HeaderBackColor>
     <HeaderCanBreak>Header Can Break</HeaderCanBreak>
     <HeaderCanGrow>Header Can Grow</HeaderCanGrow>
@@ -4174,6 +4182,7 @@
     <Parameters>Parameters</Parameters>
     <ParametersDateFormat>Parameters Date Format</ParametersDateFormat>
     <ParametersOrientation>Parameters Orientation</ParametersOrientation>
+    <ParameterWidth>Parameter Width</ParameterWidth>
     <ParentColumns>Parent Columns</ParentColumns>
     <ParentSource>Parent Data Source</ParentSource>
     <ParentValue>Parent Value</ParentValue>
@@ -4183,6 +4192,7 @@
     <PathData>Path Data</PathData>
     <PathSchema>Path Schema</PathSchema>
     <Pattern>Pattern</Pattern>
+    <Placeholder>Placeholder</Placeholder>
     <Placement>Placement</Placement>
     <PlaceOnToolbox>Place on Toolbox</PlaceOnToolbox>
     <PointAtCenter>Point at Center</PointAtCenter>
@@ -4361,6 +4371,7 @@
     <ShrinkFontToFit>Shrink Font to Fit</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Shrink Font to Fit Minimum Size</ShrinkFontToFitMinimumSize>
     <Side>Side</Side>
+    <SideBySide>Side-by-Side</SideBySide>
     <Sides>Sides</Sides>
     <SignatureType>Type</SignatureType>
     <Simple>Simple</Simple>
@@ -4458,7 +4469,7 @@
     <TickMarkMinorBrush>Tick Mark Minor Brush</TickMarkMinorBrush>
     <Ticks>Ticks</Ticks>
     <Title>Title</Title>
-    <TitleBeforeHeader>Title before Header</TitleBeforeHeader>
+    <TitleBeforeHeader>Title Before Header</TitleBeforeHeader>
     <TitleColor>Title Color</TitleColor>
     <TitleDirection>TitleDirection</TitleDirection>
     <TitleFont>Title Font</TitleFont>
@@ -4683,19 +4694,19 @@
     <MessageThatNameAlreadyExists>That name already exists. Please use a different name.</MessageThatNameAlreadyExists>
     <MoreLocations>More Locations →</MoreLocations>
     <Older>Older</Older>
+    <OtherLocations>Other locations</OtherLocations>
+    <Personal>Personal</Personal>
     <Pinned>Pinned</Pinned>
     <PinToList>Pin to list</PinToList>
     <PinToRecentList>Pin to Recent list</PinToRecentList>
     <RemoveFromList>Remove from list</RemoveFromList>
     <ReplaceExistingFile>Replace existing file.</ReplaceExistingFile>
-	<SaveThisFile>Save this file</SaveThisFile>
     <SaveChangesWithADifferentName>Save changes with a different name.</SaveChangesWithADifferentName>
+    <SaveThisFile>Save this file</SaveThisFile>
+    <SelectToNavigateUpOneLevel>Select to navigate up one level</SelectToNavigateUpOneLevel>
+    <SetAsDefaultLocation>Set as Default Location</SetAsDefaultLocation>
+    <ThisPC>This PC</ThisPC>
     <UnpinFromList>Unpin from list</UnpinFromList>
-	<ThisPC>This PC</ThisPC>
-	<Personal>Personal</Personal>
-	<OtherLocations>Other locations</OtherLocations>
-	<SetAsDefaultLocation>Set as Default Location</SetAsDefaultLocation>
-	<SelectToNavigateUpOneLevel>Select to navigate up one level</SelectToNavigateUpOneLevel>
   </RecentFiles>
   <Report>
     <ActiveRelation>Active Relation</ActiveRelation>

@@ -1868,6 +1868,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
   </Gui>
   <HelpComponents>
     <StiBarCode>Komponen ini mengizinkan memperlihatkan kode-bar pada laporan. Kode-Bar data dikirimkan ke objek sebagai syarat. Syarat dapat mengandung simbol manapun tapi hanya mengizinkan simbol untuk grafik yang dipilih yang dapat ditampilkan.</StiBarCode>
+    <StiButtonElement>Komponen ini digunakan untuk mengeksekusi script saat pengguna berinteraksi</StiButtonElement>
+    <StiCardsElement>Komponen ini digunakan untuk menampilkan data yang dikelompokan sebagai kartu </StiCardsElement>
     <StiChart>Komponen ini mengizinkan garfik pada laporan. Grafik yang berbeda juga ada. Diantaranya adalah grafik batang, Garis, pie, donat, garis, area, Gantt, menyebar dll. </StiChart>
     <StiChartElement>Elemen ini memungkinkan menampilkan bagan di dasbor. Berbagai jenis grafik tersedia.</StiChartElement>
     <StiCheckBox>Komponen ini mengizinkan untuk menunjukkan sebuah chekbox pada laporan. Ini dapat menampilkan dua mode : "memperbolehkan" atau "tidak memperbolehkan".</StiCheckBox>
@@ -1919,6 +1921,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiRoundedRectanglePrimitive>Komponen ini digunakan untuk menampilkan Bujur sangkar  dengan sudut lengkung.</StiRoundedRectanglePrimitive>
     <StiShape>Komponen ini digunakan untuk memasukkan bentuk yang telah dibuat, seperti panah, Garis Diagonal menurun, Garis Diagonal meningkat, Garis Horisontal, Garis Kiri dan Kanan, oval, Bujur Sangkar, Bujur sangkar dengan sudut lengkung, Garis atas dan bawah, Segitiga, Garis Vertikal.</StiShape>
     <StiShapeElement>Elemen ini digunakan untuk menyisipkan bentuk yang sudah jadi, seperti panah, garis diagonal ke bawah, garis diagonal ke atas, garis horizontal, garis kiri dan kanan, oval, persegi panjang, persegi panjang bulat, garis atas dan bawah, segitiga, garis vertikal.</StiShapeElement>
+    <StiSignature>Komponen ini digunakan untuk menambahkan tanda tangan elektronik atau digital ke laporan</StiSignature>
     <StiSparkline>Komponen ini digunakan untuk membuat mikrografik dalam sebuah laporan. Ini memungkinkan Anda melacak data yang berubah secara dinamis sebagai bilah, garis, area.</StiSparkline>
     <StiSubReport>Komponen ini digunakan untuk menampilkan tambahan data pada tempat yang berbeda pada laporan.</StiSubReport>
     <StiTable>Kumpunan ini merupakan kumpulan dari bagian data yang terorganisisr menggunakan model kolom vertikal dan baris horisontal.</StiTable>
@@ -2294,6 +2297,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <menuInsertRowAbove>MAsukkan Di Atas Baris</menuInsertRowAbove>
     <menuInsertRowBelow>Masukkan di Bawah Baris</menuInsertRowBelow>
     <menuJoinCells>Gabungkan Cell</menuJoinCells>
+    <menuMakeThisRelationActive>jadikan Relasi ini Aktif</menuMakeThisRelationActive>
     <menuSelectColumn>Pilih Kolom</menuSelectColumn>
     <menuSelectRow>Pilih Baris</menuSelectRow>
     <menuTable>Tabel</menuTable>
@@ -2623,6 +2627,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <BehaviorCategory>Kebiasaaan</BehaviorCategory>
     <ButtonCategory>Tombol</ButtonCategory>
     <CapNeedle>Cap Needle</CapNeedle>
+    <CardsCategory>Kartu</CardsCategory>
     <CellCategory>Cell</CellCategory>
     <ChartAdditionalCategory>Grafik Tambahan</ChartAdditionalCategory>
     <ChartCategory>Grafik</ChartCategory>
@@ -3158,12 +3163,16 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiInteractionOnHoverShowToolTip>Tampilkan Tip Alat</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Tab Saat Ini</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Tab baru</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemOrientationHorizontal>Horisontal</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Vertikal</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>satu</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Pertahankan Detail tetap Bersama</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Pertahankan Detail Pertama tetap Bersama</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Pertahankan Baris Pertama Tetap Bersama</StiKeepDetailsKeepFirstRowTogether>
     <StiKeepDetailsNone>Tidak Ada</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Dalam</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Luar</StiLabelPlacementOutside>
     <StiLabelsPlacementAutoRotation>Rotasi Otomatis</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Tidak Ada</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Satu Garis</StiLabelsPlacementOneLine>
@@ -3256,6 +3265,9 @@ Tempat Berpenduduk
     <StiPenStyleDouble>Rangkap</StiPenStyleDouble>
     <StiPenStyleNone>Tidak Ada</StiPenStyleNone>
     <StiPenStyleSolid>Kuat</StiPenStyleSolid>
+    <StiPlacementInside>Dalam</StiPlacementInside>
+    <StiPlacementOutside>Luar</StiPlacementOutside>
+    <StiPlacementOverlay>Hamparan</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Tidak Ada</StiPlesseyCheckSumNone>
@@ -3370,6 +3382,7 @@ Tempat Berpenduduk
     <StiSignatureTypeDigitalSignature>Tanda tangan digital</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Gambar</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Pilih Gaya</StiSignatureTypeSelectStyle>
+    <StiSignatureTypeType>Tipe</StiSignatureTypeType>
     <StiSizeModeAutoSize>Ukuran Otomatis</StiSizeModeAutoSize>
     <StiSizeModeFit>Fit</StiSizeModeFit>
     <StiSortDirectionAsc>Naik</StiSortDirectionAsc>
@@ -3865,6 +3878,7 @@ Tempat Berpenduduk
     <ExceedMargins>Exceed Margins</ExceedMargins>
     <ExcelSheet>Sheet Excel</ExcelSheet>
     <ExcelValue>Nilai Excel</ExcelValue>
+    <Expand>Mengembangkan</Expand>
     <Exponential>Exponensial</Exponential>
     <ExportAsImage>Eksport Sebagai Gambar</ExportAsImage>
     <Expression>Ekspresi</Expression>
@@ -3920,6 +3934,7 @@ Tempat Berpenduduk
     <From>Dari</From>
     <FrozenColumns>Frozen Columns</FrozenColumns>
     <FullConvertExpression>Expressi Konversi Penuh</FullConvertExpression>
+    <FullName>Nama Lengkap</FullName>
     <Function>Fungsi</Function>
     <Functions>Fungsi</Functions>
     <GisSettings>Gis Settings</GisSettings>
@@ -3940,6 +3955,7 @@ Tempat Berpenduduk
     <GroupMeter>Pengukur Grup</GroupMeter>
     <GrowToHeight>Tumbuh Tinggi</GrowToHeight>
     <Header>Header</Header>
+    <HeaderAlignment>Penyesuaian Tajuk </HeaderAlignment>
     <HeaderBackColor>Warna Belakang Header</HeaderBackColor>
     <HeaderCanBreak>Header dapat terputus</HeaderCanBreak>
     <HeaderCanGrow>Header dapat membesar</HeaderCanGrow>
@@ -3978,6 +3994,7 @@ Tempat Berpenduduk
     <HotSelectedBackColor>Warna Belakang Terpilih Panas</HotSelectedBackColor>
     <HotSelectedForeColor>Warna Depan Terpilih Panas</HotSelectedForeColor>
     <HotSelectedGlyphColor>Warna Glyph Terpilih Panas</HotSelectedGlyphColor>
+    <HtmlPreviewMode>Mode Pertinjau HTML</HtmlPreviewMode>
     <HtmlTags>Html Tags</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Hyperlink Kolom Data</HyperlinkDataColumn>
@@ -4006,6 +4023,7 @@ Tempat Berpenduduk
     <Indent>Lekuk</Indent>
     <IndividualColor>Warna Individu</IndividualColor>
     <InitBy>Dimulai oleh</InitBy>
+    <Initials>Inisial</Initials>
     <InitialSelection>Seleksi Awal</InitialSelection>
     <InitialSelectionSource>Sumber Seleksi Awal</InitialSelectionSource>
     <Insert>Masukkan</Insert>
@@ -4208,6 +4226,7 @@ Tempat Berpenduduk
     <Parameters>Parameter</Parameters>
     <ParametersDateFormat>Parameter Format Tanggal</ParametersDateFormat>
     <ParametersOrientation>Orientasi Parameter</ParametersOrientation>
+    <ParameterWidth>Lebar Parameter</ParameterWidth>
     <ParentColumns>Kolom Parent</ParentColumns>
     <ParentSource>Sumber Data Parent</ParentSource>
     <ParentValue>Nilai Parent</ParentValue>
@@ -4334,6 +4353,7 @@ Tempat Berpenduduk
     <SelectionEnabled>Pemilihan Diperbolehkan</SelectionEnabled>
     <SelectionForeColor>Pemilihan Warna Depan</SelectionForeColor>
     <SelectionMode>Mode Pemilihan</SelectionMode>
+    <SelectStyle>Pilih Gaya</SelectStyle>
     <SeparatorColor>Warna Pemisah</SeparatorColor>
     <SerialNumber>Nomor seri</SerialNumber>
     <Series>Seri</Series>
@@ -4500,7 +4520,11 @@ Tempat Berpenduduk
     <To>Ke</To>
     <Today>Hari Ini</Today>
     <ToolTip>Kata Bantu</ToolTip>
+    <ToolTipBorder>Batas Tooltip</ToolTipBorder>
+    <ToolTipBrush>Kuas Ujung Alat</ToolTipBrush>
+    <ToolTipCornerRadius>Jari-jari Sudut Ujung Alat</ToolTipCornerRadius>
     <ToolTipDataColumn>Kata Bantu Kolom Data</ToolTipDataColumn>
+    <ToolTipTextBrush>Kuas Teks Ujung Alat</ToolTipTextBrush>
     <Top>Atas</Top>
     <TopLeft>Kiri Atas</TopLeft>
     <Topmost>Paling Atas</Topmost>
@@ -4699,6 +4723,35 @@ Tempat Berpenduduk
     <qnSynchronize>Sinkronkan isi dari penyimpanan data dan isi dari kamus?</qnSynchronize>
     <qnSynchronizeServices>Sinkronkan Layanan?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Tambahkan Tempat</AddAPlace>
+    <AddAPlaceDesc>Anda dapat menambahkan lokasi untuk mempermudah penyimpanan Laporan ke penyimpanan.</AddAPlaceDesc>
+    <ChooseALocation>Pilih Lokasi</ChooseALocation>
+    <ClearUnpinnedItems>Clear unpinned items</ClearUnpinnedItems>
+    <CopyPathToClipboard>Hapus item yang tidak disematkan</CopyPathToClipboard>
+    <DateModified>Tanggal diubah</DateModified>
+    <Documents>Dokumen</Documents>
+    <DoYouWantTo>Apakah Anda ingin:</DoYouWantTo>
+    <LastWeek>Minggu lalu</LastWeek>
+    <LocalDisk>Disk Lokal ({0})</LocalDisk>
+    <MessageInvalidFolderName>Nama folder tidak valid.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Nama itu sudah ada. Harap gunakan nama yang berbeda.</MessageThatNameAlreadyExists>
+    <MoreLocations>Lokasi Lainnya →</MoreLocations>
+    <Older>Lebih Tua</Older>
+    <OtherLocations>Lokasi Lainnya</OtherLocations>
+    <Personal>Pribadi</Personal>
+    <Pinned>Disematkan</Pinned>
+    <PinToList>Sematkan ke daftar</PinToList>
+    <PinToRecentList>Sematkan ke daftar Terbaru</PinToRecentList>
+    <RemoveFromList>Hapus dari daftar</RemoveFromList>
+    <ReplaceExistingFile>Ganti file yang ada</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Simpan perubahan dengan nama yang berbeda.</SaveChangesWithADifferentName>
+    <SaveThisFile>Simpan file ini</SaveThisFile>
+    <SelectToNavigateUpOneLevel>Pilih untuk menavigasi satu tingkat</SelectToNavigateUpOneLevel>
+    <SetAsDefaultLocation>Tetapkan sebagai Lokasi Default</SetAsDefaultLocation>
+    <ThisPC>PC ini</ThisPC>
+    <UnpinFromList>Lepas sematan dari daftar</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Hubungan Aktif</ActiveRelation>
     <Address>Alamat</Address>
@@ -4974,7 +5027,9 @@ Tempat Berpenduduk
     <Initials>Inisial</Initials>
     <InsertImage>Masukan Gambar</InsertImage>
     <InsertText>Sisipkan Teks</InsertText>
+    <LoadSignature>Muat tanda tangan</LoadSignature>
     <NoSavedItems>Tidak ada item yang disimpan</NoSavedItems>
+    <SaveSignature>Simpan tanda tangan</SaveSignature>
     <SignatureSavedSuccessfully>Tanda tangan berhasil disimpan.</SignatureSavedSuccessfully>
     <UseBrush>Gunakan Kuas</UseBrush>
   </Signature>
