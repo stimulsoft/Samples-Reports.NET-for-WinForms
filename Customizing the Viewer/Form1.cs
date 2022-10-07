@@ -1,16 +1,12 @@
 using System;
-using System.Drawing;
-using System.Collections;
-using System.ComponentModel;
 using System.Windows.Forms;
-using System.Data;
 
 namespace Customizing_the_Viewer
 {
-	/// <summary>
-	/// Summary description for Form1.
-	/// </summary>
-	public class Form1 : System.Windows.Forms.Form
+    /// <summary>
+    /// Summary description for Form1.
+    /// </summary>
+    public class Form1 : System.Windows.Forms.Form
 	{
 		private System.Windows.Forms.Panel panel1;
 		private Stimulsoft.Report.Viewer.StiViewerControl PreviewControl;
@@ -209,7 +205,7 @@ namespace Customizing_the_Viewer
             // 
             // tbLastPage
             // 
-            this.tbLastPage.Draw3DButton = false;
+            this.tbLastPage.AutoWidth = true;
             this.tbLastPage.HotDragDrop = false;
             this.tbLastPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbLastPage.ImageIndex = 3;
@@ -234,7 +230,7 @@ namespace Customizing_the_Viewer
             // 
             // tbNextPage
             // 
-            this.tbNextPage.Draw3DButton = false;
+            this.tbNextPage.AutoWidth = true;
             this.tbNextPage.HotDragDrop = false;
             this.tbNextPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbNextPage.ImageIndex = 2;
@@ -250,7 +246,7 @@ namespace Customizing_the_Viewer
             // 
             // tbPreviousPage
             // 
-            this.tbPreviousPage.Draw3DButton = false;
+            this.tbPreviousPage.AutoWidth = true;
             this.tbPreviousPage.HotDragDrop = false;
             this.tbPreviousPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbPreviousPage.ImageIndex = 1;
@@ -266,7 +262,7 @@ namespace Customizing_the_Viewer
             // 
             // tbFirstPage
             // 
-            this.tbFirstPage.Draw3DButton = false;
+            this.tbFirstPage.AutoWidth = true;
             this.tbFirstPage.HotDragDrop = false;
             this.tbFirstPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbFirstPage.ImageIndex = 0;
@@ -297,7 +293,7 @@ namespace Customizing_the_Viewer
             // 
             // tbPageWidth
             // 
-            this.tbPageWidth.Draw3DButton = false;
+            this.tbPageWidth.AutoWidth = true;
             this.tbPageWidth.HotDragDrop = false;
             this.tbPageWidth.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbPageWidth.ImageIndex = 4;
@@ -323,7 +319,7 @@ namespace Customizing_the_Viewer
             // 
             // tbNormal
             // 
-            this.tbNormal.Draw3DButton = false;
+            this.tbNormal.AutoWidth = true;
             this.tbNormal.HotDragDrop = false;
             this.tbNormal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbNormal.ImageIndex = 3;
@@ -339,7 +335,7 @@ namespace Customizing_the_Viewer
             // 
             // tbTwoPages
             // 
-            this.tbTwoPages.Draw3DButton = false;
+            this.tbTwoPages.AutoWidth = true;
             this.tbTwoPages.HotDragDrop = false;
             this.tbTwoPages.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbTwoPages.ImageIndex = 1;
@@ -355,7 +351,7 @@ namespace Customizing_the_Viewer
             // 
             // tbOnePage
             // 
-            this.tbOnePage.Draw3DButton = false;
+            this.tbOnePage.AutoWidth = true;
             this.tbOnePage.HotDragDrop = false;
             this.tbOnePage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbOnePage.ImageIndex = 0;
