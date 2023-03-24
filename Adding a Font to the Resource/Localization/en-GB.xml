@@ -399,6 +399,7 @@
     <DashboardWindowTitleNew>New Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Delete File</DeleteFile>
     <DoNotAskMe>Do not ask me again</DoNotAskMe>
+    <EnterUserNameToLogin>Enter User Name (email) to log in.</EnterUserNameToLogin>
     <ExecutionError>Execution error</ExecutionError>
     <ExpiredDate>Expired Date</ExpiredDate>
     <FileStorageWindowTitleEdit>Edit File Storage</FileStorageWindowTitleEdit>
@@ -477,6 +478,7 @@
     <RequestChangesWhenSavingToCloud>Request Changes when Saving to Cloud</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>Add Role</RibbonButtonAddRole>
     <RibbonButtonAddUser>Add User</RibbonButtonAddUser>
+    <RibbonButtonAddUserParameter>Add User Parameter</RibbonButtonAddUserParameter>
     <RibbonButtonAddWorkspace>Add Workspace</RibbonButtonAddWorkspace>
     <RibbonButtonFolder>Folder</RibbonButtonFolder>
     <RibbonTabUsers>Users</RibbonTabUsers>
@@ -567,6 +569,8 @@
     <WindowTitleSignUp>Sign Up</WindowTitleSignUp>
     <WindowTitleUserEdit>Edit User</WindowTitleUserEdit>
     <WindowTitleUserNew>New User</WindowTitleUserNew>
+    <WindowTitleUserParameterEdit>Edit User Parameter</WindowTitleUserParameterEdit>
+    <WindowTitleUserParameterNew>New User Parameter</WindowTitleUserParameterNew>
     <WindowTitleWorkspaceEdit>Edit Workspace</WindowTitleWorkspaceEdit>
     <WindowTitleWorkspaceNew>New Workspace</WindowTitleWorkspaceNew>
     <WizardBlankReportDescription>Create a blank report</WizardBlankReportDescription>
@@ -626,6 +630,8 @@
     <StiListBox>List Box</StiListBox>
     <StiMap>Map</StiMap>
     <StiMathFormula>Math Formula</StiMathFormula>
+    <StiMultipleSelection>Multiple Selection</StiMultipleSelection>
+    <StiNumberBox>Number Box</StiNumberBox>
     <StiOnlineMap>Online Map</StiOnlineMap>
     <StiOverlayBand>Overlay</StiOverlayBand>
     <StiPage>Page</StiPage>
@@ -648,6 +654,7 @@
     <StiScreen>Screen</StiScreen>
     <StiShape>Shape</StiShape>
     <StiSignature>Signature</StiSignature>
+    <StiSingleSelection>Single Selection</StiSingleSelection>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-Report</StiSubReport>
     <StiSystemText>System Text</StiSystemText>
@@ -1098,6 +1105,7 @@
     <BitmapFiles>Bitmap Files</BitmapFiles>
     <BmpFiles>BMP Images (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>OpenDocument Calc Files (*.ods)|*.ods</CalcFiles>
+    <ConditionsFiles>Stimulsoft Conditions (*.stc)|*.stc</ConditionsFiles>
     <CsvFiles>CSV Files (*.csv)|*.csv</CsvFiles>
     <DataSetXmlData>DataSet XML Data (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XML Schema (*.xsd)|*.xsd</DataSetXmlSchema>
@@ -1156,18 +1164,19 @@
     <custom04>F</custom04>
     <custom05>yy/MM/dd</custom05>
     <custom06>yyyy/MM/dd</custom06>
-    <custom07>G</custom07>
-    <custom08>$0.00</custom08>
-    <custom09>$0</custom09>
-    <custom10>c</custom10>
-    <custom11>c1</custom11>
-    <custom12>c2</custom12>
-    <custom13>#.00</custom13>
-    <custom14>#.#</custom14>
-    <custom15>n</custom15>
-    <custom16>n1</custom16>
-    <custom17>n2</custom17>
-    <custom18>(###) ### - ####</custom18>
+    <custom07>[green]+0.00;[red]-0.00;[blue](0)</custom07>
+    <custom08>G</custom08>
+    <custom09>$0.00</custom09>
+    <custom10>$0</custom10>
+    <custom11>c</custom11>
+    <custom12>c1</custom12>
+    <custom13>c2</custom13>
+    <custom14>#.00</custom14>
+    <custom15>#.#</custom15>
+    <custom16>n</custom16>
+    <custom17>n1</custom17>
+    <custom18>n2</custom18>
+    <custom19>(###) ### - ####</custom19>
     <date01>*d</date01>
     <date02>*D</date02>
     <date03>M.dd</date03>
@@ -1779,6 +1788,7 @@
     <TickCustomValue>Tick Custom Value</TickCustomValue>
   </Gauge>
   <Gui>
+    <AccentColor>Accent Color</AccentColor>
     <barname_cancel>Cancel</barname_cancel>
     <barname_caption>New Toolbar</barname_caption>
     <barname_msginvalidname>Toolbar name cannot be empty.</barname_msginvalidname>
@@ -1890,6 +1900,7 @@
     <StiCrossTab>The cross-tab component is used for the structured data representation as a table.</StiCrossTab>
     <StiDataBand>The Data band is connected to the data source and is output as many times as there are rows in the data source.</StiDataBand>
     <StiDatePickerElement>The element is used to select the date and time.</StiDatePickerElement>
+    <StiElectronicSignature>This component is used to add a graphic signature, image, initials, and text.</StiElectronicSignature>
     <StiEmptyBand>This band is used to fill free space on the bottom of a page. This band fills free space on each page of a report.</StiEmptyBand>
     <StiFilterCategory>A group of elements used for selecting and filtering values.</StiFilterCategory>
     <StiFooterBand>This band is used to output summary by the Data band. It is placed under the Data band and is output once after all data rows which Data band outputs.</StiFooterBand>
@@ -1914,6 +1925,7 @@
     <StiPageHeaderBand>This band is used to output the page header such as page numbers, dates, and other additional information. It is output on the top of each page.</StiPageHeaderBand>
     <StiPanel>A rectangular region that can contain other components, including bands. When the panel is moved the components in it are moved too. A panel can be placed either on a band or on a page.</StiPanel>
     <StiPanelElement>A rectangular region that can contain other elements. When the panel is moved the elements in it are moved too.</StiPanelElement>
+    <StiPdfDigitalSignature>This component is used to specify a place for the digital signature after the report has been exported to Adobe PDF.</StiPdfDigitalSignature>
     <StiPivotTableElement>The pivot table element is used for the structured data representation as a table.</StiPivotTableElement>
     <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, doughnut, bars.</StiProgressElement>
     <StiRectanglePrimitive>This component is used to output rectangles.</StiRectanglePrimitive>
@@ -2372,19 +2384,26 @@
   <Notices>
     <AccessDenied>Access Denied!</AccessDenied>
     <AccountLocked>Your account is locked! In order to resolve it, please send your request to sales@stimulsoft.com!</AccountLocked>
+    <ActivationContact1>Please contact our sales department at </ActivationContact1>
+    <ActivationContact2> to resolve this.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Server was released!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>The license file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Your account is locked.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxActivationsReached1>You can manage the registered computers from your </ActivationMaxActivationsReached1>
+    <ActivationMaxActivationsReached2>Stimulsoft Account.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>You’ve already registered the maximum number of computers available for your subscription.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
     <ActivationTrialExpired>You can continue to use Stimulsoft Designer by purchasing the software.</ActivationTrialExpired>
+    <ActivationTrialExtend1>If you are interested in extending your trial, please </ActivationTrialExtend1>
+    <ActivationTrialExtend2>tell us why.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Server!</ActivationWrongAccountType>
     <Alert>Alert</Alert>
+    <AuthAccountAlreadyExists>The account with this User Name (email) already exists. To associate it with your {0} account, please use your Stimulsoft account password.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>The account cannot be used now!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>The account is not activated yet! Please follow the instructions sent to the Email during registration.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>The user role cannot be changed because this is the last administrator user in this workspace!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2417,6 +2436,7 @@
     <AuthWorkspaceNameAlreadyInUse>The workspace name is already in use!</AuthWorkspaceNameAlreadyInUse>
     <CommandTimeOut>Waiting time of processing the command is elapsed!</CommandTimeOut>
     <Congratulations>Congratulations!</Congratulations>
+    <DeveloperInformation>Developer Information</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>The end date should be greater than start date!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Execution error</ExecutionError>
@@ -2439,12 +2459,15 @@
     <NewDesignerAvailable>Stimulsoft Designer {0} is available.</NewDesignerAvailable>
     <NewProduct>A new product is added to your subscription!</NewProduct>
     <NewVersionsAvailable>New version</NewVersionsAvailable>
+    <NotificationConnectPackage>Connect the "{0}" package for the correct work.</NotificationConnectPackage>
     <NotificationFailed>Failed result!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>Failed to add the following files. Exceeded the size {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>The files uploaded successfully.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>The file "{0}" is uploading.</NotificationFileUploading>
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
+    <NotificationItemExtraComponentRequired>Extra component required</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
     <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>The items are transferring.</NotificationItemTransfer>
@@ -2454,6 +2477,7 @@
     <NotificationMailingComplete>The mailing "{0}" is complete.</NotificationMailingComplete>
     <NotificationMailingWaitingProcessing>The mailing "{0}" is waiting processing.</NotificationMailingWaitingProcessing>
     <NotificationOperationAborted>Operation aborted!</NotificationOperationAborted>
+    <NotificationPackageRequiredToDisplay>To display this content, please download the "{0}" package from NuGet.</NotificationPackageRequiredToDisplay>
     <NotificationRecycleBinCleaning>The Recycle Bin is cleaning.</NotificationRecycleBinCleaning>
     <NotificationRecycleBinCleaningComplete>The Recycle Bin is cleaned successfully.</NotificationRecycleBinCleaningComplete>
     <NotificationRecycleBinWaitingProcessing>The Recycle Bin cleaning is waiting processing.</NotificationRecycleBinWaitingProcessing>
@@ -2462,6 +2486,7 @@
     <NotificationReportRendering>The report "{0}" is rendering</NotificationReportRendering>
     <NotificationReportRenderingComplete>The report "{0}" is rendered.</NotificationReportRenderingComplete>
     <NotificationReportWaitingProcessing>The report "{0}" is waiting processing.</NotificationReportWaitingProcessing>
+    <NotificationReturnToDesigner>Return to the Stimulsoft Designer to continue.</NotificationReturnToDesigner>
     <NotificationSchedulerRunning>The scheduler "{0}" is running.</NotificationSchedulerRunning>
     <NotificationSchedulerRunningComplete>The scheduler "{0}" running complete.</NotificationSchedulerRunningComplete>
     <NotificationSchedulerWaitingProcessing>The scheduler "{0}" is waiting processing.</NotificationSchedulerWaitingProcessing>
@@ -2494,7 +2519,9 @@
     <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Your subscription has expired!</SubscriptionExpired>
     <SubscriptionExpiredDate>Your subscription will expire on {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredDays>Expires in {0} days</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Your subscription has expired. Update your subscription to get the last version.</SubscriptionExpiredExt>
+    <SubscriptionExpiredShort>Subscription expired</SubscriptionExpiredShort>
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -2954,6 +2981,10 @@
     <StiBrushTypeGradient45>Gradient Brush, Angle 45</StiBrushTypeGradient45>
     <StiBrushTypeGradient90>Gradient Brush, Angle 90</StiBrushTypeGradient90>
     <StiBrushTypeSolid>Solid Brush</StiBrushTypeSolid>
+    <StiButtonSendTypeFDF>FDF</StiButtonSendTypeFDF>
+    <StiButtonSendTypeHTML>HTML</StiButtonSendTypeHTML>
+    <StiButtonSendTypePDF>PDF</StiButtonSendTypePDF>
+    <StiButtonSendTypeXFDF>XFDF</StiButtonSendTypeXFDF>
     <StiCalculationModeCompilation>Compilation</StiCalculationModeCompilation>
     <StiCalculationModeInterpretation>Interpretation</StiCalculationModeInterpretation>
     <StiCapStyleArrow>Arrow</StiCapStyleArrow>
@@ -3060,6 +3091,7 @@
     <StiFilterConditionContaining>containing</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>ending with</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>equal to</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>equal to variable or variable is null</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>greater than</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>greater than or equal to</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>is blank</StiFilterConditionIsBlank>
@@ -3177,6 +3209,9 @@
     <StiLegendVertAlignmentCenter>Centre</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Top</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Top Outside</StiLegendVertAlignmentTopOutside>
+    <StiLineWeightNormal>Normal</StiLineWeightNormal>
+    <StiLineWeightThick>Thick</StiLineWeightThick>
+    <StiLineWeightThin>Thin</StiLineWeightThin>
     <StiMapIDAustralia>Australia</StiMapIDAustralia>
     <StiMapIDAustria>Austria</StiMapIDAustria>
     <StiMapIDBrazil>Brazil</StiMapIDBrazil>
@@ -3318,6 +3353,7 @@
     <StiReportUnitTypeInches>Inches</StiReportUnitTypeInches>
     <StiReportUnitTypeMillimeters>Millimetres</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Pixels</StiReportUnitTypePixels>
+    <StiReportUnitTypePoints>Points</StiReportUnitTypePoints>
     <StiRestrictionsAll>All</StiRestrictionsAll>
     <StiRestrictionsAllowChange>Allow Change</StiRestrictionsAllowChange>
     <StiRestrictionsAllowDelete>Allow Delete</StiRestrictionsAllowDelete>
@@ -3417,6 +3453,10 @@
     <StiTextSizeModeFit>Fit</StiTextSizeModeFit>
     <StiTextSizeModeTrimming>Trimming</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>WordWrap</StiTextSizeModeWordWrap>
+    <StiThemeAppearanceAuto>Auto</StiThemeAppearanceAuto>
+    <StiThemeAppearanceDark>Dark</StiThemeAppearanceDark>
+    <StiThemeAppearanceLight>Light</StiThemeAppearanceLight>
+    <StiThemeAppearanceLightGray>Light Gray</StiThemeAppearanceLightGray>
     <StiTimeDateStepDay>Day</StiTimeDateStepDay>
     <StiTimeDateStepHour>Hour</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Minute</StiTimeDateStepMinute>
@@ -3433,6 +3473,12 @@
     <StiTypeModeNullableValue>Nullable Value</StiTypeModeNullableValue>
     <StiTypeModeRange>Range</StiTypeModeRange>
     <StiTypeModeValue>Value</StiTypeModeValue>
+    <StiUnitAlignmentPrefix>Prefix</StiUnitAlignmentPrefix>
+    <StiUnitAlignmentPrefixInside>Prefix Inside</StiUnitAlignmentPrefixInside>
+    <StiUnitAlignmentPrefixInsideWithSpace>Prefix Inside with Space</StiUnitAlignmentPrefixInsideWithSpace>
+    <StiUnitAlignmentSuffix>Suffix</StiUnitAlignmentSuffix>
+    <StiUnitAlignmentSuffixInside>Suffix Inside</StiUnitAlignmentSuffixInside>
+    <StiUnitAlignmentSuffixInsideWithSpace>Suffix Inside with Space</StiUnitAlignmentSuffixInsideWithSpace>
     <StiVertAlignmentBottom>Bottom</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>Centre</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Top</StiVertAlignmentTop>
@@ -3515,6 +3561,7 @@
     <PrintingEvent>Printing</PrintingEvent>
     <ProcessCellEvent>Process Cell</ProcessCellEvent>
     <ProcessChartEvent>Process Chart</ProcessChartEvent>
+    <RefreshingEvent>Refreshing</RefreshingEvent>
     <RenderingEvent>Rendering</RenderingEvent>
     <ReportCacheProcessingEvent>Report Cache Processing</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Selected Index Changed</SelectedIndexChangedEvent>
@@ -3596,6 +3643,7 @@
     <AllowApplyStyle>Allow Apply Style</AllowApplyStyle>
     <AllowExpressions>Allow Expressions</AllowExpressions>
     <AllowHtmlTags>Allow HTML Tags</AllowHtmlTags>
+    <AllowNull>Allow Null</AllowNull>
     <AllowSeries>Allow Series</AllowSeries>
     <AllowSeriesElements>Allow Series Elements</AllowSeriesElements>
     <AllowSorting>Allow Sorting</AllowSorting>
@@ -3625,6 +3673,7 @@
     <Anchor>Anchor</Anchor>
     <Angle>Angle</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
+    <Apply>Apply</Apply>
     <Area>Area</Area>
     <Argument>Argument</Argument>
     <ArgumentDataColumn>Argument Data Column</ArgumentDataColumn>
@@ -3684,6 +3733,7 @@
     <BrushType>Brush Type</BrushType>
     <BubbleBackColor>Bubble Back Colour</BubbleBackColor>
     <BubbleBorderColor>Bubble Border Colour</BubbleBorderColor>
+    <BubbleScale>Bubble Scale</BubbleScale>
     <BusinessObject>Business Object</BusinessObject>
     <CacheAllData>Cache All Data</CacheAllData>
     <CacheTotals>Cache Totals</CacheTotals>
@@ -3697,6 +3747,7 @@
     <Categories>Categories</Categories>
     <Category>Category</Category>
     <CategoryConnections>Connections</CategoryConnections>
+    <CellAlignment>Cell Alignment</CellAlignment>
     <CellBackColor>Cell Back Colour</CellBackColor>
     <CellDockStyle>Cell Dock Style</CellDockStyle>
     <CellForeColor>Cell Fore Colour</CellForeColor>
@@ -3706,6 +3757,7 @@
     <Center>Centre</Center>
     <CenterPoint>Centre Point</CenterPoint>
     <ChartAreaBorderColor>Border Colour</ChartAreaBorderColor>
+    <ChartAreaBorderThickness>Chart Area Border Thickness</ChartAreaBorderThickness>
     <ChartAreaBrush>Area Brush</ChartAreaBrush>
     <ChartAreaShowShadow>Show Shadow</ChartAreaShowShadow>
     <ChartType>Chart Type</ChartType>
@@ -3724,6 +3776,7 @@
     <Child>Child</Child>
     <ChildColumns>Child Columns</ChildColumns>
     <ChildSource>Child Data Source</ChildSource>
+    <City>City</City>
     <ClearFormat>Clear Format</ClearFormat>
     <CloneContainer>Clone Container</CloneContainer>
     <CloseValues>Close Values</CloseValues>
@@ -3770,6 +3823,7 @@
     <CornerRadius>Corner Radius</CornerRadius>
     <Count>Count</Count>
     <CountData>Count Data</CountData>
+    <Country>Country</Country>
     <Create>Create</Create>
     <CreateFieldOnDoubleClick>Create Field on Double Click</CreateFieldOnDoubleClick>
     <CreateLabel>Create Label</CreateLabel>
@@ -3804,6 +3858,7 @@
     <DefaultColor>Default Colour</DefaultColor>
     <DefaultHeightCell>Default Height of Cell</DefaultHeightCell>
     <DefaultNamespace>Default Namespace</DefaultNamespace>
+    <DefaultSettings>Default Settings</DefaultSettings>
     <DependentColumn>Dependent Column</DependentColumn>
     <DependentValue>Dependent Value</DependentValue>
     <Description>Description</Description>
@@ -3876,6 +3931,7 @@
     <FaqPage>FAQ Page</FaqPage>
     <Field>Field</Field>
     <FieldIs>Field Is</FieldIs>
+    <Fifth>Fifth</Fifth>
     <File>File</File>
     <Fill>Fill</Fill>
     <FillColor>Fill Colour</FillColor>
@@ -3885,6 +3941,7 @@
     <FilterMode>Filter Mode</FilterMode>
     <FilterOn>Filter On</FilterOn>
     <Filters>Filters</Filters>
+    <First>First</First>
     <FirstTabOffset>First Tab Offset</FirstTabOffset>
     <FixedWidth>Fixed Width</FixedWidth>
     <Flat>Flat</Flat>
@@ -3917,6 +3974,8 @@
     <Footers>Footers</Footers>
     <ForeColor>Fore Colour</ForeColor>
     <Format>Format</Format>
+    <FormSettings>Form Settings</FormSettings>
+    <Fourth>Fourth</Fourth>
     <From>From</From>
     <FrozenColumns>Frozen Columns</FrozenColumns>
     <FullConvertExpression>Full Convert Expression</FullConvertExpression>
@@ -3928,6 +3987,7 @@
     <GlobalizedName>Globalized Name</GlobalizedName>
     <GlyphColor>Glyph Colour</GlyphColor>
     <GridColor>Grid Colour</GridColor>
+    <GridColumns>Grid Columns</GridColumns>
     <GridLineColor>Grid Line Colour</GridLineColor>
     <GridLinesHor>Grid Lines Horizontal</GridLinesHor>
     <GridLinesHorColor>Grid Lines Horizontal Colour</GridLinesHorColor>
@@ -3936,6 +3996,7 @@
     <GridLinesVert>Grid Lines Vertical</GridLinesVert>
     <GridLinesVertColor>Grid Lines Vertical Colour</GridLinesVertColor>
     <GridOutline>Grid Outline</GridOutline>
+    <GridVerticalStep>Grid Vertical Step</GridVerticalStep>
     <Group>Group</Group>
     <GroupDataColumn>Group Data Column</GroupDataColumn>
     <GroupMeter>Group</GroupMeter>
@@ -3995,10 +4056,13 @@
     <Image>Image</Image>
     <ImageAlign>Image Align</ImageAlign>
     <ImageAlignment>Image Alignment</ImageAlignment>
+    <ImageAspectRatio>Image Aspect Ratio</ImageAspectRatio>
     <ImageData>Image Data</ImageData>
+    <ImageEnabled>Image Enabled</ImageEnabled>
     <ImageHorAlignment>Image Horizontal Alignment</ImageHorAlignment>
     <ImageMultipleFactor>Image Multiple Factor</ImageMultipleFactor>
     <ImageRotation>Image Rotation</ImageRotation>
+    <ImageShowBehind>Image Show Behind</ImageShowBehind>
     <ImageStretch>Image Stretch</ImageStretch>
     <ImageTiling>Image Tiling</ImageTiling>
     <ImageTransparency>Image Transparency</ImageTransparency>
@@ -4007,11 +4071,14 @@
     <ImportRelations>Import Relations</ImportRelations>
     <Increment>Increment</Increment>
     <Indent>Indent</Indent>
+    <Indicator>Indicator</Indicator>
+    <IndicatorValue>Indicator Value</IndicatorValue>
     <IndividualColor>Individual Colour</IndividualColor>
     <InitBy>Init by</InitBy>
     <Initials>Initials</Initials>
     <InitialSelection>Initial Selection</InitialSelection>
     <InitialSelectionSource>Initial Selection Source</InitialSelectionSource>
+    <InnerText>Inner Text</InnerText>
     <Insert>Insert</Insert>
     <Interaction>Interaction</Interaction>
     <InterlacedBrush>Interlaced Brush</InterlacedBrush>
@@ -4104,8 +4171,16 @@
     <Low>Low</Low>
     <LowValues>Low Values</LowValues>
     <MajorInterval>Major Interval</MajorInterval>
+    <MapAfrica>Africa</MapAfrica>
+    <MapAsia>Asia</MapAsia>
+    <MapCustom>Custom</MapCustom>
+    <MapEurope>Europe</MapEurope>
     <MapID>Map ID</MapID>
+    <MapNorthAmerica>North America</MapNorthAmerica>
+    <MapOceania>Oceania</MapOceania>
+    <MapPopularMaps>Popular maps</MapPopularMaps>
     <Maps>Maps</Maps>
+    <MapSouthAmerica>South America</MapSouthAmerica>
     <MapStyle>Style</MapStyle>
     <MapType>Map Type</MapType>
     <Margin>Margin</Margin>
@@ -4199,6 +4274,7 @@
     <Options3D>Options 3D</Options3D>
     <Orientation>Orientation</Orientation>
     <OthersText>Others Text</OthersText>
+    <OverlappedColor>Overlapped Colour</OverlappedColor>
     <Padding>Padding</Padding>
     <PageHeight>Page Height</PageHeight>
     <PageNumbers>Page Numbers</PageNumbers>
@@ -4221,6 +4297,7 @@
     <PathData>Path Data</PathData>
     <PathSchema>Path Schema</PathSchema>
     <Pattern>Pattern</Pattern>
+    <PDFPreview>PDF Preview</PDFPreview>
     <Placeholder>Placeholder</Placeholder>
     <Placement>Placement</Placement>
     <PlaceOnToolbox>Place on Toolbox</PlaceOnToolbox>
@@ -4294,6 +4371,7 @@
     <ReportUnit>Report Unit</ReportUnit>
     <RequestFromUser>Request from User</RequestFromUser>
     <RequestParameters>Request Parameters</RequestParameters>
+    <Required>Required</Required>
     <ResetAllFilters>Reset All Filters</ResetAllFilters>
     <ResetDataSource>Reset Data Source</ResetDataSource>
     <ResetPageNumber>Reset Page Number</ResetPageNumber>
@@ -4322,6 +4400,8 @@
     <Scale>Scale</Scale>
     <ScaleHor>Scale Hor</ScaleHor>
     <ScriptLanguage>Script Language</ScriptLanguage>
+    <ScrollTime>Scroll Time</ScrollTime>
+    <Second>Second</Second>
     <SegmentPerHeight>Segment per Height</SegmentPerHeight>
     <SegmentPerWidth>Segment per Width</SegmentPerWidth>
     <SelectedBackColor>Selected Back Colour</SelectedBackColor>
@@ -4340,10 +4420,13 @@
     <SelectionEnabled>Selection Enabled</SelectionEnabled>
     <SelectionForeColor>Selection Fore Colour</SelectionForeColor>
     <SelectionMode>Selection Mode</SelectionMode>
+    <SelectionType>Selection Type</SelectionType>
     <SelectStyle>Select Style</SelectStyle>
+    <SendType>Send Type</SendType>
     <SeparatorColor>Separator Colour</SeparatorColor>
     <SerialNumber>Serial Number</SerialNumber>
     <Series>Series</Series>
+    <SeriesBorderColor>Series Border Colour</SeriesBorderColor>
     <SeriesBorderThickness>Series Border Thickness</SeriesBorderThickness>
     <SeriesColors>Series Colours</SeriesColors>
     <SeriesCornerRadius>Series Corner Radius</SeriesCornerRadius>
@@ -4421,6 +4504,7 @@
     <Sorted>Sorted</Sorted>
     <SortingColumn>Sorting Column</SortingColumn>
     <SortingEnabled>Sorting Enabled</SortingEnabled>
+    <SortLetters>A-Z</SortLetters>
     <SortType>Sort Type</SortType>
     <Space>Space</Space>
     <SpaceRatio>Space Ratio</SpaceRatio>
@@ -4436,11 +4520,13 @@
     <StartPosition>Start Position</StartPosition>
     <StartValue>Start Value</StartValue>
     <StartWidth>Start Width</StartWidth>
+    <State>State</State>
     <Step>Step</Step>
     <Stop>Stop</Stop>
     <StopBeforePage>Stop Before Page</StopBeforePage>
     <StopBeforePrint>Stop Before Print</StopBeforePrint>
     <StoreImagesInResources>Store Images in Resources</StoreImagesInResources>
+    <StreetAddress>Street Address</StreetAddress>
     <Stretch>Stretch</Stretch>
     <StretchToPrintArea>Stretch to Print Area</StretchToPrintArea>
     <Strikeout>Strikeout</Strikeout>
@@ -4452,6 +4538,7 @@
     <Style>Style</Style>
     <StyleColors>Style Colours</StyleColors>
     <Styles>Styles</Styles>
+    <SubmissionMessage>Submission Message</SubmissionMessage>
     <SubReportPage>Sub Report Page</SubReportPage>
     <Summaries>Summaries</Summaries>
     <Summary>Summary</Summary>
@@ -4480,13 +4567,19 @@
     <TextAfter>Text After</TextAfter>
     <TextAlign>Text Align</TextAlign>
     <TextAlignment>Text Alignment</TextAlignment>
+    <TextAngle>Text Angle</TextAngle>
     <TextBefore>Text Before</TextBefore>
     <TextBrush>Text Brush</TextBrush>
     <TextColor>Text Colour</TextColor>
+    <TextEnabled>Text Enabled</TextEnabled>
+    <TextFont>Text Font</TextFont>
     <TextFormat>Text Format</TextFormat>
     <TextOnly>Text Only</TextOnly>
     <TextOptions>Text Options</TextOptions>
     <TextQuality>Text Quality</TextQuality>
+    <TextRightToLeft>Text Right to Left</TextRightToLeft>
+    <TextShowBehind>Text Show Behind</TextShowBehind>
+    <Third>Third</Third>
     <TickLabelMajorFont>Tick Label Major Font</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Tick Label Major Text Brush</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Tick Label Minor Font</TickLabelMinorFont>
@@ -4541,10 +4634,12 @@
     <Underline>Underline</Underline>
     <UndoLimit>Undo Limit</UndoLimit>
     <Unit>Unit</Unit>
+    <UnitAlignment>Unit Alignment</UnitAlignment>
     <UnlimitedBreakable>Unlimited Breakable</UnlimitedBreakable>
     <UnlimitedHeight>Unlimited Height</UnlimitedHeight>
     <UnlimitedWidth>Unlimited Width</UnlimitedWidth>
     <UpperMarks>Upper Marks</UpperMarks>
+    <URL>URL</URL>
     <UseAliases>Use Aliases</UseAliases>
     <UseExternalReport>Use External Report</UseExternalReport>
     <UseParentStyles>Use Parent Styles</UseParentStyles>
@@ -4553,6 +4648,7 @@
     <UseSeriesColor>Use Series Colour</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Use Style of Summary in Column Total</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Use Style of Summary in Row Total</UseStyleOfSummaryInRowTotal>
+    <UseUserPicture>Use User Picture</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Use Values From The Specified Range</UseValuesFromTheSpecifiedRange>
     <Value>Value</Value>
     <ValueClose>Value Close</ValueClose>
@@ -4578,9 +4674,20 @@
     <VertAlignment>Vertical Alignment</VertAlignment>
     <VertSpacing>Vertical Spacing</VertSpacing>
     <ViewMode>View Mode</ViewMode>
+    <Visibility>Visibility</Visibility>
     <Visible>Visible</Visible>
     <VisualStates>Visual States</VisualStates>
     <Watermark>Watermark</Watermark>
+    <WatermarkStyle>Watermark Style</WatermarkStyle>
+    <WeaveAngle>Weave Angle</WeaveAngle>
+    <WeaveDistance>Weave Distance</WeaveDistance>
+    <WeaveEnabled>Weave Enabled</WeaveEnabled>
+    <WeaveMajorColor>Weave Major Colour</WeaveMajorColor>
+    <WeaveMajorIcon>Weave Major Icon</WeaveMajorIcon>
+    <WeaveMajorSize>Weave Major Size</WeaveMajorSize>
+    <WeaveMinorColor>Weave Minor Colour</WeaveMinorColor>
+    <WeaveMinorIcon>Weave Minor Icon</WeaveMinorIcon>
+    <WeaveMinorSize>Weave Minor Size</WeaveMinorSize>
     <Weight>Weight</Weight>
     <WeightDataColumn>Weight Data Column</WeightDataColumn>
     <Weights>Weights</Weights>

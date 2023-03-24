@@ -399,6 +399,7 @@
     <DashboardWindowTitleNew>داشبۆردنی نوێ</DashboardWindowTitleNew>
     <DeleteFile>سڕینەوەی فایل</DeleteFile>
     <DoNotAskMe>دوبارە داوام لێمەکەرەوە</DoNotAskMe>
+    <EnterUserNameToLogin>ناوی بەکارهێنەر یان نامەی ئەلیکترۆنی بەکاربهێنە بۆ چونەژوورەوە:</EnterUserNameToLogin>
     <ExecutionError>هەڵەی جێبەجێکردن</ExecutionError>
     <ExpiredDate>بەرواری بەسەرچوو</ExpiredDate>
     <FileStorageWindowTitleEdit>گۆڕینی فایل </FileStorageWindowTitleEdit>
@@ -477,6 +478,7 @@
     <RequestChangesWhenSavingToCloud>داوای گۆڕانکاری بکە لەکاتی هەڵگرتنی لە Stimulsoft Cloud</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>زیادکردنی ڕۆڵ</RibbonButtonAddRole>
     <RibbonButtonAddUser>زیادکردنی بەکارهێنەر</RibbonButtonAddUser>
+    <RibbonButtonAddUserParameter>زیادکردنی پارامیتەری بەکارهێنەر</RibbonButtonAddUserParameter>
     <RibbonButtonAddWorkspace>زیادکردنی شوێنی کارکردن</RibbonButtonAddWorkspace>
     <RibbonButtonFolder>فۆڵدەر</RibbonButtonFolder>
     <RibbonTabUsers>بەکارهێنەران</RibbonTabUsers>
@@ -567,6 +569,8 @@
     <WindowTitleSignUp>خۆتۆمارکردن</WindowTitleSignUp>
     <WindowTitleUserEdit>گۆڕانکاری بەکارهێنەر</WindowTitleUserEdit>
     <WindowTitleUserNew>بەکارهێنەری نوێ</WindowTitleUserNew>
+    <WindowTitleUserParameterEdit>گۆڕانکاری لە پارامیتەری بەکارهێنەر</WindowTitleUserParameterEdit>
+    <WindowTitleUserParameterNew>پارامیتەری بەکارهێنەری نوێ</WindowTitleUserParameterNew>
     <WindowTitleWorkspaceEdit>گۆڕانکاری لە Workspace</WindowTitleWorkspaceEdit>
     <WindowTitleWorkspaceNew>Workspace نوێ</WindowTitleWorkspaceNew>
     <WizardBlankReportDescription>دروستکردنی راپۆرتێکی بەتاڵ</WizardBlankReportDescription>
@@ -626,6 +630,8 @@
     <StiListBox>سندوقی لیست</StiListBox>
     <StiMap>نەخشە</StiMap>
     <StiMathFormula>هاوکێشەی بیرکاری</StiMathFormula>
+    <StiMultipleSelection>هەڵبژاردنی هەمەجۆر</StiMultipleSelection>
+    <StiNumberBox>سندوقی ژمارە</StiNumberBox>
     <StiOnlineMap>نەخشەی سەرهێڵ</StiOnlineMap>
     <StiOverlayBand>بەسەریەک خستن</StiOverlayBand>
     <StiPage>لاپەڕە</StiPage>
@@ -648,6 +654,7 @@
     <StiScreen>شاشە</StiScreen>
     <StiShape>شێوە</StiShape>
     <StiSignature>ئیمزا</StiSignature>
+    <StiSingleSelection>هەڵبژاردنی یەکدانەی</StiSingleSelection>
     <StiSparkline>هێڵی درەوشانەوە</StiSparkline>
     <StiSubReport>ڕاپۆرتی لاوەکی</StiSubReport>
     <StiSystemText>دەقی سیستەم</StiSystemText>
@@ -1098,6 +1105,7 @@
     <BitmapFiles>Bitmap Files</BitmapFiles>
     <BmpFiles>BMP Images (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>OpenDocument Calc Files (*.ods)|*.ods</CalcFiles>
+    <ConditionsFiles> ئەگەرەکانی Stimulsoft (*.stc)|*.stc</ConditionsFiles>
     <CsvFiles>CSV Files (*.csv)|*.csv</CsvFiles>
     <DataSetXmlData>DataSet XML Data (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XML Schema (*.xsd)|*.xsd</DataSetXmlSchema>
@@ -1156,18 +1164,19 @@
     <custom04>F</custom04>
     <custom05>yy/MM/dd</custom05>
     <custom06>yyyy/MM/dd</custom06>
-    <custom07>G</custom07>
-    <custom08>$0.00</custom08>
-    <custom09>$0</custom09>
-    <custom10>c</custom10>
-    <custom11>c1</custom11>
-    <custom12>c2</custom12>
-    <custom13>#.00</custom13>
-    <custom14>#.#</custom14>
-    <custom15>n</custom15>
-    <custom16>n1</custom16>
-    <custom17>n2</custom17>
-    <custom18>(###) ### - ####</custom18>
+    <custom07>[green]+0.00;[red]-0.00;[blue](0)</custom07>
+    <custom08>G</custom08>
+    <custom09>$0.00</custom09>
+    <custom10>$0</custom10>
+    <custom11>c</custom11>
+    <custom12>c1</custom12>
+    <custom13>c2</custom13>
+    <custom14>#.00</custom14>
+    <custom15>#.#</custom15>
+    <custom16>n</custom16>
+    <custom17>n1</custom17>
+    <custom18>n2</custom18>
+    <custom19>(###) ### - ####</custom19>
     <date01>*d</date01>
     <date02>*D</date02>
     <date03>M.dd</date03>
@@ -1779,6 +1788,7 @@
     <TickCustomValue>بەکای تایبەتی Tick</TickCustomValue>
   </Gauge>
   <Gui>
+    <AccentColor>ڕەنگی شێوە</AccentColor>
     <barname_cancel>هەڵوەشاندنەوه</barname_cancel>
     <barname_caption>تووڵباری نوێ</barname_caption>
     <barname_msginvalidname>ناوی تووڵبار نابێت بەتاڵبێت.</barname_msginvalidname>
@@ -1890,6 +1900,7 @@
     <StiCrossTab>پێکهاتەی خشتە-تاب بەکاردێت بۆ پێکهاتەی نوێنەرایەتی داتا وەک خشتە.</StiCrossTab>
     <StiDataBand>باندی داتا پەیوەندی هەیە بە سەرچاوەی داتاوە هەر ڕیزێک پیشاندەدرێت لەسەر ئەساسی چەند ڕیز لە سەرچاوەی داتاکەوە بوونی هەیە.</StiDataBand>
     <StiDatePickerElement>توخمەکە بەکاردێت بۆ دیاریکردنی بەروار و کات.</StiDatePickerElement>
+    <StiElectronicSignature>ئەم پێکهاتەیە بەکاردێت بۆ زیادکردنی ئیمزای گرافیکی، وێنە، سەرەتاکان، و دەق.</StiElectronicSignature>
     <StiEmptyBand>ئەم باندە بەکاردێت بۆ پڕکردنەوەی بۆشایی ئازاد لە خوارەوەی لاپەڕە. ئەم باندە بۆشایی خۆڕایی پڕ دەکاتەوە لە هەر لاپەڕەیەکی ڕاپۆرتەکە.</StiEmptyBand>
     <StiFilterCategory>کۆمەڵێک لە توخمەکان بەکاردێت بۆ هەڵبژاردن و فلتەرکردنی بەهاکان.</StiFilterCategory>
     <StiFooterBand>ئەم باندە بەکاردێت بۆ دەرهێنانی پوختە لەلایەن باندی داتا. لە ژێر باندەکەی داتادا دانراوە و یەک جار پاش هەموو ریزەکانی داتا کە باندەکەی داتا.</StiFooterBand>
@@ -1914,6 +1925,7 @@
     <StiPageHeaderBand>ئەم باندە بەکاردێت بۆ دەرچوونی سەرپەڕەی لاپەڕە وەک ژمارەی لاپەڕەکان, بەروارەکان, و زانیاری زیاتر. لە سەرەوەی هەر پەڕەیەک دەرچووە.</StiPageHeaderBand>
     <StiPanel>ناوچەیەکی لاکێشەیی کە دەتوانێت پێکهێنەرەکانی تر بگرێتەوە، بە باندەکانیشەوە. کاتێک پانێڵەکە دەگوێزرێتەوە پێکهاتەکانی تێدا دەگوێزرێنەوە. دەکرێت پانێڵێک یان لەسەر باندێک یان لەسەر لاپەڕەیەک دابنێرێت.</StiPanel>
     <StiPanelElement>ناوچەیەکی لاکێشەیی کە دەتوانێت توخمەکانی تر لەخۆ بگرێت. کاتێک پانێڵەکە دەگوێزرێتەوە توخمەکانی تێدا دەگوێزرێنەوە.</StiPanelElement>
+    <StiPdfDigitalSignature>ئەم پێکهاتەیە بەکاردێت بۆ دیاریکردنی شوێنێک بۆ ئیمزا دیجیتەڵەکە دوای هەناردەکردنی ڕاپۆرتەکە بۆ Adobe PDF.</StiPdfDigitalSignature>
     <StiPivotTableElement>توخمی خشتەی Pivot بەکاردێت بۆ پێکهاتەی نوێنەرایەتی داتا وەک خشتە.</StiPivotTableElement>
     <StiProgressElement>توخمەکە ڕێژەی داتای تێکردن پیشان دەدات. ئه وه ده تواندرێ له مۆدی جیاوازه وه نیشان بدرێت - پای، دۆنات، باڕ.</StiProgressElement>
     <StiRectanglePrimitive>ئەم پێکهاتەیە بەکاردێت بۆ ئەنجامی لاکێشەکان.</StiRectanglePrimitive>
@@ -2366,19 +2378,26 @@
   <Notices>
     <AccessDenied>چوونەژوورەوە ڕەتکرایەوە!</AccessDenied>
     <AccountLocked>ئەژمێرەکەت داخراوە! بۆ ئەوەی چارەسەر بکرێت، تکایە داواکەت بنێرە بۆ sales@stimulsoft.com!</AccountLocked>
+    <ActivationContact1>تکایە پەیوەندی بە بەشی فرۆشتنەکانمانەوە بکە لە  </ActivationContact1>
+    <ActivationContact2> بۆ چارەسەر کردنی ئەمە </ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>بەشداری کردنت لە Stimulsoft Reports.Ultimate زووتر بەسەرچوو لەچاو یەکەم وەشانی Stimulsoft Server کە بڵاوکراوەتەوە!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>فایلی مۆڵەت ڕاست نیە! تکایە پەیوەندی بە بەشی فرۆشتنەکانمانەوە بکە لە sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>ئەژمێرەکەت داخراوە. تکایە پەیوەندی بە بەشی فرۆشتنەکانمانەوە بکە لە sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>هەژمارەکەت داخراوە.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>تۆ گەیشتیت بە زۆرترین ژمارەی چالاکیەکان. تکایە پەیوەندی بە بەشی فرۆشتنەکانمانەوە بکە لەتۆ گەیشتیت بە زۆرترین ژمارەی چالاککردن. تکایە پەیوەندی بە بەشی فرۆشتنەکانمانەوە بکە لە sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxActivationsReached1>دەتوانیت کۆمپیوتەرە تۆمارکراوەکان بەڕێوەببەیت لە </ActivationMaxActivationsReached1>
+    <ActivationMaxActivationsReached2>هەژماری Stimulsoft.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>تۆ پێشتر زۆرترین ژمارەی کۆمپیتەرەکانت تۆمار کردووە کە بەردەستن بۆ بەشداریکردنەکەت.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server ئێستا بەردەست نیە! تکایە دواتر دووبارە هەوڵ بدە.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>ناتوانیت ئەم وەشانەی سێرڤەری Stimulsoft چالاک بکەیت لەبەرئەوەی بەرنامەی بەشداربوونەکەت بەسەرچووە! تکایە بچۆ ژوورەوە بۆ ئەژمێرەکەت و چێک بکە کام وەشانی Stimulsoft Server دەتوانیت دایبنێیت و چالاک بکەیت.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>هەڵەیەک ڕوویدا لەکاتی چالاککردن. تکایە دواتر دووبارە هەوڵ بدە.</ActivationSomeTroublesOccurred>
     <ActivationTrialExpired>دەتوانیت بەردەوام بیت لە بەکارهێنانی Stimulsoft Designer بە کڕینی سۆفتوێرەکە.</ActivationTrialExpired>
+    <ActivationTrialExtend1>ئەگەر ئارەزووت کرد بە درێژکردنەوەی ماوەی هەڵسەنگاندن تکایە </ActivationTrialExtend1>
+    <ActivationTrialExtend2>پێمان بڵێ بۆ.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>ناوی بەکارهێنەرەکەت (ئیمەیڵ) یان وشەی نهێنیت هەڵەیە!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>جۆری ئەژمێرەکەت ڕێگە نادات چالاک بکرێت لە Stimulsoft Server!</ActivationWrongAccountType>
     <Alert>ئاگادارکردنەوە</Alert>
+    <AuthAccountAlreadyExists>ئەژمێرەکە لەگەڵ ئەم ناوی بەکارهێنەرە (ئیمەیڵ) پێشتر بوونی هەیە. بۆ هاوبەشکردنی بە ئەژمێری {0}، تکایە وشەی نهێنی ئەژمێری Stimulsoft بەکاربێنە.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>ئێستا ناتوانیت هەژمارەکەت بەکاربهێنیت!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>هەژمارەکەت هێشتا چالاک نەکراوە! تکایە پەیڕەوی ئەو ڕێنماییانە بکە کە نێردراوە بۆ ئیمەیڵ لەکاتی تۆمارکردن.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>ناتوانرێت ڕۆڵی بەکارهێنەر بگۆڕدرێت لەبەرئەوەی ئەمە دوایین بەکارهێنەری بەڕێوەبەرە لەم workspaceە!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2411,6 +2430,7 @@
     <AuthWorkspaceNameAlreadyInUse>ناوی workspaceەکە پێشتر لە کاردایە!</AuthWorkspaceNameAlreadyInUse>
     <CommandTimeOut>کاتی چاوەروانی پرۆسەی فەرمانەکە بەسەرچووە!</CommandTimeOut>
     <Congratulations>پیرۆزە!</Congratulations>
+    <DeveloperInformation>زانیاری گەشەپێدەر</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>بەرواری کۆتایی دەبێت گەورەتر بێت لە بەرواری ئێستا!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>بەرواری کۆتایی دەبێت گەورەتر بێت لە بەرواری دەستپێکردن!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>هەڵەی جێبەجێکردن</ExecutionError>
@@ -2433,12 +2453,15 @@
     <NewDesignerAvailable>Stimulsoft Designer {0} بەردەستە.</NewDesignerAvailable>
     <NewProduct>بەرهەمی نوێ زیادکراوە بۆ بەشداری کردنەکەت!</NewProduct>
     <NewVersionsAvailable>وەشانی نوێ</NewVersionsAvailable>
+    <NotificationConnectPackage>بەستنەوەی پاکێجی "{0}" بۆ کاری دروست.</NotificationConnectPackage>
     <NotificationFailed>ئەنجامێکی سەرکەوتوو نەبوو!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>سەرکەوتوو نەبوو لە زیادکردنی ئەم فایلانەی خوارەوە. قەبارەی {0} مێگابایت تێپەڕاندووە.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>فایلەکان بە سەرکەوتوویی بارکراون.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>فایلی "{0}" بار دەکات.</NotificationFileUploading>
     <NotificationItemDelete>ئایتمەکان دەسڕێتەوە.</NotificationItemDelete>
     <NotificationItemDeleteComplete>بەندەکان بە سەرکەوتوویی سڕاونەتەوە.</NotificationItemDeleteComplete>
+    <NotificationItemExtraComponentRequired>پێکهاتەی زیادە پێویستە</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallWebView>تکایە WebView2 Runtime دابنێ بۆ کارکردن لەگەڵ سەرنووسەری Blockly  بە دروستی.</NotificationItemInstallWebView>
     <NotificationItemRestore>بەندەکان دەگەڕێنەوە.</NotificationItemRestore>
     <NotificationItemRestoreComplete>بەندەکان بە سەرکەوتوویی دەگەڕێندرێنەوە.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>بەندەکان دەگوازرێنەوە.</NotificationItemTransfer>
@@ -2448,6 +2471,7 @@
     <NotificationMailingComplete>پۆستی "{0}" تەواو بوو.</NotificationMailingComplete>
     <NotificationMailingWaitingProcessing>ئیمەیڵکردنی "{0}" پڕۆسەی چاوەڕوانییە.</NotificationMailingWaitingProcessing>
     <NotificationOperationAborted>ئۆپراسیۆنەکە هەڵوەشاوە!</NotificationOperationAborted>
+    <NotificationPackageRequiredToDisplay>بۆ پیشاندانی ئەم ناوەرۆکە، تکایە پاکێجی "{0}" دابگرە لە NuGet.</NotificationPackageRequiredToDisplay>
     <NotificationRecycleBinCleaning>زبڵدانەکە خاوێن دەبێتەوە.</NotificationRecycleBinCleaning>
     <NotificationRecycleBinCleaningComplete>زبڵدانەکە خاوێن بووە بەسەرکەوتوی!</NotificationRecycleBinCleaningComplete>
     <NotificationRecycleBinWaitingProcessing>پاککردنەوەی سەلەی زبڵدان چاوەڕوانی پڕۆسەیە.</NotificationRecycleBinWaitingProcessing>
@@ -2456,6 +2480,7 @@
     <NotificationReportRendering>ڕاپۆرتی "{0}" پێشکەش دەکات</NotificationReportRendering>
     <NotificationReportRenderingComplete>ڕاپۆرتی "{0}" پێشکەش کراوە.</NotificationReportRenderingComplete>
     <NotificationReportWaitingProcessing>راپۆرتی "{0}" چاوەڕوانی پڕۆسەیە.</NotificationReportWaitingProcessing>
+    <NotificationReturnToDesigner>بۆ بەردەوام بوون بگەڕێوە بۆ دیزاینەری Stimulsoft </NotificationReturnToDesigner>
     <NotificationSchedulerRunning>خشتەی "{0}" کاردەکات.</NotificationSchedulerRunning>
     <NotificationSchedulerRunningComplete>خشتەی "{0}" تەواو بوو.</NotificationSchedulerRunningComplete>
     <NotificationSchedulerWaitingProcessing>خشتەی "{0}" چاوەڕوانی پڕۆسەیە.</NotificationSchedulerWaitingProcessing>
@@ -2488,7 +2513,9 @@
     <SpecifiedItemIsNot>ئایتمی دیاریکراو "{0}" نییە!</SpecifiedItemIsNot>
     <SubscriptionExpired>بەشداری کردنەکەت بەسەرچووە!</SubscriptionExpired>
     <SubscriptionExpiredDate>بەشداری کردنەکەت بەسەردەچێت لە {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredDays>بەسەردەچێت لە {0} ڕۆژدا</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>بەشداری کردنەکەت بەسەرچووە. بەشداریکردنەکەت نوێبکەرەوە بۆ بەدەستهێنانی دوایین وەشان.</SubscriptionExpiredExt>
+    <SubscriptionExpiredShort>بەشداربوون بەسەرچووە</SubscriptionExpiredShort>
     <SubscriptionsOut10>10 ڕۆژی شداربوونەکەت ماوە!</SubscriptionsOut10>
     <SubscriptionsOut20>ماوەی بەشداربوون لە ماوەی 20 ڕۆژ بەسەر دەچێت!</SubscriptionsOut20>
     <SuccessfullyRenewed>بەشداری کردنەکەت بە سەرکەوتوویی نوێکرایەوە!</SuccessfullyRenewed>
@@ -2948,6 +2975,10 @@
     <StiBrushTypeGradient45>فڵچەی نمرەی لاری، گۆشەی 45</StiBrushTypeGradient45>
     <StiBrushTypeGradient90>فڵچەی نمرەی لاری، گۆشەی 90</StiBrushTypeGradient90>
     <StiBrushTypeSolid>فڵچەی ڕەق</StiBrushTypeSolid>
+    <StiButtonSendTypeFDF>FDF</StiButtonSendTypeFDF>
+    <StiButtonSendTypeHTML>HTML</StiButtonSendTypeHTML>
+    <StiButtonSendTypePDF>PDF</StiButtonSendTypePDF>
+    <StiButtonSendTypeXFDF>XFDF</StiButtonSendTypeXFDF>
     <StiCalculationModeCompilation>پۆلێنکردن</StiCalculationModeCompilation>
     <StiCalculationModeInterpretation>لێکدانەوە</StiCalculationModeInterpretation>
     <StiCapStyleArrow>تیر</StiCapStyleArrow>
@@ -3171,6 +3202,9 @@
     <StiLegendVertAlignmentCenter>ناوەڕاست</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>سەرەوە</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>سەرەوەی دەرەوە</StiLegendVertAlignmentTopOutside>
+    <StiLineWeightNormal>ئاسایی</StiLineWeightNormal>
+    <StiLineWeightThick>ئەستور</StiLineWeightThick>
+    <StiLineWeightThin>باریک</StiLineWeightThin>
     <StiMapModeChoropleth>چۆرۆپلێس</StiMapModeChoropleth>
     <StiMapModeOnline>سەرهێڵ</StiMapModeOnline>
     <StiMapTypeGroup>گرووپ</StiMapTypeGroup>
@@ -3297,6 +3331,7 @@
     <StiReportUnitTypeInches>ئینچ</StiReportUnitTypeInches>
     <StiReportUnitTypeMillimeters>میلیمەتر</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>پیکسڵەکان</StiReportUnitTypePixels>
+    <StiReportUnitTypePoints>خاڵەکان</StiReportUnitTypePoints>
     <StiRestrictionsAll>هەموو</StiRestrictionsAll>
     <StiRestrictionsAllowChange>ڕێگەدان بە گۆڕان</StiRestrictionsAllowChange>
     <StiRestrictionsAllowDelete>ڕێگەدان بە سڕینەوە</StiRestrictionsAllowDelete>
@@ -3395,6 +3430,10 @@
     <StiTextSizeModeFit>گونجاندن</StiTextSizeModeFit>
     <StiTextSizeModeTrimming>بڕین</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>هێنانەخوارەوەی ووشەکان</StiTextSizeModeWordWrap>
+    <StiThemeAppearanceAuto>خۆکار</StiThemeAppearanceAuto>
+    <StiThemeAppearanceDark>تاریک</StiThemeAppearanceDark>
+    <StiThemeAppearanceLight>ڕوناك</StiThemeAppearanceLight>
+    <StiThemeAppearanceLightGray>خۆڵەمێشی کاڵ</StiThemeAppearanceLightGray>
     <StiTimeDateStepDay>ڕۆژ</StiTimeDateStepDay>
     <StiTimeDateStepHour>کاتژمێر</StiTimeDateStepHour>
     <StiTimeDateStepMinute>خولەک</StiTimeDateStepMinute>
@@ -3411,6 +3450,12 @@
     <StiTypeModeNullableValue>بەهای بەتاڵ</StiTypeModeNullableValue>
     <StiTypeModeRange>مەودا</StiTypeModeRange>
     <StiTypeModeValue>بەها</StiTypeModeValue>
+    <StiUnitAlignmentPrefix>پێشگر</StiUnitAlignmentPrefix>
+    <StiUnitAlignmentPrefixInside>پێشگری ناوەوە</StiUnitAlignmentPrefixInside>
+    <StiUnitAlignmentPrefixInsideWithSpace>پێشگری لەناوەوە لەگەڵ بۆشایی</StiUnitAlignmentPrefixInsideWithSpace>
+    <StiUnitAlignmentSuffix>پاشگر</StiUnitAlignmentSuffix>
+    <StiUnitAlignmentSuffixInside>پاشگری ناوەوە</StiUnitAlignmentSuffixInside>
+    <StiUnitAlignmentSuffixInsideWithSpace>پاشگر لەناوەوە لەگەڵ بۆشایی</StiUnitAlignmentSuffixInsideWithSpace>
     <StiVertAlignmentBottom>خوارەوە</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>ناوەڕاست</StiVertAlignmentCenter>
     <StiVertAlignmentTop>سەرەوە</StiVertAlignmentTop>
@@ -3493,6 +3538,7 @@
     <PrintingEvent>چاپکردن</PrintingEvent>
     <ProcessCellEvent>پرۆسەی خانە</ProcessCellEvent>
     <ProcessChartEvent>پرۆسەی پرۆسەی</ProcessChartEvent>
+    <RefreshingEvent>نوێکردنەوە</RefreshingEvent>
     <RenderingEvent>ڕێندەرکردن</RenderingEvent>
     <ReportCacheProcessingEvent>معالجة ذاكرة التخزين المؤقت للتقرير</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>پێڕستێکی دیاریکراو گۆڕا</SelectedIndexChangedEvent>
@@ -3574,6 +3620,7 @@
     <AllowApplyStyle>ڕێگەدان بە جێبەجێ کردنی شێواز</AllowApplyStyle>
     <AllowExpressions>ڕێگەدان بە دەربڕینەکان</AllowExpressions>
     <AllowHtmlTags>ڕێپێدانی تاگەکانی HTML</AllowHtmlTags>
+    <AllowNull>ڕێپێدانی بەتاڵ</AllowNull>
     <AllowSeries>ڕێپێدانی زنجیرە</AllowSeries>
     <AllowSeriesElements>ڕێگەدان بە توخمەکانی زنجیرە</AllowSeriesElements>
     <AllowSorting>ڕێپێدان بە پۆلێنکردن</AllowSorting>
@@ -3603,6 +3650,7 @@
     <Anchor>لەنگەر</Anchor>
     <Angle>گۆشە</Angle>
     <Antialiasing>دژە ناوین</Antialiasing>
+    <Apply>جێبەجێ کردن</Apply>
     <Area>ناوچە</Area>
     <Argument>ئارگیومێنت</Argument>
     <ArgumentDataColumn>ستوونی داتای ئارگیومێنت</ArgumentDataColumn>
@@ -3662,6 +3710,7 @@
     <BrushType>جۆری فڵچە</BrushType>
     <BubbleBackColor>ڕەنگی بڵقی دواوە</BubbleBackColor>
     <BubbleBorderColor>ڕەنگی سنووری بڵق</BubbleBorderColor>
+    <BubbleScale>پێوەری بڵق</BubbleScale>
     <BusinessObject>ئۆبجێکتی بازرگانی</BusinessObject>
     <CacheAllData>هەموو داتاکان خەزن بکە</CacheAllData>
     <CacheTotals>کۆکراوەی هەڵگیراو</CacheTotals>
@@ -3675,6 +3724,7 @@
     <Categories>هاوپۆلەکان</Categories>
     <Category>پۆل</Category>
     <CategoryConnections>پەیوەندیەکان</CategoryConnections>
+    <CellAlignment>لاچەنکردنی خانە</CellAlignment>
     <CellBackColor>ڕەنگی پشتەوەی خانە</CellBackColor>
     <CellDockStyle>شێوازی خانەی دۆک</CellDockStyle>
     <CellForeColor>ڕەنگی پێشەوەی خانە</CellForeColor>
@@ -3684,6 +3734,7 @@
     <Center>ناوەڕاست</Center>
     <CenterPoint>ناوەندی خاڵ</CenterPoint>
     <ChartAreaBorderColor>ڕەنگی سنووری ناوچەی نەخشە</ChartAreaBorderColor>
+    <ChartAreaBorderThickness>ئەستووری سنووری ناوچەی نەخشە</ChartAreaBorderThickness>
     <ChartAreaBrush>فڵچەی ناوچەی نەخشە</ChartAreaBrush>
     <ChartAreaShowShadow>سێبەری پیشاندانی ڕووبەری نەخشە</ChartAreaShowShadow>
     <ChartType>جۆری نەخشە</ChartType>
@@ -3702,6 +3753,7 @@
     <Child>نەوە</Child>
     <ChildColumns>ستوونی نەوەکان</ChildColumns>
     <ChildSource>سەرچاوەی نەوە</ChildSource>
+    <City>شار</City>
     <ClearFormat>پاکردنەوەی شێوازەکان</ClearFormat>
     <CloneContainer>لەبەرگرتنەوی کۆنتەینەر</CloneContainer>
     <CloseValues>بەهای داخستن</CloseValues>
@@ -3748,6 +3800,7 @@
     <CornerRadius>گۆشەی تیشک</CornerRadius>
     <Count>ژماردن</Count>
     <CountData>ژماردنی داتا</CountData>
+    <Country>وڵات</Country>
     <Create>دروستکردن</Create>
     <CreateFieldOnDoubleClick>دروستکردنی خانە لەکاتی دوو کرتە</CreateFieldOnDoubleClick>
     <CreateLabel>لەیبڵ دروست بکە</CreateLabel>
@@ -3782,6 +3835,7 @@
     <DefaultColor>ڕەنگی بنەڕەت</DefaultColor>
     <DefaultHeightCell>بەرزی بنەڕەتی خانە</DefaultHeightCell>
     <DefaultNamespace>بنەڕەتی Namespace</DefaultNamespace>
+    <DefaultSettings>ڕێکخستنەوەی باری ئاسای</DefaultSettings>
     <DependentColumn>ستوونی وابەستە</DependentColumn>
     <DependentValue>بەهای پشتبەستوو</DependentValue>
     <Description>وەسف</Description>
@@ -3854,6 +3908,7 @@
     <FaqPage>پەڕەی پرسیارە باوەکان</FaqPage>
     <Field>خانە</Field>
     <FieldIs>خانەکە</FieldIs>
+    <Fifth>پێنجەم</Fifth>
     <File>فایل</File>
     <Fill>پڕکردنەوە</Fill>
     <FillColor>پڕکردنەوەی ڕەنگ</FillColor>
@@ -3863,6 +3918,7 @@
     <FilterMode>مۆدی فلتەر</FilterMode>
     <FilterOn>فلتەرکردنی</FilterOn>
     <Filters>فلتەرەکان</Filters>
+    <First>یەکەم</First>
     <FirstTabOffset>یەکەم کۆمەڵەی تاب</FirstTabOffset>
     <FixedWidth>پانیی جێگیر</FixedWidth>
     <Flat>تەخت</Flat>
@@ -3895,6 +3951,8 @@
     <Footers>ژێرەپەڕەکان</Footers>
     <ForeColor>ڕەنگی پێشەوە</ForeColor>
     <Format>فۆرمات</Format>
+    <FormSettings>لە ڕێکخستنەکانەوە</FormSettings>
+    <Fourth>چوارەم</Fourth>
     <From>لە</From>
     <FrozenColumns>ستوونە خێگیرەکان</FrozenColumns>
     <FullConvertExpression>دەربڕینی گۆڕینی تەواو</FullConvertExpression>
@@ -3906,6 +3964,7 @@
     <GlobalizedName>ناوی عام</GlobalizedName>
     <GlyphColor>ڕەنگی Glyph </GlyphColor>
     <GridColor>ڕەنگی تۆڕ</GridColor>
+    <GridColumns>ستوونە گرید</GridColumns>
     <GridLineColor>ڕەنگی هێڵە شەترەنجییەکان</GridLineColor>
     <GridLinesHor>هێڵە شەترەنجییەکانی ئاسۆیی</GridLinesHor>
     <GridLinesHorColor>هێڵە شەترەنجییەکان -ڕەنگی ئاسۆیی</GridLinesHorColor>
@@ -3914,6 +3973,7 @@
     <GridLinesVert>هێڵە شەترەنجییەکانی ستوونی</GridLinesVert>
     <GridLinesVertColor>هێڵە شەترەنجییەکان - ڕەنگی ستوونی</GridLinesVertColor>
     <GridOutline>کەمەرەیی هێڵە شەترەنجییەکان</GridOutline>
+    <GridVerticalStep>هەنگاوەکانی ستونی گرید</GridVerticalStep>
     <Group>گرووپ</Group>
     <GroupDataColumn>ستوونی گروپی داتا </GroupDataColumn>
     <GroupMeter>گروپی مەتر</GroupMeter>
@@ -3973,10 +4033,13 @@
     <Image>وێنە</Image>
     <ImageAlign>لاچەنکردنی وێنە</ImageAlign>
     <ImageAlignment>تەرازبەندی وێنە</ImageAlignment>
+    <ImageAspectRatio>ڕێژەی لایەنی وێنە</ImageAspectRatio>
     <ImageData>داتای وێنە</ImageData>
+    <ImageEnabled>وێنە چالاککراوە</ImageEnabled>
     <ImageHorAlignment>تەرازبەندی ئاسۆیی وێنە</ImageHorAlignment>
     <ImageMultipleFactor>فاکتەری هەمەجۆری وێنە</ImageMultipleFactor>
     <ImageRotation>خولانەوەی وێنە</ImageRotation>
+    <ImageShowBehind>پیشاندانی وێنە لە پشتەوە</ImageShowBehind>
     <ImageStretch>درێژکردنی وێنە</ImageStretch>
     <ImageTiling>تەرازۆکردنی وێنە</ImageTiling>
     <ImageTransparency>شەفافییەتی وێنە</ImageTransparency>
@@ -3985,11 +4048,14 @@
     <ImportRelations>هاوردنی پەیوەندییەکان</ImportRelations>
     <Increment>زیادکردن</Increment>
     <Indent>ڕێکخستن</Indent>
+    <Indicator>نیشاندەر</Indicator>
+    <IndicatorValue>بەهای نیشاندەر</IndicatorValue>
     <IndividualColor>ڕەنگی هەریەکە</IndividualColor>
     <InitBy>دەستپێبکات بە</InitBy>
     <Initials>سەرەتاییەکان</Initials>
     <InitialSelection>دەستنیشانکردنی سەرەتایی</InitialSelection>
     <InitialSelectionSource>سەرچاوەی دەستنیشانکردنی سەرەتایی</InitialSelectionSource>
+    <InnerText>دەقی ناوەوە</InnerText>
     <Insert>داخڵکردن</Insert>
     <Interaction>کارلێک</Interaction>
     <InterlacedBrush>فڵچەی پچڕاو</InterlacedBrush>
@@ -4082,8 +4148,16 @@
     <Low>نزم</Low>
     <LowValues>بەها نزمەکان</LowValues>
     <MajorInterval>مەودای سەرەکی</MajorInterval>
+    <MapAfrica>ئەفریقا</MapAfrica>
+    <MapAsia>ئاسیا</MapAsia>
+    <MapCustom>خواستیار</MapCustom>
+    <MapEurope>ئەوروپا</MapEurope>
     <MapID>ناسنامەی نەخشە</MapID>
+    <MapNorthAmerica>ئەمریکای باکوور</MapNorthAmerica>
+    <MapOceania>ئۆقیانووسیا</MapOceania>
+    <MapPopularMaps>نەخشە بەناوبانگەکان</MapPopularMaps>
     <Maps>نەخشەکان</Maps>
+    <MapSouthAmerica>ئەمریکای باشوور</MapSouthAmerica>
     <MapStyle>شێوازی نەخشە</MapStyle>
     <MapType>جۆری نەخشە</MapType>
     <Margin>پەراوێز</Margin>
@@ -4177,6 +4251,7 @@
     <Options3D>هەڵبژاردنەکانی 3D</Options3D>
     <Orientation>ئاڕاستەکردن</Orientation>
     <OthersText>دەقی تر</OthersText>
+    <OverlappedColor>ڕەنگی تێکەڵ</OverlappedColor>
     <Padding>بۆشای نێوان (پادینگ)</Padding>
     <PageHeight>بەرزی لاپەڕە</PageHeight>
     <PageNumbers>ژمارەی لاپەڕەکان</PageNumbers>
@@ -4199,6 +4274,7 @@
     <PathData>شوێنی داتا</PathData>
     <PathSchema>شوێنی سکیما</PathSchema>
     <Pattern>شێواز</Pattern>
+    <PDFPreview>پێشبینینی PDF</PDFPreview>
     <Placeholder>پلەیسهۆڵدەر</Placeholder>
     <Placement>دانان</Placement>
     <PlaceOnToolbox>دانانی لەسەر سندوقی ئامڕاز</PlaceOnToolbox>
@@ -4272,6 +4348,7 @@
     <ReportUnit>یەکەی ڕاپۆرت</ReportUnit>
     <RequestFromUser>داواکردن لە بەکارهێنەرەوە</RequestFromUser>
     <RequestParameters>داواکردنی پارامیتەرەکان</RequestParameters>
+    <Required>داواکراوە</Required>
     <ResetAllFilters>ڕێکخستنەوەی هەموو فلتەرەکان</ResetAllFilters>
     <ResetDataSource>سەرچاوەی داتا دووبارە ڕێک بخەوە</ResetDataSource>
     <ResetPageNumber>ڕێکخستنەوەی ژمارەی لاپەڕە</ResetPageNumber>
@@ -4300,6 +4377,8 @@
     <Scale>پێوەر</Scale>
     <ScaleHor>پێوانەی ئاسۆیی</ScaleHor>
     <ScriptLanguage>زمانی سکریپت</ScriptLanguage>
+    <ScrollTime>کاتی سکرۆڵ</ScrollTime>
+    <Second>دووەم</Second>
     <SegmentPerHeight>پارچە بۆ هەر بەرزییەک</SegmentPerHeight>
     <SegmentPerWidth>پارچە بۆ هەر پانییەک</SegmentPerWidth>
     <SelectedBackColor>ڕەنگی پشتەوەی هەڵبژێردراو</SelectedBackColor>
@@ -4318,10 +4397,13 @@
     <SelectionEnabled>دەستنیشانکراو چالاککراوە</SelectionEnabled>
     <SelectionForeColor>ڕەنگی پێشەوەی دەستنیشانکراو</SelectionForeColor>
     <SelectionMode>دۆخی دەستنیشانکراو</SelectionMode>
+    <SelectionType>جۆری دەستنیشانکراو</SelectionType>
     <SelectStyle>شێواز دیاریبکە</SelectStyle>
+    <SendType>جۆری نارد</SendType>
     <SeparatorColor>ڕەنگی جیاکەرەوە</SeparatorColor>
     <SerialNumber>ژمارەی زنجیرە</SerialNumber>
     <Series>زنجیرە</Series>
+    <SeriesBorderColor>زنجیرەی ڕەنگی سنوور</SeriesBorderColor>
     <SeriesBorderThickness>ئەستووری سنووری زنجیرە</SeriesBorderThickness>
     <SeriesColors>ڕەنگەکانی زنجیرە</SeriesColors>
     <SeriesCornerRadius>زنجیرەی گۆشەی تیشک</SeriesCornerRadius>
@@ -4399,6 +4481,7 @@
     <Sorted>ڕێکخراو</Sorted>
     <SortingColumn>ئاڕاستەکردنی ستوون</SortingColumn>
     <SortingEnabled>ئاڕاستەکردن کارایە</SortingEnabled>
+    <SortLetters>A-Z</SortLetters>
     <SortType>جۆری ئاڕاستەکردن</SortType>
     <Space>بۆشای</Space>
     <SpaceRatio>ڕێژەی بۆشایی</SpaceRatio>
@@ -4414,11 +4497,13 @@
     <StartPosition>شوێنی دەستپێکردن</StartPosition>
     <StartValue>بەهای دەستپێکردن</StartValue>
     <StartWidth>پانی دەستپێکردن</StartWidth>
+    <State>دۆخ</State>
     <Step>هەنگاو</Step>
     <Stop>وەستان</Stop>
     <StopBeforePage>وەستاندنی پێش پەڕە</StopBeforePage>
     <StopBeforePrint>بوەستە پێش چاپکردن</StopBeforePrint>
     <StoreImagesInResources>هەڵگرتنی وێنەکان لە سەرچاوەکان</StoreImagesInResources>
+    <StreetAddress>ناونیشانی شەقام</StreetAddress>
     <Stretch>درێژکردنەوە</Stretch>
     <StretchToPrintArea>درێژکردنەوە بۆ ناوچەی چاپکردن</StretchToPrintArea>
     <Strikeout>خەتی بەناودا بهێنێت</Strikeout>
@@ -4430,6 +4515,7 @@
     <Style>شێواز</Style>
     <StyleColors>ڕەنگەکانی شێواز</StyleColors>
     <Styles>شێوازەکان</Styles>
+    <SubmissionMessage>نامەی ناردن</SubmissionMessage>
     <SubReportPage>ڕاپۆرتی لاوەکی</SubReportPage>
     <Summaries>پوختەکان</Summaries>
     <Summary>پوختە</Summary>
@@ -4458,13 +4544,19 @@
     <TextAfter>دەق پاش</TextAfter>
     <TextAlign>لاچەنکردنی دەق</TextAlign>
     <TextAlignment>تەرازبەندی دەق</TextAlignment>
+    <TextAngle>گۆشەی دەق</TextAngle>
     <TextBefore>دەق پێش</TextBefore>
     <TextBrush>فڵچەی دەق</TextBrush>
     <TextColor>ڕەنگی دەق</TextColor>
+    <TextEnabled>دەق چالاککراوە</TextEnabled>
+    <TextFont>فۆنتی دەق</TextFont>
     <TextFormat>فۆرماتی دەق</TextFormat>
     <TextOnly>تەنها دەق</TextOnly>
     <TextOptions>هەڵبژاردنەکانی دەق</TextOptions>
     <TextQuality>کوالێتی دەق</TextQuality>
+    <TextRightToLeft>دەق ڕاست بۆ چەپ</TextRightToLeft>
+    <TextShowBehind>پیشاندانی دەق لە پشتەوە</TextShowBehind>
+    <Third>سێیەم</Third>
     <TickLabelMajorFont>سەحی لەیبڵ فۆنتی سەرەکی</TickLabelMajorFont>
     <TickLabelMajorTextBrush>فلچەی دەقی سەرەکی لەیبڵ تێبکە</TickLabelMajorTextBrush>
     <TickLabelMinorFont>فۆنتی لاوەکی لەیبڵ تێبکە</TickLabelMinorFont>
@@ -4519,10 +4611,12 @@
     <Underline>ژێرهێڵ</Underline>
     <UndoLimit>گەڕانەوەی سنووردارکردنەکە</UndoLimit>
     <Unit>یەکە</Unit>
+    <UnitAlignment>یەک ڕیزکردن</UnitAlignment>
     <UnlimitedBreakable>شکاندنی بێسنوور</UnlimitedBreakable>
     <UnlimitedHeight>بەرزی بێسنوور</UnlimitedHeight>
     <UnlimitedWidth>پانیی بێسنوور</UnlimitedWidth>
     <UpperMarks>نیشانەکانی سەرەوە</UpperMarks>
+    <URL>URL</URL>
     <UseAliases>بەکارهێنانی ئەلیاسەکان</UseAliases>
     <UseExternalReport>ڕاپۆرتی دەرەکی بەکاربهێنە</UseExternalReport>
     <UseParentStyles>بەکارهێنانی شێوازەکانی باوان</UseParentStyles>
@@ -4531,6 +4625,7 @@
     <UseSeriesColor>ڕەنگی زنجیرە بەکاربهێنە</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>بەکارهێنانی شێوازی پوختە لە کۆی ستوونی</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>بەکارهێنانی شێوازی پوختە لە کۆی ریز</UseStyleOfSummaryInRowTotal>
+    <UseUserPicture>بەکارهێنانی وێنەی بەکارهێنەر</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>بەهاکان بەکاربهێنە لە مەودای دیاریکراو</UseValuesFromTheSpecifiedRange>
     <Value>بەها</Value>
     <ValueClose>داخستنی بەها</ValueClose>
@@ -4556,9 +4651,20 @@
     <VertAlignment>تەرازبەندی ستوونی</VertAlignment>
     <VertSpacing>بۆشایی ستوونی</VertSpacing>
     <ViewMode>دۆخی پیشاندان</ViewMode>
+    <Visibility>بینین</Visibility>
     <Visible>بینراو</Visible>
     <VisualStates>دۆخی بینراوەکان</VisualStates>
     <Watermark>وەتەرمارک</Watermark>
+    <WatermarkStyle>شێوەی وەتەرمارك</WatermarkStyle>
+    <WeaveAngle>گۆشەی شەپۆل</WeaveAngle>
+    <WeaveDistance>دووری شەپۆل</WeaveDistance>
+    <WeaveEnabled>کاراکردنی شەپۆل</WeaveEnabled>
+    <WeaveMajorColor>ڕەنگی سەرەکی شەپۆل</WeaveMajorColor>
+    <WeaveMajorIcon>ئایکۆنی سەرەکی شەپۆل</WeaveMajorIcon>
+    <WeaveMajorSize>قەبارەی سەرەکی شەپۆل</WeaveMajorSize>
+    <WeaveMinorColor>ڕەنگی لاوەکی شەپۆل</WeaveMinorColor>
+    <WeaveMinorIcon>ئایکۆنی لاوەکی شەپۆل</WeaveMinorIcon>
+    <WeaveMinorSize>قەبارەی لاوەکی شەپۆل</WeaveMinorSize>
     <Weight>کێش</Weight>
     <WeightDataColumn>کێش - ستوونی داتا</WeightDataColumn>
     <Weights>کێشەکان</Weights>
