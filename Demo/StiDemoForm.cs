@@ -45,6 +45,7 @@ using System.Drawing.Drawing2D;
 using Stimulsoft.Report.Dictionary;
 using Stimulsoft.Base.Localization;
 using Stimulsoft.Base;
+using Stimulsoft.Report.Design.Controls;
 
 namespace Demo
 {
@@ -92,8 +93,8 @@ namespace Demo
         private Hashtable reportsHelper = new Hashtable();
         private Hashtable demoLocalization = new Hashtable();
         private Bitmap videoBitmap = global::Demo.Properties.Resources.Video;
-        private ButtonItem buttonHelpResources;
-        private ButtonItem buttonDesign;
+        private StiButtonItemX buttonHelpResources;
+        private StiButtonItemX buttonDesign;
         #endregion
 
         #region Methods override
@@ -390,7 +391,7 @@ namespace Demo
 
         private void CreateHelpResourcesMenu()
         {
-            buttonHelpResources = new ButtonItem();
+            buttonHelpResources = new StiButtonItemX();
             buttonHelpResources.BeginGroup = true;
             buttonHelpResources.AutoExpandOnClick = true;
             buttonHelpResources.ItemAlignment = eItemAlignment.Far;
@@ -399,7 +400,7 @@ namespace Demo
             buttonHelpResources.Name = "buttonHelpResources";
 
             Size buttonSize = TextRenderer.MeasureText((string)demoLocalization["ButtonHelpResources"], this.viewerControl.ToolBar.Font, new Size(110, 22));
-            buttonHelpResources.FixedSize = new Size(buttonSize.Width + 25, StiScale.I(22));
+            buttonHelpResources.FixedSize = new Size(buttonSize.Width + StiScale.I(35), StiScale.I(22));
 
             #region Other buttons
             labelHelp = new LabelItem();
@@ -413,42 +414,42 @@ namespace Demo
             labelHelp.SingleLineColor = System.Drawing.Color.FromArgb(197, 197, 197);
             labelHelp.Text = (string)demoLocalization["LabelHelp"];
 
-            ButtonItem buttonDocumentation = new ButtonItem();
+            var buttonDocumentation = new StiButtonItemX();
             buttonDocumentation.Image = global::Demo.Properties.Resources.Documentation;
             buttonDocumentation.Tag = "https://www.stimulsoft.com/en/documentation";
             buttonDocumentation.Text = (string)demoLocalization["ButtonDocumentation"];
             buttonDocumentation.Name = "buttonDocumentation";
             buttonDocumentation.Click += new EventHandler(buttonHyperlink_Click);
 
-            ButtonItem buttonSupport = new ButtonItem();
+            var buttonSupport = new StiButtonItemX();
             buttonSupport.Image = global::Demo.Properties.Resources.Support;
             buttonSupport.Tag = "https://www.stimulsoft.com/en/support";
             buttonSupport.Text = (string)demoLocalization["ButtonSupport"];
             buttonSupport.Name = "buttonSupport";
             buttonSupport.Click += new EventHandler(buttonHyperlink_Click);
 
-            ButtonItem buttonForum = new ButtonItem();
+            var buttonForum = new StiButtonItemX();
             buttonForum.Image = global::Demo.Properties.Resources.Forum;
             buttonForum.Tag = "https://forum.stimulsoft.com/";
             buttonForum.Text = (string)demoLocalization["ButtonForum"];
             buttonForum.Name = "buttonForum";
             buttonForum.Click += new EventHandler(buttonHyperlink_Click);
 
-            ButtonItem buttonKnowledgebase = new ButtonItem();
+            var buttonKnowledgebase = new StiButtonItemX();
             buttonKnowledgebase.Image = global::Demo.Properties.Resources.Knowledgebase;
             buttonKnowledgebase.Tag = "https://stimulsoft.zendesk.com/hc/en-us";
             buttonKnowledgebase.Text = (string)demoLocalization["ButtonKnowledgebase"];
             buttonKnowledgebase.Name = "buttonKnowledgebase";
             buttonKnowledgebase.Click += new EventHandler(buttonHyperlink_Click);
 
-            ButtonItem buttonPurchase = new ButtonItem();
+            var buttonPurchase = new StiButtonItemX();
             buttonPurchase.Image = global::Demo.Properties.Resources.Purchase;
             buttonPurchase.Tag = "https://www.stimulsoft.com/en/online-store";
             buttonPurchase.Text = (string)demoLocalization["ButtonPurchase"];
             buttonPurchase.Name = "buttonPurchase";
             buttonPurchase.Click += new EventHandler(buttonHyperlink_Click);
 
-            ButtonItem buttonAllVideos = new ButtonItem();
+            var buttonAllVideos = new StiButtonItemX();
             buttonAllVideos.Image = global::Demo.Properties.Resources.Video;
             buttonAllVideos.Tag = "https://www.youtube.com/user/StimulsoftVideos";
             buttonAllVideos.Text = (string)demoLocalization["ButtonVideos"];
@@ -467,7 +468,7 @@ namespace Demo
             this.viewerControl.ToolBar.Items.Add(buttonHelpResources);
 
             #region Design
-            buttonDesign = new ButtonItem();
+            buttonDesign = new StiButtonItemX();
             buttonDesign.ItemAlignment = eItemAlignment.Far;
             buttonDesign.ColorTable = eButtonColor.OrangeWithBackground;
             buttonDesign.Text = (string)demoLocalization["ButtonDesign"];
@@ -475,9 +476,9 @@ namespace Demo
             buttonDesign.Click += new EventHandler(btDesign_Click);
 
             buttonSize = TextRenderer.MeasureText((string)demoLocalization["ButtonDesign"], this.viewerControl.ToolBar.Font, new Size(130, 22));
-            buttonDesign.FixedSize = new Size(buttonSize.Width + 15, StiScale.I(22));
+            buttonDesign.FixedSize = new Size(buttonSize.Width + StiScale.I(35), StiScale.I(22));
 
-            ButtonItem buttonGotoStartPage = new ButtonItem();
+            var buttonGotoStartPage = new ButtonItem();
             buttonGotoStartPage.Image = global::Demo.Properties.Resources.Help;
             buttonGotoStartPage.Tooltip = (string)demoLocalization["JumpToWelcomeScreen"];
             buttonGotoStartPage.Click += new EventHandler(buttonGotoStartPage_Click);
@@ -551,7 +552,7 @@ namespace Demo
 
         private void infoButton_Click(object sender, EventArgs e)
         {
-            ButtonItem btn = sender as ButtonItem;
+            var btn = sender as ButtonItem;
             string hyperlink = (string)btn.Tag;
 
             try
@@ -621,7 +622,7 @@ namespace Demo
                     {
                         videoInfo vi = info.videos[index];
 
-                        ButtonItem button = new ButtonItem();
+                        var button = new ButtonItem();
                         button.Image = videoBitmap;
                         button.Text = "<b>" + vi.name + "</b><br>" + vi.description + "</br>";
                         button.Tag = vi.hyperlink;
@@ -651,7 +652,7 @@ namespace Demo
                     {
                         sampleInfo si = info.samples[index];
 
-                        ButtonItem button = new ButtonItem();
+                        var button = new ButtonItem();
                         button.Image = (si.isVB) ? global::Demo.Properties.Resources.VBProject : global::Demo.Properties.Resources.CSharpProject;
                         button.Text = "<b>" + si.name + "</b><br>" + si.description + "</br>";
                         button.Tag = si.path;
