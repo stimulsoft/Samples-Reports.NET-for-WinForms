@@ -6,6 +6,8 @@
 This repository has many examples (Visual Studio Projects) each in different folders:
 * Adding a Custom Component to the Designer
 * Adding a Font to the Resource
+* Changing the Viewer and Designer Theme
+* Creating Chart at Runtime
 * Creating Report at Runtime
 * Customizing the Viewer
 * Demo
@@ -37,9 +39,9 @@ In order to start simply open the Visual Studio solution file in the IDE Visual 
 # Stimulsoft Reports.NET
 Stimulsoft Reports.NET is a .NET based reporting tool which helps you create flexible and feature rich reports. All reports are created in a report designer with handy and user-friendly interface. Using Stimulsoft Reports.NET you can create reports on the basis of various data sources. Created reports can be used both in Windows Forms and ASP.NET. Rendered reports can be exported to different formats.
 
-You can try the [Live Demo](https://demo.stimulsoft.com/#Net)
+[Live Demo](https://demo.stimulsoft.com/#Net)
 
-Read more about [Stimulsoft Reports.NET](https://www.stimulsoft.com/en/products/reports-net)
+[Product Page](https://www.stimulsoft.com/en/products/reports-net)
 
 [Free Download](https://www.stimulsoft.com/en/downloads)
 

@@ -50,6 +50,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding a Font to the Resour
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using a Custom Data Adapter", "Using a Custom Data Adapter\Using a Custom Data Adapter.csproj", "{5CEFF4AA-C42B-47A9-836A-A2A62D92B2DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Changing the Viewer and Designer Theme", "Changing the Viewer and Designer Theme\Changing the Viewer and Designer Theme.csproj", "{2480CA65-6246-42BF-921B-EEABB15697B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating Chart at Runtime", "Creating Chart at Runtime\Creating Chart at Runtime.csproj", "{5E547E1D-6D63-4673-86BA-C9D60E45BB12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -582,12 +586,60 @@ Global
 		{5CEFF4AA-C42B-47A9-836A-A2A62D92B2DA}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{5CEFF4AA-C42B-47A9-836A-A2A62D92B2DA}.Release|x86.ActiveCfg = Release|Win32
 		{5CEFF4AA-C42B-47A9-836A-A2A62D92B2DA}.Release|x86.Build.0 = Release|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Debug|.NET.Build.0 = Debug|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Debug|x86.Build.0 = Debug|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Demo|.NET.ActiveCfg = Debug|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Demo|.NET.Build.0 = Debug|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Demo|Any CPU.ActiveCfg = Debug|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Demo|Any CPU.Build.0 = Debug|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Demo|Mixed Platforms.ActiveCfg = Debug|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Demo|Mixed Platforms.Build.0 = Debug|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Demo|x86.ActiveCfg = Debug|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Demo|x86.Build.0 = Debug|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Release|.NET.ActiveCfg = Release|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Release|.NET.Build.0 = Release|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Release|x86.ActiveCfg = Release|Win32
+		{2480CA65-6246-42BF-921B-EEABB15697B9}.Release|x86.Build.0 = Release|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Debug|.NET.Build.0 = Debug|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Debug|x86.Build.0 = Debug|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Demo|.NET.ActiveCfg = Debug|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Demo|.NET.Build.0 = Debug|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Demo|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Demo|Any CPU.Build.0 = Debug|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Demo|Mixed Platforms.ActiveCfg = Debug|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Demo|Mixed Platforms.Build.0 = Debug|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Demo|x86.ActiveCfg = Debug|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Demo|x86.Build.0 = Debug|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Release|.NET.ActiveCfg = Release|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Release|.NET.Build.0 = Release|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Release|x86.ActiveCfg = Release|Win32
+		{5E547E1D-6D63-4673-86BA-C9D60E45BB12}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {59A31017-1F27-4C56-A7C9-1FA1CA791BC0}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {59A31017-1F27-4C56-A7C9-1FA1CA791BC0}
 	EndGlobalSection
 EndGlobal
