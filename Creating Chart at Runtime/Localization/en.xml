@@ -110,7 +110,7 @@
     <ForceDelete>Force Delete</ForceDelete>
     <Help>Help</Help>
     <Install>Install</Install>
-	<InvertAll>Invert All</InvertAll>
+    <InvertAll>Invert All</InvertAll>
     <LessOptions>Less Options</LessOptions>
     <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
     <More>More</More>
@@ -123,7 +123,7 @@
     <Ok>&amp;OK</Ok>
     <Open>Open</Open>
     <OpenContainingFolder>Open Containing Folder</OpenContainingFolder>
-	<OpenInSafeMode>Open in Safe Mode</OpenInSafeMode>
+    <OpenInSafeMode>Open in Safe Mode</OpenInSafeMode>
     <Print>Print</Print>
     <Publish>Publish</Publish>
     <QuickPrint>Quick Print</QuickPrint>
@@ -495,6 +495,7 @@
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
     <ShowNotificationMessages>Show Notification Messages</ShowNotificationMessages>
+	<Submissions>Submissions</Submissions>
     <Subscriptions>Subscriptions</Subscriptions>
     <TabItemEmbedCode>Embed Code</TabItemEmbedCode>
     <TabItemQRCode>QR Code</TabItemQRCode>
@@ -1987,6 +1988,14 @@
     <CenterVertically>Allows you to align a component vertically relative to container edges in what it is placed.</CenterVertically>
     <Close>Close the Report Designer.</Close>
     <Columns>Split a page into columns.</Columns>
+    <CompilationAccess1>This document uses the compilation process. If the document is from a trusted source, you can click the "Open" button to access it.</CompilationAccess1>
+    <CompilationAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, you will use interpretation instead of compilation, which enables you to run the document safely.</CompilationAccess2>
+    <CompilationAccess3>This document uses the compilation process and it can be unsafe. You can't open it.</CompilationAccess3>
+    <CompilationAccessAllow>Allow opening documents with compilation without any warnings or restrictions.</CompilationAccessAllow>
+    <CompilationAccessAsk>If a document uses the compilation process, a warning window with predefined actions will be displayed.</CompilationAccessAsk>
+    <CompilationAccessDeny>Deny opening any document that uses the compilation process. A special window will be displayed.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>You are switching to the compilation mode. This mode allows to runs different code and sometimes it could be harmful. Please, use this mode only if you understand all the risks and agree with them. Click the {0} button to proceed.</CompilationModeEnabling>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <CopyStyle>Copy Style</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
@@ -2135,6 +2144,9 @@
     <CurrentPage>Processing the current page. If this option is selected, then a selected report page will be processed.</CurrentPage>
     <CutEdges>Trim the borders of report pages.</CutEdges>
     <CutLongLines>Trim the long lines (text lines) by the borders of components.</CutLongLines>
+    <DashboardContains1>Sorry, but this report contains a dashboard.</DashboardContains1>
+    <DashboardContains2>You should open this report directly in the designer!</DashboardContains2>
+    <DashboardContains3>You cannot do that from the report viewer!</DashboardContains3>
     <DigitalSignature>The digital signature of the file.</DigitalSignature>
     <DitheringType>Dithering type: None - no dithering, Ordered, FloydSt. - with dithering.</DitheringType>
     <DotMatrixMode>This mode allows you to see how will a report look like if to print it on a dot matrix printer.</DotMatrixMode>
@@ -2197,6 +2209,8 @@
     <TiffCompressionScheme>Compression scheme for TIFF files.</TiffCompressionScheme>
     <ToolEditor>This tool allows you to edit contents of text components directly in the report viewer.</ToolEditor>
     <TypeExport>The file the report will be converted into.</TypeExport>
+    <UnsafeCompilation1>This document uses the compilation process. In some cases, this may not be safe. Therefore, the document will be loaded in safe mode to minimize any potential risks.</UnsafeCompilation1>
+    <UnsafeCompilation2>If you require this document to be used in its original form, please contact your developers.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Use system coding by default or specify the encoding by standard.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Define the page bands Header and Footer as the header and footer of the Microsoft Word document.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Define the bands Page Header and Footer as the header and footer of the document in Microsoft Word.</UsePageHeadersAndFooters>
@@ -2210,8 +2224,6 @@
     <ZoomPageWidth>Zoom the report so that the width of the page matches the width of the window.</ZoomPageWidth>
     <ZoomTwoPages>Zoom the report so that two pages fit in the window.</ZoomTwoPages>
     <ZoomTxt>The report size (scale): X - change the horizontal scale, Y - to change the vertical scale.</ZoomTxt>
-	<UnsafeCompilation1>This document uses the compilation process. In some cases, this may not be safe. Therefore, the document will be loaded in safe mode to minimize any potential risks.</UnsafeCompilation1>
-	<UnsafeCompilation2>If you require this document to be used in its original form, please contact your developers.</UnsafeCompilation2>
   </HelpViewer>
   <Interface>
     <Mouse>Mouse</Mouse>
@@ -3031,6 +3043,10 @@
     <StiColumnShape3DBox>Box</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Partial Pyramid</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Pyramid</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Allow</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Ask</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Deny</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Force Interpretation</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Center</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Left</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>None</StiCrossHorAlignmentNone>
@@ -3964,6 +3980,7 @@
     <FullName>Full Name</FullName>
     <Function>Function</Function>
     <Functions>Functions</Functions>
+    <GapAfterLastColumn>Gap After Last Column</GapAfterLastColumn>
     <GisSettings>Gis Settings</GisSettings>
     <GlobalizationStrings>Globalization Strings</GlobalizationStrings>
     <GlobalizedName>Globalized Name</GlobalizedName>
@@ -4432,6 +4449,7 @@
     <ShortValue>Short Value</ShortValue>
     <ShowAllValue>Show All Value</ShowAllValue>
     <ShowBehind>Show Behind</ShowBehind>
+    <ShowBlanks>Show Blanks</ShowBlanks>
     <ShowBubble>Show Bubble</ShowBubble>
     <ShowDialog>Show Dialog</ShowDialog>
     <ShowEdgeValues>Show Edge Values</ShowEdgeValues>
@@ -4843,6 +4861,7 @@
     <ClickForMoreDetails>Click for More Details</ClickForMoreDetails>
     <CollapseAll>Collapse All</CollapseAll>
     <Collection>Collection</Collection>
+    <CompilationAccess>Compilation Access</CompilationAccess>
     <CompilingReport>Compiling Report</CompilingReport>
     <Complete>Complete</Complete>
     <Components>Components</Components>
@@ -4938,6 +4957,7 @@
     <StiGradientBrush>Gradient</StiGradientBrush>
     <StiHatchBrush>Hatch</StiHatchBrush>
     <StiSolidBrush>Solid</StiSolidBrush>
+    <StoreUserNameInReportAuthor>Store 'User Name' in 'Report Author'</StoreUserNameInReportAuthor>
     <StyleBad>Bad</StyleBad>
     <StyleGood>Good</StyleGood>
     <StyleNeutral>Neutral</StyleNeutral>
