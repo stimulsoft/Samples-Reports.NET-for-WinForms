@@ -110,6 +110,7 @@
     <ForceDelete>Все равно удалить</ForceDelete>
     <Help>Помощь</Help>
     <Install>Установить</Install>
+    <InvertAll>Инвертировать все</InvertAll>
     <LessOptions>Меньше параметров</LessOptions>
     <LoadDataSet>Загрузить DataSet (*.data)</LoadDataSet>
     <More>Больше</More>
@@ -1993,6 +1994,14 @@
     <CenterVertically>Центрирует выделенные компоненты по вертикали.</CenterVertically>
     <Close>Закрыть Дизайнер Отчетов.</Close>
     <Columns>Разделите страницу на колонки.</Columns>
+    <CompilationAccess1>В этом документе используется процесс компиляции. Если документ получен из надежного источника, вы можете нажать кнопку «Открыть», чтобы получить доступ к документу.</CompilationAccess1>
+    <CompilationAccess2>Если вы не уверены в безопасности источника, но хотите просмотреть документ, вы можете нажать кнопку «Открыть в безопасном режиме». В этом случае будет использоваться режим интерпретации вместо компиляции, что позволит безопасно запускать документ.</CompilationAccess2>
+    <CompilationAccess3>Этот документ использует процесс компиляции, и это может быть небезопасно. Вы не можете открыть его.</CompilationAccess3>
+    <CompilationAccessAllow>Разрешить открытие документов с компиляцией без предупреждений и ограничений.</CompilationAccessAllow>
+    <CompilationAccessAsk>Если документ использует процесс компиляции, будет отображено окно предупреждения с предустановленными действиями.</CompilationAccessAsk>
+    <CompilationAccessDeny>Запретить открытие любого документа, использующего процесс компиляции. Будет отображаться специальное окно.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Документы с компиляцией будут открываться без запроса, с автоматическим включением режима интерпретации, в котором не используется процесс компиляции.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Вы переходите в режим компиляции. Этот режим позволяет запускать другой код, который иногда может быть вредоносным. Пожалуйста, используйте этот режим только в том случае, если вы понимаете все риски и согласны с ними. Нажмите кнопку {0}, чтобы продолжить.</CompilationModeEnabling>
     <ComponentSize>Изменить размер выделенных компонентов.</ComponentSize>
     <CopyStyle>Копировать стиль</CopyStyle>
     <CopyToClipboard>Скопировать в буфер обмена</CopyToClipboard>
@@ -2141,6 +2150,9 @@
     <CurrentPage>Обработка текущей страницы, т.е. если выбран данный параметр, то обрабатываться будет выделенная страница отчета.</CurrentPage>
     <CutEdges>Обрезать границы страниц отчета.</CutEdges>
     <CutLongLines>Обрезать длинные линии (строки текста) по границам компонента.</CutLongLines>
+    <DashboardContains1>Извините, но этот отчет содержит панель индикаторов.</DashboardContains1>
+    <DashboardContains2>Вы должны открыть этот отчет прямо в дизайнере!</DashboardContains2>
+    <DashboardContains3>Вы не можете сделать это из вьювера отчетов!</DashboardContains3>
     <DigitalSignature>Цифровая подпись к файлу.</DigitalSignature>
     <DitheringType>Тип монохромного смешивания: None - без дизеринга, Ordered, FloydSt - с дизерингом.</DitheringType>
     <DotMatrixMode>Этот режим позволяет вам видеть, как отчет будет выглядеть, если напечатать его на матричный принтер.</DotMatrixMode>
@@ -3083,6 +3095,10 @@
     <StiColumnShape3DBox>Прямоугольник</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Усеченная пирамида</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Пирамида</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Разрешить</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Спросить</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Запретить</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Включить режим интерпретации</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>По центру</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>По левому краю</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Нет</StiCrossHorAlignmentNone>
@@ -3837,7 +3853,7 @@
     <Column>Колонка</Column>
     <ColumnCount>Количество колонок</ColumnCount>
     <ColumnDirection>Направление колонок</ColumnDirection>
-    <ColumnGaps>Расстояние между колонками</ColumnGaps>
+    <ColumnGaps>Промежуток между колонками</ColumnGaps>
     <ColumnHeaderBackColor>Цвет фона заголовка колонки</ColumnHeaderBackColor>
     <ColumnHeaderForeColor>Цвет текста заголовка колонки</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Видимость заголовков</ColumnHeadersVisible>
@@ -4023,6 +4039,7 @@
     <FullName>Полное имя</FullName>
     <Function>Функция</Function>
     <Functions>Функции</Functions>
+    <GapAfterLastColumn>Промежуток после последней колонки</GapAfterLastColumn>
     <GisSettings>Настройки Gis</GisSettings>
     <GlobalizationStrings>Строки перевода</GlobalizationStrings>
     <GlobalizedName>Глобализация</GlobalizedName>
@@ -4493,6 +4510,7 @@
     <ShortValue>Короткое значение</ShortValue>
     <ShowAllValue>Показывать все значения</ShowAllValue>
     <ShowBehind>Показывать позади</ShowBehind>
+    <ShowBlanks>Показывать (Пустой)</ShowBlanks>
     <ShowBubble>Показывать пузырьки</ShowBubble>
     <ShowDialog>Показывать диалог</ShowDialog>
     <ShowEdgeValues>Показывать крайние значения</ShowEdgeValues>
@@ -4906,6 +4924,7 @@
     <ClickForMoreDetails>Нажмите для просмотра</ClickForMoreDetails>
     <CollapseAll>Свернуть все</CollapseAll>
     <Collection>Коллекция</Collection>
+    <CompilationAccess>Доступ к компиляции</CompilationAccess>
     <CompilingReport>Компиляция отчета</CompilingReport>
     <Complete>Завершено</Complete>
     <Components>Компоненты</Components>
@@ -5002,6 +5021,7 @@
     <StiGradientBrush>Градиент</StiGradientBrush>
     <StiHatchBrush>Текстура</StiHatchBrush>
     <StiSolidBrush>Сплошная</StiSolidBrush>
+    <StoreUserNameInReportAuthor>Сохранять 'Имя пользователя' как 'Автор отчета'</StoreUserNameInReportAuthor>
     <StyleBad>Плохой</StyleBad>
     <StyleGood>Хороший</StyleGood>
     <StyleNeutral>Нейтральный</StyleNeutral>
