@@ -48,9 +48,9 @@ In order to start simply open the Visual Studio solution file in the IDE and run
 Stimulsoft Reports.NET is a reporting tool created for integration and work in Windows Forms applications. Using our reporting tool, you can create, edit, view, export, and print reports of any complexity. The product includes a powerful, intuitively understandable report designer and an interactive viewer. Besides, the product contains a fully functional web viewer for the ASP.NET platform.
 
 ## Useful links
-
 * [Live Demo](http://demo.stimulsoft.com/#Net)
 * [Product Page](https://www.stimulsoft.com/en/products/reports-net)
 * [Free Download](https://www.stimulsoft.com/en/downloads)
 * [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Net)
+* [Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/index.html?reports_net.htm)
 * [License](LICENSE.md)
