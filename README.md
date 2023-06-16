@@ -52,5 +52,5 @@ Stimulsoft Reports.NET is a reporting tool created for integration and work in W
 * [Product Page](https://www.stimulsoft.com/en/products/reports-net)
 * [Free Download](https://www.stimulsoft.com/en/downloads)
 * [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Net)
-* [Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/index.html?reports_net.htm)
+* [Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/reports_net.htm)
 * [License](LICENSE.md)
