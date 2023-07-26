@@ -110,6 +110,7 @@
     <ForceDelete>Bắt buộc xóa</ForceDelete>
     <Help>Trợ giúp</Help>
     <Install>Cài đặt</Install>
+    <InvertAll>Đảo ngược tất cả</InvertAll>
     <LessOptions>Ít tùy chọn</LessOptions>
     <LoadDataSet>Tải bộ dữ liệu (*.data)</LoadDataSet>
     <More>Thêm</More>
@@ -122,6 +123,7 @@
     <Ok>Đồng ý</Ok>
     <Open>Mở</Open>
     <OpenContainingFolder>Mở thư mục chứa</OpenContainingFolder>
+    <OpenInSafeMode>Mở trong Chế độ an toàn</OpenInSafeMode>
     <Print>In</Print>
     <Publish>Xuất bản</Publish>
     <QuickPrint>In nhanh</QuickPrint>
@@ -493,6 +495,7 @@
     <ShareWindowTitleNew>Chia sẻ</ShareWindowTitleNew>
     <ShowAllFiles>Xem tất cả các tệp</ShowAllFiles>
     <ShowNotificationMessages>Hiển thị tin nhắn thông báo</ShowNotificationMessages>
+    <Submissions>Nộp</Submissions>
     <Subscriptions>Đăng ký</Subscriptions>
     <TabItemEmbedCode>Mã nhúng</TabItemEmbedCode>
     <TabItemQRCode>Mã QR</TabItemQRCode>
@@ -585,6 +588,7 @@
     <WizardTeamShare>Quyền truy cập nhóm</WizardTeamShare>
     <WizardTeamShareDescription>Quyền truy cập bên ngoài chỉ dành cho người dùng của một không gian làm việc.</WizardTeamShareDescription>
     <WizardXmlDescription>Tạo một báo cáo với dữ liệu XML.</WizardXmlDescription>
+    <YourPlan>Kế hoạch của bạn</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Mã vạch</StiBarCode>
@@ -890,6 +894,7 @@
     <StiPanelControl>Bảng điều khiển</StiPanelControl>
     <StiPictureBoxControl>Hộp hình ảnh</StiPictureBoxControl>
     <StiRadioButtonControl>Nút radio</StiRadioButtonControl>
+    <StiRadioControl>Điều khiển Radio</StiRadioControl>
     <StiReportControl>Kiểm soát báo cáo</StiReportControl>
     <StiRichTextBoxControl>Hộp văn bản đa dạng</StiRichTextBoxControl>
     <StiTextBoxControl>Hộp văn bản</StiTextBoxControl>
@@ -1558,6 +1563,7 @@
     <ShowDialogForms>Hiển thị hộp thoại</ShowDialogForms>
     <ShowDimensionLines>Hiển thị các dòng kích thước</ShowDimensionLines>
     <ShowOldGaugeEditor>Hiển thị trình chỉnh sửa thước đo cũ</ShowOldGaugeEditor>
+    <ShowSmartGuides>Hiển thị Hướng dẫn thông minh</ShowSmartGuides>
     <StartScreen>Màn hình bắt đầu</StartScreen>
     <title>Tùy chọn</title>
     <UseComponentColor>Sử dụng màu của thành phần để đổ đầy</UseComponentColor>
@@ -1986,6 +1992,14 @@
     <CenterVertically>Cho phép bạn căn chỉnh một thành phần theo chiều dọc tương đối so với các cạnh của đối tượng chứa thành phần đó.</CenterVertically>
     <Close>Đóng trình thiết kế báo cáo.</Close>
     <Columns>Chia một trang thành các cột.</Columns>
+    <CompilationAccess1>Tài liệu này sử dụng quy trình biên dịch. Nếu tài liệu từ một nguồn đáng tin cậy, bạn có thể nhấp vào nút "Mở" để truy cập nó.</CompilationAccess1>
+    <CompilationAccess2>Nếu bạn không chắc chắn về nguồn của tài liệu nhưng vẫn muốn xem nó, bạn có thể nhấp vào nút "Mở trong chế độ an toàn". Trong trường hợp này, bạn sẽ sử dụng giải thích thay vì biên dịch, cho phép bạn chạy tài liệu một cách an toàn.</CompilationAccess2>
+    <CompilationAccess3>Tài liệu này sử dụng quy trình biên dịch và có thể không an toàn. Bạn không thể mở nó.</CompilationAccess3>
+    <CompilationAccessAllow>Cho phép mở tài liệu có biên dịch mà không có bất kỳ cảnh báo hoặc hạn chế nào.</CompilationAccessAllow>
+    <CompilationAccessAsk>Nếu tài liệu sử dụng quy trình biên dịch, một cửa sổ cảnh báo với các hành động được xác định trước sẽ được hiển thị.</CompilationAccessAsk>
+    <CompilationAccessDeny>Từ chối mở bất kỳ tài liệu nào sử dụng quy trình biên dịch. Một cửa sổ đặc biệt sẽ được hiển thị.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Tài liệu có biên dịch sẽ được mở mà không có bất kỳ lời nhắc nào nhưng sẽ tự động chuyển đổi sang chế độ giải thích, không sử dụng quy trình biên dịch.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Bạn đang chuyển sang chế độ biên dịch. Chế độ này cho phép chạy các mã khác nhau và đôi khi nó có thể gây hại. Vui lòng sử dụng chế độ này chỉ khi bạn hiểu tất cả các rủi ro và đồng ý với chúng. Nhấp vào nút {0} để tiếp tục.</CompilationModeEnabling>
     <ComponentSize>Thay đổi kích thước của các thành phần đã chọn.</ComponentSize>
     <CopyStyle>Sao chép kiểu</CopyStyle>
     <CopyToClipboard>Sao chép vào bộ nhớ tạm</CopyToClipboard>
@@ -2062,6 +2076,7 @@
     <menuViewShowHeaders>Hiển thị tiêu đề các dải.</menuViewShowHeaders>
     <menuViewShowOrder>Hiển thị thứ tự các thành phần trên một trang.</menuViewShowOrder>
     <menuViewShowRulers>Xem thước đo, được sử dụng để đo và xếp các đối tượng trên một trang.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Hiển thị Hướng dẫn thông minh để định vị các thành phần liên quan đến nhau.</menuViewShowSmartGuides>
     <MoveBackward>Di chuyển một thành phần đến một cấp độ cao hơn theo thứ tự đặt các thành phần trên một trang.</MoveBackward>
     <MoveForward>Di chuyển một thành phần đến một cấp độ thấp hơn theo thứ tự đặt các thành phần trên một trang.</MoveForward>
     <Orientation>Chuyển đổi các trang giữa bố cục dọc và ngang.</Orientation>
@@ -2134,6 +2149,9 @@
     <CurrentPage>Xử lý trang hiện tại. Nếu tùy chọn này được chọn, thì một trang báo cáo đã chọn sẽ được xử lý.</CurrentPage>
     <CutEdges>Cắt viền của các trang báo cáo.</CutEdges>
     <CutLongLines>Cắt các dòng dài (dòng văn bản) bằng các đường biên của các thành phần.</CutLongLines>
+    <DashboardContains1>Xin lỗi, nhưng báo cáo này chứa một bảng điều khiển.</DashboardContains1>
+    <DashboardContains2>Bạn nên mở báo cáo này trực tiếp trong trình thiết kế!</DashboardContains2>
+    <DashboardContains3>Bạn không thể làm điều đó từ trình xem báo cáo!</DashboardContains3>
     <DigitalSignature>Chữ ký số của tệp.</DigitalSignature>
     <DitheringType>Loại phối màu: Không - Không phối màu, Đã sắp xếp, FloydSt. - với phối màu.</DitheringType>
     <DotMatrixMode>Chế độ này cho phép bạn xem báo cáo sẽ như thế nào nếu in nó trên một máy in ma trận điểm.</DotMatrixMode>
@@ -2196,6 +2214,8 @@
     <TiffCompressionScheme>Lược đồ nén cho các tệp TIFF.</TiffCompressionScheme>
     <ToolEditor>Công cụ này cho phép bạn chỉnh sửa nội dung của các thành phần văn bản trực tiếp trong trình xem báo cáo.</ToolEditor>
     <TypeExport>Tệp báo cáo sẽ được chuyển đổi thành.</TypeExport>
+    <UnsafeCompilation1>Tài liệu này sử dụng quy trình biên dịch. Trong một số trường hợp, điều này có thểkhông an toàn. Do đó, tài liệu sẽ được tải trong chế độ an toàn để giảm thiểu bất kỳ rủi ro tiềm ẩn nào.</UnsafeCompilation1>
+    <UnsafeCompilation2>Nếu bạn cần tài liệu này được sử dụng dưới hình thức ban đầu của nó, vui lòng liên hệ với các nhà phát triển của bạn.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Sử dụng mã hóa hệ thống theo mặc định hoặc chỉ định mã hóa theo tiêu chuẩn.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Định nghĩa dải tiêu đề trang và chân trang làm tiêu đề và chân trang của tài liệu Microsoft Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Định nghĩa dải tiêu đề trang và chân trang làm tiêu đề và chân trang của tài liệu trong Microsoft Word</UsePageHeadersAndFooters>
@@ -2421,6 +2441,7 @@
     <AuthOAuthIdNotSpecified>Bộ xác thực OAuth không được chỉ định!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>Sai mật khẩu!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>Mật khẩu không được chỉ định!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>Mật khẩu quá dài!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Mật khẩu quá ngắn (chiều dài tối thiểu là 6 ký tự)!</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Bạn không thể xóa vai trò vì nó đang được sử dụng bởi những người dùng khác.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Vai trò với tên được chỉ định "{0}" đã tồn tại!</AuthRoleNameAlreadyExists>
@@ -2431,6 +2452,7 @@
     <AuthUserNameAlreadyExists>Tên người dùng (thư điện tử) đã được sử dụng!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Địa chỉ Email này không thể được sử dụng!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Tên người dùng (thư điện tử) chưa được chỉ định!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>Tên đăng nhập (Email) quá dài!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>Tên người dùng (thư điện tử) {0} không được liên kết với tài khoản {1} của bạn!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Tên người dùng (thư điện tử) hoặc mật khẩu sai!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Tên người dùng phải giống với địa chỉ thư điện tử!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2441,6 +2463,7 @@
     <EndDateShouldBeGreaterThanCurrentDate>Ngày kết thúc phải lớn hơn ngày hiện tại!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Ngày kết thúc phải lớn hơn ngày bắt đầu!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Lỗi thực thi</ExecutionError>
+    <GracePeriod>Giai đoạn khoan hồng của đăng ký của bạn sẽ hết hạn trong {0} ngày.</GracePeriod>
     <IsIdentical>"{0}" và "{1}" là giống nhau."</IsIdentical>
     <IsNotAuthorized>Không có quyền truy cập vào "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" không chính xác!</IsNotCorrect>
@@ -3034,6 +3057,10 @@
     <StiColumnShape3DBox>Hộp</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Một phần kim tự tháp</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Kim tự tháp</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Cho phép</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Hỏi</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Từ chối</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Buộc Giải thích</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Giữa</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Trái</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Không</StiCrossHorAlignmentNone>
@@ -3092,6 +3119,7 @@
     <StiFilterConditionContaining>có chứa</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>kết thúc bằng</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>bằng</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>bằng với biến hoặc biến là rỗng</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>lớn hơn</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>lớn hơn hoặc bằng</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>trống</StiFilterConditionIsBlank>
@@ -3854,6 +3882,7 @@
     <DateInfo>Thông tin ngày tháng</DateInfo>
     <DateTimeMode>Chế độ ngày giờ</DateTimeMode>
     <DateTimeStep>Bước nhảy thời gian</DateTimeStep>
+    <DecimalDigits>Số chữ số thập phân</DecimalDigits>
     <Default>Mặc định</Default>
     <DefaultColor>Màu mặc định</DefaultColor>
     <DefaultHeightCell>Chiều cao mặc định của ô</DefaultHeightCell>
@@ -3974,6 +4003,7 @@
     <Footers>Chân trang</Footers>
     <ForeColor>Màu mặt trước</ForeColor>
     <Format>Định dạng</Format>
+    <FormName>Tên biểu mẫu</FormName>
     <FormSettings>Cài đặt biểu mẫu</FormSettings>
     <Fourth>Thứ tư</Fourth>
     <From>Từ</From>
@@ -3982,6 +4012,7 @@
     <FullName>Tên đầy đủ</FullName>
     <Function>Chức năng</Function>
     <Functions>Các chức năng</Functions>
+    <GapAfterLastColumn>Khoảng trống sau cột cuối cùng</GapAfterLastColumn>
     <GisSettings>Cài đặt Gis</GisSettings>
     <GlobalizationStrings>Chuỗi ký tự toàn cầu hóa</GlobalizationStrings>
     <GlobalizedName>Tên toàn cầu hoá</GlobalizedName>
@@ -4078,7 +4109,9 @@
     <Initials>Tên viết tắt</Initials>
     <InitialSelection>Lựa chọn ban đầu</InitialSelection>
     <InitialSelectionSource>Nguồn lựa chọn ban đầu</InitialSelectionSource>
+    <InitialValue>Giá trị ban đầu</InitialValue>
     <InnerText>Văn bản bên trong</InnerText>
+    <Input>Nhập vào</Input>
     <Insert>Chèn</Insert>
     <Interaction>Tương tác</Interaction>
     <InterlacedBrush>Cọ đan xen</InterlacedBrush>
@@ -4278,6 +4311,7 @@
     <Padding>Lề trong</Padding>
     <PageHeight>Chiều cao trang</PageHeight>
     <PageNumbers>Số trang</PageNumbers>
+    <PageTurnTime>Thời gian chuyển trang</PageTurnTime>
     <PageWidth>Chiều rộng trang</PageWidth>
     <Paper>Trang</Paper>
     <PaperSize>Kích cỡ trang</PaperSize>
@@ -4397,6 +4431,7 @@
     <RowHeadersVisible>Có thể nhìn thấy tiêu đề hàng</RowHeadersVisible>
     <RowHeaderWidth>Chiều rộng đầu hàng</RowHeaderWidth>
     <Rows>Hàng</Rows>
+    <RowsPerPage>Hàng trên mỗi trang</RowsPerPage>
     <Scale>Tỉ lệ</Scale>
     <ScaleHor>Tỉ lệ ngang</ScaleHor>
     <ScriptLanguage>Ngôn ngữ kịch bản</ScriptLanguage>
@@ -4450,6 +4485,7 @@
     <ShortValue>Giá trị ngắn</ShortValue>
     <ShowAllValue>Hiển thị tất cả giá trị</ShowAllValue>
     <ShowBehind>Hiển thị đằng sau</ShowBehind>
+    <ShowBlanks>Hiển thị Trống</ShowBlanks>
     <ShowBubble>Hiển thị bong bóng</ShowBubble>
     <ShowDialog>Hiển thị hộp thoại</ShowDialog>
     <ShowEdgeValues>Hiển thị giá trị cạnh</ShowEdgeValues>
@@ -4861,6 +4897,7 @@
     <ClickForMoreDetails>Nhấp để biết thêm chi tiết</ClickForMoreDetails>
     <CollapseAll>Thu gọn tất cả</CollapseAll>
     <Collection>Bộ sưu tập</Collection>
+    <CompilationAccess>Quyền truy cập biên dịch</CompilationAccess>
     <CompilingReport>Biên dịch báo cáo</CompilingReport>
     <Complete>Hoàn thành</Complete>
     <Components>Các thành phần</Components>
@@ -4956,6 +4993,8 @@
     <StiGradientBrush>Tuyến tính</StiGradientBrush>
     <StiHatchBrush>Đường gạch bóng</StiHatchBrush>
     <StiSolidBrush>Đồng màu</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>Lưu Tên và Họ của Người dùng trong 'Tác giả Báo cáo'</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>Lưu 'Tên người dùng' trong 'Tác giả Báo cáo'</StoreUserNameInReportAuthor>
     <StyleBad>Xấu</StyleBad>
     <StyleGood>Tốt</StyleGood>
     <StyleNeutral>Trung lập</StyleNeutral>

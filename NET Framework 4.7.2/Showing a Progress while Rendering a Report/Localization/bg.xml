@@ -110,6 +110,7 @@
     <ForceDelete>Force Delete</ForceDelete>
     <Help>Помощ</Help>
     <Install>Инсталирай</Install>
+    <InvertAll>Обърнете всички</InvertAll>
     <LessOptions>По-малко опции</LessOptions>
     <LoadDataSet>Зареди данни (*.data)</LoadDataSet>
     <More>Още</More>
@@ -122,6 +123,7 @@
     <Ok>&amp;ОК</Ok>
     <Open>Отвори</Open>
     <OpenContainingFolder>Отвори съдържащата папка</OpenContainingFolder>
+    <OpenInSafeMode>Отворете в безопасен режим</OpenInSafeMode>
     <Print>Печат</Print>
     <Publish>Публикувай</Publish>
     <QuickPrint>Бърз печат</QuickPrint>
@@ -493,6 +495,7 @@
     <ShareWindowTitleNew>Сподели</ShareWindowTitleNew>
     <ShowAllFiles>Покажи всички файлове</ShowAllFiles>
     <ShowNotificationMessages>Покажи информационни съобщения</ShowNotificationMessages>
+    <Submissions>Изявления</Submissions>
     <Subscriptions>Абонаменти</Subscriptions>
     <TabItemEmbedCode>Вграден код</TabItemEmbedCode>
     <TabItemQRCode>QR код</TabItemQRCode>
@@ -585,6 +588,7 @@
     <WizardTeamShare>Team Access</WizardTeamShare>
     <WizardTeamShareDescription>Външен достъп само за потребители на едно работно пространство.</WizardTeamShareDescription>
     <WizardXmlDescription>Създаване на отчет с Xml данни.</WizardXmlDescription>
+    <YourPlan>Вашия план</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Баркод</StiBarCode>
@@ -890,6 +894,7 @@
     <StiPanelControl>Панел</StiPanelControl>
     <StiPictureBoxControl>Картинка</StiPictureBoxControl>
     <StiRadioButtonControl>Радио бутон</StiRadioButtonControl>
+    <StiRadioControl>Радио</StiRadioControl>
     <StiReportControl>Елемент на управление</StiReportControl>
     <StiRichTextBoxControl>Rich Text кутия</StiRichTextBoxControl>
     <StiTextBoxControl>Текстово поле</StiTextBoxControl>
@@ -1559,6 +1564,7 @@
     <ShowDialogForms>Показване на диалогови форми</ShowDialogForms>
     <ShowDimensionLines>Показване на оразмерените линии</ShowDimensionLines>
     <ShowOldGaugeEditor>Покажи на редактора на Old Gauge</ShowOldGaugeEditor>
+    <ShowSmartGuides>Показване на интелигентни упътвания</ShowSmartGuides>
     <StartScreen>Начален екран</StartScreen>
     <title>Опции</title>
     <UseComponentColor>Използване цвета на компонента за запълване</UseComponentColor>
@@ -1988,6 +1994,14 @@
     <CenterVertically>Allows you to align a component vertically relative to container edges in what it is placed.</CenterVertically>
     <Close>Затвори дизайнера на отчета.</Close>
     <Columns>Разделите страницата на колони.</Columns>
+    <CompilationAccess1>Този документ използва процеса на компилация. Ако документът е от доверен източник, можете да щракнете върху бутона "Отвори", за да го достъпите.</CompilationAccess1>
+    <CompilationAccess2>Ако не сте сигурни за източника на документа, но все пак искате да го видите, можете да щракнете върху бутона „Отваряне в безопасен режим“. В този случай ще използвате интерпретация вместо компилация, което ви позволява да изпълните документа безопасно.</CompilationAccess2>
+    <CompilationAccess3>Този документ използва процеса на компилиране и може да бъде опасен. Не можеш да го отвориш.</CompilationAccess3>
+    <CompilationAccessAllow>Разрешаване на отваряне на документи с компилация без никакви предупреждения или ограничения.</CompilationAccessAllow>
+    <CompilationAccessAsk>Ако документ използва процеса на компилиране, ще се покаже предупредителен прозорец с предварително дефинирани действия.</CompilationAccessAsk>
+    <CompilationAccessDeny>Забранете отварянето на всеки документ, който използва процеса на компилиране. Ще се покаже специален прозорец.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Документите с компилация ще бъдат отворени без подкана, но ще бъдат автоматично преобразувани в режим на интерпретация, който не използва процеса на компилация.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Превключвате в режим на компилация. Този режим позволява да се изпълнява различен код и понякога може да бъде вреден. Моля, използвайте този режим само ако разбирате всички рискове и сте съгласни с тях. Щракнете върху бутона {0}, за да продължите.</CompilationModeEnabling>
     <ComponentSize>Промяна размера на избраните компоненти.</ComponentSize>
     <CopyStyle>Копирай Стил</CopyStyle>
     <CopyToClipboard>Копирай в клипборда</CopyToClipboard>
@@ -2064,6 +2078,7 @@
     <menuViewShowHeaders>Показване не заглавията на секциите.</menuViewShowHeaders>
     <menuViewShowOrder>Показване на реда на компонентите в страницата.</menuViewShowOrder>
     <menuViewShowRulers>Показване на размерните линии за измерване и подравняване на обектите в страницата.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Показване на интелигентни упътвания за позициониране на компонентите един спрямо друг.</menuViewShowSmartGuides>
     <MoveBackward>Преместване на компонента едно ниво нагоре в реда на разместване на компонентите на страницата.</MoveBackward>
     <MoveForward>Преместване на компонента едно ниво надолу в реда на разместване на компонентите на страницата.</MoveForward>
     <Orientation>Превключване между портретно и пейзажно странично ориентиране.</Orientation>
@@ -2136,6 +2151,9 @@
     <CurrentPage>Обработка на текущата страница. Ако тази опция е избрана, то старницата на отчета ще бъде обработена.</CurrentPage>
     <CutEdges>Скъсяване на очертанията на страниците на отчета.</CutEdges>
     <CutLongLines>Скъсяване на дългите линии (текстови линии) с очертанията на компонентите.</CutLongLines>
+    <DashboardContains1>Съжаляваме, но този отчет съдържа табло dashboard.</DashboardContains1>
+    <DashboardContains2>Трябва да отворите този отчет директно в дизайнера!</DashboardContains2>
+    <DashboardContains3>Не можете да направите това от програмата за преглед на отчети!</DashboardContains3>
     <DigitalSignature>Цифровият подпис на файла.</DigitalSignature>
     <DitheringType>Вид трептене: None - без трептене, Ordered, FloydSt - с трептене.</DitheringType>
     <DotMatrixMode>Този режим позволява да се покаже как ще изглежда отчета ако се отпечатва на матричен принтер.</DotMatrixMode>
@@ -2198,6 +2216,8 @@
     <TiffCompressionScheme>Схемата на компресия за TIFF файлове.</TiffCompressionScheme>
     <ToolEditor>Това средство позволява редатиране на текстовия компонент директно в екрана за преглед на отчета.</ToolEditor>
     <TypeExport>Файла в който отчетът ще бъде кнвертиран.</TypeExport>
+    <UnsafeCompilation1>Този документ използва процеса на компилация. В някои случаи това може да не е безопасно. Следователно документът ще бъде зареден в безопасен режим, за да се сведат до минимум всички потенциални рискове.</UnsafeCompilation1>
+    <UnsafeCompilation2>Ако искате този документ да се използва в оригиналната му форма, моля, свържете се с вашите разработчици.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Използване на системната кодировка по подразбиране или задайте стандартна кодировка.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Дефиниране на секциите заглавие и край на страницата като заглавие и край в MS Word документа</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Дефиниране на секциите заглавие и край на страницата като заглавие и край в документа на MS Word.</UsePageHeadersAndFooters>
@@ -2421,6 +2441,7 @@
     <AuthOAuthIdNotSpecified>OAuth идентификатора не е определен!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>Паролата е некоректна!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>Паролата не е определена!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>Паролата е твърде дълга!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Паролата е твърде къса (минималната дължина е 6 символа)!</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Вие не можете да изтривате ролята, защото тя се използва от други потребители.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Ролята определена с името "{0}" вече съществува!</AuthRoleNameAlreadyExists>
@@ -2431,6 +2452,7 @@
     <AuthUserNameAlreadyExists>Потребителят (Email) вече се използва!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Този е-майл адрес не може да се използва!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Потребителят (Email) не е зададен!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>Потребителското име (имейл) е твърде дълго!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>Потребителско име (имейл) {0} не е свързано с вашия акаунт {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Грешно потребителско име (Email) или парола!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Потребителското име трябва да е  Email адрес!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2441,6 +2463,7 @@
     <EndDateShouldBeGreaterThanCurrentDate>Крайната дата трябва да е по-голяма от текущата!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Крайната дата трябва да е по-голяма от началната дата!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Грешка при изпълнение</ExecutionError>
+    <GracePeriod>Гратисният период на вашия абонамент ще изтече след {0} дни.</GracePeriod>
     <IsIdentical>"{0}" и "{1}" са еднакви."</IsIdentical>
     <IsNotAuthorized>Няма достъп до "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" е некортктно!</IsNotCorrect>
@@ -3034,6 +3057,10 @@
     <StiColumnShape3DBox>Кутия</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Частична Пирамида</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Пирамида</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Разреши</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Питане</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Забрани</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Принудителна интерпретация</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Центрирай</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Отляво</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Няма</StiCrossHorAlignmentNone>
@@ -3092,6 +3119,7 @@
     <StiFilterConditionContaining>съдържа</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>завършва с</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>равно на</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>равно на променлива или променливата е null</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>по-голямо от</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>по-голямо или равно от</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>е празен</StiFilterConditionIsBlank>
@@ -3855,6 +3883,7 @@
     <DateInfo>Информация за дата</DateInfo>
     <DateTimeMode>Режим ДатаЧас</DateTimeMode>
     <DateTimeStep>Стъпка дата час</DateTimeStep>
+    <DecimalDigits>Десетични цифри</DecimalDigits>
     <Default>По подразбиране</Default>
     <DefaultColor>Цвят по подразбиране</DefaultColor>
     <DefaultHeightCell>Височина клетка по подразбиране</DefaultHeightCell>
@@ -3975,6 +4004,7 @@
     <Footers>Долни колонтитули</Footers>
     <ForeColor>Цвят текст</ForeColor>
     <Format>Формат</Format>
+    <FormName>Име на форма</FormName>
     <FormSettings>Настройки на формата</FormSettings>
     <Fourth>Четвърта</Fourth>
     <From>От</From>
@@ -3983,6 +4013,7 @@
     <FullName>Пълно Име</FullName>
     <Function>Функция</Function>
     <Functions>Функции</Functions>
+    <GapAfterLastColumn>Отстояние след последната колона</GapAfterLastColumn>
     <GisSettings>Настройки Гис</GisSettings>
     <GlobalizationStrings>Редове превод</GlobalizationStrings>
     <GlobalizedName>Глобализация</GlobalizedName>
@@ -4080,7 +4111,9 @@
     <Initials>Инициали</Initials>
     <InitialSelection>Първоначално избиране</InitialSelection>
     <InitialSelectionSource>Първоначален източник за избор</InitialSelectionSource>
+    <InitialValue>Начална стойност</InitialValue>
     <InnerText>Вътрешен текст</InnerText>
+    <Input>Въвеждане</Input>
     <Insert>Вмъкни</Insert>
     <Interaction>Взаимодействие</Interaction>
     <InterlacedBrush>Четка преплитане</InterlacedBrush>
@@ -4280,6 +4313,7 @@
     <Padding>Подложка</Padding>
     <PageHeight>Височина</PageHeight>
     <PageNumbers>Номера страница</PageNumbers>
+    <PageTurnTime>Време за обръщане на страницата</PageTurnTime>
     <PageWidth>Ширина</PageWidth>
     <Paper>Хартия</Paper>
     <PaperSize>Размер страница</PaperSize>
@@ -4399,6 +4433,7 @@
     <RowHeadersVisible>Видимост на заглавия редове</RowHeadersVisible>
     <RowHeaderWidth>Ширина на заглавия редове</RowHeaderWidth>
     <Rows>Редове</Rows>
+    <RowsPerPage>Редове на страница</RowsPerPage>
     <Scale>Мащаб</Scale>
     <ScaleHor>Мащабиране по хоризонтала</ScaleHor>
     <ScriptLanguage>Скриптов език</ScriptLanguage>
@@ -4452,6 +4487,7 @@
     <ShortValue>Кратка стойност</ShortValue>
     <ShowAllValue>Покажи всяка стойност</ShowAllValue>
     <ShowBehind>Показване отзад</ShowBehind>
+    <ShowBlanks>Показване на празни места</ShowBlanks>
     <ShowBubble>Покажи балон</ShowBubble>
     <ShowDialog>Показване на диалог</ShowDialog>
     <ShowEdgeValues>Показване на крайни стойности</ShowEdgeValues>
@@ -4864,6 +4900,7 @@
     <ClickForMoreDetails>Натисни за повече детайли</ClickForMoreDetails>
     <CollapseAll>Свиване на всички</CollapseAll>
     <Collection>Колекция</Collection>
+    <CompilationAccess>Достъп до компилация</CompilationAccess>
     <CompilingReport>Компилиране на отчет</CompilingReport>
     <Complete>Пълен</Complete>
     <Components>Компоненти</Components>
@@ -4961,6 +4998,8 @@
     <StiGradientBrush>Градиент</StiGradientBrush>
     <StiHatchBrush>Текстура</StiHatchBrush>
     <StiSolidBrush>Плътен</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>Съхраняване собственото и фамилното име на потребителя в 'Автор на отчета'</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>Съхраняване 'Име потребител' в 'Автор на отчета'</StoreUserNameInReportAuthor>
     <StyleBad>Лош</StyleBad>
     <StyleGood>Добър</StyleGood>
     <StyleNeutral>Неутрален</StyleNeutral>

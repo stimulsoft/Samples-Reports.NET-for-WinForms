@@ -110,6 +110,7 @@
     <ForceDelete>Forzar Borrado</ForceDelete>
     <Help>Ayuda</Help>
     <Install>Instalar</Install>
+    <InvertAll>Invertir Todos</InvertAll>
     <LessOptions>Menos Opciones</LessOptions>
     <LoadDataSet>Cargar DataSet (*.data)</LoadDataSet>
     <More>Más</More>
@@ -122,6 +123,7 @@
     <Ok>&amp;Aceptar</Ok>
     <Open>Abrir</Open>
     <OpenContainingFolder>Abrir carpeta ubicación</OpenContainingFolder>
+    <OpenInSafeMode>Abrir en modo seguro</OpenInSafeMode>
     <Print>Imprimir</Print>
     <Publish>Publicar</Publish>
     <QuickPrint>Impresión Rápida</QuickPrint>
@@ -450,7 +452,7 @@
     <License>Licencia</License>
     <LicenseInformation>Información de licencia</LicenseInformation>
     <LicenseKey>Clave de licencia</LicenseKey>
-    <Login>Log In</Login>
+    <Login>Log in</Login>
     <MyTeam>Mi equipo</MyTeam>
     <NofM>{0}: {1} de {2}</NofM>
     <Open>Abrir</Open>
@@ -493,6 +495,7 @@
     <ShareWindowTitleNew>Compartir</ShareWindowTitleNew>
     <ShowAllFiles>Guardar Todos los Ficheros</ShowAllFiles>
     <ShowNotificationMessages>Mostrar mensajes de notificación</ShowNotificationMessages>
+    <Submissions>Presentaciones</Submissions>
     <Subscriptions>Subscripciones</Subscriptions>
     <TabItemEmbedCode>Embeber Código</TabItemEmbedCode>
     <TabItemQRCode>Código QR</TabItemQRCode>
@@ -585,6 +588,7 @@
     <WizardTeamShare>Acceso de equipo</WizardTeamShare>
     <WizardTeamShareDescription>Acceso externo para usuarios de un solo espacio de trabajo.</WizardTeamShareDescription>
     <WizardXmlDescription>Crear un informe con datos Xml.</WizardXmlDescription>
+    <YourPlan>Tu plan</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Código de Barras</StiBarCode>
@@ -890,6 +894,7 @@
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Imagen</StiPictureBoxControl>
     <StiRadioButtonControl>Botón de Radio</StiRadioButtonControl>
+    <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Informe</StiReportControl>
     <StiRichTextBoxControl>Editor de Texto Enriquecido</StiRichTextBoxControl>
     <StiTextBoxControl>Texto</StiTextBoxControl>
@@ -1559,6 +1564,7 @@
     <ShowDialogForms>Mostrar Diálogos</ShowDialogForms>
     <ShowDimensionLines>Mostrar Líneas de Dimensión</ShowDimensionLines>
     <ShowOldGaugeEditor>Mostrar el editor de Calibre antiguo</ShowOldGaugeEditor>
+    <ShowSmartGuides>Mostrar guías inteligentes</ShowSmartGuides>
     <StartScreen>Pantalla de inicio</StartScreen>
     <title>Opciones</title>
     <UseComponentColor>Usar Color de Componente para rellenar</UseComponentColor>
@@ -1988,6 +1994,14 @@
     <CenterVertically>Permite alinear un componente verticalmente relativo al borde del continente.</CenterVertically>
     <Close>Cerrar el Diseñador de Informes.</Close>
     <Columns>Partir la página en columnas.</Columns>
+    <CompilationAccess1>Este documento utiliza el proceso de compilación. Si el documento proviene de una fuente confiable, puede hacer clic en el botón "Abrir" para acceder a él.</CompilationAccess1>
+    <CompilationAccess2>Si no está seguro de la fuente del documento pero aún desea verlo, puede hacer clic en el botón "Abrir en modo seguro". En este caso, utilizará la interpretación en lugar de la compilación, lo que le permite ejecutar el documento de forma segura.</CompilationAccess2>
+    <CompilationAccess3>Este documento utiliza el proceso de compilación y puede no ser seguro. No puedes abrirlo.</CompilationAccess3>
+    <CompilationAccessAllow>Permita abrir documentos con compilación sin advertencias ni restricciones.</CompilationAccessAllow>
+    <CompilationAccessAsk>Si un documento utiliza el proceso de compilación, se mostrará una ventana de advertencia con acciones predefinidas.</CompilationAccessAsk>
+    <CompilationAccessDeny>Denegar la apertura de cualquier documento que utilice el proceso de compilación. Se mostrará una ventana especial.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Los documentos con compilación se abrirán sin ningún aviso, pero se convertirán automáticamente al modo de interpretación, que no utiliza el proceso de compilación.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Está cambiando al modo de compilación. Este modo permite ejecutar código diferente y, en ocasiones, podría ser dañino. Por favor, use este modo solo si comprende todos los riesgos y está de acuerdo con ellos. Haga clic en el botón {0} para continuar.</CompilationModeEnabling>
     <ComponentSize>Cambiar el tamaño de los componentes seleccionados.</ComponentSize>
     <CopyStyle>Copiar Estilo</CopyStyle>
     <CopyToClipboard>Copiar al Portapapeles</CopyToClipboard>
@@ -2064,6 +2078,7 @@
     <menuViewShowHeaders>Mostrar cabeceras de bandas.</menuViewShowHeaders>
     <menuViewShowOrder>Mostrar el orden de los componentes en la página.</menuViewShowOrder>
     <menuViewShowRulers>Mostrar las reglas, útil para medir y alinear objetos en la página.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Muestre guías inteligentes para ubicar los componentes entre sí.</menuViewShowSmartGuides>
     <MoveBackward>Subir un componente un nivel.</MoveBackward>
     <MoveForward>Bajar un componente un nivel.</MoveForward>
     <Orientation>Alternar entre orientación retrato y apaisado.</Orientation>
@@ -2136,6 +2151,9 @@
     <CurrentPage>Procesar la página actual. Seleccionando esta opción procesará la página seleccionada.</CurrentPage>
     <CutEdges>Recortar los bordes de las páginas del informe.</CutEdges>
     <CutLongLines>Recortar las líneas largas (líneas de texto) por los bordes del componente.</CutLongLines>
+    <DashboardContains1>Lo sentimos, pero este informe contiene un tablero.</DashboardContains1>
+    <DashboardContains2>¡Debe abrir este informe directamente en el diseñador!</DashboardContains2>
+    <DashboardContains3>¡No puede hacer eso desde el visor de informes!</DashboardContains3>
     <DigitalSignature>La firma digital del documento.</DigitalSignature>
     <DitheringType>Tipo Difuminación: Ninguno - sin difuminación, Ordenado, FloydSt - con difuminación.</DitheringType>
     <DotMatrixMode>Este modo permite ver como quedaría un informe si se imprime en una impresora matricial.</DotMatrixMode>
@@ -2198,6 +2216,8 @@
     <TiffCompressionScheme>Esquema de compresión de ficheros TIFF.</TiffCompressionScheme>
     <ToolEditor>Esta herramienta le permite editar el texto de un componente, directamente en el visor del informe.</ToolEditor>
     <TypeExport>El fichero destino a la cual se convertirá el informe.</TypeExport>
+    <UnsafeCompilation1>Este documento utiliza el proceso de compilación. En algunos casos, esto puede no ser seguro. Por lo tanto, el documento se cargará en modo seguro para minimizar cualquier riesgo potencial.</UnsafeCompilation1>
+    <UnsafeCompilation2>Si necesita que este documento se utilice en su forma original, comuníquese con sus desarrolladores.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Usar la codificación del sistema por defecto o especifique una codificación distinta.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Use las bandas de Cabecera y Pie como cabeceras y pies del documento MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Use las bandas de página de Cabecera y Pie como cabeceras y pies del documento MS Word.</UsePageHeadersAndFooters>
@@ -2421,6 +2441,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <AuthOAuthIdNotSpecified>¡La identificación de OAuth no se ha especificado!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>¡La contraseña no es correcta!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>¡No se ha indicado una contraseña!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>¡La contraseña es demasiado larga!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>¡La contraseña es demasiado corta (de una longitud mínima es de 6 caracteres)!</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>¡No se puede eliminar el rol, ya que es utilizado por otros usuarios.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>¡Un rol con el nombre "{0}" ya existe!</AuthRoleNameAlreadyExists>
@@ -2431,6 +2452,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <AuthUserNameAlreadyExists>¡El nombre de usuario (correo electrónico) ya está en uso!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>¡Esta dirección de correo electrónico no se puede utilizar!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>¡No se especificado un nombre de usuario (correo electrónico)!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>¡El nombre de usuario (correo electrónico) es demasiado largo!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>¡El nombre de usuario (correo electrónico) {0} no está asociado con su cuenta {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>¡El nombre de usuario (correo electrónico) o la contraseña es incorrecta!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>¡El nombre de usuario debe ser similar a la dirección de correo electrónico!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2441,6 +2463,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <EndDateShouldBeGreaterThanCurrentDate>¡La fecha de finalización debe ser mayor que la fecha actual!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>¡La fecha de finalización debe ser mayor que la fecha de inicio!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Error de ejecución</ExecutionError>
+    <GracePeriod>El período de gracia de su suscripción expirará en {0} días.</GracePeriod>
     <IsIdentical>"{0}" y "{1}" son idénticos."</IsIdentical>
     <IsNotAuthorized>Sin acceso a "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" ¡no es correcto!</IsNotCorrect>
@@ -3034,6 +3057,10 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiColumnShape3DBox>Caja</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Pirámide parcial</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Pirámide</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Permitir</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Preguntar</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Denegar</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Fuerza la interpretación</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Centrado</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Izquierda</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Ninguno</StiCrossHorAlignmentNone>
@@ -3092,6 +3119,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiFilterConditionContaining>contiene</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>acaba con</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>igual a</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>igual a variable o variable es nula</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>mayor que</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>mayor o igual a</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>está en blanco</StiFilterConditionIsBlank>
@@ -3855,6 +3883,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <DateInfo>Información de Fecha</DateInfo>
     <DateTimeMode>Modo de fecha/hora</DateTimeMode>
     <DateTimeStep>Paso Fecha / Hora</DateTimeStep>
+    <DecimalDigits>Dígitos decimales</DecimalDigits>
     <Default>Estándar</Default>
     <DefaultColor>Color predeterminado</DefaultColor>
     <DefaultHeightCell>Altura por defecto de la Celda</DefaultHeightCell>
@@ -3975,6 +4004,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Footers>Pies</Footers>
     <ForeColor>Color Primer Plano</ForeColor>
     <Format>Formato</Format>
+    <FormName>Nombre del formulario</FormName>
     <FormSettings>Configuración de formulario</FormSettings>
     <Fourth>Cuarto</Fourth>
     <From>Desde</From>
@@ -3983,6 +4013,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <FullName>Nombre completo</FullName>
     <Function>Función</Function>
     <Functions>Funciones</Functions>
+    <GapAfterLastColumn>Espacio después de la última columna</GapAfterLastColumn>
     <GisSettings>Configuración de Gis</GisSettings>
     <GlobalizationStrings>Cadenas de Traducción</GlobalizationStrings>
     <GlobalizedName>Nombre Traducida</GlobalizedName>
@@ -4080,7 +4111,9 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Initials>Inicials</Initials>
     <InitialSelection>Selección inicial</InitialSelection>
     <InitialSelectionSource>Fuente de selección inicial</InitialSelectionSource>
+    <InitialValue>Valor inicial</InitialValue>
     <InnerText>Texto interior</InnerText>
+    <Input>Entrada</Input>
     <Insert>Insertar</Insert>
     <Interaction>Interacción</Interaction>
     <InterlacedBrush>Brocha Entrelazado</InterlacedBrush>
@@ -4280,6 +4313,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Padding>Relleno</Padding>
     <PageHeight>Altura de Página</PageHeight>
     <PageNumbers>Números de Página</PageNumbers>
+    <PageTurnTime>Tiempo de cambio de página</PageTurnTime>
     <PageWidth>Anchura de Página</PageWidth>
     <Paper>Papel</Paper>
     <PaperSize>Tamaño del Papel</PaperSize>
@@ -4399,6 +4433,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <RowHeadersVisible>Fila del Cabeceras Visíble</RowHeadersVisible>
     <RowHeaderWidth>Anchura de la Fila de Cabecera</RowHeaderWidth>
     <Rows>Filas</Rows>
+    <RowsPerPage>Filas por página</RowsPerPage>
     <Scale>Escala</Scale>
     <ScaleHor>Escala Horizontal</ScaleHor>
     <ScriptLanguage>Lenguaje del Script</ScriptLanguage>
@@ -4452,6 +4487,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ShortValue>Valor corto</ShortValue>
     <ShowAllValue>Mostrar todo el valor</ShowAllValue>
     <ShowBehind>Mostrar Detrás</ShowBehind>
+    <ShowBlanks>Mostrar espacios en blanco</ShowBlanks>
     <ShowBubble>Mostrar burbuja</ShowBubble>
     <ShowDialog>Mostrar Diálogo</ShowDialog>
     <ShowEdgeValues>Mostrar Diálogo</ShowEdgeValues>
@@ -4864,6 +4900,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ClickForMoreDetails>Clic para Más Detalles</ClickForMoreDetails>
     <CollapseAll>Contraer todo</CollapseAll>
     <Collection>Colección</Collection>
+    <CompilationAccess>Acceso a la compilación</CompilationAccess>
     <CompilingReport>Compilando Informe</CompilingReport>
     <Complete>Completo</Complete>
     <Components>Componentes</Components>
@@ -4961,6 +4998,8 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiGradientBrush>Gradiente</StiGradientBrush>
     <StiHatchBrush>Trama</StiHatchBrush>
     <StiSolidBrush>Sólido</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>Almacene el nombre y apellido del usuario en 'Autor del informe'</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>Almacenar 'Nombre de usuario' en 'Autor del informe'</StoreUserNameInReportAuthor>
     <StyleBad>Mal</StyleBad>
     <StyleGood>Buen</StyleGood>
     <StyleNeutral>Neutro</StyleNeutral>

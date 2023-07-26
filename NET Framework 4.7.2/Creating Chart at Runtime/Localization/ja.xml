@@ -110,6 +110,7 @@
     <ForceDelete>強制削除</ForceDelete>
     <Help>ヘルプ</Help>
     <Install>インストール</Install>
+    <InvertAll>すべて反転</InvertAll>
     <LessOptions>詳細オプションを閉じる</LessOptions>
     <LoadDataSet>データセット (*.data)のロード</LoadDataSet>
     <More>もっと</More>
@@ -122,6 +123,7 @@
     <Ok>OK</Ok>
     <Open>開く</Open>
     <OpenContainingFolder>包含するフォルダを開く</OpenContainingFolder>
+    <OpenInSafeMode>セーフモードで開く</OpenInSafeMode>
     <Print>印刷</Print>
     <Publish>公開</Publish>
     <QuickPrint>クイックプリント</QuickPrint>
@@ -493,6 +495,7 @@
     <ShareWindowTitleNew>シェア</ShareWindowTitleNew>
     <ShowAllFiles>すべてのファイルを表示</ShowAllFiles>
     <ShowNotificationMessages>通知メッセージを表示</ShowNotificationMessages>
+    <Submissions>投稿</Submissions>
     <Subscriptions>定期購読</Subscriptions>
     <TabItemEmbedCode>埋め込みコード</TabItemEmbedCode>
     <TabItemQRCode>QRコード</TabItemQRCode>
@@ -585,6 +588,7 @@
     <WizardTeamShare>チームアクセス</WizardTeamShare>
     <WizardTeamShareDescription>1つのワークスペースのユーザーのみの外部アクセス</WizardTeamShareDescription>
     <WizardXmlDescription>XMLデータを含むレポートを作成します。</WizardXmlDescription>
+    <YourPlan>あなたのプラン</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>コード</StiBarCode>
@@ -889,6 +893,7 @@
     <StiPanelControl>パネル</StiPanelControl>
     <StiPictureBoxControl>ピクチャーボックス</StiPictureBoxControl>
     <StiRadioButtonControl>ラジオボタン</StiRadioButtonControl>
+    <StiRadioControl>ラジオ</StiRadioControl>
     <StiReportControl>レポートコントロール</StiReportControl>
     <StiRichTextBoxControl>リッチテキストボックス</StiRichTextBoxControl>
     <StiTextBoxControl>テキストボックス</StiTextBoxControl>
@@ -1557,6 +1562,7 @@
     <ShowDialogForms>ダイアログ・フォームを表示する</ShowDialogForms>
     <ShowDimensionLines>寸法線を表示する</ShowDimensionLines>
     <ShowOldGaugeEditor>古いゲージエディタを表示する</ShowOldGaugeEditor>
+    <ShowSmartGuides>スマートガイドを表示する</ShowSmartGuides>
     <StartScreen>スタート画面</StartScreen>
     <title>オプション</title>
     <UseComponentColor>充填に部品カラーを使用する</UseComponentColor>
@@ -1985,6 +1991,14 @@
     <CenterVertically>部品が配置されているコンテナのエッジに対して部品を垂直方向に揃えることができます。</CenterVertically>
     <Close>レポートデザイナを閉じます。</Close>
     <Columns>ページを列に分割する。</Columns>
+    <CompilationAccess1>この文書はコンパイルプロセスを使用しています。信頼できるソースからの文書であれば、「開く」ボタンをクリックしてアクセスすることができます。</CompilationAccess1>
+    <CompilationAccess2>文書の出典が不確かで、それでも閲覧したい場合は、「セーフモードで開く」ボタンをクリックしてください。この場合、コンパイルの代わりにインタープリテーションを使用することになり、ドキュメントを安全に実行することができます。</CompilationAccess2>
+    <CompilationAccess3>この文書はコンパイルプロセスを使用しており、安全でない可能性があります。開くことはできない。</CompilationAccess3>
+    <CompilationAccessAllow>警告や制限なしに、コンパイルされたドキュメントを開けるようにする。</CompilationAccessAllow>
+    <CompilationAccessAsk>文書がコンパイルプロセスを使用する場合、事前に定義されたアクションを含む警告ウィンドウが表示されます。</CompilationAccessAsk>
+    <CompilationAccessDeny>コンパイルプロセスを使用する文書を開くことを拒否する。特別なウィンドウが表示されます。</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>コンパイルを含む文書は、プロンプトなしで開かれるが、コンパイル・プロセスを使用しない解釈モードに自動的に変換される。</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>コンパイルモードに切り替わっています。このモードでは異なるコードを実行することができ、時には有害な場合もあります。すべてのリスクを理解し、同意できる場合のみこのモードを使用してください。0}ボタンをクリックして次に進んでください。</CompilationModeEnabling>
     <ComponentSize>選択した部品のサイズを変更します。</ComponentSize>
     <CopyStyle>スタイルコピー</CopyStyle>
     <CopyToClipboard>クリップボードコピー</CopyToClipboard>
@@ -2061,6 +2075,7 @@
     <menuViewShowHeaders>バンドのヘッダを表示する。</menuViewShowHeaders>
     <menuViewShowOrder>ページ上の部品の順序を表示します。</menuViewShowOrder>
     <menuViewShowRulers>ページ上のオブジェクトの測定と整列に使用されるルーラーを表示します。</menuViewShowRulers>
+    <menuViewShowSmartGuides>スマートガイドを表示して、コンポーネントを相対的に配置する。</menuViewShowSmartGuides>
     <MoveBackward>ページに部品を配置する順序で、部品を1つ上のレベルに移動します。</MoveBackward>
     <MoveForward>ページ上に部品を配置する順序で部品を1つ下のレベルに移動します。</MoveForward>
     <Orientation>縦横レイアウトのページを切り替えます。</Orientation>
@@ -2133,6 +2148,9 @@
     <CurrentPage>現在のページを処理しています。 このオプションを選択すると、選択したレポートページが処理されます。</CurrentPage>
     <CutEdges>レポートページの境界線をトリムします。</CutEdges>
     <CutLongLines>長い線（テキスト行）を部品の境界線でトリムします。</CutLongLines>
+    <DashboardContains1>申し訳ありませんが、このレポートにはダッシュボードが含まれています。</DashboardContains1>
+    <DashboardContains2>このレポートはデザイナーで直接開いてください！</DashboardContains2>
+    <DashboardContains3>レポート・ビューアからはできない！</DashboardContains3>
     <DigitalSignature>ファイルのデジタル署名。</DigitalSignature>
     <DitheringType>ディザリングタイプ：なし - ディザリングなし、オーダード、FloydSt。 - ディザリングあり。</DitheringType>
     <DotMatrixMode>このモードでは、ドットマトリックスプリンタで印刷する場合のレポートの表示方法を確認できます。</DotMatrixMode>
@@ -2195,6 +2213,8 @@
     <TiffCompressionScheme>TIFFファイルの圧縮方式。</TiffCompressionScheme>
     <ToolEditor>このツールを使用すると、レポートビューアで直接テキスト部品の内容を編集できます。</ToolEditor>
     <TypeExport>レポートが変換されるファイル。</TypeExport>
+    <UnsafeCompilation1>この文書ではコンパイルプロセスを使用しています。場合によっては、これは安全ではないかもしれません。そのため、潜在的なリスクを最小限に抑えるため、文書はセーフモードで読み込まれます。</UnsafeCompilation1>
+    <UnsafeCompilation2>この文書を原文のまま使用する必要がある場合は、開発者にご連絡ください。</UnsafeCompilation2>
     <UseDefaultSystemEncoding>デフォルトでシステムコーディングを使用するか、標準でエンコードを指定してください。</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>ヘッダとフッタをMicrosoft Word文書のヘッダとフッタとして定義します。</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>ページヘッダとフッタをMicrosoft Wordで文書のヘッダとフッタとして定義します。</UsePageHeadersAndFooters>
@@ -2414,6 +2434,7 @@
     <AuthOAuthIdNotSpecified>OAuth識別名は指定されていません！</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>パスワードが正しくありません！</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>パスワードは指定されていません！</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>パスワードが長すぎる！</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>パスワードが短すぎます（最小文字数は6文字です）。</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>ロールは他のユーザーによって使用されているため、削除できません。</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>指定された名前「{0}」のロールはすでに存在します。</AuthRoleNameAlreadyExists>
@@ -2424,6 +2445,7 @@
     <AuthUserNameAlreadyExists>ユーザー名（Email）はすでに使用中です！</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>このメールアドレスは使用できません！</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>ユーザー名（電子メール）は指定されていません！</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>ユーザー名（Email）が長すぎます！</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>ユーザー名（メール）{0}は{1}アカウントに関連付けられていません！</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>ユーザー名（電子メール）またはパスワードが間違っています！</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>ユーザー名はメールアドレスと似ているはずです！</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2434,6 +2456,7 @@
     <EndDateShouldBeGreaterThanCurrentDate>終了日は現在の日付より大きくする必要があります。</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>終了日は開始日より長くする必要があります。</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>実行エラー</ExecutionError>
+    <GracePeriod>サブスクリプションの猶予期間は{0}日で終了します。</GracePeriod>
     <IsIdentical>"{0}"と "{1}"は同一です。 "</IsIdentical>
     <IsNotAuthorized>"{0}"へのアクセス権がありません！</IsNotAuthorized>
     <IsNotCorrect>"{0}"は間違っています！</IsNotCorrect>
@@ -3027,6 +3050,10 @@
     <StiColumnShape3DBox>ボックス</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>部分ピラミッド</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>ピラミッド</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>許可</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>確認</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>拒否</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>説明の強制</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>センター</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>左</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>なし</StiCrossHorAlignmentNone>
@@ -3085,6 +3112,7 @@
     <StiFilterConditionContaining>含有</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>〜で終わる</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>に等しい</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>変数と等しいか、変数がNULL</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>より大きい</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>以上</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>空白</StiFilterConditionIsBlank>
@@ -3832,6 +3860,7 @@
     <DateInfo>日付情報</DateInfo>
     <DateTimeMode>DateTimeモード</DateTimeMode>
     <DateTimeStep>日時ステップ</DateTimeStep>
+    <DecimalDigits>10進数</DecimalDigits>
     <Default>デフォルト</Default>
     <DefaultColor>デフォルトの色</DefaultColor>
     <DefaultHeightCell>セルのデフォルトの高さ</DefaultHeightCell>
@@ -3952,6 +3981,7 @@
     <Footers>フッタ</Footers>
     <ForeColor>フォアカラー</ForeColor>
     <Format>フォーマット</Format>
+    <FormName>フォーム名</FormName>
     <FormSettings>フォーム設定</FormSettings>
     <Fourth>4番</Fourth>
     <From>から</From>
@@ -3960,6 +3990,7 @@
     <FullName>氏名</FullName>
     <Function>関数</Function>
     <Functions>関数</Functions>
+    <GapAfterLastColumn>最終列後のギャップ</GapAfterLastColumn>
     <GisSettings>GIS設定</GisSettings>
     <GlobalizationStrings>グローバル対応文字列</GlobalizationStrings>
     <GlobalizedName>グローバル対応名</GlobalizedName>
@@ -4056,7 +4087,9 @@
     <Initials>イニシャル</Initials>
     <InitialSelection>初期選択</InitialSelection>
     <InitialSelectionSource>最初の選択ソース</InitialSelectionSource>
+    <InitialValue>初期値</InitialValue>
     <InnerText>インナーテキスト</InnerText>
+    <Input>インプット</Input>
     <Insert>挿入</Insert>
     <Interaction>インタラクション</Interaction>
     <InterlacedBrush>インターレースブラシ</InterlacedBrush>
@@ -4256,6 +4289,7 @@
     <Padding>パディング</Padding>
     <PageHeight>ページ高</PageHeight>
     <PageNumbers>ページ番号</PageNumbers>
+    <PageTurnTime>ページ回転時間</PageTurnTime>
     <PageWidth>ページ幅</PageWidth>
     <Paper>用紙</Paper>
     <PaperSize>用紙サイズ</PaperSize>
@@ -4375,6 +4409,7 @@
     <RowHeadersVisible>行ヘッダが表示される</RowHeadersVisible>
     <RowHeaderWidth>行ヘッダの幅</RowHeaderWidth>
     <Rows>行</Rows>
+    <RowsPerPage>ページあたりの行数</RowsPerPage>
     <Scale>規模</Scale>
     <ScaleHor>スケール・ホール</ScaleHor>
     <ScriptLanguage>スクリプト言語</ScriptLanguage>
@@ -4428,6 +4463,7 @@
     <ShortValue>短い値</ShortValue>
     <ShowAllValue>すべての値を表示</ShowAllValue>
     <ShowBehind>後ろに表示</ShowBehind>
+    <ShowBlanks>ブランクを表示</ShowBlanks>
     <ShowBubble>バブルを表示</ShowBubble>
     <ShowDialog>ダイアログ表示</ShowDialog>
     <ShowEdgeValues>エッジ値表示</ShowEdgeValues>
@@ -4839,6 +4875,7 @@
     <ClickForMoreDetails>詳細をクリックしてください</ClickForMoreDetails>
     <CollapseAll>すべてを折りたたむ</CollapseAll>
     <Collection>コレクション</Collection>
+    <CompilationAccess>コンパイル・アクセス</CompilationAccess>
     <CompilingReport>レポートのコンパイル</CompilingReport>
     <Complete>コンプリート</Complete>
     <Components>部品</Components>
@@ -4934,6 +4971,8 @@
     <StiGradientBrush>勾配</StiGradientBrush>
     <StiHatchBrush>ハッチ</StiHatchBrush>
     <StiSolidBrush>固体</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>レポート作成者」にユーザーの姓と名を保存する</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>レポート作成者」に「ユーザー名」を保存する</StoreUserNameInReportAuthor>
     <StyleBad>悪い</StyleBad>
     <StyleGood>良い</StyleGood>
     <StyleNeutral>中性</StyleNeutral>

@@ -110,6 +110,7 @@
     <ForceDelete>Forçar Exclusão</ForceDelete>
     <Help>Ajuda</Help>
     <Install>Instalar</Install>
+    <InvertAll>Inverter tudo</InvertAll>
     <LessOptions>Menos opções</LessOptions>
     <LoadDataSet>Inicializado DataSet (*.data)</LoadDataSet>
     <More>Mais</More>
@@ -122,6 +123,7 @@
     <Ok>&amp;OK</Ok>
     <Open>Abrir</Open>
     <OpenContainingFolder>Abrir pasta de contenção</OpenContainingFolder>
+    <OpenInSafeMode>Abrir no modo de segurança</OpenInSafeMode>
     <Print>Imprimir</Print>
     <Publish>Publicar</Publish>
     <QuickPrint>Cópia rápida</QuickPrint>
@@ -432,7 +434,7 @@
     <LabelFromReport>De Relatório</LabelFromReport>
     <LabelFromReportCode>De Relatório ( definir no código)</LabelFromReportCode>
     <LabelInviteUser>Convide novos usuários para sua equipe. Envie convites para seus e-mails.</LabelInviteUser>
-    <LabelLastLogin>Ultimo Log In:</LabelLastLogin>
+    <LabelLastLogin>Ultimo Log in:</LabelLastLogin>
     <LabelLastTime>Hora Final:</LabelLastTime>
     <LabelModified>Modificado:</LabelModified>
     <LabelNewPassword>Nova Senha:</LabelNewPassword>
@@ -493,6 +495,7 @@
     <ShareWindowTitleNew>Compartilhar</ShareWindowTitleNew>
     <ShowAllFiles>Mostrar Todos os Arquivos</ShowAllFiles>
     <ShowNotificationMessages>Mostrar mensagens de notificação</ShowNotificationMessages>
+    <Submissions>Envios</Submissions>
     <Subscriptions>Assinaturas</Subscriptions>
     <TabItemEmbedCode>Código Embutido</TabItemEmbedCode>
     <TabItemQRCode>QR Code</TabItemQRCode>
@@ -566,7 +569,7 @@
     <WindowTitleRecover>Recuperar Items</WindowTitleRecover>
     <WindowTitleRoleEdit>Editar Regra</WindowTitleRoleEdit>
     <WindowTitleRoleNew>Nova Regra</WindowTitleRoleNew>
-    <WindowTitleSignUp>Sign Up</WindowTitleSignUp>
+    <WindowTitleSignUp>Sign up</WindowTitleSignUp>
     <WindowTitleUserEdit>Editar Usuario</WindowTitleUserEdit>
     <WindowTitleUserNew>Novo Usuario</WindowTitleUserNew>
     <WindowTitleUserParameterEdit>Editar parâmetro do usuário</WindowTitleUserParameterEdit>
@@ -585,6 +588,7 @@
     <WizardTeamShare>Acesso da equipe</WizardTeamShare>
     <WizardTeamShareDescription>Acesso externo para usuários de apenas um espaço de trabalho.</WizardTeamShareDescription>
     <WizardXmlDescription>Criar relatório com dados XML.</WizardXmlDescription>
+    <YourPlan>Seu plano</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Código Barras</StiBarCode>
@@ -891,6 +895,7 @@ sucedida</ConnectionSuccessfull>
     <StiPanelControl>Painel</StiPanelControl>
     <StiPictureBoxControl>Caixa de Imagem</StiPictureBoxControl>
     <StiRadioButtonControl>Botão Rádio</StiRadioButtonControl>
+    <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Relatório</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
     <StiTextBoxControl>Caixa de Texto</StiTextBoxControl>
@@ -1560,6 +1565,7 @@ sucedida</ConnectionSuccessfull>
     <ShowDialogForms>Mostrar formas de diálogo</ShowDialogForms>
     <ShowDimensionLines>Mostrar Dimensão de Linhas</ShowDimensionLines>
     <ShowOldGaugeEditor>Mostrar o Editor do Gauge antigo</ShowOldGaugeEditor>
+    <ShowSmartGuides>Mostrar guias inteligentes</ShowSmartGuides>
     <StartScreen>Tela inicial</StartScreen>
     <title>Opções</title>
     <UseComponentColor>Usar Cor de Componente Para Preenchimento</UseComponentColor>
@@ -1991,6 +1997,14 @@ sucedida</ConnectionSuccessfull>
     <CenterVertically>Permite alinhar um componente vertical em relação às bordas recipiente em que é colocado.</CenterVertically>
     <Close>Feche o Designer de Relatórios.</Close>
     <Columns>Dividir uma página em colunas.</Columns>
+    <CompilationAccess1>Este documento usa o processo de compilação. Se o documento for de uma fonte confiável, você pode clicar no botão "Abrir" para acessá-lo.</CompilationAccess1>
+    <CompilationAccess2>Se você não tiver certeza sobre a origem do documento, mas ainda quiser visualizá-lo, clique no botão "Abrir no modo de segurança". Nesse caso, você usará interpretação em vez de compilação, o que permite executar o documento com segurança.</CompilationAccess2>
+    <CompilationAccess3>Este documento usa o processo de compilação e pode ser inseguro. Você não pode abri-lo.</CompilationAccess3>
+    <CompilationAccessAllow>Permitir a abertura de documentos com compilação sem quaisquer avisos ou restrições.</CompilationAccessAllow>
+    <CompilationAccessAsk>Se um documento usar o processo de compilação, uma janela de aviso com ações predefinidas será exibida.</CompilationAccessAsk>
+    <CompilationAccessDeny>Negue a abertura de qualquer documento que use o processo de compilação. Uma janela especial será exibida.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Os documentos com compilação serão abertos sem nenhum prompt, mas serão convertidos automaticamente para o modo de interpretação, que não usa o processo de compilação.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Você está mudando para o modo de compilação. Este modo permite executar código diferente e às vezes pode ser prejudicial. Por favor, use este modo somente se você entender todos os riscos e concordar com eles. Clique no botão {0} para prosseguir.</CompilationModeEnabling>
     <ComponentSize>Alterar o tamanho dos componentes selecionados.</ComponentSize>
     <CopyStyle>Copiar Estilo</CopyStyle>
     <CopyToClipboard>Copiar para o Clipboard</CopyToClipboard>
@@ -2067,6 +2081,7 @@ sucedida</ConnectionSuccessfull>
     <menuViewShowHeaders>cabeçalhos Show de faixas.</menuViewShowHeaders>
     <menuViewShowOrder>fim mapa de componentes em uma página.</menuViewShowOrder>
     <menuViewShowRulers>Ver os governantes, usado para medir e alinhar objetos em uma página.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Exiba guias inteligentes para posicionar os componentes em relação uns aos outros.</menuViewShowSmartGuides>
     <MoveBackward>Mover um componente a um nível superior a fim de colocar os componentes em uma página.</MoveBackward>
     <MoveForward>Mover um componente para um nível inferior a fim de colocar os componentes em uma página.</MoveForward>
     <Orientation>Alterne entre as páginas de retratos e álbuns fotográficos.</Orientation>
@@ -2139,6 +2154,9 @@ sucedida</ConnectionSuccessfull>
     <CurrentPage>Processamento da página atual. Se esta opção for selecionada, uma página de relatório selecionado será processado.</CurrentPage>
     <CutEdges>Apare as bordas de páginas de relatório.</CutEdges>
     <CutLongLines>Apare as longas filas (linhas de texto) pelas Boras do componentes.</CutLongLines>
+    <DashboardContains1>Desculpe, mas este relatório contém um painel.</DashboardContains1>
+    <DashboardContains2>Você deve abrir este relatório diretamente no designer!</DashboardContains2>
+    <DashboardContains3>Você não pode fazer isso no visualizador de relatórios!</DashboardContains3>
     <DigitalSignature>A assinatura digital do arquivo.</DigitalSignature>
     <DitheringType>Dithering type: None - não hesitando, ordenada, FloydSt - com pontilhado.</DitheringType>
     <DotMatrixMode>Esta modalidade permite que você veja como é que um relatório de como se olha para imprimi-lo em uma impressora matricial.</DotMatrixMode>
@@ -2201,6 +2219,8 @@ sucedida</ConnectionSuccessfull>
     <TiffCompressionScheme>Esquema de compressão de arquivos TIFF.</TiffCompressionScheme>
     <ToolEditor>Esta ferramenta permite que você editar o conteúdo de componentes de texto diretamente no relatório do Usuário.</ToolEditor>
     <TypeExport>O arquivo do relatório serão convertidos em.</TypeExport>
+    <UnsafeCompilation1>Este documento usa o processo de compilação. Em alguns casos, isso pode não ser seguro. Portanto, o documento será carregado no modo de segurança para minimizar quaisquer riscos potenciais.</UnsafeCompilation1>
+    <UnsafeCompilation2>Se você precisar que este documento seja usado em sua forma original, entre em contato com seus desenvolvedores.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Use codificação do sistema por padrão ou especificar a codificação por padrão.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Defina a página de faixas de cabeçalho e rodapé como o cabeçalho e rodapé do documento MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Definir as faixas da página de cabeçalho e rodapé como o cabeçalho eo rodapé do documento no MS Word.</UsePageHeadersAndFooters>
@@ -2424,6 +2444,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <AuthOAuthIdNotSpecified>O identificador de OAuth não foi especificado!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>A senha não está correta!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>A senha não foi especificada!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>A senha é muito longa!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>A senha é muito curta (a tamanho mínimo é de 6 caracteres)!</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Você não pode excluir a regra porque ele é usado por outros usuários.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>A regra com o nome especificado "{0}" já existe!</AuthRoleNameAlreadyExists>
@@ -2434,6 +2455,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <AuthUserNameAlreadyExists>O nome de usuário (e-mail) já está em uso!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Este endereço de e-mail não pode ser usado!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>O nome de usuário (e-mail) não está especificado!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>O nome de usuário (e-mail) é muito longo!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>O nome de usuário (email) {0} não está associado à sua conta {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>O nome de usuário (e-mail) ou a senha está incorreta!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>O nome de usuário deve ser semelhante para o endereço de e-mail!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2444,6 +2466,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <EndDateShouldBeGreaterThanCurrentDate>A data final deve ser maior que a data atual!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>A data final deve ser maior que a data de início!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Erro de Execução</ExecutionError>
+    <GracePeriod>O período de carência de sua assinatura expira em {0} dias.</GracePeriod>
     <IsIdentical>"{0}" e "{1}" são idênticos."</IsIdentical>
     <IsNotAuthorized>Nenhum acesso à "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" é incorreto!</IsNotCorrect>
@@ -3051,6 +3074,10 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiColumnShape3DBox>Caixa</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Pirâmide parcial</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Pirâmide</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Permitir</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Perguntar</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Negar</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Interpretação de força</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Centro</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Esquerda</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Nenhum</StiCrossHorAlignmentNone>
@@ -3109,6 +3136,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiFilterConditionContaining>contendo</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>terminando com</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>igual a</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>igual a variável ou variável é nula</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>maior que</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>maior que ou igual a</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>Em Branco</StiFilterConditionIsBlank>
@@ -3872,6 +3900,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <DateInfo>Informação de Data</DateInfo>
     <DateTimeMode>Modo Data e Hora</DateTimeMode>
     <DateTimeStep>Data Hora do Passo</DateTimeStep>
+    <DecimalDigits>Dígitos decimais</DecimalDigits>
     <Default>Padrão</Default>
     <DefaultColor>Cor Padrão</DefaultColor>
     <DefaultHeightCell>Altura padrão da Celula</DefaultHeightCell>
@@ -3992,6 +4021,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Footers>Rodapés</Footers>
     <ForeColor>Cor de Frente</ForeColor>
     <Format>Formatar</Format>
+    <FormName>Nome do formulario</FormName>
     <FormSettings>Configurações do formulário</FormSettings>
     <Fourth>Quarto</Fourth>
     <From>De</From>
@@ -4000,6 +4030,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <FullName>Nome completo</FullName>
     <Function>Função</Function>
     <Functions>Funções</Functions>
+    <GapAfterLastColumn>Espaço após a última coluna</GapAfterLastColumn>
     <GisSettings>Configurações Gis</GisSettings>
     <GlobalizationStrings>String da globalização</GlobalizationStrings>
     <GlobalizedName>globalizar Nome</GlobalizedName>
@@ -4096,7 +4127,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Initials>Iniciais</Initials>
     <InitialSelection>Seleção Inicial</InitialSelection>
     <InitialSelectionSource>Origem da seleção inicial</InitialSelectionSource>
+    <InitialValue>Valor inicial</InitialValue>
     <InnerText>Texto Interno</InnerText>
+    <Input>Entrada</Input>
     <Insert>Inserir</Insert>
     <Interaction>Interação</Interaction>
     <InterlacedBrush>Pincel interlaçado</InterlacedBrush>
@@ -4296,6 +4329,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Padding>Preenchimento</Padding>
     <PageHeight>Altura da Página</PageHeight>
     <PageNumbers>Numero da Página</PageNumbers>
+    <PageTurnTime>Tempo de virada de página</PageTurnTime>
     <PageWidth>Largura da Página</PageWidth>
     <Paper>Papel</Paper>
     <PaperSize>Tamanho do papel</PaperSize>
@@ -4417,6 +4451,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <RowHeadersVisible>Linha do Cabeçalho Visível</RowHeadersVisible>
     <RowHeaderWidth>Largura da Linha do Cabeçalho</RowHeaderWidth>
     <Rows>Linhas</Rows>
+    <RowsPerPage>Linhas por página</RowsPerPage>
     <Scale>Escala</Scale>
     <ScaleHor>Escala Horizontal</ScaleHor>
     <ScriptLanguage>Linguagem do Script</ScriptLanguage>
@@ -4470,6 +4505,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <ShortValue>Valor Curto</ShortValue>
     <ShowAllValue>Mostrar todo o valor</ShowAllValue>
     <ShowBehind>Mostrar ao Fundo</ShowBehind>
+    <ShowBlanks>Mostrar espaços em branco</ShowBlanks>
     <ShowBubble>Mostrar bolha</ShowBubble>
     <ShowDialog>Diálogo da Visualização</ShowDialog>
     <ShowEdgeValues>Mostrar valores da borda</ShowEdgeValues>
@@ -4886,6 +4922,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <ClickForMoreDetails>Clique para mais detalhes</ClickForMoreDetails>
     <CollapseAll>Recolher Tudo</CollapseAll>
     <Collection>Coleção</Collection>
+    <CompilationAccess>Acesso de compilação</CompilationAccess>
     <CompilingReport>Compilando Relatório</CompilingReport>
     <Complete>Completo</Complete>
     <Components>Componentes</Components>
@@ -4983,6 +5020,8 @@ contexto do painel de propriedades.</qnConfiguration>
     <StiGradientBrush>Gradiente</StiGradientBrush>
     <StiHatchBrush>Choque</StiHatchBrush>
     <StiSolidBrush>Sólido</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>Armazene o nome e o sobrenome do usuário em 'Report Author'</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>Armazene 'Nome de usuário' em 'Autor do relatório'</StoreUserNameInReportAuthor>
     <StyleBad>Mau</StyleBad>
     <StyleGood>Bom</StyleGood>
     <StyleNeutral>Neutro</StyleNeutral>

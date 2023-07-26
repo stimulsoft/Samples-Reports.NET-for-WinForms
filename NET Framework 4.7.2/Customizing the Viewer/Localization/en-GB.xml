@@ -110,6 +110,7 @@
     <ForceDelete>Force Delete</ForceDelete>
     <Help>Help</Help>
     <Install>Install</Install>
+    <InvertAll>Invert All</InvertAll>
     <LessOptions>Less Options</LessOptions>
     <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
     <More>More</More>
@@ -122,6 +123,7 @@
     <Ok>&amp;OK</Ok>
     <Open>Open</Open>
     <OpenContainingFolder>Open Containing Folder</OpenContainingFolder>
+    <OpenInSafeMode>Open in Safe Mode</OpenInSafeMode>
     <Print>Print</Print>
     <Publish>Publish</Publish>
     <QuickPrint>Quick Print</QuickPrint>
@@ -369,7 +371,7 @@
     <ButtonDeleteAll>Delete All</ButtonDeleteAll>
     <ButtonDesign>Design Report</ButtonDesign>
     <ButtonLater>Later</ButtonLater>
-    <ButtonLogInWith>Log In with {0}</ButtonLogInWith>
+    <ButtonLogInWith>Log in with {0}</ButtonLogInWith>
     <ButtonLogout>Logout</ButtonLogout>
     <ButtonPublish>Publish</ButtonPublish>
     <ButtonPurchase>Purchase</ButtonPurchase>
@@ -380,8 +382,8 @@
     <ButtonRun>Run</ButtonRun>
     <ButtonScheduler>Scheduler</ButtonScheduler>
     <ButtonShare>Share</ButtonShare>
-    <ButtonSignUp>Sign Up</ButtonSignUp>
-    <ButtonSignUpWith>Sign Up with {0}</ButtonSignUpWith>
+    <ButtonSignUp>Sign up</ButtonSignUp>
+    <ButtonSignUpWith>Sign up with {0}</ButtonSignUpWith>
     <ButtonSkip>Skip</ButtonSkip>
     <ButtonView>View</ButtonView>
     <ButtonWhereUsed>Where is it used?</ButtonWhereUsed>
@@ -432,7 +434,7 @@
     <LabelFromReport>From Report</LabelFromReport>
     <LabelFromReportCode>From Report (define in code)</LabelFromReportCode>
     <LabelInviteUser>Invite new users to your team. Send invitations to their emails.</LabelInviteUser>
-    <LabelLastLogin>Last Log In:</LabelLastLogin>
+    <LabelLastLogin>Last Log in:</LabelLastLogin>
     <LabelLastTime>Last Time:</LabelLastTime>
     <LabelModified>Modified:</LabelModified>
     <LabelNewPassword>New Password:</LabelNewPassword>
@@ -450,7 +452,7 @@
     <License>License</License>
     <LicenseInformation>License Information</LicenseInformation>
     <LicenseKey>License Key</LicenseKey>
-    <Login>Log In</Login>
+    <Login>Log in</Login>
     <MyTeam>My Team</MyTeam>
     <NofM>{0}: {1} of {2}</NofM>
     <Open>Open</Open>
@@ -493,6 +495,7 @@
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
     <ShowNotificationMessages>Show Notification Messages</ShowNotificationMessages>
+    <Submissions>Submissions</Submissions>
     <Subscriptions>Subscriptions</Subscriptions>
     <TabItemEmbedCode>Embed Code</TabItemEmbedCode>
     <TabItemQRCode>QR Code</TabItemQRCode>
@@ -562,11 +565,11 @@
     <WindowDescriptionRecover>Selected items will be recovered from the Recycle Bin.</WindowDescriptionRecover>
     <WindowTitleDelete>Delete Items</WindowTitleDelete>
     <WindowTitleForgotPassword>Forgot Password</WindowTitleForgotPassword>
-    <WindowTitleLogin>Log In</WindowTitleLogin>
+    <WindowTitleLogin>Log in</WindowTitleLogin>
     <WindowTitleRecover>Recover Items</WindowTitleRecover>
     <WindowTitleRoleEdit>Edit Role</WindowTitleRoleEdit>
     <WindowTitleRoleNew>New Role</WindowTitleRoleNew>
-    <WindowTitleSignUp>Sign Up</WindowTitleSignUp>
+    <WindowTitleSignUp>Sign up</WindowTitleSignUp>
     <WindowTitleUserEdit>Edit User</WindowTitleUserEdit>
     <WindowTitleUserNew>New User</WindowTitleUserNew>
     <WindowTitleUserParameterEdit>Edit User Parameter</WindowTitleUserParameterEdit>
@@ -585,6 +588,7 @@
     <WizardTeamShare>Team Access</WizardTeamShare>
     <WizardTeamShareDescription>External access for users of one workspace only.</WizardTeamShareDescription>
     <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
+    <YourPlan>Your Plan</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
@@ -889,6 +893,7 @@
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Picture Box</StiPictureBoxControl>
     <StiRadioButtonControl>Radio Button</StiRadioButtonControl>
+    <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
     <StiTextBoxControl>Text Box</StiTextBoxControl>
@@ -1557,6 +1562,7 @@
     <ShowDialogForms>Show Dialog Forms</ShowDialogForms>
     <ShowDimensionLines>Show Dimension Lines</ShowDimensionLines>
     <ShowOldGaugeEditor>Show Old Gauge Editor</ShowOldGaugeEditor>
+    <ShowSmartGuides>Show Smart Guides</ShowSmartGuides>
     <StartScreen>Start Screen</StartScreen>
     <title>Options</title>
     <UseComponentColor>Use Component Colour for Filling</UseComponentColor>
@@ -1985,6 +1991,14 @@
     <CenterVertically>Allows you to align a component vertically relative to container edges in what it is placed.</CenterVertically>
     <Close>Close the Report Designer.</Close>
     <Columns>Split a page into columns.</Columns>
+    <CompilationAccess1>This document uses the compilation process. If the document is from a trusted source, you can click the "Open" button to access it.</CompilationAccess1>
+    <CompilationAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, you will use interpretation instead of compilation, which enables you to run the document safely.</CompilationAccess2>
+    <CompilationAccess3>This document uses the compilation process and it can be unsafe. You can't open it.</CompilationAccess3>
+    <CompilationAccessAllow>Allow opening documents with compilation without any warnings or restrictions.</CompilationAccessAllow>
+    <CompilationAccessAsk>If a document uses the compilation process, a warning window with predefined actions will be displayed.</CompilationAccessAsk>
+    <CompilationAccessDeny>Deny opening any document that uses the compilation process. A special window will be displayed.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>You are switching to compilation mode. This mode allows you to run different code, and sometimes it could be harmful. Please use this mode only if you understand all the risks and agree to them. Click the {0} button to proceed.</CompilationModeEnabling>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <CopyStyle>Copy Style</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
@@ -2061,6 +2075,7 @@
     <menuViewShowHeaders>Show headers of bands.</menuViewShowHeaders>
     <menuViewShowOrder>Show order of components on a page.</menuViewShowOrder>
     <menuViewShowRulers>View the rulers, used to measure and line up objects on a page.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Display Smart Guides to position components relative to each other.</menuViewShowSmartGuides>
     <MoveBackward>Move a component to one level higher in order of placing components on a page.</MoveBackward>
     <MoveForward>Move a component to one level lower in order of placing components on a page.</MoveForward>
     <Orientation>Switch the pages between portrait and landscape layouts.</Orientation>
@@ -2133,6 +2148,9 @@
     <CurrentPage>Processing the current page. If this option is selected, then a selected report page will be processed.</CurrentPage>
     <CutEdges>Trim the borders of report pages.</CutEdges>
     <CutLongLines>Trim the long lines (text lines) by the borders of components.</CutLongLines>
+    <DashboardContains1>Sorry, but this report contains a dashboard.</DashboardContains1>
+    <DashboardContains2>You should open this report directly in the designer!</DashboardContains2>
+    <DashboardContains3>You cannot do that from the report viewer!</DashboardContains3>
     <DigitalSignature>The digital signature of the file.</DigitalSignature>
     <DitheringType>Dithering type: None - no dithering, Ordered, FloydSt. - with dithering.</DitheringType>
     <DotMatrixMode>This mode allows you to see how will a report look like if to print it on a dot matrix printer.</DotMatrixMode>
@@ -2195,6 +2213,8 @@
     <TiffCompressionScheme>Compression scheme for TIFF files.</TiffCompressionScheme>
     <ToolEditor>This tool allows you to edit contents of text components directly in the report viewer.</ToolEditor>
     <TypeExport>The file the report will be converted into.</TypeExport>
+    <UnsafeCompilation1>This document uses the compilation process. In some cases, this may not be safe. Therefore, the document will be loaded in safe mode to minimize any potential risks.</UnsafeCompilation1>
+    <UnsafeCompilation2>If you require this document to be used in its original form, please contact your developers.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Use system coding by default or specify the encoding by standard.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Define the page bands Header and Footer as the header and footer of the Microsoft Word document.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Define the bands Page Header and Footer as the header and footer of the document in Microsoft Word.</UsePageHeadersAndFooters>
@@ -2420,6 +2440,7 @@
     <AuthOAuthIdNotSpecified>The OAuth identificator is not specified!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>The password is not correct!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>The password is not specified!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>The password is too long!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>The password is too short (a minimum length is 6 chars)!</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>You cannot delete the role because it is used by other users.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>The role with the specified name "{0}" already exists!</AuthRoleNameAlreadyExists>
@@ -2430,6 +2451,7 @@
     <AuthUserNameAlreadyExists>The username (Email) is already in use!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>This Email address cannot be used!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>The username (Email) is not specified!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>The username (Email) is too long!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>Username (email) {0} is not associated with your {1} account!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>The username (Email) or password is incorrect!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>The username should be similar to the Email address!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2440,6 +2462,7 @@
     <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>The end date should be greater than start date!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Execution error</ExecutionError>
+    <GracePeriod>The grace period of your subscription will expire in {0} days.</GracePeriod>
     <IsIdentical>"{0}" and "{1}" are identical."</IsIdentical>
     <IsNotAuthorized>No access to "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" is incorrect!</IsNotCorrect>
@@ -3033,6 +3056,10 @@
     <StiColumnShape3DBox>Box</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Partial Pyramid</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Pyramid</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Allow</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Ask</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Deny</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Force Interpretation</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Centre</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Left</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>None</StiCrossHorAlignmentNone>
@@ -3854,6 +3881,7 @@
     <DateInfo>Date Info</DateInfo>
     <DateTimeMode>DateTime Mode</DateTimeMode>
     <DateTimeStep>Date Time Step</DateTimeStep>
+    <DecimalDigits>Decimal Digits</DecimalDigits>
     <Default>Default</Default>
     <DefaultColor>Default Colour</DefaultColor>
     <DefaultHeightCell>Default Height of Cell</DefaultHeightCell>
@@ -3974,6 +4002,7 @@
     <Footers>Footers</Footers>
     <ForeColor>Fore Colour</ForeColor>
     <Format>Format</Format>
+    <FormName>Form Name</FormName>
     <FormSettings>Form Settings</FormSettings>
     <Fourth>Fourth</Fourth>
     <From>From</From>
@@ -3982,6 +4011,7 @@
     <FullName>Full Name</FullName>
     <Function>Function</Function>
     <Functions>Functions</Functions>
+    <GapAfterLastColumn>Gap After Last Column</GapAfterLastColumn>
     <GisSettings>Gis Settings</GisSettings>
     <GlobalizationStrings>Globalization Strings</GlobalizationStrings>
     <GlobalizedName>Globalized Name</GlobalizedName>
@@ -4078,7 +4108,9 @@
     <Initials>Initials</Initials>
     <InitialSelection>Initial Selection</InitialSelection>
     <InitialSelectionSource>Initial Selection Source</InitialSelectionSource>
+    <InitialValue>Initial Value</InitialValue>
     <InnerText>Inner Text</InnerText>
+    <Input>Input</Input>
     <Insert>Insert</Insert>
     <Interaction>Interaction</Interaction>
     <InterlacedBrush>Interlaced Brush</InterlacedBrush>
@@ -4278,6 +4310,7 @@
     <Padding>Padding</Padding>
     <PageHeight>Page Height</PageHeight>
     <PageNumbers>Page Numbers</PageNumbers>
+    <PageTurnTime>Page Turn Time</PageTurnTime>
     <PageWidth>Page Width</PageWidth>
     <Paper>Paper</Paper>
     <PaperSize>Paper Size</PaperSize>
@@ -4397,6 +4430,7 @@
     <RowHeadersVisible>Row Headers Visible</RowHeadersVisible>
     <RowHeaderWidth>Row Header Width</RowHeaderWidth>
     <Rows>Rows</Rows>
+    <RowsPerPage>Rows per Page</RowsPerPage>
     <Scale>Scale</Scale>
     <ScaleHor>Scale Hor</ScaleHor>
     <ScriptLanguage>Script Language</ScriptLanguage>
@@ -4450,6 +4484,7 @@
     <ShortValue>Short Value</ShortValue>
     <ShowAllValue>Show All Value</ShowAllValue>
     <ShowBehind>Show Behind</ShowBehind>
+    <ShowBlanks>Show Blanks</ShowBlanks>
     <ShowBubble>Show Bubble</ShowBubble>
     <ShowDialog>Show Dialogue</ShowDialog>
     <ShowEdgeValues>Show Edge Values</ShowEdgeValues>
@@ -4861,6 +4896,7 @@
     <ClickForMoreDetails>Click for More Details</ClickForMoreDetails>
     <CollapseAll>Collapse All</CollapseAll>
     <Collection>Collection</Collection>
+    <CompilationAccess>Compilation Access</CompilationAccess>
     <CompilingReport>Compiling Report</CompilingReport>
     <Complete>Complete</Complete>
     <Components>Components</Components>
@@ -4956,6 +4992,8 @@
     <StiGradientBrush>Gradient</StiGradientBrush>
     <StiHatchBrush>Hatch</StiHatchBrush>
     <StiSolidBrush>Solid</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>Store User's First and Last Name in 'Report Author'</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>Store 'User Name' in 'Report Author'</StoreUserNameInReportAuthor>
     <StyleBad>Bad</StyleBad>
     <StyleGood>Good</StyleGood>
     <StyleNeutral>Neutral</StyleNeutral>

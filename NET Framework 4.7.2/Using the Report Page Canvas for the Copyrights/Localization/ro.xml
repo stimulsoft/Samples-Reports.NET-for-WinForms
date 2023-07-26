@@ -112,6 +112,7 @@
     <ForceDelete>Ștergere Forțată</ForceDelete>
     <Help>Ajutor</Help>
     <Install>Instalare</Install>
+    <InvertAll>Inversare tot</InvertAll>
     <LessOptions>Mai puține opțiuni</LessOptions>
     <LoadDataSet>Incarcă DataSet (*.data)</LoadDataSet>
     <More>Mai mult</More>
@@ -124,6 +125,7 @@
     <Ok>&amp;OK</Ok>
     <Open>Deschide</Open>
     <OpenContainingFolder>Deschideți folderul care conține</OpenContainingFolder>
+    <OpenInSafeMode>Deschidere în modul sigur</OpenInSafeMode>
     <Print>Imprimare</Print>
     <Publish>Publică</Publish>
     <QuickPrint>Imprimare rapida</QuickPrint>
@@ -495,6 +497,7 @@
     <ShareWindowTitleNew>Partajare</ShareWindowTitleNew>
     <ShowAllFiles>Arată Toate Fişierele</ShowAllFiles>
     <ShowNotificationMessages>Afișare mesaje de notificare</ShowNotificationMessages>
+    <Submissions>Trimiterile</Submissions>
     <Subscriptions>Abonamente</Subscriptions>
     <TabItemEmbedCode>Integrare Cod</TabItemEmbedCode>
     <TabItemQRCode>Cod QR</TabItemQRCode>
@@ -587,6 +590,7 @@
     <WizardTeamShare>Acces echipă</WizardTeamShare>
     <WizardTeamShareDescription>Acces extern numai pentru utilizatorii unui spațiu de lucru.</WizardTeamShareDescription>
     <WizardXmlDescription>Creare raport cu date XML.</WizardXmlDescription>
+    <YourPlan>Planul dumneavoastră</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Cod de bare</StiBarCode>
@@ -905,6 +909,7 @@
     <StiPanelControl>Panou</StiPanelControl>
     <StiPictureBoxControl>Imagine</StiPictureBoxControl>
     <StiRadioButtonControl>Buton opţiuni</StiRadioButtonControl>
+    <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Raport</StiReportControl>
     <StiRichTextBoxControl>Control tip Rich Text</StiRichTextBoxControl>
     <StiTextBoxControl>Căsuţă text</StiTextBoxControl>
@@ -1574,6 +1579,7 @@
     <ShowDialogForms>Afișare formulare de dialog</ShowDialogForms>
     <ShowDimensionLines>Arată linii dimensiune</ShowDimensionLines>
     <ShowOldGaugeEditor>Afișare Editor Vechi</ShowOldGaugeEditor>
+    <ShowSmartGuides>Afișare ghiduri inteligente</ShowSmartGuides>
     <StartScreen>Ecran de Pornire</StartScreen>
     <title>Opţiuni</title>
     <UseComponentColor>Foloseşte culoarea componentei la umplere</UseComponentColor>
@@ -2010,6 +2016,14 @@
     <CenterVertically>Vă permite să aliniaţi o componentă vertical în raport cu marginile containerului în care se gaseşte.</CenterVertically>
     <Close>Închide Designer-ul de Rapoarte .</Close>
     <Columns>Împarte o pagină în coloane.</Columns>
+    <CompilationAccess1>Acest document utilizează procesul de compilare. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul "Deschidere" pentru a-l accesa.</CompilationAccess1>
+    <CompilationAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să-l vizualizați, puteți face clic pe butonul "Deschidere în modul sigur". În acest caz, veți folosi interpretarea în loc de compilare, ceea ce vă permite să rulați documentul în siguranță..</CompilationAccess2>
+    <CompilationAccess3>Acest document utilizează procesul de compilare și poate fi nesigur. Nu îl puteți deschide.</CompilationAccess3>
+    <CompilationAccessAllow>Permite deschiderea documentelor care utilizează procesul de compilare fără avertismente sau restricții.</CompilationAccessAllow>
+    <CompilationAccessAsk>Dacă un document utilizează procesul de compilare, va fi afișată o fereastră de avertizare cu acțiuni predefinite.</CompilationAccessAsk>
+    <CompilationAccessDeny>Refuzați deschiderea oricărui document care utilizează procesul de compilare. Se va afișa o fereastră specială.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Documentele cu proces de compilare vor fi deschise fără nicio solicitare, dar vor fi convertite automat în modul de interpretare, care nu utilizează compilare.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Trecere la modul de compilare. Acest mod permite rularea unui cod diferit și uneori poate fi dăunător. Vă rugăm să utilizați acest mod numai dacă înțelegeți toate riscurile și sunteți de acord cu ele. Faceți clic pe butonul {0} pentru a continua.</CompilationModeEnabling>
     <ComponentSize>Schimbă dimensiunea componentele selectate.</ComponentSize>
     <CopyStyle>Stil Copiere</CopyStyle>
     <CopyToClipboard>Copie în Clipboard</CopyToClipboard>
@@ -2086,6 +2100,7 @@
     <menuViewShowHeaders>Arată antetele pentru benzi.</menuViewShowHeaders>
     <menuViewShowOrder>Arată ordinea componentelor de pe o pagină.</menuViewShowOrder>
     <menuViewShowRulers>Vizualizare rigle, utilizate pentru măsurarea şi alinierea obiectelor de pe o pagină.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Afișare ghiduri inteligente pentru a poziționa componentele unul față de celălalt.</menuViewShowSmartGuides>
     <MoveBackward>Mută un element la un nivel mai înalt, în vederea introducerii de componente pe o pagină.</MoveBackward>
     <MoveForward>Mută o componentă la un nivel mai jos în vederea introducerii componentelor pe o pagină.</MoveForward>
     <Orientation>Comutarea paginilor intre aspect portret şi aspect album.</Orientation>
@@ -2158,6 +2173,9 @@
     <CurrentPage>Prelucrarea pagină curentă. Dacă această opţiune este aleasă, o pagină selectată din raport va fi prelucrată.</CurrentPage>
     <CutEdges>Tăiere margini pagini raport.</CutEdges>
     <CutLongLines>Tăiere linii lungi (linii de text) de marginile componentelor.</CutLongLines>
+    <DashboardContains1>Ne pare rău, dar acest raport conține un panou de control.</DashboardContains1>
+    <DashboardContains2>Ar trebui să deschideți acest raport direct în designer!</DashboardContains2>
+    <DashboardContains3>Nu puteți face aceasta din vizualizatorul de rapoarte!</DashboardContains3>
     <DigitalSignature>Semnătura digitală a fişierului.</DigitalSignature>
     <DitheringType>Tip Cuantizare: Făra - făra cuantizare, Ordonat, FloydSt - folosind cuantizare.</DitheringType>
     <DotMatrixMode>Acest mod vă permite să vedeţi cum va arăta un raport în cazul în care-l imprimaţi pe o imprimantă matriceală</DotMatrixMode>
@@ -2220,6 +2238,8 @@
     <TiffCompressionScheme>Schema de compresie fişiere TIFF.</TiffCompressionScheme>
     <ToolEditor>Acest instrument vă permite să editaţi conţinutul componentelor direct la vizualizarea raportului.</ToolEditor>
     <TypeExport>Fişierul raport va fi convertite în.</TypeExport>
+    <UnsafeCompilation1>Acest document utilizează procesul de compilare. În unele cazuri, acest lucru poate să nu fie sigur. Prin urmare, documentul va fi încărcat în modul sigur pentru a minimiza orice riscuri potențiale.</UnsafeCompilation1>
+    <UnsafeCompilation2>Dacă doriți ca acest document să fie utilizat în forma sa originală, vă rugăm să contactați dezvoltatorii dvs.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Utilizaţi sistemul de encodare implicit sau specifică encodarea standard.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Definire benzi pagină Antet şi Subsol ca antet şi subsol din documentul MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Definire benzi pagină Antet şi Subsol ca antet şi subsol a documentului în MS Word.</UsePageHeadersAndFooters>
@@ -2443,6 +2463,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AuthOAuthIdNotSpecified>Identificatorul OAuth nu este specificat!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>Parola nu este corectă!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>Parola nu este specificată!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>Parola este prea lungă!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Parola este prea scurtă(minim 6 caractere)!</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Nu puteți șterge rolul, deoarece este folosit de către alți utilizatori.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Rolul denumit "{0}" există deja!</AuthRoleNameAlreadyExists>
@@ -2453,6 +2474,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AuthUserNameAlreadyExists>Numele de utilizator (e-mail) este deja în uz!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Această adresă de e-mail nu poate fi utilizată!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Numele de utilizator (e-mail) nu este specificat!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>Numele de utilizator (e-mail) este prea lung!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>Nume utilizator (e-mail) {0} nu este asociat cu contul dvs. {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Numele de utilizator (e-mail) sau parola este incorectă!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Numele de utilizator ar trebui să fie similar cu adresa de e-mail!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2463,6 +2485,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <EndDateShouldBeGreaterThanCurrentDate>Data încheiere trebuie să fie mai mare decât data curentă!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Data încheiere trebuie să fie mai mare decât data de începere!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Eroare de execuție</ExecutionError>
+    <GracePeriod>Perioada de grație a abonamentului dvs. va expira în {0} zile.</GracePeriod>
     <IsIdentical>"{0}" și "{1}" sunt identice."</IsIdentical>
     <IsNotAuthorized>Nu există acces la "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" este incorect!</IsNotCorrect>
@@ -3079,6 +3102,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiColumnShape3DBox>Cutie</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Piramidă parțială</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Piramidă</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Permite</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Întreabă</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Refuză</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Forțează interpretarea</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Central</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Stânga</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Niciuna</StiCrossHorAlignmentNone>
@@ -3137,6 +3164,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiFilterConditionContaining>conţinând</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>sfârşind cu</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>egal cu</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>egal cu variabila sau variabila este nulă</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>mai mare decat</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>mai mare sau egal cu</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>este necompletat</StiFilterConditionIsBlank>
@@ -3902,6 +3930,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DateInfo>Informaţii dată</DateInfo>
     <DateTimeMode>Modul DateTime</DateTimeMode>
     <DateTimeStep>Interval Pas</DateTimeStep>
+    <DecimalDigits>Cifre zecimale</DecimalDigits>
     <Default>Predefinite</Default>
     <DefaultColor>Culoare prestabilită</DefaultColor>
     <DefaultHeightCell>Înălţime predefinită a celulelor</DefaultHeightCell>
@@ -4022,6 +4051,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Footers>Subsoluri</Footers>
     <ForeColor>Culoare text</ForeColor>
     <Format>Format</Format>
+    <FormName>Nume formular</FormName>
     <FormSettings>Setări formular</FormSettings>
     <Fourth>Al patrulea</Fourth>
     <From>De la</From>
@@ -4030,6 +4060,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <FullName>Nume complet</FullName>
     <Function>Funcţie</Function>
     <Functions>Funcţii</Functions>
+    <GapAfterLastColumn>Decalaj după ultima coloană</GapAfterLastColumn>
     <GisSettings>Setări Gis</GisSettings>
     <GlobalizationStrings>Şiruri globalizare</GlobalizationStrings>
     <GlobalizedName>Denumire globalizată</GlobalizedName>
@@ -4127,7 +4158,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Initials>Inițiale</Initials>
     <InitialSelection>Selecția inițială</InitialSelection>
     <InitialSelectionSource>Sursa inițială de selecție</InitialSelectionSource>
+    <InitialValue>Valoare inițială</InitialValue>
     <InnerText>Text interior</InnerText>
+    <Input>Intrare</Input>
     <Insert>Inserează</Insert>
     <Interaction>Interacţiune</Interaction>
     <InterlacedBrush>Pensulă întreţesută</InterlacedBrush>
@@ -4327,6 +4360,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Padding>Umplutură</Padding>
     <PageHeight>Înălţime pagină</PageHeight>
     <PageNumbers>Număr pagină</PageNumbers>
+    <PageTurnTime>Timpul de întoarcere a paginii</PageTurnTime>
     <PageWidth>Lăţime pagină</PageWidth>
     <Paper>Hârtie</Paper>
     <PaperSize>Dimensiune hârtie</PaperSize>
@@ -4448,6 +4482,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <RowHeadersVisible>Antete rând vizibile</RowHeadersVisible>
     <RowHeaderWidth>Lăţime antet de rând</RowHeaderWidth>
     <Rows>Rânduri</Rows>
+    <RowsPerPage>Rânduri pe pagină</RowsPerPage>
     <Scale>Scară</Scale>
     <ScaleHor>Scară orizontală</ScaleHor>
     <ScriptLanguage>Limbajul scriptului</ScriptLanguage>
@@ -4501,6 +4536,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ShortValue>Valoare scurtă</ShortValue>
     <ShowAllValue>Arată Toate Valorile</ShowAllValue>
     <ShowBehind>Afişează în spate</ShowBehind>
+    <ShowBlanks>Afisare spații libere</ShowBlanks>
     <ShowBubble>Arată Balon</ShowBubble>
     <ShowDialog>Arată căsuţă</ShowDialog>
     <ShowEdgeValues>Arată valorile marginilor</ShowEdgeValues>
@@ -4914,6 +4950,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ClickForMoreDetails>Clic pentru mai multe detalii</ClickForMoreDetails>
     <CollapseAll>Comprimă tot</CollapseAll>
     <Collection>Colecţie</Collection>
+    <CompilationAccess>Accesul la compilare</CompilationAccess>
     <CompilingReport>Compilare Raport</CompilingReport>
     <Complete>Complet</Complete>
     <Components>Componente</Components>
@@ -5011,6 +5048,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiGradientBrush>Degradé</StiGradientBrush>
     <StiHatchBrush>Haşurat</StiHatchBrush>
     <StiSolidBrush>Solid</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>Stocare numele și prenumele utilizatorului în 'Autor raport'</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>Stocare 'Nume utilizator' în 'Autor raport'</StoreUserNameInReportAuthor>
     <StyleBad>Incorect</StyleBad>
     <StyleGood>Corect</StyleGood>
     <StyleNeutral>Neutru</StyleNeutral>

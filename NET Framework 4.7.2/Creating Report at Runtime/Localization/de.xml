@@ -110,6 +110,7 @@
     <ForceDelete>Erzwungene Löschung</ForceDelete>
     <Help>Hilfe</Help>
     <Install>Installieren</Install>
+    <InvertAll>Alles invertieren</InvertAll>
     <LessOptions>Weniger Optionen</LessOptions>
     <LoadDataSet>DataSet laden (*.data)</LoadDataSet>
     <More>Mehr</More>
@@ -122,6 +123,7 @@
     <Ok>OK</Ok>
     <Open>Öffnen</Open>
     <OpenContainingFolder>Beinhaltenden Ordner öffnen</OpenContainingFolder>
+    <OpenInSafeMode>Im abgesicherten Modus öffnen</OpenInSafeMode>
     <Print>Drucken</Print>
     <Publish>Veröffentlichen</Publish>
     <QuickPrint>Schneller Druck</QuickPrint>
@@ -493,6 +495,7 @@
     <ShareWindowTitleNew>Freigabe-Einstellungen</ShareWindowTitleNew>
     <ShowAllFiles>Alle Datien anzeigen</ShowAllFiles>
     <ShowNotificationMessages>Benachrichtigungsmeldung anzeigen</ShowNotificationMessages>
+    <Submissions>Einreichungen</Submissions>
     <Subscriptions>Subskriptionen</Subscriptions>
     <TabItemEmbedCode>Einbettungscode</TabItemEmbedCode>
     <TabItemQRCode>QR-Code</TabItemQRCode>
@@ -566,7 +569,7 @@
     <WindowTitleRecover>Elemente wiederherstellen</WindowTitleRecover>
     <WindowTitleRoleEdit>Rolle bearbeiten</WindowTitleRoleEdit>
     <WindowTitleRoleNew>Neue Rolle</WindowTitleRoleNew>
-    <WindowTitleSignUp>Sign Up</WindowTitleSignUp>
+    <WindowTitleSignUp>Sign up</WindowTitleSignUp>
     <WindowTitleUserEdit>Benutzer bearbeiten</WindowTitleUserEdit>
     <WindowTitleUserNew>Neuer Benutzer</WindowTitleUserNew>
     <WindowTitleUserParameterEdit>Benutzerparameter bearbeiten</WindowTitleUserParameterEdit>
@@ -585,6 +588,7 @@
     <WizardTeamShare>Team-Zugriff</WizardTeamShare>
     <WizardTeamShareDescription>Externer Zugriff nur für die Benutzer eines Arbeitsbereiches.</WizardTeamShareDescription>
     <WizardXmlDescription>Den Bericht mit Xml-Daten erstellen.</WizardXmlDescription>
+    <YourPlan>Ihr Plan</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Barcode</StiBarCode>
@@ -890,6 +894,7 @@
     <StiPanelControl>Leiste</StiPanelControl>
     <StiPictureBoxControl>Profilbild</StiPictureBoxControl>
     <StiRadioButtonControl>RadioButton</StiRadioButtonControl>
+    <StiRadioControl>Optionsfeld</StiRadioControl>
     <StiReportControl>Bericht</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
     <StiTextBoxControl>Textfeld</StiTextBoxControl>
@@ -1559,6 +1564,7 @@
     <ShowDialogForms>Dialogformularen anzeigen</ShowDialogForms>
     <ShowDimensionLines>Maßlinien anzeigen</ShowDimensionLines>
     <ShowOldGaugeEditor>Alten Messgerät-Editor zeigen</ShowOldGaugeEditor>
+    <ShowSmartGuides>Intelligente Hilfslinien anzeigen</ShowSmartGuides>
     <StartScreen>Startbildschirm</StartScreen>
     <title>Optionen</title>
     <UseComponentColor>Komponenten-Farben zum Ausfüllen benutzen</UseComponentColor>
@@ -1989,6 +1995,14 @@
     <CenterVertically>Vertikal zentrieren</CenterVertically>
     <Close>Designer schließen</Close>
     <Columns>Spalten</Columns>
+    <CompilationAccess1>Dieses Dokument verwendet den Kompilierungsprozess. Wenn das Dokument aus zuverlässiger Quelle ist, können Sie auf Schaltfläche "Öffnen" klicken, um darauf zuzugreifen.</CompilationAccess1>
+    <CompilationAccess2>Wenn Sie sich nicht sicher sind, woher das Dokument stammt, es aber dennoch ansehen möchten, können Sie auf Schaltfläche "Im abgesicherten Modus öffnen" klicken. In diesem Fall verwenden Sie Interpretierung statt der Kompilierung, was erlaubt Ihnen, das Dokument sicher auszuführen.</CompilationAccess2>
+    <CompilationAccess3>Dieses Dokument verwendet den Kompilierungsprozess und es kann unsicher sein. Sie können nicht es öffnen.</CompilationAccess3>
+    <CompilationAccessAllow>Ermöglicht das Dokument mit Kompilierung ohne Warnungen und Beschränkungen zu öffnen.</CompilationAccessAllow>
+    <CompilationAccessAsk>Wenn das Dokument den Kompilierungsprozess verwendet, wird das Fenster mit vordefinierten Aktionen angezeigt werden.</CompilationAccessAsk>
+    <CompilationAccessDeny>Das Öffnen jedes Dokumentes, das den Kompilierungsprozess verwendet, verweigern. Ein spezielles Fenster wird angezeigt werden.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Die Dokumente mit Kompilierung werden ohne zusätzliche Abfrage geöffnet werden, aber werden automatisch in den Interpretation-Modus, der keinen Kompilierungsprozess verwendet, umgewandelt.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Sie wechseln in den Kompilierungsmodus. Dieser Modus ermöglicht den unterschiedlichen Code auszuführen, und manchmal könnte es gefährlich sein. Verwenden Sie bitte diesen Modus nur wenn Sie alle Risiken verstehen und mit ihnen einverstanden sind. Klicken Sie auf Schaltfläche {0} zum Fortfahren.</CompilationModeEnabling>
     <ComponentSize>Grösse der Komponenten ändern</ComponentSize>
     <CopyStyle>Stil kopieren</CopyStyle>
     <CopyToClipboard>In Zwischenablage kopieren</CopyToClipboard>
@@ -2065,6 +2079,7 @@
     <menuViewShowHeaders>Kopfzeilen anzeigen</menuViewShowHeaders>
     <menuViewShowOrder>Reihenfolge der Komponenten anzeigen</menuViewShowOrder>
     <menuViewShowRulers>Lineale anzeigen</menuViewShowRulers>
+    <menuViewShowSmartGuides>Intelligente Hilfslinien anzeigen, die Komponenten relativ zueinander zu platzieren.</menuViewShowSmartGuides>
     <MoveBackward>Komponente eine Ebene nach Oben verschieben</MoveBackward>
     <MoveForward>Komponente eine Ebene nach Unten verschieben</MoveForward>
     <Orientation>Ausrichtung</Orientation>
@@ -2137,6 +2152,9 @@
     <CurrentPage>Die momentan angezeigte Seite des Berichts wird verarbeitet.</CurrentPage>
     <CutEdges>Report ohne Seitenränder exportieren.</CutEdges>
     <CutLongLines>Lange Textzeilen beim Komponentenrahmen abschneiden.</CutLongLines>
+    <DashboardContains1>Leider enthält dieser Bericht ein Dashboard.</DashboardContains1>
+    <DashboardContains2>Diesen Bericht sollten Sie direkt im Designer öffnen!</DashboardContains2>
+    <DashboardContains3>Sie können nicht es aus dem Viewer erfüllen!</DashboardContains3>
     <DigitalSignature>Die digitale Signatur der Datei aktivieren.</DigitalSignature>
     <DitheringType>Dithering Typ: None - ohne Dithering; Ordered und FloydSteinberg - mit Dithering</DitheringType>
     <DotMatrixMode>Dot-Matrix Vorschau</DotMatrixMode>
@@ -2199,6 +2217,8 @@
     <TiffCompressionScheme>Legt das Kompressionsschema für TIFF Grafikdateien fest.</TiffCompressionScheme>
     <ToolEditor>Ermöglicht das Editieren von Text direkt im Report Viewer.</ToolEditor>
     <TypeExport>Der Typ Datendatei, welcher durch den Export erstellt wird.</TypeExport>
+    <UnsafeCompilation1>ieses Dokument verwendet den Kompilierungsprozess. Manchmal könnte es gefährlich sein. Deshalb wird das Dokument im abgesicherten Modus geladen werden, um mögliche Risiken zu minimieren.</UnsafeCompilation1>
+    <UnsafeCompilation2>Wenn Sie das Dokument in seiner ursprünglichen Form verwenden möchten, kontaktieren Sie Ihren Entwicklern.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Entweder die Standardcodierung des Systems verwenden oder eine Codierung festlegen.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Die Kopf- und Fuß-Bänder der Berichtseite als Kopf- bzw. Fußzeile im MS Word Dokument verwenden.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Die Kopf- und Fuß-Bänder der Berichtseite als Kopf- bzw. Fußzeile im MS Word Dokument verwenden.</UsePageHeadersAndFooters>
@@ -2424,6 +2444,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AuthOAuthIdNotSpecified>Der OAuth-Identifikator ist nicht angegeben!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>Das Passwort ist nicht korrekt!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>Das Passwort ist nicht angegeben!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>Das Passwort ist zu lang!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Das Passwort ist zu kurz (minimale Länge ist 6 Zeichen)!</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Sie können nicht die Rolle entfernen, weil diese Rolle jetzt von anderen Benutzern verwendet wird.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Die Rolle mit angegebenen Namen "{0}" existiert schon!</AuthRoleNameAlreadyExists>
@@ -2435,6 +2456,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AuthUserNameAlreadyExists>Der Benutzername (E-Mail) ist bereits verwendet!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>This Email address cannot be used!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Der Benutzername (E-Mail) ist nicht angegeben!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>Der Benutzername (E-Mail) ist zu lang!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>Benutzername (E-Mail) {0} ist nicht mit Ihrem {1} Account verbunden!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Der Benutzername (E-Mail) ist falsch!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Der Benutzername soll der E-Mail-Adresse ähnlich sein!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2447,6 +2469,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <EnterCurrentPassword>Geben Sie das aktuelle Passwort ein!</EnterCurrentPassword>
     <EnterNewPassword>Geben Sie das neue Passwort ein!</EnterNewPassword>
     <ExecutionError>Ausführungsfehler</ExecutionError>
+    <GracePeriod>Die Nachfrist Ihres Abonnements läuft in {0} Tagen ab.</GracePeriod>
     <IsIdentical>"{0}" und "{1}" sind identisch."</IsIdentical>
     <IsNotAuthorized>Kein Zugriff auf "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" ist falsch!</IsNotCorrect>
@@ -3070,6 +3093,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiColumnShape3DBox>Rechteck</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Teilpyramide</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Pyramide</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Erlauben</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Fragen</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Verweigern</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Interpretationsmodus erzwingen</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Zentriert</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Links</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Kein</StiCrossHorAlignmentNone>
@@ -3128,6 +3155,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiFilterConditionContaining>enthält</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>endet mit</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>gleich</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>gleich der Variable oder Variable ist Null</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>größer als</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>größer oder gleich</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>ist leer</StiFilterConditionIsBlank>
@@ -3891,6 +3919,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DateInfo>Datumsinformation</DateInfo>
     <DateTimeMode>DateTime-Modus</DateTimeMode>
     <DateTimeStep>Datum/Uhrzeit Schritt</DateTimeStep>
+    <DecimalDigits>Nachkommastellen</DecimalDigits>
     <Default>Standard</Default>
     <DefaultColor>Standardfarbe</DefaultColor>
     <DefaultHeightCell>Default-Zellenhöhe</DefaultHeightCell>
@@ -4011,6 +4040,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Footers>Fußzeile</Footers>
     <ForeColor>Textfarbe</ForeColor>
     <Format>Format</Format>
+    <FormName>Formularname</FormName>
     <FormSettings>Aus Einstellungen</FormSettings>
     <Fourth>Vierte</Fourth>
     <From>Von</From>
@@ -4019,6 +4049,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <FullName>Voller Name</FullName>
     <Function>Funktion</Function>
     <Functions>Funktionen</Functions>
+    <GapAfterLastColumn>Abstand nach letzter Spalte</GapAfterLastColumn>
     <GisSettings>Gis-Einstellungen</GisSettings>
     <GlobalizationStrings>Globalisierungs-Zeichenfolgen</GlobalizationStrings>
     <GlobalizedName>Globalisierter Name</GlobalizedName>
@@ -4116,7 +4147,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Initials>Initialen</Initials>
     <InitialSelection>Ursprüngliche Auswahl</InitialSelection>
     <InitialSelectionSource>Interne Auswahl-Quelle</InitialSelectionSource>
+    <InitialValue>Anfangswert</InitialValue>
     <InnerText>Innerer Text</InnerText>
+    <Input>Eingabe</Input>
     <Insert>Einfügen</Insert>
     <Interaction>Interaktion</Interaction>
     <InterlacedBrush>Interlaced Pinsel</InterlacedBrush>
@@ -4316,6 +4349,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Padding>Padding</Padding>
     <PageHeight>Seitenhöhe</PageHeight>
     <PageNumbers>Seitennummer</PageNumbers>
+    <PageTurnTime>Zeit für Seitenwechsel</PageTurnTime>
     <PageWidth>Seitenbreite</PageWidth>
     <Paper>Papier</Paper>
     <PaperSize>Papiergröße</PaperSize>
@@ -4437,6 +4471,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <RowHeadersVisible>Zeilenköpfe sichtbar</RowHeadersVisible>
     <RowHeaderWidth>Zeilenkopf-Breite</RowHeaderWidth>
     <Rows>Reihen</Rows>
+    <RowsPerPage>Reihen per Seite</RowsPerPage>
     <Scale>Maßstab</Scale>
     <ScaleHor>Skalierung horizontal</ScaleHor>
     <ScriptLanguage>Script-Sprache</ScriptLanguage>
@@ -4490,6 +4525,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ShortValue>Kurzwert</ShortValue>
     <ShowAllValue>Alle Werte anzeigen</ShowAllValue>
     <ShowBehind>Hinten anzeigen</ShowBehind>
+    <ShowBlanks>Leerstellen anzeigen</ShowBlanks>
     <ShowBubble>Blasen anzeigen</ShowBubble>
     <ShowDialog>Dialog anzeigen</ShowDialog>
     <ShowEdgeValues>Werte an den Ränder anzeigen</ShowEdgeValues>
@@ -4902,6 +4938,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ClickForMoreDetails>klicken, um weitere Informationen zu erhalten</ClickForMoreDetails>
     <CollapseAll>Alle Ebenen reduzieren</CollapseAll>
     <Collection>Sammlung</Collection>
+    <CompilationAccess>Kompilierungszugang</CompilationAccess>
     <CompilingReport>Bericht wird kompiliert</CompilingReport>
     <Complete>Vollständig</Complete>
     <Components>Komponenten</Components>
@@ -4998,6 +5035,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiGradientBrush>Gradient</StiGradientBrush>
     <StiHatchBrush>Schraffur</StiHatchBrush>
     <StiSolidBrush>Ausgefüllt</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>Den Nachnamen und den Vornamen des Benutzers in 'Berichtsautor' speichern</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>'Benutzername' in 'Berichtsautor' speichern</StoreUserNameInReportAuthor>
     <StyleBad>Schlecht</StyleBad>
     <StyleGood>Gut</StyleGood>
     <StyleNeutral>Neutral</StyleNeutral>

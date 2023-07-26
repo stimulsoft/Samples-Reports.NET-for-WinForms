@@ -110,6 +110,7 @@
     <ForceDelete>강제 삭제</ForceDelete>
     <Help>도움말</Help>
     <Install>설치</Install>
+    <InvertAll>모두 반전</InvertAll>
     <LessOptions>옵션 더보기 닫기</LessOptions>
     <LoadDataSet>데이터 세트 (*.data)로드</LoadDataSet>
     <More>더 보기</More>
@@ -122,6 +123,7 @@
     <Ok>확인(&amp;O)</Ok>
     <Open>열기</Open>
     <OpenContainingFolder>폴더 열기</OpenContainingFolder>
+    <OpenInSafeMode>안전 모드에서 열기</OpenInSafeMode>
     <Print>인쇄</Print>
     <Publish>공개</Publish>
     <QuickPrint>빠른 인쇄</QuickPrint>
@@ -493,6 +495,7 @@
     <ShareWindowTitleNew>공유</ShareWindowTitleNew>
     <ShowAllFiles>모든 파일 표시</ShowAllFiles>
     <ShowNotificationMessages>알림 메시지를 표시</ShowNotificationMessages>
+    <Submissions>제출물</Submissions>
     <Subscriptions>구독</Subscriptions>
     <TabItemEmbedCode>소스 코드</TabItemEmbedCode>
     <TabItemQRCode>QR 코드</TabItemQRCode>
@@ -585,6 +588,7 @@
     <WizardTeamShare>팀 액세스</WizardTeamShare>
     <WizardTeamShareDescription>한 작업 공간의 사용자만 외부 액세스할 수 있습니다.</WizardTeamShareDescription>
     <WizardXmlDescription>XML 데이터를 포함하는 보고서를 작성합니다.</WizardXmlDescription>
+    <YourPlan>상품</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>바코드</StiBarCode>
@@ -889,6 +893,7 @@
     <StiPanelControl>패널</StiPanelControl>
     <StiPictureBoxControl>그림 상자</StiPictureBoxControl>
     <StiRadioButtonControl>라디오 버튼</StiRadioButtonControl>
+    <StiRadioControl>라디오</StiRadioControl>
     <StiReportControl>보고서 컨트롤</StiReportControl>
     <StiRichTextBoxControl>서식있는 텍스트 상자</StiRichTextBoxControl>
     <StiTextBoxControl>입력란</StiTextBoxControl>
@@ -1557,6 +1562,7 @@
     <ShowDialogForms>대화 폼을 표시</ShowDialogForms>
     <ShowDimensionLines>치수선을 표시</ShowDimensionLines>
     <ShowOldGaugeEditor>오래된 게이지 편집기보기</ShowOldGaugeEditor>
+    <ShowSmartGuides>스마트 가이드 표시</ShowSmartGuides>
     <StartScreen>시작 화면</StartScreen>
     <title>옵션</title>
     <UseComponentColor>채우기에 구성 요소 색상을 사용</UseComponentColor>
@@ -1985,6 +1991,14 @@
     <CenterVertically>구성 요소가 배치되는 컨테이너의 가장자리에 구성 요소를 세로로 정렬 할 수 있습니다.</CenterVertically>
     <Close>보고서 디자이너를 닫습니다.</Close>
     <Columns>페이지를 열 분할한다.</Columns>
+    <CompilationAccess1>이 문서는 컴파일 프로세스를 사용합니다. 신뢰할 수 있는 원본 문서인 경우, "열기" 단추를 눌러 문서에 액세스할 수 있습니다.</CompilationAccess1>
+    <CompilationAccess2>문서의 출처를 알 수 없지만 문서를 보려면 "안전 모드에서 열기" 단추를 클릭합니다. 이 경우 컴파일 대신 해석을 사용하여 문서를 안전하게 실행할 수 있습니다.</CompilationAccess2>
+    <CompilationAccess3>이 문서는 컴파일 프로세스를 사용하므로 안전하지 않을 수 있습니다. 열 수 없습니다.</CompilationAccess3>
+    <CompilationAccessAllow>아무런 경고나 제한 없이 컴파일로 문서를 열 수 있습니다.</CompilationAccessAllow>
+    <CompilationAccessAsk>문서가 컴파일 프로세스를 사용하는 경우, 미리 정의된 수행이 있는 경고 창이 표시됩니다.</CompilationAccessAsk>
+    <CompilationAccessDeny>컴파일 프로세스를 사용하는 문서 열기를 거부합니다. 특수 창이 표시됩니다.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>컴파일된 문서는 프롬프트 없이 열리지만 컴파일 프로세스를 사용하지 않는 해석 모드로 자동 변환됩니다.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>컴파일 모드로 전환하고 있습니다. 이 모드에서는 다른 코드를 실행할 수 있으며 때로는 위험할 수 있습니다. 모든 위험을 이해하고 이에 동의하는 경우에만 이 모드를 사용하십시오. 계속하려면 {0} 버튼을 클릭하십시오.</CompilationModeEnabling>
     <ComponentSize>선택한 구성 요소의 크기를 변경합니다.</ComponentSize>
     <CopyStyle>스타일을 복사</CopyStyle>
     <CopyToClipboard>클립 보드에 복사</CopyToClipboard>
@@ -2061,6 +2075,7 @@
     <menuViewShowHeaders>밴드의 헤더를 표시한다.</menuViewShowHeaders>
     <menuViewShowOrder>페이지의 구성 요소의 순서를 표시합니다.</menuViewShowOrder>
     <menuViewShowRulers>페이지의 개체 측정 및 정렬에 사용되는 눈금자를 표시합니다.</menuViewShowRulers>
+    <menuViewShowSmartGuides>스마트 가이드를 표시하여 구성 요소를 서로 상대적으로 배치합니다.</menuViewShowSmartGuides>
     <MoveBackward>페이지에 구성 요소를 배치하는 순서로 구성 요소를 하나 이상 수준으로 이동합니다.</MoveBackward>
     <MoveForward>페이지에 구성 요소를 배치하는 순서로 구성 요소를 하나 아래 단계로 이동합니다.</MoveForward>
     <Orientation>화면 레이아웃의 페이지를 전환합니다.</Orientation>
@@ -2133,6 +2148,9 @@
     <CurrentPage>현재 페이지를 처리하고 있습니다. 이 옵션을 선택하면 선택한 보고서 페이지가 처리됩니다.</CurrentPage>
     <CutEdges>보고서 페이지 테두리를 자릅니다.</CutEdges>
     <CutLongLines>긴 선 (텍스트 줄)을 구성 요소의 테두리 트림합니다.</CutLongLines>
+    <DashboardContains1>죄송합니다. 이 보고서에는 대시보드가 포함되어 있습니다.</DashboardContains1>
+    <DashboardContains2>이 보고서는 디자이너에서 직접 열어야 합니다!</DashboardContains2>
+    <DashboardContains3>보고서 뷰어에서는 이 작업을 수행할 수 없습니다!</DashboardContains3>
     <DigitalSignature>파일의 디지털 서명.</DigitalSignature>
     <DitheringType>디더링 유형 : 없음 - 디더링없이 주문도, FloydSt. - 디더링 있습니다.</DitheringType>
     <DotMatrixMode>이 모드에서는 도트 매트릭스 프린터로 인쇄하는 경우 보고서 표시 방법을 확인할 수 있습니다.</DotMatrixMode>
@@ -2195,6 +2213,8 @@
     <TiffCompressionScheme>TIFF 압축 방식.</TiffCompressionScheme>
     <ToolEditor>이 도구를 사용하면 보고서 뷰어에서 직접 텍스트 구성 요소의 내용을 편집 할 수 있습니다.</ToolEditor>
     <TypeExport>보고서가 변환되는 파일입니다.</TypeExport>
+    <UnsafeCompilation1>이 문서는 컴파일 프로세스를 사용합니다. 경우에 따라 안전하지 않을 수 있습니다. 따라서 문서는 잠재적 위험을 최소화하기 위해 안전 모드로 로드됩니다.</UnsafeCompilation1>
+    <UnsafeCompilation2>이 문서를 원래 형태로 사용하려면 개발자에게 문의하십시오.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>기본적으로 시스템 코딩을 사용하거나 표준 인코딩을 지정하십시오.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>머리글과 바닥 글을 Microsoft Word 문서의 머리글과 바닥 글로 정의합니다.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>페이지 머리글과 바닥 글을 Microsoft Word에서 문서의 머리글과 바닥 글로 정의합니다.</UsePageHeadersAndFooters>
@@ -2414,6 +2434,7 @@
     <AuthOAuthIdNotSpecified>OAuth 고유 이름은 지정되지 않습니다!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>암호가 올바르지 않습니다!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>비밀번호는 지정되어 있지 않습니다!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>암호가 너무 깁니다!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>암호가 너무 짧습니다 (최소 길이는 6 자입니다).</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>롤은 다른 사용자에 의해 사용되고 있으므로 삭제할 수 없습니다.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>지정된 이름 "{0}"의 역할은 이미 존재합니다.</AuthRoleNameAlreadyExists>
@@ -2424,6 +2445,7 @@
     <AuthUserNameAlreadyExists>사용자 이름 (Email)은 이미 사용 중입니다!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>이 이메일 주소는 사용할 수 없습니다!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>사용자 이름 (이메일)는 지정되지 않습니다!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>암호가 너무 깁니다!사용자 이름(이메일)이 너무 깁니다!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>당신의  {1}계정의  사용자 이름 (이메일) {0} 관련이 없습니다!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>사용자 이름 (이메일) 또는 암호가 잘못되었습니다!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>사용자 이름은 이메일 주소와 비슷한 것입니다!</AuthUserNameShouldLookLikeAnEmailAddress>
@@ -2434,6 +2456,7 @@
     <EndDateShouldBeGreaterThanCurrentDate>종료일 현재 날짜보다 커야합니다.</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>종료일은 시작일보다 커야합니다.</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>실행 오류</ExecutionError>
+    <GracePeriod>가입 유예 기간이 {0}일 후에 만료됩니다.</GracePeriod>
     <IsIdentical>"{0}"및 "{1}"은 동일합니다.</IsIdentical>
     <IsNotAuthorized>"{0}"에 대한 액세스 권한이 없습니다!</IsNotAuthorized>
     <IsNotCorrect>"{0}"은 잘못된 것입니다!</IsNotCorrect>
@@ -3027,6 +3050,10 @@
     <StiColumnShape3DBox>박스</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>부분 피라미드</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>피라미드</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>허용</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>질문</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>거부</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>강한 해석</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>센터</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>왼쪽</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>없음</StiCrossHorAlignmentNone>
@@ -3085,6 +3112,7 @@
     <StiFilterConditionContaining>포함</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>~로 끝나는</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>과 같다</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>변수와 같거나 변수가 null인 경우</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>보다</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>이상</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>빈</StiFilterConditionIsBlank>
@@ -3832,6 +3860,7 @@
     <DateInfo>날짜 정보</DateInfo>
     <DateTimeMode>날짜시간 모드</DateTimeMode>
     <DateTimeStep>일시 단계</DateTimeStep>
+    <DecimalDigits>소수점 자리</DecimalDigits>
     <Default>기본</Default>
     <DefaultColor>기본 색상</DefaultColor>
     <DefaultHeightCell>셀의 기본 높이</DefaultHeightCell>
@@ -3952,6 +3981,7 @@
     <Footers>글</Footers>
     <ForeColor>전경색</ForeColor>
     <Format>형식</Format>
+    <FormName>폼 이름</FormName>
     <FormSettings>폼 설정</FormSettings>
     <Fourth>네번째</Fourth>
     <From>에서</From>
@@ -3960,6 +3990,7 @@
     <FullName>전체 이름</FullName>
     <Function>함수</Function>
     <Functions>기능</Functions>
+    <GapAfterLastColumn>마지막 열 이후의 간격</GapAfterLastColumn>
     <GisSettings>Gis 설정</GisSettings>
     <GlobalizationStrings>국제화 문자열</GlobalizationStrings>
     <GlobalizedName>국제화 된 이름</GlobalizedName>
@@ -4056,7 +4087,9 @@
     <Initials>머리글자</Initials>
     <InitialSelection>초기 선택</InitialSelection>
     <InitialSelectionSource>초기 선택 원본</InitialSelectionSource>
+    <InitialValue>초기 값</InitialValue>
     <InnerText>내부텍스트</InnerText>
+    <Input>입력</Input>
     <Insert>삽입</Insert>
     <Interaction>상호 작용</Interaction>
     <InterlacedBrush>인터레이스 브러쉬</InterlacedBrush>
@@ -4256,6 +4289,7 @@
     <Padding>패딩</Padding>
     <PageHeight>페이지의 높이</PageHeight>
     <PageNumbers>페이지 번호</PageNumbers>
+    <PageTurnTime>페이지 전환 시간</PageTurnTime>
     <PageWidth>페이지 폭</PageWidth>
     <Paper>용지</Paper>
     <PaperSize>용지 크기</PaperSize>
@@ -4375,6 +4409,7 @@
     <RowHeadersVisible>행 헤더가 표시되는</RowHeadersVisible>
     <RowHeaderWidth>행 머리글의 너비</RowHeaderWidth>
     <Rows>라인</Rows>
+    <RowsPerPage>페이지당 행 수</RowsPerPage>
     <Scale>규모</Scale>
     <ScaleHor>스케일 홀</ScaleHor>
     <ScriptLanguage>스크립트 언어</ScriptLanguage>
@@ -4428,6 +4463,7 @@
     <ShortValue>짧은 값</ShortValue>
     <ShowAllValue>모든 값 표시</ShowAllValue>
     <ShowBehind>쇼 뒤에</ShowBehind>
+    <ShowBlanks>빈칸 표시</ShowBlanks>
     <ShowBubble>버블 표시</ShowBubble>
     <ShowDialog>대화 상자를 표시</ShowDialog>
     <ShowEdgeValues>에지 값을 표시한다</ShowEdgeValues>
@@ -4839,6 +4875,7 @@
     <ClickForMoreDetails>고급을 클릭하십시오</ClickForMoreDetails>
     <CollapseAll>모두 축소</CollapseAll>
     <Collection>컬렉션</Collection>
+    <CompilationAccess>컴파일 액세스</CompilationAccess>
     <CompilingReport>보고서 컴파일</CompilingReport>
     <Complete>완료</Complete>
     <Components>요소</Components>
@@ -4934,6 +4971,8 @@
     <StiGradientBrush>구배</StiGradientBrush>
     <StiHatchBrush>해치</StiHatchBrush>
     <StiSolidBrush>솔리드</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>'보고서 작성자'에 사용자의 이름과 성 저장</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>보고서 작성자'에 '사용자 이름' 저장</StoreUserNameInReportAuthor>
     <StyleBad>나쁜</StyleBad>
     <StyleGood>좋은</StyleGood>
     <StyleNeutral>중성</StyleNeutral>
