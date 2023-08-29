@@ -644,6 +644,7 @@
     <StiPageHeaderBand>Page Header</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
     <StiPdfDigitalSignature>PDF Digital Signature</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF Element</StiPdfDigitalSignatureElement>
     <StiPivotColumn>Pivot Column</StiPivotColumn>
     <StiPivotRow>Pivot Row</StiPivotRow>
     <StiPivotSummary>Pivot Summary</StiPivotSummary>
@@ -1125,6 +1126,7 @@
     <EncryptedReportFiles>Stimulsoft Encrypted Templates (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel files (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel files (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel files (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel 97-2003 files (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML files (*.xml)|*.xml</ExcelXmlFiles>
     <ExeFiles>EXE Files (*.exe)|*.exe</ExeFiles>
@@ -1888,8 +1890,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>This component allows showing bar codes in a report. Bar code data are sent to an object as a string. The string may contain any symbols but only allowed symbols for the selected chart can be displayed.</StiBarCode>
-    <StiButtonElement>This component is used to execute an event script when a user is interacting.</StiButtonElement>
-    <StiCardsElement>This component is used to display grouped data as cards.</StiCardsElement>
+    <StiButtonElement>This element is used to execute an event script when a user is interacting.</StiButtonElement>
+    <StiCardsElement>This element is used to display grouped data as cards.</StiCardsElement>
     <StiChart>This component allows showing charts in a report. Different types of charts are available. Among them are bar, line, pie, doughnut, lines, areas, Gantt, scatter charts etc. </StiChart>
     <StiChartElement>This element allows showing charts in a dashboard. Different types of charts are available.</StiChartElement>
     <StiCheckBox>This component allows showing a checkbox in a report. It can display two modes: "enable" or "disable".</StiCheckBox>
@@ -1919,13 +1921,14 @@
     <StiHierarchicalBand>This band is connected to the data source and output as many times as there are rows in the data source. Data are output as a tree.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>This component is used to output a line.</StiHorizontalLinePrimitive>
     <StiImage>This component is used to output images.</StiImage>
-    <StiImageElement>This element is used to output images. It supports the following graphic formats, such as BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageElement>This element is used to output images. It supports the following graphic formats, such as BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
     <StiIndicatorElement>The element displays the difference in values between the input data.</StiIndicatorElement>
     <StiListBoxElement>The element allows selecting items from a list.</StiListBoxElement>
     <StiMap>This component is used to display data that is geographically targeted.</StiMap>
     <StiMapCategory>Group of elements for working with maps and data.</StiMapCategory>
     <StiMapElement>This element is used to display data that is geographically targeted.</StiMapElement>
     <StiMathFormula>This component is used to display math formulas in a report.</StiMathFormula>
+    <StiNumberBoxElement>This element is used to select a numeric value or set a range of numeric values.</StiNumberBoxElement>
     <StiOnlineMapElement>This element is used to display geographic markers on the online map.</StiOnlineMapElement>
     <StiOverlayBand>This band is used to output watermarks on a page.</StiOverlayBand>
     <StiPageFooterBand>This band is used to output the information on the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
@@ -2380,6 +2383,7 @@
     <DoNotShowAgain>Do not show again</DoNotShowAgain>
     <LatexFormat>The LaTeX format is used to display mathematical formulas.</LatexFormat>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
+    <MustBeFile>Must be {0} file.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>When viewing the shared report, the rendering will occur in the interpretation mode!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>The resource "{0}" cannot be deleted, because it is used in the report!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>The share URL of the item has been updated!</ShareURLOfTheItemHasBeenUpdated>
@@ -3441,8 +3445,8 @@
     <StiTableAutoWidthTypeFullTable>Full Table</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Last Columns</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>None</StiTableAutoWidthTypeNone>
-	<StiTableSizeModeAutoSize>Auto Size</StiTableSizeModeAutoSize>
-	<StiTableSizeModeFit>Fit</StiTableSizeModeFit>
+    <StiTableSizeModeAutoSize>Auto Size</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Fit</StiTableSizeModeFit>
     <StiTargetModePercentage>Percentage</StiTargetModePercentage>
     <StiTargetModeVariation>Variation</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Center</StiTextHorAlignmentCenter>
@@ -3882,6 +3886,7 @@
     <DisplayValue>Display Value</DisplayValue>
     <Distance>Distance</Distance>
     <DistanceBetweenTabs>Distance Between Tabs</DistanceBetweenTabs>
+    <DistinguishedName>Distinguished Name</DistinguishedName>
     <Dock>Dock</Dock>
     <DockableTable>Dockable Table</DockableTable>
     <DockStyle>Dock Style</DockStyle>
@@ -5142,7 +5147,6 @@
   </Shapes>
   <Signature>
     <DigitalSignatureEmptyWatermark>Place for digital signature in PDF Viewer</DigitalSignatureEmptyWatermark>
-    <IncludeText>Include Text</IncludeText>
     <InsertImage>Insert Image</InsertImage>
     <InsertText>Insert Text</InsertText>
     <LoadSignature>Load signature</LoadSignature>
