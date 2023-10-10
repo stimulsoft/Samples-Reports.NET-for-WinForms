@@ -142,6 +142,7 @@
     <Submit>Submit</Submit>
     <SwitchTo>Switch to {0}</SwitchTo>
     <Test>Test</Test>
+    <TryToReconnect>Try to Reconnect</TryToReconnect>
     <Up>Up</Up>
     <Upgrade>Upgrade</Upgrade>
     <UpgradeNow>Upgrade Now</UpgradeNow>
@@ -643,6 +644,7 @@
     <StiPageHeaderBand>Page Header</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
     <StiPdfDigitalSignature>PDF Digital Signature</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF Element</StiPdfDigitalSignatureElement>
     <StiPivotColumn>Pivot Column</StiPivotColumn>
     <StiPivotRow>Pivot Row</StiPivotRow>
     <StiPivotSummary>Pivot Summary</StiPivotSummary>
@@ -1124,6 +1126,7 @@
     <EncryptedReportFiles>Encrypted Stimulsoft Templates (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel files (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel files (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel files (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel 97-2003 files (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML files (*.xml)|*.xml</ExcelXmlFiles>
     <ExeFiles>EXE Files (*.exe)|*.exe</ExeFiles>
@@ -1925,6 +1928,7 @@
     <StiMapCategory>Group of elements for working with maps and data.</StiMapCategory>
     <StiMapElement>This element is used to display data that is geographically targeted.</StiMapElement>
     <StiMathFormula>This component is used to display math formulas in a report.</StiMathFormula>
+    <StiNumberBoxElement>This element is used to select a numeric value or set a range of numeric values.</StiNumberBoxElement>
     <StiOnlineMapElement>This element is used to display geographic markers on the online map.</StiOnlineMapElement>
     <StiOverlayBand>This band is used to output watermarks on a page.</StiOverlayBand>
     <StiPageFooterBand>This band is used to output the information on the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
@@ -2385,6 +2389,7 @@
     <DoNotShowAgain>Do not show again</DoNotShowAgain>
     <LatexFormat>The LaTeX format is used to display mathematical formulas.</LatexFormat>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
+    <MustBeFile>Must be {0} file.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>When viewing the shared report, the rendering will occur in the interpretation mode!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>The resource "{0}" cannot be deleted, because it is used in the report!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>The share URL of the item has been updated!</ShareURLOfTheItemHasBeenUpdated>
@@ -3304,6 +3309,10 @@
     <StiOrientationVertical>Vertical</StiOrientationVertical>
     <StiPageOrientationLandscape>Landscape</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portrait</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Draw</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Image</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>None</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Text</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Dash</StiPenStyleDash>
     <StiPenStyleDashDot>Dash Dot</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Dash Dot Dot</StiPenStyleDashDotDot>
@@ -3417,6 +3426,9 @@
     <StiShiftModeIncreasingSize>Increasing Size</StiShiftModeIncreasingSize>
     <StiShiftModeNone>None</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Only in Width of Component</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Connect Points with Line</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Gap</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Zero</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>From Chart</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>From Series</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>None</StiShowSeriesLabelsNone>
@@ -3426,6 +3438,8 @@
     <StiShowYAxisBoth>Both</StiShowYAxisBoth>
     <StiShowYAxisCenter>Centre</StiShowYAxisCenter>
     <StiShowYAxisLeft>Left</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Draw</StiSignatureModeDraw>
+    <StiSignatureModeType>Type</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Digital Signature</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Draw</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Select Style</StiSignatureTypeSelectStyle>
@@ -3462,6 +3476,8 @@
     <StiTableAutoWidthTypeFullTable>Full Table</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Last Columns</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>None</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Auto Size</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Fit</StiTableSizeModeFit>
     <StiTargetModePercentage>Percentage</StiTargetModePercentage>
     <StiTargetModeVariation>Variation</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Centre</StiTextHorAlignmentCenter>
@@ -3668,6 +3684,7 @@
     <AllowApplyColorNegative>Allow Apply Colour Negative</AllowApplyColorNegative>
     <AllowApplyLineColor>Allow Apply Line Colour</AllowApplyLineColor>
     <AllowApplyStyle>Allow Apply Style</AllowApplyStyle>
+    <AllowCleanSignature>Allow Clean Signature</AllowCleanSignature>
     <AllowExpressions>Allow Expressions</AllowExpressions>
     <AllowHtmlTags>Allow HTML Tags</AllowHtmlTags>
     <AllowNull>Allow Null</AllowNull>
@@ -3901,6 +3918,7 @@
     <DisplayValue>Display Value</DisplayValue>
     <Distance>Distance</Distance>
     <DistanceBetweenTabs>Distance Between Tabs</DistanceBetweenTabs>
+    <DistinguishedName>Distinguished Name</DistinguishedName>
     <Dock>Dock</Dock>
     <DockableTable>Dockable Table</DockableTable>
     <DockStyle>Dock Style</DockStyle>
@@ -4001,6 +4019,7 @@
     <FooterRowsCount>Footer Rows Count</FooterRowsCount>
     <Footers>Footers</Footers>
     <ForeColor>Fore Colour</ForeColor>
+    <Foreground>Foreground</Foreground>
     <Format>Format</Format>
     <FormName>Form Name</FormName>
     <FormSettings>Form Settings</FormSettings>
@@ -4054,6 +4073,7 @@
     <HeatmapColors>Heatmap Colours</HeatmapColors>
     <HeatmapWithGroup>Heatmap With Group</HeatmapWithGroup>
     <Height>Height</Height>
+    <Hidden>Hidden</Hidden>
     <HideSeriesWithEmptyTitle>Hide Series with Empty Title</HideSeriesWithEmptyTitle>
     <HideZeros>Hide Zeros</HideZeros>
     <High>High</High>
@@ -4199,6 +4219,7 @@
     <Locked>Locked</Locked>
     <Logarithmic>Logarithmic</Logarithmic>
     <LogarithmicScale>Logarithmic Scale</LogarithmicScale>
+    <Logo>Logo</Logo>
     <Longitude>Longitude</Longitude>
     <Low>Low</Low>
     <LowValues>Low Values</LowValues>
@@ -4297,6 +4318,7 @@
     <OffsetAngle>Offset Angle</OffsetAngle>
     <OnClick>On Click</OnClick>
     <OnDataManipulation>On Data Manipulation</OnDataManipulation>
+    <OnePointZoom>One Point Zoom</OnePointZoom>
     <OnHover>On Hover</OnHover>
     <OnlyText>Only Text</OnlyText>
     <Opacity>Opacity</Opacity>
@@ -4381,6 +4403,7 @@
     <Ratio>Ratio</Ratio>
     <RatioY>Ratio Y</RatioY>
     <ReadOnly>Read Only</ReadOnly>
+    <Reason>Reason</Reason>
     <RecentFonts>Recent Fonts</RecentFonts>
     <ReconnectOnEachRow>Reconnect on Each Row</ReconnectOnEachRow>
     <ReferencedAssemblies>Referenced Assemblies</ReferencedAssemblies>
@@ -4594,6 +4617,7 @@
     <TagValue>Tag Value</TagValue>
     <Target>Target</Target>
     <TargetColor>Target Colour</TargetColor>
+    <TargetFormat>Target Format</TargetFormat>
     <TargetIcon>Target Icon</TargetIcon>
     <TargetMode>Target Mode</TargetMode>
     <TargetSettings>Target</TargetSettings>
@@ -5156,6 +5180,7 @@
     <VerticalLine>Vertical Line</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Clear Signature</ClearSignature>
     <DigitalSignatureEmptyWatermark>Place for digital signature in PDF Viewer</DigitalSignatureEmptyWatermark>
     <FullName>Full Name</FullName>
     <Initials>Initials</Initials>
@@ -5163,6 +5188,7 @@
     <InsertText>Insert Text</InsertText>
     <LoadSignature>Load signature</LoadSignature>
     <NoSavedItems>No saved items</NoSavedItems>
+    <PdfDigitalSignatureTitle>Select the objects that you want to display in the signature on the PDF file.</PdfDigitalSignatureTitle>
     <SaveSignature>Save signature</SaveSignature>
     <SignatureSavedSuccessfully>Signature saved successfully.</SignatureSavedSuccessfully>
     <UseBrush>Use Brush</UseBrush>
@@ -5246,6 +5272,8 @@
     <MoveBackward>Move Backward</MoveBackward>
     <MoveForward>Move Forward</MoveForward>
     <Order>Order</Order>
+    <RibbonClassic>Classic Ribbon</RibbonClassic>
+    <RibbonSingleLine>Single Line Ribbon</RibbonSingleLine>
     <SendToBack>Send to Back</SendToBack>
     <Size>Size</Size>
     <StyleDesigner>Style Designer</StyleDesigner>

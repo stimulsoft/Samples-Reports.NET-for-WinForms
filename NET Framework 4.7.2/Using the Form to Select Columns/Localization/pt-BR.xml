@@ -142,6 +142,7 @@
     <Submit>Enviar</Submit>
     <SwitchTo>Troque para {0}</SwitchTo>
     <Test>Teste</Test>
+    <TryToReconnect>Tente se reconectar</TryToReconnect>
     <Up>Cima</Up>
     <Upgrade>Atualização</Upgrade>
     <UpgradeNow>Atualize agora</UpgradeNow>
@@ -643,6 +644,7 @@
     <StiPageHeaderBand>Cabeçalho da Página</StiPageHeaderBand>
     <StiPanel>Painel</StiPanel>
     <StiPdfDigitalSignature>PDF Assinatura Digital</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Elemento PDF</StiPdfDigitalSignatureElement>
     <StiPivot>Pivô</StiPivot>
     <StiPivotColumn>Coluna de Pivô</StiPivotColumn>
     <StiPivotRow>Linha de Pivô</StiPivotRow>
@@ -1126,6 +1128,7 @@ sucedida</ConnectionSuccessfull>
     <EncryptedReportFiles>Relatório Arquivos Criptografados (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Arquivos Microsoft Excel 2007/2013 (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Arquivos do Microsoft Excel (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel files (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Arquivo Microsoft Excel(*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Arquivos do Microsoft Excel XML (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>Arquivos EXE (*.exe)|*.exe</ExeFiles>
@@ -1930,6 +1933,7 @@ sucedida</ConnectionSuccessfull>
     <StiMapCategory>Grupo de elementos para trabalhar com mapas e dados.</StiMapCategory>
     <StiMapElement>Esse elemento é usado para exibir dados segmentados geograficamente.</StiMapElement>
     <StiMathFormula>Este componente é usado para exibir fórmulas matemáticas em um relatório.</StiMathFormula>
+    <StiNumberBoxElement>Este elemento é usado para selecionar um valor numérico ou definir um intervalo de valores numéricos.</StiNumberBoxElement>
     <StiOnlineMapElement>Este elemento é usado para exibir marcadores geográficos no mapa online.</StiOnlineMapElement>
     <StiOverlayBand>Esta faixa é usado para saída d'água em uma página.</StiOverlayBand>
     <StiPageFooterBand>Esta faixa é usada para enviar as informações sobre o fundo de cada página. Esta faixa é usada para produção de números, datas e outras informações adicionais.</StiPageFooterBand>
@@ -2391,6 +2395,7 @@ sucedida</ConnectionSuccessfull>
     <DoNotShowAgain>Não mostre novamente</DoNotShowAgain>
     <LatexFormat>O formato LaTeX é usado para exibir fórmulas matemáticas.</LatexFormat>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
+    <MustBeFile>Deve ser o arquivo {0}.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Ao visualizar o relatório compartilhado, a renderização ocorrerá no modo de interpretação</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>O recurso "{0}" não pode ser excluído, porque é usado no relatório!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>A URL de compartilhamento do item foi atualizado!</ShareURLOfTheItemHasBeenUpdated>
@@ -3322,6 +3327,10 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiOrientationVertical>Vertical</StiOrientationVertical>
     <StiPageOrientationLandscape>Paisagem</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Retrato</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Empate</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Imagem</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Nenhum</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Texto</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Linha</StiPenStyleDash>
     <StiPenStyleDashDot>Linha Ponto</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Linha Ponto Ponto</StiPenStyleDashDotDot>
@@ -3435,6 +3444,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiShiftModeIncreasingSize>Tamanho crescente</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Nenhum</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Largura do Componente</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Conecte pontos com linha</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Brecha</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Zero</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Do Gráfico</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Da Séries</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Nenhum</StiShowSeriesLabelsNone>
@@ -3444,6 +3456,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiShowYAxisBoth>Ambos</StiShowYAxisBoth>
     <StiShowYAxisCenter>Centro</StiShowYAxisCenter>
     <StiShowYAxisLeft>Esquerdo</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Empate</StiSignatureModeDraw>
+    <StiSignatureModeType>Tipo</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Assinatura digital</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Desenhar</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Selecionar estilo</StiSignatureTypeSelectStyle>
@@ -3480,6 +3494,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiTableAutoWidthTypeFullTable>Tabela completa</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Últimas colunas</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Nenhum</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Tamanho automático</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Ajustar</StiTableSizeModeFit>
     <StiTargetModePercentage>Percentagem</StiTargetModePercentage>
     <StiTargetModeVariation>Variação</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Centro</StiTextHorAlignmentCenter>
@@ -3686,6 +3702,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <AllowApplyColorNegative>Permitir Aplicar Negativo Colorido</AllowApplyColorNegative>
     <AllowApplyLineColor>Permitir Aplicar Cor da Linha</AllowApplyLineColor>
     <AllowApplyStyle>Permitir Aplicar Estilo</AllowApplyStyle>
+    <AllowCleanSignature>Permitir assinatura limpa</AllowCleanSignature>
     <AllowExpressions>Permitir Expressões</AllowExpressions>
     <AllowHtmlTags>Permitir Tags Html</AllowHtmlTags>
     <AllowNull>Permitir Null</AllowNull>
@@ -3920,6 +3937,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <DisplayValue>Valor de exibição</DisplayValue>
     <Distance>distância</Distance>
     <DistanceBetweenTabs>Distância Entre Etiquetas</DistanceBetweenTabs>
+    <DistinguishedName>Nome Distinto</DistinguishedName>
     <Dock>Ligar</Dock>
     <DockableTable>Ancoragem</DockableTable>
     <DockStyle>Ancoragem</DockStyle>
@@ -4020,6 +4038,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <FooterRowsCount>Contar as Linhas do Rodapé</FooterRowsCount>
     <Footers>Rodapés</Footers>
     <ForeColor>Cor de Frente</ForeColor>
+    <Foreground>Primeiro plano</Foreground>
     <Format>Formatar</Format>
     <FormName>Nome do formulario</FormName>
     <FormSettings>Configurações do formulário</FormSettings>
@@ -4073,6 +4092,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <HeatmapColors>Cores do Heatmap</HeatmapColors>
     <HeatmapWithGroup>Mapa de calor com grupo</HeatmapWithGroup>
     <Height>Altura</Height>
+    <Hidden>Escondido</Hidden>
     <HideSeriesWithEmptyTitle>Esconder Séries com Título Vázio</HideSeriesWithEmptyTitle>
     <HideZeros>Esconder Zeros</HideZeros>
     <High>Alto</High>
@@ -4218,6 +4238,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Locked>Fechado</Locked>
     <Logarithmic>Logarítmica</Logarithmic>
     <LogarithmicScale>Escala Logarítmica</LogarithmicScale>
+    <Logo>Logotipo</Logo>
     <Longitude>Longitude</Longitude>
     <Low>Baixo</Low>
     <LowValues>Valores baixos</LowValues>
@@ -4316,6 +4337,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <OffsetAngle>Deslocamento Angular</OffsetAngle>
     <OnClick>No clique</OnClick>
     <OnDataManipulation>Na manipulação de dados</OnDataManipulation>
+    <OnePointZoom>Zoom de um ponto</OnePointZoom>
     <OnHover>Em pairar</OnHover>
     <OnlyText>Só Texto</OnlyText>
     <Opacity>Opacidade</Opacity>
@@ -4402,6 +4424,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Ratio>Proporção</Ratio>
     <RatioY>Proporção Y</RatioY>
     <ReadOnly>Somente Leitura</ReadOnly>
+    <Reason>Razão</Reason>
     <RecentFonts>Fontes Recentes</RecentFonts>
     <ReconnectOnEachRow>Reconecte em Cada Linha</ReconnectOnEachRow>
     <ReferencedAssemblies>Referência do Assemblies</ReferencedAssemblies>
@@ -4616,6 +4639,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <TagValue>Valor da Etiqueta</TagValue>
     <Target>Alvo</Target>
     <TargetColor>Cor Alvo</TargetColor>
+    <TargetFormat>Formato de destino</TargetFormat>
     <TargetIcon>Ícone Alvo</TargetIcon>
     <TargetMode>Modo Alvo</TargetMode>
     <TargetSettings>Alvo</TargetSettings>
@@ -5185,6 +5209,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <VerticalLine>Linha Vertical</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Assinatura limpa</ClearSignature>
     <DigitalSignatureEmptyWatermark>Local para assinatura digital no PDF Viewer</DigitalSignatureEmptyWatermark>
     <FullName>Nome completo</FullName>
     <Initials>Iniciais</Initials>
@@ -5192,6 +5217,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <InsertText>Inserir texto</InsertText>
     <LoadSignature>Carregar assinatura</LoadSignature>
     <NoSavedItems>Nenhum item salvo</NoSavedItems>
+    <PdfDigitalSignatureTitle>Selecione os objetos que deseja exibir na assinatura do arquivo PDF.</PdfDigitalSignatureTitle>
     <SaveSignature>Salvar assinatura</SaveSignature>
     <SignatureSavedSuccessfully>Assinatura salva com sucesso.</SignatureSavedSuccessfully>
     <UseBrush>Usar pincel</UseBrush>
@@ -5275,6 +5301,8 @@ contexto do painel de propriedades.</qnConfiguration>
     <MoveBackward>Mover para trás</MoveBackward>
     <MoveForward>Mover para frente</MoveForward>
     <Order>Ordem</Order>
+    <RibbonClassic>Ribbon Classico</RibbonClassic>
+    <RibbonSingleLine>Linha Simples Ribbon</RibbonSingleLine>
     <SendToBack>Enviar para trás</SendToBack>
     <Size>Tamanho</Size>
     <StyleDesigner>Estilo do Designer</StyleDesigner>

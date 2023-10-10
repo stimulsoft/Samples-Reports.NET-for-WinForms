@@ -1935,7 +1935,8 @@
     <StiPageHeaderBand>This band is used to output the page header such as page numbers, dates, and other additional information. It is output on the top of each page.</StiPageHeaderBand>
     <StiPanel>A rectangular region that can contain other components, including bands. When the panel is moved the components in it are moved too. A panel can be placed either on a band or on a page.</StiPanel>
     <StiPanelElement>A rectangular region that can contain other elements. When the panel is moved the elements in it are moved too.</StiPanelElement>
-    <StiPdfDigitalSignature>This component is used to specify a place for the digital signature after the report has been exported to Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignature>This interactive component is used to specify a place for the digital signature after the report has been exported to Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>This component is used to specify a space for the digital signature and fields from the certificate when exporting to PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>The pivot table element is used for the structured data representation as a table.</StiPivotTableElement>
     <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, donut, bars.</StiProgressElement>
     <StiRectanglePrimitive>This component is used to output rectangles.</StiRectanglePrimitive>
@@ -2380,6 +2381,7 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>The request timeout for SQL queries exceeds the request timeout of the report designer. Set the request timeout for the designer component in no less than {0} seconds.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Be careful! This function converts the data source to {0}. To successfully retrieve data, all table and column names must match. Queries will not be converted. Do you want to proceed?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Do not show again</DoNotShowAgain>
     <LatexFormat>The LaTeX format is used to display mathematical formulas.</LatexFormat>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
@@ -3288,6 +3290,10 @@
     <StiOrientationVertical>Vertical</StiOrientationVertical>
     <StiPageOrientationLandscape>Landscape</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portrait</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Draw</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Image</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>None</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Text</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Dash</StiPenStyleDash>
     <StiPenStyleDashDot>Dash Dot</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Dash Dot Dot</StiPenStyleDashDotDot>
@@ -3401,6 +3407,9 @@
     <StiShiftModeIncreasingSize>Increasing Size</StiShiftModeIncreasingSize>
     <StiShiftModeNone>None</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Only in Width of Component</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Connect Points with Line</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Gap</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Zero</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>From Chart</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>From Series</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>None</StiShowSeriesLabelsNone>
@@ -3410,6 +3419,8 @@
     <StiShowYAxisBoth>Both</StiShowYAxisBoth>
     <StiShowYAxisCenter>Center</StiShowYAxisCenter>
     <StiShowYAxisLeft>Left</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Draw</StiSignatureModeDraw>
+    <StiSignatureModeType>Type</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Digital Signature</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Draw</StiSignatureTypeDraw>
     <StiSignatureTypeType>Type</StiSignatureTypeType>
@@ -3653,6 +3664,7 @@
     <AllowApplyColorNegative>Allow Apply Color Negative</AllowApplyColorNegative>
     <AllowApplyLineColor>Allow Apply Line Color</AllowApplyLineColor>
     <AllowApplyStyle>Allow Apply Style</AllowApplyStyle>
+    <AllowCleanSignature>Allow Clean Signature</AllowCleanSignature>
     <AllowExpressions>Allow Expressions</AllowExpressions>
     <AllowHtmlTags>Allow HTML Tags</AllowHtmlTags>
     <AllowNull>Allow Null</AllowNull>
@@ -3685,6 +3697,7 @@
     <Anchor>Anchor</Anchor>
     <Angle>Angle</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
+    <Appearance>Appearance</Appearance>
     <Apply>Apply</Apply>
     <Area>Area</Area>
     <Argument>Argument</Argument>
@@ -3987,6 +4000,7 @@
     <FooterRowsCount>Footer Rows Count</FooterRowsCount>
     <Footers>Footers</Footers>
     <ForeColor>Fore Color</ForeColor>
+    <Foreground>Foreground</Foreground>
     <Format>Format</Format>
     <FormName>Form Name</FormName>
     <FormSettings>Form Settings</FormSettings>
@@ -5146,11 +5160,13 @@
     <VerticalLine>Vertical Line</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Clear Signature</ClearSignature>
     <DigitalSignatureEmptyWatermark>Place for digital signature in PDF Viewer</DigitalSignatureEmptyWatermark>
     <InsertImage>Insert Image</InsertImage>
     <InsertText>Insert Text</InsertText>
     <LoadSignature>Load signature</LoadSignature>
     <NoSavedItems>No saved items</NoSavedItems>
+    <PdfDigitalSignatureTitle>Select the objects that you want to display in the signature on the PDF file.</PdfDigitalSignatureTitle>
     <SaveSignature>Save signature</SaveSignature>
     <SignatureSavedSuccessfully>Signature saved successfully.</SignatureSavedSuccessfully>
     <UseBrush>Use Brush</UseBrush>
@@ -5234,6 +5250,8 @@
     <MoveBackward>Move Backward</MoveBackward>
     <MoveForward>Move Forward</MoveForward>
     <Order>Order</Order>
+    <RibbonClassic>Classic Ribbon</RibbonClassic>
+    <RibbonSingleLine>Single Line Ribbon</RibbonSingleLine>
     <SendToBack>Send to Back</SendToBack>
     <Size>Size</Size>
     <StyleDesigner>Style Designer</StyleDesigner>

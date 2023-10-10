@@ -300,7 +300,7 @@
     <AxesArrowStyleNone>Нет</AxesArrowStyleNone>
     <AxesArrowStyleTriangle>Треугольник</AxesArrowStyleTriangle>
     <AxesLabel>Размещение подписей</AxesLabel>
-    <AxesLabelsNone>нет</AxesLabelsNone>
+    <AxesLabelsNone>Нет</AxesLabelsNone>
     <AxesLabelsOneLine>В одну линию</AxesLabelsOneLine>
     <AxesLabelsTwoLines>В две линии</AxesLabelsTwoLines>
     <AxesReverseHorizontal>Перевернуть по горизонтали</AxesReverseHorizontal>
@@ -1942,7 +1942,8 @@
     <StiPageHeaderBand>Бэнд используется для вывода заголовка страницы. Он выводится в верхней части каждой страницы, и используется для вывода номеров страниц, дат и другой дополнительной информации.</StiPageHeaderBand>
     <StiPanel>Это прямоугольная область, где другие компоненты, в том числе и бэнды, могут быть размещены. При перемещении панели компоненты размещенные на ней будут также перемещены. Панель может размещаться как на бэнде так и на странице.</StiPanel>
     <StiPanelElement>Это прямоугольная область, где другие компоненты могут быть размещены. При перемещении панели компоненты размещенные на ней будут также перемещены.</StiPanelElement>
-    <StiPdfDigitalSignature>Этот компонент используется для указания места цифровой подписи после экспорта отчета в файл Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignature>Этот интерактивный компонент используется для указания места цифровой подписи после экспорта отчета в файл Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Этот компонент используется для указания места цифровой подписи и полей из сертификата при экспорте отчета в файл Adobe PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Этот элемент используется для представления структурированных данных в виде таблицы.</StiPivotTableElement>
     <StiProgressElement>Этот элемент используется для отображения процентного соотношения между входными данными. Может быть представлен в различном режиме: кольцо, круг, гистограмма.</StiProgressElement>
     <StiRectanglePrimitive>Геометрический примитив - прямоугольник, используется для визуального оформления отчетов. Левый верхний угол прямоугольника может находится в области одного бэнда, а правый нижний угол - в области другого бэнда.</StiRectanglePrimitive>
@@ -2396,6 +2397,7 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Время ожидания для SQL запросов превышает время ожидания запросов дизайнера. Установите время ожидания запросов дизайнера не менее {0} секунд.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Будьте осторожны! Эта функция преобразует источник данных в {0}. Для успешного получения данных все имена таблиц и колонок должны совпадать. Запросы не будут преобразованы. Вы хотите продолжить?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Не показывать снова</DoNotShowAgain>
     <LatexFormat>Для отображения математических формул используется формат LaTeX.</LatexFormat>
     <MessageTimeOutExpired>Истекло время ожидания исполнения команды!</MessageTimeOutExpired>
@@ -3341,6 +3343,10 @@
     <StiOrientationVertical>Вертикальный</StiOrientationVertical>
     <StiPageOrientationLandscape>Альбом</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Портрет</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Рисовать</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Изображение</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Нет</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Текст</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Штрихованная</StiPenStyleDash>
     <StiPenStyleDashDot>Штрих-пунктирная</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Штрих-пунктирная с двумя точками</StiPenStyleDashDotDot>
@@ -3454,6 +3460,9 @@
     <StiShiftModeIncreasingSize>При увеличении размера</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Нет</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Только в пределах ширины компонента</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Соединять точки линией</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Промежуток</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Ноль</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Из диаграммы</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Из ряда</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Нет</StiShowSeriesLabelsNone>
@@ -3463,6 +3472,8 @@
     <StiShowYAxisBoth>Обе</StiShowYAxisBoth>
     <StiShowYAxisCenter>По центру</StiShowYAxisCenter>
     <StiShowYAxisLeft>Левая</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Рисовать</StiSignatureModeDraw>
+    <StiSignatureModeType>Тип</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Цифровая подпись</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Рисовать</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Выбрать стиль</StiSignatureTypeSelectStyle>
@@ -3711,6 +3722,7 @@
     <AllowApplyColorNegative>Разрешить цвет негативных значений</AllowApplyColorNegative>
     <AllowApplyLineColor>Разрешить цвет линии</AllowApplyLineColor>
     <AllowApplyStyle>Разрешить применять стили</AllowApplyStyle>
+    <AllowCleanSignature>Разрешить очистку подписи</AllowCleanSignature>
     <AllowExpressions>Разрешить выражения</AllowExpressions>
     <AllowHtmlTags>Разрешить HTML теги</AllowHtmlTags>
     <AllowNull>Разрешить null</AllowNull>
@@ -3743,6 +3755,7 @@
     <Anchor>Привязка</Anchor>
     <Angle>Угол</Angle>
     <Antialiasing>Сглаживание</Antialiasing>
+    <Appearance>Вид</Appearance>
     <Apply>Применить</Apply>
     <Area>Область</Area>
     <Argument>Аргумент</Argument>
@@ -4047,6 +4060,7 @@
     <FooterRowsCount>Количество строк итога</FooterRowsCount>
     <Footers>Итоги</Footers>
     <ForeColor>Цвет текста</ForeColor>
+    <Foreground>Цвет</Foreground>
     <Format>Формат</Format>
     <FormName>Наименование формы</FormName>
     <FormSettings>Настройки формы</FormSettings>
@@ -5212,6 +5226,7 @@
     <VerticalLine>Вертикальная линия</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Очистить подпись</ClearSignature>
     <DigitalSignatureEmptyWatermark>Место для цифровой подписи в PDF вьювере</DigitalSignatureEmptyWatermark>
     <FullName>Полное имя</FullName>
     <Initials>Инициалы</Initials>
@@ -5219,6 +5234,7 @@
     <InsertText>Вставить текст</InsertText>
     <LoadSignature>Загрузить подпись</LoadSignature>
     <NoSavedItems>Нет сохраненных элементов</NoSavedItems>
+    <PdfDigitalSignatureTitle>Выберите объекты, которые вы хотите отобразить в подписи PDF файла.</PdfDigitalSignatureTitle>
     <SaveSignature>Сохранить подпись</SaveSignature>
     <SignatureSavedSuccessfully>Подпись успешно сохранена.</SignatureSavedSuccessfully>
     <UseBrush>Использовать кисть</UseBrush>
@@ -5302,6 +5318,8 @@
     <MoveBackward>Переместить назад</MoveBackward>
     <MoveForward>Переместить вперед</MoveForward>
     <Order>Порядок</Order>
+    <RibbonClassic>Классический Ribbon</RibbonClassic>
+    <RibbonSingleLine>Ribbon в одну линию</RibbonSingleLine>
     <SendToBack>Поместить на задний план</SendToBack>
     <Size>Размер</Size>
     <StyleDesigner>Редактор стилей</StyleDesigner>

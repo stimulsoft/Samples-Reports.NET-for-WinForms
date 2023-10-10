@@ -144,6 +144,7 @@
     <Submit>Trimite</Submit>
     <SwitchTo>Schimbă cu {0}</SwitchTo>
     <Test>Test</Test>
+    <TryToReconnect>Încercați reconectarea</TryToReconnect>
     <Up>Sus</Up>
     <Upgrade>Actualizare</Upgrade>
     <UpgradeNow>Actualizare Acum</UpgradeNow>
@@ -645,6 +646,7 @@
     <StiPageHeaderBand>Antet pagină</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
     <StiPdfDigitalSignature>Semnătura digitală PDF</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Element PDF</StiPdfDigitalSignatureElement>
     <StiPivot>Pivot</StiPivot>
     <StiPivotColumn>Coloană Pivot</StiPivotColumn>
     <StiPivotRow>Rând Pivot</StiPivotRow>
@@ -1141,6 +1143,7 @@
     <EncryptedReportFiles>Fişiere tip raport criptat (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Fişiere Microsoft Excel 2007/2013 (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Fișiere Microsoft Excel (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Fișiere Microsoft Excel(*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Fişiere Microsoft Excel (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Fişiere Microsoft Excel XML (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>Fişiere EXE (*.exe)|*.exe</ExeFiles>
@@ -1950,6 +1953,7 @@
     <StiMapCategory>Grup de elemente pentru lucrul cu hărți și date.</StiMapCategory>
     <StiMapElement>Acest element este utilizat pentru afișarea datelor direcționate din punct de vedere geografic.</StiMapElement>
     <StiMathFormula>Această componentă este utilizată pentru a afișa formule matematice într-un raport.</StiMathFormula>
+    <StiNumberBoxElement>Acest element este utilizat pentru a selecta o valoare numerică sau pentru a seta un interval de valori numerice.</StiNumberBoxElement>
     <StiOnlineMapElement>Acest element este utilizat pentru a afișa marcaje geografice pe harta online.</StiOnlineMapElement>
     <StiOverlayBand>Această bandă este folosită pentru afişare watermark-uri pe o pagină.</StiOverlayBand>
     <StiPageFooterBand>Această bandă este folosită pentru afişare informatii în subsolul fiecărei pagini cum ar fi număr pagină,data şi alte informaţii adiţionale.</StiPageFooterBand>
@@ -2410,6 +2414,7 @@
     <DoNotShowAgain>Nu se afișează din nou</DoNotShowAgain>
     <LatexFormat>Formatul LaTeX este utilizat pentru a afișa formule matematice.</LatexFormat>
     <MessageTimeOutExpired>Timp comandă expirat!</MessageTimeOutExpired>
+    <MustBeFile>Trebuie să fie fișierul {0} .</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Când vizualizați raportul partajat, redarea va avea loc în modul de interpretare!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Resursa "{0}" nu poate fi ștearsă deoarece este utilizată în raport!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>URL-ul de partajare al elementului a fost actualizat!</ShareURLOfTheItemHasBeenUpdated>
@@ -3350,6 +3355,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiOrientationVertical>Verticală</StiOrientationVertical>
     <StiPageOrientationLandscape>Peisaj</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portret</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Desen</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Imagine</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Nici unul</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Text</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Liniuţă</StiPenStyleDash>
     <StiPenStyleDashDot>Linie Punct</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Linie punct punct</StiPenStyleDashDotDot>
@@ -3463,6 +3472,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiShiftModeIncreasingSize>Creşte mărime</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Nimic</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Numai în lăţimea componentei</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Conectare puncte cu linie</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Decalaj</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Zero</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Din diagramă</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Din serii</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Niciuna</StiShowSeriesLabelsNone>
@@ -3472,6 +3484,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiShowYAxisBoth>Ambele</StiShowYAxisBoth>
     <StiShowYAxisCenter>Centru</StiShowYAxisCenter>
     <StiShowYAxisLeft>Stânga</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Desen</StiSignatureModeDraw>
+    <StiSignatureModeType>Tip</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Semnatura digitală</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Desen</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Selectare Stil</StiSignatureTypeSelectStyle>
@@ -3508,6 +3522,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiTableAutoWidthTypeFullTable>Tabelă plină</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Ultimile coloane</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Niciunul</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Dimensionare automată</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Potrivire</StiTableSizeModeFit>
     <StiTargetModePercentage>Procentaj</StiTargetModePercentage>
     <StiTargetModeVariation>Variație</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Centrat</StiTextHorAlignmentCenter>
@@ -3716,6 +3732,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AllowApplyColorNegative>Permite Aplicarea Culorii Negative</AllowApplyColorNegative>
     <AllowApplyLineColor>Permiteți aplicare culoare linie</AllowApplyLineColor>
     <AllowApplyStyle>Permite aplicarea stilului</AllowApplyStyle>
+    <AllowCleanSignature>Permiteți ștergerea semnăturii</AllowCleanSignature>
     <AllowExpressions>Permite Expresii</AllowExpressions>
     <AllowHtmlTags>Permite tag-uri Html </AllowHtmlTags>
     <AllowNull>Permite Null</AllowNull>
@@ -3950,6 +3967,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DisplayValue>Vizualizează valoare</DisplayValue>
     <Distance>Distanţă</Distance>
     <DistanceBetweenTabs>Distanţa între Tab-uri</DistanceBetweenTabs>
+    <DistinguishedName>Nume Distinctiv</DistinguishedName>
     <Dock>Dochează</Dock>
     <DockableTable>Tabel docabil</DockableTable>
     <DockStyle>Stil docare</DockStyle>
@@ -4050,6 +4068,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <FooterRowsCount>Număr rânduri subsol</FooterRowsCount>
     <Footers>Subsoluri</Footers>
     <ForeColor>Culoare text</ForeColor>
+    <Foreground>Prim plan</Foreground>
     <Format>Format</Format>
     <FormName>Nume formular</FormName>
     <FormSettings>Setări formular</FormSettings>
@@ -4103,6 +4122,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <HeatmapColors>Culori Hartă Căldură</HeatmapColors>
     <HeatmapWithGroup>Hartă termografică cu grup</HeatmapWithGroup>
     <Height>Înălţime</Height>
+    <Hidden>Ascuns</Hidden>
     <HideSeriesWithEmptyTitle>Ascunde seriile fără Titlu</HideSeriesWithEmptyTitle>
     <HideZeros>Ascunde zerouri</HideZeros>
     <High>Înalt</High>
@@ -4249,6 +4269,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Locked>Blocat</Locked>
     <Logarithmic>Logaritmic</Logarithmic>
     <LogarithmicScale>Scală Logaritmică</LogarithmicScale>
+    <Logo>Logo</Logo>
     <Longitude>Longitudine</Longitude>
     <Low>Scăzut</Low>
     <LowValues>Valori scăzute</LowValues>
@@ -4347,6 +4368,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <OffsetAngle>Unghi Compensare</OffsetAngle>
     <OnClick>La clic</OnClick>
     <OnDataManipulation>La Manipularea Datelor</OnDataManipulation>
+    <OnePointZoom>Zoom cu un punct</OnePointZoom>
     <OnHover>La Trecere peste</OnHover>
     <OnlyText>Doar text</OnlyText>
     <Opacity>Opacitate</Opacity>
@@ -4433,6 +4455,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Ratio>Raport</Ratio>
     <RatioY>Raport Y</RatioY>
     <ReadOnly>Nemodificabil</ReadOnly>
+    <Reason>Motiv</Reason>
     <RecentFonts>Fonturi recente</RecentFonts>
     <ReconnectOnEachRow>Reconectează la fiecare rând</ReconnectOnEachRow>
     <ReferencedAssemblies>Assembly-urile referite</ReferencedAssemblies>
@@ -4648,6 +4671,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <TagValue>Valoare Tag</TagValue>
     <Target>Ţintă</Target>
     <TargetColor>Culoare țintă</TargetColor>
+    <TargetFormat>Format țintă</TargetFormat>
     <TargetIcon>Pictograma țintă</TargetIcon>
     <TargetMode>Mod țintă</TargetMode>
     <TargetSettings>Ţintă</TargetSettings>
@@ -5212,6 +5236,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <VerticalLine>Linie verticală</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Ștergere Semnătură</ClearSignature>
     <DigitalSignatureEmptyWatermark>Loc pentru semnătură digitală în PDF Viewer</DigitalSignatureEmptyWatermark>
     <FullName>Nume complet</FullName>
     <Initials>Inițiale</Initials>
@@ -5219,6 +5244,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <InsertText>Inserare Text</InsertText>
     <LoadSignature>Încărcare semnătură</LoadSignature>
     <NoSavedItems>Niciun articol salvat</NoSavedItems>
+    <PdfDigitalSignatureTitle>Selectați obiectele pe care doriți să le afișați în semnătura de pe fișierul PDF.</PdfDigitalSignatureTitle>
     <SaveSignature>Salvare semnătură</SaveSignature>
     <SignatureSavedSuccessfully>Semnătura salvată cu succes.</SignatureSavedSuccessfully>
     <UseBrush>Folosire pensulă</UseBrush>
@@ -5302,6 +5328,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <MoveBackward>Mută înapoi</MoveBackward>
     <MoveForward>Mută înainte</MoveForward>
     <Order>Ordine</Order>
+    <RibbonClassic>Ribon clasic</RibbonClassic>
+    <RibbonSingleLine>Ribon o singură linie</RibbonSingleLine>
     <SendToBack>Trimite în spate</SendToBack>
     <Size>Mărime</Size>
     <StyleDesigner>Designer de stiluri</StyleDesigner>

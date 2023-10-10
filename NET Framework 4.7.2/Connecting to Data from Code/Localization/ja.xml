@@ -142,6 +142,7 @@
     <Submit>サブミット</Submit>
     <SwitchTo>{0}に切り替えます</SwitchTo>
     <Test>テスト</Test>
+    <TryToReconnect>再接続</TryToReconnect>
     <Up>アップ</Up>
     <Upgrade>アップグレード</Upgrade>
     <UpgradeNow>今すぐアップグレード</UpgradeNow>
@@ -643,6 +644,7 @@
     <StiPageHeaderBand>ページ&lt;br&gt;ヘッダ</StiPageHeaderBand>
     <StiPanel>パネル</StiPanel>
     <StiPdfDigitalSignature>PDF電子署名</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDFエレメント</StiPdfDigitalSignatureElement>
     <StiPivotColumn>ピボット列</StiPivotColumn>
     <StiPivotRow>ピボットロウ</StiPivotRow>
     <StiPivotSummary>ピボットの集計</StiPivotSummary>
@@ -1124,6 +1126,7 @@
     <EncryptedReportFiles>暗号化されたレポートテンプレート(*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excelファイル(*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excelファイル(*.xlsx; *.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>マイクロソフト・エクセルファイル（*.xlsx</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel 97-2003ファイル(*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XMLファイル(*.xml)|*.xml</ExcelXmlFiles>
     <ExeFiles>EXEファイル(*.exe)|*.exe</ExeFiles>
@@ -1925,6 +1928,7 @@
     <StiMapCategory>地図やデータを扱うための部品群。</StiMapCategory>
     <StiMapElement>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiMapElement>
     <StiMathFormula>このコンポーネントは、レポートに数式を表示するために使用されます。</StiMathFormula>
+    <StiNumberBoxElement>この要素は、数値を選択したり、数値の範囲を設定するために使われます。</StiNumberBoxElement>
     <StiOnlineMapElement>この部品は、オンラインマップ上に地理的マーカーを表示するために使用されます。</StiOnlineMapElement>
     <StiOverlayBand>このバンドは、ページ上に透かしを出力するために使用されます。</StiOverlayBand>
     <StiPageFooterBand>このバンドは、ページ番号、日付、およびその他の追加情報など、各ページの下部にある情報を出力するために使用されます。</StiPageFooterBand>
@@ -2379,6 +2383,7 @@
     <DoNotShowAgain>再び表示しない</DoNotShowAgain>
     <LatexFormat>LaTeX形式は、数式を表示するために使用されます。</LatexFormat>
     <MessageTimeOutExpired>コマンドのタイムアウトが切れました！</MessageTimeOutExpired>
+    <MustBeFile>{0}ファイルでなければならない。</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>共有レポートを表示すると、解釈モードでレンダリングが行われます。</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>リソース "{0}"はレポートで使用されているため、削除できません。</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>アイテムの共有URLが更新されました！</ShareURLOfTheItemHasBeenUpdated>
@@ -3283,6 +3288,10 @@
     <StiOrientationVertical>垂直</StiOrientationVertical>
     <StiPageOrientationLandscape>横置</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>縦置</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>ドロー</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>画像</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>なし</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>テキスト</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>ダッシュ</StiPenStyleDash>
     <StiPenStyleDashDot>ダッシュドット</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>ダッシュドットドット</StiPenStyleDashDotDot>
@@ -3396,6 +3405,9 @@
     <StiShiftModeIncreasingSize>サイズ増加</StiShiftModeIncreasingSize>
     <StiShiftModeNone>なし</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>部品の幅のみ</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>点と点を線で結ぶ</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>ギャップ</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>ゼロ</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>グラフから</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>シリーズから</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>なし</StiShowSeriesLabelsNone>
@@ -3405,6 +3417,8 @@
     <StiShowYAxisBoth>両方</StiShowYAxisBoth>
     <StiShowYAxisCenter>中央</StiShowYAxisCenter>
     <StiShowYAxisLeft>左</StiShowYAxisLeft>
+    <StiSignatureModeDraw>ドロー</StiSignatureModeDraw>
+    <StiSignatureModeType>タイプ</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>デジタル署名</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>描画</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>スタイル選択</StiSignatureTypeSelectStyle>
@@ -3441,6 +3455,8 @@
     <StiTableAutoWidthTypeFullTable>全テーブル</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>最後の列</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>なし</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>オートサイズ</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>フィット</StiTableSizeModeFit>
     <StiTargetModePercentage>パーセンテージ</StiTargetModePercentage>
     <StiTargetModeVariation>バリエーション</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>センター</StiTextHorAlignmentCenter>
@@ -3647,6 +3663,7 @@
     <AllowApplyColorNegative>カラーネガティブの適用を許可</AllowApplyColorNegative>
     <AllowApplyLineColor>ラインカラー適用を許可</AllowApplyLineColor>
     <AllowApplyStyle>適用スタイルを許可</AllowApplyStyle>
+    <AllowCleanSignature>クリーンな署名を許可する</AllowCleanSignature>
     <AllowExpressions>式を許可</AllowExpressions>
     <AllowHtmlTags>HTMLタグを許可</AllowHtmlTags>
     <AllowNull>Nullを許可</AllowNull>
@@ -3880,6 +3897,7 @@
     <DisplayValue>表示値</DisplayValue>
     <Distance>距離</Distance>
     <DistanceBetweenTabs>タブ間の距離</DistanceBetweenTabs>
+    <DistinguishedName>識別名</DistinguishedName>
     <Dock>ドック</Dock>
     <DockableTable>ドッキング可能なテーブル</DockableTable>
     <DockStyle>ドックスタイル</DockStyle>
@@ -3980,6 +3998,7 @@
     <FooterRowsCount>フッタ行数</FooterRowsCount>
     <Footers>フッタ</Footers>
     <ForeColor>フォアカラー</ForeColor>
+    <Foreground>前景</Foreground>
     <Format>フォーマット</Format>
     <FormName>フォーム名</FormName>
     <FormSettings>フォーム設定</FormSettings>
@@ -4033,6 +4052,7 @@
     <HeatmapColors>ヒートマップ色</HeatmapColors>
     <HeatmapWithGroup>グループ化ヒートマップ</HeatmapWithGroup>
     <Height>高さ</Height>
+    <Hidden>ヒドゥン</Hidden>
     <HideSeriesWithEmptyTitle>空のタイトルでシリーズを非表示</HideSeriesWithEmptyTitle>
     <HideZeros>ゼロ非表示</HideZeros>
     <High>高い</High>
@@ -4178,6 +4198,7 @@
     <Locked>ロックする</Locked>
     <Logarithmic>対数</Logarithmic>
     <LogarithmicScale>対数スケール</LogarithmicScale>
+    <Logo>ロゴ</Logo>
     <Longitude>経度</Longitude>
     <Low>低い</Low>
     <LowValues>低い値</LowValues>
@@ -4276,6 +4297,7 @@
     <OffsetAngle>オフセット角</OffsetAngle>
     <OnClick>クリック時</OnClick>
     <OnDataManipulation>データ操作</OnDataManipulation>
+    <OnePointZoom>ワンポイント・ズーム</OnePointZoom>
     <OnHover>ホバー時</OnHover>
     <OnlyText>テキストのみ</OnlyText>
     <Opacity>不透明度</Opacity>
@@ -4360,6 +4382,7 @@
     <Ratio>比</Ratio>
     <RatioY>比率Y</RatioY>
     <ReadOnly>読み取り専用</ReadOnly>
+    <Reason>理由</Reason>
     <RecentFonts>最近のフォント</RecentFonts>
     <ReconnectOnEachRow>各行に再接続</ReconnectOnEachRow>
     <ReferencedAssemblies>参照アセンブリ</ReferencedAssemblies>
@@ -4573,6 +4596,7 @@
     <TagValue>タグ値</TagValue>
     <Target>ターゲット</Target>
     <TargetColor>ターゲットカラー</TargetColor>
+    <TargetFormat>ターゲット・フォーマット</TargetFormat>
     <TargetIcon>ターゲットアイコン</TargetIcon>
     <TargetMode>ターゲットモード</TargetMode>
     <TargetSettings>目標</TargetSettings>
@@ -5136,6 +5160,7 @@
     <VerticalLine>垂直線</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>クリアサイン</ClearSignature>
     <DigitalSignatureEmptyWatermark>PDFビューアにデジタル署名を配置</DigitalSignatureEmptyWatermark>
     <FullName>フルネーム</FullName>
     <Initials>イニシャル</Initials>
@@ -5143,6 +5168,7 @@
     <InsertText>テキストを挿入</InsertText>
     <LoadSignature>署名のロード</LoadSignature>
     <NoSavedItems>保存されたアイテムはありません</NoSavedItems>
+    <PdfDigitalSignatureTitle>PDFファイルの署名に表示したいオブジェクトを選択します。</PdfDigitalSignatureTitle>
     <SaveSignature>署名の保存</SaveSignature>
     <SignatureSavedSuccessfully>署名が正常に保存されました。</SignatureSavedSuccessfully>
     <UseBrush>ブラシを使用する</UseBrush>
@@ -5226,6 +5252,8 @@
     <MoveBackward>背面へ移動</MoveBackward>
     <MoveForward>前面へ移動</MoveForward>
     <Order>順序</Order>
+    <RibbonClassic>クラシック・リボン</RibbonClassic>
+    <RibbonSingleLine>シングルライン・リボン</RibbonSingleLine>
     <SendToBack>最背面</SendToBack>
     <Size>サイズ</Size>
     <StyleDesigner>スタイル&lt;br&gt;デザイナ</StyleDesigner>

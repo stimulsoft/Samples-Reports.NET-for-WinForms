@@ -142,6 +142,7 @@
     <Submit>Изпрати</Submit>
     <SwitchTo>Премини към {0}</SwitchTo>
     <Test>Проверка</Test>
+    <TryToReconnect>Опитайте да се свържете отново</TryToReconnect>
     <Up>Нагоре</Up>
     <Upgrade>Надграждане</Upgrade>
     <UpgradeNow>Надгради сега</UpgradeNow>
@@ -643,6 +644,7 @@
     <StiPageHeaderBand>Заглавие на страница</StiPageHeaderBand>
     <StiPanel>Панел</StiPanel>
     <StiPdfDigitalSignature>PDF Цифров Подпис</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF Елемент</StiPdfDigitalSignatureElement>
     <StiPivot>Осова таблица</StiPivot>
     <StiPivotColumn>Pivot Column</StiPivotColumn>
     <StiPivotRow>Pivot Row</StiPivotRow>
@@ -1126,6 +1128,7 @@
     <EncryptedReportFiles>Файл кодирани отчети (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 файлове (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel файлове (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel файлове (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML файлове (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE файлове (*.exe)|*.exe</ExeFiles>
@@ -1928,6 +1931,7 @@
     <StiMapCategory>Група елементи за работа с карти и данни.</StiMapCategory>
     <StiMapElement>Този елемент се използва за показване на географски насочени данни.</StiMapElement>
     <StiMathFormula>Този компонент се използва за показване на математически формули в отчет. </StiMathFormula>
+    <StiNumberBoxElement>Този елемент се използва за избор на числова стойност или за задаване на диапазон от числови стойности.</StiNumberBoxElement>
     <StiOnlineMapElement>Този елемент се използва за показване на географски маркери в онлайн картата.</StiOnlineMapElement>
     <StiOverlayBand>Този компонент се използва за извеждането на воден знак в страницата.</StiOverlayBand>
     <StiPageFooterBand>Тази секция се използва за извеждането на информация в края на всяка страница от рода на номер на страница, дати и друга информация</StiPageFooterBand>
@@ -2388,6 +2392,7 @@
     <DoNotShowAgain>Не показвай отново</DoNotShowAgain>
     <LatexFormat>Форматът LaTeX се използва за показване на математически формули.</LatexFormat>
     <MessageTimeOutExpired>Командата за изчакване е изтекла!</MessageTimeOutExpired>
+    <MustBeFile>Трябва да е {0} файл.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Когато разглеждате споделения отчет, изпълнението ще се извърши в режим на интерпретация</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Ресурсът "{0}" не може да бъде изтрит, защото се използва в отчета!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>URL адресът за споделяне на елемента е актуализиран!</ShareURLOfTheItemHasBeenUpdated>
@@ -3305,6 +3310,10 @@
     <StiOrientationVertical>Верикално</StiOrientationVertical>
     <StiPageOrientationLandscape>Пейзаж</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Портрет</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Рисуване</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Изображение</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Нито един</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Текст</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Тире</StiPenStyleDash>
     <StiPenStyleDashDot>Тире точка</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Тире точка точка</StiPenStyleDashDotDot>
@@ -3418,6 +3427,9 @@
     <StiShiftModeIncreasingSize>Увеличаващ размер</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Няма</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Само в ширината на компонента</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Свързване на точки с линия</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Празнина</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Нула</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>От диаграма</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>От серия</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Няма</StiShowSeriesLabelsNone>
@@ -3427,6 +3439,8 @@
     <StiShowYAxisBoth>И двете</StiShowYAxisBoth>
     <StiShowYAxisCenter>Центриране</StiShowYAxisCenter>
     <StiShowYAxisLeft>Ляво</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Рисуване</StiSignatureModeDraw>
+    <StiSignatureModeType>Тип</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Цифров подпис</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Изчертай</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Избери стил</StiSignatureTypeSelectStyle>
@@ -3463,6 +3477,8 @@
     <StiTableAutoWidthTypeFullTable>Цяла таблица</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Последни Колони</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Няма</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Автоматичен размер</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Пасва</StiTableSizeModeFit>
     <StiTargetModePercentage>Процент</StiTargetModePercentage>
     <StiTargetModeVariation>Вариация</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Центрирано</StiTextHorAlignmentCenter>
@@ -3669,6 +3685,7 @@
     <AllowApplyColorNegative>Разреши Цвят Негатив</AllowApplyColorNegative>
     <AllowApplyLineColor>Позволете прилагане на цвета на линията</AllowApplyLineColor>
     <AllowApplyStyle>Разреши прилагане стил</AllowApplyStyle>
+    <AllowCleanSignature>Разрешаване на чист подпис</AllowCleanSignature>
     <AllowExpressions>Разреши Изрази</AllowExpressions>
     <AllowHtmlTags>Разреши Html </AllowHtmlTags>
     <AllowNull>Разрешаване на Null</AllowNull>
@@ -3903,6 +3920,7 @@
     <DisplayValue>Изображеаме стойност</DisplayValue>
     <Distance>Дистанция</Distance>
     <DistanceBetweenTabs>Дистанция между Tabs</DistanceBetweenTabs>
+    <DistinguishedName>Отличително име</DistinguishedName>
     <Dock>Dock</Dock>
     <DockableTable>Dockable Table</DockableTable>
     <DockStyle>Dock Style</DockStyle>
@@ -4003,6 +4021,7 @@
     <FooterRowsCount>Брояч на редове</FooterRowsCount>
     <Footers>Долни колонтитули</Footers>
     <ForeColor>Цвят текст</ForeColor>
+    <Foreground>Преден план</Foreground>
     <Format>Формат</Format>
     <FormName>Име на форма</FormName>
     <FormSettings>Настройки на формата</FormSettings>
@@ -4056,6 +4075,7 @@
     <HeatmapColors>Цветове Heatmap</HeatmapColors>
     <HeatmapWithGroup>Топлинна карта с група </HeatmapWithGroup>
     <Height>Височина</Height>
+    <Hidden>Скрити</Hidden>
     <HideSeriesWithEmptyTitle>Скриване на серии с празни заглавия</HideSeriesWithEmptyTitle>
     <HideZeros>Скрий нули</HideZeros>
     <High>Високи</High>
@@ -4202,6 +4222,7 @@
     <Locked>Заключен</Locked>
     <Logarithmic>Логаритмично</Logarithmic>
     <LogarithmicScale>Логаритмична скала</LogarithmicScale>
+    <Logo>Лого</Logo>
     <Longitude>Географска дължина</Longitude>
     <Low>Ниско</Low>
     <LowValues>Ниски стойности</LowValues>
@@ -4300,6 +4321,7 @@
     <OffsetAngle>Ъгъл на Отместване</OffsetAngle>
     <OnClick>При щракване</OnClick>
     <OnDataManipulation>При манипулиранер на данни</OnDataManipulation>
+    <OnePointZoom>Едноточково увеличение</OnePointZoom>
     <OnHover>При посочване</OnHover>
     <OnlyText>Само текст</OnlyText>
     <Opacity>Непрозрачност</Opacity>
@@ -4384,6 +4406,7 @@
     <Ratio>Коефицент</Ratio>
     <RatioY>Отношение Y</RatioY>
     <ReadOnly>Само за четене</ReadOnly>
+    <Reason>Причина</Reason>
     <RecentFonts>Използвани шрифтове</RecentFonts>
     <ReconnectOnEachRow>Свързване при всеки ред</ReconnectOnEachRow>
     <ReferencedAssemblies>Връзки към колекции</ReferencedAssemblies>
@@ -4598,6 +4621,7 @@
     <TagValue>Белязана стойност</TagValue>
     <Target>Цел</Target>
     <TargetColor>Целеви цвят</TargetColor>
+    <TargetFormat>Целеви формат</TargetFormat>
     <TargetIcon>Целева икона</TargetIcon>
     <TargetMode>Целеви режим</TargetMode>
     <TargetSettings>Цел</TargetSettings>
@@ -5164,6 +5188,7 @@
     <VerticalLine>Вертикална линия</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Ясен подпис</ClearSignature>
     <DigitalSignatureEmptyWatermark>Място за цифров подпис в PDF Viewer</DigitalSignatureEmptyWatermark>
     <FullName>Пъно име</FullName>
     <Initials>Инициали</Initials>
@@ -5171,6 +5196,7 @@
     <InsertText>Вмъкване на текст</InsertText>
     <LoadSignature>Зареждане на подпис</LoadSignature>
     <NoSavedItems>Няма запазени елементи</NoSavedItems>
+    <PdfDigitalSignatureTitle>Изберете обектите, които искате да покажете в подписа на PDF файла.</PdfDigitalSignatureTitle>
     <SaveSignature>Съхранение на подпис</SaveSignature>
     <SignatureSavedSuccessfully>Подписът е запазен успешно.</SignatureSavedSuccessfully>
     <UseBrush>Използвайте четка</UseBrush>
@@ -5254,6 +5280,8 @@
     <MoveBackward>Преместване назад</MoveBackward>
     <MoveForward>Преместване напред</MoveForward>
     <Order>Последователност</Order>
+    <RibbonClassic>Класическа лента</RibbonClassic>
+    <RibbonSingleLine>Едноредова лента</RibbonSingleLine>
     <SendToBack>Преместване на заден план</SendToBack>
     <Size>Размер</Size>
     <StyleDesigner>Дизайнер стил</StyleDesigner>

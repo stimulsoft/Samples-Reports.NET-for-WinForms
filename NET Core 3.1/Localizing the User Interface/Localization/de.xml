@@ -142,6 +142,7 @@
     <Submit>Abschicken</Submit>
     <SwitchTo>Schalten auf {0}</SwitchTo>
     <Test>Testen</Test>
+    <TryToReconnect>Versuchen wieder zu verbinden</TryToReconnect>
     <Up>Nach oben</Up>
     <Upgrade>Aktualisieren</Upgrade>
     <UpgradeNow>Sofort aktualisieren</UpgradeNow>
@@ -643,6 +644,7 @@
     <StiPageHeaderBand>Seitenkopf</StiPageHeaderBand>
     <StiPanel>Leiste</StiPanel>
     <StiPdfDigitalSignature>Digitale PDF-Unterschrift</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF-Element</StiPdfDigitalSignatureElement>
     <StiPivot>Pivot</StiPivot>
     <StiPivotColumn>Pivotspalte</StiPivotColumn>
     <StiPivotRow>Pivot-Reihe</StiPivotRow>
@@ -1126,6 +1128,7 @@
     <EncryptedReportFiles>Stimulsoft-Dateien (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 Dateien (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel-Dateien (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel-Dateien (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel-Dateien (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML-Dateien (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE-Dateien (*.exe)|*.exe</ExeFiles>
@@ -1929,6 +1932,7 @@
     <StiMapCategory>Die Gruppe der Elemente für Arbeit mit Karten und Daten.</StiMapCategory>
     <StiMapElement>Dieses Element wird verwendet, um die geografisch ausgerichteten Daten anzuzeigen.</StiMapElement>
     <StiMathFormula>Diese Komponente wird für Anzeige von Mathematikformeln im Bericht verwendet.</StiMathFormula>
+    <StiNumberBoxElement>Dieses Element wird zur Auswahl vom Zahlenwert oder zum Festlegen vom Bereich von Zahlenwerten verwendet.</StiNumberBoxElement>
     <StiOnlineMapElement>Dieses Element wird verwendet, um die geografischen Marker auf der Online-Karte anzuzeigen.</StiOnlineMapElement>
     <StiOverlayBand>Dieses Band wird zur Darstellung von Wasserzeichen auf einer Seite verwendet. Es wird über alle anderen Elemente der Seite gelegt.</StiOverlayBand>
     <StiPageFooterBand>Das Seitenfuss-Band wird zur Darstellung von Informationen wie Seitenzahlen, Datum und anderer Zusatzinformationen am unteren Seitenrand verwendet.</StiPageFooterBand>
@@ -1936,6 +1940,7 @@
     <StiPanel>Das Panel ist eine Komponente, welche frei auf dem Bericht platziert werden kann. Darin können andere Komponenten, einschliesslich Bänder abgelegt werden. Das Panel dient quasi zur Gruppierung und Positionierung dieser anderen Kopmonenten. Das Panel kann auf einem Band oder direkt auf einer Seite des Berichtes platziert werden</StiPanel>
     <StiPanelElement>Eine rechteckige Region, die andere Elemente enthalten kann. Wenn das Panel verschoben wird, werden seine Elemente auch verschoben.</StiPanelElement>
     <StiPdfDigitalSignature>Diese Komponente wird verwendet, um ein Feld für digitale Unterschrift nach dem Export vom Bericht in Adobe PDF anzugeben.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Diese Komponente wird für die Angabe vom Standort der digitaler Unterschrift und der Zertifikat-Felder beim Export in PDF verwendet.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Das Pivot-Tabelle-Element wird verwendet, um die strukturierten Daten als Tabelle darzustellen.</StiPivotTableElement>
     <StiProgressElement>Das Element zeigt das Verhältnis der Eingabedaten an. Es kann in verschiedenen Modi - als Kreis-, Ring- oder Balkendiagramm, - dargestellt werden.</StiProgressElement>
     <StiRectanglePrimitive>Diese Komponente wird zu Ausgabe von Rechtecken verwendet.</StiRectanglePrimitive>
@@ -2386,9 +2391,11 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Anforderungs-Timeout für SQL-Quellen überschreitet Anforderungs-Timeout des Berichtsdesigners. Stellen Sie Anforderungs-Timeout für Designer-Komponente nicht weniger als {0} Sekunden ein.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Vorsicht! Diese Funktion wandelt die Datenquelle in {0} um. Um die Daten erfolgreich zu erhalten, sollen alle Namen der Tabellen und der Spalten zusammenpassen. Die Anfragen werden nicht umgewandelt werden. Wollen Sie fortfahren?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Mehr nicht anzeigen</DoNotShowAgain>
     <LatexFormat>Das LaTeX-Format wird für Anzeige von Mathematikformeln verwendet.</LatexFormat>
     <MessageTimeOutExpired>Befehl-Timeout ist abgelaufen!</MessageTimeOutExpired>
+    <MustBeFile>Die {0}-Datei muss sein.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Bei der Anzeige des geteilten Berichtes wird das Rendering im Interpretation-Modus erfolgt.</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Die Ressource "{0}" kann nicht gelöscht werden, weil sie im Bericht verwendet wird!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>Die URL-Adresse des Elementes ist aktualisiert!</ShareURLOfTheItemHasBeenUpdated>
@@ -3341,6 +3348,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiOrientationVertical>Vertikal</StiOrientationVertical>
     <StiPageOrientationLandscape>Querformat</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Hochformat</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Zeichnen</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Bild</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Nein</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Text</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Strich</StiPenStyleDash>
     <StiPenStyleDashDot>Strich Punkt</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Strich Punkt Punkt</StiPenStyleDashDotDot>
@@ -3454,6 +3465,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiShiftModeIncreasingSize>Beim Vergrößern</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Kein</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Nur innerhalb der Komponenten-Breite</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Die Punkte durch Linie verbinden</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Abstand</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Null</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Reihen-Überschriftung sichtbar</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Marker anzeigen</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Keine</StiShowSeriesLabelsNone>
@@ -3463,6 +3477,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiShowYAxisBoth>Beide</StiShowYAxisBoth>
     <StiShowYAxisCenter>Zentrum</StiShowYAxisCenter>
     <StiShowYAxisLeft>Links</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Zeichnen</StiSignatureModeDraw>
+    <StiSignatureModeType>Typ</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Digitale Unterschreibung</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Zeichnen</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Stil auswählen</StiSignatureTypeSelectStyle>
@@ -3499,6 +3515,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiTableAutoWidthTypeFullTable>Ganze Tabelle</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Letzte Spalten</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Kein</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Automatische Größe</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Fit</StiTableSizeModeFit>
     <StiTargetModePercentage>Prozentsatz</StiTargetModePercentage>
     <StiTargetModeVariation>Variation</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Mitte</StiTextHorAlignmentCenter>
@@ -3705,6 +3723,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AllowApplyColorNegative>Farbe für negative Werte verwenden</AllowApplyColorNegative>
     <AllowApplyLineColor>Linienfarbe erlauben</AllowApplyLineColor>
     <AllowApplyStyle>Angewendete Stil</AllowApplyStyle>
+    <AllowCleanSignature>Erlauben, die Unterschrift zu leeren</AllowCleanSignature>
     <AllowExpressions>Ausdrücke zulaßen</AllowExpressions>
     <AllowHtmlTags>Html-Tags auswerten</AllowHtmlTags>
     <AllowNull>Null erlauben</AllowNull>
@@ -3737,6 +3756,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Anchor>Anker</Anchor>
     <Angle>Winkel</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
+    <Appearance>Gestaltung</Appearance>
     <Apply>Anwenden</Apply>
     <Area>Fläche</Area>
     <Argument>Argument</Argument>
@@ -3939,6 +3959,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DisplayValue>Angezeigter Wert</DisplayValue>
     <Distance>Abstand</Distance>
     <DistanceBetweenTabs>Entfernung zwischen Tabs</DistanceBetweenTabs>
+    <DistinguishedName>Eindeutiger Name</DistinguishedName>
     <Dock>Andocken</Dock>
     <DockableTable>Andockbare Tabelle</DockableTable>
     <DockStyle>Andocken-Stil</DockStyle>
@@ -4039,6 +4060,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <FooterRowsCount>Anzahl Fußzeilen</FooterRowsCount>
     <Footers>Fußzeile</Footers>
     <ForeColor>Textfarbe</ForeColor>
+    <Foreground>Vordergrund</Foreground>
     <Format>Format</Format>
     <FormName>Formularname</FormName>
     <FormSettings>Aus Einstellungen</FormSettings>
@@ -4092,6 +4114,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HeatmapColors>Heatmapfarben</HeatmapColors>
     <HeatmapWithGroup>Heatmap mit Gruppe</HeatmapWithGroup>
     <Height>Höhe</Height>
+    <Hidden>Versteckt</Hidden>
     <HideSeriesWithEmptyTitle>Reihen ohne Titel ausblenden</HideSeriesWithEmptyTitle>
     <HideZeros>0-Werte unterdrücken</HideZeros>
     <High>Hoch</High>
@@ -4238,6 +4261,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Locked>Gesperrt</Locked>
     <Logarithmic>Logarithmisch</Logarithmic>
     <LogarithmicScale>Logarithmische Skala</LogarithmicScale>
+    <Logo>Logo</Logo>
     <Longitude>Längengrad</Longitude>
     <Low>Niedrig</Low>
     <LowValues>Niedrige Werte</LowValues>
@@ -4336,6 +4360,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <OffsetAngle>Versatzwinkel</OffsetAngle>
     <OnClick>Beim Klicken</OnClick>
     <OnDataManipulation>Bei der Datenmanipulation</OnDataManipulation>
+    <OnePointZoom>Ein-Punkt-Zoom</OnePointZoom>
     <OnHover>Bei der Berührung</OnHover>
     <OnlyText>Nur Text</OnlyText>
     <Opacity>Opazität</Opacity>
@@ -4422,6 +4447,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Ratio>Verhältnis</Ratio>
     <RatioY>Verhältnis Y</RatioY>
     <ReadOnly>Schreibschutz</ReadOnly>
+    <Reason>Grund</Reason>
     <RecentFonts>Letzte Schriftarten</RecentFonts>
     <ReconnectOnEachRow>Bei jeder Zeile erneut verbinden</ReconnectOnEachRow>
     <ReferencedAssemblies>Verweise auf Assemblies</ReferencedAssemblies>
@@ -4636,6 +4662,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <TagValue>Tag-Wert</TagValue>
     <Target>Ziel</Target>
     <TargetColor>Zielfarbe</TargetColor>
+    <TargetFormat>Zielformat</TargetFormat>
     <TargetIcon>Zielsymbol</TargetIcon>
     <TargetMode>Ziel-Modus</TargetMode>
     <TargetSettings>Ziel</TargetSettings>
@@ -5200,6 +5227,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <VerticalLine>Vertikale Linie</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Unterschrift leeren</ClearSignature>
     <DigitalSignatureEmptyWatermark>Platz für digitale Unterschreibung im PDF-Viewer</DigitalSignatureEmptyWatermark>
     <FullName>Voller Name</FullName>
     <Initials>Initialen</Initials>
@@ -5207,6 +5235,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <InsertText>Text einfügen</InsertText>
     <LoadSignature>Unterschrift laden</LoadSignature>
     <NoSavedItems>Keine gespeicherten Elemente</NoSavedItems>
+    <PdfDigitalSignatureTitle>Wählen Sie die Objekte, die Sie in der Unterschrift in PDF-Datei anzeigen wollen.</PdfDigitalSignatureTitle>
     <SaveSignature>Unterschrift speichern</SaveSignature>
     <SignatureSavedSuccessfully>Die Unterschreibung ist erfolgreich gespeichert.</SignatureSavedSuccessfully>
     <UseBrush>Bürste verwenden</UseBrush>
@@ -5290,6 +5319,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <MoveBackward>Nach hinten</MoveBackward>
     <MoveForward>Nach vorne</MoveForward>
     <Order>Reihenfolge</Order>
+    <RibbonClassic>Klassisches Ribbon</RibbonClassic>
+    <RibbonSingleLine>Einzeiliges Ribbon</RibbonSingleLine>
     <SendToBack>In den Hintergrund</SendToBack>
     <Size>Größe</Size>
     <StyleDesigner>Stil-Editor</StyleDesigner>

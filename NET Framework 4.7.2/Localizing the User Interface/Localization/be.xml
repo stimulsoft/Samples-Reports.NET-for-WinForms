@@ -646,6 +646,7 @@
     <StiPageHeaderBand>Загаловак старонкі</StiPageHeaderBand>
     <StiPanel>Панель</StiPanel>
     <StiPdfDigitalSignature>Лічбавы подпіс PDF</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF элемент</StiPdfDigitalSignatureElement>
     <StiPivot>Зборная табліца</StiPivot>
     <StiPivotColumn>Зборная калонка</StiPivotColumn>
     <StiPivotRow>Зборны радок</StiPivotRow>
@@ -1131,6 +1132,7 @@
     <EncryptedReportFiles>Зашыфраваныя Stimulsoft шаблоны (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 файлы (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel файлы (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel файлы (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel файлы (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML файлы (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE файлы (*.exe)|*.exe</ExeFiles>
@@ -1937,6 +1939,7 @@
     <StiMapCategory>Група кампанентаў для працы з картамі і дадзенымі.</StiMapCategory>
     <StiMapElement>Гэты кампанент выкарыстоўваецца для адлюстравання дадзеных, прывязаных да геаграфічных лакацый.</StiMapElement>
     <StiMathFormula>Гэты кампанент выкарыстоўваецца для адлюстравання матэматычных формул у справаздачы.</StiMathFormula>
+    <StiNumberBoxElement>Элемент фільтрацыі прызначаны для выбару лікавага значэння ці ўсталёўкі дыяпазону лікавых значэнняў.</StiNumberBoxElement>
     <StiOnlineMapElement>Гэты кампанент выкарыстоўваецца для адлюстравання геаграфічных маркераў на анлайн-карце.</StiOnlineMapElement>
     <StiOverlayBand>Гэты бэнд выкарыстоўваецца для вываду вадзяных знакаў на старонцы.</StiOverlayBand>
     <StiPageFooterBand>Бэнд вынік старонкі выкарыстоўваецца для вываду інфармацыі ў ніжняй частцы кожнай старонкі, і выкарыстоўваецца для вываду нумароў старонак, дат і іншай дадатковай інфармацыі.</StiPageFooterBand>
@@ -1944,6 +1947,7 @@
     <StiPanel>Гэта прамавугольная вобласць, дзе іншыя кампаненты, у тым ліку і бэнд, могуць быць размешчаны. Пры перамяшчэнні панэлі кампаненты размешчаныя на ёй будуць таксама перамешчаныя. Панэль можа размяшчацца як на бэнд так і на старонцы.</StiPanel>
     <StiPanelElement>Гэта прастакутная вобласць, дзе іншыя кампаненты могуць быць размешчаны. Пры перасоўванні панэлі кампаненты змесцаваныя на ёй будуць таксама перасунуты.</StiPanelElement>
     <StiPdfDigitalSignature>Гэты кампанент выкарыстоўваецца для ўказання месца лічбавага подпісу пасля экспарту справаздачы ў файл Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Гэты кампанент выкарыстоўваецца для ўказання месца лічбавага подпісу і палёў сертыфіката пры экспарце ў PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Кампанент выкарыстоўваецца для ўяўлення структураваных дадзеных у выглядзе табліцы.</StiPivotTableElement>
     <StiProgressElement>Кампанент адлюстроўваюць адсоткавыя суадносіны паміж уваходнымі дадзенымі. Можа быць пададзены ў розным рэжыме: кольца, кола, гістаграма.</StiProgressElement>
     <StiRectanglePrimitive>Геаметрычны прымiтыў - прастакутнік, выкарыстоўваецца для візуальнага афармлення справаздач. Левы верхні кут прастакутніка можа знаходзіцца ў вобласці аднаго бэнда, а правы ніжні кут - у галіне іншага бэнда.</StiRectanglePrimitive>
@@ -2404,9 +2408,11 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Час чакання для SQL запытаў перавышае час чакання запытаў дызайнера. Усталюеце час чакання запытаў дызайнера не менш {0} секундаў.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Будзьце асцярожныя! Гэта функцыя ператворыць крыніцу дадзеных у {0}. Для паспяховага атрымання дадзеных усе імёны табліц і калонак павінны супадаць. Запыты не будуць ператвораны. Вы хочаце працягнуць?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Не паказваць ізноў</DoNotShowAgain>
     <LatexFormat>Фармат LaTeX выкарыстоўваецца для адлюстравання матэматычных формул.</LatexFormat>
     <MessageTimeOutExpired>Мінула час чакання выканання каманды!</MessageTimeOutExpired>
+    <MustBeFile>Павінен быць файл {0}.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Прагляд справаздачы, у якой усталяваны агульны доступ, ужыццяўляецца ў рэжыме інтэрпрэтацыі.</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Рэсурс "{0}" не можа быць выдалены, т.к. ён выкарыстоўваецца ў справаздачы!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>Спасылка доступу да элемента абноўлена!</ShareURLOfTheItemHasBeenUpdated>
@@ -3369,6 +3375,10 @@
     <StiOrientationVertical>Вертыкальны</StiOrientationVertical>
     <StiPageOrientationLandscape>Альбом</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Партрэт</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Маляваць</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Выява</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Не</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Тэкст</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Штрыхаваная</StiPenStyleDash>
     <StiPenStyleDashDot>Рыска-пункцірная</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Рыска-пункцірная з двума кропкамі</StiPenStyleDashDotDot>
@@ -3482,6 +3492,9 @@
     <StiShiftModeIncreasingSize>Пры павелічэнні памеру</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Не</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Толькі ў межах шырыні кампанента</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Злучаць кропкі лініяй</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Прамежак</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Нуль</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>З дыяграмы</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>З серыi</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Не</StiShowSeriesLabelsNone>
@@ -3491,6 +3504,8 @@
     <StiShowYAxisBoth>Абедзве</StiShowYAxisBoth>
     <StiShowYAxisCenter>Па цэнтру</StiShowYAxisCenter>
     <StiShowYAxisLeft>Левая</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Маляваць</StiSignatureModeDraw>
+    <StiSignatureModeType>Тып</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Лічбавы подпіс</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Маляваць</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Выбраць стыль</StiSignatureTypeSelectStyle>
@@ -3739,6 +3754,7 @@
     <AllowApplyColorNegative>Дазволіць колер негатыўных значэнняў</AllowApplyColorNegative>
     <AllowApplyLineColor>Дазволіць колер лініі</AllowApplyLineColor>
     <AllowApplyStyle>Дазволiць стыль</AllowApplyStyle>
+    <AllowCleanSignature>Дазволіць ачыстку подпісу</AllowCleanSignature>
     <AllowExpressions>Дазволіць выразы</AllowExpressions>
     <AllowHtmlTags>Дазволiць Html тэгi</AllowHtmlTags>
     <AllowNull>Дазволіць null</AllowNull>
@@ -3771,6 +3787,7 @@
     <Anchor>Anchor</Anchor>
     <Angle>Вугал</Angle>
     <Antialiasing>Згладжванне</Antialiasing>
+    <Appearance>Выгляд</Appearance>
     <Apply>Ужыць</Apply>
     <Area>Вобласць</Area>
     <Argument>Аргумент</Argument>
@@ -3974,6 +3991,7 @@
     <DisplayValue>Якое адлюстроўваецца значэнне</DisplayValue>
     <Distance>Адлегласць</Distance>
     <DistanceBetweenTabs>Дыстанцыя паміж</DistanceBetweenTabs>
+    <DistinguishedName>Вядомая назва</DistinguishedName>
     <Dock>Стыкоўка</Dock>
     <DockableTable>Стыкоўка таблiцы</DockableTable>
     <DockStyle>Стыль стыкоўкі</DockStyle>
@@ -4074,6 +4092,7 @@
     <FooterRowsCount>Колькасць радкоў выніку</FooterRowsCount>
     <Footers>Падрахункі</Footers>
     <ForeColor>Колер тэксту</ForeColor>
+    <Foreground>Колер</Foreground>
     <Format>Фармат</Format>
     <FormName>Назва формы</FormName>
     <FormSettings>Налады формы</FormSettings>
@@ -5244,6 +5263,7 @@
     <VerticalLine>Вертыкальная лінія</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Ачысціць подпіс</ClearSignature>
     <DigitalSignatureEmptyWatermark>Месца для лічбавага подпісу ў PDF вьювере</DigitalSignatureEmptyWatermark>
     <FullName>Поўнае імя</FullName>
     <Initials>Ініцыялы</Initials>
@@ -5251,6 +5271,7 @@
     <InsertText>Уставіць тэкст</InsertText>
     <LoadSignature>Загрузіць подпіс</LoadSignature>
     <NoSavedItems>Няма захаваных элементаў</NoSavedItems>
+    <PdfDigitalSignatureTitle>Выберыце аб'екты, якія вы хочаце адлюстраваць у подпісы PDF файла.</PdfDigitalSignatureTitle>
     <SaveSignature>Захаваць подпіс</SaveSignature>
     <SignatureSavedSuccessfully>Подпіс паспяхова захаваны.</SignatureSavedSuccessfully>
     <UseBrush>Скарыстаць пэндзаль</UseBrush>
@@ -5334,6 +5355,8 @@
     <MoveBackward>Перамясціць назад</MoveBackward>
     <MoveForward>Перамясціць наперад</MoveForward>
     <Order>Парадак</Order>
+    <RibbonClassic>Класічны Ribbon</RibbonClassic>
+    <RibbonSingleLine>Ribbon у адну лінію</RibbonSingleLine>
     <SendToBack>Змясціць на задні план</SendToBack>
     <Size>Памер</Size>
     <StyleDesigner>Рэдактар стыляў</StyleDesigner>
