@@ -142,6 +142,7 @@
     <Submit>Gửi đi</Submit>
     <SwitchTo>Chuyển sang {0}</SwitchTo>
     <Test>Kiểm tra</Test>
+    <TryToReconnect>Thử kết nối lại</TryToReconnect>
     <Up>Lên</Up>
     <Upgrade>Nâng cấp</Upgrade>
     <UpgradeNow>Nâng cấp ngay bây giờ</UpgradeNow>
@@ -643,6 +644,7 @@
     <StiPageHeaderBand>Tiêu đề trang</StiPageHeaderBand>
     <StiPanel>Bảng</StiPanel>
     <StiPdfDigitalSignature>Chữ ký số PDF</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Phần tử PDF</StiPdfDigitalSignatureElement>
     <StiPivot>Trục</StiPivot>
     <StiPivotColumn>Cột tổng hợp</StiPivotColumn>
     <StiPivotRow>Hàng tổng hợp</StiPivotRow>
@@ -1927,6 +1929,7 @@
     <StiMapCategory>Nhóm các phần tử để làm việc với bản đồ và dữ liệu.</StiMapCategory>
     <StiMapElement>Phần tử này được sử dụng để hiển thị dữ liệu có mục tiêu theo địa lý.</StiMapElement>
     <StiMathFormula>Thành phần này được sử dụng để hiển thị các công thức toán học trong một báo cáo.</StiMathFormula>
+    <StiNumberBoxElement>Phần tử này được sử dụng để chọn một giá trị số hoặc thiết lập một phạm vi các giá trị số.</StiNumberBoxElement>
     <StiOnlineMapElement>Phần tử này được sử dụng để hiển thị các điểm đánh dấu địa lý trên bản đồ trực tuyến.</StiOnlineMapElement>
     <StiOverlayBand>Dải này được sử dụng để xuất các thủy ấn trên một trang.</StiOverlayBand>
     <StiPageFooterBand>Dải này được sử dụng để xuất ra thông tin ở cuối mỗi trang như số trang, ngày, và các thông tin bổ sung khác.</StiPageFooterBand>
@@ -1934,6 +1937,7 @@
     <StiPanel>Vùng chữ nhật có thể chứa các thành phần khác, bao gồm các dải. Khi bảng điều khiển được di chuyển, các thành phần trong nó cũng được di chuyển. Bảng điều khiển có thể được đặt trên dải hoặc trên một trang.</StiPanel>
     <StiPanelElement>Một vùng hình chữ nhật có thể chứa các phần tử khác. Khi bảng điều khiển được di chuyển, các phần tử trong đó cũng được di chuyển.</StiPanelElement>
     <StiPdfDigitalSignature>Thành phần này được sử dụng để chỉ định vị trí cho chữ ký điện tử sau khi báo cáo đã được xuất sang Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Thành phần này được sử dụng để chỉ định một khoảng trống cho chữ ký số và các trường từ chứng chỉ khi xuất sang PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Phần tử bảng tổng hợp được sử dụng cho biểu diễn dữ liệu có cấu trúc dưới dạng bảng.</StiPivotTableElement>
     <StiProgressElement>Phần tử hiển thị tỷ lệ dữ liệu đầu vào. Nó có thể được trình bày trong các chế độ khác nhau - biểu đồ tròn , hình tròn, thanh.</StiProgressElement>
     <StiRectanglePrimitive>Thành phần này được sử dụng để xuất các hình chữ nhật.</StiRectanglePrimitive>
@@ -2266,6 +2270,7 @@
     <menuEditDataTransformationNew>Tạo mới chuyển đổi dữ liệu...</menuEditDataTransformationNew>
     <menuEditDelete>Xóa</menuEditDelete>
     <menuEditEdit>Chỉnh sửa</menuEditEdit>
+    <menuEditFunctionNew>Chức năng mới...</menuEditFunctionNew>
     <menuEditImportRelations>Nhập các quan hệ...</menuEditImportRelations>
     <menuEditPaste>Dán</menuEditPaste>
     <menuEditRedo>Hoàn tác</menuEditRedo>
@@ -2384,9 +2389,11 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Thời gian chờ yêu cầu cho các truy vấn SQL vượt quá thời gian chờ yêu cầu của trình thiết kế báo cáo. Đặt thời gian chờ yêu cầu cho thành phần thiết kế không quá {0} giây.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Hãy cẩn thận! Chức năng này chuyển đổi nguồn dữ liệu thành {0}. Để truy xuất dữ liệu thành công, tất cả tên bảng và cột phải khớp. Các truy vấn sẽ không được chuyển đổi. Bạn có muốn tiếp tục không?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Không hiển thị trở lại</DoNotShowAgain>
     <LatexFormat>Định dạng LaTeX được sử dụng để hiển thị các công thức toán học.</LatexFormat>
     <MessageTimeOutExpired>Thời gian chờ của lệnh đã hết hạn!</MessageTimeOutExpired>
+    <MustBeFile>Phải là tệp {0}.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Khi xem báo cáo được chia sẻ, kết xuất sẽ xảy ra ở chế độ giải thích</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Tài nguyên "{0}" không thể bị xóa vì nó được sử dụng trong báo cáo!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>URL chia sẻ của mục đã được cập nhật!</ShareURLOfTheItemHasBeenUpdated>
@@ -3306,6 +3313,10 @@
     <StiOrientationVertical>Dọc</StiOrientationVertical>
     <StiPageOrientationLandscape>Ngang</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Dọc</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Vẽ</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Hình ảnh</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Không có</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Văn bản</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Vạch</StiPenStyleDash>
     <StiPenStyleDashDot>Vạch chấm</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Vạch chấm chấm</StiPenStyleDashDotDot>
@@ -3419,6 +3430,9 @@
     <StiShiftModeIncreasingSize>Tăng kích cỡ</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Không</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Chỉ trong chiều rộng của thành phần</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Nối các điểm bằng đường thẳng</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Khoảng trống</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Số không</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Từ biểu đồ</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Từ dải</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Không</StiShowSeriesLabelsNone>
@@ -3428,6 +3442,8 @@
     <StiShowYAxisBoth>Cả hai</StiShowYAxisBoth>
     <StiShowYAxisCenter>Giữa</StiShowYAxisCenter>
     <StiShowYAxisLeft>Trái</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Vẽ</StiSignatureModeDraw>
+    <StiSignatureModeType>Nhập</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Chữ ký số</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Vẽ</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Chọn kiểu</StiSignatureTypeSelectStyle>
@@ -3464,6 +3480,8 @@
     <StiTableAutoWidthTypeFullTable>Bảng đầy đủ</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Cột cuối cùng</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Không</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Tự động điều chỉnh kích thước</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Vừa vặn</StiTableSizeModeFit>
     <StiTargetModePercentage>Phần trăm</StiTargetModePercentage>
     <StiTargetModeVariation>Biến thể</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Giữa</StiTextHorAlignmentCenter>
@@ -3670,6 +3688,7 @@
     <AllowApplyColorNegative>Cho phép áp dụng màu âm</AllowApplyColorNegative>
     <AllowApplyLineColor>Cho phép áp dụng màu đường kẻ</AllowApplyLineColor>
     <AllowApplyStyle>Cho phép áp dụng phong cách</AllowApplyStyle>
+    <AllowCleanSignature>Cho phép chữ ký rõ ràng</AllowCleanSignature>
     <AllowExpressions>Cho phép biểu thức</AllowExpressions>
     <AllowHtmlTags>Cho phép các thẻ HTML</AllowHtmlTags>
     <AllowNull>Cho phép Null</AllowNull>
@@ -3702,6 +3721,7 @@
     <Anchor>Mỏ neo</Anchor>
     <Angle>Góc</Angle>
     <Antialiasing>Khử răng cưa</Antialiasing>
+    <Appearance>Hình thức</Appearance>
     <Apply>Áp dụng</Apply>
     <Area>Vùng</Area>
     <Argument>Đối số</Argument>
@@ -3903,6 +3923,7 @@
     <DisplayValue>Giá trị hiển thị</DisplayValue>
     <Distance>Khoảng cách</Distance>
     <DistanceBetweenTabs>Khoảng cách giữa các tab</DistanceBetweenTabs>
+    <DistinguishedName>Tên phân biệt</DistinguishedName>
     <Dock>Gắn</Dock>
     <DockableTable>Bảng gắn</DockableTable>
     <DockStyle>Phong cách gắn</DockStyle>
@@ -4003,6 +4024,7 @@
     <FooterRowsCount>Số lần chân trang</FooterRowsCount>
     <Footers>Chân trang</Footers>
     <ForeColor>Màu mặt trước</ForeColor>
+    <Foreground>Tiền cảnh</Foreground>
     <Format>Định dạng</Format>
     <FormName>Tên biểu mẫu</FormName>
     <FormSettings>Cài đặt biểu mẫu</FormSettings>
@@ -4056,6 +4078,7 @@
     <HeatmapColors>Màu bản đồ nhiệt</HeatmapColors>
     <HeatmapWithGroup>Bản đồ nhiệt với nhóm</HeatmapWithGroup>
     <Height>Chiều cao</Height>
+    <Hidden>Ẩn</Hidden>
     <HideSeriesWithEmptyTitle>Ẩn dòng với tiêu đề trống</HideSeriesWithEmptyTitle>
     <HideZeros>Ẩn số 0</HideZeros>
     <High>Cao</High>
@@ -4201,6 +4224,7 @@
     <Locked>Khóa</Locked>
     <Logarithmic>Lôgarit</Logarithmic>
     <LogarithmicScale>Quy mô lôgarít</LogarithmicScale>
+    <Logo>Logo</Logo>
     <Longitude>Kinh độ</Longitude>
     <Low>Thấp</Low>
     <LowValues>Giá trị thấp</LowValues>
@@ -4299,6 +4323,7 @@
     <OffsetAngle>Góc lệch</OffsetAngle>
     <OnClick>Trong một cái nhấp chuột</OnClick>
     <OnDataManipulation>Thao tác dữ liệu</OnDataManipulation>
+    <OnePointZoom>Phóng to một điểm</OnePointZoom>
     <OnHover>Trong một cái di chuột</OnHover>
     <OnlyText>Chỉ chữ</OnlyText>
     <Opacity>Độ mờ</Opacity>
@@ -4383,6 +4408,7 @@
     <Ratio>Tỉ lệ</Ratio>
     <RatioY>Tỉ lệ Y</RatioY>
     <ReadOnly>Chỉ đọc</ReadOnly>
+    <Reason>Lý do</Reason>
     <RecentFonts>Phông chữ gần đây</RecentFonts>
     <ReconnectOnEachRow>Kết nối lại trên mỗi hàng</ReconnectOnEachRow>
     <ReferencedAssemblies>Các hội đồng tham khảo</ReferencedAssemblies>
@@ -4394,6 +4420,7 @@
     <Relations>Quan hệ</Relations>
     <RelativeHeight>Chiều cao tương đối</RelativeHeight>
     <RelativeWidth>Chiều rộng tương đối</RelativeWidth>
+    <RememberSelection>Ghi nhớ lựa chọn</RememberSelection>
     <RemoveUnusedDataBeforeStart>Xóa dữ liệu chưa sử dụng trước khi bắt đầu</RemoveUnusedDataBeforeStart>
     <RenderTo>Kết xuất đến</RenderTo>
     <ReportAlias>Bí danh báo cáo</ReportAlias>
@@ -4596,6 +4623,7 @@
     <TagValue>Giá trị thẻ</TagValue>
     <Target>Mục tiêu</Target>
     <TargetColor>Màu mục tiêu </TargetColor>
+    <TargetFormat>Định dạng đích</TargetFormat>
     <TargetIcon>Biểu tượng mục tiêu</TargetIcon>
     <TargetMode>Chế độ mục tiêu</TargetMode>
     <TargetSettings>Mục tiêu</TargetSettings>
@@ -5158,6 +5186,7 @@
     <VerticalLine>Đường thẳng đứng</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Xóa chữ ký</ClearSignature>
     <DigitalSignatureEmptyWatermark>Nơi cho chữ ký điện tử trong Trình xem PDF</DigitalSignatureEmptyWatermark>
     <FullName>Tên đầy đủ</FullName>
     <Initials>Tên viết tắt</Initials>
@@ -5166,6 +5195,7 @@
     <InsertText>Chèn chữ</InsertText>
     <LoadSignature>Tải chữ ký</LoadSignature>
     <NoSavedItems>Không có mục đã lưu</NoSavedItems>
+    <PdfDigitalSignatureTitle>Chọn các đối tượng mà bạn muốn hiển thị trong chữ ký trên tệp PDF.</PdfDigitalSignatureTitle>
     <SaveSignature>Lưu chữ ký</SaveSignature>
     <SignatureSavedSuccessfully>Chữ ký đã được lưu thành công.</SignatureSavedSuccessfully>
     <UseBrush>Sử dụng cọ</UseBrush>
@@ -5249,6 +5279,9 @@
     <MoveBackward>Tiến về phía sau</MoveBackward>
     <MoveForward>Tiến về phía trước</MoveForward>
     <Order>Sắp xếp</Order>
+    <RibbonClassic>Ribbon cổ điển</RibbonClassic>
+    <RibbonLayout>Bố cục Ribbon</RibbonLayout>
+    <RibbonSingleLine>Ribbon một dòng</RibbonSingleLine>
     <SendToBack>Đưa ra phía sau</SendToBack>
     <Size>Kích cỡ</Size>
     <StyleDesigner>Thiết kế kiểu dáng</StyleDesigner>
