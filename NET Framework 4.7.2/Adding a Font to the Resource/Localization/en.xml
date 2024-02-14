@@ -379,6 +379,7 @@
     <ButtonRecover>Recover</ButtonRecover>
     <ButtonRenew>Renew</ButtonRenew>
     <ButtonResendEmail>Resend Email</ButtonResendEmail>
+    <ButtonResendInvitation>Resend Invitation</ButtonResendInvitation>
     <ButtonResetPassword>Reset Password</ButtonResetPassword>
     <ButtonRun>Run</ButtonRun>
     <ButtonScheduler>Scheduler</ButtonScheduler>
@@ -673,6 +674,7 @@
     <StiVerticalLinePrimitive>Vertical Line</StiVerticalLinePrimitive>
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>ZIP Code</StiZipCode>
+	<StiWebContent>Web Content</StiWebContent>
   </Components>
   <CustomMapWindow>
     <CheckedAll>Checked All</CheckedAll>
@@ -898,7 +900,9 @@
     <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+	<StiSliderControl>Slider</StiSliderControl>
     <StiTextBoxControl>Text Box</StiTextBoxControl>
+	<StiToggleControl>Toggle</StiToggleControl>
     <StiTreeViewControl>Tree View</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1435,6 +1439,7 @@
     <RelationEdit>Edit Relation</RelationEdit>
     <RelationNew>New Relation</RelationNew>
     <ResourceEdit>Edit Resource</ResourceEdit>
+	<FunctionEdit>Edit Function</FunctionEdit>
     <ResourceNew>New Resource</ResourceNew>
     <RetrieveColumns>Retrieve Columns</RetrieveColumns>
     <RetrieveColumnsAllowRun>Allow Run StoredProc</RetrieveColumnsAllowRun>
@@ -1454,6 +1459,7 @@
     <ValueNew>New Value</ValueNew>
     <VariableEdit>Edit Variable</VariableEdit>
     <VariableNew>New Variable</VariableNew>
+	<FunctionNew>New Function</FunctionNew>
     <ViewData>View Data</ViewData>
     <ViewQuery>View Query</ViewQuery>
   </FormDictionaryDesigner>
@@ -1959,6 +1965,7 @@
     <StiTreeViewBoxElement>The element is used to select values with a drop-down list as a tree.</StiTreeViewBoxElement>
     <StiTreeViewElement>Represents the element that is used to show the hierarchical data as a tree.</StiTreeViewElement>
     <StiVerticalLinePrimitive>This component is used to output vertical lines.</StiVerticalLinePrimitive>
+	<StiWebContentElement>The component allows to add web-content to dashboards.</StiWebContentElement>
     <StiWinControl>The component allows showing visual controls from .NET Framework.</StiWinControl>
     <StiZipCode>This component is used to output the ZIP code.</StiZipCode>
   </HelpComponents>
@@ -2282,6 +2289,7 @@
     <menuEditUndo>&amp;Undo</menuEditUndo>
     <menuEditUndoText>&amp;Undo {0}</menuEditUndoText>
     <menuEditVariableNew>New Variable...</menuEditVariableNew>
+	<menuEditFunctionNew>New Function...</menuEditFunctionNew>
     <menuEditViewData>View Data...</menuEditViewData>
     <menuEmbedAllDataToResources>Embed all data to resources</menuEmbedAllDataToResources>
     <menuFile>&amp;File</menuFile>
@@ -2444,6 +2452,7 @@
     <AuthPasswordIsNotSpecified>The password is not specified!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>The password is too long!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>The password is too short (a minimum length is 6 chars)!</AuthPasswordIsTooShort>
+	<AuthRequestsLimitIsExceeded>Request limit exceeded! Please contact our sales department at sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>You cannot delete the role because it is used by other users.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>The role with the specified name "{0}" already exists!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>The role with the specified name "{0}" is a system role!</AuthRoleNameIsSystemRole>
@@ -2493,6 +2502,7 @@
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Extra component required</NotificationItemExtraComponentRequired>
     <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
+    <NotificationItemInstallToRunWebView>Please install the WebView2 Runtime to run Web Content element correctly.</NotificationItemInstallToRunWebView>
     <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
     <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>The items are transferring.</NotificationItemTransfer>
@@ -4325,6 +4335,7 @@
     <ParametersDateFormat>Parameters Date Format</ParametersDateFormat>
     <ParametersOrientation>Parameters Orientation</ParametersOrientation>
     <ParameterWidth>Parameter Width</ParameterWidth>
+	<ParameterAlignment>Parameter Alignment</ParameterAlignment>
     <ParentColumns>Parent Columns</ParentColumns>
     <ParentSource>Parent Data Source</ParentSource>
     <ParentValue>Parent Value</ParentValue>
@@ -5013,6 +5024,7 @@
     <VisualDisabled>Disabled</VisualDisabled>
     <VisualHover>Hover</VisualHover>
     <VisualPressed>Pressed</VisualPressed>
+	<VisualFocused>Focused</VisualFocused>
     <Warnings>Warnings</Warnings>
     <WhatsNewInVersion>What's New in {0}</WhatsNewInVersion>
     <When>when {0} {1}</When>
