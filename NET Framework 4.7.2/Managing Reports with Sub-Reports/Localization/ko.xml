@@ -379,6 +379,7 @@
     <ButtonRecover>회복합니다</ButtonRecover>
     <ButtonRenew>업데이트</ButtonRenew>
     <ButtonResendEmail>이메일을 재전송</ButtonResendEmail>
+    <ButtonResendInvitation>초대장 재발송</ButtonResendInvitation>
     <ButtonResetPassword>암호를 다시 설정</ButtonResetPassword>
     <ButtonRun>달리는</ButtonRun>
     <ButtonScheduler>스케줄러</ButtonScheduler>
@@ -671,6 +672,7 @@
     <StiTreeView>트리보기</StiTreeView>
     <StiTreeViewBox>트리 뷰 상자</StiTreeViewBox>
     <StiVerticalLinePrimitive>수직선</StiVerticalLinePrimitive>
+    <StiWebContent>웹 콘텐츠</StiWebContent>
     <StiWinControl>윈도우컨트롤</StiWinControl>
     <StiZipCode>우편 번호</StiZipCode>
   </Components>
@@ -898,7 +900,9 @@
     <StiRadioControl>라디오</StiRadioControl>
     <StiReportControl>보고서 컨트롤</StiReportControl>
     <StiRichTextBoxControl>서식있는 텍스트 상자</StiRichTextBoxControl>
+    <StiSliderControl>슬라이더</StiSliderControl>
     <StiTextBoxControl>입력란</StiTextBoxControl>
+    <StiToggleControl>토글</StiToggleControl>
     <StiTreeViewControl>트리보기</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1418,6 +1422,8 @@
     <EnableDataMonitor>데이터 모니터 사용</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL 문을 성공적으로 실행했습니다</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>새 수식</ExpressionNew>
+    <FunctionEdit>함수 편집</FunctionEdit>
+    <FunctionNew>새 함수</FunctionNew>
     <GetColumnsFromAssembly>어셈블리에서 열을 얻기</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>지원되지 않는 데이터소스 숨기기</HideUnsupportedDatabases>
     <ImportRelations>관계를 가져 오기</ImportRelations>
@@ -1959,6 +1965,7 @@
     <StiTreeViewBoxElement>컨트롤 드롭 다운 목록을 사용하여 값을 트리로 선택하는 데 사용됩니다.</StiTreeViewBoxElement>
     <StiTreeViewElement>계층 구조 데이터를 트리로 표시하는 데 사용되는 컨트롤을 나타냅니다.</StiTreeViewElement>
     <StiVerticalLinePrimitive>이 구성 요소는 수직선을 출력하는 데 사용됩니다.</StiVerticalLinePrimitive>
+    <StiWebContentElement>이 구성 요소를 사용하면 대시보드에 웹 콘텐츠를 추가할 수 있습니다.</StiWebContentElement>
     <StiWinControl>이 구성 요소는 .NET Framework에서 시각적 컨트롤을 볼 수 있습니다.</StiWinControl>
     <StiZipCode>이 구성 요소는 우편 번호를 출력하는 데 사용됩니다.</StiZipCode>
   </HelpComponents>
@@ -2444,6 +2451,7 @@
     <AuthPasswordIsNotSpecified>비밀번호는 지정되어 있지 않습니다!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>암호가 너무 깁니다!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>암호가 너무 짧습니다 (최소 길이는 6 자입니다).</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>요청 한도 초과! 영업부서(sales@stimulsoft.com )로 문의해주세요!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>롤은 다른 사용자에 의해 사용되고 있으므로 삭제할 수 없습니다.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>지정된 이름 "{0}"의 역할은 이미 존재합니다.</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>지정된 이름 "{0}"을 가진 역할은 시스템 역할입니다!</AuthRoleNameIsSystemRole>
@@ -2492,6 +2500,7 @@
     <NotificationItemDelete>항목이 삭제되고 있습니다.</NotificationItemDelete>
     <NotificationItemDeleteComplete>항목이 삭제됩니다.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>추가 구성 요소 필요</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>WebView2 Runtime을 설치하여 Web Content 요소를 올바르게 실행하십시오.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Blockly 편집기에서 올바르게 작동하려면 WebView2 런타임을 설치하십시오.</NotificationItemInstallWebView>
     <NotificationItemRestore>아이템은 복원 중입니다.</NotificationItemRestore>
     <NotificationItemRestoreComplete>항목을 성공적으로 복원됩니다.</NotificationItemRestoreComplete>
@@ -4304,6 +4313,7 @@
     <OnePointZoom>원 포인트  줌</OnePointZoom>
     <OnHover>호버 시</OnHover>
     <OnlyText>텍스트</OnlyText>
+    <OnSelect>선택 시</OnSelect>
     <Opacity>투명도</Opacity>
     <OpenValues>오픈 가치</OpenValues>
     <Operation>작업</Operation>
@@ -4322,6 +4332,7 @@
     <PaperSourceOfFirstPage>첫 페이지의 용지 소스</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>다른 페이지의 급지 앞으로</PaperSourceOfOtherPages>
     <Parameter>매개 변수</Parameter>
+    <ParameterAlignment>파라미터 정렬</ParameterAlignment>
     <Parameters>매개 변수</Parameters>
     <ParametersDateFormat>매개 변수 날자 포멧</ParametersDateFormat>
     <ParametersOrientation>매개 변수의 방향</ParametersOrientation>
@@ -4687,6 +4698,7 @@
     <UseExternalReport>외부 보고서를 사용</UseExternalReport>
     <UseParentStyles>부모 스타일을 사용</UseParentStyles>
     <UseRangeColor>범위 컬러를 사용</UseRangeColor>
+    <UserBingKey>사용자 Bing 키</UserBingKey>
     <UseRectangularSymbols>사각형 기호를 사용</UseRectangularSymbols>
     <UseSeriesColor>시리즈 컬러를 사용</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>열의 합계 요약 스타일을 사용</UseStyleOfSummaryInColumnTotal>
@@ -5012,6 +5024,7 @@
     <VisualChecked>체크됨</VisualChecked>
     <VisualDefault>기본</VisualDefault>
     <VisualDisabled>비활성화</VisualDisabled>
+    <VisualFocused>포커스</VisualFocused>
     <VisualHover>마우스오버</VisualHover>
     <VisualPressed>눌려짐</VisualPressed>
     <Warnings>경고</Warnings>
@@ -5292,6 +5305,13 @@
     <TextEditor>텍스트 편집기</TextEditor>
     <title>도구</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <CustomCategory>사용자 카테고리</CustomCategory>
+    <ReturnType>리턴 타입</ReturnType>
+    <Script>스크립트</Script>
+    <ScriptMode>스크립트 노드</ScriptMode>
+    <Title>사용자 함수</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>창을 닫으시겠습니까? 모든 다운로드가 취소됩니다.</AllDownloadsWillCanceled>
     <Description>빠른 시작을 위해 가장 적합하다고 생각되는 보고서를 선택했습니다.</Description>

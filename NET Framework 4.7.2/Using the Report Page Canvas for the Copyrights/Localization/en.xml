@@ -455,6 +455,9 @@
     <LicenseInformation>License Information</LicenseInformation>
     <LicenseKey>License Key</LicenseKey>
     <Login>Log in</Login>
+    <MyAccount>My Account</MyAccount>
+    <MyCloud>My Cloud</MyCloud>
+    <MyPlan>My Plan</MyPlan>
     <MyTeam>My Team</MyTeam>
     <NofM>{0}: {1} of {2}</NofM>
     <Open>Open</Open>
@@ -672,9 +675,9 @@
     <StiTreeView>Tree View</StiTreeView>
     <StiTreeViewBox>Tree View Box</StiTreeViewBox>
     <StiVerticalLinePrimitive>Vertical Line</StiVerticalLinePrimitive>
+    <StiWebContent>Web Content</StiWebContent>
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>ZIP Code</StiZipCode>
-	<StiWebContent>Web Content</StiWebContent>
   </Components>
   <CustomMapWindow>
     <CheckedAll>Checked All</CheckedAll>
@@ -900,9 +903,9 @@
     <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
-	<StiSliderControl>Slider</StiSliderControl>
+    <StiSliderControl>Slider</StiSliderControl>
     <StiTextBoxControl>Text Box</StiTextBoxControl>
-	<StiToggleControl>Toggle</StiToggleControl>
+    <StiToggleControl>Toggle</StiToggleControl>
     <StiTreeViewControl>Tree View</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1422,6 +1425,8 @@
     <EnableDataMonitor>Enable Data Monitor</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL statement executed successfully</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>New Expression</ExpressionNew>
+    <FunctionEdit>Edit Function</FunctionEdit>
+    <FunctionNew>New Function</FunctionNew>
     <GetColumnsFromAssembly>Get Columns from Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Hide Unsupported Data Sources</HideUnsupportedDatabases>
     <ImportRelations>Import Relations</ImportRelations>
@@ -1439,7 +1444,6 @@
     <RelationEdit>Edit Relation</RelationEdit>
     <RelationNew>New Relation</RelationNew>
     <ResourceEdit>Edit Resource</ResourceEdit>
-	<FunctionEdit>Edit Function</FunctionEdit>
     <ResourceNew>New Resource</ResourceNew>
     <RetrieveColumns>Retrieve Columns</RetrieveColumns>
     <RetrieveColumnsAllowRun>Allow Run StoredProc</RetrieveColumnsAllowRun>
@@ -1459,7 +1463,6 @@
     <ValueNew>New Value</ValueNew>
     <VariableEdit>Edit Variable</VariableEdit>
     <VariableNew>New Variable</VariableNew>
-	<FunctionNew>New Function</FunctionNew>
     <ViewData>View Data</ViewData>
     <ViewQuery>View Query</ViewQuery>
   </FormDictionaryDesigner>
@@ -1965,7 +1968,7 @@
     <StiTreeViewBoxElement>The element is used to select values with a drop-down list as a tree.</StiTreeViewBoxElement>
     <StiTreeViewElement>Represents the element that is used to show the hierarchical data as a tree.</StiTreeViewElement>
     <StiVerticalLinePrimitive>This component is used to output vertical lines.</StiVerticalLinePrimitive>
-	<StiWebContentElement>The component allows to add web-content to dashboards.</StiWebContentElement>
+    <StiWebContentElement>The component allows to add web-content to dashboards.</StiWebContentElement>
     <StiWinControl>The component allows showing visual controls from .NET Framework.</StiWinControl>
     <StiZipCode>This component is used to output the ZIP code.</StiZipCode>
   </HelpComponents>
@@ -2289,7 +2292,6 @@
     <menuEditUndo>&amp;Undo</menuEditUndo>
     <menuEditUndoText>&amp;Undo {0}</menuEditUndoText>
     <menuEditVariableNew>New Variable...</menuEditVariableNew>
-	<menuEditFunctionNew>New Function...</menuEditFunctionNew>
     <menuEditViewData>View Data...</menuEditViewData>
     <menuEmbedAllDataToResources>Embed all data to resources</menuEmbedAllDataToResources>
     <menuFile>&amp;File</menuFile>
@@ -2452,7 +2454,7 @@
     <AuthPasswordIsNotSpecified>The password is not specified!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>The password is too long!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>The password is too short (a minimum length is 6 chars)!</AuthPasswordIsTooShort>
-	<AuthRequestsLimitIsExceeded>Request limit exceeded! Please contact our sales department at sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
+    <AuthRequestsLimitIsExceeded>Request limit exceeded! Please contact our sales department at sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>You cannot delete the role because it is used by other users.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>The role with the specified name "{0}" already exists!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>The role with the specified name "{0}" is a system role!</AuthRoleNameIsSystemRole>
@@ -2501,8 +2503,8 @@
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Extra component required</NotificationItemExtraComponentRequired>
-    <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemInstallToRunWebView>Please install the WebView2 Runtime to run Web Content element correctly.</NotificationItemInstallToRunWebView>
+    <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
     <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>The items are transferring.</NotificationItemTransfer>
@@ -4313,6 +4315,7 @@
     <OnePointZoom>One Point Zoom</OnePointZoom>
     <OnHover>On Hover</OnHover>
     <OnlyText>Only Text</OnlyText>
+    <OnSelect>On Select</OnSelect>
     <Opacity>Opacity</Opacity>
     <OpenValues>Open Values</OpenValues>
     <Operation>Operation</Operation>
@@ -4331,11 +4334,11 @@
     <PaperSourceOfFirstPage>Paper Source of First Page</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>Paper Source of Other Pages</PaperSourceOfOtherPages>
     <Parameter>Parameter</Parameter>
+    <ParameterAlignment>Parameter Alignment</ParameterAlignment>
     <Parameters>Parameters</Parameters>
     <ParametersDateFormat>Parameters Date Format</ParametersDateFormat>
     <ParametersOrientation>Parameters Orientation</ParametersOrientation>
     <ParameterWidth>Parameter Width</ParameterWidth>
-	<ParameterAlignment>Parameter Alignment</ParameterAlignment>
     <ParentColumns>Parent Columns</ParentColumns>
     <ParentSource>Parent Data Source</ParentSource>
     <ParentValue>Parent Value</ParentValue>
@@ -4697,6 +4700,7 @@
     <UseExternalReport>Use External Report</UseExternalReport>
     <UseParentStyles>Use Parent Styles</UseParentStyles>
     <UseRangeColor>Use Range Color</UseRangeColor>
+    <UserBingKey>User Bing Key</UserBingKey>
     <UseRectangularSymbols>Use Rectangular Symbols</UseRectangularSymbols>
     <UseSeriesColor>Use Series Color</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Use Style of Summary in Column Total</UseStyleOfSummaryInColumnTotal>
@@ -5022,9 +5026,9 @@
     <VisualChecked>Checked</VisualChecked>
     <VisualDefault>Default</VisualDefault>
     <VisualDisabled>Disabled</VisualDisabled>
+    <VisualFocused>Focused</VisualFocused>
     <VisualHover>Hover</VisualHover>
     <VisualPressed>Pressed</VisualPressed>
-	<VisualFocused>Focused</VisualFocused>
     <Warnings>Warnings</Warnings>
     <WhatsNewInVersion>What's New in {0}</WhatsNewInVersion>
     <When>when {0} {1}</When>
@@ -5301,6 +5305,13 @@
     <TextEditor>Text Editor</TextEditor>
     <title>Toolbox</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <CustomCategory>Custom Category</CustomCategory>
+    <ReturnType>Return Type</ReturnType>
+    <Script>Script</Script>
+    <ScriptMode>Script Mode</ScriptMode>
+    <Title>User Function</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be canceled.</AllDownloadsWillCanceled>
     <Description>We have selected for you reports that we think are the best for a quick start.</Description>

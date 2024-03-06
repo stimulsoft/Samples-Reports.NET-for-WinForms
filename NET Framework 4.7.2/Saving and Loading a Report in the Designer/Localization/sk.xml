@@ -379,6 +379,7 @@
     <ButtonRecover>Obnoviť</ButtonRecover>
     <ButtonRenew>Obnoviť</ButtonRenew>
     <ButtonResendEmail>Znovu poslať e-mail</ButtonResendEmail>
+    <ButtonResendInvitation>Znova odoslať pozvánku</ButtonResendInvitation>
     <ButtonResetPassword>Zmeniť heslo</ButtonResetPassword>
     <ButtonRun>Spustiť</ButtonRun>
     <ButtonScheduler>Plánovač</ButtonScheduler>
@@ -672,6 +673,7 @@
     <StiTreeView>Strom</StiTreeView>
     <StiTreeViewBox>Pole na zobrazenie stromu</StiTreeViewBox>
     <StiVerticalLinePrimitive>Zvislá čiara</StiVerticalLinePrimitive>
+    <StiWebContent>Obsah webu</StiWebContent>
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>PSČ</StiZipCode>
   </Components>
@@ -899,7 +901,9 @@
     <StiRadioControl>Rádio</StiRadioControl>
     <StiReportControl>Ovládací prvok zostavy</StiReportControl>
     <StiRichTextBoxControl>Rich text box</StiRichTextBoxControl>
+    <StiSliderControl>Posuvník</StiSliderControl>
     <StiTextBoxControl>Textové pole</StiTextBoxControl>
+    <StiToggleControl>Prepnúť</StiToggleControl>
     <StiTreeViewControl>Strom</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1420,6 +1424,8 @@
     <EnableDataMonitor>Povoliť sledovanie údajov</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL príkaz vykonaný úspešne</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Nový výraz</ExpressionNew>
+    <FunctionEdit>Upraviť funkciu</FunctionEdit>
+    <FunctionNew>Nová funkcia</FunctionNew>
     <GetColumnsFromAssembly>Daj stĺpce zo zostavenia</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Skryť nepodporované zdroje dát</HideUnsupportedDatabases>
     <ImportRelations>Importovať závislosti</ImportRelations>
@@ -1963,6 +1969,7 @@
     <StiTreeViewBoxElement>Prvok sa používa na výber hodnôt s rozbaľovacím zoznamom ako strom.</StiTreeViewBoxElement>
     <StiTreeViewElement>Predstavuje prvok, ktorý sa používa na zobrazenie hierarchických údajov ako strom.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Tento prvok je použitý na výstup vertikálnych čiar.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Komponent umožňuje pridávať webový obsah do dashboardov.</StiWebContentElement>
     <StiWinControl>The prvok umožňuje zobraziť vizuálne prvoky z .NET frameworku.</StiWinControl>
     <StiZipCode>Tento prvok je použitý na výstup the PSČ (poštového smerovacieho čísla).</StiZipCode>
   </HelpComponents>
@@ -2452,6 +2459,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <AuthPasswordIsNotSpecified>Heslo nie je zadané!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>Heslo je príliš dlhé!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Heslo je príliš krátke (minimálna dĺžka je 6 znakov)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Limit žiadostí bol prekročený! Kontaktujte prosím naše obchodné oddelenie na sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Nie je možné zmazať túto rolu, pretože je používaná iným užívateľom.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Rola s menom "{0}" už existuje!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Rola s menom "{0}" je systémová rola!</AuthRoleNameIsSystemRole>
@@ -2500,6 +2508,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <NotificationItemDelete>Položky sú mazané.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Položky boli úspešne zmazané.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Vyžaduje sa dodatočný komponent</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Nainštalujte si modul WebView2 Runtime, aby sa prvok webového obsahu spúšťal správne.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Ak chcete správne pracovať s editorom Blockly, nainštalujte si modul WebView2 Runtime.</NotificationItemInstallWebView>
     <NotificationItemRestore>Položky sú obnovované.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Položky boli úspešne obnovené.</NotificationItemRestoreComplete>
@@ -4335,6 +4344,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <OnePointZoom>Jednobodové priblíženie</OnePointZoom>
     <OnHover>Pri pohybe</OnHover>
     <OnlyText>Len text</OnlyText>
+    <OnSelect>Na výber</OnSelect>
     <Opacity>Nepriehľadnosť</Opacity>
     <OpenValues>Počiatočné hodnoty</OpenValues>
     <Operation>Operácia</Operation>
@@ -4355,6 +4365,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <PaperSourceOfOtherPages>Zdroj papiera pre ostatné stránky</PaperSourceOfOtherPages>
     <PaperSourceOtherPages>Zdroj papiera ostatné stránky</PaperSourceOtherPages>
     <Parameter>Parameter</Parameter>
+    <ParameterAlignment>Zarovnanie parametrov</ParameterAlignment>
     <Parameters>Parametre</Parameters>
     <ParametersDateFormat>Formát dátumu pre parametre</ParametersDateFormat>
     <ParametersOrientation>Orientácia parametrov</ParametersOrientation>
@@ -4721,6 +4732,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <UseExternalReport>Použiť externú zostavu</UseExternalReport>
     <UseParentStyles>Používať rodičovské štýly</UseParentStyles>
     <UseRangeColor>Použiť farbu rozsahu</UseRangeColor>
+    <UserBingKey>Kľúč používateľa Bing</UserBingKey>
     <UseRectangularSymbols>Použiť pravouhlé symboly</UseRectangularSymbols>
     <UseSeriesColor>Použiť farbu radov</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Použiť štýl súčtov v stĺpcových súčtoch</UseStyleOfSummaryInColumnTotal>
@@ -5049,6 +5061,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <VisualChecked>Zaškrtnuté</VisualChecked>
     <VisualDefault>Predvolené</VisualDefault>
     <VisualDisabled>Blokované</VisualDisabled>
+    <VisualFocused>Zamerané</VisualFocused>
     <VisualHover>Nestlačené</VisualHover>
     <VisualPressed>Stlačené</VisualPressed>
     <Warnings>Varovania</Warnings>
@@ -5331,6 +5344,13 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <TextEditor>Textový editor</TextEditor>
     <title>Sada nástrojov</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <CustomCategory>Vlastná kategória</CustomCategory>
+    <ReturnType>Návratový typ</ReturnType>
+    <Script>Skript</Script>
+    <ScriptMode>Režim skriptu</ScriptMode>
+    <Title>Užívateľská funkcia</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Naozaj chcete toto okno zavrieť? Všetky stiahnuté súbory budú zrušené.</AllDownloadsWillCanceled>
     <Description>Vybrali sme pre vás zostavy, ktoré považujeme za najlepšie pre rýchly štart.</Description>

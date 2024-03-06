@@ -379,6 +379,7 @@
     <ButtonRecover>Recover</ButtonRecover>
     <ButtonRenew>Renew</ButtonRenew>
     <ButtonResendEmail>Resend Email</ButtonResendEmail>
+    <ButtonResendInvitation>Resend Invitation</ButtonResendInvitation>
     <ButtonResetPassword>Reset Password</ButtonResetPassword>
     <ButtonRun>Run</ButtonRun>
     <ButtonScheduler>Scheduler</ButtonScheduler>
@@ -671,6 +672,7 @@
     <StiTreeView>Tree View</StiTreeView>
     <StiTreeViewBox>Tree View Box</StiTreeViewBox>
     <StiVerticalLinePrimitive>Vertical Line</StiVerticalLinePrimitive>
+    <StiWebContent>Web Content</StiWebContent>
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>ZIP Code</StiZipCode>
   </Components>
@@ -898,7 +900,9 @@
     <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSliderControl>Slider</StiSliderControl>
     <StiTextBoxControl>Text Box</StiTextBoxControl>
+    <StiToggleControl>Toggle</StiToggleControl>
     <StiTreeViewControl>Tree View</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1418,6 +1422,8 @@
     <EnableDataMonitor>Enable Data Monitor</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Executed SQL statement successfully</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>New Expression</ExpressionNew>
+    <FunctionEdit>Edit Function</FunctionEdit>
+    <FunctionNew>New Function</FunctionNew>
     <GetColumnsFromAssembly>Get Columns from Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Hide Unsupported Data Sources</HideUnsupportedDatabases>
     <ImportRelations>Import Relations</ImportRelations>
@@ -1959,6 +1965,7 @@
     <StiTreeViewBoxElement>The element is used to select values with a drop-down list as a tree.</StiTreeViewBoxElement>
     <StiTreeViewElement>Represents the element that is used to show the hierarchical data as a tree.</StiTreeViewElement>
     <StiVerticalLinePrimitive>This component is used to output vertical lines.</StiVerticalLinePrimitive>
+    <StiWebContentElement>The component enables you to add web content to dashboards.</StiWebContentElement>
     <StiWinControl>The component allows showing visual controls from .NET Framework.</StiWinControl>
     <StiZipCode>This component is used to output the ZIP code.</StiZipCode>
   </HelpComponents>
@@ -2450,6 +2457,7 @@
     <AuthPasswordIsNotSpecified>The password is not specified!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>The password is too long!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>The password is too short (a minimum length is 6 chars)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Request limit exceeded! Please contact our sales department at sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>You cannot delete the role because it is used by other users.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>The role with the specified name "{0}" already exists!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>The role with the specified name "{0}" is a system role!</AuthRoleNameIsSystemRole>
@@ -2498,6 +2506,7 @@
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Extra component required</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Please install the WebView2 Runtime to run the Web Content element correctly.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
     <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
@@ -4325,6 +4334,7 @@
     <OnePointZoom>One Point Zoom</OnePointZoom>
     <OnHover>On Hover</OnHover>
     <OnlyText>Only Text</OnlyText>
+    <OnSelect>On Select</OnSelect>
     <Opacity>Opacity</Opacity>
     <OpenValues>Open Values</OpenValues>
     <Operation>Operation</Operation>
@@ -4343,6 +4353,7 @@
     <PaperSourceOfFirstPage>Paper Source of First Page</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>Paper Source of Other Pages</PaperSourceOfOtherPages>
     <Parameter>Parameter</Parameter>
+    <ParameterAlignment>Parameter Alignment</ParameterAlignment>
     <Parameters>Parameters</Parameters>
     <ParametersDateFormat>Parameters Date Format</ParametersDateFormat>
     <ParametersOrientation>Parameters Orientation</ParametersOrientation>
@@ -4708,6 +4719,7 @@
     <UseExternalReport>Use External Report</UseExternalReport>
     <UseParentStyles>Use Parent Styles</UseParentStyles>
     <UseRangeColor>Use Range Color</UseRangeColor>
+    <UserBingKey>User Bing Key</UserBingKey>
     <UseRectangularSymbols>Use Rectangular Symbols</UseRectangularSymbols>
     <UseSeriesColor>Use Series Colour</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Use Style of Summary in Column Total</UseStyleOfSummaryInColumnTotal>
@@ -5033,6 +5045,7 @@
     <VisualChecked>Checked</VisualChecked>
     <VisualDefault>Default</VisualDefault>
     <VisualDisabled>Disabled</VisualDisabled>
+    <VisualFocused>Focused</VisualFocused>
     <VisualHover>Hover</VisualHover>
     <VisualPressed>Pressed</VisualPressed>
     <Warnings>Warnings</Warnings>
@@ -5314,6 +5327,13 @@
     <TextEditor>Text Editor</TextEditor>
     <title>Toolbox</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <CustomCategory>Custom Category</CustomCategory>
+    <ReturnType>Return Type</ReturnType>
+    <Script>Script</Script>
+    <ScriptMode>Script Mode</ScriptMode>
+    <Title>User Function</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be cancelled.</AllDownloadsWillCanceled>
     <Description>We have selected for you reports that we think are the best for a quick start.</Description>

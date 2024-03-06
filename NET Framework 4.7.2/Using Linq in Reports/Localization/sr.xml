@@ -379,6 +379,7 @@
     <ButtonRecover>Oporavi</ButtonRecover>
     <ButtonRenew>Obnovi</ButtonRenew>
     <ButtonResendEmail>Pošalji email ponovo</ButtonResendEmail>
+    <ButtonResendInvitation>Obnovi pozivnicu</ButtonResendInvitation>
     <ButtonResetPassword>Postavi novu lozinku</ButtonResetPassword>
     <ButtonRun>Pokreni</ButtonRun>
     <ButtonScheduler>Planer</ButtonScheduler>
@@ -672,6 +673,7 @@
     <StiTreeView>Stablo</StiTreeView>
     <StiTreeViewBox>Lista sa stablom</StiTreeViewBox>
     <StiVerticalLinePrimitive>Vertikalna linija</StiVerticalLinePrimitive>
+    <StiWebContent>Web sadržaj</StiWebContent>
     <StiWinControl>Win kontrola</StiWinControl>
     <StiZipCode>ZIP kod</StiZipCode>
   </Components>
@@ -899,7 +901,9 @@
     <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSliderControl>Klizač</StiSliderControl>
     <StiTextBoxControl>Text Box</StiTextBoxControl>
+    <StiToggleControl>Preklopnik</StiToggleControl>
     <StiTreeViewControl>Tree View</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1420,6 +1424,8 @@
     <EnableDataMonitor>Omogući monitor za podatke</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL upit izvršen uspešno</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Novi izraz</ExpressionNew>
+    <FunctionEdit>Uredi funkciju</FunctionEdit>
+    <FunctionNew>Nova funkcija</FunctionNew>
     <GetColumnsFromAssembly>Uzmi kolone iz: Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Sakrij izvore podatka kloji nisu podržani</HideUnsupportedDatabases>
     <ImportRelations>Uvezi relacije</ImportRelations>
@@ -1938,6 +1944,7 @@
     <StiPanel>Ovo je pravougaona oblast gdje se mogu smestiti druge komponente, uključujući i trake. Prilikom pomeranja panela, pomeraju se i komponente u njemu. Panel se može postaviti i na traku i na stranicu.</StiPanel>
     <StiPanelElement>Pravougaona oblast koja može sadržeti druge komponente.</StiPanelElement>
     <StiPdfDigitalSignature>Ova komponenta se koristi za određivanje mjesta za digitalni potpis nakon što je izvještaj izvezen u Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Ova komponenta se koristi za određivanje prostora za digitalni potpis i polja iz certifikata prilikom izvoza u PDF.</StiPdfDigitalSignatureElement>
     <StiPivotElement>Komponenta pivot se koristi za prikaz struktuiranih podataka u obliku tabele.</StiPivotElement>
     <StiPivotTableElement>Koristi se za prikaz strukturiranih podataka u obliku tabele.</StiPivotTableElement>
     <StiProgressElement>Komponenta prikazuje odnos ulaznih podataka. Može biti predstavljena na različite načine.</StiProgressElement>
@@ -1961,6 +1968,7 @@
     <StiTreeViewBoxElement>Element se koristi za izbor vrednosti iz padajuće liste u obliku stabla.</StiTreeViewBoxElement>
     <StiTreeViewElement>Predstavlja element koji se koristi za prikaz hijerarhijski organizovanih podataka u obliku stabla.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Ova komponenta se koristi za prikaz uspravnih linija.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Komponenta omogućava dodavanje web sadržaja na nadzorne ploče.</StiWebContentElement>
     <StiWinControl>Ova komponenta omogućava prikaz vizualnih kontrola iz .NET Framework-a.</StiWinControl>
     <StiZipCode>Ova komponenta služi za prikazivanje poštanskog broja.</StiZipCode>
   </HelpComponents>
@@ -2271,6 +2279,7 @@
     <menuEditDataTransformationNew>Novi Data Transformation...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Briši</menuEditDelete>
     <menuEditEdit>Izmeni</menuEditEdit>
+    <menuEditFunctionNew>Nova funkcija...</menuEditFunctionNew>
     <menuEditImportRelations>Uvezi relacije...</menuEditImportRelations>
     <menuEditPaste>&amp;Nalepi</menuEditPaste>
     <menuEditRedo>&amp;Ponovi</menuEditRedo>
@@ -2383,6 +2392,7 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Vrijeme za izvršavanje SQL upita je duže od dozvoljenog vremena za dizajner izvještaja. Podesite vrijeme čekanja za dizajner komponentu na ne manje od {0} sekundi.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Pažnja! Ova funkcija pretvara izvor podataka u {0}. Za uspješno preuzimanje podataka, sva imena tabela i kolona moraju se podudarati. Upiti se neće konvertovati. Da li želite da nastavite?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Ne prikazuj ponovno</DoNotShowAgain>
     <LatexFormat>LaTeX format se koristi za prikaz matematičkih formula.</LatexFormat>
     <MessageTimeOutExpired>Timeout komande je istekao!</MessageTimeOutExpired>
@@ -2442,6 +2452,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <AuthPasswordIsNotSpecified>Lozinka nije specifikovana!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>Lozinka je predugačka!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Lozinka je prekratka (minimalna dužina je 6 znakova)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Ograničenje zahtjeva je premašeno! Molimo kontaktirajte naš odjel prodaje na sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Nije moguće obrisati korisničku ulogu jer je koriste drugi korisnici.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Korisnička uloga sa imenom "{0}" već postoji!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Korisnička uloga sa imenom "{0}" je sistemska korisnička uloga!</AuthRoleNameIsSystemRole>
@@ -2490,6 +2501,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <NotificationItemDelete>Stavke se brišu.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Stavke su uspešno obrisane.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Potrebna dodatna komponenta</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Molimo instalirajte WebView2 Runtime da biste ispravno pokrenuli element web sadržaja.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Molimo instalirajte WebView2 Runtime da biste ispravno radili sa Blockly editorom.</NotificationItemInstallWebView>
     <NotificationItemRestore>Stavke se vraćaju.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Stavke su uspešno vraćene.</NotificationItemRestoreComplete>
@@ -3711,6 +3723,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <Anchor>Sidro</Anchor>
     <Angle>Ugao</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
+    <Appearance>Izgled</Appearance>
     <Apply>Primijeni</Apply>
     <Area>Područje</Area>
     <Argument>Argument</Argument>
@@ -4316,6 +4329,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <OnePointZoom>Zumiranje u jednoj tački</OnePointZoom>
     <OnHover>Na pozicioniranje</OnHover>
     <OnlyText>Samo tekst</OnlyText>
+    <OnSelect>On Select</OnSelect>
     <Opacity>Prozirnost</Opacity>
     <OpenValues>Open Values</OpenValues>
     <Operation>Operacija</Operation>
@@ -4334,6 +4348,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <PaperSourceOfFirstPage>Izvor papira za prvu stranicu</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>Izvor papira za ostale stranice</PaperSourceOfOtherPages>
     <Parameter>Parametar</Parameter>
+    <ParameterAlignment>Poravnanje parametra</ParameterAlignment>
     <Parameters>Parametri</Parameters>
     <ParametersDateFormat>Parametri Datum Format</ParametersDateFormat>
     <ParametersOrientation>Orentacija parametara</ParametersOrientation>
@@ -4410,6 +4425,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <Relations>Relacije</Relations>
     <RelativeHeight>Relativna visina</RelativeHeight>
     <RelativeWidth>Relativna širina</RelativeWidth>
+    <RememberSelection>Zapamti izbor</RememberSelection>
     <RemoveUnusedDataBeforeStart>Ukloni nekorištene podatke pre početka</RemoveUnusedDataBeforeStart>
     <RenderTo>Renderiši u</RenderTo>
     <ReportAlias>Alias izveštaja</ReportAlias>
@@ -4699,6 +4715,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <UseExternalReport>Koristi spoljni izveštaj</UseExternalReport>
     <UseParentStyles>Koristi roditeljske stilove</UseParentStyles>
     <UseRangeColor>Koristi boju raspona</UseRangeColor>
+    <UserBingKey>User Bing Key</UserBingKey>
     <UseRectangularSymbols>Koristi pravougaone simbole</UseRectangularSymbols>
     <UseSeriesColor>Koristi nizove boja</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Koristi stil sažetka u zbiru kolona</UseStyleOfSummaryInColumnTotal>
@@ -5026,6 +5043,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <VisualChecked>Potvrđeno</VisualChecked>
     <VisualDefault>Zadano</VisualDefault>
     <VisualDisabled>Onemogućeno</VisualDisabled>
+    <VisualFocused>Fokusirano</VisualFocused>
     <VisualHover>Hover</VisualHover>
     <VisualPressed>Pritisnuto</VisualPressed>
     <Warnings>Upozorenja</Warnings>
@@ -5268,6 +5286,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <MoveForward>Premesti napred</MoveForward>
     <Order>Redosled</Order>
     <RibbonClassic>Klasična traka</RibbonClassic>
+    <RibbonLayout>Raspored elemenata na traci</RibbonLayout>
     <RibbonSingleLine>Jednolinijska traka</RibbonSingleLine>
     <SendToBack>Premesti u pozadinu</SendToBack>
     <Size>Veličina</Size>
@@ -5303,6 +5322,13 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <TextEditor>Editor teksta</TextEditor>
     <title>Alatni okvir</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <CustomCategory>Prilagođena kategorija</CustomCategory>
+    <ReturnType>Povratni tip</ReturnType>
+    <Script>Skript</Script>
+    <ScriptMode>Mod skriptovanja</ScriptMode>
+    <Title>Korisnički definisana funkcija</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Jeste li sigurni da želite zatvoriti ovaj prozor? Sva preuzimanja bit će otkazana.</AllDownloadsWillCanceled>
     <Description>Za vas smo odabrali izvještaje za koje smatramo da su najbolji za brzi početak.</Description>

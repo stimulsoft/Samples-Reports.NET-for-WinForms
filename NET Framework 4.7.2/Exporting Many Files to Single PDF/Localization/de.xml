@@ -379,6 +379,7 @@
     <ButtonRecover>Wiederherstellen</ButtonRecover>
     <ButtonRenew>Erneuern</ButtonRenew>
     <ButtonResendEmail>E-Mail wieder senden</ButtonResendEmail>
+    <ButtonResendInvitation>Erneut einladen</ButtonResendInvitation>
     <ButtonResetPassword>Zurückstellen</ButtonResetPassword>
     <ButtonRun>Ausführen</ButtonRun>
     <ButtonScheduler>Scheduler</ButtonScheduler>
@@ -672,6 +673,7 @@
     <StiTreeView>Baumansicht</StiTreeView>
     <StiTreeViewBox>Baumansichtsfeld</StiTreeViewBox>
     <StiVerticalLinePrimitive>Vertikale Linie</StiVerticalLinePrimitive>
+    <StiWebContent>Webinhalt</StiWebContent>
     <StiWinControl>WinControl</StiWinControl>
     <StiZipCode>PLZ</StiZipCode>
   </Components>
@@ -899,7 +901,9 @@
     <StiRadioControl>Optionsfeld</StiRadioControl>
     <StiReportControl>Bericht</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSliderControl>Schieberegler</StiSliderControl>
     <StiTextBoxControl>Textfeld</StiTextBoxControl>
+    <StiToggleControl>Umschaltfläche</StiToggleControl>
     <StiTreeViewControl>Baum</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1420,6 +1424,8 @@
     <EnableDataMonitor>Datenmonitor aktivieren</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Die SQL-Anweisung wurde erfolgreich ausgeführt</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Neuer Ausdruck</ExpressionNew>
+    <FunctionEdit>Funktion ändern</FunctionEdit>
+    <FunctionNew>Neue Funktion</FunctionNew>
     <GetColumnsFromAssembly>Spalten aus Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Nicht unterstützte Datenquellen ausblenden</HideUnsupportedDatabases>
     <ImportRelations>Beziehungen importieren</ImportRelations>
@@ -1963,6 +1969,7 @@
     <StiTreeViewBoxElement>Das Element wird verwendet, um die Werte mit Dropdown-Liste als Baumstruktur auszuwählen.</StiTreeViewBoxElement>
     <StiTreeViewElement>Dieses Element wird verwendet, um die  hierarchische Daten als Baumstruktur anzuzeigen.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Mit Hilfe dieser Komponente können vertikale Linien in einem Bereicht gezeichnet werden.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Diese Komponente erlaubt Webinhalte auf Dashboard hinzuzufügen.</StiWebContentElement>
     <StiWinControl>Mit Hilfe dieser Komponente können .NET Steuerelemente auf einem Bericht dargestellt werden.</StiWinControl>
     <StiZipCode>Diese Komponente wird für die Darstellung von Postleitzahlen verwendet.</StiZipCode>
   </HelpComponents>
@@ -2454,6 +2461,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AuthPasswordIsNotSpecified>Das Passwort ist nicht angegeben!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>Das Passwort ist zu lang!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Das Passwort ist zu kurz (minimale Länge ist 6 Zeichen)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Anfrage-Limit ist überschritten! Bitte, kontaktieren Sie unsere Vertriebsabteilung unter: sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Sie können nicht die Rolle entfernen, weil diese Rolle jetzt von anderen Benutzern verwendet wird.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Die Rolle mit angegebenen Namen "{0}" existiert schon!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Die Rolle mit angegebenen Namen "{0}" ist die System-Rolle!</AuthRoleNameIsSystemRole>
@@ -2507,6 +2515,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <NotificationItemDelete>Die Elemente werden gelöscht.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Die Elemente sind erfolgreich gelöscht.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Extra-Komponente ist erforderlich</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Bitte, installieren Sie WebView2 Runtime, um Webinhalt-Element korrekt auszuführen.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Bitte, installieren Sie WebView2 Runtime, um mit dem Blockly-Editor korrekt zu arbeiten.</NotificationItemInstallWebView>
     <NotificationItemRestore>Die Elemente werden wiederhergestellt.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Die Elemente sind erfolgreich wiederhergestellt.</NotificationItemRestoreComplete>
@@ -4364,6 +4373,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <OnePointZoom>Ein-Punkt-Zoom</OnePointZoom>
     <OnHover>Bei der Berührung</OnHover>
     <OnlyText>Nur Text</OnlyText>
+    <OnSelect>Bei der Auswahl</OnSelect>
     <Opacity>Opazität</Opacity>
     <OpenValues>Offene Werte</OpenValues>
     <Operation>Operation</Operation>
@@ -4384,6 +4394,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <PaperSourceOfOtherPages>Papierquelle anderer Seiten</PaperSourceOfOtherPages>
     <PaperSourceOtherPages>Papierquelle übrige Seiten</PaperSourceOtherPages>
     <Parameter>Parameter</Parameter>
+    <ParameterAlignment>Parameter-Ausrichtung</ParameterAlignment>
     <Parameters>Parameter</Parameters>
     <ParametersDateFormat>Datenparameter Format</ParametersDateFormat>
     <ParametersOrientation>Orientierung-Parameter</ParametersOrientation>
@@ -4750,6 +4761,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <UseExternalReport>Aus Datei laden</UseExternalReport>
     <UseParentStyles>Elternstile verwenden</UseParentStyles>
     <UseRangeColor>Farbenbereich verwenden</UseRangeColor>
+    <UserBingKey>Bing-Benutzerschlüssel</UserBingKey>
     <UseRectangularSymbols>Rechteckige Symbole benutzen</UseRectangularSymbols>
     <UseSeriesColor>Reihen-Farben verwenden</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Für die 'Kreuz Spalte Gesamt' den Stil der 'Kreuz Zelle' verwenden</UseStyleOfSummaryInColumnTotal>
@@ -5076,6 +5088,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <VisualChecked>Überprüft</VisualChecked>
     <VisualDefault>Standard</VisualDefault>
     <VisualDisabled>Deaktiviert</VisualDisabled>
+    <VisualFocused>Im Fokus</VisualFocused>
     <VisualHover>Geschwebt</VisualHover>
     <VisualPressed>Gedrückt</VisualPressed>
     <Warnings>Warnungen</Warnings>
@@ -5358,6 +5371,13 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <TextEditor>Text-Editor</TextEditor>
     <title>Toolbox</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <CustomCategory>Benutzerdefinierte Kategorie</CustomCategory>
+    <ReturnType>Rückgabetyp</ReturnType>
+    <Script>Skript</Script>
+    <ScriptMode>Skript-Modus</ScriptMode>
+    <Title>Benutzerfunktion</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Möchten Sie wirklich dieses Fenster schließen? Alle Downloads werden abgebrochen werden.</AllDownloadsWillCanceled>
     <Description>Wir haben für Sie die Berichte, die, wir meinen, am besten für den Schnellstart geeignet sind, ausgewählt.</Description>
