@@ -379,6 +379,7 @@
     <ButtonRecover>აღდგენა</ButtonRecover>
     <ButtonRenew>განახლება</ButtonRenew>
     <ButtonResendEmail>წერილის ხელახლა გაგზავნა</ButtonResendEmail>
+    <ButtonResendInvitation>ხელახლა დაპატიჟება</ButtonResendInvitation>
     <ButtonResetPassword>პაროლის ჩამოყრა</ButtonResetPassword>
     <ButtonRun>გაშვება</ButtonRun>
     <ButtonScheduler>დამგეგმავი</ButtonScheduler>
@@ -674,6 +675,7 @@
     <StiTreeView>ხე</StiTreeView>
     <StiTreeViewBox>ხე მოსანიშნი ელემენტებით</StiTreeViewBox>
     <StiVerticalLinePrimitive>ვერტიკალური ზოლი</StiVerticalLinePrimitive>
+    <StiWebContent>Web-კონტენტი</StiWebContent>
     <StiWinControl>Win კონტროლი</StiWinControl>
     <StiZipCode>საფოსტო ინდექსი</StiZipCode>
   </Components>
@@ -903,7 +905,9 @@
     <StiRadioControl>გადამრთველი</StiRadioControl>
     <StiReportControl>მართვის ელემენტი</StiReportControl>
     <StiRichTextBoxControl>ტექსტის ფორმატირების ველი</StiRichTextBoxControl>
+    <StiSliderControl>სლაიდერი</StiSliderControl>
     <StiTextBoxControl>ტექსტური ველი</StiTextBoxControl>
+    <StiToggleControl>გადამრთველი</StiToggleControl>
     <StiTreeViewControl>ხე</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1424,6 +1428,8 @@
     <EnableDataMonitor>მონაცემთა მონიტორინგის ჩართვა</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL მოთხოვნა წარმატებულად შესრულებულია</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>ახალი გამოთქმა</ExpressionNew>
+    <FunctionEdit>ფუნქციის რედაქტირება</FunctionEdit>
+    <FunctionNew>ახალი ფუნქცია</FunctionNew>
     <GetColumnsFromAssembly>მონაცემთა კრებულიდან სვეტების აღება</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>დამალეთ მრახდაუჭერელი მონაცემთა წყაროები</HideUnsupportedDatabases>
     <ImportRelations>კავშირების იმპორტი</ImportRelations>
@@ -1969,6 +1975,7 @@
     <StiTreeViewBoxElement>ელემენტი გამოიყენება ჩამოსაშლელი იერარქიული სიის სტრუქტურის მონაცემთა გამოსატანად.</StiTreeViewBoxElement>
     <StiTreeViewElement>გამოიყენება იერარქიული მონაცემების გამოსატანად.</StiTreeViewElement>
     <StiVerticalLinePrimitive>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ ვერტიკალური ხაზი.</StiVerticalLinePrimitive>
+    <StiWebContentElement>ეს კომპონენტი გამოიყენება ინდიკატორთა პანელზე web-კონტენტის გამოსატანად.</StiWebContentElement>
     <StiWinControl>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ .NET Framework.-ის კომპონენტები.</StiWinControl>
     <StiZipCode>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ საფოსტო კოდი.</StiZipCode>
   </HelpComponents>
@@ -2471,6 +2478,7 @@
     <AuthPasswordIsTooLong>პაროლი ზედმეტად გრძელია!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>პაროლი ზედმეტად მოკლეა (მინიმალური სიგრძე 6 სიმბოლო)!</AuthPasswordIsTooShort>
     <AuthPasswordNotSpecified>პაროლი არ არის მითითებული!</AuthPasswordNotSpecified>
+    <AuthRequestsLimitIsExceeded>მოთხოვნათა ლიმიტი ამოწურულია! გთხოვთ, დაუკავშირდით გაყიდვების განყოფილებას sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>თქვენ არ შეგიძლიათ წაშალოთ როლი, რადგან ის გამოყენებულია სხვა მომხმარებლების მიერ.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>როლი "{0}" მითითებული სახელით უკვე არსებობს!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>როლი "{0}" მითითებული სახელით არის სისტემური როლი!</AuthRoleNameIsSystemRole>
@@ -2524,6 +2532,7 @@
     <NotificationItemDelete>მიმდინარეობს ელემენტების წაშლა.</NotificationItemDelete>
     <NotificationItemDeleteComplete>ელემენტები წარმატების წაიშალა.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>საჭიროა დამატებითი კომპონენტის დაყენება</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Web-კონტენტის სწორი გაშვებისთვის საჭიროა WebView2 გარემოს გამოყენება.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Blockly რედაქტორის კორექტული მუშაობისთვის, აუცილებელია WebView2 გაშვების გარემოს დაყენება.</NotificationItemInstallWebView>
     <NotificationItemRestore>მიმდინარეობს ელემენტების აღდგენა.</NotificationItemRestore>
     <NotificationItemRestoreComplete>ელემენტები წარმატებით აღდგა.</NotificationItemRestoreComplete>
@@ -4394,6 +4403,7 @@
     <OnePointZoom>ერთწერტილიანი მასშტაბი</OnePointZoom>
     <OnHover>მიტანისას</OnHover>
     <OnlyText>მხოლოდ ტექსტი</OnlyText>
+    <OnSelect>არჩევის დროს</OnSelect>
     <Opacity>გაუმჭვირვალობა</Opacity>
     <OpenValues>ღია მნიშვნელობები</OpenValues>
     <Operation>ოპერაცია</Operation>
@@ -4412,6 +4422,7 @@
     <PaperSourceOfFirstPage>პირველი გვერდის წყარო</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>სხვა გვერდების წყარო</PaperSourceOfOtherPages>
     <Parameter>პარამეტრი</Parameter>
+    <ParameterAlignment>პარამეტრების სწორება</ParameterAlignment>
     <Parameters>პარამეტრები</Parameters>
     <ParametersDateFormat>თარიღის პარამეტრების ფორმატი</ParametersDateFormat>
     <ParametersOrientation>პარამეტრების ორიენტაცია</ParametersOrientation>
@@ -4779,6 +4790,7 @@
     <UseExternalReport>გარე რეპორტის გამოყენება</UseExternalReport>
     <UseParentStyles>მშობლიური სტილების გამოყენება</UseParentStyles>
     <UseRangeColor>ფერთა დიაპაზონის გამოყენება</UseRangeColor>
+    <UserBingKey>მომხმარებლის Bing გასაღები</UserBingKey>
     <UseRectangularSymbols>მართკუთხა სიმბოლოების გამოყენება</UseRectangularSymbols>
     <UseSeriesColor>სერიების ფერების გამოყენება</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>სვეტის ჯამური სტილის გამოყენება სვეტის ჯამში</UseStyleOfSummaryInColumnTotal>
@@ -5105,6 +5117,7 @@
     <VisualChecked>შემოწმებული</VisualChecked>
     <VisualDefault>ნაგულისხმევი</VisualDefault>
     <VisualDisabled>გამორთული</VisualDisabled>
+    <VisualFocused>ფოკუსში</VisualFocused>
     <VisualHover>მდგომარეობა დამიზნებისას </VisualHover>
     <VisualPressed>დაჭერილი</VisualPressed>
     <Warnings>გაფრთხილებები</Warnings>
@@ -5387,6 +5400,13 @@
     <TextEditor>ტექსტის რედაქტორი</TextEditor>
     <title>ინსტრუმენტები</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <CustomCategory>სამომხმარებლო კატეგორია</CustomCategory>
+    <ReturnType>დასაბრუნებელი მნიშვნელობის ტიპი</ReturnType>
+    <Script>სცენარი</Script>
+    <ScriptMode>სცენარის რეჟიმი</ScriptMode>
+    <Title>სამომხმარებლო ფუნქცია</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>დარწმუნებული ხართ, რომ გინდათ დახუროთ ეს ფანჯარა? ყველა ატვირთვა გაუქმდება.</AllDownloadsWillCanceled>
     <Description>ჩვენ შევარჩიეთ თქვენთვის რეპორტები, რომლებიც ჩვენი აზრით, ყველაზე კარგად გამოსადეგია სწრაფი სტარტისთვის.</Description>
