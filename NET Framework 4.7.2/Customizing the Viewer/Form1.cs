@@ -34,16 +34,16 @@ namespace Customizing_the_Viewer
 		private System.Windows.Forms.CheckBox cbPageControl;
 		private System.Windows.Forms.GroupBox gbZoom;
 		private System.Windows.Forms.ImageList ilZoom;
-		private Stimulsoft.Controls.StiToolButton tbOnePage;
-		private Stimulsoft.Controls.StiToolButton tbTwoPages;
-		private Stimulsoft.Controls.StiToolButton tbNormal;
-		private Stimulsoft.Controls.StiToolButton tbPageWidth;
+        private Button tbOnePage;
+        private Button tbTwoPages;
+		private Button tbNormal;
+		private Button tbPageWidth;
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.ImageList ilPageControl;
-		private Stimulsoft.Controls.StiToolButton tbFirstPage;
-		private Stimulsoft.Controls.StiToolButton tbLastPage;
-		private Stimulsoft.Controls.StiToolButton tbNextPage;
-		private Stimulsoft.Controls.StiToolButton tbPreviousPage;
+		private Button tbFirstPage;
+		private Button tbLastPage;
+		private Button tbNextPage;
+		private Button tbPreviousPage;
 		private System.Windows.Forms.Button btRefresh;
 		private System.Windows.Forms.CheckBox cbSendByEMail;
 		private System.ComponentModel.IContainer components;
@@ -90,17 +90,17 @@ namespace Customizing_the_Viewer
             this.panel1 = new System.Windows.Forms.Panel();
             this.btRefresh = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tbLastPage = new Stimulsoft.Controls.StiToolButton();
+            this.tbLastPage = new Button();
             this.ilPageControl = new System.Windows.Forms.ImageList();
-            this.tbNextPage = new Stimulsoft.Controls.StiToolButton();
-            this.tbPreviousPage = new Stimulsoft.Controls.StiToolButton();
-            this.tbFirstPage = new Stimulsoft.Controls.StiToolButton();
+            this.tbNextPage = new Button();
+            this.tbPreviousPage = new Button();
+            this.tbFirstPage = new Button();
             this.gbZoom = new System.Windows.Forms.GroupBox();
-            this.tbPageWidth = new Stimulsoft.Controls.StiToolButton();
+            this.tbPageWidth = new Button();
             this.ilZoom = new System.Windows.Forms.ImageList();
-            this.tbNormal = new Stimulsoft.Controls.StiToolButton();
-            this.tbTwoPages = new Stimulsoft.Controls.StiToolButton();
-            this.tbOnePage = new Stimulsoft.Controls.StiToolButton();
+            this.tbNormal = new Button();
+            this.tbTwoPages = new Button();
+            this.tbOnePage = new Button();
             this.gbSettings = new System.Windows.Forms.GroupBox();
             this.cbThumbs = new System.Windows.Forms.CheckBox();
             this.cbBookmarks = new System.Windows.Forms.CheckBox();
@@ -205,8 +205,6 @@ namespace Customizing_the_Viewer
             // 
             // tbLastPage
             // 
-            this.tbLastPage.AutoWidth = true;
-            this.tbLastPage.HotDragDrop = false;
             this.tbLastPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbLastPage.ImageIndex = 3;
             this.tbLastPage.ImageList = this.ilPageControl;
@@ -230,8 +228,6 @@ namespace Customizing_the_Viewer
             // 
             // tbNextPage
             // 
-            this.tbNextPage.AutoWidth = true;
-            this.tbNextPage.HotDragDrop = false;
             this.tbNextPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbNextPage.ImageIndex = 2;
             this.tbNextPage.ImageList = this.ilPageControl;
@@ -246,8 +242,6 @@ namespace Customizing_the_Viewer
             // 
             // tbPreviousPage
             // 
-            this.tbPreviousPage.AutoWidth = true;
-            this.tbPreviousPage.HotDragDrop = false;
             this.tbPreviousPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbPreviousPage.ImageIndex = 1;
             this.tbPreviousPage.ImageList = this.ilPageControl;
@@ -262,8 +256,6 @@ namespace Customizing_the_Viewer
             // 
             // tbFirstPage
             // 
-            this.tbFirstPage.AutoWidth = true;
-            this.tbFirstPage.HotDragDrop = false;
             this.tbFirstPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbFirstPage.ImageIndex = 0;
             this.tbFirstPage.ImageList = this.ilPageControl;
@@ -293,8 +285,6 @@ namespace Customizing_the_Viewer
             // 
             // tbPageWidth
             // 
-            this.tbPageWidth.AutoWidth = true;
-            this.tbPageWidth.HotDragDrop = false;
             this.tbPageWidth.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbPageWidth.ImageIndex = 4;
             this.tbPageWidth.ImageList = this.ilZoom;
@@ -319,8 +309,6 @@ namespace Customizing_the_Viewer
             // 
             // tbNormal
             // 
-            this.tbNormal.AutoWidth = true;
-            this.tbNormal.HotDragDrop = false;
             this.tbNormal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbNormal.ImageIndex = 3;
             this.tbNormal.ImageList = this.ilZoom;
@@ -335,8 +323,6 @@ namespace Customizing_the_Viewer
             // 
             // tbTwoPages
             // 
-            this.tbTwoPages.AutoWidth = true;
-            this.tbTwoPages.HotDragDrop = false;
             this.tbTwoPages.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbTwoPages.ImageIndex = 1;
             this.tbTwoPages.ImageList = this.ilZoom;
@@ -351,8 +337,6 @@ namespace Customizing_the_Viewer
             // 
             // tbOnePage
             // 
-            this.tbOnePage.AutoWidth = true;
-            this.tbOnePage.HotDragDrop = false;
             this.tbOnePage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbOnePage.ImageIndex = 0;
             this.tbOnePage.ImageList = this.ilZoom;
@@ -362,7 +346,8 @@ namespace Customizing_the_Viewer
             this.tbOnePage.Size = new System.Drawing.Size(120, 21);
             this.tbOnePage.TabIndex = 0;
             this.tbOnePage.Text = "One Page";
-            this.tbOnePage.UseVisualStyleBackColor = false;
+            this.tbOnePage.ForeColor = System.Drawing.Color.Black;
+            this.tbOnePage.UseVisualStyleBackColor = true;
             this.tbOnePage.Click += new System.EventHandler(this.tbOnePage_Click);
             // 
             // gbSettings
