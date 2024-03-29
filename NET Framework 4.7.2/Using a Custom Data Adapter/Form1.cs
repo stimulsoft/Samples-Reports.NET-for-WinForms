@@ -40,6 +40,7 @@ namespace Using_a_Custom_Data_Adapter
             //Adding a connection to the report from code
             var database = new CustomPostgreSQLDatabase("CustomData1", "Server=127.0.0.1; Port=5432; Database=myDataBase; User Id=myUsername; Password=myPassword;");
             report.Dictionary.Databases.Add(database);
+            report.ReferencedAssemblies = report.ReferencedAssemblies.Append("Using_a_Custom_Data_Adapter").ToArray();
 
             report.Design();
         }
