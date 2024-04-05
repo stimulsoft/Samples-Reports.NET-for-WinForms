@@ -84,23 +84,24 @@ namespace Customizing_the_Viewer
 		/// </summary>
 		private void InitializeComponent()
 		{
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.PreviewControl = new Stimulsoft.Report.Viewer.StiViewerControl();
             this.Report = new Stimulsoft.Report.StiReport();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btRefresh = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tbLastPage = new Button();
-            this.ilPageControl = new System.Windows.Forms.ImageList();
-            this.tbNextPage = new Button();
-            this.tbPreviousPage = new Button();
-            this.tbFirstPage = new Button();
+            this.tbLastPage = new System.Windows.Forms.Button();
+            this.ilPageControl = new System.Windows.Forms.ImageList(this.components);
+            this.tbNextPage = new System.Windows.Forms.Button();
+            this.tbPreviousPage = new System.Windows.Forms.Button();
+            this.tbFirstPage = new System.Windows.Forms.Button();
             this.gbZoom = new System.Windows.Forms.GroupBox();
-            this.tbPageWidth = new Button();
-            this.ilZoom = new System.Windows.Forms.ImageList();
-            this.tbNormal = new Button();
-            this.tbTwoPages = new Button();
-            this.tbOnePage = new Button();
+            this.tbPageWidth = new System.Windows.Forms.Button();
+            this.ilZoom = new System.Windows.Forms.ImageList(this.components);
+            this.tbNormal = new System.Windows.Forms.Button();
+            this.tbTwoPages = new System.Windows.Forms.Button();
+            this.tbOnePage = new System.Windows.Forms.Button();
             this.gbSettings = new System.Windows.Forms.GroupBox();
             this.cbThumbs = new System.Windows.Forms.CheckBox();
             this.cbBookmarks = new System.Windows.Forms.CheckBox();
@@ -133,13 +134,14 @@ namespace Customizing_the_Viewer
             // 
             this.PreviewControl.AllowDrop = true;
             this.PreviewControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PreviewControl.Location = new System.Drawing.Point(152, 0);
+            this.PreviewControl.Location = new System.Drawing.Point(228, 0);
+            this.PreviewControl.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.PreviewControl.Name = "PreviewControl";
             this.PreviewControl.PageViewMode = Stimulsoft.Report.Viewer.StiPageViewMode.Continuous;
             this.PreviewControl.Report = this.Report;
             this.PreviewControl.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.PreviewControl.ShowZoom = true;
-            this.PreviewControl.Size = new System.Drawing.Size(835, 552);
+            this.PreviewControl.Size = new System.Drawing.Size(1252, 849);
             this.PreviewControl.TabIndex = 0;
             this.PreviewControl.Close += new System.EventHandler(this.PreviewControl_Close);
             // 
@@ -147,6 +149,7 @@ namespace Customizing_the_Viewer
             // 
             this.Report.CookieContainer = null;
             this.Report.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
+            this.Report.HttpHeadersContainer = null;
             this.Report.Key = "fad8611e45e64305930541721c02a040";
             this.Report.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -173,17 +176,15 @@ namespace Customizing_the_Viewer
             this.panel1.Controls.Add(this.gbSettings);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(152, 552);
+            this.panel1.Size = new System.Drawing.Size(228, 849);
             this.panel1.TabIndex = 2;
             // 
             // btRefresh
             // 
-            this.btRefresh.Location = new System.Drawing.Point(16, 614);
-            this.btRefresh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btRefresh.Location = new System.Drawing.Point(24, 945);
             this.btRefresh.Name = "btRefresh";
-            this.btRefresh.Size = new System.Drawing.Size(120, 22);
+            this.btRefresh.Size = new System.Drawing.Size(180, 34);
             this.btRefresh.TabIndex = 3;
             this.btRefresh.Text = "Refresh";
             this.btRefresh.Click += new System.EventHandler(this.btRefresh_Click);
@@ -194,11 +195,9 @@ namespace Customizing_the_Viewer
             this.groupBox1.Controls.Add(this.tbNextPage);
             this.groupBox1.Controls.Add(this.tbPreviousPage);
             this.groupBox1.Controls.Add(this.tbFirstPage);
-            this.groupBox1.Location = new System.Drawing.Point(8, 479);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Location = new System.Drawing.Point(12, 737);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(136, 115);
+            this.groupBox1.Size = new System.Drawing.Size(204, 177);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Page Control";
@@ -208,10 +207,9 @@ namespace Customizing_the_Viewer
             this.tbLastPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbLastPage.ImageIndex = 3;
             this.tbLastPage.ImageList = this.ilPageControl;
-            this.tbLastPage.Location = new System.Drawing.Point(8, 84);
-            this.tbLastPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbLastPage.Location = new System.Drawing.Point(12, 129);
             this.tbLastPage.Name = "tbLastPage";
-            this.tbLastPage.Size = new System.Drawing.Size(120, 21);
+            this.tbLastPage.Size = new System.Drawing.Size(180, 32);
             this.tbLastPage.TabIndex = 3;
             this.tbLastPage.Text = "Last Page";
             this.tbLastPage.UseVisualStyleBackColor = false;
@@ -231,10 +229,9 @@ namespace Customizing_the_Viewer
             this.tbNextPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbNextPage.ImageIndex = 2;
             this.tbNextPage.ImageList = this.ilPageControl;
-            this.tbNextPage.Location = new System.Drawing.Point(8, 61);
-            this.tbNextPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbNextPage.Location = new System.Drawing.Point(12, 94);
             this.tbNextPage.Name = "tbNextPage";
-            this.tbNextPage.Size = new System.Drawing.Size(120, 21);
+            this.tbNextPage.Size = new System.Drawing.Size(180, 32);
             this.tbNextPage.TabIndex = 2;
             this.tbNextPage.Text = "Next Page";
             this.tbNextPage.UseVisualStyleBackColor = false;
@@ -245,10 +242,9 @@ namespace Customizing_the_Viewer
             this.tbPreviousPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbPreviousPage.ImageIndex = 1;
             this.tbPreviousPage.ImageList = this.ilPageControl;
-            this.tbPreviousPage.Location = new System.Drawing.Point(8, 38);
-            this.tbPreviousPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbPreviousPage.Location = new System.Drawing.Point(12, 58);
             this.tbPreviousPage.Name = "tbPreviousPage";
-            this.tbPreviousPage.Size = new System.Drawing.Size(120, 21);
+            this.tbPreviousPage.Size = new System.Drawing.Size(180, 32);
             this.tbPreviousPage.TabIndex = 1;
             this.tbPreviousPage.Text = "Previous Page";
             this.tbPreviousPage.UseVisualStyleBackColor = false;
@@ -259,10 +255,9 @@ namespace Customizing_the_Viewer
             this.tbFirstPage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbFirstPage.ImageIndex = 0;
             this.tbFirstPage.ImageList = this.ilPageControl;
-            this.tbFirstPage.Location = new System.Drawing.Point(8, 16);
-            this.tbFirstPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbFirstPage.Location = new System.Drawing.Point(12, 25);
             this.tbFirstPage.Name = "tbFirstPage";
-            this.tbFirstPage.Size = new System.Drawing.Size(120, 21);
+            this.tbFirstPage.Size = new System.Drawing.Size(180, 32);
             this.tbFirstPage.TabIndex = 0;
             this.tbFirstPage.Text = "First Page";
             this.tbFirstPage.UseVisualStyleBackColor = false;
@@ -274,11 +269,9 @@ namespace Customizing_the_Viewer
             this.gbZoom.Controls.Add(this.tbNormal);
             this.gbZoom.Controls.Add(this.tbTwoPages);
             this.gbZoom.Controls.Add(this.tbOnePage);
-            this.gbZoom.Location = new System.Drawing.Point(8, 358);
-            this.gbZoom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbZoom.Location = new System.Drawing.Point(12, 551);
             this.gbZoom.Name = "gbZoom";
-            this.gbZoom.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gbZoom.Size = new System.Drawing.Size(136, 115);
+            this.gbZoom.Size = new System.Drawing.Size(204, 177);
             this.gbZoom.TabIndex = 1;
             this.gbZoom.TabStop = false;
             this.gbZoom.Text = "Zoom";
@@ -288,10 +281,9 @@ namespace Customizing_the_Viewer
             this.tbPageWidth.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbPageWidth.ImageIndex = 4;
             this.tbPageWidth.ImageList = this.ilZoom;
-            this.tbPageWidth.Location = new System.Drawing.Point(8, 84);
-            this.tbPageWidth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbPageWidth.Location = new System.Drawing.Point(12, 129);
             this.tbPageWidth.Name = "tbPageWidth";
-            this.tbPageWidth.Size = new System.Drawing.Size(120, 21);
+            this.tbPageWidth.Size = new System.Drawing.Size(180, 32);
             this.tbPageWidth.TabIndex = 4;
             this.tbPageWidth.Text = "Page Width";
             this.tbPageWidth.UseVisualStyleBackColor = false;
@@ -312,10 +304,9 @@ namespace Customizing_the_Viewer
             this.tbNormal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbNormal.ImageIndex = 3;
             this.tbNormal.ImageList = this.ilZoom;
-            this.tbNormal.Location = new System.Drawing.Point(8, 61);
-            this.tbNormal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbNormal.Location = new System.Drawing.Point(12, 94);
             this.tbNormal.Name = "tbNormal";
-            this.tbNormal.Size = new System.Drawing.Size(120, 21);
+            this.tbNormal.Size = new System.Drawing.Size(180, 32);
             this.tbNormal.TabIndex = 3;
             this.tbNormal.Text = "Normal";
             this.tbNormal.UseVisualStyleBackColor = false;
@@ -326,10 +317,9 @@ namespace Customizing_the_Viewer
             this.tbTwoPages.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbTwoPages.ImageIndex = 1;
             this.tbTwoPages.ImageList = this.ilZoom;
-            this.tbTwoPages.Location = new System.Drawing.Point(8, 38);
-            this.tbTwoPages.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbTwoPages.Location = new System.Drawing.Point(12, 58);
             this.tbTwoPages.Name = "tbTwoPages";
-            this.tbTwoPages.Size = new System.Drawing.Size(120, 21);
+            this.tbTwoPages.Size = new System.Drawing.Size(180, 32);
             this.tbTwoPages.TabIndex = 1;
             this.tbTwoPages.Text = "Two Pages";
             this.tbTwoPages.UseVisualStyleBackColor = false;
@@ -337,17 +327,15 @@ namespace Customizing_the_Viewer
             // 
             // tbOnePage
             // 
+            this.tbOnePage.ForeColor = System.Drawing.Color.Black;
             this.tbOnePage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbOnePage.ImageIndex = 0;
             this.tbOnePage.ImageList = this.ilZoom;
-            this.tbOnePage.Location = new System.Drawing.Point(8, 16);
-            this.tbOnePage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbOnePage.Location = new System.Drawing.Point(12, 25);
             this.tbOnePage.Name = "tbOnePage";
-            this.tbOnePage.Size = new System.Drawing.Size(120, 21);
+            this.tbOnePage.Size = new System.Drawing.Size(180, 32);
             this.tbOnePage.TabIndex = 0;
             this.tbOnePage.Text = "One Page";
-            this.tbOnePage.ForeColor = System.Drawing.Color.Black;
-            this.tbOnePage.UseVisualStyleBackColor = true;
             this.tbOnePage.Click += new System.EventHandler(this.tbOnePage_Click);
             // 
             // gbSettings
@@ -373,11 +361,9 @@ namespace Customizing_the_Viewer
             this.gbSettings.Controls.Add(this.cbZoom);
             this.gbSettings.Controls.Add(this.cbPageControl);
             this.gbSettings.Controls.Add(this.cbSendByEMail);
-            this.gbSettings.Location = new System.Drawing.Point(8, 0);
-            this.gbSettings.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbSettings.Location = new System.Drawing.Point(12, 0);
             this.gbSettings.Name = "gbSettings";
-            this.gbSettings.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.gbSettings.Size = new System.Drawing.Size(136, 353);
+            this.gbSettings.Size = new System.Drawing.Size(204, 543);
             this.gbSettings.TabIndex = 0;
             this.gbSettings.TabStop = false;
             this.gbSettings.Text = "Settings";
@@ -386,10 +372,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbThumbs.Checked = true;
             this.cbThumbs.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbThumbs.Location = new System.Drawing.Point(8, 31);
-            this.cbThumbs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbThumbs.Location = new System.Drawing.Point(12, 48);
             this.cbThumbs.Name = "cbThumbs";
-            this.cbThumbs.Size = new System.Drawing.Size(104, 16);
+            this.cbThumbs.Size = new System.Drawing.Size(156, 25);
             this.cbThumbs.TabIndex = 1;
             this.cbThumbs.Text = "Thumbs";
             this.cbThumbs.CheckedChanged += new System.EventHandler(this.cbThumbs_CheckedChanged);
@@ -398,10 +383,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbBookmarks.Checked = true;
             this.cbBookmarks.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbBookmarks.Location = new System.Drawing.Point(8, 16);
-            this.cbBookmarks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbBookmarks.Location = new System.Drawing.Point(12, 25);
             this.cbBookmarks.Name = "cbBookmarks";
-            this.cbBookmarks.Size = new System.Drawing.Size(104, 15);
+            this.cbBookmarks.Size = new System.Drawing.Size(156, 23);
             this.cbBookmarks.TabIndex = 0;
             this.cbBookmarks.Text = "Bookmarks";
             this.cbBookmarks.CheckedChanged += new System.EventHandler(this.cbBookmarks_CheckedChanged);
@@ -410,10 +394,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbToolbar.Checked = true;
             this.cbToolbar.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbToolbar.Location = new System.Drawing.Point(8, 46);
-            this.cbToolbar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbToolbar.Location = new System.Drawing.Point(12, 71);
             this.cbToolbar.Name = "cbToolbar";
-            this.cbToolbar.Size = new System.Drawing.Size(104, 15);
+            this.cbToolbar.Size = new System.Drawing.Size(156, 23);
             this.cbToolbar.TabIndex = 2;
             this.cbToolbar.Text = "Toolbar";
             this.cbToolbar.CheckedChanged += new System.EventHandler(this.cbToolbar_CheckedChanged);
@@ -422,10 +405,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbVerScrollBar.Checked = true;
             this.cbVerScrollBar.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbVerScrollBar.Location = new System.Drawing.Point(8, 61);
-            this.cbVerScrollBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbVerScrollBar.Location = new System.Drawing.Point(12, 94);
             this.cbVerScrollBar.Name = "cbVerScrollBar";
-            this.cbVerScrollBar.Size = new System.Drawing.Size(104, 16);
+            this.cbVerScrollBar.Size = new System.Drawing.Size(156, 25);
             this.cbVerScrollBar.TabIndex = 3;
             this.cbVerScrollBar.Text = "Ver ScrollBar";
             this.cbVerScrollBar.CheckedChanged += new System.EventHandler(this.cbVerScrollBar_CheckedChanged);
@@ -434,10 +416,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbHorScrollBar.Checked = true;
             this.cbHorScrollBar.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbHorScrollBar.Location = new System.Drawing.Point(8, 77);
-            this.cbHorScrollBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbHorScrollBar.Location = new System.Drawing.Point(12, 118);
             this.cbHorScrollBar.Name = "cbHorScrollBar";
-            this.cbHorScrollBar.Size = new System.Drawing.Size(104, 15);
+            this.cbHorScrollBar.Size = new System.Drawing.Size(156, 23);
             this.cbHorScrollBar.TabIndex = 4;
             this.cbHorScrollBar.Text = "Hor ScrollBar";
             this.cbHorScrollBar.CheckedChanged += new System.EventHandler(this.cbHorScrollBar_CheckedChanged);
@@ -446,10 +427,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbStatusBar.Checked = true;
             this.cbStatusBar.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbStatusBar.Location = new System.Drawing.Point(8, 92);
-            this.cbStatusBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbStatusBar.Location = new System.Drawing.Point(12, 142);
             this.cbStatusBar.Name = "cbStatusBar";
-            this.cbStatusBar.Size = new System.Drawing.Size(104, 16);
+            this.cbStatusBar.Size = new System.Drawing.Size(156, 25);
             this.cbStatusBar.TabIndex = 5;
             this.cbStatusBar.Text = "Status Bar";
             this.cbStatusBar.CheckedChanged += new System.EventHandler(this.cbStatusBar_CheckedChanged);
@@ -458,10 +438,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbCloseButton.Checked = true;
             this.cbCloseButton.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbCloseButton.Location = new System.Drawing.Point(8, 332);
-            this.cbCloseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbCloseButton.Location = new System.Drawing.Point(12, 511);
             this.cbCloseButton.Name = "cbCloseButton";
-            this.cbCloseButton.Size = new System.Drawing.Size(104, 15);
+            this.cbCloseButton.Size = new System.Drawing.Size(156, 23);
             this.cbCloseButton.TabIndex = 22;
             this.cbCloseButton.Text = "Close Button";
             this.cbCloseButton.CheckedChanged += new System.EventHandler(this.cbCloseButton_CheckedChanged);
@@ -470,10 +449,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbContextMenu.Checked = true;
             this.cbContextMenu.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbContextMenu.Location = new System.Drawing.Point(8, 108);
-            this.cbContextMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbContextMenu.Location = new System.Drawing.Point(12, 166);
             this.cbContextMenu.Name = "cbContextMenu";
-            this.cbContextMenu.Size = new System.Drawing.Size(104, 15);
+            this.cbContextMenu.Size = new System.Drawing.Size(156, 23);
             this.cbContextMenu.TabIndex = 6;
             this.cbContextMenu.Text = "Context Menu";
             this.cbContextMenu.CheckedChanged += new System.EventHandler(this.cbContextMenu_CheckedChanged);
@@ -482,10 +460,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbPrint.Checked = true;
             this.cbPrint.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPrint.Location = new System.Drawing.Point(8, 131);
-            this.cbPrint.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbPrint.Location = new System.Drawing.Point(12, 202);
             this.cbPrint.Name = "cbPrint";
-            this.cbPrint.Size = new System.Drawing.Size(104, 16);
+            this.cbPrint.Size = new System.Drawing.Size(156, 25);
             this.cbPrint.TabIndex = 7;
             this.cbPrint.Text = "Print";
             this.cbPrint.CheckedChanged += new System.EventHandler(this.cbPrint_CheckedChanged);
@@ -494,10 +471,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbOpen.Checked = true;
             this.cbOpen.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbOpen.Location = new System.Drawing.Point(8, 146);
-            this.cbOpen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbOpen.Location = new System.Drawing.Point(12, 225);
             this.cbOpen.Name = "cbOpen";
-            this.cbOpen.Size = new System.Drawing.Size(104, 15);
+            this.cbOpen.Size = new System.Drawing.Size(156, 23);
             this.cbOpen.TabIndex = 8;
             this.cbOpen.Text = "Open";
             this.cbOpen.CheckedChanged += new System.EventHandler(this.cbOpen_CheckedChanged);
@@ -506,10 +482,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbSave.Checked = true;
             this.cbSave.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbSave.Location = new System.Drawing.Point(8, 161);
-            this.cbSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbSave.Location = new System.Drawing.Point(12, 248);
             this.cbSave.Name = "cbSave";
-            this.cbSave.Size = new System.Drawing.Size(104, 16);
+            this.cbSave.Size = new System.Drawing.Size(156, 25);
             this.cbSave.TabIndex = 9;
             this.cbSave.Text = "Save";
             this.cbSave.CheckedChanged += new System.EventHandler(this.cbSave_CheckedChanged);
@@ -518,10 +493,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbPageNew.Checked = true;
             this.cbPageNew.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPageNew.Location = new System.Drawing.Point(8, 193);
-            this.cbPageNew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbPageNew.Location = new System.Drawing.Point(12, 297);
             this.cbPageNew.Name = "cbPageNew";
-            this.cbPageNew.Size = new System.Drawing.Size(104, 16);
+            this.cbPageNew.Size = new System.Drawing.Size(156, 25);
             this.cbPageNew.TabIndex = 11;
             this.cbPageNew.Text = "Page New";
             this.cbPageNew.CheckedChanged += new System.EventHandler(this.cbPageNew_CheckedChanged);
@@ -530,10 +504,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbPageDelete.Checked = true;
             this.cbPageDelete.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPageDelete.Location = new System.Drawing.Point(8, 209);
-            this.cbPageDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbPageDelete.Location = new System.Drawing.Point(12, 322);
             this.cbPageDelete.Name = "cbPageDelete";
-            this.cbPageDelete.Size = new System.Drawing.Size(104, 15);
+            this.cbPageDelete.Size = new System.Drawing.Size(156, 23);
             this.cbPageDelete.TabIndex = 12;
             this.cbPageDelete.Text = "Page Delete";
             this.cbPageDelete.CheckedChanged += new System.EventHandler(this.cbPageDelete_CheckedChanged);
@@ -542,10 +515,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbPageDesign.Checked = true;
             this.cbPageDesign.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPageDesign.Location = new System.Drawing.Point(8, 224);
-            this.cbPageDesign.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbPageDesign.Location = new System.Drawing.Point(12, 345);
             this.cbPageDesign.Name = "cbPageDesign";
-            this.cbPageDesign.Size = new System.Drawing.Size(104, 16);
+            this.cbPageDesign.Size = new System.Drawing.Size(156, 25);
             this.cbPageDesign.TabIndex = 13;
             this.cbPageDesign.Text = "Page Design";
             this.cbPageDesign.CheckedChanged += new System.EventHandler(this.cbPageDesign_CheckedChanged);
@@ -554,10 +526,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbBookmarksButton.Checked = true;
             this.cbBookmarksButton.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbBookmarksButton.Location = new System.Drawing.Point(8, 239);
-            this.cbBookmarksButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbBookmarksButton.Location = new System.Drawing.Point(12, 368);
             this.cbBookmarksButton.Name = "cbBookmarksButton";
-            this.cbBookmarksButton.Size = new System.Drawing.Size(120, 15);
+            this.cbBookmarksButton.Size = new System.Drawing.Size(180, 23);
             this.cbBookmarksButton.TabIndex = 14;
             this.cbBookmarksButton.Text = "Bookmarks Button";
             this.cbBookmarksButton.CheckedChanged += new System.EventHandler(this.cbBookmarksButton_CheckedChanged);
@@ -566,10 +537,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbThumbsButton.Checked = true;
             this.cbThumbsButton.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbThumbsButton.Location = new System.Drawing.Point(8, 254);
-            this.cbThumbsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbThumbsButton.Location = new System.Drawing.Point(12, 391);
             this.cbThumbsButton.Name = "cbThumbsButton";
-            this.cbThumbsButton.Size = new System.Drawing.Size(104, 16);
+            this.cbThumbsButton.Size = new System.Drawing.Size(156, 25);
             this.cbThumbsButton.TabIndex = 15;
             this.cbThumbsButton.Text = "Thumbs Button";
             this.cbThumbsButton.CheckedChanged += new System.EventHandler(this.cbThumbsButton_CheckedChanged);
@@ -578,10 +548,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbToolEditor.Checked = true;
             this.cbToolEditor.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbToolEditor.Location = new System.Drawing.Point(8, 271);
-            this.cbToolEditor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbToolEditor.Location = new System.Drawing.Point(12, 417);
             this.cbToolEditor.Name = "cbToolEditor";
-            this.cbToolEditor.Size = new System.Drawing.Size(104, 15);
+            this.cbToolEditor.Size = new System.Drawing.Size(156, 23);
             this.cbToolEditor.TabIndex = 18;
             this.cbToolEditor.Text = "Tool Editor";
             this.cbToolEditor.CheckedChanged += new System.EventHandler(this.cbToolEditor_CheckedChanged);
@@ -590,10 +559,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbToolFind.Checked = true;
             this.cbToolFind.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbToolFind.Location = new System.Drawing.Point(8, 286);
-            this.cbToolFind.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbToolFind.Location = new System.Drawing.Point(12, 440);
             this.cbToolFind.Name = "cbToolFind";
-            this.cbToolFind.Size = new System.Drawing.Size(104, 16);
+            this.cbToolFind.Size = new System.Drawing.Size(156, 25);
             this.cbToolFind.TabIndex = 19;
             this.cbToolFind.Text = "Tool Find";
             this.cbToolFind.CheckedChanged += new System.EventHandler(this.cbToolFind_CheckedChanged);
@@ -602,10 +570,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbZoom.Checked = true;
             this.cbZoom.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbZoom.Location = new System.Drawing.Point(8, 302);
-            this.cbZoom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbZoom.Location = new System.Drawing.Point(12, 465);
             this.cbZoom.Name = "cbZoom";
-            this.cbZoom.Size = new System.Drawing.Size(104, 15);
+            this.cbZoom.Size = new System.Drawing.Size(156, 23);
             this.cbZoom.TabIndex = 20;
             this.cbZoom.Text = "Zoom";
             this.cbZoom.CheckedChanged += new System.EventHandler(this.cbZoom_CheckedChanged);
@@ -614,10 +581,9 @@ namespace Customizing_the_Viewer
             // 
             this.cbPageControl.Checked = true;
             this.cbPageControl.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbPageControl.Location = new System.Drawing.Point(8, 317);
-            this.cbPageControl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbPageControl.Location = new System.Drawing.Point(12, 488);
             this.cbPageControl.Name = "cbPageControl";
-            this.cbPageControl.Size = new System.Drawing.Size(104, 16);
+            this.cbPageControl.Size = new System.Drawing.Size(156, 25);
             this.cbPageControl.TabIndex = 21;
             this.cbPageControl.Text = "Page Control";
             this.cbPageControl.CheckedChanged += new System.EventHandler(this.cbPageControl_CheckedChanged);
@@ -626,23 +592,21 @@ namespace Customizing_the_Viewer
             // 
             this.cbSendByEMail.Checked = true;
             this.cbSendByEMail.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbSendByEMail.Location = new System.Drawing.Point(8, 178);
-            this.cbSendByEMail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbSendByEMail.Location = new System.Drawing.Point(12, 274);
             this.cbSendByEMail.Name = "cbSendByEMail";
-            this.cbSendByEMail.Size = new System.Drawing.Size(104, 15);
+            this.cbSendByEMail.Size = new System.Drawing.Size(156, 23);
             this.cbSendByEMail.TabIndex = 10;
             this.cbSendByEMail.Text = "Send By E-Mail";
             this.cbSendByEMail.CheckedChanged += new System.EventHandler(this.cbSendByEMail_CheckedChanged);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(987, 552);
+            this.ClientSize = new System.Drawing.Size(1480, 849);
             this.Controls.Add(this.PreviewControl);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customizing the Viewer";
