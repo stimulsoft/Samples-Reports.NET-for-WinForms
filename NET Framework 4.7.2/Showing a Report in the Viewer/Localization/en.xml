@@ -1715,6 +1715,7 @@
     <SqlExpressionsForm>SQL Expressions</SqlExpressionsForm>
     <SubReportPageSelectForm>Select Sub-Report Page</SubReportPageSelectForm>
     <TextEditorForm>Text Editor</TextEditorForm>
+	<CodeEditorForm>Code Editor</CodeEditorForm>
     <ViewDataForm>View Data</ViewDataForm>
     <ViewerApplication>Report Viewer</ViewerApplication>
   </FormTitles>
@@ -2016,6 +2017,7 @@
     <CompilationAccessDeny>Deny opening any document that uses the compilation process. A special window will be displayed.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>You are switching to the compilation mode. This mode allows to run different code and sometimes it could be harmful. Please, use this mode only if you understand all the risks and agree with them. Click the {0} button to proceed.</CompilationModeEnabling>
+	<NotPossibleEnableCompilationMode>It is impossible to enable compilation mode for the report. This is prohibited by the 'Compilation Access' option in the designer settings.</NotPossibleEnableCompilationMode>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <CopyStyle>Copy Style</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
@@ -4995,7 +4997,8 @@
     <NoNewVersions>There are no new versions available!</NoNewVersions>
     <NotAssigned>Not Assigned</NotAssigned>
     <Null>Null</Null>
-    <Obsoleted>Obsoleted</Obsoleted>
+	<IfEmpty>If {0} Is Empty</IfEmpty>
+	<Obsoleted>Obsoleted</Obsoleted>
     <Office2010Back>Back</Office2010Back>
     <PageNofM>Page {0} of {1}</PageNofM>
     <PreparingReport>Preparing Report</PreparingReport>
@@ -5322,6 +5325,8 @@
     <Script>Script</Script>
     <ScriptMode>Script Mode</ScriptMode>
     <Title>User Function</Title>
+	<EditCode>Edit Code</EditCode>
+	<EditWithBlockly>Edit with blockly</EditWithBlockly>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be canceled.</AllDownloadsWillCanceled>

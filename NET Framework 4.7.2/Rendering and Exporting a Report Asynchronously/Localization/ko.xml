@@ -189,6 +189,7 @@
     <Gantt>간트</Gantt>
     <GridInterlaced>인터레이스</GridInterlaced>
     <GridLines>눈금 선</GridLines>
+    <Heatmap>히트맵</Heatmap>
     <Histogram>히스토그램</Histogram>
     <LabelAlignment>정렬 :</LabelAlignment>
     <LabelAlignmentHorizontal>가로 :</LabelAlignmentHorizontal>
@@ -455,6 +456,9 @@
     <LicenseInformation>라이센스 정보</LicenseInformation>
     <LicenseKey>라이센스키</LicenseKey>
     <Login>로그인</Login>
+    <MyAccount>내 계정</MyAccount>
+    <MyCloud>내 클라우드</MyCloud>
+    <MyPlan>내 플랜</MyPlan>
     <MyTeam>내 팀</MyTeam>
     <NofM>{0} : {2}의 {1}</NofM>
     <Open>열기</Open>
@@ -898,6 +902,7 @@
     <StiPictureBoxControl>그림 상자</StiPictureBoxControl>
     <StiRadioButtonControl>라디오 버튼</StiRadioButtonControl>
     <StiRadioControl>라디오</StiRadioControl>
+    <StiRadioGroupControl>라디오 그룹</StiRadioGroupControl>
     <StiReportControl>보고서 컨트롤</StiReportControl>
     <StiRichTextBoxControl>서식있는 텍스트 상자</StiRichTextBoxControl>
     <StiSliderControl>슬라이더</StiSliderControl>
@@ -1525,6 +1530,7 @@
     <BlankReport>빈 보고서</BlankReport>
     <BlankScreen>빈 화면</BlankScreen>
     <Default>기본</Default>
+    <DefaultSaveFormat>기본 저장 포멧</DefaultSaveFormat>
     <DefaultScriptMode>기본 스크립트 모드</DefaultScriptMode>
     <Drawing>그림 그리기</Drawing>
     <DrawMarkersWhenMoving>이동시 마커를 그리는</DrawMarkersWhenMoving>
@@ -2025,6 +2031,8 @@
     <DockStyleNone>선택한 요소의 선택을 해제합니다.</DockStyleNone>
     <DockStyleRight>선택한 구성 요소를 오른쪽에 테두리를 표시합니다.</DockStyleRight>
     <DockStyleTop>선택한 구성 요소를 윗면에 테두리를 표시합니다.</DockStyleTop>
+    <EventsAccess1>이 문서는 이벤트를 사용합니다. 신뢰할 수 있는 출처의 문서인 경우, "열기" 버튼을 눌러 문서에 액세스할 수 있습니다.</EventsAccess1>
+    <EventsAccess2>문서의 출처가 불분명하지만 여전히 문서를 보려면 "안전 모드에서 열기" 버튼을 누를 수 있습니다. 이 경우 이벤트는 무시되고 실행되지 않습니다.</EventsAccess2>
     <FontGrow>텍스트 크기를 크게합니다.</FontGrow>
     <FontName>텍스트 글꼴.</FontName>
     <FontNameWatermark>워터 마크 텍스트 글꼴.</FontNameWatermark>
@@ -2458,6 +2466,7 @@
     <AuthSendMessageWithInstructions>자세한 지시하는 메시지가 "{0}"에 송신됩니다.</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>토큰이 맞지 않습니다!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>당신은 로그 아웃했습니다!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>다른 장치에서 로그인이 탐지되어 로그아웃되었습니다!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>사용자 이름 (Email)은 이미 사용 중입니다!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>이 이메일 주소는 사용할 수 없습니다!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>사용자 이름 (이메일)는 지정되지 않습니다!</AuthUserNameIsNotSpecified>
@@ -3981,6 +3990,7 @@
     <Filters>필터</Filters>
     <First>첫번째</First>
     <FirstTabOffset>첫 번째 탭 오프셋</FirstTabOffset>
+    <FixedHeight>고정 높이</FixedHeight>
     <FixedWidth>고정 폭</FixedWidth>
     <Flat>편평한</Flat>
     <FlatMode>평면 모드</FlatMode>
@@ -4077,6 +4087,7 @@
     <HotColumnHeaderBackColor>Hot 컬럼 헤더 배경 색상</HotColumnHeaderBackColor>
     <HotForeColor>Hot 전경 색상</HotForeColor>
     <HotGlyphColor>Hot 글리프 색상</HotGlyphColor>
+    <HotHeaderBackColor>핫 헤더 배경색상</HotHeaderBackColor>
     <HotHeaderColor>Hot 헤더 색상</HotHeaderColor>
     <HotkeyPrefix>단축키 접두사</HotkeyPrefix>
     <HotRowHeaderBackColor>Hot 행 헤더 배경 색상</HotRowHeaderBackColor>
@@ -4630,6 +4641,7 @@
     <TextFormat>텍스트</TextFormat>
     <TextOnly>텍스트</TextOnly>
     <TextOptions>텍스트 옵션</TextOptions>
+    <TextPlacement>텍스트 배치</TextPlacement>
     <TextQuality>텍스트 품질</TextQuality>
     <TextRightToLeft>오른쪽에서왼쪽방향</TextRightToLeft>
     <TextShowBehind>Text 뒤에 표시</TextShowBehind>
@@ -4930,6 +4942,7 @@
     <Enhancements>강화</Enhancements>
     <EnterDataManually>수동으로 데이터 입력</EnterDataManually>
     <Errors>오류</Errors>
+    <EventsAccess>이벤트 액세스</EventsAccess>
     <EventsTab>이벤트 탭</EventsTab>
     <ExpandAll>모두 확장</ExpandAll>
     <FilterAnd>그리고</FilterAnd>
@@ -5306,6 +5319,8 @@
     <title>도구</title>
   </Toolbox>
   <UserFunctionEditor>
+    <ArgumentName>인수 이름</ArgumentName>
+    <ArgumentType>인수 타입</ArgumentType>
     <CustomCategory>사용자 카테고리</CustomCategory>
     <ReturnType>리턴 타입</ReturnType>
     <Script>스크립트</Script>
