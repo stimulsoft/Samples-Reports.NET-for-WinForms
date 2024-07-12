@@ -232,6 +232,8 @@
     <LegendSpacing>Расстояние</LegendSpacing>
     <Line>Линия</Line>
     <ListOfValues>Список значений</ListOfValues>
+    <ListOfXValues>Список значений X</ListOfXValues>
+    <ListOfYValues>Список значений Y</ListOfYValues>
     <Marker>Пометка</Marker>
     <MoveConstantLineDown>Переместить константную линию вниз</MoveConstantLineDown>
     <MoveConstantLineUp>Переместить константную линию вверх</MoveConstantLineUp>
@@ -1699,6 +1701,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Мастер диаграмм</ChartWizardForm>
+    <CodeEditorForm>Редактор кода</CodeEditorForm>
     <ConditionEditorForm>Условие</ConditionEditorForm>
     <ConnectionSelectForm>Выберите тип соединения</ConnectionSelectForm>
     <ContainerSelectForm>Выберите контейнер</ContainerSelectForm>
@@ -2105,6 +2108,7 @@
     <menuViewShowSmartGuides>Отображать быстрые направляющие для позиционирования компонентов относительно друг друга.</menuViewShowSmartGuides>
     <MoveBackward>Перемещение компонента на один уровень выше в порядке размещения компонентов на странице.</MoveBackward>
     <MoveForward>Перемещение компонента на один уровень ниже в порядке размещения компонентов на странице.</MoveForward>
+    <NotPossibleEnableCompilationMode>Невозможно включить режим компиляции отчета. Это запрещено опцией «Доступ к компиляции» в настройках дизайнера.</NotPossibleEnableCompilationMode>
     <Orientation>Переключение между книжной и альбомной ориентацией страницы.</Orientation>
     <PageDelete>Удалить текущую страницу из отчета.</PageDelete>
     <PageNew>Создать новую страницу в отчете.</PageNew>
@@ -3940,6 +3944,9 @@
     <DataAdapter>Адаптер данных</DataAdapter>
     <DataAdapters>Адаптеры данных</DataAdapters>
     <DataBarCondition>Гистограмма</DataBarCondition>
+    <DataBarsNegative>Негативный цвет гистограммы</DataBarsNegative>
+    <DataBarsOverlapped>Цвет наложения гистограммы</DataBarsOverlapped>
+    <DataBarsPositive>Позитивный цвет гистограммы</DataBarsPositive>
     <DataBindings>Связывание данных</DataBindings>
     <DataCells>Ячейки данных</DataCells>
     <DataColor>Цвет данных</DataColor>
@@ -4185,6 +4192,9 @@
     <Increment>Приращение</Increment>
     <Indent>Отступ</Indent>
     <Indicator>Индикатор</Indicator>
+    <IndicatorNegative>Негативный цвет индикатора</IndicatorNegative>
+    <IndicatorNeutral>Нейтральный цвет индикатора</IndicatorNeutral>
+    <IndicatorPositive>Позитивный цвет индикатора</IndicatorPositive>
     <IndicatorValue>Значение индикатора</IndicatorValue>
     <IndividualColor>Индивидуальный цвет</IndividualColor>
     <InfographicsTitle>Заголовок</InfographicsTitle>
@@ -4278,6 +4288,8 @@
     <ListOfValuesLow>Список минимумов</ListOfValuesLow>
     <ListOfValuesOpen>Список значений открытия</ListOfValuesOpen>
     <ListOfWeights>Список весовых значений</ListOfWeights>
+    <ListOfXValues>Список значений X</ListOfXValues>
+    <ListOfYValues>Список значений Y</ListOfYValues>
     <Localizable>Локализировать</Localizable>
     <Location>Позиция</Location>
     <Locked>Замок</Locked>
@@ -4636,6 +4648,7 @@
     <Space>Пробел</Space>
     <SpaceRatio>Межсимвольный интервал</SpaceRatio>
     <Spacing>Расстояние</Spacing>
+    <Sparkline>Спарклайны</Sparkline>
     <SqlCommand>SQL запрос</SqlCommand>
     <StartAngle>Начальный угол</StartAngle>
     <StartCap>Тип начала</StartCap>
@@ -4823,14 +4836,20 @@
     <Weights>Веса</Weights>
     <Width>Ширина</Width>
     <WindowState>Состояние окна</WindowState>
+    <WinLossNegative>Негативный цвет Выигрыш / проигрыш</WinLossNegative>
+    <WinLossPositive>Позитивный цвет Выигрыш / проигрыш</WinLossPositive>
     <WordWrap>Перенос слов</WordWrap>
     <Wrap>Перенос</Wrap>
     <WrapGap>Промежуток переноса</WrapGap>
     <WrapLine>Линия переноса</WrapLine>
     <XAxis>Ось X</XAxis>
     <XTopAxis>Ось X Верхняя</XTopAxis>
+    <XValue>Значение X</XValue>
+    <XValuesDataColumn>Значение колонки данных X</XValuesDataColumn>
     <YAxis>Ось Y</YAxis>
     <YRightAxis>Ось Y Правая</YRightAxis>
+    <YValue>Значение Y</YValue>
+    <YValuesDataColumn>Значение колонки данных Y</YValuesDataColumn>
     <ZeroColor>Цвет нуля</ZeroColor>
     <Zoom>Масштаб</Zoom>
   </PropertyMain>
@@ -5019,6 +5038,7 @@
     <Gallery>Галерея</Gallery>
     <GenerateNewCode>Сгенерировать новый код</GenerateNewCode>
     <History>История</History>
+    <IfEmpty>Если {0} пустой</IfEmpty>
     <Infographics>Инфографика</Infographics>
     <InfoMessage>{0} - {1} найдены.</InfoMessage>
     <InformationMessages>Информация</InformationMessages>
@@ -5387,10 +5407,14 @@
     <ArgumentName>Наименование аргумента</ArgumentName>
     <ArgumentType>Тип аргумента</ArgumentType>
     <CustomCategory>Пользовательская категория</CustomCategory>
+    <EditCode>Редактор кода</EditCode>
+    <EditWithBlockly>Редактировать с Blockly</EditWithBlockly>
     <ReturnType>Тип возвращаемого значения</ReturnType>
     <Script>Сценарий</Script>
     <ScriptMode>Режим сценария</ScriptMode>
     <Title>Пользовательская функция</Title>
+    <UserFunctionEdit>Изменение пользовательской функции</UserFunctionEdit>
+    <UserFunctionNew>Новая пользовательская функция</UserFunctionNew>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Вы уверены, что хотите закрыть это окно? Все загрузки будут отменены.</AllDownloadsWillCanceled>

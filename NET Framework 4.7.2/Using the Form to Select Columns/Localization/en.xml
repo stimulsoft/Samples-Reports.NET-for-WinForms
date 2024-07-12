@@ -232,6 +232,8 @@
     <LegendSpacing>Spacing</LegendSpacing>
     <Line>Line</Line>
     <ListOfValues>List of Values</ListOfValues>
+    <ListOfXValues>List of X Values</ListOfXValues>
+    <ListOfYValues>List of Y Values</ListOfYValues>
     <Marker>Marker</Marker>
     <MoveConstantLineDown>Move Constant Line Down</MoveConstantLineDown>
     <MoveConstantLineUp>Move Constant Line Up</MoveConstantLineUp>
@@ -1691,6 +1693,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Chart Wizard</ChartWizardForm>
+    <CodeEditorForm>Code Editor</CodeEditorForm>
     <ConditionEditorForm>Condition</ConditionEditorForm>
     <ConnectionSelectForm>Select Type of Connection</ConnectionSelectForm>
     <ContainerSelectForm>Select Container</ContainerSelectForm>
@@ -1715,7 +1718,6 @@
     <SqlExpressionsForm>SQL Expressions</SqlExpressionsForm>
     <SubReportPageSelectForm>Select Sub-Report Page</SubReportPageSelectForm>
     <TextEditorForm>Text Editor</TextEditorForm>
-	<CodeEditorForm>Code Editor</CodeEditorForm>
     <ViewDataForm>View Data</ViewDataForm>
     <ViewerApplication>Report Viewer</ViewerApplication>
   </FormTitles>
@@ -2017,7 +2019,6 @@
     <CompilationAccessDeny>Deny opening any document that uses the compilation process. A special window will be displayed.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>You are switching to the compilation mode. This mode allows to run different code and sometimes it could be harmful. Please, use this mode only if you understand all the risks and agree with them. Click the {0} button to proceed.</CompilationModeEnabling>
-	<NotPossibleEnableCompilationMode>It is impossible to enable compilation mode for the report. This is prohibited by the 'Compilation Access' option in the designer settings.</NotPossibleEnableCompilationMode>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <CopyStyle>Copy Style</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
@@ -2099,6 +2100,7 @@
     <menuViewShowSmartGuides>Display Smart Guides to position components relative to each other.</menuViewShowSmartGuides>
     <MoveBackward>Move a component to one level higher in order of placing components on a page.</MoveBackward>
     <MoveForward>Move a component to one level lower in order of placing components on a page.</MoveForward>
+    <NotPossibleEnableCompilationMode>It is impossible to enable compilation mode for the report. This is prohibited by the 'Compilation Access' option in the designer settings.</NotPossibleEnableCompilationMode>
     <Orientation>Switch the pages between portrait and landscape layouts.</Orientation>
     <PageDelete>Delete current page from a report.</PageDelete>
     <PageNew>Create a new page.</PageNew>
@@ -3881,6 +3883,9 @@
     <DataAdapter>Data Adapter</DataAdapter>
     <DataAdapters>Data Adapters</DataAdapters>
     <DataBarCondition>Data Bar Condition</DataBarCondition>
+    <DataBarsNegative>Data Bars Negative</DataBarsNegative>
+    <DataBarsOverlapped>Data Bars Overlapped</DataBarsOverlapped>
+    <DataBarsPositive>Data Bars Positive</DataBarsPositive>
     <DataBindings>Data Bindings</DataBindings>
     <DataCells>Data Cells</DataCells>
     <DataColor>Data Color</DataColor>
@@ -4125,6 +4130,9 @@
     <Increment>Increment</Increment>
     <Indent>Indent</Indent>
     <Indicator>Indicator</Indicator>
+    <IndicatorNegative>Indicator Negative</IndicatorNegative>
+    <IndicatorNeutral>Indicator Neutral</IndicatorNeutral>
+    <IndicatorPositive>Indicator Positive</IndicatorPositive>
     <IndicatorValue>Indicator Value</IndicatorValue>
     <IndividualColor>Individual Color</IndividualColor>
     <InitBy>Init by</InitBy>
@@ -4217,6 +4225,8 @@
     <ListOfValuesLow>List of Values Low</ListOfValuesLow>
     <ListOfValuesOpen>List of Values Open</ListOfValuesOpen>
     <ListOfWeights>List of Weights</ListOfWeights>
+    <ListOfXValues>List of Values X</ListOfXValues>
+    <ListOfYValues>List of Values Y</ListOfYValues>
     <Localizable>Localizable</Localizable>
     <Location>Location</Location>
     <Locked>Locked</Locked>
@@ -4573,6 +4583,7 @@
     <Space>Space</Space>
     <SpaceRatio>Space Ratio</SpaceRatio>
     <Spacing>Spacing</Spacing>
+    <Sparkline>Sparkline</Sparkline>
     <SqlCommand>Sql Command</SqlCommand>
     <StartAngle>Start Angle</StartAngle>
     <StartCap>Start Cap</StartCap>
@@ -4760,14 +4771,20 @@
     <Weights>Weights</Weights>
     <Width>Width</Width>
     <WindowState>Window State</WindowState>
+    <WinLossNegative>Win Loss Negative</WinLossNegative>
+    <WinLossPositive>Win Loss Positive</WinLossPositive>
     <WordWrap>Word Wrap</WordWrap>
     <Wrap>Wrap</Wrap>
     <WrapGap>WrapGap</WrapGap>
     <WrapLine>Wrap Line</WrapLine>
     <XAxis>X Axis</XAxis>
     <XTopAxis>X Top Axis</XTopAxis>
+    <XValue>Value X</XValue>
+    <XValuesDataColumn>Value Data Column X</XValuesDataColumn>
     <YAxis>Y Axis</YAxis>
     <YRightAxis>Y Right Axis</YRightAxis>
+    <YValue>Value Y</YValue>
+    <YValuesDataColumn>Value Data Column Y</YValuesDataColumn>
     <ZeroColor>Zero Color</ZeroColor>
     <Zoom>Zoom</Zoom>
   </PropertyMain>
@@ -4955,6 +4972,7 @@
     <Gallery>Gallery</Gallery>
     <GenerateNewCode>Generate New Code</GenerateNewCode>
     <History>History</History>
+    <IfEmpty>If {0} Is Empty</IfEmpty>
     <Infographics>Infographics</Infographics>
     <InfoMessage>{0} - {1} found.</InfoMessage>
     <InformationMessages>Information Messages</InformationMessages>
@@ -4997,8 +5015,7 @@
     <NoNewVersions>There are no new versions available!</NoNewVersions>
     <NotAssigned>Not Assigned</NotAssigned>
     <Null>Null</Null>
-	<IfEmpty>If {0} Is Empty</IfEmpty>
-	<Obsoleted>Obsoleted</Obsoleted>
+    <Obsoleted>Obsoleted</Obsoleted>
     <Office2010Back>Back</Office2010Back>
     <PageNofM>Page {0} of {1}</PageNofM>
     <PreparingReport>Preparing Report</PreparingReport>
@@ -5321,12 +5338,14 @@
     <ArgumentName>Argument Name</ArgumentName>
     <ArgumentType>Argument Type</ArgumentType>
     <CustomCategory>Custom Category</CustomCategory>
+    <EditCode>Edit Code</EditCode>
+    <EditWithBlockly>Edit with blockly</EditWithBlockly>
     <ReturnType>Return Type</ReturnType>
     <Script>Script</Script>
     <ScriptMode>Script Mode</ScriptMode>
     <Title>User Function</Title>
-	<EditCode>Edit Code</EditCode>
-	<EditWithBlockly>Edit with blockly</EditWithBlockly>
+    <UserFunctionEdit>Edit User Function</UserFunctionEdit>
+    <UserFunctionNew>New User Function</UserFunctionNew>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be canceled.</AllDownloadsWillCanceled>

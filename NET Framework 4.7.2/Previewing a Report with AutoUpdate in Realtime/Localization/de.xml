@@ -232,6 +232,8 @@
     <LegendSpacing>Abstand</LegendSpacing>
     <Line>Linie</Line>
     <ListOfValues>Liste der Werte</ListOfValues>
+    <ListOfXValues>Die Liste der X-Werte</ListOfXValues>
+    <ListOfYValues>Die Liste der Y-Werte</ListOfYValues>
     <Marker>Marker</Marker>
     <MoveConstantLineDown>Konstante Linie nach unten</MoveConstantLineDown>
     <MoveConstantLineUp>Konstante Linie nach oben</MoveConstantLineUp>
@@ -1695,6 +1697,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Diagramm-Assistent</ChartWizardForm>
+    <CodeEditorForm>Code-Editor</CodeEditorForm>
     <ConditionEditorForm>Bedingung</ConditionEditorForm>
     <ConnectionSelectForm>Verbindungstyp auswählen</ConnectionSelectForm>
     <ContainerSelectForm>Container auswählen</ContainerSelectForm>
@@ -2102,6 +2105,7 @@
     <menuViewShowSmartGuides>Intelligente Hilfslinien anzeigen, die Komponenten relativ zueinander zu platzieren.</menuViewShowSmartGuides>
     <MoveBackward>Komponente eine Ebene nach Oben verschieben</MoveBackward>
     <MoveForward>Komponente eine Ebene nach Unten verschieben</MoveForward>
+    <NotPossibleEnableCompilationMode>Es ist unmöglich, den Kompilation-Modus für den Bericht zu aktivieren. Das ist aufgrund der Option 'Zugang zur Kompilation' in den Einstellungen des Designers verboten.</NotPossibleEnableCompilationMode>
     <Orientation>Ausrichtung</Orientation>
     <PageDelete>Die aktuell angezeigte Seite löschen</PageDelete>
     <PageNew>Neue Seite anlegen</PageNew>
@@ -3940,6 +3944,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DataAdapter>Daten-Adapter</DataAdapter>
     <DataAdapters>Daten-Adapter</DataAdapters>
     <DataBarCondition>Datenbalken</DataBarCondition>
+    <DataBarsNegative>Negative Farbe der Datenbalken</DataBarsNegative>
+    <DataBarsOverlapped>Die Farbe der Überlagerung der Datenbalken</DataBarsOverlapped>
+    <DataBarsPositive>Positive Farbe der Datenbalken</DataBarsPositive>
     <DataBindings>Datenbindungen</DataBindings>
     <DataCells>Datenzellen</DataCells>
     <DataColor>Datenfarbe</DataColor>
@@ -4184,6 +4191,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Increment>Steigerung</Increment>
     <Indent>Einzug</Indent>
     <Indicator>Indikator</Indicator>
+    <IndicatorNegative>Negative Farbe des Indikators</IndicatorNegative>
+    <IndicatorNeutral>Neutrale Farbe des Indikators</IndicatorNeutral>
+    <IndicatorPositive>Positive Farbe des Indikators</IndicatorPositive>
     <IndicatorValue>Indikator-Wert</IndicatorValue>
     <IndividualColor>Individuelle Farbe</IndividualColor>
     <InfographicsTitle>Titel</InfographicsTitle>
@@ -4277,6 +4287,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ListOfValuesLow>Liste der Tiefstwerte</ListOfValuesLow>
     <ListOfValuesOpen>Liste der Eröffnungswerte</ListOfValuesOpen>
     <ListOfWeights>Gewicht-Liste</ListOfWeights>
+    <ListOfXValues>Die Liste der X-Werte</ListOfXValues>
+    <ListOfYValues>Die Liste der Y-Werte</ListOfYValues>
     <Localizable>Lokalizierbar</Localizable>
     <Location>Speicherort</Location>
     <Locked>Gesperrt</Locked>
@@ -4636,6 +4648,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Space>Leerraum</Space>
     <SpaceRatio>Leerraum</SpaceRatio>
     <Spacing>Abstand</Spacing>
+    <Sparkline>Sparklines</Sparkline>
     <SqlCommand>SQL-Abfrage</SqlCommand>
     <StartAngle>Anfangswinkel</StartAngle>
     <StartCap>Startpunkt</StartCap>
@@ -4823,14 +4836,20 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Weights>Gewichte</Weights>
     <Width>Breite</Width>
     <WindowState>Fensterzustand</WindowState>
+    <WinLossNegative>Gewinn/Verlust Negative Farbe</WinLossNegative>
+    <WinLossPositive>Gewinn/Verlust Positive Farbe</WinLossPositive>
     <WordWrap>Automatischer Textumbruch</WordWrap>
     <Wrap>Zeilenumbruch</Wrap>
     <WrapGap>Zeilenumbruchshöhe</WrapGap>
     <WrapLine>Umbrechen-Linie</WrapLine>
     <XAxis>X Achse</XAxis>
     <XTopAxis>X Achse oben</XTopAxis>
+    <XValue>X-Wert</XValue>
+    <XValuesDataColumn>Der Wert der X-Datenspalte</XValuesDataColumn>
     <YAxis>Y Achse</YAxis>
     <YRightAxis>Y Achse rechts</YRightAxis>
+    <YValue>Y-Wert</YValue>
+    <YValuesDataColumn>Der Wert der Y-Datenspalte</YValuesDataColumn>
     <ZeroColor>Farbe Null</ZeroColor>
     <Zoom>Zoom</Zoom>
   </PropertyMain>
@@ -5019,6 +5038,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Gallery>Gallerie</Gallery>
     <GenerateNewCode>Neuen Quellcode generieren</GenerateNewCode>
     <History>Geschichte</History>
+    <IfEmpty>Wenn {0} leer ist</IfEmpty>
     <Infographics>Infografiken</Infographics>
     <InfoMessage>{0} - {1} gefunden.</InfoMessage>
     <InformationMessages>Informationensmeldungen</InformationMessages>
@@ -5388,10 +5408,14 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ArgumentName>Argument-Name</ArgumentName>
     <ArgumentType>Argument-Typ</ArgumentType>
     <CustomCategory>Benutzerdefinierte Kategorie</CustomCategory>
+    <EditCode>Code bearbeiten</EditCode>
+    <EditWithBlockly>Mit Blockly bearbeiten</EditWithBlockly>
     <ReturnType>Rückgabetyp</ReturnType>
     <Script>Skript</Script>
     <ScriptMode>Skript-Modus</ScriptMode>
     <Title>Benutzerfunktion</Title>
+    <UserFunctionEdit>Benutzerdefinierte Funktion bearbeiten</UserFunctionEdit>
+    <UserFunctionNew>Neue benutzerdefinierte Funktion</UserFunctionNew>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Möchten Sie wirklich dieses Fenster schließen? Alle Downloads werden abgebrochen werden.</AllDownloadsWillCanceled>

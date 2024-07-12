@@ -232,6 +232,8 @@
     <LegendSpacing>Адлегласць</LegendSpacing>
     <Line>Лінія</Line>
     <ListOfValues>Спіс значэнняў</ListOfValues>
+    <ListOfXValues>Спіс значэнняў X</ListOfXValues>
+    <ListOfYValues>Спіс значэнняў Y</ListOfYValues>
     <Marker>Пазнака</Marker>
     <MoveConstantLineDown>Перамясціць канстантную лінію ўніз</MoveConstantLineDown>
     <MoveConstantLineUp>Перамясціць канстантную лінію ўверх</MoveConstantLineUp>
@@ -1702,6 +1704,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Майстар дыяграм</ChartWizardForm>
+    <CodeEditorForm>Рэдактар кода</CodeEditorForm>
     <ConditionEditorForm>Умова</ConditionEditorForm>
     <ConnectionSelectForm>Вылучыце тып злучэння</ConnectionSelectForm>
     <ContainerSelectForm>Вылучыце кантэйнер</ContainerSelectForm>
@@ -2109,6 +2112,7 @@
     <menuViewShowSmartGuides>Адлюстроўваць хуткія скіравальныя для пазіцыянавання кампанентаў адносна адзін аднаго.</menuViewShowSmartGuides>
     <MoveBackward>Прагляд кампанента на адзін узровень вышэй у парадку размяшчэння кампанентаў на старонцы.</MoveBackward>
     <MoveForward>Прагляд кампанента на адзін узровень ніжэй у парадку размяшчэння кампанентаў на старонцы.</MoveForward>
+    <NotPossibleEnableCompilationMode>Немагчыма ўключыць рэжым кампіляцыі справаздачы. Гэта забаронена опцыяй «Доступ да кампіляцыі» у наладах дызайнера.</NotPossibleEnableCompilationMode>
     <Orientation>Пераключэнне паміж кніжнай і альбомным арыентацыямi старонкі.</Orientation>
     <PageDelete>Выдаліць абраную старонку з справаздачы.</PageDelete>
     <PageNew>Стварыць новую старонку ў справаздачы.</PageNew>
@@ -3972,6 +3976,9 @@
     <DataAdapter>Адаптэр дадзеных</DataAdapter>
     <DataAdapters>Адаптэры дадзеных</DataAdapters>
     <DataBarCondition>Гістаграмы</DataBarCondition>
+    <DataBarsNegative>Негатыўны колер гістаграмы</DataBarsNegative>
+    <DataBarsOverlapped>Колер накладання гістаграмы</DataBarsOverlapped>
+    <DataBarsPositive>Пазітыўны колер гістаграмы</DataBarsPositive>
     <DataBindings>Злучэнне дадзеных</DataBindings>
     <DataCells>Вочкі дадзеных</DataCells>
     <DataColor>Колер дадзеных</DataColor>
@@ -4217,6 +4224,9 @@
     <Increment>Прырашчэнне</Increment>
     <Indent>Водступ</Indent>
     <Indicator>Індыкатар</Indicator>
+    <IndicatorNegative>Негатыўны колер індыкатара</IndicatorNegative>
+    <IndicatorNeutral>Нейтральны колер індыкатара</IndicatorNeutral>
+    <IndicatorPositive>Пазітыўны колер індыкатара</IndicatorPositive>
     <IndicatorValue>Значэнне індыкатара</IndicatorValue>
     <IndividualColor>Індывідуальны колер</IndividualColor>
     <InfographicsTitle>Title</InfographicsTitle>
@@ -4311,6 +4321,8 @@
     <ListOfValuesLow>Спіс мінімумаў</ListOfValuesLow>
     <ListOfValuesOpen>Спіс значэнняў адкрыцця</ListOfValuesOpen>
     <ListOfWeights>Спіс вагавых значэнняў</ListOfWeights>
+    <ListOfXValues>Спіс значэнняў X</ListOfXValues>
+    <ListOfYValues>Спіс значэнняў Y</ListOfYValues>
     <Localizable>Перакладаць</Localizable>
     <Location>Пазіцыя</Location>
     <Locked>Замак</Locked>
@@ -4672,6 +4684,7 @@
     <Space>Прабел</Space>
     <SpaceRatio>Міжзнакавы інтэрвал</SpaceRatio>
     <Spacing>Адлегласць</Spacing>
+    <Sparkline>Спарклайны</Sparkline>
     <SqlCommand>SQL запыт</SqlCommand>
     <StartAngle>Пачатковы вугал</StartAngle>
     <StartCap>Тып пачатку</StartCap>
@@ -4859,14 +4872,20 @@
     <Weights>Вагі</Weights>
     <Width>Шырыня</Width>
     <WindowState>Стан акна</WindowState>
+    <WinLossNegative>Негатыўны колер Перамога / пройгрыш</WinLossNegative>
+    <WinLossPositive>Пазітыўны колер Перамога / пройгрыш</WinLossPositive>
     <WordWrap>Перанос тэксту</WordWrap>
     <Wrap>Перанос</Wrap>
     <WrapGap>Прамежак пераносу</WrapGap>
     <WrapLine>Лінія пераносу</WrapLine>
     <XAxis>Вось X</XAxis>
     <XTopAxis>Вось X Верхняя</XTopAxis>
+    <XValue>Значэнне X</XValue>
+    <XValuesDataColumn>Значэнне калонкі дадзеных X</XValuesDataColumn>
     <YAxis>Вось Y</YAxis>
     <YRightAxis>Вось Y Правая</YRightAxis>
+    <YValue>Значэнне Y</YValue>
+    <YValuesDataColumn>Значэнне калонкі дадзеных Y</YValuesDataColumn>
     <ZeroColor>Колер нуля</ZeroColor>
     <Zoom>Маштаб</Zoom>
   </PropertyMain>
@@ -5055,6 +5074,7 @@
     <Gallery>Галерэя</Gallery>
     <GenerateNewCode>Згенераваць новы код</GenerateNewCode>
     <History>Гісторыя</History>
+    <IfEmpty>Калі {0} пусты</IfEmpty>
     <Infographics>Інфаграфіка</Infographics>
     <InfoMessage>{0} - {1} знойдзены.</InfoMessage>
     <InformationMessages>Інфармацыйныя паведамленні</InformationMessages>
@@ -5424,10 +5444,14 @@
     <ArgumentName>Назва аргумента</ArgumentName>
     <ArgumentType>Тып аргумента</ArgumentType>
     <CustomCategory>Карыстацкая катэгорыя</CustomCategory>
+    <EditCode>Рэдактар кода</EditCode>
+    <EditWithBlockly>Рэдагаваць з Blockly</EditWithBlockly>
     <ReturnType>Тып вяртанага значэння</ReturnType>
     <Script>Сцэнар</Script>
     <ScriptMode>Рэжым сцэнара</ScriptMode>
     <Title>Карыстацкая функцыя</Title>
+    <UserFunctionEdit>Змена карыстацкай функцыі</UserFunctionEdit>
+    <UserFunctionNew>Новая карыстацкая функцыя</UserFunctionNew>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Вы ўпэўнены, што хочаце зачыніць гэта акно? Усе загрузкі будуць скасаваны.</AllDownloadsWillCanceled>
