@@ -583,11 +583,6 @@ namespace Demo
             System.Diagnostics.Process.Start(tag);
         }
 
-        private void btPreview_Click(object sender, System.EventArgs e)
-        {
-            RenderReport(ReportAction.Preview);
-        }
-
         private void tvReports_AfterSelect(object sender, TreeViewEventArgs e)
         {
             #region Clear
@@ -597,6 +592,8 @@ namespace Demo
                 buttonHelpResources.SubItems.RemoveAt(0);
             }
             #endregion
+
+            RenderReport(ReportAction.Preview);
 
             reportInfo info = reportsHelper[e.Node.Tag] as reportInfo;
             if (info != null && (info.videos.Count > 0 || info.samples.Count > 0))

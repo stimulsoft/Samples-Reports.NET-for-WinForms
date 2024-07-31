@@ -40,7 +40,6 @@ namespace Demo
             this.separator2 = new System.Windows.Forms.Panel();
             this.separator1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.buttonHiddenPreview = new System.Windows.Forms.Button();
             this.viewerControl = new Stimulsoft.Report.Viewer.StiViewerControl();
             this.stiUserData1 = new Stimulsoft.Report.Dictionary.StiUserData();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
@@ -106,7 +105,6 @@ namespace Demo
             this.panel1.Controls.Add(this.separator1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.border);
-            this.panel1.Controls.Add(this.buttonHiddenPreview);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
@@ -132,7 +130,6 @@ namespace Demo
             this.tvReports.Size = new System.Drawing.Size(298, 393);
             this.tvReports.TabIndex = 0;
             this.tvReports.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvReports_AfterSelect);
-            this.tvReports.DoubleClick += new System.EventHandler(this.btPreview_Click);
             this.tvReports.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tvReports_KeyDown);
             // 
             // separator2
@@ -168,17 +165,6 @@ namespace Demo
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
-            // buttonHiddenPreview
-            // 
-            this.buttonHiddenPreview.Location = new System.Drawing.Point(67, 244);
-            this.buttonHiddenPreview.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonHiddenPreview.Name = "buttonHiddenPreview";
-            this.buttonHiddenPreview.Size = new System.Drawing.Size(1, 1);
-            this.buttonHiddenPreview.TabIndex = 31;
-            this.buttonHiddenPreview.Text = "button1";
-            this.buttonHiddenPreview.UseVisualStyleBackColor = true;
-            this.buttonHiddenPreview.Click += new System.EventHandler(this.btPreview_Click);
-            // 
             // viewerControl
             // 
             this.viewerControl.AllowDrop = true;
@@ -201,7 +187,6 @@ namespace Demo
             // 
             // StiDemoForm
             // 
-            this.AcceptButton = this.buttonHiddenPreview;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
@@ -235,7 +220,6 @@ namespace Demo
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel separator1;
         private System.Windows.Forms.Panel separator2;
-        private System.Windows.Forms.Button buttonHiddenPreview;
         private Stimulsoft.Report.Viewer.StiViewerControl viewerControl;
     }
 }
