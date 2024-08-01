@@ -61,9 +61,9 @@ namespace Adding_a_Custom_Component_to_the_Designer
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(180, 125);
+            this.button1.Location = new System.Drawing.Point(150, 110);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(300, 74);
+            this.button1.Size = new System.Drawing.Size(300, 60);
             this.button1.TabIndex = 0;
             this.button1.Text = "Run Designer";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -71,7 +71,7 @@ namespace Adding_a_Custom_Component_to_the_Designer
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.ClientSize = new System.Drawing.Size(634, 349);
+            this.ClientSize = new System.Drawing.Size(600, 300);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
