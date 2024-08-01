@@ -43,7 +43,7 @@ namespace Rendering_a_Report_in_the_Thread
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(92, 34);
+            this.button1.Location = new System.Drawing.Point(107, 34);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 40);
             this.button1.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace Rendering_a_Report_in_the_Thread
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(92, 95);
+            this.button2.Location = new System.Drawing.Point(107, 95);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 40);
             this.button2.TabIndex = 1;
@@ -63,7 +63,7 @@ namespace Rendering_a_Report_in_the_Thread
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(92, 142);
+            this.label1.Location = new System.Drawing.Point(107, 142);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 45);
             this.label1.TabIndex = 2;
@@ -73,7 +73,7 @@ namespace Rendering_a_Report_in_the_Thread
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 196);
+            this.ClientSize = new System.Drawing.Size(360, 196);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

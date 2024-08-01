@@ -36,7 +36,7 @@
             // 
             // btPreview
             // 
-            this.btPreview.Location = new System.Drawing.Point(35, 35);
+            this.btPreview.Location = new System.Drawing.Point(54, 35);
             this.btPreview.Name = "btPreview";
             this.btPreview.Size = new System.Drawing.Size(75, 26);
             this.btPreview.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // btDesign
             // 
-            this.btDesign.Location = new System.Drawing.Point(119, 35);
+            this.btDesign.Location = new System.Drawing.Point(138, 35);
             this.btDesign.Name = "btDesign";
             this.btDesign.Size = new System.Drawing.Size(75, 26);
             this.btDesign.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             // btClose
             // 
-            this.btClose.Location = new System.Drawing.Point(203, 35);
+            this.btClose.Location = new System.Drawing.Point(222, 35);
             this.btClose.Name = "btClose";
             this.btClose.Size = new System.Drawing.Size(75, 26);
             this.btClose.TabIndex = 0;
@@ -68,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(312, 97);
+            this.ClientSize = new System.Drawing.Size(350, 100);
             this.Controls.Add(this.btClose);
             this.Controls.Add(this.btDesign);
             this.Controls.Add(this.btPreview);

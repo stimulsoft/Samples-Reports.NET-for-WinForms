@@ -76,7 +76,7 @@ namespace Drilling_Down_Report_in_Live
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(240, 80);
+            this.button2.Location = new System.Drawing.Point(250, 80);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 48);
             this.button2.TabIndex = 6;
@@ -87,7 +87,7 @@ namespace Drilling_Down_Report_in_Live
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button3.Location = new System.Drawing.Point(406, 80);
+            this.button3.Location = new System.Drawing.Point(416, 80);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(150, 48);
             this.button3.TabIndex = 7;
@@ -97,7 +97,7 @@ namespace Drilling_Down_Report_in_Live
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(74, 80);
+            this.button1.Location = new System.Drawing.Point(84, 80);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 48);
             this.button1.TabIndex = 5;
@@ -130,7 +130,7 @@ namespace Drilling_Down_Report_in_Live
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(630, 217);
+            this.ClientSize = new System.Drawing.Size(650, 217);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
