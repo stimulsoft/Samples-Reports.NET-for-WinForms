@@ -232,6 +232,8 @@
     <LegendSpacing>Odstępy</LegendSpacing>
     <Line>Linia</Line>
     <ListOfValues>Lista kolumn</ListOfValues>
+    <ListOfXValues>Lista wartości X</ListOfXValues>
+    <ListOfYValues>Lista wartości Y</ListOfYValues>
     <Marker>Znacznik</Marker>
     <MoveConstantLineDown>Przesuń stałą linię w dół</MoveConstantLineDown>
     <MoveConstantLineUp>Przesuń stałą linię w górę</MoveConstantLineUp>
@@ -922,6 +924,7 @@
     <FindWhat>Wyszukaj co:</FindWhat>
     <FromCursor>Od kursora</FromCursor>
     <GotoLine>Idź do &amp;linii</GotoLine>
+    <InsertField>Wstaw pole</InsertField>
     <InsertLink>Wstaw link</InsertLink>
     <InsertSymbol>Wstaw symbol</InsertSymbol>
     <Line>Linia: {0}</Line>
@@ -1302,6 +1305,7 @@
     <InformixEdit>Edytuj połączenie z bazą Informix</InformixEdit>
     <InformixNew>Nowe połączenie z bazą Informix</InformixNew>
     <InitialCatalog>Katalog początkowy:</InitialCatalog>
+    <InsertSampleConnectionString>Wstaw przykładowy ciąg połączeniowy</InsertSampleConnectionString>
     <JsonEdit>Edycja danych JSON</JsonEdit>
     <JsonNew>Nowe dane JSON</JsonNew>
     <MySQLEdit>Edytuj połączenie z bazą MySQL</MySQLEdit>
@@ -1455,6 +1459,7 @@
     <RetrievingDatabaseInformation>Wydobywanie informacji z bazy danych...</RetrievingDatabaseInformation>
     <Run>Uruchom</Run>
     <SelectTypeOfBusinessObject>Wybierz typ obiektu biznesowego</SelectTypeOfBusinessObject>
+    <ShowMoreDataSources>Pokaż więcej źródeł danych</ShowMoreDataSources>
     <SkipSchemaWizard>Pominięcie Kreatora schematów</SkipSchemaWizard>
     <SortItems>Sortuj elementy</SortItems>
     <Synchronize>Synchronizuj</Synchronize>
@@ -1533,6 +1538,7 @@
     <Default>Domyślny</Default>
     <DefaultSaveFormat>Domyślny format zapisu</DefaultSaveFormat>
     <DefaultScriptMode>Domyślny tryb skryptu</DefaultScriptMode>
+    <DesignSize>Rozmiar projektu</DesignSize>
     <Drawing>Rysowanie</Drawing>
     <DrawMarkersWhenMoving>Rysuj znaczniki podczas poruszania</DrawMarkersWhenMoving>
     <EditAfterInsert>Edytuj po wstawieniu</EditAfterInsert>
@@ -1578,11 +1584,13 @@
     <ShowDialogForms>Pokazywanie dialogów</ShowDialogForms>
     <ShowDimensionLines>Pokaż linie wymiarów</ShowDimensionLines>
     <ShowOldGaugeEditor>Pokazywanie starego edytora mierniku</ShowOldGaugeEditor>
+    <ShowSearch>Pokaż wyszukiwanie</ShowSearch>
     <ShowSmartGuides>Pokazywanie inteligentnych przewodników</ShowSmartGuides>
     <StartScreen>Ekran startowy</StartScreen>
     <title>Opcje</title>
     <UseComponentColor>Użyj koloru komponentu do wypełnienia</UseComponentColor>
     <UseLastFormat>Użyj ostatniego formatu</UseLastFormat>
+    <ViewSize>Rozmiar widoku </ViewSize>
     <Welcome>Witamy</Welcome>
   </FormOptions>
   <FormPageSetup>
@@ -1694,6 +1702,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Kreator wykresu</ChartWizardForm>
+    <CodeEditorForm>Edytor kodu</CodeEditorForm>
     <ConditionEditorForm>Warunek</ConditionEditorForm>
     <ConnectionSelectForm>Wybierz typ połączenia</ConnectionSelectForm>
     <ContainerSelectForm>Wybierz kontener</ContainerSelectForm>
@@ -2100,6 +2109,7 @@
     <menuViewShowSmartGuides>Wyświetla inteligentne prowadnice w celu pozycjonowania komponentów.</menuViewShowSmartGuides>
     <MoveBackward>Przesuń komponent jeden poziom wyżej w kolejności wyświetlania elementów na stronie.</MoveBackward>
     <MoveForward>Przesuń komponent jeden poziom niżej w kolejności wyświetlania elementów na stronie.</MoveForward>
+    <NotPossibleEnableCompilationMode>Nie można włączyć trybu kompilacji dla raportu. Jest to zabronione przez opcję 'Dostęp do kompilacji' w ustawieniach projektanta.</NotPossibleEnableCompilationMode>
     <Orientation>Przełącz układ stron między trybem portretu i albumu.</Orientation>
     <PageDelete>Usuń aktualną stronę z raportu.</PageDelete>
     <PageNew>Stwórz nową stronę</PageNew>
@@ -2428,6 +2438,7 @@
     <ActivationMaxActivationsReached1>Możesz zarządzać zarejestrowanymi komputerami ze swojego </ActivationMaxActivationsReached1>
     <ActivationMaxActivationsReached2>Stimulsoft konta.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>Zarejestrowano już maksymalną liczbę komputerów dozwoloną w ramach planu subskrypcji.</ActivationMaxComputersReached>
+    <ActivationMaxDeactivationsReached>Dezaktywacja urządzenia jest niemożliwa, ponieważ osiągnięto limit dla tej operacji.Prosimy o kontakt z naszym działem sprzedaży pod adresem sales@stimulsoft.com!</ActivationMaxDeactivationsReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server nie jest dostępny! Spróbuj ponownie później.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Nie możesz aktywować tej wersji Stimulsoft Server, ponieważ Twoja subskrypcja wygasła! Zaloguj się na swoje konto i sprawdź, którą wersję Stimulsoft Server możesz zainstalować i aktywować.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Wystąpił błąd podczas aktywacji. Spróbuj ponownie później.</ActivationSomeTroublesOccurred>
@@ -2436,6 +2447,7 @@
     <ActivationTrialExtend2>powiedz nam dlaczego.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Nazwa użytkownika (e-mail) lub hasło są nieprawidłowe!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Twój typ konta nie pozwala na aktywację Stimulsoft Server!</ActivationWrongAccountType>
+    <AITokensExhausted>Twoje tokeny zostały wyczerpane. Prosimy skontaktować się z naszym działem sprzedaży pod adresem @stimulsoft.com!</AITokensExhausted>
     <Alert>Uwaga</Alert>
     <AuthAccountAlreadyExists>Konto o tej nazwie użytkownika (e-mail) już istnieje. Aby powiązać je z kontem {0}, użyj hasła do konta Stimulsoft.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>Konto nie może być teraz używane!</AuthAccountCantBeUsedNow>
@@ -3493,6 +3505,7 @@
     <StiTextQualityTypographic>Drukarski</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>WYSIWYG</StiTextQualityWysiwyg>
     <StiTextSizeModeFit>Dopasowanie</StiTextSizeModeFit>
+    <StiTextSizeModeFitAndWordWrap>Dopasować i przenieść</StiTextSizeModeFitAndWordWrap>
     <StiTextSizeModeTrimming>Przycinanie</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>Zawijanie słów</StiTextSizeModeWordWrap>
     <StiThemeAppearanceAuto>Automatyczne</StiThemeAppearanceAuto>
@@ -3797,6 +3810,7 @@
     <CellDockStyle>Styl dokowania komórki</CellDockStyle>
     <CellForeColor>Kolor przedni komórki</CellForeColor>
     <CellHeight>Wysokość komórki</CellHeight>
+    <Cells>Komórki</Cells>
     <CellType>Typ komórki</CellType>
     <CellWidth>Szerokość komórki</CellWidth>
     <Center>Centrгь</Center>
@@ -3881,6 +3895,9 @@
     <DataAdapter>Adapter danych</DataAdapter>
     <DataAdapters>Adaptery danych</DataAdapters>
     <DataBarCondition>Warunek pasa danych</DataBarCondition>
+    <DataBarsNegative>Paski danych ujemnych</DataBarsNegative>
+    <DataBarsOverlapped>Paski danych nakładające się</DataBarsOverlapped>
+    <DataBarsPositive>Paski danych dodatnich</DataBarsPositive>
     <DataBindings>Wiązania danych</DataBindings>
     <DataCells>Komórki danych</DataCells>
     <DataColor>Kolor danych</DataColor>
@@ -3969,6 +3986,7 @@
     <Expand>Rozwiń</Expand>
     <Exponential>Wykładniczy/-a </Exponential>
     <ExportAsImage>Eksportuj jako obraz</ExportAsImage>
+    <ExportSettings>Ustawienia eksportu</ExportSettings>
     <Expression>Wyrażenie</Expression>
     <ExtensionDigit>numer rozszerzenia</ExtensionDigit>
     <EyeBallBrush>Pędzel do oczu</EyeBallBrush>
@@ -4125,6 +4143,9 @@
     <Increment>Inkrementacja</Increment>
     <Indent>Wcięcie</Indent>
     <Indicator>Wskaźnik</Indicator>
+    <IndicatorNegative>Wskaźnik ujemny</IndicatorNegative>
+    <IndicatorNeutral>Wskaźnik neutralny</IndicatorNeutral>
+    <IndicatorPositive>Wskaźnik dodatni</IndicatorPositive>
     <IndicatorValue>Wartość wskaźnika</IndicatorValue>
     <IndividualColor>Indywidualny kolor</IndividualColor>
     <InfographicsTitle>Title</InfographicsTitle>
@@ -4218,6 +4239,8 @@
     <ListOfValuesLow>Lista wartości małych </ListOfValuesLow>
     <ListOfValuesOpen>Lista wartości otwartych </ListOfValuesOpen>
     <ListOfWeights>Lista wag</ListOfWeights>
+    <ListOfXValues>Lista wartości X</ListOfXValues>
+    <ListOfYValues>Lista wartości Y</ListOfYValues>
     <Localizable>Lokalizowalne</Localizable>
     <Location>Pozycja</Location>
     <Locked>Zablokowany</Locked>
@@ -4512,6 +4535,7 @@
     <ShiftMode>Tryb przesunięcia</ShiftMode>
     <ShortName>Krótka nazwa</ShortName>
     <ShortValue>Krótka wartość</ShortValue>
+    <Show3D>Pokaż 3D</Show3D>
     <ShowAllValue>Pokaż wszystkie wartości</ShowAllValue>
     <ShowBehind>Pokaż pod</ShowBehind>
     <ShowBlanks>Pokaż puste miejsca</ShowBlanks>
@@ -4549,6 +4573,7 @@
     <ShowZeros>Pokaż zera</ShowZeros>
     <ShrinkFontToFit>Zmniejsz czcionkę by dopasować</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Zmniejsz czcionkę by dopasować do minimalnego rozmiaru</ShrinkFontToFitMinimumSize>
+    <ShrinkToFit>Dopasuj do rozmiaru</ShrinkToFit>
     <Side>Strona</Side>
     <SideBySide>Strona po stronie</SideBySide>
     <Sides>Strony</Sides>
@@ -4575,6 +4600,7 @@
     <Space>Spacja</Space>
     <SpaceRatio>Stosunek powierzchni</SpaceRatio>
     <Spacing>Odstępy</Spacing>
+    <Sparkline>Sparkline</Sparkline>
     <SqlCommand>Komenda SQL</SqlCommand>
     <StartAngle>Kąt początkowy</StartAngle>
     <StartCap>Typ wskaźnika początku</StartCap>
@@ -4762,14 +4788,20 @@
     <Weights>waga</Weights>
     <Width>Szerokość</Width>
     <WindowState>Stan okna</WindowState>
+    <WinLossNegative>Negatywny kolor Wygrana / przegrana</WinLossNegative>
+    <WinLossPositive>Pozytywny kolor Wygrana / przegrana</WinLossPositive>
     <WordWrap>Zawijanie słów</WordWrap>
     <Wrap>Zawijanie</Wrap>
     <WrapGap>Zawijanie odstępów</WrapGap>
     <WrapLine>Linia zawijania</WrapLine>
     <XAxis>Oś X</XAxis>
     <XTopAxis>Górna oś X</XTopAxis>
+    <XValue>Wartość X</XValue>
+    <XValuesDataColumn>Wartość kolumny danych X</XValuesDataColumn>
     <YAxis>Oś Y</YAxis>
     <YRightAxis>Prawa oś Y</YRightAxis>
+    <YValue>Wartość Y</YValue>
+    <YValuesDataColumn>Wartość kolumny danych Y</YValuesDataColumn>
     <ZeroColor>Kolor zerowy</ZeroColor>
     <Zoom>Powiększenie</Zoom>
   </PropertyMain>
@@ -4957,6 +4989,7 @@
     <Gallery>Galeria</Gallery>
     <GenerateNewCode>Generuj nowy kod</GenerateNewCode>
     <History>Historia</History>
+    <IfEmpty>Jeśli {0} jest pusty</IfEmpty>
     <Infographics>Infografika</Infographics>
     <InfoMessage>znaleziono {0} - {1}.</InfoMessage>
     <InformationMessages>Wiadomości informacyjne</InformationMessages>
@@ -5202,6 +5235,21 @@
     <SignatureSavedSuccessfully>Podpis zapisany pomyślnie.</SignatureSavedSuccessfully>
     <UseBrush>Użyj pędzla</UseBrush>
   </Signature>
+  <StimulAI>
+    <ChangedWithAI>Zmienione z Stimul AI</ChangedWithAI>
+    <CheckExpressionSuccess>Nie znaleziono problemów w podanym wyrażeniu.</CheckExpressionSuccess>
+    <CheckQuery>Sprawdź zapytanie</CheckQuery>
+    <CheckWithStimulAI>Sprawdź z Stimul AI</CheckWithStimulAI>
+    <ConnectionStringExampleWithAI>Przykład ciągu połączenia z Stimul AI</ConnectionStringExampleWithAI>
+    <ConnectionStringTesting>Testowanie ciągu połączenia</ConnectionStringTesting>
+    <ExplainQuery>Wyjaśnij zapytanie</ExplainQuery>
+    <FixWithAI>Napraw z Stimul AI</FixWithAI>
+    <GenerateNewQuery>Generuj nowe zapytanie</GenerateNewQuery>
+    <OptimizeQuery>Optymalizuj zapytanie</OptimizeQuery>
+    <QueryWithStimulAI>Zapytanie z Stimul AI</QueryWithStimulAI>
+    <Try>Spróbuj z Stimul AI</Try>
+    <TryConvertScriptToBlockly>Spróbuj przekształcić poprzedni skrypt {0} w skrypt {1} </TryConvertScriptToBlockly>
+  </StimulAI>
   <SystemVariables>
     <Column>Numer bieżącej kolumny (rozpoczyna się od 1).</Column>
     <GroupLine>Numer bieżącego wiersza grupy (rozpoczyna się od 1).</GroupLine>
@@ -5321,11 +5369,16 @@
   <UserFunctionEditor>
     <ArgumentName>Nazwa argumentu</ArgumentName>
     <ArgumentType>Typ argumentu</ArgumentType>
+    <ConvertScript>Przekształć skrypt</ConvertScript>
     <CustomCategory>Kategoria niestandardowa</CustomCategory>
+    <EditCode>Edytuj kod</EditCode>
+    <EditWithBlockly>Edytuj z Blockly</EditWithBlockly>
     <ReturnType>Typ zwrotu</ReturnType>
     <Script>Skrypt</Script>
     <ScriptMode>Tryb skryptu</ScriptMode>
     <Title>Funkcja użytkownika</Title>
+    <UserFunctionEdit>Edytuj funkcję użytkownika</UserFunctionEdit>
+    <UserFunctionNew>Nowa funkcja użytkownika</UserFunctionNew>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Czy na pewno chcesz zamknąć to okno? Wszystkie pobrania zostaną anulowane.</AllDownloadsWillCanceled>

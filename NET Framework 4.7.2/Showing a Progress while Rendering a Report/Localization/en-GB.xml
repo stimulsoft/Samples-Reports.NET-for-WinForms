@@ -232,6 +232,8 @@
     <LegendSpacing>Spacing</LegendSpacing>
     <Line>Line</Line>
     <ListOfValues>List of Values</ListOfValues>
+    <ListOfXValues>List of X Values</ListOfXValues>
+    <ListOfYValues>List of Y Values</ListOfYValues>
     <Marker>Marker</Marker>
     <MoveConstantLineDown>Move Constant Line Down</MoveConstantLineDown>
     <MoveConstantLineUp>Move Constant Line Up</MoveConstantLineUp>
@@ -922,6 +924,7 @@
     <FindWhat>Find What:</FindWhat>
     <FromCursor>From Cursor</FromCursor>
     <GotoLine>Go To &amp;Line</GotoLine>
+    <InsertField>Insert Field</InsertField>
     <InsertLink>Insert Link</InsertLink>
     <InsertSymbol>Insert Symbol</InsertSymbol>
     <Line>Line: {0}</Line>
@@ -1301,6 +1304,7 @@
     <InformixEdit>Edit Informix Connection</InformixEdit>
     <InformixNew>New Informix Connection</InformixNew>
     <InitialCatalog>Initial Catalogue:</InitialCatalog>
+    <InsertSampleConnectionString>Insert sample connection string</InsertSampleConnectionString>
     <JsonEdit>Edit JSON Data</JsonEdit>
     <JsonNew>New JSON Data</JsonNew>
     <MySQLEdit>Edit MySQL Connection</MySQLEdit>
@@ -1454,6 +1458,7 @@
     <RetrievingDatabaseInformation>Retrieving database information...</RetrievingDatabaseInformation>
     <Run>Run</Run>
     <SelectTypeOfBusinessObject>Select Type of Business Object</SelectTypeOfBusinessObject>
+    <ShowMoreDataSources>Show More Data Sources</ShowMoreDataSources>
     <SkipSchemaWizard>Skip Schema Wizard</SkipSchemaWizard>
     <SortItems>Sort Items</SortItems>
     <Synchronize>Synchronize</Synchronize>
@@ -1532,6 +1537,7 @@
     <Default>Default</Default>
     <DefaultSaveFormat>Default Save Format</DefaultSaveFormat>
     <DefaultScriptMode>Default Script Mode</DefaultScriptMode>
+    <DesignSize>Design Size</DesignSize>
     <Drawing>Drawing</Drawing>
     <DrawMarkersWhenMoving>Draw Markers When Moving</DrawMarkersWhenMoving>
     <EditAfterInsert>Edit After Insert</EditAfterInsert>
@@ -1577,11 +1583,13 @@
     <ShowDialogForms>Show Dialog Forms</ShowDialogForms>
     <ShowDimensionLines>Show Dimension Lines</ShowDimensionLines>
     <ShowOldGaugeEditor>Show Old Gauge Editor</ShowOldGaugeEditor>
+    <ShowSearch>Show Search</ShowSearch>
     <ShowSmartGuides>Show Smart Guides</ShowSmartGuides>
     <StartScreen>Start Screen</StartScreen>
     <title>Options</title>
     <UseComponentColor>Use Component Colour for Filling</UseComponentColor>
     <UseLastFormat>Use Last Format</UseLastFormat>
+    <ViewSize>View Size</ViewSize>
     <Welcome>Welcome</Welcome>
   </FormOptions>
   <FormPageSetup>
@@ -1692,6 +1700,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Chart Wizard</ChartWizardForm>
+    <CodeEditorForm>Code Editor</CodeEditorForm>
     <ConditionEditorForm>Condition</ConditionEditorForm>
     <ConnectionSelectForm>Select Type of Connection</ConnectionSelectForm>
     <ContainerSelectForm>Select Container</ContainerSelectForm>
@@ -2098,6 +2107,7 @@
     <menuViewShowSmartGuides>Display Smart Guides to position components relative to each other.</menuViewShowSmartGuides>
     <MoveBackward>Move a component to one level higher in order of placing components on a page.</MoveBackward>
     <MoveForward>Move a component to one level lower in order of placing components on a page.</MoveForward>
+    <NotPossibleEnableCompilationMode>It is impossible to enable compilation mode for the report because it is prohibited by the 'Compilation Access' option in the designer settings.</NotPossibleEnableCompilationMode>
     <Orientation>Switch the pages between portrait and landscape layouts.</Orientation>
     <PageDelete>Delete current page from a report.</PageDelete>
     <PageNew>Create a new page.</PageNew>
@@ -2437,6 +2447,7 @@
     <ActivationMaxActivationsReached1>You can manage the registered computers from your </ActivationMaxActivationsReached1>
     <ActivationMaxActivationsReached2>Stimulsoft Account.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>You have already registered the maximum number of computers allowed under your subscription plan.</ActivationMaxComputersReached>
+    <ActivationMaxDeactivationsReached>Device deactivation is not possible as you have reached the limit for this operation. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxDeactivationsReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
@@ -2445,6 +2456,7 @@
     <ActivationTrialExtend2>tell us why.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Server!</ActivationWrongAccountType>
+    <AITokensExhausted>Your tokens have been exhausted! Please contact our sales department at sales@stimulsoft.com!</AITokensExhausted>
     <Alert>Alert</Alert>
     <AuthAccountAlreadyExists>The account with this User Name (email) already exists. To associate it with your {0} account, please use your Stimulsoft account password.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>The account cannot be used now!</AuthAccountCantBeUsedNow>
@@ -3515,6 +3527,7 @@
     <StiTextQualityTypographic>Typographic</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
     <StiTextSizeModeFit>Fit</StiTextSizeModeFit>
+    <StiTextSizeModeFitAndWordWrap>Fit and Word Wrap</StiTextSizeModeFitAndWordWrap>
     <StiTextSizeModeTrimming>Trimming</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>WordWrap</StiTextSizeModeWordWrap>
     <StiThemeAppearanceAuto>Auto</StiThemeAppearanceAuto>
@@ -3818,6 +3831,7 @@
     <CellDockStyle>Cell Dock Style</CellDockStyle>
     <CellForeColor>Cell Fore Colour</CellForeColor>
     <CellHeight>Cell Height</CellHeight>
+    <Cells>Cells</Cells>
     <CellType>Cell Type</CellType>
     <CellWidth>Cell Width</CellWidth>
     <Center>Centre</Center>
@@ -3902,6 +3916,9 @@
     <DataAdapter>Data Adapter</DataAdapter>
     <DataAdapters>Data Adapters</DataAdapters>
     <DataBarCondition>Data Bar Condition</DataBarCondition>
+    <DataBarsNegative>Data Bars Negative</DataBarsNegative>
+    <DataBarsOverlapped>Data Bars Overlapped</DataBarsOverlapped>
+    <DataBarsPositive>Data Bars Positive</DataBarsPositive>
     <DataBindings>Data Bindings</DataBindings>
     <DataCells>Data Cells</DataCells>
     <DataColor>Data Colour</DataColor>
@@ -3990,6 +4007,7 @@
     <Expand>Expand</Expand>
     <Exponential>Exponential</Exponential>
     <ExportAsImage>Export as Image</ExportAsImage>
+    <ExportSettings>Export Settings</ExportSettings>
     <Expression>Expression</Expression>
     <ExtensionDigit>Extension Digit</ExtensionDigit>
     <EyeBallBrush>Eye Ball Brush</EyeBallBrush>
@@ -4146,6 +4164,9 @@
     <Increment>Increment</Increment>
     <Indent>Indent</Indent>
     <Indicator>Indicator</Indicator>
+    <IndicatorNegative>Indicator Negative</IndicatorNegative>
+    <IndicatorNeutral>Indicator Neutral</IndicatorNeutral>
+    <IndicatorPositive>Indicator Positive</IndicatorPositive>
     <IndicatorValue>Indicator Value</IndicatorValue>
     <IndividualColor>Individual Colour</IndividualColor>
     <InitBy>Init by</InitBy>
@@ -4238,6 +4259,8 @@
     <ListOfValuesLow>List of Values Low</ListOfValuesLow>
     <ListOfValuesOpen>List of Values Open</ListOfValuesOpen>
     <ListOfWeights>List of Weights</ListOfWeights>
+    <ListOfXValues>List of Values X</ListOfXValues>
+    <ListOfYValues>List of Values Y</ListOfYValues>
     <Localizable>Localizable</Localizable>
     <Location>Location</Location>
     <Locked>Locked</Locked>
@@ -4532,6 +4555,7 @@
     <ShiftMode>Shift Mode</ShiftMode>
     <ShortName>Short Name</ShortName>
     <ShortValue>Short Value</ShortValue>
+    <Show3D>Show 3D</Show3D>
     <ShowAllValue>Show All Value</ShowAllValue>
     <ShowBehind>Show Behind</ShowBehind>
     <ShowBlanks>Show Blanks</ShowBlanks>
@@ -4568,6 +4592,7 @@
     <ShowZeros>Show Zeros</ShowZeros>
     <ShrinkFontToFit>Shrink Font to Fit</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Shrink Font to Fit Minimum Size</ShrinkFontToFitMinimumSize>
+    <ShrinkToFit>Shrink to Fit</ShrinkToFit>
     <Side>Side</Side>
     <SideBySide>Side-by-Side</SideBySide>
     <Sides>Sides</Sides>
@@ -4594,6 +4619,7 @@
     <Space>Space</Space>
     <SpaceRatio>Space Ratio</SpaceRatio>
     <Spacing>Spacing</Spacing>
+    <Sparkline>Sparkline</Sparkline>
     <SqlCommand>Sql Command</SqlCommand>
     <StartAngle>Start Angle</StartAngle>
     <StartCap>Start Cap</StartCap>
@@ -4781,14 +4807,20 @@
     <Weights>Weights</Weights>
     <Width>Width</Width>
     <WindowState>Window State</WindowState>
+    <WinLossNegative>Win Loss Negative</WinLossNegative>
+    <WinLossPositive>Win Loss Positive</WinLossPositive>
     <WordWrap>Word Wrap</WordWrap>
     <Wrap>Wrap</Wrap>
     <WrapGap>WrapGap</WrapGap>
     <WrapLine>Wrap Line</WrapLine>
     <XAxis>X Axis</XAxis>
     <XTopAxis>X Top Axis</XTopAxis>
+    <XValue>Value X</XValue>
+    <XValuesDataColumn>Value Data Column X</XValuesDataColumn>
     <YAxis>Y Axis</YAxis>
     <YRightAxis>Y Right Axis</YRightAxis>
+    <YValue>Value Y</YValue>
+    <YValuesDataColumn>Value Data Column Y</YValuesDataColumn>
     <ZeroColor>Zero Colour</ZeroColor>
     <Zoom>Zoom</Zoom>
   </PropertyMain>
@@ -4976,6 +5008,7 @@
     <Gallery>Gallery</Gallery>
     <GenerateNewCode>Generate New Code</GenerateNewCode>
     <History>History</History>
+    <IfEmpty>If {0} Is Empty</IfEmpty>
     <Infographics>Infographics</Infographics>
     <InfoMessage>{0} - {1} found.</InfoMessage>
     <InformationMessages>Information Messages</InformationMessages>
@@ -5224,6 +5257,21 @@
     <SignatureSavedSuccessfully>Signature saved successfully.</SignatureSavedSuccessfully>
     <UseBrush>Use Brush</UseBrush>
   </Signature>
+  <StimulAI>
+    <ChangedWithAI>Changed with Stimul AI</ChangedWithAI>
+    <CheckExpressionSuccess>No issues were found in the specified expression.</CheckExpressionSuccess>
+    <CheckQuery>Check Query</CheckQuery>
+    <CheckWithStimulAI>Check with Stimul AI</CheckWithStimulAI>
+    <ConnectionStringExampleWithAI>Connection string sample with Stimul AI</ConnectionStringExampleWithAI>
+    <ConnectionStringTesting>Connection string testing</ConnectionStringTesting>
+    <ExplainQuery>Explain Query</ExplainQuery>
+    <FixWithAI>Fix with Stimul AI</FixWithAI>
+    <GenerateNewQuery>Generate New Query</GenerateNewQuery>
+    <OptimizeQuery>Optimize Query</OptimizeQuery>
+    <QueryWithStimulAI>Query with Stimul AI</QueryWithStimulAI>
+    <Try>Try with Stimul AI</Try>
+    <TryConvertScriptToBlockly>Try converting the previous {0} script into a {1} script.</TryConvertScriptToBlockly>
+  </StimulAI>
   <SystemVariables>
     <Column>Returns the current column number (starts from 1).</Column>
     <GroupLine>Returns the current group line number (starts from 1).</GroupLine>
@@ -5343,11 +5391,16 @@
   <UserFunctionEditor>
     <ArgumentName>Argument Name</ArgumentName>
     <ArgumentType>Argument Type</ArgumentType>
+    <ConvertScript>Convert Script</ConvertScript>
     <CustomCategory>Custom Category</CustomCategory>
+    <EditCode>Edit Code</EditCode>
+    <EditWithBlockly>Edit with blockly</EditWithBlockly>
     <ReturnType>Return Type</ReturnType>
     <Script>Script</Script>
     <ScriptMode>Script Mode</ScriptMode>
     <Title>User Function</Title>
+    <UserFunctionEdit>Edit User Function</UserFunctionEdit>
+    <UserFunctionNew>New User Function</UserFunctionNew>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be cancelled.</AllDownloadsWillCanceled>

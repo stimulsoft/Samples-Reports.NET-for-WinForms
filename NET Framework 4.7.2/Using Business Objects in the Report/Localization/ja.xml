@@ -232,6 +232,8 @@
     <LegendSpacing>間隔</LegendSpacing>
     <Line>ライン</Line>
     <ListOfValues>値のリスト</ListOfValues>
+    <ListOfXValues>X値のリスト</ListOfXValues>
+    <ListOfYValues>Y値のリスト</ListOfYValues>
     <Marker>マーカー</Marker>
     <MoveConstantLineDown>一定の行を下に移動</MoveConstantLineDown>
     <MoveConstantLineUp>一定の行を上に移動</MoveConstantLineUp>
@@ -922,6 +924,7 @@
     <FindWhat>キーワード検索：</FindWhat>
     <FromCursor>カーソルから</FromCursor>
     <GotoLine>行へ</GotoLine>
+    <InsertField>フィールドを挿入</InsertField>
     <InsertLink>リンクを挿入</InsertLink>
     <InsertSymbol>シンボルを挿入</InsertSymbol>
     <Line>行：{0}</Line>
@@ -1301,6 +1304,7 @@
     <InformixEdit>Informix接続の編集</InformixEdit>
     <InformixNew>新規Informix接続</InformixNew>
     <InitialCatalog>最初のカタログ：</InitialCatalog>
+    <InsertSampleConnectionString>サンプル接続文字列を挿入</InsertSampleConnectionString>
     <JsonEdit>JSONデータの編集</JsonEdit>
     <JsonNew>新規JSONデータ</JsonNew>
     <MySQLEdit>MySQL接続の編集</MySQLEdit>
@@ -1454,6 +1458,7 @@
     <RetrievingDatabaseInformation>データベース情報の取得中...</RetrievingDatabaseInformation>
     <Run>走る</Run>
     <SelectTypeOfBusinessObject>ビジネスオブジェクトのタイプの選択</SelectTypeOfBusinessObject>
+    <ShowMoreDataSources>さらにデータソースを表示</ShowMoreDataSources>
     <SkipSchemaWizard>スキーマウィザードをスキップ</SkipSchemaWizard>
     <SortItems>アイテムを並べ替える</SortItems>
     <Synchronize>同期</Synchronize>
@@ -1532,6 +1537,7 @@
     <Default>デフォルト</Default>
     <DefaultSaveFormat>デフォルト保存形式</DefaultSaveFormat>
     <DefaultScriptMode>デフォルトのスクリプトモード</DefaultScriptMode>
+    <DesignSize>デザインサイズ</DesignSize>
     <Drawing>お絵かき</Drawing>
     <DrawMarkersWhenMoving>移動時にマーカーを描く</DrawMarkersWhenMoving>
     <EditAfterInsert>挿入後に編集</EditAfterInsert>
@@ -1577,11 +1583,13 @@
     <ShowDialogForms>ダイアログ・フォームを表示する</ShowDialogForms>
     <ShowDimensionLines>寸法線を表示する</ShowDimensionLines>
     <ShowOldGaugeEditor>古いゲージエディタを表示する</ShowOldGaugeEditor>
+    <ShowSearch>検索を表示</ShowSearch>
     <ShowSmartGuides>スマートガイドを表示する</ShowSmartGuides>
     <StartScreen>スタート画面</StartScreen>
     <title>オプション</title>
     <UseComponentColor>充填に部品カラーを使用する</UseComponentColor>
     <UseLastFormat>最後の書式を使用する</UseLastFormat>
+    <ViewSize>ビューサイズ</ViewSize>
     <Welcome>ようこそ</Welcome>
   </FormOptions>
   <FormPageSetup>
@@ -1692,6 +1700,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>グラフウィザード</ChartWizardForm>
+    <CodeEditorForm>コードエディター</CodeEditorForm>
     <ConditionEditorForm>条件</ConditionEditorForm>
     <ConnectionSelectForm>接続のタイプを選択</ConnectionSelectForm>
     <ContainerSelectForm>コンテナを選択</ContainerSelectForm>
@@ -2016,7 +2025,7 @@
     <CompilationAccessAsk>文書がコンパイルプロセスを使用する場合、事前に定義されたアクションを含む警告ウィンドウが表示されます。</CompilationAccessAsk>
     <CompilationAccessDeny>コンパイルプロセスを使用する文書を開くことを拒否する。特別なウィンドウが表示されます。</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>コンパイルを含む文書は、プロンプトなしで開かれるが、コンパイル・プロセスを使用しない解釈モードに自動的に変換される。</CompilationAccessForceInterpretation>
-    <CompilationModeEnabling>コンパイルモードに切り替わっています。このモードでは異なるコードを実行することができ、時には有害な場合もあります。すべてのリスクを理解し、同意できる場合のみこのモードを使用してください。0}ボタンをクリックして次に進んでください。</CompilationModeEnabling>
+    <CompilationModeEnabling>コンパイルモードに切り替わっています。このモードでは異なるコードを実行することができ、時には有害な場合もあります。すべてのリスクを理解し、同意できる場合のみこのモードを使用してください。{0}ボタンをクリックして次に進んでください。</CompilationModeEnabling>
     <ComponentSize>選択した部品のサイズを変更します。</ComponentSize>
     <CopyStyle>スタイルコピー</CopyStyle>
     <CopyToClipboard>クリップボードコピー</CopyToClipboard>
@@ -2098,6 +2107,7 @@
     <menuViewShowSmartGuides>スマートガイドを表示して、コンポーネントを相対的に配置する。</menuViewShowSmartGuides>
     <MoveBackward>ページに部品を配置する順序で、部品を1つ上のレベルに移動します。</MoveBackward>
     <MoveForward>ページ上に部品を配置する順序で部品を1つ下のレベルに移動します。</MoveForward>
+    <NotPossibleEnableCompilationMode>このレポートに対してコンパイルモードを有効にすることはできません。「デザイナー設定」の「コンパイルアクセス」オプションによって禁止されています。</NotPossibleEnableCompilationMode>
     <Orientation>縦横レイアウトのページを切り替えます。</Orientation>
     <PageDelete>レポートから現在のページを削除します。</PageDelete>
     <PageNew>新規ページを作成します。</PageNew>
@@ -2431,6 +2441,7 @@
     <ActivationMaxActivationsReached1>から、登録したコンピューターを管理することができます。</ActivationMaxActivationsReached1>
     <ActivationMaxActivationsReached2>Stimulsoft アカウントです。</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>サブスクリプションに使用できるコンピューターの最大数をすでに登録しています。</ActivationMaxComputersReached>
+    <ActivationMaxDeactivationsReached>デバイスの無効化はできません。この操作の上限に達しました。営業部門(sales@stimulsoft.com)にお問い合わせください！</ActivationMaxDeactivationsReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Serverは現在利用できません！ 後でもう一度お試しください。</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>サブスクリプションプログラムが期限切れになったため、Stimulsoft Serverのこのバージョンをアクティブ化することはできません！ アカウントにログインし、インストールして有効にできるStimulsoft Serverのバージョンを確認してください。</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>有効化中にエラーが発生しました。 後でもう一度お試しください。</ActivationSomeTroublesOccurred>
@@ -2439,6 +2450,7 @@
     <ActivationTrialExtend2>その理由をお聞かせください。</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>あなたのユーザー名（電子メール）またはパスワードが間違っています！</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>あなたのアカウントタイプはStimulsoft Serverを有効にすることができません！</ActivationWrongAccountType>
+    <AITokensExhausted>トークンが使い果たされました！営業部門(sales@stimulsoft.com)にお問い合わせください！</AITokensExhausted>
     <Alert>アラート</Alert>
     <AuthAccountAlreadyExists>このユーザー名（Eメール）のアカウントはすでに存在します。{0}アカウントと関連付けるには、Stimulsoftアカウントのパスワードを使用してください。</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>アカウントは今使用できません！</AuthAccountCantBeUsedNow>
@@ -3494,6 +3506,7 @@
     <StiTextQualityTypographic>活字</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
     <StiTextSizeModeFit>フィット</StiTextSizeModeFit>
+    <StiTextSizeModeFitAndWordWrap>フィットとワードラップ</StiTextSizeModeFitAndWordWrap>
     <StiTextSizeModeTrimming>トリミング</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>ワードラップ</StiTextSizeModeWordWrap>
     <StiThemeAppearanceAuto>自動</StiThemeAppearanceAuto>
@@ -3797,6 +3810,7 @@
     <CellDockStyle>セルドックスタイル</CellDockStyle>
     <CellForeColor>セル前景色</CellForeColor>
     <CellHeight>セルの高さ</CellHeight>
+    <Cells>セル</Cells>
     <CellType>セル型</CellType>
     <CellWidth>セル幅</CellWidth>
     <Center>センター</Center>
@@ -3881,6 +3895,9 @@
     <DataAdapter>データアダプタ</DataAdapter>
     <DataAdapters>データアダプタ</DataAdapters>
     <DataBarCondition>データバーの状態</DataBarCondition>
+    <DataBarsNegative>負のデータバー</DataBarsNegative>
+    <DataBarsOverlapped>重なったデータバー</DataBarsOverlapped>
+    <DataBarsPositive>正のデータバー</DataBarsPositive>
     <DataBindings>データバインディング</DataBindings>
     <DataCells>データセル</DataCells>
     <DataColor>データ色</DataColor>
@@ -3969,6 +3986,7 @@
     <Expand>拡大</Expand>
     <Exponential>指数関数的</Exponential>
     <ExportAsImage>イメージとしてエクスポート</ExportAsImage>
+    <ExportSettings>エクスポート設定</ExportSettings>
     <Expression>式</Expression>
     <ExtensionDigit>内線番号</ExtensionDigit>
     <EyeBallBrush>アイボールブラシ</EyeBallBrush>
@@ -4125,6 +4143,9 @@
     <Increment>インクリメント</Increment>
     <Indent>インデント</Indent>
     <Indicator>インジケーター</Indicator>
+    <IndicatorNegative>負のインジケーター</IndicatorNegative>
+    <IndicatorNeutral>中立のインジケーター</IndicatorNeutral>
+    <IndicatorPositive>正のインジケーター</IndicatorPositive>
     <IndicatorValue>指標値</IndicatorValue>
     <IndividualColor>単一色</IndividualColor>
     <InitBy>イニシエータ</InitBy>
@@ -4217,6 +4238,8 @@
     <ListOfValuesLow>低い値のリスト</ListOfValuesLow>
     <ListOfValuesOpen>値のリストを開く</ListOfValuesOpen>
     <ListOfWeights>重みのリスト</ListOfWeights>
+    <ListOfXValues>X値のリスト</ListOfXValues>
+    <ListOfYValues>Y値のリスト</ListOfYValues>
     <Localizable>ローカライズ可能な</Localizable>
     <Location>ロケーション</Location>
     <Locked>ロックする</Locked>
@@ -4511,6 +4534,7 @@
     <ShiftMode>シフトモード</ShiftMode>
     <ShortName>短い名前</ShortName>
     <ShortValue>短い値</ShortValue>
+    <Show3D>3Dを表示</Show3D>
     <ShowAllValue>すべての値を表示</ShowAllValue>
     <ShowBehind>後ろに表示</ShowBehind>
     <ShowBlanks>ブランクを表示</ShowBlanks>
@@ -4547,6 +4571,7 @@
     <ShowZeros>ゼロ表示</ShowZeros>
     <ShrinkFontToFit>フォント縮小</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>フォントを縮小して最小サイズに適合</ShrinkFontToFitMinimumSize>
+    <ShrinkToFit>フィット縮小</ShrinkToFit>
     <Side>側</Side>
     <SideBySide>サイド・バイ・サイド</SideBySide>
     <Sides>サイド</Sides>
@@ -4573,6 +4598,7 @@
     <Space>スペース</Space>
     <SpaceRatio>スペース比率</SpaceRatio>
     <Spacing>間隔</Spacing>
+    <Sparkline>スパークライン</Sparkline>
     <SqlCommand>SQLコマンド</SqlCommand>
     <StartAngle>開始角度</StartAngle>
     <StartCap>スタートキャップ</StartCap>
@@ -4760,14 +4786,20 @@
     <Weights>重み</Weights>
     <Width>幅</Width>
     <WindowState>ウィンドウ状態</WindowState>
+    <WinLossNegative>負の勝敗</WinLossNegative>
+    <WinLossPositive>正の勝敗</WinLossPositive>
     <WordWrap>単語単位の改行</WordWrap>
     <Wrap>ラップ</Wrap>
     <WrapGap>ラップギャップ</WrapGap>
     <WrapLine>ラップライン</WrapLine>
     <XAxis>X軸</XAxis>
     <XTopAxis>Xトップ軸</XTopAxis>
+    <XValue>X値</XValue>
+    <XValuesDataColumn>X値データ列</XValuesDataColumn>
     <YAxis>Y軸</YAxis>
     <YRightAxis>Y右軸</YRightAxis>
+    <YValue>Y値</YValue>
+    <YValuesDataColumn>Y値データ列</YValuesDataColumn>
     <ZeroColor>ゼロカラー</ZeroColor>
     <Zoom>ズーム</Zoom>
   </PropertyMain>
@@ -4955,6 +4987,7 @@
     <Gallery>ギャラリー</Gallery>
     <GenerateNewCode>新規コードを生成</GenerateNewCode>
     <History>履歴</History>
+    <IfEmpty>{0} が空の場合</IfEmpty>
     <Infographics>視覚化</Infographics>
     <InfoMessage>{0} - {1}が見つかりました。</InfoMessage>
     <InformationMessages>情報メッセージ</InformationMessages>
@@ -5204,6 +5237,21 @@
     <SignatureSavedSuccessfully>署名が正常に保存されました。</SignatureSavedSuccessfully>
     <UseBrush>ブラシを使用する</UseBrush>
   </Signature>
+  <StimulAI>
+    <ChangedWithAI>Stimul AIによって変更されました</ChangedWithAI>
+    <CheckExpressionSuccess>指定された式に問題はありませんでした。</CheckExpressionSuccess>
+    <CheckQuery>クエリをチェック</CheckQuery>
+    <CheckWithStimulAI>Stimul AIでチェック</CheckWithStimulAI>
+    <ConnectionStringExampleWithAI>Stimul AIを使用した接続文字列のサンプル</ConnectionStringExampleWithAI>
+    <ConnectionStringTesting>接続文字列のテスト</ConnectionStringTesting>
+    <ExplainQuery>クエリを説明</ExplainQuery>
+    <FixWithAI>Stimul AIで修正</FixWithAI>
+    <GenerateNewQuery>新しいクエリを生成</GenerateNewQuery>
+    <OptimizeQuery>クエリを最適化</OptimizeQuery>
+    <QueryWithStimulAI>Stimul AIを使用したクエリ</QueryWithStimulAI>
+    <Try>Stimul AIで試す</Try>
+    <TryConvertScriptToBlockly>以前の{0}スクリプトを{1}スクリプトに変換してみてください。</TryConvertScriptToBlockly>
+  </StimulAI>
   <SystemVariables>
     <Column>現在の列番号を返します（1から始まります）。</Column>
     <GroupLine>現在のグループ行番号を返します（1から始まります）。</GroupLine>
@@ -5323,11 +5371,16 @@
   <UserFunctionEditor>
     <ArgumentName>引数名</ArgumentName>
     <ArgumentType>引数タイプ</ArgumentType>
+    <ConvertScript>スクリプトを変換</ConvertScript>
     <CustomCategory>カスタム・カテゴリー</CustomCategory>
+    <EditCode>コードを編集</EditCode>
+    <EditWithBlockly>Blocklyで編集</EditWithBlockly>
     <ReturnType>リターン・タイプ</ReturnType>
     <Script>スクリプト</Script>
     <ScriptMode>スクリプトモード</ScriptMode>
     <Title>ユーザー機能</Title>
+    <UserFunctionEdit>ユーザーファンクションを編集</UserFunctionEdit>
+    <UserFunctionNew>新しいユーザーファンクション</UserFunctionNew>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>このウィンドウを閉じてもよろしいですか？すべてのダウンロードはキャンセルされます。</AllDownloadsWillCanceled>

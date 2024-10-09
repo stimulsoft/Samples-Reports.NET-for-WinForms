@@ -232,6 +232,8 @@
     <LegendSpacing>Khoảng cách</LegendSpacing>
     <Line>Đường thẳng</Line>
     <ListOfValues>Danh sách giá trị</ListOfValues>
+    <ListOfXValues>Danh sách giá trị X</ListOfXValues>
+    <ListOfYValues>Danh sách giá trị Y</ListOfYValues>
     <Marker>Đánh dấu</Marker>
     <MoveConstantLineDown>Di chuyển đường cố định xuống</MoveConstantLineDown>
     <MoveConstantLineUp>Di chuyển đường cố định lên</MoveConstantLineUp>
@@ -923,6 +925,7 @@
     <FindWhat>Tìm gì:</FindWhat>
     <FromCursor>Từ con trỏ</FromCursor>
     <GotoLine>Đi tới dòng</GotoLine>
+    <InsertField>Chèn trường</InsertField>
     <InsertLink>Chèn đường dẫn</InsertLink>
     <InsertSymbol>Chèn biểu tượng</InsertSymbol>
     <Line>Dòng: {0}</Line>
@@ -1302,6 +1305,7 @@
     <InformixEdit>Chỉnh sửa kết nối Informix</InformixEdit>
     <InformixNew>Tạo mới kết nối Informix</InformixNew>
     <InitialCatalog>Mục ban đầu:</InitialCatalog>
+    <InsertSampleConnectionString>Chèn chuỗi kết nối mẫu</InsertSampleConnectionString>
     <JsonEdit>Chỉnh sửa dữ liệu JSON</JsonEdit>
     <JsonNew>Tạo mới dữ liệu JSON</JsonNew>
     <MySQLEdit>Chỉnh sửa kết nối MySQL</MySQLEdit>
@@ -1455,6 +1459,7 @@
     <RetrievingDatabaseInformation>Lấy thông tin cơ sở dữ liệu...</RetrievingDatabaseInformation>
     <Run>Thực thi</Run>
     <SelectTypeOfBusinessObject>Chọn loại đối tượng công việc</SelectTypeOfBusinessObject>
+    <ShowMoreDataSources>Hiển thị thêm nguồn dữ liệu</ShowMoreDataSources>
     <SkipSchemaWizard>Bỏ qua thuật sĩ lược đồ</SkipSchemaWizard>
     <SortItems>Sắp xếp các mục</SortItems>
     <Synchronize>Đồng bộ hóa</Synchronize>
@@ -1533,6 +1538,7 @@
     <Default>Mặc định</Default>
     <DefaultSaveFormat>Định dạng lưu mặc định</DefaultSaveFormat>
     <DefaultScriptMode>Chế độ tập lệnh mặc định</DefaultScriptMode>
+    <DesignSize>Kích thước thiết kế</DesignSize>
     <Drawing>Vẽ</Drawing>
     <DrawMarkersWhenMoving>Vẽ đánh dấu khi di chuyển</DrawMarkersWhenMoving>
     <EditAfterInsert>Chỉnh sửa sau khi chèn</EditAfterInsert>
@@ -1578,11 +1584,13 @@
     <ShowDialogForms>Hiển thị hộp thoại</ShowDialogForms>
     <ShowDimensionLines>Hiển thị các dòng kích thước</ShowDimensionLines>
     <ShowOldGaugeEditor>Hiển thị trình chỉnh sửa thước đo cũ</ShowOldGaugeEditor>
+    <ShowSearch>Hiển thị tìm kiếm</ShowSearch>
     <ShowSmartGuides>Hiển thị Hướng dẫn thông minh</ShowSmartGuides>
     <StartScreen>Màn hình bắt đầu</StartScreen>
     <title>Tùy chọn</title>
     <UseComponentColor>Sử dụng màu của thành phần để đổ đầy</UseComponentColor>
     <UseLastFormat>Sử dụng định dạng cuối cùng</UseLastFormat>
+    <ViewSize>Kích thước xem</ViewSize>
     <Welcome>Chào mừng</Welcome>
   </FormOptions>
   <FormPageSetup>
@@ -1693,6 +1701,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Thuật sĩ biểu đồ</ChartWizardForm>
+    <CodeEditorForm>Trình soạn thảo mã</CodeEditorForm>
     <ConditionEditorForm>Điều kiện</ConditionEditorForm>
     <ConnectionSelectForm>Chọn loại kết nối</ConnectionSelectForm>
     <ContainerSelectForm>Chọn thành phần chứa</ContainerSelectForm>
@@ -2099,6 +2108,7 @@
     <menuViewShowSmartGuides>Hiển thị Hướng dẫn thông minh để định vị các thành phần liên quan đến nhau.</menuViewShowSmartGuides>
     <MoveBackward>Di chuyển một thành phần đến một cấp độ cao hơn theo thứ tự đặt các thành phần trên một trang.</MoveBackward>
     <MoveForward>Di chuyển một thành phần đến một cấp độ thấp hơn theo thứ tự đặt các thành phần trên một trang.</MoveForward>
+    <NotPossibleEnableCompilationMode>Không thể kích hoạt chế độ biên dịch cho báo cáo. Điều này bị cấm bởi tùy chọn 'Quyền truy cập biên dịch' trong cài đặt trình thiết kế.</NotPossibleEnableCompilationMode>
     <Orientation>Chuyển đổi các trang giữa bố cục dọc và ngang.</Orientation>
     <PageDelete>Xóa trang hiện tại khỏi một báo cáo.</PageDelete>
     <PageNew>Tạo một trang mới.</PageNew>
@@ -2438,6 +2448,7 @@
     <ActivationMaxActivationsReached1>Bạn có thể quản lý các máy tính đã đăng ký từ </ActivationMaxActivationsReached1>
     <ActivationMaxActivationsReached2>Tài khoản Stimulsoft.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>Bạn đã đăng ký số lượng máy tính tối đa có sẵn cho loại tài khoản của mình.</ActivationMaxComputersReached>
+    <ActivationMaxDeactivationsReached>Không thể hủy kích hoạt thiết bị vì bạn đã đạt đến giới hạn cho thao tác này. Vui lòng liên hệ với bộ phận bán hàng của chúng tôi tại sales@stimulsoft.com!</ActivationMaxDeactivationsReached>
     <ActivationServerIsNotAvailableNow>Máy chủ kích hoạt Stimulsoft hiện không có sẵn! Vui lòng thử lại sau.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Bạn không thể kích hoạt phiên bản này của Stimulsoft Server bởi vì thời gian sử dụng của bạn đã hết hạn! Vui lòng đăng nhập vào tài khoản của bạn và kiểm tra phiên bản nào của Stimulsoft Server bạn có thể cài đặt và kích hoạt.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Đã xảy ra lỗi khi kích hoạt. Vui lòng thử lại sau.</ActivationSomeTroublesOccurred>
@@ -2446,6 +2457,7 @@
     <ActivationTrialExtend2>nói cho chúng tôi tại sao.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Tên người dùng (thư điện tử) hoặc mật khẩu của bạn sai!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Loại tài khoản của bạn không được cho phép kích hoạt Stimulsoft Server!</ActivationWrongAccountType>
+    <AITokensExhausted>Tokens của bạn đã hết! Vui lòng liên hệ với bộ phận bán hàng của chúng tôi tại sales@stimulsoft.com!</AITokensExhausted>
     <Alert>Cảnh báo</Alert>
     <AuthAccountAlreadyExists>Tài khoản có Tên người dùng (email) này đã tồn tại. Để liên kết nó với tài khoản {0} của bạn, vui lòng sử dụng mật khẩu tài khoản Stimulsoft của bạn.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>Không thể sử dụng tài khoản ngay bây giờ!</AuthAccountCantBeUsedNow>
@@ -3516,6 +3528,7 @@
     <StiTextQualityTypographic>In</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
     <StiTextSizeModeFit>Vừa vặn</StiTextSizeModeFit>
+    <StiTextSizeModeFitAndWordWrap>Vừa khít và xuống dòng</StiTextSizeModeFitAndWordWrap>
     <StiTextSizeModeTrimming>Cắt</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>Ngắt từ</StiTextSizeModeWordWrap>
     <StiThemeAppearanceAuto>Tự động</StiThemeAppearanceAuto>
@@ -3819,6 +3832,7 @@
     <CellDockStyle>Phông cách ô chứa</CellDockStyle>
     <CellForeColor>Màu viền ô</CellForeColor>
     <CellHeight>Chiều cao ô</CellHeight>
+    <Cells>Ô</Cells>
     <CellType>Loại ô</CellType>
     <CellWidth>Chiều rộng ô</CellWidth>
     <Center>Giữa</Center>
@@ -3903,6 +3917,9 @@
     <DataAdapter>Bộ điều hợp dữ liệu</DataAdapter>
     <DataAdapters>Các bộ điều hợp dữ liệu</DataAdapters>
     <DataBarCondition>Điều kiện thanh dữ liệu</DataBarCondition>
+    <DataBarsNegative>Thanh dữ liệu âm</DataBarsNegative>
+    <DataBarsOverlapped>Thanh dữ liệu chồng lấp</DataBarsOverlapped>
+    <DataBarsPositive>Thanh dữ liệu dương</DataBarsPositive>
     <DataBindings>Liên kết dữ liệu</DataBindings>
     <DataCells>Các ô dữ liệu</DataCells>
     <DataColor>Màu dữ liệu</DataColor>
@@ -3991,6 +4008,7 @@
     <Expand>Mở rộng</Expand>
     <Exponential>Lũy thừa</Exponential>
     <ExportAsImage>Xuất như hình ảnh</ExportAsImage>
+    <ExportSettings>Cài đặt xuất</ExportSettings>
     <Expression>Biểu thức</Expression>
     <ExtensionDigit>Số phần mở rộng</ExtensionDigit>
     <EyeBallBrush>Cọ bóng mắt</EyeBallBrush>
@@ -4147,6 +4165,9 @@
     <Increment>Tăng</Increment>
     <Indent>Thụt lề</Indent>
     <Indicator>Chỉ số</Indicator>
+    <IndicatorNegative>Chỉ số âm</IndicatorNegative>
+    <IndicatorNeutral>Chỉ số trung tính</IndicatorNeutral>
+    <IndicatorPositive>Chỉ số dương</IndicatorPositive>
     <IndicatorValue>Giá trị chỉ số</IndicatorValue>
     <IndividualColor>Màu cá nhân</IndividualColor>
     <InitBy>Khởi đầu bởi</InitBy>
@@ -4239,6 +4260,8 @@
     <ListOfValuesLow>Danh sách giá trị thấp</ListOfValuesLow>
     <ListOfValuesOpen>Danh sách giá trị mở</ListOfValuesOpen>
     <ListOfWeights>Danh sách trọng số </ListOfWeights>
+    <ListOfXValues>Danh sách giá trị X</ListOfXValues>
+    <ListOfYValues>Danh sách giá trị Y</ListOfYValues>
     <Localizable>Cá nhân hóa</Localizable>
     <Location>Vị trí</Location>
     <Locked>Khóa</Locked>
@@ -4533,6 +4556,7 @@
     <ShiftMode>Chế độ ca</ShiftMode>
     <ShortName>Tên ngắn</ShortName>
     <ShortValue>Giá trị ngắn</ShortValue>
+    <Show3D>Hiển thị 3D</Show3D>
     <ShowAllValue>Hiển thị tất cả giá trị</ShowAllValue>
     <ShowBehind>Hiển thị đằng sau</ShowBehind>
     <ShowBlanks>Hiển thị Trống</ShowBlanks>
@@ -4569,6 +4593,7 @@
     <ShowZeros>Hiển thị số không</ShowZeros>
     <ShrinkFontToFit>Co nhỏ phông chữ để phù hợp</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Co nhỏ phông chữ để phù hợp với kích cỡ nhỏ nhất</ShrinkFontToFitMinimumSize>
+    <ShrinkToFit>Co lại vừa khít</ShrinkToFit>
     <Side>Bên</Side>
     <SideBySide>Cạnh bên nhau</SideBySide>
     <Sides>Các bên</Sides>
@@ -4595,6 +4620,7 @@
     <Space>Không gian</Space>
     <SpaceRatio>Tỷ lệ không gian</SpaceRatio>
     <Spacing>Khoảng cách</Spacing>
+    <Sparkline>Đồ thị mini</Sparkline>
     <SqlCommand>Lệnh Sql</SqlCommand>
     <StartAngle>Góc bắt đầu</StartAngle>
     <StartCap>Chữ in hoa bắt đầu</StartCap>
@@ -4782,14 +4808,20 @@
     <Weights>Các trọng số</Weights>
     <Width>Chiều rộng</Width>
     <WindowState>Trạng thái cửa sổ</WindowState>
+    <WinLossNegative>Thắng thua âm</WinLossNegative>
+    <WinLossPositive>Thắng thua dương</WinLossPositive>
     <WordWrap>Ngắt từ</WordWrap>
     <Wrap>Bao bọc</Wrap>
     <WrapGap>Khoảng cách dòng bao bọc</WrapGap>
     <WrapLine>Dây quấn</WrapLine>
     <XAxis>Trục X</XAxis>
     <XTopAxis>Trục X trên</XTopAxis>
+    <XValue>Giá trị X</XValue>
+    <XValuesDataColumn>Cột dữ liệu giá trị X</XValuesDataColumn>
     <YAxis>Trục Y</YAxis>
     <YRightAxis>Trục Y phải</YRightAxis>
+    <YValue>Giá trị Y</YValue>
+    <YValuesDataColumn>Cột dữ liệu giá trị Y</YValuesDataColumn>
     <ZeroColor>Không màu</ZeroColor>
     <Zoom>Thu phóng</Zoom>
   </PropertyMain>
@@ -4977,6 +5009,7 @@
     <Gallery>Bộ sưu tập</Gallery>
     <GenerateNewCode>Tạo mã mới</GenerateNewCode>
     <History>Lịch sử</History>
+    <IfEmpty>Nếu {0} trống</IfEmpty>
     <Infographics>Biểu đồ thông tin</Infographics>
     <InfoMessage>{0} - {1} đã được tìm thấy.</InfoMessage>
     <InformationMessages>Thông báo thông tin</InformationMessages>
@@ -5226,6 +5259,21 @@
     <SignatureSavedSuccessfully>Chữ ký đã được lưu thành công.</SignatureSavedSuccessfully>
     <UseBrush>Sử dụng cọ</UseBrush>
   </Signature>
+  <StimulAI>
+    <ChangedWithAI>Đã thay đổi với Stimul AI</ChangedWithAI>
+    <CheckExpressionSuccess>Không tìm thấy vấn đề trong biểu thức đã chỉ định.</CheckExpressionSuccess>
+    <CheckQuery>Kiểm tra truy vấn</CheckQuery>
+    <CheckWithStimulAI>Kiểm tra với Stimul AI</CheckWithStimulAI>
+    <ConnectionStringExampleWithAI>Mẫu chuỗi kết nối với Stimul AI</ConnectionStringExampleWithAI>
+    <ConnectionStringTesting>Kiểm tra chuỗi kết nối</ConnectionStringTesting>
+    <ExplainQuery>Giải thích truy vấn</ExplainQuery>
+    <FixWithAI>Sửa với Stimul AI</FixWithAI>
+    <GenerateNewQuery>Tạo truy vấn mới</GenerateNewQuery>
+    <OptimizeQuery>Tối ưu hóa truy vấn</OptimizeQuery>
+    <QueryWithStimulAI>Truy vấn với Stimul AI</QueryWithStimulAI>
+    <Try>Thử với Stimul AI</Try>
+    <TryConvertScriptToBlockly>Thử chuyển đổi script {0} trước đó thành script {1}.</TryConvertScriptToBlockly>
+  </StimulAI>
   <SystemVariables>
     <Column>Trả về số cột hiện tại (bắt đầu từ 1).</Column>
     <GroupLine>Trả về số dòng nhóm hiện tại (bắt đầu từ 1).</GroupLine>
@@ -5345,11 +5393,16 @@
   <UserFunctionEditor>
     <ArgumentName>Tên đối số</ArgumentName>
     <ArgumentType>Kiểu đối số</ArgumentType>
+    <ConvertScript>Chuyển đổi script</ConvertScript>
     <CustomCategory>Danh mục tùy chỉnh</CustomCategory>
+    <EditCode>Chỉnh sửa mã</EditCode>
+    <EditWithBlockly>Chỉnh sửa với blockly</EditWithBlockly>
     <ReturnType>Kiểu trả về</ReturnType>
     <Script>Kịch bản</Script>
     <ScriptMode>Chế độ kịch bản</ScriptMode>
     <Title>Hàm người dùng</Title>
+    <UserFunctionEdit>Chỉnh sửa hàm người dùng</UserFunctionEdit>
+    <UserFunctionNew>Hàm người dùng mới</UserFunctionNew>
   </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Bạn có chắc chắn muốn đóng cửa sổ này? Tất cả các tải xuống sẽ bị hủy bỏ.</AllDownloadsWillCanceled>
