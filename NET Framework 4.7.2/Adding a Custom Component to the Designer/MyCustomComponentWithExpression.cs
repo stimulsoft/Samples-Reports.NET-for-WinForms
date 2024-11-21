@@ -11,6 +11,8 @@ using Stimulsoft.Report.Events;
 using Stimulsoft.Report.Engine;
 using Stimulsoft.Report.Components.Design;
 using Stimulsoft.Report.Painters;
+using Stimulsoft.Base.Json.Linq;
+using Stimulsoft.Base;
 
 namespace Adding_a_Custom_Component_to_the_Designer
 {
@@ -24,11 +26,49 @@ namespace Adding_a_Custom_Component_to_the_Designer
     [StiGdiPainter(typeof(MyCustomComponentWithExpressionGdiPainter))]
 	public class MyCustomComponentWithExpression : StiComponent
 	{
-		#region StiComponent override
-		/// <summary>
-		/// Gets value to sort a position in the toolbox.
-		/// </summary>
-		public override int ToolboxPosition
+        #region IStiJsonReportObject.override
+        public override JObject SaveToJsonObject(StiJsonSaveMode mode)
+        {
+            var jObject = base.SaveToJsonObject(mode);
+
+            if (mode == StiJsonSaveMode.Report)
+                jObject.AddPropertyJObject(nameof(CustomCode), CustomCode.SaveToJsonObject(mode));
+
+            else
+                jObject.AddPropertyString(nameof(CustomCodeValue), CustomCodeValue);
+
+            return jObject;
+        }
+
+        public override void LoadFromJsonObject(JObject jObject)
+        {
+            base.LoadFromJsonObject(jObject);
+
+            foreach (var property in jObject.Properties())
+            {
+                switch (property.Name)
+                {
+                    case nameof(CustomCode):
+                        {
+                            var _expression = new StiCustomCodeExpression();
+                            _expression.LoadFromJsonObject((JObject)property.Value);
+                            CustomCode = _expression;
+                        }
+                        break;
+
+                    case nameof(CustomCodeValue):
+                        CustomCodeValue = property.DeserializeString();
+                        break;
+                }
+            }
+        }
+        #endregion
+
+        #region StiComponent override
+        /// <summary>
+        /// Gets value to sort a position in the toolbox.
+        /// </summary>
+        public override int ToolboxPosition
 		{
 			get
 			{

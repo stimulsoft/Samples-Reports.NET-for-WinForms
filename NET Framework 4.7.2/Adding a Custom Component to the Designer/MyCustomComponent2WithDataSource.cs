@@ -10,6 +10,8 @@ using Stimulsoft.Report.Components;
 using Stimulsoft.Report.Dictionary;
 using Stimulsoft.Report.Events;
 using Stimulsoft.Report.Components.Design;
+using Stimulsoft.Base.Json.Linq;
+using Stimulsoft.Base;
 
 namespace Adding_a_Custom_Component_to_the_Designer
 {
@@ -21,11 +23,42 @@ namespace Adding_a_Custom_Component_to_the_Designer
 	[StiContextTool(typeof(IStiDataSource))]
 	public class MyCustomComponent2WithDataSource : StiComponent, IStiBorder, IStiBrush, IStiDataSource
 	{
-		#region IStiDataSource
-		/// <summary>
-		/// Get data source that is used for getting data.
-		/// </summary>
-		[Editor(typeof(StiDataSourceEditor), typeof(UITypeEditor))]
+        #region IStiJsonReportObject.override
+        public override JObject SaveToJsonObject(StiJsonSaveMode mode)
+        {
+            var jObject = base.SaveToJsonObject(mode);
+
+            jObject.AddPropertyBrush(nameof(Brush), Brush);
+            jObject.AddPropertyBorder(nameof(Border), Border);
+
+            return jObject;
+        }
+
+        public override void LoadFromJsonObject(JObject jObject)
+        {
+            base.LoadFromJsonObject(jObject);
+
+            foreach (var property in jObject.Properties())
+            {
+                switch (property.Name)
+                {
+                    case nameof(Brush):
+                        Brush = property.DeserializeBrush();
+                        break;
+
+                    case nameof(Border):
+                        Border = property.DeserializeBorder();
+                        break;
+                }
+            }
+        }
+        #endregion
+
+        #region IStiDataSource
+        /// <summary>
+        /// Get data source that is used for getting data.
+        /// </summary>
+        [Editor(typeof(StiDataSourceEditor), typeof(UITypeEditor))]
 		[TypeConverter(typeof(StiDataSourceConverter))]
 		[StiCategory("Data")]
 		[Description("Get data source that is used for getting data.")]
