@@ -3088,6 +3088,8 @@
     <StiColumnShape3DBox>박스</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>부분 피라미드</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>피라미드</StiColumnShape3DPyramid>
+    <StiColumnTypeProcessingCastToColumnType>열 유형으로 변환</StiColumnTypeProcessingCastToColumnType>
+    <StiColumnTypeProcessingLeaveUnprocessed>처리하지 않음</StiColumnTypeProcessingLeaveUnprocessed>
     <StiCompilationAccessAllow>허용</StiCompilationAccessAllow>
     <StiCompilationAccessAsk>질문</StiCompilationAccessAsk>
     <StiCompilationAccessDeny>거부</StiCompilationAccessDeny>
@@ -3240,6 +3242,8 @@
     <StiInteractionOnHoverShowToolTip>툴팁 보기</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>현재 탭</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>새 탭</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemFilterModeFullPath>전체 경로</StiItemFilterModeFullPath>
+    <StiItemFilterModeSelectedOnly>선택된 항목만</StiItemFilterModeSelectedOnly>
     <StiItemOrientationHorizontal>수평</StiItemOrientationHorizontal>
     <StiItemOrientationVertical>수직</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>멀티</StiItemSelectionModeMulti>
@@ -3719,6 +3723,7 @@
     <AllowUseTextBrush>텍스트 브러쉬의 사용을 허용</AllowUseTextBrush>
     <AllowUseTextFormat>텍스트 형식 사용허용</AllowUseTextFormat>
     <AllowUseTextOptions>텍스트 옵션의 사용을 허용</AllowUseTextOptions>
+    <AllowUseTitle>제목 사용 허용</AllowUseTitle>
     <AllowUseVertAlignment>Vert Alignment를 사용할 수 있도록하는</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>SQL 매개 변수로 사용을 허용</AllowUsingAsSqlParameter>
     <AlternatingBackColor>배경색 교대</AlternatingBackColor>
@@ -3802,6 +3807,7 @@
     <Cancel>취소</Cancel>
     <CanGrow>커질 수 있습니다</CanGrow>
     <CanShrink>축소 할 수 있습니다</CanShrink>
+    <CastToColumnType>열 유형으로 변환</CastToColumnType>
     <Categories>카테고리</Categories>
     <Category>카테고리</Category>
     <CategoryConnections>연결</CategoryConnections>
@@ -4684,10 +4690,12 @@
     <TickMarkMinorBrush>Tick 마크 부(마이너) 브러시</TickMarkMinorBrush>
     <Ticks>틱</Ticks>
     <Title>제목</Title>
+    <TitleBackColor>제목 배경색</TitleBackColor>
     <TitleBeforeHeader>헤더 이전 제목</TitleBeforeHeader>
     <TitleColor>제목 색상</TitleColor>
     <TitleDirection>제목 방향</TitleDirection>
     <TitleFont>제목 글꼴</TitleFont>
+    <TitleForeColor>제목 전경색</TitleForeColor>
     <TitleVisible>제목 표시</TitleVisible>
     <To>에</To>
     <Today>오늘</Today>
@@ -4902,6 +4910,7 @@
   <Questions>
     <qnConfiguration>속성 패널의 설정 유형을 선택하십시오. 선택한 구성 유형은 표시되는 속성의 수와 보고서 개발자의 복잡성에 따라 달라집니다. 속성 패널의 컨텍스트 메뉴에서 언제든지 설정 유형을 변경할 수 있습니다.</qnConfiguration>
     <qnCopyCategory>이 범주의 모든 변수를 복사하시겠습니까?</qnCopyCategory>
+    <qnCovertColumnType>열 유형을 변경했습니다. 이 데이터 소스에 대해 열 데이터 변환을 활성화하시겠습니까?</qnCovertColumnType>
     <qnDictionaryNew>새 사전을 만들 수 있습니까?</qnDictionaryNew>
     <qnLanguageNew>보고서의 언어를 변경했습니다. 그러면 새 보고서 코드가 생성됩니다. 당신은 새로운 언어를 보존하고 싶다고 생각하십니까?</qnLanguageNew>
     <qnPageDelete>페이지를 삭제 하시겠습니까?</qnPageDelete>
@@ -4986,6 +4995,7 @@
     <FromDefaultState>기본 상태</FromDefaultState>
     <Gallery>갤러리</Gallery>
     <GenerateNewCode>새로운 코드를 생성하는</GenerateNewCode>
+    <HideUnlistedExportsInTheViewer>뷰어에서 나열되지 않은 내보내기 숨기기</HideUnlistedExportsInTheViewer>
     <History>역사</History>
     <IfEmpty>{0}이(가) 비어 있으면</IfEmpty>
     <Infographics>인포그래픽</Infographics>
@@ -5247,6 +5257,7 @@
     <GenerateNewQuery>새 쿼리 생성</GenerateNewQuery>
     <OptimizeQuery>쿼리 최적화</OptimizeQuery>
     <QueryWithStimulAI>Stimul AI로 쿼리 실행</QueryWithStimulAI>
+    <Translate>Stimul AI를 사용하여 번역</Translate>
     <Try>Stimul AI로 시도</Try>
     <TryConvertScriptToBlockly>이전 {0} 스크립트를 {1} 스크립트로 변환해 보십시오.</TryConvertScriptToBlockly>
   </StimulAI>

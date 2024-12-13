@@ -3141,6 +3141,8 @@
     <StiColumnShape3DBox>Прямоугольник</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Усеченная пирамида</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Пирамида</StiColumnShape3DPyramid>
+    <StiColumnTypeProcessingCastToColumnType>Привести к типу колонки</StiColumnTypeProcessingCastToColumnType>
+    <StiColumnTypeProcessingLeaveUnprocessed>Оставить необработанным</StiColumnTypeProcessingLeaveUnprocessed>
     <StiCompilationAccessAllow>Разрешить</StiCompilationAccessAllow>
     <StiCompilationAccessAsk>Спросить</StiCompilationAccessAsk>
     <StiCompilationAccessDeny>Запретить</StiCompilationAccessDeny>
@@ -3293,6 +3295,8 @@
     <StiInteractionOnHoverShowToolTip>Показать подсказку</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Текущая закладка</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Новая закладка</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemFilterModeFullPath>Полный путь</StiItemFilterModeFullPath>
+    <StiItemFilterModeSelectedOnly>Только выбранные</StiItemFilterModeSelectedOnly>
     <StiItemOrientationHorizontal>Горизонтально</StiItemOrientationHorizontal>
     <StiItemOrientationVertical>Вертикально</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Много элементов</StiItemSelectionModeMulti>
@@ -3776,6 +3780,7 @@
     <AllowUseTextBrush>Разрешить кисть текста</AllowUseTextBrush>
     <AllowUseTextFormat>Разрешить формат текста</AllowUseTextFormat>
     <AllowUseTextOptions>Разрешить параметры текста</AllowUseTextOptions>
+    <AllowUseTitle>Разрешить использовать заголовок</AllowUseTitle>
     <AllowUseVertAlignment>Разрешить верт. выравнивание</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Разрешить использовать как SQL параметр</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Альтернативный цвет фона</AlternatingBackColor>
@@ -3860,6 +3865,7 @@
     <Cancel>Отмена</Cancel>
     <CanGrow>Может расти</CanGrow>
     <CanShrink>Может сжиматься</CanShrink>
+    <CastToColumnType>Привести к типу колонки</CastToColumnType>
     <Categories>Категории</Categories>
     <Category>Категория</Category>
     <CategoryConnections>Соединения</CategoryConnections>
@@ -4748,10 +4754,12 @@
     <TickMarkMinorBrush>Кисть маркера вспомогательной метки</TickMarkMinorBrush>
     <Ticks>Метки</Ticks>
     <Title>Заголовок</Title>
+    <TitleBackColor>Цвет фона заголовка</TitleBackColor>
     <TitleBeforeHeader>Титул до заголовка</TitleBeforeHeader>
     <TitleColor>Цвет заголовка</TitleColor>
     <TitleDirection>Направление заголовка</TitleDirection>
     <TitleFont>Шрифт заголовка</TitleFont>
+    <TitleForeColor>Цвет текста заголовка</TitleForeColor>
     <TitleVisible>Доступность</TitleVisible>
     <To>По</To>
     <Today>Сегодня</Today>
@@ -4966,6 +4974,7 @@
   <Questions>
     <qnConfiguration>Пожалуйста, выберите тип конфигурации для панели свойств. От типа выбранной конфигурации зависит количество отображаемых свойств и их сложности для разработчика отчетов. Вы всегда сможете изменить тип конфигурации из контекстного меню панели свойств.</qnConfiguration>
     <qnCopyCategory>Скопировать все переменные из этой категории?</qnCopyCategory>
+    <qnCovertColumnType>Вы изменили тип колонки. Хотите ли вы включить преобразование данных колонки для этого источника данных?</qnCovertColumnType>
     <qnDictionaryNew>Создать новый словарь?</qnDictionaryNew>
     <qnLanguageNew>Вы изменили язык отчета, это приведет к генерации нового кода отчета. Вы уверены, что хотите сохранить новый язык?</qnLanguageNew>
     <qnPageDelete>Вы действительно хотите удалить страницу?</qnPageDelete>
@@ -5051,6 +5060,7 @@
     <FromDefaultState>Из состояния по умолчанию</FromDefaultState>
     <Gallery>Галерея</Gallery>
     <GenerateNewCode>Сгенерировать новый код</GenerateNewCode>
+    <HideUnlistedExportsInTheViewer>Скрыть неперечисленные экспорты во вьювере</HideUnlistedExportsInTheViewer>
     <History>История</History>
     <IfEmpty>Если {0} пустой</IfEmpty>
     <Infographics>Инфографика</Infographics>
@@ -5302,18 +5312,19 @@
     <UseBrush>Использовать кисть</UseBrush>
   </Signature>
   <StimulAI>
-    <ChangedWithAI>Изменить с помощью Stimul AI</ChangedWithAI>
+    <ChangedWithAI>Изменить с Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>В указанном выражении проблем не обнаружено.</CheckExpressionSuccess>
     <CheckQuery>Проверить запрос</CheckQuery>
     <CheckWithStimulAI>Проверить с Stimul AI</CheckWithStimulAI>
-    <ConnectionStringExampleWithAI>Примеры строки соединения с помощью Stimul AI</ConnectionStringExampleWithAI>
+    <ConnectionStringExampleWithAI>Примеры строки соединения с Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Проверка строки соединения</ConnectionStringTesting>
     <ExplainQuery>Пояснить запрос</ExplainQuery>
-    <FixWithAI>Исправить с помощью Stimul AI</FixWithAI>
+    <FixWithAI>Исправить с Stimul AI</FixWithAI>
     <GenerateNewQuery>Сгенерировать новый запрос</GenerateNewQuery>
     <OptimizeQuery>Оптимизировать запрос</OptimizeQuery>
-    <QueryWithStimulAI>Запрос с помощью Stimul AI</QueryWithStimulAI>
-    <Try>Попробовать с помощью Stimul AI</Try>
+    <QueryWithStimulAI>Запрос с Stimul AI</QueryWithStimulAI>
+    <Translate>Перевод с Stimul AI</Translate>
+    <Try>Попробовать с Stimul AI</Try>
     <TryConvertScriptToBlockly>Попробовать преобразовать предыдущий сценарий {0} в сценарий {1}.</TryConvertScriptToBlockly>
   </StimulAI>
   <SystemVariables>
