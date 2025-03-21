@@ -93,6 +93,40 @@
     <Post>提交</Post>
     <TwoDimensional>二维的</TwoDimensional>
   </BarCode>
+  <Blockly>
+    <AllComponents>所有组件</AllComponents>
+    <AllComponentsFrom>所有组件来自</AllComponentsFrom>
+    <ColorHex>颜色十六进制</ColorHex>
+    <ColumnName>列名称</ColumnName>
+    <DateTime>日期时间</DateTime>
+    <GetComponentByName>按名称获取组件</GetComponentByName>
+    <GetCurrentValue>获取当前值</GetCurrentValue>
+    <GetDataSourceByName>按名称获取数据源</GetDataSourceByName>
+    <GetProperty>获取属性</GetProperty>
+    <GetStyleByName>按名称获取样式</GetStyleByName>
+    <GetVariable>获取变量</GetVariable>
+    <IndexOfRow>行索引</IndexOfRow>
+    <Lists>列表</Lists>
+    <LocalVariables>局部变量</LocalVariables>
+    <Logic>逻辑</Logic>
+    <Loops>循环</Loops>
+    <Math>数学</Math>
+    <OfDataSource>的数据源</OfDataSource>
+    <OfObject>的对象</OfObject>
+    <OpenLink>打开链接</OpenLink>
+    <Process>进程</Process>
+    <Programming>编程</Programming>
+    <RefreshViewer>刷新查看器</RefreshViewer>
+    <SetCurrentValue>设置当前值</SetCurrentValue>
+    <SetProperty>设置属性</SetProperty>
+    <SetSqlCommand>设置 SQL 命令</SetSqlCommand>
+    <SetVariable>设置变量</SetVariable>
+    <Strings>字符串</Strings>
+    <ThisComponent>此组件</ThisComponent>
+    <ThisReport>此报告</ThisReport>
+    <To>到</To>
+    <Visuals>视觉效果</Visuals>
+  </Blockly>
   <Buttons>
     <Add>添加</Add>
     <AddAllColumns>添加所有列</AddAllColumns>
@@ -915,6 +949,7 @@
   </Dialogs>
   <Editor>
     <AllowSQLFormatting>允许SQL格式</AllowSQLFormatting>
+    <AutomaticallyGeneratedExpression>这是一个自动生成的表达式。</AutomaticallyGeneratedExpression>
     <BetweenMetrics>可从1到10中选取。</BetweenMetrics>
     <CantFind>找不到您所要查找的数据.</CantFind>
     <CollapseToDefinitions>折叠到定义(&amp;O)</CollapseToDefinitions>
@@ -3098,6 +3133,8 @@
     <StiColumnShape3DBox>Box</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Partial Pyramid</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Pyramid</StiColumnShape3DPyramid>
+    <StiColumnTypeProcessingCastToColumnType>转换为列类型</StiColumnTypeProcessingCastToColumnType>
+    <StiColumnTypeProcessingLeaveUnprocessed>保留未处理</StiColumnTypeProcessingLeaveUnprocessed>
     <StiCompilationAccessAllow>允许</StiCompilationAccessAllow>
     <StiCompilationAccessAsk>请求;</StiCompilationAccessAsk>
     <StiCompilationAccessDeny>拒绝</StiCompilationAccessDeny>
@@ -3250,6 +3287,8 @@
     <StiInteractionOnHoverShowToolTip>显示工具提示</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>当前标签</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>新标签</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemFilterModeFullPath>完整路径</StiItemFilterModeFullPath>
+    <StiItemFilterModeSelectedOnly>仅选中</StiItemFilterModeSelectedOnly>
     <StiItemOrientationHorizontal>横向</StiItemOrientationHorizontal>
     <StiItemOrientationVertical>纵向</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>多种</StiItemSelectionModeMulti>
@@ -3729,6 +3768,7 @@
     <AllowUseTextBrush>允许使用文本刷</AllowUseTextBrush>
     <AllowUseTextFormat>允许使用文本格式</AllowUseTextFormat>
     <AllowUseTextOptions>允许使用文本选项</AllowUseTextOptions>
+    <AllowUseTitle>允许使用标题</AllowUseTitle>
     <AllowUseVertAlignment>允许使用垂直对齐</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>允许作为结构化查询语言参数使用</AllowUsingAsSqlParameter>
     <AlternatingBackColor>交替背景色</AlternatingBackColor>
@@ -3812,6 +3852,7 @@
     <Cancel>取消</Cancel>
     <CanGrow>自动伸展</CanGrow>
     <CanShrink>自动收缩</CanShrink>
+    <CastToColumnType>转换为列类型</CastToColumnType>
     <Categories>分类</Categories>
     <Category>分类</Category>
     <CategoryConnections>连接</CategoryConnections>
@@ -4006,8 +4047,10 @@
     <FaqPage>FAQ</FaqPage>
     <Field>领域</Field>
     <FieldIs>字段是</FieldIs>
+    <Fields>字段</Fields>
     <Fifth>第五的</Fifth>
     <File>文件</File>
+    <FileId>文件 ID</FileId>
     <Fill>填充</Fill>
     <FillColor>颜色填充</FillColor>
     <Filter>过滤</Filter>
@@ -4016,6 +4059,7 @@
     <FilterMode>过滤模式</FilterMode>
     <FilterOn>启用过滤</FilterOn>
     <Filters>过滤</Filters>
+    <FiltersTarget>筛选器目标</FiltersTarget>
     <First>第一</First>
     <FirstTabOffset>首个制表符偏移</FirstTabOffset>
     <FixedHeight>固定高度</FixedHeight>
@@ -4500,6 +4544,8 @@
     <ScriptLanguage>脚本语言</ScriptLanguage>
     <ScrollTime>滚动时间</ScrollTime>
     <Second>第二</Second>
+    <SegmentCount>段数量</SegmentCount>
+    <SegmentIndex>段索引</SegmentIndex>
     <SegmentPerHeight>纵向连页</SegmentPerHeight>
     <SegmentPerWidth>横向连页</SegmentPerWidth>
     <SelectedBackColor>选定背景色</SelectedBackColor>
@@ -4697,10 +4743,12 @@
     <TickMarkMinorBrush>刻度线次要画刷</TickMarkMinorBrush>
     <Ticks>记号</Ticks>
     <Title>标题</Title>
+    <TitleBackColor>标题背景颜色</TitleBackColor>
     <TitleBeforeHeader>标题在页眉前</TitleBeforeHeader>
     <TitleColor>标题颜色</TitleColor>
     <TitleDirection>题目方向</TitleDirection>
     <TitleFont>标题字体</TitleFont>
+    <TitleForeColor>标题前景颜色</TitleForeColor>
     <TitleVisible>可见</TitleVisible>
     <To>到</To>
     <Today>当天</Today>
@@ -4915,6 +4963,7 @@
   <Questions>
     <qnConfiguration>请为属性面板选择配置的类型. 所选配置的类型依赖于课件属性的个数和它们对报表开发人员的复杂性.您可以通过属性面板的上下文菜单更改配置类型.</qnConfiguration>
     <qnCopyCategory>是否要复制此类别的所有变量</qnCopyCategory>
+    <qnCovertColumnType>您更改了列类型，是否要为此数据源启用列数据转换？</qnCovertColumnType>
     <qnDictionaryNew>您是否想要创建新的字典?</qnDictionaryNew>
     <qnLanguageNew>您已经改变报表语言。这将导致新的报表代码生成。 您是否确定要保存当前语言?</qnLanguageNew>
     <qnPageDelete>您是否想要删除页面?</qnPageDelete>
@@ -4971,6 +5020,8 @@
     <Charts>图表</Charts>
     <Checking>检查...</Checking>
     <ClickForMoreDetails>单击获得详细资料</ClickForMoreDetails>
+    <ClickHereToCreateNewCondition>点击此处创建新条件</ClickHereToCreateNewCondition>
+    <ClickHereToCreateNewField>点击此处创建新字段</ClickHereToCreateNewField>
     <CollapseAll>全部折叠</CollapseAll>
     <Collection>集合</Collection>
     <CompilationAccess>编译访问</CompilationAccess>
@@ -4999,6 +5050,7 @@
     <FromDefaultState>从默认状态</FromDefaultState>
     <Gallery>图库</Gallery>
     <GenerateNewCode>生成新代码</GenerateNewCode>
+    <HideUnlistedExportsInTheViewer>在查看器中隐藏未列出的导出</HideUnlistedExportsInTheViewer>
     <History>历史记录</History>
     <IfEmpty>如果｛0｝为空</IfEmpty>
     <Infographics>信息图</Infographics>
@@ -5261,6 +5313,7 @@
     <GenerateNewQuery>生成新查询</GenerateNewQuery>
     <OptimizeQuery>优化查询</OptimizeQuery>
     <QueryWithStimulAI>使用Stimul AI进行查询</QueryWithStimulAI>
+    <Translate>使用 Stimul AI 翻译</Translate>
     <Try>尝试使用Stimul AI</Try>
     <TryConvertScriptToBlockly>请尝试将以前的｛0｝脚本转换为｛1｝脚本。</TryConvertScriptToBlockly>
   </StimulAI>
