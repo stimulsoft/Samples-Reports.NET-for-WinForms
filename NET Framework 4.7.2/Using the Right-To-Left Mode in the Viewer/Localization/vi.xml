@@ -93,6 +93,40 @@
     <Post>Công bố</Post>
     <TwoDimensional>Hai chiều</TwoDimensional>
   </BarCode>
+  <Blockly>
+    <AllComponents>Tất cả thành phần</AllComponents>
+    <AllComponentsFrom>Tất cả thành phần từ</AllComponentsFrom>
+    <ColorHex>Mã màu HEX</ColorHex>
+    <ColumnName>Tên cột</ColumnName>
+    <DateTime>Ngày giờ</DateTime>
+    <GetComponentByName>Lấy thành phần theo tên</GetComponentByName>
+    <GetCurrentValue>Lấy giá trị hiện tại</GetCurrentValue>
+    <GetDataSourceByName>Lấy nguồn dữ liệu theo tên</GetDataSourceByName>
+    <GetProperty>Lấy thuộc tính</GetProperty>
+    <GetStyleByName>Lấy kiểu theo tên</GetStyleByName>
+    <GetVariable>Lấy biến</GetVariable>
+    <IndexOfRow>Chỉ số dòng</IndexOfRow>
+    <Lists>Danh sách</Lists>
+    <LocalVariables>Biến cục bộ</LocalVariables>
+    <Logic>Logic</Logic>
+    <Loops>Vòng lặp</Loops>
+    <Math>Toán học</Math>
+    <OfDataSource>của Nguồn dữ liệu</OfDataSource>
+    <OfObject>của Đối tượng</OfObject>
+    <OpenLink>Mở liên kết</OpenLink>
+    <Process>Xử lý</Process>
+    <Programming>Lập trình</Programming>
+    <RefreshViewer>Làm mới trình xem</RefreshViewer>
+    <SetCurrentValue>Đặt giá trị hiện tại</SetCurrentValue>
+    <SetProperty>Đặt thuộc tính</SetProperty>
+    <SetSqlCommand>Đặt lệnh SQL</SetSqlCommand>
+    <SetVariable>Đặt biến</SetVariable>
+    <Strings>Chuỗi</Strings>
+    <ThisComponent>Thành phần này</ThisComponent>
+    <ThisReport>Báo cáo này</ThisReport>
+    <To>Đến</To>
+    <Visuals>Giao diện</Visuals>
+  </Blockly>
   <Buttons>
     <Add>Thêm</Add>
     <AddAllColumns>Thêm tất cả các cột</AddAllColumns>
@@ -915,6 +949,7 @@
   </Dialogs>
   <Editor>
     <AllowSQLFormatting>Cho phép Định dạng SQL</AllowSQLFormatting>
+    <AutomaticallyGeneratedExpression>Đây là biểu thức được tạo tự động.</AutomaticallyGeneratedExpression>
     <BetweenMetrics>Có thể chọn từ 1 đến 10 số liệu. </BetweenMetrics>
     <CantFind>Không thể tìm thấy dữ liệu bạn đang tìm kiếm.</CantFind>
     <CollapseToDefinitions>Thu gọn để định nghĩa</CollapseToDefinitions>
@@ -3095,6 +3130,8 @@
     <StiColumnShape3DBox>Hộp</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Một phần kim tự tháp</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Kim tự tháp</StiColumnShape3DPyramid>
+    <StiColumnTypeProcessingCastToColumnType>Chuyển đổi sang kiểu cột</StiColumnTypeProcessingCastToColumnType>
+    <StiColumnTypeProcessingLeaveUnprocessed>Giữ nguyên không xử lý</StiColumnTypeProcessingLeaveUnprocessed>
     <StiCompilationAccessAllow>Cho phép</StiCompilationAccessAllow>
     <StiCompilationAccessAsk>Hỏi</StiCompilationAccessAsk>
     <StiCompilationAccessDeny>Từ chối</StiCompilationAccessDeny>
@@ -3247,6 +3284,8 @@
     <StiInteractionOnHoverShowToolTip>Hiển thị mẹo công cụ</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Thẻ hiện tại</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Thẻ mới</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemFilterModeFullPath>Đường dẫn đầy đủ</StiItemFilterModeFullPath>
+    <StiItemFilterModeSelectedOnly>Chỉ những mục được chọn</StiItemFilterModeSelectedOnly>
     <StiItemOrientationHorizontal>Ngang</StiItemOrientationHorizontal>
     <StiItemOrientationVertical>Dọc</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Nhiều</StiItemSelectionModeMulti>
@@ -3741,6 +3780,7 @@
     <AllowUseTextBrush>Cho phép sử dụng cọ văn bản</AllowUseTextBrush>
     <AllowUseTextFormat>Cho phép sử dụng định dạng văn bản</AllowUseTextFormat>
     <AllowUseTextOptions>Cho phép sử dụng văn bản tùy chọn</AllowUseTextOptions>
+    <AllowUseTitle>Cho phép sử dụng tiêu đề</AllowUseTitle>
     <AllowUseVertAlignment>Cho phép sử dụng căn chỉnh theo chiều dọc</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Cho phép sử dụng như tham số SQL</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Màu nền luân phiên</AlternatingBackColor>
@@ -3824,6 +3864,7 @@
     <Cancel>Hủy</Cancel>
     <CanGrow>Có thể phát triển</CanGrow>
     <CanShrink>Có thể co lại</CanShrink>
+    <CastToColumnType>Chuyển đổi sang kiểu cột</CastToColumnType>
     <Categories>Các thể loại</Categories>
     <Category>Thể loại</Category>
     <CategoryConnections>Các kết nối</CategoryConnections>
@@ -4018,8 +4059,10 @@
     <FaqPage>Trang FAQ</FaqPage>
     <Field>Trường</Field>
     <FieldIs>Trường là</FieldIs>
+    <Fields>Trường</Fields>
     <Fifth>Thứ năm</Fifth>
     <File>Tệp tin</File>
+    <FileId>ID tệp</FileId>
     <Fill>Đặc</Fill>
     <FillColor>Màu đặc</FillColor>
     <Filter>Bộ lọc</Filter>
@@ -4028,6 +4071,7 @@
     <FilterMode>Chế độ bộ lọc</FilterMode>
     <FilterOn>Bật bộ lọc</FilterOn>
     <Filters>Bộ lọc</Filters>
+    <FiltersTarget>Mục tiêu bộ lọc</FiltersTarget>
     <First>Đầu tiên</First>
     <FirstTabOffset>Khoảng cách trống Tab đầu tiên</FirstTabOffset>
     <FixedHeight>Chiều cao cố định</FixedHeight>
@@ -4510,6 +4554,8 @@
     <ScriptLanguage>Ngôn ngữ kịch bản</ScriptLanguage>
     <ScrollTime>Thời gian cuộn</ScrollTime>
     <Second>Thứ hai</Second>
+    <SegmentCount>Số lượng phân đoạn</SegmentCount>
+    <SegmentIndex>Chỉ số phân đoạn</SegmentIndex>
     <SegmentPerHeight>Phân đoạn trên chiều cao</SegmentPerHeight>
     <SegmentPerWidth>Phân đoạn trên chiều rộng</SegmentPerWidth>
     <SelectedBackColor>Màu nền được chọn</SelectedBackColor>
@@ -4706,10 +4752,12 @@
     <TickMarkMinorBrush>Cọ phụ đánh dấu</TickMarkMinorBrush>
     <Ticks>Đường thẳng hiển thị đơn vị, tỷ lệ</Ticks>
     <Title>Tiêu đề</Title>
+    <TitleBackColor>Màu nền tiêu đề</TitleBackColor>
     <TitleBeforeHeader>Tên báo cáo trước tiêu đề</TitleBeforeHeader>
     <TitleColor>Màu tiêu đề</TitleColor>
     <TitleDirection>Hướng tiêu đề</TitleDirection>
     <TitleFont>Phông tiêu đề</TitleFont>
+    <TitleForeColor>Màu chữ tiêu đề</TitleForeColor>
     <TitleVisible>Hiển thị tiêu đề</TitleVisible>
     <To>Tới</To>
     <Today>Hôm nay</Today>
@@ -4924,6 +4972,7 @@
   <Questions>
     <qnConfiguration>Vui lòng chọn loại cấu hình cho bảng thuộc tính. Loại cấu hình được chọn phụ thuộc vào số lượng thuộc tính có thể nhìn thấy và sự phức tạp của chúng đối với nhà phát triển báo cáo. Bạn luôn có thể thay đổi kiểu cấu hình từ trình đơn ngữ cảnh của bảng thuộc tính.</qnConfiguration>
     <qnCopyCategory>Bạn có muốn sao chép tất cả các biến của danh mục này không?</qnCopyCategory>
+    <qnCovertColumnType>Bạn đã thay đổi kiểu cột, bạn có muốn bật chuyển đổi dữ liệu cột cho nguồn dữ liệu này không?</qnCovertColumnType>
     <qnDictionaryNew>Bạn có muốn tạo từ điển mới không?</qnDictionaryNew>
     <qnLanguageNew>Bạn đã thay đổi ngôn ngữ của báo cáo. Điều này sẽ dẫn tới việc tạo mã báo cáo mới. Bạn có chắc chắn muốn lưu ngôn ngữ mới?</qnLanguageNew>
     <qnPageDelete>Bạn có muốn xóa trang không?</qnPageDelete>
@@ -4980,6 +5029,8 @@
     <Charts>Biểu đồ</Charts>
     <Checking>Kiểm tra...</Checking>
     <ClickForMoreDetails>Nhấp để biết thêm chi tiết</ClickForMoreDetails>
+    <ClickHereToCreateNewCondition>để tạo điều kiện mới</ClickHereToCreateNewCondition>
+    <ClickHereToCreateNewField>để tạo trường mới</ClickHereToCreateNewField>
     <CollapseAll>Thu gọn tất cả</CollapseAll>
     <Collection>Bộ sưu tập</Collection>
     <CompilationAccess>Quyền truy cập biên dịch</CompilationAccess>
@@ -5008,6 +5059,7 @@
     <FromDefaultState>Từ trạng thái mặc định</FromDefaultState>
     <Gallery>Bộ sưu tập</Gallery>
     <GenerateNewCode>Tạo mã mới</GenerateNewCode>
+    <HideUnlistedExportsInTheViewer>Ẩn các định dạng xuất không có trong danh sách ở trình xem</HideUnlistedExportsInTheViewer>
     <History>Lịch sử</History>
     <IfEmpty>Nếu {0} trống</IfEmpty>
     <Infographics>Biểu đồ thông tin</Infographics>
@@ -5271,6 +5323,7 @@
     <GenerateNewQuery>Tạo truy vấn mới</GenerateNewQuery>
     <OptimizeQuery>Tối ưu hóa truy vấn</OptimizeQuery>
     <QueryWithStimulAI>Truy vấn với Stimul AI</QueryWithStimulAI>
+    <Translate>Dịch bằng Stimul AI</Translate>
     <Try>Thử với Stimul AI</Try>
     <TryConvertScriptToBlockly>Thử chuyển đổi script {0} trước đó thành script {1}.</TryConvertScriptToBlockly>
   </StimulAI>
