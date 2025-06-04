@@ -364,7 +364,7 @@
     <HorizontalMajor>&lt;b&gt;Major&lt;/b&gt;&lt;br&gt;Display Horizontal Gridlines for Major units&lt;/br&gt;</HorizontalMajor>
     <HorizontalMajorMinor>&lt;b&gt;Major &amp;&amp; Minor Gridlines&lt;/b&gt;&lt;br&gt;Display Horizontal Gridlines for Major and Minor units&lt;/br&gt;</HorizontalMajorMinor>
     <HorizontalMinor>&lt;b&gt;Minor&lt;/b&gt;&lt;br&gt;Display Horizontal Gridlines for Minor units&lt;/br&gt;</HorizontalMinor>
-    <HorizontalNone>&lt;b&gt;None&lt;/b&gt;&lt;br&gt;Do not display Horizontal Grirdlines&lt;/br&gt;</HorizontalNone>
+    <HorizontalNone>&lt;b&gt;None&lt;/b&gt;&lt;br&gt;Do not display Horizontal Gridlines&lt;/br&gt;</HorizontalNone>
     <InsideBaseLabels>Inside Base</InsideBaseLabels>
     <InsideEndLabels>Inside End</InsideEndLabels>
     <Labels>Series Labels</Labels>
@@ -677,6 +677,7 @@
     <StiMap>Map</StiMap>
     <StiMathFormula>Math Formula</StiMathFormula>
     <StiMultipleSelection>Multiple Selection</StiMultipleSelection>
+    <StiNavigatorUI>Navigator</StiNavigatorUI>
     <StiNumberBox>Number Box</StiNumberBox>
     <StiOnlineMap>Online Map</StiOnlineMap>
     <StiOverlayBand>Overlay</StiOverlayBand>
@@ -1400,6 +1401,7 @@
     <CompilingReport>Compiling Report</CompilingReport>
     <CopyPropertyName>Copy Property Name</CopyPropertyName>
     <DockingPanels>Panels</DockingPanels>
+    <Four>Four</Four>
     <HtmlPreview>HTML Preview</HtmlPreview>
     <JsPreview>JS Preview</JsPreview>
     <labelPleaseSelectTypeOfInterface>Please, select type of interface</labelPleaseSelectTypeOfInterface>
@@ -2586,8 +2588,8 @@
     <NotificationTitleReportExporting>Exporting report "{0}"</NotificationTitleReportExporting>
     <NotificationTitleReportRendering>Rendering report "{0}"</NotificationTitleReportRendering>
     <NotificationTitleSchedulerRunning>Running scheduler "{0}"</NotificationTitleSchedulerRunning>
-    <NotificationTransferring>The "{0}" is tranferring to "{1}".</NotificationTransferring>
-    <NotificationTransferringComplete>The "{0}" is succesfully transffered to "{1}".</NotificationTransferringComplete>
+    <NotificationTransferring>The "{0}" is transferring to "{1}".</NotificationTransferring>
+    <NotificationTransferringComplete>The "{0}" is successfully transferred to "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>This value is not correct for the type {0}</NotificationValueIsNotCorrect>
     <OutOfRange>Out of range ("{0}")!</OutOfRange>
     <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
@@ -3146,6 +3148,11 @@
     <StiDateSelectionModeAutoRange>Auto Range</StiDateSelectionModeAutoRange>
     <StiDateSelectionModeRange>Range</StiDateSelectionModeRange>
     <StiDateSelectionModeSingle>Single</StiDateSelectionModeSingle>
+    <StiDateTimeStepAggregationAverage>Average</StiDateTimeStepAggregationAverage>
+    <StiDateTimeStepAggregationCount>Count</StiDateTimeStepAggregationCount>
+    <StiDateTimeStepAggregationMax>Max</StiDateTimeStepAggregationMax>
+    <StiDateTimeStepAggregationMin>Min</StiDateTimeStepAggregationMin>
+    <StiDateTimeStepAggregationSum>Sum</StiDateTimeStepAggregationSum>
     <StiDateTimeTypeDate>Date</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Date and Time</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Time</StiDateTimeTypeTime>
@@ -3274,6 +3281,8 @@
     <StiImageRotationRotate180>Rotate 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Rotate 90° CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Rotate 90° CW</StiImageRotationRotate90CW>
+    <StiIndicatorValueTypeValue>Value</StiIndicatorValueTypeValue>
+    <StiIndicatorValueTypeValueTarget>Value / Target</StiIndicatorValueTypeValueTarget>
     <StiInteractionOnClick>None</StiInteractionOnClick>
     <StiInteractionOnClickApplyFilter>Apply Filter</StiInteractionOnClickApplyFilter>
     <StiInteractionOnClickDrillDown>Drill-Down</StiInteractionOnClickDrillDown>
@@ -3337,6 +3346,16 @@
     <StiMarkerTypeStar7>Star 7</StiMarkerTypeStar7>
     <StiMarkerTypeStar8>Star 8</StiMarkerTypeStar8>
     <StiMarkerTypeTriangle>Triangle</StiMarkerTypeTriangle>
+    <StiNavigatorButtonVisibilityCancel>Cancel</StiNavigatorButtonVisibilityCancel>
+    <StiNavigatorButtonVisibilityDelete>Delete</StiNavigatorButtonVisibilityDelete>
+    <StiNavigatorButtonVisibilityEdit>Edit</StiNavigatorButtonVisibilityEdit>
+    <StiNavigatorButtonVisibilityFirst>First</StiNavigatorButtonVisibilityFirst>
+    <StiNavigatorButtonVisibilityInsert>Insert</StiNavigatorButtonVisibilityInsert>
+    <StiNavigatorButtonVisibilityLast>Last</StiNavigatorButtonVisibilityLast>
+    <StiNavigatorButtonVisibilityNext>Next</StiNavigatorButtonVisibilityNext>
+    <StiNavigatorButtonVisibilityPost>Post</StiNavigatorButtonVisibilityPost>
+    <StiNavigatorButtonVisibilityPrior>Prior</StiNavigatorButtonVisibilityPrior>
+    <StiNavigatorButtonVisibilityRefresh>Refresh</StiNavigatorButtonVisibilityRefresh>
     <StiNestedFactorHigh>High</StiNestedFactorHigh>
     <StiNestedFactorLow>Low</StiNestedFactorLow>
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
@@ -3419,6 +3438,10 @@
     <StiProgressElementModeCircle>Circle</StiProgressElementModeCircle>
     <StiProgressElementModeDataBars>DataBars</StiProgressElementModeDataBars>
     <StiProgressElementModePie>Pie</StiProgressElementModePie>
+    <StiProgressValueTypeNone>None</StiProgressValueTypeNone>
+    <StiProgressValueTypePercentage>Percentage</StiProgressValueTypePercentage>
+    <StiProgressValueTypeValue>Value</StiProgressValueTypeValue>
+    <StiProgressValueTypeValueTarget>Value / Target</StiProgressValueTypeValueTarget>
     <StiQRCodeBodyShapeTypeCircle>Circle</StiQRCodeBodyShapeTypeCircle>
     <StiQRCodeBodyShapeTypeCircular>Circular</StiQRCodeBodyShapeTypeCircular>
     <StiQRCodeBodyShapeTypeDiamond>Diamond</StiQRCodeBodyShapeTypeDiamond>
@@ -3734,6 +3757,7 @@
     <Advanced>Advanced</Advanced>
     <AggregateFunction>Aggregate Function</AggregateFunction>
     <AggregateFunctions>Aggregate Functions</AggregateFunctions>
+    <Aggregation>Aggregation</Aggregation>
     <Alias>Alias</Alias>
     <Alignment>Alignment</Alignment>
     <AllowApplyBorderColor>Allow Apply Border Color</AllowApplyBorderColor>
@@ -3746,6 +3770,7 @@
     <AllowExpressions>Allow Expressions</AllowExpressions>
     <AllowHtmlTags>Allow HTML Tags</AllowHtmlTags>
     <AllowNull>Allow Null</AllowNull>
+    <AllowScriptsToRun>Allow Scripts To Run</AllowScriptsToRun>
     <AllowSeries>Allow Series</AllowSeries>
     <AllowSeriesElements>Allow Series Elements</AllowSeriesElements>
     <AllowSorting>Allow Sorting</AllowSorting>
@@ -4035,6 +4060,7 @@
     <ExportAsImage>Export as Image</ExportAsImage>
     <ExportSettings>Export Settings</ExportSettings>
     <Expression>Expression</Expression>
+    <Extended>Extended</Extended>
     <ExtensionDigit>Extension Digit</ExtensionDigit>
     <EyeBallBrush>Eye Ball Brush</EyeBallBrush>
     <EyeBallShape>Eye Ball Shape</EyeBallShape>
@@ -4398,6 +4424,7 @@
     <OnDataManipulation>On Data Manipulation</OnDataManipulation>
     <OnePointZoom>One Point Zoom</OnePointZoom>
     <OnHover>On Hover</OnHover>
+    <OnlineMapAdminLevel>Administrative level</OnlineMapAdminLevel>
     <OnlyText>Only Text</OnlyText>
     <OnSelect>On Select</OnSelect>
     <Opacity>Opacity</Opacity>
@@ -4447,6 +4474,7 @@
     <PreviewSettings>Preview Settings</PreviewSettings>
     <Printable>Printable</Printable>
     <PrintAtBottom>Print at Bottom</PrintAtBottom>
+    <PrintDialogType>Print Dialog Type</PrintDialogType>
     <PrinterName>Printer Name</PrinterName>
     <PrinterSettings>Printer Settings</PrinterSettings>
     <PrintHeadersFootersFromPreviousPage>Print Headers and Footers from Previous Page</PrintHeadersFootersFromPreviousPage>
@@ -4538,6 +4566,7 @@
     <Scale>Scale</Scale>
     <ScaleHor>Scale Hor</ScaleHor>
     <ScriptLanguage>Script Language</ScriptLanguage>
+    <ScriptTimeout>Script Timeout</ScriptTimeout>
     <ScrollTime>Scroll Time</ScrollTime>
     <Second>Second</Second>
     <SegmentCount>Segment Count</SegmentCount>
@@ -4654,6 +4683,7 @@
     <Spacing>Spacing</Spacing>
     <Sparkline>Sparkline</Sparkline>
     <SqlCommand>Sql Command</SqlCommand>
+    <Standard>Standard</Standard>
     <StartAngle>Start Angle</StartAngle>
     <StartCap>Start Cap</StartCap>
     <StartColor>Start Color</StartColor>
@@ -5028,6 +5058,7 @@
     <CreateNewReportPageForm>Create a new report, add a page, add a form</CreateNewReportPageForm>
     <CreatingReport>Creating Report</CreatingReport>
     <CrossBands>Cross</CrossBands>
+    <CustomRange>Custom Range</CustomRange>
     <DashboardOnly>Dashboard and DataTransformation Only</DashboardOnly>
     <Dialogs>Dialogs</Dialogs>
     <EditStyles>Edit Styles</EditStyles>
@@ -5120,6 +5151,7 @@
     <StiGradientBrush>Gradient</StiGradientBrush>
     <StiHatchBrush>Hatch</StiHatchBrush>
     <StiSolidBrush>Solid</StiSolidBrush>
+    <StoresPrintingOutputToAFile>Stores Printing Output to a File</StoresPrintingOutputToAFile>
     <StoreUserFirstLastNameInReportAuthor>Store User's First and Last Name in 'Report Author'</StoreUserFirstLastNameInReportAuthor>
     <StoreUserNameInReportAuthor>Store 'User Name' in 'Report Author'</StoreUserNameInReportAuthor>
     <StyleBad>Bad</StyleBad>
