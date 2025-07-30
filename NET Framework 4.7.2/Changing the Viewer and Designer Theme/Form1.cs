@@ -21,6 +21,7 @@ namespace Changing_the_Viewer_and_Designer_Theme
         private ComboBox comboBoxAccentColor;
         private Button buttonShowDesigner;
         private Button buttonShowViewer;
+        private Button buttonShowDesignerForm;
 
         /// <summary>
         /// Required designer variable.
@@ -122,6 +123,7 @@ namespace Changing_the_Viewer_and_Designer_Theme
             this.comboBoxAccentColor = new System.Windows.Forms.ComboBox();
             this.buttonShowDesigner = new System.Windows.Forms.Button();
             this.buttonShowViewer = new System.Windows.Forms.Button();
+            this.buttonShowDesignerForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button2
@@ -146,6 +148,7 @@ namespace Changing_the_Viewer_and_Designer_Theme
             // 
             // comboBoxAppearance
             // 
+            this.comboBoxAppearance.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxAppearance.FormattingEnabled = true;
             this.comboBoxAppearance.Items.AddRange(new object[] {
             "Auto",
@@ -160,7 +163,7 @@ namespace Changing_the_Viewer_and_Designer_Theme
             // labelAccentColor
             // 
             this.labelAccentColor.AutoSize = true;
-            this.labelAccentColor.Location = new System.Drawing.Point(12, 47);
+            this.labelAccentColor.Location = new System.Drawing.Point(12, 40);
             this.labelAccentColor.Name = "labelAccentColor";
             this.labelAccentColor.Size = new System.Drawing.Size(68, 13);
             this.labelAccentColor.TabIndex = 6;
@@ -168,6 +171,7 @@ namespace Changing_the_Viewer_and_Designer_Theme
             // 
             // comboBoxAccentColor
             // 
+            this.comboBoxAccentColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxAccentColor.FormattingEnabled = true;
             this.comboBoxAccentColor.Items.AddRange(new object[] {
             "Auto",
@@ -177,7 +181,7 @@ namespace Changing_the_Viewer_and_Designer_Theme
             "Teal",
             "Green",
             "Orange"});
-            this.comboBoxAccentColor.Location = new System.Drawing.Point(120, 44);
+            this.comboBoxAccentColor.Location = new System.Drawing.Point(120, 37);
             this.comboBoxAccentColor.Name = "comboBoxAccentColor";
             this.comboBoxAccentColor.Size = new System.Drawing.Size(200, 21);
             this.comboBoxAccentColor.TabIndex = 7;
@@ -185,23 +189,33 @@ namespace Changing_the_Viewer_and_Designer_Theme
             // 
             // buttonShowDesigner
             // 
-            this.buttonShowDesigner.Location = new System.Drawing.Point(200, 77);
+            this.buttonShowDesigner.Location = new System.Drawing.Point(120, 76);
             this.buttonShowDesigner.Margin = new System.Windows.Forms.Padding(2);
             this.buttonShowDesigner.Name = "buttonShowDesigner";
-            this.buttonShowDesigner.Size = new System.Drawing.Size(120, 27);
+            this.buttonShowDesigner.Size = new System.Drawing.Size(200, 27);
             this.buttonShowDesigner.TabIndex = 8;
             this.buttonShowDesigner.Text = "Show Designer";
             this.buttonShowDesigner.Click += new System.EventHandler(this.ButtonShowDesigner_Click);
             // 
             // buttonShowViewer
             // 
-            this.buttonShowViewer.Location = new System.Drawing.Point(200, 113);
+            this.buttonShowViewer.Location = new System.Drawing.Point(120, 138);
             this.buttonShowViewer.Margin = new System.Windows.Forms.Padding(2);
             this.buttonShowViewer.Name = "buttonShowViewer";
-            this.buttonShowViewer.Size = new System.Drawing.Size(120, 27);
+            this.buttonShowViewer.Size = new System.Drawing.Size(200, 27);
             this.buttonShowViewer.TabIndex = 9;
             this.buttonShowViewer.Text = "Show Viewer";
             this.buttonShowViewer.Click += new System.EventHandler(this.ButtonShowViewer_Click);
+            // 
+            // buttonShowDesignerForm
+            // 
+            this.buttonShowDesignerForm.Location = new System.Drawing.Point(120, 107);
+            this.buttonShowDesignerForm.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonShowDesignerForm.Name = "buttonShowDesignerForm";
+            this.buttonShowDesignerForm.Size = new System.Drawing.Size(200, 27);
+            this.buttonShowDesignerForm.TabIndex = 10;
+            this.buttonShowDesignerForm.Text = "Show Designer Form";
+            this.buttonShowDesignerForm.Click += new System.EventHandler(this.buttonShowDesignerForm_Click);
             // 
             // Form1
             // 
@@ -209,6 +223,7 @@ namespace Changing_the_Viewer_and_Designer_Theme
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button2;
             this.ClientSize = new System.Drawing.Size(400, 230);
+            this.Controls.Add(this.buttonShowDesignerForm);
             this.Controls.Add(this.buttonShowViewer);
             this.Controls.Add(this.buttonShowDesigner);
             this.Controls.Add(this.comboBoxAccentColor);
@@ -320,6 +335,12 @@ namespace Changing_the_Viewer_and_Designer_Theme
         {
             var report = new StiReport();
             report.Show();
+        }
+
+        private void buttonShowDesignerForm_Click(object sender, EventArgs e)
+        {
+            var designerForm = new Form2();
+            designerForm.ShowDialog();
         }
     }
 }
