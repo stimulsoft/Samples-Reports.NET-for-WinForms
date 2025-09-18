@@ -1,6 +1,6 @@
 # WinForms samples for Stimulsoft Reports.NET
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.NET reporting tool in the Windows Forms applications, using C# code and WinForms embedded components. The report generator and examples are fully compatible with .NET Framework 4.5.2, 4.6, 4.7, 4.8 versions, and .NET Core 3.1, .NET 5.0, .NET 6.0, .NET 7.0, .NET 8.0 frameworks.
+#### This repository contains source code examples demonstrating the usage of the Stimulsoft Reports.NET reporting tool in Windows Forms applications, using C# code and WinForms embedded components. The report generator and components are fully compatible with .NET Framework 4.5.2 and higher, as well as with .NET 6.0 and all later versions.
 
 ## Overview
 This repository contains a set of examples (Visual Studio projects), each in different folders:
@@ -38,7 +38,6 @@ This repository contains a set of examples (Visual Studio projects), each in dif
 All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings. Currently, projects are prepared for these frameworks:
 
 * [.NET Framework 4.7.2](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2)
-* [.NET Core 3.1](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Core%203.1)
 * [.NET 6.0](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%206.0)
 * [.NET 8.0](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%208.0)
 
