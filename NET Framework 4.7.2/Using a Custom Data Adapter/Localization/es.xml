@@ -72,6 +72,7 @@
     <AdapterDataViews>Datos de DataViews</AdapterDataViews>
     <AdapterDB2Connection>Datos de Conexión IBM DB2</AdapterDB2Connection>
     <AdapterDBaseFiles>Datos de Ficheros dBase</AdapterDBaseFiles>
+    <AdapterDbUserSource>Datos de la fuente del usuario</AdapterDbUserSource>
     <AdapterFirebirdConnection>Datos de Conexión Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Datos de Conexión Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Datos de Conexión MySQL</AdapterMySQLConnection>
@@ -664,6 +665,7 @@
     <StiCrossTitle>Título-Cruzado</StiCrossTitle>
     <StiDashboard>Consola</StiDashboard>
     <StiDataBand>Datos</StiDataBand>
+    <StiDataNavigatorUI>Navegador de datos</StiDataNavigatorUI>
     <StiDatePicker>Selector de fechas</StiDatePicker>
     <StiElectronicSignature>Firma electronica</StiElectronicSignature>
     <StiEmptyBand>Banda Vacía</StiEmptyBand>
@@ -696,6 +698,7 @@
     <StiPivotSummary>Sumario de pivote</StiPivotSummary>
     <StiPivotTable>Tabla de pivote</StiPivotTable>
     <StiProgress>Progreso</StiProgress>
+    <StiRangeSelector>Selector de rangos</StiRangeSelector>
     <StiRectanglePrimitive>Rectángulo</StiRectanglePrimitive>
     <StiRegionMap>Mapa regional</StiRegionMap>
     <StiReport>Informe</StiReport>
@@ -707,6 +710,7 @@
     <StiShape>Forma</StiShape>
     <StiSignature>Firma</StiSignature>
     <StiSingleSelection>Selección única</StiSingleSelection>
+    <StiSlider>Control deslizante</StiSlider>
     <StiSparkline>Minigráfico</StiSparkline>
     <StiSubReport>Subinforme</StiSubReport>
     <StiSystemText>Texto de Sistema</StiSystemText>
@@ -747,6 +751,7 @@
     <ClearFilterFrom>Borrar filtro de '{0}'</ClearFilterFrom>
     <ColorScale>Escala de color</ColorScale>
     <ColumnInteractions>Interacciones de la columna</ColumnInteractions>
+    <CreateDataBinding>Crear enlace de datos</CreateDataBinding>
     <CustomFilter>&amp;Filtro personalizado...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>El diseñador WPF no soporta Consolas.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Barras de datos</DataBars>
@@ -763,6 +768,7 @@
     <DrillDownSelected>Profundizar Seleccionado</DrillDownSelected>
     <DrillUp>Subir nivel</DrillUp>
     <DuplicateField>Duplicar Campo</DuplicateField>
+    <EditDataBinding>Editar enlace de datos</EditDataBinding>
     <EditExpression>Editar Expresión</EditExpression>
     <EditField>Editar campo</EditField>
     <EmptyDashboardFooter>Arrastrar y soltar componente de las Herramientas o datos del Diccionario</EmptyDashboardFooter>
@@ -785,6 +791,8 @@
     <NewMeasure>Nueva Medida</NewMeasure>
     <NoRanges>Sin rangos</NoRanges>
     <NoResult>Sin resultados</NoResult>
+    <NResult>{0} resultado</NResult>
+    <NResults>{0} resultados</NResults>
     <NSelected>{0} selecionado(s)</NSelected>
     <Nulls>(Nulos)</Nulls>
     <NumberFilters>Filtros Numéricos</NumberFilters>
@@ -2011,6 +2019,7 @@
     <StiPdfDigitalSignatureElement>Este componente se utiliza para especificar un espacio para la firma digital y los campos del certificado al exportar a PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>El elemento de la tabla dinámica se usa para la representación de datos estructurados como una tabla.</StiPivotTableElement>
     <StiProgressElement>El elemento muestra la relación de los datos de entrada. Se puede presentar en diferentes modos: un pastel, un círculo, barras.</StiProgressElement>
+    <StiRangeSelectorElement>Este componente permite seleccionar un rango de valores en una escala o línea de tiempo. Permite definir visualmente los límites mínimo y máximo del rango.</StiRangeSelectorElement>
     <StiRectanglePrimitive>Esta componente se usa para imprimir rectángulos.</StiRectanglePrimitive>
     <StiRegionMapElement>Este elemento se usa para mostrar datos que están geográficamente enfocados.</StiRegionMapElement>
     <StiReportSummaryBand>Esta banda se usa para imprimir sumarios a través de todo el informe. Se imprime una sola vez, al final del informe.</StiReportSummaryBand>
@@ -2171,6 +2180,8 @@
     <ReportOpen>Abrir el informe en el diseñador.</ReportOpen>
     <ReportPreview>Visualizar el informe editado en el visor.</ReportPreview>
     <ReportSave>Guardar el informe editado.</ReportSave>
+    <ScriptEvalAccess1>Este documento utiliza Script Eval. Si el documento proviene de una fuente confiable, puede hacer clic en el botón "Abrir" para acceder a él.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Si no está seguro del origen del documento, pero aun así desea verlo, puede hacer clic en el botón "Abrir en modo seguro". En este caso, Script Eval se ignorará y no se ejecutará.</ScriptEvalAccess2>
     <SelectAll>Seleccione todos los componentes en la página actual.</SelectAll>
     <SelectUILanguage>Seleccione el idioma del UI.</SelectUILanguage>
     <SendToBack>Mover los componentes seleccionados por detrás de los demás componentes.</SendToBack>
@@ -3500,6 +3511,9 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <StiQRCodeEyeBallShapeTypeZebraVertical>Cebra vertical</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Circulo</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polígono</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Ninguno</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Paso</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Pasito</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Automático</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Deshabilitado</StiReportCacheModeOff>
     <StiReportCacheModeOn>Habilitado</StiReportCacheModeOn>
@@ -4012,6 +4026,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <DataBarsNegative>Barras de datos negativas</DataBarsNegative>
     <DataBarsOverlapped>Barras de datos superpuestas</DataBarsOverlapped>
     <DataBarsPositive>Barras de datos positivas</DataBarsPositive>
+    <DataBinding>Enlace de datos</DataBinding>
     <DataBindings>Enlaces de Datos</DataBindings>
     <DataCells>Celdas de datos</DataCells>
     <DataColor>Color de datos</DataColor>
@@ -4509,6 +4524,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Placeholder>Marcador de posición</Placeholder>
     <Placement>Emplazamiento</Placement>
     <PlaceOnToolbox>Colocar en la caja de Herramientas</PlaceOnToolbox>
+    <Platform>Platforma</Platform>
     <PointAtCenter>Punto Central</PointAtCenter>
     <Position>Posición</Position>
     <Positive>Positivo</Positive>
@@ -4717,6 +4733,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <SkipValues>Valores a Saltar</SkipValues>
     <SkipValuesObj>Valores a Saltar</SkipValuesObj>
     <Smoothing>Alisado</Smoothing>
+    <SnapMode>Modo Snap</SnapMode>
     <Sort>Orden</Sort>
     <SortBy>Ordenar por</SortBy>
     <SortDirection>Dirección Ordenación</SortDirection>
@@ -5156,6 +5173,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <LabelNestedLevel>Nivel Anidación:</LabelNestedLevel>
     <LabelPassword>Contraseña:</LabelPassword>
     <LabelPixels>Pixels:</LabelPixels>
+    <LabelPlatform>Si la plataforma es .NET, se usará un script de C#. Si la plataforma es JS, se usará JavaScript.</LabelPlatform>
     <LabelQueryTimeout>Tiempo Máximo de Consulta:</LabelQueryTimeout>
     <LabelSystemVariable>Variable del Sistema:</LabelSystemVariable>
     <LabelTableOfContentsHint>Por favor, compruebe los componentes que deben formar la tabla de contenido. Un componente es igual a un nivel de título.</LabelTableOfContentsHint>
@@ -5189,6 +5207,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <RestartDesigner>Requiere rearrancar el diseñador de informes</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Guardar el informe, páginas o formularios</SaveReportPagesOrFormsFromReport>
     <SavingReport>Guardando Informe</SavingReport>
+    <ScriptEvalAccess>Acceso a evaluación de scripts</ScriptEvalAccess>
     <SecondPass>Segundo Pase</SecondPass>
     <Shapes>Formas</Shapes>
     <ShowOnParametersPanel>Show on Parameters Panel</ShowOnParametersPanel>
@@ -5379,10 +5398,12 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <UseBrush>Usar brocha</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Pregúntale a Stimul IA</AskStimulAI>
     <ChangedWithAI>Cambiado con Stimul IA</ChangedWithAI>
     <CheckExpressionSuccess>No se encontraron problemas en la expresión especificada.</CheckExpressionSuccess>
     <CheckQuery>Verificar consulta</CheckQuery>
     <CheckWithStimulAI>Verificar con Stimul IA</CheckWithStimulAI>
+    <ClickToPreview>Haga clic para obtener una vista previa</ClickToPreview>
     <ConnectionStringExampleWithAI>Ejemplo de cadena de conexión con Stimul IA</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Probando le cadena de conexión</ConnectionStringTesting>
     <ExplainQuery>Explicar consulta</ExplainQuery>
@@ -5606,6 +5627,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <RunWizard>Ejecute el asistente</RunWizard>
     <SelectColumns>Seleccione las Columnas</SelectColumns>
     <SelectTemplate>Plantilla</SelectTemplate>
+    <SelectTypeOfLayout>Por favor seleccione un tipo de diseño</SelectTypeOfLayout>
     <Sort>Orden</Sort>
     <StandardReport>Informe Estándar</StandardReport>
     <SuggestWithAI>Sugerir con IA</SuggestWithAI>

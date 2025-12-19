@@ -72,6 +72,7 @@
     <AdapterDataViews>Данные из DataViews</AdapterDataViews>
     <AdapterDB2Connection>Данные из IBM DB2 соединения</AdapterDB2Connection>
     <AdapterDBaseFiles>Данные из dBase файлов</AdapterDBaseFiles>
+    <AdapterDbUserSource>Данные из пользовательского источника</AdapterDbUserSource>
     <AdapterFirebirdConnection>Данные из Firebird соединения</AdapterFirebirdConnection>
     <AdapterInformixConnection>Данные из Informix соединения</AdapterInformixConnection>
     <AdapterMySQLConnection>Данные из MySQL соединения</AdapterMySQLConnection>
@@ -666,6 +667,7 @@
     <StiCrossTitle>Кросс-заголовок</StiCrossTitle>
     <StiDashboard>Панель индикаторов</StiDashboard>
     <StiDataBand>Данные</StiDataBand>
+    <StiDataNavigatorUI>Навигатор данных</StiDataNavigatorUI>
     <StiDatePicker>Выбор даты</StiDatePicker>
     <StiElectronicSignature>Электронная подпись</StiElectronicSignature>
     <StiEmptyBand>Пустые данные</StiEmptyBand>
@@ -697,6 +699,7 @@
     <StiPivotSummary>Сводная сумма</StiPivotSummary>
     <StiPivotTable>Сводная таблица</StiPivotTable>
     <StiProgress>Прогресс</StiProgress>
+    <StiRangeSelector>Селектор диапазона</StiRangeSelector>
     <StiRectanglePrimitive>Прямоугольник</StiRectanglePrimitive>
     <StiRegionMap>Региональная карта</StiRegionMap>
     <StiReport>Отчет</StiReport>
@@ -708,6 +711,7 @@
     <StiShape>Геометрия</StiShape>
     <StiSignature>Подпись</StiSignature>
     <StiSingleSelection>Одиночный выбор</StiSingleSelection>
+    <StiSlider>Ползунок</StiSlider>
     <StiSparkline>Спарклайн</StiSparkline>
     <StiSubReport>Вложенный отчет</StiSubReport>
     <StiSystemText>Системный текст</StiSystemText>
@@ -748,6 +752,7 @@
     <ClearFilterFrom>Очистить фильтр от '{0}'</ClearFilterFrom>
     <ColorScale>Цветовая шкала</ColorScale>
     <ColumnInteractions>Взаимодействие колонок</ColumnInteractions>
+    <CreateDataBinding>Создать привязку данных</CreateDataBinding>
     <CustomFilter>Пользовательский фильтр ...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Панели индикаторов не поддерживаются в WPF Дизайнере.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Гистограмма</DataBars>
@@ -764,6 +769,7 @@
     <DrillDownSelected>Детализация выделенных</DrillDownSelected>
     <DrillUp>Детализация на предыдущем уровне</DrillUp>
     <DuplicateField>Создать копию поля</DuplicateField>
+    <EditDataBinding>Редактировать привязку данных</EditDataBinding>
     <EditExpression>Изменить выражение</EditExpression>
     <EditField>Изменить поле</EditField>
     <EmptyDashboardFooter>Перетащите компонент из Инструментария или данные из Словаря данных</EmptyDashboardFooter>
@@ -786,6 +792,8 @@
     <NewMeasure>Новый показатель</NewMeasure>
     <NoRanges>Нет диапазонов</NoRanges>
     <NoResult>Нет результатов</NoResult>
+    <NResult>{0} результат</NResult>
+    <NResults>{0} результатов</NResults>
     <NSelected>{0} выбрано</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Числовые фильтры</NumberFilters>
@@ -2015,6 +2023,7 @@
     <StiPdfDigitalSignatureElement>Этот компонент используется для указания места цифровой подписи и полей из сертификата при экспорте отчета в файл Adobe PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Этот элемент используется для представления структурированных данных в виде таблицы.</StiPivotTableElement>
     <StiProgressElement>Этот элемент используется для отображения процентного соотношения между входными данными. Может быть представлен в различном режиме: кольцо, круг, гистограмма.</StiProgressElement>
+    <StiRangeSelectorElement>Этот компонент используется для выбора диапазона значений на шкале или временной шкале. Он позволяет пользователям визуально определить минимальный и максимальный пределы диапазона.</StiRangeSelectorElement>
     <StiRectanglePrimitive>Геометрический примитив - прямоугольник, используется для визуального оформления отчетов. Левый верхний угол прямоугольника может находится в области одного бэнда, а правый нижний угол - в области другого бэнда.</StiRectanglePrimitive>
     <StiRegionMapElement>Этот элемент используется для отображения данных, привязанных к географическим локациям.</StiRegionMapElement>
     <StiReportSummaryBand>Этот бэнд используется для вывода итога по всему отчету. Бэнд выводится один раз в конце отчета.</StiReportSummaryBand>
@@ -2177,6 +2186,8 @@
     <ReportSave>Сохранить редактируемый отчет.</ReportSave>
     <ScriptEvalAccess1>Этот документ использует Script Eval. Если документ получен из доверенного источника, вы можете нажать кнопку «Открыть» для доступа к нему.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Если вы не уверены в источнике документа, но всё равно хотите его просмотреть, вы можете нажать кнопку «Открыть в безопасном режиме». В этом случае Script Eval будет проигнорирован и не выполнится.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Полный доступ в скриптах (без ограничений, потенциально небезопасно).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Безопасный доступ в скриптах (ограниченные возможности для безопасности).</ScriptSecuritySafeMode>
     <SelectAll>Выбрать все компоненты на странице.</SelectAll>
     <SelectUILanguage>Выбрать язык интерфейса.</SelectUILanguage>
     <SendToBack>Переместить выбранные компоненты назад по отношению к другим компонентам.</SendToBack>
@@ -3533,6 +3544,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Вертикальная зебра</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Окружность</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Многоугольник</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Нет</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Шаг</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Метка</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Авто</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Выключен</StiReportCacheModeOff>
     <StiReportCacheModeOn>Включен</StiReportCacheModeOn>
@@ -3549,6 +3563,8 @@
     <StiRestrictionsAllowResize>Изменение размера допускается</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Выбор допускается</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Нет</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Полный доступ</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Безопасный режим</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Первый</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Из переменной</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Ничего</StiSelectionModeNothing>
@@ -4050,6 +4066,7 @@
     <DataBarsNegative>Негативный цвет гистограммы</DataBarsNegative>
     <DataBarsOverlapped>Цвет наложения гистограммы</DataBarsOverlapped>
     <DataBarsPositive>Позитивный цвет гистограммы</DataBarsPositive>
+    <DataBinding>Привязка данных</DataBinding>
     <DataBindings>Связывание данных</DataBindings>
     <DataCells>Ячейки данных</DataCells>
     <DataColor>Цвет данных</DataColor>
@@ -4758,6 +4775,7 @@
     <SkipValues>Пропустить значения</SkipValues>
     <SkipValuesObj>Пропустить значения объектов</SkipValuesObj>
     <Smoothing>Сглаживание</Smoothing>
+    <SnapMode>Режим привязки</SnapMode>
     <Sort>Сортировка</Sort>
     <SortBy>Сортировать по</SortBy>
     <SortDirection>Направление сортировки</SortDirection>
@@ -5232,6 +5250,7 @@
     <SaveReportPagesOrFormsFromReport>Сохранить отчет, страницу или форму отчета</SaveReportPagesOrFormsFromReport>
     <SavingReport>Сохранение отчета</SavingReport>
     <ScriptEvalAccess>Доступ к Script Eval</ScriptEvalAccess>
+    <ScriptSecurity>Безопасность скриптов</ScriptSecurity>
     <SecondPass>Второй проход</SecondPass>
     <Shapes>Примитивы</Shapes>
     <ShowOnParametersPanel>Показывать на панели параметров</ShowOnParametersPanel>
@@ -5423,10 +5442,12 @@
     <UseBrush>Использовать кисть</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Спросить Stimul AI</AskStimulAI>
     <ChangedWithAI>Изменить с Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>В указанном выражении проблем не обнаружено.</CheckExpressionSuccess>
     <CheckQuery>Проверить запрос</CheckQuery>
     <CheckWithStimulAI>Проверить с Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Нажмите для просмотра</ClickToPreview>
     <ConnectionStringExampleWithAI>Примеры строки соединения с Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Проверка строки соединения</ConnectionStringTesting>
     <ExplainQuery>Пояснить запрос</ExplainQuery>
@@ -5650,6 +5671,7 @@
     <RunWizard>Запустить мастер</RunWizard>
     <SelectColumns>Выбор колонок</SelectColumns>
     <SelectTemplate>Шаблон</SelectTemplate>
+    <SelectTypeOfLayout>Пожалуйста, выберите тип макета</SelectTypeOfLayout>
     <Sort>Сортировка</Sort>
     <StandardReport>Стандартный отчет</StandardReport>
     <SuggestWithAI>Рекомендация ИИ</SuggestWithAI>

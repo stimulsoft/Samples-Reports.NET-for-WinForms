@@ -72,6 +72,7 @@
     <AdapterDataViews>Dados de vistas</AdapterDataViews>
     <AdapterDB2Connection>Dados da Ligação IBM DB2 </AdapterDB2Connection>
     <AdapterDBaseFiles>Dados da ficheiros dBase</AdapterDBaseFiles>
+    <AdapterDbUserSource>Dados duma fonte do utilizador</AdapterDbUserSource>
     <AdapterFirebirdConnection>Dados da ligação Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Dados da ligação Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Dados da ligação MySQL</AdapterMySQLConnection>
@@ -664,6 +665,7 @@
     <StiCrossTitle>Cross-Título</StiCrossTitle>
     <StiDashboard>Dashboard</StiDashboard>
     <StiDataBand>Dados</StiDataBand>
+    <StiDataNavigatorUI>Navegador de dados</StiDataNavigatorUI>
     <StiDatePicker>Date Picker</StiDatePicker>
     <StiElectronicSignature>Assinatura Electrónica</StiElectronicSignature>
     <StiEmptyBand>Faixa vazia</StiEmptyBand>
@@ -695,6 +697,7 @@
     <StiPivotSummary>Pivot Summary</StiPivotSummary>
     <StiPivotTable>Pivot Table</StiPivotTable>
     <StiProgress>Progress</StiProgress>
+    <StiRangeSelector>Selector de intervalos</StiRangeSelector>
     <StiRectanglePrimitive>Retângulo</StiRectanglePrimitive>
     <StiRegionMap>Region Map</StiRegionMap>
     <StiReport>Relatório</StiReport>
@@ -706,6 +709,7 @@
     <StiShape>Forma</StiShape>
     <StiSignature>Assinatura</StiSignature>
     <StiSingleSelection>Seleção única</StiSingleSelection>
+    <StiSlider>Slider</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub relatório</StiSubReport>
     <StiSystemText>Texto sistema</StiSystemText>
@@ -746,6 +750,7 @@
     <ClearFilterFrom>Clear Filter from '{0}'</ClearFilterFrom>
     <ColorScale>Color Scale</ColorScale>
     <ColumnInteractions>Interações de colunas</ColumnInteractions>
+    <CreateDataBinding>Criar ligação de dados</CreateDataBinding>
     <CustomFilter>Custom &amp;Filter...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Dashboards não são suportados no Designer WPF.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Data Bars</DataBars>
@@ -762,6 +767,7 @@
     <DrillDownSelected>Desagregar Selecionado</DrillDownSelected>
     <DrillUp>Agregar</DrillUp>
     <DuplicateField>Duplicate Field</DuplicateField>
+    <EditDataBinding>Editar ligação de dados</EditDataBinding>
     <EditExpression>Edit Expression</EditExpression>
     <EditField>Editar Campo</EditField>
     <EmptyDashboardFooter>Drag &amp; drop component from ToolBox or data from Dictionary</EmptyDashboardFooter>
@@ -784,6 +790,8 @@
     <NewMeasure>New Measure</NewMeasure>
     <NoRanges>Sem intervalos</NoRanges>
     <NoResult>No Result</NoResult>
+    <NResult>{0} resultado</NResult>
+    <NResults>{0} resultados</NResults>
     <NSelected>{0} selected</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Number Filters</NumberFilters>
@@ -2011,6 +2019,8 @@
     <StiPdfDigitalSignatureElement>Este componente é usado para especificar um espaço para a assinatura digital e para os campos do certificado quando se exportar para PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>The pivot table element is used for the structured data representation as a table.</StiPivotTableElement>
     <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, circle, bars.</StiProgressElement>
+    <StiRangeSelectorElement>Este componente é usado para selecionar um intervalo de valores numa escala ou linha do tempo. Permite que os utilizadores definam visualmente os limites mínimo e máximo do intervalo.
+</StiRangeSelectorElement>
     <StiRectanglePrimitive>Este componente é utilizado para rectângulos de saída.</StiRectanglePrimitive>
     <StiRegionMapElement>This element is used to display data that is geographically targeted.</StiRegionMapElement>
     <StiReportSummaryBand>Esta faixa é usada para resumos de saída que o relatório inteiro. É uma saída no final de um relatório.</StiReportSummaryBand>
@@ -2172,6 +2182,8 @@
     <ReportOpen>Relatório aberto no designer.</ReportOpen>
     <ReportPreview>Pré-visualizar relatório.</ReportPreview>
     <ReportSave>Gravar o relatório actualmente editado.</ReportSave>
+    <ScriptEvalAccess1>Este documento utiliza Script Eval. Se o documento for de uma fonte confiável, pode clicar no botão "Abrir" para aceder.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Se não tiver a certeza sobre a origem do documento, mas mesmo assim quiser visualizá-lo, clique no botão "Abrir em modo de segurança". Nesse caso, o comando Script Eval será ignorado e não será executado.</ScriptEvalAccess2>
     <SelectAll>Selecione todos os componentes na página atual.</SelectAll>
     <SelectUILanguage>Selecione o idioma da interface do utilizador.</SelectUILanguage>
     <SendToBack>Move o componente selecionado para trás em relação a outros componentes.</SendToBack>
@@ -3509,6 +3521,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebra Vertical</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Circulo</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polígono</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Nenhum</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Incremento</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Marca visual</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Automático</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Inativo</StiReportCacheModeOff>
     <StiReportCacheModeOn>Ativo</StiReportCacheModeOn>
@@ -4021,6 +4036,7 @@
     <DataBarsNegative>Barras de dados negativas</DataBarsNegative>
     <DataBarsOverlapped>Barras de dados sobrepostas</DataBarsOverlapped>
     <DataBarsPositive>Barras de dados positivas</DataBarsPositive>
+    <DataBinding>Ligação de dados</DataBinding>
     <DataBindings>Ligações de dados</DataBindings>
     <DataCells>Células de dados</DataCells>
     <DataColor>Cor dos Dados</DataColor>
@@ -4519,6 +4535,7 @@
     <Placeholder>Espaço reservado</Placeholder>
     <Placement>Colocação</Placement>
     <PlaceOnToolbox>Colocar na caixa de ferramentas</PlaceOnToolbox>
+    <Platform>Platforma</Platform>
     <PointAtCenter>Apontar ao centro</PointAtCenter>
     <Position>Posição</Position>
     <Positive>Positivo</Positive>
@@ -4727,6 +4744,7 @@
     <SkipValues>Ignorar valores</SkipValues>
     <SkipValuesObj>Ignorar valores</SkipValuesObj>
     <Smoothing>Alisamento</Smoothing>
+    <SnapMode>Modo instantâneo</SnapMode>
     <Sort>Ordenar</Sort>
     <SortBy>Ordenar por</SortBy>
     <SortDirection>Direção da ordenação</SortDirection>
@@ -5168,6 +5186,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <LabelNestedLevel>Nível de agrupamento:</LabelNestedLevel>
     <LabelPassword>password:</LabelPassword>
     <LabelPixels>Pixels:</LabelPixels>
+    <LabelPlatform>Se a plataforma é .NET, utilizará C#. Se for JS, emtão será usado JavaScript.</LabelPlatform>
     <LabelQueryTimeout>Query Timeout:</LabelQueryTimeout>
     <LabelSystemVariable>Variável de sistema:</LabelSystemVariable>
     <LabelTableOfContentsHint>Por favor, verifique os componentes que devem formar o Indíce. Um componente equivale a um nível de cabeçalho.</LabelTableOfContentsHint>
@@ -5201,6 +5220,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <RestartDesigner>Precisa de reiniciar o designer de relatório</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Grave o relatório, as páginas ou formulários</SaveReportPagesOrFormsFromReport>
     <SavingReport>A gravar relatório</SavingReport>
+    <ScriptEvalAccess>Acesso à Script Eval</ScriptEvalAccess>
     <SecondPass>Segunda passagem</SecondPass>
     <Shapes>Formas</Shapes>
     <ShowOnParametersPanel>Mostrar no painel dos parâmetros</ShowOnParametersPanel>
@@ -5392,10 +5412,12 @@ contexto do painel de propriedades.</qnConfiguration>
     <UseBrush>Usar pincel</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Perguntar à Stimul AI</AskStimulAI>
     <ChangedWithAI>Modificado através do Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Nenhum problema detetado na expressão</CheckExpressionSuccess>
     <CheckQuery>Verificar Query</CheckQuery>
     <CheckWithStimulAI>Verificar com o Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Clicar para prévisualizar</ClickToPreview>
     <ConnectionStringExampleWithAI>String de conexão da amostra com Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Teste da String de conexão</ConnectionStringTesting>
     <ExplainQuery>Explicar Query</ExplainQuery>
@@ -5619,6 +5641,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <RunWizard>Usar assistente</RunWizard>
     <SelectColumns>Selecione as colunas</SelectColumns>
     <SelectTemplate>Template</SelectTemplate>
+    <SelectTypeOfLayout>Por favor selecione um tipo de layout</SelectTypeOfLayout>
     <Sort>Ordenar</Sort>
     <StandardReport>Relatório standard</StandardReport>
     <SuggestWithAI>Sugerir com IA</SuggestWithAI>

@@ -72,6 +72,7 @@
     <AdapterDataViews>Podaci iz DataView-ova</AdapterDataViews>
     <AdapterDB2Connection>Podaci iz IBM DB2 konekcije</AdapterDB2Connection>
     <AdapterDBaseFiles>Podaci iz dBase datoteka</AdapterDBaseFiles>
+    <AdapterDbUserSource>Podaci iz korisničkog izvora</AdapterDbUserSource>
     <AdapterFirebirdConnection>Podaci iz Firebird konekcije</AdapterFirebirdConnection>
     <AdapterInformixConnection>Podaci od Informix konekcije</AdapterInformixConnection>
     <AdapterMySQLConnection>Podaci iz MySQL konekcije</AdapterMySQLConnection>
@@ -664,6 +665,7 @@
     <StiCrossTitle>Cross-Naslov</StiCrossTitle>
     <StiDashboard>Kontrolna ploča</StiDashboard>
     <StiDataBand>Podaci</StiDataBand>
+    <StiDataNavigatorUI>Navigacija podataka</StiDataNavigatorUI>
     <StiDatePicker>Odabir datuma</StiDatePicker>
     <StiElectronicSignature>Elektronski potpis</StiElectronicSignature>
     <StiEmptyBand>Prazna traka</StiEmptyBand>
@@ -696,6 +698,7 @@
     <StiPivotSummary>Pivot sažetak</StiPivotSummary>
     <StiPivotTable>Pivot tablica</StiPivotTable>
     <StiProgress>Napredak</StiProgress>
+    <StiRangeSelector>Odabir raspona</StiRangeSelector>
     <StiRectanglePrimitive>Pravokutnik</StiRectanglePrimitive>
     <StiRegionMap>Mapa regije</StiRegionMap>
     <StiReport>Izvještaj</StiReport>
@@ -707,6 +710,7 @@
     <StiShape>Oblik</StiShape>
     <StiSignature>Potpis</StiSignature>
     <StiSingleSelection>Jednostruki odabir</StiSingleSelection>
+    <StiSlider>Klizač</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Podizvještaj</StiSubReport>
     <StiSystemText>Sistemski tekst</StiSystemText>
@@ -747,6 +751,7 @@
     <ClearFilterFrom>Očisti filter od '{0}'</ClearFilterFrom>
     <ColorScale>Ljestvica boja</ColorScale>
     <ColumnInteractions>Interakcije sa stupcima</ColumnInteractions>
+    <CreateDataBinding>Kreiraj vezu s podacima</CreateDataBinding>
     <CustomFilter>Prilagođeni &amp;filter...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Kontrolne ploče nisu podržane u WPF designer-u.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Podatkovne trake</DataBars>
@@ -763,6 +768,7 @@
     <DrillDownSelected>Dubinski pretraži poredane</DrillDownSelected>
     <DrillUp>Sažmi</DrillUp>
     <DuplicateField>Duplo polje</DuplicateField>
+    <EditDataBinding>Uredi vezu s podacima</EditDataBinding>
     <EditExpression>Izmijeni izraz</EditExpression>
     <EditField>Uredi polje</EditField>
     <EmptyDashboardFooter>Povuci &amp; ispusti komponente iz ToolBox-a ili podatke iz Rječnika</EmptyDashboardFooter>
@@ -785,6 +791,8 @@
     <NewMeasure>Nova mjera</NewMeasure>
     <NoRanges>Bez raspona</NoRanges>
     <NoResult>Nema rezultata</NoResult>
+    <NResult>{0} rezultat</NResult>
+    <NResults>{0} rezultata</NResults>
     <NSelected>{0} odabrano</NSelected>
     <Nulls>(Ništa)</Nulls>
     <NumberFilters>Filter brojeva</NumberFilters>
@@ -2010,6 +2018,7 @@
     <StiPdfDigitalSignatureElement>Ova komponenta se koristi za određivanje prostora za digitalni potpis i polja iz certifikata prilikom izvoza PDF-a.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivot tablica se koristi za prikaz strukturiranih podataka kao tablice.</StiPivotTableElement>
     <StiProgressElement>Element prikazuje odnos između unešenih podataka. Može biti prikazan u različitim modovima - pita, krug, trake.</StiProgressElement>
+    <StiRangeSelectorElement>Ova komponenta se koristi za odabir raspona vrijednosti na skali ili vremenskoj crti. Omogućuje korisnicima vizualno definiranje minimalnih i maksimalnih granica raspona.</StiRangeSelectorElement>
     <StiRectanglePrimitive>Ova komponenta se koristi za prikaz pravokutnika.</StiRectanglePrimitive>
     <StiRegionMapElement>Ovaj element se koristi za prikaz podataka koji su geografski ciljani.</StiRegionMapElement>
     <StiReportSummaryBand>Ova traka se koristi za prikaz sažetaka duž cijelog izvještaja. Prikazuje se jednom na kraju izvještaja.</StiReportSummaryBand>
@@ -2170,6 +2179,8 @@
     <ReportOpen>Otvori izvještaj u designer-u.</ReportOpen>
     <ReportPreview>Pregledaj izmijenjeni izvještaj u pregledniku.</ReportPreview>
     <ReportSave>Spremi trenutno izmijenjeni izvještaj.</ReportSave>
+    <ScriptEvalAccess1>Ovaj dokument koristi Script Eval. Ako je dokument iz povjerljivog izvora, možete kliknuti gumb "Otvori" da biste mu pristupili.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Ako niste sigurni u izvor dokumenta, ali ga svejedno želite pogledati, možete kliknuti gumb "Otvori u sigurnom načinu". U tom slučaju, Script Eval će se ignorirati i neće se izvršiti.</ScriptEvalAccess2>
     <SelectAll>Odaberi sve komponente na trenutnoj stranici.</SelectAll>
     <SelectUILanguage>Odaberi UI jezik.</SelectUILanguage>
     <SendToBack>Pomakni odabranu komponentu unazad u odnosu na ostale komponente.</SendToBack>
@@ -3499,6 +3510,9 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebrasto vertikalno</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Krug</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Poligon</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Bez</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Korak</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Oznaka</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Ugašeno</StiReportCacheModeOff>
     <StiReportCacheModeOn>Uključeno</StiReportCacheModeOn>
@@ -4011,6 +4025,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <DataBarsNegative>Podatkovne trake negativne</DataBarsNegative>
     <DataBarsOverlapped>Podatkovne trake preklapajuće</DataBarsOverlapped>
     <DataBarsPositive>Podatkovne trake pozitivne</DataBarsPositive>
+    <DataBinding>Veza s podacima</DataBinding>
     <DataBindings>Poveznice podataka</DataBindings>
     <DataCells>Podatkovne ćelije</DataCells>
     <DataColor>Boja podatka</DataColor>
@@ -4507,6 +4522,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <Placeholder>Držač mjesta</Placeholder>
     <Placement>Položaj</Placement>
     <PlaceOnToolbox>Položaj u alatnoj traci</PlaceOnToolbox>
+    <Platform>Platforma</Platform>
     <PointAtCenter>Usmjeri u centar</PointAtCenter>
     <Position>Pozicija</Position>
     <Positive>Positivno</Positive>
@@ -4715,6 +4731,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <SkipValues>Preskoči vrijednosti</SkipValues>
     <SkipValuesObj>Preskoči vrijednosti</SkipValuesObj>
     <Smoothing>Izglađivanje</Smoothing>
+    <SnapMode>Način poravnanja</SnapMode>
     <Sort>Poredaj</Sort>
     <SortBy>Poredaj po</SortBy>
     <SortDirection>Smjer poredavanja</SortDirection>
@@ -5154,6 +5171,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <LabelNestedLevel>Ugniježđeni nivo:</LabelNestedLevel>
     <LabelPassword>Lozinka:</LabelPassword>
     <LabelPixels>Pikseli:</LabelPixels>
+    <LabelPlatform>Ako je platforma .NET, koristiti će se C# skripta. Ako je platforma JS, koristiti će se JavaScript.</LabelPlatform>
     <LabelQueryTimeout>Timeout upita:</LabelQueryTimeout>
     <LabelSystemVariable>Sistemska varijabla:</LabelSystemVariable>
     <LabelTableOfContentsHint>Molim, provjerite komponente koje bi trebale formirati tablicu sadržaja. Jedna komponenta je jednaka jednoj razini naslova.</LabelTableOfContentsHint>
@@ -5187,6 +5205,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <RestartDesigner>Ponovno pokrenite dizajner izvještaja</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Spremi izvještaj, stranice ili forme</SaveReportPagesOrFormsFromReport>
     <SavingReport>Spremanje izvještaja</SavingReport>
+    <ScriptEvalAccess>Pristup Script Eval</ScriptEvalAccess>
     <SecondPass>Drugi prolaz</SecondPass>
     <Shapes>Oblici</Shapes>
     <ShowOnParametersPanel>Prikaži na tabli parametara</ShowOnParametersPanel>
@@ -5377,10 +5396,12 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <UseBrush>Koristi četku</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Pitaj Stimul AI</AskStimulAI>
     <ChangedWithAI>Izmijenjeno sa Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Nisu pronađeni problemi u navedenom izrazu.</CheckExpressionSuccess>
     <CheckQuery>Provjeri upit</CheckQuery>
     <CheckWithStimulAI>Provjeri sa Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Klikni za pregled</ClickToPreview>
     <ConnectionStringExampleWithAI>Primjer connection string-a sa Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Testiranje connection string-a</ConnectionStringTesting>
     <ExplainQuery>Objasni upit</ExplainQuery>
@@ -5604,6 +5625,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <RunWizard>Pokreni Čarobnjaka</RunWizard>
     <SelectColumns>Odaberi stupce</SelectColumns>
     <SelectTemplate>Predložak</SelectTemplate>
+    <SelectTypeOfLayout>Molim odaberite vrstu rasporeda</SelectTypeOfLayout>
     <Sort>Sortiraj</Sort>
     <StandardReport>Standardni izvještaj</StandardReport>
     <SuggestWithAI>Predloži pomoću AI-ja</SuggestWithAI>

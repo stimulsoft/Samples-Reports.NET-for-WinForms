@@ -72,6 +72,7 @@
     <AdapterDataViews>Daten aus DataViews</AdapterDataViews>
     <AdapterDB2Connection>Daten aus einer IBM DB2 Verbindung</AdapterDB2Connection>
     <AdapterDBaseFiles>Daten aus dBase-Dateien</AdapterDBaseFiles>
+    <AdapterDbUserSource>Daten aus Benutzerquelle</AdapterDbUserSource>
     <AdapterFirebirdConnection>Daten aus einer Firebird-Verbindung</AdapterFirebirdConnection>
     <AdapterInformixConnection>Daten aus einer Informix-Verbindung</AdapterInformixConnection>
     <AdapterMySQLConnection>Daten aus einer MySQL-Verbindung</AdapterMySQLConnection>
@@ -664,6 +665,7 @@
     <StiCrossTitle>Kreuz Titel</StiCrossTitle>
     <StiDashboard>Dashboard</StiDashboard>
     <StiDataBand>Datenband</StiDataBand>
+    <StiDataNavigatorUI>Daten-Navigator</StiDataNavigatorUI>
     <StiDatePicker>Datumsauswahl</StiDatePicker>
     <StiElectronicSignature>Elektronische Unterschrift</StiElectronicSignature>
     <StiEmptyBand>Leeres Datenband</StiEmptyBand>
@@ -696,6 +698,7 @@
     <StiPivotSummary>Pivot-Zusammenfassung</StiPivotSummary>
     <StiPivotTable>Pivot-Tabelle</StiPivotTable>
     <StiProgress>Verlauf</StiProgress>
+    <StiRangeSelector>Bereichsauswahl</StiRangeSelector>
     <StiRectanglePrimitive>Rechteck</StiRectanglePrimitive>
     <StiRegionMap>Regionalkarte</StiRegionMap>
     <StiReport>Bericht</StiReport>
@@ -707,6 +710,7 @@
     <StiShape>Geom. Formen</StiShape>
     <StiSignature>Unterschrift</StiSignature>
     <StiSingleSelection>Einzelauswahl</StiSingleSelection>
+    <StiSlider>Schieberegler</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Unterbericht</StiSubReport>
     <StiSystemText>Systemtext</StiSystemText>
@@ -747,6 +751,7 @@
     <ClearFilterFrom>Filter von '{0}' leeren</ClearFilterFrom>
     <ColorScale>Farbenskala</ColorScale>
     <ColumnInteractions>Spalten-Interaktionen</ColumnInteractions>
+    <CreateDataBinding>Datenbindung erstellen</CreateDataBinding>
     <CustomFilter>Benutzerdefinierter Filter...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Dashboards werden nicht im WPF-Designer unterstützt.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Datenbalken</DataBars>
@@ -763,6 +768,7 @@
     <DrillDownSelected>Drill-Down von Ausgewählten</DrillDownSelected>
     <DrillUp>Drill-Up</DrillUp>
     <DuplicateField>Doppelte Felder</DuplicateField>
+    <EditDataBinding>Datenbindung bearbeiten</EditDataBinding>
     <EditExpression>Ausdruck bearbeiten</EditExpression>
     <EditField>Feld bearbeiten</EditField>
     <EmptyDashboardFooter>Die Komponente aus Toolbox oder Daten aus Wörterbuch ziehen und ablegen</EmptyDashboardFooter>
@@ -785,6 +791,8 @@
     <NewMeasure>Neues Maß</NewMeasure>
     <NoRanges>Keine Bereiche</NoRanges>
     <NoResult>Kein Ergebnis</NoResult>
+    <NResult>{0} Ergebnis</NResult>
+    <NResults>{0} Ergebnisse</NResults>
     <NSelected>{0} ausgewählt</NSelected>
     <Nulls>(Nullen)</Nulls>
     <NumberFilters>Anzahlfilter</NumberFilters>
@@ -2012,6 +2020,7 @@
     <StiPdfDigitalSignatureElement>Diese Komponente wird für die Angabe vom Standort der digitaler Unterschrift und der Zertifikat-Felder beim Export in PDF verwendet.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Das Pivot-Tabelle-Element wird verwendet, um die strukturierten Daten als Tabelle darzustellen.</StiPivotTableElement>
     <StiProgressElement>Das Element zeigt das Verhältnis der Eingabedaten an. Es kann in verschiedenen Modi - als Kreis-, Ring- oder Balkendiagramm, - dargestellt werden.</StiProgressElement>
+    <StiRangeSelectorElement>Diese Komponente wird für Auswahl vom Wertebereich auf einer Skala oder Zeitachse. Es ermöglicht den Benutzern, die minimalen und maximalen Grenzen des Bereichs visuell festzulegen.</StiRangeSelectorElement>
     <StiRectanglePrimitive>Diese Komponente wird zu Ausgabe von Rechtecken verwendet.</StiRectanglePrimitive>
     <StiRegionMapElement>Dieses Element wird verwendet, um die geografisch ausgerichteten Daten anzuzeigen.</StiRegionMapElement>
     <StiReportSummaryBand>Das Berichtfuss-Band wird zur Ausgabe von Zusammenfassungen des kompletten Berichtes verwendet. Es wird einmal am Ende eines Berichts ausgegeben.</StiReportSummaryBand>
@@ -2174,6 +2183,8 @@
     <ReportSave>Bericht speichern</ReportSave>
     <ScriptEvalAccess1>Dieses Dokument verwendet Script Eval. Wenn das Dokument aus der zuverlässigen Quelle ist, klicken Sie "Öffnen"-Schaltfläche für den Zugang.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Wenn Sie nicht über die Dokument-Quelle sicher ist, aber wollen es trotzdem ansehen, können Sie die Schaltfläche "Im abgesicherten Modus öffnen" klicken. In diesem Fall wird Script Eval ignoriert und nicht ausgeführt.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Voller Skript-Zugriff (keine Beschränkungen, potenziell unsicher).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Sicher Skript-Zugriff (beschränkte Möglichkeiten für Sicherheit).</ScriptSecuritySafeMode>
     <SelectAll>Alles markieren</SelectAll>
     <SelectUILanguage>Sprache auswählen</SelectUILanguage>
     <SendToBack>Zurücksetzen</SendToBack>
@@ -3538,6 +3549,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiQRCodeEyeBallShapeTypeZebraVertical>Vertikales Zebra</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Kreis</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polygon</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Kein</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Schritt</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Zeichen</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Aus</StiReportCacheModeOff>
     <StiReportCacheModeOn>Ein</StiReportCacheModeOn>
@@ -3554,6 +3568,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiRestrictionsAllowResize>Größenänderungen zulassen</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Auswählen zulassen</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Keine</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Voller Zugriff</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Abgesicherter Modus</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Erste</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Aus der Variable</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Nichts</StiSelectionModeNothing>
@@ -4050,6 +4066,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DataBarsNegative>Negative Farbe der Datenbalken</DataBarsNegative>
     <DataBarsOverlapped>Die Farbe der Überlagerung der Datenbalken</DataBarsOverlapped>
     <DataBarsPositive>Positive Farbe der Datenbalken</DataBarsPositive>
+    <DataBinding>Datenbindung</DataBinding>
     <DataBindings>Datenbindungen</DataBindings>
     <DataCells>Datenzellen</DataCells>
     <DataColor>Datenfarbe</DataColor>
@@ -4758,6 +4775,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SkipValues>Werte überspringen</SkipValues>
     <SkipValuesObj>Werte überspringen</SkipValuesObj>
     <Smoothing>Glätten</Smoothing>
+    <SnapMode>Einrast-Modus</SnapMode>
     <Sort>Sortieren</Sort>
     <SortBy>Sortieren nach</SortBy>
     <SortDirection>Sortier-Richtung</SortDirection>
@@ -5231,6 +5249,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SaveReportPagesOrFormsFromReport>Den Bericht, die Seiten oder die Formen speichern.</SaveReportPagesOrFormsFromReport>
     <SavingReport>Bericht wird gespeichert</SavingReport>
     <ScriptEvalAccess>Script Eval Zugang</ScriptEvalAccess>
+    <ScriptSecurity>Skript-Sicherheit</ScriptSecurity>
     <SecondPass>Zweiter Durchlauf</SecondPass>
     <Shapes>Formen</Shapes>
     <ShowOnParametersPanel>Auf Parameter-Leiste anzeigen</ShowOnParametersPanel>
@@ -5423,10 +5442,12 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <UseBrush>Bürste verwenden</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Stimul AI fragen</AskStimulAI>
     <ChangedWithAI>Mit Stimul AI ändern</ChangedWithAI>
     <CheckExpressionSuccess>Keine Probleme sind im angegebenen Ausdruck gefunden.</CheckExpressionSuccess>
     <CheckQuery>Abfrage überprüfen</CheckQuery>
     <CheckWithStimulAI>Mit Stimul AI überprüfen</CheckWithStimulAI>
+    <ClickToPreview>Für Vorschau klicken</ClickToPreview>
     <ConnectionStringExampleWithAI>Beispiele der Verbindungszeichenfolge mit Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Verbindungszeichenfolge testen</ConnectionStringTesting>
     <ExplainQuery>Abfrage erläutern</ExplainQuery>
@@ -5650,6 +5671,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <RunWizard>Assistent ausführen</RunWizard>
     <SelectColumns>Spalten auswählen</SelectColumns>
     <SelectTemplate>Vorlage</SelectTemplate>
+    <SelectTypeOfLayout>Bitte wählen Sie einen Layouttyp aus</SelectTypeOfLayout>
     <Sort>Sortierung</Sort>
     <StandardReport>Standardbericht</StandardReport>
     <SuggestWithAI>Empfehlen mit AI</SuggestWithAI>

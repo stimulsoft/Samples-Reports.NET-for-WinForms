@@ -72,6 +72,7 @@
     <AdapterDataViews>Data from DataViews</AdapterDataViews>
     <AdapterDB2Connection>Data from IBM DB2 Connection</AdapterDB2Connection>
     <AdapterDBaseFiles>Data from dBase Files</AdapterDBaseFiles>
+    <AdapterDbUserSource>Data from User Source</AdapterDbUserSource>
     <AdapterFirebirdConnection>Data from Firebird Connection</AdapterFirebirdConnection>
     <AdapterInformixConnection>Data from Informix Connection</AdapterInformixConnection>
     <AdapterMySQLConnection>Data from MySQL Connection</AdapterMySQLConnection>
@@ -320,7 +321,7 @@
     <SteppedRange>Stepped Range</SteppedRange>
     <Stock>Stock</Stock>
     <Strip>Strip</Strip>
-    <StripsEditorForm>Strips Editor Form</StripsEditorForm>
+    <StripsEditorForm>Strips Editor</StripsEditorForm>
     <Style>Style</Style>
     <Sunburst>Sunburst</Sunburst>
     <Surface>Surface</Surface>
@@ -664,6 +665,7 @@
     <StiCrossTitle>Cross-Title</StiCrossTitle>
     <StiDashboard>Dashboard</StiDashboard>
     <StiDataBand>Data</StiDataBand>
+    <StiDataNavigatorUI>Data Navigator</StiDataNavigatorUI>
     <StiDatePicker>Date Picker</StiDatePicker>
     <StiElectronicSignature>Electronic Signature</StiElectronicSignature>
     <StiEmptyBand>Empty Data</StiEmptyBand>
@@ -695,6 +697,7 @@
     <StiPivotSummary>Pivot Summary</StiPivotSummary>
     <StiPivotTable>Pivot Table</StiPivotTable>
     <StiProgress>Progress</StiProgress>
+    <StiRangeSelector>Range Selector</StiRangeSelector>
     <StiRectanglePrimitive>Rectangle</StiRectanglePrimitive>
     <StiRegionMap>Region Map</StiRegionMap>
     <StiReport>Report</StiReport>
@@ -706,6 +709,7 @@
     <StiShape>Shape</StiShape>
     <StiSignature>Signature</StiSignature>
     <StiSingleSelection>Single Selection</StiSingleSelection>
+    <StiSlider>Slider</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-Report</StiSubReport>
     <StiSystemText>System Text</StiSystemText>
@@ -746,6 +750,7 @@
     <ClearFilterFrom>Clear Filter from '{0}'</ClearFilterFrom>
     <ColorScale>Color Scale</ColorScale>
     <ColumnInteractions>Column Interactions</ColumnInteractions>
+    <CreateDataBinding>Create Data Binding</CreateDataBinding>
     <CustomFilter>Custom &amp;Filter...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Dashboards are not supported in the WPF Designer.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Data Bars</DataBars>
@@ -762,6 +767,7 @@
     <DrillDownSelected>Drill-Down Selected</DrillDownSelected>
     <DrillUp>Drill Up</DrillUp>
     <DuplicateField>Duplicate Field</DuplicateField>
+    <EditDataBinding>Edit Data Binding</EditDataBinding>
     <EditExpression>Edit Expression</EditExpression>
     <EditField>Edit Field</EditField>
     <EmptyDashboardFooter>Drag &amp; drop component from ToolBox or data from Dictionary</EmptyDashboardFooter>
@@ -784,6 +790,8 @@
     <NewMeasure>New Measure</NewMeasure>
     <NoRanges>No Ranges</NoRanges>
     <NoResult>No Result</NoResult>
+    <NResult>{0} result</NResult>
+    <NResults>{0} results</NResults>
     <NSelected>{0} selected</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Number Filters</NumberFilters>
@@ -2007,6 +2015,7 @@
     <StiPdfDigitalSignatureElement>This component is used to specify a space for the digital signature and fields from the certificate when exporting to PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>The pivot table element is used for the structured data representation as a table.</StiPivotTableElement>
     <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, donut, bars.</StiProgressElement>
+    <StiRangeSelectorElement>This component is used to select a range of values on a scale or timeline. It allows users to visually define the minimum and maximum limits of the range.</StiRangeSelectorElement>
     <StiRectanglePrimitive>This component is used to output rectangles.</StiRectanglePrimitive>
     <StiRegionMapElement>This element is used to display data that is geographically targeted.</StiRegionMapElement>
     <StiReportSummaryBand>This band is used to output summaries through the entire report. It is output once in the end of a report.</StiReportSummaryBand>
@@ -2169,6 +2178,8 @@
     <ReportSave>Save currently edited report.</ReportSave>
     <ScriptEvalAccess1>This document uses Script Eval. If the document is from a trusted source, you can click the "Open" button to access it.</ScriptEvalAccess1>
     <ScriptEvalAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, Script Eval will be ignored and not executed.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Full script access (no restrictions, potentially unsafe).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Safe script access (restricted capabilities for security).</ScriptSecuritySafeMode>
     <SelectAll>Select all components on the current page.</SelectAll>
     <SelectUILanguage>Select the UI language.</SelectUILanguage>
     <SendToBack>Move the selected component to back relative to other components.</SendToBack>
@@ -3479,6 +3490,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebra Vertical</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Circle</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polygon</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>None</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Step</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Tick</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Off</StiReportCacheModeOff>
     <StiReportCacheModeOn>On</StiReportCacheModeOn>
@@ -3495,6 +3509,8 @@
     <StiRestrictionsAllowResize>Allow Resize</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Allow Select</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>None</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Full Access</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Safe Mode</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>First</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>From Variable</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Nothing</StiSelectionModeNothing>
@@ -3989,6 +4005,7 @@
     <DataBarsNegative>Data Bars Negative</DataBarsNegative>
     <DataBarsOverlapped>Data Bars Overlapped</DataBarsOverlapped>
     <DataBarsPositive>Data Bars Positive</DataBarsPositive>
+    <DataBinding>Data Binding</DataBinding>
     <DataBindings>Data Bindings</DataBindings>
     <DataCells>Data Cells</DataCells>
     <DataColor>Data Color</DataColor>
@@ -4693,6 +4710,7 @@
     <SkipValues>Skip Values</SkipValues>
     <SkipValuesObj>Skip Values</SkipValuesObj>
     <Smoothing>Smoothing</Smoothing>
+    <SnapMode>Snap Mode</SnapMode>
     <Sort>Sort</Sort>
     <SortBy>Sort by</SortBy>
     <SortDirection>Sort Direction</SortDirection>
@@ -5165,6 +5183,7 @@
     <SaveReportPagesOrFormsFromReport>Save the report, pages or forms</SaveReportPagesOrFormsFromReport>
     <SavingReport>Saving Report</SavingReport>
     <ScriptEvalAccess>Script Eval Access</ScriptEvalAccess>
+    <ScriptSecurity>Script Security</ScriptSecurity>
     <SecondPass>Second Pass</SecondPass>
     <Shapes>Shapes</Shapes>
     <ShowOnParametersPanel>Show on Parameters Panel</ShowOnParametersPanel>
@@ -5353,10 +5372,12 @@
     <UseBrush>Use Brush</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Ask Stimul AI</AskStimulAI>
     <ChangedWithAI>Changed with Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>No issues were found in the specified expression.</CheckExpressionSuccess>
     <CheckQuery>Check Query</CheckQuery>
     <CheckWithStimulAI>Check with Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Click to Preview</ClickToPreview>
     <ConnectionStringExampleWithAI>Connection string sample with Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Connection string testing</ConnectionStringTesting>
     <ExplainQuery>Explain Query</ExplainQuery>

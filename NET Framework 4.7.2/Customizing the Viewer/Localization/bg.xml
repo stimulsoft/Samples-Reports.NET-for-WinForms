@@ -72,6 +72,7 @@
     <AdapterDataViews>Данни от DataViews</AdapterDataViews>
     <AdapterDB2Connection>Данни от IBM DB2 връзка</AdapterDB2Connection>
     <AdapterDBaseFiles>Данни от dBase файлове</AdapterDBaseFiles>
+    <AdapterDbUserSource>Данни от потребителски източник</AdapterDbUserSource>
     <AdapterFirebirdConnection>Данни от Firebird връзка</AdapterFirebirdConnection>
     <AdapterInformixConnection>Данни от Informix връзка</AdapterInformixConnection>
     <AdapterMySQLConnection>Данни от MySQL връзка</AdapterMySQLConnection>
@@ -664,6 +665,7 @@
     <StiCrossTitle>Крос-Заглавие</StiCrossTitle>
     <StiDashboard>Табло</StiDashboard>
     <StiDataBand>Данни</StiDataBand>
+    <StiDataNavigatorUI>Навигатор на данниr</StiDataNavigatorUI>
     <StiDatePicker>Date Picker</StiDatePicker>
     <StiElectronicSignature>Електронен Подпис</StiElectronicSignature>
     <StiEmptyBand>Празни данни</StiEmptyBand>
@@ -696,6 +698,7 @@
     <StiPivotSummary>Pivot Summary</StiPivotSummary>
     <StiPivotTable>Pivot Table</StiPivotTable>
     <StiProgress>Напредък</StiProgress>
+    <StiRangeSelector>Селектор на диапазон</StiRangeSelector>
     <StiRectanglePrimitive>Правоъгълник</StiRectanglePrimitive>
     <StiRegionMap>Region Map</StiRegionMap>
     <StiReport>Отчет</StiReport>
@@ -707,6 +710,7 @@
     <StiShape>Очертание</StiShape>
     <StiSignature>Подпис</StiSignature>
     <StiSingleSelection>Единична селекция</StiSingleSelection>
+    <StiSlider>Плъзгач</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Вложен отчет</StiSubReport>
     <StiSystemText>Системен текст</StiSystemText>
@@ -747,6 +751,7 @@
     <ClearFilterFrom>изчистване на филтъра от '{0}'</ClearFilterFrom>
     <ColorScale>Скала с цветове</ColorScale>
     <ColumnInteractions>Взаимодействия с колони</ColumnInteractions>
+    <CreateDataBinding>Създаване на свързани данни</CreateDataBinding>
     <CustomFilter>Потрбителски &amp;филтри...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Таблата не се поддържат в WPF дизайнера.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Лената с данни</DataBars>
@@ -763,6 +768,7 @@
     <DrillDownSelected>Избрано детайлизиране</DrillDownSelected>
     <DrillUp>Навигиране навътре</DrillUp>
     <DuplicateField>Дублирано поле</DuplicateField>
+    <EditDataBinding>Редакция на свързани данни</EditDataBinding>
     <EditExpression>Редакция израз</EditExpression>
     <EditField>Редакция Поле</EditField>
     <EmptyDashboardFooter>Плъзнете и пуснете компонентите от инструментатиума или данните от речника</EmptyDashboardFooter>
@@ -785,6 +791,8 @@
     <NewMeasure>Нова мярка</NewMeasure>
     <NoRanges>Няма диапазони</NoRanges>
     <NoResult>Без резултат</NoResult>
+    <NResult>{0} резултат</NResult>
+    <NResults>{0} резултати</NResults>
     <NSelected>{0} избрани</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Числови филтри</NumberFilters>
@@ -2011,6 +2019,7 @@
     <StiPdfDigitalSignatureElement>Този компонент се използва за указване на място за цифровия подпис и полетата от сертификата при експорт в PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivot table елемента се използва за представяне на структурирани данни като таблица.</StiPivotTableElement>
     <StiProgressElement>Елементът показва съотношението на входните данни. Той може да бъде представена в различни режими - кръгова диаграма, кръг, ивица.</StiProgressElement>
+    <StiRangeSelectorElement>Този компонент се използва за избор на диапазон от стойности в скала или времева линия. Той позволява на потребителите визуално да дефинират минималните и максималните граници на диапазона.</StiRangeSelectorElement>
     <StiRectanglePrimitive>Този компонент се използва за извеждане на правоъгълници.</StiRectanglePrimitive>
     <StiRegionMapElement>Този елемент се използва за показване на географски насочени данни.</StiRegionMapElement>
     <StiReportSummaryBand>Тази секция се използва за извеждане на обобщаваща информация в отчета. Тя се извежда само веднъж в края на отчета.</StiReportSummaryBand>
@@ -2171,6 +2180,8 @@
     <ReportOpen>Отваряне на отчета в дизайнера.</ReportOpen>
     <ReportPreview>Предварителен преглед на редактирания отчет.</ReportPreview>
     <ReportSave>Съхраняване на текущо редактирания отчет.</ReportSave>
+    <ScriptEvalAccess1>Този документ използва Script Eval. Ако документът е от надежден източник, можете да щракнете върху бутона "Отвори", за да получите достъп до него.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Ако не сте сигурни за източника на документа, но все пак искате да го видите, можете да кликнете върху бутона "Отваряне в безопасен режим". В този случай Script Eval ще бъде игнориран и няма да бъде изпълнен.</ScriptEvalAccess2>
     <SelectAll>Избиране на всички компоненти от текущата страница.</SelectAll>
     <SelectUILanguage>Изберете език на интерфейса.</SelectUILanguage>
     <SendToBack>Преместване на избрания компонент обратно относно другите компоненти.</SendToBack>
@@ -3500,6 +3511,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Зебра вертикално</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Окръжност</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Многоъгълник</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Няма</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Стъпка</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Отметка</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Автоматично</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Изключено</StiReportCacheModeOff>
     <StiReportCacheModeOn>Включено</StiReportCacheModeOn>
@@ -4012,6 +4026,7 @@
     <DataBarsNegative>Отрицателни ленти с данни</DataBarsNegative>
     <DataBarsOverlapped>Препокрити ленти с данни</DataBarsOverlapped>
     <DataBarsPositive>Положителни ленти с данни</DataBarsPositive>
+    <DataBinding>Свързване на данни</DataBinding>
     <DataBindings>Свързване на данни</DataBindings>
     <DataCells>Клетки за данни</DataCells>
     <DataColor>Цвят данни</DataColor>
@@ -4509,6 +4524,7 @@
     <Placeholder>Заместител</Placeholder>
     <Placement>Разположение</Placement>
     <PlaceOnToolbox>Место в инструментариум</PlaceOnToolbox>
+    <Platform>Платформа</Platform>
     <PointAtCenter>Точка в център</PointAtCenter>
     <Position>Позиция</Position>
     <Positive>Положителни</Positive>
@@ -4717,6 +4733,7 @@
     <SkipValues>Пропускане на СтойностиSkip Values</SkipValues>
     <SkipValuesObj>Пропускане на стойности</SkipValuesObj>
     <Smoothing>Изглаждане</Smoothing>
+    <SnapMode>Snap режим</SnapMode>
     <Sort>Сортиране</Sort>
     <SortBy>Сортиране по</SortBy>
     <SortDirection>Направление на сортиране</SortDirection>
@@ -5156,6 +5173,7 @@
     <LabelNestedLevel>Ниво на вложеност:</LabelNestedLevel>
     <LabelPassword>Парола:</LabelPassword>
     <LabelPixels>Пиксели:</LabelPixels>
+    <LabelPlatform>Ако платформата е .NET, ще се използва C# скрипт. Ако платформата е JS, ще се използва JavaScript.</LabelPlatform>
     <LabelQueryTimeout>Таймаут на запитване:</LabelQueryTimeout>
     <LabelSystemVariable>Системна променлива:</LabelSystemVariable>
     <LabelTableOfContentsHint>Моля, проверете компонентите, които трябва да съставят съдържанието. Един компонент е равен на едно ниво на заглавието.</LabelTableOfContentsHint>
@@ -5189,6 +5207,7 @@
     <RestartDesigner>Необходимо е да рестартирате дизайнера на отчета</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Съхраняване на отчета, страници или форми</SaveReportPagesOrFormsFromReport>
     <SavingReport>Съхранене на отчет</SavingReport>
+    <ScriptEvalAccess>Достъп до Script Eval</ScriptEvalAccess>
     <SecondPass>Втори преход</SecondPass>
     <Shapes>Форми</Shapes>
     <ShowOnParametersPanel>Показване в панела с параметри</ShowOnParametersPanel>
@@ -5382,10 +5401,12 @@
     <UseBrush>Използвайте четка</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Попитай Stimul AI</AskStimulAI>
     <ChangedWithAI>Променен със Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Не бяха намерени проблеми в посочения израз.</CheckExpressionSuccess>
     <CheckQuery>Проверете заявката</CheckQuery>
     <CheckWithStimulAI>Проверете със Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Щракнете за преглед</ClickToPreview>
     <ConnectionStringExampleWithAI>Примерен низ за връзка със Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Тестване на низа за връзка</ConnectionStringTesting>
     <ExplainQuery>Обяснете заявката</ExplainQuery>
@@ -5609,6 +5630,7 @@
     <RunWizard>Стартирайте Wizard</RunWizard>
     <SelectColumns>Изберете колони</SelectColumns>
     <SelectTemplate>Шаблон</SelectTemplate>
+    <SelectTypeOfLayout>Моля, изберете тип оформление</SelectTypeOfLayout>
     <Sort>Сортиране</Sort>
     <StandardReport>Стандартен отчет</StandardReport>
     <SuggestWithAI>Предложи с ИИ</SuggestWithAI>

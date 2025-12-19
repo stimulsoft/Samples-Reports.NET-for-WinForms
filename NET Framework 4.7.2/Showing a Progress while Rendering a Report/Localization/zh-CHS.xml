@@ -72,6 +72,7 @@
     <AdapterDataViews>从 DataViews 获取数据</AdapterDataViews>
     <AdapterDB2Connection>从 IBM DB2 连接获取数据</AdapterDB2Connection>
     <AdapterDBaseFiles>从数据库文件获取数据</AdapterDBaseFiles>
+    <AdapterDbUserSource>来自用户源的数据</AdapterDbUserSource>
     <AdapterFirebirdConnection>从 Firebird 连接获取数据</AdapterFirebirdConnection>
     <AdapterInformixConnection>数据来自Informix连接 </AdapterInformixConnection>
     <AdapterMySQLConnection>从 MySQL 连接获取数据</AdapterMySQLConnection>
@@ -665,6 +666,7 @@
     <StiCrossTitle>交叉标题</StiCrossTitle>
     <StiDashboard>仪表盘</StiDashboard>
     <StiDataBand>数据区</StiDataBand>
+    <StiDataNavigatorUI>数据导航器</StiDataNavigatorUI>
     <StiDatePicker>日期选择器</StiDatePicker>
     <StiElectronicSignature>电子签名</StiElectronicSignature>
     <StiEmptyBand>空白区</StiEmptyBand>
@@ -696,6 +698,7 @@
     <StiPivotSummary>关键总结</StiPivotSummary>
     <StiPivotTable>关键表格</StiPivotTable>
     <StiProgress>进程</StiProgress>
+    <StiRangeSelector>范围选择器</StiRangeSelector>
     <StiRectanglePrimitive>矩形</StiRectanglePrimitive>
     <StiRegionMap>区域地图</StiRegionMap>
     <StiReport>报表</StiReport>
@@ -707,6 +710,7 @@
     <StiShape>形状</StiShape>
     <StiSignature>署名</StiSignature>
     <StiSingleSelection>单选</StiSingleSelection>
+    <StiSlider>滑块</StiSlider>
     <StiSparkline> 火花谱线</StiSparkline>
     <StiSubReport>子报表</StiSubReport>
     <StiSystemText>系统文本</StiSystemText>
@@ -747,6 +751,7 @@
     <ClearFilterFrom>从 '{0}'清除过滤器</ClearFilterFrom>
     <ColorScale>色标</ColorScale>
     <ColumnInteractions>纵列交互</ColumnInteractions>
+    <CreateDataBinding>创建数据绑定</CreateDataBinding>
     <CustomFilter>自定义 &amp;过滤器...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>WPF设计器不支持仪表板.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>数据条</DataBars>
@@ -763,6 +768,7 @@
     <DrillDownSelected>下行选择</DrillDownSelected>
     <DrillUp>上行</DrillUp>
     <DuplicateField>重复字段</DuplicateField>
+    <EditDataBinding>编辑数据绑定</EditDataBinding>
     <EditExpression>编辑表达式</EditExpression>
     <EditField>编辑字段</EditField>
     <EmptyDashboardFooter>拖 &amp; 从工具箱中删除组件或从字典中删除数据</EmptyDashboardFooter>
@@ -785,6 +791,8 @@
     <NewMeasure>新测量</NewMeasure>
     <NoRanges>没有范围</NoRanges>
     <NoResult>没有结果</NoResult>
+    <NResult>{0} 个结果</NResult>
+    <NResults>{0} 个结果</NResults>
     <NSelected>{0} 选择</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>数字过滤器</NumberFilters>
@@ -2010,6 +2018,7 @@
     <StiPdfDigitalSignatureElement>此组件用于在导出为PDF时为证书中的数字签名和字段指定空间</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>数据透视表元素用于将结构化数据表示为表。</StiPivotTableElement>
     <StiProgressElement>元素显示输入数据的比率。它可以用不同的方式呈现-饼状图，环状图和条形图。</StiProgressElement>
+    <StiRangeSelectorElement>此组件用于在刻度或时间轴上选择一个数值范围。它允许用户直观地定义范围的最小值和最大值。</StiRangeSelectorElement>
     <StiRectanglePrimitive>该组件用于输出矩形.</StiRectanglePrimitive>
     <StiRegionMapElement>该元素用于显示地理目标数据。</StiRegionMapElement>
     <StiReportSummaryBand>该带区用于输出整个报表的总计.它在报表的结尾输出一次.</StiReportSummaryBand>
@@ -2170,6 +2179,8 @@
     <ReportOpen>在设计器里打开报表.</ReportOpen>
     <ReportPreview>在查看器预览编辑了的报告.</ReportPreview>
     <ReportSave>保存当前编辑的报表.</ReportSave>
+    <ScriptEvalAccess1>此文档使用 Script Eval。如果该文档来自可信来源，你可以点击“打开”按钮访问它。</ScriptEvalAccess1>
+    <ScriptEvalAccess2>如果你不确定文档来源但仍想查看，可以点击“以安全模式打开”按钮。在这种情况下，Script Eval 将被忽略且不会执行。</ScriptEvalAccess2>
     <SelectAll>在当前页面全选组件 .</SelectAll>
     <SelectUILanguage>选择用户界面语言.</SelectUILanguage>
     <SendToBack>将所选组件移至相对于其他组件的后面.</SendToBack>
@@ -3488,6 +3499,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebra纵向</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>圆</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>多边形</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>无</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>步进</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>刻度</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>自动</StiReportCacheModeAuto>
     <StiReportCacheModeOff>关闭</StiReportCacheModeOff>
     <StiReportCacheModeOn>开启</StiReportCacheModeOn>
@@ -3999,6 +4013,7 @@
     <DataBarsNegative>数据条为负</DataBarsNegative>
     <DataBarsOverlapped>数据条重叠</DataBarsOverlapped>
     <DataBarsPositive>数据条为正</DataBarsPositive>
+    <DataBinding>数据绑定</DataBinding>
     <DataBindings>数据绑定</DataBindings>
     <DataCells>数据单元</DataCells>
     <DataColor>数据涂色</DataColor>
@@ -4497,6 +4512,7 @@
     <Placeholder>占位符</Placeholder>
     <Placement>放置</Placement>
     <PlaceOnToolbox>放置工具箱</PlaceOnToolbox>
+    <Platform>平台</Platform>
     <PointAtCenter>指向中心</PointAtCenter>
     <Position>位置</Position>
     <Positive>正</Positive>
@@ -4705,6 +4721,7 @@
     <SkipValues>跳过值</SkipValues>
     <SkipValuesObj>跳过值</SkipValuesObj>
     <Smoothing>平滑</Smoothing>
+    <SnapMode>吸附模式</SnapMode>
     <Sort>排序</Sort>
     <SortBy>排序为</SortBy>
     <SortDirection>排序方向</SortDirection>
@@ -5142,6 +5159,7 @@
     <LabelNestedLevel>嵌套等级:</LabelNestedLevel>
     <LabelPassword>密码:</LabelPassword>
     <LabelPixels>像素:</LabelPixels>
+    <LabelPlatform>如果平台是 .NET，将使用 C# 脚本。如果平台是 JS，则使用 JavaScript。</LabelPlatform>
     <LabelQueryTimeout>查询超时:</LabelQueryTimeout>
     <LabelSystemVariable>系统变量:</LabelSystemVariable>
     <LabelTableOfContentsHint>请检查一下目录中应该包含的组件。一个组件等于一个标题级别.</LabelTableOfContentsHint>
@@ -5175,6 +5193,7 @@
     <RestartDesigner>您需要重新启动报表设计器</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>保存报表、页面或窗体</SaveReportPagesOrFormsFromReport>
     <SavingReport>正在保存报表</SavingReport>
+    <ScriptEvalAccess>脚本执行访问</ScriptEvalAccess>
     <SecondPass>第二通道</SecondPass>
     <Shapes>形状</Shapes>
     <ShowOnParametersPanel>在参数面板上显示</ShowOnParametersPanel>
@@ -5366,10 +5385,12 @@
     <UseBrush>使用画笔</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>询问 Stimul AI</AskStimulAI>
     <ChangedWithAI>使用Stimul AI进行更改</ChangedWithAI>
     <CheckExpressionSuccess>在指定的表达式中未发现任何问题</CheckExpressionSuccess>
     <CheckQuery>检查查询</CheckQuery>
     <CheckWithStimulAI>使用 Stimul AI进行检查</CheckWithStimulAI>
+    <ClickToPreview>点击预览</ClickToPreview>
     <ConnectionStringExampleWithAI>使用Stimul AI连接字符串示例</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>连接串测试</ConnectionStringTesting>
     <ExplainQuery>解释查询</ExplainQuery>
@@ -5593,6 +5614,7 @@
     <RunWizard>运行向导</RunWizard>
     <SelectColumns>选择列</SelectColumns>
     <SelectTemplate>模板</SelectTemplate>
+    <SelectTypeOfLayout>请选择一种布局类型</SelectTypeOfLayout>
     <Sort>排序</Sort>
     <StandardReport>标准报表</StandardReport>
     <SuggestWithAI>使用 AI 提建议</SuggestWithAI>

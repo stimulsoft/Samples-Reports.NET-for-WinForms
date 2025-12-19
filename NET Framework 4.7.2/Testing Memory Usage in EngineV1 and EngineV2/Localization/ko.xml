@@ -72,6 +72,7 @@
     <AdapterDataViews>데이터 뷰에서 데이터</AdapterDataViews>
     <AdapterDB2Connection>IBM DB2 연결에서 데이터</AdapterDB2Connection>
     <AdapterDBaseFiles>dBase 파일에서 데이터</AdapterDBaseFiles>
+    <AdapterDbUserSource>사용자 소스의 데이터</AdapterDbUserSource>
     <AdapterFirebirdConnection>Firebird 연결에서 데이터</AdapterFirebirdConnection>
     <AdapterInformixConnection>Informix 연결에서 데이터</AdapterInformixConnection>
     <AdapterMySQLConnection>MySQL 접속에서의 데이터</AdapterMySQLConnection>
@@ -664,6 +665,7 @@
     <StiCrossTitle>크로스 제목</StiCrossTitle>
     <StiDashboard>대시보드</StiDashboard>
     <StiDataBand>데이터</StiDataBand>
+    <StiDataNavigatorUI>데이터 내비게이터</StiDataNavigatorUI>
     <StiDatePicker>날짜 선택기</StiDatePicker>
     <StiElectronicSignature>전자 서명</StiElectronicSignature>
     <StiEmptyBand>빈 데이터</StiEmptyBand>
@@ -695,6 +697,7 @@
     <StiPivotSummary>피벗 개요</StiPivotSummary>
     <StiPivotTable>피벗 테이블</StiPivotTable>
     <StiProgress>진행</StiProgress>
+    <StiRangeSelector>범위 선택기</StiRangeSelector>
     <StiRectanglePrimitive>사각형</StiRectanglePrimitive>
     <StiRegionMap>지역지도</StiRegionMap>
     <StiReport>보고서</StiReport>
@@ -706,6 +709,7 @@
     <StiShape>모양</StiShape>
     <StiSignature>서명</StiSignature>
     <StiSingleSelection>단일 선택</StiSingleSelection>
+    <StiSlider>슬라이더</StiSlider>
     <StiSparkline>스파크라인</StiSparkline>
     <StiSubReport>하위 보고서</StiSubReport>
     <StiSystemText>시스템 텍스트</StiSystemText>
@@ -746,6 +750,7 @@
     <ClearFilterFrom>'{0}'의 필터를 지우려면</ClearFilterFrom>
     <ColorScale>컬러 스케일</ColorScale>
     <ColumnInteractions>컬럼 상호작용</ColumnInteractions>
+    <CreateDataBinding>데이터 바인딩 생성</CreateDataBinding>
     <CustomFilter>사용자 &amp; 필터...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>WPF Designer에서는 대시 보드가 지원되지 않습니다.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>데이터 바</DataBars>
@@ -762,6 +767,7 @@
     <DrillDownSelected>선택된 드릴 다운</DrillDownSelected>
     <DrillUp>드릴 업</DrillUp>
     <DuplicateField>중복 필드</DuplicateField>
+    <EditDataBinding>데이터 바인딩 편집</EditDataBinding>
     <EditExpression>표현 편집</EditExpression>
     <EditField>필드 편집</EditField>
     <EmptyDashboardFooter>구성 요소를 도구 상자 또는 사전에서 데이터를 드래그 앤 드롭</EmptyDashboardFooter>
@@ -784,6 +790,8 @@
     <NewMeasure>새로운 척도</NewMeasure>
     <NoRanges>범위가 없습니다</NoRanges>
     <NoResult>검색 결과가 없습니다</NoResult>
+    <NResult>{0}개 결과</NResult>
+    <NResults>{0}개 결과</NResults>
     <NSelected>{0}이 선택되었습니다</NSelected>
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>수치 필터</NumberFilters>
@@ -2008,6 +2016,7 @@
     <StiPdfDigitalSignatureElement>이 구성요소는 PDF로 내보낼 때 인증서에서 디지털 서명 및 필드에 대한 공간을 지정하는 데 사용됩니다.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>피벗 구성 요소는 구조화 된 데이터 표현을 테이블로 사용합니다.</StiPivotTableElement>
     <StiProgressElement>요소는 입력 데이터의 비율이 표시됩니다. 이것은 파이, 원형, 막대 등 다양한 모드에서 볼 수 있습니다.</StiProgressElement>
+    <StiRangeSelectorElement>이 컴포넌트는 스케일 또는 타임라인에서 값의 범위를 선택하는 데 사용됩니다. 사용자가 범위의 최소 및 최대 값을 시각적으로 지정할 수 있습니다.</StiRangeSelectorElement>
     <StiRectanglePrimitive>이 구성 요소는 사각형을 출력하는 데 사용됩니다.</StiRectanglePrimitive>
     <StiRegionMapElement>이 구성 요소는 지리적으로 타겟팅 된 데이터를 표시하는 데 사용됩니다.</StiRegionMapElement>
     <StiReportSummaryBand>이 밴드는 보고서 전반에 걸쳐 요약을 출력하는 데 사용됩니다. 보고서의 마지막에 1 회 출력됩니다.</StiReportSummaryBand>
@@ -2168,6 +2177,8 @@
     <ReportOpen>디자이너에서 보고서를 엽니 다.</ReportOpen>
     <ReportPreview>뷰어에서 편집 한 보고서를 미리 봅니다.</ReportPreview>
     <ReportSave>현재 편집 된 리포트를 저장합니다.</ReportSave>
+    <ScriptEvalAccess1>이 문서는 Script Eval을 사용합니다. 신뢰할 수 있는 출처의 문서라면 "열기" 버튼을 클릭하여 접근할 수 있습니다.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>문서의 출처가 확실하지 않지만 그래도 열어보고 싶다면 "안전 모드로 열기" 버튼을 클릭할 수 있습니다. 이 경우 Script Eval은 무시되며 실행되지 않습니다.</ScriptEvalAccess2>
     <SelectAll>현재 페이지의 모든 구성 요소를 선택합니다.</SelectAll>
     <SelectUILanguage>UI 언어를 선택합니다.</SelectUILanguage>
     <SendToBack>선택한 구성 요소를 다른 구성 요소에 대해 상대적으로 뒤로 이동합니다.</SendToBack>
@@ -3478,6 +3489,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebra 수직</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>원</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>다각형</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>없음</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>단계</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>틱</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>자동</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Off</StiReportCacheModeOff>
     <StiReportCacheModeOn>On</StiReportCacheModeOn>
@@ -3989,6 +4003,7 @@
     <DataBarsNegative>음수 데이터 막대</DataBarsNegative>
     <DataBarsOverlapped>중첩된 데이터 막대</DataBarsOverlapped>
     <DataBarsPositive>양수 데이터 막대</DataBarsPositive>
+    <DataBinding>데이터 바인딩</DataBinding>
     <DataBindings>데이터 바인딩</DataBindings>
     <DataCells>데이터 셀s</DataCells>
     <DataColor>데이터 색상</DataColor>
@@ -4485,6 +4500,7 @@
     <Placeholder>플레이스 홀더</Placeholder>
     <Placement>위치</Placement>
     <PlaceOnToolbox>도구 상자에서 위치</PlaceOnToolbox>
+    <Platform>플랫폼</Platform>
     <PointAtCenter>센터를 가리키는</PointAtCenter>
     <Position>위치</Position>
     <Positive>양수</Positive>
@@ -4692,6 +4708,7 @@
     <SkipValues>값 건너 뛰기</SkipValues>
     <SkipValuesObj>Obj값 건너 뛰기</SkipValuesObj>
     <Smoothing>평활화</Smoothing>
+    <SnapMode>스냅 모드</SnapMode>
     <Sort>정렬</Sort>
     <SortBy>정렬</SortBy>
     <SortDirection>정렬 방향</SortDirection>
@@ -5129,6 +5146,7 @@
     <LabelNestedLevel>중첩 수준 :</LabelNestedLevel>
     <LabelPassword>암호 :</LabelPassword>
     <LabelPixels>픽셀 :</LabelPixels>
+    <LabelPlatform>플랫폼이 .NET이면 C# 스크립트가 사용되며, 플랫폼이 JS이면 JavaScript가 사용됩니다.</LabelPlatform>
     <LabelQueryTimeout>쿼리 제한 시간 :</LabelQueryTimeout>
     <LabelSystemVariable>시스템 변수 :</LabelSystemVariable>
     <LabelTableOfContentsHint>Please, check the components which should form the table of contents. One component is equal to one heading level.</LabelTableOfContentsHint>
@@ -5162,6 +5180,7 @@
     <RestartDesigner>보고서 디자이너를 다시 시작해야합니다</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>보고서 페이지 또는 양식을 저장할</SaveReportPagesOrFormsFromReport>
     <SavingReport>보고서 저장</SavingReport>
+    <ScriptEvalAccess>Script Eval 접근</ScriptEvalAccess>
     <SecondPass>두 번째 경로</SecondPass>
     <Shapes>모양</Shapes>
     <ShowOnParametersPanel>매개변수 패널에 표시</ShowOnParametersPanel>
@@ -5352,10 +5371,12 @@
     <UseBrush>브러시 사용</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Stimul AI에게 질문하기</AskStimulAI>
     <ChangedWithAI>Stimul AI로 변경됨</ChangedWithAI>
     <CheckExpressionSuccess>지정된 표현식에서 문제가 발견되지 않았습니다.</CheckExpressionSuccess>
     <CheckQuery>쿼리 확인</CheckQuery>
     <CheckWithStimulAI>Stimul AI로 확인</CheckWithStimulAI>
+    <ClickToPreview>미리보려면 클릭하세요</ClickToPreview>
     <ConnectionStringExampleWithAI>Stimul AI와 함께하는 연결 문자열 샘플</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>연결 문자열 테스트</ConnectionStringTesting>
     <ExplainQuery>쿼리 설명</ExplainQuery>
@@ -5579,6 +5600,7 @@
     <RunWizard>위자드 실행</RunWizard>
     <SelectColumns>열 선택</SelectColumns>
     <SelectTemplate>템플릿</SelectTemplate>
+    <SelectTypeOfLayout>레이아웃 유형을 선택하세요</SelectTypeOfLayout>
     <Sort>정렬</Sort>
     <StandardReport>표준 보고서</StandardReport>
     <SuggestWithAI>AI로 제안</SuggestWithAI>

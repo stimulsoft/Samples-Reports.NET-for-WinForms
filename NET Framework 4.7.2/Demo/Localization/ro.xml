@@ -72,6 +72,7 @@
     <AdapterDataViews>Date din DataViews</AdapterDataViews>
     <AdapterDB2Connection>Date din conexiunea IBM DB2</AdapterDB2Connection>
     <AdapterDBaseFiles>Date din fişierele dBase</AdapterDBaseFiles>
+    <AdapterDbUserSource>Date din sursa utilizatorului</AdapterDbUserSource>
     <AdapterFirebirdConnection>Date din Conexiunea Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Date din Conexiunea Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Date din Conexiunea MySQL</AdapterMySQLConnection>
@@ -666,6 +667,7 @@
     <StiCrossTitle>Cross-Titlu</StiCrossTitle>
     <StiDashboard>Panou control</StiDashboard>
     <StiDataBand>Date</StiDataBand>
+    <StiDataNavigatorUI>Navigator date</StiDataNavigatorUI>
     <StiDatePicker>Control Selecţie dată</StiDatePicker>
     <StiElectronicSignature>Semnătura electronică</StiElectronicSignature>
     <StiEmptyBand>Bandă liberă</StiEmptyBand>
@@ -698,6 +700,7 @@
     <StiPivotSummary>Rezumat Pivot</StiPivotSummary>
     <StiPivotTable>Tabelă Pivot</StiPivotTable>
     <StiProgress>Progres</StiProgress>
+    <StiRangeSelector>Selector interval</StiRangeSelector>
     <StiRectanglePrimitive>Dreptunghi</StiRectanglePrimitive>
     <StiRegionMap>Regiune Hartă</StiRegionMap>
     <StiReport>Raport</StiReport>
@@ -709,6 +712,7 @@
     <StiShape>Formă</StiShape>
     <StiSignature>Semnătură</StiSignature>
     <StiSingleSelection>Selectie unică</StiSingleSelection>
+    <StiSlider>Cursor</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-raport</StiSubReport>
     <StiSystemText>Text de sistem</StiSystemText>
@@ -749,6 +753,7 @@
     <ClearFilterFrom>Șterge filtrul de la '{0}'</ClearFilterFrom>
     <ColorScale>Scală de culori</ColorScale>
     <ColumnInteractions>Coloana interacțiuni</ColumnInteractions>
+    <CreateDataBinding>Creare legătura date</CreateDataBinding>
     <CustomFilter>&amp;Filtru Customizat...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Panourile de control nu sunt acceptate în WPF Designer.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Bare de date</DataBars>
@@ -765,6 +770,7 @@
     <DrillDownSelected>Detaliere Selectată</DrillDownSelected>
     <DrillUp>Trage în sus</DrillUp>
     <DuplicateField>Câmp Duplicat</DuplicateField>
+    <EditDataBinding>Editare legătura date</EditDataBinding>
     <EditExpression>Editare Expresie</EditExpression>
     <EditField>Editare câmp</EditField>
     <EmptyDashboardFooter>Trageți și plasați componentă din ToolBox sau din Dicționar</EmptyDashboardFooter>
@@ -787,6 +793,8 @@
     <NewMeasure>Măsură Nouă</NewMeasure>
     <NoRanges>Fără Interval</NoRanges>
     <NoResult>Nici un rezultat</NoResult>
+    <NResult>{0} rezultat</NResult>
+    <NResults>{0} rezultate</NResults>
     <NSelected>{0} selectate</NSelected>
     <Nulls>(Nuluri)</Nulls>
     <NumberFilters>Număr de filtre</NumberFilters>
@@ -2033,6 +2041,7 @@
     <StiPdfDigitalSignatureElement>Această componentă este utilizată pentru a specifica un spațiu pentru semnătura digitală și câmpurile din certificat atunci când se exportă în PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Elementul de tabel pivot este utilizat pentru reprezentarea datelor structurate ca tabel.</StiPivotTableElement>
     <StiProgressElement>Elementul afișează raportul dintre datele de intrare. Acesta poate fi prezentat în diferite moduri - amestec, cerc, bare.</StiProgressElement>
+    <StiRangeSelectorElement>Această componentă este utilizată pentru a selecta un interval de valori pe o scală sau o cronologie. Permite utilizatorilor să definească vizual limitele minime și maxime ale intervalului..</StiRangeSelectorElement>
     <StiRectanglePrimitive>Această componentă este folosită pentru a afişa dreptunghiuri.</StiRectanglePrimitive>
     <StiRegionMapElement>Acest element este utilizat pentru afișarea datelor direcționate din punct de vedere geografic.</StiRegionMapElement>
     <StiReportSummaryBand>Această bandă este folosită pentru afişarea rezumatului din întreg raportul.Este afişată o singură dată,la sfârsitul raportului.</StiReportSummaryBand>
@@ -2193,6 +2202,8 @@
     <ReportOpen>Deschide un raport în designer.</ReportOpen>
     <ReportPreview>Previzualizează un raport.</ReportPreview>
     <ReportSave>Salvează raportul editat curent.</ReportSave>
+    <ScriptEvalAccess1>Acest document folosește Script Eval. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul „Deschide” pentru a-l accesa..</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să îl vizualizați, puteți face clic pe butonul „Deschide în modul de siguranță”. În acest caz, Script Eval va fi ignorat și nu va fi executat..</ScriptEvalAccess2>
     <SelectAll>Selectează toate componentele de pe pagina curentă.</SelectAll>
     <SelectUILanguage>Selectaţi limba pentru interfaţa grafică.</SelectUILanguage>
     <SendToBack>Mută componenta selectată în spate în funcţie de alte componente.</SendToBack>
@@ -3545,6 +3556,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebră Verticală</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Cerc</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Poligon</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Nici unul</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Pas</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Bifă</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Automat</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Oprit</StiReportCacheModeOff>
     <StiReportCacheModeOn>Pornit</StiReportCacheModeOn>
@@ -4059,6 +4073,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DataBarsNegative>Bare de date negative</DataBarsNegative>
     <DataBarsOverlapped>Bare de date suprapuse</DataBarsOverlapped>
     <DataBarsPositive>Bare de date pozitive</DataBarsPositive>
+    <DataBinding>Legarea datelor</DataBinding>
     <DataBindings>Asocieri date</DataBindings>
     <DataCells>Celule de date</DataCells>
     <DataColor>Culoare Date</DataColor>
@@ -4558,6 +4573,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Placeholder>Substituent</Placeholder>
     <Placement>Amplasare</Placement>
     <PlaceOnToolbox>Amplasează în bara de unelte</PlaceOnToolbox>
+    <Platform>Platformă</Platform>
     <PointAtCenter>Indică centrul</PointAtCenter>
     <Position>Poziţie</Position>
     <Positive>Pozitiv</Positive>
@@ -4766,6 +4782,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <SkipValues>Omite Valori</SkipValues>
     <SkipValuesObj>Omite Valori</SkipValuesObj>
     <Smoothing>Rotunjire</Smoothing>
+    <SnapMode>Mod Snap</SnapMode>
     <Sort>Sortează</Sort>
     <SortBy>Sortare după</SortBy>
     <SortDirection>Direcţie de sortare</SortDirection>
@@ -5206,6 +5223,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <LabelNestedLevel>Nivel Imbricat:</LabelNestedLevel>
     <LabelPassword>Parola:</LabelPassword>
     <LabelPixels>Pixeli:</LabelPixels>
+    <LabelPlatform>Dacă platforma este .NET, se va utiliza un script C#. Dacă platforma este JS, atunci se va utiliza JavaScript..</LabelPlatform>
     <LabelQueryTimeout>Pauză interogare:</LabelQueryTimeout>
     <LabelSystemVariable>Variabila de sistem:</LabelSystemVariable>
     <LabelTableOfContentsHint>Vă rugăm să verificați componentele care ar trebui să formeze cuprinsul. O componentă este egală cu un nivel de titlu.</LabelTableOfContentsHint>
@@ -5239,6 +5257,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <RestartDesigner>Trebuie sa reporniti designer-ul de rapoarte</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Salvare raport, pagini sau forme</SaveReportPagesOrFormsFromReport>
     <SavingReport>Salvare raport</SavingReport>
+    <ScriptEvalAccess>Acces la evaluarea scriptului</ScriptEvalAccess>
     <SecondPass>A doua trecere</SecondPass>
     <Shapes>Forme</Shapes>
     <ShowOnParametersPanel>Afișare în panoul de parametri</ShowOnParametersPanel>
@@ -5430,10 +5449,12 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <UseBrush>Folosire pensulă</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Întreabă Stimul AI</AskStimulAI>
     <ChangedWithAI>Schimbat cu Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Nu au fost găsite probleme în expresia specificată.</CheckExpressionSuccess>
     <CheckQuery>Verificare interogare</CheckQuery>
     <CheckWithStimulAI>Verificare cu Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Faceți clic pentru previzualizare</ClickToPreview>
     <ConnectionStringExampleWithAI>Exemplu șir conectare cu Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Testare șir conectare</ConnectionStringTesting>
     <ExplainQuery>Explicare interogare</ExplainQuery>
@@ -5657,6 +5678,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <RunWizard>Executare Wizard</RunWizard>
     <SelectColumns>Selectează Coloanele</SelectColumns>
     <SelectTemplate>Șablon</SelectTemplate>
+    <SelectTypeOfLayout>Vă rugăm să selectați un tip de aspect</SelectTypeOfLayout>
     <Sort>Sortare</Sort>
     <StandardReport>Raport standard</StandardReport>
     <SuggestWithAI>Sugestie cu AI</SuggestWithAI>
