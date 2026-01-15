@@ -72,6 +72,7 @@
     <AdapterDataViews>Dati da DataViews</AdapterDataViews>
     <AdapterDB2Connection>Dati da Connessione IBM DB2</AdapterDB2Connection>
     <AdapterDBaseFiles>Dati da file dBase</AdapterDBaseFiles>
+    <AdapterDbUserSource>Dati dalla fonte utente</AdapterDbUserSource>
     <AdapterFirebirdConnection>Dati da connessioni Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Dati da Connessione Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Dati da connessione MySQL</AdapterMySQLConnection>
@@ -665,6 +666,7 @@
     <StiCrossTitle>Titolo incrociato</StiCrossTitle>
     <StiDashboard>Dashboard</StiDashboard>
     <StiDataBand>Dati</StiDataBand>
+    <StiDataNavigatorUI>Navigatore dati</StiDataNavigatorUI>
     <StiDatePicker>Selettore data</StiDatePicker>
     <StiElectronicSignature>Firma elettronica</StiElectronicSignature>
     <StiEmptyBand>Banda vuota</StiEmptyBand>
@@ -696,6 +698,7 @@
     <StiPivotSummary>Riepilogo pivot</StiPivotSummary>
     <StiPivotTable>Tabella pivot</StiPivotTable>
     <StiProgress>Avanzamento</StiProgress>
+    <StiRangeSelector>Selettore di intervallo</StiRangeSelector>
     <StiRectanglePrimitive>Rettangolo</StiRectanglePrimitive>
     <StiRegionMap>Mappa regionale</StiRegionMap>
     <StiReport>Report</StiReport>
@@ -707,6 +710,7 @@
     <StiShape>Forma</StiShape>
     <StiSignature>Firma</StiSignature>
     <StiSingleSelection>Selezione singola</StiSingleSelection>
+    <StiSlider>Cursore</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sottoreport</StiSubReport>
     <StiSystemText>Funzioni</StiSystemText>
@@ -747,6 +751,7 @@
     <ClearFilterFrom>Cancella filtro da '{0}'</ClearFilterFrom>
     <ColorScale>Scala di colori</ColorScale>
     <ColumnInteractions>Interazioni colonna</ColumnInteractions>
+    <CreateDataBinding>Crea associazione dati</CreateDataBinding>
     <CustomFilter>Filtro personalizzato...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Le dashboard non sono supportate nel Designer WPF.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Barre dati</DataBars>
@@ -763,6 +768,7 @@
     <DrillDownSelected>Drill-down selezionato</DrillDownSelected>
     <DrillUp>Drill-up</DrillUp>
     <DuplicateField>Duplica campo</DuplicateField>
+    <EditDataBinding>Modifica associazione dati</EditDataBinding>
     <EditExpression>Modifica espressione</EditExpression>
     <EditField>Modifica campo</EditField>
     <EmptyDashboardFooter>Trascina un componente dalla casella degli strumenti o dati dal dizionario</EmptyDashboardFooter>
@@ -785,6 +791,8 @@
     <NewMeasure>Nuova misura</NewMeasure>
     <NoRanges>Nessun intervallo</NoRanges>
     <NoResult>Nessun risultato</NoResult>
+    <NResult>{0} risultato</NResult>
+    <NResults>{0} risultati</NResults>
     <NSelected>{0} selezionati</NSelected>
     <Nulls>(Null)</Nulls>
     <NumberFilters>Filtri numerici</NumberFilters>
@@ -2009,6 +2017,7 @@
     <StiPdfDigitalSignatureElement>Questo componente viene utilizzato per specificare uno spazio per la firma digitale e i campi dal certificato durante l'esportazione in PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>L'elemento tabella pivot viene utilizzato per rappresentare dati strutturati come una tabella.</StiPivotTableElement>
     <StiProgressElement>L'elemento visualizza il rapporto tra i dati di input. Può essere presentato in diverse modalità: torta, ciambella, barre.</StiProgressElement>
+    <StiRangeSelectorElement>Questo componente viene utilizzato per selezionare un intervallo di valori su una scala o una linea temporale. Consente agli utenti di definire visivamente i limiti minimo e massimo dell’intervallo.</StiRangeSelectorElement>
     <StiRectanglePrimitive>TQuesto componente  utilizzato per visualizzare rettangoli.</StiRectanglePrimitive>
     <StiRegionMapElement>Questo elemento viene utilizzato per visualizzare dati geograficamente mirati.</StiRegionMapElement>
     <StiReportSummaryBand>Questa banda  utilizzata per visualizzare riepiloghi dell'intero report. E' visualizzata una sola volta alla fine del report.</StiReportSummaryBand>
@@ -2169,6 +2178,10 @@
     <ReportOpen>Apri report nel designer.</ReportOpen>
     <ReportPreview>Anteprima report modificato nel visualizzatore.</ReportPreview>
     <ReportSave>Salva report correntemente modificato.</ReportSave>
+    <ScriptEvalAccess1>Questo documento utilizza Script Eval. Se il documento proviene da una fonte attendibile, è possibile fare clic sul pulsante «Apri» per accedervi.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Se non si è sicuri della fonte del documento ma si desidera comunque visualizzarlo, è possibile fare clic sul pulsante «Apri in modalità sicura». In questo caso, Script Eval verrà ignorato e non verrà eseguito.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Accesso completo agli script (senza restrizioni, potenzialmente non sicuro).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Accesso sicuro agli script (funzionalità limitate per motivi di sicurezza).</ScriptSecuritySafeMode>
     <SelectAll>Seleziona tutti i componenti nella pagina corrente.</SelectAll>
     <SelectUILanguage>Seleziona la lingua dellla UI.</SelectUILanguage>
     <SendToBack>Sposta il componente selezionato in secondo piano relativamente agli altri componenti.</SendToBack>
@@ -3497,6 +3510,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebra verticale</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Cerchio</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Poligono</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Nessuno</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Passo</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Tacca</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Off</StiReportCacheModeOff>
     <StiReportCacheModeOn>On</StiReportCacheModeOn>
@@ -3513,6 +3529,8 @@
     <StiRestrictionsAllowResize>Consenti Ridimensionamento</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Consenti Selezione</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Nessuna</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Accesso completo</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Modalità sicura</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Primo</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Da variabile</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Niente</StiSelectionModeNothing>
@@ -4008,6 +4026,7 @@
     <DataBarsNegative>Barre dati negative</DataBarsNegative>
     <DataBarsOverlapped>Barre dati sovrapposte</DataBarsOverlapped>
     <DataBarsPositive>Barre dati positive</DataBarsPositive>
+    <DataBinding>Associazione dati</DataBinding>
     <DataBindings>Associazioni dati</DataBindings>
     <DataCells>Celle dati</DataCells>
     <DataColor>Colore dati</DataColor>
@@ -4506,6 +4525,7 @@
     <Placeholder>Segnaposto</Placeholder>
     <Placement>Piazzamento</Placement>
     <PlaceOnToolbox>Inserire nella toolbox</PlaceOnToolbox>
+    <Platform>Piattaforma</Platform>
     <PointAtCenter>Centra</PointAtCenter>
     <Position>Posizione</Position>
     <Positive>Positivo</Positive>
@@ -4714,6 +4734,7 @@
     <SkipValues>Salta valori</SkipValues>
     <SkipValuesObj>Salta valori</SkipValuesObj>
     <Smoothing>Arrotondamento</Smoothing>
+    <SnapMode>Modalità di aggancio</SnapMode>
     <Sort>Ordina</Sort>
     <SortBy>Ordina per</SortBy>
     <SortDirection>Direzione di ordinamento</SortDirection>
@@ -5152,6 +5173,7 @@
     <LabelNestedLevel>Livello nidificato:</LabelNestedLevel>
     <LabelPassword>Password:</LabelPassword>
     <LabelPixels>Pixels:</LabelPixels>
+    <LabelPlatform>Se la piattaforma è .NET, verrà utilizzato uno script C#. Se la piattaforma è JS, verrà utilizzato JavaScript.</LabelPlatform>
     <LabelQueryTimeout>Timeout query:</LabelQueryTimeout>
     <LabelSystemVariable>Variabile di sistema:</LabelSystemVariable>
     <LabelTableOfContentsHint>Per favore, seleziona i componenti che devono formare l'indice. Un componente equivale a un livello di intestazione.</LabelTableOfContentsHint>
@@ -5185,6 +5207,8 @@
     <RestartDesigner>E' necessario riavviare il report designer</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Salva il report, pagine o moduli</SaveReportPagesOrFormsFromReport>
     <SavingReport>Salvando il Report</SavingReport>
+    <ScriptEvalAccess>Accesso a Script Eval</ScriptEvalAccess>
+    <ScriptSecurity>Sicurezza degli script</ScriptSecurity>
     <SecondPass>Secondo Passo</SecondPass>
     <Shapes>Forme</Shapes>
     <ShowOnParametersPanel>Mostra nel pannello parametri</ShowOnParametersPanel>
@@ -5373,10 +5397,12 @@
     <UseBrush>Usa pennello</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Chiedi a Stimul AI</AskStimulAI>
     <ChangedWithAI>Modificato con Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Nessun problema trovato nell'espressione specificata.</CheckExpressionSuccess>
     <CheckQuery>Verifica query</CheckQuery>
     <CheckWithStimulAI>Verifica con Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Fare clic per visualizzare l’anteprima</ClickToPreview>
     <ConnectionStringExampleWithAI>Esempio stringa di connessione con Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Test stringa di connessione</ConnectionStringTesting>
     <ExplainQuery>Spiega query</ExplainQuery>
@@ -5600,6 +5626,7 @@
     <RunWizard>Esegui procedura guidata</RunWizard>
     <SelectColumns>Selezione colonne</SelectColumns>
     <SelectTemplate>Modello</SelectTemplate>
+    <SelectTypeOfLayout>Selezionare un tipo di layout</SelectTypeOfLayout>
     <Sort>Ordina</Sort>
     <StandardReport>Report Standard </StandardReport>
     <SuggestWithAI>Suggerisci con l'IA</SuggestWithAI>

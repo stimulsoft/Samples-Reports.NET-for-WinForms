@@ -72,6 +72,7 @@
     <AdapterDataViews>Données à partir de DataViews</AdapterDataViews>
     <AdapterDB2Connection>Données à partir d'une connexion IBM DB2</AdapterDB2Connection>
     <AdapterDBaseFiles>Données à partir de fichiers dBase</AdapterDBaseFiles>
+    <AdapterDbUserSource>Données provenant de la source utilisateur</AdapterDbUserSource>
     <AdapterFirebirdConnection>Données à partir d'une connexion Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Données d'une connexion Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Données d'une connexion MySQL</AdapterMySQLConnection>
@@ -664,6 +665,7 @@
     <StiCrossTitle>Titre croisé</StiCrossTitle>
     <StiDashboard>Tableau de bord</StiDashboard>
     <StiDataBand>Données</StiDataBand>
+    <StiDataNavigatorUI>Explorateur de données</StiDataNavigatorUI>
     <StiDatePicker>Sélecteur de dates</StiDatePicker>
     <StiElectronicSignature>Signature électronique</StiElectronicSignature>
     <StiEmptyBand>Bande vide</StiEmptyBand>
@@ -695,6 +697,7 @@
     <StiPivotSummary>Pivot sommé</StiPivotSummary>
     <StiPivotTable>Tableau croisé dynamique</StiPivotTable>
     <StiProgress>Progression</StiProgress>
+    <StiRangeSelector>Sélecteur de plage</StiRangeSelector>
     <StiRectanglePrimitive>Rectangle</StiRectanglePrimitive>
     <StiRegionMap>Carte régional</StiRegionMap>
     <StiReport>Rapport</StiReport>
@@ -706,6 +709,7 @@
     <StiShape>Forme</StiShape>
     <StiSignature>Signature</StiSignature>
     <StiSingleSelection>Sélection unique</StiSingleSelection>
+    <StiSlider>Curseur</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sous-rapport</StiSubReport>
     <StiSystemText>Texte système</StiSystemText>
@@ -746,6 +750,7 @@
     <ClearFilterFrom>Effacer le filtre de '{0}'</ClearFilterFrom>
     <ColorScale>Échelle de couleur</ColorScale>
     <ColumnInteractions>Interactions de colonne</ColumnInteractions>
+    <CreateDataBinding>Créer une liaison de données</CreateDataBinding>
     <CustomFilter>Filtres personnalisée...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Les tableaux de bord ne sont pas pris en charge dans le concepteur WPF.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Barres de donnée</DataBars>
@@ -762,6 +767,7 @@
     <DrillDownSelected>Drill Down sélectionné</DrillDownSelected>
     <DrillUp>Drill Up</DrillUp>
     <DuplicateField>Dupliquer le champ</DuplicateField>
+    <EditDataBinding>Modifier la liaison de données</EditDataBinding>
     <EditExpression>Éditer la formule</EditExpression>
     <EditField>Éditer le champ</EditField>
     <EmptyDashboardFooter>Glisser &amp; déposer des composants depuis la boite à outils ou des données depuis le dictionnaire</EmptyDashboardFooter>
@@ -784,6 +790,8 @@
     <NewMeasure>Nouvelle mesure</NewMeasure>
     <NoRanges>Aucun intervalles</NoRanges>
     <NoResult>Aucune résultat</NoResult>
+    <NResult>{0} résultat</NResult>
+    <NResults>{0} résultats</NResults>
     <NSelected>{0} sélectionnés</NSelected>
     <Nulls>(Vides)</Nulls>
     <NumberFilters>Filtres sur les nombres</NumberFilters>
@@ -2017,6 +2025,7 @@
     <StiPdfDigitalSignatureElement>Ce composant est utilisé pour spécifier un espace pour la signature numérique et les champs du certificat lors de l'exportation en PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Le tableau croisé dynamique est utilisé pour représenter en table des données structurés.</StiPivotTableElement>
     <StiProgressElement>Cet élément affiche le ratio des données en entrée. Il peut être représenté avec différents modes - secteurs, anneaux, bâtons.</StiProgressElement>
+    <StiRangeSelectorElement>Ce composant est utilisé pour sélectionner une plage de valeurs sur une échelle ou une chronologie. Il permet aux utilisateurs de définir visuellement les limites minimale et maximale de la plage.</StiRangeSelectorElement>
     <StiRectanglePrimitive>Ce composant est utilisé pour l'affichage de rectangles.</StiRectanglePrimitive>
     <StiRegionMapElement>Ce contrôle est utilisé pour afficher des données qui sont géographiquement situés.</StiRegionMapElement>
     <StiReportSummaryBand>Cette bande est utilisée pour afficher des résumés sur l'intégralité du rapport. Elle est affichée une fois à la fin d'un rapport.</StiReportSummaryBand>
@@ -2177,6 +2186,10 @@
     <ReportOpen>Ouvrir un rapport dans le concepteur.</ReportOpen>
     <ReportPreview>Aperçu de rapport édité.</ReportPreview>
     <ReportSave>Enregistrer le rapport en cours d'édition.</ReportSave>
+    <ScriptEvalAccess1>Ce document utilise Script Eval. Si le document provient d’une source fiable, vous pouvez cliquer sur le bouton « Ouvrir » pour y accéder.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Si vous n’êtes pas sûr de la source du document mais que vous souhaitez tout de même l’afficher, vous pouvez cliquer sur le bouton « Ouvrir en mode sécurisé ». Dans ce cas, Script Eval sera ignoré et ne sera pas exécuté.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Accès complet aux scripts (sans restrictions, potentiellement dangereux).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Accès sécurisé aux scripts (fonctionnalités restreintes pour des raisons de sécurité).</ScriptSecuritySafeMode>
     <SelectAll>Sélectionner tous les composants de la page courante.</SelectAll>
     <SelectUILanguage>Choisir la langue de l'interface.</SelectUILanguage>
     <SendToBack>Déplacer l'élément sélectionné derrière les autres composants.</SendToBack>
@@ -3514,6 +3527,9 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zèbre vertical</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Cercle</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polygone</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Aucun</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Pas</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Graduation</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Désactiver</StiReportCacheModeOff>
     <StiReportCacheModeOn>Activer</StiReportCacheModeOn>
@@ -3530,6 +3546,8 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <StiRestrictionsAllowResize>Autoriser redimensionnement</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Autoriser sélection</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Aucune</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Accès complet</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Mode sécurisé</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Premier</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>De la variable</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Rien</StiSelectionModeNothing>
@@ -4025,6 +4043,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <DataBarsNegative>Barres de données négatives</DataBarsNegative>
     <DataBarsOverlapped>Barres de données superposées</DataBarsOverlapped>
     <DataBarsPositive>Barres de données positives</DataBarsPositive>
+    <DataBinding>Liaison de données</DataBinding>
     <DataBindings>Liaisons de données</DataBindings>
     <DataCells>Cellules de données</DataCells>
     <DataColor>Couleur de donnée</DataColor>
@@ -4521,6 +4540,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Placeholder>Texte indicatif</Placeholder>
     <Placement>Placement</Placement>
     <PlaceOnToolbox>Afficher dans la boîte à outils</PlaceOnToolbox>
+    <Platform>Plateforme</Platform>
     <PointAtCenter>Point au centre</PointAtCenter>
     <Position>Position</Position>
     <Positive>Positif</Positive>
@@ -4729,6 +4749,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <SkipValues>Ignorer les valeurs</SkipValues>
     <SkipValuesObj>Ignorer les valeurs</SkipValuesObj>
     <Smoothing>Lissage</Smoothing>
+    <SnapMode>Mode d’alignement</SnapMode>
     <Sort>Tri</Sort>
     <SortBy>Trier par</SortBy>
     <SortDirection>Direction du tri</SortDirection>
@@ -5168,6 +5189,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <LabelNestedLevel>Niverau imbriqué :</LabelNestedLevel>
     <LabelPassword>Mot de passe:</LabelPassword>
     <LabelPixels>Pixels :</LabelPixels>
+    <LabelPlatform>Si la plateforme est .NET, un script C# sera utilisé. Si la plateforme est JS, alors JavaScript sera utilisé.</LabelPlatform>
     <LabelQueryTimeout>Délai d'attente de la requête:</LabelQueryTimeout>
     <LabelSystemVariable>Variable système :</LabelSystemVariable>
     <LabelTableOfContentsHint>Veuillez vérifier les éléments qui doivent former la table des matières. Un composant est égal à un niveau de titre.</LabelTableOfContentsHint>
@@ -5201,6 +5223,8 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <RestartDesigner>Vous devez redémarrer le concepteur de rapport</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Sauve le rapport, les pages ou les formulaires</SaveReportPagesOrFormsFromReport>
     <SavingReport>Sauvegarde du rapport</SavingReport>
+    <ScriptEvalAccess>Accès à Script Eval</ScriptEvalAccess>
+    <ScriptSecurity>Sécurité des scripts</ScriptSecurity>
     <SecondPass>Deuxième passe</SecondPass>
     <Shapes>Formes</Shapes>
     <ShowOnParametersPanel>Afficher dans le panneau des paramètres</ShowOnParametersPanel>
@@ -5389,10 +5413,12 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <UseBrush>Utiliser le pinceau</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Demander à Stimul AI</AskStimulAI>
     <ChangedWithAI>Modifié avec Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Aucun problème n'a été trouvé dans l'expression spécifiée.</CheckExpressionSuccess>
     <CheckQuery>Vérifier la requête</CheckQuery>
     <CheckWithStimulAI>Vérifier avec Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Cliquer pour prévisualiser</ClickToPreview>
     <ConnectionStringExampleWithAI>Exemple de chaîne de connexion avec Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Test de la chaîne de connexion</ConnectionStringTesting>
     <ExplainQuery>Expliquer la requête</ExplainQuery>
@@ -5616,6 +5642,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <RunWizard>Exécuter l'assistant</RunWizard>
     <SelectColumns>Sélection des colonnes</SelectColumns>
     <SelectTemplate>Modèle</SelectTemplate>
+    <SelectTypeOfLayout>Veuillez sélectionner un type de mise en page</SelectTypeOfLayout>
     <Sort>Tri</Sort>
     <StandardReport>Rapport standard</StandardReport>
     <SuggestWithAI>Suggérer avec l'IA</SuggestWithAI>

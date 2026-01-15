@@ -72,6 +72,7 @@
     <AdapterDataViews>Data fra DataViews</AdapterDataViews>
     <AdapterDB2Connection>Data fra IBM DB2-tilbkobling</AdapterDB2Connection>
     <AdapterDBaseFiles>Data fra dBase-filer</AdapterDBaseFiles>
+    <AdapterDbUserSource>Data fra bruker­kilde</AdapterDbUserSource>
     <AdapterFirebirdConnection>Data fra Firebird-tilkobling</AdapterFirebirdConnection>
     <AdapterInformixConnection>Data fra Informix-tilkobling</AdapterInformixConnection>
     <AdapterMySQLConnection>Data fra MySQL-tilkobling</AdapterMySQLConnection>
@@ -664,6 +665,7 @@
     <StiCrossTitle>Krysstittel</StiCrossTitle>
     <StiDashboard>Dashbord</StiDashboard>
     <StiDataBand>Data</StiDataBand>
+    <StiDataNavigatorUI>Datanavigator</StiDataNavigatorUI>
     <StiDatePicker>Datovelger</StiDatePicker>
     <StiElectronicSignature>Elektronisk signatur</StiElectronicSignature>
     <StiEmptyBand>Tom Data</StiEmptyBand>
@@ -696,6 +698,7 @@
     <StiPivotSummary>Pivot-oppsummering</StiPivotSummary>
     <StiPivotTable>Pivottabell</StiPivotTable>
     <StiProgress>Fremgang</StiProgress>
+    <StiRangeSelector>Områdevelger</StiRangeSelector>
     <StiRectanglePrimitive>Rektangel</StiRectanglePrimitive>
     <StiRegionMap>Områdekart</StiRegionMap>
     <StiReport>Rapport</StiReport>
@@ -707,6 +710,7 @@
     <StiShape>Form</StiShape>
     <StiSignature>Signatur</StiSignature>
     <StiSingleSelection>Enkeltvalg</StiSingleSelection>
+    <StiSlider>Skyveknapp</StiSlider>
     <StiSparkline>Minidiagram</StiSparkline>
     <StiSubReport>Underrapport</StiSubReport>
     <StiSystemText>Systemtext</StiSystemText>
@@ -747,6 +751,7 @@
     <ClearFilterFrom>Nullstill filter fra "0"</ClearFilterFrom>
     <ColorScale>Fargeskala</ColorScale>
     <ColumnInteractions>Kolonne-interaksjon</ColumnInteractions>
+    <CreateDataBinding>Opprett databinding</CreateDataBinding>
     <CustomFilter>Egendefinert &amp;filter...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Dashbord støttes ikke i WPF Designer.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Datastolper</DataBars>
@@ -763,6 +768,7 @@
     <DrillDownSelected>Drill ned valgt</DrillDownSelected>
     <DrillUp>Drill opp</DrillUp>
     <DuplicateField>Dupliser felt</DuplicateField>
+    <EditDataBinding>Rediger databinding</EditDataBinding>
     <EditExpression>Rediger uttrykk</EditExpression>
     <EditField>Rediger felt</EditField>
     <EmptyDashboardFooter>Dra &amp; slipp komponent fra verktøykasse eller data fra ordbok</EmptyDashboardFooter>
@@ -785,6 +791,8 @@
     <NewMeasure>Nytt mål</NewMeasure>
     <NoRanges>Ingen utvalg</NoRanges>
     <NoResult>Ikke noe resultat</NoResult>
+    <NResult>{0} resultat</NResult>
+    <NResults>{0} resultater</NResults>
     <NSelected>{0} valgt</NSelected>
     <Nulls>(Nullverdier)</Nulls>
     <NumberFilters>Tallfiltre</NumberFilters>
@@ -2008,6 +2016,7 @@
     <StiPdfDigitalSignatureElement>Denne komponenten brukes til å angi plass for digital signatur og felt fra sertifikatet ved eksport til PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivottabell-elementet brukes til strukturert datarepresentasjon i form av en tabell.</StiPivotTableElement>
     <StiProgressElement>Elementet viser graden av inndata. Den kan vises på forskjellige måter - kakediagram, sirkel, stolper.</StiProgressElement>
+    <StiRangeSelectorElement>Denne komponenten brukes til å velge et verdiområde på en skala eller tidslinje. Den lar brukere visuelt definere minimums- og maksimumsgrensene for området.</StiRangeSelectorElement>
     <StiRectanglePrimitive>Denne komponenten brukes til å skrive rektangler.</StiRectanglePrimitive>
     <StiRegionMapElement>Dette elementet brukes til å vise data som er geografisk merket.</StiRegionMapElement>
     <StiReportSummaryBand>Dette båndet brukes til å skrive oppsummeringer gjennom hele rapporten. Den blir skrevet en gang på slutten av en rapport.</StiReportSummaryBand>
@@ -2168,6 +2177,10 @@
     <ReportOpen>Åpne rapport i designer.</ReportOpen>
     <ReportPreview>Forhåndsvis redigert rapport i viewer.</ReportPreview>
     <ReportSave>Lagre gjeldende redigerte rapport.</ReportSave>
+    <ScriptEvalAccess1>Dette dokumentet bruker Script Eval. Hvis dokumentet kommer fra en pålitelig kilde, kan du klikke på knappen «Åpne» for å få tilgang til det.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Hvis du er usikker på dokumentets kilde, men likevel ønsker å vise det, kan du klikke på knappen «Åpne i sikker modus». I dette tilfellet vil Script Eval bli ignorert og ikke kjørt.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Full skripttilgang (ingen begrensninger, potensielt usikkert).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Sikker skripttilgang (begrensede funksjoner av hensyn til sikkerhet).</ScriptSecuritySafeMode>
     <SelectAll>VElg alle komponentene på gjeldende side.</SelectAll>
     <SelectUILanguage>Velg UI-språk.</SelectUILanguage>
     <SendToBack>Flytt den valgte komponenten relativt til andre komponenter.</SendToBack>
@@ -3473,6 +3486,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebra vertikal</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Sirkel</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polygon</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Ingen</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Trinn</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Merke</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Av</StiReportCacheModeOff>
     <StiReportCacheModeOn>På</StiReportCacheModeOn>
@@ -3489,6 +3505,8 @@
     <StiRestrictionsAllowResize>Tillatt endring av størrelse</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Tillat markering</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Ingen</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Full tilgang</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Sikker modus</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Første</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Fra variabel</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Ingenting</StiSelectionModeNothing>
@@ -3983,6 +4001,7 @@
     <DataBarsNegative>Datastolper negativ</DataBarsNegative>
     <DataBarsOverlapped>Datastolper overlappet</DataBarsOverlapped>
     <DataBarsPositive>Datastolper positiv</DataBarsPositive>
+    <DataBinding>Databinding</DataBinding>
     <DataBindings>Databindinger</DataBindings>
     <DataCells>Dataceller</DataCells>
     <DataColor>Datafarge</DataColor>
@@ -4479,6 +4498,7 @@
     <Placeholder>Plassholder</Placeholder>
     <Placement>Plassering</Placement>
     <PlaceOnToolbox>Plasser på verktøyboks</PlaceOnToolbox>
+    <Platform>Plattform</Platform>
     <PointAtCenter>Pek på sentrum</PointAtCenter>
     <Position>Posisjon</Position>
     <Positive>Positiv</Positive>
@@ -4686,6 +4706,7 @@
     <SkipValues>Hopp over verdier</SkipValues>
     <SkipValuesObj>Hopp over verdier</SkipValuesObj>
     <Smoothing>Utjevning</Smoothing>
+    <SnapMode>Festemodus</SnapMode>
     <Sort>Sorter</Sort>
     <SortBy>Sorter etter</SortBy>
     <SortDirection>Sorteringsretning</SortDirection>
@@ -5123,6 +5144,7 @@
     <LabelNestedLevel>Nøstet nivå:</LabelNestedLevel>
     <LabelPassword>Passord:</LabelPassword>
     <LabelPixels>Piksler:</LabelPixels>
+    <LabelPlatform>Hvis plattformen er .NET, vil et C#-skript bli brukt. Hvis plattformen er JS, vil JavaScript bli brukt.</LabelPlatform>
     <LabelQueryTimeout>Tidsavbrudd for spørring:</LabelQueryTimeout>
     <LabelSystemVariable>Systemvariabel:</LabelSystemVariable>
     <LabelTableOfContentsHint>Merk komponentene som skal danne innholdsfortegnelsen. Én komponent tilsvarer ett overskriftsnivå.</LabelTableOfContentsHint>
@@ -5156,6 +5178,8 @@
     <RestartDesigner>Du må starte rapportdesigneren på nytt</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Lagre rapporten, sidene eller skjemaer</SaveReportPagesOrFormsFromReport>
     <SavingReport>Lagrer rapport</SavingReport>
+    <ScriptEvalAccess>Script Eval-tilgang</ScriptEvalAccess>
+    <ScriptSecurity>Skriptsikkerhet</ScriptSecurity>
     <SecondPass>Andre passering</SecondPass>
     <Shapes>Figurer</Shapes>
     <ShowOnParametersPanel>Vis i parameterpanelet</ShowOnParametersPanel>
@@ -5344,10 +5368,12 @@
     <UseBrush>Bruk pensel</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Spør Stimul AI</AskStimulAI>
     <ChangedWithAI>Endret med Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Ingen problemer funnet i uttrykket.</CheckExpressionSuccess>
     <CheckQuery>Sjekk spørring</CheckQuery>
     <CheckWithStimulAI>Sjekk med Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Klikk for forhåndsvisning</ClickToPreview>
     <ConnectionStringExampleWithAI>Eksempel på tilkoblingsstreng med Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Tilkoblingsstrengtest</ConnectionStringTesting>
     <ExplainQuery>Forklar spørring</ExplainQuery>
@@ -5571,6 +5597,7 @@
     <RunWizard>Kjør veiviser</RunWizard>
     <SelectColumns>Velg kolonner</SelectColumns>
     <SelectTemplate>Mal</SelectTemplate>
+    <SelectTypeOfLayout>Vennligst velg en type oppsett</SelectTypeOfLayout>
     <Sort>Sortering</Sort>
     <StandardReport>Standardrapport</StandardReport>
     <SuggestWithAI>Foreslå med AI</SuggestWithAI>
