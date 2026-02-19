@@ -16,6 +16,7 @@ This repository contains a set of examples (Visual Studio projects), each in dif
 * [Editing a Report Template in the Designer](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Editing%20a%20Report%20Template%20in%20the%20Designer)
 * [Exporting Many Files to Single PDF](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Exporting%20Many%20Files%20to%20Single%20PDF)
 * [Exporting a Report from Code](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Exporting%20a%20Report%20from%20Code)
+* [Exporting a Report to ZUGFeRD PDF](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Exporting%20a%20Report%20to%20ZUGFeRD%20PDF)
 * [Globalizing Reports](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Globalizing%20Reports)
 * [Localizing the User Interface](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Localizing%20the%20User%20Interface)
 * [Managing Reports with Sub-Reports](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Managing%20Reports%20with%20Sub-Reports)
