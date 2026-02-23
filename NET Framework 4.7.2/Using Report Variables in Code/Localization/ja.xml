@@ -571,20 +571,20 @@
     <TextRun>走る</TextRun>
     <TextUser>ユーザー</TextUser>
     <TextUserName>ユーザー名（電子メール）</TextUserName>
-    <TimeHoursAgoFive>5時間前、{0：t}</TimeHoursAgoFive>
-    <TimeHoursAgoFour>4時間前、{0：t}</TimeHoursAgoFour>
-    <TimeHoursAgoOne>1時間前、{0：t}</TimeHoursAgoOne>
-    <TimeHoursAgoThree>3時間前、{0：t}</TimeHoursAgoThree>
-    <TimeHoursAgoTwo>2時間前、{0：t}</TimeHoursAgoTwo>
-    <TimeMinutesAgoFive>5分前、{0：t}</TimeMinutesAgoFive>
-    <TimeMinutesAgoFour>4分前、{0：t}</TimeMinutesAgoFour>
+    <TimeHoursAgoFive>5時間前、{0:t}</TimeHoursAgoFive>
+    <TimeHoursAgoFour>4時間前、{0:t}</TimeHoursAgoFour>
+    <TimeHoursAgoOne>1時間前、{0:t}</TimeHoursAgoOne>
+    <TimeHoursAgoThree>3時間前、{0:t}</TimeHoursAgoThree>
+    <TimeHoursAgoTwo>2時間前、{0:t}</TimeHoursAgoTwo>
+    <TimeMinutesAgoFive>5分前、{0:t}</TimeMinutesAgoFive>
+    <TimeMinutesAgoFour>4分前、{0:t}</TimeMinutesAgoFour>
     <TimeMinutesAgoLessOne>1分未満で</TimeMinutesAgoLessOne>
-    <TimeMinutesAgoN>{0}分前、{1：t}</TimeMinutesAgoN>
-    <TimeMinutesAgoOne>1分前に、{0：t}</TimeMinutesAgoOne>
-    <TimeMinutesAgoThree>3分前に、{0：t}</TimeMinutesAgoThree>
-    <TimeMinutesAgoTwo>2分前に、{0：t}</TimeMinutesAgoTwo>
-    <TimeToday>今日、{0：t}</TimeToday>
-    <TimeYesterday>昨日、{0：t}</TimeYesterday>
+    <TimeMinutesAgoN>{0}分前、{1:t}</TimeMinutesAgoN>
+    <TimeMinutesAgoOne>1分前に、{0:t}</TimeMinutesAgoOne>
+    <TimeMinutesAgoThree>3分前に、{0:t}</TimeMinutesAgoThree>
+    <TimeMinutesAgoTwo>2分前に、{0:t}</TimeMinutesAgoTwo>
+    <TimeToday>今日、{0:t}</TimeToday>
+    <TimeYesterday>昨日、{0:t}</TimeYesterday>
     <ToolTipAddRole>ワークスペースでの新規役割の作成。</ToolTipAddRole>
     <ToolTipAddUser>選択したロールで新規ユーザーを作成します。</ToolTipAddUser>
     <ToolTipAspNet>選択したレポートをASP.NETアプリケーションにパブリッシュします。</ToolTipAspNet>
@@ -2485,7 +2485,7 @@
     あなたの登録を確認するためのリンクが含まれています。 登録を完了するには、受け取った電子メールのリンクをクリックしてください。
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>このフィールドは指定されていません！</ThisFieldIsNotSpecified>
-    <ThisFunctionEmbedsAllReportDataToTheReport>この機能は、すべてのレポートデータをレポートリソースに埋め込み、レポートをスタンドアロンにします。注意してください！データ設定はすべて変更され、復元することはできません。まず、レポートのバックアップコピーを作成してください。よろしいですか？</ThisFunctionEmbedsAllReportDataToTheReport>
+    <ThisFunctionEmbedsAllReportDataToTheReport>この機能は、すべてのレポートデータをレポートリソースに埋め込み、レポートをスタンドアロンにします。注意してください！データ設定はすべて変更され、復元することはできません。まず、レポートのバックアップコピーを作成してください。{0}よろしいですか？</ThisFunctionEmbedsAllReportDataToTheReport>
     <YouNeedToLoginFirstToStartUsingTheSoftware>ソフトウェアの使用を開始するには、最初にログインする必要があります。 ログインフォームを終了すると、アプリケーションが閉じます。</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
   <Notices>
@@ -2659,7 +2659,7 @@
   <NuGet>
     <AlreadyDownloaded>既にダウンロード済み</AlreadyDownloaded>
     <AssemblyLoadedSuccessfully>アセンブリが正常にロードされます。</AssemblyLoadedSuccessfully>
-    <AssemblyNotFound>{1}接続を使用するアセンブリを見つけることは不可能です！</AssemblyNotFound>
+    <AssemblyNotFound>{1} 接続を使用するための {0} アセンブリが見つかりません。</AssemblyNotFound>
     <Author>著者</Author>
     <Dependencies>依存関係：</Dependencies>
     <Download>ダウンロード</Download>
