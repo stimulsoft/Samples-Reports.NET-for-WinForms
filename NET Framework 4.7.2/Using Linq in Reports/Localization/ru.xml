@@ -141,6 +141,8 @@
     <Design>Дизайн</Design>
     <Down>Вниз</Down>
     <Duplicate>Копия</Duplicate>
+    <EditAsData>Редактировать как данные</EditAsData>
+    <EditAsText>Редактировать как текст</EditAsText>
     <Export>Экспорт</Export>
     <ForceDelete>Все равно удалить</ForceDelete>
     <Help>Помощь</Help>
@@ -667,7 +669,6 @@
     <StiCrossTitle>Кросс-заголовок</StiCrossTitle>
     <StiDashboard>Панель индикаторов</StiDashboard>
     <StiDataBand>Данные</StiDataBand>
-    <StiDataNavigatorUI>Навигатор данных</StiDataNavigatorUI>
     <StiDatePicker>Выбор даты</StiDatePicker>
     <StiElectronicSignature>Электронная подпись</StiElectronicSignature>
     <StiEmptyBand>Пустые данные</StiEmptyBand>
@@ -684,7 +685,6 @@
     <StiMap>Карта</StiMap>
     <StiMathFormula>Математическая формула</StiMathFormula>
     <StiMultipleSelection>Множественный выбор</StiMultipleSelection>
-    <StiNavigatorUI>Навигатор</StiNavigatorUI>
     <StiNumberBox>Числовое поле</StiNumberBox>
     <StiOnlineMap>Онлайн-карта</StiOnlineMap>
     <StiOverlayBand>Водяной знак</StiOverlayBand>
@@ -956,8 +956,8 @@
     <StiReportControl>Элемент управления</StiReportControl>
     <StiRichTextBoxControl>Rich текст</StiRichTextBoxControl>
     <StiSliderControl>Слайдер</StiSliderControl>
+    <StiSwitchControl>Тогл</StiSwitchControl>
     <StiTextBoxControl>Текстовое поле</StiTextBoxControl>
-    <StiToggleControl>Тогл</StiToggleControl>
     <StiTreeViewControl>Дерево</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1059,6 +1059,7 @@
     <ContinuousPages>Непрерывные страницы</ContinuousPages>
     <DataAndHeaders>Данные и Заголовки</DataAndHeaders>
     <DataAndHeadersFooters>Данные и Заголовки/Итоги</DataAndHeadersFooters>
+    <DataExport>Экспорт данных</DataExport>
     <DataOnly>Только данные</DataOnly>
     <DigitalSignature>Цифровая подпись</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Сертификат не выбран</DigitalSignatureCertificateNotSelected>
@@ -1138,6 +1139,7 @@
     <OpenAfterExport>Открыть после экспорта</OpenAfterExport>
     <Ordered>Упорядочено</Ordered>
     <PdfACompliance>PDF/A соглашение</PdfACompliance>
+    <PdfUA>PDF/UA (Универсальная доступность)</PdfUA>
     <PrintingReport>Печать отчета</PrintingReport>
     <RemoveEmptySpaceAtBottom>Убрать пустое место внизу страницы</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Ограничение Редактирования:</RestrictEditing>
@@ -1482,6 +1484,7 @@
     <DictionarySaveAs>Сохранить словарь как...</DictionarySaveAs>
     <DragNewDataSource>перетащите данные на эту панель</DragNewDataSource>
     <DragNewReport>перетащите отчет на эту панель</DragNewReport>
+    <EditData>Редактировать данные</EditData>
     <EditQuery>Изменить запрос</EditQuery>
     <EnableDataMonitor>Включить монитор данных</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Запрос SQL выполнен успешно</ExecutedSQLStatementSuccessfully>
@@ -1491,6 +1494,8 @@
     <GetColumnsFromAssembly>Взять колонки из сборки</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Скрыть неподдерживаемые источники данных</HideUnsupportedDatabases>
     <ImportRelations>Импортировать связи</ImportRelations>
+    <InsertColumnLeft>Вставить столбец слева</InsertColumnLeft>
+    <InsertColumnRight>Вставить столбец справа</InsertColumnRight>
     <LabelSeparator>Разделитель:</LabelSeparator>
     <MarkUsedItems>Пометить используемые элементы</MarkUsedItems>
     <NewBusinessObject>Новый бизнес-объект</NewBusinessObject>
@@ -2091,6 +2096,7 @@
     <CompilationAccessForceInterpretation>Документы с компиляцией будут открываться без запроса, с автоматическим включением режима интерпретации, в котором не используется процесс компиляции.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Вы переходите в режим компиляции. Этот режим позволяет запускать другой код, который иногда может быть вредоносным. Пожалуйста, используйте этот режим только в том случае, если вы понимаете все риски и согласны с ними. Нажмите кнопку {0}, чтобы продолжить.</CompilationModeEnabling>
     <ComponentSize>Изменить размер выделенных компонентов.</ComponentSize>
+    <ComponentsMenu>Открывает меню Components, содержащее неиспользуемые элементы панели индикаторов на мобильной поверхности.</ComponentsMenu>
     <CopyStyle>Копировать стиль</CopyStyle>
     <CopyToClipboard>Скопировать в буфер обмена</CopyToClipboard>
     <CurrencySymbol>Выбрать символ валюты.</CurrencySymbol>
@@ -2147,6 +2153,7 @@
     <menuEditCut>Вырезать выделенные компоненты из отчета, и положить их в буфер обмена.</menuEditCut>
     <menuEditDelete>Удалить выделенные компоненты из отчета.</menuEditDelete>
     <menuEditPaste>Вставить содержимое буфера обмена в отчет.</menuEditPaste>
+    <menuExportSettings>Открывает редактор Настройки экспорта для текущего отчета или панели индикаторов. Настройки применяются только при экспорте текущего отчета или панели индикаторов.</menuExportSettings>
     <menuFAQPage>Перейти на Web-страницу, на которой размещены Часто Задаваемые Вопросы.</menuFAQPage>
     <menuGlobalizationStrings>Вызвать редактор "Строк перевода" текущего отчета.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Получить информацию о версии генератора отчетов и версии .NET Framework.</menuHelpAboutProgramm>
@@ -2179,7 +2186,9 @@
     <PageSize>Выбрать размер страницы текущей страницы.</PageSize>
     <PagesManager>Запускает Менеджер Страниц.</PagesManager>
     <PressF1>Нажмите F1 для справки</PressF1>
+    <PropertiesButton>Активирует панель свойств с свойствами шаблона отчета.</PropertiesButton>
     <Redo>Повторить ранее отменные изменения в дизайнере отчетов.</Redo>
+    <RemoveMobileSurfaceButton>Удаляет мобильную поверхность из текущей панели индикаторов.</RemoveMobileSurfaceButton>
     <ReportNew>Создать новый отчет.</ReportNew>
     <ReportOpen>Открыть отчет в дизайнере.</ReportOpen>
     <ReportPreview>Просмотр редактируемого отчета.</ReportPreview>
@@ -2206,6 +2215,8 @@
     <TextFormat>Выбрать формат отображения значений.</TextFormat>
     <ToolbarStyle>Применить выбранный стиль ко всем выделенным компонентам.</ToolbarStyle>
     <Undo>Отменить последнее изменение в отчете.</Undo>
+    <ViewModeDesktopButton>Активирует поверхность для компьютера.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Активирует мобильную поверхность.</ViewModeMobileButton>
     <WordWrap>Переносить текст.</WordWrap>
     <Zoom>Указать масштаб отображения отчета в дизайнере.</Zoom>
   </HelpDesigner>
@@ -2293,6 +2304,7 @@
     <PageSize>Изменить параметры страницы в отчете.</PageSize>
     <Parameters>Отображение панели параметров отчета.</Parameters>
     <PdfACompliance>Поддержка стандарта долгосрочного архивного хранения электронных документов.</PdfACompliance>
+    <PdfUniversalAccessibility>Поддержка стандарта универсальной доступности электронных документов и информации.</PdfUniversalAccessibility>
     <Print>Напечатать отчет.</Print>
     <PutFeedPageCode>Разграничивать страницы в конечном документе при помощи специального символа.</PutFeedPageCode>
     <RangePages>Номера страниц, которые необходимо обработать. Указать можно одну страницу, список страниц (используя запятые как разделитель), а также задать диапазон, задав начальную страницу диапазона, разделитель "-", и конечную страницу диапазона. Для примера: 1,3,5-12.</RangePages>
@@ -2347,6 +2359,7 @@
     <menuContextClone>Клонировать...</menuContextClone>
     <menuContextDesign>Редактировать...</menuContextDesign>
     <menuContextTextFormat>Формат...</menuContextTextFormat>
+    <menuConvertTo>Преобразовать в {0}</menuConvertTo>
     <menuConvertToCheckBox>Конвертировать во Флажок</menuConvertToCheckBox>
     <menuConvertToImage>Конвертировать в Изображение</menuConvertToImage>
     <MenuConvertToRichText>Конвертировать в Rich-текст</MenuConvertToRichText>
@@ -2574,7 +2587,9 @@
     <EndDateShouldBeGreaterThanStartDate>Дата завершения должна быть больше даты начала!</EndDateShouldBeGreaterThanStartDate>
     <EnterCurrentPassword>Введите текущий пароль!</EnterCurrentPassword>
     <EnterNewPassword>Введите новый пароль!</EnterNewPassword>
+    <Error>Ошибка</Error>
     <ExecutionError>Ошибка запуска</ExecutionError>
+    <ExpressionValidationFailed>Не удалось проверить выражение.</ExpressionValidationFailed>
     <GracePeriod>Льготный период вашей подписки истекает через {0} дня(-ей).</GracePeriod>
     <IsIdentical>"{0}" и "{1}" идентичны."</IsIdentical>
     <IsNotAuthorized>Нет доступа к "{0}"!</IsNotAuthorized>
@@ -2591,8 +2606,13 @@
     <ItemCantBeMovedToSpecifiedPlace>Элемент не может быть перемещен в указанное место!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Элемент не поддерживает "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key и ToKey равны!</KeyAndToKeyAreEqual>
+    <LengthRange>Длина должна быть между {0} и {1}.</LengthRange>
     <MaximumComputers>Достигнут лимит подписки!</MaximumComputers>
+    <MaximumLength>Максимальная длина {0}.</MaximumLength>
+    <MaximumValue>Максимум {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Внимание! Вы хотите добавить файл, но его размер превышает максимально-допустимый размер. Все равно добавить этот файл (обработка отчета может замедлиться)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Минимальная длина {0}.</MinimumLength>
+    <MinimumValue>Минимум {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} доступен.</NewDesignerAvailable>
     <NewProduct>К Вашей подписке добавлен новый продукт!</NewProduct>
     <NewVersionsAvailable>Новая версия</NewVersionsAvailable>
@@ -2649,6 +2669,9 @@
     <NotificationTransferring>"{0}" перемещен в "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>"{0}" успешно перемещен в "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Значение некорректно для этого типа {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Разрешены только цифры.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Разрешены только буквы.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Разрешены только буквы и цифры.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Выход за пределы диапазона ("{0}")!</OutOfRange>
     <ParsingCommandException>Исключение обработки команды в указанном xml: {0}</ParsingCommandException>
     <PleaseLogin>Пожалуйста, войдите в систему, используя свои учетные данные Stimulsoft, или зарегистрируйте новую учетную запись перед публикацией отчета.</PleaseLogin>
@@ -2689,6 +2712,12 @@
     <SubscriptionsOut20>Срок действия подписки истекает через 20 дней!</SubscriptionsOut20>
     <SuccessfullyRenewed>Ваша подписка была успешно обновлена!</SuccessfullyRenewed>
     <TrialToLicense>Спасибо, что выбрали наш программный продукт!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL должен использовать http:// или https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Значение обязательно!</ValueIsRequired>
+    <ValueMatchPattern>Значение не соответствует требуемому формату.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>Значение должно быть больше или равно {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>Значение должно быть меньше или равно {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>Число должно быть между {0} и {1}.</ValueRange>
     <VersionCopyFromItem>Копия элемента "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Создано из файла "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Создано из элемента "{0}".</VersionCreatedFromItem>
@@ -4513,6 +4542,7 @@
     <NextPage>Следующая страница</NextPage>
     <NoElements>Нет элементов</NoElements>
     <NoIcon>Нет значка</NoIcon>
+    <Notifications>Уведомления</Notifications>
     <NullText>Нулевой текст</NullText>
     <NumberOfColumns>Количество колонок</NumberOfColumns>
     <NumberOfCopies>Число копий</NumberOfCopies>
@@ -4621,6 +4651,7 @@
     <Refresh>Обновить</Refresh>
     <RefreshTime>Время обновления</RefreshTime>
     <Regular>Обычный</Regular>
+    <RegularExpression>Регулярное выражение</RegularExpression>
     <Relation>Связь</Relation>
     <RelationName>Наименование связи</RelationName>
     <Relations>Связи</Relations>
@@ -4776,6 +4807,7 @@
     <SkipValuesObj>Пропустить значения объектов</SkipValuesObj>
     <Smoothing>Сглаживание</Smoothing>
     <SnapMode>Режим привязки</SnapMode>
+    <SnapPageWidthToGrid>Привязать ширину страницы к сетке</SnapPageWidthToGrid>
     <Sort>Сортировка</Sort>
     <SortBy>Сортировать по</SortBy>
     <SortDirection>Направление сортировки</SortDirection>
@@ -4936,6 +4968,7 @@
     <UseStyleOfSummaryInRowTotal>Использовать стиль значений в итоге строки</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Использовать изображение пользователя</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Использовать значения из указанного диапазона</UseValuesFromTheSpecifiedRange>
+    <Validation>Проверка</Validation>
     <Value>Значение</Value>
     <ValueClose>Закрывающее значение</ValueClose>
     <ValueDataColumn>Колонка данных значений</ValueDataColumn>
@@ -5143,7 +5176,9 @@
   <Report>
     <ActiveRelation>Активная связь</ActiveRelation>
     <Address>Адрес</Address>
+    <Alpha>Альфа</Alpha>
     <Alphabetical>По алфавиту</Alphabetical>
+    <AlphaNumeric>Альфа Число</AlphaNumeric>
     <Bands>Секции</Bands>
     <Basic>Базовый</Basic>
     <BasicConfiguration>Минимальное количество свойств объектов, которые необходимы для построения основных типов отчетов.</BasicConfiguration>
@@ -5170,6 +5205,7 @@
     <DashboardOnly>Только Дашборд и Преобразование данных</DashboardOnly>
     <Dialogs>Элементы управления</Dialogs>
     <EditStyles>[Редактировать стили]</EditStyles>
+    <Email>Электронная почта</Email>
     <EnableCacheAllDataMode>Включить режим "Кэшировать все данные"</EnableCacheAllDataMode>
     <Enhancements>Улучшения</Enhancements>
     <EnterDataManually>Введите данные вручную</EnterDataManually>
@@ -5192,6 +5228,7 @@
     <Infographics>Инфографика</Infographics>
     <InfoMessage>{0} - {1} найдены.</InfoMessage>
     <InformationMessages>Информация</InformationMessages>
+    <IpAddress>IP Адрес</IpAddress>
     <LabelAlias>Псевдоним:</LabelAlias>
     <LabelAuthor>Автор:</LabelAuthor>
     <LabelBackground>Фон:</LabelBackground>
@@ -5235,6 +5272,7 @@
     <Obsoleted>Устаревший</Obsoleted>
     <Office2010Back>Назад</Office2010Back>
     <PageNofM>Страница {0} из {1}</PageNofM>
+    <Phone>Телефон</Phone>
     <PreparingReport>Подготовка отчета</PreparingReport>
     <Professional>Расширенный</Professional>
     <ProfessionalConfiguration>Все свойства объектов без исключений.</ProfessionalConfiguration>
@@ -5528,6 +5566,7 @@
     <FontSize>Размер шрифта</FontSize>
     <FontStyleBold>Жирный шрифт</FontStyleBold>
     <FontStyleItalic>Наклонный шрифт</FontStyleItalic>
+    <FontStyleStrikeout>Зачеркнутый стиль шрифта</FontStyleStrikeout>
     <FontStyleUnderline>Подчеркнутый шрифт</FontStyleUnderline>
     <Link>Связь</Link>
     <Lock>Замок</Lock>
@@ -5612,11 +5651,13 @@
     <ButtonNext>&amp;Далее &gt;</ButtonNext>
     <ColumnsOrder>Порядок колонок</ColumnsOrder>
     <Company>Компания</Company>
+    <CreateDataManually>Создать данные вручную</CreateDataManually>
     <Custom>По выбору</Custom>
     <DataRelation>Связь</DataRelation>
     <DataSource>Источник данных</DataSource>
     <DataSources>Источники Данных</DataSources>
     <DefaultThemes>Встроенные темы</DefaultThemes>
+    <EditUserSource>Редактировать источник данных пользователя</EditUserSource>
     <Examples>Примеры</Examples>
     <Filters>Фильтры</Filters>
     <FromReportTemplate>Отчет из шаблона</FromReportTemplate>
@@ -5662,6 +5703,7 @@
     <Mapping>Соответствие данных</Mapping>
     <MarkAll>Отметить &amp;Все</MarkAll>
     <MasterDetailReport>Master-Detail отчет</MasterDetailReport>
+    <NewUserSource>Новый источник данных пользователя</NewUserSource>
     <NoFunction>[Нет]</NoFunction>
     <OpenExistingReport>Открыть файл</OpenExistingReport>
     <OpenFrom>Открыть из {0}</OpenFrom>
