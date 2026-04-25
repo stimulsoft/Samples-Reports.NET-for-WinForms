@@ -141,6 +141,8 @@
     <Design>편집</Design>
     <Down>다운</Down>
     <Duplicate>복제</Duplicate>
+    <EditAsData>데이터로 편집</EditAsData>
+    <EditAsText>텍스트로 편집</EditAsText>
     <Export>내보내기</Export>
     <ForceDelete>강제 삭제</ForceDelete>
     <Help>도움말</Help>
@@ -675,6 +677,7 @@
     <StiHeaderBand>헤더</StiHeaderBand>
     <StiHierarchicalBand>계층 데이터</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>수평선</StiHorizontalLinePrimitive>
+    <StiIcon>아이콘</StiIcon>
     <StiImage>사진</StiImage>
     <StiIndicator>표시</StiIndicator>
     <StiListBox>목록 상자</StiListBox>
@@ -933,16 +936,20 @@
   <Dialogs>
     <StiButtonControl>버튼</StiButtonControl>
     <StiCheckBoxControl>확인란</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>체크박스 그룹</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>체크리스트 상자</StiCheckedListBoxControl>
     <StiComboBoxControl>콤보 상자</StiComboBoxControl>
+    <StiDatePickerControl>날짜 선택기</StiDatePickerControl>
     <StiDateTimePickerControl>날짜 피커</StiDateTimePickerControl>
     <StiForm>모양</StiForm>
     <StiGridControl>그리드</StiGridControl>
     <StiGroupBoxControl>그룹 상자</StiGroupBoxControl>
     <StiLabelControl>라벨</StiLabelControl>
     <StiListBoxControl>목록 상자</StiListBoxControl>
+    <StiListControl>목록</StiListControl>
     <StiListViewControl>목록보기</StiListViewControl>
     <StiLookUpBoxControl>조회 상자</StiLookUpBoxControl>
+    <StiNumberInputControl>숫자 입력</StiNumberInputControl>
     <StiNumericUpDownControl>수치 업</StiNumericUpDownControl>
     <StiPanelControl>패널</StiPanelControl>
     <StiPictureBoxControl>그림 상자</StiPictureBoxControl>
@@ -951,9 +958,11 @@
     <StiRadioGroupControl>라디오 그룹</StiRadioGroupControl>
     <StiReportControl>보고서 컨트롤</StiReportControl>
     <StiRichTextBoxControl>서식있는 텍스트 상자</StiRichTextBoxControl>
+    <StiSelectControl>선택</StiSelectControl>
     <StiSliderControl>슬라이더</StiSliderControl>
     <StiSwitchControl>토글</StiSwitchControl>
     <StiTextBoxControl>입력란</StiTextBoxControl>
+    <StiTextInputControl>텍스트 입력</StiTextInputControl>
     <StiTreeViewControl>트리보기</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1055,6 +1064,7 @@
     <ContinuousPages>연속 페이지</ContinuousPages>
     <DataAndHeaders>데이터와 헤더</DataAndHeaders>
     <DataAndHeadersFooters>데이터 및 머리글 / 바닥 글</DataAndHeadersFooters>
+    <DataExport>데이터 내보내기</DataExport>
     <DataOnly>데이터 만</DataOnly>
     <DigitalSignature>디지털 서명</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>인증서가 선택되어 있지 않습니다</DigitalSignatureCertificateNotSelected>
@@ -1134,6 +1144,7 @@
     <OpenAfterExport>내보내기 후 열기</OpenAfterExport>
     <Ordered>정렬됨</Ordered>
     <PdfACompliance>PDF</PdfACompliance>
+    <PdfUA>PDF/UA (범용 접근성)</PdfUA>
     <PrintingReport>보고서 인쇄</PrintingReport>
     <RemoveEmptySpaceAtBottom>페이지 하단의 공백을 제거</RemoveEmptySpaceAtBottom>
     <RestrictEditing>편집 제한 :</RestrictEditing>
@@ -1477,6 +1488,7 @@
     <DictionarySaveAs>사전을 이름으로 저장...</DictionarySaveAs>
     <DragNewDataSource>데이터를 이 패널로 직접 드래그</DragNewDataSource>
     <DragNewReport>보고서를 이 패널로 직접 드래그합니다</DragNewReport>
+    <EditData>데이터 편집</EditData>
     <EditQuery>쿼리 편집</EditQuery>
     <EnableDataMonitor>데이터 모니터 사용</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL 문을 성공적으로 실행했습니다</ExecutedSQLStatementSuccessfully>
@@ -1486,6 +1498,8 @@
     <GetColumnsFromAssembly>어셈블리에서 열을 얻기</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>지원되지 않는 데이터소스 숨기기</HideUnsupportedDatabases>
     <ImportRelations>관계를 가져 오기</ImportRelations>
+    <InsertColumnLeft>왼쪽에 열 삽입</InsertColumnLeft>
+    <InsertColumnRight>오른쪽에 열 삽입</InsertColumnRight>
     <LabelSeparator>구분 :</LabelSeparator>
     <MarkUsedItems>사용된것을 표시</MarkUsedItems>
     <NewBusinessObject>새 비즈니스 오브젝트</NewBusinessObject>
@@ -2082,6 +2096,7 @@
     <CompilationAccessForceInterpretation>컴파일된 문서는 프롬프트 없이 열리지만 컴파일 프로세스를 사용하지 않는 해석 모드로 자동 변환됩니다.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>컴파일 모드로 전환하고 있습니다. 이 모드에서는 다른 코드를 실행할 수 있으며 때로는 위험할 수 있습니다. 모든 위험을 이해하고 이에 동의하는 경우에만 이 모드를 사용하십시오. 계속하려면 {0} 버튼을 클릭하십시오.</CompilationModeEnabling>
     <ComponentSize>선택한 구성 요소의 크기를 변경합니다.</ComponentSize>
+    <ComponentsMenu>모바일 화면에서 사용되지 않은 대시보드 요소를 포함한 구성 요소 메뉴를 엽니다.</ComponentsMenu>
     <CopyStyle>스타일을 복사</CopyStyle>
     <CopyToClipboard>클립 보드에 복사</CopyToClipboard>
     <CurrencySymbol>클립 보드에 복사...</CurrencySymbol>
@@ -2138,6 +2153,7 @@
     <menuEditCut>선택한 구성 요소를 보고서에서 잘라내어 클립 보드에 넣습니다.</menuEditCut>
     <menuEditDelete>선택한 구성 요소를 제거합니다.</menuEditDelete>
     <menuEditPaste>클립 보드의 내용을 보고서에 붙여 넣습니다.</menuEditPaste>
+    <menuExportSettings>현재 보고서 또는 대시보드의 내보내기 설정 편집기를 엽니다. 설정은 현재 보고서 또는 대시보드를 내보낼 때만 적용됩니다.</menuExportSettings>
     <menuFAQPage>자주 질문되는 Web 페이지로 이동합니다.</menuFAQPage>
     <menuGlobalizationStrings>현재 보고서의 국제화 문자열 편집기를 호출합니다.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>보고서 생성기 버전과 .NET Framework 버전에 대한 정보를 가져옵니다.</menuHelpAboutProgramm>
@@ -2170,13 +2186,17 @@
     <PageSize>보고서의 현재 페이지의 용지 크기를 선택합니다.</PageSize>
     <PagesManager>페이지 관리자를 실행합니다.</PagesManager>
     <PressF1>F1을 눌러 상세보기</PressF1>
+    <PropertiesButton>보고서 템플릿 속성을 포함한 속성 패널을 활성화합니다.</PropertiesButton>
     <Redo>이전에 취소 된 보고서의 변경을 시도합니다.</Redo>
+    <RemoveMobileSurfaceButton>현재 대시보드에서 모바일 화면을 제거합니다.</RemoveMobileSurfaceButton>
     <ReportNew>새 보고서를 만듭니다.</ReportNew>
     <ReportOpen>디자이너에서 보고서를 엽니 다.</ReportOpen>
     <ReportPreview>뷰어에서 편집 한 보고서를 미리 봅니다.</ReportPreview>
     <ReportSave>현재 편집 된 리포트를 저장합니다.</ReportSave>
     <ScriptEvalAccess1>이 문서는 Script Eval을 사용합니다. 신뢰할 수 있는 출처의 문서라면 "열기" 버튼을 클릭하여 접근할 수 있습니다.</ScriptEvalAccess1>
     <ScriptEvalAccess2>문서의 출처가 확실하지 않지만 그래도 열어보고 싶다면 "안전 모드로 열기" 버튼을 클릭할 수 있습니다. 이 경우 Script Eval은 무시되며 실행되지 않습니다.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>전체 스크립트 접근 (제한 없음, 잠재적으로 안전하지 않음).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>안전한 스크립트 접근 (보안을 위해 제한된 기능).</ScriptSecuritySafeMode>
     <SelectAll>현재 페이지의 모든 구성 요소를 선택합니다.</SelectAll>
     <SelectUILanguage>UI 언어를 선택합니다.</SelectUILanguage>
     <SendToBack>선택한 구성 요소를 다른 구성 요소에 대해 상대적으로 뒤로 이동합니다.</SendToBack>
@@ -2195,6 +2215,8 @@
     <TextFormat>값의 형식을 선택합니다.</TextFormat>
     <ToolbarStyle>선택한 모든 구성 요소에 선택한 스타일을 설정합니다.</ToolbarStyle>
     <Undo>보고서의 최신 변경을 취소합니다.</Undo>
+    <ViewModeDesktopButton>데스크톱 화면을 활성화합니다.</ViewModeDesktopButton>
+    <ViewModeMobileButton>모바일 화면을 활성화합니다.</ViewModeMobileButton>
     <WordWrap>구성 요소의 텍스트를 랩합니다.</WordWrap>
     <Zoom>보고서의 줌 레벨을 지정합니다.</Zoom>
   </HelpDesigner>
@@ -2282,6 +2304,7 @@
     <PageSize>보고서의 페이지 매개 변수를 변경합니다.</PageSize>
     <Parameters>보고서를 렌더링 할 때 사용되는 매개 변수 패널을 표시합니다.</Parameters>
     <PdfACompliance>전자 문서의 장기 보존 및 보관 기준을 지원합니다.</PdfACompliance>
+    <PdfUniversalAccessibility>전자 문서 및 정보의 범용 접근성 표준을 지원합니다.</PdfUniversalAccessibility>
     <Print>보고서를 인쇄합니다.</Print>
     <PutFeedPageCode>최종 문서의 페이지에 특수 문자를 입력합니다.</PutFeedPageCode>
     <RangePages>처리되는 페이지 번호. 단일 페이지, 페이지의 목록 (구분자로 쉼표를 사용) 및 범위의 시작 페이지를 "-"로 구분하여 범위를 지정하고 해당 범위의 마지막 페이지를 지정할 수 있습니다. 예 : 1,3,5-12.</RangePages>
@@ -2327,6 +2350,7 @@
     <menuContextClone>클론...</menuContextClone>
     <menuContextDesign>편집...</menuContextDesign>
     <menuContextTextFormat>텍스트...</menuContextTextFormat>
+    <menuConvertTo>{0}(으)로 변환</menuConvertTo>
     <menuConvertToCheckBox>CheckBox로 변환</menuConvertToCheckBox>
     <menuConvertToImage>이미지로 변환</menuConvertToImage>
     <MenuConvertToRichText>서식있는 텍스트로 변환</MenuConvertToRichText>
@@ -2551,7 +2575,9 @@
     <DeveloperInformation>개발자 정보</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>종료일 현재 날짜보다 커야합니다.</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>종료일은 시작일보다 커야합니다.</EndDateShouldBeGreaterThanStartDate>
+    <Error>오류</Error>
     <ExecutionError>실행 오류</ExecutionError>
+    <ExpressionValidationFailed>표현식 검증에 실패했습니다.</ExpressionValidationFailed>
     <GracePeriod>가입 유예 기간이 {0}일 후에 만료됩니다.</GracePeriod>
     <IsIdentical>"{0}"및 "{1}"은 동일합니다.</IsIdentical>
     <IsNotAuthorized>"{0}"에 대한 액세스 권한이 없습니다!</IsNotAuthorized>
@@ -2567,8 +2593,13 @@
     <ItemCantBeMovedToSpecifiedPlace>항목을 지정된 위치로 이동할 수 없습니다!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>항목은 "{0}"을 지원하지 않습니다!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>키와 ToKey은 동일!</KeyAndToKeyAreEqual>
+    <LengthRange>길이는 {0}에서 {1} 사이여야 합니다.</LengthRange>
     <MaximumComputers>최대 컴퓨터 수</MaximumComputers>
+    <MaximumLength>최대 길이는 {0}입니다.</MaximumLength>
+    <MaximumValue>최대값은 {0}입니다.</MaximumValue>
     <MessageMaximumFileSizeExceeded>주의! 추가하려고하는 파일의 크기가 최대 허용 크기를 초과합니다. 어쨌든이 파일을 추가 하시겠습니까 (보고서 처리가 상당히 느려질 수 있습니다).</MessageMaximumFileSizeExceeded>
+    <MinimumLength>최소 길이는 {0}입니다.</MinimumLength>
+    <MinimumValue>최소값은 {0}입니다.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} 를 사용할 수 있습니다.</NewDesignerAvailable>
     <NewProduct>당신의 가입에 신제품이 추가되었습니다!</NewProduct>
     <NewVersionsAvailable>새 버전을 사용할 수 있습니다!</NewVersionsAvailable>
@@ -2614,6 +2645,9 @@
     <NotificationTransferring>"{0}"는 "{1}"에 전송되어 있습니다.</NotificationTransferring>
     <NotificationTransferringComplete>"{0}"는 "{1}"에 성공적으로 전송되었습니다.</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>이 값은 유형 {0}에서 올바르지 않습니다</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>숫자만 입력할 수 있습니다.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>문자만 입력할 수 있습니다.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>문자와 숫자만 입력할 수 있습니다.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>범위를 벗어났습니다 ( "{0}")!</OutOfRange>
     <ParsingCommandException>지정된 xml : {0} 명령을 처리하는 예외는</ParsingCommandException>
     <PleaseLogin>보고서를 게시하기 전에 Stimulsoft 계정을 사용하여 로그인하거나 새 계정을 등록하십시오.</PleaseLogin>
@@ -2640,6 +2674,12 @@
     <SubscriptionsOut20>구독 기간은 20 일에 끝납니다!</SubscriptionsOut20>
     <SuccessfullyRenewed>당신의 가입이 성공적으로 업데이트되었습니다!</SuccessfullyRenewed>
     <TrialToLicense>Stimulsoft를 이용해 주셔서 감사합니다!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL은 http:// 또는 https://를 사용해야 합니다.</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>값은 필수입니다!</ValueIsRequired>
+    <ValueMatchPattern>값이 요구되는 형식과 일치하지 않습니다.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>값은 {0} 이상이어야 합니다.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>값은 {0} 이하이어야 합니다.</ValueMustBeLessOrEqual>
+    <ValueRange>값은 {0}에서 {1} 사이여야 합니다.</ValueRange>
     <VersionCopyFromItem>항목 "{0}"에서 복사하십시오.</VersionCopyFromItem>
     <VersionCreatedFromFile>파일 "{0}"에서 작성되었습니다.</VersionCreatedFromFile>
     <VersionCreatedFromItem>항목 "{0}"에서 작성되었습니다.</VersionCreatedFromItem>
@@ -3506,6 +3546,8 @@
     <StiRestrictionsAllowResize>크기 변경을 허용</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>선택을 허용</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>없음</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>전체 접근</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>안전 모드</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>시작</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>변수에서</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>아무것도</StiSelectionModeNothing>
@@ -4178,6 +4220,8 @@
     <GroupDataColumn>그룹 데이터 열</GroupDataColumn>
     <GroupMeter>Group</GroupMeter>
     <GrowToHeight>높이로 늘리기</GrowToHeight>
+    <HandleBorderColor>핸들 테두리 색상</HandleBorderColor>
+    <HandleFillColor>핸들 채우기 색상</HandleFillColor>
     <Header>헤더</Header>
     <HeaderAlignment>헤더 정렬</HeaderAlignment>
     <HeaderBackColor>헤더 배경색</HeaderBackColor>
@@ -4446,6 +4490,7 @@
     <NextPage>다음 페이지</NextPage>
     <NoElements>요소 없음</NoElements>
     <NoIcon>아이콘 없음</NoIcon>
+    <Notifications>알림</Notifications>
     <NullText>널 텍스트</NullText>
     <NumberOfColumns>열 수</NumberOfColumns>
     <NumberOfCopies>매수</NumberOfCopies>
@@ -4491,6 +4536,7 @@
     <ParetoSeriesColors>파레토  시리즈 색상</ParetoSeriesColors>
     <PasswordChar>비밀번호 글자</PasswordChar>
     <Path>경로</Path>
+    <PathColor>경로 색상</PathColor>
     <PathData>경로 데이터</PathData>
     <PathSchema>경로 스키마</PathSchema>
     <Pattern>패턴</Pattern>
@@ -4554,6 +4600,7 @@
     <Refresh>새로 고침</Refresh>
     <RefreshTime>재생 시간</RefreshTime>
     <Regular>일반</Regular>
+    <RegularExpression>정규식</RegularExpression>
     <Relation>관계</Relation>
     <RelationName>관계 이름</RelationName>
     <Relations>관계</Relations>
@@ -4707,6 +4754,7 @@
     <SkipValuesObj>Obj값 건너 뛰기</SkipValuesObj>
     <Smoothing>평활화</Smoothing>
     <SnapMode>스냅 모드</SnapMode>
+    <SnapPageWidthToGrid>페이지 너비를 그리드에 맞춤</SnapPageWidthToGrid>
     <Sort>정렬</Sort>
     <SortBy>정렬</SortBy>
     <SortDirection>정렬 방향</SortDirection>
@@ -4731,7 +4779,7 @@
     <StartPosition>시작 위치</StartPosition>
     <StartValue>시작 값</StartValue>
     <StartWidth>시작 폭</StartWidth>
-    <State>도/주</State>
+    <State>상태</State>
     <Step>단계</Step>
     <Stop>중지</Stop>
     <StopBeforePage>페이지의 전에 중지</StopBeforePage>
@@ -4819,6 +4867,7 @@
     <ToolTipBrush>툴 팁 브러쉬</ToolTipBrush>
     <ToolTipCornerRadius>툴 팁 모서리 라운드</ToolTipCornerRadius>
     <ToolTipDataColumn>툴팁 데이터 열</ToolTipDataColumn>
+    <ToolTipText>툴팁 텍스트</ToolTipText>
     <ToolTipTextBrush>툴 팁 텍스트 브러쉬</ToolTipTextBrush>
     <Top>위</Top>
     <TopLeft>위-왼쪽</TopLeft>
@@ -4866,6 +4915,7 @@
     <UseStyleOfSummaryInRowTotal>행 합계 요약 스타일을 사용</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>사용자이미지 사용</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>지정된 범위에서 값의 사용</UseValuesFromTheSpecifiedRange>
+    <Validation>유효성 검사</Validation>
     <Value>값</Value>
     <ValueClose>닫기 값</ValueClose>
     <ValueDataColumn>값의 데이터 열</ValueDataColumn>
@@ -5073,7 +5123,9 @@
   <Report>
     <ActiveRelation>활성 관계</ActiveRelation>
     <Address>주소</Address>
+    <Alpha>영문자</Alpha>
     <Alphabetical>알파벳</Alphabetical>
+    <AlphaNumeric>영문자 및 숫자</AlphaNumeric>
     <Bands>밴드</Bands>
     <Basic>기본</Basic>
     <BasicConfiguration>기본 보고서 유형의 렌더링에 필요한 개체 속성의 최소 수.</BasicConfiguration>
@@ -5099,6 +5151,7 @@
     <DashboardOnly>대시보드 및 데이터 변환 전용</DashboardOnly>
     <Dialogs>대화</Dialogs>
     <EditStyles>스타일 편집</EditStyles>
+    <Email>이메일</Email>
     <EnableCacheAllDataMode>'모든 데이터 캐시' 모드 활성화</EnableCacheAllDataMode>
     <Enhancements>강화</Enhancements>
     <EnterDataManually>수동으로 데이터 입력</EnterDataManually>
@@ -5121,6 +5174,7 @@
     <Infographics>인포그래픽</Infographics>
     <InfoMessage>{0} - {1} 발견 했습니다.</InfoMessage>
     <InformationMessages>정보 메시지</InformationMessages>
+    <IpAddress>IP 주소</IpAddress>
     <LabelAlias>별칭 :</LabelAlias>
     <LabelAuthor>저자 :</LabelAuthor>
     <LabelBackground>백그라운드 :</LabelBackground>
@@ -5164,6 +5218,7 @@
     <Obsoleted>오래됨</Obsoleted>
     <Office2010Back>이전</Office2010Back>
     <PageNofM>{1} 페이지 {0}</PageNofM>
+    <Phone>전화번호</Phone>
     <PreparingReport>보고서의 준비</PreparingReport>
     <Professional>전문가</Professional>
     <ProfessionalConfiguration>모든 개체의 속성.</ProfessionalConfiguration>
@@ -5179,6 +5234,7 @@
     <SaveReportPagesOrFormsFromReport>보고서 페이지 또는 양식을 저장할</SaveReportPagesOrFormsFromReport>
     <SavingReport>보고서 저장</SavingReport>
     <ScriptEvalAccess>Script Eval 접근</ScriptEvalAccess>
+    <ScriptSecurity>스크립트 보안</ScriptSecurity>
     <SecondPass>두 번째 경로</SecondPass>
     <Shapes>모양</Shapes>
     <ShowOnParametersPanel>매개변수 패널에 표시</ShowOnParametersPanel>
@@ -5455,6 +5511,7 @@
     <FontSize>글꼴 크기</FontSize>
     <FontStyleBold>글꼴 스타일 굵게</FontStyleBold>
     <FontStyleItalic>글꼴 스타일 기울임</FontStyleItalic>
+    <FontStyleStrikeout>취소선 글꼴 스타일</FontStyleStrikeout>
     <FontStyleUnderline>글꼴 스타일 밑줄</FontStyleUnderline>
     <Link>링크</Link>
     <Lock>잠금</Lock>
@@ -5539,11 +5596,13 @@
     <ButtonNext>다음 &gt;</ButtonNext>
     <ColumnsOrder>열 순서</ColumnsOrder>
     <Company>회사</Company>
+    <CreateDataManually>데이터 수동 생성</CreateDataManually>
     <Custom>사용자</Custom>
     <DataRelation>관계</DataRelation>
     <DataSource>정보 표</DataSource>
     <DataSources>데이터 소스</DataSources>
     <DefaultThemes>기본 테마</DefaultThemes>
+    <EditUserSource>사용자 소스 편집</EditUserSource>
     <Examples>예제</Examples>
     <Filters>필터</Filters>
     <FromReportTemplate>보고서 템플릿에서</FromReportTemplate>
@@ -5589,6 +5648,7 @@
     <Mapping>맵핑</Mapping>
     <MarkAll>전체 마크</MarkAll>
     <MasterDetailReport>마스터 디테일 보고서</MasterDetailReport>
+    <NewUserSource>새 사용자 소스</NewUserSource>
     <NoFunction>없음</NoFunction>
     <OpenExistingReport>기존 파일 열기</OpenExistingReport>
     <OpenFrom>{0}에서 열기</OpenFrom>

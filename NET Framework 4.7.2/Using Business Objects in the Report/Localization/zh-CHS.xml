@@ -141,6 +141,8 @@
     <Design>设计</Design>
     <Down>向下</Down>
     <Duplicate>重复</Duplicate>
+    <EditAsData>以数据方式编辑</EditAsData>
+    <EditAsText>以文本方式编辑</EditAsText>
     <Export>导出</Export>
     <ForceDelete>强制删除</ForceDelete>
     <Help>帮助</Help>
@@ -676,6 +678,7 @@
     <StiHeaderBand>页眉</StiHeaderBand>
     <StiHierarchicalBand>分级区</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>横线</StiHorizontalLinePrimitive>
+    <StiIcon>图标</StiIcon>
     <StiImage>图片</StiImage>
     <StiIndicator>指示符</StiIndicator>
     <StiListBox>列表框</StiListBox>
@@ -934,16 +937,20 @@
   <Dialogs>
     <StiButtonControl>按钮</StiButtonControl>
     <StiCheckBoxControl>复选框</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>复选框组</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>复选列表框</StiCheckedListBoxControl>
     <StiComboBoxControl>下拉框</StiComboBoxControl>
+    <StiDatePickerControl>日期选择器</StiDatePickerControl>
     <StiDateTimePickerControl>日期时间</StiDateTimePickerControl>
     <StiForm>窗体</StiForm>
     <StiGridControl>网格</StiGridControl>
     <StiGroupBoxControl>分组框</StiGroupBoxControl>
     <StiLabelControl>标签</StiLabelControl>
     <StiListBoxControl>列表框</StiListBoxControl>
+    <StiListControl>列表</StiListControl>
     <StiListViewControl>查看列表</StiListViewControl>
     <StiLookUpBoxControl>查找框</StiLookUpBoxControl>
+    <StiNumberInputControl>数字输入</StiNumberInputControl>
     <StiNumericUpDownControl>数值</StiNumericUpDownControl>
     <StiPanelControl>面板</StiPanelControl>
     <StiPictureBoxControl>图片框</StiPictureBoxControl>
@@ -952,9 +959,11 @@
     <StiRadioGroupControl>按钮组</StiRadioGroupControl>
     <StiReportControl>报表控件</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSelectControl>选择</StiSelectControl>
     <StiSliderControl>滚动条</StiSliderControl>
     <StiSwitchControl>切换键</StiSwitchControl>
     <StiTextBoxControl>文件框</StiTextBoxControl>
+    <StiTextInputControl>文本输入</StiTextInputControl>
     <StiTreeViewControl>树视图</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1056,6 +1065,7 @@
     <ContinuousPages>连续页码</ContinuousPages>
     <DataAndHeaders>数据和标题</DataAndHeaders>
     <DataAndHeadersFooters>数据和页眉/页脚</DataAndHeadersFooters>
+    <DataExport>数据导出</DataExport>
     <DataOnly>纯数据</DataOnly>
     <DigitalSignature>数字签名</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>认证未被选择</DigitalSignatureCertificateNotSelected>
@@ -1135,6 +1145,7 @@
     <OpenAfterExport>导出后打开</OpenAfterExport>
     <Ordered>已排序</Ordered>
     <PdfACompliance>PDF/A规格</PdfACompliance>
+    <PdfUA>PDF/UA（通用无障碍）</PdfUA>
     <PrintingReport>打印报告</PrintingReport>
     <RemoveEmptySpaceAtBottom>移除页面底部的空白空间</RemoveEmptySpaceAtBottom>
     <RestrictEditing>编辑限制:</RestrictEditing>
@@ -1478,6 +1489,7 @@
     <DictionarySaveAs>保存字典为...</DictionarySaveAs>
     <DragNewDataSource>直接将您的数据拖动至此面板</DragNewDataSource>
     <DragNewReport>直接将您的报表拖动至此面板</DragNewReport>
+    <EditData>编辑数据</EditData>
     <EditQuery>编辑查询</EditQuery>
     <EnableDataMonitor>启用数据监视器</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL脚本执行成功</ExecutedSQLStatementSuccessfully>
@@ -1487,6 +1499,8 @@
     <GetColumnsFromAssembly>从集合获取列</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>隐藏不支持的数据源</HideUnsupportedDatabases>
     <ImportRelations>导入关系</ImportRelations>
+    <InsertColumnLeft>在左侧插入列</InsertColumnLeft>
+    <InsertColumnRight>在右侧插入列</InsertColumnRight>
     <LabelSeparator>分隔符:</LabelSeparator>
     <MarkUsedItems>标注已使用项目</MarkUsedItems>
     <NewBusinessObject>新建Business Object</NewBusinessObject>
@@ -2084,6 +2098,7 @@
     <CompilationAccessForceInterpretation>编译后的文件将在没有任何提示的情况下打开，但将自动转换为解释模式，该模式不使用编译过程.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>您正在切换到编译模式。这种模式允许运行不同的代码，有时可能是有害的。请仅在您了解并同意所有风险的情况下使用此模式。单击{0}按钮继续.</CompilationModeEnabling>
     <ComponentSize>更改所选组件的尺寸.</ComponentSize>
+    <ComponentsMenu>打开组件菜单，其中包含移动端界面上未使用的仪表板元素。</ComponentsMenu>
     <CopyStyle>复本样式</CopyStyle>
     <CopyToClipboard>复制到剪贴板</CopyToClipboard>
     <CurrencySymbol>选择货币符号.</CurrencySymbol>
@@ -2140,6 +2155,7 @@
     <menuEditCut>剪切报表的所选组件并把它放到剪贴板上.</menuEditCut>
     <menuEditDelete>删除所选组件.</menuEditDelete>
     <menuEditPaste>粘贴剪贴板的内容到报表里.</menuEditPaste>
+    <menuExportSettings>打开当前报表或仪表板的导出设置编辑器。设置仅在导出当前报表或仪表板时生效。</menuExportSettings>
     <menuFAQPage>转到网页页面询问常见问题.</menuFAQPage>
     <menuGlobalizationStrings>调用当前的全球化字符串编辑报告.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>获得关于报表生成器和.NET框架版本的信息.</menuHelpAboutProgramm>
@@ -2172,13 +2188,17 @@
     <PageSize>选择当前报表页面的纸张大小.</PageSize>
     <PagesManager>运行页面管理器.</PagesManager>
     <PressF1>按F1查询更多资料</PressF1>
+    <PropertiesButton>激活属性面板以查看报表模板属性。</PropertiesButton>
     <Redo>重做报表里前面取消的变更.</Redo>
+    <RemoveMobileSurfaceButton>从当前仪表板中移除移动端界面。</RemoveMobileSurfaceButton>
     <ReportNew>创建一个新报表.</ReportNew>
     <ReportOpen>在设计器里打开报表.</ReportOpen>
     <ReportPreview>在查看器预览编辑了的报告.</ReportPreview>
     <ReportSave>保存当前编辑的报表.</ReportSave>
     <ScriptEvalAccess1>此文档使用 Script Eval。如果该文档来自可信来源，你可以点击"打开"按钮访问它。</ScriptEvalAccess1>
     <ScriptEvalAccess2>如果你不确定文档来源但仍想查看，可以点击"以安全模式打开"按钮。在这种情况下，Script Eval 将被忽略且不会执行。</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>脚本完全访问（无任何限制，可能不安全）。</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>脚本安全访问（受限功能以确保安全）。</ScriptSecuritySafeMode>
     <SelectAll>在当前页面全选组件 .</SelectAll>
     <SelectUILanguage>选择用户界面语言.</SelectUILanguage>
     <SendToBack>将所选组件移至相对于其他组件的后面.</SendToBack>
@@ -2197,6 +2217,8 @@
     <TextFormat>选择值格式.</TextFormat>
     <ToolbarStyle>将所选样式应用到所有选择组件.</ToolbarStyle>
     <Undo>取消报告的最新变更.</Undo>
+    <ViewModeDesktopButton>启用桌面界面。</ViewModeDesktopButton>
+    <ViewModeMobileButton>启用移动界面。</ViewModeMobileButton>
     <WordWrap>组件文本自动换行.</WordWrap>
     <Zoom>指定报表的缩放比例.</Zoom>
   </HelpDesigner>
@@ -2284,6 +2306,7 @@
     <PageSize>更改报表的页面参数.</PageSize>
     <Parameters>显示参数面板,在报表渲染时使用.</Parameters>
     <PdfACompliance>支持长期存档和储存电子文档的标准.</PdfACompliance>
+    <PdfUniversalAccessibility>支持通用无障碍电子文档与信息标准。</PdfUniversalAccessibility>
     <Print>打印报表.</Print>
     <PutFeedPageCode>用指定字符在最终文档里插入页面.</PutFeedPageCode>
     <RangePages>处理页面数目. 你可以指定单一页面，页面列表(用逗号隔开), 或者指定范围，可通过设置范围的起始页和结束页，用 "-" 隔开。 例如: 1,3,5-12.</RangePages>
@@ -2329,6 +2352,7 @@
     <menuContextClone>克隆...</menuContextClone>
     <menuContextDesign>设计...</menuContextDesign>
     <menuContextTextFormat>文字格式...</menuContextTextFormat>
+    <menuConvertTo>转换为 {0}</menuConvertTo>
     <menuConvertToCheckBox>转换到复选框</menuConvertToCheckBox>
     <menuConvertToImage>转换到图像</menuConvertToImage>
     <MenuConvertToRichText>转换到富文本</MenuConvertToRichText>
@@ -2553,7 +2577,9 @@
     <DeveloperInformation>开发者信息</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>结束日期应大于当前日期!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>结束日期应大于开始日期!</EndDateShouldBeGreaterThanStartDate>
+    <Error>错误</Error>
     <ExecutionError>执行错误</ExecutionError>
+    <ExpressionValidationFailed>表达式验证失败。</ExpressionValidationFailed>
     <GracePeriod>您的Subscription宽限期将在{0}天后到期。</GracePeriod>
     <IsIdentical>"{0}" 和 "{1}" 是相同的."</IsIdentical>
     <IsNotAuthorized>无法访问"{0}"!</IsNotAuthorized>
@@ -2569,8 +2595,13 @@
     <ItemCantBeMovedToSpecifiedPlace>无法将项目移动至指定位置!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>该项不支持"{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key键和ToKey键是相等的!</KeyAndToKeyAreEqual>
+    <LengthRange>长度必须在 {0} 到 {1} 之间。</LengthRange>
     <MaximumComputers>机器上限</MaximumComputers>
+    <MaximumLength>最大长度为 {0}。</MaximumLength>
+    <MaximumValue>最大值为 {0}。</MaximumValue>
     <MessageMaximumFileSizeExceeded>注意! 您试图添加的文件大小超过了允许的最大量，是否仍要添加此文件（报表处理可能会显著减慢）?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>最小长度为 {0}。</MinimumLength>
+    <MinimumValue>最小值为 {0}。</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0}可用</NewDesignerAvailable>
     <NewProduct>新产品已添加到您的订阅中!</NewProduct>
     <NewVersionsAvailable>新版本可用!</NewVersionsAvailable>
@@ -2616,6 +2647,9 @@
     <NotificationTransferring>"{0}"正在转移到"{1}".</NotificationTransferring>
     <NotificationTransferringComplete>"{0}" 成功转移到"{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>此值对类型{0}不正确</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>仅允许数字。</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>仅允许字母。</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>仅允许字母和数字。</OnlyLettersAndDigitsAllowed>
     <OutOfRange>超出范围("{0}")!</OutOfRange>
     <ParsingCommandException>处理指定的可拓展标记语言命令中的异常: {0}</ParsingCommandException>
     <PleaseLogin>请在生成报表前使用您的Stimusoft账户登录或注册一个新账户。</PleaseLogin>
@@ -2642,6 +2676,12 @@
     <SubscriptionsOut20>订阅将在20天后到期!</SubscriptionsOut20>
     <SuccessfullyRenewed>您的订阅已成功更新!</SuccessfullyRenewed>
     <TrialToLicense>感谢您选择了Stimulsoft!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL 必须使用 http:// 或 https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>必须填写值！</ValueIsRequired>
+    <ValueMatchPattern>值不符合所需的模式。</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>值必须大于或等于 {0}。</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>值必须小于或等于 {0}。</ValueMustBeLessOrEqual>
+    <ValueRange>数字必须在 {0} 到 {1} 之间。</ValueRange>
     <VersionCopyFromItem>从项目"{0}"中复制。</VersionCopyFromItem>
     <VersionCreatedFromFile>从文件"{0}"中创建。</VersionCreatedFromFile>
     <VersionCreatedFromItem>从项目"{0}"中创建。</VersionCreatedFromItem>
@@ -3516,6 +3556,8 @@
     <StiRestrictionsAllowResize>允许改变大小</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>允许选择</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>无</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>完全访问</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>安全模式</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>第一</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>来自变量</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>无</StiSelectionModeNothing>
@@ -4188,6 +4230,8 @@
     <GroupDataColumn>组数据列</GroupDataColumn>
     <GroupMeter>组</GroupMeter>
     <GrowToHeight>适应高度</GrowToHeight>
+    <HandleBorderColor>控件边框颜色</HandleBorderColor>
+    <HandleFillColor>控件填充颜色</HandleFillColor>
     <Header>页眉</Header>
     <HeaderAlignment>标题对齐</HeaderAlignment>
     <HeaderBackColor>标题背景色</HeaderBackColor>
@@ -4456,6 +4500,7 @@
     <NextPage>后页</NextPage>
     <NoElements>无元素</NoElements>
     <NoIcon>无图标</NoIcon>
+    <Notifications>通知</Notifications>
     <NullText>无效文本</NullText>
     <NumberOfColumns>栏数</NumberOfColumns>
     <NumberOfCopies>复制数</NumberOfCopies>
@@ -4503,6 +4548,7 @@
     <ParetoSeriesColors>帕累托颜色系列</ParetoSeriesColors>
     <PasswordChar>密码字符</PasswordChar>
     <Path>路径</Path>
+    <PathColor>路径颜色</PathColor>
     <PathData>路径数据</PathData>
     <PathSchema>路径图示</PathSchema>
     <Pattern>模式</Pattern>
@@ -4566,6 +4612,7 @@
     <Refresh>刷新</Refresh>
     <RefreshTime>刷新时间</RefreshTime>
     <Regular>常规</Regular>
+    <RegularExpression>正则表达式</RegularExpression>
     <Relation>关系</Relation>
     <RelationName>关系名称</RelationName>
     <Relations>关系</Relations>
@@ -4720,6 +4767,7 @@
     <SkipValuesObj>跳过值</SkipValuesObj>
     <Smoothing>平滑</Smoothing>
     <SnapMode>吸附模式</SnapMode>
+    <SnapPageWidthToGrid>页面宽度对齐网格</SnapPageWidthToGrid>
     <Sort>排序</Sort>
     <SortBy>排序为</SortBy>
     <SortDirection>排序方向</SortDirection>
@@ -4744,7 +4792,7 @@
     <StartPosition>起始位置</StartPosition>
     <StartValue>起始值</StartValue>
     <StartWidth>起始宽度</StartWidth>
-    <State>国家</State>
+    <State>状态</State>
     <Step>步骤</Step>
     <Stop>停止</Stop>
     <StopBeforePage>停止于页面</StopBeforePage>
@@ -4832,6 +4880,7 @@
     <ToolTipBrush>工具提示刷</ToolTipBrush>
     <ToolTipCornerRadius>工具提示圆角</ToolTipCornerRadius>
     <ToolTipDataColumn>工具提示数据列</ToolTipDataColumn>
+    <ToolTipText>工具提示文本</ToolTipText>
     <ToolTipTextBrush>工具提示文本刷</ToolTipTextBrush>
     <Top>顶端</Top>
     <TopLeft>左上</TopLeft>
@@ -4879,6 +4928,7 @@
     <UseStyleOfSummaryInRowTotal>显示行汇总</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>使用用户图片</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>使用指定范围内的值</UseValuesFromTheSpecifiedRange>
+    <Validation>验证</Validation>
     <Value>值</Value>
     <ValueClose>收盘值</ValueClose>
     <ValueDataColumn>值数据列</ValueDataColumn>
@@ -5086,7 +5136,9 @@
   <Report>
     <ActiveRelation>激活关系</ActiveRelation>
     <Address>地址</Address>
+    <Alpha>字母</Alpha>
     <Alphabetical>按字母顺序</Alphabetical>
+    <AlphaNumeric>字母数字</AlphaNumeric>
     <Bands>栏</Bands>
     <Basic>基本</Basic>
     <BasicConfiguration>对象属性的最小数字, 是渲染基本报告类型所需要的.</BasicConfiguration>
@@ -5112,6 +5164,7 @@
     <DashboardOnly>仅限仪表板和数据转换</DashboardOnly>
     <Dialogs>报表控件</Dialogs>
     <EditStyles>编辑样式</EditStyles>
+    <Email>电子邮件</Email>
     <EnableCacheAllDataMode>启用"缓存所有数据"模式</EnableCacheAllDataMode>
     <Enhancements>增强</Enhancements>
     <EnterDataManually>手动输入数据</EnterDataManually>
@@ -5134,6 +5187,7 @@
     <Infographics>信息图</Infographics>
     <InfoMessage>{0} - {1} 查找.</InfoMessage>
     <InformationMessages>信息类消息</InformationMessages>
+    <IpAddress>IP 地址</IpAddress>
     <LabelAlias>别名:</LabelAlias>
     <LabelAuthor>作者:</LabelAuthor>
     <LabelBackground>背景:</LabelBackground>
@@ -5177,6 +5231,7 @@
     <Obsoleted>或已废除</Obsoleted>
     <Office2010Back>返回</Office2010Back>
     <PageNofM>{0} / {1}页</PageNofM>
+    <Phone>电话</Phone>
     <PreparingReport>正在准备报表</PreparingReport>
     <Professional>专业</Professional>
     <ProfessionalConfiguration>所有对象属性.</ProfessionalConfiguration>
@@ -5192,6 +5247,7 @@
     <SaveReportPagesOrFormsFromReport>保存报表、页面或窗体</SaveReportPagesOrFormsFromReport>
     <SavingReport>正在保存报表</SavingReport>
     <ScriptEvalAccess>脚本执行访问</ScriptEvalAccess>
+    <ScriptSecurity>脚本安全</ScriptSecurity>
     <SecondPass>第二通道</SecondPass>
     <Shapes>形状</Shapes>
     <ShowOnParametersPanel>在参数面板上显示</ShowOnParametersPanel>
@@ -5469,6 +5525,7 @@
     <FontSize>字体尺寸</FontSize>
     <FontStyleBold>粗体</FontStyleBold>
     <FontStyleItalic>斜体</FontStyleItalic>
+    <FontStyleStrikeout>字体样式删除线</FontStyleStrikeout>
     <FontStyleUnderline>下划线</FontStyleUnderline>
     <Link>链接</Link>
     <Lock>固定</Lock>
@@ -5553,11 +5610,13 @@
     <ButtonNext>下一步(&amp;N) &gt;</ButtonNext>
     <ColumnsOrder>列的顺序</ColumnsOrder>
     <Company>公司</Company>
+    <CreateDataManually>手动创建数据</CreateDataManually>
     <Custom>自定义</Custom>
     <DataRelation>关系</DataRelation>
     <DataSource>数据源</DataSource>
     <DataSources>数据源</DataSources>
     <DefaultThemes>默认主题</DefaultThemes>
+    <EditUserSource>编辑用户源</EditUserSource>
     <Examples>示例</Examples>
     <Filters>过滤</Filters>
     <FromReportTemplate>从报表模板</FromReportTemplate>
@@ -5603,6 +5662,7 @@
     <Mapping>制图</Mapping>
     <MarkAll>全选(&amp;A)</MarkAll>
     <MasterDetailReport>报表主要细节</MasterDetailReport>
+    <NewUserSource>新建用户源</NewUserSource>
     <NoFunction>[无]</NoFunction>
     <OpenExistingReport>打开已经存在的报表</OpenExistingReport>
     <OpenFrom>从{0}中打开</OpenFrom>

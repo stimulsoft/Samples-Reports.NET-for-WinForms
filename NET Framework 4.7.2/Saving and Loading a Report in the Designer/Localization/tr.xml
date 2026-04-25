@@ -141,6 +141,8 @@
     <Design>Tasarım</Design>
     <Down>Aşağı</Down>
     <Duplicate>Çoğalt</Duplicate>
+    <EditAsData>Veri Olarak Düzenle</EditAsData>
+    <EditAsText>Metin Olarak Düzenle</EditAsText>
     <Export>Dışarı Çıkart</Export>
     <ForceDelete>Silmeye Zorla</ForceDelete>
     <Help>Yardım</Help>
@@ -675,6 +677,7 @@
     <StiHeaderBand>Üst Kısım</StiHeaderBand>
     <StiHierarchicalBand>Hiyerarşik Veri</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Yatay Çizgi</StiHorizontalLinePrimitive>
+    <StiIcon>Simge</StiIcon>
     <StiImage>Resim</StiImage>
     <StiIndicator>Gösterge</StiIndicator>
     <StiListBox>Liste Kutusu</StiListBox>
@@ -933,16 +936,20 @@
   <Dialogs>
     <StiButtonControl>Buton</StiButtonControl>
     <StiCheckBoxControl>Onay Kutusu</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Onay Kutusu Grubu</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>İşaretli Liste Kutusu</StiCheckedListBoxControl>
     <StiComboBoxControl>Birleşik Kutu</StiComboBoxControl>
+    <StiDatePickerControl>Tarih Seçici</StiDatePickerControl>
     <StiDateTimePickerControl>Tarih Saat Seçici</StiDateTimePickerControl>
     <StiForm>Form</StiForm>
     <StiGridControl>Izgara</StiGridControl>
     <StiGroupBoxControl>Grup Kutusu</StiGroupBoxControl>
     <StiLabelControl>Etiket</StiLabelControl>
     <StiListBoxControl>Liste Kutusu</StiListBoxControl>
+    <StiListControl>Liste</StiListControl>
     <StiListViewControl>Liste Görünümü</StiListViewControl>
     <StiLookUpBoxControl>Arama Kutusu</StiLookUpBoxControl>
+    <StiNumberInputControl>Sayı Girişi</StiNumberInputControl>
     <StiNumericUpDownControl>Sayısal Yukarı Aşağı </StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Resim Kutusu</StiPictureBoxControl>
@@ -950,9 +957,11 @@
     <StiRadioGroupControl>Radyo Grup</StiRadioGroupControl>
     <StiReportControl>Rapor Kontrol</StiReportControl>
     <StiRichTextBoxControl>Zengin Metin Kutusu</StiRichTextBoxControl>
+    <StiSelectControl>Seçim</StiSelectControl>
     <StiSliderControl>Kaydırıcı</StiSliderControl>
     <StiSwitchControl>Değiştir</StiSwitchControl>
     <StiTextBoxControl>Metin Kutusu</StiTextBoxControl>
+    <StiTextInputControl>Metin Girişi</StiTextInputControl>
     <StiTreeViewControl>Ağaç Görünümü</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1054,6 +1063,7 @@
     <ContinuousPages>Sürekli Sayfalar</ContinuousPages>
     <DataAndHeaders>Veri ve Üst Kısımlar</DataAndHeaders>
     <DataAndHeadersFooters>Veri ve Üst Kısımlar/Alt Kısımlar</DataAndHeadersFooters>
+    <DataExport>Veri Dışa Aktarımı</DataExport>
     <DataOnly>Sadece Veri</DataOnly>
     <DigitalSignature>Dijital İmza</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Sertifika Seçilmedi</DigitalSignatureCertificateNotSelected>
@@ -1133,6 +1143,7 @@
     <OpenAfterExport>Dışa Aktardıktan Sonra Aç</OpenAfterExport>
     <Ordered>Sıralı</Ordered>
     <PdfACompliance>PDF / A Uyumu</PdfACompliance>
+    <PdfUA>PDF/UA (Evrensel Erişilebilirlik)</PdfUA>
     <PrintingReport>Yazdırma Raporu</PrintingReport>
     <RemoveEmptySpaceAtBottom>Sayfanın Altındaki Boş Alanı Kaldır</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Düzenlemeyi Kısıtla:</RestrictEditing>
@@ -1476,6 +1487,7 @@
     <DictionarySaveAs>Sözlüğü Kopya Kaydet</DictionarySaveAs>
     <DragNewDataSource>Verilerinizi doğrudan bu panele sürükleyin</DragNewDataSource>
     <DragNewReport>Raporunuzu doğrudan bu panele sürükleyin</DragNewReport>
+    <EditData>Veriyi Düzenle</EditData>
     <EditQuery>Sorguyu Düzenle</EditQuery>
     <EnableDataMonitor>Veri İzlemeyi Etkinleştir</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL deyimi başarıyla çalıştı</ExecutedSQLStatementSuccessfully>
@@ -1485,6 +1497,8 @@
     <GetColumnsFromAssembly>Derlemeden Kolonları Alın</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Desteklenmeyen Veri Kaynaklarını Gizle</HideUnsupportedDatabases>
     <ImportRelations>İlişkileri İçeri Aktar</ImportRelations>
+    <InsertColumnLeft>Sola Sütun Ekle</InsertColumnLeft>
+    <InsertColumnRight>Sağa Sütun Ekle</InsertColumnRight>
     <LabelSeparator>Ayırıcı:</LabelSeparator>
     <MarkUsedItems>Kullanılan Öğeleri İşaretle</MarkUsedItems>
     <NewBusinessObject>Yeni İş Nesnesi</NewBusinessObject>
@@ -2081,6 +2095,7 @@
     <CompilationAccessForceInterpretation>Derleme gerektiren dosyalar herhangi bir uyarı olmaksızın açılacak fakat otomatik olarak, derleme işlemi kullanmayan, yorumlayıcı moduna çevrilecek.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Derleme moduna geçiyorsunuz. Bu mode değişik kodların çalıştırılmasına imkan sağlar ve bazı durumlarda zararlı olabilir. Bu mode sadece bütün riskleri anladıysanız ve kabul ediyorsanız kullanın. Devam etmek için {0} tuşuna basın.</CompilationModeEnabling>
     <ComponentSize>Seçilen bileşenlerin boyutunu değiştir.</ComponentSize>
+    <ComponentsMenu>Kullanılmayan gösterge paneli öğelerini içeren Bileşenler menüsünü mobil yüzeyde açar.</ComponentsMenu>
     <CopyStyle>Stili Kopyala</CopyStyle>
     <CopyToClipboard>Panoya Kopyala</CopyToClipboard>
     <CurrencySymbol>Para birimi simgesini seç.</CurrencySymbol>
@@ -2137,6 +2152,7 @@
     <menuEditCut>Seçili bileşenleri bir rapordan kesin ve panoya koyun.</menuEditCut>
     <menuEditDelete>Seçilen bileşenleri silin.</menuEditDelete>
     <menuEditPaste>Pano'nun içeriğini rapora yapıştırın.</menuEditPaste>
+    <menuExportSettings>Geçerli rapor veya gösterge paneli için Dışa Aktarma Ayarları düzenleyicisini açar. Ayarlar yalnızca mevcut rapor veya gösterge paneli dışa aktarılırken uygulanır.</menuExportSettings>
     <menuFAQPage>Sık sorulan sorularla web sayfasına gidin.</menuFAQPage>
     <menuGlobalizationStrings>Mevcut raporun Küreselleşme Dizeleri Düzenleyicisini arayın.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Rapor üreticisi sürümü ve .NET Framework sürümü hakkında bilgi edinin.</menuHelpAboutProgramm>
@@ -2169,13 +2185,17 @@
     <PageSize>Bir raporun geçerli sayfası için kağıt boyutunu seçin.</PageSize>
     <PagesManager>Sayfa Yöneticisi'ni çalıştırın.</PagesManager>
     <PressF1>Daha Fazla Bilgi için F1'e basın</PressF1>
+    <PropertiesButton>Rapor şablonu özelliklerini içeren Özellikler panelini etkinleştirir.</PropertiesButton>
     <Redo>Bir raporda önceden iptal edilmiş değişikliği tekrar yapın.</Redo>
+    <RemoveMobileSurfaceButton>Geçerli gösterge panelinden mobil yüzeyi kaldırır.</RemoveMobileSurfaceButton>
     <ReportNew>Yeni bir rapor oluşturun.</ReportNew>
     <ReportOpen>Tasarımcıda bir rapor açın.</ReportOpen>
     <ReportPreview>Düzenlenen bir raporu görüntüleyende önizleyin.</ReportPreview>
     <ReportSave>Düzenlenmiş raporu kaydedin.</ReportSave>
     <ScriptEvalAccess1>Bu belge Script Eval kullanmaktadır. Belge güvenilir bir kaynaktan geliyorsa, erişmek için "Aç" düğmesine tıklayabilirsiniz.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Belgenin kaynağından emin değilseniz ancak yine de görüntülemek istiyorsanız, "Güvenli modda aç" düğmesine tıklayabilirsiniz. Bu durumda, Script Eval yok sayılır ve çalıştırılmaz.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Tam betik erişimi (kısıtlama yok, potansiyel olarak güvensiz).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Güvenli betik erişimi (güvenlik için kısıtlı erişim).</ScriptSecuritySafeMode>
     <SelectAll>Geçerli sayfadaki tüm bileşenleri seçin.</SelectAll>
     <SelectUILanguage>UI dilini seçin.</SelectUILanguage>
     <SendToBack>Seçilen bileşeni diğer bileşenlere göre arkaya taşıyın.</SendToBack>
@@ -2194,6 +2214,8 @@
     <TextFormat> Değer biçimini seçin.</TextFormat>
     <ToolbarStyle>Seçilen stili tüm seçilmiş bileşenlere ayarlayın.</ToolbarStyle>
     <Undo>Rapordaki son değişikliği geri al. </Undo>
+    <ViewModeDesktopButton>Masaüstü Yüzeyini Etkinleştir.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Mobil Yüzeyi Etkinleştir.</ViewModeMobileButton>
     <WordWrap>Bir bileşenin metnini sar.</WordWrap>
     <Zoom>Raporun yakınlaştırma düzeyini belirtin.</Zoom>
   </HelpDesigner>
@@ -2281,6 +2303,7 @@
     <PageSize>Rapordaki sayfa parametrelerini değiştirin.</PageSize>
     <Parameters>Rapor oluşturma sırasında kullanılan parametre panelini gösterir.</Parameters>
     <PdfACompliance>Elektronik belgelerin uzun süreli arşivlenmesi ve saklanması standardı için destek.</PdfACompliance>
+    <PdfUniversalAccessibility>Evrensel olarak erişilebilir elektronik belgeler ve bilgiler standardı desteği.</PdfUniversalAccessibility>
     <Print>Rapor yazdır.</Print>
     <PutFeedPageCode>Son belgede sayfaları özel bir karakterle besleyin.</PutFeedPageCode>
     <RangePages>şlenecek sayfa numaraları. Tek bir sayfa, sayfaların bir listesini (ayırıcı olarak virgül kullanarak) belirtebildiğiniz gibi, aralığın başlangıç ​​sayfasının "-" ve aralığın son sayfası ile ayrılmış olarak ayarlanmasını sağlayabilirsiniz. Örneğin: 1,3,5-12.</RangePages>
@@ -2326,6 +2349,7 @@
     <menuContextClone>Klonla...</menuContextClone>
     <menuContextDesign>Tasarım...</menuContextDesign>
     <menuContextTextFormat>Metin Biçimi...</menuContextTextFormat>
+    <menuConvertTo>{0} formatına dönüştür</menuConvertTo>
     <menuConvertToCheckBox>OnayKutusu'na Dönüştür</menuConvertToCheckBox>
     <menuConvertToImage>Resme Dönüştür</menuConvertToImage>
     <MenuConvertToRichText>ZenginMetin'e Dönüştür</MenuConvertToRichText>
@@ -2550,7 +2574,9 @@
     <DeveloperInformation>Geliştirici Bilgileri</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Bitiş tarihi, geçerli tarihten daha büyük olmalıdır!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Bitiş tarihi, başlangıç ​​tarihinden daha büyük olmalıdır!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Hata</Error>
     <ExecutionError>Yürütme hatası</ExecutionError>
+    <ExpressionValidationFailed>İfade doğrulaması başarısız oldu.</ExpressionValidationFailed>
     <GracePeriod>Aboneliğinizin geçerlilik süresi {0} gün içinde sona erecektir.</GracePeriod>
     <IsIdentical>"{0}" ve "{1}" aynıdır. "</IsIdentical>
     <IsNotAuthorized>"{0}" öğesine erişim yok!</IsNotAuthorized>
@@ -2566,8 +2592,13 @@
     <ItemCantBeMovedToSpecifiedPlace>Öğe, belirtilen bir yere taşınamaz!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Öğe "{0}" özelliğini desteklemiyor!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Bir Anahtar ve ToKey eşittir!</KeyAndToKeyAreEqual>
+    <LengthRange>Uzunluk {0} ile {1} arasında olmalıdır.</LengthRange>
     <MaximumComputers>Maksimum Cihaz Sayısı</MaximumComputers>
+    <MaximumLength>Maksimum uzunluk {0}.</MaximumLength>
+    <MaximumValue>Maksimum değer {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Dikkat! Eklemeye çalıştığınız dosyanın boyutu izin verilen maksimum boyutu aşıyor. Bu dosyayı zaten eklemek istiyor musunuz (rapor işleme önemli ölçüde yavaşlayabilir)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Minimum uzunluk {0}.</MinimumLength>
+    <MinimumValue>Minimum değer {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} kullanıma sunuldu.</NewDesignerAvailable>
     <NewProduct>Aboneliğinize yeni bir ürün eklendi!</NewProduct>
     <NewVersionsAvailable>Yeni sürüm mevcut!</NewVersionsAvailable>
@@ -2613,6 +2644,9 @@
     <NotificationTransferring>"{0}", "{1}" değerine aktarılıyor.</NotificationTransferring>
     <NotificationTransferringComplete>"{0}" başarılı bir şekilde "{1}" adresine aktarıldı.</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Bu değer, {0} tipi için doğru değil</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Yalnızca rakamlara izin verilir.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Yalnızca harflere izin verilir.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Yalnızca harf ve rakamlara izin verilir.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Aralık dışı ("{0}")!</OutOfRange>
     <ParsingCommandException>Belirtilen xml: {0} komutunu işlerken bir istisna oluştu</ParsingCommandException>
     <PleaseLogin>Raporu yayınlamadan önce lütfen Stimulsoft hesabı kimlik bilgilerinizi kullanarak oturum açın veya yeni bir hesap kaydedin.</PleaseLogin>
@@ -2639,6 +2673,12 @@
     <SubscriptionsOut20>Abonelik süresi 20 gün içinde sona eriyor! </SubscriptionsOut20>
     <SuccessfullyRenewed>Aboneliğiniz başarıyla güncellendi!</SuccessfullyRenewed>
     <TrialToLicense>Stimulsoft'u tercih ettiğiniz için teşekkür ederiz!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL http:// veya https:// kullanmalıdır.</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Değer zorunludur!</ValueIsRequired>
+    <ValueMatchPattern>Değer, gerekli desen ile eşleşmiyor.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>Değer {0} değerine eşit veya büyük olmalıdır.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>Değer {0} değerine eşit veya küçük olmalıdır.</ValueMustBeLessOrEqual>
+    <ValueRange>Sayı {0} ile {1} arasında olmalıdır.</ValueRange>
     <VersionCopyFromItem>"{0}" öğesinden kopyalayın.</VersionCopyFromItem>
     <VersionCreatedFromFile>"{0}" adlı dosyadan düzenlendi.</VersionCreatedFromFile>
     <VersionCreatedFromItem>"{0}" öğesinden oluşturuldu.</VersionCreatedFromItem>
@@ -3505,6 +3545,8 @@
     <StiRestrictionsAllowResize>Boyutlandırmaya İzin Ver</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Seçmeye İzin Ver</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Seçim Yok</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Tam Erişim</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Güvenli Mod</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>İlk</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Değişkenden</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Hiçbiri</StiSelectionModeNothing>
@@ -4176,6 +4218,8 @@
     <GroupDataColumn>Grup Veri Sütun</GroupDataColumn>
     <GroupMeter>Grup</GroupMeter>
     <GrowToHeight>Yüksekliğe Büyütme</GrowToHeight>
+    <HandleBorderColor>Tutamaç Kenarlık Rengi</HandleBorderColor>
+    <HandleFillColor>Tutamaç Dolgu Rengi</HandleFillColor>
     <Header>ÜstAlan</Header>
     <HeaderAlignment>ÜstAlan Hizalama</HeaderAlignment>
     <HeaderBackColor>Üst Kısım Arka Rengi</HeaderBackColor>
@@ -4444,6 +4488,7 @@
     <NextPage>Sonraki Sayfa</NextPage>
     <NoElements>Öğe Yok</NoElements>
     <NoIcon>Simge Yok</NoIcon>
+    <Notifications>Bildirimler</Notifications>
     <NullText>Boş Metin</NullText>
     <NumberOfColumns>Sütun Sayısı</NumberOfColumns>
     <NumberOfCopies>Kopya Sayısı</NumberOfCopies>
@@ -4489,6 +4534,7 @@
     <ParetoSeriesColors>Pareto Serisi Renkler</ParetoSeriesColors>
     <PasswordChar>Şifre Karakteri</PasswordChar>
     <Path>Yol</Path>
+    <PathColor>Yol Rengi</PathColor>
     <PathData>Yol Verisi</PathData>
     <PathSchema>Yol Şeması</PathSchema>
     <Pattern>Desen</Pattern>
@@ -4552,6 +4598,7 @@
     <Refresh>Yenile</Refresh>
     <RefreshTime>Yenileme Zamanı</RefreshTime>
     <Regular>Normal</Regular>
+    <RegularExpression>Düzenli İfade</RegularExpression>
     <Relation>İlişkisi</Relation>
     <RelationName>İlişki Adı</RelationName>
     <Relations>İlişkiler</Relations>
@@ -4705,6 +4752,7 @@
     <SkipValuesObj>Değerleri Atla</SkipValuesObj>
     <Smoothing>Yumuşatma</Smoothing>
     <SnapMode>Snap Modu</SnapMode>
+    <SnapPageWidthToGrid>Sayfa Genişliğini Izgaraya Hizala</SnapPageWidthToGrid>
     <Sort>Sıralama</Sort>
     <SortBy>...ile Sırala</SortBy>
     <SortDirection>Yön Sırala</SortDirection>
@@ -4817,6 +4865,7 @@
     <ToolTipBrush>İpucu Aracı Fırçası</ToolTipBrush>
     <ToolTipCornerRadius>İpucu Aracı Köşe Ovalliği</ToolTipCornerRadius>
     <ToolTipDataColumn>Araç İpucu Veri Sütunu</ToolTipDataColumn>
+    <ToolTipText>İpucu Metni</ToolTipText>
     <ToolTipTextBrush>İpucu Aracı Metin Fırçası</ToolTipTextBrush>
     <Top>Üst</Top>
     <TopLeft>Üst-Sol</TopLeft>
@@ -4864,6 +4913,7 @@
     <UseStyleOfSummaryInRowTotal>Satır Toplamında Özet Stilini Kullan</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Kullanıcı Resmini Kullan</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Belirtilen Aralıktan Değerleri Kullanın</UseValuesFromTheSpecifiedRange>
+    <Validation>Doğrulama</Validation>
     <Value>Değer </Value>
     <ValueClose>Değeri Kapat</ValueClose>
     <ValueDataColumn>Değer Veri Sütunu</ValueDataColumn>
@@ -5071,7 +5121,9 @@
   <Report>
     <ActiveRelation>Aktif İlişki</ActiveRelation>
     <Address>Adres </Address>
+    <Alpha>Alfa</Alpha>
     <Alphabetical>Alfabetik </Alphabetical>
+    <AlphaNumeric>Alfanümerik</AlphaNumeric>
     <Bands>Gruplar </Bands>
     <Basic>Temel</Basic>
     <BasicConfiguration>Temel rapor türlerini oluşturmak için gerekli olan en az sayıda nesne özelliği.</BasicConfiguration>
@@ -5097,6 +5149,7 @@
     <DashboardOnly>Sadece Pano ve Veri Dönüştürme</DashboardOnly>
     <Dialogs>Diyaloglar</Dialogs>
     <EditStyles>Stilleri Düzenle</EditStyles>
+    <Email>E-posta</Email>
     <EnableCacheAllDataMode>'Tüm Veri Önbelleği' modunu etkinleştir</EnableCacheAllDataMode>
     <Enhancements>Donanım</Enhancements>
     <EnterDataManually>Verileri manuel olarak girin</EnterDataManually>
@@ -5119,6 +5172,7 @@
     <Infographics>İnfografikler</Infographics>
     <InfoMessage>{0} - {1} bulundu.</InfoMessage>
     <InformationMessages>Bilgi İletileri</InformationMessages>
+    <IpAddress>IP Adresi</IpAddress>
     <LabelAlias>TakmaAd:</LabelAlias>
     <LabelAuthor>Yazar:</LabelAuthor>
     <LabelBackground>Arka plan:</LabelBackground>
@@ -5162,6 +5216,7 @@
     <Obsoleted>Eski</Obsoleted>
     <Office2010Back>Geri </Office2010Back>
     <PageNofM>Sayfa {1} nin {0} i</PageNofM>
+    <Phone>Telefon</Phone>
     <PreparingReport>Rapor Hazırlanıyor</PreparingReport>
     <Professional>Profesyonel</Professional>
     <ProfessionalConfiguration>Tüm nesne özellikleri.</ProfessionalConfiguration>
@@ -5177,6 +5232,7 @@
     <SaveReportPagesOrFormsFromReport> Raporu, sayfaları veya formları kaydedin</SaveReportPagesOrFormsFromReport>
     <SavingReport>Raporun Kaydediyor</SavingReport>
     <ScriptEvalAccess>Script Eval Erişimi</ScriptEvalAccess>
+    <ScriptSecurity>Betik Güvenliği</ScriptSecurity>
     <SecondPass>İkinci Geçiş</SecondPass>
     <Shapes>Şekiller </Shapes>
     <ShowOnParametersPanel>Parametreleri Panelde Göster</ShowOnParametersPanel>
@@ -5453,6 +5509,7 @@
     <FontSize>Yazı Tipi Boyutu</FontSize>
     <FontStyleBold>Yazı Tipi Stili Kalın</FontStyleBold>
     <FontStyleItalic>Yazı Tipi Stili Yatık</FontStyleItalic>
+    <FontStyleStrikeout>Yazı Tipi Üstü Çizili</FontStyleStrikeout>
     <FontStyleUnderline>Yazı Tipi Stili Altı Çizili</FontStyleUnderline>
     <Link>Bağlantı</Link>
     <Lock>Kilit</Lock>
@@ -5537,11 +5594,13 @@
     <ButtonNext>Sonraki</ButtonNext>
     <ColumnsOrder>Sütun Düzeni</ColumnsOrder>
     <Company>Şirket </Company>
+    <CreateDataManually>Veriyi Manuel Oluştur</CreateDataManually>
     <Custom>Özel</Custom>
     <DataRelation>İlişki</DataRelation>
     <DataSource>Veri Kaynağı</DataSource>
     <DataSources>Veri Kaynakları</DataSources>
     <DefaultThemes>Varsayılan Temalar</DefaultThemes>
+    <EditUserSource>Kullanıcı Kaynağını Düzenle</EditUserSource>
     <Examples>Örnekler</Examples>
     <Filters>Filtreler</Filters>
     <FromReportTemplate>Rapor Şablonundan</FromReportTemplate>
@@ -5587,6 +5646,7 @@
     <Mapping>Haritalama</Mapping>
     <MarkAll>Tümünü İşaretle</MarkAll>
     <MasterDetailReport>Ana-Detay Raporu</MasterDetailReport>
+    <NewUserSource>Yeni Kullanıcı Kaynağı</NewUserSource>
     <NoFunction>[SecimYok]</NoFunction>
     <OpenExistingReport>Mevcut Dosyayı Açın</OpenExistingReport>
     <OpenFrom>Şuradan Aç: {0}</OpenFrom>

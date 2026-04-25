@@ -143,6 +143,8 @@
     <Design>Proiectează</Design>
     <Down>Jos</Down>
     <Duplicate>Duplicate</Duplicate>
+    <EditAsData>Editare ca date</EditAsData>
+    <EditAsText>Editare ca text</EditAsText>
     <Export>Exportă</Export>
     <ForceDelete>Ștergere Forțată</ForceDelete>
     <Help>Ajutor</Help>
@@ -677,6 +679,7 @@
     <StiHeaderBand>Antet</StiHeaderBand>
     <StiHierarchicalBand>Bandă ierarhică</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Linie orizontală</StiHorizontalLinePrimitive>
+    <StiIcon>Pictogramă</StiIcon>
     <StiImage>Imagine</StiImage>
     <StiIndicator>Indicator</StiIndicator>
     <StiListBox>Control Listă</StiListBox>
@@ -949,16 +952,20 @@
   <Dialogs>
     <StiButtonControl>Buton</StiButtonControl>
     <StiCheckBoxControl>Căsuţă</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Grup controale selectie</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Listă de căsuţe</StiCheckedListBoxControl>
     <StiComboBoxControl>Listă derulantă</StiComboBoxControl>
+    <StiDatePickerControl>Control citire dată</StiDatePickerControl>
     <StiDateTimePickerControl>Selectare dată</StiDateTimePickerControl>
     <StiForm>Formular</StiForm>
     <StiGridControl>Grilă</StiGridControl>
     <StiGroupBoxControl>Casetă grupare</StiGroupBoxControl>
     <StiLabelControl>Denumire</StiLabelControl>
     <StiListBoxControl>Listă</StiListBoxControl>
+    <StiListControl>Control listă</StiListControl>
     <StiListViewControl>Vizualizare tip listă</StiListViewControl>
     <StiLookUpBoxControl>Căsuţa căutare</StiLookUpBoxControl>
+    <StiNumberInputControl>Control citire numerică</StiNumberInputControl>
     <StiNumericUpDownControl>Numerotare de sus în jos</StiNumericUpDownControl>
     <StiPanelControl>Panou</StiPanelControl>
     <StiPictureBoxControl>Imagine</StiPictureBoxControl>
@@ -967,9 +974,11 @@
     <StiRadioGroupControl>Grup butoane radio</StiRadioGroupControl>
     <StiReportControl>Raport</StiReportControl>
     <StiRichTextBoxControl>Control tip Rich Text</StiRichTextBoxControl>
+    <StiSelectControl>Control selectie</StiSelectControl>
     <StiSliderControl>Glisor</StiSliderControl>
     <StiSwitchControl>Comutare</StiSwitchControl>
     <StiTextBoxControl>Căsuţă text</StiTextBoxControl>
+    <StiTextInputControl>Control citire text</StiTextInputControl>
     <StiTreeViewControl>Vizualizare arborescentă</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1071,6 +1080,7 @@
     <ContinuousPages>Pagini continue</ContinuousPages>
     <DataAndHeaders>Date și Antete</DataAndHeaders>
     <DataAndHeadersFooters>Date şi Antete/Subsoluri</DataAndHeadersFooters>
+    <DataExport>Export date</DataExport>
     <DataOnly>Doar date</DataOnly>
     <DigitalSignature>Semnătură digitală</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Certificatul nu este selectat</DigitalSignatureCertificateNotSelected>
@@ -1150,6 +1160,7 @@
     <OpenAfterExport>Deschide după exportare</OpenAfterExport>
     <Ordered>Sortat</Ordered>
     <PdfACompliance>PDF/Conformitate A</PdfACompliance>
+    <PdfUA>PDF/UA (Accesibilitate universală)</PdfUA>
     <PrintingReport>Imprimare Raport</PrintingReport>
     <RemoveEmptySpaceAtBottom>Eliminare spaţiu gol din partea de jos a paginii</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Restricţionare Editare:</RestrictEditing>
@@ -1494,6 +1505,7 @@
     <DictionarySaveAs>Salvează dicţionar ca...</DictionarySaveAs>
     <DragNewDataSource>trageți datele direct în acest panou</DragNewDataSource>
     <DragNewReport>trageți raportul direct în acest panou</DragNewReport>
+    <EditData>Editare date</EditData>
     <EditQuery>Modifică interogare</EditQuery>
     <EnableDataMonitor>Activare monitorizare date</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Cererea SQL a fost executată cu succes</ExecutedSQLStatementSuccessfully>
@@ -1503,6 +1515,8 @@
     <GetColumnsFromAssembly>Obţine coloane din assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Ascundeți sursele de date neacceptate</HideUnsupportedDatabases>
     <ImportRelations>Importă relaţii</ImportRelations>
+    <InsertColumnLeft>Inserare coloană stânga</InsertColumnLeft>
+    <InsertColumnRight>Inserare coloană dreapa</InsertColumnRight>
     <LabelSeparator>Separator:</LabelSeparator>
     <MarkUsedItems>Marchează elementele utilizate</MarkUsedItems>
     <NewBusinessObject>Business Object nou</NewBusinessObject>
@@ -2107,6 +2121,7 @@
     <CompilationAccessForceInterpretation>Documentele cu proces de compilare vor fi deschise fără nicio solicitare, dar vor fi convertite automat în modul de interpretare, care nu utilizează compilare.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Trecere la modul de compilare. Acest mod permite rularea unui cod diferit și uneori poate fi dăunător. Vă rugăm să utilizați acest mod numai dacă înțelegeți toate riscurile și sunteți de acord cu ele. Faceți clic pe butonul {0} pentru a continua.</CompilationModeEnabling>
     <ComponentSize>Schimbă dimensiunea componentele selectate.</ComponentSize>
+    <ComponentsMenu>Deschide meniul Componente ce conține elemente panou de control neutilizate pe suprafața mobilă.</ComponentsMenu>
     <CopyStyle>Stil Copiere</CopyStyle>
     <CopyToClipboard>Copie în Clipboard</CopyToClipboard>
     <CurrencySymbol>Selectaţi simbolul pentru monedă.</CurrencySymbol>
@@ -2163,6 +2178,7 @@
     <menuEditCut>Taie componentele selectate din raport şi le pune în Clipboard.</menuEditCut>
     <menuEditDelete>Şterge componente selectate.</menuEditDelete>
     <menuEditPaste>Lipeşte conţinutul din Clipboard în raport.</menuEditPaste>
+    <menuExportSettings>Deschide editorul Setări de export pentru raportul sau panoul de control curent. Setările se aplică numai la exportarea raportului sau panoului curent..</menuExportSettings>
     <menuFAQPage>Mergi la pagina web cu raspunsurile la cele mai frecvente întrebări.</menuFAQPage>
     <menuGlobalizationStrings>Apelare editor Globalizare String-uri al raportului curent.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Obţine informaţii despre versiunea generatorului de rapoarte şi versiunea de Net Framework.</menuHelpAboutProgramm>
@@ -2195,13 +2211,17 @@
     <PageSize>Alegeţi dimensiunea hârtiei pentru pagina curentă a unui raport.</PageSize>
     <PagesManager>Porneşte Managerul de Pagini.</PagesManager>
     <PressF1>Apăsaţi F1 pentru Mai Multe Detalii</PressF1>
+    <PropertiesButton>Activează panoul Proprietăți ale șablonului de raport.</PropertiesButton>
     <Redo>Refă schimbarea anulată anterior într-un raport.</Redo>
+    <RemoveMobileSurfaceButton>Elimină suprafața mobilă din panoul control curent.</RemoveMobileSurfaceButton>
     <ReportNew>Crează un raport nou.</ReportNew>
     <ReportOpen>Deschide un raport în designer.</ReportOpen>
     <ReportPreview>Previzualizează un raport.</ReportPreview>
     <ReportSave>Salvează raportul editat curent.</ReportSave>
     <ScriptEvalAccess1>Acest document folosește Script Eval. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul „Deschide” pentru a-l accesa..</ScriptEvalAccess1>
     <ScriptEvalAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să îl vizualizați, puteți face clic pe butonul „Deschide în modul de siguranță”. În acest caz, Script Eval va fi ignorat și nu va fi executat..</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Acces complet la script (fără restricții, potențial nesigur).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Acces securizat la scripturi (capacități restricționate pentru securitate).</ScriptSecuritySafeMode>
     <SelectAll>Selectează toate componentele de pe pagina curentă.</SelectAll>
     <SelectUILanguage>Selectaţi limba pentru interfaţa grafică.</SelectUILanguage>
     <SendToBack>Mută componenta selectată în spate în funcţie de alte componente.</SendToBack>
@@ -2220,6 +2240,8 @@
     <TextFormat>Selectare format pentru valori.</TextFormat>
     <ToolbarStyle>Aplică stilul ales la toate componentele selectate.</ToolbarStyle>
     <Undo>Anulează ultima schimbare într-un raport.</Undo>
+    <ViewModeDesktopButton>Activare suprafață Desktop.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Activare suprafață Mobilă.</ViewModeMobileButton>
     <WordWrap>Aplică ruperea rândurilor pe textul unei componente.</WordWrap>
     <Zoom>Stabileşte nivelul de zoom al raportului.</Zoom>
   </HelpDesigner>
@@ -2307,6 +2329,7 @@
     <PageSize>Schimbă parametrii de pagină într-un raport.</PageSize>
     <Parameters>Se afişează panoul cu parametri,folosit la redarea raportului.</Parameters>
     <PdfACompliance>Suport pentru standardul de arhivare şi stocare pe termen lung a documentelor electronice.</PdfACompliance>
+    <PdfUniversalAccessibility>Suport pentru standardul documentelor și informațiilor electronice universal accesibile.</PdfUniversalAccessibility>
     <Print>Tipăreşte un raport.</Print>
     <PutFeedPageCode>Alimentare pagini din documentul final, cu un caracter special.</PutFeedPageCode>
     <RangePages>Numerele de pagină pentru a fi prelucrate. Puteţi specifica o singură pagină, o lista de pagini (folosind virgula ca separator), precum şi precizarea unui interval,stabilind pagina de start separată prin "-" şi pagina de sfârşit. De exemplu: 1,3,5-12.</RangePages>
@@ -2352,6 +2375,7 @@
     <menuContextClone>Duplicare...</menuContextClone>
     <menuContextDesign>Proiectare...</menuContextDesign>
     <menuContextTextFormat>Formatare text...</menuContextTextFormat>
+    <menuConvertTo>Conversie în {0}</menuConvertTo>
     <menuConvertToCheckBox>Conversie în CheckBox</menuConvertToCheckBox>
     <menuConvertToImage>Conversie în Image</menuConvertToImage>
     <MenuConvertToRichText>Conversie în RichText</MenuConvertToRichText>
@@ -2580,7 +2604,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DeveloperInformation>Informație dezvoltator</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Data încheiere trebuie să fie mai mare decât data curentă!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Data încheiere trebuie să fie mai mare decât data de începere!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Eroare</Error>
     <ExecutionError>Eroare de execuție</ExecutionError>
+    <ExpressionValidationFailed>Validarea expresiei a eșuat.</ExpressionValidationFailed>
     <GracePeriod>Perioada de grație a abonamentului dvs. va expira în {0} zile.</GracePeriod>
     <IsIdentical>"{0}" și "{1}" sunt identice."</IsIdentical>
     <IsNotAuthorized>Nu există acces la "{0}"!</IsNotAuthorized>
@@ -2596,8 +2622,13 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ItemCantBeMovedToSpecifiedPlace>Articolul nu poate fi mutat într-un loc specific!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Articolul nu suportă "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key și ToKey sunt egale!</KeyAndToKeyAreEqual>
+    <LengthRange>Lungimea trebuie să fie între {0} şi {1}.</LengthRange>
     <MaximumComputers>Maxim de calculatoare</MaximumComputers>
+    <MaximumLength>Lungimea maximă este {0}.</MaximumLength>
+    <MaximumValue>Maximul este {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Atenţie! Dimensiunea fișierului pe care încercați să-l adăugați depășește dimensiunea maximă permisă. Doriți să adăugați oricum acest fișier (procesarea rapoartelor se poate încetini semnificativ)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Lungimea minimă este {0}.</MinimumLength>
+    <MinimumValue>Minimul este {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} este disponibil.</NewDesignerAvailable>
     <NewProduct>Un nou produs este adăugat la abonament!</NewProduct>
     <NewVersionsAvailable>Este disponibilă o nouă versiune!</NewVersionsAvailable>
@@ -2643,6 +2674,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <NotificationTransferring>"{0}" se transferă către "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>"{0}" transferat cu succes către "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Această valoare nu este corectă pentru tipul {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Sunt permise doar cifre.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Sunt permise doar literele.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Sunt permise doar litere și cifre.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>În afara intervalului ("{0}")!</OutOfRange>
     <ParsingCommandException>O excepție de procesare a comenzii în fișierul XML specificat: {0}</ParsingCommandException>
     <PleaseLogin>Vă rugăm să vă autentificați utilizând datele de autentificare ale contului dvs. Stimulsoft sau să vă înregistrați un cont nou înainte de publicarea raportului.</PleaseLogin>
@@ -2669,6 +2703,12 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <SubscriptionsOut20>Perioada de abonare expiră în 20 de zile!</SubscriptionsOut20>
     <SuccessfullyRenewed>Abonamentul dvs. a fost actualizat cu succes!</SuccessfullyRenewed>
     <TrialToLicense>Vă mulțumim că ați ales Stimulsoft!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL-ul trebuie folosească http:// sau https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Valoarea este obligatorie!</ValueIsRequired>
+    <ValueMatchPattern>Valoarea nu corespunde modelului necesar.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>Valoarea trebuie să fie mai mare sau egală cu {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>Valoarea trebuie să fie mai mică sau egală cu {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>Numărul trebuie să fie între {0} și {1}.</ValueRange>
     <VersionCopyFromItem>Copiere de la elementul "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Creat dintr-un fișier "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Creat dintr-un element "{0}".</VersionCreatedFromItem>
@@ -3573,6 +3613,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiRestrictionsAllowResize>Permite redimensionare</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Permite selectare</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Niciuna</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Acces complet</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Modul sigur</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Primul</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Din variabilă</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Nimic</StiSelectionModeNothing>
@@ -4248,6 +4290,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <GroupDataColumn>Grup Coloană Date</GroupDataColumn>
     <GroupMeter>Grup</GroupMeter>
     <GrowToHeight>Măreşte la înălţime</GrowToHeight>
+    <HandleBorderColor>Culoarea bordurii</HandleBorderColor>
+    <HandleFillColor>Culoarea de umplere</HandleFillColor>
     <Header>Antet</Header>
     <HeaderAlignment>Aliniere antet</HeaderAlignment>
     <HeaderBackColor>Culoare fundal antet</HeaderBackColor>
@@ -4517,6 +4561,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <NextPage>Pagina următoare</NextPage>
     <NoElements>Fără elemente</NoElements>
     <NoIcon>Fără Icoană</NoIcon>
+    <Notifications>Notificări</Notifications>
     <NullText>Text nul</NullText>
     <NumberOfColumns>Număr de coloane</NumberOfColumns>
     <NumberOfCopies>Număr de copii</NumberOfCopies>
@@ -4564,6 +4609,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ParetoSeriesColors>Culori seria Pareto</ParetoSeriesColors>
     <PasswordChar>Caracter parolă</PasswordChar>
     <Path>Cale</Path>
+    <PathColor>Culoarea căii</PathColor>
     <PathData>Cale Date</PathData>
     <PathSchema>Cale Schemă</PathSchema>
     <Pattern>Model</Pattern>
@@ -4627,6 +4673,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Refresh>Reactualizare</Refresh>
     <RefreshTime>Reîmprospătare Timp</RefreshTime>
     <Regular>Obişnuit</Regular>
+    <RegularExpression>Expresie regulată</RegularExpression>
     <Relation>Relaţie</Relation>
     <RelationName>Denumire relaţie</RelationName>
     <Relations>Relaţii</Relations>
@@ -4781,6 +4828,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <SkipValuesObj>Omite Valori</SkipValuesObj>
     <Smoothing>Rotunjire</Smoothing>
     <SnapMode>Mod Snap</SnapMode>
+    <SnapPageWidthToGrid>Ajustare lățime pagină la grilă</SnapPageWidthToGrid>
     <Sort>Sortează</Sort>
     <SortBy>Sortare după</SortBy>
     <SortDirection>Direcţie de sortare</SortDirection>
@@ -4805,7 +4853,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StartPosition>Poziţie iniţială</StartPosition>
     <StartValue>Valoare Pornire</StartValue>
     <StartWidth>Lățime Pornire</StartWidth>
-    <State>Stat</State>
+    <State>Stare</State>
     <Step>Trepte</Step>
     <StiGlassBrush>Sticlă</StiGlassBrush>
     <Stop>Stop</Stop>
@@ -4894,6 +4942,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ToolTipBrush>Info Pensulă</ToolTipBrush>
     <ToolTipCornerRadius>Info Rază Colț</ToolTipCornerRadius>
     <ToolTipDataColumn>Coloană Tooltip</ToolTipDataColumn>
+    <ToolTipText>Textul informativ</ToolTipText>
     <ToolTipTextBrush>Info Text Pensulă</ToolTipTextBrush>
     <Top>Sus</Top>
     <TopLeft>Stânga sus</TopLeft>
@@ -4941,6 +4990,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <UseStyleOfSummaryInRowTotal>Utilizează stilul sumarului în rândul total</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Folosire imagine utilizator</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Utilizare valori din intervalul specificat</UseValuesFromTheSpecifiedRange>
+    <Validation>Validare</Validation>
     <Value>Valoare</Value>
     <ValueClose>Valoare Închidere</ValueClose>
     <ValueDataColumn>Coloană de date cu valori</ValueDataColumn>
@@ -5148,7 +5198,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
   <Report>
     <ActiveRelation>Relație activă</ActiveRelation>
     <Address>Addresă</Address>
+    <Alpha>Alfa</Alpha>
     <Alphabetical>Alfabetic</Alphabetical>
+    <AlphaNumeric>Alfa Numeric</AlphaNumeric>
     <Bands>Benzi</Bands>
     <Basic>De bază</Basic>
     <BasicConfiguration>Numărul minim de proprietaţi pentru obiect,necesar pentru redarea rapoartelor de bază .</BasicConfiguration>
@@ -5175,6 +5227,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DashboardOnly>Numai panouri și transformarea datelor</DashboardOnly>
     <Dialogs>Controale raport</Dialogs>
     <EditStyles>Editează Stiluri</EditStyles>
+    <Email>E-mail</Email>
     <EnableCacheAllDataMode>Activare mod „Memorează toate datele în cache”</EnableCacheAllDataMode>
     <Enhancements>Îmbunătățiri</Enhancements>
     <EnterDataManually>Introduceți datele manual</EnterDataManually>
@@ -5197,6 +5250,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Infographics>Infografice</Infographics>
     <InfoMessage>{0} - {1} găsite.</InfoMessage>
     <InformationMessages>Mesaje Informative</InformationMessages>
+    <IpAddress>Adresă IP</IpAddress>
     <LabelAlias>Alias:</LabelAlias>
     <LabelAuthor>Autor:</LabelAuthor>
     <LabelBackground>Fundal:</LabelBackground>
@@ -5241,6 +5295,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Obsoleted>Învechit</Obsoleted>
     <Office2010Back>Înapoi</Office2010Back>
     <PageNofM>Pagina {0} din {1}</PageNofM>
+    <Phone>Telefon</Phone>
     <PreparingReport>Pregatire raport</PreparingReport>
     <Professional>Profesional</Professional>
     <ProfessionalConfiguration>Toate proprietaţile obiectului.</ProfessionalConfiguration>
@@ -5256,6 +5311,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <SaveReportPagesOrFormsFromReport>Salvare raport, pagini sau forme</SaveReportPagesOrFormsFromReport>
     <SavingReport>Salvare raport</SavingReport>
     <ScriptEvalAccess>Acces la evaluarea scriptului</ScriptEvalAccess>
+    <ScriptSecurity>Securitatea scripturilor</ScriptSecurity>
     <SecondPass>A doua trecere</SecondPass>
     <Shapes>Forme</Shapes>
     <ShowOnParametersPanel>Afișare în panoul de parametri</ShowOnParametersPanel>
@@ -5533,6 +5589,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <FontSize>Mărimea fontului</FontSize>
     <FontStyleBold>Îngroşat</FontStyleBold>
     <FontStyleItalic>Înclinat</FontStyleItalic>
+    <FontStyleStrikeout>Stil font tăiat</FontStyleStrikeout>
     <FontStyleUnderline>Subliniat</FontStyleUnderline>
     <Link>Leagă</Link>
     <Lock>Blochează</Lock>
@@ -5617,11 +5674,13 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ButtonNext>Următoarea &gt;</ButtonNext>
     <ColumnsOrder>Ordinea coloanelor</ColumnsOrder>
     <Company>Companie</Company>
+    <CreateDataManually>Creare manuală date</CreateDataManually>
     <Custom>Personalizat</Custom>
     <DataRelation>Relaţie</DataRelation>
     <DataSource>Sursa de date</DataSource>
     <DataSources>Surse de date</DataSources>
     <DefaultThemes>Temele implicite</DefaultThemes>
+    <EditUserSource>Editare sursa utilizatorului</EditUserSource>
     <Examples>Exemple</Examples>
     <Filters>Filtre</Filters>
     <FromReportTemplate>Din template de raport</FromReportTemplate>
@@ -5667,6 +5726,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Mapping>Cartografiere</Mapping>
     <MarkAll>Marchează tot</MarkAll>
     <MasterDetailReport>Raport Master-Detail</MasterDetailReport>
+    <NewUserSource>Sursă nouă utilizator</NewUserSource>
     <NoFunction>[Nimic]</NoFunction>
     <OpenExistingReport>Deschide raport existent</OpenExistingReport>
     <OpenFrom>Deschide de la {0}</OpenFrom>

@@ -141,6 +141,8 @@
     <Design>Design</Design>
     <Down>Para baixo</Down>
     <Duplicate>Duplicar</Duplicate>
+    <EditAsData>Editar como Dados</EditAsData>
+    <EditAsText>Editar como Texto</EditAsText>
     <Export>Exportar</Export>
     <ForceDelete>Force Delete</ForceDelete>
     <Help>Ajuda</Help>
@@ -675,6 +677,7 @@
     <StiHeaderBand>Cabeçalho</StiHeaderBand>
     <StiHierarchicalBand>Faixa hierárquica</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Linha horizontal</StiHorizontalLinePrimitive>
+    <StiIcon>Icon</StiIcon>
     <StiImage>Imagem</StiImage>
     <StiIndicator>Indicator</StiIndicator>
     <StiListBox>List Box</StiListBox>
@@ -933,16 +936,20 @@
   <Dialogs>
     <StiButtonControl>Botão</StiButtonControl>
     <StiCheckBoxControl>CheckBox</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Groupo de caixas de verificação</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Lista com checkBox</StiCheckedListBoxControl>
     <StiComboBoxControl>ComboBox</StiComboBoxControl>
+    <StiDatePickerControl>Data</StiDatePickerControl>
     <StiDateTimePickerControl>Data e hora</StiDateTimePickerControl>
     <StiForm>Formulário</StiForm>
     <StiGridControl>Grelha</StiGridControl>
     <StiGroupBoxControl>Grupo</StiGroupBoxControl>
     <StiLabelControl>Label</StiLabelControl>
     <StiListBoxControl>Caixa de listagem</StiListBoxControl>
+    <StiListControl>Lista</StiListControl>
     <StiListViewControl>Visão de lista</StiListViewControl>
     <StiLookUpBoxControl>Caixa de pesquisa</StiLookUpBoxControl>
+    <StiNumberInputControl>Caixa de números</StiNumberInputControl>
     <StiNumericUpDownControl>Numérico</StiNumericUpDownControl>
     <StiPanelControl>Painel</StiPanelControl>
     <StiPictureBoxControl>Caixa de Imagem</StiPictureBoxControl>
@@ -951,9 +958,11 @@
     <StiRadioGroupControl>Grupo de opções</StiRadioGroupControl>
     <StiReportControl>Relatório</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSelectControl>Caixa de combinação</StiSelectControl>
     <StiSliderControl>Slider</StiSliderControl>
     <StiSwitchControl>Toggle</StiSwitchControl>
     <StiTextBoxControl>Caixa de texto</StiTextBoxControl>
+    <StiTextInputControl>Caixa de Texto</StiTextInputControl>
     <StiTreeViewControl>TreeView</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1055,6 +1064,7 @@
     <ContinuousPages>Páginas contínuas</ContinuousPages>
     <DataAndHeaders>Data and Headers</DataAndHeaders>
     <DataAndHeadersFooters>Dados e cabeçalhos/rodapés</DataAndHeadersFooters>
+    <DataExport>Exportação de Dados</DataExport>
     <DataOnly>Apenas dados</DataOnly>
     <DigitalSignature>Assinatura Digital</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Certificado não selecionado</DigitalSignatureCertificateNotSelected>
@@ -1134,6 +1144,7 @@
     <OpenAfterExport>Abrir depois da exportação</OpenAfterExport>
     <Ordered>Pedido</Ordered>
     <PdfACompliance>Conformidade PDF/A</PdfACompliance>
+    <PdfUA>PDF/UA (Acessibilidade Universal)</PdfUA>
     <PrintingReport>A imprimir Relatório</PrintingReport>
     <RemoveEmptySpaceAtBottom>Remover o espaço vazio na parte inferior da página</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Restringir edição:</RestrictEditing>
@@ -1478,6 +1489,7 @@
     <DictionarySaveAs>Gravar dicionário como...</DictionarySaveAs>
     <DragNewDataSource>drag your data directly to this panel</DragNewDataSource>
     <DragNewReport>drag your report directly to this panel</DragNewReport>
+    <EditData>Editar Dados</EditData>
     <EditQuery>Editar Query</EditQuery>
     <EnableDataMonitor>Ativar monitor de dados</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Expressão SQL executada com sucesso</ExecutedSQLStatementSuccessfully>
@@ -1487,6 +1499,8 @@
     <GetColumnsFromAssembly>Obter colunas do Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Esconder fontes de dados não suportadas</HideUnsupportedDatabases>
     <ImportRelations>Importar Relações</ImportRelations>
+    <InsertColumnLeft>Inserir coluna à esquerda</InsertColumnLeft>
+    <InsertColumnRight>Inserir coluna à direita</InsertColumnRight>
     <LabelSeparator>Separador:</LabelSeparator>
     <MarkUsedItems>Marcar itens usados</MarkUsedItems>
     <NewBusinessObject>Novo objeto de negócio</NewBusinessObject>
@@ -2087,6 +2101,7 @@
     <CompilationAccessForceInterpretation>Documentos em modo de compilação serão abertos sem nenhum aviso, mas serão automaticamente convertidos para o modo de interpretação, o que não usa a compilação.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Está a mudar para o modo de comppilação. Este modo permite correr código que pode ser prejudicial. Por favor use este modo apenas se entender os riscos associados e concorda com eles. Clique na opção {0} para prosseguir.</CompilationModeEnabling>
     <ComponentSize>Alterar o tamanho dos componentes selecionados.</ComponentSize>
+    <ComponentsMenu>Abre o menu Componentes, que contém elementos do painel de controle não utilizados, no dispositivo móvel.</ComponentsMenu>
     <CopyStyle>Copiar estilo</CopyStyle>
     <CopyToClipboard>Copiar para o Clipboard</CopyToClipboard>
     <CurrencySymbol>Selecione o símbolo da moeda.</CurrencySymbol>
@@ -2143,6 +2158,7 @@
     <menuEditCut>Cortar os componentes selecionados a partir de um relatório e coloca-os na área de transferência.</menuEditCut>
     <menuEditDelete>Eliminar componentes selecionados.</menuEditDelete>
     <menuEditPaste>Cole o conteúdo da Área em relatório.</menuEditPaste>
+    <menuExportSettings>Abre o editor de Configurações de Exportação para o relatório ou painel atual. As configurações são aplicadas apenas ao exportar o relatório ou painel atual.</menuExportSettings>
     <menuFAQPage>Vá a Web page para ver as perguntas frequentementes.</menuFAQPage>
     <menuGlobalizationStrings>Mostrar o editor da globalização do relatório atual.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Obter informações sobre a versão do gerador de relatórios e da versão. Net Framework.</menuHelpAboutProgramm>
@@ -2175,13 +2191,17 @@
     <PageSize>Escolha o tamanho do papel para a página atual de um relatório.</PageSize>
     <PagesManager>Execute o gestor de páginas. </PagesManager>
     <PressF1>Pressione F1 para mais detalhes</PressF1>
+    <PropertiesButton>Ativa o painel Propriedades com as propriedades do modelo de relatório.</PropertiesButton>
     <Redo>Refazer a alteração anteriormente cancelada num relatório.</Redo>
+    <RemoveMobileSurfaceButton>Remove visualização mobile do dashboard atual.</RemoveMobileSurfaceButton>
     <ReportNew>Criar um novo relatório.</ReportNew>
     <ReportOpen>Relatório aberto no designer.</ReportOpen>
     <ReportPreview>Pré-visualizar relatório.</ReportPreview>
     <ReportSave>Gravar o relatório actualmente editado.</ReportSave>
     <ScriptEvalAccess1>Este documento utiliza Script Eval. Se o documento for de uma fonte confiável, pode clicar no botão "Abrir" para aceder.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Se não tiver a certeza sobre a origem do documento, mas mesmo assim quiser visualizá-lo, clique no botão "Abrir em modo de segurança". Nesse caso, o comando Script Eval será ignorado e não será executado.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Acesso total à script (sem restrições, potencialmente inseguro).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Acesso seguro a scripts (recursos restritos por motivos de segurança).</ScriptSecuritySafeMode>
     <SelectAll>Selecione todos os componentes na página atual.</SelectAll>
     <SelectUILanguage>Selecione o idioma da interface do utilizador.</SelectUILanguage>
     <SendToBack>Move o componente selecionado para trás em relação a outros componentes.</SendToBack>
@@ -2200,6 +2220,8 @@
     <TextFormat>Selecione o formato de valores.</TextFormat>
     <ToolbarStyle>Aplicar estilo a todos os componentes selecionados.</ToolbarStyle>
     <Undo>Desfazer a última modificação, num relatório.</Undo>
+    <ViewModeDesktopButton>Activar visualização Desktop.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Activar visualização Mobile.</ViewModeMobileButton>
     <WordWrap>Quebrar o texto de um componente.</WordWrap>
     <Zoom>Especifique o nível de zoom do relatório.</Zoom>
   </HelpDesigner>
@@ -2287,6 +2309,7 @@
     <PageSize>Alterar os parâmetros de página num relatório.</PageSize>
     <Parameters>A mostrar parâmetros do painel que é utilizado quando o processamento de relatório.</Parameters>
     <PdfACompliance>Suporte para o padrão do ficheiro a longo prazo e armazenamento de documentos eletrónicos.</PdfACompliance>
+    <PdfUniversalAccessibility>Apoio ao padrão de documentos e informações eletrónicas universalmente acessíveis.</PdfUniversalAccessibility>
     <Print>Imprimir um relatório.</Print>
     <PutFeedPageCode>Alimente páginas do documento final com um caracter especial.</PutFeedPageCode>
     <RangePages>Os números das páginas a serem processados. Pode especificar uma única página, uma lista de páginas (usando uma vírgula como separador), bem como especificar o intervalo, definindo a página de início do intervalo separados por "-" e na página final do intervalo. Por exemplo: 1,3,5-12.</RangePages>
@@ -2332,6 +2355,7 @@
     <menuContextClone>Clonar...</menuContextClone>
     <menuContextDesign>Design...</menuContextDesign>
     <menuContextTextFormat>Formato do texto...</menuContextTextFormat>
+    <menuConvertTo>Converter para {0}</menuConvertTo>
     <menuConvertToCheckBox>Converter para CheckBox</menuConvertToCheckBox>
     <menuConvertToImage>Converter para imagem</menuConvertToImage>
     <MenuConvertToRichText>Converter para RichText</MenuConvertToRichText>
@@ -2562,7 +2586,9 @@
     <DeveloperInformation>Informação do programador</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>The end date should be greater than start date!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Erro</Error>
     <ExecutionError>Execution error</ExecutionError>
+    <ExpressionValidationFailed>Validação da expressão falhou.</ExpressionValidationFailed>
     <GracePeriod>O periodo de demonstração da sua subscrição irá expirar dentro de {0} dias.</GracePeriod>
     <IsIdentical>"{0}" and "{1}" are identical."</IsIdentical>
     <IsNotAuthorized>No access to "{0}"!</IsNotAuthorized>
@@ -2578,8 +2604,13 @@
     <ItemCantBeMovedToSpecifiedPlace>The item cannot be moved to a specified place!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>The item does not support "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>A Key and ToKey are equal!</KeyAndToKeyAreEqual>
+    <LengthRange>O comprimento precisa de estar entre {0} e {1}.</LengthRange>
     <MaximumComputers>Maximo número de computadores</MaximumComputers>
+    <MaximumLength>O comprimento máximo é {0}.</MaximumLength>
+    <MaximumValue>Maximo é {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Attention! The size of the file that you are trying to add exceeds the maximum-allowed size. Do you want to add this file anyway (report processing may slow down significantly)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Comprimento minimo é {0}.</MinimumLength>
+    <MinimumValue>Minimo é {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} está disponível.</NewDesignerAvailable>
     <NewProduct>A new product is added to your subscription!</NewProduct>
     <NewVersionsAvailable>New version available!</NewVersionsAvailable>
@@ -2625,6 +2656,9 @@
     <NotificationTransferring>The "{0}" is tranferring to "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>The "{0}" is succesfully transffered to "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>This value is not correct for the type {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Só são permitidos números.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Só são permitidos caracteres.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Só números e caracteres são permitidos.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Out of range ("{0}")!</OutOfRange>
     <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
     <PleaseLogin>Por favor efetue login usando a sua conta Stimulsoft ou crie uma nova conta antes de publicar o relatório.</PleaseLogin>
@@ -2651,6 +2685,12 @@
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
     <TrialToLicense>Thank you for choosing Stimulsoft!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>O URL precisa de ter http:// ou https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Valor é obrigatório!</ValueIsRequired>
+    <ValueMatchPattern>O valor não corresponde ao padrão exigido.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>O valor precisa de ser maior ou igual a {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>O valor precisa de ser menor ou igual a {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>O valor precisa de estar entre {0} e {1}.</ValueRange>
     <VersionCopyFromItem>Copy from item "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Created from file "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Created from item "{0}".</VersionCreatedFromItem>
@@ -3538,6 +3578,8 @@
     <StiRestrictionsAllowResize>Permite redimensionar</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Permite seleção</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Nenhum</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Acesso total</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Modo de Segurança</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>First</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>From Variable</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Nothing</StiSelectionModeNothing>
@@ -4211,6 +4253,8 @@
     <GroupDataColumn>Group Data Column</GroupDataColumn>
     <GroupMeter>Group</GroupMeter>
     <GrowToHeight>Aumentar até à altura</GrowToHeight>
+    <HandleBorderColor>Cor limite</HandleBorderColor>
+    <HandleFillColor>Cor preenchimento</HandleFillColor>
     <Header>Cabeçalho</Header>
     <HeaderAlignment>Alinhamento do cabeçalho</HeaderAlignment>
     <HeaderBackColor>Cor de fundo do cabeçalho</HeaderBackColor>
@@ -4479,6 +4523,7 @@
     <NextPage>Próxima página</NextPage>
     <NoElements>Nenhum elemento</NoElements>
     <NoIcon>Nenhum ícone</NoIcon>
+    <Notifications>Notificações</Notifications>
     <NullText>Texto nulo</NullText>
     <NumberOfColumns>Número de colunas</NumberOfColumns>
     <NumberOfCopies>Número de cópias</NumberOfCopies>
@@ -4526,6 +4571,7 @@
     <ParetoSeriesColors>Séries de cores Pareto</ParetoSeriesColors>
     <PasswordChar>Caracter de password</PasswordChar>
     <Path>Caminho</Path>
+    <PathColor>Cor</PathColor>
     <PathData>Caminho dos dados</PathData>
     <PathSchema>Caminho do Schema</PathSchema>
     <Pattern>Padrão</Pattern>
@@ -4589,6 +4635,7 @@
     <Refresh>Atualizar</Refresh>
     <RefreshTime>Tempo de atualização</RefreshTime>
     <Regular>Regular</Regular>
+    <RegularExpression>Expressão Regular</RegularExpression>
     <Relation>Relação</Relation>
     <RelationName>Nome da relação</RelationName>
     <Relations>Relações</Relations>
@@ -4743,6 +4790,7 @@
     <SkipValuesObj>Ignorar valores</SkipValuesObj>
     <Smoothing>Alisamento</Smoothing>
     <SnapMode>Modo instantâneo</SnapMode>
+    <SnapPageWidthToGrid>Ajustar a largura da página à grelha</SnapPageWidthToGrid>
     <Sort>Ordenar</Sort>
     <SortBy>Ordenar por</SortBy>
     <SortDirection>Direção da ordenação</SortDirection>
@@ -4855,6 +4903,7 @@
     <ToolTipBrush>Tool Tip Pincel</ToolTipBrush>
     <ToolTipCornerRadius>Tool Tip Raio do Canto</ToolTipCornerRadius>
     <ToolTipDataColumn>Ajuda da coluna de dados</ToolTipDataColumn>
+    <ToolTipText>Texto da ToolTip</ToolTipText>
     <ToolTipTextBrush>Tool Tip Pincel de texto</ToolTipTextBrush>
     <Top>Topo</Top>
     <TopLeft>Topo-Esquerda</TopLeft>
@@ -4902,6 +4951,7 @@
     <UseStyleOfSummaryInRowTotal>Usar estilo para somatório na linha Total</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Usar foto do utilizador</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Usar valores do intervalo especificado</UseValuesFromTheSpecifiedRange>
+    <Validation>Validação</Validation>
     <Value>Valor</Value>
     <ValueClose>Valor aproximado</ValueClose>
     <ValueDataColumn>Valor da coluna de dados</ValueDataColumn>
@@ -5112,7 +5162,9 @@ contexto do painel de propriedades.</qnConfiguration>
   <Report>
     <ActiveRelation>Active Relation</ActiveRelation>
     <Address>Address</Address>
+    <Alpha>Caracteres</Alpha>
     <Alphabetical>Alfabética</Alphabetical>
+    <AlphaNumeric>Alfanumérico</AlphaNumeric>
     <Bands>Faixas</Bands>
     <Basic>Básico</Basic>
     <BasicConfiguration>Número mínimo de propriedades de objetos, que são necessárias para fazer o rendering dos relatórios básicos.</BasicConfiguration>
@@ -5139,6 +5191,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <DashboardOnly>Apenas Dashboard e transformação de dados</DashboardOnly>
     <Dialogs>Caixas de Mensagem</Dialogs>
     <EditStyles>Editar estilo</EditStyles>
+    <Email>Email</Email>
     <EnableCacheAllDataMode>Ativar modo 'Dados em Cache'</EnableCacheAllDataMode>
     <Enhancements>Enhancements</Enhancements>
     <EnterDataManually>Introduzir os dados manualmente</EnterDataManually>
@@ -5161,6 +5214,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Infographics>Infográfico</Infographics>
     <InfoMessage>{0} - {1} encontrados.</InfoMessage>
     <InformationMessages>Mensagens de informação</InformationMessages>
+    <IpAddress>Endereço IP</IpAddress>
     <LabelAlias>Alias:</LabelAlias>
     <LabelAuthor>Autor:</LabelAuthor>
     <LabelBackground>Fundo:</LabelBackground>
@@ -5204,6 +5258,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Obsoleted>Obsoleto</Obsoleted>
     <Office2010Back>Fundo</Office2010Back>
     <PageNofM>Página {0} de {1}</PageNofM>
+    <Phone>Telefone</Phone>
     <PreparingReport>a preparar relatório</PreparingReport>
     <Professional>Profissional</Professional>
     <ProfessionalConfiguration>Todas as propriedades do objeto.</ProfessionalConfiguration>
@@ -5219,6 +5274,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <SaveReportPagesOrFormsFromReport>Grave o relatório, as páginas ou formulários</SaveReportPagesOrFormsFromReport>
     <SavingReport>A gravar relatório</SavingReport>
     <ScriptEvalAccess>Acesso à Script Eval</ScriptEvalAccess>
+    <ScriptSecurity>Segurança da Script</ScriptSecurity>
     <SecondPass>Segunda passagem</SecondPass>
     <Shapes>Formas</Shapes>
     <ShowOnParametersPanel>Mostrar no painel dos parâmetros</ShowOnParametersPanel>
@@ -5496,6 +5552,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <FontSize>Tamanho da fonte</FontSize>
     <FontStyleBold>Estilo da fonte negrito</FontStyleBold>
     <FontStyleItalic>Estilo da fonte itálico</FontStyleItalic>
+    <FontStyleStrikeout>Estilo de Fonte Riscado</FontStyleStrikeout>
     <FontStyleUnderline>Estilo da fonte sublinhada</FontStyleUnderline>
     <Link>Link</Link>
     <Lock>Bloquear</Lock>
@@ -5580,11 +5637,13 @@ contexto do painel de propriedades.</qnConfiguration>
     <ButtonNext>&amp;Próximo &gt;</ButtonNext>
     <ColumnsOrder>Ordem das colunas</ColumnsOrder>
     <Company>Company</Company>
+    <CreateDataManually>Criar dados manualmente</CreateDataManually>
     <Custom>personalizado</Custom>
     <DataRelation>Relação de dados</DataRelation>
     <DataSource>Origem de dados</DataSource>
     <DataSources>Origens de dados</DataSources>
     <DefaultThemes>Temas padrão</DefaultThemes>
+    <EditUserSource>Editar origem de dados do utilizador</EditUserSource>
     <Examples>Exemplos</Examples>
     <Filters>Filtros</Filters>
     <FromReportTemplate>De um modelo de relatório</FromReportTemplate>
@@ -5630,6 +5689,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Mapping>Mapping</Mapping>
     <MarkAll>Marcar &amp;Todos</MarkAll>
     <MasterDetailReport>Relatório Master-Detail</MasterDetailReport>
+    <NewUserSource>Origem de dados do novo utilizador</NewUserSource>
     <NoFunction>[Nenhuma função]</NoFunction>
     <OpenExistingReport>Abrir relatório</OpenExistingReport>
     <OpenFrom>Abrir a partir de {0}</OpenFrom>

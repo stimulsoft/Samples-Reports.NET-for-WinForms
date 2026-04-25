@@ -141,6 +141,8 @@
     <Design>Design</Design>
     <Down>Ned</Down>
     <Duplicate>Kopier</Duplicate>
+    <EditAsData>Rediger som data</EditAsData>
+    <EditAsText>Rediger som tekst</EditAsText>
     <Export>Eksporter</Export>
     <ForceDelete>Tving igjennom sletting</ForceDelete>
     <Help>Hjelp</Help>
@@ -675,6 +677,7 @@
     <StiHeaderBand>Topptekst</StiHeaderBand>
     <StiHierarchicalBand>Hierarkisk data</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Horisontal linje</StiHorizontalLinePrimitive>
+    <StiIcon>Ikon</StiIcon>
     <StiImage>Bilde</StiImage>
     <StiIndicator>Indikator</StiIndicator>
     <StiListBox>Liste</StiListBox>
@@ -934,16 +937,20 @@
   <Dialogs>
     <StiButtonControl>Knapp</StiButtonControl>
     <StiCheckBoxControl>Avkryssningsboks</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Avmerkingsboksgruppe</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Sjekklisteboks</StiCheckedListBoxControl>
     <StiComboBoxControl>Komboboks</StiComboBoxControl>
+    <StiDatePickerControl>Datovektor</StiDatePickerControl>
     <StiDateTimePickerControl>Dato- og tidsvelger</StiDateTimePickerControl>
     <StiForm>Form</StiForm>
     <StiGridControl>Rutenett</StiGridControl>
     <StiGroupBoxControl>Gruppeboks</StiGroupBoxControl>
     <StiLabelControl>Etikett</StiLabelControl>
     <StiListBoxControl>Listeboks</StiListBoxControl>
+    <StiListControl>Liste</StiListControl>
     <StiListViewControl>Listevisning</StiListViewControl>
     <StiLookUpBoxControl>Søkeboks</StiLookUpBoxControl>
+    <StiNumberInputControl>Tallinndata</StiNumberInputControl>
     <StiNumericUpDownControl>Numerisk opp ned</StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Bildeboks</StiPictureBoxControl>
@@ -951,9 +958,11 @@
     <StiRadioGroupControl>Radiogruppe</StiRadioGroupControl>
     <StiReportControl>Rapportkontrol</StiReportControl>
     <StiRichTextBoxControl>Rik tekst-boks</StiRichTextBoxControl>
+    <StiSelectControl>Velg</StiSelectControl>
     <StiSliderControl>Skyveknapp</StiSliderControl>
     <StiSwitchControl>Veksle</StiSwitchControl>
     <StiTextBoxControl>Tekstboks</StiTextBoxControl>
+    <StiTextInputControl>Tekstinndata</StiTextInputControl>
     <StiTreeViewControl>Trevisning</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1055,6 +1064,7 @@
     <ContinuousPages>Kontinuerlige sider</ContinuousPages>
     <DataAndHeaders>Data og topptekster</DataAndHeaders>
     <DataAndHeadersFooters>Data og topptekster/bunntekster</DataAndHeadersFooters>
+    <DataExport>Dataeksport</DataExport>
     <DataOnly>Kun data</DataOnly>
     <DigitalSignature>Digital signatur</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Ingen sertifikater er valgt</DigitalSignatureCertificateNotSelected>
@@ -1134,6 +1144,7 @@
     <OpenAfterExport>Åpne etter eksportering</OpenAfterExport>
     <Ordered>Sortert</Ordered>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
+    <PdfUA>PDF/UA (Universell tilgjengelighet)</PdfUA>
     <PrintingReport>Skriver rapport</PrintingReport>
     <RemoveEmptySpaceAtBottom>Fjern tomrom nederst  på siden</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Begrense redigering:</RestrictEditing>
@@ -1477,6 +1488,7 @@
     <DictionarySaveAs>Lagre ordbok som...</DictionarySaveAs>
     <DragNewDataSource>dra dataene dine direkte til dette panelet</DragNewDataSource>
     <DragNewReport>dra rapporten din direkte til dette panelet</DragNewReport>
+    <EditData>Rediger data</EditData>
     <EditQuery>Rediger spørring</EditQuery>
     <EnableDataMonitor>Aktiver datamonitor</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL statement utført</ExecutedSQLStatementSuccessfully>
@@ -1486,6 +1498,8 @@
     <GetColumnsFromAssembly>Hent kolonner fra samling</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Skjul ikke-støttede datakilder</HideUnsupportedDatabases>
     <ImportRelations>Importer relasjoner</ImportRelations>
+    <InsertColumnLeft>Sett inn kolonne til venstre</InsertColumnLeft>
+    <InsertColumnRight>Sett inn kolonne til høyre</InsertColumnRight>
     <LabelSeparator>Separator:</LabelSeparator>
     <MarkUsedItems>Marker brukte objekter</MarkUsedItems>
     <NewBusinessObject>Nytt Business Object</NewBusinessObject>
@@ -2082,6 +2096,7 @@
     <CompilationAccessForceInterpretation>Dokumenter med kompilering åpnes uten varsel, men konverteres automatisk til tolkningsmodus.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Du bytter til kompilasjonsmodus. Denne modusen lar deg kjøre ulik kode og kan være risikabel. Bruk kun hvis du forstår og godtar risikoen. Klikk {0} for å fortsette.</CompilationModeEnabling>
     <ComponentSize>Endre størrelse på valgte komponenter.</ComponentSize>
+    <ComponentsMenu>Åpner Komponenter-menyen som inneholder ubrukte instrumentpanelelementer på mobiloverflaten.</ComponentsMenu>
     <CopyStyle>Kopier stil</CopyStyle>
     <CopyToClipboard>Kopier til utklippstavlen</CopyToClipboard>
     <CurrencySymbol>Velg valutasymbol.</CurrencySymbol>
@@ -2138,6 +2153,7 @@
     <menuEditCut>Klipp ut valgte komponenter og legg dem på utklippstavlen.</menuEditCut>
     <menuEditDelete>Slett valgte komponenter.</menuEditDelete>
     <menuEditPaste>Lim inn innholdet fra utklippstavlen på rapporten.</menuEditPaste>
+    <menuExportSettings>Åpner Eksportredigeringsprogram for gjeldende rapport eller instrumentpanel. Innstillinger brukes bare ved eksportering av gjeldende rapport eller instrumentpanel.</menuExportSettings>
     <menuFAQPage>Gå til nettsiden med ofte stilte spørsmål.</menuFAQPage>
     <menuGlobalizationStrings>Kall redigering av språkstrenger for gjeldende rapport.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Hent informasjon om versionen til rapportgeneratoren og .NET Framework.</menuHelpAboutProgramm>
@@ -2170,7 +2186,9 @@
     <PageSize>Velg papirstørrelse for gjeldende side i rapporten.</PageSize>
     <PagesManager>Kjør Pages Manager.</PagesManager>
     <PressF1>Trykk F1 hvis du vil ha mer informasjon</PressF1>
+    <PropertiesButton>Aktiverer Egenskaper-panelet med egenskapene i rapportraden.</PropertiesButton>
     <Redo>Gjør om forrige avbrutte endring i rapporten.</Redo>
+    <RemoveMobileSurfaceButton>Fjerner mobiloverflaten fra gjeldende instrumentpanel.</RemoveMobileSurfaceButton>
     <ReportNew>Lag en ny rapport.</ReportNew>
     <ReportOpen>Åpne rapport i designer.</ReportOpen>
     <ReportPreview>Forhåndsvis redigert rapport i viewer.</ReportPreview>
@@ -2197,6 +2215,8 @@
     <TextFormat>Velg formatering for verdier.</TextFormat>
     <ToolbarStyle>Sett valgt stil for alle valgte komponenter.</ToolbarStyle>
     <Undo>Angre siste endring i rapporten.</Undo>
+    <ViewModeDesktopButton>Aktiver skrivebordoverflate.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Aktiver mobil overflate.</ViewModeMobileButton>
     <WordWrap>Bryt teksten i komponenten.</WordWrap>
     <Zoom>Spesifiser zoomnivået for rapporten.</Zoom>
   </HelpDesigner>
@@ -2284,6 +2304,7 @@
     <PageSize>Endre sideparametere i rapporten.</PageSize>
     <Parameters>Viser parameterpanelet som brukes under rapportrendering.</Parameters>
     <PdfACompliance>Støtte for langtidsarkivering og lagring av elektroniske dokumenter.</PdfACompliance>
+    <PdfUniversalAccessibility>Støtte for standarden for universelt tilgjengelige elektroniske dokumenter og informasjon.</PdfUniversalAccessibility>
     <Print>Skriv ut rapport.</Print>
     <PutFeedPageCode>Fyll opp sider i det endelige dokumentet med et spesialtegn.</PutFeedPageCode>
     <RangePages>Sidenumrene som skal behandles. Du kan angi en enkelt side, en liste med sider (hvor du bruker komma for å dele inn), i tillegg til at du kan angi et område ved å skrive inn startsiden til området adskilt med "-" og deretter sistesiden til området. For eksempel: 1,3,5-12.</RangePages>
@@ -2329,6 +2350,7 @@
     <menuContextClone>Kopiere...</menuContextClone>
     <menuContextDesign>Design...</menuContextDesign>
     <menuContextTextFormat>Tekstformat...</menuContextTextFormat>
+    <menuConvertTo>Konverter til {0}</menuConvertTo>
     <menuConvertToCheckBox>Konverter til avkryssingsboks</menuConvertToCheckBox>
     <menuConvertToImage>Konverter til bilde</menuConvertToImage>
     <MenuConvertToRichText>Konverter til rik tekst</MenuConvertToRichText>
@@ -2548,7 +2570,9 @@
     <DeveloperInformation>Utviklerinformasjon</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Sluttdatoen må være større enn inneværende dato!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Sluttdatoen må være større enn startdatoen!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Feil</Error>
     <ExecutionError>Eksekveringsfeil</ExecutionError>
+    <ExpressionValidationFailed>Uttrykksvalidering mislyktes.</ExpressionValidationFailed>
     <GracePeriod>Prøveperioden utløper om {0} dager.</GracePeriod>
     <IsIdentical>"{0}" og "{1}" er identiske."</IsIdentical>
     <IsNotAuthorized>Ingen adgang til "{0}"!</IsNotAuthorized>
@@ -2564,8 +2588,13 @@
     <ItemCantBeMovedToSpecifiedPlace>Elementet kan ikke flyttes til et spesifikt sted!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Elementet støtter ikke "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>A Key og ToKey er like!</KeyAndToKeyAreEqual>
+    <LengthRange>Lengden må være mellom {0} og {1}.</LengthRange>
     <MaximumComputers>Abonnementsgrense nådd!</MaximumComputers>
+    <MaximumLength>Maksimal lengde er {0}.</MaximumLength>
+    <MaximumValue>Maksimum er {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Advarsel! Størrelsen på fila du prøver å legge til overskrider maksimum tillatt størrelse. Vil du legge til denne filen likevel (behandlingen av rapporten kan ta betydelig mer tid)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Minimalengde er {0}.</MinimumLength>
+    <MinimumValue>Minimum er {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} er tilgjengelig.</NewDesignerAvailable>
     <NewProduct>Et nytt produkt er lagt til i abonnementet ditt!</NewProduct>
     <NewVersionsAvailable>Ny versjon er tilgjengelig!</NewVersionsAvailable>
@@ -2611,6 +2640,9 @@
     <NotificationTransferring>"{0}" overføres til "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>"{0}" er overført til "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Denne verdien er ikke riktig for typen {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Bare siffer er tillatt.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Bare bokstaver er tillatt.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Bare bokstaver og siffer er tillatt.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Utenfor rekkevidde ("{0}")!</OutOfRange>
     <ParsingCommandException>Feil ved prosessering av kommandoen i aktuell xml: {0}:</ParsingCommandException>
     <PleaseLogin>Logg inn med dine Stimulsoft-kontodetaljer eller registrer en ny konto før du publiserer rapporten.</PleaseLogin>
@@ -2637,6 +2669,12 @@
     <SubscriptionsOut20>Abonnements-perioden utløper om 20 dager!</SubscriptionsOut20>
     <SuccessfullyRenewed>Oppdateringen av abonnementet ditt var vellykket!</SuccessfullyRenewed>
     <TrialToLicense>Takk for at du valgte Stimulsoft!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL må bruke http:// eller https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Verdi er obligatorisk!</ValueIsRequired>
+    <ValueMatchPattern>Verdien samsvarer ikke med det påkrevde mønsteret.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>Verdien må være større enn eller lik {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>Verdien må være mindre enn eller lik {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>Nummeret må være mellom {0} og {1}.</ValueRange>
     <VersionCopyFromItem>Kopier fra element "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Laget fra filen "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Laget fra elementet "{0}".</VersionCreatedFromItem>
@@ -4176,6 +4214,8 @@
     <GroupDataColumn>Grupper data-kolonne</GroupDataColumn>
     <GroupMeter>Gruppe</GroupMeter>
     <GrowToHeight>Voks til høyde</GrowToHeight>
+    <HandleBorderColor>Håndtakgrensefarve</HandleBorderColor>
+    <HandleFillColor>Håndtakfyllfarve</HandleFillColor>
     <Header>Overskrift</Header>
     <HeaderAlignment>Overskriftsjustering</HeaderAlignment>
     <HeaderBackColor>Bakgrunnsfarge på topptekst</HeaderBackColor>
@@ -4444,6 +4484,7 @@
     <NextPage>Neste side</NextPage>
     <NoElements>Ingen elementer</NoElements>
     <NoIcon>Ingen ikon</NoIcon>
+    <Notifications>Varsler</Notifications>
     <NullText>Null text</NullText>
     <NumberOfColumns>Antall kolonner</NumberOfColumns>
     <NumberOfCopies>Antall kopier</NumberOfCopies>
@@ -4489,6 +4530,7 @@
     <ParetoSeriesColors>Pareto-seriefarger</ParetoSeriesColors>
     <PasswordChar>Passordtegn</PasswordChar>
     <Path>Sti</Path>
+    <PathColor>Banefarve</PathColor>
     <PathData>Stidata</PathData>
     <PathSchema>Stiskjema</PathSchema>
     <Pattern>Mønster</Pattern>
@@ -4552,6 +4594,7 @@
     <Refresh>Oppdater</Refresh>
     <RefreshTime>Oppfriskningstid</RefreshTime>
     <Regular>Vanlig</Regular>
+    <RegularExpression>Vanlig uttrykk</RegularExpression>
     <Relation>Relasjon</Relation>
     <RelationName>Relasjonsnavn</RelationName>
     <Relations>Relasjoner</Relations>
@@ -4705,6 +4748,7 @@
     <SkipValuesObj>Hopp over verdier</SkipValuesObj>
     <Smoothing>Utjevning</Smoothing>
     <SnapMode>Festemodus</SnapMode>
+    <SnapPageWidthToGrid>Snap sidebrede til rutenett</SnapPageWidthToGrid>
     <Sort>Sorter</Sort>
     <SortBy>Sorter etter</SortBy>
     <SortDirection>Sorteringsretning</SortDirection>
@@ -4817,6 +4861,7 @@
     <ToolTipBrush>Verktøytips pensel</ToolTipBrush>
     <ToolTipCornerRadius>Verktøytips hjørneradius</ToolTipCornerRadius>
     <ToolTipDataColumn>Tool tip datakolonne</ToolTipDataColumn>
+    <ToolTipText>Verktøytips-tekst</ToolTipText>
     <ToolTipTextBrush>Verktøytips tekstpensel</ToolTipTextBrush>
     <Top>Topp</Top>
     <TopLeft>Øverst til venstre</TopLeft>
@@ -4864,6 +4909,7 @@
     <UseStyleOfSummaryInRowTotal>Bruk oppsummeringsstil i radtotal</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Bruk brukerbilde</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Bruk verdier fra det spesifiserte utvalget</UseValuesFromTheSpecifiedRange>
+    <Validation>Validering</Validation>
     <Value>Verdi</Value>
     <ValueClose>Verdi lukking</ValueClose>
     <ValueDataColumn>Verdi datakolonne</ValueDataColumn>
@@ -5071,7 +5117,9 @@
   <Report>
     <ActiveRelation>Aktiv relasjon</ActiveRelation>
     <Address>Adresse</Address>
+    <Alpha>Alfabetisk</Alpha>
     <Alphabetical>Alfabetisk</Alphabetical>
+    <AlphaNumeric>Alfanumerisk</AlphaNumeric>
     <Bands>Bånd</Bands>
     <Basic>Grunnleggende</Basic>
     <BasicConfiguration>Minste antall objektegenskaper, som er nødvendig for rendering av de grunnleggende rapporttypene.</BasicConfiguration>
@@ -5097,6 +5145,7 @@
     <DashboardOnly>Bare dashbord og datatransformasjon</DashboardOnly>
     <Dialogs>Dialoger</Dialogs>
     <EditStyles>Redigere stiler</EditStyles>
+    <Email>E-post</Email>
     <EnableCacheAllDataMode>Aktiver 'Cache All Data'-modus</EnableCacheAllDataMode>
     <Enhancements>Forbedringer</Enhancements>
     <EnterDataManually>Skriv inn data manuelt</EnterDataManually>
@@ -5119,6 +5168,7 @@
     <Infographics>Informasjonsgrafikk</Infographics>
     <InfoMessage>{0} - {1} funnet.</InfoMessage>
     <InformationMessages>Informasjonsmeldinger</InformationMessages>
+    <IpAddress>IP-adresse</IpAddress>
     <LabelAlias>Alias:</LabelAlias>
     <LabelAuthor>Forfatter:</LabelAuthor>
     <LabelBackground>Bakgrunn:</LabelBackground>
@@ -5162,6 +5212,7 @@
     <Obsoleted>Foreldet</Obsoleted>
     <Office2010Back>Tilbake</Office2010Back>
     <PageNofM>Side {0} av {1}</PageNofM>
+    <Phone>Telefon</Phone>
     <PreparingReport>Forbered rapport</PreparingReport>
     <Professional>Profesjonell</Professional>
     <ProfessionalConfiguration>Alle objektegenskaper.</ProfessionalConfiguration>
@@ -5452,6 +5503,7 @@
     <FontSize>Skriftstørrelse</FontSize>
     <FontStyleBold>Fet skriftstil</FontStyleBold>
     <FontStyleItalic>Kursiv skriftstil</FontStyleItalic>
+    <FontStyleStrikeout>Skriftstil gjennomstreking</FontStyleStrikeout>
     <FontStyleUnderline>Understreket skriftstil</FontStyleUnderline>
     <Link>Lenke</Link>
     <Lock>Lås</Lock>
@@ -5536,11 +5588,13 @@
     <ButtonNext>&amp;Neste&gt;</ButtonNext>
     <ColumnsOrder>Kolonnerekkefølge</ColumnsOrder>
     <Company>Firma</Company>
+    <CreateDataManually>Opprett data manuelt</CreateDataManually>
     <Custom>Egendefinert</Custom>
     <DataRelation>Relasjon</DataRelation>
     <DataSource>Datakilde</DataSource>
     <DataSources>Datakilder</DataSources>
     <DefaultThemes>Standardtemaer</DefaultThemes>
+    <EditUserSource>Rediger brukerkilden</EditUserSource>
     <Examples>Eksempler</Examples>
     <Filters>Filtre</Filters>
     <FromReportTemplate>Fra rapportmal</FromReportTemplate>
@@ -5586,6 +5640,7 @@
     <Mapping>Tilordning</Mapping>
     <MarkAll>Marker &amp;alle</MarkAll>
     <MasterDetailReport>Master-Detail rapport</MasterDetailReport>
+    <NewUserSource>Ny brukerkilde</NewUserSource>
     <NoFunction>[Ingen]</NoFunction>
     <OpenExistingReport>Åpne eksisterende rapport</OpenExistingReport>
     <OpenFrom>Åpne fra {0}</OpenFrom>

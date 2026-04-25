@@ -141,6 +141,8 @@
     <Design>დიზაინი</Design>
     <Down>ქვევით</Down>
     <Duplicate>დუბლირება</Duplicate>
+    <EditAsData>მონაცემებად რედაქტირება</EditAsData>
+    <EditAsText>ტექსტად რედაქტირება</EditAsText>
     <Export>ექსპორტი</Export>
     <ForceDelete>იძულებითი წაშლა</ForceDelete>
     <Help>დახმარება</Help>
@@ -677,6 +679,7 @@
     <StiHeaderBand>დასახელება</StiHeaderBand>
     <StiHierarchicalBand>იერარქიული მონაცემები</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>ჰორიზონტალური ზოლი</StiHorizontalLinePrimitive>
+    <StiIcon>ხატულა</StiIcon>
     <StiImage>სურათი</StiImage>
     <StiIndicator>ინდიკატორი</StiIndicator>
     <StiListBox>მოსანიშნი სია</StiListBox>
@@ -938,16 +941,20 @@
   <Dialogs>
     <StiButtonControl>ღილაკი</StiButtonControl>
     <StiCheckBoxControl>მოსანიშნი</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>მონიშვნის ველების ჯგუფი</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>მოსანიშნი სია</StiCheckedListBoxControl>
     <StiComboBoxControl>ველი სიით</StiComboBoxControl>
+    <StiDatePickerControl>თარიღის არჩევა</StiDatePickerControl>
     <StiDateTimePickerControl>თარიღის არჩევა</StiDateTimePickerControl>
     <StiForm>ფორმა</StiForm>
     <StiGridControl>ცხრილი</StiGridControl>
     <StiGroupBoxControl>ჯგუფი</StiGroupBoxControl>
     <StiLabelControl>წარწერა</StiLabelControl>
     <StiListBoxControl>სია</StiListBoxControl>
+    <StiListControl>სია</StiListControl>
     <StiListViewControl>აღმნიშვნელთა სია</StiListViewControl>
     <StiLookUpBoxControl>ჩამოსაშლელი სია კოდებით</StiLookUpBoxControl>
+    <StiNumberInputControl>რიცხვის შეყვანა</StiNumberInputControl>
     <StiNumericUpDownControl>რიცხვი ზემოთ ქმევოთ</StiNumericUpDownControl>
     <StiPanelControl>პანელი</StiPanelControl>
     <StiPictureBoxControl>სურათი</StiPictureBoxControl>
@@ -956,9 +963,11 @@
     <StiRadioGroupControl>Radio ჯგუფი</StiRadioGroupControl>
     <StiReportControl>მართვის ელემენტი</StiReportControl>
     <StiRichTextBoxControl>ტექსტის ფორმატირების ველი</StiRichTextBoxControl>
+    <StiSelectControl>არჩევა</StiSelectControl>
     <StiSliderControl>სლაიდერი</StiSliderControl>
     <StiSwitchControl>გადამრთველი</StiSwitchControl>
     <StiTextBoxControl>ტექსტური ველი</StiTextBoxControl>
+    <StiTextInputControl>ტექსტის შეყვანა</StiTextInputControl>
     <StiTreeViewControl>ხე</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1060,6 +1069,7 @@
     <ContinuousPages>უწყვეტი გვერდები</ContinuousPages>
     <DataAndHeaders>მონაცემები და კოლონტიტულები</DataAndHeaders>
     <DataAndHeadersFooters>მონაცემები და ზედა/ქვედა კოლონტიტულები</DataAndHeadersFooters>
+    <DataExport>მონაცემების ექსპორტი</DataExport>
     <DataOnly>მხოლოდ მონაცემები</DataOnly>
     <DigitalSignature>ციფრული ხელმოწერა</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>სერტიფიკატი არ არის მონიშნული</DigitalSignatureCertificateNotSelected>
@@ -1139,6 +1149,7 @@
     <OpenAfterExport>გაიხსნას ექსპორტის შემდეგ</OpenAfterExport>
     <Ordered>დალაგებული</Ordered>
     <PdfACompliance>PDF/A შესაბამისობა</PdfACompliance>
+    <PdfUA>PDF/UA (უნივერსალური ხელმისაწვდომობა)</PdfUA>
     <PrintingReport>რეპორტის ბეჭდვა</PrintingReport>
     <RemoveEmptySpaceAtBottom>ფურცლის ქვედა მხრიდან ცარიელი ადგილის გაუქმება</RemoveEmptySpaceAtBottom>
     <RestrictEditing>რედაქტირების აკრძალვა:</RestrictEditing>
@@ -1483,6 +1494,7 @@
     <DictionarySaveAs>შევინახოთ ლექსიკონი, როგორც...</DictionarySaveAs>
     <DragNewDataSource>ჩააგდეთ თქვენი მონაცემი პირდაპირ ამ პანელში</DragNewDataSource>
     <DragNewReport>ჩააგდეთ თქვენი რეპორტი პირდაპირ ამ პანელში</DragNewReport>
+    <EditData>მონაცემების რედაქტირება</EditData>
     <EditQuery>მოთხოვნის შეცვლა</EditQuery>
     <EnableDataMonitor>მონაცემთა მონიტორინგის ჩართვა</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL მოთხოვნა წარმატებულად შესრულებულია</ExecutedSQLStatementSuccessfully>
@@ -1492,6 +1504,8 @@
     <GetColumnsFromAssembly>მონაცემთა კრებულიდან სვეტების აღება</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>დამალეთ მრახდაუჭერელი მონაცემთა წყაროები</HideUnsupportedDatabases>
     <ImportRelations>კავშირების იმპორტი</ImportRelations>
+    <InsertColumnLeft>სვეტის ჩასმა მარცხნივ</InsertColumnLeft>
+    <InsertColumnRight>სვეტის ჩასმა მარჯვნივ</InsertColumnRight>
     <LabelSeparator>გამყოფი:</LabelSeparator>
     <MarkUsedItems>გამოყენებული ელემენტების მონიშვნა</MarkUsedItems>
     <NewBusinessObject>ახალი ბიზნეს ობიექტი</NewBusinessObject>
@@ -2092,6 +2106,7 @@
     <CompilationAccessForceInterpretation>დოკუმენტები კომპილაციით გაიხსნება მოთხოვნის გარეშე, ინტერპრეტაციის რეჟიმის ავტომატური ჩართვით, რომელშიც არ გამოიყენება კომპილაციის რეჟიმი.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>თქვენ გადადიხართ კომპილაციის რეჟიმში. ეს რეჟიმი მეორე კოდის გაშვების საშუალებას იძლევა, რომელიც ზოგჯერ შეიძლება მავნებელი იყოს. გთხოვთ, გამოიყენოთ ეს რეჟიმი მხოლოდ იმ შემთხვევაში, თუ გესმით ყველა რისკი და ეთანხმებით მათ. გასაგრძელებლად დააწკაპუნეთ ღილაკზე {0}.</CompilationModeEnabling>
     <ComponentSize>მონიშნული კომპონენტების ზომების შეცვლა.</ComponentSize>
+    <ComponentsMenu>ხსნის Components მენიუს, რომელიც შეიცავს მობილურ ზედაპირზე ინდიკატორთა პანელის გამოუყენებელ ელემენტებს.</ComponentsMenu>
     <CopyStyle>კოპირების სტილი</CopyStyle>
     <CopyToClipboard>სისტემურ ბუფერში კოპირება</CopyToClipboard>
     <CurrencySymbol>ფულადი სიმბოლოს ამორჩევა.</CurrencySymbol>
@@ -2148,6 +2163,7 @@
     <menuEditCut>რეპორტის მონიშნული კომპონენტების გაცვლის ბუფერში გადატანა.</menuEditCut>
     <menuEditDelete>მონიშნული კომპონენტების წაშლა.</menuEditDelete>
     <menuEditPaste>გაცვლის ბუფერიდან ინფორმაციის გადმოტანა რეპორტში.</menuEditPaste>
+    <menuExportSettings>ხსნის ექსპორტის პარამეტრების რედაქტორს მიმდინარე ანგარიშისთვის ან ინდიკატორთა პანელისთვის. პარამეტრები გამოიყენება მხოლოდ მიმდინარე ანგარიშის ან ინდიკატორთა პანელის ექსპორტისას.</menuExportSettings>
     <menuFAQPage>ხშირად დასმული შეკითხვების ვებ-გვერდზე გადასვლა.</menuFAQPage>
     <menuGlobalizationStrings>გლობალიზაციის სტრიქონების დიზაინერის გამოძახება მიმდინარე რეპორტისათვის.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>ინფორმაციის მიღება პროგრამის და .Net Framework.-ის ვერსიების შესახებ</menuHelpAboutProgramm>
@@ -2180,13 +2196,17 @@
     <PageSize>რეპორტის მიმდინარე გვერდის ზომების არჩევა.</PageSize>
     <PagesManager>გვერდების მენეჯერის გამოძახება.</PagesManager>
     <PressF1>მეტი ინფორმაციისათვის დააჭირეთ ღილაკს F1</PressF1>
+    <PropertiesButton>ააქტიურებს თვისებების პანელს ანგარიშის შაბლონის თვისებებით.</PropertiesButton>
     <Redo>გაუქმებული ბრძანების უკან დაბრუნება (Ctrl + Y).</Redo>
+    <RemoveMobileSurfaceButton>შლის მობილურ ზედაპირს მიმდინარე ინდიკატორთა პანელიდან.</RemoveMobileSurfaceButton>
     <ReportNew>ახალი რეპორტის შექმნა.</ReportNew>
     <ReportOpen>რეპორტის გახსნა დიზაინერში.</ReportOpen>
     <ReportPreview>მიმდინარე რეპორტის წინასწარი დათვალიერების რეჟიმში გადართვა.</ReportPreview>
     <ReportSave>მიმდინარე რეპორტის შენახვა.</ReportSave>
     <ScriptEvalAccess1>ამ დოკუმენტში გამოყენებულია Script Eval. თუ დოკუმენტი მიღებულია სანდო წყაროდან, შეგიძლიათ დააჭიროთ ღილაკს „გახსნა“ მის დასათვალიერებლად.</ScriptEvalAccess1>
     <ScriptEvalAccess2>თუ არ ხართ დარწმუნებული დოკუმენტის წყაროში, მაგრამ მაინც გსურთ მისი ნახვა, შეგიძლიათ დააჭიროთ ღილაკს „გახსნა უსაფრთხო რეჟიმში“. ამ შემთხვევაში Script Eval იგნორირებული იქნება და არ შესრულდება.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>სკრიპტებში სრული წვდომა (შეზღუდვების გარეშე, შესაძლოა არაუსაფრთხო იყოს).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>სკრიპტებში უსაფრთხო წვდომა (უსაფრთხოების მიზნით შეზღუდული შესაძლებლობები).</ScriptSecuritySafeMode>
     <SelectAll>გვერდზე ყველა კომპონენტის მონიშვნა(Ctrl + A).</SelectAll>
     <SelectUILanguage>მომხმარებლის ინტერფეისის ენის შეცვლა.</SelectUILanguage>
     <SendToBack>მონიშნული კომპონენტების ერთი დონით უკან გადაწევა სხვა ელემენტებთან მიმართებაში.</SendToBack>
@@ -2205,6 +2225,8 @@
     <TextFormat>მონაცემების ფომრატის არჩევა.</TextFormat>
     <ToolbarStyle>მონიშნული სტილის მითვისება ყველა მონიშნული კომპონენტისათვის.</ToolbarStyle>
     <Undo>რეპორტში ბოლო ცვლილების გაუქმება (Ctrl + Z).</Undo>
+    <ViewModeDesktopButton>ააქტიურებს კომპიუტერის ზედაპირს.</ViewModeDesktopButton>
+    <ViewModeMobileButton>ააქტიურებს მობილურ ზედაპირს.</ViewModeMobileButton>
     <WordWrap>კომპონენტის ტექსტის სტრიქონებად დაყოფა.</WordWrap>
     <Zoom>რეპორტის მასშტაბირების შეცვლა.</Zoom>
   </HelpDesigner>
@@ -2292,6 +2314,7 @@
     <PageSize>რეპორტის გვერდის პარამეტრის შეცვლა.</PageSize>
     <Parameters>პარამეტრების პანელის გამოჩენა, რომელიც გამოიყენება რეპორტის რენდერის დროს.</Parameters>
     <PdfACompliance>ელექტრონული დოკუმენტების გრძელვადიანი არქივაციის სტანდარტების (PdfA) მხარდაჭერა.</PdfACompliance>
+    <PdfUniversalAccessibility>ელექტრონული დოკუმენტებისა და ინფორმაციის უნივერსალური ხელმისაწვდომობის სტანდარტის მხარდაჭერა.</PdfUniversalAccessibility>
     <Print>რეპორტის ბეჭდვა.</Print>
     <PutFeedPageCode>მიღებულ დოკუმენტში გვერდების წყვეტა სპეც. სიმბოლოს გამოყენებით.</PutFeedPageCode>
     <RangePages>დასამუშავებელი გვერდების ნომრები. შეგიძლიათ მიუთითოთ როგორც ცალკეული გვერდი, გვერდების სია (მძიმის გამოყენებით), ასევე გვერდების დიაპაზონი, საწყისი და ბოლო გვერდის ნომრებს შორის "-" სიმბოლოს ჩასმით. მაგ.: 1,3,5-12.</RangePages>
@@ -2346,6 +2369,7 @@
     <menuContextClone>კლონირება...</menuContextClone>
     <menuContextDesign>რედაქტირება...</menuContextDesign>
     <menuContextTextFormat>ფორმატი...</menuContextTextFormat>
+    <menuConvertTo>გარდაქმნა ფორმატში {0}</menuConvertTo>
     <menuConvertToCheckBox>მოსანიშნ ველად კონვერტაცია</menuConvertToCheckBox>
     <menuConvertToImage>სურათად კონვერტაცია</menuConvertToImage>
     <MenuConvertToRichText>ტექსტის ფორმატირების ველად კონვერტაცია</MenuConvertToRichText>
@@ -2582,7 +2606,9 @@
     <EndDateShouldBeGreaterThanStartDate>დასრულების თარიღი უნდა იყოს დაწყების თარიღზე მეტი!</EndDateShouldBeGreaterThanStartDate>
     <EnterCurrentPassword>შეიყვანეთ მიმდინარე პაროლი!</EnterCurrentPassword>
     <EnterNewPassword>შეიყვანეთ ახალი პაროლი!</EnterNewPassword>
+    <Error>შეცდომა</Error>
     <ExecutionError>გაშვების შეცდომა</ExecutionError>
+    <ExpressionValidationFailed>გამოსახულების შემოწმება ვერ მოხერხდა.</ExpressionValidationFailed>
     <GracePeriod>თქვენი გამოწერის საშეღავათო პერიოდი იწურება {0} დღეში.</GracePeriod>
     <IsIdentical>"{0}" და "{1}" იდენტურია."</IsIdentical>
     <IsNotAuthorized>არ არის წვდომა "{0}"-ზე!</IsNotAuthorized>
@@ -2599,8 +2625,13 @@
     <ItemCantBeMovedToSpecifiedPlace>აღნიშულ ადგილზე შეუძლებელია ელემენტის გადატანა!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>ელემეტს არ გააჩნია "{0}"-ს მხარდაჭერა!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key და ToKey ტოლია!</KeyAndToKeyAreEqual>
+    <LengthRange>სიგრძე უნდა იყოს {0}-სა და {1}-ს შორის.</LengthRange>
     <MaximumComputers>კომპიუტერების მაქსიმუმი</MaximumComputers>
+    <MaximumLength>მაქსიმალური სიგრძე {0}.</MaximumLength>
+    <MaximumValue>მაქსიმუმი {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>ყურადღება! ფაილის ზომა, რომელიც თქვენ ცდილობთ დაამატოთ აღემატება დასაშვებ მაქსნილალურ ზომას. ნამდვილად გსურთ ამ ფაილის დამატება (რეპორტის დამუშავება მნიშვნელოვნად შენელდება)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>მინიმალური სიგრძე {0}.</MinimumLength>
+    <MinimumValue>მინიმუმი {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} ხელმისაწვდომია.</NewDesignerAvailable>
     <NewProduct>ახალი პროდუქტი დამატებულია თქვენს გამოწერაში!</NewProduct>
     <NewVersionsAvailable>ხელმისაწვდომია ახალი ვერსია!</NewVersionsAvailable>
@@ -2657,6 +2688,9 @@
     <NotificationTransferring>"{0}" იგზავნება "{1}"-ში.</NotificationTransferring>
     <NotificationTransferringComplete>"{0}" წარმატებით გადაიგზავნა "{1}"-ში.</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>მნიშვნელობა მიუღებელია მოცემული {0} ტიპისთვის</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>დაშვებულია მხოლოდ ციფრები.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>დაშვებულია მხოლოდ ასოები.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>დაშვებულია მხოლოდ ასოები და ციფრები.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>დიაპაზონს გარეთ ("{0}")!</OutOfRange>
     <ParsingCommandException>ბრძანების დამუშავების გამონაკლსი აღნიშნულ xml ფაილში: {0}</ParsingCommandException>
     <PleaseLogin>რეპორტის პუბლიკაციამდე გთხოვთ შეხვიდეთ სისტემაში Stimulsoft-ში რეგისტრირებული მონაცემების მეშვეობით, ან დაარეგისტრირეთ ახალი მომხმარებელი.</PleaseLogin>
@@ -2697,6 +2731,12 @@
     <SubscriptionsOut20>გამოწერის ვადა იწურება 20 დღეში!</SubscriptionsOut20>
     <SuccessfullyRenewed>თქვენი გამოწერა წარმატებით განახლდა!</SuccessfullyRenewed>
     <TrialToLicense>გმადლობთ, რომ ირჩევთ Stimulsoft-ს!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL უნდა იყენებდეს http:// ან https:// პროტოკოლს</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>მნიშვნელობა სავალდებულოა!</ValueIsRequired>
+    <ValueMatchPattern>მნიშვნელობა არ შეესაბამება მოთხოვნილ ფორმატს.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>მნიშვნელობა უნდა იყოს მეტი ან ტოლი {0}-ის.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>მნიშვნელობა უნდა იყოს ნაკლები ან ტოლი {0}-ის.</ValueMustBeLessOrEqual>
+    <ValueRange>რიცხვი უნდა იყოს {0}-სა და {1}-ს შორის.</ValueRange>
     <VersionCopyFromItem>დაკოპირებულია "{0}" ელემეტიდან.</VersionCopyFromItem>
     <VersionCreatedFromFile>შექმნილია "{0}" ფაილიდან.</VersionCreatedFromFile>
     <VersionCreatedFromItem>შექმნილია "{0}" ელემენტიდან.</VersionCreatedFromItem>
@@ -3586,6 +3626,8 @@
     <StiRestrictionsAllowResize>ზომის შეცვლა დაშვებულია</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>მონიშვნა დაშვებულია</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>None</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>სრული წვდომა</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>უსაფრთხო რეჟიმი</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>პირველი</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>ცვლადიდან</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>არაფერი</StiSelectionModeNothing>
@@ -4266,6 +4308,8 @@
     <GroupDataColumn>მონაცემთაჯგუფის სვეტი</GroupDataColumn>
     <GroupMeter>ჯგუფი</GroupMeter>
     <GrowToHeight>სიმაღლეში გაზრდა</GrowToHeight>
+    <HandleBorderColor>მარკერის საზღვრის ფერი</HandleBorderColor>
+    <HandleFillColor>მარკერის შევსების ფერი</HandleFillColor>
     <Header>სათაური</Header>
     <HeaderAlignment>ზედა კოლონტიტულის სწორება</HeaderAlignment>
     <HeaderBackColor>წარწერის ფერი</HeaderBackColor>
@@ -4536,6 +4580,7 @@
     <NextPage>შემდეგი გვერდი</NextPage>
     <NoElements>ელემენტები არ არის</NoElements>
     <NoIcon>პიქტოგრამების გარეშე</NoIcon>
+    <Notifications>შეტყობინებები</Notifications>
     <NullText>ნულოვანი ტექსტი</NullText>
     <NumberOfColumns>სვეტების რაოდენობა</NumberOfColumns>
     <NumberOfCopies>ასლების რაოდენობა</NumberOfCopies>
@@ -4581,6 +4626,7 @@
     <ParetoSeriesColors>Pareto სერიის ფერები</ParetoSeriesColors>
     <PasswordChar>პაროლის სიმბოლო</PasswordChar>
     <Path>მისამართი</Path>
+    <PathColor>ბილიკის ფერი</PathColor>
     <PathData>მონაცემთა მისამართი</PathData>
     <PathSchema>სქემის მისამართი</PathSchema>
     <Pattern>შაბლონი</Pattern>
@@ -4644,6 +4690,7 @@
     <Refresh>განახლება</Refresh>
     <RefreshTime>განახლების დრო</RefreshTime>
     <Regular>ჩვეულებრივი</Regular>
+    <RegularExpression>რეგულარული გამოსახულება</RegularExpression>
     <Relation>კავშირი</Relation>
     <RelationName>კავშირის დასახელება</RelationName>
     <Relations>კავშირები</Relations>
@@ -4799,6 +4846,7 @@
     <SkipValuesObj>მნიშვნელობების გამოტოვება</SkipValuesObj>
     <Smoothing>გლუვი</Smoothing>
     <SnapMode>მიბმის რეჟიმი</SnapMode>
+    <SnapPageWidthToGrid>გვერდის სიგანის ბადეზე მიბმა</SnapPageWidthToGrid>
     <Sort>სორტირება</Sort>
     <SortBy>სორტირება</SortBy>
     <SortDirection>სორტირების მიმართულება</SortDirection>
@@ -4823,7 +4871,7 @@
     <StartPosition>საწყისი პოზიცია</StartPosition>
     <StartValue>საწყისი მნიშვნელობა</StartValue>
     <StartWidth>საწყისი სიგანე</StartWidth>
-    <State>შტატი</State>
+    <State>მდგომარეობა</State>
     <Step>ბიჯი</Step>
     <Stop>სდექ</Stop>
     <StopBeforePage>გაჩერება ფურცლამდე</StopBeforePage>
@@ -4912,6 +4960,7 @@
     <ToolTipBrush>მინიშნების ფუნჯი</ToolTipBrush>
     <ToolTipCornerRadius>მინიშნების მომრგვალების რადიუსი</ToolTipCornerRadius>
     <ToolTipDataColumn>მინიშნების მონაცემთა სვეტი</ToolTipDataColumn>
+    <ToolTipText>მინიშნების ტექსტი</ToolTipText>
     <ToolTipTextBrush>მინიშნების ტექსტის ფუნჯი</ToolTipTextBrush>
     <Top>ზემოთ</Top>
     <TopLeft>ზედა მარცხენა</TopLeft>
@@ -4959,6 +5008,7 @@
     <UseStyleOfSummaryInRowTotal>სტრიქონის ჯამური სტილის გამოყენება სტრიქონის ჯამში</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>მომხმარებლის გამოსახულების გამოყენება</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>მნიშვნელობების გამოყენება მითითებული დიაპაზონიდან</UseValuesFromTheSpecifiedRange>
+    <Validation>შემოწმება</Validation>
     <Value>მნიშვნელობა</Value>
     <ValueClose>დასახური მნიშვნელობა</ValueClose>
     <ValueDataColumn>მონაცემთა მნიშვნელობათა სვეტი</ValueDataColumn>
@@ -5166,7 +5216,9 @@
   <Report>
     <ActiveRelation>აქტიური კავშირი</ActiveRelation>
     <Address>მისამართი</Address>
+    <Alpha>ალფა</Alpha>
     <Alphabetical>ანბანის მიხედვით</Alphabetical>
+    <AlphaNumeric>ალფა-ციფრული</AlphaNumeric>
     <Bands>სექციები</Bands>
     <Basic>საბაზო</Basic>
     <BasicConfiguration>ობიექტის თვისებების მინიმალური რაოდენობა, რომელიც საჭიროა რეპორტის საწყის დონეზე რენდერისთვის.</BasicConfiguration>
@@ -5193,6 +5245,7 @@
     <DashboardOnly>მხოლოდ დაფა და მონაცემთა გარდაქმნა</DashboardOnly>
     <Dialogs>მართვის ელემენტები</Dialogs>
     <EditStyles>სტილების რედაქტირება</EditStyles>
+    <Email>ელფოსტა</Email>
     <EnableCacheAllDataMode>"ყველა მონაცემის ქეშირების" რეჟიმის ჩართვა</EnableCacheAllDataMode>
     <Enhancements>გაუმჯობესობები</Enhancements>
     <EnterDataManually>შეიყვანეთ მონაცემები ხელით </EnterDataManually>
@@ -5215,6 +5268,7 @@
     <Infographics>ინფოგრაფიკა</Infographics>
     <InfoMessage>ნაპოვნია {0} - {1}.</InfoMessage>
     <InformationMessages>ინფორმაციული შეტყობინებები</InformationMessages>
+    <IpAddress>IP მისამართი</IpAddress>
     <LabelAlias>მეტსახელი:</LabelAlias>
     <LabelAuthor>ავტორი:</LabelAuthor>
     <LabelBackground>ფონი:</LabelBackground>
@@ -5258,6 +5312,7 @@
     <Obsoleted>მოძველებული</Obsoleted>
     <Office2010Back>უკან</Office2010Back>
     <PageNofM>გვერდი {0} / {1} გვერდიდან</PageNofM>
+    <Phone>ტელეფონი</Phone>
     <PreparingReport>რეპორტის მომზადება</PreparingReport>
     <Professional>პროფესიონალური</Professional>
     <ProfessionalConfiguration>ობიექტის ყველა თვისება.</ProfessionalConfiguration>
@@ -5273,6 +5328,7 @@
     <SaveReportPagesOrFormsFromReport>რეპორტის, ფურცლის ან ფორმის შენახვა</SaveReportPagesOrFormsFromReport>
     <SavingReport>რეპორტის შენახვა</SavingReport>
     <ScriptEvalAccess>Script Eval წვდომა</ScriptEvalAccess>
+    <ScriptSecurity>სკრიპტების უსაფრთხოება</ScriptSecurity>
     <SecondPass>მეორე გავლა</SecondPass>
     <Shapes>საბაზო ფორმები</Shapes>
     <ShowOnParametersPanel>პარამტრების პანელზე ჩვენება</ShowOnParametersPanel>
@@ -5551,6 +5607,7 @@
     <FontSize>ფონტის ზომა</FontSize>
     <FontStyleBold>მუქი</FontStyleBold>
     <FontStyleItalic>დახრილი</FontStyleItalic>
+    <FontStyleStrikeout>შრიფტის გადახაზული სტილი</FontStyleStrikeout>
     <FontStyleUnderline>ხაზგასმული</FontStyleUnderline>
     <Link>კავშირი</Link>
     <Lock>საკეტი</Lock>
@@ -5635,11 +5692,13 @@
     <ButtonNext>შემდეგი</ButtonNext>
     <ColumnsOrder>სვეტების მიმდევრობა</ColumnsOrder>
     <Company>კომპანია</Company>
+    <CreateDataManually>მონაცემების ხელით შექმნა</CreateDataManually>
     <Custom>არჩევითი</Custom>
     <DataRelation>კავშირი</DataRelation>
     <DataSource>მონაცემთა წყარო</DataSource>
     <DataSources>მონაცემთა წყაროები</DataSources>
     <DefaultThemes>სტანდარტული თემები</DefaultThemes>
+    <EditUserSource>მომხმარებლის მონაცემთა წყაროს რედაქტირება</EditUserSource>
     <Examples>მაგალითები</Examples>
     <Filters>ფილტრები</Filters>
     <FromReportTemplate>რეპორტი შაბლონიდან</FromReportTemplate>
@@ -5685,6 +5744,7 @@
     <Mapping>მონაცემთა შესაბამისობა</Mapping>
     <MarkAll>ყველას მონიშვნა</MarkAll>
     <MasterDetailReport>Master-Detail რეპორტი</MasterDetailReport>
+    <NewUserSource>მომხმარებლის ახალი მონაცემთა წყარო</NewUserSource>
     <NoFunction>[None]</NoFunction>
     <OpenExistingReport>რეპორტის გახსნა</OpenExistingReport>
     <OpenFrom>გახსენით {0}-დან</OpenFrom>

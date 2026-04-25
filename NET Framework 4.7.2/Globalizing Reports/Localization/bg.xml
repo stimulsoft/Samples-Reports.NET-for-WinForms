@@ -141,6 +141,8 @@
     <Design>Дизайн</Design>
     <Down>Надолу</Down>
     <Duplicate>Дублирай</Duplicate>
+    <EditAsData>Редактиране като данни</EditAsData>
+    <EditAsText>Редактиране като текст</EditAsText>
     <Export>Експорт</Export>
     <ForceDelete>Force Delete</ForceDelete>
     <Help>Помощ</Help>
@@ -675,6 +677,7 @@
     <StiHeaderBand>Заглавие</StiHeaderBand>
     <StiHierarchicalBand>Йерархични данни</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Хоризонтална линия</StiHorizontalLinePrimitive>
+    <StiIcon>Икона</StiIcon>
     <StiImage>Картинка</StiImage>
     <StiIndicator>Индикатор</StiIndicator>
     <StiListBox>List Box</StiListBox>
@@ -934,16 +937,20 @@
   <Dialogs>
     <StiButtonControl>Бутон</StiButtonControl>
     <StiCheckBoxControl>Контролно поле</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Група с квадратчета за отметка</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Списък избрани полета</StiCheckedListBoxControl>
     <StiComboBoxControl>Списък полета</StiComboBoxControl>
+    <StiDatePickerControl>Селектор за дата</StiDatePickerControl>
     <StiDateTimePickerControl>Избор дата</StiDateTimePickerControl>
     <StiForm>Форма</StiForm>
     <StiGridControl>Таблица</StiGridControl>
     <StiGroupBoxControl>Група</StiGroupBoxControl>
     <StiLabelControl>Етикет</StiLabelControl>
     <StiListBoxControl>Списък</StiListBoxControl>
+    <StiListControl>Списък</StiListControl>
     <StiListViewControl>Списък изгледи</StiListViewControl>
     <StiLookUpBoxControl>Диалог</StiLookUpBoxControl>
+    <StiNumberInputControl>Въвеждане на число</StiNumberInputControl>
     <StiNumericUpDownControl>Число нагоре надолу</StiNumericUpDownControl>
     <StiPanelControl>Панел</StiPanelControl>
     <StiPictureBoxControl>Картинка</StiPictureBoxControl>
@@ -952,9 +959,11 @@
     <StiRadioGroupControl>Радио група</StiRadioGroupControl>
     <StiReportControl>Елемент на управление</StiReportControl>
     <StiRichTextBoxControl>Rich Text кутия</StiRichTextBoxControl>
+    <StiSelectControl>Елемент за избор</StiSelectControl>
     <StiSliderControl>Плъзгач</StiSliderControl>
     <StiSwitchControl>Превключвател</StiSwitchControl>
     <StiTextBoxControl>Текстово поле</StiTextBoxControl>
+    <StiTextInputControl>Въвеждане на текст</StiTextInputControl>
     <StiTreeViewControl>Дърво</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1056,6 +1065,7 @@
     <ContinuousPages>Непрекъснати Страници</ContinuousPages>
     <DataAndHeaders>Данни и заглавия</DataAndHeaders>
     <DataAndHeadersFooters>Данни и Заглавие/Край</DataAndHeadersFooters>
+    <DataExport>Експорт Данни</DataExport>
     <DataOnly>Само данни</DataOnly>
     <DigitalSignature>Цифров подпис</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Сертификата не е избран</DigitalSignatureCertificateNotSelected>
@@ -1135,6 +1145,7 @@
     <OpenAfterExport>Отвори след експорт</OpenAfterExport>
     <Ordered>Подреден</Ordered>
     <PdfACompliance>PDF/A съгласъваност</PdfACompliance>
+    <PdfUA>PDF/УД (Унверсална Достъпност)</PdfUA>
     <PrintingReport>Отпечатване отчет</PrintingReport>
     <RemoveEmptySpaceAtBottom>Премахни празния интервал от долу на старницата</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Ограничи Редакция:</RestrictEditing>
@@ -1479,6 +1490,7 @@
     <DictionarySaveAs>Съхрани речник като...</DictionarySaveAs>
     <DragNewDataSource>за да преместете данните си директно в този панел</DragNewDataSource>
     <DragNewReport>за да преместите отчета в този панел</DragNewReport>
+    <EditData>Редакция данни</EditData>
     <EditQuery>Редакция заявка</EditQuery>
     <EnableDataMonitor>Разреши Монитор Данни</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL заявката е изпълнена успешно</ExecutedSQLStatementSuccessfully>
@@ -1488,6 +1500,8 @@
     <GetColumnsFromAssembly>Извлечи колоните</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Скриване на неподдържани източници на данни</HideUnsupportedDatabases>
     <ImportRelations>Импорт на релации</ImportRelations>
+    <InsertColumnLeft>Вмъкни колона отляво</InsertColumnLeft>
+    <InsertColumnRight>Вмъкни колона вдясно</InsertColumnRight>
     <LabelSeparator>Разделител:</LabelSeparator>
     <MarkUsedItems>Маркиране на използваните елементи</MarkUsedItems>
     <NewBusinessObject>Нов бизнес обект</NewBusinessObject>
@@ -2085,6 +2099,7 @@
     <CompilationAccessForceInterpretation>Документите с компилация ще бъдат отворени без подкана, но ще бъдат автоматично преобразувани в режим на интерпретация, който не използва процеса на компилация.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Превключвате в режим на компилация. Този режим позволява да се изпълнява различен код и понякога може да бъде вреден. Моля, използвайте този режим само ако разбирате всички рискове и сте съгласни с тях. Щракнете върху бутона {0}, за да продължите.</CompilationModeEnabling>
     <ComponentSize>Промяна размера на избраните компоненти.</ComponentSize>
+    <ComponentsMenu>Отваря менюто Компоненти, съдържащо неизползвани елементи на таблото за управление на мобилната повърхност.</ComponentsMenu>
     <CopyStyle>Копирай Стил</CopyStyle>
     <CopyToClipboard>Копирай в клипборда</CopyToClipboard>
     <CurrencySymbol>Изберете символа валута.</CurrencySymbol>
@@ -2141,6 +2156,7 @@
     <menuEditCut>Изрязва избраните компоненти от отчета и ги поставя в Клипборд.</menuEditCut>
     <menuEditDelete>Изтриване на избраните компоненти.</menuEditDelete>
     <menuEditPaste>Поставяне на съдържанието от  Клипборд в отчета.</menuEditPaste>
+    <menuExportSettings>Отваря редактора за настройки за експортиране за текущия отчет или табло. Настройките се прилагат само при експортиране на текущия отчет или табло.</menuExportSettings>
     <menuFAQPage>Отидете в интернет старницата с често задавани въпроси.</menuFAQPage>
     <menuGlobalizationStrings>Извикване на редактора за глобални настройки на текущия отчет.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Информация за генератора на отчета и версията на .Net Framework.</menuHelpAboutProgramm>
@@ -2173,13 +2189,17 @@
     <PageSize>Изберете размера на хартията на текущата страница на отчета.</PageSize>
     <PagesManager>Стартира менажер на страници.</PagesManager>
     <PressF1>Натисни  F1 за подробности</PressF1>
+    <PropertiesButton>Активира панела Свойства със свойствата на шаблона за отчет.</PropertiesButton>
     <Redo>Връщане на по-рано отменената промяна в отчета.</Redo>
+    <RemoveMobileSurfaceButton>Премахва мобилната повърхност от текущото табло за управление.</RemoveMobileSurfaceButton>
     <ReportNew>Създаване на нов отчет.</ReportNew>
     <ReportOpen>Отваряне на отчета в дизайнера.</ReportOpen>
     <ReportPreview>Предварителен преглед на редактирания отчет.</ReportPreview>
     <ReportSave>Съхраняване на текущо редактирания отчет.</ReportSave>
     <ScriptEvalAccess1>Този документ използва Script Eval. Ако документът е от надежден източник, можете да щракнете върху бутона "Отвори", за да получите достъп до него.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Ако не сте сигурни за източника на документа, но все пак искате да го видите, можете да кликнете върху бутона "Отваряне в безопасен режим". В този случай Script Eval ще бъде игнориран и няма да бъде изпълнен.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Пълен достъп до скриптове (без ограничения, потенциално опасно).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Безопасен достъп до скриптове (ограничени възможности за сигурност).</ScriptSecuritySafeMode>
     <SelectAll>Избиране на всички компоненти от текущата страница.</SelectAll>
     <SelectUILanguage>Изберете език на интерфейса.</SelectUILanguage>
     <SendToBack>Преместване на избрания компонент обратно относно другите компоненти.</SendToBack>
@@ -2198,6 +2218,8 @@
     <TextFormat>Избиране на форматиране за стойности.</TextFormat>
     <ToolbarStyle>Прилагане на избрания стил за всички компоненти.</ToolbarStyle>
     <Undo>Отмяна на последното изменение в отчета.</Undo>
+    <ViewModeDesktopButton>Активира повърхността за работен плот.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Активира мобилната повърхност (Surface).</ViewModeMobileButton>
     <WordWrap>Пренасяне на текста на компонента.</WordWrap>
     <Zoom>Определяне на нивото на мащабиране в отчета.</Zoom>
   </HelpDesigner>
@@ -2285,6 +2307,7 @@
     <PageSize>Промяна на параметрите на страницата в отчета.</PageSize>
     <Parameters>Показване панела с параметри използван при построението на отчета.</Parameters>
     <PdfACompliance>Поддръжка на стандарта на дългосрочно архивиране и съхраняване на електронни документи.</PdfACompliance>
+    <PdfUniversalAccessibility>Поддръжка за стандарта за универсално достъпни електронни документи и информация.</PdfUniversalAccessibility>
     <Print>Отпечатване на отчета.</Print>
     <PutFeedPageCode>Запълването на страниците в окончателния документ със специален знак.</PutFeedPageCode>
     <RangePages>Броят на страниците за обработка. Можете да определите само една страница, списък от страници (разделени със запетая), както и обхват с определяне на начална страница с последващ символ "-" и крайна страница. Например: 1,3,5-12.</RangePages>
@@ -2330,6 +2353,7 @@
     <menuContextClone>Клонирай...</menuContextClone>
     <menuContextDesign>Дизайн...</menuContextDesign>
     <menuContextTextFormat>Формат текст...</menuContextTextFormat>
+    <menuConvertTo>Конвертирай до {0}</menuConvertTo>
     <menuConvertToCheckBox>конвертирай до CheckBox</menuConvertToCheckBox>
     <menuConvertToImage>Конверитрай до Картинка</menuConvertToImage>
     <MenuConvertToRichText>Конвертирай до  RichText</MenuConvertToRichText>
@@ -2558,7 +2582,9 @@
     <DeveloperInformation>Информация за програмиста</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Крайната дата трябва да е по-голяма от текущата!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Крайната дата трябва да е по-голяма от началната дата!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Грешка</Error>
     <ExecutionError>Грешка при изпълнение</ExecutionError>
+    <ExpressionValidationFailed>Проверката на израза не бе успешна.</ExpressionValidationFailed>
     <GracePeriod>Гратисният период на вашия абонамент ще изтече след {0} дни.</GracePeriod>
     <IsIdentical>"{0}" и "{1}" са еднакви."</IsIdentical>
     <IsNotAuthorized>Няма достъп до "{0}"!</IsNotAuthorized>
@@ -2574,8 +2600,13 @@
     <ItemCantBeMovedToSpecifiedPlace>Елемента не може да бъде преместен към зададеното място!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Елемента не поддържа "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual> Key и ToKey са равни!</KeyAndToKeyAreEqual>
+    <LengthRange>Дължината трябва да е между {0} и {1}.</LengthRange>
     <MaximumComputers>Максимум на компютри</MaximumComputers>
+    <MaximumLength>Максималната дължина е {0}.</MaximumLength>
+    <MaximumValue>Максимумът е {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Внимание! Размерът на файла, който се опитвате да добавите, надвишава максимално допустимия размер. Искате ли да добавите този файл така или иначе (обработката на отчета може да се забави значително)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Минималната дължина е {0}.</MinimumLength>
+    <MinimumValue>Минимумът е {0}.</MinimumValue>
     <NewDesignerAvailable>Наличен е Stimulsoft Designer {0}.</NewDesignerAvailable>
     <NewProduct>Добавен е нов продукт към вашия абонамент!</NewProduct>
     <NewVersionsAvailable>Налична е нова версия!</NewVersionsAvailable>
@@ -2621,6 +2652,9 @@
     <NotificationTransferring>"{0}" се прехвърля в "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>"{0}" е успешно прехвърлен в "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Тази стойност не е правилна за типа {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Разрешени са само цифри.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Разрешени са само букви.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Разрешени са само букви и цифри.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Извън обхват ("{0}")!</OutOfRange>
     <ParsingCommandException>Изключение от обработката на команда в зададен XML: {0}</ParsingCommandException>
     <PleaseLogin>Моля, влезте с помощта на идентификационните си данни за акаунта в Stimulsoft или регистрирайте нов акаунт, преди да публикувате отчет.</PleaseLogin>
@@ -2647,6 +2681,12 @@
     <SubscriptionsOut20>Абонаментния период изтича след 20 дни!</SubscriptionsOut20>
     <SuccessfullyRenewed>Вашият абонамент е подновен успешно!</SuccessfullyRenewed>
     <TrialToLicense>Благодарим, че избрахте Stimulsoft!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL трябва да използва http:// или https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Стойността е задължителна!</ValueIsRequired>
+    <ValueMatchPattern>Стойността не съответства на необходимия шаблон.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>Стойността трябва да е по-голяма или равна на {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>Стойността трябва да е по-малка или равна на {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>Числото трябва да е между {0} и {1}.</ValueRange>
     <VersionCopyFromItem>Копиране от "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Създаден от файл "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Създаден от елемент "{0}".</VersionCreatedFromItem>
@@ -3528,6 +3568,8 @@
     <StiRestrictionsAllowResize>Разреши оразмеряване</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Разреши избор</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Няма</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Пълен достъп</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Безопасен режим</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Първи</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>От променлива</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Нищо</StiSelectionModeNothing>
@@ -4201,6 +4243,8 @@
     <GroupDataColumn>Групова колона даннни</GroupDataColumn>
     <GroupMeter>Група</GroupMeter>
     <GrowToHeight>Растене до височината</GrowToHeight>
+    <HandleBorderColor>Задаване на цвят на рамката</HandleBorderColor>
+    <HandleFillColor>Задаване на пълен цвят</HandleFillColor>
     <Header>Заглавка</Header>
     <HeaderAlignment>Подравняване на Заглавката</HeaderAlignment>
     <HeaderBackColor>Цвят на заглавието</HeaderBackColor>
@@ -4470,6 +4514,7 @@
     <NextPage>Следваща страница</NextPage>
     <NoElements>Без елементи</NoElements>
     <NoIcon>Без икона</NoIcon>
+    <Notifications>Известия</Notifications>
     <NullText>Null текст</NullText>
     <NumberOfColumns>Брой на колоните</NumberOfColumns>
     <NumberOfCopies>Брой копия</NumberOfCopies>
@@ -4515,6 +4560,7 @@
     <ParetoSeriesColors>Цветове от серията Pareto</ParetoSeriesColors>
     <PasswordChar>Символ парола</PasswordChar>
     <Path>Пътека</Path>
+    <PathColor>Цвят на контура</PathColor>
     <PathData>Пътека Данни</PathData>
     <PathSchema>Пътека Схема</PathSchema>
     <Pattern>Модел</Pattern>
@@ -4578,6 +4624,7 @@
     <Refresh>Опресни</Refresh>
     <RefreshTime>Време за опресняване</RefreshTime>
     <Regular>Нормален</Regular>
+    <RegularExpression>Регулярен израз</RegularExpression>
     <Relation>Релация</Relation>
     <RelationName>Име на релация</RelationName>
     <Relations>Релации</Relations>
@@ -4732,6 +4779,7 @@
     <SkipValuesObj>Пропускане на стойности</SkipValuesObj>
     <Smoothing>Изглаждане</Smoothing>
     <SnapMode>Snap режим</SnapMode>
+    <SnapPageWidthToGrid>Прилепване на ширината на страницата към мрежата</SnapPageWidthToGrid>
     <Sort>Сортиране</Sort>
     <SortBy>Сортиране по</SortBy>
     <SortDirection>Направление на сортиране</SortDirection>
@@ -4756,7 +4804,7 @@
     <StartPosition>Начална позиция</StartPosition>
     <StartValue>Начална Стойност</StartValue>
     <StartWidth>Начална Ширина</StartWidth>
-    <State>Щат</State>
+    <State>Състояние</State>
     <Step>Стъпка</Step>
     <Stop>Прекъсване</Stop>
     <StopBeforePage>Прекъсване преди страница</StopBeforePage>
@@ -4844,6 +4892,7 @@
     <ToolTipBrush>Четка Подсказка</ToolTipBrush>
     <ToolTipCornerRadius>Ъглов Радиус Подсказка</ToolTipCornerRadius>
     <ToolTipDataColumn>Колона данни подсказка</ToolTipDataColumn>
+    <ToolTipText>Текст на подсказката за инструмента</ToolTipText>
     <ToolTipTextBrush>Четка за текст Подсказка</ToolTipTextBrush>
     <Top>Горе</Top>
     <TopLeft>Горе-ляво</TopLeft>
@@ -4891,6 +4940,7 @@
     <UseStyleOfSummaryInRowTotal>Използване на сумарния стил в сумарния ред</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Използвайте потребителска снимка</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Изполвай стойности от зададения интервал</UseValuesFromTheSpecifiedRange>
+    <Validation>Проверка</Validation>
     <Value>Стойност</Value>
     <ValueClose>Последна стойност</ValueClose>
     <ValueDataColumn>Стойност колона данни</ValueDataColumn>
@@ -5098,7 +5148,9 @@
   <Report>
     <ActiveRelation>Активна релация</ActiveRelation>
     <Address>Адрес</Address>
+    <Alpha>Буква</Alpha>
     <Alphabetical>По азбучен ред</Alphabetical>
+    <AlphaNumeric>Буквено цифров</AlphaNumeric>
     <Bands>Секции</Bands>
     <Basic>Основен</Basic>
     <BasicConfiguration>Минимален брой от свойства, необходими за построението на основния тип отчет.</BasicConfiguration>
@@ -5125,6 +5177,7 @@
     <DashboardOnly>Само табло за управление и трансформация на данни</DashboardOnly>
     <Dialogs>Диалози</Dialogs>
     <EditStyles>Редакция на стилове</EditStyles>
+    <Email>Имейл</Email>
     <EnableCacheAllDataMode>Активиране на режим 'Кеширане на всички данни'</EnableCacheAllDataMode>
     <Enhancements>Подобрения</Enhancements>
     <EnterDataManually>Въведете данните ръчно</EnterDataManually>
@@ -5147,6 +5200,7 @@
     <Infographics>Инфографика</Infographics>
     <InfoMessage>{0} - {1} намерени.</InfoMessage>
     <InformationMessages>Информационни съобщения</InformationMessages>
+    <IpAddress>IP Адрес</IpAddress>
     <LabelAlias>Псевдоним:</LabelAlias>
     <LabelAuthor>Автор:</LabelAuthor>
     <LabelBackground>Фон:</LabelBackground>
@@ -5191,6 +5245,7 @@
     <Obsoleted>Остаряло</Obsoleted>
     <Office2010Back>Обратно</Office2010Back>
     <PageNofM>Страница {0} от {1}</PageNofM>
+    <Phone>Телефон</Phone>
     <PreparingReport>Подготовка на отчета</PreparingReport>
     <Professional>Професионален</Professional>
     <ProfessionalConfiguration>Всички свойства на обекта.</ProfessionalConfiguration>
@@ -5206,6 +5261,7 @@
     <SaveReportPagesOrFormsFromReport>Съхраняване на отчета, страници или форми</SaveReportPagesOrFormsFromReport>
     <SavingReport>Съхранене на отчет</SavingReport>
     <ScriptEvalAccess>Достъп до Script Eval</ScriptEvalAccess>
+    <ScriptSecurity>Сигурност на скриптовете</ScriptSecurity>
     <SecondPass>Втори преход</SecondPass>
     <Shapes>Форми</Shapes>
     <ShowOnParametersPanel>Показване в панела с параметри</ShowOnParametersPanel>
@@ -5485,6 +5541,7 @@
     <FontSize>Размер на шрифт</FontSize>
     <FontStyleBold>Подчертан стил на шрифт</FontStyleBold>
     <FontStyleItalic>Курсивен стил на шрифт</FontStyleItalic>
+    <FontStyleStrikeout>Зачертан текст</FontStyleStrikeout>
     <FontStyleUnderline>Подчертан стил на шрифт</FontStyleUnderline>
     <Link>Връзка</Link>
     <Lock>Заключване</Lock>
@@ -5569,11 +5626,13 @@
     <ButtonNext>&amp;Следващ &gt;</ButtonNext>
     <ColumnsOrder>Подредба на колони</ColumnsOrder>
     <Company>Компания</Company>
+    <CreateDataManually>Създаване на данни ръчно</CreateDataManually>
     <Custom>По избор</Custom>
     <DataRelation>Релация</DataRelation>
     <DataSource>Източник на данни</DataSource>
     <DataSources>Източници на данни</DataSources>
     <DefaultThemes>Тема по подразбиране</DefaultThemes>
+    <EditUserSource>Редактиране на потребителски източник</EditUserSource>
     <Examples>Примери</Examples>
     <Filters>Филтри</Filters>
     <FromReportTemplate>От шаблон на отчет</FromReportTemplate>
@@ -5619,6 +5678,7 @@
     <Mapping>Картографиране</Mapping>
     <MarkAll>Маркирай &amp;Всичко</MarkAll>
     <MasterDetailReport>Master-Detail отчет</MasterDetailReport>
+    <NewUserSource>Нов потребителски източник</NewUserSource>
     <NoFunction>[Няма]</NoFunction>
     <OpenExistingReport>Отвори съществуващ отчет</OpenExistingReport>
     <OpenFrom>Отвори от {0}</OpenFrom>

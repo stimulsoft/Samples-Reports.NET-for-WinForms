@@ -141,6 +141,8 @@
     <Design>Conception</Design>
     <Down>Descendre</Down>
     <Duplicate>Dupliquer</Duplicate>
+    <EditAsData>Éditer comme données</EditAsData>
+    <EditAsText>Éditer comme texte</EditAsText>
     <Export>Exporter</Export>
     <ForceDelete>Suppression forcé</ForceDelete>
     <Help>Aide</Help>
@@ -675,6 +677,7 @@
     <StiHeaderBand>En-tête</StiHeaderBand>
     <StiHierarchicalBand>Bande hiérarchique</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Ligne horizontale</StiHorizontalLinePrimitive>
+    <StiIcon>Icône</StiIcon>
     <StiImage>Image</StiImage>
     <StiIndicator>Indicateur</StiIndicator>
     <StiListBox>Liste</StiListBox>
@@ -933,16 +936,20 @@
   <Dialogs>
     <StiButtonControl>Bouton</StiButtonControl>
     <StiCheckBoxControl>Case à cocher</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Groupe de cases à cocher</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Liste avec cases à cocher</StiCheckedListBoxControl>
     <StiComboBoxControl>Liste déroulante</StiComboBoxControl>
+    <StiDatePickerControl>Sélecteur de date</StiDatePickerControl>
     <StiDateTimePickerControl>Sélection date/heure</StiDateTimePickerControl>
     <StiForm>Fiche</StiForm>
     <StiGridControl>Grille</StiGridControl>
     <StiGroupBoxControl>Boîte de regroupement</StiGroupBoxControl>
     <StiLabelControl>Libellé</StiLabelControl>
     <StiListBoxControl>Liste</StiListBoxControl>
+    <StiListControl>Liste</StiListControl>
     <StiListViewControl>Liste vue</StiListViewControl>
     <StiLookUpBoxControl>Boîte de consultation</StiLookUpBoxControl>
+    <StiNumberInputControl>Entrée numérique</StiNumberInputControl>
     <StiNumericUpDownControl>Numérique haut/bas</StiNumericUpDownControl>
     <StiPanelControl>Panneau</StiPanelControl>
     <StiPictureBoxControl>Image</StiPictureBoxControl>
@@ -950,9 +957,11 @@
     <StiRadioGroupControl>Groupe radio</StiRadioGroupControl>
     <StiReportControl>Contrôle de rapport</StiReportControl>
     <StiRichTextBoxControl>Editeur Rtf</StiRichTextBoxControl>
+    <StiSelectControl>Sélectionner</StiSelectControl>
     <StiSliderControl>Curseur</StiSliderControl>
     <StiSwitchControl>Bascule</StiSwitchControl>
     <StiTextBoxControl>Zone de texte</StiTextBoxControl>
+    <StiTextInputControl>Entrée de texte</StiTextInputControl>
     <StiTreeViewControl>Arborescence</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1054,6 +1063,7 @@
     <ContinuousPages>Pages continues</ContinuousPages>
     <DataAndHeaders>Données et en-têtes</DataAndHeaders>
     <DataAndHeadersFooters>Données et En-têtes/Pieds de page</DataAndHeadersFooters>
+    <DataExport>Exportation de données</DataExport>
     <DataOnly>Données seules</DataOnly>
     <DigitalSignature>Signature numérique</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>le certificat n'a pas été sélectionné</DigitalSignatureCertificateNotSelected>
@@ -1133,6 +1143,7 @@
     <OpenAfterExport>Ouvrir après l'export</OpenAfterExport>
     <Ordered>En ordre</Ordered>
     <PdfACompliance>Conformité PDF/A</PdfACompliance>
+    <PdfUA>PDF/UA (Accessibilité universelle)</PdfUA>
     <PrintingReport>Impression du rapport</PrintingReport>
     <RemoveEmptySpaceAtBottom>Enlever l'espace vide en bas de page</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Restreindre l'édition:</RestrictEditing>
@@ -1476,6 +1487,7 @@
     <DictionarySaveAs>Enregistrer le dictionnaire sous...</DictionarySaveAs>
     <DragNewDataSource>déposer vos données directement sur ce panneau</DragNewDataSource>
     <DragNewReport>déposer votre rapport directement sur ce panneau</DragNewReport>
+    <EditData>Modifier les données</EditData>
     <EditQuery>Édition de la requête</EditQuery>
     <EnableDataMonitor>Activer le moniteur de données</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>L'interrogation SQL a été exécutée avec succès</ExecutedSQLStatementSuccessfully>
@@ -1485,6 +1497,8 @@
     <GetColumnsFromAssembly>Recupérer les colonnes à partir de l'assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Masquer les sources de données non prises en charge</HideUnsupportedDatabases>
     <ImportRelations>Importer des relations</ImportRelations>
+    <InsertColumnLeft>Insérer une colonne à gauche</InsertColumnLeft>
+    <InsertColumnRight>Insérer une colonne à droite</InsertColumnRight>
     <LabelSeparator>Separateur:</LabelSeparator>
     <MarkUsedItems>Marquer les éléments utilisés</MarkUsedItems>
     <NewBusinessObject>Nouvel objet métier</NewBusinessObject>
@@ -2091,6 +2105,7 @@
     <CompilationAccessForceInterpretation>Les documents avec compilation seront ouverts sans invite mais seront automatiquement convertis en mode interprétation, qui n'utilise pas le processus de compilation.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Vous passez en mode compilation. Ce mode permet d'exécuter différents codes et cela peut parfois être dangereux. Veuillez utiliser ce mode uniquement si vous comprenez tous les risques et les acceptez. Cliquez sur le bouton {0} pour continuer.</CompilationModeEnabling>
     <ComponentSize>Changer la taille des composants sélectionnés.</ComponentSize>
+    <ComponentsMenu>Ouvre le menu Composants contenant les éléments de tableau de bord inutilisés sur la surface mobile.</ComponentsMenu>
     <CopyStyle>Copier le Style</CopyStyle>
     <CopyToClipboard>Copier dans le Presse-papiers</CopyToClipboard>
     <CurrencySymbol>Selectionner le symbole monétaire.</CurrencySymbol>
@@ -2147,6 +2162,7 @@
     <menuEditCut>Coupe les composants sélectionnés du rapport et les place dans le presse-papier.</menuEditCut>
     <menuEditDelete>Supprime les composants sélectionnés.</menuEditDelete>
     <menuEditPaste>Colle le contenu du presse-papier dans le rapport.</menuEditPaste>
+    <menuExportSettings>Ouvre l'éditeur Paramètres d'exportation pour le rapport ou le tableau de bord actuel. Les paramètres ne sont appliqués que lors de l'exportation du rapport ou du tableau de bord actuel.</menuExportSettings>
     <menuFAQPage>Aller à la page web de la Foire Aux Questions.</menuFAQPage>
     <menuGlobalizationStrings>Ouvrir l'éditeur de chaînes localisées pour le rapport courant.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Obtenir les informations sur la version du générateur de rapports et la version du Framework .Net.</menuHelpAboutProgramm>
@@ -2179,7 +2195,9 @@
     <PageSize>Choisir le format de papier pour la page courrante du rapport.</PageSize>
     <PagesManager>Exécuter le Gestionnaire de pages.</PagesManager>
     <PressF1>appuyez sur F1 pour plus de détails</PressF1>
+    <PropertiesButton>Active le panneau Propriétés avec les propriétés du modèle de rapport.</PropertiesButton>
     <Redo>Refaire la modification précédemment annulée dans un rapport.</Redo>
+    <RemoveMobileSurfaceButton>Supprime la surface mobile du tableau de bord actuel.</RemoveMobileSurfaceButton>
     <ReportNew>Créer un nouveau rapport.</ReportNew>
     <ReportOpen>Ouvrir un rapport dans le concepteur.</ReportOpen>
     <ReportPreview>Aperçu de rapport édité.</ReportPreview>
@@ -2206,6 +2224,8 @@
     <TextFormat>Choisir le formatage des valeurs.</TextFormat>
     <ToolbarStyle>Appliquer le style à tous les composants sélectionnés.</ToolbarStyle>
     <Undo>Annuler les dernières modifications d'un rapport.</Undo>
+    <ViewModeDesktopButton>Activer la surface de bureau.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Activer la surface mobile.</ViewModeMobileButton>
     <WordWrap>Renvoi à la ligne automatique du texte d'un composant.</WordWrap>
     <Zoom>Préciser le niveau de zoom de rapport.</Zoom>
   </HelpDesigner>
@@ -2293,6 +2313,7 @@
     <PageSize>Modifiez les paramètres de page dans un rapport.</PageSize>
     <Parameters>Afficher le panneau de paramètres utilisé quand le rapport est affiché.</Parameters>
     <PdfACompliance>Support du standard d'archivage longue durée et de stockage de documents électroniques.</PdfACompliance>
+    <PdfUniversalAccessibility>Prise en charge de la norme des documents et informations électroniques universellement accessibles.</PdfUniversalAccessibility>
     <Print>Imprimer un rapport.</Print>
     <PutFeedPageCode>Utiliser un caractère spécial pour les sauts de pages dans le document.</PutFeedPageCode>
     <RangePages>Les numéros de pages à traiter. Vous pouvez spécifier un numéro de page unique, une liste de numéros de pages (séparés par des virgules), ou encore une plage de numéros de pages, en séparant la page de début et la page de fin par le caractère "-". Par exemple : 1,3,5-12.</RangePages>
@@ -2338,6 +2359,7 @@
     <menuContextClone>Cloner...</menuContextClone>
     <menuContextDesign>Modifier...</menuContextDesign>
     <menuContextTextFormat>Format...</menuContextTextFormat>
+    <menuConvertTo>Convertir en {0}</menuConvertTo>
     <menuConvertToCheckBox>Convertir en case à cocher</menuConvertToCheckBox>
     <menuConvertToImage>Convertir en image</menuConvertToImage>
     <MenuConvertToRichText>Convertir en texte enrichi</MenuConvertToRichText>
@@ -2568,7 +2590,9 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <DeveloperInformation>Informations développeur</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>La date de fin doit être plus grande que la date du jour!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>La date de fin doit être plus grande que la date de début!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Erreur</Error>
     <ExecutionError>Erreur d'exécution</ExecutionError>
+    <ExpressionValidationFailed>Validation de l'expression échouée.</ExpressionValidationFailed>
     <GracePeriod>La période de grâce de votre abonnement expirera dans {0} jours.</GracePeriod>
     <IsIdentical>"{0}" et "{1}" sont identiques."</IsIdentical>
     <IsNotAuthorized>Pas d'accès pour "{0}"!</IsNotAuthorized>
@@ -2584,8 +2608,13 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ItemCantBeMovedToSpecifiedPlace>L'élément ne peut pas êter déplacé vers l'emplacement spécifié!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>L'élément ne suppoerte pas "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Clé et AClé sont égaux!</KeyAndToKeyAreEqual>
+    <LengthRange>La longueur doit être entre {0} et {1}.</LengthRange>
     <MaximumComputers>Nombre maximum d'ordinateurs</MaximumComputers>
+    <MaximumLength>La longueur maximale est {0}.</MaximumLength>
+    <MaximumValue>Le maximum est {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Attention! La taille du fichier que vous essayez d'ajouter excède la taille maximale autorisé. Voulez-vous quand même ajouter ce fichier (le temps de rendu du rapport peut en être significativement impacté) ?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>La longueur minimale est {0}.</MinimumLength>
+    <MinimumValue>Le minimum est {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} est disponible.</NewDesignerAvailable>
     <NewProduct>Un nouveau produit a été ajouté à votre abonnement!</NewProduct>
     <NewVersionsAvailable>Une nouvelle version est disponible !</NewVersionsAvailable>
@@ -2631,6 +2660,9 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <NotificationTransferring>L'élément "{0}" est en cours de transfert vers "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>L'élément "{0}" ia été transféré vers "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Cette valeur n'est pas correfcte pour le type {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Seuls les chiffres sont autorisés.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Seules les lettres sont autorisées.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Seules les lettres et les chiffres sont autorisés.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>en dehors des brones ("{0}")!</OutOfRange>
     <ParsingCommandException>Une exception de traitement de la commande dans le xml spécifié: {0}</ParsingCommandException>
     <PleaseLogin>Veuillez vous connecter à l'aide de vos identifiants de compte Stimulsoft ou enregistrer un nouveau compte avant de publier le rapport.</PleaseLogin>
@@ -2657,6 +2689,12 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <SubscriptionsOut20>Votre abonnement va expirer dans 20 jours!</SubscriptionsOut20>
     <SuccessfullyRenewed>Votre abonnement a été mis à jour!</SuccessfullyRenewed>
     <TrialToLicense>Merci d'avoir choisi Stimulsoft!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>L'URL doit utiliser http:// ou https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>La valeur est requise!</ValueIsRequired>
+    <ValueMatchPattern>La valeur ne correspond pas au modèle requis.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>La valeur doit être supérieure ou égale à {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>La valeur doit être inférieure ou égale à {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>Le nombre doit être entre {0} et {1}.</ValueRange>
     <VersionCopyFromItem>Copier depuis l'élément "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Créé depuis le fichier "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Créé depuis l'élément "{0}".</VersionCreatedFromItem>
@@ -4218,6 +4256,8 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <GroupDataColumn>Grouper les colonnes de données</GroupDataColumn>
     <GroupMeter>Groupe</GroupMeter>
     <GrowToHeight>Agrandir à la hauteur</GrowToHeight>
+    <HandleBorderColor>Couleur de bordure de poignée</HandleBorderColor>
+    <HandleFillColor>Couleur de remplissage de poignée</HandleFillColor>
     <Header>Entête</Header>
     <HeaderAlignment>Alignement de l'en-tête</HeaderAlignment>
     <HeaderBackColor>Couleur de fond de l'en-tête</HeaderBackColor>
@@ -4486,6 +4526,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <NextPage>Page suivante</NextPage>
     <NoElements>Aucun élément</NoElements>
     <NoIcon>Pas d'icone</NoIcon>
+    <Notifications>Notifications</Notifications>
     <NullText>Texte nul</NullText>
     <NumberOfColumns>Nombre de colonnes</NumberOfColumns>
     <NumberOfCopies>Nombre de copies</NumberOfCopies>
@@ -4531,6 +4572,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ParetoSeriesColors>Couleurs de série Pareto</ParetoSeriesColors>
     <PasswordChar>Caractère de mot de passe</PasswordChar>
     <Path>Chemin</Path>
+    <PathColor>Couleur du chemin</PathColor>
     <PathData>Chemin des données</PathData>
     <PathSchema>Chemin du schéma</PathSchema>
     <Pattern>Modèle</Pattern>
@@ -4594,6 +4636,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Refresh>Actualiser</Refresh>
     <RefreshTime>Rafraichier le temps</RefreshTime>
     <Regular>Régulière</Regular>
+    <RegularExpression>Expression régulière</RegularExpression>
     <Relation>Relation</Relation>
     <RelationName>Nom de la relation</RelationName>
     <Relations>Relations</Relations>
@@ -4748,6 +4791,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <SkipValuesObj>Ignorer les valeurs</SkipValuesObj>
     <Smoothing>Lissage</Smoothing>
     <SnapMode>Mode d’alignement</SnapMode>
+    <SnapPageWidthToGrid>Aligner la largeur de la page à la grille</SnapPageWidthToGrid>
     <Sort>Tri</Sort>
     <SortBy>Trier par</SortBy>
     <SortDirection>Direction du tri</SortDirection>
@@ -4860,6 +4904,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ToolTipBrush>Pinceau de l'infobulle</ToolTipBrush>
     <ToolTipCornerRadius>Rayon d'angle de l'infobulle</ToolTipCornerRadius>
     <ToolTipDataColumn>Info-bulle de la colonne de données</ToolTipDataColumn>
+    <ToolTipText>Texte d'info-bulle</ToolTipText>
     <ToolTipTextBrush>Pinceau du texte de l'infobulle</ToolTipTextBrush>
     <Top>Haut</Top>
     <TopLeft>Haut-Gauche</TopLeft>
@@ -4907,6 +4952,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <UseStyleOfSummaryInRowTotal>Utiliser le style du résumé pour les totals de lignes</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Utiliser la photo de l'utilisateur</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Utiliser les valeurs de la gamme spécifiée</UseValuesFromTheSpecifiedRange>
+    <Validation>Validation</Validation>
     <Value>Valeur</Value>
     <ValueClose>Valeur de clôture</ValueClose>
     <ValueDataColumn>Colonne de données de valeur</ValueDataColumn>
@@ -5114,7 +5160,9 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
   <Report>
     <ActiveRelation>Relation active</ActiveRelation>
     <Address>Adresse</Address>
+    <Alpha>Alphabétique</Alpha>
     <Alphabetical>Alphabétique</Alphabetical>
+    <AlphaNumeric>Alphanumérique</AlphaNumeric>
     <Bands>Bandes</Bands>
     <Basic>Basique</Basic>
     <BasicConfiguration>Nombre minimal de propriétés d'objet nécessaires pour le rendu des types de rapports basiques.</BasicConfiguration>
@@ -5141,6 +5189,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <DashboardOnly>Tableau de bord et transformation de données uniquement</DashboardOnly>
     <Dialogs>Contrôles</Dialogs>
     <EditStyles>Éditer les styles</EditStyles>
+    <Email>E-mail</Email>
     <EnableCacheAllDataMode>Activer le mode « Mettre en cache toutes les données »</EnableCacheAllDataMode>
     <Enhancements>Enhancements</Enhancements>
     <EnterDataManually>Saisir les données manuellement</EnterDataManually>
@@ -5163,6 +5212,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Infographics>Infographiques</Infographics>
     <InfoMessage>{0} - {1} trouvé.</InfoMessage>
     <InformationMessages>Messages d'information</InformationMessages>
+    <IpAddress>Adresse IP</IpAddress>
     <LabelAlias>Alias :</LabelAlias>
     <LabelAuthor>Auteur :</LabelAuthor>
     <LabelBackground>Arrière-plan :</LabelBackground>
@@ -5207,6 +5257,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Obsoleted>Obsolète</Obsoleted>
     <Office2010Back>Précédent</Office2010Back>
     <PageNofM>Page {0} sur {1}</PageNofM>
+    <Phone>Téléphone</Phone>
     <PreparingReport>Préparation du rapport en cours</PreparingReport>
     <Professional>Professionel</Professional>
     <ProfessionalConfiguration>Toutes les propriétés d'objet.</ProfessionalConfiguration>
@@ -5497,6 +5548,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <FontSize>Taille de la police</FontSize>
     <FontStyleBold>Gras</FontStyleBold>
     <FontStyleItalic>Italique</FontStyleItalic>
+    <FontStyleStrikeout>Styles de police barré</FontStyleStrikeout>
     <FontStyleUnderline>Souligné</FontStyleUnderline>
     <Link>Lien</Link>
     <Lock>Verrou</Lock>
@@ -5581,11 +5633,13 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ButtonNext>Suivant &gt;</ButtonNext>
     <ColumnsOrder>Ordre des colonnes</ColumnsOrder>
     <Company>Société</Company>
+    <CreateDataManually>Créer des données manuellement</CreateDataManually>
     <Custom>Personnalisé</Custom>
     <DataRelation>Relation</DataRelation>
     <DataSource>Source de données</DataSource>
     <DataSources>Sources de données</DataSources>
     <DefaultThemes>Thèmes par défaut</DefaultThemes>
+    <EditUserSource>Modifier la source utilisateur</EditUserSource>
     <Examples>Exemples</Examples>
     <Filters>Filtres</Filters>
     <FromReportTemplate>A partir du modèle de rapport</FromReportTemplate>
@@ -5631,6 +5685,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Mapping>Mappage</Mapping>
     <MarkAll>Marquer tout</MarkAll>
     <MasterDetailReport>Rapport Maître/Détails</MasterDetailReport>
+    <NewUserSource>Nouvelle source utilisateur</NewUserSource>
     <NoFunction>[Aucun]</NoFunction>
     <OpenExistingReport>Ouvrir un rapport existant</OpenExistingReport>
     <OpenFrom>Ouvrir depuis {0}</OpenFrom>

@@ -141,6 +141,8 @@
     <Design>Upraviť</Design>
     <Down>Dolu</Down>
     <Duplicate>Kopírovať</Duplicate>
+    <EditAsData>Editovať ako dáta</EditAsData>
+    <EditAsText>Editovať ako text</EditAsText>
     <Export>Export</Export>
     <ForceDelete>Vynútiť výmaz</ForceDelete>
     <Help>Pomoc</Help>
@@ -675,6 +677,7 @@
     <StiHeaderBand>Záhlavie</StiHeaderBand>
     <StiHierarchicalBand>Stromový pruh</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Vodorovná čiara</StiHorizontalLinePrimitive>
+    <StiIcon>Ikona</StiIcon>
     <StiImage>Obrázok</StiImage>
     <StiIndicator>Indikátor</StiIndicator>
     <StiListBox>Zoznam</StiListBox>
@@ -934,16 +937,20 @@
   <Dialogs>
     <StiButtonControl>Tlačidlo</StiButtonControl>
     <StiCheckBoxControl>Zaškrtávacie políčko</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Skupina zaškrtávacích políčok</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Zoznam zaškrtávacích políčok</StiCheckedListBoxControl>
     <StiComboBoxControl>Rozbaľovací zoznam</StiComboBoxControl>
+    <StiDatePickerControl>Výber dátumu</StiDatePickerControl>
     <StiDateTimePickerControl>Dátumový volič</StiDateTimePickerControl>
     <StiForm>Formulár</StiForm>
     <StiGridControl>Tabuľka</StiGridControl>
     <StiGroupBoxControl>Skupinový rámček</StiGroupBoxControl>
     <StiLabelControl>Popis</StiLabelControl>
     <StiListBoxControl>Zoznam</StiListBoxControl>
+    <StiListControl>Zoznam</StiListControl>
     <StiListViewControl>Pohľad Zoznam</StiListViewControl>
     <StiLookUpBoxControl>Vyhľadávacie políčko</StiLookUpBoxControl>
+    <StiNumberInputControl>Vstup čísiel</StiNumberInputControl>
     <StiNumericUpDownControl>Číslo hore dolu</StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Obrázok</StiPictureBoxControl>
@@ -952,9 +959,11 @@
     <StiRadioGroupControl>Skupina prepínačov</StiRadioGroupControl>
     <StiReportControl>Ovládací prvok zostavy</StiReportControl>
     <StiRichTextBoxControl>Rich text box</StiRichTextBoxControl>
+    <StiSelectControl>Vybrať</StiSelectControl>
     <StiSliderControl>Posuvník</StiSliderControl>
     <StiSwitchControl>Prepnúť</StiSwitchControl>
     <StiTextBoxControl>Textové pole</StiTextBoxControl>
+    <StiTextInputControl>Vstup textu</StiTextInputControl>
     <StiTreeViewControl>Strom</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1056,6 +1065,7 @@
     <ContinuousPages>Neprerušované stránky</ContinuousPages>
     <DataAndHeaders>Dáta a hlavičky</DataAndHeaders>
     <DataAndHeadersFooters>Dáta a záhlavia/päty</DataAndHeadersFooters>
+    <DataExport>Export dát</DataExport>
     <DataOnly>Len dáta</DataOnly>
     <DigitalSignature>Digitálny podpis</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Certifikát nie je vybraný</DigitalSignatureCertificateNotSelected>
@@ -1135,6 +1145,7 @@
     <OpenAfterExport>Otvoriť po exporte</OpenAfterExport>
     <Ordered>Zotriedené</Ordered>
     <PdfACompliance>PDF/A kompatibilita</PdfACompliance>
+    <PdfUA>PDF/UA (univerzálny prístup)</PdfUA>
     <PrintingReport>Tlač zostavy</PrintingReport>
     <RemoveEmptySpaceAtBottom>Odstrániť prázdny priestor na spodku stránky</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Zakázať editovanie:</RestrictEditing>
@@ -1479,6 +1490,7 @@
     <DictionarySaveAs>Uložiť slovník ako...</DictionarySaveAs>
     <DragNewDataSource>Potiahnuť dáta priamo na panel</DragNewDataSource>
     <DragNewReport>Potiahnuť zostavu priamo na panel</DragNewReport>
+    <EditData>Editovať dáta</EditData>
     <EditQuery>Upraviť dopyt</EditQuery>
     <EnableDataMonitor>Povoliť sledovanie údajov</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL príkaz vykonaný úspešne</ExecutedSQLStatementSuccessfully>
@@ -1488,6 +1500,8 @@
     <GetColumnsFromAssembly>Daj stĺpce zo zostavenia</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Skryť nepodporované zdroje dát</HideUnsupportedDatabases>
     <ImportRelations>Importovať závislosti</ImportRelations>
+    <InsertColumnLeft>Vložiť stĺpec doľava</InsertColumnLeft>
+    <InsertColumnRight>Vložiť stĺpec doprava</InsertColumnRight>
     <LabelSeparator>Oddeľovač:</LabelSeparator>
     <MarkUsedItems>Označiť použité položky</MarkUsedItems>
     <NewBusinessObject>Nový Business objekt</NewBusinessObject>
@@ -2086,6 +2100,7 @@
     <CompilationAccessForceInterpretation>Dokumenty s kompiláciou sa otvoria bez výzvy, ale automaticky sa skonvertujú do režimu interpretácie, ktorý nevyužíva proces kompilácie.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Prechádzate do režimu kompilácie. Tento režim umožňuje spúšťať odlišný kód a niekedy môže byť škodlivý. Prosím, používajte tento režim len vtedy, ak rozumiete všetkým rizikám a súhlasíte s nimi. Pokračujte kliknutím na tlačidlo {0}.</CompilationModeEnabling>
     <ComponentSize>Zmeniť veľkosť vybraných prvkov.</ComponentSize>
+    <ComponentsMenu>Otvorí ponuku Komponenty obsahujúcu nepoužívané prvky ovládacieho panela na mobilnom rozhraní.</ComponentsMenu>
     <CopyStyle>Kopírovať štýl</CopyStyle>
     <CopyToClipboard>Kopírovať do schránky</CopyToClipboard>
     <CurrencySymbol>Vybrať symbol meny.</CurrencySymbol>
@@ -2142,6 +2157,7 @@
     <menuEditCut>Vystrihnúť vybrané prvky zo zostavy a uložiť ich do schránky.</menuEditCut>
     <menuEditDelete>Zmazať vybrané prvky.</menuEditDelete>
     <menuEditPaste>Vložiť obsah schránky do zostavy.</menuEditPaste>
+    <menuExportSettings>Otvorí editor nastavení exportu pre aktuálnu zostavu alebo dashboard. Nastavenia sa použijú iba pri exporte aktuálnej zostavy alebo dashboardu.</menuExportSettings>
     <menuFAQPage>Choď na web stránku s najčastejšími otázkami.</menuFAQPage>
     <menuGlobalizationStrings>Spusti editor globalizačných reťazcov pre aktuálnu zostavu.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Získať informáciu o verzii generátora zostáv a verzii .Net Frameworku.</menuHelpAboutProgramm>
@@ -2174,13 +2190,17 @@
     <PageSize>Vybrať veľkosť papiera pre aktuálnu stránku zostavy.</PageSize>
     <PagesManager>Spustiť the Manažér stránok.</PagesManager>
     <PressF1>Stlač F1 pre viacej podrobností</PressF1>
+    <PropertiesButton>Aktivuje panel Vlastnosti s vlastnosťami šablóny zostavy.</PropertiesButton>
     <Redo>Vrátiť späť predtým zrušené zmeny v zostave.</Redo>
+    <RemoveMobileSurfaceButton>Odstráni mobilný povrch z aktuálneho dashboardu.</RemoveMobileSurfaceButton>
     <ReportNew>Vytvoriť novú zostavu.</ReportNew>
     <ReportOpen>Otvoriť zostavu v dizajnéri.</ReportOpen>
     <ReportPreview>Zobraziť editovanú zostavu v prehliadači.</ReportPreview>
     <ReportSave>Uložiť aktuálne editovanú zostavu.</ReportSave>
     <ScriptEvalAccess1>Tento dokument používa spustenie skriptu. Ak dokument pochádza z dôveryhodného zdroja, môžete kliknúť na tlačidlo „Otvoriť“.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Ak si nie ste istí zdrojom dokumentu, ale stále si ho chcete zobraziť, môžete kliknúť na tlačidlo „Otvoriť v núdzovom režime“. V takom prípade bude príkaz spustenia skriptu ignorovaný a nebude vykonaný.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Úplný prístup k skriptom (bez obmedzení, potenciálne nebezpečné).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Bezpečný prístup k skriptom (obmedzené možnosti z bezpečnostných dôvodov).</ScriptSecuritySafeMode>
     <SelectAll>Vybrať všetky prvky pre aktuálnu stránku.</SelectAll>
     <SelectUILanguage>Vybrať jazyk pre UI.</SelectUILanguage>
     <SendToBack>Presunúť vybraný prvok dozadu relatívne k ostatným prvkom.</SendToBack>
@@ -2199,6 +2219,8 @@
     <TextFormat>Vybrať formát hodnôt.</TextFormat>
     <ToolbarStyle>Použiť vybraný štýl na všetky vybrané prvky.</ToolbarStyle>
     <Undo>Vrátiť posledné zmeny v zostave.</Undo>
+    <ViewModeDesktopButton>Aktivovať povrch pracovnej plochy.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Aktivovať mobilný povrch.</ViewModeMobileButton>
     <WordWrap>Rozdeliť text prvku.</WordWrap>
     <Zoom>Špecifikovať zväčšenie zostavy.</Zoom>
   </HelpDesigner>
@@ -2286,6 +2308,7 @@
     <PageSize>Zmeniť parametre stránky v zostave.</PageSize>
     <Parameters>Ukázať panel s parametrami, ktoré sú použité pri renderovaní zostavy.</Parameters>
     <PdfACompliance>Podpora pre štandardy dlhodobej archivácie a ukladania elektronických dokumentov.</PdfACompliance>
+    <PdfUniversalAccessibility>Podpora štandardu pre univerzálne dostupné elektronické dokumenty a informácie.</PdfUniversalAccessibility>
     <Print>Vytlačiť zostavu.</Print>
     <PutFeedPageCode>Naplň stránky výstupného dokumentu špeciálnym znakom.</PutFeedPageCode>
     <RangePages>Čísla stránok pre spracovanie. Môžete zadať jednu stránku, zoznam stránok (použiť čiarku ako oddeľovač), taktiež zadať rozsah stránok, počiatočná stránka "-" a posledná stránka. Na príklad: 1,3,5-12.</RangePages>
@@ -2331,6 +2354,7 @@
     <menuContextClone>Klonovať...</menuContextClone>
     <menuContextDesign>Upraviť...</menuContextDesign>
     <menuContextTextFormat>Formát textu...</menuContextTextFormat>
+    <menuConvertTo>Konvertovať na {0}</menuConvertTo>
     <menuConvertToCheckBox>Konvertovať na Zaškrtávacie políčko</menuConvertToCheckBox>
     <menuConvertToImage>Konvertovať na Obrázok</menuConvertToImage>
     <MenuConvertToRichText>Konvertovať na RichText</MenuConvertToRichText>
@@ -2559,7 +2583,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <DeveloperInformation>Informácie pre vývojárov</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Dátum do by mal byť väčší ako aktuálny dátum!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Dátum do by mal byť väčší ako dátum od!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Chyba</Error>
     <ExecutionError>Execution error</ExecutionError>
+    <ExpressionValidationFailed>Overenie výrazu zlyhalo.</ExpressionValidationFailed>
     <GracePeriod>Ochranná lehota vášho predplatného uplynie o {0} dní.</GracePeriod>
     <IsIdentical>"{0}" a "{1}" sú identické."</IsIdentical>
     <IsNotAuthorized>Bez prístupu na "{0}"!</IsNotAuthorized>
@@ -2575,8 +2601,13 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <ItemCantBeMovedToSpecifiedPlace>Položku nemožno presunúť na určené miesto!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Položka nepodporuje "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Väzba z a na je identická!</KeyAndToKeyAreEqual>
+    <LengthRange>Dĺžka musí byť medzi {0} a {1}.</LengthRange>
     <MaximumComputers>Maximálny počet počítačov</MaximumComputers>
+    <MaximumLength>Maximálna dĺžka je {0}.</MaximumLength>
+    <MaximumValue>Maximum je {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Pozor! Veľkosť súboru, ktorý sa pokúšate pridať, presahuje maximálnu povolenú veľkosť. Chcete tento súbor pridať (spracovanie prehľadov sa môže výrazne spomaliť)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Minimálna dĺžka je {0}.</MinimumLength>
+    <MinimumValue>Minimum je {0}.</MinimumValue>
     <NewDesignerAvailable>K dispozícii je Stimulsoft Designer {0}.</NewDesignerAvailable>
     <NewProduct>Do vášho predplatného bol pridaný nový produkt!</NewProduct>
     <NewVersionsAvailable>K dispozícii je nová verzia!</NewVersionsAvailable>
@@ -2622,6 +2653,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <NotificationTransferring>Položka "{0}" je presúvaná do "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>Položka "{0}" bola úspešne presunutá do "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Táto hodnota nie je správna pre typ {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Povolené sú iba číslice.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed> Povolené sú iba písmená.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Povolené sú iba písmená a číslice.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Mimo rozsah ("{0}")!</OutOfRange>
     <ParsingCommandException>Nastala výnimka pri spracovaní príkazu z daného xml: {0}</ParsingCommandException>
     <PleaseLogin>Pred zverejnením zostavy sa prihláste pomocou prihlasovacích údajov účtu Stimulsoft alebo si zaregistrujte nový účet.</PleaseLogin>
@@ -2648,6 +2682,12 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <SubscriptionsOut20>Perióda predplatného skončí v priebehu 20 dní!</SubscriptionsOut20>
     <SuccessfullyRenewed>Vaše predplatné bolo úspešne obnovené!</SuccessfullyRenewed>
     <TrialToLicense>Ďakujeme, že ste si vybrali Stimulsoft!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL adresa musí používať http:// alebo https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Hodnota je požadovaná!</ValueIsRequired>
+    <ValueMatchPattern>Hodnota nezodpovedá požadovanému vzoru.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>Hodnota musí byť väčšia alebo rovná {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>Hodnota musí byť menšia alebo rovná {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>Číslo musí byť medzi {0} a {1}.</ValueRange>
     <VersionCopyFromItem>Kopírovať z položky "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Vytvorené zo súboru "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Vytvorené z položky "{0}".</VersionCreatedFromItem>
@@ -3535,6 +3575,8 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <StiRestrictionsAllowResize>Povoliť zmeniť veľkosť</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Povoliť vybrať</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Žiadne</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Úplný prístup</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Núdzový režim</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Prvý</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Z premennej</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Žiadny</StiSelectionModeNothing>
@@ -4208,6 +4250,8 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <GroupDataColumn>Dátový stĺpec</GroupDataColumn>
     <GroupMeter>Skupina</GroupMeter>
     <GrowToHeight>Prispôsobiť na výšku</GrowToHeight>
+    <HandleBorderColor>Farba okraja</HandleBorderColor>
+    <HandleFillColor>Farba výplne</HandleFillColor>
     <Header>Hlavička</Header>
     <HeaderAlignment>Zarovnanie hlavičky</HeaderAlignment>
     <HeaderBackColor>Farba pozadia hlavičky</HeaderBackColor>
@@ -4477,6 +4521,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <NextPage>Ďalšia strana</NextPage>
     <NoElements>Žiadny element</NoElements>
     <NoIcon>Žiadna ikona</NoIcon>
+    <Notifications>Upozornenia</Notifications>
     <NullText>Prázdny text</NullText>
     <NumberOfColumns>Počet stĺpcov</NumberOfColumns>
     <NumberOfCopies>Počet kópií</NumberOfCopies>
@@ -4524,6 +4569,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <ParetoSeriesColors>Farby pre Pareto graf</ParetoSeriesColors>
     <PasswordChar>Znak hesla</PasswordChar>
     <Path>Cesta</Path>
+    <PathColor>Farba cesty</PathColor>
     <PathData>Cesta k dátam</PathData>
     <PathSchema>Cesta k schéme</PathSchema>
     <Pattern>Formát</Pattern>
@@ -4587,6 +4633,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Refresh>Obnoviť</Refresh>
     <RefreshTime>Čas obnovenia</RefreshTime>
     <Regular>Regulárne</Regular>
+    <RegularExpression>Regulárny výraz</RegularExpression>
     <Relation>Vzťah</Relation>
     <RelationName>Meno vzťahu</RelationName>
     <Relations>Vzťahy</Relations>
@@ -4741,6 +4788,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <SkipValuesObj>Preskočiť hodnoty</SkipValuesObj>
     <Smoothing>Vyhladzovanie</Smoothing>
     <SnapMode>Režim prichytenia</SnapMode>
+    <SnapPageWidthToGrid>Prichytiť šírku stránky k mriežke</SnapPageWidthToGrid>
     <Sort>Triedenie</Sort>
     <SortBy>Triediť podľa</SortBy>
     <SortDirection>Smer triedenia</SortDirection>
@@ -4765,7 +4813,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <StartPosition>Počiatočná pozícia</StartPosition>
     <StartValue>Počiatočná hodnota</StartValue>
     <StartWidth>Počiatočná šírka</StartWidth>
-    <State>Štát</State>
+    <State>Stav</State>
     <Step>Krok</Step>
     <Stop>Zastaviť</Stop>
     <StopBeforePage>Zastaviť pred stranou</StopBeforePage>
@@ -4853,6 +4901,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <ToolTipBrush>Výplň - popis</ToolTipBrush>
     <ToolTipCornerRadius>Polomer rohu - popis</ToolTipCornerRadius>
     <ToolTipDataColumn>Dátový stĺpec - nápoveda</ToolTipDataColumn>
+    <ToolTipText>Text popisu</ToolTipText>
     <ToolTipTextBrush>Výplň textu - popis</ToolTipTextBrush>
     <Top>Vrch</Top>
     <TopLeft>Hore vľavo</TopLeft>
@@ -4900,6 +4949,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <UseStyleOfSummaryInRowTotal>Použiť štýl súčtov v riadkových súčtoch</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Použiť obrázok používateľa</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Použiť hodnoty zo špecifického rozsahu</UseValuesFromTheSpecifiedRange>
+    <Validation>Validácia</Validation>
     <Value>Hodnota</Value>
     <ValueClose>Hodnota konca</ValueClose>
     <ValueDataColumn>Hodnota dátového stĺpca</ValueDataColumn>
@@ -5108,7 +5158,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
   <Report>
     <ActiveRelation>Aktívna relácia</ActiveRelation>
     <Address>Adresa</Address>
+    <Alpha>A-Z/a-z</Alpha>
     <Alphabetical>Abecedne</Alphabetical>
+    <AlphaNumeric>Alfanumerické</AlphaNumeric>
     <Bands>Pruhy</Bands>
     <Basic>Základný</Basic>
     <BasicConfiguration>Minimálny počet vlastností objektu, ktoré sú potrebné pre renderovanie zostáv základného typu.</BasicConfiguration>
@@ -5135,6 +5187,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <DashboardOnly>Iba panel a transformácia údajov</DashboardOnly>
     <Dialogs>Ovládacie prvky zostavy</Dialogs>
     <EditStyles>Upraviť štýly</EditStyles>
+    <Email>Email</Email>
     <EnableCacheAllDataMode>Povoliť režim 'Ukladať všetky údaje do vyrovnávacej pamäte'</EnableCacheAllDataMode>
     <Enhancements>Rozšírenia</Enhancements>
     <EnterDataManually>Zadať dáta manuálne</EnterDataManually>
@@ -5157,6 +5210,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Infographics>Informačná grafika</Infographics>
     <InfoMessage>{0} - {1} nájdených.</InfoMessage>
     <InformationMessages>Informačná správa</InformationMessages>
+    <IpAddress>IP adresa</IpAddress>
     <LabelAlias>Alias:</LabelAlias>
     <LabelAuthor>Autor:</LabelAuthor>
     <LabelBackground>Pozadie:</LabelBackground>
@@ -5201,6 +5255,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Obsoleted>Zastarané</Obsoleted>
     <Office2010Back>Späť</Office2010Back>
     <PageNofM>Strana {0} z {1}</PageNofM>
+    <Phone>Telefón</Phone>
     <PreparingReport>Príprava zostavy</PreparingReport>
     <Professional>Profesionálny</Professional>
     <ProfessionalConfiguration>Všetky vlastnosti objektu.</ProfessionalConfiguration>
@@ -5216,6 +5271,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <SaveReportPagesOrFormsFromReport>Uložiť zostavu, stránky alebo formuláre</SaveReportPagesOrFormsFromReport>
     <SavingReport>Ukladanie zostavy</SavingReport>
     <ScriptEvalAccess>Prístup k spusteniu skriptu</ScriptEvalAccess>
+    <ScriptSecurity>Zabezpečenie skriptov</ScriptSecurity>
     <SecondPass>Druhý prechod</SecondPass>
     <Shapes>Tvary</Shapes>
     <ShowOnParametersPanel>Zobraziť na paneli parametrov</ShowOnParametersPanel>
@@ -5494,6 +5550,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <FontSize>Veľkosť písma</FontSize>
     <FontStyleBold>Tučný štýl písma</FontStyleBold>
     <FontStyleItalic>Sklonený štýl písma</FontStyleItalic>
+    <FontStyleStrikeout>Prečiarknutý štýl písma</FontStyleStrikeout>
     <FontStyleUnderline>Podčiarknutý štýl písma</FontStyleUnderline>
     <Link>Odkaz</Link>
     <Lock>Zamknúť</Lock>
@@ -5578,11 +5635,13 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <ButtonNext>&amp;Ďalší &gt;</ButtonNext>
     <ColumnsOrder>Poradie stĺpcov</ColumnsOrder>
     <Company>Firma</Company>
+    <CreateDataManually>Vytvoriť údaje manuálne</CreateDataManually>
     <Custom>Užívateľský</Custom>
     <DataRelation>Relácia</DataRelation>
     <DataSource>Dátový zdroj</DataSource>
     <DataSources>Dátové zdroje</DataSources>
     <DefaultThemes>Predvolené témy</DefaultThemes>
+    <EditUserSource>Upraviť používateľský zdroj</EditUserSource>
     <Examples>Príklady</Examples>
     <Filters>Filtre</Filters>
     <FromReportTemplate>Zo šablóny</FromReportTemplate>
@@ -5628,6 +5687,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Mapping>Mapovanie</Mapping>
     <MarkAll>Označiť &amp;všetko</MarkAll>
     <MasterDetailReport>Master-Detail zostava</MasterDetailReport>
+    <NewUserSource>Nový používateľský zdroj</NewUserSource>
     <NoFunction>[Nič]</NoFunction>
     <OpenExistingReport>Otvoriť existujúcu zostavu</OpenExistingReport>
     <OpenFrom>Otvoriť z {0}</OpenFrom>
