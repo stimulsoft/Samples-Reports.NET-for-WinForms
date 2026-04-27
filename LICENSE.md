@@ -149,6 +149,29 @@ All files in stimulsoft-viewer-angular folder
 All files in stimulsoft-designer-angular folder  
 All .xml localization files
 
+**REACT**  
+Stimulsoft.Base.dll  
+Stimulsoft.Blockly.dll  
+Stimulsoft.Dashboard.dll  
+Stimulsoft.Dashboard.Drawing.dll  
+Stimulsoft.Dashboard.Export.dll  
+Stimulsoft.Data.dll  
+Stimulsoft.Drawing.dll  
+Stimulsoft.Map.dll  
+Stimulsoft.Report.Mvc.dll  
+Stimulsoft.Report.dll  
+Stimulsoft.Report.React.dll  
+Stimulsoft.Report.Check.dll  
+Stimulsoft.Report.Helper.dll  
+Stimulsoft.Report.Mvc.NetCore.dll  
+Stimulsoft.Report.Web.dll  
+Stimulsoft.Report.WebDesign.dll  
+Stimulsoft.Svg.dll  
+Stimulsoft.System.dll  
+Stimulsoft.System.Web.dll  
+All files in stimulsoft-viewer-react folder  
+All .xml localization files
+
 **WPF**  
 Stimulsoft.Base.dll  
 Stimulsoft.Blockly.dll  
@@ -289,6 +312,26 @@ Stimulsoft.System.dll
 Stimulsoft.System.Web.dll  
 All files in stimulsoft-viewer-angular folder  
 All files in stimulsoft-designer-angular folder  
+All .xml localization files
+
+### Stimulsoft Reports.REACT
+Stimulsoft.Base.dll  
+Stimulsoft.Blockly.dll  
+Stimulsoft.Data.dll  
+Stimulsoft.Drawing.dll  
+Stimulsoft.Map.dll  
+Stimulsoft.Report.Mvc.dll  
+Stimulsoft.Report.dll  
+Stimulsoft.Report.React.dll  
+Stimulsoft.Report.Check.dll  
+Stimulsoft.Report.Helper.dll  
+Stimulsoft.Report.Mvc.NetCore.dll  
+Stimulsoft.Report.Web.dll  
+Stimulsoft.Report.WebDesign.dll  
+Stimulsoft.Svg.dll  
+Stimulsoft.System.dll  
+Stimulsoft.System.Web.dll  
+All files in stimulsoft-viewer-react folder  
 All .xml localization files
 
 ### Stimulsoft Reports.WPF
@@ -517,4 +560,4 @@ This license is subject to change without notice in future updates to the SOFTWA
 
 YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. YOU FURTHER AGREE THAT IT IS THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN US, WHICH SUPERSEDES ANY PROPOSAL OR PRIOR AGREEMENT, ORAL OR WRITTEN, AND ANY OTHER COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF THIS AGREEMENT.
 
-### Copyright (C) 2003-2025 Stimulsoft, All rights reserved.
+### Copyright (C) 2003-2026 Stimulsoft, All rights reserved.
