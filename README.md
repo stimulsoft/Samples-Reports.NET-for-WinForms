@@ -32,7 +32,6 @@ This repository contains a set of examples (Visual Studio projects), each in dif
 * [Using Linq in Reports](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Using%20Linq%20in%20Reports)
 * [Using Report Variables in Code](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Using%20Report%20Variables%20in%20Code)
 * [Using the Form to Select Columns](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Using%20the%20Form%20to%20Select%20Columns)
-* [Using the Report Page Canvas for the Copyrights](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Using%20the%20Report%20Page%20Canvas%20for%20the%20Copyrights)
 * [Using the Right-To-Left Mode in the Viewer](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Using%20the%20Right-To-Left%20Mode%20in%20the%20Viewer)
 * [Using User Data in Reports](https://github.com/stimulsoft/Samples-Reports.NET-for-WinForms/tree/master/NET%20Framework%204.7.2/Using%20User%20Data%20in%20Reports)
 
