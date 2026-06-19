@@ -10,48 +10,48 @@ namespace Creating_Chart_at_Runtime
     /// Summary description for Form1.
     /// </summary>
     public class Form1 : Form
-	{
-		private string path = string.Empty;
+    {
+        private string path = string.Empty;
 
-		private Button button1;
+        private Button button1;
 
         /// <summary>
         /// Required designer variable.
         /// </summary>
         private Container components = null;
 
-		public Form1()
-		{
-			// How to Activate
-			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
-			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        public Form1()
+        {
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
-			InitializeComponent();
-		}
+            InitializeComponent();
+        }
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		protected override void Dispose( bool disposing )
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -82,21 +82,21 @@ namespace Creating_Chart_at_Runtime
             this.Text = "Creating Report at Runtime";
             this.ResumeLayout(false);
 
-		}
-		#endregion
+        }
+        #endregion
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main() 
-		{
-			// Enable HiDPI mode
-			Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
 
-			Application.EnableVisualStyles();
-			Application.Run(new Form1());
-		}
+            Application.EnableVisualStyles();
+            Application.Run(new Form1());
+        }
 
         StiReport report;
 
@@ -185,10 +185,10 @@ namespace Creating_Chart_at_Runtime
             ganttSeries.SeriesLabels = centerAxisLabels;
 
             chart.Series.Clear();
-            chart.Series.AddRange(new Stimulsoft.Report.Chart.IStiSeries[] { ganttSeries});
+            chart.Series.AddRange(new Stimulsoft.Report.Chart.IStiSeries[] { ganttSeries });
 
             page.Components.Clear();
-            page.Components.AddRange(new StiComponent[] { chart});
+            page.Components.AddRange(new StiComponent[] { chart });
 
             Data.Columns.AddRange(new Stimulsoft.Report.Dictionary.StiDataColumn[] {
                         new Stimulsoft.Report.Dictionary.StiDataColumn("Units", "Units", "Units", typeof(double), null),

@@ -16,13 +16,13 @@ namespace Rendering_a_Report_in_the_Thread
 		{
 			// How to Activate
 			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+			//Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
 			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
 			InitializeComponent();
-        }
+		}
 
-        Stimulsoft.Report.StiReport report = new Stimulsoft.Report.StiReport();
+		Stimulsoft.Report.StiReport report = new Stimulsoft.Report.StiReport();
 
 		private void button1_Click(object sender, EventArgs e)
 		{
@@ -31,10 +31,10 @@ namespace Rendering_a_Report_in_the_Thread
 
 		private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
 		{
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Rendering_a_Report_in_the_Thread.MasterDetailSubdetail.mrt"))
-            {
-                report.Load(stream);
-            }
+			using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Rendering_a_Report_in_the_Thread.MasterDetailSubdetail.mrt"))
+			{
+				report.Load(stream);
+			}
 
 			report.IsRendered = false;
 			report.Compile();
@@ -55,8 +55,8 @@ namespace Rendering_a_Report_in_the_Thread
 			report.Show();
 		}
 
-        private void button2_Click(object sender, EventArgs e)
-        {
+		private void button2_Click(object sender, EventArgs e)
+		{
 			for (int index = 0; index < 5; index++)
 			{
 				var worker = new BackgroundWorker();
@@ -80,7 +80,8 @@ namespace Rendering_a_Report_in_the_Thread
 
 		private void ReportTemplate_EndRender(object sender, EventArgs e)
 		{
-			button1.Invoke((EventHandler)delegate {
+			button1.Invoke((EventHandler)delegate
+			{
 				label1.Text = label1.Text + " OK";
 			});
 		}

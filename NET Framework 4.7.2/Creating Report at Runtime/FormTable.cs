@@ -11,14 +11,14 @@ using Stimulsoft.Base.Drawing;
 
 namespace Creating_Report_at_Runtime
 {
-	/// <summary>
-	/// Summary description for Form1.
-	/// </summary>
-	public class FormTable : Form
-	{
-		private Button button1;
-		private DataGrid dataGrid1;
-		private DataView dataView1;
+    /// <summary>
+    /// Summary description for Form1.
+    /// </summary>
+    public class FormTable : Form
+    {
+        private Button button1;
+        private DataGrid dataGrid1;
+        private DataView dataView1;
         private Panel panel1;
         private GroupBox groupBox2;
         private RadioButton rbAWTLastColumns;
@@ -28,16 +28,16 @@ namespace Creating_Report_at_Runtime
         private RadioButton rbAWPage;
         private RadioButton rbAWTable;
         private RadioButton rbAWNone;
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private Container components = null;
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private Container components = null;
 
-		public FormTable()
-		{
+        public FormTable()
+        {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -51,24 +51,24 @@ namespace Creating_Report_at_Runtime
         /// Clean up any resources being used.
         /// </summary>
         protected override void Dispose(bool disposing)
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTable));
             this.button1 = new System.Windows.Forms.Button();
             this.dataGrid1 = new System.Windows.Forms.DataGrid();
@@ -243,21 +243,21 @@ namespace Creating_Report_at_Runtime
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
-		}
-		#endregion
+        }
+        #endregion
 
-		private void PrintDataGrid(DataGrid sender)
-		{
-			DataView dataView = (DataView)sender.DataSource;
-			StiReport report = new StiReport();
-			report.ScriptLanguage = StiReportLanguageType.CSharp;
+        private void PrintDataGrid(DataGrid sender)
+        {
+            DataView dataView = (DataView)sender.DataSource;
+            StiReport report = new StiReport();
+            report.ScriptLanguage = StiReportLanguageType.CSharp;
 
-			//Add data to datastore
-			report.RegData("view", dataView);
-			
-			//Fill dictionary
-			report.Dictionary.Synchronize();
-			StiPage page = report.Pages.Items[0];
+            //Add data to datastore
+            report.RegData("view", dataView);
+
+            //Fill dictionary
+            report.Dictionary.Synchronize();
+            StiPage page = report.Pages.Items[0];
 
             //Create Table
             StiTable table = new StiTable();
@@ -265,8 +265,8 @@ namespace Creating_Report_at_Runtime
             if (rbAWNone.Checked)
                 table.AutoWidth = StiTableAutoWidth.None;
             else if (rbAWPage.Checked)
-                    table.AutoWidth = StiTableAutoWidth.Page;
-                else table.AutoWidth = StiTableAutoWidth.Table;
+                table.AutoWidth = StiTableAutoWidth.Page;
+            else table.AutoWidth = StiTableAutoWidth.Table;
 
             if (rbAWTNone.Checked)
                 table.AutoWidthType = StiTableAutoWidthType.None;
@@ -315,39 +315,39 @@ namespace Creating_Report_at_Runtime
             footerCell.VertAlignment = StiVertAlignment.Center;
             footerCell.HorAlignment = StiTextHorAlignment.Center;
 
-			//Render without progress bar
-			report.Render(false);
-			report.Show();
-		}
+            //Render without progress bar
+            report.Render(false);
+            report.Show();
+        }
 
-		private void button1_Click(object sender, EventArgs e)
-		{
-			PrintDataGrid(dataGrid1);
-		}
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PrintDataGrid(dataGrid1);
+        }
 
-		private void Form1_Load(object sender, EventArgs e)
-		{
-			DataTable table = new DataTable("Demo");
-			
-			table.Columns.Add();
-			table.Columns.Add();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            DataTable table = new DataTable("Demo");
+
+            table.Columns.Add();
+            table.Columns.Add();
             table.Columns.Add();
 
-			DataRow row1 = table.NewRow();
-			DataRow row2 = table.NewRow();
-			DataRow row3 = table.NewRow();
+            DataRow row1 = table.NewRow();
+            DataRow row2 = table.NewRow();
+            DataRow row3 = table.NewRow();
             DataRow row4 = table.NewRow();
 
-			row1.ItemArray = new string[3] { "1", "One", "true" };
+            row1.ItemArray = new string[3] { "1", "One", "true" };
             row2.ItemArray = new string[3] { "2", "Two", "false" };
             row3.ItemArray = new string[3] { "3", "Three", "false" };
             row4.ItemArray = new string[3] { "4", "Four", "true" };
 
-			table.Rows.Add(row1);
-			table.Rows.Add(row2);
-			table.Rows.Add(row3);
+            table.Rows.Add(row1);
+            table.Rows.Add(row2);
+            table.Rows.Add(row3);
             table.Rows.Add(row4);
-			dataView1.Table = table;
-		}
-	}
+            dataView1.Table = table;
+        }
+    }
 }

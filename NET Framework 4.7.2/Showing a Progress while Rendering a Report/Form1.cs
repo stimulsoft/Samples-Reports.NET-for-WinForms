@@ -16,13 +16,13 @@ namespace Showing_a_Progress_while_Rendering_a_Report
 		{
 			// How to Activate
 			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+			//Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
 			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
 			InitializeComponent();
-        }
+		}
 
-        StiReport report = new StiReport();
+		StiReport report = new StiReport();
 
 		private void button1_Click(object sender, EventArgs e)
 		{
@@ -35,7 +35,7 @@ namespace Showing_a_Progress_while_Rendering_a_Report
 			progressBar1.Visible = true;
 
 			while (backgroundWorker1.IsBusy)
-				Application.DoEvents();			
+				Application.DoEvents();
 		}
 
 		void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -48,10 +48,10 @@ namespace Showing_a_Progress_while_Rendering_a_Report
 
 		void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
 		{
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Showing_a_Progress_while_Rendering_a_Report.MasterDetailSubdetail.mrt"))
-            {
-                report.Load(stream);
-            }
+			using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Showing_a_Progress_while_Rendering_a_Report.MasterDetailSubdetail.mrt"))
+			{
+				report.Load(stream);
+			}
 
 			report.Compile();
 			report.CompiledReport.Rendering += new EventHandler(CompiledReport_Rendering);
@@ -70,9 +70,9 @@ namespace Showing_a_Progress_while_Rendering_a_Report
 				label1.Text = report.StatusString;
 		}
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+		private void Form1_Load(object sender, EventArgs e)
+		{
 
-        }
-    }
+		}
+	}
 }

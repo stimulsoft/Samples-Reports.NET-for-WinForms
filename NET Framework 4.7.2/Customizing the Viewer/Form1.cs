@@ -7,52 +7,52 @@ namespace Customizing_the_Viewer
     /// Summary description for Form1.
     /// </summary>
     public class Form1 : System.Windows.Forms.Form
-	{
-		private System.Windows.Forms.Panel panel1;
-		private Stimulsoft.Report.Viewer.StiViewerControl PreviewControl;
-		private Stimulsoft.Report.StiReport Report;
-		private System.Windows.Forms.CheckBox cbThumbs;
-		private System.Windows.Forms.CheckBox cbBookmarks;
-		private System.Windows.Forms.GroupBox gbSettings;
-		private System.Windows.Forms.CheckBox cbToolbar;
-		private System.Windows.Forms.CheckBox cbVerScrollBar;
-		private System.Windows.Forms.CheckBox cbHorScrollBar;
-		private System.Windows.Forms.CheckBox cbStatusBar;
-		private System.Windows.Forms.CheckBox cbCloseButton;
-		private System.Windows.Forms.CheckBox cbContextMenu;
-		private System.Windows.Forms.CheckBox cbPrint;
-		private System.Windows.Forms.CheckBox cbOpen;
+    {
+        private System.Windows.Forms.Panel panel1;
+        private Stimulsoft.Report.Viewer.StiViewerControl PreviewControl;
+        private Stimulsoft.Report.StiReport Report;
+        private System.Windows.Forms.CheckBox cbThumbs;
+        private System.Windows.Forms.CheckBox cbBookmarks;
+        private System.Windows.Forms.GroupBox gbSettings;
+        private System.Windows.Forms.CheckBox cbToolbar;
+        private System.Windows.Forms.CheckBox cbVerScrollBar;
+        private System.Windows.Forms.CheckBox cbHorScrollBar;
+        private System.Windows.Forms.CheckBox cbStatusBar;
+        private System.Windows.Forms.CheckBox cbCloseButton;
+        private System.Windows.Forms.CheckBox cbContextMenu;
+        private System.Windows.Forms.CheckBox cbPrint;
+        private System.Windows.Forms.CheckBox cbOpen;
         private System.Windows.Forms.CheckBox cbSave;
-		private System.Windows.Forms.CheckBox cbPageNew;
-		private System.Windows.Forms.CheckBox cbPageDelete;
-		private System.Windows.Forms.CheckBox cbPageDesign;
-		private System.Windows.Forms.CheckBox cbBookmarksButton;
-		private System.Windows.Forms.CheckBox cbThumbsButton;
-		private System.Windows.Forms.CheckBox cbToolEditor;
-		private System.Windows.Forms.CheckBox cbToolFind;
-		private System.Windows.Forms.CheckBox cbZoom;
-		private System.Windows.Forms.CheckBox cbPageControl;
-		private System.Windows.Forms.GroupBox gbZoom;
-		private System.Windows.Forms.ImageList ilZoom;
+        private System.Windows.Forms.CheckBox cbPageNew;
+        private System.Windows.Forms.CheckBox cbPageDelete;
+        private System.Windows.Forms.CheckBox cbPageDesign;
+        private System.Windows.Forms.CheckBox cbBookmarksButton;
+        private System.Windows.Forms.CheckBox cbThumbsButton;
+        private System.Windows.Forms.CheckBox cbToolEditor;
+        private System.Windows.Forms.CheckBox cbToolFind;
+        private System.Windows.Forms.CheckBox cbZoom;
+        private System.Windows.Forms.CheckBox cbPageControl;
+        private System.Windows.Forms.GroupBox gbZoom;
+        private System.Windows.Forms.ImageList ilZoom;
         private Button tbOnePage;
         private Button tbTwoPages;
-		private Button tbNormal;
-		private Button tbPageWidth;
-		private System.Windows.Forms.GroupBox groupBox1;
-		private System.Windows.Forms.ImageList ilPageControl;
-		private Button tbFirstPage;
-		private Button tbLastPage;
-		private Button tbNextPage;
-		private Button tbPreviousPage;
-		private System.Windows.Forms.Button btRefresh;
-		private System.Windows.Forms.CheckBox cbSendByEMail;
-		private System.ComponentModel.IContainer components;
+        private Button tbNormal;
+        private Button tbPageWidth;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ImageList ilPageControl;
+        private Button tbFirstPage;
+        private Button tbLastPage;
+        private Button tbNextPage;
+        private Button tbPreviousPage;
+        private System.Windows.Forms.Button btRefresh;
+        private System.Windows.Forms.CheckBox cbSendByEMail;
+        private System.ComponentModel.IContainer components;
 
-		public Form1()
-		{
+        public Form1()
+        {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -65,25 +65,25 @@ namespace Customizing_the_Viewer
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        protected override void Dispose( bool disposing )
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.PreviewControl = new Stimulsoft.Report.Viewer.StiViewerControl();
@@ -618,190 +618,190 @@ namespace Customizing_the_Viewer
             this.gbSettings.ResumeLayout(false);
             this.ResumeLayout(false);
 
-		}
-		#endregion
+        }
+        #endregion
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main()
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
             // Enable HiDPI mode
             Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
 
             Application.EnableVisualStyles();
-			Application.Run(new Form1());
-		}
+            Application.Run(new Form1());
+        }
 
-		private void cbBookmarks_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowBookmarksPanel = cbBookmarks.Checked;
-		}
+        private void cbBookmarks_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowBookmarksPanel = cbBookmarks.Checked;
+        }
 
-		private void cbThumbs_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowThumbsPanel = cbThumbs.Checked;
-		}
+        private void cbThumbs_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowThumbsPanel = cbThumbs.Checked;
+        }
 
-		private void cbToolbar_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowToolbar = cbToolbar.Checked;
-		}
+        private void cbToolbar_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowToolbar = cbToolbar.Checked;
+        }
 
-		private void cbVerScrollBar_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowVertScrollBar = cbVerScrollBar.Checked;
-		}
+        private void cbVerScrollBar_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowVertScrollBar = cbVerScrollBar.Checked;
+        }
 
-		private void cbHorScrollBar_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowHorScrollBar = cbHorScrollBar.Checked;
-		}
+        private void cbHorScrollBar_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowHorScrollBar = cbHorScrollBar.Checked;
+        }
 
-		private void cbStatusBar_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowStatusBar = cbStatusBar.Checked;
-		}
+        private void cbStatusBar_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowStatusBar = cbStatusBar.Checked;
+        }
 
-		private void cbContextMenu_CheckedChanged(object sender, System.EventArgs e)
-		{
+        private void cbContextMenu_CheckedChanged(object sender, System.EventArgs e)
+        {
             PreviewControl.ShowContextMenu = cbContextMenu.Checked;
-		}
+        }
 
-		private void cbPrint_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowPrint = cbPrint.Checked;		
-		}
+        private void cbPrint_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowPrint = cbPrint.Checked;
+        }
 
-		private void cbOpen_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowOpen = cbOpen.Checked;
-		}
+        private void cbOpen_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowOpen = cbOpen.Checked;
+        }
 
-		private void cbSave_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowSave = cbSave.Checked;
-		}
+        private void cbSave_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowSave = cbSave.Checked;
+        }
 
 
-		private void cbPageNew_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowPageNew = cbPageNew.Checked;
-		}
+        private void cbPageNew_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowPageNew = cbPageNew.Checked;
+        }
 
-		private void cbPageDelete_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowPageDelete = cbPageDelete.Checked;
-		}
+        private void cbPageDelete_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowPageDelete = cbPageDelete.Checked;
+        }
 
-		private void cbPageDesign_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowPageDesign = cbPageDesign.Checked;
-		}
+        private void cbPageDesign_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowPageDesign = cbPageDesign.Checked;
+        }
 
-		private void cbBookmarksButton_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowBookmarksPanel = cbBookmarksButton.Checked;
-		}
+        private void cbBookmarksButton_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowBookmarksPanel = cbBookmarksButton.Checked;
+        }
 
-		private void cbThumbsButton_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowThumbsPanel = cbThumbsButton.Checked;
-		}
+        private void cbThumbsButton_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowThumbsPanel = cbThumbsButton.Checked;
+        }
 
-		private void cbToolEditor_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowEditor = cbToolEditor.Checked;
-		}
+        private void cbToolEditor_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowEditor = cbToolEditor.Checked;
+        }
 
-		private void cbToolFind_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowFind = cbToolFind.Checked;
-		}
+        private void cbToolFind_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowFind = cbToolFind.Checked;
+        }
 
-		private void cbZoom_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowZoom = cbZoom.Checked;
-		}
+        private void cbZoom_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowZoom = cbZoom.Checked;
+        }
 
-		private void cbCloseButton_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowCloseButton = cbCloseButton.Checked;
-		}
+        private void cbCloseButton_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowCloseButton = cbCloseButton.Checked;
+        }
 
-		private void PreviewControl_Close(object sender, System.EventArgs e)
-		{
-			Close();
-		}
+        private void PreviewControl_Close(object sender, System.EventArgs e)
+        {
+            Close();
+        }
 
-		private void cbPageControl_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowPageControl = cbPageControl.Checked;
-		}
+        private void cbPageControl_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowPageControl = cbPageControl.Checked;
+        }
 
-		private void tbOnePage_Click(object sender, System.EventArgs e)
-		{
-			PreviewControl.SetZoomOnePage();
-		}
+        private void tbOnePage_Click(object sender, System.EventArgs e)
+        {
+            PreviewControl.SetZoomOnePage();
+        }
 
-		private void tbTwoPages_Click(object sender, System.EventArgs e)
-		{
-			PreviewControl.SetZoomTwoPages();
-		}
+        private void tbTwoPages_Click(object sender, System.EventArgs e)
+        {
+            PreviewControl.SetZoomTwoPages();
+        }
 
-		private void tbNormal_Click(object sender, System.EventArgs e)
-		{
-			PreviewControl.SetZoom(100d);
-		}
+        private void tbNormal_Click(object sender, System.EventArgs e)
+        {
+            PreviewControl.SetZoom(100d);
+        }
 
-		private void tbPageWidth_Click(object sender, System.EventArgs e)
-		{
-			PreviewControl.SetZoomPageWidth();
-		}
+        private void tbPageWidth_Click(object sender, System.EventArgs e)
+        {
+            PreviewControl.SetZoomPageWidth();
+        }
 
-		private void tbFirstPage_Click(object sender, System.EventArgs e)
-		{
-			PreviewControl.FirstPage();
-		}
+        private void tbFirstPage_Click(object sender, System.EventArgs e)
+        {
+            PreviewControl.FirstPage();
+        }
 
-		private void tbPreviousPage_Click(object sender, System.EventArgs e)
-		{
-			PreviewControl.PrevPage();
-		}
+        private void tbPreviousPage_Click(object sender, System.EventArgs e)
+        {
+            PreviewControl.PrevPage();
+        }
 
-		private void tbNextPage_Click(object sender, System.EventArgs e)
-		{
-			PreviewControl.NextPage();
-		}
+        private void tbNextPage_Click(object sender, System.EventArgs e)
+        {
+            PreviewControl.NextPage();
+        }
 
-		private void tbLastPage_Click(object sender, System.EventArgs e)
-		{
-			PreviewControl.LastPage();
-		}
+        private void tbLastPage_Click(object sender, System.EventArgs e)
+        {
+            PreviewControl.LastPage();
+        }
 
-		private void btRefresh_Click(object sender, System.EventArgs e)
-		{
-			Report.Render(false);
-			PreviewControl.SaveConfig();
-			PreviewControl.Refresh();
-			PreviewControl.LoadConfig();
-		}
+        private void btRefresh_Click(object sender, System.EventArgs e)
+        {
+            Report.Render(false);
+            PreviewControl.SaveConfig();
+            PreviewControl.Refresh();
+            PreviewControl.LoadConfig();
+        }
 
-		private void Form1_Load(object sender, System.EventArgs e)
-		{
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
             using (var stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("Customizing_the_Viewer.CustomPreview.mrt"))
             {
                 Report.Load(stream);
             }
-			Report.Compile();
-			btRefresh_Click(sender, e);
-			
-		}
+            Report.Compile();
+            btRefresh_Click(sender, e);
 
-		private void cbSendByEMail_CheckedChanged(object sender, System.EventArgs e)
-		{
-			PreviewControl.ShowSendEMail = cbSendByEMail.Checked;
-		}
-	}
+        }
+
+        private void cbSendByEMail_CheckedChanged(object sender, System.EventArgs e)
+        {
+            PreviewControl.ShowSendEMail = cbSendByEMail.Checked;
+        }
+    }
 }

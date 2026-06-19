@@ -10,29 +10,29 @@ using Stimulsoft.Report;
 
 namespace Using_User_Data_in_Reports
 {
-	/// <summary>
-	/// Summary description for Form1.
-	/// </summary>
-	public class Form1 : System.Windows.Forms.Form
-	{
-		DataSet dataSet1 = new DataSet();
-		private MethodInfo[] assemblys = null;
+    /// <summary>
+    /// Summary description for Form1.
+    /// </summary>
+    public class Form1 : System.Windows.Forms.Form
+    {
+        DataSet dataSet1 = new DataSet();
+        private MethodInfo[] assemblys = null;
 
-		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button1;
-		private Stimulsoft.Report.Dictionary.StiUserData stiUserData1;
-		private Stimulsoft.Report.StiReport stiReport1;
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.Container components = null;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private Stimulsoft.Report.Dictionary.StiUserData stiUserData1;
+        private Stimulsoft.Report.StiReport stiReport1;
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.Container components = null;
 
-		public Form1()
-		{
+        public Form1()
+        {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -42,35 +42,35 @@ namespace Using_User_Data_in_Reports
             //
 
             stiReport1.RegData("HatchStyleEnum", Enum.GetNames(typeof(HatchStyle)));
-						
-			Type type = typeof(Graphics);
-			assemblys = type.GetMethods();
-			stiUserData1.Count = assemblys.Length;
-			stiReport1.RegData("UserData", stiUserData1);
-		}
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		protected override void Dispose( bool disposing )
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+            Type type = typeof(Graphics);
+            assemblys = type.GetMethods();
+            stiUserData1.Count = assemblys.Length;
+            stiReport1.RegData("UserData", stiUserData1);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -162,54 +162,54 @@ namespace Using_User_Data_in_Reports
             this.Text = "Using User Data in Reports";
             this.ResumeLayout(false);
 
-		}
-		#endregion
+        }
+        #endregion
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main() 
-		{
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
             // Enable HiDPI mode
             Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
 
             Application.EnableVisualStyles();
-			Application.Run(new Form1());
-		}
+            Application.Run(new Form1());
+        }
 
-		private void button1_Click(object sender, EventArgs e)
-		{
-			stiReport1.Load("..\\UserData.mrt");
-			stiReport1.Design();
-		}
+        private void button1_Click(object sender, EventArgs e)
+        {
+            stiReport1.Load("..\\UserData.mrt");
+            stiReport1.Design();
+        }
 
-		private void stiUserData1_GetData(object sender, Stimulsoft.Report.Dictionary.StiUserGetDataEventArgs e)
-		{
-			if (e.ColumnName == "Name") e.Data = assemblys[e.Position].Name;
-			if (e.ColumnName == "ReturnType") e.Data = assemblys[e.Position].ReturnType.Name;
-			if (e.ColumnName == "IsStatic") e.Data = assemblys[e.Position].IsStatic;
-			if (e.ColumnName == "Parameters")
-			{
-				ParameterInfo[] pars = assemblys[e.Position].GetParameters();
+        private void stiUserData1_GetData(object sender, Stimulsoft.Report.Dictionary.StiUserGetDataEventArgs e)
+        {
+            if (e.ColumnName == "Name") e.Data = assemblys[e.Position].Name;
+            if (e.ColumnName == "ReturnType") e.Data = assemblys[e.Position].ReturnType.Name;
+            if (e.ColumnName == "IsStatic") e.Data = assemblys[e.Position].IsStatic;
+            if (e.ColumnName == "Parameters")
+            {
+                ParameterInfo[] pars = assemblys[e.Position].GetParameters();
 
-				string s = string.Empty;
-				foreach (ParameterInfo par in pars)
+                string s = string.Empty;
+                foreach (ParameterInfo par in pars)
                     s += par.ParameterType.Name + " " + par.Name + "\n";
 
-				e.Data = s;
-			}
-		}
+                e.Data = s;
+            }
+        }
 
-		private void button2_Click(object sender, EventArgs e)
-		{			
-			stiReport1.Load("..\\UserData.mrt");
-			stiReport1.Show();
-		}
+        private void button2_Click(object sender, EventArgs e)
+        {
+            stiReport1.Load("..\\UserData.mrt");
+            stiReport1.Show();
+        }
 
-		private void button3_Click(object sender, EventArgs e)
-		{
-			Close();
-		}
-	}
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
 }

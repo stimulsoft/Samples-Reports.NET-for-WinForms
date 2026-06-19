@@ -9,33 +9,33 @@ using System.Reflection;
 
 namespace Managing_Reports_with_Sub_Reports
 {
-	/// <summary>
-	/// Summary description for Form1.
-	/// </summary>
-	public class Form1 : System.Windows.Forms.Form
-	{
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button4;
-		private System.Windows.Forms.Button button5;
-		private System.Windows.Forms.Button button6;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Button button7;
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.Container components = null;
-		private System.Windows.Forms.CheckBox checkBoxPrintOnPreviousPage;
-		private System.Windows.Forms.CheckBox checkBoxResetPageNumber;
-		
-		public Form1()
-		{
+    /// <summary>
+    /// Summary description for Form1.
+    /// </summary>
+    public class Form1 : System.Windows.Forms.Form
+    {
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button7;
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.Container components = null;
+        private System.Windows.Forms.CheckBox checkBoxPrintOnPreviousPage;
+        private System.Windows.Forms.CheckBox checkBoxResetPageNumber;
+
+        public Form1()
+        {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -44,25 +44,25 @@ namespace Managing_Reports_with_Sub_Reports
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        protected override void Dispose( bool disposing )
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -222,81 +222,81 @@ namespace Managing_Reports_with_Sub_Reports
             this.Text = "Managing Reports with Sub-Reports";
             this.ResumeLayout(false);
 
-		}
-		#endregion
+        }
+        #endregion
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main()
-		{
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
             // Enable HiDPI mode
             Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
 
             Application.EnableVisualStyles();
             Application.Run(new Form1());
-		}
+        }
 
-		private StiReport GetReport(string name)
-		{
-			var report = new StiReport();
+        private StiReport GetReport(string name)
+        {
+            var report = new StiReport();
             using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Managing_Reports_with_Sub_Reports." + name))
             {
                 report.Load(stream);
             }
-			return report;
-		}
+            return report;
+        }
 
-		private void button1_Click(object sender, System.EventArgs e)
-		{
-			StiReport report = GetReport("SimpleList.mrt");
-			report.Show();
-		}
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            StiReport report = GetReport("SimpleList.mrt");
+            report.Show();
+        }
 
-		private void button2_Click(object sender, System.EventArgs e)
-		{
-			var report = GetReport("SimpleList.mrt");
-			report.Design();
-		}
+        private void button2_Click(object sender, System.EventArgs e)
+        {
+            var report = GetReport("SimpleList.mrt");
+            report.Design();
+        }
 
-		private void button3_Click(object sender, System.EventArgs e)
-		{
-			var report = GetReport("SimpleGroup.mrt");
-			report.Show();
-		}
+        private void button3_Click(object sender, System.EventArgs e)
+        {
+            var report = GetReport("SimpleGroup.mrt");
+            report.Show();
+        }
 
-		private void button4_Click(object sender, System.EventArgs e)
-		{
-			var report = GetReport("SimpleGroup.mrt");
-			report.Design();
-		}
+        private void button4_Click(object sender, System.EventArgs e)
+        {
+            var report = GetReport("SimpleGroup.mrt");
+            report.Design();
+        }
 
-		private void button6_Click(object sender, System.EventArgs e)
-		{
-			var report = GetReport("MasterDetail.mrt");
-			report.Show();
-		}
+        private void button6_Click(object sender, System.EventArgs e)
+        {
+            var report = GetReport("MasterDetail.mrt");
+            report.Show();
+        }
 
-		private void button5_Click(object sender, System.EventArgs e)
-		{
-			var report = GetReport("MasterDetail.mrt");
-			report.Design();
-		}
+        private void button5_Click(object sender, System.EventArgs e)
+        {
+            var report = GetReport("MasterDetail.mrt");
+            report.Design();
+        }
 
-		private void button7_Click(object sender, System.EventArgs e)
-		{
-			var report1 = GetReport("SimpleList.mrt");
-			var report2 = GetReport("SimpleGroup.mrt");
-			var report3 = GetReport("MasterDetail.mrt");
+        private void button7_Click(object sender, System.EventArgs e)
+        {
+            var report1 = GetReport("SimpleList.mrt");
+            var report2 = GetReport("SimpleGroup.mrt");
+            var report3 = GetReport("MasterDetail.mrt");
 
-			var report = new StiReport();
-			report.SubReports.Add(report1);
-			report.SubReports.Add(report2, checkBoxResetPageNumber.Checked, checkBoxPrintOnPreviousPage.Checked);
-			report.SubReports.Add(report3, checkBoxResetPageNumber.Checked, checkBoxPrintOnPreviousPage.Checked);
-			
-			report.Render(false);
-			report.Show();
-		}
-	}
+            var report = new StiReport();
+            report.SubReports.Add(report1);
+            report.SubReports.Add(report2, checkBoxResetPageNumber.Checked, checkBoxPrintOnPreviousPage.Checked);
+            report.SubReports.Add(report3, checkBoxResetPageNumber.Checked, checkBoxPrintOnPreviousPage.Checked);
+
+            report.Render(false);
+            report.Show();
+        }
+    }
 }

@@ -9,12 +9,12 @@ using Stimulsoft.Base.Theme;
 
 namespace Changing_the_Viewer_and_Designer_Theme
 {
-	/// <summary>
-	/// Summary description for Form1.
-	/// </summary>
-	public class Form1 : System.Windows.Forms.Form
-	{
-		private System.Windows.Forms.Button button2;
+    /// <summary>
+    /// Summary description for Form1.
+    /// </summary>
+    public class Form1 : System.Windows.Forms.Form
+    {
+        private System.Windows.Forms.Button button2;
         private Label labelAppearance;
         private ComboBox comboBoxAppearance;
         private Label labelAccentColor;
@@ -28,11 +28,11 @@ namespace Changing_the_Viewer_and_Designer_Theme
         /// </summary>
         private System.ComponentModel.Container components = null;
 
-		public Form1()
-		{
+        public Form1()
+        {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -96,25 +96,25 @@ namespace Changing_the_Viewer_and_Designer_Theme
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        protected override void Dispose( bool disposing )
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button2 = new System.Windows.Forms.Button();
             this.labelAppearance = new System.Windows.Forms.Label();
@@ -242,26 +242,26 @@ namespace Changing_the_Viewer_and_Designer_Theme
             this.ResumeLayout(false);
             this.PerformLayout();
 
-		}
-		#endregion
+        }
+        #endregion
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main() 
-		{
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
             // Enable HiDPI mode
             Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
 
             Application.EnableVisualStyles();
-			Application.Run(new Form1());
-		}
+            Application.Run(new Form1());
+        }
 
-		private void button2_Click(object sender, System.EventArgs e)
-		{
-			Close();
-		}
+        private void button2_Click(object sender, System.EventArgs e)
+        {
+            Close();
+        }
 
         private void ComboBoxAppearance_SelectedIndexChanged(object sender, EventArgs e)
         {

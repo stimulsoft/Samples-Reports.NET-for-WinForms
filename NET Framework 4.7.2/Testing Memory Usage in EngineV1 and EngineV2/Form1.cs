@@ -16,24 +16,24 @@ namespace Testing_Memory_Usage_in_EngineV1_and_EngineV2
 		{
 			// How to Activate
 			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+			//Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
 			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
 			InitializeComponent();
 
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Testing_Memory_Usage_in_EngineV1_and_EngineV2.MasterDetailSubdetail.mrt"))
-            {
-                report1.Load(stream);
-                report1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV1;
-                report1.Compile();
-            }
+			using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Testing_Memory_Usage_in_EngineV1_and_EngineV2.MasterDetailSubdetail.mrt"))
+			{
+				report1.Load(stream);
+				report1.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV1;
+				report1.Compile();
+			}
 
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Testing_Memory_Usage_in_EngineV1_and_EngineV2.MasterDetailSubdetail.mrt"))
-            {
-                report2.Load(stream);
-                report2.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
-                report2.Compile();
-            }
+			using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Testing_Memory_Usage_in_EngineV1_and_EngineV2.MasterDetailSubdetail.mrt"))
+			{
+				report2.Load(stream);
+				report2.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
+				report2.Compile();
+			}
 		}
 
 		StiReport report1 = new StiReport();

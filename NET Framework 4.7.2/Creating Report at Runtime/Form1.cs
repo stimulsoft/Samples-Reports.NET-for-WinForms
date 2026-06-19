@@ -11,15 +11,15 @@ using Stimulsoft.Report.Components;
 
 namespace Creating_Report_at_Runtime
 {
-	/// <summary>
-	/// Summary description for Form1.
-	/// </summary>
-	public class Form1 : Form
-	{
-		private string path = string.Empty;
+    /// <summary>
+    /// Summary description for Form1.
+    /// </summary>
+    public class Form1 : Form
+    {
+        private string path = string.Empty;
 
-		private DataSet dataSet1;
-		private Button button1;
+        private DataSet dataSet1;
+        private Button button1;
         private Button button2;
         private Button button3;
         private Button button4;
@@ -29,42 +29,42 @@ namespace Creating_Report_at_Runtime
         /// </summary>
         private Container components = null;
 
-		public Form1()
-		{
-			// How to Activate
-			//Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-			//Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
-			//Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        public Form1()
+        {
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
-			InitializeComponent();
+            InitializeComponent();
 
             dataSet1.ReadXmlSchema("..\\Data\\Demo.xsd");
             dataSet1.ReadXml("..\\Data\\Demo.xml");
-			dataSet1.DataSetName = "Demo";
-		}
+            dataSet1.DataSetName = "Demo";
+        }
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		protected override void Dispose( bool disposing )
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dataSet1 = new System.Data.DataSet();
             this.button1 = new System.Windows.Forms.Button();
@@ -139,78 +139,78 @@ namespace Creating_Report_at_Runtime
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             this.ResumeLayout(false);
 
-		}
-		#endregion
+        }
+        #endregion
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main() 
-		{
-			// Enable HiDPI mode
-			Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
 
-			Application.EnableVisualStyles();
-			Application.Run(new Form1());
-		}
+            Application.EnableVisualStyles();
+            Application.Run(new Form1());
+        }
 
         // Simple Report
-		private void button1_Click(object sender, EventArgs e)
-		{
-			var report = new StiReport();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var report = new StiReport();
 
-			//Add data to datastore
-			report.RegData(dataSet1);
+            //Add data to datastore
+            report.RegData(dataSet1);
 
-			//Fill dictionary
-			report.Dictionary.Synchronize();
+            //Fill dictionary
+            report.Dictionary.Synchronize();
 
-			var page = report.Pages[0];
+            var page = report.Pages[0];
 
-			//Create HeaderBand
-			var headerBand = new StiHeaderBand();
-			headerBand.Height = 0.5;
-			headerBand.Name = "HeaderBand";
-			page.Components.Add(headerBand);
+            //Create HeaderBand
+            var headerBand = new StiHeaderBand();
+            headerBand.Height = 0.5;
+            headerBand.Name = "HeaderBand";
+            page.Components.Add(headerBand);
 
-			//Create text on header
-			var headerText = new StiText(new RectangleD(0, 0, 5, 0.5));
-			headerText.Text = "CompanyName";
-			headerText.HorAlignment = StiTextHorAlignment.Center;
-			headerText.Name = "HeaderText";
-			headerText.Brush = new StiSolidBrush(Color.LightGreen);
-			headerBand.Components.Add(headerText);
-			
-			//Create Databand
-			var dataBand = new StiDataBand();
-			dataBand.DataSourceName = "Customers";
-			dataBand.Height = 0.5;
-			dataBand.Name = "DataBand";
-			page.Components.Add(dataBand);
+            //Create text on header
+            var headerText = new StiText(new RectangleD(0, 0, 5, 0.5));
+            headerText.Text = "CompanyName";
+            headerText.HorAlignment = StiTextHorAlignment.Center;
+            headerText.Name = "HeaderText";
+            headerText.Brush = new StiSolidBrush(Color.LightGreen);
+            headerBand.Components.Add(headerText);
 
-			//Create text
-			var dataText = new StiText(new RectangleD(0, 0, 5, 0.5));
-			dataText.Text = "{Line}.{Customers.CompanyName}";
-			dataText.Name = "DataText";
-			dataBand.Components.Add(dataText);
+            //Create Databand
+            var dataBand = new StiDataBand();
+            dataBand.DataSourceName = "Customers";
+            dataBand.Height = 0.5;
+            dataBand.Name = "DataBand";
+            page.Components.Add(dataBand);
 
-			//Create FooterBand
-			var footerBand = new StiFooterBand();
-			footerBand.Height = 0.5;
-			footerBand.Name = "FooterBand";
-			page.Components.Add(footerBand);
+            //Create text
+            var dataText = new StiText(new RectangleD(0, 0, 5, 0.5));
+            dataText.Text = "{Line}.{Customers.CompanyName}";
+            dataText.Name = "DataText";
+            dataBand.Components.Add(dataText);
 
-			//Create text on footer
-			var footerText = new StiText(new RectangleD(0, 0, 5, 0.5));
-			footerText.Text = "Count - {Count()}";
-			footerText.HorAlignment = StiTextHorAlignment.Right;
-			footerText.Name = "FooterText";
-			footerText.Brush = new StiSolidBrush(Color.LightGreen);
-			footerBand.Components.Add(footerText);
+            //Create FooterBand
+            var footerBand = new StiFooterBand();
+            footerBand.Height = 0.5;
+            footerBand.Name = "FooterBand";
+            page.Components.Add(footerBand);
 
-			report.Show();
-		}
+            //Create text on footer
+            var footerText = new StiText(new RectangleD(0, 0, 5, 0.5));
+            footerText.Text = "Count - {Count()}";
+            footerText.HorAlignment = StiTextHorAlignment.Right;
+            footerText.Name = "FooterText";
+            footerText.Brush = new StiSolidBrush(Color.LightGreen);
+            footerBand.Components.Add(footerText);
+
+            report.Show();
+        }
 
         // Cross-Tab
         private void button2_Click(object sender, EventArgs e)

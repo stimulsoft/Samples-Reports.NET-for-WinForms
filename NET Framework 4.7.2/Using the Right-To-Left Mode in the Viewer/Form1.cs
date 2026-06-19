@@ -9,29 +9,29 @@ using Stimulsoft.Report;
 
 namespace Using_the_Right_To_Left_Mode_in_the_Viewer
 {
-	/// <summary>
-	/// Summary description for Form1.
-	/// </summary>
-	public class Form1 : System.Windows.Forms.Form
-	{
-		private Stimulsoft.Report.Viewer.StiViewerControl panel1;
-		private Stimulsoft.Report.StiReport stiReport1;
-		private System.Data.DataSet dataSet1;
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.Container components = null;
+    /// <summary>
+    /// Summary description for Form1.
+    /// </summary>
+    public class Form1 : System.Windows.Forms.Form
+    {
+        private Stimulsoft.Report.Viewer.StiViewerControl panel1;
+        private Stimulsoft.Report.StiReport stiReport1;
+        private System.Data.DataSet dataSet1;
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.Container components = null;
 
-		public Form1()
-		{
+        public Form1()
+        {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             StiOptions.Viewer.RightToLeft = StiRightToLeftType.Yes;
-			
-			InitializeComponent();
+
+            InitializeComponent();
 
             //
             // TODO: Add any constructor code after InitializeComponent call
@@ -41,25 +41,25 @@ namespace Using_the_Right_To_Left_Mode_in_the_Viewer
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        protected override void Dispose( bool disposing )
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new Stimulsoft.Report.Viewer.StiViewerControl();
             this.stiReport1 = new Stimulsoft.Report.StiReport();
@@ -124,36 +124,36 @@ namespace Using_the_Right_To_Left_Mode_in_the_Viewer
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             this.ResumeLayout(false);
 
-		}
-		#endregion
+        }
+        #endregion
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main() 
-		{
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
             // Enable HiDPI mode
             Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
 
             Application.EnableVisualStyles();
-			Application.Run(new Form1());
-		}
+            Application.Run(new Form1());
+        }
 
-		private void Form1_Load(object sender, System.EventArgs e)
-		{
-			if (File.Exists("..\\BookmarksAndHyperlinks.mrt")) stiReport1.Load("..\\BookmarksAndHyperlinks.mrt");
-			else MessageBox.Show("File \"BookmarksAndHyperlinks.mrt\" not found");
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            if (File.Exists("..\\BookmarksAndHyperlinks.mrt")) stiReport1.Load("..\\BookmarksAndHyperlinks.mrt");
+            else MessageBox.Show("File \"BookmarksAndHyperlinks.mrt\" not found");
 
-			stiReport1.Render(true);
+            stiReport1.Render(true);
             stiReport1.Info.Zoom = panel1.Zoom;
             if (stiReport1.CompiledReport != null) stiReport1.CompiledReport.Info.Zoom = panel1.Zoom;
             panel1.Refresh();
         }
 
-		private void panel1_Close(object sender, System.EventArgs e)
-		{
-			Close();
-		}
-	}
+        private void panel1_Close(object sender, System.EventArgs e)
+        {
+            Close();
+        }
+    }
 }
