@@ -284,6 +284,8 @@
     <Pictorial>Pictorial</Pictorial>
     <PictorialStacked>Slikovno naslagano</PictorialStacked>
     <Pie>Tortni</Pie>
+    <Polar>Polarni</Polar>
+    <PolarStacked>Složeni polarni</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Radar područje</RadarArea>
     <RadarColumn>Radar kolona</RadarColumn>
@@ -742,6 +744,7 @@
     <AllowUserFiltering>Dopusti korisniku filtriranje</AllowUserFiltering>
     <AllowUserSorting>Dopusti korisniku poredavanje</AllowUserSorting>
     <BeforeTransformation>Primijeni nakon transformacije podataka</BeforeTransformation>
+    <BindData>Poveži s podacima</BindData>
     <Blank>(Prazno)</Blank>
     <Blanks>(Prazno)</Blanks>
     <BooleanFilters>Boolean filteri</BooleanFilters>
@@ -950,6 +953,8 @@
     <StiListControl>Lista</StiListControl>
     <StiListViewControl>Popisni prikaz</StiListViewControl>
     <StiLookUpBoxControl>Pregledni okvir</StiLookUpBoxControl>
+    <StiMultiListControl>Višestruki popis</StiMultiListControl>
+    <StiMultiSelectControl>Višestruki odabir</StiMultiSelectControl>
     <StiNumberInputControl>Unos broja</StiNumberInputControl>
     <StiNumericUpDownControl>Brojčanik</StiNumericUpDownControl>
     <StiPanelControl>Ploča</StiPanelControl>
@@ -957,6 +962,7 @@
     <StiRadioButtonControl>Radijski gumb</StiRadioButtonControl>
     <StiRadioControl>Radio</StiRadioControl>
     <StiRadioGroupControl>Radio grupa</StiRadioGroupControl>
+    <StiRangeSliderControl>Klizač raspona</StiRangeSliderControl>
     <StiReportControl>Kontrola izvještaja</StiReportControl>
     <StiRichTextBoxControl>Rich tekstni okvir</StiRichTextBoxControl>
     <StiSelectControl>Odabir</StiSelectControl>
@@ -989,10 +995,12 @@
     <MatchCase>Match &amp;Case</MatchCase>
     <MatchWholeWord>Match &amp;Whole Word</MatchWholeWord>
     <MaximumDimensions>Maksimalno 7 dimenzija može biti odabrano.</MaximumDimensions>
+    <NotFound>Nije pronađeno</NotFound>
     <Outlining>Konturirano</Outlining>
     <PromptOnReplace>Upitaj prije zamjene</PromptOnReplace>
     <Replace>&amp;Zamijeni</Replace>
     <ReplaceAll>Zamijeni &amp;sve</ReplaceAll>
+    <Replaced>Zamijenjeno: {0}</Replaced>
     <ReplaceWith>Zamijeni sa:</ReplaceWith>
     <Search>Traži</Search>
     <SearchHiddenText>Skriveni tekst</SearchHiddenText>
@@ -1982,10 +1990,13 @@
   <HelpComponents>
     <StiBarCode>Ova komponenta omogućuje prikaz bar-code-ova u izvještaju. Bar-code šalju se objektu kao string. String može sadržavati bilo koje simbole ali samo dopušteni simboli za odabrani grafikon mogu biti prikazani.</StiBarCode>
     <StiButtonElement>Ova komponenta se koristi za izvršavanje skripte događaja kada je korisnik u interakciji.</StiButtonElement>
+    <StiButtonUI>Gumb koji se koristi za pokretanje akcije ili komande.</StiButtonUI>
     <StiCardsElement>Ova komponenta se koristi za prikaz grupiranih podataka kao kartica.</StiCardsElement>
     <StiChart>Ova komponenta omogućuje prikaz grafikona u izvještaju. Dostupni su različiti tipovi grafikona. Među njima su stupčasti, linijski, tortni, prstenasti, površinski, Gantt, raspršeni, itd. </StiChart>
     <StiChartElement>Ovaj element omogućuje prikaz grafikona na kontrolnoj ploči. Dostupni su različiti tipovi grafikona.</StiChartElement>
     <StiCheckBox>Ova komponenta omogućuje prikaz checkbox-a u izvještaju. Može prikazati dva stanja: "upaljeno" ili "ugašeno".</StiCheckBox>
+    <StiCheckBoxGroupUI>Checkbox grupa koja se koristi za odabir više unaprijed definiranih opcija s popisa.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Checkbox koji se koristi za brzo paljenje ili gašenje pojedine opcije.</StiCheckBoxUI>
     <StiChildBand>Child traka se može koristiti za prikaz dvije trake na jednom podatkovnom redu.</StiChildBand>
     <StiClone>Ova komponenta se koristi za kloniranje dijelova izvještaja u željeni dio izvještaja. Kloniranje se može primijeniti samo na sadržaj panela.</StiClone>
     <StiColumnFooterBand>Ova traka se koristi za prikaz podnožja stupaca na Data traci. ColumnFooter traka se prikazuje jednom ispod svakog stupca. Sve komponente koje su stavljene na ovu traku će se također prikazati ispod svakog stupca.</StiColumnFooterBand>
@@ -2000,6 +2011,7 @@
     <StiCrossTab>Cross-tab komponenta se koristi za prikaz strukturiranih podataka kao tablica.</StiCrossTab>
     <StiDataBand>Data traka je konektirana na izvor podataka i prikazuje se onoliko puta koliko ima redaka u izvoru podataka.</StiDataBand>
     <StiDatePickerElement>Element se koristi za odabir datuma i vremena.</StiDatePickerElement>
+    <StiDatePickerUI>Birač datuma koji se koristi za odabir datuma iz kalendara.</StiDatePickerUI>
     <StiElectronicSignature>Ova komponenta se koristi za dodavanje grafičkog potpisa, slike, inicijala i teksta.</StiElectronicSignature>
     <StiEmptyBand>Ova traka se koristi za popunjavanje praznog prostora na dnu stranice. Ova traka popunjava prazan prostor na svakoj stranici izvještaja.</StiEmptyBand>
     <StiFilterCategory>Grupa elemenata koja se koristi za odabir i filtriranje vrijednosti.</StiFilterCategory>
@@ -2011,48 +2023,64 @@
     <StiHeaderBand>Ova traka se koristi za prikaz zaglavlja. Koristi se zajedno sa Data trakom.</StiHeaderBand>
     <StiHierarchicalBand>Ova traka je konektirana na izvor podataka i prikazana onoliko puta koliko ima redova u izvoru podataka. Podaci se prikazuju kao drvo.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Ova komponenta se koristi za prikaz linije.</StiHorizontalLinePrimitive>
+    <StiIconUI>Ikona koja se koristi za prikaz simbolične grafike ili vizualne oznake.</StiIconUI>
     <StiImage>Ova komponenta se koristi za prikaz slika. Podržava slijedeće grafičke formate, kao što su BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Ovaj element se koristi za prikaz slika. Podržava slijedeće grafičke formate - BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>Slika koja se koristi za prikaz grafičkog sadržaja unutar sučelja.</StiImageUI>
     <StiIndicatorElement>Element prikazuje razliku u vrijednostima između unešenih podataka.</StiIndicatorElement>
+    <StiLabelUI>Oznaka koja se koristi za prikaz teksta ili kratkih natpisa.</StiLabelUI>
     <StiListBoxElement>Element omogućuje odabir stavki iz liste.</StiListBoxElement>
+    <StiListUI>Popis koji se koristi za prikaz stavki koje se mogu odabrati unutar okomite kolekcije.</StiListUI>
     <StiMap>Ova komponenta se koristi za prikaz geografski označenih podataka.</StiMap>
     <StiMapCategory>Grupa elemenata za rad sa mapama i podacima.</StiMapCategory>
     <StiMapElement>Ovaj element se koristi za prikaz podataka koji su geografski ciljani.</StiMapElement>
     <StiMathFormula>Ova komponenta se koristi za prikaz matematičkih formula u izvještaju.</StiMathFormula>
+    <StiMultiListUI>Popis koji se koristi za odabir više stavki iz iste kolekcije.</StiMultiListUI>
+    <StiMultiSelectUI>Odabirač koji se koristi za odabir više vrijednosti iz pripremljenog popisa.</StiMultiSelectUI>
     <StiNumberBoxElement>Ovaj element se koristi za odabir numeričke vrijednosti ili raspona numeričkih vrijednosti.</StiNumberBoxElement>
+    <StiNumberInputUI>Numerički unos koji se koristi za unos brojčanih vrijednosti uz kontrolirani unos.</StiNumberInputUI>
     <StiOnlineMapElement>Ovaj element se koristi za prikaz geografskih markera na online mapi.</StiOnlineMapElement>
     <StiOverlayBand>Ova traka se koristi za prikaz vodenih žigova na stranici.</StiOverlayBand>
     <StiPageFooterBand>Ova traka se koristi za prikaz informacija na dnu svake stranice. Ova traka se koristi za prikaz brojeva stranica, datuma, i drugih informacija.</StiPageFooterBand>
     <StiPageHeaderBand>Ova traka se koristi za prikaz zaglavlja stranice. Prikazuje se na vrhu svake stranice. Ova traka se koristi za prikaz brojeva stranica, datuma, i drugih informacija.</StiPageHeaderBand>
     <StiPanel>Ovo je pravokutno područe gdje se druge komponente, uključujući trake, mogu postaviti. Prilikom pomicanja panela, komponente u njemu će se također pomaknuti. Panel se može postaviti i na traku i na stranicu.</StiPanel>
     <StiPanelElement>Pravokutna regija koja može sadržavati druge elemente. Kada se ploča pomakne, i elementi unutar nje se pomiču.</StiPanelElement>
+    <StiPanelUI>Panel koji se koristi za grupiranje i raspoređivanje drugih kontrola unutar jednog područja.</StiPanelUI>
     <StiPdfDigitalSignature>Ova komponenta se koristi za određivanje mjesta za digitalni potpis nakon što je izvještaj export-iran u Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Ova komponenta se koristi za određivanje prostora za digitalni potpis i polja iz certifikata prilikom izvoza PDF-a.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivot tablica se koristi za prikaz strukturiranih podataka kao tablice.</StiPivotTableElement>
     <StiProgressElement>Element prikazuje odnos između unešenih podataka. Može biti prikazan u različitim modovima - pita, krug, trake.</StiProgressElement>
+    <StiRadioGroupUI>Grupa izbornih gumba koja se koristi za odabir jedne opcije iz unaprijed definiranog skupa vrijednosti.</StiRadioGroupUI>
     <StiRangeSelectorElement>Ova komponenta se koristi za odabir raspona vrijednosti na skali ili vremenskoj crti. Omogućuje korisnicima vizualno definiranje minimalnih i maksimalnih granica raspona.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Klizač raspona koji se koristi za definiranje minimalnih i maksimalnih vrijednosti na skali.</StiRangeSliderUI>
     <StiRectanglePrimitive>Ova komponenta se koristi za prikaz pravokutnika.</StiRectanglePrimitive>
     <StiRegionMapElement>Ovaj element se koristi za prikaz podataka koji su geografski ciljani.</StiRegionMapElement>
     <StiReportSummaryBand>Ova traka se koristi za prikaz sažetaka duž cijelog izvještaja. Prikazuje se jednom na kraju izvještaja.</StiReportSummaryBand>
     <StiReportTitleBand>Ova traka se koristi za prikaz naslova izvještaja. Prikazuje se na početku izvještaja.</StiReportTitleBand>
     <StiRichText>Ova komponenta se koristi za prikazivanje i uređivanje RTF teksta. Također podržava učitavanje i spremanje datoteka u RTF formatu.</StiRichText>
     <StiRoundedRectanglePrimitive>Ova komponenta se koristi za prikaz pravokutnika.</StiRoundedRectanglePrimitive>
+    <StiScreen>Ekran koji sadrži kontrole, raspored i korisničke interakcije za stranicu aplikacije.</StiScreen>
+    <StiSelectUI>Okvir za odabir koji se koristi za odabir jedne vrijednosti iz padajućeg popisa.</StiSelectUI>
     <StiShape>Ova komponenta se koristi za umetanje već postojećih oblika, kao što su strelice, dijagonalne linije, vodoravne linije, lijeve i desne linije, krugove, pravokutnike, zaobljene pravokutnike, gornje i donje linije, trokute, okomite linije.</StiShape>
     <StiShapeElement>Ovaj element se koristi za umetanje oblika kao što su strelice, dijagonalne linije prema dolje, dijagonalne linije prema gore, horizontalne linije, lijeve i desne linije, oval, pravokutnik, gornje i donje linije, trokuta, vertikalne linije.</StiShapeElement>
     <StiSignature>Ova komponenta se koristi za dodavanje elektronskog ili digitalnog potpisa u izvještaj.</StiSignature>
+    <StiSliderUI>Klizač koji se koristi za odabir vrijednosti na kontinuiranoj numeričkoj skali.</StiSliderUI>
     <StiSparkline>Ova komponenta se koristi za kreiranje mikrografika u izvještaju. Omogućava vam praćenje dinamički mijenjajućih podataka kao traka, linija, područja.</StiSparkline>
     <StiSubReport>Ova komponenta se koristi za prikaz dodatnih podataka na različitim mjestima u izvještaju.</StiSubReport>
+    <StiSwitchUI>Prekidač koji se koristi za uključivanje ili isključivanje postavke jednim klikom.</StiSwitchUI>
     <StiTable>Ova komponenta predstavlja skup podatkovnih elemenata koje su organizirane koristeći model okomitih stupaca i vodoravnih redaka.</StiTable>
     <StiTableElement>Ovaj element je grupa podatkovnih elemenata koja je organizirana u model vertikalnih kolona i horizontalnih redova.</StiTableElement>
     <StiTableOfContents>Ova komponenata se koristi za kreiranje tablice sadržaja u izvještaju.</StiTableOfContents>
+    <StiTableUI>Tablica koja se koristi za jasni prikaz podataka u redovima i stupcima.</StiTableUI>
     <StiText>Ova komponenta je osnovni objekt za prikaz teksta.</StiText>
     <StiTextElement>Ovaj element je osnovni objekt za prikaz podataka u obliku teksta.</StiTextElement>
     <StiTextInCells>Ova komponenta se koristi za prikaz teksta u ćelijama. Često se koristi za kreiranje formulara.</StiTextInCells>
+    <StiTextInputUI>Polje za unos teksta koje se koristi za unos i editiranje tekstualnih vrijednosti.</StiTextInputUI>
     <StiTreeViewBoxElement>Ovaj element se koristi za odabir vrijednosti iz padajućeg popisa kao stablo.</StiTreeViewBoxElement>
     <StiTreeViewElement>Predstavlja element koji se koristi za prikaz hijerarhijskih podataka kao stablo.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Ova komponenta se koristi za prikaz okomitih linija.</StiVerticalLinePrimitive>
     <StiWebContentElement>Komponenta dozvoljava dodavanje web sadržaja nadzornim pločama.</StiWebContentElement>
-    <StiWinControl>Ova komponenta omogućava prikaz vizualnih kontrola iz .NET Framework-a.</StiWinControl>
+    <StiWinControl>Ova komponenta omogućava prikaz vizualnih kontrola iz .NET-a.</StiWinControl>
     <StiZipCode>Ova komponenta se koristi za prikaz poštanskog broja.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2158,7 +2186,7 @@
     <menuExportSettings>Otvara uređivač postavki izvoza za trenutni izvještaj ili nadzornu ploču. Postavke se primjenjuju samo prilikom izvoza trenutnog izvještaja ili nadzorne ploče.</menuExportSettings>
     <menuFAQPage>Idi na web stranicu sa često ponavljanim pitanjima.</menuFAQPage>
     <menuGlobalizationStrings>Pozovi Globalization Strings uređivač aktivnog izvještaja.</menuGlobalizationStrings>
-    <menuHelpAboutProgramm>Dohvati informacije o verziji generatora izvještaja i verziji .NET framework-a.</menuHelpAboutProgramm>
+    <menuHelpAboutProgramm>Dohvati informacije o verziji generatora izvještaja i verziji .NET-a.</menuHelpAboutProgramm>
     <menuHomePage>Idi na početnu stranicu proizvoda.</menuHomePage>
     <menuPageOptions>Postavi osnovne parametre trenutne stranice. Sve opcije stranice mogu se promijeniti koristeći Property panel.</menuPageOptions>
     <menuPagesManager>Pokreni Pages Manager. Omogućuje micanje, brisanje i kreiranje novih stranica.</menuPagesManager>
@@ -2508,7 +2536,7 @@
     <ShareYourReportYouShouldSave>Da bi dijelili vaš izvještaj, morate ga spremiti u Stimulsoft Cloud!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>Prebacivanje između modova će prouzročiti gubitak promjena. Želite li nastaviti?</SwitchingBetweenModes>
     <SwitchParametersOrientation>Molim promijenite vrijednost 'OrijentacijaParametara' svojstva izvještaja u '{0}' kako bi se prikazala ova kategorija na tabli parametara.</SwitchParametersOrientation>
-    <TextRegistrationSuccessfully>Registracija uspješna!
+    <TextRegistrationSuccessfully>Još samo jedan korak do završetka registracije!
 
 Email je poslan na "{0}".
 Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju molim kliknite na poveznicu u mail-u kojeg ste dobili.</TextRegistrationSuccessfully>
@@ -2676,6 +2704,9 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <SubscriptionExpiredDays>Ističe za {0} dana</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Vaša pretplata je istekla. Ažurirajte vašu pretplatu da bi dobili posljednju verziju.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Pretplata istekla</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Vaša pretplata je prekoračila ograničenje broja developerskih mjesta. Aplikacija će se zatvoriti. Molim nadogradite svoj plan kako bi nastavili.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Limit pretplate</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Vaša pretplata koristi više developerskih mjesta nego što je dopušteno. Molim razmotrite nadogradnju svog plana kako bi neometano nastavili s radom.</SubscriptionLimitWarning>
     <SubscriptionsOut10>10 dana preostalo do isteka pretplate!</SubscriptionsOut10>
     <SubscriptionsOut20>Pretplata ističe za 20 dana!</SubscriptionsOut20>
     <SuccessfullyRenewed>Vaša pretplata je uspješno obnovljena!</SuccessfullyRenewed>
@@ -3209,6 +3240,9 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <StiDashboardContentAlignmentRight>Desno</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Rastegni X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Rastegni XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Strijela</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Pravokutnik</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Križno</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Potpuno</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Unutarnje</StiDataJoinTypeInner>
@@ -3730,6 +3764,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <DisconnectingEvent>Odspajanje</DisconnectingEvent>
     <DoubleClickEvent>Dvostruki klik</DoubleClickEvent>
     <EndRenderEvent>Završetak renderiranja</EndRenderEvent>
+    <EndValueChangedEvent>Završna vrijednost promijenjena</EndValueChangedEvent>
     <EnterEvent>Ulaz</EnterEvent>
     <ExportedEvent>Eksportirano</ExportedEvent>
     <ExportingEvent>Eksportiranje</ExportingEvent>
@@ -3782,6 +3817,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <RenderingEvent>Renderiranje</RenderingEvent>
     <ReportCacheProcessingEvent>Obrada predmemorije izvještaja</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Promjena odabranog indeksa</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Početna vrijednost promijenjena</StartValueChangedEvent>
     <StateRestoreEvent>Vraćeno u prijašno stanje</StateRestoreEvent>
     <StateSaveEvent>Stanje spremljeno</StateSaveEvent>
     <ValueChangedEvent>Vrijednost promijenjena</ValueChangedEvent>
@@ -3845,6 +3881,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
   <PropertyMain>
     <AcceptsReturn>Prihvaća return</AcceptsReturn>
     <AcceptsTab>Prihvaća Tab</AcceptsTab>
+    <Action>Akcija</Action>
     <Actual>Actual</Actual>
     <AddClearZone>Dodaj praznu zonu</AddClearZone>
     <Advanced>Napredno</Advanced>
@@ -3946,6 +3983,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <BorderSize>Veličina obruba</BorderSize>
     <BorderStyle>Stil obruba</BorderStyle>
     <BorderThickness>Debljina obruba</BorderThickness>
+    <BorderVisible>Obrub vidljiv</BorderVisible>
     <BorderWidth>Širina obruba</BorderWidth>
     <Bottom>Dolje</Bottom>
     <BottomLeft>Dno-Lijevo</BottomLeft>
@@ -4180,11 +4218,13 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <FiltersTarget>Cilj filtriranja</FiltersTarget>
     <First>Prvi</First>
     <FirstTabOffset>Pomak prvog tabulatora</FirstTabOffset>
+    <FitMode>Način prilagodbe</FitMode>
     <FixedHeight>Fiksirana visina</FixedHeight>
     <FixedWidth>Fiksna širina</FixedWidth>
     <Flat>Plosnat</Flat>
     <FlatMode>Plosnati mod</FlatMode>
     <Focus>Fokus</Focus>
+    <FocusVisible>Fokus vidljiv</FocusVisible>
     <Font>Font</Font>
     <FontBold>Font podebljano</FontBold>
     <FontItalic>Font kurziv</FontItalic>
@@ -4864,6 +4904,8 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <TextRightToLeft>Tekst desno na lijevo</TextRightToLeft>
     <TextShowBehind>Prikaz teksta odostraga</TextShowBehind>
     <Third>Treći</Third>
+    <ThumbBorderColor>Boja obruba klizača</ThumbBorderColor>
+    <ThumbColor>Boja klizača</ThumbColor>
     <TickLabelMajorFont>Označi primarni font oznake</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Označi primarnu četku teksta oznake</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Označi sekundarni font oznake</TickLabelMinorFont>
@@ -5156,6 +5198,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <Categorized>Kategorizirano</Categorized>
     <Charts>Grafikoni</Charts>
     <Checking>Provjeravam...</Checking>
+    <ClickAddToCreateNewAction>Kliknite 'Dodaj' kako biste definirali šta će se dogoditi kada se ovaj događaj izvrši (npr. prikaži ekran ili promijeni vrijednost).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Klikni za više detalja</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>za stvaranje novog uvjeta</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>za stvaranje novog polja</ClickHereToCreateNewField>
@@ -5262,6 +5305,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <ScriptSecurity>Sigurnost skripti</ScriptSecurity>
     <SecondPass>Drugi prolaz</SecondPass>
     <Shapes>Oblici</Shapes>
+    <ShowIncompatibleTypes>Prikaži nekompatibilne tipove</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Prikaži na tabli parametara</ShowOnParametersPanel>
     <Standard>Standardno</Standard>
     <StandardConfiguration>Glavna svojstva objekta osim rijetko korištenih.</StandardConfiguration>
@@ -5451,6 +5495,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
   </Signature>
   <StimulAI>
     <AskStimulAI>Pitaj Stimul AI</AskStimulAI>
+    <Assistant>Pomoćnik</Assistant>
     <ChangedWithAI>Izmijenjeno sa Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Nisu pronađeni problemi u navedenom izrazu.</CheckExpressionSuccess>
     <CheckQuery>Provjeri upit</CheckQuery>
@@ -5588,6 +5633,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
   <UserFunctionEditor>
     <ArgumentName>Naziv argumenta</ArgumentName>
     <ArgumentType>Tip argumenta</ArgumentType>
+    <CheckScript>Provjeri skriptu</CheckScript>
     <ConvertScript>Konvertiraj skriptu</ConvertScript>
     <CustomCategory>Prilagođena kategorija</CustomCategory>
     <EditCode>Uredi kod</EditCode>
@@ -5610,6 +5656,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <Title>Dobrodošli u Stimulsoft Demo</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>AI-generirana upravljačka ploča</AIGeneratedDashboard>
     <AIGeneratedReport>Izvještaj generiran AI-jem</AIGeneratedReport>
     <BlankDashboard>Prazna kontrolna ploča</BlankDashboard>
     <BlankForm>Prazna forma</BlankForm>

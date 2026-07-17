@@ -72,6 +72,7 @@
     <AdapterDataViews>Δεδομένα από DataViews</AdapterDataViews>
     <AdapterDB2Connection>Δεδομένα από Σύνδεση IBM DB2</AdapterDB2Connection>
     <AdapterDBaseFiles>Δεδομένα από αρχεία dBase</AdapterDBaseFiles>
+    <AdapterDbUserSource>Δεδομένα από πηγή χρήστη</AdapterDbUserSource>
     <AdapterFirebirdConnection>Δεδομένα από Σύνδεση Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Δεδομένα από Σύνδεση Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Δεδομένα από Σύνδεση MySQL</AdapterMySQLConnection>
@@ -140,6 +141,8 @@
     <Design>Σχεδιασμός</Design>
     <Down>Κάτω</Down>
     <Duplicate>Αναπαραγωγή</Duplicate>
+    <EditAsData>Επεξεργασία ως δεδομένα</EditAsData>
+    <EditAsText>Επεξεργασία ως κείμενο</EditAsText>
     <Export>Εξαγωγή</Export>
     <ForceDelete>Εξαναγκαστική Διαγραφή</ForceDelete>
     <Help>Βοήθεια</Help>
@@ -281,6 +284,8 @@
     <Pictorial>Εικονογραφικό</Pictorial>
     <PictorialStacked>Επάλληλες Εικόνες</PictorialStacked>
     <Pie>Πίτα</Pie>
+    <Polar>Πολικό</Polar>
+    <PolarStacked>Πολικό στοιβαγμένο</PolarStacked>
     <Radar>Ραντάρ</Radar>
     <RadarArea>Ραντάρ Με Εμβαδόν</RadarArea>
     <RadarColumn>Ραντάρ Με Στήλες</RadarColumn>
@@ -323,9 +328,11 @@
     <StripsEditorForm>Φόρμα Επεξεργασίας Λωρίδων</StripsEditorForm>
     <Style>Μορφή</Style>
     <Sunburst>Sunburst</Sunburst>
+    <Surface>Επιφάνεια</Surface>
     <Treemap>Δενδρικός χάρτης</Treemap>
     <TrendLinesEditorForm>Επεξεργασία Γραμμών Τάσεων</TrendLinesEditorForm>
     <Waterfall>Καταρράκτης</Waterfall>
+    <WireframeSurface>Επιφάνεια πλέγματος</WireframeSurface>
   </Chart>
   <CharterMapEditor>
     <Characters>Χαρακτήρες</Characters>
@@ -440,6 +447,7 @@
     <DashboardWindowTitleNew>Νέο Ταμπλό</DashboardWindowTitleNew>
     <DeleteFile>Διαγραφή Αρχείου</DeleteFile>
     <DoNotAskMe>Μη με ξαναρωτήσεις</DoNotAskMe>
+    <EnglishSearchRequired>Παρακαλώ χρησιμοποιήστε Αγγλικά για τα ερωτήματα αναζήτησης.</EnglishSearchRequired>
     <EnterUserNameToLogin>Εισαγωγή Ονόματος Χρήστη (email) για σύνδεση.</EnterUserNameToLogin>
     <ExecutionError>Σφάλμα εκτέλεσης</ExecutionError>
     <ExpiredDate>Ημερομηνία Λήξης</ExpiredDate>
@@ -671,6 +679,7 @@
     <StiHeaderBand>Κεφαλίδα</StiHeaderBand>
     <StiHierarchicalBand>Ζώνη Ιεραρχικών Δεδομένων</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Οριζόντια Γραμμή</StiHorizontalLinePrimitive>
+    <StiIcon>Εικονίδιο</StiIcon>
     <StiImage>Εικόνα</StiImage>
     <StiIndicator>Δείκτης</StiIndicator>
     <StiListBox>Πλαίσιο Λίστας</StiListBox>
@@ -691,6 +700,7 @@
     <StiPivotSummary>Περίληψη Συγκεντρωτικού Πίνακα</StiPivotSummary>
     <StiPivotTable>Συγκεντρωτικός Πίνακας</StiPivotTable>
     <StiProgress>Πρόοδος</StiProgress>
+    <StiRangeSelector>Επιλογέας εύρους</StiRangeSelector>
     <StiRectanglePrimitive>Ορθογώνιο</StiRectanglePrimitive>
     <StiRegionMap>Χάρτης Περιοχών</StiRegionMap>
     <StiReport>Αναφορά</StiReport>
@@ -702,6 +712,7 @@
     <StiShape>Σχήμα</StiShape>
     <StiSignature>Υπογραφή</StiSignature>
     <StiSingleSelection>Απλή Επιλογή</StiSingleSelection>
+    <StiSlider>Ρυθμιστικό</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Υπο-Αναφορά</StiSubReport>
     <StiSystemText>Κείμενο Συστήματος</StiSystemText>
@@ -732,6 +743,7 @@
     <AllowUserFiltering>Να επιτρέπεται στον χρήστη το φιλτράρισμα</AllowUserFiltering>
     <AllowUserSorting>Να επιτρέπεται στον χρήστη η ταξινόμηση</AllowUserSorting>
     <BeforeTransformation>Εφαρμογή πριν τον μετασχηματισμό των δεδομένων</BeforeTransformation>
+    <BindData>Σύνδεση με δεδομένα</BindData>
     <Blank>(Κενό)</Blank>
     <Blanks>(Κενά)</Blanks>
     <BooleanFilters>Δυαδικά Φίλτρα</BooleanFilters>
@@ -742,6 +754,7 @@
     <ClearFilterFrom>Καθαρισμός Φίλτρου από '{0}'</ClearFilterFrom>
     <ColorScale>Χρωματική Κλίμακα</ColorScale>
     <ColumnInteractions>Αλληλεπίδραση Στηλών</ColumnInteractions>
+    <CreateDataBinding>Δημιουργία σύνδεσης δεδομένων</CreateDataBinding>
     <CustomFilter>Προσαρμοσμένο &amp;Φίλτρο...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Ο WPF Designer δεν υποστηρίζει Dashboards.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Μπάρες Δεδομένων</DataBars>
@@ -758,6 +771,7 @@
     <DrillDownSelected>Έχει επιλεγεί το Drill Down</DrillDownSelected>
     <DrillUp>Drill Up</DrillUp>
     <DuplicateField>Διπλά Ορισμένο Πεδίο</DuplicateField>
+    <EditDataBinding>Επεξεργασία σύνδεσης δεδομένων</EditDataBinding>
     <EditExpression>Επεξεργασία Έκφρασής</EditExpression>
     <EditField>Επεξεργασία Πεδίου</EditField>
     <EmptyDashboardFooter>Σύρσιμο στοιχείου από την εργαλειοθήκη ή δεδομένων από το Λεξικό</EmptyDashboardFooter>
@@ -780,6 +794,8 @@
     <NewMeasure>Νέο Μέτρο</NewMeasure>
     <NoRanges>Δεν υπάρχουν Εύρη</NoRanges>
     <NoResult>Κανένα Αποτέλεσμα</NoResult>
+    <NResult>{0} αποτέλεσμα</NResult>
+    <NResults>{0} αποτελέσματα</NResults>
     <NSelected>{0} επιλεγμένα</NSelected>
     <Nulls>(Κενά)</Nulls>
     <NumberFilters>Αρίθμηση Φίλτρων</NumberFilters>
@@ -923,26 +939,35 @@
   <Dialogs>
     <StiButtonControl>Κουμπί</StiButtonControl>
     <StiCheckBoxControl>Πλαίσιο Ελέγχου</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Ομάδα πλαισίων ελέγχου</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Λίστα Με Πλαίσια Ελέγχου</StiCheckedListBoxControl>
     <StiComboBoxControl>Σύνθετο Πλαίσιο</StiComboBoxControl>
+    <StiDatePickerControl>Επιλογέας ημερομηνίας</StiDatePickerControl>
     <StiDateTimePickerControl>Επιλογέας Ημ/νίας και Ώρας</StiDateTimePickerControl>
     <StiForm>Φόρμα</StiForm>
     <StiGridControl>Πλέγμα</StiGridControl>
     <StiGroupBoxControl>Κουτί Ομαδοποίησης</StiGroupBoxControl>
     <StiLabelControl>Ταμπέλα</StiLabelControl>
     <StiListBoxControl>List Box</StiListBoxControl>
+    <StiListControl>Λίστα</StiListControl>
     <StiListViewControl>List View</StiListViewControl>
     <StiLookUpBoxControl>LookUp Box</StiLookUpBoxControl>
+    <StiMultiListControl>Πολλαπλή λίστα</StiMultiListControl>
+    <StiMultiSelectControl>Πολλαπλή επιλογή</StiMultiSelectControl>
+    <StiNumberInputControl>Εισαγωγή αριθμού</StiNumberInputControl>
     <StiNumericUpDownControl>Αριθμητικό Up Down</StiNumericUpDownControl>
     <StiPanelControl>Πάνελ</StiPanelControl>
     <StiPictureBoxControl>Κουτί Εικόνας</StiPictureBoxControl>
     <StiRadioButtonControl>Radio Button</StiRadioButtonControl>
     <StiRadioGroupControl>Ομάδα Επιλογών (Radio Group)</StiRadioGroupControl>
+    <StiRangeSliderControl>Ρυθμιστικό εύρους</StiRangeSliderControl>
     <StiReportControl>Χειριστήριο Αναφοράς</StiReportControl>
     <StiRichTextBoxControl>Κουτί Εμπλουτισμένου Κειμένου</StiRichTextBoxControl>
+    <StiSelectControl>Επιλογή</StiSelectControl>
     <StiSliderControl>Γραμμή Ολίσθισης (Slider)</StiSliderControl>
     <StiSwitchControl>Εναλλαγή</StiSwitchControl>
     <StiTextBoxControl>Κουτί Κειμένου</StiTextBoxControl>
+    <StiTextInputControl>Εισαγωγή κειμένου</StiTextInputControl>
     <StiTreeViewControl>Δένδρο</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -968,10 +993,12 @@
     <MatchCase>Ταίριασμα &amp;Πεζών-Κεφαλαίων</MatchCase>
     <MatchWholeWord>Ταίριασμα &amp;Ολόκληρης Της Λέξης</MatchWholeWord>
     <MaximumDimensions>Μπορείτε να επιλέξετε μέχρι 7 διαστάσεις.</MaximumDimensions>
+    <NotFound>Δεν βρέθηκε</NotFound>
     <Outlining>&amp;Περιγράμματα</Outlining>
     <PromptOnReplace>Ερώτηση Κατά Την Αντικατάσταση</PromptOnReplace>
     <Replace>&amp;Αντικατάσταση</Replace>
     <ReplaceAll>Αντικατάσταση &amp;Όλων</ReplaceAll>
+    <Replaced>Αντικαταστάθηκε: {0}</Replaced>
     <ReplaceWith>Αντικατάσταση Με:</ReplaceWith>
     <Search>Αναζήτηση</Search>
     <SearchHiddenText>Αναζήτηση Κρυφού Κειμένου</SearchHiddenText>
@@ -1044,6 +1071,7 @@
     <ContinuousPages>Συνεχείς Σελίδες</ContinuousPages>
     <DataAndHeaders>Δεδομένα και Κεφαλίδες</DataAndHeaders>
     <DataAndHeadersFooters>Δεδομένα και Κεφαλίδες/Υποσέλιδα</DataAndHeadersFooters>
+    <DataExport>Εξαγωγή δεδομένων</DataExport>
     <DataOnly>Μόνο Δεδομένα</DataOnly>
     <DigitalSignature>Ψηφιακή Υπογραφή</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Το πιστοποιητικό δεν είναι επιλεγμένο</DigitalSignatureCertificateNotSelected>
@@ -1123,6 +1151,7 @@
     <OpenAfterExport>Άνοιγμα μετά την Εξαγωγή</OpenAfterExport>
     <Ordered>Ταξινόμηση</Ordered>
     <PdfACompliance>Συμμόρφωση με PDF/A</PdfACompliance>
+    <PdfUA>PDF/UA (Καθολική προσβασιμότητα)</PdfUA>
     <PrintingReport>Εκτύπωση Αναφοράς</PrintingReport>
     <RemoveEmptySpaceAtBottom>Αφαίρεση Κενού Χώρου Από Το Τέλος Της Σελίδας</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Περιορισμός Επεξεργασίας:</RestrictEditing>
@@ -1314,6 +1343,7 @@
     <AccessToken>Access token</AccessToken>
     <AccountKey>Κλειδί Λογαριασμού</AccountKey>
     <AccountName>Όνομα Λογαριασμού</AccountName>
+    <AnyoneWithTheLink>Οποιοσδήποτε με τον σύνδεσμο</AnyoneWithTheLink>
     <AuthorizationCode>Κωδικός Εξουσιοδότησης</AuthorizationCode>
     <BlobContentType>Τύπος Περιεχομένου Blob</BlobContentType>
     <BlobName>Όνομα Blob</BlobName>
@@ -1331,6 +1361,7 @@
     <FirebirdEdit>Επεξεργασία Σύνδεσης Firebird</FirebirdEdit>
     <FirebirdNew>Νέα Σύνδεση Firebird</FirebirdNew>
     <FirstRowIsHeader>Η Πρώτη Γραμμή Είναι Κεφαλίδα</FirstRowIsHeader>
+    <GeneralAccess>Γενική πρόσβαση</GeneralAccess>
     <GetAuthorizationCode>Πάρτε κωδικό εξουσιοδότησης</GetAuthorizationCode>
     <GetTokens>Get tokens</GetTokens>
     <GisEdit>Επεξεργσίας δεδομένων GIS</GisEdit>
@@ -1369,6 +1400,7 @@
     <RefreshToken>Ανανέωση token</RefreshToken>
     <RelationDirection>Κατεύθυνση Σχέσης:</RelationDirection>
     <ReportConnections>Συνδέσεις Αναφορας</ReportConnections>
+    <Restricted>Περιορισμένο</Restricted>
     <SelectData>Επιλογή Δεδομένων</SelectData>
     <ServiceAccountKeyFile>Αρχείο Κλειδιών Λογαριασμού Εξυπηρέτησης</ServiceAccountKeyFile>
     <SpreadsheetId>Αναγνωριστικό Υπολογιστικού Φύλλου</SpreadsheetId>
@@ -1463,6 +1495,7 @@
     <DictionarySaveAs>Αποθήκευση Λεξικού Ως...</DictionarySaveAs>
     <DragNewDataSource>σύρτε τα δεδομένα σας απευθείας σε αυτό το πάνελ</DragNewDataSource>
     <DragNewReport>σύρτε την αναφορά σας απευθείας σε αυτό το πάνελ</DragNewReport>
+    <EditData>Επεξεργασία δεδομένων</EditData>
     <EditQuery>Επεξεργασία Ερωτήματος</EditQuery>
     <EnableDataMonitor>Ενεργοποίηση Data Monitor</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Η SQL δήλωση εκτελέστηκε επιτυχώς</ExecutedSQLStatementSuccessfully>
@@ -1472,6 +1505,8 @@
     <GetColumnsFromAssembly>Λήψη Στηλών Από Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Αποκρύψτε τις μη Υποστηριζόμενες Πηγές Δεδομένων</HideUnsupportedDatabases>
     <ImportRelations>Εισαγωγή Σχέσεων</ImportRelations>
+    <InsertColumnLeft>Εισαγωγή στήλης αριστερά</InsertColumnLeft>
+    <InsertColumnRight>Εισαγωγή στήλης δεξιά</InsertColumnRight>
     <LabelSeparator>Διαχωριστής:</LabelSeparator>
     <MarkUsedItems>Σημείωση Χρησιμοποιημένων Αντικειμένων</MarkUsedItems>
     <NewBusinessObject>Νέο Business Object</NewBusinessObject>
@@ -1499,6 +1534,8 @@
     <SortItems>Ταξινόμηση Αντικειμένων</SortItems>
     <Synchronize>Συγχρονισμός</Synchronize>
     <SynchronizeHint>Συγχρονίζει τα περιεχόμενα της Αποθήκης Δεδομένων και τα περιεχόμενα του Λεξικού</SynchronizeHint>
+    <TableEdit>Επεξεργασία πίνακα</TableEdit>
+    <TableNew>Νέος πίνακας</TableNew>
     <TextDropDataFileHere>Σύρτε το Αρχείο Δεδομένων Εδώ</TextDropDataFileHere>
     <TextDropFileHere>Σύρτε το Αρχείο Εδώ</TextDropFileHere>
     <TextDropImageHere>Σύρτε το Αρχείο Εικόνας Εδώ</TextDropImageHere>
@@ -1542,6 +1579,7 @@
     <SampleText>Δείγμα Κειμένου</SampleText>
     <TextFormat>Διαμόρφωση Κειμένου</TextFormat>
     <Time>Ώρα</Time>
+    <TimeFormat>Μορφή ώρας</TimeFormat>
     <title>Μορφή</title>
     <UseAbbreviation>Χρήση Συντομογραφίας</UseAbbreviation>
     <UseGroupSeparator>Χρήση Διαχωριστή Ομάδων</UseGroupSeparator>
@@ -1728,6 +1766,7 @@
     <pageExpression>Έκφραση</pageExpression>
     <pageSummary>Περίληψη</pageSummary>
     <pageSystemVariable>Μεταβλητή Συστήματος</pageSystemVariable>
+    <RunningAverage>Κινητός μέσος όρος</RunningAverage>
     <RunningTotal>Τρέχον Σύνολο</RunningTotal>
     <SummaryRunning>Εκτέλεση Περίληψης Για</SummaryRunning>
     <SummaryRunningByColumn>Στήλη</SummaryRunningByColumn>
@@ -1948,10 +1987,13 @@
   <HelpComponents>
     <StiBarCode>Αυτό το εξάρτημα επιτρέπει την απεικόνιση γραμμωτών κωδικών σε μια αναφορά. Τα δεδομένα του γραμμωτού κωδικού στέλνονται στο εξάρτημα σαν κείμενο. Το κείμενο μπορεί να περιέχει μόνο χαρακτήρες που επιτρέπονται από τον τύπο του γραμμωτού κώδικα.</StiBarCode>
     <StiButtonElement>Αυτό το στοιχείο χρησιμοποιείται για την εκτέλεση ενός event script κατά τη διάδραση ενός χρήστη.</StiButtonElement>
+    <StiButtonUI>Ένα κουμπί που χρησιμοποιείται για την ενεργοποίηση μιας ενέργειας ή την εκκίνηση μιας εντολής.</StiButtonUI>
     <StiCardsElement>Αυτό το στοιχείο χρησιμοποιείται για την προβολή ομαδοποιημένων δεδομένων σε μορφή καρτών.</StiCardsElement>
     <StiChart>Αυτό το εξάρτημα επιτρέπει την εμφάνιση διαγραμμάτων σε μια αναφορά. Υπάρχουν διάφοροι τύποι διαγραμμάτων. Μεταξύ τους είναι οι: ράβδοι, γραμμές, πίτα, ντόνατ, εμβαδά, Gantt, διαγράμματα διασποράς, κ.α. </StiChart>
     <StiChartElement>Αυτό το στοιχείο επιτρέπει την εμφάνιση γραφημάτων σε ένα ταμπλό. Διάφοροι τύποι γραφημάτων είναι διαθέσιμοι.</StiChartElement>
     <StiCheckBox>Αυτό το εξάρτημα επιτρέπει την εμφάνιση ενός πλαισίου ελέγχου στην αναφορά. Μπορεί να εμφανίσει δυο καταστάσεις: "ενεργό" ή "ανενεργό".</StiCheckBox>
+    <StiCheckBoxGroupUI>Μια ομάδα πλαισίων ελέγχου που χρησιμοποιείται για την επιλογή πολλαπλών προκαθορισμένων επιλογών από μια λίστα.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Ένα πλαίσιο ελέγχου που χρησιμοποιείται για τη γρήγορη ενεργοποίηση ή απενεργοποίηση μιας μεμονωμένης επιλογής.</StiCheckBoxUI>
     <StiChildBand>Η Ζώνη-Παιδί μπορεί να χρησιμοποιηθεί για να εμφανίσετε δυο ζώνες σε μια γραμμή δεδομένων.</StiChildBand>
     <StiClone>Αυτό το εξάρτημα χρησιμοποιείται για να αντιγράψετε κομμάτια της αναφοράς σε ένα άλλο επιθυμητό μέρος της αναφοράς. Η αντιγραφή μπορεί να εφαρμοστεί μόνο στα περιεχόμενα του πάνελ.</StiClone>
     <StiColumnFooterBand>Αυτή η ζώνη χρησιμοποιείται για την εμφάνιση υποσέλιδων για στήλες πάνω στην Ζώνη Δεδομένων. Η Ζώνη "Υποσέλιδο Με Στήλες" εμφανίζει ένα υποσέλιδο κάτω από κάθε στήλη της Ζώνης Δεδομένων. Όλα τα εξαρτήματα που τοποθετούνται πάνω σε αυτή τη ζώνη θα εμφανίζονται μια φορά για κάθε στήλη.</StiColumnFooterBand>
@@ -1966,6 +2008,7 @@
     <StiCrossTab>Το εξάρτημα Διασταύρωσης Δεδομένων χρησιμοποιείται για την αναπαράσταση δεδομένων σαν πίνακα.</StiCrossTab>
     <StiDataBand>Η ζώνη δεδομένων συνδέεται με μια πηγή δεδομένων εκτυπώνεται τόσες φορές, όσες και οι γραμμές στην πηγή δεδομένων.</StiDataBand>
     <StiDatePickerElement>Το στοιχείο χρησιμοποιείται για την επιλογή ημερομηνίας και ώρας.</StiDatePickerElement>
+    <StiDatePickerUI>Ένας επιλογέας ημερομηνίας που χρησιμοποιείται για την επιλογή μιας ημερομηνίας από ένα ημερολόγιο.</StiDatePickerUI>
     <StiElectronicSignature>Αυτό το στοιχείο χρησιμοποιείται για την προσθήκη μιας απεικόνισης υπογραφής, εικόνας, αρχικών και κειμένου.</StiElectronicSignature>
     <StiEmptyBand>Αυτή η ζώνη χρησιμοποιείται για να γεμίζει τον άδειο χώρο στο τέλος μιας σελίδας. Γεμίζει τον άδειο χώρο σε κάθε σελίδα της αναφοράς.</StiEmptyBand>
     <StiFilterCategory>Μια ομάδα στοιχείων που χρησιμοποιούνται για την επιλογή και το φιλτράρισμα τιμών.</StiFilterCategory>
@@ -1977,47 +2020,64 @@
     <StiHeaderBand>Αυτή η ζώνη χρησιμοποιείται για την εκτύπωση κεφαλίδων. Χρησιμοποιείται μαζί με την Ζώνη Δεδομένων.</StiHeaderBand>
     <StiHierarchicalBand>Αυτή η ζώνη συνδέεται σε μια πηγή δεδομένων και εκτυπώνεται τόσες φορές, όσες είναι και οι γραμμές στην πηγή δεδομένων. Τα δεδοένα εκτυπώνονται σε μορφή δέντρου.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση μιας γραμμής.</StiHorizontalLinePrimitive>
+    <StiIconUI>Ένα εικονίδιο που χρησιμοποιείται για την εμφάνιση ενός συμβολικού γραφικού ή οπτικού δείκτη.</StiIconUI>
     <StiImage>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση εικόνων. Υποστηρίζει μορφές αρχείων όπως BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Αυτό το στοιχείο χρησιμοποιείται για την εμφάνιση εικόνων. Υποστηρίζει μορφές εικόνων όπως τα BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>Μια εικόνα που χρησιμοποιείται για την εμφάνιση γραφικού περιεχομένου μέσα στη διεπαφή.</StiImageUI>
     <StiIndicatorElement>Αυτό το στοιχείο εμφανίζει την διαφορά μεταξύ τιμών στα δεδομένα εισόδου.</StiIndicatorElement>
+    <StiLabelUI>Μια ετικέτα που χρησιμοποιείται για την εμφάνιση κειμένου ή σύντομων λεζαντών.</StiLabelUI>
     <StiListBoxElement>Αυτό το στοιχείο επιτρέπει την επιλογή από μια λίστα.</StiListBoxElement>
+    <StiListUI>Μια λίστα που χρησιμοποιείται για την εμφάνιση επιλέξιμων στοιχείων σε μια κάθετη συλλογή.</StiListUI>
     <StiMap>Αυτό το εξάρτημα χρησιμοποιείται για την εμφάνιση δεδομένων που είναι γεωγραφικά στοχευμένα.</StiMap>
     <StiMapCategory>Ομάδα στοιχείων για εργασία με χάρτες και δεδομένα.</StiMapCategory>
     <StiMapElement>Αυτό το στοιχείο χρησιμοποιείται για την εμφάνιση δεδομένων που είναι γεωγραφικά στοχευμένα.</StiMapElement>
     <StiMathFormula>Αυτό το στοιχείο χρησιμοποιείται για την προβολή μαθηματικών τύπων σε μια αναφορά.</StiMathFormula>
+    <StiMultiListUI>Μια λίστα που χρησιμοποιείται για την επιλογή πολλαπλών στοιχείων από την ίδια συλλογή.</StiMultiListUI>
+    <StiMultiSelectUI>Ένας επιλογέας που χρησιμοποιείται για την επιλογή πολλαπλών τιμών από μια προετοιμασμένη λίστα.</StiMultiSelectUI>
     <StiNumberBoxElement>Αυτό το στοιχείο χρησιμοποιείται για την επιλογή μιας αριθμητική ςτιμής ή για την καταχώρηση ενός έυρους αριθμητικών τιμών.</StiNumberBoxElement>
+    <StiNumberInputUI>Ένα πεδίο εισαγωγής αριθμών που χρησιμοποιείται για την εισαγωγή αριθμητικών τιμών με ελεγχόμενη εισαγωγή.</StiNumberInputUI>
     <StiOnlineMapElement>Αυτό το στοιχείο χρησιμοποιείται για την εμφάνιση γεωγραφικών δεικτών στον συνδεδεμένο χάρτη.</StiOnlineMapElement>
     <StiOverlayBand>Αυτή η ζώνη χρησιμοποιείται για την εκτύπωση υδατογραφημάτων σε μια σελίδα.</StiOverlayBand>
     <StiPageFooterBand>Αυτή η ζώνη χρησιμοποιείται για την εκτύπωση πληροφοριών στο κάτω μέρος της κάθε σελίδας, όπως αριθμοί σελίδας, ημερομηνίες και άλλες πληροφορίες.</StiPageFooterBand>
     <StiPageHeaderBand>Αυτή η ζώνη χρησιμοποιείται για την εκτύπωση των κεφαλίδων της σελίδας, περίεχοντας πληροφορίες όπως αριθμοί σελίδας, ημερομηνίες και άλλες πληροφορίες. Εκτυπώνεται στο πάνω μέρος κάθε σελίδας.</StiPageHeaderBand>
     <StiPanel>Αυτό το εξάρτημα είναι ορθογώνιου σχήματος και μπορεί να περιέχει άλλα εξαρτήματα, συμπεριλαμβανομένων και των ζωνών. Όταν μετακινείται, τα εξαρτήματα μέσα του μετακινούνται μαζί του. Μπορεί να τοποθετηθεί είτε μέσα σε μια ζώνη ή κατευθείαν σε μια σελίδα.</StiPanel>
     <StiPanelElement>Ένα ορθογώνιο πλαίσιο που περιέχει άλλα στοιχεία. Όταν το πλαίσιο μετακινείται, τα στοιχεία μέσα του μετακινούνται μαζί του.</StiPanelElement>
+    <StiPanelUI>Ένας πίνακας που χρησιμοποιείται για την ομαδοποίηση και τη διάταξη άλλων στοιχείων ελέγχου μέσα σε μία περιοχή.</StiPanelUI>
     <StiPdfDigitalSignature>Αυτό το διαδραστικό στοιχείο χρησιμοποιείται για να καθοριστεί η θέση της ψηφιακής υπογραφής, αφού η αναφορά έχει εξαχθεί σε Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Αυτό το στοχείο χρησιμοποιείται για να καθοριστεί η θέση της ψηφιακής υπογραφής και των πεδίων του πιστοποιητικού όταν γίνεται εξαγωγή σε PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Το στοιχείο του συγκεντρωτικού πίνακα χρησιμοποιείται για την δομημένη απεικόνιση δεδομένων σαν πίνακα.</StiPivotTableElement>
     <StiProgressElement>Το στοιχείο εμφανίζει το ποσοστό των δεδομένων εισόδου που έχουν επεξεργαστεί. Μπορεί να παρουσιαστεί με διάφορες μορφές - πίτα, κύκλος, ράβδος.</StiProgressElement>
+    <StiRadioGroupUI>Μια ομάδα κουμπιών επιλογής που χρησιμοποιείται για την επιλογή μίας επιλογής από ένα προκαθορισμένο σύνολο τιμών.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Αυτό το στοιχείο χρησιμοποιείται για την επιλογή ενός εύρους τιμών σε μια κλίμακα ή χρονογραμμή. Επιτρέπει στους χρήστες να ορίζουν οπτικά τα ελάχιστα και μέγιστα όρια του εύρους.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Ένα ρυθμιστικό εύρους που χρησιμοποιείται για τον ορισμό ελάχιστων και μέγιστων τιμών σε μια κλίμακα.</StiRangeSliderUI>
     <StiRectanglePrimitive>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση ορθογωνίων.</StiRectanglePrimitive>
     <StiRegionMapElement>Αυτό το στοιχείο χρησιμοποιείται για την εμφάνιση δεδομένων που είναι γεωγραφικά στοχευμένα.</StiRegionMapElement>
     <StiReportSummaryBand>Αυτή η ζώνη χρησιμοποιείται για την εκτύπωση περιλήψεων για ολόκληρη την αναφορά. Εκτυπώνεται μια φορά στο τέλος της αναφοράς.</StiReportSummaryBand>
     <StiReportTitleBand>Αυτή η ζώνη χρησιμοποιείται για την εκτύπωση του τίτλου της αναφοράς. Εκτυπώνεται στην αρχή της αναφοράς.</StiReportTitleBand>
     <StiRichText>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση και την επεξεργασία εμπλουτισμένου κειμένου (RTF). Επίσης, επιτρέπει την αποθήκευση και φόρτωση αρχείων σε μορφή εμπλουτισμένου κειμένου.</StiRichText>
     <StiRoundedRectanglePrimitive>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση στρογγυλεμένων ορθογωνίων.</StiRoundedRectanglePrimitive>
+    <StiScreen>Μια οθόνη που φιλοξενεί στοιχεία ελέγχου, διάταξη και αλληλεπιδράσεις χρήστη για μια σελίδα εφαρμογής.</StiScreen>
+    <StiSelectUI>Ένα πλαίσιο επιλογής που χρησιμοποιείται για την επιλογή μίας τιμής από μια αναπτυσσόμενη λίστα.</StiSelectUI>
     <StiShape>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση προκατασκευασμένων σχημάτων, όπως βέλη, διαγώνιες γραμμές προς τα κάτω, διαγώνιες γραμμές προς τα πάνω, οριζόντιες γραμμές, γραμμές δεξιά και αριστερά, οβάλ, ορθογώνια, ορθογώνια με στρογγυλεμένες γωνίες, γραμμές πάνω και κάτω, τρίγωνα, κάθετες γραμμές.</StiShape>
     <StiShapeElement>Αυτό το στοιχείο χρησιμοποιείται για την εισαγωγή έτοιμων σχημάτων, όπως βέλη, διαγώνιας γραμμής προς τα κάτω, διαγώνιας γραμμής προς τα πάνω, οριζόντια γραμμή, γραμμών προς τα δεξιά και αριστερά, οβάλ, ορθογώνιο, στρογγυλεμένο ορθογώνιο, γραμμές προς τα πάνω και κάτω, τρίγωνο, κάθετη γραμμή.</StiShapeElement>
     <StiSignature>Αυτό το στοιχείο χρησιμοποιείται για την προσθήκη μιας ηλεκτρονικής ή ψηφιακής υπογραφής σε μία αναφορά</StiSignature>
+    <StiSliderUI>Ένα ρυθμιστικό που χρησιμοποιείται για την επιλογή μιας τιμής σε μια συνεχή αριθμητική κλίμακα.</StiSliderUI>
     <StiSparkline>Αυτό το στοιχείο χρησιμοποιείται για τη δημιουργία μικρο-γραφικών σε μια αναφορά. Επιτρέπει τη δυναμική ανίχνευση δεδομένων που αλλάζουν, ως μπάρες, γραμμές και περιοχές.</StiSparkline>
     <StiSubReport>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση επιπρόσθετων στοιχείων σε διάφορα μέρη της αναφοράς.</StiSubReport>
+    <StiSwitchUI>Ένας διακόπτης που χρησιμοποιείται για την εναλλαγή μιας ρύθμισης ενεργοποίησης ή απενεργοποίησης με ένα κλικ.</StiSwitchUI>
     <StiTable>Αυτό το εξάρτημα αποτελείται από μια ομάδα στοιχείων για εκτύπωση δεδομένων που οργανώνονται σε μια δομή με κάθετες στήλες και οριζόντιες γραμμές.</StiTable>
     <StiTableElement>Αυτό το στοιχείο είναι μια συλλογή στοιχείων δεδομένων που είναι οργανωμένο χρησιμοποιώντας ένα μοντέλο με κάθετες στήλες και οριζόντιες γραμμές.</StiTableElement>
     <StiTableOfContents>Αυτό το στοιχείο χρησιμοποιείται για τη δημιουργία ενός πίνακα περιεχομένων σε μια αναφορά.</StiTableOfContents>
+    <StiTableUI>Ένας πίνακας που χρησιμοποιείται για την ευκρινή εμφάνιση δεδομένων σε γραμμές και στήλες.</StiTableUI>
     <StiText>Αυτό είναι το βασικό εξάρτημα για εκτύπωση δεδομένων σαν κείμενο.</StiText>
     <StiTextElement>Αυτό το στοιχείο είναι το βασικό στοιχείο για εμφάνιση δεδομένων σαν κείμενο.</StiTextElement>
     <StiTextInCells>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση κειμένου σε κελιά. Χρησιμοποιείται συχνά για τη δημιουργία φορμών.</StiTextInCells>
+    <StiTextInputUI>Ένα πεδίο εισαγωγής κειμένου που χρησιμοποιείται για την εισαγωγή και επεξεργασία τιμών κειμένου.</StiTextInputUI>
     <StiTreeViewBoxElement>Αυτό το στοιχείο χρησιμοποιείται για την επιλογή τιμών με μια κυλιόμενη προς τα κάτω λίστα σε μορφή δένδρου.</StiTreeViewBoxElement>
     <StiTreeViewElement>Αντιπροσωπεύει το στοιχείο που χρησιμοποιείται για να εμφανίσει τα ιεραρχικά δεδομένα σαν δένδρο.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση κάθετων γραμμών.</StiVerticalLinePrimitive>
     <StiWebContentElement>Αυτό το στοιχείο επιτρέπει την προσθήκη web περιεχομένου σε πίνακες ελέγχου (dashboards).</StiWebContentElement>
-    <StiWinControl>Αυτό το εξάρτημα επιτρέπει την εμφάνιση χειριστηρίων του .NET Framework.</StiWinControl>
+    <StiWinControl>Αυτό το εξάρτημα επιτρέπει την εμφάνιση χειριστηρίων του .NET.</StiWinControl>
     <StiZipCode>Αυτό το εξάρτημα χρησιμοποιείται για την εκτύπωση ταχυδρομικών κωδικών.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2063,6 +2123,7 @@
     <CompilationAccessForceInterpretation>Έγγραφα με μεταγλώττιση΄ θα ανοίγουν χωρίς κάποια προειδοποίηση, θα μετατρέποντα όμως αυτόματα σε έγγραφα που εκτελούνται με μετάφραση, χωρίς να χρησιμοποιείται η διαδικασία μεταγλώττισης. </CompilationAccessForceInterpretation>
     <CompilationModeEnabling>Μεταβαίνετε σε λειτουργία μεταγλώττισης. Αυτή η λειτουργία επιτρέπει την εκτέλεση κώδικα και ενδέχεται να είναι επιβλαβής. Παρακαλώ, χρησιμοποιήστε τη λειτουργία αυτή μόνο εάν καταλαβαίνεται όλους τους κινδύνους και συμφωνείτε. Επιλέξτε το {0} για να συνεχίσετε.</CompilationModeEnabling>
     <ComponentSize>Αλλαγή μεγέθους των επιλεγμένων εξαρτημάτων.</ComponentSize>
+    <ComponentsMenu>Ανοίγει το μενού Στοιχεία που περιέχει αχρησιμοποίητα στοιχεία του πίνακα ελέγχου στην κινητή επιφάνεια.</ComponentsMenu>
     <CopyStyle>Αντιγραφή Στυλ</CopyStyle>
     <CopyToClipboard>Αντιγραφή στο Πρόχειρο</CopyToClipboard>
     <CurrencySymbol>Επιλέξτε σύμβολο νομίσματος.</CurrencySymbol>
@@ -2119,9 +2180,10 @@
     <menuEditCut>Αποκοπή των επιλεγμένων εξαρτημάτων από την αναφορά και τοποθέτησή τους στο Πρόχειρο.</menuEditCut>
     <menuEditDelete>Διαγραφή των επιλεγμένων εξαρτημάτων.</menuEditDelete>
     <menuEditPaste>Επικόλληση των περιεχομένων του Προχείρου στην αναφορά.</menuEditPaste>
+    <menuExportSettings>Ανοίγει τον επεξεργαστή Ρυθμίσεων εξαγωγής για την τρέχουσα αναφορά ή τον πίνακα ελέγχου. Οι ρυθμίσεις εφαρμόζονται μόνο κατά την εξαγωγή της τρέχουσας αναφοράς ή του πίνακα ελέγχου.</menuExportSettings>
     <menuFAQPage>Μετάβαση στην ιστοσελίδα με τις συχνές ερωτήσεις.</menuFAQPage>
     <menuGlobalizationStrings>Άνοιγμα του Συντάκτη Διεθνοποίησης της παρούσας αναφοράς.</menuGlobalizationStrings>
-    <menuHelpAboutProgramm>Λήψη πληροφοριών για την έκδοση του Σχεδιαστή Αναφορών και την έκδοση του .Net Framework.</menuHelpAboutProgramm>
+    <menuHelpAboutProgramm>Λήψη πληροφοριών για την έκδοση του Σχεδιαστή Αναφορών και την έκδοση του .NET.</menuHelpAboutProgramm>
     <menuHomePage>Μετάβαση στην Κεντρική Σελίδα του προϊόντος.</menuHomePage>
     <menuPageOptions>Ρύθμιση βασικών παραμέτρων της τρέχουσας σελίδας. Όλες οι επιλογές της σελίδας μπορούν να αλλαχθούν από το πάνελ Ιδιοτήτων.</menuPageOptions>
     <menuPagesManager>Εκτέλεση Διαχειριστή Σελίδων. Επιτρέπει την μετακίνηση, διαγραφή και δημιουργία νέων σελίδων.</menuPagesManager>
@@ -2151,11 +2213,17 @@
     <PageSize>Επιλογή μεγέθους χαρτιού για την τρέχουσα σελίδα της αναφοράς.</PageSize>
     <PagesManager>Εκτέλεση του Διαχειριστή Σελίδων.</PagesManager>
     <PressF1>Πατήστε F1 για περισσότερες πληροφορίες</PressF1>
+    <PropertiesButton>Ενεργοποιεί τον πίνακα Ιδιοτήτων με τις ιδιότητες του προτύπου αναφοράς.</PropertiesButton>
     <Redo>Επανάληψη της προηγούμενης ανηρημένης αλλαγής στην αναφορά.</Redo>
+    <RemoveMobileSurfaceButton>Αφαιρεί την κινητή επιφάνεια από τον τρέχοντα πίνακα ελέγχου.</RemoveMobileSurfaceButton>
     <ReportNew>Δημιουργία νέας αναφοράς.</ReportNew>
     <ReportOpen>Άνοιγμα μιας αναφοράς στον σχεδιαστή.</ReportOpen>
     <ReportPreview>Προεπισκόπηση αναφοράς υπό επεξεργασία στην Προβολή Αναφοράς.</ReportPreview>
     <ReportSave>Αποθήκευση της τρέχουσας υπό επεξεργασία αναφοράς.</ReportSave>
+    <ScriptEvalAccess1>Αυτό το έγγραφο χρησιμοποιεί Script Eval. Εάν το έγγραφο προέρχεται από αξιόπιστη πηγή, μπορείτε να κάνετε κλικ στο κουμπί "Άνοιγμα" για να αποκτήσετε πρόσβαση σε αυτό.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Εάν δεν είστε σίγουροι για την προέλευση του εγγράφου αλλά θέλετε ακόμα να το προβάλετε, μπορείτε να κάνετε κλικ στο κουμπί «Άνοιγμα σε ασφαλή λειτουργία». Σε αυτήν την περίπτωση, το Script Eval θα αγνοηθεί και δεν θα εκτελεστεί.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Πλήρης πρόσβαση σεναρίων (χωρίς περιορισμούς, δυνητικά μη ασφαλής).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Ασφαλής πρόσβαση σε σενάρια (περιορισμένες δυνατότητες για λόγους ασφαλείας).</ScriptSecuritySafeMode>
     <SelectAll>Επιλογή όλων των εξαρτημάτων της τρέχουσας σελίδας.</SelectAll>
     <SelectUILanguage>Επιλογή γλώσσας γραφικού περιβάλλοντος.</SelectUILanguage>
     <SendToBack>Μεταφορά των επιλεγμένων εξαρτημάτων στο φόντο.</SendToBack>
@@ -2174,6 +2242,8 @@
     <TextFormat>Επιλογή μορφή τιμών.</TextFormat>
     <ToolbarStyle>Εφαρμογή του επιλεγμένου ύφους σε όλα τα εξαρτήματα.</ToolbarStyle>
     <Undo>Αναίρεση τελευταίας αλλαγής στην αναφορά.</Undo>
+    <ViewModeDesktopButton>Ενεργοποίηση επιφάνειας υπολογιστή.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Ενεργοποίηση επιφάνειας κινητού.</ViewModeMobileButton>
     <WordWrap>Αναδίπλωση κειμένου του εξαρτήματος.</WordWrap>
     <Zoom>Προσδιορίστε το επίπεδο μεγέθυνσης της αναφοράς.</Zoom>
   </HelpDesigner>
@@ -2261,6 +2331,7 @@
     <PageSize>Αλλαγή των παραμέτρων σελίδας της αναφοράς.</PageSize>
     <Parameters>Εμφάνιση πάνελ με παραμέτρους που χρησιμοποιούνται κατά την παραγωγή της αναφοράς.</Parameters>
     <PdfACompliance>Υποστήριξη του προτύπου για μακροχρόνια αρχειοθέτηση και αποθήκευση ηλεκτρονικών εγγράφων.</PdfACompliance>
+    <PdfUniversalAccessibility>Υποστήριξη του προτύπου των καθολικά προσβάσιμων ηλεκτρονικών εγγράφων και πληροφοριών.</PdfUniversalAccessibility>
     <Print>Εκτύπωση αναφοράς.</Print>
     <PutFeedPageCode>Τροφοδοσία σελίδων στο τελικό έγγραφο με έναν ειδικό χαρακτήρα.</PutFeedPageCode>
     <RangePages>Οι αριθμοί σελίδων προς επεξεργασία. Μπορείτε να καθορίσετε μόνο μια σελίδα, μια λίστα από σελίδες (χρησιμοποιώντας κόμμα ',' σαν χαρακτήρα διαχωρισμού), όπως και εύρη σελίδων παρεμβάλλοντας τον χαρακτήρα '-' μεταξύ της αρχικής και τελικής σελίδας. Π.χ. 1,3,5-12.</RangePages>
@@ -2306,6 +2377,7 @@
     <menuContextClone>Κλωνοποίηση...</menuContextClone>
     <menuContextDesign>Σχεδιασμός...</menuContextDesign>
     <menuContextTextFormat>Μορφοποίηση Κειμένου...</menuContextTextFormat>
+    <menuConvertTo>Μετατροπή σε {0}</menuConvertTo>
     <menuConvertToCheckBox>Μετατροπή σε CheckBox</menuConvertToCheckBox>
     <menuConvertToImage>Μετατροπή σε Εικόνα</menuConvertToImage>
     <MenuConvertToRichText>Μετατροπή σε Εμπλουτισμένο Κείμενο</MenuConvertToRichText>
@@ -2330,6 +2402,7 @@
     <menuEditDataTransformationNew>Νέος Μετασχηματισμός Δεδομένων...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Διαγραφή</menuEditDelete>
     <menuEditEdit>Επεξεργασία</menuEditEdit>
+    <menuEditEditInDesigner>Επεξεργασία στον Σχεδιαστή</menuEditEditInDesigner>
     <menuEditFunctionNew>Νέα Συνάρτηση...</menuEditFunctionNew>
     <menuEditImportRelations>Εισαγωγή Σχέσεων...</menuEditImportRelations>
     <menuEditPaste>Επι&amp;κόληση</menuEditPaste>
@@ -2431,12 +2504,6 @@
     <menuViewToolbars>Γραμμές Εργαλείων</menuViewToolbars>
   </MainMenu>
   <Map>
-    <GroupAsia>Ασία</GroupAsia>
-    <GroupEurope>Ευρώπη</GroupEurope>
-    <GroupNorthAmerica>Βόρεια Αμερική</GroupNorthAmerica>
-    <GroupOceania>Ωκεανία</GroupOceania>
-    <GroupSouthAmerica>Νότια Αμερική</GroupSouthAmerica>
-    <GroupWorld>Κόσμος</GroupWorld>
     <LinkDataForm>Σύνδεση Δεδομένων</LinkDataForm>
     <MapEditorForm>Επεξεργασία Χάρτη</MapEditorForm>
   </Map>
@@ -2460,7 +2527,7 @@
     <ShareYourReportYouShouldSave>Για να μοιραστείτε την αναφορά σας πρέπει να αποθηκεύσετε την αναφορά στο υπολογιστικό νέφος της Stimulsoft!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>Αλλαγή μεταξύ modes λειτουργίας θα οδηγήσει σε απώλεια των αλλαγών. Επιθυμείτε να προχωρήσετε?</SwitchingBetweenModes>
     <SwitchParametersOrientation>Παρακαλώ αλλάξτε την τιμή της παραμέτρου 'Προσανατολισμός Παραμέτρων' ('ParametersOrientation') της αναφοράς σε '{0}' για να προβάλετε την κατηγορία αυτή στο πάνελ των παραμέτρων.</SwitchParametersOrientation>
-    <TextRegistrationSuccessfully>Η εγγραφή ήταν επιτυχής!
+    <TextRegistrationSuccessfully>Ένα τελευταίο βήμα για να ολοκληρώσετε την εγγραφή σας!
 
 Το μειλ στάλθηκε στο "{0}".
 Περιέχει ένα λινκ για να επιβεβαιώσετε την εγγραφή σας. Για την ολοκλήρωση της εγγραφής παρακαλούμε ακολουθήστε το λινκ από το email που λάβατε.</TextRegistrationSuccessfully>
@@ -2527,12 +2594,15 @@
     <AuthUserNameOrPasswordIsNotCorrect>Το όνομα χρήστη (Email) ή ο κωδικός πρόσβασης δεν είναι σωστός!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Το όνομα χρήστη πρέπει να είναι όμοιο με τη διεύθυνση ηλεκτρονικής αλληλογραφίας (Email)!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>Το όνομα του χώρου εργασίας χρησιμοποιείται ήδη!</AuthWorkspaceNameAlreadyInUse>
+    <CertificateNotFound>Δεν βρέθηκε πιστοποιητικό!</CertificateNotFound>
     <CommandTimeOut>Ο χρόνος αναμονής της επεξεργασίας της εντολής πέρασε!</CommandTimeOut>
     <Congratulations>Συγχαρητήρια!</Congratulations>
     <DeveloperInformation>Πληροφορίες Προγραμματιστή</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Η ημερομηνία τέλους πρέπει να είναι μεγαλύτερη από την τωρινή ημερομηνία!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Η ημερομηνία τέλους πρέπει να είναι μεγαλύτερη από την ημερομηνία έναρξης!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Σφάλμα</Error>
     <ExecutionError>Σφάλμα εκτέλεσης</ExecutionError>
+    <ExpressionValidationFailed>Η επικύρωση της έκφρασης απέτυχε.</ExpressionValidationFailed>
     <GracePeriod>Η περίοδος χάριτος της συνδρομής σας λήγει σε {0} ημέρες.</GracePeriod>
     <IsIdentical>Τα "{0}" και "{1}" είναι ολόιδια."</IsIdentical>
     <IsNotAuthorized>Δεν υπάρχει πρόσβαση στο "{0}"!</IsNotAuthorized>
@@ -2548,8 +2618,13 @@
     <ItemCantBeMovedToSpecifiedPlace>Το στοιχείο δεν μπορεί να μετακινηθεί σε ένα συγκεκριμένο μέρος!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Το στοιχείο δεν υποστηρίζει "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Το Key και το ToKey είναι ίδια!</KeyAndToKeyAreEqual>
+    <LengthRange>Το μήκος πρέπει να είναι μεταξύ {0} και {1}.</LengthRange>
     <MaximumComputers>Μέγιστος Αριθμός Υπολογιστών</MaximumComputers>
+    <MaximumLength>Το μέγιστο μήκος είναι {0}.</MaximumLength>
+    <MaximumValue>Το μέγιστο είναι {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Προσοχή! Το μέγεθος του αρχείου που προσπαθείτε να προσθέσετε υπερβαίνει το μέγιστο επιτρεπτό όριο. Θέλετε στ' αλήθεια να προσθέσετε το αρχείο (η επεξεργασία της αναφοράς ίσως επιβραδυνθεί σημαντικά);</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Το ελάχιστο μήκος είναι {0}.</MinimumLength>
+    <MinimumValue>Το ελάχιστο είναι {0}.</MinimumValue>
     <NewDesignerAvailable>Ο Stimulsoft Designer {0} είναι διαθέσιμος.</NewDesignerAvailable>
     <NewProduct>Ένα νέο προϊόν έχει προστεθεί στην συνδρομή σας!</NewProduct>
     <NewVersionsAvailable>Νέα έκδοση διαθέσιμη!</NewVersionsAvailable>
@@ -2595,6 +2670,9 @@
     <NotificationTransferring>Το "{0}" μεταφέρεται στο "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>Το "{0}" μεταφέρθηκε επιτυχώς στο "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Η τιμή δεν είναι σωστή για τον τύπο {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Επιτρέπονται μόνο ψηφία.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Επιτρέπονται μόνο γράμματα.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Επιτρέπονται μόνο γράμματα και ψηφία.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Εκτός εύρους ("{0}")!</OutOfRange>
     <ParsingCommandException>Υπήρξε σφάλμα κατά την επεξεργασία της εντολής στο καθορισμένο xml: {0}</ParsingCommandException>
     <PleaseLogin>Παρακαλώ συνδεθείτε με τον Stimulsoft λογαριασμό σας ή δημιουργήστε ένα νέο λογαριασμό πριν τη δημοσίευση αναφοράς.</PleaseLogin>
@@ -2617,10 +2695,19 @@
     <SubscriptionExpiredDays>Λήγει σε {0} ημέρες</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Η συνδρομή σας έχει λήξει. Ενημερώστε  τη συνδρομή σας για να πάρετε την τελευταία έκδοση.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Η συνδρομή έληξε</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Η συνδρομή σας έχει υπερβεί το όριο θέσεων προγραμματιστή. Η εφαρμογή θα κλείσει. Παρακαλώ αναβαθμίστε το πρόγραμμά σας για να συνεχίσετε.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Όριο συνδρομής</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Η συνδρομή σας χρησιμοποιεί περισσότερες θέσεις προγραμματιστή από τις επιτρεπόμενες. Παρακαλώ εξετάστε το ενδεχόμενο αναβάθμισης του προγράμματός σας για να συνεχίσετε να εργάζεστε χωρίς διακοπή.</SubscriptionLimitWarning>
     <SubscriptionsOut10>Απομένουν 10 μέρες μέχρι την λήξη της συνδρομής!</SubscriptionsOut10>
     <SubscriptionsOut20>Η περίοδος συνδρομής θα λήξει σε 20 μέρες!</SubscriptionsOut20>
     <SuccessfullyRenewed>Η συνδρομή σας ανανεώθηκε επιτυχώς!</SuccessfullyRenewed>
     <TrialToLicense>Ευχαριστούμε που επιλέξατε την Stimulsoft!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>Το URL πρέπει να χρησιμοποιεί http:// ή https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Απαιτείται τιμή!</ValueIsRequired>
+    <ValueMatchPattern>Η τιμή δεν ταιριάζει με το απαιτούμενο μοτίβο.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>Η τιμή πρέπει να είναι μεγαλύτερη ή ίση με {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>Η τιμή πρέπει να είναι μικρότερη ή ίση με {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>Η τιμή πρέπει να είναι μεταξύ {0} και {1}.</ValueRange>
     <VersionCopyFromItem>Αντιγραφή από το στοιχείο από το στοιχείο "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Δημιουργήθηκε από το αρχείο "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Δημιουργήθηκε από το στοιχείο "{0}".</VersionCreatedFromItem>
@@ -3144,6 +3231,9 @@
     <StiDashboardContentAlignmentRight>Δεξιά</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Επέκταση Χ</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Επέκταση ΧΥ</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Βέλος</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Πανό</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Ορθογώνιο</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Σταυρός</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Πλήρες</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Εσωτερικά</StiDataJoinTypeInner>
@@ -3330,21 +3420,6 @@
     <StiLineWeightNormal>Κανονικό</StiLineWeightNormal>
     <StiLineWeightThick>Παχύ</StiLineWeightThick>
     <StiLineWeightThin>Λεπτό</StiLineWeightThin>
-    <StiMapIDAustralia>Αυστραλία</StiMapIDAustralia>
-    <StiMapIDAustria>Αυστρία</StiMapIDAustria>
-    <StiMapIDBrazil>Βραζιλία</StiMapIDBrazil>
-    <StiMapIDCanada>Καναδάς</StiMapIDCanada>
-    <StiMapIDChina>Κίνα</StiMapIDChina>
-    <StiMapIDEU>Ευρωπαϊκή Ένωση</StiMapIDEU>
-    <StiMapIDEurope>Ευρώπη</StiMapIDEurope>
-    <StiMapIDFrance>Γαλλία</StiMapIDFrance>
-    <StiMapIDGermany>Γερμανία</StiMapIDGermany>
-    <StiMapIDItaly>Ιταλία</StiMapIDItaly>
-    <StiMapIDNetherlands>Ολλανδία</StiMapIDNetherlands>
-    <StiMapIDRussia>Ρωσία</StiMapIDRussia>
-    <StiMapIDUK>Ηνωμένο Βασίλειο</StiMapIDUK>
-    <StiMapIDUSA>ΗΠΑ</StiMapIDUSA>
-    <StiMapIDWorld>Κόσμος</StiMapIDWorld>
     <StiMapModeChoropleth>Χωροπληθής χάρτης</StiMapModeChoropleth>
     <StiMapModeOnline>Δικτυακός</StiMapModeOnline>
     <StiMapTypeGroup>Ομάδα</StiMapTypeGroup>
@@ -3405,6 +3480,8 @@
     <StiOrientationVertical>Κάθετος</StiOrientationVertical>
     <StiPageOrientationLandscape>Οριζόντιος</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Κάθετος</StiPageOrientationPortrait>
+    <StiParametersDisplayModeDialog>Παράθυρο διαλόγου</StiParametersDisplayModeDialog>
+    <StiParametersDisplayModePanel>Πίνακας</StiParametersDisplayModePanel>
     <StiPdfDigitalSignatureAppearanceTypeDraw>Ζωγραφική</StiPdfDigitalSignatureAppearanceTypeDraw>
     <StiPdfDigitalSignatureAppearanceTypeImage>Εικόνα</StiPdfDigitalSignatureAppearanceTypeImage>
     <StiPdfDigitalSignatureAppearanceTypeNone>Τίποτα</StiPdfDigitalSignatureAppearanceTypeNone>
@@ -3481,6 +3558,9 @@
     <StiQRCodeEyeBallShapeTypeZebraVertical>Σχέδιο Κάθετηςς Διάβασης Πεζών</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Κύκλος</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Πολύγωνο</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Κανένα</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Βήμα</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Υποδιαίρεση</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Αυτόματο</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Ανενεργό</StiReportCacheModeOff>
     <StiReportCacheModeOn>Ενεργό</StiReportCacheModeOn>
@@ -3497,6 +3577,8 @@
     <StiRestrictionsAllowResize>Να Επιτρέπονται Αλλαγές Μεγέθους</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Να Επιτρέπονται Επιλογές</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Κανένας</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Πλήρης πρόσβαση</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Ασφαλής λειτουργία</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Πρώτο</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Από Μεταβλητή</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Τίποτα</StiSelectionModeNothing>
@@ -3506,6 +3588,7 @@
     <StiSeriesLabelsValueTypeSeriesTitleArgument>Τίτλος Σειράς Δεδομένων - Όρισμα</StiSeriesLabelsValueTypeSeriesTitleArgument>
     <StiSeriesLabelsValueTypeSeriesTitleValue>Τίτλος Σειράς Δεδομένων - Τιμή</StiSeriesLabelsValueTypeSeriesTitleValue>
     <StiSeriesLabelsValueTypeTag>Ετικέτα</StiSeriesLabelsValueTypeTag>
+    <StiSeriesLabelsValueTypeTotal>Σύνολο</StiSeriesLabelsValueTypeTotal>
     <StiSeriesLabelsValueTypeValue>Τιμή</StiSeriesLabelsValueTypeValue>
     <StiSeriesLabelsValueTypeValueArgument>Τιμή - Όρισμα</StiSeriesLabelsValueTypeValueArgument>
     <StiSeriesLabelsValueTypeWeight>Βάρος</StiSeriesLabelsValueTypeWeight>
@@ -3542,7 +3625,6 @@
     <StiSignatureModeType>Πληκτρολόγηση</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Ψηφιακή Υπογραφή</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Ζωγραφική</StiSignatureTypeDraw>
-    <StiSignatureTypeSelectStyle>Επιλογή Στυλ</StiSignatureTypeSelectStyle>
     <StiSignatureTypeType>Τύπος</StiSignatureTypeType>
     <StiSizeModeAutoSize>Αυτόματο Μέγεθος</StiSizeModeAutoSize>
     <StiSizeModeFit>Να Χωράει</StiSizeModeFit>
@@ -3657,6 +3739,7 @@
     <DisconnectingEvent>Αποσυνδέεται</DisconnectingEvent>
     <DoubleClickEvent>Διπλό Κλικ</DoubleClickEvent>
     <EndRenderEvent>Λήξη Απεικόνισης</EndRenderEvent>
+    <EndValueChangedEvent>Η τελική τιμή άλλαξε</EndValueChangedEvent>
     <EnterEvent>Ενεργοποίηση</EnterEvent>
     <ExportedEvent>Εξήχθη</ExportedEvent>
     <ExportingEvent>Εξάγεται</ExportingEvent>
@@ -3709,6 +3792,7 @@
     <RenderingEvent>Απεικόνιση</RenderingEvent>
     <ReportCacheProcessingEvent>Επεξεργασία Λανθάνουσας Μνήμης Αναφοράς</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Αλλαγή Αριθμού Επιλεγμένου</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Η τιμή έναρξης άλλαξε</StartValueChangedEvent>
     <StateRestoreEvent>Επαναφορά Κατάστασης</StateRestoreEvent>
     <StateSaveEvent>Αποθήκευση Κατάστασης</StateSaveEvent>
     <ValueChangedEvent>Αλλαγή Τιμής</ValueChangedEvent>
@@ -3772,6 +3856,7 @@
   <PropertyMain>
     <AcceptsReturn>Δέχεται Αλλαγή Γραμμής</AcceptsReturn>
     <AcceptsTab>Δέχεται Πλήκτρο Στηλοθέτη</AcceptsTab>
+    <Action>Ενέργεια</Action>
     <Actual>Πραγματικό</Actual>
     <AddClearZone>Προσθήκη Ζώνης Εκκαθάρισης</AddClearZone>
     <Advanced>Προχωρημένες</Advanced>
@@ -3790,6 +3875,7 @@
     <AllowExpressions>Επιτρέπονται οι Εκφράσεις</AllowExpressions>
     <AllowHtmlTags>Επιτρέπονται Html Tags</AllowHtmlTags>
     <AllowNull>Επιτρέψτε Κενό (null)</AllowNull>
+    <AllowScriptsInExpressions>Να επιτρέπονται σενάρια στις εκφράσεις</AllowScriptsInExpressions>
     <AllowScriptsToRun>Επιτρέψτε την εκτέλεση scripts</AllowScriptsToRun>
     <AllowSeries>Επιτρέπονται Σειρές Δεδομένων</AllowSeries>
     <AllowSeriesElements>Επιτρέπονται Στοιχεία Σειρών Δεδομένων</AllowSeriesElements>
@@ -3871,6 +3957,7 @@
     <BorderSize>Μέγεθος Περιθωρίου</BorderSize>
     <BorderStyle>Στυλ Ορίου</BorderStyle>
     <BorderThickness>Πάχος Περιθωρίου</BorderThickness>
+    <BorderVisible>Ορατό περίγραμμα</BorderVisible>
     <BorderWidth>Πλάτος Περιθωρίου</BorderWidth>
     <Bottom>Κάτω</Bottom>
     <BottomLeft>Κάτω αριστερά</BottomLeft>
@@ -3990,6 +4077,7 @@
     <DataBarsNegative>Αρνητικές Μπάρες Δεδομένων</DataBarsNegative>
     <DataBarsOverlapped>Επικάλυψη Μπάρας Δεδομένων</DataBarsOverlapped>
     <DataBarsPositive>Θετικές Μπάρες Δεδομένων</DataBarsPositive>
+    <DataBinding>Σύνδεση δεδομένων</DataBinding>
     <DataBindings>Συνδέσεις Δεδομένων</DataBindings>
     <DataCells>Κελιά Δεδομένων</DataCells>
     <DataColor>Χρώμα Δεδομένων</DataColor>
@@ -4104,11 +4192,13 @@
     <FiltersTarget>Στόχος Φίλτρων</FiltersTarget>
     <First>Πρώτο</First>
     <FirstTabOffset>Αντιστάθμιση Θέσης Πρώτης Στήλης</FirstTabOffset>
+    <FitMode>Λειτουργία προσαρμογής</FitMode>
     <FixedHeight>Σταθερό Ύψος</FixedHeight>
     <FixedWidth>Σταθερό Πλάτος</FixedWidth>
     <Flat>Επίπεδο</Flat>
     <FlatMode>Μέθοδος Εμφάνισης Επίπεδου</FlatMode>
     <Focus>Εστίαση</Focus>
+    <FocusVisible>Ορατή εστίαση</FocusVisible>
     <Font>Γραμματοσειρά</Font>
     <FontBold>Έντονη Γραμματοσειρά</FontBold>
     <FontItalic>Πλάγια Γραμματοσειρά</FontItalic>
@@ -4166,6 +4256,8 @@
     <GroupDataColumn>Στήλη Ομαδοποίησης Δεδομένων</GroupDataColumn>
     <GroupMeter>Ομάδα</GroupMeter>
     <GrowToHeight>Μεγάλωμα στο Ύψος</GrowToHeight>
+    <HandleBorderColor>Χρώμα περιγράμματος λαβής</HandleBorderColor>
+    <HandleFillColor>Χρώμα γεμίσματος λαβής</HandleFillColor>
     <Header>Κεφαλίδα</Header>
     <HeaderAlignment>Ευθυγράμμιση Κεφαλίδας</HeaderAlignment>
     <HeaderBackColor>Χρώμα Φόντου Κεφαλίδας</HeaderBackColor>
@@ -4378,9 +4470,10 @@
     <MaxDropDownItems>Μέγιστος Αριθμός Στοιχείων Drop Down</MaxDropDownItems>
     <MaxHeight>Μέγιστο Ύψος</MaxHeight>
     <Maximum>Μέγιστο</Maximum>
-    <MaximumValue>Μέγιστη Τιμή</MaximumValue>
+    <MaximumValue>Μέγιστη τιμή</MaximumValue>
     <MaxLength>Μέγιστο Μήκος</MaxLength>
     <MaxNumberOfLines>Μέγιστος Αριθμός Γραμμών</MaxNumberOfLines>
+    <MaxSelectedItems>Μέγιστα επιλεγμένα στοιχεία</MaxSelectedItems>
     <MaxSize>Μέγιστο Μέγεθος</MaxSize>
     <MaxValue>Μέγιστη Τιμή</MaxValue>
     <MaxWidth>Μέγιστο Πλάτος</MaxWidth>
@@ -4391,7 +4484,7 @@
     <MinHeight>Ελάχιστο Ύψος</MinHeight>
     <Minimum>Ελάχιστο</Minimum>
     <MinimumFontSize>Ελάχιστο Μέγεθος Γραμματοσειράς</MinimumFontSize>
-    <MinimumValue>Ελάχιστη Τιμή</MinimumValue>
+    <MinimumValue>Ελάχιστη τιμή</MinimumValue>
     <MinorColor>Έλασσον Χρώμα</MinorColor>
     <MinorCount>Αριθμός Έλασσον</MinorCount>
     <MinorInterval>Έλασσον Διάκενο</MinorInterval>
@@ -4409,6 +4502,7 @@
     <Multiline>Πολλαπλών Γραμμών</Multiline>
     <MultipleFactor>Παράγοντας Μεγέθυνσης</MultipleFactor>
     <MultipleInitialization>Πολλαπλή Αρχικοποίηση</MultipleInitialization>
+    <MyFunction>Η συνάρτησή μου</MyFunction>
     <Name>Όνομα</Name>
     <NameDataColumn>Ονομασία Στήλης Δεδομένων</NameDataColumn>
     <NameInSource>Όνομα Στην Πηγή</NameInSource>
@@ -4432,6 +4526,7 @@
     <NextPage>Επόμενη Σελίδα</NextPage>
     <NoElements>Δεν Υπάρχουν Στοιχεία</NoElements>
     <NoIcon>Χωρίς Εικονίδιο</NoIcon>
+    <Notifications>Ειδοποιήσεις</Notifications>
     <NullText>Κείμενο Null</NullText>
     <NumberOfColumns>Αριθμός Στηλών</NumberOfColumns>
     <NumberOfCopies>Αριθμός Αντιγράφων</NumberOfCopies>
@@ -4468,6 +4563,7 @@
     <ParameterAlignment>Στοιχιση Παραμέτρων</ParameterAlignment>
     <Parameters>Παράμετροι</Parameters>
     <ParametersDateFormat>Μορφοποίηση Παραμέτρων Ημερομηνίας</ParametersDateFormat>
+    <ParametersDisplayMode>Λειτουργία εμφάνισης παραμέτρων</ParametersDisplayMode>
     <ParametersOrientation>Προσανατολισμός Παραμέτρων</ParametersOrientation>
     <ParameterWidth>Πλάτος Παραμέτρου</ParameterWidth>
     <ParentColumns>Στήλες Πατέρες</ParentColumns>
@@ -4476,6 +4572,7 @@
     <ParetoSeriesColors>Χρώματα Σειράς Παρέτο</ParetoSeriesColors>
     <PasswordChar>Χαρακτήρας Κωδικού Πρόσβασης</PasswordChar>
     <Path>Διαδρομή</Path>
+    <PathColor>Χρώμα διαδρομής</PathColor>
     <PathData>Διαδρομή Δεδομένων</PathData>
     <PathSchema>Διαδρομή Σχήματος</PathSchema>
     <Pattern>Μοτίβο</Pattern>
@@ -4483,6 +4580,7 @@
     <Placeholder>Χώρος τοποθέτησης</Placeholder>
     <Placement>Στοίχιση</Placement>
     <PlaceOnToolbox>Τοποθέτηση στην Εργαλειοθήκη</PlaceOnToolbox>
+    <Platform>Πλατφόρμα</Platform>
     <PointAtCenter>Στόχευση στο κέντρο</PointAtCenter>
     <Position>Θέση</Position>
     <Positive>Θετικό</Positive>
@@ -4538,6 +4636,7 @@
     <Refresh>Ανανέωση</Refresh>
     <RefreshTime>Χρόνος Ανανέωσης</RefreshTime>
     <Regular>Κανονικό</Regular>
+    <RegularExpression>Κανονική έκφραση</RegularExpression>
     <Relation>Σχέση</Relation>
     <RelationName>Όνομα Σχέση</RelationName>
     <Relations>Σχέσεις</Relations>
@@ -4690,6 +4789,8 @@
     <SkipValues>Παράλειψη Τιμών</SkipValues>
     <SkipValuesObj>Παράλειψη Τιμών</SkipValuesObj>
     <Smoothing>Εξομάλυνση</Smoothing>
+    <SnapMode>Λειτουργία προσκόλλησης</SnapMode>
+    <SnapPageWidthToGrid>Προσκόλληση πλάτους σελίδας στο πλέγμα</SnapPageWidthToGrid>
     <Sort>Ταξινόμηση</Sort>
     <SortBy>Ταξινόμηση με</SortBy>
     <SortDirection>Κατεύθυνση Ταξινόμησης</SortDirection>
@@ -4776,6 +4877,8 @@
     <TextRightToLeft>Κείμενο από δεξιά προς τα αριστερά</TextRightToLeft>
     <TextShowBehind>Προβολή Κειμένου Πίσω</TextShowBehind>
     <Third>Τρίτο</Third>
+    <ThumbBorderColor>Χρώμα περιγράμματος δείκτη</ThumbBorderColor>
+    <ThumbColor>Χρώμα δείκτη</ThumbColor>
     <TickLabelMajorFont>Γραμματοσειρά Ταμπέλας Μείζονος Σημαδιού</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Βούρτσα Κειμένου Ταμπέλας Μείζονος Σημαδιού</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Γραμματοσειρά Ταμπέλας Ελάσσονος Σημαδιού</TickLabelMinorFont>
@@ -4802,6 +4905,7 @@
     <ToolTipBrush>Πινέλο Tool Tip</ToolTipBrush>
     <ToolTipCornerRadius>Γωνιακή Ακτίνα Tool Tip</ToolTipCornerRadius>
     <ToolTipDataColumn>Στήλη Δεδομένων Βοήθειας Εργαλείου</ToolTipDataColumn>
+    <ToolTipText>Κείμενο επεξήγησης</ToolTipText>
     <ToolTipTextBrush>Πινέλο Κειμένου Tool Tip</ToolTipTextBrush>
     <Top>Πάνω</Top>
     <TopLeft>Πάνω αριστερά</TopLeft>
@@ -4849,6 +4953,7 @@
     <UseStyleOfSummaryInRowTotal>Χρήση Στυλ Περίληψης στο Σύνολο Γραμμών</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Χρήση Εικόνας Χρήστη</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Χρήση Τιμών από το Καθορισμένο Εύρος</UseValuesFromTheSpecifiedRange>
+    <Validation>Επικύρωση</Validation>
     <Value>Τιμή</Value>
     <ValueClose>Τιμή Κλεισίματος</ValueClose>
     <ValueDataColumn>Στήλη Δεδομένων Τιμής</ValueDataColumn>
@@ -5056,7 +5161,9 @@
   <Report>
     <ActiveRelation>Ενεργή Σχέση</ActiveRelation>
     <Address>Διεύθυνση</Address>
+    <Alpha>Άλφα</Alpha>
     <Alphabetical>Αλφαβητική</Alphabetical>
+    <AlphaNumeric>Αλφαριθμητικό</AlphaNumeric>
     <Bands>Ζώνες</Bands>
     <Basic>Βασική</Basic>
     <BasicConfiguration>Ελάχιστος αριθμός ιδιοτήτων αντικειμένων, που είναι απαραίτητα για την παραγωγή των βασικών τύπων αναφοράς.</BasicConfiguration>
@@ -5064,6 +5171,7 @@
     <Categorized>Κατηγοριοποιημένο</Categorized>
     <Charts>Διαγράμματα</Charts>
     <Checking>Έλεγχος...</Checking>
+    <ClickAddToCreateNewAction>Κάντε κλικ στην «Προσθήκη» για να ορίσετε τι συμβαίνει όταν παρουσιάζεται αυτό το συμβάν (π.χ. εμφάνιση οθόνης ή αλλαγή τιμής).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Κάντε Κλικ Για Λεπτομέρειες</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>για να δημιουργήσετε μια νέα συνθήξη</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>για να δημιουργήσετε νέο πεδίο</ClickHereToCreateNewField>
@@ -5079,10 +5187,10 @@
     <CreatingReport>Δημιουργία Αναφοράς</CreatingReport>
     <CrossBands>Ζώνες Διασταύρωσης</CrossBands>
     <CustomRange>Προσαρμοσμένο Εύρος</CustomRange>
-    <Dashboard>Ταμπλό</Dashboard>
     <DashboardOnly>Μόνο Πίνακας Ενεργειών (Dashboard) και Δεδομένα Μετασχηματισμού</DashboardOnly>
     <Dialogs>Διάλογοι</Dialogs>
     <EditStyles>Επεξεργασία Στυλ</EditStyles>
+    <Email>Email</Email>
     <EnableCacheAllDataMode>Ενεργοποίηση της προσωρινής αποθήκευσης όλων των δεδομένων</EnableCacheAllDataMode>
     <Enhancements>Βελτιώσεις</Enhancements>
     <EnterDataManually>Χειροκίνητη καταχώρηση δεδομένων</EnterDataManually>
@@ -5105,6 +5213,7 @@
     <Infographics>Γραφική Αναπαράσταση Δεδομένων</Infographics>
     <InfoMessage>{0} - {1} βρέθηκαν.</InfoMessage>
     <InformationMessages>Μηνύματα Πληροφοριών</InformationMessages>
+    <IpAddress>Διεύθυνση IP</IpAddress>
     <LabelAlias>Ψευδώνυμο:</LabelAlias>
     <LabelAuthor>Συντάκτης:</LabelAuthor>
     <LabelBackground>Φόντο:</LabelBackground>
@@ -5112,7 +5221,6 @@
     <LabelCentimeters>Εκατοστά:</LabelCentimeters>
     <LabelCollectionName>Όνομα Συλλογής:</LabelCollectionName>
     <LabelColor>Χρώμα:</LabelColor>
-    <LabelCommandTimeout>Προθεσμία Εντολής:</LabelCommandTimeout>
     <LabelCountData>Μέτρηση Δεδομένων:</LabelCountData>
     <LabelDataBand>Ζώνη Δεδομένων:</LabelDataBand>
     <LabelDataColumn>Στήλη Δεδομένων:</LabelDataColumn>
@@ -5129,6 +5237,7 @@
     <LabelNestedLevel>Επίπεδο Εμφώλευσης:</LabelNestedLevel>
     <LabelPassword>Κωδικός:</LabelPassword>
     <LabelPixels>Εικονοστοιχεία:</LabelPixels>
+    <LabelPlatform>Εάν η πλατφόρμα είναι .NET, θα χρησιμοποιηθεί ένα σενάριο C#. Εάν η πλατφόρμα είναι JS, τότε θα χρησιμοποιηθεί JavaScript.</LabelPlatform>
     <LabelQueryTimeout>Λήξη Χρόνου Εκτέλεσης Ερωτήματος:</LabelQueryTimeout>
     <LabelSystemVariable>Μεταβλητή Συστήματος:</LabelSystemVariable>
     <LabelTableOfContentsHint>Παρακαλώ, ελέξτε τα στοιχεία που θα πρέπει να συνθέτουν τον πίνακα περιεχομένου. Κάθε στοιχείο αντιστοιχεί σε ένα επίπεδο κεφαλίδας.</LabelTableOfContentsHint>
@@ -5148,6 +5257,7 @@
     <Obsoleted>Απαρχαιωμένα</Obsoleted>
     <Office2010Back>Πίσω</Office2010Back>
     <PageNofM>Σελίδα {0} από {1}</PageNofM>
+    <Phone>Τηλέφωνο</Phone>
     <PreparingReport>Προετοιμασία Αναφοράς</PreparingReport>
     <Professional>Επαγγελματικό</Professional>
     <ProfessionalConfiguration>Όλες Οι Ιδιότητες Αντικειμένου.</ProfessionalConfiguration>
@@ -5162,8 +5272,11 @@
     <RestartDesigner>Χρειάζεται να επανακινήσετε τον Σχεδιαστή</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Αποθήκευση αναφοράς, των σελίδων ή των φορμών</SaveReportPagesOrFormsFromReport>
     <SavingReport>Αποθήκευση Αναφοράς</SavingReport>
+    <ScriptEvalAccess>Πρόσβαση αξιολόγησης σεναρίου</ScriptEvalAccess>
+    <ScriptSecurity>Ασφάλεια σεναρίου</ScriptSecurity>
     <SecondPass>Δεύτερο Πέρασμα</SecondPass>
     <Shapes>Σχήματα</Shapes>
+    <ShowIncompatibleTypes>Εμφάνιση μη συμβατών τύπων</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Προβολή στο πάνελ των Παραμέτρων</ShowOnParametersPanel>
     <Standard>Τυπικό</Standard>
     <StandardConfiguration>Βασικές ιδιότητες αντικειμένου εκτός από τις σπάνια χρησιμοποιούμενες.</StandardConfiguration>
@@ -5197,7 +5310,6 @@
   </Report>
   <ReportInfo>
     <CheckIssuesAdditionalDescription>Έλεγχος αναφοράς για σφάλματα και για εύρεση ανακριβειών σε αυτήν.</CheckIssuesAdditionalDescription>
-    <CheckIssuesDescription>Επιθεώρηση Εγγράφου</CheckIssuesDescription>
     <EncryptWithPassword>Κρυπτογράφηση με Κωδικό</EncryptWithPassword>
     <EncryptWithPasswordAdditionalDescription>Ορίστε τον κωδικό πρόσβασης για να αποτρέψετε μη-εξουσιοδοτημένες εργασίες με το έγγραφο.</EncryptWithPasswordAdditionalDescription>
     <EncryptWithPasswordDescription>Προστασία Εγγράφου</EncryptWithPasswordDescription>
@@ -5223,7 +5335,6 @@
     <EditScheduler>Επεξεργασία χρονοπρογραμματισμού</EditScheduler>
     <EnableSSL>Ενεργοποίηση SSL</EnableSSL>
     <Expire>Λήξη</Expire>
-    <ForADuractionOf>για διάρκεια</ForADuractionOf>
     <ForADurationOf>για διάρκεια</ForADurationOf>
     <GetFolder>Λήψη φακέλου</GetFolder>
     <GroupBoxFiles>Αρχεία</GroupBoxFiles>
@@ -5248,7 +5359,6 @@
     <NewScheduler>Νέος χρονοπρογραμματισμός</NewScheduler>
     <NoLogs>Δεν υπάρχουν αρχεία καταγραφής</NoLogs>
     <NoSchedulers>Δεν υπάρχει χρονοπρογραμματισμός</NoSchedulers>
-    <NoShedulers>Δεν υπάρχει χρονοπρογραμματισμός</NoShedulers>
     <NumberOfDayAll>Όλες</NumberOfDayAll>
     <NumberOfDayFirst>Πρώτη</NumberOfDayFirst>
     <NumberOfDayFourth>Τέταρτη</NumberOfDayFourth>
@@ -5266,7 +5376,6 @@
     <Schedulers>Χρονοπρογραμματισμοί</Schedulers>
     <SenderEmail>Email Αποστολέα</SenderEmail>
     <SmtpSettings>Ρυθμίσεις Smtp</SmtpSettings>
-    <StopAllRunningTasksAtEndOfRepetitionDuraction>Σταμάτημα όλων των ενεργειών που εκτελούνται με το τέλος της διάρκειας επανάληψης</StopAllRunningTasksAtEndOfRepetitionDuraction>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Σταματήσετε όλα τα tasks που είναι σε εξέλιξη στο τέλος της διάρκειας επανάληψης</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Σταμάτημα των ενεργειών εάν εκτελούνται για περισσότερο από</StopTasksIfItRunsLongerThan>
     <TextDragDropDestinationHere>Σύρετε και αφήσετε τον φάκελο προορισμού εδώ:</TextDragDropDestinationHere>
@@ -5344,8 +5453,6 @@
   <Signature>
     <ClearSignature>Καθαρισμός Υπογραφής</ClearSignature>
     <DigitalSignatureEmptyWatermark>Θέση ψηφιακής υπογραφής στο εργαλείο προβολής PDF </DigitalSignatureEmptyWatermark>
-    <FullName>Πλήρες Όνομα</FullName>
-    <Initials>Αρχικά</Initials>
     <InsertImage>Εισαγωγή Εικόνας</InsertImage>
     <InsertText>Εισαγωγή Κειμένου</InsertText>
     <LoadSignature>Φόρτωση Υπογραφής</LoadSignature>
@@ -5356,10 +5463,13 @@
     <UseBrush>Χρήση Πινέλου</UseBrush>
   </Signature>
   <StimulAI>
+    <AskStimulAI>Ρωτήστε το Stimul AI</AskStimulAI>
+    <Assistant>Βοηθός</Assistant>
     <ChangedWithAI>Αλλαγμένο με το Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Δεν βρέθηκαν ζητήματα με τη συγκεκριμένη έκφραση.</CheckExpressionSuccess>
     <CheckQuery>Ελεγχος Ερωτήματος</CheckQuery>
     <CheckWithStimulAI>Έλεγχος με το Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Κάντε κλικ για προεπισκόπηση</ClickToPreview>
     <ConnectionStringExampleWithAI>Παράδειγμα αλφαριθμητικού σύνδεσης (Connection string) με το Stimul AI</ConnectionStringExampleWithAI>
     <ConnectionStringTesting>Έλεγχος Αλφαριθμητικού Σύνδεσης</ConnectionStringTesting>
     <ExplainQuery>Ερμηνεία Ερωτήματος</ExplainQuery>
@@ -5383,6 +5493,7 @@
     <LineRoman>Επιστρέφει τον τρέχοντα αριθμό γραμμής σε Ρωμαϊκά αριθμητικά σύμβολα.</LineRoman>
     <LineThrough>Επιστρέφει τον τρέχοντα αριθμό γραμμής(ξεκινά από 1). Όταν υπολογίζεται ο αριθμός, όλες οι ομάδες αγνοούνται και η αρίθμηση ξεκινά από την αρχή της εκτύπωσης.</LineThrough>
     <PageCopyNumber>Επιστρέφει τον αριθμός του τρέχονταος αντιγράφου μιας σελίδας (ξεκινά από 1).</PageCopyNumber>
+    <PageLine>Επιστρέφει τον αριθμό της τρέχουσας γραμμής σε μια σελίδα (ξεκινά από το 1).</PageLine>
     <PageNofM>Επιστρέφει ένα μετεφρασμένο κείμενο, που εμφανίζει το "Σελίδα N από M" όπου N είναι ο τρέχων αριθμός σελίδας και M είναι το TotalPageCount τη αναφοράς.</PageNofM>
     <PageNofMThrough>Επιστρέφει ένα μετεφρασμένο κείμενο, που εμφανίζει το "Σελίδα N από M" όπου N είναι ο τρέχων αριθμός σελίδας και M είναι το TotalPageCount τη αναφοράς. Όταν υπολογίζεται το PageNofMThrough, όλες οι ιδιότητες ResetPageNumber αγνοούνται και η αρίθμηση ξεκινά από την αρχή της αναφοράς.</PageNofMThrough>
     <PageNumber>Επιστρέφει τον τρέχων αριθμό σελίδας (ξεκινά από 1).</PageNumber>
@@ -5439,6 +5550,7 @@
     <FontSize>Μέγεθος Γραμματοσειράς</FontSize>
     <FontStyleBold>Έντονο Στυλ Γραμματοσειράς</FontStyleBold>
     <FontStyleItalic>Πλάγιο Στυλ Γραμματοσειράς</FontStyleItalic>
+    <FontStyleStrikeout>Στυλ γραμματοσειράς διακριτή διαγραφή</FontStyleStrikeout>
     <FontStyleUnderline>Υπογραμμισμένο Στυλ Γραμματοσειράς</FontStyleUnderline>
     <Link>Σύνδεσμος</Link>
     <Lock>Κλείδωμα</Lock>
@@ -5490,6 +5602,7 @@
   <UserFunctionEditor>
     <ArgumentName>Όνομα Παραμέτρου</ArgumentName>
     <ArgumentType>Τύπος Παραμέτρου</ArgumentType>
+    <CheckScript>Έλεγχος σεναρίου</CheckScript>
     <ConvertScript>Μετατροπή Script</ConvertScript>
     <CustomCategory>Προσαρμοσμένη Κατηγορία</CustomCategory>
     <EditCode>Επεξεργασία Κώδικα</EditCode>
@@ -5512,6 +5625,8 @@
     <Title>Καλωσορίσατε στην επίδειξη του Stimulsoft</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Πίνακας ελέγχου δημιουργημένος από AI</AIGeneratedDashboard>
+    <AIGeneratedReport>Αναφορά δημιουργημένη από AI</AIGeneratedReport>
     <BlankDashboard>Κενό Ταμπλό</BlankDashboard>
     <BlankForm>Κενή φόρμα</BlankForm>
     <BlankReport>Κενή Αναφορά</BlankReport>
@@ -5522,13 +5637,17 @@
     <ButtonNext>&amp;Επόμενο &gt;</ButtonNext>
     <ColumnsOrder>Σειρά Στηλών</ColumnsOrder>
     <Company>Εταιρία</Company>
+    <CreateDataManually>Δημιουργία δεδομένων χειροκίνητα</CreateDataManually>
     <Custom>Προσαρμοσμένη</Custom>
     <DataRelation>Σχέση</DataRelation>
     <DataSource>Πηγή Δεδομένων</DataSource>
     <DataSources>Πηγές Δεδομένων</DataSources>
     <DefaultThemes>Προεπιλεγμένα Θέματα</DefaultThemes>
+    <EditUserSource>Επεξεργασία πηγής χρήστη</EditUserSource>
+    <Examples>Παραδείγματα</Examples>
     <Filters>Φίλτρα</Filters>
     <FromReportTemplate>Από Σκελετό Αναφοράς</FromReportTemplate>
+    <GenerateDataWithAI>Δημιουργία δεδομένων με AI</GenerateDataWithAI>
     <GetData>Λήψη Δεδομένων</GetData>
     <groupCreateNewDashboard>Δημιούργησε Νέο Ταμπλό</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Δημιουργία Νέας Σελίδας ή Φόρμας</groupCreateNewPageOrForm>
@@ -5570,6 +5689,7 @@
     <Mapping>Αντιστοίχιση</Mapping>
     <MarkAll>Σήμανση &amp;Όλων</MarkAll>
     <MasterDetailReport>Αναφορά Master-Detail</MasterDetailReport>
+    <NewUserSource>Νέα πηγή χρήστη</NewUserSource>
     <NoFunction>[Τίποτα]</NoFunction>
     <OpenExistingReport>Άνοιγμα Υπάρχουσας Αναφοράς</OpenExistingReport>
     <OpenFrom>Άνοιγμα Από {0}</OpenFrom>
@@ -5579,8 +5699,10 @@
     <RunWizard>Εκτέλεση Οδηγού</RunWizard>
     <SelectColumns>Επιλογή Στηλών</SelectColumns>
     <SelectTemplate>Πρότυπο</SelectTemplate>
+    <SelectTypeOfLayout>Παρακαλώ επιλέξτε έναν τύπο διάταξης</SelectTypeOfLayout>
     <Sort>Ταξινόμηση</Sort>
     <StandardReport>Τυπική Αναφορά</StandardReport>
+    <SuggestWithAI>Πρόταση με AI</SuggestWithAI>
     <Themes>Θέματα</Themes>
     <title>Νέα Αναφορά</title>
     <Totals>Σύνολα</Totals>

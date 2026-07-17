@@ -284,6 +284,8 @@
     <Pictorial>პიქტოგრაფიული რუკა</Pictorial>
     <PictorialStacked>პიქტოგრაფიული რუკა დაგროვებით</PictorialStacked>
     <Pie>წრიული</Pie>
+    <Polar>პოლარული</Polar>
+    <PolarStacked>პოლარული დაგროვებით</PolarStacked>
     <Radar>რადარი</Radar>
     <RadarArea>რადარის ფართობი</RadarArea>
     <RadarColumn>რადარი სვეტებით</RadarColumn>
@@ -744,6 +746,7 @@
     <AllowUserFiltering>სამომხმარებლო ფილტრაციის დაშვება</AllowUserFiltering>
     <AllowUserSorting>სამომხმარებლო სორტირების დაშვება</AllowUserSorting>
     <BeforeTransformation>ტრანსფორმაციამდე</BeforeTransformation>
+    <BindData>მონაცემებთან დაკავშირება</BindData>
     <Blank>(ცარიელი)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>ლოგიკური ფილტრები</BooleanFilters>
@@ -954,6 +957,8 @@
     <StiListControl>სია</StiListControl>
     <StiListViewControl>აღმნიშვნელთა სია</StiListViewControl>
     <StiLookUpBoxControl>ჩამოსაშლელი სია კოდებით</StiLookUpBoxControl>
+    <StiMultiListControl>მრავალარჩევითი სია</StiMultiListControl>
+    <StiMultiSelectControl>მრავალარჩევითი არჩევანი</StiMultiSelectControl>
     <StiNumberInputControl>რიცხვის შეყვანა</StiNumberInputControl>
     <StiNumericUpDownControl>რიცხვი ზემოთ ქმევოთ</StiNumericUpDownControl>
     <StiPanelControl>პანელი</StiPanelControl>
@@ -961,6 +966,7 @@
     <StiRadioButtonControl>გადამრთველი</StiRadioButtonControl>
     <StiRadioControl>გადამრთველი</StiRadioControl>
     <StiRadioGroupControl>Radio ჯგუფი</StiRadioGroupControl>
+    <StiRangeSliderControl>დიაპაზონის სლაიდერი</StiRangeSliderControl>
     <StiReportControl>მართვის ელემენტი</StiReportControl>
     <StiRichTextBoxControl>ტექსტის ფორმატირების ველი</StiRichTextBoxControl>
     <StiSelectControl>არჩევა</StiSelectControl>
@@ -993,10 +999,12 @@
     <MatchCase>რეგისტრის გათვალისწინებით</MatchCase>
     <MatchWholeWord>მხოლოდ მთლიანი სიტყვა</MatchWholeWord>
     <MaximumDimensions>შესაძლებელია მაქსიმუმ 7 განზომილების არჩევა.</MaximumDimensions>
+    <NotFound>ვერ მოიძებნა</NotFound>
     <Outlining>შემოხაზვა</Outlining>
     <PromptOnReplace>ჩანაცვლების დადასტურება</PromptOnReplace>
     <Replace>ჩანაცვლება</Replace>
     <ReplaceAll>ყველას ჩანაცვლება</ReplaceAll>
+    <Replaced>ჩანაცვლებულია: {0}</Replaced>
     <ReplaceWith>ჩაენაცვლოს:</ReplaceWith>
     <Search>ძებნა</Search>
     <SearchHiddenText>დამალული ტექსტი</SearchHiddenText>
@@ -1990,10 +1998,13 @@
   <HelpComponents>
     <StiBarCode>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ შტრიხკოდი. მონაცემები გადაეცემა სტრიქონის ფორმატში. მხოლოდ დაშვებული სიმბოლების გამოჩენაა შესაძლებელი.</StiBarCode>
     <StiButtonElement>ეს კომპონენტი გამოიყენება მოვლენის სკრიპტის შესასრულებლად მომხმარებელთან ურთიერთობის დროს.</StiButtonElement>
+    <StiButtonUI>ღილაკი, რომელიც გამოიყენება მოქმედების ან ბრძანების გასაშვებად.</StiButtonUI>
     <StiCardsElement>ეს კომპონენტი გამოიყენება ბარათების სახით დაჯგუფებული მონაცემების საჩვენებლად.</StiCardsElement>
     <StiChart>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ გრაფიკი. ხელმისაწვდომია გრაფიკების დიდი არჩევანი.</StiChart>
     <StiChartElement>ეს ელემენტი საშუალებას იძლევა ჩარტებში აჩვენოთ ინსტრუმენტთა დაფა. ხელმისაწვდომია გრაფიკების სხვადასხვა ტიპები.</StiChartElement>
     <StiCheckBox>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ მოსანიშნი კომპონენტი. აქვს ორი რეჟიმი: "ჩართულია" და "გამორთულია".</StiCheckBox>
+    <StiCheckBoxGroupUI>მოსანიშნი ველების ჯგუფი, რომელიც გამოიყენება სიიდან რამდენიმე წინასწარ განსაზღვრული ვარიანტის ასარჩევად.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>მოსანიშნი ველი, რომელიც გამოიყენება პარამეტრის სწრაფად ჩასართავად ან გამოსართავად.</StiCheckBoxUI>
     <StiChildBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ ორი კომპონენტი ერთ მონაცემთა სტრიქონში.</StiChildBand>
     <StiClone>ამ კომპონენტის მეშვეობით შეგიძლიათ გააკეთოთ რეპორტის ნაწილის კლონი რეპორტის სხვა ნაწილში გადასატანად.</StiClone>
     <StiColumnFooterBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ მონაცემთა სვეტების ქვედა კოლონტიტულები. იბეჭდება თითოეული სვეტის ქვეშ. ამ კომპონენტში განთავსებული ყველა ობიექტი განმეორდება ყველა სვეტის ქვეშ.</StiColumnFooterBand>
@@ -2008,6 +2019,7 @@
     <StiCrossTab>ეს კომპონენტი გამოიყენება სტრუქტურირებული მონაცემების ცხრილის ფორმატში გამოსატანად.</StiCrossTab>
     <StiDataBand>ეს კომპონენტი დაკავშირებულია მონაცემთა წყაროსთან და იბეჭდება იმდენჯერ, რამდენი სტრიქონიც არსებობს მონაცემთა წყაროში.</StiDataBand>
     <StiDatePickerElement>ელემენტი გამოიყენება თარიღისა და დროის ასარჩევად.</StiDatePickerElement>
+    <StiDatePickerUI>თარიღის ამრჩევი, რომელიც გამოიყენება კალენდრიდან თარიღის ასარჩევად.</StiDatePickerUI>
     <StiElectronicSignature>ეს კომპონენტი გამოიყენება გრაფიკული ხელმოწერის, გამოსახულების, ინიციალისა და ტექსტის დასამატებლად.</StiElectronicSignature>
     <StiEmptyBand>ამ კომპონენტის მეშვეობით შეგიძლიათ დაარეზერვოთ ცარიელი ადგილი ფურცლის თავში. იბეჭდება რეპორტის ყველა გვერდზე.</StiEmptyBand>
     <StiFilterCategory>ელემენტების ჯგუფი გამოიყენება მნიშვნელობათა ასარჩევად და გასაფილტრად.</StiFilterCategory>
@@ -2019,48 +2031,64 @@
     <StiHeaderBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ წარწერები ზედა კოლონტიტულში.</StiHeaderBand>
     <StiHierarchicalBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ მონაცემები ხის სტრუქტურით.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ ხაზი.</StiHorizontalLinePrimitive>
+    <StiIconUI>ხატულა, რომელიც გამოიყენება სიმბოლური გრაფიკული აღნიშვნის საჩვენებლად.</StiIconUI>
     <StiImage>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ სურათი. სურათი მისაღებია შემდეგ ფორმატებში: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>ელემენტი გამოიყენება სურათის გამოსატანად. მხარდაჭერილია შემდეგი ფორმატები: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>სურათი, რომელიც გამოიყენება ინტერფეისში გრაფიკული შინაარსის საჩვენებლად.</StiImageUI>
     <StiIndicatorElement>ელემენტი აჩვენებს სხვაობას შეყვანილ მონაცემებს შორის.</StiIndicatorElement>
+    <StiLabelUI>წარწერა, რომელიც გამოიყენება ტექსტის ან მოკლე აღწერის საჩვენებლად.</StiLabelUI>
     <StiListBoxElement>ელემენტი გამოიყენება სიაში ობიექტების მოსანიშნად.</StiListBoxElement>
+    <StiListUI>სია, რომელიც გამოიყენება ვერტიკალურად განლაგებული ასარჩევი ელემენტების საჩვენებლად.</StiListUI>
     <StiMap>ეს კომპონენტი გამოიყენება გაოგრაფიული მონაცემის საჩვენებლად.</StiMap>
     <StiMapCategory>ელემენტთა ჯგუფი გამოიყენება რუკებთან და მონაცემებთან სამუშაოდ.</StiMapCategory>
     <StiMapElement>ელემენტი გამოიყენება გეოგრაფიული მონაცემების გამოსატანად.</StiMapElement>
     <StiMathFormula>ეს კომპონენტი გამოიყენება ანგარიშში მათემატიკური ფორმულების გამოსატანად.</StiMathFormula>
+    <StiMultiListUI>სია, რომელიც გამოიყენება ერთი კოლექციიდან რამდენიმე ელემენტის ასარჩევად.</StiMultiListUI>
+    <StiMultiSelectUI>კომპონენტი, რომელიც გამოიყენება წინასწარ მომზადებული სიიდან რამდენიმე მნიშვნელობის ასარჩევად.</StiMultiSelectUI>
     <StiNumberBoxElement>ფილტრაციის ელემენტი, რომელიც გათვალისწინებულია რიცხობრივი მნიშვნელობის ასარჩევად ან რიცხობრივი მნიშვნელობების დიაპაზონის დასაყენებლად.</StiNumberBoxElement>
+    <StiNumberInputUI>რიცხვითი ველი, რომელიც გამოიყენება რიცხვითი მნიშვნელობების შესაყვანად კონტროლირებული შეყვანით.</StiNumberInputUI>
     <StiOnlineMapElement>ელემენტი გამოიყენება გეოგრაფიული მარკერების გამოსატანად online რუკაზე.</StiOnlineMapElement>
     <StiOverlayBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ წყლის ნიშნის გამოსახულება.</StiOverlayBand>
     <StiPageFooterBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ რეპორტის ქვედა კოლონტიტული. იბეჭდება გვერდის ბოლოში. ძირითადად გამოიყენება ფურცლის ნომრების, თარიღებისა და სხვა დამატებითი ინფორმაციის გამოსატანად.</StiPageFooterBand>
     <StiPageHeaderBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ რეპორტის ზედა კოლონტიტული. იბეჭდება გვერდის დასაწყისში. ძირითადად გამოიყენება ფურცლის ნომრების, თარიღებისა და სხვა დამატებითი ინფორმაციის გამოსატანად.</StiPageHeaderBand>
     <StiPanel>ამ კომპონენტში შეგიძლიათ განათავსოთ სხვა კომპონენტები. იგი გადაადგილდება მასში მოთავსებულ კომპონენტებთან ერთად.</StiPanel>
     <StiPanelElement>მართკუთხა ობიექტი, რომელიც შეიცავს სხვა ელემენტებს. მისი გადაადგილების დროს გადაადგილდება მასში განთავსებული ელემენტებიც.</StiPanelElement>
+    <StiPanelUI>პანელი, რომელიც გამოიყენება სხვა მართვის ელემენტების დასაჯგუფებლად და განსათავსებლად.</StiPanelUI>
     <StiPdfDigitalSignature>ეს კომპონენტი გამოიყენება ანგარიშის Adobe PDF ფაილში ექსპორტირების შემდეგ ციფრული ხელმოწერის ადგილის მისათითებლად.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>ეს კომპონენტი გამოიყენება დოკუმენტში ციფრული ხელმოწერისა და სერტიფიკატის ველების მისათითებლად Adobe PDF-ში ექსპორტის დროს.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivot ცხრილის ელემენტი გამოიყენება სტრუქტურირებული მონაცემების ცხრილში გამოსატანად.</StiPivotTableElement>
     <StiProgressElement>ელემენტი გამოიყენება შეყვანილი მონაცემების თანაფარდობის საჩვენებლად. ხელმისაწვდომია შემდეგი დიზაინები: წრიული, მრგლოვანი, სვეტური.</StiProgressElement>
+    <StiRadioGroupUI>რადიოღილაკების ჯგუფი, რომელიც გამოიყენება ერთ-ერთი ვარიანტის ასარჩევად.</StiRadioGroupUI>
     <StiRangeSelectorElement>ეს კომპონენტი გამოიყენება მნიშვნელობების დიაპაზონის ასარჩევად მასშტაბზე ან დროის შკალაზე. ის მომხმარებლებს საშუალებას აძლევს ვიზუალურად განსაზღვრონ დიაპაზონის მინიმალური და მაქსიმალური მნიშვნელობები.</StiRangeSelectorElement>
+    <StiRangeSliderUI>დიაპაზონის სლაიდერი, რომელიც გამოიყენება მინიმალური და მაქსიმალური მნიშვნელობების დასადგენად.</StiRangeSliderUI>
     <StiRectanglePrimitive>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ მართკუთხა.</StiRectanglePrimitive>
     <StiRegionMapElement>ელემენტი გამოიყენება გეოგრაფიული მონაცემების გამოსატანად.</StiRegionMapElement>
     <StiReportSummaryBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ რეპორტის ჯამური ქვედა კოლონტიტული. იბეჭდება რეპორტის ბოლოში.</StiReportSummaryBand>
     <StiReportTitleBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ რეპორტის პირველი გვერდის წარწერა. იბეჭდება რეპორტის დასაწყისში.</StiReportTitleBand>
     <StiRichText>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ და დააფორმატოთ ტექსტი. აგრეთვე შეგიძლიათ გახსნათ და შეინახოთ ფაილები RTF ფორმატში.</StiRichText>
     <StiRoundedRectanglePrimitive>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ მომრგვალებული მართკუთხედი.</StiRoundedRectanglePrimitive>
+    <StiScreen>ეკრანი, რომელიც შეიცავს აპლიკაციის გვერდის მართვის ელემენტებს, განლაგებასა და მომხმარებლის ურთიერთქმედებას.</StiScreen>
+    <StiSelectUI>ჩამოსაშლელი სია ერთი მნიშვნელობის ასარჩევად.</StiSelectUI>
     <StiShape>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ ისეთი ფიგურები როგორიცაა ისარი, დიაგონალური ხაზი, ჰორიზონტალური ხაზი, ელიპსი, სამკუთხედი, მართკუთხედი და ა.შ.</StiShape>
     <StiShapeElement>ელემენტი გამოიყენება მზა ფიგურების ჩასასმელად, ისეთების როგორიცაა ისრები, დიაგონალური, ვერტიკალური და ჰორიზონტალური ხაზები, ოვალი, მართკუთხედი, მომრგვალებულკუთხებიანი მართკუთხედი.</StiShapeElement>
     <StiSignature>ეს კომპონენტი გამოიყენება რეპორტში ელექტრონული ან ციფრული ხელმოწერის დასამატებლად.</StiSignature>
+    <StiSliderUI>სლაიდერი უწყვეტი რიცხვითი შკალიდან მნიშვნელობის ასარჩევად.</StiSliderUI>
     <StiSparkline>ეს კომპონენტი გამოიყენება ანგარიშში მიკროგრაფიკების შესაქმნელად. ეს გაძლევთ საშუალებას თვალყური ადევნოთ დინამიურად ცვალებად მონაცემებს ჰისტოგრამების, ხაზების, უბნების, მოგება / წაგების სახით. </StiSparkline>
     <StiSubReport>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ დამატებითი მონაცემები რეპორტის სხვადასხვა ადგილებში.</StiSubReport>
+    <StiSwitchUI>გადამრთველი, რომელიც გამოიყენება პარამეტრის ერთი დაწკაპუნებით ჩასართავად ან გამოსართავად.</StiSwitchUI>
     <StiTable>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ Microsoft Excel მაგვარი ცხრილი.</StiTable>
     <StiTableElement>ელემენტი გამოიყენება მონაცემთა გამოსატანად სვეტებში და სტრიქონებში.</StiTableElement>
     <StiTableOfContents>ეს კომპონენტი გამოიყენება ანგარიშში სარჩევის შესაქმნელად.</StiTableOfContents>
+    <StiTableUI>ცხრილი, რომელიც გამოიყენება მონაცემების მწკრივებსა და სვეტებში წარმოსადგენად.</StiTableUI>
     <StiText>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ მონაცემები ტექსტის სახით.</StiText>
     <StiTextElement>ელემენტი გამოიეყენბა ტექსტური ინფორმაციის გამოსატანად.</StiTextElement>
     <StiTextInCells>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ ტექსტი ცხრილის უჯრედებში.</StiTextInCells>
+    <StiTextInputUI>ტექსტური ველი ტექსტური მნიშვნელობების შესაყვანად და რედაქტირებისთვის.</StiTextInputUI>
     <StiTreeViewBoxElement>ელემენტი გამოიყენება ჩამოსაშლელი იერარქიული სიის სტრუქტურის მონაცემთა გამოსატანად.</StiTreeViewBoxElement>
     <StiTreeViewElement>გამოიყენება იერარქიული მონაცემების გამოსატანად.</StiTreeViewElement>
     <StiVerticalLinePrimitive>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ ვერტიკალური ხაზი.</StiVerticalLinePrimitive>
     <StiWebContentElement>ეს კომპონენტი გამოიყენება ინდიკატორთა პანელზე web-კონტენტის გამოსატანად.</StiWebContentElement>
-    <StiWinControl>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ .NET Framework.-ის კომპონენტები.</StiWinControl>
+    <StiWinControl>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ .NET.-ის კომპონენტები.</StiWinControl>
     <StiZipCode>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ საფოსტო კოდი.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2166,7 +2194,7 @@
     <menuExportSettings>ხსნის ექსპორტის პარამეტრების რედაქტორს მიმდინარე ანგარიშისთვის ან ინდიკატორთა პანელისთვის. პარამეტრები გამოიყენება მხოლოდ მიმდინარე ანგარიშის ან ინდიკატორთა პანელის ექსპორტისას.</menuExportSettings>
     <menuFAQPage>ხშირად დასმული შეკითხვების ვებ-გვერდზე გადასვლა.</menuFAQPage>
     <menuGlobalizationStrings>გლობალიზაციის სტრიქონების დიზაინერის გამოძახება მიმდინარე რეპორტისათვის.</menuGlobalizationStrings>
-    <menuHelpAboutProgramm>ინფორმაციის მიღება პროგრამის და .Net Framework.-ის ვერსიების შესახებ</menuHelpAboutProgramm>
+    <menuHelpAboutProgramm>ინფორმაციის მიღება პროგრამის და .NET.-ის ვერსიების შესახებ</menuHelpAboutProgramm>
     <menuHomePage>პროდუქტის მთავარ გვერდზე გადასვლა.</menuHomePage>
     <menuPageOptions>ძირითადი პარამეტრების დაყენება მიმდინარე გვერდისათვის. გვერდის ყველა პარამეტრი იცვლება თვისებების პანელიდან.</menuPageOptions>
     <menuPagesManager>გვერდების მენეჯერის გამოძახება. გაძლევთ საშუალებას შექმნათ, წაშალოთ და გადაადგილოთ გვერდები.</menuPagesManager>
@@ -2525,7 +2553,7 @@
     <ShareYourReportYouShouldSave>რეპორტის გასაზიარებლად საჭიროა რეპორტის შენახვა "Stimulsoft Cloud"-ში!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>რეჟიმებს შორის გადართვა გამოიწვევს ცვლილებების დაკარგავს. ნამდვილად გსურთ განაგრძოთ?</SwitchingBetweenModes>
     <SwitchParametersOrientation>რეპორტის თვისების 'პარამეტრების განლაგება'-ს შეცვლა {0}-ზე იმისათვის, რომ აღნიშნული კატეგორია გამოჩნდეს პარამეტრების პანელზე.</SwitchParametersOrientation>
-    <TextRegistrationSuccessfully>თქვენწარმატებით გაიარეთ რეგისტრაცია!
+    <TextRegistrationSuccessfully>რეგისტრაციის დასასრულებლად დარჩა ბოლო ნაბიჯი!
 
 წერილი გამოგზავნილია "{0}"-ზე.
 ის შეიცავს რეგისტრაციის დასადასტურებელ ბმულს. რეგისტრაციის დასრულებისათვის გთხოვთ მიჰყვეთ წერილში მიღებულ ბმულს.</TextRegistrationSuccessfully>
@@ -2727,6 +2755,9 @@
     <SubscriptionExpiredDays>ვადა იწურება {0} დღეში</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>თქვენი გამოწერა ამოიწურა. განაახლეთ თქვენი გამოწერა უახლესი ვერსიის მისაღებად.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>გამოწერის ვადა ამოიწურა</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>თქვენმა გამოწერამ გადააჭარბა დეველოპერების დასაშვებ რაოდენობას. აპლიკაცია დაიხურება. გასაგრძელებლად გთხოვთ განაახლოთ თქვენი გეგმა.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>გამოწერის ლიმიტი</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>თქვენი გამოწერა იყენებს ნებადართულზე მეტ დეველოპერს. გთხოვთ განიხილოთ გეგმის განახლება, რათა მუშაობა შეფერხების გარეშე გააგრძელოთ.</SubscriptionLimitWarning>
     <SubscriptionsOut10>დარჩენილია 10 დღე თქვენი გამოწერის ვადის გასვლამდე! </SubscriptionsOut10>
     <SubscriptionsOut20>გამოწერის ვადა იწურება 20 დღეში!</SubscriptionsOut20>
     <SuccessfullyRenewed>თქვენი გამოწერა წარმატებით განახლდა!</SuccessfullyRenewed>
@@ -3268,6 +3299,9 @@
     <StiDashboardContentAlignmentRight>სწორება მარჯვნივ</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>X გაჭიმო X-ზე</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>XY გაჭიმო XY-ზე</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>ისარი</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>ბანერი</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>მართკუთხედი</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>ჯვარედინი</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>სრული</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>შიდა</StiDataJoinTypeInner>
@@ -3794,6 +3828,7 @@
     <DisconnectingEvent>ითიშება</DisconnectingEvent>
     <DoubleClickEvent>ორმაგი დაწკაპუნება</DoubleClickEvent>
     <EndRenderEvent>რენდერის დამთავრება</EndRenderEvent>
+    <EndValueChangedEvent>საბოლოო მნიშვნელობა შეიცვალა</EndValueChangedEvent>
     <EnterEvent>მონაცემების მიღებისას</EnterEvent>
     <ExportedEvent>ექსპორტის შემდეგ</ExportedEvent>
     <ExportingEvent>ექსპორტამდე</ExportingEvent>
@@ -3847,6 +3882,7 @@
     <RenderingEvent>რენდერი</RenderingEvent>
     <ReportCacheProcessingEvent>რეპორტის ქეშის დამუშავება</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>ინდექსის შეცვლა</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>საწყისი მნიშვნელობა შეიცვალა</StartValueChangedEvent>
     <StateRestoreEvent>მდგომარეობის აღდგენა</StateRestoreEvent>
     <StateSaveEvent>მდგომარეობის შენახვა</StateSaveEvent>
     <ValueChangedEvent>მნიშვნელობის შეცვლა</ValueChangedEvent>
@@ -3910,6 +3946,7 @@
   <PropertyMain>
     <AcceptsReturn>Return-ის მიღება</AcceptsReturn>
     <AcceptsTab>Tab-ის მიღება</AcceptsTab>
+    <Action>მოქმედება</Action>
     <Actual>ფაქტობრივი</Actual>
     <AddClearZone>სუფთა ფართობის დამატება</AddClearZone>
     <Advanced>დამატებითი</Advanced>
@@ -4011,6 +4048,7 @@
     <BorderSize>ფუნჯის ზომა</BorderSize>
     <BorderStyle>საზღვრის სტილი</BorderStyle>
     <BorderThickness>საზღვრის სისქე</BorderThickness>
+    <BorderVisible>საზღვრის ჩვენება</BorderVisible>
     <BorderWidth>ჩარჩოს სისქე</BorderWidth>
     <Bottom>ქვემოთ</Bottom>
     <BottomLeft>ქვედა მარცხენა</BottomLeft>
@@ -4246,11 +4284,13 @@
     <FiltersTarget>ფილტრების მიზანი</FiltersTarget>
     <First>პირველი</First>
     <FirstTabOffset>პირველი სიმბოლოს პოზიცია</FirstTabOffset>
+    <FitMode>მორგების რეჟიმი</FitMode>
     <FixedHeight>ფიქსირებული სიმაღლე</FixedHeight>
     <FixedWidth>ფიქსირებული სიგანე</FixedWidth>
     <Flat>ბრტყელი</Flat>
     <FlatMode>ბრტყელი რეჟიმი</FlatMode>
     <Focus>ფოკუსი</Focus>
+    <FocusVisible>ფოკუსის ჩვენება</FocusVisible>
     <Font>შრიფტი</Font>
     <FontBold>მუქი</FontBold>
     <FontItalic>დახრილი</FontItalic>
@@ -4934,6 +4974,8 @@
     <TextRightToLeft>ტექსტი მარჯვნიდან მარცხნივ</TextRightToLeft>
     <TextShowBehind>ტექსტის ჩვენება უკანა ფონზე</TextShowBehind>
     <Third>მესამე</Third>
+    <ThumbBorderColor>სლაიდერის მაჩვენებლის საზღვრის ფერი</ThumbBorderColor>
+    <ThumbColor>სლაიდერის მაჩვენებლის ფერი</ThumbColor>
     <TickLabelMajorFont>ძირითადი ნიშნულის ხელმოწერის შრიფტი</TickLabelMajorFont>
     <TickLabelMajorTextBrush>ძირითადი ნიშნულის ხელმოწერის ფუნჯი</TickLabelMajorTextBrush>
     <TickLabelMinorFont>დამხმარე ნიშნულის ხელმოწერის შრიფტი</TickLabelMinorFont>
@@ -5226,6 +5268,7 @@
     <Categorized>კატეგორიების მიხედვით</Categorized>
     <Charts>დიაგრამები</Charts>
     <Checking>შემოწმება...</Checking>
+    <ClickAddToCreateNewAction>დააწკაპუნეთ „დამატებაზე“, რათა განსაზღვროთ, რა მოხდება ამ მოვლენის დროს (მაგალითად, ეკრანის ჩვენება ან მნიშვნელობის შეცვლა).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>დააჭირეთ მეტი დეტალისთვის</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>ახალი პირობის შესაქმნელად</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>ახალი ველის შესაქმნელად</ClickHereToCreateNewField>
@@ -5331,6 +5374,7 @@
     <ScriptSecurity>სკრიპტების უსაფრთხოება</ScriptSecurity>
     <SecondPass>მეორე გავლა</SecondPass>
     <Shapes>საბაზო ფორმები</Shapes>
+    <ShowIncompatibleTypes>შეუთავსებელი ტიპების ჩვენება</ShowIncompatibleTypes>
     <ShowOnParametersPanel>პარამტრების პანელზე ჩვენება</ShowOnParametersPanel>
     <Standard>სტანდარტული</Standard>
     <StandardConfiguration>ობიექტის მთავარი თვისებები, გარდა იშვიათად გამოყენებულებისა.</StandardConfiguration>
@@ -5522,6 +5566,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>დაუსვით კითხვა Stimul AI-ს</AskStimulAI>
+    <Assistant>ასისტენტი</Assistant>
     <ChangedWithAI>შეცვლა Stimul AI-ის დახმარებით</ChangedWithAI>
     <CheckExpressionSuccess>მითითებულ გამოხატულებაში პრობლემა არ მოიძებნა.</CheckExpressionSuccess>
     <CheckQuery>მოთხოვნის შემოწმება</CheckQuery>
@@ -5659,6 +5704,7 @@
   <UserFunctionEditor>
     <ArgumentName>არგუმენტის სახელწოდება</ArgumentName>
     <ArgumentType>არგუმენტის ტიპი</ArgumentType>
+    <CheckScript>სკრიპტის შემოწმება</CheckScript>
     <ConvertScript>სკრიპტის გარდაქმნა</ConvertScript>
     <CustomCategory>სამომხმარებლო კატეგორია</CustomCategory>
     <EditCode>კოდის რედაქტორი</EditCode>
@@ -5681,6 +5727,7 @@
     <Title>კეთილი იყოს თქვენი მობრძანება Stimulsoft დემოში</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>ხელოვნური ინტელექტის მიერ გენერირებული დაფა</AIGeneratedDashboard>
     <AIGeneratedReport>ანგარიში, შექმნილი AI-ის მეშვეობით</AIGeneratedReport>
     <BlankDashboard>ცარიელი Dashboard</BlankDashboard>
     <BlankForm>ცარიელი ფორმა</BlankForm>

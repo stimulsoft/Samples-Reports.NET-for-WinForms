@@ -284,6 +284,8 @@
     <Pictorial>Obrázkový</Pictorial>
     <PictorialStacked>Obrazový skladaný</PictorialStacked>
     <Pie>Koláč</Pie>
+    <Polar>Polárny</Polar>
+    <PolarStacked>Polárny skladaný</PolarStacked>
     <Radar>Radarový</Radar>
     <RadarArea>Radarová plocha</RadarArea>
     <RadarColumn>Radar stĺpec</RadarColumn>
@@ -742,6 +744,7 @@
     <AllowUserFiltering>Povoliť užívateľské filtrovanie</AllowUserFiltering>
     <AllowUserSorting>Povoliť užívateľské triedenie</AllowUserSorting>
     <BeforeTransformation>Aplikovať pred transformáciou dát</BeforeTransformation>
+    <BindData>Pripojiť k údajom</BindData>
     <Blank>(Prázdny)</Blank>
     <Blanks>(Prázdne)</Blanks>
     <BooleanFilters>Booleovské filtre</BooleanFilters>
@@ -950,6 +953,8 @@
     <StiListControl>Zoznam</StiListControl>
     <StiListViewControl>Pohľad Zoznam</StiListViewControl>
     <StiLookUpBoxControl>Vyhľadávacie políčko</StiLookUpBoxControl>
+    <StiMultiListControl>Viacnásobný zoznam</StiMultiListControl>
+    <StiMultiSelectControl>Viacnásobný výber</StiMultiSelectControl>
     <StiNumberInputControl>Vstup čísiel</StiNumberInputControl>
     <StiNumericUpDownControl>Číslo hore dolu</StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
@@ -957,6 +962,7 @@
     <StiRadioButtonControl>Prepínač</StiRadioButtonControl>
     <StiRadioControl>Rádio</StiRadioControl>
     <StiRadioGroupControl>Skupina prepínačov</StiRadioGroupControl>
+    <StiRangeSliderControl>Posuvník rozsahu</StiRangeSliderControl>
     <StiReportControl>Ovládací prvok zostavy</StiReportControl>
     <StiRichTextBoxControl>Rich text box</StiRichTextBoxControl>
     <StiSelectControl>Vybrať</StiSelectControl>
@@ -989,10 +995,12 @@
     <MatchCase>Rozlišovať &amp;veľkosť písmen</MatchCase>
     <MatchWholeWord>Len &amp;celé slová</MatchWholeWord>
     <MaximumDimensions>Je možný výber maximálne 7 dimenzií.</MaximumDimensions>
+    <NotFound>Nenájdené</NotFound>
     <Outlining>&amp;Rozbaľovanie</Outlining>
     <PromptOnReplace>Potvrdzovať nahradenie</PromptOnReplace>
     <Replace>Na&amp;hradiť</Replace>
     <ReplaceAll>Nahradiť &amp;všetko</ReplaceAll>
+    <Replaced>Nahradené: {0}</Replaced>
     <ReplaceWith>Čím nahradiť:</ReplaceWith>
     <Search>Hľadať</Search>
     <SearchHiddenText>Skrytý text</SearchHiddenText>
@@ -1984,10 +1992,13 @@
   <HelpComponents>
     <StiBarCode>Tento prvok umožňuje zobraziť čiarové kódy v zostave. Údaje čiarového kódu sú posielané objektu ako reťazec. Reťazec môže obsahovať akýkoľvek znak, ale iba povolené znaky pre vybraný graf sú zobrazené.</StiBarCode>
     <StiButtonElement>Tento komponent sa používa na vykonanie skriptu udalosti pri interakcii používateľa.</StiButtonElement>
+    <StiButtonUI>Tlačidlo používané na spustenie akcie alebo príkazu.</StiButtonUI>
     <StiCardsElement>Tento komponent sa používa na zobrazenie zoskupených údajov ako kariet.</StiCardsElement>
     <StiChart>Tento prvok umožňuje zobraziť grafy v zostave. K dispozícii sú rôzne typy grafov. Medzi nimi stĺpcový, čiarový, koláčový, prstencový, burzový, priestorový, Ganttov, bodový graf atď. </StiChart>
     <StiChartElement>Tento prvok umožňuje zobrazovanie grafov na riadiacom paneli. Existujú rôzne typy tabuliek.</StiChartElement>
     <StiCheckBox>Tento prvok umožňuje zobraziť zaškrtávacie políčko v zostave. Umožňuje zobraziť dva módy: "enable" alebo "disable".</StiCheckBox>
+    <StiCheckBoxGroupUI>Skupina zaškrtávacích políčok používaná na výber viacerých preddefinovaných možností zo zoznamu.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Zaškrtávacie políčko používané na rýchle zapnutie alebo vypnutie jednej možnosti.</StiCheckBoxUI>
     <StiChildBand>Podpruh (child band) môže byť použitý na výstup dvoch pruhov na jednom údajovom riadku.</StiChildBand>
     <StiClone>Tento prvok je používaný na vytvorenie kópie časti zostavy do požadovanej časti zostavy. Vytvorenie kópie môže byť aplikované len na obsah panelu.</StiClone>
     <StiColumnFooterBand>Tento pruh je použitý ako výstup päty stĺpcov na dátový pruh. Pruh pre pätu stĺpca je zobrazený jedenkrát pre každý stĺpec. Všetky prvky, ktoré sú umiestnené na tento pruh, môžu byť tiež zobrazené pod každým stĺpcom.</StiColumnFooterBand>
@@ -2002,6 +2013,7 @@
     <StiCrossTab>Prvok Krížová tabuľka je použitý pre štrukturované dáta, reprezentované ako tabuľka.</StiCrossTab>
     <StiDataBand>Pruh dát je pripojený k dátovému zdroju a je použitý na výstup toľkokrát, koľko je riadkov v dátovom zdroji.</StiDataBand>
     <StiDatePickerElement>Prvok slúži na výber dátumu a času.</StiDatePickerElement>
+    <StiDatePickerUI>Výber dátumu používaný na výber z kalendára.</StiDatePickerUI>
     <StiElectronicSignature>Tento komponent sa používa na pridanie grafického podpisu, obrázku, iniciálok a textu.</StiElectronicSignature>
     <StiEmptyBand>Tento pruh je použitý na vyplnenie prázdneho priestoru na spodku stránky. Tento pruh vyplňuje prázdny priestor každej stránky zostavy.</StiEmptyBand>
     <StiFilterCategory>Skupina prvkov používaných na výber a filtrovanie hodnôt.</StiFilterCategory>
@@ -2013,48 +2025,64 @@
     <StiHeaderBand>Tento pruh je použitý na výstup záhlaví. Je použitý spolu s pruhom dát.</StiHeaderBand>
     <StiHierarchicalBand>Tento pruh je pripojený k dátovému zdroju a vykoná sa toľkokrát, koľko je riadkov v dátovému zdroji. Dáta majú výstup ako strom.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Tento prvok je použitý na výstup čiary.</StiHorizontalLinePrimitive>
+    <StiIconUI>Ikona používaná na zobrazenie symbolického grafického alebo vizuálneho označenia.</StiIconUI>
     <StiImage>Tento prvok je použitý na výstup obrázkov. Podporuje nasledovné grafické formáty ako BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Tento prvok sa používa na výstup obrázkov. Podporuje nasledujúce grafické formáty, ako BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>Obrázok používaný na zobrazenie grafického obsahu v rozhraní.</StiImageUI>
     <StiIndicatorElement>Prvok zobrazuje rozdiel v hodnotách medzi vstupnými dátami.</StiIndicatorElement>
+    <StiLabelUI>Štítok používaný na zobrazenie textu alebo krátkych popisov.</StiLabelUI>
     <StiListBoxElement>Prvok umožňuje výber položiek zo zoznamu.</StiListBoxElement>
+    <StiListUI>Zoznam používaný na zobrazenie vyberateľných položiek vo vertikálnej kolekcii.</StiListUI>
     <StiMap>Tento komponent sa používa na zobrazenie geograficky zameraných údajov.</StiMap>
     <StiMapCategory>Skupina prvkov pre prácu s mapami a dátami.</StiMapCategory>
     <StiMapElement>Tento prvok sa používa na zobrazenie údajov, ktoré sú geograficky orientované.</StiMapElement>
     <StiMathFormula>Tento komponent je používaný na zobrazenie matematických vzorcov v zostave.</StiMathFormula>
+    <StiMultiListUI>Zoznam používaný na výber viacerých položiek z rovnakej kolekcie.</StiMultiListUI>
+    <StiMultiSelectUI>Ovládací prvok používaný na výber viacerých hodnôt z pripraveného zoznamu.</StiMultiSelectUI>
     <StiNumberBoxElement>Tento prvok sa používa na výber číselnej hodnoty alebo nastavenie rozsahu číselných hodnôt.</StiNumberBoxElement>
+    <StiNumberInputUI>Číselné vstupné pole používané na zadávanie číselných hodnôt s kontrolovaným vstupom.</StiNumberInputUI>
     <StiOnlineMapElement>Tento prvok slúži na zobrazenie geografických značiek na online mape.</StiOnlineMapElement>
     <StiOverlayBand>Tento pruh je použitý na výstup značky vodotlače na stránke.</StiOverlayBand>
     <StiPageFooterBand>Tento pruh je použitý na výstup informácií na spodku každej stránky. Tento pruh je použitý na výstup čísla stránok, dátumov a iných informácií.</StiPageFooterBand>
     <StiPageHeaderBand>Tento pruh je použitý na výstup záhlavia stránky. Vykoná sa na vrchu každej stránky. Tento pruh je použitý na výstup čísla stránok, dátumov a ďalších informácií.</StiPageHeaderBand>
     <StiPanel>Toto je obdĺžniková oblasť, v ktorej ostatné prvky, vrátane pruhov, budú umiestnené. Keď presúvame panel, prvky v ňom sú tiež presúvané. Panel môže byť umiestnený aj na pruhu aj na stránke.</StiPanel>
     <StiPanelElement>Obdĺžniková oblasť, ktorá môže obsahovať iné prvky. Po presunutí panelu sú prvky v ňom tiež presunuté.</StiPanelElement>
+    <StiPanelUI>Panel používaný na zoskupovanie a usporiadanie ďalších ovládacích prvkov v jednej oblasti.</StiPanelUI>
     <StiPdfDigitalSignature>Tento komponent sa používa na určenie miesta pre digitálny podpis po exporte správy do Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Tento komponent sa používa na určenie miesta pre digitálny podpis a pre polia z certifikátu pri exporte do PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Element kontingenčnej tabuľky sa používa na zobrazenie štruktúrovaných údajov ako tabuľka.</StiPivotTableElement>
     <StiProgressElement>Element zobrazuje pomer vstupných údajov. Môže byť prezentovaný v rôznych režimoch - koláč, kruh, pruhy.</StiProgressElement>
+    <StiRadioGroupUI>Skupina prepínačov používaná na výber jednej možnosti z preddefinovanej množiny hodnôt.</StiRadioGroupUI>
     <StiRangeSelectorElement>Tento komponent sa používa na výber rozsahu hodnôt na stupnici alebo časovej osi. Umožňuje užívateľom vizuálne definovať minimálne a maximálne limity rozsahu.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Posuvník rozsahu používaný na určenie minimálnej a maximálnej hodnoty na stupnici.</StiRangeSliderUI>
     <StiRectanglePrimitive>Tento prvok je použitý na výstup obdĺžnikov.</StiRectanglePrimitive>
     <StiRegionMapElement>Tento prvok sa používa na zobrazenie údajov, ktoré sú geograficky orientované.</StiRegionMapElement>
     <StiReportSummaryBand>Tento pruh je použitý na výstup súhrnných dát z celej zostavy. Je vykonaný raz na konci zostavy.</StiReportSummaryBand>
     <StiReportTitleBand>Tento pruh je použitý na výstup názvu zostavy. Je vykonaný na začiatku zostavy.</StiReportTitleBand>
     <StiRichText>Tento prvok je použitý na výstup a editáciu RTF textu. Tiež podporuje nahrávanie a ukladanie súborov v RTF formáte.</StiRichText>
     <StiRoundedRectanglePrimitive>Tento prvok je použitý na výstup oblých obdĺžnikov.</StiRoundedRectanglePrimitive>
+    <StiScreen>Obrazovka, ktorá obsahuje ovládacie prvky, rozloženie a používateľské interakcie pre stránku aplikácie.</StiScreen>
+    <StiSelectUI>Rozbaľovací zoznam používaný na výber jednej hodnoty zo zoznamu.</StiSelectUI>
     <StiShape>Tento prvok je použitý na vloženie hotových útvarov, ako šípok, diagonály nadol, diagonály nahor, vodorovnej čiary, čiar doprava a doľava, kruhov, obdĺžnikov, oblých obdĺžnikov, spodných a vrchných čiar, trojuholníkov, zvislej čiary.</StiShape>
     <StiShapeElement>Tento prvok sa používa na vkladanie hotových tvarov, ako sú šípky, diagonálna čiara nadol, diagonálna čiara nahor, horizontálna čiara, ľavá a pravá čiara, ovál, obdĺžnik, zaoblený obdĺžnik, horná a spodná čiara, trojuholník, vertikálna čiara.</StiShapeElement>
     <StiSignature>Tento komponent je použitý na pridanie elektronického alebo digitálneho podpisu do reportu.</StiSignature>
+    <StiSliderUI>Posuvník používaný na výber hodnoty na spojitej číselnej stupnici.</StiSliderUI>
     <StiSparkline>Tento komponent je používaný na vytvorenie mikrografov v zostave. Umožňuje to dynamicky meniť údaje ako pruhy, čiary, oblasti.</StiSparkline>
     <StiSubReport>Tento prvok je použitý na výstup ďalších dát na rôznych miestach zostavy.</StiSubReport>
+    <StiSwitchUI>Prepínač používaný na zapnutie alebo vypnutie nastavenia jedným kliknutím.</StiSwitchUI>
     <StiTable>Tento prvok množinou dát, ktoré sú organizované do vertikálných stĺpcov and horizontálnych riadkov.</StiTable>
     <StiTableElement>Tento prvok je súbor dátových prvkov, ktorý je organizovaný pomocou modelu vertikálnych stĺpcov a horizontálnych riadkov.</StiTableElement>
     <StiTableOfContents>Tento komponent je používaný na vytvorenie obsahu v zostave.</StiTableOfContents>
+    <StiTableUI>Tabuľka používaná na prehľadné zobrazenie údajov v riadkoch a stĺpcoch.</StiTableUI>
     <StiText>Tento prvok je základný objekt na výstup textových dát.</StiText>
     <StiTextElement>Tento prvok je základným objektom pre výstupné dáta ako text.</StiTextElement>
     <StiTextInCells>Tento prvok je použitý na výstup textu po znakoch v bunkách. Je často používaný na vytváranie formulárov.</StiTextInCells>
+    <StiTextInputUI>Textové vstupné pole používané na zadávanie a úpravu textových hodnôt.</StiTextInputUI>
     <StiTreeViewBoxElement>Prvok sa používa na výber hodnôt s rozbaľovacím zoznamom ako strom.</StiTreeViewBoxElement>
     <StiTreeViewElement>Predstavuje prvok, ktorý sa používa na zobrazenie hierarchických údajov ako strom.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Tento prvok je použitý na výstup vertikálnych čiar.</StiVerticalLinePrimitive>
     <StiWebContentElement>Komponent umožňuje pridávať webový obsah do dashboardov.</StiWebContentElement>
-    <StiWinControl>The prvok umožňuje zobraziť vizuálne prvoky z .NET frameworku.</StiWinControl>
+    <StiWinControl>The prvok umožňuje zobraziť vizuálne prvoky z .NET.</StiWinControl>
     <StiZipCode>Tento prvok je použitý na výstup the PSČ (poštového smerovacieho čísla).</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2160,7 +2188,7 @@
     <menuExportSettings>Otvorí editor nastavení exportu pre aktuálnu zostavu alebo dashboard. Nastavenia sa použijú iba pri exporte aktuálnej zostavy alebo dashboardu.</menuExportSettings>
     <menuFAQPage>Choď na web stránku s najčastejšími otázkami.</menuFAQPage>
     <menuGlobalizationStrings>Spusti editor globalizačných reťazcov pre aktuálnu zostavu.</menuGlobalizationStrings>
-    <menuHelpAboutProgramm>Získať informáciu o verzii generátora zostáv a verzii .Net Frameworku.</menuHelpAboutProgramm>
+    <menuHelpAboutProgramm>Získať informáciu o verzii generátora zostáv a verzii .NET.</menuHelpAboutProgramm>
     <menuHomePage>Choď na domovskú stránku produktu.</menuHomePage>
     <menuPageOptions>Nastav základné parametre aktuálnej stránky. Všetky vlastnosti stránky môžu byť zmenené použitím Panelu vlastností.</menuPageOptions>
     <menuPagesManager>Spusti manažér stránok. Umožňuje presun stránok, vymazanie stránok, vytvorenie nových stránok.</menuPagesManager>
@@ -2510,7 +2538,7 @@
     <ShareYourReportYouShouldSave>Aby ste mohli zdieľať zostavu, musíte uložiť zostavu do Stimulsoft cloudu!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>Prepínanie medzi režimami spôsobí stratu zmien. Chcete pokračovať?</SwitchingBetweenModes>
     <SwitchParametersOrientation>Zmeňte hodnotu vlastnosti zostavy 'Orientácia parametrov' na '{0}', aby sa táto kategória zobrazila na paneli parametrov.</SwitchParametersOrientation>
-    <TextRegistrationSuccessfully>Registrácia prebehla úspešne!
+    <TextRegistrationSuccessfully>Ostáva posledný krok na dokončenie registrácie!
 
 E-mail bol odoslaný "{0}".
 Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite na odkaz nižšie z e-mailu, ktorý ste dostali.</TextRegistrationSuccessfully>
@@ -2678,6 +2706,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <SubscriptionExpiredDays>Platnosť vyprší o {0} dní</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Platnosť predplatného vypršala. Aktualizujte svoje predplatné a získajte poslednú verziu.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Platnosť predplatného vypršala</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Vaše predplatné prekročilo povolený počet vývojárskych licencií. Aplikácia bude zatvorená. Ak chcete pokračovať, inovujte svoj plán.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Limit predplatného</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Vaše predplatné používa viac vývojárskych licencií, než je povolené. Zvážte inováciu svojho plánu, aby ste mohli pokračovať v práci bez prerušenia.</SubscriptionLimitWarning>
     <SubscriptionsOut10>Zostáva 10 dní do skončenia vášho predplatného!</SubscriptionsOut10>
     <SubscriptionsOut20>Perióda predplatného skončí v priebehu 20 dní!</SubscriptionsOut20>
     <SuccessfullyRenewed>Vaše predplatné bolo úspešne obnovené!</SuccessfullyRenewed>
@@ -3217,6 +3248,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <StiDashboardContentAlignmentRight>Vpravo</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Roztiahnuť X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Roztiahnuť XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Šípka</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Obdĺžnik</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Krížne</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Úplne</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Vnútorne</StiDataJoinTypeInner>
@@ -3738,6 +3772,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <DisconnectingEvent>Odpajam</DisconnectingEvent>
     <DoubleClickEvent>Dvojitý klik</DoubleClickEvent>
     <EndRenderEvent>Po spracovaní</EndRenderEvent>
+    <EndValueChangedEvent>Zmena koncovej hodnoty</EndValueChangedEvent>
     <EnterEvent>Vstup</EnterEvent>
     <ExportedEvent>Exportovaný</ExportedEvent>
     <ExportingEvent>Export</ExportingEvent>
@@ -3790,6 +3825,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <RenderingEvent>Spracovanie</RenderingEvent>
     <ReportCacheProcessingEvent>Spracovávanie vyrovnávacej pamäte zostavy</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Zmena vybraného indexu</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Zmena počiatočnej hodnoty</StartValueChangedEvent>
     <StateRestoreEvent>Obnovenie stavu</StateRestoreEvent>
     <StateSaveEvent>Uloženie stavu</StateSaveEvent>
     <ValueChangedEvent>Zmena hodnoty</ValueChangedEvent>
@@ -3853,6 +3889,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
   <PropertyMain>
     <AcceptsReturn>Akceptovať Return</AcceptsReturn>
     <AcceptsTab>Akceptovať Tab</AcceptsTab>
+    <Action>Akcia</Action>
     <Actual>Aktuálne</Actual>
     <AddClearZone>Pridať prázdnu oblasť</AddClearZone>
     <Advanced>Rozšírený</Advanced>
@@ -3954,6 +3991,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <BorderSize>Veľkosť okraja</BorderSize>
     <BorderStyle>Štýl okraja</BorderStyle>
     <BorderThickness>Šírka okraja</BorderThickness>
+    <BorderVisible>Viditeľnosť okraja</BorderVisible>
     <BorderWidth>Šírka okraja</BorderWidth>
     <Bottom>Dolu</Bottom>
     <BottomLeft>Dolu vľavo</BottomLeft>
@@ -4188,11 +4226,13 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <FiltersTarget>Cieľ filtrov</FiltersTarget>
     <First>Prvé</First>
     <FirstTabOffset>Osadenie prvého tabu</FirstTabOffset>
+    <FitMode>Režim prispôsobenia</FitMode>
     <FixedHeight>Pevná výška</FixedHeight>
     <FixedWidth>Pevná šírka</FixedWidth>
     <Flat>Plochý</Flat>
     <FlatMode>Plochý mód</FlatMode>
     <Focus>Fókus</Focus>
+    <FocusVisible>Viditeľnosť zamerania</FocusVisible>
     <Font>Písmo</Font>
     <FontBold>Tučné písmo</FontBold>
     <FontItalic>Kurzíva</FontItalic>
@@ -4875,6 +4915,8 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <TextRightToLeft>Text sprava doľava</TextRightToLeft>
     <TextShowBehind>Zobraziť text za</TextShowBehind>
     <Third>Tretie</Third>
+    <ThumbBorderColor>Farba okraja jazdca</ThumbBorderColor>
+    <ThumbColor>Farba jazdca</ThumbColor>
     <TickLabelMajorFont>Písmo hlavného označenia</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Výplň textu hlavného označenia</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Písmo vedľajšieho označenia</TickLabelMinorFont>
@@ -5168,6 +5210,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Categorized>Podľa kategórií</Categorized>
     <Charts>Grafy</Charts>
     <Checking>Overovanie...</Checking>
+    <ClickAddToCreateNewAction>Kliknite na „Pridať“ a určite, čo sa má stať pri výskyte tejto udalosti (napr. zobraziť obrazovku alebo zmeniť hodnotu).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Kliknite pre viac detailov</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>vytvoríte novú podmienku</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>vytvoríte nové pole</ClickHereToCreateNewField>
@@ -5274,6 +5317,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <ScriptSecurity>Zabezpečenie skriptov</ScriptSecurity>
     <SecondPass>Druhý prechod</SecondPass>
     <Shapes>Tvary</Shapes>
+    <ShowIncompatibleTypes>Zobraziť nekompatibilné typy</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Zobraziť na paneli parametrov</ShowOnParametersPanel>
     <Standard>Štandardný</Standard>
     <StandardConfiguration>Základné vlastnosti objektu okrem zriedkavo používaných.</StandardConfiguration>
@@ -5465,6 +5509,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
   </Signature>
   <StimulAI>
     <AskStimulAI>Opýtajte sa Stimul AI</AskStimulAI>
+    <Assistant>Asistent</Assistant>
     <ChangedWithAI>Zmenené pomocou Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>V zadanom výraze sa nenašli žiadne problémy.</CheckExpressionSuccess>
     <CheckQuery>Skontrolujte dopyt</CheckQuery>
@@ -5602,6 +5647,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
   <UserFunctionEditor>
     <ArgumentName>Názov argumentu</ArgumentName>
     <ArgumentType>Typ argumentu</ArgumentType>
+    <CheckScript>Skontrolovať skript</CheckScript>
     <ConvertScript>Konvertovať skript</ConvertScript>
     <CustomCategory>Vlastná kategória</CustomCategory>
     <EditCode>Editovať kód</EditCode>
@@ -5624,6 +5670,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Title>Vitajte v Stimulsoft ukážkach</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Dashboard vytvorený pomocou AI</AIGeneratedDashboard>
     <AIGeneratedReport>Zostava vygenerovaná umelou inteligenciou</AIGeneratedReport>
     <BlankDashboard>Prázdny riadiaci panel</BlankDashboard>
     <BlankForm>Prázdny formulár</BlankForm>

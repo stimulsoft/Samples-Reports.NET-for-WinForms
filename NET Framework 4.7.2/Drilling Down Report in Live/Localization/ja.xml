@@ -141,6 +141,8 @@
     <Design>設計</Design>
     <Down>ダウン</Down>
     <Duplicate>複製</Duplicate>
+    <EditAsData>データとして編集</EditAsData>
+    <EditAsText>テキストとして編集</EditAsText>
     <Export>エクスポート</Export>
     <ForceDelete>強制削除</ForceDelete>
     <Help>ヘルプ</Help>
@@ -282,6 +284,8 @@
     <Pictorial>画像</Pictorial>
     <PictorialStacked>積み上げ図</PictorialStacked>
     <Pie>パイ</Pie>
+    <Polar>ポーラー</Polar>
+    <PolarStacked>積み上げポーラー</PolarStacked>
     <Radar>レーダー</Radar>
     <RadarArea>レーダーエリア</RadarArea>
     <RadarColumn>レーダー列</RadarColumn>
@@ -675,6 +679,7 @@
     <StiHeaderBand>ヘッダ</StiHeaderBand>
     <StiHierarchicalBand>階層データ</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>水平線</StiHorizontalLinePrimitive>
+    <StiIcon>アイコン</StiIcon>
     <StiImage>画像</StiImage>
     <StiIndicator>インジケータ</StiIndicator>
     <StiListBox>リストボックス</StiListBox>
@@ -738,6 +743,7 @@
     <AllowUserFiltering>ユーザーフィルターの許可</AllowUserFiltering>
     <AllowUserSorting>ユーザーソートの許可</AllowUserSorting>
     <BeforeTransformation>データ変換前に適用</BeforeTransformation>
+    <BindData>データにバインド</BindData>
     <Blank>(ブランク)</Blank>
     <Blanks>（ブランク）</Blanks>
     <BooleanFilters>ブーリアンフィルタ</BooleanFilters>
@@ -933,27 +939,36 @@
   <Dialogs>
     <StiButtonControl>ボタン</StiButtonControl>
     <StiCheckBoxControl>チェックボックス</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>チェックボックスグループ</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>チェックリストボックス</StiCheckedListBoxControl>
     <StiComboBoxControl>コンボボックス</StiComboBoxControl>
+    <StiDatePickerControl>日付ピッカー</StiDatePickerControl>
     <StiDateTimePickerControl>日時ピッカー</StiDateTimePickerControl>
     <StiForm>図形</StiForm>
     <StiGridControl>グリッド</StiGridControl>
     <StiGroupBoxControl>グループボックス</StiGroupBoxControl>
     <StiLabelControl>ラベル</StiLabelControl>
     <StiListBoxControl>リストボックス</StiListBoxControl>
+    <StiListControl>リスト</StiListControl>
     <StiListViewControl>リストビュー</StiListViewControl>
     <StiLookUpBoxControl>ルックアップボックス</StiLookUpBoxControl>
+    <StiMultiListControl>複数選択リスト</StiMultiListControl>
+    <StiMultiSelectControl>複数選択</StiMultiSelectControl>
+    <StiNumberInputControl>数値入力</StiNumberInputControl>
     <StiNumericUpDownControl>数値アップ</StiNumericUpDownControl>
     <StiPanelControl>パネル</StiPanelControl>
     <StiPictureBoxControl>ピクチャーボックス</StiPictureBoxControl>
     <StiRadioButtonControl>ラジオボタン</StiRadioButtonControl>
     <StiRadioControl>ラジオ</StiRadioControl>
     <StiRadioGroupControl>ラジオグループ</StiRadioGroupControl>
+    <StiRangeSliderControl>範囲スライダー</StiRangeSliderControl>
     <StiReportControl>レポートコントロール</StiReportControl>
     <StiRichTextBoxControl>リッチテキストボックス</StiRichTextBoxControl>
+    <StiSelectControl>選択</StiSelectControl>
     <StiSliderControl>スライダー</StiSliderControl>
     <StiSwitchControl>トグル</StiSwitchControl>
     <StiTextBoxControl>テキストボックス</StiTextBoxControl>
+    <StiTextInputControl>テキスト入力</StiTextInputControl>
     <StiTreeViewControl>ツリー表示</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -979,10 +994,12 @@
     <MatchCase>大文字小文字を区別</MatchCase>
     <MatchWholeWord>完全一致</MatchWholeWord>
     <MaximumDimensions>最大7つの寸法を選択できます。</MaximumDimensions>
+    <NotFound>見つかりません</NotFound>
     <Outlining>アウトライニング</Outlining>
     <PromptOnReplace>置換時のプロンプト</PromptOnReplace>
     <Replace>置換</Replace>
     <ReplaceAll>すべてを置換</ReplaceAll>
+    <Replaced>置換しました: {0}</Replaced>
     <ReplaceWith>置換：</ReplaceWith>
     <Search>サーチ</Search>
     <SearchHiddenText>隠されたテキスト</SearchHiddenText>
@@ -1055,6 +1072,7 @@
     <ContinuousPages>連続ページ</ContinuousPages>
     <DataAndHeaders>データとヘッダ</DataAndHeaders>
     <DataAndHeadersFooters>データとヘッダ/フッタ</DataAndHeadersFooters>
+    <DataExport>データエクスポート</DataExport>
     <DataOnly>データのみ</DataOnly>
     <DigitalSignature>デジタル署名</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>証明書が選択されていません</DigitalSignatureCertificateNotSelected>
@@ -1134,6 +1152,7 @@
     <OpenAfterExport>エクスポート後に開く</OpenAfterExport>
     <Ordered>順序付き</Ordered>
     <PdfACompliance>PDF</PdfACompliance>
+    <PdfUA>PDF/UA（ユニバーサルアクセシビリティ）</PdfUA>
     <PrintingReport>印刷レポート</PrintingReport>
     <RemoveEmptySpaceAtBottom>ページの下部にある空白を削除</RemoveEmptySpaceAtBottom>
     <RestrictEditing>編集を制限：</RestrictEditing>
@@ -1477,6 +1496,7 @@
     <DictionarySaveAs>辞書を名前を付けて保存...</DictionarySaveAs>
     <DragNewDataSource>データをこのパネルに直接ドラッグ</DragNewDataSource>
     <DragNewReport>レポートをこのパネルに直接ドラッグ</DragNewReport>
+    <EditData>データを編集</EditData>
     <EditQuery>クエリの編集</EditQuery>
     <EnableDataMonitor>データモニターを有効にする</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL文を正常に実行しました</ExecutedSQLStatementSuccessfully>
@@ -1486,6 +1506,8 @@
     <GetColumnsFromAssembly>アセンブリから列を取得</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>サポートされていないデータソースを非表示にする</HideUnsupportedDatabases>
     <ImportRelations>リレーションをインポート</ImportRelations>
+    <InsertColumnLeft>左に列を挿入</InsertColumnLeft>
+    <InsertColumnRight>右に列を挿入</InsertColumnRight>
     <LabelSeparator>セパレータ：</LabelSeparator>
     <MarkUsedItems>中古品をマーク</MarkUsedItems>
     <NewBusinessObject>新規ビジネスオブジェクト</NewBusinessObject>
@@ -1966,10 +1988,13 @@
   <HelpComponents>
     <StiBarCode>この部品により、レポートにバーコードを表示することができます。 バーコードデータは文字列としてオブジェクトに送られます。 文字列には任意の記号を含めることができますが、選択した図表に対して許可された記号のみを表示することができます。</StiBarCode>
     <StiButtonElement>このコンポーネントは、ユーザーとの対話時にイベントスクリプトを実行するために使用されます。</StiButtonElement>
+    <StiButtonUI>アクションを実行したり、コマンドを開始したりするためのボタンです。</StiButtonUI>
     <StiCardsElement>グループ化されたデータをカードとして表示するためのコンポーネントです。</StiCardsElement>
     <StiChart>この部品により、レポートにグラフを表示できます。 異なるタイプのグラフが利用可能です。 バー、ライン、パイ、ドーナツ、ライン、エリア、ガント、散布図など</StiChart>
     <StiChartElement>この部品により、ダッシュボードにグラフを表示することができます。 異なるタイプのグラフが利用可能です。</StiChartElement>
     <StiCheckBox>この部品により、レポートにチェックボックスを表示することができます。 「有効」または「無効」の2つのモードを表示できます。</StiCheckBox>
+    <StiCheckBoxGroupUI>一覧から事前定義された複数の選択肢を選択するためのチェックボックスグループです。</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>単一のオプションをすばやくオン／オフするためのチェックボックスです。</StiCheckBoxUI>
     <StiChildBand>Childバンドは、1つのデータ行に2つのバンドを出力するために使用できます。</StiChildBand>
     <StiClone>この部品は、レポートの一部をレポートの必要な部分に複製するために使用されます。 クローニングはパネルの内容にのみ適用できます。</StiClone>
     <StiColumnFooterBand>このバンドは、データバンドの列のフッタを出力するために使用されます。 列フッタバンドは各列の下に1回出力されます。 このバンドに配置されたすべての部品も各列の下に出力されます。</StiColumnFooterBand>
@@ -1984,6 +2009,7 @@
     <StiCrossTab>クロスタブ部品は、構造化データ表現をテーブルとして使用します。</StiCrossTab>
     <StiDataBand>データバンドはデータソースに接続され、データソースの行数と同じ回数だけ出力されます。</StiDataBand>
     <StiDatePickerElement>コントロールは、日付と時刻を選択するために使用されます。</StiDatePickerElement>
+    <StiDatePickerUI>カレンダーから日付を選択するための日付ピッカーです。</StiDatePickerUI>
     <StiElectronicSignature>このコンポーネントは、グラフィック署名、画像、イニシャル、およびテキストを追加するために使用されます。</StiElectronicSignature>
     <StiEmptyBand>このバンドは、ページ下部の空欄領域を埋めるために使用されます。 このバンドは、レポートの各ページの空欄領域を埋めます。</StiEmptyBand>
     <StiFilterCategory>値の選択とフィルタリングに使用される部品のグループ。</StiFilterCategory>
@@ -1995,48 +2021,64 @@
     <StiHeaderBand>このバンドはヘッダを出力するために使用されます。 これはデータバンドと同時に使用されます。</StiHeaderBand>
     <StiHierarchicalBand>このバンドはデータソースに接続され、データソースの行数と同じ回数だけ出力されます。 データはツリーとして出力されます。</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>この部品は、行を出力するために使用されます。</StiHorizontalLinePrimitive>
+    <StiIconUI>象徴的なグラフィックや視覚的な目印を表示するためのアイコンです。</StiIconUI>
     <StiImage>この部品は画像を出力するために使用されます。</StiImage>
     <StiImageElement>この部品は画像を出力するために使用されます。 BMP、JPG、JPEG、GIF、TIFF、PNG、ICO、WMF、EMFなどの次のグラフィックフォーマットをサポートしています。</StiImageElement>
+    <StiImageUI>インターフェース内に画像コンテンツを表示するためのイメージです。</StiImageUI>
     <StiIndicatorElement>部品は、入力データ間の値の差異を表示します。</StiIndicatorElement>
+    <StiLabelUI>テキストや短いキャプションを表示するためのラベルです。</StiLabelUI>
     <StiListBoxElement>部品では、リストからアイテムを選択できます。</StiListBoxElement>
+    <StiListUI>選択可能な項目を縦方向の一覧として表示するためのリストです。</StiListUI>
     <StiMap>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiMap>
     <StiMapCategory>地図やデータを扱うための部品群。</StiMapCategory>
     <StiMapElement>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiMapElement>
     <StiMathFormula>このコンポーネントは、レポートに数式を表示するために使用されます。</StiMathFormula>
+    <StiMultiListUI>同じコレクションから複数の項目を選択するためのリストです。</StiMultiListUI>
+    <StiMultiSelectUI>用意された一覧から複数の値を選択するためのセレクターです。</StiMultiSelectUI>
     <StiNumberBoxElement>この要素は、数値を選択したり、数値の範囲を設定するために使われます。</StiNumberBoxElement>
+    <StiNumberInputUI>数値を制御された形式で入力するための数値入力です。</StiNumberInputUI>
     <StiOnlineMapElement>この部品は、オンラインマップ上に地理的マーカーを表示するために使用されます。</StiOnlineMapElement>
     <StiOverlayBand>このバンドは、ページ上に透かしを出力するために使用されます。</StiOverlayBand>
     <StiPageFooterBand>このバンドは、ページ番号、日付、およびその他の追加情報など、各ページの下部にある情報を出力するために使用されます。</StiPageFooterBand>
     <StiPageHeaderBand>このバンドは、ページ番号、日付、およびその他の追加情報などのページヘッダを出力するために使用されます。 各ページの上部に出力されます。</StiPageHeaderBand>
     <StiPanel>バンドを含む他の部品を含むことができる長方形の領域。 パネルが移動されると、パネル内の部品も移動されます。 パネルは、バンドまたはページ上に配置できます。</StiPanel>
     <StiPanelElement>他の部品を含むことができる長方形の領域。 パネルが移動されると、パネル内の部品も移動されます。</StiPanelElement>
+    <StiPanelUI>他のコントロールを1つの領域内にグループ化して配置するためのパネルです。</StiPanelUI>
     <StiPdfDigitalSignature>このコンポーネントは、レポートがAdobe PDFにエクスポートされた後に、デジタル署名の場所を指定するために使用されます。</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>このコンポーネントは、PDFにエクスポートする際に、電子署名と証明書のフィールドのためのスペースを指定するために使用されます。</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>ピボット・部品は、構造化されたデータ表現を表として使用します。</StiPivotTableElement>
     <StiProgressElement>部品には、入力データの比率が表示されます。 これは、パイ、円、棒など、さまざまなモードで表示できます。</StiProgressElement>
+    <StiRadioGroupUI>事前定義された値のセットから1つのオプションを選択するためのラジオグループです。</StiRadioGroupUI>
     <StiRangeSelectorElement>このコンポーネントは、スケールやタイムライン上の値の範囲を選択するために使用されます。ユーザーは最小値と最大値を視覚的に設定できます。</StiRangeSelectorElement>
+    <StiRangeSliderUI>スケール上で最小値と最大値を指定するための範囲スライダーです。</StiRangeSliderUI>
     <StiRectanglePrimitive>この部品は、長方形を出力するために使用されます。</StiRectanglePrimitive>
     <StiRegionMapElement>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiRegionMapElement>
     <StiReportSummaryBand>このバンドは、レポート全体を通して集計を出力するために使用されます。 レポートの最後に1回出力されます。</StiReportSummaryBand>
     <StiReportTitleBand>このバンドは、レポートのタイトルを出力するために使用されます。 レポートの最初に出力されます。</StiReportTitleBand>
     <StiRichText>この部品は、RTFテキストの出力と編集に使用されます。 RTF形式のファイルの読み込みと保存もサポートしています。</StiRichText>
     <StiRoundedRectanglePrimitive>この部品は、丸められた長方形を出力するために使用されます。</StiRoundedRectanglePrimitive>
+    <StiScreen>アプリページのコントロール、レイアウト、ユーザー操作を配置する画面です。</StiScreen>
+    <StiSelectUI>ドロップダウンリストから1つの値を選択するための選択ボックスです。</StiSelectUI>
     <StiShape>この部品は、丸められた長方形を出力するために使用されます。...</StiShape>
     <StiShapeElement>この部品は、矢印、斜線下、対角線上、水平線、左および右線、楕円形、四角形、四角形、上部および下部線、三角形、垂直線などの既成の図形を挿入するために使用されます。</StiShapeElement>
     <StiSignature>このコンポーネントは、レポートに電子署名またはデジタル署名を追加するために使用されます。</StiSignature>
+    <StiSliderUI>連続した数値スケール上で値を選択するためのスライダーです。</StiSliderUI>
     <StiSparkline>このコンポーネントは、レポートにマイクログラフィックを作成するために使用されます。 動的に変化するデータを棒、線、領域として追跡できます。</StiSparkline>
     <StiSubReport>この部品は、レポートのさまざまな場所で追加データを出力するために使用されます。</StiSubReport>
+    <StiSwitchUI>設定をワンクリックでオン／オフ切り替えるためのスイッチです。</StiSwitchUI>
     <StiTable>この部品は、垂直列と水平行のモデルを使用して編成された一連のデータ要素です。</StiTable>
     <StiTableElement>この部品は、垂直列と水平行のモデルを使用して編成された一連のデータ要素です。</StiTableElement>
     <StiTableOfContents>このコンポーネントは、レポートの目次を作成するために使用されます。</StiTableOfContents>
+    <StiTableUI>データを行と列でわかりやすく表示するためのテーブルです。</StiTableUI>
     <StiText>この部品は、データをテキストとして出力するための基本オブジェクトです。</StiText>
     <StiTextElement>この部品は、データをテキストとして出力するための基本オブジェクトです。</StiTextElement>
     <StiTextInCells>この部品は、セル内にテキストを出力するために使用されます。 フォームの作成に頻繁に使用されます。</StiTextInCells>
+    <StiTextInputUI>テキスト値を入力・編集するためのテキスト入力です。</StiTextInputUI>
     <StiTreeViewBoxElement>コントロールは、ドロップダウンリストを使用して値をツリーとして選択するために使用されます。</StiTreeViewBoxElement>
     <StiTreeViewElement>階層データをツリーとして表示するために使用されるコントロールを表します。</StiTreeViewElement>
     <StiVerticalLinePrimitive>この部品は、垂直線を出力するために使用されます。</StiVerticalLinePrimitive>
     <StiWebContentElement>このコンポーネントは、ダッシュボードにウェブコンテンツを追加することができます。</StiWebContentElement>
-    <StiWinControl>この部品により、.NET Frameworkからのビジュアルコントロールを表示できます。</StiWinControl>
+    <StiWinControl>この部品により、.NETからのビジュアルコントロールを表示できます。</StiWinControl>
     <StiZipCode>この部品は、Zipコードを出力するために使用されます。</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2082,6 +2124,7 @@
     <CompilationAccessForceInterpretation>コンパイルを含む文書は、プロンプトなしで開かれるが、コンパイル・プロセスを使用しない解釈モードに自動的に変換される。</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>コンパイルモードに切り替わっています。このモードでは異なるコードを実行することができ、時には有害な場合もあります。すべてのリスクを理解し、同意できる場合のみこのモードを使用してください。{0}ボタンをクリックして次に進んでください。</CompilationModeEnabling>
     <ComponentSize>選択した部品のサイズを変更します。</ComponentSize>
+    <ComponentsMenu>モバイルサーフェス上で未使用のダッシュボード要素を含むコンポーネントメニューを開きます。</ComponentsMenu>
     <CopyStyle>スタイルコピー</CopyStyle>
     <CopyToClipboard>クリップボードコピー</CopyToClipboard>
     <CurrencySymbol>クリップボードコピー...</CurrencySymbol>
@@ -2138,9 +2181,10 @@
     <menuEditCut>選択した部品をレポートから切り取り、クリップボードに格納します。</menuEditCut>
     <menuEditDelete>選択した部品を削除します。</menuEditDelete>
     <menuEditPaste>クリップボードの内容をレポートに貼り付けます。</menuEditPaste>
+    <menuExportSettings>現在のレポートまたはダッシュボードのエクスポート設定エディターを開きます。設定は、現在のレポートまたはダッシュボードをエクスポートするときにのみ適用されます。</menuExportSettings>
     <menuFAQPage>頻繁に質問されるWebページに移動します。</menuFAQPage>
     <menuGlobalizationStrings>現在のレポートのグローバル対応エディタを呼び出します。</menuGlobalizationStrings>
-    <menuHelpAboutProgramm>レポートジェネレータのバージョンと.NET Frameworkのバージョンに関する情報を取得します。</menuHelpAboutProgramm>
+    <menuHelpAboutProgramm>レポートジェネレータのバージョンと.NETのバージョンに関する情報を取得します。</menuHelpAboutProgramm>
     <menuHomePage>製品のホームページに移動します。</menuHomePage>
     <menuPageOptions>現在のページの基本パラメータを設定します。 すべてのページオプションは、プロパティパネルを使用して変更できます。</menuPageOptions>
     <menuPagesManager>ページマネージャを実行します。 ページの移動、ページの削除、および新規ページの作成が可能です。</menuPagesManager>
@@ -2170,13 +2214,17 @@
     <PageSize>レポートの現在のページの用紙サイズを選択します。</PageSize>
     <PagesManager>ページマネージャを実行します。</PagesManager>
     <PressF1>F1を押して詳細を表示</PressF1>
+    <PropertiesButton>レポートテンプレートのプロパティを表示するプロパティパネルを有効にします。</PropertiesButton>
     <Redo>以前にキャンセルされたレポートの変更をやり直します。</Redo>
+    <RemoveMobileSurfaceButton>現在のダッシュボードからモバイルサーフェスを削除します。</RemoveMobileSurfaceButton>
     <ReportNew>新規レポートを作成します。</ReportNew>
     <ReportOpen>デザイナーでレポートを開きます。</ReportOpen>
     <ReportPreview>ビューアで編集したレポートをプレビューします。</ReportPreview>
     <ReportSave>現在編集されているレポートを保存します。</ReportSave>
     <ScriptEvalAccess1>このドキュメントは Script Eval を使用しています。信頼できるソースのドキュメントであれば、「開く」ボタンをクリックしてアクセスできます。</ScriptEvalAccess1>
     <ScriptEvalAccess2>ソースが不明な場合でも閲覧したい場合は、「セーフモードで開く」をクリックできます。この場合、Script Eval は無視され実行されません。</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>完全なスクリプトアクセス（制限なし。安全でない可能性があります）。</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>安全なスクリプトアクセス（セキュリティのため機能が制限されます）。</ScriptSecuritySafeMode>
     <SelectAll>現在のページのすべての部品を選択します。</SelectAll>
     <SelectUILanguage>UI言語を選択します。</SelectUILanguage>
     <SendToBack>選択した部品を他の部品に対して相対的に後ろに移動します。</SendToBack>
@@ -2195,6 +2243,8 @@
     <TextFormat>値の書式を選択</TextFormat>
     <ToolbarStyle>選択したすべての部品に選択したスタイルを設定</ToolbarStyle>
     <Undo>レポートの最新の変更を取り消す</Undo>
+    <ViewModeDesktopButton>デスクトップサーフェスを有効にします。</ViewModeDesktopButton>
+    <ViewModeMobileButton>モバイルサーフェスを有効にします。</ViewModeMobileButton>
     <WordWrap>部品のテキストをラップ</WordWrap>
     <Zoom>レポートのズームレベルを指定</Zoom>
   </HelpDesigner>
@@ -2282,6 +2332,7 @@
     <PageSize>レポートのページパラメータを変更</PageSize>
     <Parameters>レポートのレンダリング時に使用されるパラメータパネルを表示</Parameters>
     <PdfACompliance>電子文書の長期保存と保管の基準をサポート</PdfACompliance>
+    <PdfUniversalAccessibility>誰もがアクセス可能な電子文書および情報の標準への対応です。</PdfUniversalAccessibility>
     <Print>レポートを印刷</Print>
     <PutFeedPageCode>最終的な文書のページに特殊文字を入力します。</PutFeedPageCode>
     <RangePages>処理されるページ番号。 単一のページ、ページのリスト（セパレータとしてコンマを使用）、および範囲の開始ページを " - "で区切って範囲を指定し、その範囲の最後のページを指定することができます。 例：1,3,5-12。</RangePages>
@@ -2327,6 +2378,7 @@
     <menuContextClone>クローン...</menuContextClone>
     <menuContextDesign>設計...</menuContextDesign>
     <menuContextTextFormat>テキスト形式...</menuContextTextFormat>
+    <menuConvertTo>{0} に変換</menuConvertTo>
     <menuConvertToCheckBox>CheckBoxに変換</menuConvertToCheckBox>
     <menuConvertToImage>画像に変換</menuConvertToImage>
     <MenuConvertToRichText>リッチテキストに変換</MenuConvertToRichText>
@@ -2477,7 +2529,7 @@
     <SwitchingBetweenModes>モードを切り替えると、変更が失われます。 続行しますか？</SwitchingBetweenModes>
     <SwitchParametersOrientation>パラメータパネルにこのカテゴリを表示するには、「ParametersOrientation」レポートプロパティの値を「{0}」に変更してください。</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>
-    登録が正常に完了しました！ 
+    登録完了まであと一歩です！ 
 
     電子メールが "{0}"に送信されました。 
     あなたの登録を確認するためのリンクが含まれています。 登録を完了するには、受け取った電子メールのリンクをクリックしてください。
@@ -2551,7 +2603,9 @@
     <DeveloperInformation>デベロッパー情報</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>終了日は現在の日付より大きくする必要があります。</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>終了日は開始日より長くする必要があります。</EndDateShouldBeGreaterThanStartDate>
+    <Error>エラー</Error>
     <ExecutionError>実行エラー</ExecutionError>
+    <ExpressionValidationFailed>式の検証に失敗しました。</ExpressionValidationFailed>
     <GracePeriod>サブスクリプションの猶予期間は{0}日で終了します。</GracePeriod>
     <IsIdentical>"{0}"と "{1}"は同一です。 "</IsIdentical>
     <IsNotAuthorized>"{0}"へのアクセス権がありません！</IsNotAuthorized>
@@ -2567,8 +2621,13 @@
     <ItemCantBeMovedToSpecifiedPlace>アイテムを指定された場所に移動することはできません！</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>アイテムは "{0}"をサポートしていません！</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>キーとToKeyは等しい！</KeyAndToKeyAreEqual>
+    <LengthRange>長さは {0} から {1} の範囲で指定してください。</LengthRange>
     <MaximumComputers>コンピューターの最大数</MaximumComputers>
+    <MaximumLength>最大長は {0} です。</MaximumLength>
+    <MaximumValue>最大値は {0} です。</MaximumValue>
     <MessageMaximumFileSizeExceeded>注意！ 追加しようとしているファイルのサイズが、最大許容サイズを超えています。 とにかくこのファイルを追加しますか（レポート処理が大幅に遅くなる可能性があります）。</MessageMaximumFileSizeExceeded>
+    <MinimumLength>最小長は {0} です。</MinimumLength>
+    <MinimumValue>最小値は {0} です。</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0}が利用可能です。</NewDesignerAvailable>
     <NewProduct>あなたの購読に新製品が追加されました！</NewProduct>
     <NewVersionsAvailable>新規バージョンが利用可能です！</NewVersionsAvailable>
@@ -2614,6 +2673,9 @@
     <NotificationTransferring>"{0}"は "{1}"に転送されています。</NotificationTransferring>
     <NotificationTransferringComplete>"{0}"は "{1}"に正常に転送されました。</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>この値はタイプ{0}では正しくありません</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>数字のみ入力できます。</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>文字のみ入力できます。</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>文字と数字のみ入力できます。</OnlyLettersAndDigitsAllowed>
     <OutOfRange>範囲外です（ "{0}"）！</OutOfRange>
     <ParsingCommandException>指定されたxml：{0}でコマンドを処理する例外は、</ParsingCommandException>
     <PleaseLogin>レポートを公開する前に、Stimulsoftアカウントの資格情報を使用してログインするか、新しいアカウントを登録してください。</PleaseLogin>
@@ -2636,10 +2698,19 @@
     <SubscriptionExpiredDays>有効期限は{0}日</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>サブスクリプションの有効期限が切れています。 サブスクリプションを更新して最新バージョンを取得してください。</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>購読期限切れ</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>サブスクリプションの開発者シート数が上限を超えています。アプリケーションを終了します。継続するにはプランをアップグレードしてください。</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>サブスクリプションの制限</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>サブスクリプションで許可されている数を超える開発者シートが使用されています。作業を中断せず継続するため、プランのアップグレードをご検討ください。</SubscriptionLimitWarning>
     <SubscriptionsOut10>定期購読期限が切れてから10日が経過しました！</SubscriptionsOut10>
     <SubscriptionsOut20>購読期間は20日で終了します！</SubscriptionsOut20>
     <SuccessfullyRenewed>あなたのサブスクリプションは正常に更新されました！</SuccessfullyRenewed>
     <TrialToLicense>Stimulsoftをご利用いただきありがとうございます！</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL は http:// または https:// を使用してください</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>値は必須です。</ValueIsRequired>
+    <ValueMatchPattern>値が必要なパターンに一致しません。</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>値は {0} 以上である必要があります。</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>値は {0} 以下である必要があります。</ValueMustBeLessOrEqual>
+    <ValueRange>値は {0} から {1} の範囲で指定してください。</ValueRange>
     <VersionCopyFromItem>アイテム "{0}"からコピーしてください。</VersionCopyFromItem>
     <VersionCreatedFromFile>ファイル "{0}"から作成されました。</VersionCreatedFromFile>
     <VersionCreatedFromItem>アイテム "{0}"から作成されました。</VersionCreatedFromItem>
@@ -3163,6 +3234,9 @@
     <StiDashboardContentAlignmentRight>右</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>伸長 X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>伸長 XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>矢印</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>バナー</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>四角形</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>クロス</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>フル</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>内部</StiDataJoinTypeInner>
@@ -3506,6 +3580,8 @@
     <StiRestrictionsAllowResize>サイズ変更を許可</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>選択を許可</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>なし</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>フルアクセス</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>セーフモード</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>最初</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>変数から</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>何も</StiSelectionModeNothing>
@@ -3667,6 +3743,7 @@
     <DisconnectingEvent>切断中</DisconnectingEvent>
     <DoubleClickEvent>ダブルクリック</DoubleClickEvent>
     <EndRenderEvent>レンダリング終了</EndRenderEvent>
+    <EndValueChangedEvent>終了値の変更</EndValueChangedEvent>
     <EnterEvent>入力</EnterEvent>
     <ExportedEvent>エクスポート済</ExportedEvent>
     <ExportingEvent>エクスポート中</ExportingEvent>
@@ -3719,6 +3796,7 @@
     <RenderingEvent>レンダリング</RenderingEvent>
     <ReportCacheProcessingEvent>レポートキャッシュ処理</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>選択されたインデックスが変更された</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>開始値の変更</StartValueChangedEvent>
     <StateRestoreEvent>状態の復元</StateRestoreEvent>
     <StateSaveEvent>状態を保存</StateSaveEvent>
     <ValueChangedEvent>値が変更されました</ValueChangedEvent>
@@ -3782,6 +3860,7 @@
   <PropertyMain>
     <AcceptsReturn>返品を受け入れる</AcceptsReturn>
     <AcceptsTab>Acceptsタブ</AcceptsTab>
+    <Action>アクション</Action>
     <Actual>実際の</Actual>
     <AddClearZone>クリアゾーンを追加</AddClearZone>
     <Advanced>上級</Advanced>
@@ -3882,6 +3961,7 @@
     <BorderSize>ボーダーサイズ</BorderSize>
     <BorderStyle>ボーダースタイル</BorderStyle>
     <BorderThickness>境界線幅</BorderThickness>
+    <BorderVisible>境界線を表示</BorderVisible>
     <BorderWidth>ボーダー幅</BorderWidth>
     <Bottom>下</Bottom>
     <BottomLeft>左下</BottomLeft>
@@ -4116,11 +4196,13 @@
     <FiltersTarget>フィルター対象</FiltersTarget>
     <First>1番</First>
     <FirstTabOffset>最初のタブオフセット</FirstTabOffset>
+    <FitMode>フィットモード</FitMode>
     <FixedHeight>固定高さ</FixedHeight>
     <FixedWidth>固定幅</FixedWidth>
     <Flat>フラット</Flat>
     <FlatMode>フラットモード</FlatMode>
     <Focus>フォーカス</Focus>
+    <FocusVisible>フォーカスを表示</FocusVisible>
     <Font>フォント</Font>
     <FontBold>フォント太字</FontBold>
     <FontItalic>フォントイタリック</FontItalic>
@@ -4178,6 +4260,8 @@
     <GroupDataColumn>グループデータ列</GroupDataColumn>
     <GroupMeter>Group</GroupMeter>
     <GrowToHeight>高さ拡張</GrowToHeight>
+    <HandleBorderColor>ハンドルの境界線色</HandleBorderColor>
+    <HandleFillColor>ハンドルの塗りつぶし色</HandleFillColor>
     <Header>ヘッダ</Header>
     <HeaderAlignment>ヘッダーアライメント</HeaderAlignment>
     <HeaderBackColor>ヘッダのバックカラー</HeaderBackColor>
@@ -4446,6 +4530,7 @@
     <NextPage>次のページ</NextPage>
     <NoElements>要素なし</NoElements>
     <NoIcon>アイコンなし</NoIcon>
+    <Notifications>通知</Notifications>
     <NullText>ヌルテキスト</NullText>
     <NumberOfColumns>列数</NumberOfColumns>
     <NumberOfCopies>部数</NumberOfCopies>
@@ -4491,6 +4576,7 @@
     <ParetoSeriesColors>パレートシリーズカラー</ParetoSeriesColors>
     <PasswordChar>パスワードチャー</PasswordChar>
     <Path>パス</Path>
+    <PathColor>パスの色</PathColor>
     <PathData>パスデータ</PathData>
     <PathSchema>パススキーマ</PathSchema>
     <Pattern>パターン</Pattern>
@@ -4554,6 +4640,7 @@
     <Refresh>リフレッシュ</Refresh>
     <RefreshTime>リフレッシュ時間</RefreshTime>
     <Regular>レギュラー</Regular>
+    <RegularExpression>正規表現</RegularExpression>
     <Relation>リレーション</Relation>
     <RelationName>リレーション名</RelationName>
     <Relations>リレーション</Relations>
@@ -4707,6 +4794,7 @@
     <SkipValuesObj>値をスキップ</SkipValuesObj>
     <Smoothing>平滑化</Smoothing>
     <SnapMode>スナップモード</SnapMode>
+    <SnapPageWidthToGrid>ページ幅をグリッドにスナップ</SnapPageWidthToGrid>
     <Sort>ソート</Sort>
     <SortBy>並び替え</SortBy>
     <SortDirection>並べ替え方向</SortDirection>
@@ -4793,6 +4881,8 @@
     <TextRightToLeft>テキスト 右から左へ</TextRightToLeft>
     <TextShowBehind>背後のテキスト表示</TextShowBehind>
     <Third>3番</Third>
+    <ThumbBorderColor>つまみの境界線色</ThumbBorderColor>
+    <ThumbColor>つまみの色</ThumbColor>
     <TickLabelMajorFont>目盛ラベル主フォント</TickLabelMajorFont>
     <TickLabelMajorTextBrush>目盛ラベル主テキストブラシ</TickLabelMajorTextBrush>
     <TickLabelMinorFont>目盛ラベル副フォント</TickLabelMinorFont>
@@ -4819,6 +4909,7 @@
     <ToolTipBrush>ツールチップブラシ</ToolTipBrush>
     <ToolTipCornerRadius>ツールチップコーナー半径</ToolTipCornerRadius>
     <ToolTipDataColumn>ツールチップデータ列</ToolTipDataColumn>
+    <ToolTipText>ツールチップテキスト</ToolTipText>
     <ToolTipTextBrush>ツールチップテキストブラシ</ToolTipTextBrush>
     <Top>上</Top>
     <TopLeft>左上</TopLeft>
@@ -4866,6 +4957,7 @@
     <UseStyleOfSummaryInRowTotal>行合計で集計のスタイルを使用</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>ユーザーピクチャーの使用</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>指定された範囲からの値の使用</UseValuesFromTheSpecifiedRange>
+    <Validation>検証</Validation>
     <Value>値</Value>
     <ValueClose>値閉じる</ValueClose>
     <ValueDataColumn>値のデータ列</ValueDataColumn>
@@ -5073,7 +5165,9 @@
   <Report>
     <ActiveRelation>アクティブなリレーション</ActiveRelation>
     <Address>住所</Address>
+    <Alpha>英字</Alpha>
     <Alphabetical>アルファベット順</Alphabetical>
+    <AlphaNumeric>英数字</AlphaNumeric>
     <Bands>バンド</Bands>
     <Basic>ベーシック</Basic>
     <BasicConfiguration>基本的なレポートタイプのレンダリングに必要なオブジェクトプロパティの最小数。</BasicConfiguration>
@@ -5081,6 +5175,7 @@
     <Categorized>分類された</Categorized>
     <Charts>グラフ</Charts>
     <Checking>確認中...</Checking>
+    <ClickAddToCreateNewAction>このイベントが発生したときの動作を定義するには、［追加］をクリックしてください（例: 画面を表示する、値を変更するなど）。</ClickAddToCreateNewAction>
     <ClickForMoreDetails>詳細をクリックしてください</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>新しい状態を作り出す</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>新しいフィールドを作成する</ClickHereToCreateNewField>
@@ -5099,6 +5194,7 @@
     <DashboardOnly>ダッシュボードとデータ変換のみ</DashboardOnly>
     <Dialogs>ダイアログ</Dialogs>
     <EditStyles>スタイルの編集</EditStyles>
+    <Email>メール</Email>
     <EnableCacheAllDataMode>'すべてのデータをキャッシュ' モードを有効にする</EnableCacheAllDataMode>
     <Enhancements>強化</Enhancements>
     <EnterDataManually>手動でデータを入力する</EnterDataManually>
@@ -5121,6 +5217,7 @@
     <Infographics>視覚化</Infographics>
     <InfoMessage>{0} - {1}が見つかりました。</InfoMessage>
     <InformationMessages>情報メッセージ</InformationMessages>
+    <IpAddress>IPアドレス</IpAddress>
     <LabelAlias>エイリアス：</LabelAlias>
     <LabelAuthor>著者：</LabelAuthor>
     <LabelBackground>バックグラウンド：</LabelBackground>
@@ -5164,6 +5261,7 @@
     <Obsoleted>廃止</Obsoleted>
     <Office2010Back>バック</Office2010Back>
     <PageNofM>{1}のページ{0}</PageNofM>
+    <Phone>電話</Phone>
     <PreparingReport>レポートの準備</PreparingReport>
     <Professional>専門家</Professional>
     <ProfessionalConfiguration>すべてのオブジェクトのプロパティ。</ProfessionalConfiguration>
@@ -5179,8 +5277,10 @@
     <SaveReportPagesOrFormsFromReport>レポート、ページ、またはフォームを保存する</SaveReportPagesOrFormsFromReport>
     <SavingReport>レポートの保存</SavingReport>
     <ScriptEvalAccess>Script Eval アクセス</ScriptEvalAccess>
+    <ScriptSecurity>スクリプトセキュリティ</ScriptSecurity>
     <SecondPass>セカンドパス</SecondPass>
     <Shapes>図形</Shapes>
+    <ShowIncompatibleTypes>互換性のない型を表示</ShowIncompatibleTypes>
     <ShowOnParametersPanel>パラメータパネルに表示する</ShowOnParametersPanel>
     <Standard>標準</Standard>
     <StandardConfiguration>ほとんど使用されないものを除き、主なオブジェクトのプロパティ。</StandardConfiguration>
@@ -5372,6 +5472,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>Stimul AI に質問</AskStimulAI>
+    <Assistant>アシスタント</Assistant>
     <ChangedWithAI>Stimul AIによって変更されました</ChangedWithAI>
     <CheckExpressionSuccess>指定された式に問題はありませんでした。</CheckExpressionSuccess>
     <CheckQuery>クエリをチェック</CheckQuery>
@@ -5457,6 +5558,7 @@
     <FontSize>フォントサイズ</FontSize>
     <FontStyleBold>フォントスタイル太字</FontStyleBold>
     <FontStyleItalic>フォントスタイルイタリック</FontStyleItalic>
+    <FontStyleStrikeout>取り消し線</FontStyleStrikeout>
     <FontStyleUnderline>フォントスタイル下線</FontStyleUnderline>
     <Link>リンク</Link>
     <Lock>ロック</Lock>
@@ -5508,6 +5610,7 @@
   <UserFunctionEditor>
     <ArgumentName>引数名</ArgumentName>
     <ArgumentType>引数タイプ</ArgumentType>
+    <CheckScript>スクリプトをチェック</CheckScript>
     <ConvertScript>スクリプトを変換</ConvertScript>
     <CustomCategory>カスタム・カテゴリー</CustomCategory>
     <EditCode>コードを編集</EditCode>
@@ -5530,6 +5633,7 @@
     <Title>ようこそStimulsoftデモへ</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>AI生成ダッシュボード</AIGeneratedDashboard>
     <AIGeneratedReport>AI 生成レポート</AIGeneratedReport>
     <BlankDashboard>ブランクダッシュボード</BlankDashboard>
     <BlankForm>空白のフォーム</BlankForm>
@@ -5541,11 +5645,13 @@
     <ButtonNext>次へ&gt;</ButtonNext>
     <ColumnsOrder>列の順序</ColumnsOrder>
     <Company>会社</Company>
+    <CreateDataManually>データを手動で作成</CreateDataManually>
     <Custom>カスタム</Custom>
     <DataRelation>リレーション</DataRelation>
     <DataSource>データソース</DataSource>
     <DataSources>データソース</DataSources>
     <DefaultThemes>デフォルトのテーマ</DefaultThemes>
+    <EditUserSource>ユーザーソースを編集</EditUserSource>
     <Examples>例</Examples>
     <Filters>フィルタ</Filters>
     <FromReportTemplate>レポートテンプレートから</FromReportTemplate>
@@ -5591,6 +5697,7 @@
     <Mapping>マッピング</Mapping>
     <MarkAll>すべてをマーク</MarkAll>
     <MasterDetailReport>マスター詳細レポート</MasterDetailReport>
+    <NewUserSource>新しいユーザーソース</NewUserSource>
     <NoFunction>[なし]</NoFunction>
     <OpenExistingReport>既存のファイルを開く</OpenExistingReport>
     <OpenFrom>{0}から開く</OpenFrom>

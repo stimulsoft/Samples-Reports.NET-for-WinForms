@@ -286,6 +286,8 @@
     <Pictorial>Pictural</Pictorial>
     <PictorialStacked>Pictorial Stivuit</PictorialStacked>
     <Pie>Placintă</Pie>
+    <Polar>Polar</Polar>
+    <PolarStacked>Polar Stivuit</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Arie Radar</RadarArea>
     <RadarColumn>Coloană Radar</RadarColumn>
@@ -744,6 +746,7 @@
     <AllowUserFiltering>Permite Utilizatorului Filtrare</AllowUserFiltering>
     <AllowUserSorting>Permite Utilizatorului Ordonare</AllowUserSorting>
     <BeforeTransformation>Aplicare înainte de transformarea datelor</BeforeTransformation>
+    <BindData>Asociere cu datele</BindData>
     <Blank>(Gol)</Blank>
     <Blanks>(Goluri)</Blanks>
     <BooleanFilters>Filtre Logice</BooleanFilters>
@@ -965,6 +968,8 @@
     <StiListControl>Control listă</StiListControl>
     <StiListViewControl>Vizualizare tip listă</StiListViewControl>
     <StiLookUpBoxControl>Căsuţa căutare</StiLookUpBoxControl>
+    <StiMultiListControl>Listă multiplă</StiMultiListControl>
+    <StiMultiSelectControl>Selecție multiplă</StiMultiSelectControl>
     <StiNumberInputControl>Control citire numerică</StiNumberInputControl>
     <StiNumericUpDownControl>Numerotare de sus în jos</StiNumericUpDownControl>
     <StiPanelControl>Panou</StiPanelControl>
@@ -972,6 +977,7 @@
     <StiRadioButtonControl>Buton opţiuni</StiRadioButtonControl>
     <StiRadioControl>Radio</StiRadioControl>
     <StiRadioGroupControl>Grup butoane radio</StiRadioGroupControl>
+    <StiRangeSliderControl>Cursor de interval</StiRangeSliderControl>
     <StiReportControl>Raport</StiReportControl>
     <StiRichTextBoxControl>Control tip Rich Text</StiRichTextBoxControl>
     <StiSelectControl>Control selectie</StiSelectControl>
@@ -1004,10 +1010,12 @@
     <MatchCase>Majuscule / Minuscule</MatchCase>
     <MatchWholeWord>Cuvânt întreg</MatchWholeWord>
     <MaximumDimensions>Se pot selecta maximum 7 dimensiuni.</MaximumDimensions>
+    <NotFound>Nu a fost găsit</NotFound>
     <Outlining>Linii generale</Outlining>
     <PromptOnReplace>Cere confirmare la înlocuire</PromptOnReplace>
     <Replace>Înlocuieşte</Replace>
     <ReplaceAll>Înlocuieşte tot</ReplaceAll>
+    <Replaced>Înlocuit: {0}</Replaced>
     <ReplaceWith>Înlocuieşte cu:</ReplaceWith>
     <Search>Caută</Search>
     <SearchHiddenText>Text ascuns</SearchHiddenText>
@@ -2005,10 +2013,13 @@
   <HelpComponents>
     <StiBarCode>Această componentă permite afişarea codurilor de bare într-un raport.Datele pentru codul de bare sunt trimise către obiect,ca un şir de caractere. Şirul poate conţine orice simbol,dar vor fi afişate doar cele permise pentru diagrama aleasă.</StiBarCode>
     <StiButtonElement>Această componentă este folosită pentru a executa un script de eveniment atunci când un utilizator interacționează.</StiButtonElement>
+    <StiButtonUI>Un buton utilizat pentru a declanșa o acțiune sau a iniția o comandă.</StiButtonUI>
     <StiCardsElement>Această componentă este utilizată pentru afișarea datelor grupate sub formă de carduri.</StiCardsElement>
     <StiChart>Această componentă permite afişarea diagramelor intr-un raport. Sunt disponibile diverse tipuri de diagrame.Dintre acestea : bar, linie, placintă, gogoaşă, linii, arii, Gantt, diagrame impraştiate etc. </StiChart>
     <StiChartElement>Acest element permite afișarea diagramelor într-un panou de control. Diferite tipuri de diagrame sunt disponibile.</StiChartElement>
     <StiCheckBox>Această componentă permite afişarea unei casuţe cu bifă intr-un raport. Aceasta poate fi afişată în doua moduri :"activată" sau "dezactivată".</StiCheckBox>
+    <StiCheckBoxGroupUI>Un grup de casete de bifare utilizat pentru a selecta mai multe opțiuni predefinite dintr-o listă.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>O casetă de bifare utilizată pentru a activa sau dezactiva rapid o singură opțiune.</StiCheckBoxUI>
     <StiChildBand>Banda Child se poate utiliza pentru a se obţine două benzi pentru un singur rând de date.</StiChildBand>
     <StiClone>Această componentă este folosită pentru a clona părţi ale raportului în una dorită. Clonarea poate fi aplicată doar conţinutului unui panel.</StiClone>
     <StiColumnFooterBand>Această bandă este folosită pentru a se afişa subsoluri de coloane în Banda de Date. Banda ColumnFooter este afişată o dată sub fiecare coloană.Toate componentele puse în această bandă vor fi,de asemenea,afişate pentru fiecare coloană.</StiColumnFooterBand>
@@ -2023,6 +2034,7 @@
     <StiCrossTab>Componenta cross-tab este folosită pentru structurarea datelor sub forma unui tabel.</StiCrossTab>
     <StiDataBand>Banda de date este conectată la sursa de date şi este afişată de atâtea ori câte înregistrari sunt în sursa de date.</StiDataBand>
     <StiDatePickerElement>Elementul este utilizat pentru a selecta data și ora.</StiDatePickerElement>
+    <StiDatePickerUI>Un selector de dată utilizat pentru a alege o dată dintr-un calendar.</StiDatePickerUI>
     <StiElectronicSignature>Această componentă este utilizată pentru a adăuga o semnătură grafică, o imagine, inițiale și text.</StiElectronicSignature>
     <StiEmptyBand>Această bandă este folosită pentru umplerea spaţiului liber din subsolul unei pagini. Aceasta bandă umple spaţiul liber pe fiecare pagină a raportului.</StiEmptyBand>
     <StiFilterCategory>Un grup de elemente utilizate pentru selectarea și filtrarea valorilor.</StiFilterCategory>
@@ -2034,48 +2046,64 @@
     <StiHeaderBand>Această bandă este folosită pentru afişarea anteturilor. Este folosită împreună cu banda de date.</StiHeaderBand>
     <StiHierarchicalBand>Această bandă este conectată la sursa de date şi este afişată de atâtea ori câte înregistrari sunt în sursa de date.Datele sunt afişate arborescent.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Această componentă este folosită pentru afişarea unei linii.</StiHorizontalLinePrimitive>
+    <StiIconUI>O pictogramă utilizată pentru a afișa un element grafic simbolic sau un marcaj vizual.</StiIconUI>
     <StiImage>Această componentă este folosită pentru a afişa imagini. Suportă următoarele formate grafice cum ar fi  BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Acest element este folosit pentru a scoate imagini. Acceptă următoarele formate grafice, cum ar fi: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>O imagine utilizată pentru a afișa conținut grafic în cadrul interfeței.</StiImageUI>
     <StiIndicatorElement>Elementul afișează diferența de valori dintre datele de intrare.</StiIndicatorElement>
+    <StiLabelUI>O etichetă utilizată pentru afișarea de text sau de legende scurte.</StiLabelUI>
     <StiListBoxElement>Elementul permite selectarea elementelor dintr-o listă.</StiListBoxElement>
+    <StiListUI>O listă utilizată pentru a afișa elemente selectabile într-o dispunere verticală.</StiListUI>
     <StiMap>Această componentă este utilizată pentru afișarea datelor direcționate geografic.</StiMap>
     <StiMapCategory>Grup de elemente pentru lucrul cu hărți și date.</StiMapCategory>
     <StiMapElement>Acest element este utilizat pentru afișarea datelor direcționate din punct de vedere geografic.</StiMapElement>
     <StiMathFormula>Această componentă este utilizată pentru a afișa formule matematice într-un raport.</StiMathFormula>
+    <StiMultiListUI>O listă utilizată pentru a selecta mai multe elemente din aceeași colecție.</StiMultiListUI>
+    <StiMultiSelectUI>Un selector utilizat pentru a alege mai multe valori dintr-o listă pregătită.</StiMultiSelectUI>
     <StiNumberBoxElement>Acest element este utilizat pentru a selecta o valoare numerică sau pentru a seta un interval de valori numerice.</StiNumberBoxElement>
+    <StiNumberInputUI>Un câmp utilizat pentru introducerea valorilor numerice cu control al datelor de intrare.</StiNumberInputUI>
     <StiOnlineMapElement>Acest element este utilizat pentru a afișa marcaje geografice pe harta online.</StiOnlineMapElement>
     <StiOverlayBand>Această bandă este folosită pentru afişare watermark-uri pe o pagină.</StiOverlayBand>
     <StiPageFooterBand>Această bandă este folosită pentru afişare informatii în subsolul fiecărei pagini cum ar fi număr pagină,data şi alte informaţii adiţionale.</StiPageFooterBand>
     <StiPageHeaderBand>Această bandă este folosită pentru afişarea în antetul de pagină a informaţiilor cum ar fi număr pagină,data şi alte informaţii adiţionale.Este afişată în partea de sus a fiecărei pagini.</StiPageHeaderBand>
     <StiPanel>Aceasta este o regiune dreptunghiulară în care pot fi incluse alte componente, inclusiv benzi.Când panel-ul este mutat,sunt mutate de asemenea şi componentele.Panel-ul poate fi pus atât pe banda de date cât şi pe pagină.</StiPanel>
     <StiPanelElement>O regiune dreptunghiulară care poate conține alte elemente. Când panoul este mutat, elementele din el sunt mutate.</StiPanelElement>
+    <StiPanelUI>Un panou utilizat pentru a grupa și aranja alte controale într-o singură zonă.</StiPanelUI>
     <StiPdfDigitalSignature>Această componentă este utilizată pentru a specifica un loc pentru semnătura digitală după ce raportul a fost exportat în Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Această componentă este utilizată pentru a specifica un spațiu pentru semnătura digitală și câmpurile din certificat atunci când se exportă în PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Elementul de tabel pivot este utilizat pentru reprezentarea datelor structurate ca tabel.</StiPivotTableElement>
     <StiProgressElement>Elementul afișează raportul dintre datele de intrare. Acesta poate fi prezentat în diferite moduri - amestec, cerc, bare.</StiProgressElement>
+    <StiRadioGroupUI>Un grup de butoane radio utilizat pentru a selecta o opțiune dintr-un set predefinit de valori.</StiRadioGroupUI>
     <StiRangeSelectorElement>Această componentă este utilizată pentru a selecta un interval de valori pe o scală sau o cronologie. Permite utilizatorilor să definească vizual limitele minime și maxime ale intervalului..</StiRangeSelectorElement>
+    <StiRangeSliderUI>Un cursor de interval utilizat pentru a defini valori minime și maxime pe o scală.</StiRangeSliderUI>
     <StiRectanglePrimitive>Această componentă este folosită pentru a afişa dreptunghiuri.</StiRectanglePrimitive>
     <StiRegionMapElement>Acest element este utilizat pentru afișarea datelor direcționate din punct de vedere geografic.</StiRegionMapElement>
     <StiReportSummaryBand>Această bandă este folosită pentru afişarea rezumatului din întreg raportul.Este afişată o singură dată,la sfârsitul raportului.</StiReportSummaryBand>
     <StiReportTitleBand>Această bandă este folosită pentru a se afişa titlul raportului. Este afişată la începutul raportului.</StiReportTitleBand>
     <StiRichText>Această componentă este folosită pentru a afişa şi edita text RTF. Suportă incărcarea şi salvarea în formatul RTF.</StiRichText>
     <StiRoundedRectanglePrimitive>Această componentă este folosită pentru a afişa dreptunghiuri rotunjite.</StiRoundedRectanglePrimitive>
+    <StiScreen>Un ecran care găzduiește controale, elemente de dispunere și interacțiuni ale utilizatorului pentru o pagină a aplicației.</StiScreen>
+    <StiSelectUI>O casetă de selecție utilizată pentru a alege o valoare dintr-o listă derulantă.</StiSelectUI>
     <StiShape>Această componentă este folosită pentru a insera forme gata făcute , cum ar fi săgeţi,linie diagonală în jos, linie diagonală în sus, linie orizontală, linii de stânga şi la dreapta, oval, dreptunghi, dreptunghi rotunjit, linii de sus şi de jos, triunghi, linie verticală.</StiShape>
     <StiShapeElement>Acest element este utilizat pentru a insera forme gata făcute, cum ar fi săgețile, linia diagonală în jos, linia diagonală în sus, linia orizontală stânga și dreapta, oval, dreptunghi, dreptunghi rotunjit, linii de sus și de jos, triunghi, linie verticală.</StiShapeElement>
     <StiSignature>Această componentă este utilizată pentru a adăuga o semnătură electronică sau digitală unui raport.</StiSignature>
+    <StiSliderUI>Un cursor utilizat pentru a selecta o valoare pe o scală numerică continuă.</StiSliderUI>
     <StiSparkline>Această componentă este utilizată pentru a crea micrografii într-un raport. Vă permite să urmăriți datele care se schimbă dinamic sub formă de bare, linii, zone.</StiSparkline>
     <StiSubReport>Această componentă este folosită pentru a afişa date adiţionale în diferite parţi ale raportului.</StiSubReport>
+    <StiSwitchUI>Un comutator utilizat pentru a activa sau dezactiva o setare printr-un singur clic.</StiSwitchUI>
     <StiTable>Această componentă este un set de elemente care organizează datele folosind un model bazat pe coloane verticale şi rănduri orizontale.</StiTable>
     <StiTableElement>Acest element este un set de elemente de date care este organizat folosind un model de coloane verticale și rânduri orizontale.</StiTableElement>
     <StiTableOfContents>Această componentă este utilizată pentru a crea un cuprins într-un raport.</StiTableOfContents>
+    <StiTableUI>Un tabel utilizat pentru a afișa clar datele pe rânduri și coloane.</StiTableUI>
     <StiText>Această componentă este un obiect de bază pentru afişarea datelor ca text.</StiText>
     <StiTextElement>Acest element este un obiect de bază pentru ieșirea datelor ca text.</StiTextElement>
     <StiTextInCells>Această componentă este folosită pentru a afişa text în celule. Este utilizat frecvent la crearea formelor.</StiTextInCells>
+    <StiTextInputUI>Un câmp de introducere a textului utilizat pentru a introduce și edita valori de tip text.</StiTextInputUI>
     <StiTreeViewBoxElement>Elementul este utilizat pentru a selecta valori cu o listă derulantă ca arbore.</StiTreeViewBoxElement>
     <StiTreeViewElement>Reprezintă elementul utilizat pentru a arăta datele ierarhice ca arbore.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Această componentă este folosită pentru afişarea unei linii verticale.</StiVerticalLinePrimitive>
     <StiWebContentElement>Componenta permite adăugarea de conținut web la panoul de control.</StiWebContentElement>
-    <StiWinControl>Această componentă permite afişarea controalelor vizuale din .NET Framework.</StiWinControl>
+    <StiWinControl>Această componentă permite afişarea controalelor vizuale din .NET.</StiWinControl>
     <StiZipCode>Această componentă este folosită pentru afişarea codurilor poştale.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2531,7 +2559,7 @@
     <ShareYourReportYouShouldSave>Pentru a distribui raportul, ar trebui să-l salvați în Stimulsoft Cloud!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>Comutarea între moduri va provoca pierderea modificărilor. Continuați?</SwitchingBetweenModes>
     <SwitchParametersOrientation>Modificați valoarea proprietății raportului „ParametersOrientation” la „{0}” pentru a afișa această categorie în panoul de parametri.</SwitchParametersOrientation>
-    <TextRegistrationSuccessfully>Înregistrare cu succes!
+    <TextRegistrationSuccessfully>Încă un pas pentru a finaliza înregistrarea!
 
 E-mail a fost trimis la "{0}".
 Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înregistrarea, vă rugăm urmați link-ul din e-mailul primit.</TextRegistrationSuccessfully>
@@ -2699,6 +2727,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <SubscriptionExpiredDays>Expiră în {0} zile</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Abonamentul dvs. a expirat. Actualizați-vă abonamentul pentru a obține ultima versiune.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Abonamentul a expirat</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Abonamentul dumneavoastră a depășit limita de locuri pentru dezvoltatori. Aplicația se va închide. Vă rugăm să treceți la un plan superior pentru a continua.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Limită de abonament</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Abonamentul tău utilizează mai multe locuri pentru dezvoltatori decât este permis. Te rugăm să iei în considerare actualizarea planului pentru a putea continua activitatea fără întreruperi.</SubscriptionLimitWarning>
     <SubscriptionsOut10>Au mai rămas 10 zile până la expirarea abonamentului!</SubscriptionsOut10>
     <SubscriptionsOut20>Perioada de abonare expiră în 20 de zile!</SubscriptionsOut20>
     <SuccessfullyRenewed>Abonamentul dvs. a fost actualizat cu succes!</SuccessfullyRenewed>
@@ -3255,6 +3286,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiDashboardContentAlignmentRight>Dreapta</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Extindere X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Extindere XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Săgeată</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Dreptunghi</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Încrucișat</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Complet</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Interior</StiDataJoinTypeInner>
@@ -3778,6 +3812,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DisconnectingEvent>Se decuplează</DisconnectingEvent>
     <DoubleClickEvent>Dublu clic</DoubleClickEvent>
     <EndRenderEvent>Sfârşit redare</EndRenderEvent>
+    <EndValueChangedEvent>Valoarea finală a fost modificată</EndValueChangedEvent>
     <EnterEvent>Enter</EnterEvent>
     <ExportedEvent>Exportat</ExportedEvent>
     <ExportingEvent>Exportă</ExportingEvent>
@@ -3830,6 +3865,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <RenderingEvent>Redare</RenderingEvent>
     <ReportCacheProcessingEvent>Procesare cache Raport</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Schimbare index selectat</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Valoarea inițială a fost modificată</StartValueChangedEvent>
     <StateRestoreEvent>Restabilirea stării</StateRestoreEvent>
     <StateSaveEvent>Salvarea stării</StateSaveEvent>
     <ValueChangedEvent>Valoare schimbată</ValueChangedEvent>
@@ -3893,6 +3929,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
   <PropertyMain>
     <AcceptsReturn>Acceptă Return</AcceptsReturn>
     <AcceptsTab>Acceptă Tab-uri</AcceptsTab>
+    <Action>Acţiune</Action>
     <Actual>Actual</Actual>
     <AddClearZone>Adaugă zona de curaţare</AddClearZone>
     <Advanced>Avansat</Advanced>
@@ -3994,6 +4031,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <BorderSize>Dimensiune Bordură</BorderSize>
     <BorderStyle>Stil de margine</BorderStyle>
     <BorderThickness>Grosime chenar</BorderThickness>
+    <BorderVisible>Bordură vizibilă</BorderVisible>
     <BorderWidth>Lățime Bordură</BorderWidth>
     <Bottom>Jos</Bottom>
     <BottomLeft>Stânga jos</BottomLeft>
@@ -4228,11 +4266,13 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <FiltersTarget>Filtre țintă</FiltersTarget>
     <First>Primul</First>
     <FirstTabOffset>Distanţa primului Tab</FirstTabOffset>
+    <FitMode>Mod potrivire</FitMode>
     <FixedHeight>Înălțime fixă</FixedHeight>
     <FixedWidth>Lăţime fixă</FixedWidth>
     <Flat>Plat</Flat>
     <FlatMode>Mod plat</FlatMode>
     <Focus>Focus</Focus>
+    <FocusVisible>Focalizare vizibilă</FocusVisible>
     <Font>Stil caractere</Font>
     <FontBold>Stil îngroşat</FontBold>
     <FontItalic>Stil înclinat</FontItalic>
@@ -4916,6 +4956,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <TextRightToLeft>Text de la dreapta la stânga</TextRightToLeft>
     <TextShowBehind>Afișare text în spate</TextShowBehind>
     <Third>Al treilea</Third>
+    <ThumbBorderColor>Culoarea bordurii miniaturii</ThumbBorderColor>
+    <ThumbColor>Culoarea miniaturii</ThumbColor>
     <TickLabelMajorFont>Font Majuscul Etichetă Semn</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Text Pensulă Majuscul Etichetă Semn</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Font Minuscul Etichetă Semn</TickLabelMinorFont>
@@ -5208,6 +5250,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Categorized>Clasificat</Categorized>
     <Charts>Grafice</Charts>
     <Checking>Verificare...</Checking>
+    <ClickAddToCreateNewAction>Faceți clic pe 'Adăugați' pentru a defini ce se întâmplă când are loc acest eveniment (de exemplu, afișarea unui ecran sau modificarea unei valori).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Clic pentru mai multe detalii</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>aici pentru a crea o nouă condiție</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>aici pentru a crea un câmp nou</ClickHereToCreateNewField>
@@ -5314,6 +5357,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ScriptSecurity>Securitatea scripturilor</ScriptSecurity>
     <SecondPass>A doua trecere</SecondPass>
     <Shapes>Forme</Shapes>
+    <ShowIncompatibleTypes>Afișați tipurile incompatibile</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Afișare în panoul de parametri</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Proprietaţile principale ale obiectului cu execepţia celor rar folosite.</StandardConfiguration>
@@ -5504,6 +5548,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
   </Signature>
   <StimulAI>
     <AskStimulAI>Întreabă Stimul AI</AskStimulAI>
+    <Assistant>Asistent</Assistant>
     <ChangedWithAI>Schimbat cu Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Nu au fost găsite probleme în expresia specificată.</CheckExpressionSuccess>
     <CheckQuery>Verificare interogare</CheckQuery>
@@ -5641,6 +5686,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
   <UserFunctionEditor>
     <ArgumentName>Nume argument</ArgumentName>
     <ArgumentType>Tip argument</ArgumentType>
+    <CheckScript>Verificare script</CheckScript>
     <ConvertScript>Conversie Script</ConvertScript>
     <CustomCategory>Categorie personalizată</CustomCategory>
     <EditCode>Editare cod</EditCode>
@@ -5663,6 +5709,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Title>Bun venit la Demo Stimulsoft</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Panou de bord generat de inteligență artificială</AIGeneratedDashboard>
     <AIGeneratedReport>Raport generat de AI</AIGeneratedReport>
     <BlankDashboard>Panou control gol</BlankDashboard>
     <BlankForm>Formular gol</BlankForm>

@@ -284,6 +284,8 @@
     <Pictorial>Pictorial</Pictorial>
     <PictorialStacked>Картинно подреден</PictorialStacked>
     <Pie>Кръгова диаграма</Pie>
+    <Polar>Polar</Polar>
+    <PolarStacked>Polar Stacked</PolarStacked>
     <Radar>Радар</Radar>
     <RadarArea>Радар област</RadarArea>
     <RadarColumn>Колона радар</RadarColumn>
@@ -742,6 +744,7 @@
     <AllowUserFiltering>Резрешаване филтриране</AllowUserFiltering>
     <AllowUserSorting>Разрешаване сортиране</AllowUserSorting>
     <BeforeTransformation>Приложете преди транформацията на данните</BeforeTransformation>
+    <BindData>Свързване с данни</BindData>
     <Blank>(Празно)</Blank>
     <Blanks>(Бланки)</Blanks>
     <BooleanFilters>Булеви филтри</BooleanFilters>
@@ -950,6 +953,8 @@
     <StiListControl>Списък</StiListControl>
     <StiListViewControl>Списък изгледи</StiListViewControl>
     <StiLookUpBoxControl>Диалог</StiLookUpBoxControl>
+    <StiMultiListControl>Многосписъчен списък</StiMultiListControl>
+    <StiMultiSelectControl>Многократен избор</StiMultiSelectControl>
     <StiNumberInputControl>Въвеждане на число</StiNumberInputControl>
     <StiNumericUpDownControl>Число нагоре надолу</StiNumericUpDownControl>
     <StiPanelControl>Панел</StiPanelControl>
@@ -957,6 +962,7 @@
     <StiRadioButtonControl>Радио бутон</StiRadioButtonControl>
     <StiRadioControl>Радио</StiRadioControl>
     <StiRadioGroupControl>Радио група</StiRadioGroupControl>
+    <StiRangeSliderControl>Плъзгач за диапазон</StiRangeSliderControl>
     <StiReportControl>Елемент на управление</StiReportControl>
     <StiRichTextBoxControl>Rich Text кутия</StiRichTextBoxControl>
     <StiSelectControl>Елемент за избор</StiSelectControl>
@@ -989,10 +995,12 @@
     <MatchCase>Отчитай &amp;регистър</MatchCase>
     <MatchWholeWord>Търси &amp;цялата дума</MatchWholeWord>
     <MaximumDimensions>Могат да бъдат избрани максимум 7 размери.</MaximumDimensions>
+    <NotFound>Не е намерен</NotFound>
     <Outlining>Очер&amp;таване</Outlining>
     <PromptOnReplace>Питай при заменяне</PromptOnReplace>
     <Replace>&amp;Замени</Replace>
     <ReplaceAll>Замени &amp;всичко</ReplaceAll>
+    <Replaced>Подменени: {0}</Replaced>
     <ReplaceWith>Замени с:</ReplaceWith>
     <Search>Търси</Search>
     <SearchHiddenText>Скрит текст</SearchHiddenText>
@@ -1983,10 +1991,13 @@
   <HelpComponents>
     <StiBarCode>Този компонент позволява показване на баркодове в отчета. Бар-код данните се изпращат към обекта като низ. Низа може да съдържа всички символи, но само разрешените символи за указания тип ще бъдат показани.</StiBarCode>
     <StiButtonElement>Този компонент се използва за изпълнение на скрипт за събитие, когато потребителят взаимодейства.</StiButtonElement>
+    <StiButtonUI>Бутон, използван за изпълнение на действие или стартиране на команда.</StiButtonUI>
     <StiCardsElement>Този компонент се използва за показване на групирани данни като карти.</StiCardsElement>
     <StiChart>Този компонент позволява показване на диаграми в отчета. Достъпни са различни типове диаграми. </StiChart>
     <StiChartElement>Този елемент позволява показването на диаграми в таблото за управление. Предлагат се различни типове диаграми.</StiChartElement>
     <StiCheckBox>Този компонент позволява показване на отметки в отчета. Той може да променя състоянието си в два режима: "включен" or "изключен".</StiCheckBox>
+    <StiCheckBoxGroupUI>Група от отметка, използвана за избиране на множество предварително дефинирани опции от списък.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Отметка, използвано за бързо включване или изключване на една опция.</StiCheckBoxUI>
     <StiChildBand>Подчинената секция може да се използва за показване на две секции в един ред от данни.</StiChildBand>
     <StiClone>Този компонент позволява да се клонират части от отчета в други части на отчета. Клонирането може да се прилага само за съдържание от тип панел.</StiClone>
     <StiColumnFooterBand>Тази секция се използва за извеждането на долни колонтитули в секцията Данни. Тази секция се извежда веднъж под всяка колона. Всички компоненти, които се намират в тази секция ще се извеждат под всяка колона.</StiColumnFooterBand>
@@ -2001,6 +2012,7 @@
     <StiCrossTab>Компонента Крос-таблица се използва за структурно представяне на данните в таблица.</StiCrossTab>
     <StiDataBand>Секцията Данни е свързана с източника на данни и се извежда толкова пъти, колкото редове има в източника на данни.</StiDataBand>
     <StiDatePickerElement>Този елемент се използва за избор на дата и час.</StiDatePickerElement>
+    <StiDatePickerUI>Инструмент за избор на дата, използван за избиране на дата от календар.</StiDatePickerUI>
     <StiElectronicSignature>Този компонент се използва за добавяне на графичен подпис, изображение, инициали и текст.</StiElectronicSignature>
     <StiEmptyBand>Тази секция се използва за запълване на празно простанство в края на страницата. Тази секция запълва празно пространство на всяка страница на отчета.</StiEmptyBand>
     <StiFilterCategory>Група от елементи, използвани за избор и филтриране на стойности.</StiFilterCategory>
@@ -2012,48 +2024,64 @@
     <StiHeaderBand>Тази секция се използва за извеждането на заглавия. Използва се съвместно със секцията Данни.</StiHeaderBand>
     <StiHierarchicalBand>Тази секция е свързана с източника на данни и се извежда толкова пъти, колкото редове има в източника на данни. Данните се извеждат в дрвовиден вид.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Този компонент се използва за извеждането на линия.</StiHorizontalLinePrimitive>
+    <StiIconUI>Икона, използвана за показване на символичен графичен или визуален маркер.</StiIconUI>
     <StiImage>Този компонент се използва за показване на картинки. Поддържат се следните графични формати: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Този елемент се използва за извеждане на изображения. Поддържа следните графични формати, като например  BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>Изображение, използвано за показване на графично съдържание в интерфейса.</StiImageUI>
     <StiIndicatorElement>Елементът показва разликата в стойностите между входните данни.</StiIndicatorElement>
+    <StiLabelUI>Етикет, използван за показване на текст или кратки надписи.</StiLabelUI>
     <StiListBoxElement>Елементът позволява избор на елементи от списък.</StiListBoxElement>
+    <StiListUI>Списък, използван за показване на избираеми елементи във вертикална колекция.</StiListUI>
     <StiMap>Този компонент се използва за показване на данни, които са географски насочени.</StiMap>
     <StiMapCategory>Група елементи за работа с карти и данни.</StiMapCategory>
     <StiMapElement>Този елемент се използва за показване на географски насочени данни.</StiMapElement>
     <StiMathFormula>Този компонент се използва за показване на математически формули в отчет. </StiMathFormula>
+    <StiMultiListUI>Списък, използван за избор на множество елементи от една и съща колекция.</StiMultiListUI>
+    <StiMultiSelectUI>Селектор, използван за избор на множество стойности от подготвен списък.</StiMultiSelectUI>
     <StiNumberBoxElement>Този елемент се използва за избор на числова стойност или за задаване на диапазон от числови стойности.</StiNumberBoxElement>
+    <StiNumberInputUI>Числов вход, използван за въвеждане на числови стойности с контролиран вход.</StiNumberInputUI>
     <StiOnlineMapElement>Този елемент се използва за показване на географски маркери в онлайн картата.</StiOnlineMapElement>
     <StiOverlayBand>Този компонент се използва за извеждането на воден знак в страницата.</StiOverlayBand>
     <StiPageFooterBand>Тази секция се използва за извеждането на информация в края на всяка страница от рода на номер на страница, дати и друга информация</StiPageFooterBand>
     <StiPageHeaderBand>Тази секция се използва за извеждане на информация в началото на страницата. Тя се извежда в началото на всяка страница.</StiPageHeaderBand>
     <StiPanel>Това в правоъгълна област, където други компоненти вкл. и др. секции могат да бъдат разположени. При преместване на региона се преместват и всички компоненти в него. Панела може да бъде разположен както в секция, така и в страницата.</StiPanel>
     <StiPanelElement>Правоъгълна област, която може да съдържа други елементи. При преместване на панела се преместват и елементите в него.</StiPanelElement>
+    <StiPanelUI>Панел, използван за групиране и подреждане на други контроли в една област.</StiPanelUI>
     <StiPdfDigitalSignature>Този компонент се използва за указване на място за цифровия подпис, след като отчетът бъде експортиран в Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Този компонент се използва за указване на място за цифровия подпис и полетата от сертификата при експорт в PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivot table елемента се използва за представяне на структурирани данни като таблица.</StiPivotTableElement>
     <StiProgressElement>Елементът показва съотношението на входните данни. Той може да бъде представена в различни режими - кръгова диаграма, кръг, ивица.</StiProgressElement>
+    <StiRadioGroupUI>Радио група, използвана за избор на една опция от предварително дефиниран набор от стойности.</StiRadioGroupUI>
     <StiRangeSelectorElement>Този компонент се използва за избор на диапазон от стойности в скала или времева линия. Той позволява на потребителите визуално да дефинират минималните и максималните граници на диапазона.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Плъзгач за диапазон, използван за определяне на минимални и максимални стойности в скала.</StiRangeSliderUI>
     <StiRectanglePrimitive>Този компонент се използва за извеждане на правоъгълници.</StiRectanglePrimitive>
     <StiRegionMapElement>Този елемент се използва за показване на географски насочени данни.</StiRegionMapElement>
     <StiReportSummaryBand>Тази секция се използва за извеждане на обобщаваща информация в отчета. Тя се извежда само веднъж в края на отчета.</StiReportSummaryBand>
     <StiReportTitleBand>Тази секция се използва за извеждане на заглавия в отчета. Извежда се само веднъж в началото на отчета.</StiReportTitleBand>
     <StiRichText>Този компонент се използва за извеждане на RTF текст. Поддържа зареьдане и съхранение на файлове в RTF формат.</StiRichText>
     <StiRoundedRectanglePrimitive>Този компонент се използва за извеждане на закръглени правоъгълници.</StiRoundedRectanglePrimitive>
+    <StiScreen>Екран, който съдържа контроли, оформление и потребителски взаимодействия за страница на приложение.</StiScreen>
+    <StiSelectUI>Поле за избор, използвано за избиране на една стойност от падащ списък.</StiSelectUI>
     <StiShape>Този компонент се използва за извеждане на различни геометрични примитиви като стрелки, линии, правоъгълници, триъгълници и др.</StiShape>
     <StiShapeElement>Този елемент се използва за вмъкване на готови форми, като например стрелки, диагонална линия надолу, диагонална линия нагоре, хоризонтална линия, лява и дясна линии, овал, правоъгълик, заоблен правоъгълник, горна и долна линия, триъгълник, вертикална линия.</StiShapeElement>
     <StiSignature>Този компонент се използва за добавяне на електронен или цифров подпис към отчет.</StiSignature>
+    <StiSliderUI>Плъзгач, използван за избор на стойност в непрекъсната числова скала.</StiSliderUI>
     <StiSparkline>Този компонент се използва за създаване на микрографии в отчета. Той ви позволява да проследявате динамично променящите се данни като ленти, линии, области. </StiSparkline>
     <StiSubReport>Този компонент се използва за извеждане на допълнителни данни  в различни места на отчета.</StiSubReport>
+    <StiSwitchUI>Превключвател, използван за включване или изключване на настройка с едно щракване.</StiSwitchUI>
     <StiTable>Този компонент е набор от данни организирани във вертикални колони и хоризонтални редове. Той е опростен аналог на Microsoft Excel таблица.</StiTable>
     <StiTableElement>Този елемент е набор от елементи за данни, който е организиран с помощта на модел на вертикални колони и хоризонтални редове.</StiTableElement>
     <StiTableOfContents>Този компонент се използва за създаване на съдържание в отчет. </StiTableOfContents>
+    <StiTableUI>Таблица, използвана за ясно показване на данни в редове и колони.</StiTableUI>
     <StiText>Това е основен компонент за извеждане на данни като текст.</StiText>
     <StiTextElement>Този елемент е основен обект за извеждането на данни като текст.</StiTextElement>
     <StiTextInCells>Този компонент се използва за извеждане на текст в клетки. Използва се често при създаване на форми.</StiTextInCells>
+    <StiTextInputUI>Текстов вход, използван за въвеждане и редактиране на текстови стойности.</StiTextInputUI>
     <StiTreeViewBoxElement>Елементът се използва за избор на стойности с падащ списък като дърво.</StiTreeViewBoxElement>
     <StiTreeViewElement>Представлява елемента, който се използва за показване на йерархичните данни като дърво.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Този компонент се използва за извеждане на вертикални линии.</StiVerticalLinePrimitive>
     <StiWebContentElement>Компонентът позволява добавяне на уеб съдържание към таблата за управление.</StiWebContentElement>
-    <StiWinControl>Този компонент позволява показването на контроли от .NET Framework.</StiWinControl>
+    <StiWinControl>Този компонент позволява показването на контроли от .NET.</StiWinControl>
     <StiZipCode>Този компонент се използва за извеждането на пощенски код.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2159,7 +2187,7 @@
     <menuExportSettings>Отваря редактора за настройки за експортиране за текущия отчет или табло. Настройките се прилагат само при експортиране на текущия отчет или табло.</menuExportSettings>
     <menuFAQPage>Отидете в интернет старницата с често задавани въпроси.</menuFAQPage>
     <menuGlobalizationStrings>Извикване на редактора за глобални настройки на текущия отчет.</menuGlobalizationStrings>
-    <menuHelpAboutProgramm>Информация за генератора на отчета и версията на .Net Framework.</menuHelpAboutProgramm>
+    <menuHelpAboutProgramm>Информация за генератора на отчета и версията на .NET.</menuHelpAboutProgramm>
     <menuHomePage>Преход към страницата на продукта.</menuHomePage>
     <menuPageOptions>Настройка на основните параметри на текущата страница. Всички опции на страницата могат да се променят с използване на панела за свойства.</menuPageOptions>
     <menuPagesManager>Стартиране на менажера на стрниците. Позволява преместване, изтриване и създаване на нови страници.</menuPagesManager>
@@ -2509,7 +2537,7 @@
     <ShareYourReportYouShouldSave>За да споделите отчета си, трябва да запазите отчета в Stimulsoft облака!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>Превключването между режимите ще доведе до загуба на промени. Искаш ли да продължиш? </SwitchingBetweenModes>
     <SwitchParametersOrientation>Моля, променете стойността на свойството на отчета 'ПараметриОриентация' на '{0}', за да се покаже тази категория в панела с параметри.</SwitchParametersOrientation>
-    <TextRegistrationSuccessfully>Регистрацията е успешна!
+    <TextRegistrationSuccessfully>Остава последна стъпка, за да завършите регистрацията!
 
 Изпратен е Email до "{0}".
 Той съдържа връзка за потвърждение на вашата регистрация. За да завършите регистрацията моля последвайте линка от Email-a, който сте получили.</TextRegistrationSuccessfully>
@@ -2677,6 +2705,9 @@
     <SubscriptionExpiredDays>Изтича след {0} дни</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Абонаментът ви е изтекъл. Актуализирайте абонамента си, за да получите последната версия.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Абонаментът е изтекъл</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Абонаментът ви е надвишил лимита за разработчици. Приложението ще бъде затворено. Моля, надстройте плана си, за да продължите.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Лимит на абонамента</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Вашият абонамент използва повече места за разработчици от разрешеното. Моля, помислете за надграждане на плана си, за да продължите да работите без прекъсване.</SubscriptionLimitWarning>
     <SubscriptionsOut10>остават 10 дни до изтичане на вашия абонамент!</SubscriptionsOut10>
     <SubscriptionsOut20>Абонаментния период изтича след 20 дни!</SubscriptionsOut20>
     <SuccessfullyRenewed>Вашият абонамент е подновен успешно!</SuccessfullyRenewed>
@@ -3210,6 +3241,9 @@
     <StiDashboardContentAlignmentRight>Дясно</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Разтягане по X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Разтягане по XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Стрелка</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Банер</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Правоъгълник</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Кръстосан</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Пълен</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Вътрешен</StiDataJoinTypeInner>
@@ -3731,6 +3765,7 @@
     <DisconnectingEvent>При прекъсване връзка</DisconnectingEvent>
     <DoubleClickEvent>Двойно натискане</DoubleClickEvent>
     <EndRenderEvent>Край построение</EndRenderEvent>
+    <EndValueChangedEvent>Крайната стойност е променена</EndValueChangedEvent>
     <EnterEvent>Enter</EnterEvent>
     <ExportedEvent>След експорт</ExportedEvent>
     <ExportingEvent>При експорт</ExportingEvent>
@@ -3783,6 +3818,7 @@
     <RenderingEvent>Построение</RenderingEvent>
     <ReportCacheProcessingEvent>Обрапотка на кеша за отчети</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>При изменение на индекса</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Началната стойност е променена</StartValueChangedEvent>
     <StateRestoreEvent>При възстановяване на състояние</StateRestoreEvent>
     <StateSaveEvent>При съхранение на състояние</StateSaveEvent>
     <ValueChangedEvent>При промяна на стойност</ValueChangedEvent>
@@ -3846,6 +3882,7 @@
   <PropertyMain>
     <AcceptsReturn>Приемане на Return</AcceptsReturn>
     <AcceptsTab>Приемане на Tab</AcceptsTab>
+    <Action>Действие</Action>
     <Actual>Актуален</Actual>
     <AddClearZone>Добавяне на зона</AddClearZone>
     <Advanced>Разширени</Advanced>
@@ -3947,6 +3984,7 @@
     <BorderSize>Рзмер Ивица</BorderSize>
     <BorderStyle>Стил граница</BorderStyle>
     <BorderThickness>Дебелина на границата </BorderThickness>
+    <BorderVisible>Видима граница</BorderVisible>
     <BorderWidth>Ширина на граница</BorderWidth>
     <Bottom>Отдолу</Bottom>
     <BottomLeft>Долу-ляво</BottomLeft>
@@ -4181,11 +4219,13 @@
     <FiltersTarget>Цел на филтъра</FiltersTarget>
     <First>Първа</First>
     <FirstTabOffset>Позиция на първи символ</FirstTabOffset>
+    <FitMode>Режим за оразмеряване</FitMode>
     <FixedHeight>Фиксирана височина</FixedHeight>
     <FixedWidth>Фиксирана Ширина</FixedWidth>
     <Flat>Плосък</Flat>
     <FlatMode>Плосък режим</FlatMode>
     <Focus>Фокус</Focus>
+    <FocusVisible>Фокусът е видим</FocusVisible>
     <Font>Шрифт</Font>
     <FontBold>Удебелен</FontBold>
     <FontItalic>Курсивен</FontItalic>
@@ -4866,6 +4906,8 @@
     <TextRightToLeft>Текст отдясно наляво</TextRightToLeft>
     <TextShowBehind>Показване на текст отзад</TextShowBehind>
     <Third>Трета</Third>
+    <ThumbBorderColor>Цвят на рамката на плъзгача</ThumbBorderColor>
+    <ThumbColor>Цвят на плъзгача</ThumbColor>
     <TickLabelMajorFont>Етикет на основен шрифт</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Етикет на основната четка на текст</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Етикет второстепеннен шрифт</TickLabelMinorFont>
@@ -5158,6 +5200,7 @@
     <Categorized>По категории</Categorized>
     <Charts>Диаграми</Charts>
     <Checking>Проверка...</Checking>
+    <ClickAddToCreateNewAction>Щракнете върху „Добавяне“, за да определите какво се случва, когато това събитие се случи (напр. показване на екран или промяна на стойност).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Натисни за повече детайли</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>за създаване на ново условие.</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>за създаване на ново поле</ClickHereToCreateNewField>
@@ -5264,6 +5307,7 @@
     <ScriptSecurity>Сигурност на скриптовете</ScriptSecurity>
     <SecondPass>Втори преход</SecondPass>
     <Shapes>Форми</Shapes>
+    <ShowIncompatibleTypes>Показване на несъвместими типове</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Показване в панела с параметри</ShowOnParametersPanel>
     <Standard>Стандартен</Standard>
     <StandardConfiguration>Основни свойства на обекта с изключение на рядко използваните.</StandardConfiguration>
@@ -5456,6 +5500,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>Попитай Stimul AI</AskStimulAI>
+    <Assistant>Асистент</Assistant>
     <ChangedWithAI>Променен със Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Не бяха намерени проблеми в посочения израз.</CheckExpressionSuccess>
     <CheckQuery>Проверете заявката</CheckQuery>
@@ -5593,6 +5638,7 @@
   <UserFunctionEditor>
     <ArgumentName>Име на аргумента</ArgumentName>
     <ArgumentType>Тип на аргумента</ArgumentType>
+    <CheckScript>Проверка на скрипта</CheckScript>
     <ConvertScript>Конвертиране на скрипт</ConvertScript>
     <CustomCategory>Персонализирана категория</CustomCategory>
     <EditCode>Редакция на кода</EditCode>
@@ -5615,6 +5661,7 @@
     <Title>Добре дошли в Stimulsoft Demo</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Табло, генерирано от изкуствен интелект</AIGeneratedDashboard>
     <AIGeneratedReport>ИИ-генериран отчет</AIGeneratedReport>
     <BlankDashboard>Празно табло</BlankDashboard>
     <BlankForm>Празен формуляр</BlankForm>

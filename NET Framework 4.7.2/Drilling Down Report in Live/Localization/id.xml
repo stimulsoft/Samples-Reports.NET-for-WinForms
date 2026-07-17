@@ -72,6 +72,7 @@
     <AdapterDataViews>Data dari DataViews</AdapterDataViews>
     <AdapterDB2Connection>Data dari koneksi IBM DB2</AdapterDB2Connection>
     <AdapterDBaseFiles>Data dari dBase Files</AdapterDBaseFiles>
+    <AdapterDbUserSource>Data dari Sumber Pengguna</AdapterDbUserSource>
     <AdapterFirebirdConnection>Data dari Koneksi Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Data dari Koneksi Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Data dari Koneksi MySQL</AdapterMySQLConnection>
@@ -93,6 +94,40 @@
     <Post>Post</Post>
     <TwoDimensional>Dua Dimensi</TwoDimensional>
   </BarCode>
+  <Blockly>
+    <AllComponents>Semua Komponen</AllComponents>
+    <AllComponentsFrom>Semua Komponen dari</AllComponentsFrom>
+    <ColorHex>Hex Warna</ColorHex>
+    <ColumnName>Nama Kolom</ColumnName>
+    <DateTime>Tanggal Waktu</DateTime>
+    <GetComponentByName>Dapatkan Komponen berdasarkan Nama</GetComponentByName>
+    <GetCurrentValue>Dapatkan Nilai Saat Ini</GetCurrentValue>
+    <GetDataSourceByName>Dapatkan Sumber Data berdasarkan Nama</GetDataSourceByName>
+    <GetProperty>Dapatkan Properti</GetProperty>
+    <GetStyleByName>Dapatkan Gaya berdasarkan Nama</GetStyleByName>
+    <GetVariable>Dapatkan Variabel</GetVariable>
+    <IndexOfRow>Indeks Baris</IndexOfRow>
+    <Lists>Daftar</Lists>
+    <LocalVariables>Variabel Lokal</LocalVariables>
+    <Logic>Logika</Logic>
+    <Loops>Perulangan</Loops>
+    <Math>Matematika</Math>
+    <OfDataSource>dari Sumber Data</OfDataSource>
+    <OfObject>dari Objek</OfObject>
+    <OpenLink>Buka Tautan</OpenLink>
+    <Process>Proses</Process>
+    <Programming>Pemrograman</Programming>
+    <RefreshViewer>Segarkan Penampil</RefreshViewer>
+    <SetCurrentValue>Atur Nilai Saat Ini</SetCurrentValue>
+    <SetProperty>Atur Properti</SetProperty>
+    <SetSqlCommand>Atur Perintah Sql</SetSqlCommand>
+    <SetVariable>Atur Variabel</SetVariable>
+    <Strings>String</Strings>
+    <ThisComponent>Komponen Ini</ThisComponent>
+    <ThisReport>Laporan Ini</ThisReport>
+    <To>Ke</To>
+    <Visuals>Visual</Visuals>
+  </Blockly>
   <Buttons>
     <Add>Tambah</Add>
     <AddAllColumns>Tambah Semua Kolom</AddAllColumns>
@@ -106,10 +141,13 @@
     <Design>Design</Design>
     <Down>Turun</Down>
     <Duplicate>Sama</Duplicate>
+    <EditAsData>Edit sebagai Data</EditAsData>
+    <EditAsText>Edit sebagai Teks</EditAsText>
     <Export>Export</Export>
     <ForceDelete>Hapus Paksa</ForceDelete>
     <Help>Bantuan</Help>
     <Install>Unduh</Install>
+    <InvertAll>Balikkan Semua</InvertAll>
     <LessOptions>Kurang Pilihan</LessOptions>
     <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
     <More>Lebih</More>
@@ -122,6 +160,7 @@
     <Ok>&amp;OK</Ok>
     <Open>Buka</Open>
     <OpenContainingFolder>Buka Berisi Folderr</OpenContainingFolder>
+    <OpenInSafeMode>Buka dalam Mode Aman</OpenInSafeMode>
     <Print>Print</Print>
     <Publish>Publikasikan</Publish>
     <QuickPrint>Print Cepat</QuickPrint>
@@ -140,6 +179,7 @@
     <Submit>Setuju</Submit>
     <SwitchTo>Beralih ke {0}</SwitchTo>
     <Test>Tes</Test>
+    <TryToReconnect>Coba Sambungkan Kembali</TryToReconnect>
     <Up>Naik</Up>
     <Upgrade>Meningkatkan</Upgrade>
     <UpgradeNow>Tingkatkan sekarang</UpgradeNow>
@@ -186,6 +226,7 @@
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Interlaced</GridInterlaced>
     <GridLines>Garis Grid</GridLines>
+    <Heatmap>Heatmap</Heatmap>
     <Histogram>Histogram</Histogram>
     <LabelAlignment>Perataan:</LabelAlignment>
     <LabelAlignmentHorizontal>Horisontal:</LabelAlignmentHorizontal>
@@ -228,6 +269,8 @@
     <LegendSpacing>Jarak</LegendSpacing>
     <Line>Garis</Line>
     <ListOfValues>Daftar Kolom</ListOfValues>
+    <ListOfXValues>Daftar Nilai X</ListOfXValues>
+    <ListOfYValues>Daftar Nilai Y</ListOfYValues>
     <Marker>Penanda</Marker>
     <MoveConstantLineDown>Pindahkan Garis Lurus ke Turun</MoveConstantLineDown>
     <MoveConstantLineUp>Pindahkan Garis Lurus ke Naik</MoveConstantLineUp>
@@ -241,6 +284,8 @@
     <Pictorial>Bergambar</Pictorial>
     <PictorialStacked>Bergambar Bertumpuk</PictorialStacked>
     <Pie>Pie</Pie>
+    <Polar>Polar</Polar>
+    <PolarStacked>Polar Bertumpuk</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Radar Area</RadarArea>
     <RadarColumn>Radar Kolom</RadarColumn>
@@ -283,9 +328,11 @@
     <StripsEditorForm>Potongan Editor Form</StripsEditorForm>
     <Style>Gaya</Style>
     <Sunburst>Sunburst</Sunburst>
+    <Surface>Permukaan</Surface>
     <Treemap>Peta pohon</Treemap>
     <TrendLinesEditorForm>Editor Garis Tren</TrendLinesEditorForm>
     <Waterfall>Model Air Terjun</Waterfall>
+    <WireframeSurface>Permukaan Kerangka</WireframeSurface>
   </Chart>
   <CharterMapEditor>
     <Characters>Karakter</Characters>
@@ -376,6 +423,7 @@
     <ButtonRecover>Recover</ButtonRecover>
     <ButtonRenew>Perbarui</ButtonRenew>
     <ButtonResendEmail>Kirim Ulang Email</ButtonResendEmail>
+    <ButtonResendInvitation>Kirim Ulang Undangan</ButtonResendInvitation>
     <ButtonResetPassword>Reset Password</ButtonResetPassword>
     <ButtonRun>Run</ButtonRun>
     <ButtonScheduler>Penjadwalan</ButtonScheduler>
@@ -399,6 +447,8 @@
     <DashboardWindowTitleNew>Tampilan Dasbor baru</DashboardWindowTitleNew>
     <DeleteFile>Hapus File</DeleteFile>
     <DoNotAskMe>Janagan Tanyakan Lagi</DoNotAskMe>
+    <EnglishSearchRequired>Silakan gunakan bahasa Inggris untuk kueri pencarian.</EnglishSearchRequired>
+    <EnterUserNameToLogin>Masukkan Nama Pengguna (email) untuk masuk.</EnterUserNameToLogin>
     <ExecutionError>Kesalahan Eksekusi</ExecutionError>
     <ExpiredDate>Tanggal Kadaluarsa</ExpiredDate>
     <FileStorageWindowTitleEdit>Ubah Tempat penyimpanan file</FileStorageWindowTitleEdit>
@@ -450,6 +500,9 @@
     <LicenseInformation>Informasi Lisensi</LicenseInformation>
     <LicenseKey>Kunci Lisensi</LicenseKey>
     <Login>Masuk</Login>
+    <MyAccount>Akun Saya</MyAccount>
+    <MyCloud>Cloud Saya</MyCloud>
+    <MyPlan>Paket Saya</MyPlan>
     <MyTeam>Kelompok Saya</MyTeam>
     <NofM>{0}: {1} dari {2}</NofM>
     <Open>Buka</Open>
@@ -477,6 +530,7 @@
     <RequestChangesWhenSavingToCloud>Minta Perubahan saat Menyimpan ke StimulsoftClou</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>Tambahkan Peran</RibbonButtonAddRole>
     <RibbonButtonAddUser>Tambahkan Pengguna</RibbonButtonAddUser>
+    <RibbonButtonAddUserParameter>Tambah Parameter Pengguna</RibbonButtonAddUserParameter>
     <RibbonButtonAddWorkspace>Tambahkan Bidang Kerja</RibbonButtonAddWorkspace>
     <RibbonButtonFolder>Folder</RibbonButtonFolder>
     <RibbonTabUsers>Pengguna</RibbonTabUsers>
@@ -491,6 +545,7 @@
     <ShareWindowTitleNew>Bagikan</ShareWindowTitleNew>
     <ShowAllFiles>Perlihatkan Semua File</ShowAllFiles>
     <ShowNotificationMessages>Tampilkan Pesan Pemberitahuan</ShowNotificationMessages>
+    <Submissions>Pengiriman</Submissions>
     <Subscriptions>Langganan</Subscriptions>
     <TabItemEmbedCode>Kode yang disertakan</TabItemEmbedCode>
     <TabItemQRCode>QR Kode</TabItemQRCode>
@@ -567,6 +622,8 @@
     <WindowTitleSignUp>Mendaftar</WindowTitleSignUp>
     <WindowTitleUserEdit>Edit Pengguna</WindowTitleUserEdit>
     <WindowTitleUserNew>Pengguna baru</WindowTitleUserNew>
+    <WindowTitleUserParameterEdit>Edit Parameter Pengguna</WindowTitleUserParameterEdit>
+    <WindowTitleUserParameterNew>Parameter Pengguna Baru</WindowTitleUserParameterNew>
     <WindowTitleWorkspaceEdit>Ubah Bidang Kerja</WindowTitleWorkspaceEdit>
     <WindowTitleWorkspaceNew>Bidang kerja baru</WindowTitleWorkspaceNew>
     <WizardBlankReportDescription>Buat Laporan Kosong</WizardBlankReportDescription>
@@ -581,6 +638,7 @@
     <WizardTeamShare>Akses Tim</WizardTeamShare>
     <WizardTeamShareDescription>Akses eksternal untuk pengguna satu ruang kerja saja.</WizardTeamShareDescription>
     <WizardXmlDescription>Buat laporan dengan data XML.</WizardXmlDescription>
+    <YourPlan>Paket Anda</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
@@ -612,6 +670,7 @@
     <StiDashboard>Dashboard</StiDashboard>
     <StiDataBand>Data</StiDataBand>
     <StiDatePicker>Date Picker</StiDatePicker>
+    <StiElectronicSignature>Tanda Tangan Elektronik</StiElectronicSignature>
     <StiEmptyBand>Data Kosong</StiEmptyBand>
     <StiFooterBand>Footer</StiFooterBand>
     <StiGauge>Meteran</StiGauge>
@@ -620,22 +679,28 @@
     <StiHeaderBand>Header</StiHeaderBand>
     <StiHierarchicalBand>Susunan Data</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Garis Horisontal</StiHorizontalLinePrimitive>
+    <StiIcon>Ikon</StiIcon>
     <StiImage>Gambar</StiImage>
     <StiIndicator>Indikator</StiIndicator>
     <StiListBox>Kotak daftar</StiListBox>
     <StiMap>Peta</StiMap>
     <StiMathFormula>Rumus Matematika</StiMathFormula>
+    <StiMultipleSelection>Seleksi Ganda</StiMultipleSelection>
+    <StiNumberBox>Kotak Angka</StiNumberBox>
     <StiOnlineMap>Online Map</StiOnlineMap>
     <StiOverlayBand>Hamparan</StiOverlayBand>
     <StiPage>Halaman</StiPage>
     <StiPageFooterBand>Halaman Footer</StiPageFooterBand>
     <StiPageHeaderBand>Halaman Header</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
+    <StiPdfDigitalSignature>Tanda Tangan Digital PDF</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Elemen PDF</StiPdfDigitalSignatureElement>
     <StiPivotColumn>Kolom Pivot</StiPivotColumn>
     <StiPivotRow>Baris Pivot</StiPivotRow>
     <StiPivotSummary>Ringkasan Pivot</StiPivotSummary>
     <StiPivotTable>Tabel pivot</StiPivotTable>
     <StiProgress>Kemajuan</StiProgress>
+    <StiRangeSelector>Pemilih Rentang</StiRangeSelector>
     <StiRectanglePrimitive>Bujur Sangkar</StiRectanglePrimitive>
     <StiRegionMap>Peta Wilayah</StiRegionMap>
     <StiReport>Laporan</StiReport>
@@ -646,6 +711,8 @@
     <StiScreen>Layar</StiScreen>
     <StiShape>Bentuk</StiShape>
     <StiSignature>Tanda tangan</StiSignature>
+    <StiSingleSelection>Pilihan Tunggal</StiSingleSelection>
+    <StiSlider>Penggeser</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-Laporan</StiSubReport>
     <StiSystemText>Tulisan Sistem</StiSystemText>
@@ -656,6 +723,7 @@
     <StiTreeView>Tree View</StiTreeView>
     <StiTreeViewBox>Tree View Box</StiTreeViewBox>
     <StiVerticalLinePrimitive>Garis Vertikal</StiVerticalLinePrimitive>
+    <StiWebContent>Konten Web</StiWebContent>
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>Zip Code</StiZipCode>
   </Components>
@@ -675,6 +743,7 @@
     <AllowUserFiltering>Izinkan Pemfilteran Pengguna</AllowUserFiltering>
     <AllowUserSorting>Izinkan Penyortiran Pengguna</AllowUserSorting>
     <BeforeTransformation>Terapkan sebelum transformasi data</BeforeTransformation>
+    <BindData>Ikat ke Data</BindData>
     <Blank>(Kosong)</Blank>
     <Blanks>(Kosong)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
@@ -685,6 +754,7 @@
     <ClearFilterFrom>Hapus Filter dari '{0}'</ClearFilterFrom>
     <ColorScale>Skala Warna</ColorScale>
     <ColumnInteractions>Interaksi Kolom</ColumnInteractions>
+    <CreateDataBinding>Buat Pengikatan Data</CreateDataBinding>
     <CustomFilter>Kustom dan Filter</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner> Dasbor tidak didukung di WPF Designer </DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Bar Data</DataBars>
@@ -701,6 +771,7 @@
     <DrillDownSelected>Perincian dipilih</DrillDownSelected>
     <DrillUp>Pengeboran</DrillUp>
     <DuplicateField>Bidang Duplikat</DuplicateField>
+    <EditDataBinding>Edit Pengikatan Data</EditDataBinding>
     <EditExpression>Edit Eksprei</EditExpression>
     <EditField>Edit Bidang</EditField>
     <EmptyDashboardFooter>Seret dan lepas komponen dari ToolBox atau data dari Kamus</EmptyDashboardFooter>
@@ -723,6 +794,8 @@
     <NewMeasure>Bidang Baru</NewMeasure>
     <NoRanges>Tidak ada rentang</NoRanges>
     <NoResult>Tidak ada Hasil</NoResult>
+    <NResult>{0} hasil</NResult>
+    <NResults>{0} hasil</NResults>
     <NSelected>{0} dipilih</NSelected>
     <Nulls>(Tidaksah)</Nulls>
     <NumberFilters>Filter Angka</NumberFilters>
@@ -866,27 +939,40 @@
   <Dialogs>
     <StiButtonControl>Tombol</StiButtonControl>
     <StiCheckBoxControl>Check Box</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Grup Kotak Centang</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Checked List Box</StiCheckedListBoxControl>
     <StiComboBoxControl>Combo Box</StiComboBoxControl>
+    <StiDatePickerControl>Pemilih Tanggal</StiDatePickerControl>
     <StiDateTimePickerControl>Pengambil Tanggal Waktu</StiDateTimePickerControl>
     <StiForm>Form</StiForm>
     <StiGridControl>Grid</StiGridControl>
     <StiGroupBoxControl>Grup Box</StiGroupBoxControl>
     <StiLabelControl>Label</StiLabelControl>
     <StiListBoxControl>List Box</StiListBoxControl>
+    <StiListControl>Daftar</StiListControl>
     <StiListViewControl>List View</StiListViewControl>
     <StiLookUpBoxControl>LookUp Box</StiLookUpBoxControl>
+    <StiMultiListControl>Daftar Ganda</StiMultiListControl>
+    <StiMultiSelectControl>Pilihan Ganda</StiMultiSelectControl>
+    <StiNumberInputControl>Input Angka</StiNumberInputControl>
     <StiNumericUpDownControl>Numeric Up Down</StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Picture Box</StiPictureBoxControl>
     <StiRadioButtonControl>Radio Button</StiRadioButtonControl>
+    <StiRadioGroupControl>Grup Radio</StiRadioGroupControl>
+    <StiRangeSliderControl>Penggeser Rentang</StiRangeSliderControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSelectControl>Pilih</StiSelectControl>
+    <StiSliderControl>Penggeser</StiSliderControl>
+    <StiSwitchControl>Sakelar</StiSwitchControl>
     <StiTextBoxControl>Text Box</StiTextBoxControl>
+    <StiTextInputControl>Input Teks</StiTextInputControl>
     <StiTreeViewControl>Tree View</StiTreeViewControl>
   </Dialogs>
   <Editor>
     <AllowSQLFormatting>Izinkan Pemformatan SQL</AllowSQLFormatting>
+    <AutomaticallyGeneratedExpression>Ini adalah ekspresi yang dihasilkan secara otomatis.</AutomaticallyGeneratedExpression>
     <BetweenMetrics>Antara 1 dan 10 metrik dapat dipilih.</BetweenMetrics>
     <CantFind>Tidak dapat menemukan data yang anda cari.</CantFind>
     <CollapseToDefinitions>C&amp;ollapse ke definisi</CollapseToDefinitions>
@@ -897,6 +983,7 @@
     <FindWhat>Mencari Apa:</FindWhat>
     <FromCursor>Dari Cursor</FromCursor>
     <GotoLine>Pergi Ke &amp;Garis</GotoLine>
+    <InsertField>Sisipkan Bidang</InsertField>
     <InsertLink>Sisipkan Tautan</InsertLink>
     <InsertSymbol>Sisipkan Simbol</InsertSymbol>
     <Line>Garis: {0}</Line>
@@ -906,10 +993,12 @@
     <MatchCase>Sama &amp;Persis</MatchCase>
     <MatchWholeWord>Sama &amp;Seluruh Kata</MatchWholeWord>
     <MaximumDimensions>Maksimum 7 dimensi dapat dipilih..</MaximumDimensions>
+    <NotFound>Tidak Ditemukan</NotFound>
     <Outlining>Out&amp;lining</Outlining>
     <PromptOnReplace>Tanyakan ketika mengganti</PromptOnReplace>
     <Replace>&amp;Menganti</Replace>
     <ReplaceAll>Menganti &amp;Semua</ReplaceAll>
+    <Replaced>Diganti: {0}</Replaced>
     <ReplaceWith>Ganti Dengan:</ReplaceWith>
     <Search>Mencari</Search>
     <SearchHiddenText>Tulisan Tersembunyi</SearchHiddenText>
@@ -963,8 +1052,7 @@
     <Source>Sumber</Source>
     <StackTrace>Jejak Tumpukan</StackTrace>
     <YouCanRestore>Anda dapat memulihkan perubahan yang belum disimpan dari file cadangan.</YouCanRestore>
-    <YourPreviousWorkSession>Dalam sesi kerja Anda sebelumnya, desainer berhenti tiba-tiba.
-Penyedia Pengecualian</YourPreviousWorkSession>
+    <YourPreviousWorkSession>Dalam sesi kerja Anda sebelumnya, desainer berhenti tiba-tiba.</YourPreviousWorkSession>
   </ExceptionProvider>
   <Export>
     <AddPageBreaks>Tambahkan pemisah halaman</AddPageBreaks>
@@ -983,6 +1071,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <ContinuousPages>Halaman Berlanjut</ContinuousPages>
     <DataAndHeaders>Data dan Header</DataAndHeaders>
     <DataAndHeadersFooters>Data dan Headers/Footers</DataAndHeadersFooters>
+    <DataExport>Ekspor Data</DataExport>
     <DataOnly>Hanya Data</DataOnly>
     <DigitalSignature>Tanda tangan digital</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Surat tidak terpilih</DigitalSignatureCertificateNotSelected>
@@ -1060,7 +1149,9 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <MultipleFiles>Banyak File</MultipleFiles>
     <NoMoreThan>Tidak Lebih dari</NoMoreThan>
     <OpenAfterExport>Buka setelah export</OpenAfterExport>
+    <Ordered>Terurut</Ordered>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
+    <PdfUA>PDF/UA (Aksesibilitas Universal)</PdfUA>
     <PrintingReport>Mencetak Laporan</PrintingReport>
     <RemoveEmptySpaceAtBottom>Hilangkan jarak kosong di bawah halaman</RemoveEmptySpaceAtBottom>
     <RestrictEditing>Batasi Perubahan:</RestrictEditing>
@@ -1097,6 +1188,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <BitmapFiles>File Bitmap</BitmapFiles>
     <BmpFiles>Gambar BMP (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>File Perhitungan OpenDocument (*.ods)|*.ods</CalcFiles>
+    <ConditionsFiles>Stimulsoft Conditions (*.stc)|*.stc</ConditionsFiles>
     <CsvFiles>File CSV (*.csv)|*.csv</CsvFiles>
     <DataSetXmlData>Paket data XML (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>Paket Skema XML (*.xsd)|*.xsd</DataSetXmlSchema>
@@ -1251,6 +1343,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <AccessToken>Token akses</AccessToken>
     <AccountKey>Kunci Akun</AccountKey>
     <AccountName>Nama akun</AccountName>
+    <AnyoneWithTheLink>Siapa Saja dengan Tautan</AnyoneWithTheLink>
     <AuthorizationCode>Kode Otorisasi</AuthorizationCode>
     <BlobContentType>Jenis Konten Gumpalan</BlobContentType>
     <BlobName>Nama Gumpalan</BlobName>
@@ -1268,6 +1361,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <FirebirdEdit>Rubah Koneksi Firebird</FirebirdEdit>
     <FirebirdNew>Koneksi baru Firebird</FirebirdNew>
     <FirstRowIsHeader>First Row adalah header</FirstRowIsHeader>
+    <GeneralAccess>Akses Umum</GeneralAccess>
     <GetAuthorizationCode>Dapatkan Kode otorisasi</GetAuthorizationCode>
     <GetTokens>Dapatkan token</GetTokens>
     <GisEdit>Edit data GIS</GisEdit>
@@ -1276,6 +1370,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <InformixEdit>Rubah Koneksi Informix</InformixEdit>
     <InformixNew>Koneksi baru Informix</InformixNew>
     <InitialCatalog>Katalog Awal:</InitialCatalog>
+    <InsertSampleConnectionString>Sisipkan contoh string koneksi</InsertSampleConnectionString>
     <JsonEdit>Edit JSON data</JsonEdit>
     <JsonNew>Data JSON baru</JsonNew>
     <MySQLEdit>Rubah Koneksi MySQL</MySQLEdit>
@@ -1305,6 +1400,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <RefreshToken>Segarkan Token</RefreshToken>
     <RelationDirection>Arah Hubungan:</RelationDirection>
     <ReportConnections>Laporan Koneksi</ReportConnections>
+    <Restricted>Terbatas</Restricted>
     <SelectData>Pilih Data</SelectData>
     <ServiceAccountKeyFile>File Kunci Akun Layanan</ServiceAccountKeyFile>
     <SpreadsheetId>Id Spreadsheet</SpreadsheetId>
@@ -1335,7 +1431,9 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <ColumnsThree>Tiga</ColumnsThree>
     <ColumnsTwo>Dua</ColumnsTwo>
     <CompilingReport>Sedang membuat laporan</CompilingReport>
+    <CopyPropertyName>Salin Nama Properti</CopyPropertyName>
     <DockingPanels>Panel</DockingPanels>
+    <Four>Empat</Four>
     <HtmlPreview>HTML Pratinjau</HtmlPreview>
     <JsPreview>Pratinjau JS</JsPreview>
     <labelPleaseSelectTypeOfInterface>Silahkan, pilih tipe tampilan</labelPleaseSelectTypeOfInterface>
@@ -1380,6 +1478,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <CsvSeparatorTab>Tab</CsvSeparatorTab>
     <DatabaseEdit>Rubah Database</DatabaseEdit>
     <DatabaseNew>Database Baru</DatabaseNew>
+    <DataMonitor>Monitor Data</DataMonitor>
     <DataParameterEdit>Rubah Parameter</DataParameterEdit>
     <DataParameterNew>Parameter Baru</DataParameterNew>
     <DataSetToBusinessObjects>Paket Data Objek Bisnis</DataSetToBusinessObjects>
@@ -1396,12 +1495,18 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <DictionarySaveAs>Simpan Kamus sebagai...</DictionarySaveAs>
     <DragNewDataSource>seret data Anda langsung ke panel ini</DragNewDataSource>
     <DragNewReport>seret laporan Anda langsung ke panel ini</DragNewReport>
+    <EditData>Edit Data</EditData>
     <EditQuery>Rubah Query</EditQuery>
+    <EnableDataMonitor>Aktifkan Data Monitor</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Pernyataan SQL dijalankan dengan sukses</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Ekspresi baru</ExpressionNew>
+    <FunctionEdit>Edit Fungsi</FunctionEdit>
+    <FunctionNew>Fungsi Baru</FunctionNew>
     <GetColumnsFromAssembly>Dapatkan kolom dari pemasangan</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Sembunyikan Sumber Data yang Tidak Didukung</HideUnsupportedDatabases>
     <ImportRelations>Impor Hubungan</ImportRelations>
+    <InsertColumnLeft>Sisipkan Kolom Kiri</InsertColumnLeft>
+    <InsertColumnRight>Sisipkan Kolom Kanan</InsertColumnRight>
     <LabelSeparator>Separator:</LabelSeparator>
     <MarkUsedItems>Tandai item yang telah digunakan</MarkUsedItems>
     <NewBusinessObject>Objek Bisnis Baru</NewBusinessObject>
@@ -1424,10 +1529,13 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <RetrievingDatabaseInformation>Sedang mengambil informasi database...</RetrievingDatabaseInformation>
     <Run>Jalankan</Run>
     <SelectTypeOfBusinessObject>Pilih Tipe Objek Bisnis</SelectTypeOfBusinessObject>
+    <ShowMoreDataSources>Tampilkan Lebih Banyak Sumber Data</ShowMoreDataSources>
     <SkipSchemaWizard>Lewati Skema Wizard</SkipSchemaWizard>
     <SortItems>Urutkan Item</SortItems>
     <Synchronize>Sinkronkan</Synchronize>
     <SynchronizeHint>Sinkronkan isi dari sumber data dan isi dari Kamus</SynchronizeHint>
+    <TableEdit>Edit Tabel</TableEdit>
+    <TableNew>Tabel Baru</TableNew>
     <TextDropDataFileHere>Jatuhkan File Data Di Sini</TextDropDataFileHere>
     <TextDropFileHere>Jatuhkan File Di Sini</TextDropFileHere>
     <TextDropImageHere>Jatuhkan File Gambar Di Sini</TextDropImageHere>
@@ -1471,6 +1579,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <SampleText>Contoh Tulisan</SampleText>
     <TextFormat>Format Tulisan</TextFormat>
     <Time>Waktu</Time>
+    <TimeFormat>Format Waktu</TimeFormat>
     <title>Format</title>
     <UseAbbreviation>Gunakan Singkatan</UseAbbreviation>
     <UseGroupSeparator>Gunakan Pemisah Grup</UseGroupSeparator>
@@ -1500,7 +1609,9 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <BlankReport>Laporan Kosong</BlankReport>
     <BlankScreen>Layar Kosong</BlankScreen>
     <Default>Default</Default>
+    <DefaultSaveFormat>Format Simpan Bawaan</DefaultSaveFormat>
     <DefaultScriptMode>Mode Skrip Default</DefaultScriptMode>
+    <DesignSize>Ukuran Desain</DesignSize>
     <Drawing>Sedang Menggambar</Drawing>
     <DrawMarkersWhenMoving>Gambar Penanda ketika sedang Bergerak</DrawMarkersWhenMoving>
     <EditAfterInsert>Rubah Setelah Masukkan</EditAfterInsert>
@@ -1546,10 +1657,13 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <ShowDialogForms>Tampilkan Formulir Dialog</ShowDialogForms>
     <ShowDimensionLines>Tunjukkan garis Dimensi</ShowDimensionLines>
     <ShowOldGaugeEditor>Tampilkan Editor Pengukur Lama</ShowOldGaugeEditor>
+    <ShowSearch>Tampilkan Pencarian</ShowSearch>
+    <ShowSmartGuides>Tampilkan Panduan Cerdas</ShowSmartGuides>
     <StartScreen>Layar Mulai</StartScreen>
     <title>Pilihan</title>
     <UseComponentColor>Gunakan Komponen Warna untuk Mengisi</UseComponentColor>
     <UseLastFormat>Gunakan Format Terakhir</UseLastFormat>
+    <ViewSize>Ukuran Tampilan</ViewSize>
     <Welcome>WSelamat datang</Welcome>
   </FormOptions>
   <FormPageSetup>
@@ -1577,7 +1691,6 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <labelPaperSourceOfFirstPage>Sumber Kertas dari Halaman Pertama:</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>Sumber Kertas untuk Halaman lain:</labelPaperSourceOfOtherPages>
     <labelSelectBrush>Pilih Kuas:</labelSelectBrush>
-    <LabelSelectBrush>Pilih Brush:</LabelSelectBrush>
     <labelSelectColor>Pilih Warna:</labelSelectColor>
     <labelSelectFont>Pilih Huruf:</labelSelectFont>
     <labelSelectImage>Pilih Gambar:</labelSelectImage>
@@ -1653,6 +1766,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <pageExpression>Ekspresi</pageExpression>
     <pageSummary>Ringkasan</pageSummary>
     <pageSystemVariable>Variabel Sistem</pageSystemVariable>
+    <RunningAverage>Rata-rata Berjalan</RunningAverage>
     <RunningTotal>Sedang Menjumlah</RunningTotal>
     <SummaryRunning>Ringkasan saat ini</SummaryRunning>
     <SummaryRunningByColumn>Kolom</SummaryRunningByColumn>
@@ -1661,6 +1775,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Wizard Grafik</ChartWizardForm>
+    <CodeEditorForm>Editor Kode</CodeEditorForm>
     <ConditionEditorForm>Kondisi</ConditionEditorForm>
     <ConnectionSelectForm>Pilih tipe koneksi</ConnectionSelectForm>
     <ContainerSelectForm>Pilih Kontainer</ContainerSelectForm>
@@ -1778,6 +1893,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <TickCustomValue>Centang Nilai Kustom</TickCustomValue>
   </Gauge>
   <Gui>
+    <AccentColor>Warna Aksen</AccentColor>
     <barname_cancel>Tunda</barname_cancel>
     <barname_caption>Toolbar Baru</barname_caption>
     <barname_msginvalidname>Nama Toolbar tidak boleh kosong.</barname_msginvalidname>
@@ -1846,6 +1962,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <cust_pm_stytextonly>Hanya Tulisan(Selalu)</cust_pm_stytextonly>
     <cust_tab_commands>Perintah</cust_tab_commands>
     <cust_tab_options>Pilihan</cust_tab_options>
+    <cust_tab_toolbar_alignment>Perataan Bilah Alat</cust_tab_toolbar_alignment>
     <cust_tab_toolbars>Toolbars</cust_tab_toolbars>
     <mdisysmenu_close>Tutup</mdisysmenu_close>
     <mdisysmenu_maximize>Maksimalkan</mdisysmenu_maximize>
@@ -1870,10 +1987,13 @@ Penyedia Pengecualian</YourPreviousWorkSession>
   <HelpComponents>
     <StiBarCode>Komponen ini mengizinkan memperlihatkan kode-bar pada laporan. Kode-Bar data dikirimkan ke objek sebagai syarat. Syarat dapat mengandung simbol manapun tapi hanya mengizinkan simbol untuk grafik yang dipilih yang dapat ditampilkan.</StiBarCode>
     <StiButtonElement>Komponen ini digunakan untuk mengeksekusi script saat pengguna berinteraksi</StiButtonElement>
+    <StiButtonUI>Tombol yang digunakan untuk memicu tindakan atau memulai perintah.</StiButtonUI>
     <StiCardsElement>Komponen ini digunakan untuk menampilkan data yang dikelompokan sebagai kartu </StiCardsElement>
     <StiChart>Komponen ini mengizinkan garfik pada laporan. Grafik yang berbeda juga ada. Diantaranya adalah grafik batang, Garis, pie, donat, garis, area, Gantt, menyebar dll. </StiChart>
     <StiChartElement>Elemen ini memungkinkan menampilkan bagan di dasbor. Berbagai jenis grafik tersedia.</StiChartElement>
     <StiCheckBox>Komponen ini mengizinkan untuk menunjukkan sebuah chekbox pada laporan. Ini dapat menampilkan dua mode : "memperbolehkan" atau "tidak memperbolehkan".</StiCheckBox>
+    <StiCheckBoxGroupUI>Grup kotak centang yang digunakan untuk memilih beberapa opsi yang telah ditentukan dari daftar.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Kotak centang yang digunakan untuk mengaktifkan atau menonaktifkan satu opsi dengan cepat.</StiCheckBoxUI>
     <StiChildBand>Pita Child dapat digunakan untuk mengahsilkan dua pita pada satu baris data.</StiChildBand>
     <StiClone>Komponen ini digunakan untuk mengkloning bagian-bagian dari laporan pada bagian laporan yang diperlukan. Pengkloningan dapat diterapkan hanya pada isi panel.</StiClone>
     <StiColumnFooterBand>Pita ini digunakan untuk menggunakan footer dari kolom pada pita data. Pita Kolom Footer menggunakan sekali dibawah masing-masing kolom. Semua komponen yang diletakkan pada pita ini juga menggunakan di bawah masing-masing kolom.</StiColumnFooterBand>
@@ -1888,6 +2008,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiCrossTab>Komponen cross-tab digunakan untuk mewakili struktur data sebagai tabel.</StiCrossTab>
     <StiDataBand>Pita Data disambungkan ke sumber data dan dikeluarkan sebanyak baris pada sumber data.</StiDataBand>
     <StiDatePickerElement>Elemen digunakan untuk memilih tanggal dan waktu.</StiDatePickerElement>
+    <StiDatePickerUI>Pemilih tanggal yang digunakan untuk memilih tanggal dari kalender.</StiDatePickerUI>
+    <StiElectronicSignature>Komponen ini digunakan untuk menambahkan tanda tangan grafis, gambar, inisial, dan teks.</StiElectronicSignature>
     <StiEmptyBand>Pita ini digunakan untuk mengisi tempat kosong di bawah halaman. Pita ini mengisi tempat kosong pada masing-masing halaman laporan.</StiEmptyBand>
     <StiFilterCategory>Sekelompok elemen yang digunakan untuk memilih dan memfilter nilai.</StiFilterCategory>
     <StiFooterBand>Pita ini digunakan untuk menampilkan ringkasan oleh pita data. Diletakkan di bawah pita data dan keluar sekali setelah semua baris data.</StiFooterBand>
@@ -1898,43 +2020,64 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiHeaderBand>Pita ini digunakan untuk menampilkan header. Ini dipakai bersama dengan pita data.</StiHeaderBand>
     <StiHierarchicalBand>Pita ini tersambung ke sumber data dan keluar sebanyak baris pada sumber data. Data keluar sebagai Tree.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Komponen ini digunakan untuk menampilkan garis.</StiHorizontalLinePrimitive>
+    <StiIconUI>Ikon yang digunakan untuk menampilkan grafik simbolis atau penanda visual.</StiIconUI>
     <StiImage>Komponen ini digunakan untuk menampilkan gambar. Mendukung format gambar, seperti BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Elemen ini digunakan untuk menampilkan gambar. Ini mendukung format grafik berikut, seperti BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF</StiImageElement>
+    <StiImageUI>Gambar yang digunakan untuk menampilkan konten grafis di dalam antarmuka.</StiImageUI>
     <StiIndicatorElement>Elemen menampilkan perbedaan nilai antara data input.</StiIndicatorElement>
+    <StiLabelUI>Label yang digunakan untuk menampilkan teks atau keterangan singkat.</StiLabelUI>
     <StiListBoxElement>Elemen memungkinkan memilih item dari daftar.</StiListBoxElement>
+    <StiListUI>Daftar yang digunakan untuk menampilkan item yang dapat dipilih dalam koleksi vertikal.</StiListUI>
     <StiMap>Komponen ini digunakan untuk menampilkan data yang ditargetkan secara geografis.</StiMap>
     <StiMapCategory>Kelompok elemen untuk bekerja dengan peta dan data.</StiMapCategory>
     <StiMapElement>Elemen ini digunakan untuk menampilkan data yang ditargetkan secara geografis.</StiMapElement>
     <StiMathFormula>Komponen ini digunakan untuk menampilkan rumus matematika dalam sebuah laporan.</StiMathFormula>
+    <StiMultiListUI>Daftar yang digunakan untuk memilih beberapa item dari koleksi yang sama.</StiMultiListUI>
+    <StiMultiSelectUI>Pemilih yang digunakan untuk memilih beberapa nilai dari daftar yang telah disiapkan.</StiMultiSelectUI>
+    <StiNumberBoxElement>Elemen ini digunakan untuk memilih nilai numerik atau menetapkan rentang nilai numerik.</StiNumberBoxElement>
+    <StiNumberInputUI>Input angka yang digunakan untuk memasukkan nilai numerik dengan input yang terkontrol.</StiNumberInputUI>
     <StiOnlineMapElement>Elemen ini digunakan untuk menampilkan penanda geografis pada peta online.</StiOnlineMapElement>
     <StiOverlayBand>Pita ini digunakan untuk menampilan cat air pada suatu halaman.</StiOverlayBand>
     <StiPageFooterBand>Pita ini digunakan untuk menampilkan infomasi pada bawah halaman seperti nomer halaman, tanggal, dan informasi tambahan lainnya.</StiPageFooterBand>
     <StiPageHeaderBand>Pita ini digunakan untuk menampilkan Header Halaman seperti NOmer Halaman, tanggal, dan informasi tambahan lainnya. Ini akan terlihat pada masing-masing di atas setiap halaman.</StiPageHeaderBand>
     <StiPanel>Wilayah bujur sangkar yang mengandung komponen lain, termasuk pita. ketika panel bergerak ini juga akan ikut bergerak. Suatui panel dapat ditaruh apakah di atas pita atau halaman.</StiPanel>
     <StiPanelElement>Sebuah wilayah persegi panjang yang dapat berisi elemen lain. Ketika panel dipindahkan, elemen-elemen di dalamnya juga dipindahkan.</StiPanelElement>
+    <StiPanelUI>Panel yang digunakan untuk mengelompokkan dan menata kontrol lain dalam satu area.</StiPanelUI>
+    <StiPdfDigitalSignature>Komponen interaktif ini digunakan untuk menentukan tempat bagi tanda tangan digital setelah laporan diekspor ke Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Komponen ini digunakan untuk menentukan ruang bagi tanda tangan digital dan bidang dari sertifikat saat mengekspor ke PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>TElemen tabel pivot digunakan untuk representasi data terstruktur sebagai tabel.</StiPivotTableElement>
     <StiProgressElement>Elemen menampilkan rasio data input. Itu dapat disajikan dalam berbagai mode - pai, donat, batangan.</StiProgressElement>
+    <StiRadioGroupUI>Grup radio yang digunakan untuk memilih satu opsi dari kumpulan nilai yang telah ditentukan.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Komponen ini digunakan untuk memilih rentang nilai pada skala atau garis waktu. Komponen ini memungkinkan pengguna menentukan secara visual batas minimum dan maksimum dari rentang tersebut.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Penggeser rentang yang digunakan untuk menentukan nilai minimum dan maksimum pada suatu skala.</StiRangeSliderUI>
     <StiRectanglePrimitive>Komponen ini untuk menampilkan bujur sangkar.</StiRectanglePrimitive>
     <StiRegionMapElement>Elemen ini digunakan untuk menampilkan data yang ditargetkan secara geografis.</StiRegionMapElement>
     <StiReportSummaryBand>Pita ini digunakan untuk menampilkan ringkasan seluruh laporan. Ini kelihatan sekali pada akhir laporan.</StiReportSummaryBand>
     <StiReportTitleBand>Pita ini digunakan untuk menampilkan Judul Laporan. Ini akan muncul pada awal laporan.</StiReportTitleBand>
     <StiRichText>Komponen ini digunakan untuk menampilkan dan merubah halaman RTF. Ini juga mendukung memuat dan menyimpan file dalam format RTF.</StiRichText>
     <StiRoundedRectanglePrimitive>Komponen ini digunakan untuk menampilkan Bujur sangkar  dengan sudut lengkung.</StiRoundedRectanglePrimitive>
+    <StiScreen>Layar yang menampung kontrol, tata letak, dan interaksi pengguna untuk halaman aplikasi.</StiScreen>
+    <StiSelectUI>Kotak pilih yang digunakan untuk memilih satu nilai dari daftar drop-down.</StiSelectUI>
     <StiShape>Komponen ini digunakan untuk memasukkan bentuk yang telah dibuat, seperti panah, Garis Diagonal menurun, Garis Diagonal meningkat, Garis Horisontal, Garis Kiri dan Kanan, oval, Bujur Sangkar, Bujur sangkar dengan sudut lengkung, Garis atas dan bawah, Segitiga, Garis Vertikal.</StiShape>
     <StiShapeElement>Elemen ini digunakan untuk menyisipkan bentuk yang sudah jadi, seperti panah, garis diagonal ke bawah, garis diagonal ke atas, garis horizontal, garis kiri dan kanan, oval, persegi panjang, persegi panjang bulat, garis atas dan bawah, segitiga, garis vertikal.</StiShapeElement>
     <StiSignature>Komponen ini digunakan untuk menambahkan tanda tangan elektronik atau digital ke laporan</StiSignature>
+    <StiSliderUI>Penggeser yang digunakan untuk memilih nilai pada skala numerik berkelanjutan.</StiSliderUI>
     <StiSparkline>Komponen ini digunakan untuk membuat mikrografik dalam sebuah laporan. Ini memungkinkan Anda melacak data yang berubah secara dinamis sebagai bilah, garis, area.</StiSparkline>
     <StiSubReport>Komponen ini digunakan untuk menampilkan tambahan data pada tempat yang berbeda pada laporan.</StiSubReport>
+    <StiSwitchUI>Sakelar yang digunakan untuk mengaktifkan atau menonaktifkan pengaturan dengan satu klik.</StiSwitchUI>
     <StiTable>Kumpunan ini merupakan kumpulan dari bagian data yang terorganisisr menggunakan model kolom vertikal dan baris horisontal.</StiTable>
     <StiTableElement>Elemen ini adalah sekumpulan elemen data yang disusun menggunakan model kolom vertikal dan baris horizontal.</StiTableElement>
     <StiTableOfContents>Komponen ini digunakan untuk membuat daftar isi dalam sebuah laporan.</StiTableOfContents>
+    <StiTableUI>Tabel yang digunakan untuk menampilkan data dalam baris dan kolom dengan jelas.</StiTableUI>
     <StiText>Komponen ini adalah komponen dasar untuk menampilkan data sebagai tulisan.</StiText>
     <StiTextElement>Elemen ini adalah objek dasar untuk mengeluarkan data sebagai teks.</StiTextElement>
     <StiTextInCells>Komponen ini digunakan untuk menampilkan tulisan dalam cell. Ini seringkali digunakan untuk membuat form.</StiTextInCells>
+    <StiTextInputUI>Input teks yang digunakan untuk memasukkan dan mengedit nilai teks.</StiTextInputUI>
     <StiTreeViewBoxElement>Elemen digunakan untuk memilih nilai dengan daftar drop-down sebagai pohon.</StiTreeViewBoxElement>
     <StiTreeViewElement>Mewakili elemen yang digunakan untuk menampilkan data hierarkis sebagai pohon.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Komponen ini digunakan untuk menampilkan garis vertikal.</StiVerticalLinePrimitive>
-    <StiWinControl>Komponen mengizinkan untuk menunjukkan kontrol visual dari .NET Framework.</StiWinControl>
+    <StiWebContentElement>Komponen ini memungkinkan penambahan konten web ke dasbor.</StiWebContentElement>
+    <StiWinControl>Komponen mengizinkan untuk menunjukkan kontrol visual dari .NET.</StiWinControl>
     <StiZipCode>Komponen ini digunakan untuk menampilkan kode zip.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -1971,7 +2114,16 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <CenterVertically>Mngizinkan anda untuk meratakan suatu komponen secara vertikal tergantung pada tepi komponen dimana diletakkan.</CenterVertically>
     <Close>Tutup Pembuat Laporan.</Close>
     <Columns>Pisah suatu halaman ke dalam kolom.</Columns>
+    <CompilationAccess1>Dokumen ini menggunakan proses kompilasi. Jika dokumen berasal dari sumber tepercaya, Anda dapat mengeklik tombol "Buka" untuk mengaksesnya.</CompilationAccess1>
+    <CompilationAccess2>Jika Anda tidak yakin dengan sumber dokumen tetapi tetap ingin melihatnya, Anda dapat mengklik tombol "Open in safe mode". Dalam hal ini, Anda akan menggunakan interpretasi alih-alih kompilasi, yang memungkinkan Anda menjalankan dokumen dengan aman.</CompilationAccess2>
+    <CompilationAccess3>Dokumen ini menggunakan proses kompilasi dan bisa jadi tidak aman. Anda tidak dapat membukanya.</CompilationAccess3>
+    <CompilationAccessAllow>Izinkan membuka dokumen dengan kompilasi tanpa peringatan atau pembatasan apa pun.</CompilationAccessAllow>
+    <CompilationAccessAsk>Jika dokumen menggunakan proses kompilasi, jendela peringatan dengan tindakan yang telah ditentukan akan ditampilkan.</CompilationAccessAsk>
+    <CompilationAccessDeny>Tolak membuka dokumen apa pun yang menggunakan proses kompilasi. Jendela khusus akan ditampilkan.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Dokumen dengan kompilasi akan dibuka tanpa prompt apa pun tetapi akan otomatis dikonversi ke mode interpretasi, yang tidak menggunakan proses kompilasi.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Anda beralih ke mode kompilasi. Mode ini memungkinkan Anda menjalankan kode yang berbeda dan terkadang bisa berbahaya. Harap gunakan mode ini hanya jika Anda memahami semua risiko dan menyetujuinya. Klik tombol {0} untuk melanjutkan.</CompilationModeEnabling>
     <ComponentSize>Rubah ukuran dari komponen yang dipilih.</ComponentSize>
+    <ComponentsMenu>Membuka menu Komponen yang berisi elemen dasbor yang tidak terpakai pada permukaan seluler.</ComponentsMenu>
     <CopyStyle>Copy gaya</CopyStyle>
     <CopyToClipboard>Salin ke Clipboard</CopyToClipboard>
     <CurrencySymbol>Pilih simbol mata uang.</CurrencySymbol>
@@ -1985,6 +2137,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <DockStyleNone>Jauhkan komponen terpilih.</DockStyleNone>
     <DockStyleRight>Dekatkan komponen terpilih ke sisi kanan.</DockStyleRight>
     <DockStyleTop>Dekatkan komponen terpilih ke sisi atas.</DockStyleTop>
+    <EventsAccess1>Dokumen ini menggunakan Events. Jika dokumen berasal dari sumber tepercaya, Anda dapat mengeklik tombol "Buka" untuk mengaksesnya.</EventsAccess1>
+    <EventsAccess2>Jika Anda tidak yakin dengan sumber dokumen tetapi tetap ingin melihatnya, Anda dapat mengklik tombol "Open in safe mode". Dalam hal ini, peristiwa akan diabaikan dan tidak dijalankan.</EventsAccess2>
     <FontGrow>Buat ukuran tulisan lebih besar.</FontGrow>
     <FontName>Huruf Tulisan.</FontName>
     <FontNameWatermark>Huruf Tulisan Cat Air.</FontNameWatermark>
@@ -2026,9 +2180,10 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <menuEditCut>Potong komponen terpilih dan taruh pada Clipboard.</menuEditCut>
     <menuEditDelete>Hapus komponen terpilih.</menuEditDelete>
     <menuEditPaste>Tempelkan komponen dari Clipboard ke dalam laporan.</menuEditPaste>
+    <menuExportSettings>Membuka editor Pengaturan Ekspor untuk laporan atau dasbor saat ini. Pengaturan diterapkan hanya saat mengekspor laporan atau dasbor saat ini.</menuExportSettings>
     <menuFAQPage>Pergi ke halaman web dengan pertanyaan yang sering diajukan.</menuFAQPage>
     <menuGlobalizationStrings>Panggil Perubah Syarat Global pada laporan ini.</menuGlobalizationStrings>
-    <menuHelpAboutProgramm>Dapatkan informasi tentang versi pembuat laoran dan versi dari .Net Framework.</menuHelpAboutProgramm>
+    <menuHelpAboutProgramm>Dapatkan informasi tentang versi pembuat laoran dan versi dari .NET.</menuHelpAboutProgramm>
     <menuHomePage>Pergi ke Halaman Rumah dari produk.</menuHomePage>
     <menuPageOptions>Pengaturan parameter dasar di halaman ini. Semua pilihan halaman dapat dirubah menggunakan panel properti.</menuPageOptions>
     <menuPagesManager>Jalankan Pengatur Halaman. Ini mengizinkan memindah halaman, menghapus halaman, dan membuat halaman baru.</menuPagesManager>
@@ -2047,8 +2202,10 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <menuViewShowHeaders>Perlihatkan header pada pita.</menuViewShowHeaders>
     <menuViewShowOrder>Perlihatkan permintaan komponen di suatu halaman.</menuViewShowOrder>
     <menuViewShowRulers>Lihat penggaris, digunakan untuk mengukur dan menggarisi objek di suatu halaman.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Tampilkan Panduan Cerdas untuk memosisikan komponen relatif terhadap satu sama lain.</menuViewShowSmartGuides>
     <MoveBackward>Gerakkan komponen ke satu level lebih tinggi untuk mengganti komponen suatu halaman.</MoveBackward>
     <MoveForward>Gerakkan suatu komponen ke satu level lebih rendah untuk mengganti komponen suatu halaman.</MoveForward>
+    <NotPossibleEnableCompilationMode>Tidak mungkin mengaktifkan mode kompilasi untuk laporan. Ini dilarang oleh opsi 'Compilation Access' di pengaturan desainer.</NotPossibleEnableCompilationMode>
     <Orientation>Tukar halaman antara bidang portrait dan landscape.</Orientation>
     <PageDelete>Hapus halaman ini pada laporan.</PageDelete>
     <PageNew>Membuat satu halaman baru.</PageNew>
@@ -2056,11 +2213,17 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <PageSize>Pilih ukuran kertas untuk halaman ini pada laporan.</PageSize>
     <PagesManager>Jalankan Pengatur Halaman.</PagesManager>
     <PressF1>Tekan F1 untuk Detail Lebih</PressF1>
+    <PropertiesButton>Mengaktifkan panel Properti dengan properti templat laporan.</PropertiesButton>
     <Redo>Majukan perubahan sebelumnya pada laporan.</Redo>
+    <RemoveMobileSurfaceButton>Menghapus permukaan seluler dari dasbor saat ini.</RemoveMobileSurfaceButton>
     <ReportNew>Buat Laporan Baru.</ReportNew>
     <ReportOpen>Buka laporan pada designer.</ReportOpen>
     <ReportPreview>Pratinjau suatu laporan yang diedit pada pelihat.</ReportPreview>
     <ReportSave>Simpan laporan yang dirubah ini.</ReportSave>
+    <ScriptEvalAccess1>Dokumen ini menggunakan Script Eval. Jika dokumen berasal dari sumber tepercaya, Anda dapat mengeklik tombol "Buka" untuk mengaksesnya.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Jika Anda tidak yakin dengan sumber dokumen tetapi tetap ingin melihatnya, Anda dapat mengklik tombol "Open in safe mode". Dalam hal ini, Script Eval akan diabaikan dan tidak dijalankan.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Akses skrip penuh (tanpa batasan, berpotensi tidak aman).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Akses skrip aman (kemampuan terbatas untuk keamanan).</ScriptSecuritySafeMode>
     <SelectAll>Pilih semua komponen pada halaman ini.</SelectAll>
     <SelectUILanguage>Pilih Bahasa UI.</SelectUILanguage>
     <SendToBack>Pindahkan komponen yang dipilih ke belakang dari komponen lain.</SendToBack>
@@ -2079,6 +2242,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <TextFormat>Pilih format nilai.</TextFormat>
     <ToolbarStyle>Pilih corak yang dipilih kepada semua komponen yang dipilih.</ToolbarStyle>
     <Undo>Kembalikan perubahan terakhir dari laporan.</Undo>
+    <ViewModeDesktopButton>Aktifkan Permukaan Desktop.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Aktifkan Permukaan Seluler.</ViewModeMobileButton>
     <WordWrap>Kelilingi tulisan dari komponen.</WordWrap>
     <Zoom>Tentukan Persentase untuk melihat laporan.</Zoom>
   </HelpDesigner>
@@ -2119,6 +2284,9 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <CurrentPage>Pengolahan halaman saat ini. Jika opsi ini dipilih, maka halaman laporan yang dipilih akan diproses.</CurrentPage>
     <CutEdges>Potong perbatasan halaman laporan.</CutEdges>
     <CutLongLines>Potong garis panjang (baris teks) dengan batas komponen.</CutLongLines>
+    <DashboardContains1>Maaf, tetapi laporan ini berisi dasbor.</DashboardContains1>
+    <DashboardContains2>Anda harus membuka laporan ini langsung di perancang!</DashboardContains2>
+    <DashboardContains3>Anda tidak dapat melakukan itu dari penampil laporan!</DashboardContains3>
     <DigitalSignature>Tanda tangan digital file.</DigitalSignature>
     <DitheringType>Dithering Jenis: Tidak ada - ada dithering, Memerintahkan, FloydSt. -. Dengan dithering</DitheringType>
     <DotMatrixMode>Mode ini memperbolehkan anda untuk melihat bagaimana tampilan laporan jika dicetak pada printer dot matrix.</DotMatrixMode>
@@ -2163,6 +2331,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <PageSize>Rubah parameter halaman pada laporan.</PageSize>
     <Parameters>Perlihatkan panel parameter yang digunakan ketika pembuatan laporan.</Parameters>
     <PdfACompliance>Dukungan untuk standar pengarsipan jangka panjang dan menyimpan dokumen elektronik.</PdfACompliance>
+    <PdfUniversalAccessibility>Dukungan untuk standar dokumen dan informasi elektronik yang dapat diakses secara universal.</PdfUniversalAccessibility>
     <Print>Cetak Laporan.</Print>
     <PutFeedPageCode>Umpan halaman dalam dokumen akhir dengan karakter khusus.</PutFeedPageCode>
     <RangePages>Nomor halaman untuk diproses. Anda dapat menentukan satu halaman, daftar halaman (menggunakan koma sebagai pemisah), serta menentukan rentang dengan menetapkan halaman awal dari kisaran dipisahkan oleh "-" dan halaman akhir rentang. Sebagai contoh:. 1,3,5-12</RangePages>
@@ -2181,6 +2350,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <TiffCompressionScheme>Skema kompresi untuk file TIFF.</TiffCompressionScheme>
     <ToolEditor>Alat ini memperbolehkan anda untuk merubah isi dari tulisan komponen secara langsung dalam Laporan.</ToolEditor>
     <TypeExport>File laporan akan diubah menjadi.</TypeExport>
+    <UnsafeCompilation1>Dokumen ini menggunakan proses kompilasi. Dalam beberapa kasus, hal ini mungkin tidak aman. Oleh karena itu, dokumen akan dimuat dalam mode aman untuk meminimalkan potensi risiko.</UnsafeCompilation1>
+    <UnsafeCompilation2>Jika Anda memerlukan dokumen ini digunakan dalam bentuk aslinya, silakan hubungi pengembang Anda.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Gunakan sistem pengkodean secara default atau menentukan encoding dengan standar.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Tentukan band halaman Header dan Footer sebagai header dan footer dari dokumen Microsoft Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Tentukan band Halaman Header dan Footer sebagai header dan footer dari dokumen Microsoft Word.</UsePageHeadersAndFooters>
@@ -2206,13 +2377,11 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <menuContextClone>Clone...</menuContextClone>
     <menuContextDesign>Bentuk...</menuContextDesign>
     <menuContextTextFormat>Format tulisan...</menuContextTextFormat>
+    <menuConvertTo>Konversi ke {0}</menuConvertTo>
     <menuConvertToCheckBox>Ubah ke Kotak Centang</menuConvertToCheckBox>
-    <MenuConvertToCheckBox>Konversi ke kotak centang</MenuConvertToCheckBox>
     <menuConvertToImage>Konversikan ke Gambar</menuConvertToImage>
-    <MenuConvertToImage>Konversi to Gambar</MenuConvertToImage>
     <MenuConvertToRichText>Konversi ke RichText</MenuConvertToRichText>
     <menuConvertToText>Konversikan ke Teks</menuConvertToText>
-    <MenuConvertToText>Konversi to Text</MenuConvertToText>
     <menuDeleteColumn>Hapus Kolom</menuDeleteColumn>
     <menuDeleteRow>Hapus Baris</menuDeleteRow>
     <menuEdit>&amp;Perbaiki</menuEdit>
@@ -2233,6 +2402,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <menuEditDataTransformationNew>Transformasi Data Baru…</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Hapus</menuEditDelete>
     <menuEditEdit>Perbaiki</menuEditEdit>
+    <menuEditEditInDesigner>Edit di Desainer</menuEditEditInDesigner>
+    <menuEditFunctionNew>Fungsi Baru...</menuEditFunctionNew>
     <menuEditImportRelations>Impor Hubungan...</menuEditImportRelations>
     <menuEditPaste>&amp;Tempel</menuEditPaste>
     <menuEditRedo>&amp;Ulangi</menuEditRedo>
@@ -2256,6 +2427,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <menuFileExit>K&amp;eluar</menuFileExit>
     <menuFileExportXMLSchema>Export XML Schema...</menuFileExportXMLSchema>
     <menuFileFormNew>Form Baru</menuFileFormNew>
+    <menuFileFormOpen>Buka Formulir</menuFileFormOpen>
     <menuFileImportXMLSchema>Import XML Schema...</menuFileImportXMLSchema>
     <menuFileMerge>Gabung...</menuFileMerge>
     <menuFileMergeXMLSchema>Gabung XML Schema...</menuFileMergeXMLSchema>
@@ -2332,12 +2504,6 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <menuViewToolbars>Toolbars</menuViewToolbars>
   </MainMenu>
   <Map>
-    <GroupAsia>Asia</GroupAsia>
-    <GroupEurope>Eropa</GroupEurope>
-    <GroupNorthAmerica>Amerika Utara</GroupNorthAmerica>
-    <GroupOceania>Oseania</GroupOceania>
-    <GroupSouthAmerica>Amerika Selatan</GroupSouthAmerica>
-    <GroupWorld>Dunia</GroupWorld>
     <LinkDataForm>Tautan Data</LinkDataForm>
     <MapEditorForm>Editor Peta</MapEditorForm>
   </Map>
@@ -2350,16 +2516,19 @@ Penyedia Pengecualian</YourPreviousWorkSession>
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Batas waktu permintaan untuk kueri SQL melebihi batas waktu permintaan perancang laporan. Setel batas waktu permintaan untuk komponen desainer tidak kurang dari {0} detik.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Hati-hati! Fungsi ini mengonversi sumber data menjadi {0}. Untuk berhasil mengambil data, semua nama tabel dan kolom harus cocok. Kueri tidak akan dikonversi. Apakah Anda ingin melanjutkan?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Jangan tunjukkan lagi</DoNotShowAgain>
     <LatexFormat>Format LaTeX digunakan untuk menampilkan rumus matematika.</LatexFormat>
     <MessageTimeOutExpired>Command batas waktu telah berakhir!</MessageTimeOutExpired>
+    <MustBeFile>Harus berupa file {0}.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Saat melihat laporan bersama, rendering akan terjadi dalam mode interpretasi!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Sumber daya "{0}" tidak dapat dihapus, karena digunakan dalam laporan!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>URL berbagi item telah diperbarui!</ShareURLOfTheItemHasBeenUpdated>
     <ShareYourReportYouShouldSave>Untuk membagikan laporan Anda, Anda harus menyimpan laporan tersebut ke StimulsoftCloud!</ShareYourReportYouShouldSave>
     <SwitchingBetweenModes>Beralih antar mode akan menyebabkan hilangnya perubahan. Apakah Anda ingin melanjutkan?</SwitchingBetweenModes>
+    <SwitchParametersOrientation>Silakan ubah nilai properti laporan 'ParametersOrientation' menjadi '{0}' untuk menampilkan kategori ini pada panel parameter.</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>
-     Pendaftaran berhasil diselesaikan! Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran Anda. Untuk menyelesaikan pendaftaran, silakan ikuti tautan dari Email yang Anda terima.
+     Satu langkah terakhir untuk menyelesaikan pendaftaran Anda! Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran Anda. Untuk menyelesaikan pendaftaran, silakan ikuti tautan dari Email yang Anda terima.
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>Field ini Tidak Ditentukan!</ThisFieldIsNotSpecified>
     <ThisFunctionEmbedsAllReportDataToTheReport>Fungsi ini menyematkan semua data laporan ke sumber laporan dan membuat laporan Anda berdiri sendiri. Hati-hati! Semua pengaturan data Anda akan diubah dan tidak dapat dipulihkan. Harap buat salinan cadangan laporan Anda terlebih dahulu.{0}Yakin?</ThisFunctionEmbedsAllReportDataToTheReport>
@@ -2368,19 +2537,28 @@ Penyedia Pengecualian</YourPreviousWorkSession>
   <Notices>
     <AccessDenied>Akses ditolak!</AccessDenied>
     <AccountLocked>Akun Anda terkunci! Untuk mengatasinya, silakan kirim permintaan Anda ke sales@stimulsoft.com!</AccountLocked>
+    <ActivationContact1>Silakan hubungi departemen penjualan kami di</ActivationContact1>
+    <ActivationContact2> untuk menyelesaikan ini.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Langganan Anda dari Stimulsoft Reports.Ultimate berakhir lebih awal dari versi pertama dari Stimulsoft Server kami dirilis!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>File Lisensi tidak benar! Silahkan hubungi bagian penjualan kami di sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Akun Anda terkunci. Silahkan hubungi bagian penjualan kami di sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Akun Anda terkunci.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>Anda mencapai jumlah maksimum aktivasi. Silahkan hubungi bagian penjualan kami di sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxActivationsReached1>Anda dapat mengelola komputer terdaftar dari</ActivationMaxActivationsReached1>
+    <ActivationMaxActivationsReached2>Akun Stimulsoft.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>Anda telah mendaftarkan jumlah maksimum komputer yang tersedia untuk langganan Anda.</ActivationMaxComputersReached>
+    <ActivationMaxDeactivationsReached>Penonaktifan perangkat tidak dimungkinkan karena Anda telah mencapai batas untuk operasi ini. Silakan hubungi departemen penjualan kami di sales@stimulsoft.com!</ActivationMaxDeactivationsReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Aktivasi Server tidak tersedia sekarang! Silakan coba lagi nanti.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Anda tidak dapat mengaktifkan versi Stimulsoft Server karena Program Langganan Anda berakhir! Silahkan login ke akun Anda dan periksa versi Stimulsoft Server yang Anda dapat intall dan mengaktifkan.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Terjadi kesalahan saat aktivasi. Silakan coba lagi nanti.</ActivationSomeTroublesOccurred>
     <ActivationTrialExpired>Anda dapat terus menggunakan StimulsoftDesigner dengan membeli perangkat lunak.</ActivationTrialExpired>
+    <ActivationTrialExtend1>Jika Anda tertarik untuk memperpanjang masa percobaan Anda, silakan</ActivationTrialExtend1>
+    <ActivationTrialExtend2>beri tahu kami alasannya.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Nama Anda pengguna (Email) atau password salah!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>jenis akun Anda tidak memungkinkan untuk mengaktifkan Stimulsoft Server!</ActivationWrongAccountType>
+    <AITokensExhausted>Token Anda telah habis! Silakan hubungi departemen penjualan kami di sales@stimulsoft.com!</AITokensExhausted>
     <Alert>Peringatan</Alert>
+    <AuthAccountAlreadyExists>Akun dengan User Name (email) ini sudah ada. Untuk mengaitkannya dengan akun {0} Anda, silakan gunakan kata sandi akun Stimulsoft Anda.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>Account tidak dapat digunakan sekarang!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>Akun tersebut belum diaktifkan! Ikuti petunjuk yang dikirim ke Email yang saat pendaftaran.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Peran pengguna tidak dapat diubah karena ini adalah pengguna administrator terakhir di ruang kerja ini!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2397,26 +2575,34 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <AuthOAuthIdNotSpecified>OAuth identificator tidak ditentukan!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>Sandi tidak benar!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>Sandi tidak ditentukan!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>Kata sandi terlalu panjang!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Sandi terlalu pendek (panjang minimum adalah 6 karakter)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Batas permintaan terlampaui! Silakan hubungi departemen penjualan kami di sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Anda tidak dapat menghapus peran karena digunakan oleh pengguna lain.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Peran dengan nama tertentu "{0}" sudah ada!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Peran dengan nama tertentu "{0}" adalah peran sistem!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Suatu pesan dengan instruksi lebih lanjut dikirim ke "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token tidak benar!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Anda telah log out!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>Anda telah keluar karena terdeteksi adanya login dari perangkat lain!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Username (Email) sudah digunakan!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Alamat email ini tidak dapat digunakan!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Username (Email) tidak ditentukan!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>Nama pengguna (Email) terlalu panjang!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>Pengguna (Email) {0} tidak terkait dengan akun {1} Anda!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Username (Email) atau password salah!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>username harus sama dengan alamat Email!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>Nama workspace sudah digunakan!</AuthWorkspaceNameAlreadyInUse>
-    <CommandTimeout>Menunggu waktu pengolahannya perintah tersebut berlalu!</CommandTimeout>
+    <CertificateNotFound>Sertifikat Tidak Ditemukan!</CertificateNotFound>
     <CommandTimeOut>Waktu tunggu untuk memproses perintah telah berlalu!</CommandTimeOut>
     <Congratulations>Selamat!</Congratulations>
+    <DeveloperInformation>Informasi Pengembang</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Tanggal akhir harus lebih besar dari tanggal sekarang!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Tanggal akhir harus lebih besar dari tanggal mulai!</EndDateShouldBeGreaterThanStartDate>
+    <Error>Kesalahan</Error>
     <ExecutionError>kesalahan Eksekusi</ExecutionError>
+    <ExpressionValidationFailed>Validasi ekspresi gagal.</ExpressionValidationFailed>
+    <GracePeriod>Masa tenggang langganan Anda akan berakhir dalam {0} hari.</GracePeriod>
     <IsIdentical>"{0}" dan "{1}" identik."</IsIdentical>
     <IsNotAuthorized>Tidak ada akses ke "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" tidak benar!</IsNotCorrect>
@@ -2431,17 +2617,26 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <ItemCantBeMovedToSpecifiedPlace>Item tidak dapat dipindahkan ke tempat yang ditentukan!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Item tidak mendukung "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>A Key dan hinggaKunci sama!</KeyAndToKeyAreEqual>
+    <LengthRange>Panjang harus antara {0} dan {1}.</LengthRange>
     <MaximumComputers>Maksimum Komputer</MaximumComputers>
+    <MaximumLength>Panjang maksimum adalah {0}.</MaximumLength>
+    <MaximumValue>Maksimum adalah {0}.</MaximumValue>
     <MessageMaximumFileSizeExceeded>Perhatian! Ukuran file yang Anda coba tambahkan melebihi ukuran maksimum yang diizinkan. Apakah Anda tetap ingin menambahkan file ini (pemrosesan laporan mungkin melambat secara signifikan)?</MessageMaximumFileSizeExceeded>
+    <MinimumLength>Panjang minimum adalah {0}.</MinimumLength>
+    <MinimumValue>Minimum adalah {0}.</MinimumValue>
     <NewDesignerAvailable>StimulsoftDesigner {0} tersedia.</NewDesignerAvailable>
     <NewProduct>Produk baru ditambahkan ke langganan Anda!</NewProduct>
     <NewVersionsAvailable>Versi baru</NewVersionsAvailable>
+    <NotificationConnectPackage>Hubungkan paket "{0}" untuk pengoperasian yang benar.</NotificationConnectPackage>
     <NotificationFailed>Hasil Gagal!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>Gagal menambahkan file berikut. Melebihi ukuran {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>File-file berhasil diupload.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>File "{0}" adalah upload.</NotificationFileUploading>
     <NotificationItemDelete>Item menghapus.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Item berhasil dihapus.</NotificationItemDeleteComplete>
+    <NotificationItemExtraComponentRequired>Komponen tambahan diperlukan</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Silakan pasang WebView2 Runtime untuk menjalankan elemen Web Content dengan benar.</NotificationItemInstallToRunWebView>
+    <NotificationItemInstallWebView>Silakan pasang WebView2 Runtime untuk bekerja dengan editor Blockly dengan benar.</NotificationItemInstallWebView>
     <NotificationItemRestore>Item memulihkan.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Item berhasil dipulihkan.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>Item mentransfer.</NotificationItemTransfer>
@@ -2451,6 +2646,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <NotificationMailingComplete>Pengiriman surat "{0}" selesai.</NotificationMailingComplete>
     <NotificationMailingWaitingProcessing>Surat "{0}" sedang menunggu diproses.</NotificationMailingWaitingProcessing>
     <NotificationOperationAborted>Operasi dibatalkan!</NotificationOperationAborted>
+    <NotificationPackageRequiredToDisplay>Untuk menampilkan konten ini, silakan unduh paket "{0}" dari NuGet.</NotificationPackageRequiredToDisplay>
     <NotificationRecycleBinCleaning>Recycle Bin adalah membersihkan.</NotificationRecycleBinCleaning>
     <NotificationRecycleBinCleaningComplete>Recycle Bin berhasil dibersihkan.</NotificationRecycleBinCleaningComplete>
     <NotificationRecycleBinWaitingProcessing>Recycle Bin pembersihan pengolahan menunggu.</NotificationRecycleBinWaitingProcessing>
@@ -2459,6 +2655,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <NotificationReportRendering>Laporan "{0}" rendering</NotificationReportRendering>
     <NotificationReportRenderingComplete>Laporan "{0}" diberikan.</NotificationReportRenderingComplete>
     <NotificationReportWaitingProcessing>Laporan pengolahan "{0}" sedang menunggu.</NotificationReportWaitingProcessing>
+    <NotificationReturnToDesigner>Kembali ke Stimulsoft Designer untuk melanjutkan.</NotificationReturnToDesigner>
     <NotificationSchedulerRunning>scheduler "{0}" berjalan.</NotificationSchedulerRunning>
     <NotificationSchedulerRunningComplete>scheduler "{0}" berjalan lengkap.</NotificationSchedulerRunningComplete>
     <NotificationSchedulerWaitingProcessing>scheduler Pengolahan "{0}" sedang menunggu.</NotificationSchedulerWaitingProcessing>
@@ -2472,6 +2669,9 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <NotificationTransferring>The "{0}" adalah tranferring untuk "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>The "{0}" yang berhasil transffered untuk "{1}".</NotificationTransferringComplete>
     <NotificationValueIsNotCorrect>Nilai ini tidak benar untuk jenis {0}</NotificationValueIsNotCorrect>
+    <OnlyDigitsAllowed>Hanya angka yang diperbolehkan.</OnlyDigitsAllowed>
+    <OnlyLettersAllowed>Hanya huruf yang diperbolehkan.</OnlyLettersAllowed>
+    <OnlyLettersAndDigitsAllowed>Hanya huruf dan angka yang diperbolehkan.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Di luar range ( "{0}")!</OutOfRange>
     <ParsingCommandException>Pengecualian pengolahan perintah dalam xml tertentu: {0}</ParsingCommandException>
     <PleaseLogin>Please login using your Stimulsoft account credentials or register a new account before publishing report.</PleaseLogin>
@@ -2491,11 +2691,22 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <SpecifiedItemIsNot>Item yang ditentukan tidak "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Langganan Anda telah kedaluwarsa!</SubscriptionExpired>
     <SubscriptionExpiredDate>Langganan Anda akan berakhir pada {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredDays>Kedaluwarsa dalam {0} hari</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Langganan Anda telah kedaluwarsa. Perbarui langganan Anda untuk mendapatkan versi terakhir.</SubscriptionExpiredExt>
+    <SubscriptionExpiredShort>Langganan kedaluwarsa</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Langganan Anda telah melampaui batas kursi pengembang. Aplikasi akan ditutup. Silakan tingkatkan paket Anda untuk melanjutkan.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Batas langganan</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Langganan Anda menggunakan lebih banyak kursi pengembang daripada yang diizinkan. Harap pertimbangkan untuk meningkatkan paket Anda agar dapat terus bekerja tanpa gangguan.</SubscriptionLimitWarning>
     <SubscriptionsOut10>10 hari tersisa saat langganan berakhir!</SubscriptionsOut10>
     <SubscriptionsOut20>Periode berlangganan akan berakhir dalam 20 hari</SubscriptionsOut20>
     <SuccessfullyRenewed>Langganan Anda telah berhasil diperbarui!</SuccessfullyRenewed>
     <TrialToLicense>Kami ingin mengucapkan terima kasih telah memilih perangkat lunak kami!</TrialToLicense>
+    <UrlMustUseHttpOrHttps>URL harus menggunakan http:// atau https://</UrlMustUseHttpOrHttps>
+    <ValueIsRequired>Nilai wajib diisi!</ValueIsRequired>
+    <ValueMatchPattern>Nilai tidak cocok dengan pola yang diperlukan.</ValueMatchPattern>
+    <ValueMustBeGreaterOrEqual>Nilai harus lebih besar dari atau sama dengan {0}.</ValueMustBeGreaterOrEqual>
+    <ValueMustBeLessOrEqual>Nilai harus lebih kecil dari atau sama dengan {0}.</ValueMustBeLessOrEqual>
+    <ValueRange>Nilai harus antara {0} dan {1}.</ValueRange>
     <VersionCopyFromItem>Salin dari item "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Dibuat dari file "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Dibuat dari item "{0}".</VersionCreatedFromItem>
@@ -2510,7 +2721,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <YourTrialWillExpire>Uji coba Anda akan berakhir dalam {0} hari.</YourTrialWillExpire>
     <YouUsingTrialVersion>Anda menggunakan versi percobaan!</YouUsingTrialVersion>
   </Notices>
-  <Nuget>
+  <NuGet>
     <AlreadyDownloaded>Sudah Diunduh</AlreadyDownloaded>
     <AssemblyLoadedSuccessfully>Perakitan berhasil dimuat.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Tidak mungkin untuk menemukan {0} perakitan menggunakan {1} koneksi!</AssemblyNotFound>
@@ -2518,6 +2729,9 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <Dependencies>Dependensi:</Dependencies>
     <Download>Unduh</Download>
     <DownloadAll>Ambil Semua</DownloadAll>
+    <DownloadAndInstall>Unduh dan pasang</DownloadAndInstall>
+    <DownloadDataAdapter>Unduh Adaptor Data</DownloadDataAdapter>
+    <Downloads>Unduhan:</Downloads>
     <IAccept>Saya Setuju</IAccept>
     <IDecline>I Tolak</IDecline>
     <LicenceFormDesc>Paket berikut mengharuskan Anda menerima persyaratan lisensi mereka sebelum menginstal.</LicenceFormDesc>
@@ -2530,30 +2744,6 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <Tags>Tags:</Tags>
     <Title>Unduh Data Adapter</Title>
     <ViewLicense>Lihat lisensi</ViewLicense>
-  </Nuget>
-  <NuGet>
-    <AlreadyDownloaded>Already Downloaded</AlreadyDownloaded>
-    <AssemblyLoadedSuccessfully>The assembly is loaded successfully.</AssemblyLoadedSuccessfully>
-    <AssemblyNotFound>Tidak mungkin menemukan {0} rakitan untuk menggunakan sambungan {1}!</AssemblyNotFound>
-    <Author>Pengarang</Author>
-    <Dependencies>Dependencies:</Dependencies>
-    <Download>Download</Download>
-    <DownloadAll>Download All</DownloadAll>
-    <DownloadAndInstall>Unduh dan pasang</DownloadAndInstall>
-    <DownloadDataAdapter>Unduh Adaptor Data</DownloadDataAdapter>
-    <Downloads>Unduhan:</Downloads>
-    <IAccept>Saya menerima</IAccept>
-    <IDecline>Saya menolak</IDecline>
-    <LicenceFormDesc>Paket berikut mengharuskan Anda menerima persyaratan lisensinya sebelum menginstal</LicenceFormDesc>
-    <LicenceFormDesc1>Denganmengklik "Saya Setuju", Anda menyetujui persyaratan lisensi untuk paket yang tercantum di atas. Jika Anda tidak setuju dengan persyaratan lisensi, klik "Saya Tolak".</LicenceFormDesc1>
-    <LicenceFormTitle>Penerimaan Lisensi</LicenceFormTitle>
-    <License>Lisensi:</License>
-    <ProjectUrl>URL Proyek:</ProjectUrl>
-    <ReportAbuse>Laporkan Penyalahgunaan:</ReportAbuse>
-    <RetrievingInformation>Mengambil informasi...</RetrievingInformation>
-    <Tags>Tags:</Tags>
-    <Title>Data Adapter from NuGet</Title>
-    <ViewLicense>Lihat Lisensi</ViewLicense>
   </NuGet>
   <Panels>
     <Dictionary>Kamus</Dictionary>
@@ -2583,10 +2773,10 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <ItemDataSources>Sumber Data</ItemDataSources>
     <ItemFiles>File</ItemFiles>
     <ItemFolders>Folder</ItemFolders>
+    <ItemForms>Formulir</ItemForms>
     <ItemReportSnapshots>Laporan Snapshots</ItemReportSnapshots>
     <ItemReportTemplates>Template Laporan</ItemReportTemplates>
     <ItemSchedulers>Schedulers</ItemSchedulers>
-    <Pengguna>Pengguna</Pengguna>
     <ReportDesignerBusinessObjects>Business Objects</ReportDesignerBusinessObjects>
     <ReportDesignerDataColumns>Kolom data</ReportDesignerDataColumns>
     <ReportDesignerDataConnections>Koneksi Data</ReportDesignerDataConnections>
@@ -2666,6 +2856,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <LinearScaleBarCategory>Linear Scale Bar</LinearScaleBarCategory>
     <LinearScaleCategory>Linear Scale</LinearScaleCategory>
     <ListBoxCategory>List Box</ListBoxCategory>
+    <MacroDataCategory>Data Makro</MacroDataCategory>
     <MainCategory>Utama</MainCategory>
     <MarkerCategory>Penanda</MarkerCategory>
     <MathFormulaCategory>Math Formula</MathFormulaCategory>
@@ -2972,6 +3163,10 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiBrushTypeGradient45>Lereng Kuas, Sudut 45</StiBrushTypeGradient45>
     <StiBrushTypeGradient90>Lereng Kuas, Sudut 90</StiBrushTypeGradient90>
     <StiBrushTypeSolid>Kuas Tebal</StiBrushTypeSolid>
+    <StiButtonSendTypeFDF>FDF</StiButtonSendTypeFDF>
+    <StiButtonSendTypeHTML>HTML</StiButtonSendTypeHTML>
+    <StiButtonSendTypePDF>PDF</StiButtonSendTypePDF>
+    <StiButtonSendTypeXFDF>XFDF</StiButtonSendTypeXFDF>
     <StiCalculationModeCompilation>Kompilasi</StiCalculationModeCompilation>
     <StiCalculationModeInterpretation>Interpretasi</StiCalculationModeInterpretation>
     <StiCapStyleArrow>Panah</StiCapStyleArrow>
@@ -3017,6 +3212,15 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiColorScaleTypeColor3>Skala 3 Warna</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>Melewati Kemudian Turun</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>Turun Kemudian Melewati</StiColumnDirectionDownThenAcross>
+    <StiColumnShape3DBox>Kotak</StiColumnShape3DBox>
+    <StiColumnShape3DPartialPyramid>Piramida Parsial</StiColumnShape3DPartialPyramid>
+    <StiColumnShape3DPyramid>Piramida</StiColumnShape3DPyramid>
+    <StiColumnTypeProcessingCastToColumnType>Konversi ke Tipe Kolom</StiColumnTypeProcessingCastToColumnType>
+    <StiColumnTypeProcessingLeaveUnprocessed>Biarkan Tidak Diproses</StiColumnTypeProcessingLeaveUnprocessed>
+    <StiCompilationAccessAllow>Izinkan</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Tanya</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Tolak</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Paksa Interpretasi</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Tengah</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Kiri</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Tidak Ada</StiCrossHorAlignmentNone>
@@ -3026,9 +3230,22 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiDashboardContentAlignmentRight>Kanan</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Peregangan X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Regangkan XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Panah</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Spanduk</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Persegi Panjang</StiDataBarShapeRectangle>
+    <StiDataJoinTypeCross>Silang</StiDataJoinTypeCross>
+    <StiDataJoinTypeFull>Penuh</StiDataJoinTypeFull>
+    <StiDataJoinTypeInner>Dalam</StiDataJoinTypeInner>
+    <StiDataJoinTypeLeft>Kiri</StiDataJoinTypeLeft>
+    <StiDataJoinTypeRight>Kanan</StiDataJoinTypeRight>
     <StiDateSelectionModeAutoRange>Penskalaan Otomatis</StiDateSelectionModeAutoRange>
     <StiDateSelectionModeRange>Jarak</StiDateSelectionModeRange>
     <StiDateSelectionModeSingle>Single</StiDateSelectionModeSingle>
+    <StiDateTimeStepAggregationAverage>Rata-rata</StiDateTimeStepAggregationAverage>
+    <StiDateTimeStepAggregationCount>Jumlah</StiDateTimeStepAggregationCount>
+    <StiDateTimeStepAggregationMax>Maks</StiDateTimeStepAggregationMax>
+    <StiDateTimeStepAggregationMin>Min</StiDateTimeStepAggregationMin>
+    <StiDateTimeStepAggregationSum>Jumlah</StiDateTimeStepAggregationSum>
     <StiDateTimeTypeDate>Tanggal</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Tanggal dan Waktu</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Waktu</StiDateTimeTypeTime>
@@ -3075,6 +3292,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiFilterConditionContaining>Mengandung</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>Berakhir Dengan</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>Sama Dengan</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>sama dengan variabel atau variabel bernilai null</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>Lebih Besar</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>Lebih Besar atau Sama Dengan</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>kosong</StiFilterConditionIsBlank>
@@ -3093,6 +3311,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiFilterDataTypeString>String</StiFilterDataTypeString>
     <StiFilterEngineReportEngine>Mesin Laporan</StiFilterEngineReportEngine>
     <StiFilterEngineSQLQuery>SQL Query</StiFilterEngineSQLQuery>
+    <StiFilterInclusionModeAlways>Selalu</StiFilterInclusionModeAlways>
+    <StiFilterInclusionModeSelectionOnly>Hanya Pilihan</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Penjelasan</StiFilterItemArgument>
     <StiFilterItemExpression>Ekspresi</StiFilterItemExpression>
     <StiFilterItemValue>Nilai</StiFilterItemValue>
@@ -3154,6 +3374,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiImageRotationRotate180>Putar 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Putar 90° Arah Berlawanan Jarum Jam</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Putar 90° Arah Jarum Jam</StiImageRotationRotate90CW>
+    <StiIndicatorValueTypeValue>Nilai</StiIndicatorValueTypeValue>
+    <StiIndicatorValueTypeValueTarget>Nilai / Target</StiIndicatorValueTypeValueTarget>
     <StiInteractionOnClick>Tidak ada </StiInteractionOnClick>
     <StiInteractionOnClickApplyFilter>Terapkan Filter</StiInteractionOnClickApplyFilter>
     <StiInteractionOnClickDrillDown>Telusuri</StiInteractionOnClickDrillDown>
@@ -3164,6 +3386,8 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiInteractionOnHoverShowToolTip>Tampilkan Tip Alat</StiInteractionOnHoverShowToolTip>
     <StiInteractionOpenHyperlinkDestinationCurrentTab>Tab Saat Ini</StiInteractionOpenHyperlinkDestinationCurrentTab>
     <StiInteractionOpenHyperlinkDestinationNewTab>Tab baru</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemFilterModeFullPath>Jalur Penuh</StiItemFilterModeFullPath>
+    <StiItemFilterModeSelectedOnly>Hanya yang Dipilih</StiItemFilterModeSelectedOnly>
     <StiItemOrientationHorizontal>Horisontal</StiItemOrientationHorizontal>
     <StiItemOrientationVertical>Vertikal</StiItemOrientationVertical>
     <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
@@ -3192,21 +3416,9 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiLegendVertAlignmentCenter>Tengah</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Atas</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Sebelah Luar Atas</StiLegendVertAlignmentTopOutside>
-    <StiMapIDAustralia>Australia</StiMapIDAustralia>
-    <StiMapIDAustria>Austria</StiMapIDAustria>
-    <StiMapIDBrazil>Brasil</StiMapIDBrazil>
-    <StiMapIDCanada>Kanada</StiMapIDCanada>
-    <StiMapIDChina>Cina</StiMapIDChina>
-    <StiMapIDEU>Uni Eropa</StiMapIDEU>
-    <StiMapIDEurope>Eropa</StiMapIDEurope>
-    <StiMapIDFrance>Perancis</StiMapIDFrance>
-    <StiMapIDGermany>Jerman</StiMapIDGermany>
-    <StiMapIDItaly>Italia</StiMapIDItaly>
-    <StiMapIDNetherlands>Belanda</StiMapIDNetherlands>
-    <StiMapIDRussia>Rusia</StiMapIDRussia>
-    <StiMapIDUK>UK</StiMapIDUK>
-    <StiMapIDUSA>Amerika</StiMapIDUSA>
-    <StiMapIDWorld>Dunia</StiMapIDWorld>
+    <StiLineWeightNormal>Normal</StiLineWeightNormal>
+    <StiLineWeightThick>Tebal</StiLineWeightThick>
+    <StiLineWeightThin>Tipis</StiLineWeightThin>
     <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
     <StiMapModeOnline>Online</StiMapModeOnline>
     <StiMapTypeGroup>Grup</StiMapTypeGroup>
@@ -3227,6 +3439,16 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiMarkerTypeStar7>Bintang 7</StiMarkerTypeStar7>
     <StiMarkerTypeStar8>Bintang 8</StiMarkerTypeStar8>
     <StiMarkerTypeTriangle>Segitiga</StiMarkerTypeTriangle>
+    <StiNavigatorButtonVisibilityCancel>Batal</StiNavigatorButtonVisibilityCancel>
+    <StiNavigatorButtonVisibilityDelete>Hapus</StiNavigatorButtonVisibilityDelete>
+    <StiNavigatorButtonVisibilityEdit>Edit</StiNavigatorButtonVisibilityEdit>
+    <StiNavigatorButtonVisibilityFirst>Pertama</StiNavigatorButtonVisibilityFirst>
+    <StiNavigatorButtonVisibilityInsert>Sisipkan</StiNavigatorButtonVisibilityInsert>
+    <StiNavigatorButtonVisibilityLast>Terakhir</StiNavigatorButtonVisibilityLast>
+    <StiNavigatorButtonVisibilityNext>Berikutnya</StiNavigatorButtonVisibilityNext>
+    <StiNavigatorButtonVisibilityPost>Post</StiNavigatorButtonVisibilityPost>
+    <StiNavigatorButtonVisibilityPrior>Sebelumnya</StiNavigatorButtonVisibilityPrior>
+    <StiNavigatorButtonVisibilityRefresh>Segarkan</StiNavigatorButtonVisibilityRefresh>
     <StiNestedFactorHigh>Tinggi</StiNestedFactorHigh>
     <StiNestedFactorLow>Rendah</StiNestedFactorLow>
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
@@ -3247,9 +3469,7 @@ Penyedia Pengecualian</YourPreviousWorkSession>
     <StiOnlineMapLocationTypeAuto>Otomatis</StiOnlineMapLocationTypeAuto>
     <StiOnlineMapLocationTypeCountryRegion>Wilayah Negara</StiOnlineMapLocationTypeCountryRegion>
     <StiOnlineMapLocationTypeNeighborhood>Lingkungan</StiOnlineMapLocationTypeNeighborhood>
-    <StiOnlineMapLocationTypePopulatedPlace>Lingkungan
-Tempat Berpenduduk
-</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePopulatedPlace>Tempat Berpenduduk</StiOnlineMapLocationTypePopulatedPlace>
     <StiOnlineMapLocationTypePostcode1>Kode pos1</StiOnlineMapLocationTypePostcode1>
     <StiOnlineMapLocationTypePostcode2>Kode pos2</StiOnlineMapLocationTypePostcode2>
     <StiOnlineMapLocationTypePostcode3>Kode pos3</StiOnlineMapLocationTypePostcode3>
@@ -3259,6 +3479,12 @@ Tempat Berpenduduk
     <StiOrientationVertical>Vertikal</StiOrientationVertical>
     <StiPageOrientationLandscape>Landscape</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portrait</StiPageOrientationPortrait>
+    <StiParametersDisplayModeDialog>Dialog</StiParametersDisplayModeDialog>
+    <StiParametersDisplayModePanel>Panel</StiParametersDisplayModePanel>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Gambar</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Gambar</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Tidak Ada</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Teks</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Sedikit</StiPenStyleDash>
     <StiPenStyleDashDot>Sedikit tanda Titik</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Sedikit tanda Titik titik</StiPenStyleDashDotDot>
@@ -3307,6 +3533,10 @@ Tempat Berpenduduk
     <StiProgressElementModeCircle>Lingkaran</StiProgressElementModeCircle>
     <StiProgressElementModeDataBars>DataBar</StiProgressElementModeDataBars>
     <StiProgressElementModePie>Pie</StiProgressElementModePie>
+    <StiProgressValueTypeNone>Tidak Ada</StiProgressValueTypeNone>
+    <StiProgressValueTypePercentage>Persentase</StiProgressValueTypePercentage>
+    <StiProgressValueTypeValue>Nilai</StiProgressValueTypeValue>
+    <StiProgressValueTypeValueTarget>Nilai / Target</StiProgressValueTypeValueTarget>
     <StiQRCodeBodyShapeTypeCircle>Lingkaran</StiQRCodeBodyShapeTypeCircle>
     <StiQRCodeBodyShapeTypeCircular>Surat Edaran</StiQRCodeBodyShapeTypeCircular>
     <StiQRCodeBodyShapeTypeDiamond>Berlian</StiQRCodeBodyShapeTypeDiamond>
@@ -3327,6 +3557,9 @@ Tempat Berpenduduk
     <StiQRCodeEyeBallShapeTypeZebraVertical>Zebra Vertical</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Lingkaran</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Poligon</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Tidak Ada</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Langkah</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Centang</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Mati</StiReportCacheModeOff>
     <StiReportCacheModeOn>Hidup</StiReportCacheModeOn>
@@ -3335,6 +3568,7 @@ Tempat Berpenduduk
     <StiReportUnitTypeInches>Inchi</StiReportUnitTypeInches>
     <StiReportUnitTypeMillimeters>Millimeter</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Pixel</StiReportUnitTypePixels>
+    <StiReportUnitTypePoints>Poin</StiReportUnitTypePoints>
     <StiRestrictionsAll>Semua</StiRestrictionsAll>
     <StiRestrictionsAllowChange>Memperbolehkan Merubah</StiRestrictionsAllowChange>
     <StiRestrictionsAllowDelete>Memperbolehkan Menghapus</StiRestrictionsAllowDelete>
@@ -3342,6 +3576,8 @@ Tempat Berpenduduk
     <StiRestrictionsAllowResize>Memperbolehkan Merubah Ukuran</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Memperbolehkan Memilih</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Tidak Ada</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Akses Penuh</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Mode Aman</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Pertama</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Dari Variabel</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Tidak</StiSelectionModeNothing>
@@ -3351,6 +3587,7 @@ Tempat Berpenduduk
     <StiSeriesLabelsValueTypeSeriesTitleArgument>Judul Seri - Penjelasan</StiSeriesLabelsValueTypeSeriesTitleArgument>
     <StiSeriesLabelsValueTypeSeriesTitleValue>Judul Seri - Nilai</StiSeriesLabelsValueTypeSeriesTitleValue>
     <StiSeriesLabelsValueTypeTag>Tag</StiSeriesLabelsValueTypeTag>
+    <StiSeriesLabelsValueTypeTotal>Total</StiSeriesLabelsValueTypeTotal>
     <StiSeriesLabelsValueTypeValue>Nilai</StiSeriesLabelsValueTypeValue>
     <StiSeriesLabelsValueTypeValueArgument>Nilai-Penjelasan</StiSeriesLabelsValueTypeValueArgument>
     <StiSeriesLabelsValueTypeWeight>Berat</StiSeriesLabelsValueTypeWeight>
@@ -3371,6 +3608,9 @@ Tempat Berpenduduk
     <StiShiftModeIncreasingSize>Meningkatkan Ukuran</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Tidak Ada</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Hanya Selebar Komponen</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Hubungkan Titik dengan Garis</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Jarak</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Nol</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Dari Grafik</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Dari Seri</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Tidak Ada</StiShowSeriesLabelsNone>
@@ -3380,9 +3620,10 @@ Tempat Berpenduduk
     <StiShowYAxisBoth>Keduanya</StiShowYAxisBoth>
     <StiShowYAxisCenter>Tengah</StiShowYAxisCenter>
     <StiShowYAxisLeft>Kiri</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Gambar</StiSignatureModeDraw>
+    <StiSignatureModeType>Tipe</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Tanda tangan digital</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Gambar</StiSignatureTypeDraw>
-    <StiSignatureTypeSelectStyle>Pilih Gaya</StiSignatureTypeSelectStyle>
     <StiSignatureTypeType>Tipe</StiSignatureTypeType>
     <StiSizeModeAutoSize>Ukuran Otomatis</StiSizeModeAutoSize>
     <StiSizeModeFit>Fit</StiSizeModeFit>
@@ -3416,6 +3657,8 @@ Tempat Berpenduduk
     <StiTableAutoWidthTypeFullTable>Tabel Penuh</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Kolom Treakhir</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Tidak Ada</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Ukuran Otomatis</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Paskan</StiTableSizeModeFit>
     <StiTargetModePercentage>Persentase</StiTargetModePercentage>
     <StiTargetModeVariation>Variasi</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Tengah</StiTextHorAlignmentCenter>
@@ -3432,8 +3675,13 @@ Tempat Berpenduduk
     <StiTextQualityTypographic>Bentuk Huruf</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>WYSIWYG</StiTextQualityWysiwyg>
     <StiTextSizeModeFit>Fit</StiTextSizeModeFit>
+    <StiTextSizeModeFitAndWordWrap>Paskan dan Bungkus Kata</StiTextSizeModeFitAndWordWrap>
     <StiTextSizeModeTrimming>Pemangkasan</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>Word Wrap</StiTextSizeModeWordWrap>
+    <StiThemeAppearanceAuto>Otomatis</StiThemeAppearanceAuto>
+    <StiThemeAppearanceDark>Gelap</StiThemeAppearanceDark>
+    <StiThemeAppearanceLight>Terang</StiThemeAppearanceLight>
+    <StiThemeAppearanceLightGray>Abu-abu Terang</StiThemeAppearanceLightGray>
     <StiTimeDateStepDay>Hari</StiTimeDateStepDay>
     <StiTimeDateStepHour>Jam</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Menit</StiTimeDateStepMinute>
@@ -3450,6 +3698,12 @@ Tempat Berpenduduk
     <StiTypeModeNullableValue>Nilai Yang bisa dijadikan Null</StiTypeModeNullableValue>
     <StiTypeModeRange>Jarak</StiTypeModeRange>
     <StiTypeModeValue>Nilai</StiTypeModeValue>
+    <StiUnitAlignmentPrefix>Awalan</StiUnitAlignmentPrefix>
+    <StiUnitAlignmentPrefixInside>Awalan di Dalam</StiUnitAlignmentPrefixInside>
+    <StiUnitAlignmentPrefixInsideWithSpace>Awalan di Dalam dengan Spasi</StiUnitAlignmentPrefixInsideWithSpace>
+    <StiUnitAlignmentSuffix>Akhiran</StiUnitAlignmentSuffix>
+    <StiUnitAlignmentSuffixInside>Akhiran di Dalam</StiUnitAlignmentSuffixInside>
+    <StiUnitAlignmentSuffixInsideWithSpace>Akhiran di Dalam dengan Spasi</StiUnitAlignmentSuffixInsideWithSpace>
     <StiVertAlignmentBottom>Bawah</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>Tengah</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Atas</StiVertAlignmentTop>
@@ -3484,6 +3738,7 @@ Tempat Berpenduduk
     <DisconnectingEvent>Sedang Memutuskan</DisconnectingEvent>
     <DoubleClickEvent>Klik Dua Kali</DoubleClickEvent>
     <EndRenderEvent>Akhiri Pembuatan</EndRenderEvent>
+    <EndValueChangedEvent>Nilai Akhir Berubah</EndValueChangedEvent>
     <EnterEvent>Masuk</EnterEvent>
     <ExportedEvent>Telah Diekspor</ExportedEvent>
     <ExportingEvent>Sedang Mengekspor</ExportingEvent>
@@ -3532,9 +3787,11 @@ Tempat Berpenduduk
     <PrintingEvent>Sedang Mencetak</PrintingEvent>
     <ProcessCellEvent>Buat Cell</ProcessCellEvent>
     <ProcessChartEvent>Buat Grafik</ProcessChartEvent>
+    <RefreshingEvent>Menyegarkan</RefreshingEvent>
     <RenderingEvent>Sedang Membuat</RenderingEvent>
     <ReportCacheProcessingEvent>Report Cache Processing</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Indek yang terpilih berubah</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Nilai Awal Berubah</StartValueChangedEvent>
     <StateRestoreEvent>Kembalikan Tahap Ini</StateRestoreEvent>
     <StateSaveEvent>Simpan Tahap Ini</StateSaveEvent>
     <ValueChangedEvent>Nilai telah Berubah</ValueChangedEvent>
@@ -3598,11 +3855,13 @@ Tempat Berpenduduk
   <PropertyMain>
     <AcceptsReturn>Terima Pengembalian</AcceptsReturn>
     <AcceptsTab>Terima Tab</AcceptsTab>
+    <Action>Tindakan</Action>
     <Actual>Actual</Actual>
     <AddClearZone>Tambahkan Zona Kosong</AddClearZone>
     <Advanced>Mahir</Advanced>
     <AggregateFunction>Fungsi Agegrate</AggregateFunction>
     <AggregateFunctions>Fungsi Agegrate</AggregateFunctions>
+    <Aggregation>Agregasi</Aggregation>
     <Alias>Nama Lain</Alias>
     <Alignment>Perataan</Alignment>
     <AllowApplyBorderColor>Memperbolehkan menerapkan Warna Pinggiran</AllowApplyBorderColor>
@@ -3611,8 +3870,12 @@ Tempat Berpenduduk
     <AllowApplyColorNegative>Memperbolehkan menerapkan Warna Negatif</AllowApplyColorNegative>
     <AllowApplyLineColor>Allow Apply Line Color</AllowApplyLineColor>
     <AllowApplyStyle>Memperbolehkan menerapkan Corak</AllowApplyStyle>
+    <AllowCleanSignature>Izinkan Tanda Tangan Bersih</AllowCleanSignature>
     <AllowExpressions>Memperbolehkan Ekspresi </AllowExpressions>
     <AllowHtmlTags>Memperbolehkan Tag HTML</AllowHtmlTags>
+    <AllowNull>Izinkan Null</AllowNull>
+    <AllowScriptsInExpressions>Izinkan Skrip Dalam Ekspresi</AllowScriptsInExpressions>
+    <AllowScriptsToRun>Izinkan Skrip Untuk Berjalan</AllowScriptsToRun>
     <AllowSeries>Memperbolehkan Seri</AllowSeries>
     <AllowSeriesElements>Memperbolehkan Seri Elemen</AllowSeriesElements>
     <AllowSorting>Memperbolehkan Pengurutan </AllowSorting>
@@ -3631,6 +3894,7 @@ Tempat Berpenduduk
     <AllowUseTextBrush>Memperbolehkan Kuas Tulisan</AllowUseTextBrush>
     <AllowUseTextFormat>Allow Use Text Format</AllowUseTextFormat>
     <AllowUseTextOptions>Memperbolehkan Pilihan Tulisan</AllowUseTextOptions>
+    <AllowUseTitle>Izinkan Penggunaan Judul</AllowUseTitle>
     <AllowUseVertAlignment>Memperbolehkan Rata Vertikal</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Izinkan menggunakan sebagai parameter SQL</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Warna Dasar Alternatif</AlternatingBackColor>
@@ -3642,6 +3906,8 @@ Tempat Berpenduduk
     <Anchor>Anchor</Anchor>
     <Angle>Sudut</Angle>
     <Antialiasing>Antialias</Antialiasing>
+    <Appearance>Tampilan</Appearance>
+    <Apply>Terapkan</Apply>
     <Area>Area</Area>
     <Argument>Alasan</Argument>
     <ArgumentDataColumn>Kolom data Alasan</ArgumentDataColumn>
@@ -3651,7 +3917,7 @@ Tempat Berpenduduk
     <ArrowStyle>Corak Panah</ArrowStyle>
     <ArrowWidth>Lebar Panah</ArrowWidth>
     <AspectRatio>Aspek Rasio</AspectRatio>
-    <Author>Penulis</Author>
+    <Author>Pengarang</Author>
     <Auto>Otomatis</Auto>
     <AutoCalculateCenterPoint>Hitung Otomatis Titik Pusat</AutoCalculateCenterPoint>
     <AutoDataColumns>Kolom Data Otomatis</AutoDataColumns>
@@ -3690,6 +3956,7 @@ Tempat Berpenduduk
     <BorderSize>Ukuran garis</BorderSize>
     <BorderStyle>Corak Pinggiran</BorderStyle>
     <BorderThickness>Border Thickness</BorderThickness>
+    <BorderVisible>Batas Terlihat</BorderVisible>
     <BorderWidth>Tebal Garis</BorderWidth>
     <Bottom>Bawah</Bottom>
     <BottomLeft>Bottom-Left</BottomLeft>
@@ -3701,6 +3968,7 @@ Tempat Berpenduduk
     <BrushType>Tipe Sikat</BrushType>
     <BubbleBackColor>Bubble Back Color</BubbleBackColor>
     <BubbleBorderColor>Bubble Border Color</BubbleBorderColor>
+    <BubbleScale>Skala Gelembung</BubbleScale>
     <BusinessObject>Objek Bisnins</BusinessObject>
     <CacheAllData>Menyembunyikan Semua Data</CacheAllData>
     <CacheTotals>Total Cache</CacheTotals>
@@ -3711,18 +3979,22 @@ Tempat Berpenduduk
     <Cancel>Tunda</Cancel>
     <CanGrow>Dapat Membesar</CanGrow>
     <CanShrink>Dapat Mengecil</CanShrink>
+    <CastToColumnType>Konversi ke Tipe Kolom</CastToColumnType>
     <Categories>Kategori</Categories>
     <Category>Kategori</Category>
     <CategoryConnections>Koneksi</CategoryConnections>
+    <CellAlignment>Perataan Sel</CellAlignment>
     <CellBackColor>Cell Back Color</CellBackColor>
     <CellDockStyle>Ragam DOck Cell</CellDockStyle>
     <CellForeColor>Cell Fore Color</CellForeColor>
     <CellHeight>Tinggi Cell</CellHeight>
+    <Cells>Sel</Cells>
     <CellType>Tipe Cell</CellType>
     <CellWidth>Lebar Cell</CellWidth>
     <Center>Pusat</Center>
     <CenterPoint>Titik Pusat</CenterPoint>
     <ChartAreaBorderColor>Warna Garis</ChartAreaBorderColor>
+    <ChartAreaBorderThickness>Ketebalan Batas Area Bagan</ChartAreaBorderThickness>
     <ChartAreaBrush>Lokasi Sikat</ChartAreaBrush>
     <ChartAreaShowShadow>Tampilkan Bayangan</ChartAreaShowShadow>
     <ChartType>Tipe Grafik</ChartType>
@@ -3741,6 +4013,7 @@ Tempat Berpenduduk
     <Child>Child</Child>
     <ChildColumns>Kolom Child</ChildColumns>
     <ChildSource>Sumber Data Child</ChildSource>
+    <City>Kota</City>
     <ClearFormat>Bersihkan Format</ClearFormat>
     <CloneContainer>Copy Container</CloneContainer>
     <CloseValues>Close Values</CloseValues>
@@ -3766,8 +4039,9 @@ Tempat Berpenduduk
     <ColumnHeaderForeColor>Column Header Fore Color</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Header Kolom Terlihat</ColumnHeadersVisible>
     <Columns>Kolom</Columns>
+    <ColumnShape>Bentuk Kolom</ColumnShape>
     <ColumnWidth>Lebar Kolom</ColumnWidth>
-    <CommandTimeout>Waktu Berakhirnya Perintah</CommandTimeout>
+    <CommandTimeout>Menunggu waktu pengolahannya perintah tersebut berlalu!</CommandTimeout>
     <CompanyPrefix>Company Prefix</CompanyPrefix>
     <ComponentStyle>Ragam Komponen</ComponentStyle>
     <Condition>Kondisi</Condition>
@@ -3786,6 +4060,7 @@ Tempat Berpenduduk
     <CornerRadius>Corner Radius</CornerRadius>
     <Count>Hitung</Count>
     <CountData>Hitung Data</CountData>
+    <Country>Negara</Country>
     <Create>Membuat</Create>
     <CreateFieldOnDoubleClick>Buat Field dengan Klik Ganda</CreateFieldOnDoubleClick>
     <CreateLabel>Membuat Label</CreateLabel>
@@ -3798,6 +4073,10 @@ Tempat Berpenduduk
     <DataAdapter>Pencocok Data</DataAdapter>
     <DataAdapters>Pencocok Data</DataAdapters>
     <DataBarCondition>Kondisi Bar Data</DataBarCondition>
+    <DataBarsNegative>Bilah Data Negatif</DataBarsNegative>
+    <DataBarsOverlapped>Bilah Data Tumpang Tindih</DataBarsOverlapped>
+    <DataBarsPositive>Bilah Data Positif</DataBarsPositive>
+    <DataBinding>Pengikatan Data</DataBinding>
     <DataBindings>Data Terikat</DataBindings>
     <DataCells>Data Cells</DataCells>
     <DataColor>Data Color</DataColor>
@@ -3814,11 +4093,14 @@ Tempat Berpenduduk
     <DataType>Tipe Data</DataType>
     <DataUrl>URL Data</DataUrl>
     <DateInfo>Info Tanggal</DateInfo>
+    <DateTimeMode>Mode DateTime</DateTimeMode>
     <DateTimeStep>Tanggal Waktu Tindakan</DateTimeStep>
+    <DecimalDigits>Digit Desimal</DecimalDigits>
     <Default>Awal</Default>
     <DefaultColor>Default Color</DefaultColor>
     <DefaultHeightCell>Tinggi Awal dari Cell</DefaultHeightCell>
     <DefaultNamespace>Nama Awal</DefaultNamespace>
+    <DefaultSettings>Pengaturan Bawaan</DefaultSettings>
     <DependentColumn>Kolom Terkait</DependentColumn>
     <DependentValue>Nilai Terkait</DependentValue>
     <Description>Penjelasan</Description>
@@ -3833,6 +4115,7 @@ Tempat Berpenduduk
     <DisplayValue>Perlihatkan Nilai</DisplayValue>
     <Distance>Jarak</Distance>
     <DistanceBetweenTabs>Jarak Diantara Tab</DistanceBetweenTabs>
+    <DistinguishedName>Distinguished Name</DistinguishedName>
     <Dock>Dock</Dock>
     <DockableTable>Dockable Table</DockableTable>
     <DockStyle>Ragam Dock</DockStyle>
@@ -3882,7 +4165,9 @@ Tempat Berpenduduk
     <Expand>Mengembangkan</Expand>
     <Exponential>Exponensial</Exponential>
     <ExportAsImage>Eksport Sebagai Gambar</ExportAsImage>
+    <ExportSettings>Pengaturan Ekspor</ExportSettings>
     <Expression>Ekspresi</Expression>
+    <Extended>Diperluas</Extended>
     <ExtensionDigit>Extension Digit</ExtensionDigit>
     <EyeBallBrush>Eye Ball Brush</EyeBallBrush>
     <EyeBallShape>Eye Ball Shape</EyeBallShape>
@@ -3891,7 +4176,10 @@ Tempat Berpenduduk
     <FaqPage>Halaman FAQ</FaqPage>
     <Field>Field</Field>
     <FieldIs>Field Adalah</FieldIs>
+    <Fields>Bidang</Fields>
+    <Fifth>Kelima</Fifth>
     <File>File</File>
+    <FileId>ID File</FileId>
     <Fill>Isi</Fill>
     <FillColor>Isi warna</FillColor>
     <Filter>Filter</Filter>
@@ -3900,11 +4188,16 @@ Tempat Berpenduduk
     <FilterMode>Modus Filter</FilterMode>
     <FilterOn>Hidupkan Filter</FilterOn>
     <Filters>Filter</Filters>
+    <FiltersTarget>Target Filter</FiltersTarget>
+    <First>Pertama</First>
     <FirstTabOffset>Cetakan Tab Pertama</FirstTabOffset>
+    <FitMode>Mode Paskan</FitMode>
+    <FixedHeight>Tinggi Tetap</FixedHeight>
     <FixedWidth>Lebar Tetap</FixedWidth>
     <Flat>Rata</Flat>
     <FlatMode>Mode Rata</FlatMode>
     <Focus>Fokus</Focus>
+    <FocusVisible>Fokus Terlihat</FocusVisible>
     <Font>Huruf</Font>
     <FontBold>Huruf Tebal</FontBold>
     <FontItalic>Huruf Miring</FontItalic>
@@ -3931,18 +4224,24 @@ Tempat Berpenduduk
     <FooterRowsCount>Jumlah Baris Footer</FooterRowsCount>
     <Footers>Footer</Footers>
     <ForeColor>Warna Depan</ForeColor>
+    <Foreground>Latar Depan</Foreground>
     <Format>Format</Format>
+    <FormName>Nama Formulir</FormName>
+    <FormSettings>Pengaturan Formulir</FormSettings>
+    <Fourth>Keempat</Fourth>
     <From>Dari</From>
     <FrozenColumns>Frozen Columns</FrozenColumns>
     <FullConvertExpression>Expressi Konversi Penuh</FullConvertExpression>
     <FullName>Nama Lengkap</FullName>
     <Function>Fungsi</Function>
     <Functions>Fungsi</Functions>
+    <GapAfterLastColumn>Jarak Setelah Kolom Terakhir</GapAfterLastColumn>
     <GisSettings>Gis Settings</GisSettings>
     <GlobalizationStrings>String Global</GlobalizationStrings>
     <GlobalizedName>Nama Global</GlobalizedName>
     <GlyphColor>Glyph Color</GlyphColor>
     <GridColor>Warna Kotak</GridColor>
+    <GridColumns>Kolom Kisi</GridColumns>
     <GridLineColor>Warna Garis Grid</GridLineColor>
     <GridLinesHor>Garis Grid Horisontal</GridLinesHor>
     <GridLinesHorColor>Warna Garis Grid Horizontal</GridLinesHorColor>
@@ -3951,10 +4250,13 @@ Tempat Berpenduduk
     <GridLinesVert>Garis Grid Vertikal</GridLinesVert>
     <GridLinesVertColor>Warna Garis Grid Vertikal</GridLinesVertColor>
     <GridOutline>Garis Besar Grid</GridOutline>
+    <GridVerticalStep>Langkah Vertikal Kisi</GridVerticalStep>
     <Group>Grup</Group>
     <GroupDataColumn>Kolom Data Grup</GroupDataColumn>
     <GroupMeter>Pengukur Grup</GroupMeter>
     <GrowToHeight>Tumbuh Tinggi</GrowToHeight>
+    <HandleBorderColor>Warna Batas Pegangan</HandleBorderColor>
+    <HandleFillColor>Warna Isian Pegangan</HandleFillColor>
     <Header>Header</Header>
     <HeaderAlignment>Penyesuaian Tajuk </HeaderAlignment>
     <HeaderBackColor>Warna Belakang Header</HeaderBackColor>
@@ -3978,6 +4280,7 @@ Tempat Berpenduduk
     <HeatmapColors>Heatmap Colors</HeatmapColors>
     <HeatmapWithGroup>Heatmap With Group</HeatmapWithGroup>
     <Height>Tinggi</Height>
+    <Hidden>Tersembunyi</Hidden>
     <HideSeriesWithEmptyTitle>Sembunyikan Seri dengan Judul Kosong</HideSeriesWithEmptyTitle>
     <HideZeros>Sembunyikan Nol</HideZeros>
     <High>Tinggi</High>
@@ -3989,6 +4292,7 @@ Tempat Berpenduduk
     <HotColumnHeaderBackColor>Hot Column Header Back Color</HotColumnHeaderBackColor>
     <HotForeColor>Hot Fore Color</HotForeColor>
     <HotGlyphColor>Hot Glyph Color</HotGlyphColor>
+    <HotHeaderBackColor>Warna Latar Kepala Aktif</HotHeaderBackColor>
     <HotHeaderColor>Hot Header Color</HotHeaderColor>
     <HotkeyPrefix>Awalan Hotkey</HotkeyPrefix>
     <HotRowHeaderBackColor>Warna Belakang Header Baris Panas</HotRowHeaderBackColor>
@@ -4010,23 +4314,35 @@ Tempat Berpenduduk
     <Image>Gambar</Image>
     <ImageAlign>Perataan Gambar</ImageAlign>
     <ImageAlignment>Perataan Gambar</ImageAlignment>
+    <ImageAspectRatio>Rasio Aspek Gambar</ImageAspectRatio>
     <ImageData>Data Gambar</ImageData>
+    <ImageEnabled>Gambar Diaktifkan</ImageEnabled>
     <ImageHorAlignment>Perataan Gambar Horisontal</ImageHorAlignment>
     <ImageMultipleFactor>Gambar Banyak Faktor</ImageMultipleFactor>
     <ImageRotation>Putar Gambar</ImageRotation>
+    <ImageShowBehind>Gambar Ditampilkan di Belakang</ImageShowBehind>
     <ImageStretch>Kecilkan Gambar</ImageStretch>
     <ImageTiling>Besarkan Gambar</ImageTiling>
     <ImageTransparency>Transparansi Gambar</ImageTransparency>
     <ImageURL>Gambar URL</ImageURL>
     <ImageVertAlignment>Perataan Gambar Vertikal</ImageVertAlignment>
     <ImportRelations>Impor Hubungan</ImportRelations>
+    <InclusionMode>Mode Penyertaan</InclusionMode>
     <Increment>Kenaikan</Increment>
     <Indent>Lekuk</Indent>
+    <Indicator>Indikator</Indicator>
+    <IndicatorNegative>Indikator Negatif</IndicatorNegative>
+    <IndicatorNeutral>Indikator Netral</IndicatorNeutral>
+    <IndicatorPositive>Indikator Positif</IndicatorPositive>
+    <IndicatorValue>Nilai Indikator</IndicatorValue>
     <IndividualColor>Warna Individu</IndividualColor>
     <InitBy>Dimulai oleh</InitBy>
     <Initials>Inisial</Initials>
     <InitialSelection>Seleksi Awal</InitialSelection>
     <InitialSelectionSource>Sumber Seleksi Awal</InitialSelectionSource>
+    <InitialValue>Nilai Awal</InitialValue>
+    <InnerText>Teks Dalam</InnerText>
+    <Input>Input</Input>
     <Insert>Masukkan</Insert>
     <Interaction>Interaksi</Interaction>
     <InterlacedBrush>Penggantian SIkat</InterlacedBrush>
@@ -4034,13 +4350,13 @@ Tempat Berpenduduk
     <InterlacingHorBrush>Interlacing Horizontal Brush</InterlacingHorBrush>
     <InterlacingVert>Penggantian Vertikal</InterlacingVert>
     <InterlacingVertBrush>Interlacing Vertikal Brush</InterlacingVertBrush>
-    <Interpolasi>interpolasi</Interpolasi>
     <Interpolation>Interpolasi</Interpolation>
     <IsReversed>Apakah Terbalik</IsReversed>
     <Italic>Miring</Italic>
     <Item>Item</Item>
     <ItemHeight>Tingga Item</ItemHeight>
     <Items>Item</Items>
+    <JoinType>Tipe Gabung</JoinType>
     <KeepChildTogether>Jaga Agar Child Bersama</KeepChildTogether>
     <KeepCrossTabTogether>Jaga Agar Cross-Tab Bersama</KeepCrossTabTogether>
     <KeepDetails>Jaga Detail</KeepDetails>
@@ -4111,18 +4427,28 @@ Tempat Berpenduduk
     <ListOfValuesLow>Daftar Nilai Terendah</ListOfValuesLow>
     <ListOfValuesOpen>Daftar Nilai Terbuka</ListOfValuesOpen>
     <ListOfWeights>Daftar Beban</ListOfWeights>
+    <ListOfXValues>Daftar Nilai X</ListOfXValues>
+    <ListOfYValues>Daftar Nilai Y</ListOfYValues>
     <Localizable>Terlokalisir</Localizable>
     <Location>Lokasi</Location>
     <Locked>Terkunci</Locked>
     <Logarithmic>Logaritma</Logarithmic>
     <LogarithmicScale>Skala Logaritma</LogarithmicScale>
+    <Logo>Logo</Logo>
     <Longitude>Bujur</Longitude>
     <Low>Rendah</Low>
     <LowValues>Nilai Rendah</LowValues>
     <MajorInterval>Interval Major</MajorInterval>
-    <MapId>Peta ID</MapId>
+    <MapAfrica>Afrika</MapAfrica>
+    <MapAsia>Asia</MapAsia>
+    <MapCustom>Kustom</MapCustom>
+    <MapEurope>Eropa</MapEurope>
     <MapID>ID Peta</MapID>
+    <MapNorthAmerica>Amerika Utara</MapNorthAmerica>
+    <MapOceania>Oseania</MapOceania>
+    <MapPopularMaps>Peta populer</MapPopularMaps>
     <Maps>Peta</Maps>
+    <MapSouthAmerica>Amerika Selatan</MapSouthAmerica>
     <MapStyle>Gaya</MapStyle>
     <MapType>Jenis peta</MapType>
     <Margin>Margin</Margin>
@@ -4146,6 +4472,7 @@ Tempat Berpenduduk
     <MaximumValue>Nilai Maksimum</MaximumValue>
     <MaxLength>Panjang Maksimal</MaxLength>
     <MaxNumberOfLines>Nomer Maksimal dalam Garis</MaxNumberOfLines>
+    <MaxSelectedItems>Item Terpilih Maks</MaxSelectedItems>
     <MaxSize>Ukuran Maksimal</MaxSize>
     <MaxValue>Nilai Maksimal</MaxValue>
     <MaxWidth>Lebar Maksimal</MaxWidth>
@@ -4173,6 +4500,8 @@ Tempat Berpenduduk
     <Move>Gerakkan</Move>
     <Multiline>Banyak Garis</Multiline>
     <MultipleFactor>Banyak Faktor</MultipleFactor>
+    <MultipleInitialization>Inisialisasi Ganda</MultipleInitialization>
+    <MyFunction>Fungsi Saya</MyFunction>
     <Name>Nama</Name>
     <NameDataColumn>Nama Kolom Data</NameDataColumn>
     <NameInSource>Nama pada Sumber</NameInSource>
@@ -4196,6 +4525,7 @@ Tempat Berpenduduk
     <NextPage>Halaman Berikutnya</NextPage>
     <NoElements>Tanpa Elemen</NoElements>
     <NoIcon>Tidak Ada Icon</NoIcon>
+    <Notifications>Notifikasi</Notifications>
     <NullText>Tulisan Null</NullText>
     <NumberOfColumns>Jumlah Kolom</NumberOfColumns>
     <NumberOfCopies>Jumlah Salinan</NumberOfCopies>
@@ -4206,8 +4536,11 @@ Tempat Berpenduduk
     <OffsetAngle>Offset Sudut</OffsetAngle>
     <OnClick>Saat Klik</OnClick>
     <OnDataManipulation>Tentang Manipulasi Data</OnDataManipulation>
+    <OnePointZoom>Zoom Satu Titik</OnePointZoom>
     <OnHover>Saat Melayang</OnHover>
+    <OnlineMapAdminLevel>Tingkat administratif</OnlineMapAdminLevel>
     <OnlyText>Hanya Tulisan</OnlyText>
+    <OnSelect>Saat Dipilih</OnSelect>
     <Opacity>Opasitas</Opacity>
     <OpenValues>Nilai Terbuka</OpenValues>
     <Operation>Operasi</Operation>
@@ -4215,17 +4548,21 @@ Tempat Berpenduduk
     <Options3D>Opsi 3D</Options3D>
     <Orientation>Orientasi</Orientation>
     <OthersText>Tulisan Lain</OthersText>
+    <OverlappedColor>Warna Tumpang Tindih</OverlappedColor>
     <Padding>Padding</Padding>
     <PageHeight>Tinggi Halaman</PageHeight>
     <PageNumbers>Nomer Halaman</PageNumbers>
+    <PageTurnTime>Waktu Pergantian Halaman</PageTurnTime>
     <PageWidth>Lebar Halaman</PageWidth>
     <Paper>Kertas</Paper>
     <PaperSize>Ukuran Kertas</PaperSize>
     <PaperSourceOfFirstPage>Ukuran Kertas Dari Halaman Pertama</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>Ukuran Kertas Dari Halaman Lain</PaperSourceOfOtherPages>
     <Parameter>Parameter</Parameter>
+    <ParameterAlignment>Perataan Parameter</ParameterAlignment>
     <Parameters>Parameter</Parameters>
     <ParametersDateFormat>Parameter Format Tanggal</ParametersDateFormat>
+    <ParametersDisplayMode>Mode Tampilan Parameter</ParametersDisplayMode>
     <ParametersOrientation>Orientasi Parameter</ParametersOrientation>
     <ParameterWidth>Lebar Parameter</ParameterWidth>
     <ParentColumns>Kolom Parent</ParentColumns>
@@ -4234,11 +4571,15 @@ Tempat Berpenduduk
     <ParetoSeriesColors>Warna Seri Pareto</ParetoSeriesColors>
     <PasswordChar>Kata Kunci Karakter</PasswordChar>
     <Path>Path</Path>
+    <PathColor>Warna Jalur</PathColor>
     <PathData>Data Path</PathData>
     <PathSchema>Skema Path</PathSchema>
     <Pattern>Pola</Pattern>
+    <PDFPreview>Pratinjau PDF</PDFPreview>
+    <Placeholder>Placeholder</Placeholder>
     <Placement>Penempatan</Placement>
     <PlaceOnToolbox>Taruh pada Toolbox</PlaceOnToolbox>
+    <Platform>Platform</Platform>
     <PointAtCenter>Taruh di Tengah</PointAtCenter>
     <Position>Posisi</Position>
     <Positive>Positif</Positive>
@@ -4250,6 +4591,7 @@ Tempat Berpenduduk
     <PreviewSettings>Pengaturan Pratinjau</PreviewSettings>
     <Printable>Bisa dicetak</Printable>
     <PrintAtBottom>Cetak di Bawah</PrintAtBottom>
+    <PrintDialogType>Tipe Dialog Cetak</PrintDialogType>
     <PrinterName>Nama Printer</PrinterName>
     <PrinterSettings>Pengaturan Printer</PrinterSettings>
     <PrintHeadersFootersFromPreviousPage>Cetak Header dan Footer dari Halaman Sebelumnya</PrintHeadersFootersFromPreviousPage>
@@ -4286,17 +4628,20 @@ Tempat Berpenduduk
     <Ratio>Rasio</Ratio>
     <RatioY>Rasio Y</RatioY>
     <ReadOnly>Hanya bisa dibaca</ReadOnly>
+    <Reason>Alasan</Reason>
     <RecentFonts>Font Terbaru</RecentFonts>
     <ReconnectOnEachRow>Konek kembali di setiap baris</ReconnectOnEachRow>
     <ReferencedAssemblies>Kumpulan Daftar Pustaka</ReferencedAssemblies>
     <Refresh>Segarkan</Refresh>
     <RefreshTime>Waktu Refresh</RefreshTime>
     <Regular>Regular</Regular>
+    <RegularExpression>Ekspresi Reguler</RegularExpression>
     <Relation>Hubungan</Relation>
     <RelationName>Nama Hubungan</RelationName>
     <Relations>Hubungan</Relations>
     <RelativeHeight>Relatif Tinggi</RelativeHeight>
     <RelativeWidth>relatif Lebar</RelativeWidth>
+    <RememberSelection>Ingat Pilihan</RememberSelection>
     <RemoveUnusedDataBeforeStart>Hilangkan data yang tidak digunakan Sebelum Mulai</RemoveUnusedDataBeforeStart>
     <RenderTo>DIbuat Ke</RenderTo>
     <ReportAlias>Nama lain Laporan</ReportAlias>
@@ -4309,6 +4654,8 @@ Tempat Berpenduduk
     <ReportUnit>Unit Laporan</ReportUnit>
     <RequestFromUser>Meminta dari Pengguna</RequestFromUser>
     <RequestParameters>Meminta Parameter</RequestParameters>
+    <Required>Diperlukan</Required>
+    <ResetAllFilters>Atur Ulang Semua Filter</ResetAllFilters>
     <ResetDataSource>Mengulangi Sumber Data</ResetDataSource>
     <ResetPageNumber>Mengulangi Nomor Halaman</ResetPageNumber>
     <Resize>Mengukur Kembali</Resize>
@@ -4333,9 +4680,15 @@ Tempat Berpenduduk
     <RowHeadersVisible>Baris Header Terlihat</RowHeadersVisible>
     <RowHeaderWidth>Lebar Baris Header</RowHeaderWidth>
     <Rows>Baris</Rows>
+    <RowsPerPage>Baris per Halaman</RowsPerPage>
     <Scale>Skala</Scale>
     <ScaleHor>Skala Hor</ScaleHor>
     <ScriptLanguage>Bahasa Script</ScriptLanguage>
+    <ScriptTimeout>Batas Waktu Skrip</ScriptTimeout>
+    <ScrollTime>Waktu Gulir</ScrollTime>
+    <Second>Detik</Second>
+    <SegmentCount>Jumlah Segmen</SegmentCount>
+    <SegmentIndex>Indeks Segmen</SegmentIndex>
     <SegmentPerHeight>Tinggi per Bagian</SegmentPerHeight>
     <SegmentPerWidth>Lebar per Bagian</SegmentPerWidth>
     <SelectedBackColor>Warna Belakang yang Dipilih</SelectedBackColor>
@@ -4354,10 +4707,13 @@ Tempat Berpenduduk
     <SelectionEnabled>Pemilihan Diperbolehkan</SelectionEnabled>
     <SelectionForeColor>Pemilihan Warna Depan</SelectionForeColor>
     <SelectionMode>Mode Pemilihan</SelectionMode>
+    <SelectionType>Tipe Pilihan</SelectionType>
     <SelectStyle>Pilih Gaya</SelectStyle>
+    <SendType>Tipe Kirim</SendType>
     <SeparatorColor>Warna Pemisah</SeparatorColor>
     <SerialNumber>Nomor seri</SerialNumber>
     <Series>Seri</Series>
+    <SeriesBorderColor>Warna Batas Seri</SeriesBorderColor>
     <SeriesBorderThickness>Ketebalan Perbatasan Seri</SeriesBorderThickness>
     <SeriesColors>Warna Seri</SeriesColors>
     <SeriesCornerRadius>Radius Sudut Seri</SeriesCornerRadius>
@@ -4379,8 +4735,10 @@ Tempat Berpenduduk
     <ShiftMode>Mode Pergantian</ShiftMode>
     <ShortName>Nama pendek</ShortName>
     <ShortValue>Nilai Pendek</ShortValue>
+    <Show3D>Tampilkan 3D</Show3D>
     <ShowAllValue>Tampilkan Semua Nilai</ShowAllValue>
     <ShowBehind>Perlihatkan Di Belakang</ShowBehind>
+    <ShowBlanks>Tampilkan Kosong</ShowBlanks>
     <ShowBubble>Tampilkan Gelembung</ShowBubble>
     <ShowDialog>Perlihatkan Dialog</ShowDialog>
     <ShowEdgeValues>Perlihatkan Nilai Tepi</ShowEdgeValues>
@@ -4414,7 +4772,9 @@ Tempat Berpenduduk
     <ShowZeros>Pelrihatkan Nilai Nol</ShowZeros>
     <ShrinkFontToFit>Susutkan Huruf Hingga Pas</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Susutkan Huruf ke Ukuran Minimum</ShrinkFontToFitMinimumSize>
+    <ShrinkToFit>Ciutkan agar Pas</ShrinkToFit>
     <Side>Sisi</Side>
+    <SideBySide>Berdampingan</SideBySide>
     <Sides>Sisi</Sides>
     <SignatureType>Jenis</SignatureType>
     <Simple>Sederhana</Simple>
@@ -4428,17 +4788,22 @@ Tempat Berpenduduk
     <SkipValues>Lewati Nilai</SkipValues>
     <SkipValuesObj>Lewati Nilai</SkipValuesObj>
     <Smoothing>Penghalusan</Smoothing>
+    <SnapMode>Mode Jepret</SnapMode>
+    <SnapPageWidthToGrid>Jepret Lebar Halaman ke Kisi</SnapPageWidthToGrid>
     <Sort>Urut</Sort>
     <SortBy>Diurutkan Oleh</SortBy>
     <SortDirection>Urutan Arahan</SortDirection>
     <Sorted>Telah Diurutkan</Sorted>
     <SortingColumn>Pengurutan Kolom</SortingColumn>
     <SortingEnabled>Pengurutan Diperbolehkan</SortingEnabled>
+    <SortLetters>A-Z</SortLetters>
     <SortType>Tipe Urutan</SortType>
     <Space>Jarak</Space>
     <SpaceRatio>SRasio Ruang</SpaceRatio>
     <Spacing>Penentuan Jarak</Spacing>
+    <Sparkline>Sparkline</Sparkline>
     <SqlCommand>Perintah SQL</SqlCommand>
+    <Standard>Standar</Standard>
     <StartAngle>Sudut Mulai</StartAngle>
     <StartCap>Mulai Menutup</StartCap>
     <StartColor>Warna Mulai</StartColor>
@@ -4449,11 +4814,13 @@ Tempat Berpenduduk
     <StartPosition>Posisi Mulai</StartPosition>
     <StartValue>Nilai Awal</StartValue>
     <StartWidth>Lebar Awal</StartWidth>
+    <State>Status</State>
     <Step>Langkah</Step>
     <Stop>Berhenti</Stop>
     <StopBeforePage>Berhenti Sebelum Halaman</StopBeforePage>
     <StopBeforePrint>Berhenti Sebelum Pencetakan</StopBeforePrint>
     <StoreImagesInResources>Simpan Gambar dalam Sumber</StoreImagesInResources>
+    <StreetAddress>Alamat Jalan</StreetAddress>
     <Stretch>Perlebar</Stretch>
     <StretchToPrintArea>Perlebar Area Pencetakan</StretchToPrintArea>
     <Strikeout>Menyerang</Strikeout>
@@ -4465,6 +4832,7 @@ Tempat Berpenduduk
     <Style>Ragam</Style>
     <StyleColors>Ragam Warna</StyleColors>
     <Styles>Ragam</Styles>
+    <SubmissionMessage>Pesan Pengiriman</SubmissionMessage>
     <SubReportPage>Halaman Sub Laporan</SubReportPage>
     <Summaries>Ringkasan</Summaries>
     <Summary>Ringkasan</Summary>
@@ -4485,6 +4853,7 @@ Tempat Berpenduduk
     <TagValue>Nilai Pengingat</TagValue>
     <Target>Sasaran</Target>
     <TargetColor>Warna Targetr</TargetColor>
+    <TargetFormat>Format Target</TargetFormat>
     <TargetIcon>Ikon Sasaran</TargetIcon>
     <TargetMode>Modus Target</TargetMode>
     <TargetSettings>Sasaran</TargetSettings>
@@ -4493,13 +4862,22 @@ Tempat Berpenduduk
     <TextAfter>Tulisan Setelah</TextAfter>
     <TextAlign>Ratakan Tulisan</TextAlign>
     <TextAlignment>Perataan Tulisan</TextAlignment>
+    <TextAngle>Sudut Teks</TextAngle>
     <TextBefore>Sebelum Tulisan</TextBefore>
     <TextBrush>Sikat Tulisan</TextBrush>
     <TextColor>Warna Tulisan</TextColor>
+    <TextEnabled>Teks Diaktifkan</TextEnabled>
+    <TextFont>Font Teks</TextFont>
     <TextFormat>Format Tulisan</TextFormat>
     <TextOnly>Hanya Tulisan</TextOnly>
     <TextOptions>Pilihan Tulisan</TextOptions>
+    <TextPlacement>Penempatan Teks</TextPlacement>
     <TextQuality>Kualitas Tulisan</TextQuality>
+    <TextRightToLeft>Teks Kanan ke Kiri</TextRightToLeft>
+    <TextShowBehind>Teks Tampil di Belakang</TextShowBehind>
+    <Third>Ketiga</Third>
+    <ThumbBorderColor>Warna Batas Penggeser</ThumbBorderColor>
+    <ThumbColor>Warna Penggeser</ThumbColor>
     <TickLabelMajorFont>Centang Label Huruf Utama</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Tick Label Major Text Brush</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Tick Label Minor Font</TickLabelMinorFont>
@@ -4511,12 +4889,13 @@ Tempat Berpenduduk
     <TickMarkMinorBorderWidth>Centang Tandai Minor Border Width</TickMarkMinorBorderWidth>
     <TickMarkMinorBrush>Tanda Centang Kuas Kecil</TickMarkMinorBrush>
     <Ticks>Mencentang</Ticks>
-    <Tipemap>Jenis Peta</Tipemap>
-    <Title>Judul</Title>
+    <Title>Data Adapter from NuGet</Title>
+    <TitleBackColor>Warna Latar Judul</TitleBackColor>
     <TitleBeforeHeader>Judul Sebelum Header</TitleBeforeHeader>
     <TitleColor>Warna Judul</TitleColor>
     <TitleDirection>Petunjuk Judul</TitleDirection>
     <TitleFont>Huruf Judul</TitleFont>
+    <TitleForeColor>Warna Depan Judul</TitleForeColor>
     <TitleVisible>Terlihat</TitleVisible>
     <To>Ke</To>
     <Today>Hari Ini</Today>
@@ -4525,6 +4904,7 @@ Tempat Berpenduduk
     <ToolTipBrush>Kuas Ujung Alat</ToolTipBrush>
     <ToolTipCornerRadius>Jari-jari Sudut Ujung Alat</ToolTipCornerRadius>
     <ToolTipDataColumn>Kata Bantu Kolom Data</ToolTipDataColumn>
+    <ToolTipText>Teks Kiat Alat</ToolTipText>
     <ToolTipTextBrush>Kuas Teks Ujung Alat</ToolTipTextBrush>
     <Top>Atas</Top>
     <TopLeft>Kiri Atas</TopLeft>
@@ -4555,19 +4935,24 @@ Tempat Berpenduduk
     <Underline>Garis Bawah</Underline>
     <UndoLimit>Kembalikan Batas</UndoLimit>
     <Unit>Unit</Unit>
+    <UnitAlignment>Perataan Unit</UnitAlignment>
     <UnlimitedBreakable>Pemecahan Terus Menerus</UnlimitedBreakable>
     <UnlimitedHeight>Tinggi Tak Terbatas</UnlimitedHeight>
     <UnlimitedWidth>Lebar Tak Terbatas</UnlimitedWidth>
     <UpperMarks>Tanda Atas</UpperMarks>
+    <URL>URL</URL>
     <UseAliases>Gunakan Nama Lain</UseAliases>
     <UseExternalReport>Gunakan Laporan Luar</UseExternalReport>
     <UseParentStyles>Gunakan Ragam Bentuk Dari Induk</UseParentStyles>
     <UseRangeColor>Gunakan Rentang Warna</UseRangeColor>
+    <UserBingKey>Kunci Bing Pengguna</UserBingKey>
     <UseRectangularSymbols>Gunakan Simbol Bujur Snagkar</UseRectangularSymbols>
     <UseSeriesColor>Gunakan Seri Warna</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Gunakan Ragam Ringkasan pada Kolom Total</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Gunakan Ragam Ringkasan pada Total Baris</UseStyleOfSummaryInRowTotal>
+    <UseUserPicture>Gunakan Gambar Pengguna</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Gunakan Nilai Dari Range Tertentu</UseValuesFromTheSpecifiedRange>
+    <Validation>Validasi</Validation>
     <Value>Nilai</Value>
     <ValueClose>Nilai Tertutup</ValueClose>
     <ValueDataColumn>Nilai Data Kolom</ValueDataColumn>
@@ -4592,22 +4977,39 @@ Tempat Berpenduduk
     <VertAlignment>Perataan Vertikal</VertAlignment>
     <VertSpacing>Jarak Vertikal</VertSpacing>
     <ViewMode>Mode Penglihatan</ViewMode>
+    <Visibility>Visibilitas</Visibility>
     <Visible>Terlihat</Visible>
     <VisualStates>Status Visual</VisualStates>
     <Watermark>Cap Basah</Watermark>
+    <WatermarkStyle>Gaya Tanda Air</WatermarkStyle>
+    <WeaveAngle>Sudut Anyaman</WeaveAngle>
+    <WeaveDistance>Jarak Anyaman</WeaveDistance>
+    <WeaveEnabled>Anyaman Diaktifkan</WeaveEnabled>
+    <WeaveMajorColor>Warna Anyaman Utama</WeaveMajorColor>
+    <WeaveMajorIcon>Ikon Anyaman Utama</WeaveMajorIcon>
+    <WeaveMajorSize>Ukuran Anyaman Utama</WeaveMajorSize>
+    <WeaveMinorColor>Warna Anyaman Minor</WeaveMinorColor>
+    <WeaveMinorIcon>Ikon Anyaman Minor</WeaveMinorIcon>
+    <WeaveMinorSize>Ukuran Anyaman Minor</WeaveMinorSize>
     <Weight>Berat</Weight>
     <WeightDataColumn>Berat Data Kolom</WeightDataColumn>
     <Weights>Berat</Weights>
     <Width>Lebar</Width>
     <WindowState>Penamaam Jendela</WindowState>
+    <WinLossNegative>Menang Kalah Negatif</WinLossNegative>
+    <WinLossPositive>Menang Kalah Positif</WinLossPositive>
     <WordWrap>Kelilingi Kata</WordWrap>
     <Wrap>Tutupi</Wrap>
     <WrapGap>Tutupi Jarak</WrapGap>
     <WrapLine>Garis Bungkus</WrapLine>
     <XAxis>Sumbu X</XAxis>
     <XTopAxis>SUmbu X Atas</XTopAxis>
+    <XValue>Nilai X</XValue>
+    <XValuesDataColumn>Kolom Data Nilai X</XValuesDataColumn>
     <YAxis>Sumbu Y</YAxis>
     <YRightAxis>Sumbu Y Kanan</YRightAxis>
+    <YValue>Nilai Y</YValue>
+    <YValuesDataColumn>Kolom Data Nilai Y</YValuesDataColumn>
     <ZeroColor>Nol Warna</ZeroColor>
     <Zoom>Perbesar</Zoom>
   </PropertyMain>
@@ -4669,7 +5071,6 @@ Tempat Berpenduduk
     <Expressions>Expressions</Expressions>
     <InsertEmptyItem>Masukkan objek kosong</InsertEmptyItem>
     <JoinExpression>Join Expression</JoinExpression>
-    <Koleksi>Koleksi</Koleksi>
     <LabelAlias>Alias:</LabelAlias>
     <LabelFilterObjectsBySchemaName>Saring objek berdasar nama skema:</LabelFilterObjectsBySchemaName>
     <LabelJoinExpression>Join Expression:</LabelJoinExpression>
@@ -4710,6 +5111,8 @@ Tempat Berpenduduk
   </QueryBuilder>
   <Questions>
     <qnConfiguration>Silahkan pilih tipe konfigurasi untuk panel propertis. Tipe dari konfigurasi yang terpilih tergantung dari properti yang terlihat dan tingkat kesulitan untuk para pengembang laporan. Anda juga dapat merubah tipe konfigurasi dari konteks menu di panel properti.</qnConfiguration>
+    <qnCopyCategory>Apakah Anda ingin menyalin semua variabel dari kategori ini?</qnCopyCategory>
+    <qnCovertColumnType>Anda telah mengubah tipe kolom. Apakah Anda ingin mengaktifkan transformasi data kolom untuk sumber data ini?</qnCovertColumnType>
     <qnDictionaryNew>Anda ingin membuat kamus baru?</qnDictionaryNew>
     <qnLanguageNew>Anda telah merubah bahasa dari laporan. Ini akan mengakibatkan perubahan bahasa pada kode laporan. Yakin anda ingin menyimpan bahasa ini?</qnLanguageNew>
     <qnPageDelete>Anda ingin menghapus halaman?</qnPageDelete>
@@ -4727,6 +5130,7 @@ Tempat Berpenduduk
   <RecentFiles>
     <AddAPlace>Tambahkan Tempat</AddAPlace>
     <AddAPlaceDesc>Anda dapat menambahkan lokasi untuk mempermudah penyimpanan Laporan ke penyimpanan.</AddAPlaceDesc>
+    <ChangeFileType>Ubah tipe file</ChangeFileType>
     <ChooseALocation>Pilih Lokasi</ChooseALocation>
     <ClearUnpinnedItems>Clear unpinned items</ClearUnpinnedItems>
     <CopyPathToClipboard>Hapus item yang tidak disematkan</CopyPathToClipboard>
@@ -4756,7 +5160,9 @@ Tempat Berpenduduk
   <Report>
     <ActiveRelation>Hubungan Aktif</ActiveRelation>
     <Address>Alamat</Address>
+    <Alpha>Alfa</Alpha>
     <Alphabetical>Alfabet</Alphabetical>
+    <AlphaNumeric>Alfanumerik</AlphaNumeric>
     <Bands>Bands</Bands>
     <Basic>Dasar</Basic>
     <BasicConfiguration>Jumlah Minimal dari properti objek, yang diperlukan untuk pembuatan tipe laporan dasar.</BasicConfiguration>
@@ -4764,9 +5170,13 @@ Tempat Berpenduduk
     <Categorized>Kategori</Categorized>
     <Charts>Grafik</Charts>
     <Checking>Memeriksa...</Checking>
+    <ClickAddToCreateNewAction>Klik 'Tambah' untuk menentukan apa yang terjadi saat peristiwa ini terjadi (mis., menampilkan layar atau mengubah nilai).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Klik untuk detail lebih lanjut</ClickForMoreDetails>
+    <ClickHereToCreateNewCondition>untuk membuat kondisi baru</ClickHereToCreateNewCondition>
+    <ClickHereToCreateNewField>untuk membuat bidang baru</ClickHereToCreateNewField>
     <CollapseAll>Collapse All</CollapseAll>
     <Collection>Koleksi</Collection>
+    <CompilationAccess>Akses Kompilasi</CompilationAccess>
     <CompilingReport>Sedang mengkompilasi Laporan</CompilingReport>
     <Complete>Lengkap</Complete>
     <Components>Komponen</Components>
@@ -4775,11 +5185,16 @@ Tempat Berpenduduk
     <CreateNewReportPageForm>Buat satu Laporan Baru, tambahkan satu halaman, tambahkan satu form</CreateNewReportPageForm>
     <CreatingReport>Sedang Membuat Laporan</CreatingReport>
     <CrossBands>Cross Bands</CrossBands>
+    <CustomRange>Rentang Kustom</CustomRange>
+    <DashboardOnly>Hanya Dasbor dan Transformasi Data</DashboardOnly>
     <Dialogs>Dialog</Dialogs>
     <EditStyles>Edit Styles</EditStyles>
+    <Email>Email</Email>
+    <EnableCacheAllDataMode>Aktifkan mode 'Cache All Data'</EnableCacheAllDataMode>
     <Enhancements>Peningkatan</Enhancements>
     <EnterDataManually>Masukkan data secara manual</EnterDataManually>
     <Errors>Errors</Errors>
+    <EventsAccess>Akses Peristiwa</EventsAccess>
     <EventsTab>Tab Event</EventsTab>
     <ExpandAll>Expand All</ExpandAll>
     <FilterAnd>Dan</FilterAnd>
@@ -4791,10 +5206,13 @@ Tempat Berpenduduk
     <FromDefaultState>Dari Status Default</FromDefaultState>
     <Gallery>Galeri</Gallery>
     <GenerateNewCode>Hasilkan Kode Baru</GenerateNewCode>
+    <HideUnlistedExportsInTheViewer>Sembunyikan Ekspor Tidak Terdaftar di Penampil</HideUnlistedExportsInTheViewer>
     <History>Riwayat</History>
+    <IfEmpty>Jika {0} Kosong</IfEmpty>
     <Infographics>Infografis</Infographics>
     <InfoMessage>{0} - {1} Ditemukan.</InfoMessage>
     <InformationMessages>Pesan Informasi</InformationMessages>
+    <IpAddress>Alamat IP</IpAddress>
     <LabelAlias>Alias:</LabelAlias>
     <LabelAuthor>Penulis:</LabelAuthor>
     <LabelBackground>Background:</LabelBackground>
@@ -4802,7 +5220,6 @@ Tempat Berpenduduk
     <LabelCentimeters>Centimeter:</LabelCentimeters>
     <LabelCollectionName>Nama Koleksi:</LabelCollectionName>
     <LabelColor>Warna:</LabelColor>
-    <LabelCommandTimeout>Batas waktu perintah:</LabelCommandTimeout>
     <LabelCountData>Hitung Data:</LabelCountData>
     <LabelDataBand>DataBand:</LabelDataBand>
     <LabelDataColumn>Kolom Data:</LabelDataColumn>
@@ -4819,6 +5236,7 @@ Tempat Berpenduduk
     <LabelNestedLevel>Nested Level:</LabelNestedLevel>
     <LabelPassword>Kata Kunci:</LabelPassword>
     <LabelPixels>Pixels:</LabelPixels>
+    <LabelPlatform>Jika platform-nya .NET, skrip C# akan digunakan. Jika platform-nya JS, maka JavaScript akan digunakan.</LabelPlatform>
     <LabelQueryTimeout>Batas Waktu Kueri:</LabelQueryTimeout>
     <LabelSystemVariable>System Variable:</LabelSystemVariable>
     <LabelTableOfContentsHint>Tolong, periksa komponen yang harus membentuk daftar isi. Satu komponen sama dengan satu level heading.</LabelTableOfContentsHint>
@@ -4838,6 +5256,7 @@ Tempat Berpenduduk
     <Obsoleted>Obsoleted</Obsoleted>
     <Office2010Back>Kembali</Office2010Back>
     <PageNofM>Halaman {0} dari {1}</PageNofM>
+    <Phone>Telepon</Phone>
     <PreparingReport>Sedang mempersiapkan laporan</PreparingReport>
     <Professional>Professional</Professional>
     <ProfessionalConfiguration>Properti semua objek.</ProfessionalConfiguration>
@@ -4852,8 +5271,12 @@ Tempat Berpenduduk
     <RestartDesigner>Anda perlu merestart Report Designer</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Simpan laporan, halaman atau form</SaveReportPagesOrFormsFromReport>
     <SavingReport>Sedang Menyimpan Laporan</SavingReport>
+    <ScriptEvalAccess>Akses Eval Skrip</ScriptEvalAccess>
+    <ScriptSecurity>Keamanan Skrip</ScriptSecurity>
     <SecondPass>Pass Kedua</SecondPass>
     <Shapes>Bentuk</Shapes>
+    <ShowIncompatibleTypes>Tampilkan Tipe Tidak Kompatibel</ShowIncompatibleTypes>
+    <ShowOnParametersPanel>Tampilkan pada Panel Parameter</ShowOnParametersPanel>
     <Standard>Standar</Standard>
     <StandardConfiguration>Properti Object Utama Kecuali satu yang jarang digunakan.</StandardConfiguration>
     <StiEmptyBrush>Kosong</StiEmptyBrush>
@@ -4862,6 +5285,9 @@ Tempat Berpenduduk
     <StiGradientBrush>Gradient</StiGradientBrush>
     <StiHatchBrush>Menetas</StiHatchBrush>
     <StiSolidBrush>Padat</StiSolidBrush>
+    <StoresPrintingOutputToAFile>Menyimpan Keluaran Cetak ke File</StoresPrintingOutputToAFile>
+    <StoreUserFirstLastNameInReportAuthor>Simpan Nama Depan dan Nama Belakang Pengguna di 'Report Author'</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>Simpan 'User Name' di 'Report Author'</StoreUserNameInReportAuthor>
     <StyleBad>Buruk</StyleBad>
     <StyleGood>Bagus</StyleGood>
     <StyleNeutral>Netral</StyleNeutral>
@@ -4872,6 +5298,7 @@ Tempat Berpenduduk
     <VisualChecked>Diperiksa</VisualChecked>
     <VisualDefault>Bawaan</VisualDefault>
     <VisualDisabled>Disabled</VisualDisabled>
+    <VisualFocused>Terfokus</VisualFocused>
     <VisualHover>Arahkan kursor</VisualHover>
     <VisualPressed>Ditekan</VisualPressed>
     <Warnings>Peringatan</Warnings>
@@ -5023,17 +5450,36 @@ Tempat Berpenduduk
     <VerticalLine>Garis Vertikal</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Hapus Tanda Tangan</ClearSignature>
     <DigitalSignatureEmptyWatermark>Tempatkan tanda tangan digital di PDF Viewer</DigitalSignatureEmptyWatermark>
-    <FullName>Nama Lengkap</FullName>
-    <Initials>Inisial</Initials>
     <InsertImage>Masukan Gambar</InsertImage>
     <InsertText>Sisipkan Teks</InsertText>
     <LoadSignature>Muat tanda tangan</LoadSignature>
     <NoSavedItems>Tidak ada item yang disimpan</NoSavedItems>
+    <PdfDigitalSignatureTitle>Pilih objek yang ingin Anda tampilkan dalam tanda tangan pada file PDF.</PdfDigitalSignatureTitle>
     <SaveSignature>Simpan tanda tangan</SaveSignature>
     <SignatureSavedSuccessfully>Tanda tangan berhasil disimpan.</SignatureSavedSuccessfully>
     <UseBrush>Gunakan Kuas</UseBrush>
   </Signature>
+  <StimulAI>
+    <AskStimulAI>Tanya Stimul AI</AskStimulAI>
+    <Assistant>Asisten</Assistant>
+    <ChangedWithAI>Ubah dengan Stimul AI</ChangedWithAI>
+    <CheckExpressionSuccess>Tidak ditemukan masalah pada ekspresi yang ditentukan.</CheckExpressionSuccess>
+    <CheckQuery>Periksa Kueri</CheckQuery>
+    <CheckWithStimulAI>Periksa dengan Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Klik untuk Pratinjau</ClickToPreview>
+    <ConnectionStringExampleWithAI>Contoh string koneksi dengan Stimul AI</ConnectionStringExampleWithAI>
+    <ConnectionStringTesting>Pengujian string koneksi</ConnectionStringTesting>
+    <ExplainQuery>Jelaskan Kueri</ExplainQuery>
+    <FixWithAI>Perbaiki dengan Stimul AI</FixWithAI>
+    <GenerateNewQuery>Hasilkan Kueri Baru</GenerateNewQuery>
+    <OptimizeQuery>Optimalkan Kueri</OptimizeQuery>
+    <QueryWithStimulAI>Kueri dengan Stimul AI</QueryWithStimulAI>
+    <Translate>Terjemahkan menggunakan Stimul AI</Translate>
+    <Try>Coba dengan Stimul AI</Try>
+    <TryConvertScriptToBlockly>Coba konversi skrip {0} sebelumnya menjadi skrip {1}.</TryConvertScriptToBlockly>
+  </StimulAI>
   <SystemVariables>
     <Column>Pada Nomor Kolom ini (Mulai Dari 1).</Column>
     <GroupLine>Pada Nomer Garis Grup  Ini (Mulai Dari 1).</GroupLine>
@@ -5046,6 +5492,7 @@ Tempat Berpenduduk
     <LineRoman>Pada Garis Nomor Ini dalam Nomer Roman.</LineRoman>
     <LineThrough>Pada Garis Nomor Ini (Mulai Dari 1). Ketika menghitung Nomer, Semua Group akan dihiraukan dan perhitungan mulai dari Permulaan Pencetakan.</LineThrough>
     <PageCopyNumber>Kembali ke nomor dari salinan halaman ini (dimulai dari 1).</PageCopyNumber>
+    <PageLine>Mengembalikan nomor baris saat ini pada halaman (dimulai dari 1).</PageLine>
     <PageNofM>Menghasilkan Format Lokal, Menunjukkan "Halaman N dari M" dimana N adalah Nomor Halaman Ini dan M adalah TotalPageCount dari Laporan.</PageNofM>
     <PageNofMThrough>Menghasilkan Format Lokal, Menunjukkan "Halaman N dari M" dimana N adalah Nomor Halaman Ini dan M adalah TotalPageCount dari Laporan. Ketika Menghitung PageNofMThrough, Semua Properti ResetPageNumber akan dihiraukan dan Penoomoran Akan Dimulai dari Awal Laporan.</PageNofMThrough>
     <PageNumber>Pada Nomor Halaman Ini (Mulai dari 1).</PageNumber>
@@ -5102,6 +5549,7 @@ Tempat Berpenduduk
     <FontSize>Ukuran Huruf</FontSize>
     <FontStyleBold>Tebal</FontStyleBold>
     <FontStyleItalic>Miring</FontStyleItalic>
+    <FontStyleStrikeout>Gaya Font Coret</FontStyleStrikeout>
     <FontStyleUnderline>Garis Bawah</FontStyleUnderline>
     <Link>Tautan</Link>
     <Lock>Kunci</Lock>
@@ -5113,6 +5561,9 @@ Tempat Berpenduduk
     <MoveBackward>Mundurkan</MoveBackward>
     <MoveForward>Majukan</MoveForward>
     <Order>Permintaan</Order>
+    <RibbonClassic>Pita Klasik</RibbonClassic>
+    <RibbonLayout>Tata Letak Ribbon</RibbonLayout>
+    <RibbonSingleLine>Ribbon Satu Baris</RibbonSingleLine>
     <SendToBack>Kirim kembali</SendToBack>
     <Size>Ukuran</Size>
     <StyleDesigner>Desain Bentuk</StyleDesigner>
@@ -5147,6 +5598,21 @@ Tempat Berpenduduk
     <TextEditor>Text Editor</TextEditor>
     <title>Toolbox</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Nama Argumen</ArgumentName>
+    <ArgumentType>Tipe Argumen</ArgumentType>
+    <CheckScript>Periksa Skrip</CheckScript>
+    <ConvertScript>Konversi Skrip</ConvertScript>
+    <CustomCategory>Kategori Kustom</CustomCategory>
+    <EditCode>Edit Kode</EditCode>
+    <EditWithBlockly>Edit dengan blockly</EditWithBlockly>
+    <ReturnType>Tipe Kembali</ReturnType>
+    <Script>Skrip</Script>
+    <ScriptMode>Mode Skrip</ScriptMode>
+    <Title>Judul</Title>
+    <UserFunctionEdit>Edit Fungsi Pengguna</UserFunctionEdit>
+    <UserFunctionNew>Fungsi Pengguna Baru</UserFunctionNew>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Apakah Anda yakin ingin menutup jendela ini? Semua unduhan akan dibatalkan.</AllDownloadsWillCanceled>
     <Description>Kami telah memilih untuk Anda laporan yang menurut kami terbaik untuk memulai dengan cepat.</Description>
@@ -5158,6 +5624,8 @@ Tempat Berpenduduk
     <Title>Selamat datang di Demo Stimulsoft</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Dasbor yang Dihasilkan AI</AIGeneratedDashboard>
+    <AIGeneratedReport>Laporan yang Dihasilkan AI</AIGeneratedReport>
     <BlankDashboard>Dasbor Kosong</BlankDashboard>
     <BlankForm>Formulir Kosong</BlankForm>
     <BlankReport>Laporan Kosong</BlankReport>
@@ -5168,13 +5636,17 @@ Tempat Berpenduduk
     <ButtonNext>&amp;Selanjutnya &gt;</ButtonNext>
     <ColumnsOrder>Permintaan Kolom</ColumnsOrder>
     <Company>Perusahaan</Company>
+    <CreateDataManually>Buat data secara manual</CreateDataManually>
     <Custom>Custom</Custom>
     <DataRelation>Hubungan</DataRelation>
     <DataSource>Sumber Data</DataSource>
     <DataSources>Data Sources</DataSources>
     <DefaultThemes>Tema Pilihan</DefaultThemes>
+    <EditUserSource>Edit Sumber Pengguna</EditUserSource>
+    <Examples>Contoh</Examples>
     <Filters>Saring</Filters>
     <FromReportTemplate>Dari Template Laporan</FromReportTemplate>
+    <GenerateDataWithAI>Hasilkan Data dengan AI</GenerateDataWithAI>
     <GetData>Dapatkan Data</GetData>
     <groupCreateNewDashboard>Buat Dashboard Baru</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Buat Halaman Baru atau Form</groupCreateNewPageOrForm>
@@ -5216,6 +5688,7 @@ Tempat Berpenduduk
     <Mapping>Pemetaan</Mapping>
     <MarkAll>Mark &amp;Semua</MarkAll>
     <MasterDetailReport>Laporan Master-Detail</MasterDetailReport>
+    <NewUserSource>Sumber Pengguna Baru</NewUserSource>
     <NoFunction>[Tidak ada]</NoFunction>
     <OpenExistingReport>Buka Laporan yang sudah ada</OpenExistingReport>
     <OpenFrom>Buka Dari {0}</OpenFrom>
@@ -5225,8 +5698,10 @@ Tempat Berpenduduk
     <RunWizard>Run Wizard</RunWizard>
     <SelectColumns>Pilih Kolom</SelectColumns>
     <SelectTemplate>Tampilan</SelectTemplate>
+    <SelectTypeOfLayout>Silakan pilih tipe tata letak</SelectTypeOfLayout>
     <Sort>Urutkan</Sort>
     <StandardReport>Laporan Standart</StandardReport>
+    <SuggestWithAI>Sarankan dengan AI</SuggestWithAI>
     <Themes>tema</Themes>
     <title>Laporan Baru</title>
     <Totals>Total</Totals>

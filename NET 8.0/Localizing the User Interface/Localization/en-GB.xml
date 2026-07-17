@@ -97,7 +97,7 @@
   <Blockly>
     <AllComponents>All Components</AllComponents>
     <AllComponentsFrom>All Components from</AllComponentsFrom>
-    <ColorHex>Color Hex</ColorHex>
+    <ColorHex>Colour Hex</ColorHex>
     <ColumnName>Column Name</ColumnName>
     <DateTime>Date Time</DateTime>
     <GetComponentByName>Get Component by Name</GetComponentByName>
@@ -284,6 +284,8 @@
     <Pictorial>Pictorial</Pictorial>
     <PictorialStacked>Pictorial Stacked</PictorialStacked>
     <Pie>Pie</Pie>
+    <Polar>Polar</Polar>
+    <PolarStacked>Polar Stacked</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Radar Area</RadarArea>
     <RadarColumn>Radar Column</RadarColumn>
@@ -409,7 +411,7 @@
     <AddAPlace>Add a Place</AddAPlace>
     <AreYouSureYouWantDeleteReport>Are you sure you want to delete "{0}" report from disk?</AreYouSureYouWantDeleteReport>
     <Authorize>Authorise</Authorize>
-    <AuthorizeWithLicenseKey>Authorise with License Key</AuthorizeWithLicenseKey>
+    <AuthorizeWithLicenseKey>Authorise with Licence Key</AuthorizeWithLicenseKey>
     <ButtonChangePassword>Change Password</ButtonChangePassword>
     <ButtonDeleteAll>Delete All</ButtonDeleteAll>
     <ButtonDesign>Design Report</ButtonDesign>
@@ -494,9 +496,9 @@
     <LabelShowReport>Show report:</LabelShowReport>
     <LabelStartDate>Start Date:</LabelStartDate>
     <labelUserName>User Name:</labelUserName>
-    <License>License</License>
-    <LicenseInformation>License Information</LicenseInformation>
-    <LicenseKey>License Key</LicenseKey>
+    <License>Licence</License>
+    <LicenseInformation>Licence Information</LicenseInformation>
+    <LicenseKey>Licence Key</LicenseKey>
     <Login>Log in</Login>
     <MyAccount>My Account</MyAccount>
     <MyCloud>My Cloud</MyCloud>
@@ -561,7 +563,7 @@
     <TextLastName>Last Name</TextLastName>
     <TextModify>Modify</TextModify>
     <TextNewsLetters>News Letters</TextNewsLetters>
-    <TextNoFavoriteFiles>No favorite files</TextNoFavoriteFiles>
+    <TextNoFavoriteFiles>No favourite files</TextNoFavoriteFiles>
     <TextNoFiles>No files</TextNoFiles>
     <TextNoNotifications>No Notifications</TextNoNotifications>
     <TextNoRecentFiles>No recent files</TextNoRecentFiles>
@@ -741,6 +743,7 @@
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
     <BeforeTransformation>Apply before data transformation</BeforeTransformation>
+    <BindData>Bind to Data</BindData>
     <Blank>(Blank)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
@@ -949,13 +952,15 @@
     <StiListControl>List</StiListControl>
     <StiListViewControl>List View</StiListViewControl>
     <StiLookUpBoxControl>LookUp Box</StiLookUpBoxControl>
+    <StiMultiListControl>Multi List</StiMultiListControl>
+    <StiMultiSelectControl>Multi Select</StiMultiSelectControl>
     <StiNumberInputControl>Number Input</StiNumberInputControl>
     <StiNumericUpDownControl>Numeric Up Down</StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Picture Box</StiPictureBoxControl>
     <StiRadioButtonControl>Radio Button</StiRadioButtonControl>
-    <StiRadioControl>Radio</StiRadioControl>
     <StiRadioGroupControl>Radio Group</StiRadioGroupControl>
+    <StiRangeSliderControl>Range Slider</StiRangeSliderControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
     <StiSelectControl>Select</StiSelectControl>
@@ -988,10 +993,12 @@
     <MatchCase>Match &amp;Case</MatchCase>
     <MatchWholeWord>Match &amp;Whole Word</MatchWholeWord>
     <MaximumDimensions>Maximum 7 dimensions can be selected.</MaximumDimensions>
+    <NotFound>Not Found</NotFound>
     <Outlining>Out&amp;lining</Outlining>
     <PromptOnReplace>Prompt on Replace</PromptOnReplace>
     <Replace>&amp;Replace</Replace>
     <ReplaceAll>Replace &amp;All</ReplaceAll>
+    <Replaced>Replaced: {0}</Replaced>
     <ReplaceWith>Replace With:</ReplaceWith>
     <Search>Search</Search>
     <SearchHiddenText>Hidden Text</SearchHiddenText>
@@ -1127,7 +1134,7 @@
     <ImageCompressionMethod>Image Compression Method:</ImageCompressionMethod>
     <ImageCutEdges>Cut Edges</ImageCutEdges>
     <ImageFormat>Image Format:</ImageFormat>
-    <ImageGrayscale>Grayscale</ImageGrayscale>
+    <ImageGrayscale>Greyscale</ImageGrayscale>
     <ImageMonochrome>Monochrome</ImageMonochrome>
     <ImageQuality>Image Quality:</ImageQuality>
     <ImageResolution>Image Resolution:</ImageResolution>
@@ -1350,7 +1357,7 @@
     <DB2Edit>Edit IBM DB2 Connection</DB2Edit>
     <DB2New>New IBM DB2 Connection</DB2New>
     <EditConnection>Edit {0} Connection</EditConnection>
-    <Favorites>Favorites</Favorites>
+    <Favorites>Favourites</Favorites>
     <FirebirdEdit>Edit Firebird Connection</FirebirdEdit>
     <FirebirdNew>New Firebird Connection</FirebirdNew>
     <FirstRowIsHeader>First Row is Header</FirstRowIsHeader>
@@ -1730,7 +1737,7 @@
     <AddCollectionName>Add Collection Name</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>Apply Style Collection to Report Components</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Apply Styles</ApplyStyles>
-    <ColorCollectionEditor>Color Collection Editor</ColorCollectionEditor>
+    <ColorCollectionEditor>Colour Collection Editor</ColorCollectionEditor>
     <CreateNewComponentStyle>to create the new component style</CreateNewComponentStyle>
     <CreateStyleCollection>Create Style Collection</CreateStyleCollection>
     <CreateStyleOnBase>Create a style based on another style</CreateStyleOnBase>
@@ -1886,7 +1893,7 @@
     <TickCustomValue>Tick Custom Value</TickCustomValue>
   </Gauge>
   <Gui>
-    <AccentColor>Accent Color</AccentColor>
+    <AccentColor>Accent Colour</AccentColor>
     <barname_cancel>Cancel</barname_cancel>
     <barname_caption>New Toolbar</barname_caption>
     <barname_msginvalidname>Toolbar name cannot be empty.</barname_msginvalidname>
@@ -1980,10 +1987,13 @@
   <HelpComponents>
     <StiBarCode>This component allows showing bar codes in a report. Bar code data are sent to an object as a string. The string may contain any symbols but only allowed symbols for the selected chart can be displayed.</StiBarCode>
     <StiButtonElement>This component is used to execute an event script when a user is interacting.</StiButtonElement>
+    <StiButtonUI>&gt;A button used to trigger an action or execute a command.</StiButtonUI>
     <StiCardsElement>This component is used to display grouped data as cards.</StiCardsElement>
     <StiChart>This component allows showing charts in a report. Different types of charts are available. Among them are bar, line, pie, doughnut, lines, areas, Gantt, scatter charts etc. </StiChart>
     <StiChartElement>This element allows showing charts in a dashboard. Different types of charts are available.</StiChartElement>
     <StiCheckBox>This component allows showing a checkbox in a report. It can display two modes: "enable" or "disable".</StiCheckBox>
+    <StiCheckBoxGroupUI>A checkbox group used to select multiple predefined options from a list.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>A checkbox used to switch a single option on or off quickly.</StiCheckBoxUI>
     <StiChildBand>The Child band can be used to output two bands on one data row.</StiChildBand>
     <StiClone>This component is used to clone parts of a report into a required part of a report. Cloning can be applied only to the panel contents.</StiClone>
     <StiColumnFooterBand>This band is used to output footers of columns on the Data band. The Column Footer band is output once under each column. All components which are placed on this band will also be output under each column.</StiColumnFooterBand>
@@ -1998,6 +2008,7 @@
     <StiCrossTab>The cross-tab component is used for the structured data representation as a table.</StiCrossTab>
     <StiDataBand>The Data band is connected to the data source and is output as many times as there are rows in the data source.</StiDataBand>
     <StiDatePickerElement>The element is used to select the date and time.</StiDatePickerElement>
+    <StiDatePickerUI>A date picker for selecting a date from a calendar.</StiDatePickerUI>
     <StiElectronicSignature>This component is used to add a graphic signature, image, initials, and text.</StiElectronicSignature>
     <StiEmptyBand>This band is used to fill free space on the bottom of a page. This band fills free space on each page of a report.</StiEmptyBand>
     <StiFilterCategory>A group of elements used for selecting and filtering values.</StiFilterCategory>
@@ -2009,48 +2020,64 @@
     <StiHeaderBand>This band is used to output headers. It is used together with the data band.</StiHeaderBand>
     <StiHierarchicalBand>This band is connected to the data source and output as many times as there are rows in the data source. Data are output as a tree.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>This component is used to output a line.</StiHorizontalLinePrimitive>
+    <StiIconUI>An icon used to display a symbolic graphic or visual marker.</StiIconUI>
     <StiImage>This component is used to output images. It supports the following graphic formats, such as BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>This element is used to output images. It supports the following graphic formats, such as BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>An image used to display graphic content inside the interface.</StiImageUI>
     <StiIndicatorElement>The element displays the difference in values between the input data.</StiIndicatorElement>
+    <StiLabelUI>A label used to display text or short captions.</StiLabelUI>
     <StiListBoxElement>The element allows selecting items from a list.</StiListBoxElement>
+    <StiListUI>A list used to display selectable items in a vertical collection.</StiListUI>
     <StiMap>This component is used to display data that is geographically targeted.</StiMap>
     <StiMapCategory>Group of elements for working with maps and data.</StiMapCategory>
     <StiMapElement>This element is used to display data that is geographically targeted.</StiMapElement>
     <StiMathFormula>This component is used to display math formulas in a report.</StiMathFormula>
+    <StiMultiListUI>A list used to select multiple items from the same collection.</StiMultiListUI>
+    <StiMultiSelectUI>A selector used to choose multiple values from a prepared list.</StiMultiSelectUI>
     <StiNumberBoxElement>This element is used to select a numeric value or set a range of numeric values.</StiNumberBoxElement>
+    <StiNumberInputUI>A number input used to enter numeric values with controlled input.</StiNumberInputUI>
     <StiOnlineMapElement>This element is used to display geographic markers on the online map.</StiOnlineMapElement>
     <StiOverlayBand>This band is used to output watermarks on a page.</StiOverlayBand>
     <StiPageFooterBand>This band is used to output the information on the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
     <StiPageHeaderBand>This band is used to output the page header such as page numbers, dates, and other additional information. It is output on the top of each page.</StiPageHeaderBand>
     <StiPanel>A rectangular region that can contain other components, including bands. When the panel is moved the components in it are moved too. A panel can be placed either on a band or on a page.</StiPanel>
     <StiPanelElement>A rectangular region that can contain other elements. When the panel is moved the elements in it are moved too.</StiPanelElement>
+    <StiPanelUI>A panel used to group and arrange other controls inside one area.</StiPanelUI>
     <StiPdfDigitalSignature>This component is used to specify a place for the digital signature after the report has been exported to Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>This component is used to specify a space for the digital signature and fields from the certificate when exporting to PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>The pivot table element is used for the structured data representation as a table.</StiPivotTableElement>
     <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, doughnut, bars.</StiProgressElement>
+    <StiRadioGroupUI>A radio group used to select one option from a predefined set of values.</StiRadioGroupUI>
     <StiRangeSelectorElement>This component is used to select a range of values on a scale or timeline. It allows users to visually define the minimum and maximum limits of that range.</StiRangeSelectorElement>
+    <StiRangeSliderUI>A range slider used to define minimum and maximum values on a scale.</StiRangeSliderUI>
     <StiRectanglePrimitive>This component is used to output rectangles.</StiRectanglePrimitive>
     <StiRegionMapElement>This element is used to display data that is geographically targeted.</StiRegionMapElement>
     <StiReportSummaryBand>This band is used to output summaries through the entire report. It is output once in the end of a report.</StiReportSummaryBand>
     <StiReportTitleBand>This band is used to output the report title. It is output in the beginning of a report.</StiReportTitleBand>
     <StiRichText>This component is used to output and edit the RTF text. It also supports loading and saving files in the RTF format.</StiRichText>
     <StiRoundedRectanglePrimitive>This component is used to output rounded rectangles.</StiRoundedRectanglePrimitive>
+    <StiScreen>A screen that hosts controls, layout, and user interactions for an app page.</StiScreen>
+    <StiSelectUI>A select box used to choose one value from a drop-down list.</StiSelectUI>
     <StiShape>This component is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShape>
     <StiShapeElement>This element is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShapeElement>
     <StiSignature>This component is used to add an electronic or digital signature to a report.</StiSignature>
+    <StiSliderUI>A slider used to select a value on a continuous numeric scale.</StiSliderUI>
     <StiSparkline>This component is used to create micrographics in a report. It allows you to track dynamically changing data as bars, lines, areas.</StiSparkline>
     <StiSubReport>This component is used to output additional data in different places of a report.</StiSubReport>
+    <StiSwitchUI>A switch used to toggle a setting on or off with one click.</StiSwitchUI>
     <StiTable>This component is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTable>
     <StiTableElement>This element is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTableElement>
     <StiTableOfContents>This component is used to create a table of contents in a report.</StiTableOfContents>
+    <StiTableUI>A table used to display data in rows and columns clearly.</StiTableUI>
     <StiText>This component is a basic object to output data as a text.</StiText>
     <StiTextElement>This element is a basic object to output data as a text.</StiTextElement>
     <StiTextInCells>The component is used to output a text in cells. It is frequently used for creating forms.</StiTextInCells>
+    <StiTextInputUI>A text input used to enter and edit text values.</StiTextInputUI>
     <StiTreeViewBoxElement>The element is used to select values with a drop-down list as a tree.</StiTreeViewBoxElement>
     <StiTreeViewElement>Represents the element that is used to show the hierarchical data as a tree.</StiTreeViewElement>
     <StiVerticalLinePrimitive>This component is used to output vertical lines.</StiVerticalLinePrimitive>
     <StiWebContentElement>The component enables you to add web content to dashboards.</StiWebContentElement>
-    <StiWinControl>The component allows showing visual controls from .NET Framework.</StiWinControl>
+    <StiWinControl>The component allows showing visual controls from .NET.</StiWinControl>
     <StiZipCode>This component is used to output the ZIP code.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2156,7 +2183,7 @@
     <menuExportSettings>Opens the Export Settings editor for the current report or dashboard. Settings are applied only when exporting the current report or dashboard.</menuExportSettings>
     <menuFAQPage>Go to the web page with frequently asked questions.</menuFAQPage>
     <menuGlobalizationStrings>Call the Globalization Strings editor of the current report.</menuGlobalizationStrings>
-    <menuHelpAboutProgramm>Get information about the version of report generator and the version of .NET Framework.</menuHelpAboutProgramm>
+    <menuHelpAboutProgramm>Get information about the version of report generator and the version of .NET.</menuHelpAboutProgramm>
     <menuHomePage>Go to the Home page of the product.</menuHomePage>
     <menuPageOptions>Setup the basic parameters of the current page. All page options can be changed using the Property panel.</menuPageOptions>
     <menuPagesManager>Run the Pages Manager. It allows moving pages, deleting pages, and creating new pages.</menuPagesManager>
@@ -2187,7 +2214,7 @@
     <PagesManager>Run the Pages Manager.</PagesManager>
     <PressF1>Press F1 for More Details</PressF1>
     <PropertiesButton>Activates the Properties panel with the report template properties.</PropertiesButton>
-    <Redo>Redo the previously canceled change in a report.</Redo>
+    <Redo>Redo the previously cancelled change in a report.</Redo>
     <RemoveMobileSurfaceButton>Removes the mobile surface from the current dashboard.</RemoveMobileSurfaceButton>
     <ReportNew>Create a new report.</ReportNew>
     <ReportOpen>Open a report in the designer.</ReportOpen>
@@ -2286,7 +2313,7 @@
     <ImageQuality>Allows you to choose the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQuality>
     <ImageQualityPdf>The option is available only in JPEG compression, and allows you to select the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQualityPdf>
     <ImageResolution>The number of pixels per inch. The higher the number of pixels is, the better is the quality of the image. The size of the finished file is much larger.</ImageResolution>
-    <ImageType>The colour scheme of the image: colour - image after exporting will fully match the image in the viewer; gray – an image after exporting will be of the gray shade; monochrome - the images will be strictly black and white. At the same time, it should be considered that the monochrome has three modes None, Ordered, FloydSt.</ImageType>
+    <ImageType>The colour scheme of the image: colour - image after exporting will fully match the image in the viewer; grey – an image after exporting will be of the grey shade; monochrome - the images will be strictly black and white. At the same time, it should be considered that the monochrome has three modes None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Remove blank lines (rows) in the document.</KillSpaceLines>
     <MultipleFiles>Each report page can be a separate file.</MultipleFiles>
     <Open>Open the previously saved report in the window of preview.</Open>
@@ -2477,12 +2504,6 @@
     <menuViewToolbars>Toolbars</menuViewToolbars>
   </MainMenu>
   <Map>
-    <GroupAsia>Asia</GroupAsia>
-    <GroupEurope>Europe</GroupEurope>
-    <GroupNorthAmerica>North America</GroupNorthAmerica>
-    <GroupOceania>Oceania</GroupOceania>
-    <GroupSouthAmerica>South America</GroupSouthAmerica>
-    <GroupWorld>World</GroupWorld>
     <LinkDataForm>Link Data</LinkDataForm>
     <MapEditorForm>Map Editor</MapEditorForm>
   </Map>
@@ -2507,7 +2528,7 @@
     <SwitchingBetweenModes>Switching between modes will cause the loss of changes. Do you want to proceed?</SwitchingBetweenModes>
     <SwitchParametersOrientation>Please change the value of the 'ParametersOrientation' report property to '{0}' to show this category on the parameters panel.</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>
-      Registration completed successfully!
+      One last step to complete your registration!
 
       The Email was sent to "{0}".
       It contains a link to confirm your registration. To complete the registration please follow the link from the email you received.
@@ -2522,7 +2543,7 @@
     <ActivationContact1>Please contact our sales department at </ActivationContact1>
     <ActivationContact2> to resolve this.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Server was released!</ActivationExpiriedBeforeFirstRelease>
-    <ActivationLicenseIsNotCorrect>The license file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
+    <ActivationLicenseIsNotCorrect>The licence file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Your account is locked.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
@@ -2676,6 +2697,9 @@
     <SubscriptionExpiredDays>Expires in {0} days</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Your subscription has expired. Update your subscription to get the last version.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Subscription expired</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Your subscription has exceeded the developer seat limit. The application will be closed. Please upgrade your plan to continue.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Subscription limit</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Your subscription is using more developer seats than allowed. Please consider upgrading your plan to keep working without interruption.</SubscriptionLimitWarning>
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -2713,16 +2737,16 @@
     <Downloads>Downloads:</Downloads>
     <IAccept>I Accept</IAccept>
     <IDecline>I Decline</IDecline>
-    <LicenceFormDesc>The following package require that you accept their license terms before installing.</LicenceFormDesc>
-    <LicenceFormDesc1>By clicking "I Accept" you agree to the license terms for the package listed above. If you do not agree to the license terms, click "I Decline".</LicenceFormDesc1>
+    <LicenceFormDesc>The following package require that you accept their licence terms before installing.</LicenceFormDesc>
+    <LicenceFormDesc1>By clicking "I Accept" you agree to the licence terms for the package listed above. If you do not agree to the licence terms, click "I Decline".</LicenceFormDesc1>
     <LicenceFormTitle>Licence Acceptance</LicenceFormTitle>
-    <License>License:</License>
+    <License>Licence:</License>
     <ProjectUrl>Project URL:</ProjectUrl>
     <ReportAbuse>Report Abuse:</ReportAbuse>
     <RetrievingInformation>Retrieving information...</RetrievingInformation>
     <Tags>Tags:</Tags>
     <Title>Data Adapter from NuGet</Title>
-    <ViewLicense>View License</ViewLicense>
+    <ViewLicense>View Licence</ViewLicense>
   </NuGet>
   <Panels>
     <Dictionary>Dictionary</Dictionary>
@@ -2794,7 +2818,7 @@
     <AxisCategory>Axis</AxisCategory>
     <BarCodeAdditionalCategory>Bar Code Additional</BarCodeAdditionalCategory>
     <BarCodeCategory>Bar Code</BarCodeCategory>
-    <BehaviorCategory>Behavior</BehaviorCategory>
+    <BehaviorCategory>Behaviour</BehaviorCategory>
     <ButtonCategory>Button</ButtonCategory>
     <CapNeedle>Cap Needle</CapNeedle>
     <CardsCategory>Cards</CardsCategory>
@@ -2914,7 +2938,7 @@
     <DarkBlue>Dark Blue</DarkBlue>
     <DarkCyan>Dark Cyan</DarkCyan>
     <DarkGoldenrod>Dark Goldenrod</DarkGoldenrod>
-    <DarkGray>Dark Gray</DarkGray>
+    <DarkGray>Dark Grey</DarkGray>
     <DarkGreen>Dark Green</DarkGreen>
     <DarkKhaki>Dark Khaki</DarkKhaki>
     <DarkMagenta>Dark Magenta</DarkMagenta>
@@ -2925,12 +2949,12 @@
     <DarkSalmon>Dark Salmon</DarkSalmon>
     <DarkSeaGreen>Dark Sea Green</DarkSeaGreen>
     <DarkSlateBlue>Dark Slate Blue</DarkSlateBlue>
-    <DarkSlateGray>Dark Slate Gray</DarkSlateGray>
+    <DarkSlateGray>Dark Slate Grey</DarkSlateGray>
     <DarkTurquoise>Dark Turquoise</DarkTurquoise>
     <DarkViolet>Dark Violet</DarkViolet>
     <DeepPink>Deep Pink</DeepPink>
     <DeepSkyBlue>Deep Sky Blue</DeepSkyBlue>
-    <DimGray>Dim Gray</DimGray>
+    <DimGray>Dim Grey</DimGray>
     <DodgerBlue>Dodger Blue</DodgerBlue>
     <Firebrick>Firebrick</Firebrick>
     <FloralWhite>Floral White</FloralWhite>
@@ -2940,7 +2964,7 @@
     <GhostWhite>Ghost White</GhostWhite>
     <Gold>Gold</Gold>
     <Goldenrod>Goldenrod</Goldenrod>
-    <Gray>Gray</Gray>
+    <Gray>Grey</Gray>
     <Green>Green</Green>
     <GreenYellow>Green Yellow</GreenYellow>
     <Honeydew>Honeydew</Honeydew>
@@ -2957,13 +2981,13 @@
     <LightCoral>Light Coral</LightCoral>
     <LightCyan>Light Cyan</LightCyan>
     <LightGoldenrodYellow>Light Goldenrod Yellow</LightGoldenrodYellow>
-    <LightGray>Light Gray</LightGray>
+    <LightGray>Light Grey</LightGray>
     <LightGreen>Light Green</LightGreen>
     <LightPink>Light Pink</LightPink>
     <LightSalmon>Light Salmon</LightSalmon>
     <LightSeaGreen>Light Sea Green</LightSeaGreen>
     <LightSkyBlue>Light Sky Blue</LightSkyBlue>
-    <LightSlateGray>Light Slate Gray</LightSlateGray>
+    <LightSlateGray>Light Slate Grey</LightSlateGray>
     <LightSteelBlue>Light Steel Blue</LightSteelBlue>
     <LightYellow>Light Yellow</LightYellow>
     <Lime>Lime</Lime>
@@ -3015,7 +3039,7 @@
     <Silver>Silver</Silver>
     <SkyBlue>Sky Blue</SkyBlue>
     <SlateBlue>Slate Blue</SlateBlue>
-    <SlateGray>Slate Gray</SlateGray>
+    <SlateGray>Slate Grey</SlateGray>
     <Snow>Snow</Snow>
     <SpringGreen>Spring Green</SpringGreen>
     <SteelBlue>Steel Blue</SteelBlue>
@@ -3025,7 +3049,7 @@
     <Tomato>Tomato</Tomato>
     <Transparent>Transparent</Transparent>
     <Turquoise>Turquoise</Turquoise>
-    <VeryDarkGray>Very Dark Gray</VeryDarkGray>
+    <VeryDarkGray>Very Dark Grey</VeryDarkGray>
     <Violet>Violet</Violet>
     <Wheat>Wheat</Wheat>
     <White>White</White>
@@ -3209,6 +3233,9 @@
     <StiDashboardContentAlignmentRight>Right</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Stretch X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Stretch XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Arrow</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Rectangle</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Cross</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Full</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Inner</StiDataJoinTypeInner>
@@ -3395,21 +3422,6 @@
     <StiLineWeightNormal>Normal</StiLineWeightNormal>
     <StiLineWeightThick>Thick</StiLineWeightThick>
     <StiLineWeightThin>Thin</StiLineWeightThin>
-    <StiMapIDAustralia>Australia</StiMapIDAustralia>
-    <StiMapIDAustria>Austria</StiMapIDAustria>
-    <StiMapIDBrazil>Brazil</StiMapIDBrazil>
-    <StiMapIDCanada>Canada</StiMapIDCanada>
-    <StiMapIDChina>China</StiMapIDChina>
-    <StiMapIDEU>EU</StiMapIDEU>
-    <StiMapIDEurope>Europe</StiMapIDEurope>
-    <StiMapIDFrance>France</StiMapIDFrance>
-    <StiMapIDGermany>Germany</StiMapIDGermany>
-    <StiMapIDItaly>Italy</StiMapIDItaly>
-    <StiMapIDNetherlands>Netherlands</StiMapIDNetherlands>
-    <StiMapIDRussia>Russia</StiMapIDRussia>
-    <StiMapIDUK>UK</StiMapIDUK>
-    <StiMapIDUSA>USA</StiMapIDUSA>
-    <StiMapIDWorld>World</StiMapIDWorld>
     <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
     <StiMapModeOnline>Online</StiMapModeOnline>
     <StiMapTypeGroup>Group</StiMapTypeGroup>
@@ -3615,7 +3627,6 @@
     <StiSignatureModeType>Type</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Digital Signature</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Draw</StiSignatureTypeDraw>
-    <StiSignatureTypeSelectStyle>Select Style</StiSignatureTypeSelectStyle>
     <StiSignatureTypeType>Type</StiSignatureTypeType>
     <StiSizeModeAutoSize>Auto Size</StiSizeModeAutoSize>
     <StiSizeModeFit>Fit</StiSizeModeFit>
@@ -3673,7 +3684,7 @@
     <StiThemeAppearanceAuto>Auto</StiThemeAppearanceAuto>
     <StiThemeAppearanceDark>Dark</StiThemeAppearanceDark>
     <StiThemeAppearanceLight>Light</StiThemeAppearanceLight>
-    <StiThemeAppearanceLightGray>Light Gray</StiThemeAppearanceLightGray>
+    <StiThemeAppearanceLightGray>Light Grey</StiThemeAppearanceLightGray>
     <StiTimeDateStepDay>Day</StiTimeDateStepDay>
     <StiTimeDateStepHour>Hour</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Minute</StiTimeDateStepMinute>
@@ -3730,6 +3741,7 @@
     <DisconnectingEvent>Disconnecting</DisconnectingEvent>
     <DoubleClickEvent>Double Click</DoubleClickEvent>
     <EndRenderEvent>End Render</EndRenderEvent>
+    <EndValueChangedEvent>End Value Changed</EndValueChangedEvent>
     <EnterEvent>Enter</EnterEvent>
     <ExportedEvent>Exported</ExportedEvent>
     <ExportingEvent>Exporting</ExportingEvent>
@@ -3782,6 +3794,7 @@
     <RenderingEvent>Rendering</RenderingEvent>
     <ReportCacheProcessingEvent>Report Cache Processing</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Selected Index Changed</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Start Value Changed</StartValueChangedEvent>
     <StateRestoreEvent>State Restore</StateRestoreEvent>
     <StateSaveEvent>State Save</StateSaveEvent>
     <ValueChangedEvent>Value Changed</ValueChangedEvent>
@@ -3845,6 +3858,7 @@
   <PropertyMain>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
+    <Action>Action</Action>
     <Actual>Actual</Actual>
     <AddClearZone>Add Clear Zone</AddClearZone>
     <Advanced>Advanced</Advanced>
@@ -3908,7 +3922,7 @@
     <AspectRatio>Aspect Ratio</AspectRatio>
     <Author>Author</Author>
     <Auto>Auto</Auto>
-    <AutoCalculateCenterPoint>Auto Calculate Center Point</AutoCalculateCenterPoint>
+    <AutoCalculateCenterPoint>Auto Calculate Centre Point</AutoCalculateCenterPoint>
     <AutoDataColumns>Auto Data Columns</AutoDataColumns>
     <AutoDataRows>Auto Data Rows</AutoDataRows>
     <AutoLocalizeReportOnRun>Auto Localize Report on Run</AutoLocalizeReportOnRun>
@@ -3940,11 +3954,12 @@
     <Border>Border</Border>
     <BorderBrush>Border Brush</BorderBrush>
     <BorderColor>Border Colour</BorderColor>
-    <BorderColorNegative>Border Color Negative</BorderColorNegative>
+    <BorderColorNegative>Border Colour Negative</BorderColorNegative>
     <Borders>Borders</Borders>
     <BorderSize>Border Size</BorderSize>
     <BorderStyle>Border Style</BorderStyle>
     <BorderThickness>Border Thickness</BorderThickness>
+    <BorderVisible>Border Visible</BorderVisible>
     <BorderWidth>Border Width</BorderWidth>
     <Bottom>Bottom</Bottom>
     <BottomLeft>Bottom-Left</BottomLeft>
@@ -4179,11 +4194,13 @@
     <FiltersTarget>Filters Target</FiltersTarget>
     <First>First</First>
     <FirstTabOffset>First Tab Offset</FirstTabOffset>
+    <FitMode>Fit Mode</FitMode>
     <FixedHeight>Fixed Height</FixedHeight>
     <FixedWidth>Fixed Width</FixedWidth>
     <Flat>Flat</Flat>
     <FlatMode>Flat Mode</FlatMode>
     <Focus>Focus</Focus>
+    <FocusVisible>Focus Visible</FocusVisible>
     <Font>Font</Font>
     <FontBold>Font Bold</FontBold>
     <FontItalic>Font Italic</FontItalic>
@@ -4241,8 +4258,8 @@
     <GroupDataColumn>Group Data Column</GroupDataColumn>
     <GroupMeter>Group</GroupMeter>
     <GrowToHeight>Grow to Height</GrowToHeight>
-    <HandleBorderColor>Handle Border Color</HandleBorderColor>
-    <HandleFillColor>Handle Fill Color</HandleFillColor>
+    <HandleBorderColor>Handle Border Colour</HandleBorderColor>
+    <HandleFillColor>Handle Fill Colour</HandleFillColor>
     <Header>Header</Header>
     <HeaderAlignment>Header Alignment</HeaderAlignment>
     <HeaderBackColor>Header Back Colour</HeaderBackColor>
@@ -4557,7 +4574,7 @@
     <ParetoSeriesColors>Pareto Series Colours</ParetoSeriesColors>
     <PasswordChar>Password Char</PasswordChar>
     <Path>Path</Path>
-    <PathColor>Path Color</PathColor>
+    <PathColor>Path Colour</PathColor>
     <PathData>Path Data</PathData>
     <PathSchema>Path Schema</PathSchema>
     <Pattern>Pattern</Pattern>
@@ -4862,6 +4879,8 @@
     <TextRightToLeft>Text Right to Left</TextRightToLeft>
     <TextShowBehind>Text Show Behind</TextShowBehind>
     <Third>Third</Third>
+    <ThumbBorderColor>Thumb Border Colour</ThumbBorderColor>
+    <ThumbColor>Thumb Colour</ThumbColor>
     <TickLabelMajorFont>Tick Label Major Font</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Tick Label Major Text Brush</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Tick Label Minor Font</TickLabelMinorFont>
@@ -4928,7 +4947,7 @@
     <UseAliases>Use Aliases</UseAliases>
     <UseExternalReport>Use External Report</UseExternalReport>
     <UseParentStyles>Use Parent Styles</UseParentStyles>
-    <UseRangeColor>Use Range Color</UseRangeColor>
+    <UseRangeColor>Use Range Colour</UseRangeColor>
     <UserBingKey>User Bing Key</UserBingKey>
     <UseRectangularSymbols>Use Rectangular Symbols</UseRectangularSymbols>
     <UseSeriesColor>Use Series Colour</UseSeriesColor>
@@ -5009,7 +5028,7 @@
     <ControlLightLight>Control Light Light</ControlLightLight>
     <ControlText>Control Text</ControlText>
     <Desktop>Desktop</Desktop>
-    <GrayText>Gray Text</GrayText>
+    <GrayText>Grey Text</GrayText>
     <Highlight>Highlight</Highlight>
     <HighlightText>Highlight Text</HighlightText>
     <HotTrack>Hot Track</HotTrack>
@@ -5154,6 +5173,7 @@
     <Categorized>Categorized</Categorized>
     <Charts>Charts</Charts>
     <Checking>Checking...</Checking>
+    <ClickAddToCreateNewAction>Click 'Add' to define what happens when this event occurs (e.g., show a screen or change a value).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Click for More Details</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>to create a new condition</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>to create a new field</ClickHereToCreateNewField>
@@ -5258,6 +5278,7 @@
     <ScriptSecurity>Script Security</ScriptSecurity>
     <SecondPass>Second Pass</SecondPass>
     <Shapes>Shapes</Shapes>
+    <ShowIncompatibleTypes>Show Incompatible Types</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Show on Parameters Panel</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Main object properties except rarely used ones.</StandardConfiguration>
@@ -5340,7 +5361,6 @@
     <NewScheduler>New Scheduler</NewScheduler>
     <NoLogs>No Logs</NoLogs>
     <NoSchedulers>No Schedulers</NoSchedulers>
-    <NoShedulers>No Shedulers</NoShedulers>
     <NumberOfDayAll>All</NumberOfDayAll>
     <NumberOfDayFirst>First</NumberOfDayFirst>
     <NumberOfDayFourth>Fourth</NumberOfDayFourth>
@@ -5435,8 +5455,6 @@
   <Signature>
     <ClearSignature>Clear Signature</ClearSignature>
     <DigitalSignatureEmptyWatermark>Place for digital signature in PDF Viewer</DigitalSignatureEmptyWatermark>
-    <FullName>Full Name</FullName>
-    <Initials>Initials</Initials>
     <InsertImage>Insert Image</InsertImage>
     <InsertText>Insert Text</InsertText>
     <LoadSignature>Load signature</LoadSignature>
@@ -5448,6 +5466,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>Ask Stimul AI</AskStimulAI>
+    <Assistant>Assistant</Assistant>
     <ChangedWithAI>Changed with Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>No issues were found in the specified expression.</CheckExpressionSuccess>
     <CheckQuery>Check Query</CheckQuery>
@@ -5585,6 +5604,7 @@
   <UserFunctionEditor>
     <ArgumentName>Argument Name</ArgumentName>
     <ArgumentType>Argument Type</ArgumentType>
+    <CheckScript>Check Script</CheckScript>
     <ConvertScript>Convert Script</ConvertScript>
     <CustomCategory>Custom Category</CustomCategory>
     <EditCode>Edit Code</EditCode>
@@ -5607,6 +5627,7 @@
     <Title>Welcome to Stimulsoft Demo</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>AI-generated Dashboard</AIGeneratedDashboard>
     <AIGeneratedReport>AI-generated Report</AIGeneratedReport>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankForm>Blank Form</BlankForm>

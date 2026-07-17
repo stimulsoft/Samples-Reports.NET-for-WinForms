@@ -285,6 +285,8 @@
     <Pictorial>图示</Pictorial>
     <PictorialStacked>图形叠加</PictorialStacked>
     <Pie>饼图</Pie>
+    <Polar>极坐标</Polar>
+    <PolarStacked>堆叠极坐标</PolarStacked>
     <Radar>雷达图</Radar>
     <RadarArea>雷达面积图</RadarArea>
     <RadarColumn>雷达条形图</RadarColumn>
@@ -742,6 +744,7 @@
     <AllowUserFiltering>允许用户筛选</AllowUserFiltering>
     <AllowUserSorting>允许用户排序</AllowUserSorting>
     <BeforeTransformation>在数据转换之前应用</BeforeTransformation>
+    <BindData>绑定数据</BindData>
     <Blank>(空白)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>布尔过滤器</BooleanFilters>
@@ -950,6 +953,8 @@
     <StiListControl>列表</StiListControl>
     <StiListViewControl>查看列表</StiListViewControl>
     <StiLookUpBoxControl>查找框</StiLookUpBoxControl>
+    <StiMultiListControl>多列表</StiMultiListControl>
+    <StiMultiSelectControl>多选</StiMultiSelectControl>
     <StiNumberInputControl>数字输入</StiNumberInputControl>
     <StiNumericUpDownControl>数值</StiNumericUpDownControl>
     <StiPanelControl>面板</StiPanelControl>
@@ -957,6 +962,7 @@
     <StiRadioButtonControl>单选框</StiRadioButtonControl>
     <StiRadioControl>输入框</StiRadioControl>
     <StiRadioGroupControl>按钮组</StiRadioGroupControl>
+    <StiRangeSliderControl>范围滑块</StiRangeSliderControl>
     <StiReportControl>报表控件</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
     <StiSelectControl>选择</StiSelectControl>
@@ -989,10 +995,12 @@
     <MatchCase>区分大小写(&amp;M)</MatchCase>
     <MatchWholeWord>全字匹配(&amp;W)</MatchWholeWord>
     <MaximumDimensions>最多可选择7个维度</MaximumDimensions>
+    <NotFound>未找到</NotFound>
     <Outlining>大纲视图(&amp;L)</Outlining>
     <PromptOnReplace>替换时提示</PromptOnReplace>
     <Replace>替换(&amp;R)</Replace>
     <ReplaceAll>全部替换(&amp;A)</ReplaceAll>
+    <Replaced>已替换：{0}</Replaced>
     <ReplaceWith>替换为:</ReplaceWith>
     <Search>查找</Search>
     <SearchHiddenText>隐藏文本</SearchHiddenText>
@@ -1982,10 +1990,13 @@
   <HelpComponents>
     <StiBarCode>该组件允许在报表中显示条形码.条形码数据以字符串的形式发送给对象.字符串可包含任意字符,但只允许被选定的图表可以显示符号.</StiBarCode>
     <StiButtonElement>该组件用于在用户交互时执行事件脚本</StiButtonElement>
+    <StiButtonUI>用于触发操作或启动命令的按钮。</StiButtonUI>
     <StiCardsElement>此组件用于将分组数据显示为卡片</StiCardsElement>
     <StiChart>该组件允许在报表中显示图表.提供了不同类型的图表,,例如条形图, 折线图, 饼图, 圆环图, 线形表,面积图, 甘特图, 散点图等. </StiChart>
     <StiChartElement>该元素允许图表显示在仪表盘中。不同类型的图表均可使用。</StiChartElement>
     <StiCheckBox>该组件用于在报告中显示复选框.它可以显示两种模式:"启用"或"禁用".</StiCheckBox>
+    <StiCheckBoxGroupUI>用于从列表中选择多个预定义选项的复选框组。</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>用于快速切换单个选项开启或关闭状态的复选框。</StiCheckBoxUI>
     <StiChildBand>子级区用于把两个带区输出到一个数据行.</StiChildBand>
     <StiClone>该组件用于克隆报表的一部分到报表的所需部分.克隆只适用于面板的内容.</StiClone>
     <StiColumnFooterBand>该组件用于在数据区上输出栏尾.栏尾在每个栏尾只能输出一次.放置在该组件上的所有组件也会在每个栏位下输出.</StiColumnFooterBand>
@@ -2000,6 +2011,7 @@
     <StiCrossTab>交叉表组件跟表格一样用于表示结构化数据.</StiCrossTab>
     <StiDataBand>数据区要连接到数据源,数据源有多少笔数据,它就输出多少次.</StiDataBand>
     <StiDatePickerElement>该元素用于选择日期和时间。</StiDatePickerElement>
+    <StiDatePickerUI>用于从日历中选择日期的日期选择器。</StiDatePickerUI>
     <StiElectronicSignature>此组件用于添加图形签名、图像、首字母缩写和文本</StiElectronicSignature>
     <StiEmptyBand>该带区用于填充页面底部的空白区.其填充报表每页的空白区.</StiEmptyBand>
     <StiFilterCategory>用于选择和筛选值的一种元素。</StiFilterCategory>
@@ -2011,48 +2023,64 @@
     <StiHeaderBand>该带区用于输出页眉.它与数据区一起使用.</StiHeaderBand>
     <StiHierarchicalBand>该带区要连接到数据源,数据源有多少笔数据,它就输出多少次.数据以树状结构输出.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>该组件用于输出横线.</StiHorizontalLinePrimitive>
+    <StiIconUI>用于显示符号图形或视觉标记的图标。</StiIconUI>
     <StiImage>该组件用于输出图片.它支持下面的图片格式,像BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>该元素用于输出图像，它支持以下图形格式，如BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>用于在界面中显示图像内容的图片控件。</StiImageUI>
     <StiIndicatorElement>元素显示输入数据之间的值差。</StiIndicatorElement>
+    <StiLabelUI>用于显示文本或简短标题的标签。</StiLabelUI>
     <StiListBoxElement>元素允许从列表中选择项。</StiListBoxElement>
+    <StiListUI>用于以垂直列表形式显示可选择项目的列表。</StiListUI>
     <StiMap>该组件用于显示地理目标数据。</StiMap>
     <StiMapCategory>用于处理地图和数据的一组元素。</StiMapCategory>
     <StiMapElement>该元素用于显示地理目标数据。</StiMapElement>
     <StiMathFormula>此组件用于在报表中显示数学公式</StiMathFormula>
+    <StiMultiListUI>用于从同一集合中选择多个项目的列表。</StiMultiListUI>
+    <StiMultiSelectUI>用于从预设列表中选择多个值的选择器。</StiMultiSelectUI>
     <StiNumberBoxElement>此元素用于选择数值或设置数值范围</StiNumberBoxElement>
+    <StiNumberInputUI>用于输入数字并控制输入内容的数字输入框。</StiNumberInputUI>
     <StiOnlineMapElement>该元素用于在在线地图上显示地理标记。</StiOnlineMapElement>
     <StiOverlayBand>该带区用于在页面上输出水印.</StiOverlayBand>
     <StiPageFooterBand>该带区用于在每页底端输出信息，像页码,日期及其他附加信息.</StiPageFooterBand>
     <StiPageHeaderBand>该带区用于输出页眉如页码,日期及其他附加信息.它在每页的顶部输出.</StiPageHeaderBand>
     <StiPanel>它是一个矩形区域,其他组件如带区都可放置在其中.当移动面板时,其上面的组件也会跟着移动.面板可放置在带区和页面上.</StiPanel>
     <StiPanelElement>矩形区域可以包含其他元素。当面板被移动时，其中的元素也被移动。</StiPanelElement>
+    <StiPanelUI>用于在一个区域内组织和排列其他控件的面板。</StiPanelUI>
     <StiPdfDigitalSignature>此组件用于在报告导出到Adobe PDF后指定数字签名的位置</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>此组件用于在导出为PDF时为证书中的数字签名和字段指定空间</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>数据透视表元素用于将结构化数据表示为表。</StiPivotTableElement>
     <StiProgressElement>元素显示输入数据的比率。它可以用不同的方式呈现-饼状图，环状图和条形图。</StiProgressElement>
+    <StiRadioGroupUI>用于从预定义值集合中选择一个选项的单选组。</StiRadioGroupUI>
     <StiRangeSelectorElement>此组件用于在刻度或时间轴上选择一个数值范围。它允许用户直观地定义范围的最小值和最大值。</StiRangeSelectorElement>
+    <StiRangeSliderUI>用于在范围刻度上定义最小值和最大值的范围滑块。</StiRangeSliderUI>
     <StiRectanglePrimitive>该组件用于输出矩形.</StiRectanglePrimitive>
     <StiRegionMapElement>该元素用于显示地理目标数据。</StiRegionMapElement>
     <StiReportSummaryBand>该带区用于输出整个报表的总计.它在报表的结尾输出一次.</StiReportSummaryBand>
     <StiReportTitleBand>该带区用于输出报表的标题.在报表的开始输出.</StiReportTitleBand>
     <StiRichText>该组件用于输出和编辑RTF文本.它也支持加载和保存RTF格式的文件.</StiRichText>
     <StiRoundedRectanglePrimitive>该组件用于输出圆角矩形.</StiRoundedRectanglePrimitive>
+    <StiScreen>用于承载应用页面控件、布局和用户交互的屏幕。</StiScreen>
+    <StiSelectUI>用于从下拉列表中选择一个值的选择框。</StiSelectUI>
     <StiShape>该组件用于插入现成的形状,如箭头,斜线,反斜线,水平线,双竖线,椭圆,矩形,圆角矩形,双横线,三角形,垂直线.</StiShape>
     <StiShapeElement>该元素用于插入现成的形状，如箭头、对角线向下、对角线向上、水平线、左右线、椭圆、矩形，圆角矩形，上下线，三角形，垂直线。</StiShapeElement>
     <StiSignature>该组件用于向报表添加电子或数字签名。</StiSignature>
+    <StiSliderUI>用于在连续数值范围内选择值的滑块。</StiSliderUI>
     <StiSparkline>此组件用于在报表中创建缩微图形。你可以动态跟踪变化的数据，如条，线，区域</StiSparkline>
     <StiSubReport>该组件用于在报表的不同位置输出附加数据.</StiSubReport>
+    <StiSwitchUI>用于通过单击切换设置开启或关闭状态的开关。</StiSwitchUI>
     <StiTable>该组件为有组织的使用垂直列和水平行模型的数据元素的集合.</StiTable>
     <StiTableElement>该元素是一组使用垂直列和水平行模型组织的数据元素。</StiTableElement>
     <StiTableOfContents>此组件用于在报表中创建目录</StiTableOfContents>
+    <StiTableUI>用于清晰显示行列数据的表格。</StiTableUI>
     <StiText>该组件是输出数据作为文本的基本对象.</StiText>
     <StiTextElement>该元素是将数据输出为文本的基本对象。</StiTextElement>
     <StiTextInCells>该组件用于在单元格中输出文本.它经常用于创建表格.</StiTextInCells>
+    <StiTextInputUI>用于输入和编辑文本值的文本输入框。</StiTextInputUI>
     <StiTreeViewBoxElement>元素用于以树的形式在下拉列表中选择值。</StiTreeViewBoxElement>
     <StiTreeViewElement>表示以树的形式显示分层数据的元素。</StiTreeViewElement>
     <StiVerticalLinePrimitive>该组件用于输出竖线.</StiVerticalLinePrimitive>
     <StiWebContentElement>该组件允许向仪表板添加web内容</StiWebContentElement>
-    <StiWinControl>该组件允许显示.NET Framework中的可见对象.</StiWinControl>
+    <StiWinControl>该组件允许显示.NET中的可见对象.</StiWinControl>
     <StiZipCode>该组件用于输出邮政编码.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
@@ -2503,7 +2531,7 @@
     <SwitchingBetweenModes>在模式之间切换将导致更改无法生效。你想继续吗?</SwitchingBetweenModes>
     <SwitchParametersOrientation>请将"ParametersOrientation"报表属性的值更改为"{0}"，以便在参数面板上显示此类别.</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>
-     注册成功完成!
+     还差最后一步即可完成注册!
 
       电子邮件已发送至"{0}".
       该邮件包含一个确认注册的链接。请您按照邮件中的链接进行操作，完成注册。
@@ -2672,6 +2700,9 @@
     <SubscriptionExpiredDays>在{0}天后过期</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>您的订阅已过期，更新您的订阅以获得最新版本</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Subscription 到期</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>您的订阅已超过开发人员席位限制。应用程序将关闭。请升级您的计划以继续使用。</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>订阅限制</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>您的订阅正在使用超过允许数量的开发人员席位。请考虑升级您的计划，以便继续正常工作。</SubscriptionLimitWarning>
     <SubscriptionsOut10>订阅还有10天到期!</SubscriptionsOut10>
     <SubscriptionsOut20>订阅将在20天后到期!</SubscriptionsOut20>
     <SuccessfullyRenewed>您的订阅已成功更新!</SuccessfullyRenewed>
@@ -3213,6 +3244,9 @@
     <StiDashboardContentAlignmentRight>右边</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>拉伸X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>拉伸XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>箭头</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>横幅</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>矩形</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>交叉</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>完整</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>内部</StiDataJoinTypeInner>
@@ -3719,6 +3753,7 @@
     <DisconnectingEvent>Disconnecting</DisconnectingEvent>
     <DoubleClickEvent>双击</DoubleClickEvent>
     <EndRenderEvent>结束渲染</EndRenderEvent>
+    <EndValueChangedEvent>结束值已更改</EndValueChangedEvent>
     <EnterEvent>键入</EnterEvent>
     <ExportedEvent>导出后</ExportedEvent>
     <ExportingEvent>导出时</ExportingEvent>
@@ -3771,6 +3806,7 @@
     <RenderingEvent>正在渲染</RenderingEvent>
     <ReportCacheProcessingEvent>报告缓存处理</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>所选索引改变后</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>开始值已更改</StartValueChangedEvent>
     <StateRestoreEvent>状态还原</StateRestoreEvent>
     <StateSaveEvent>状态保存</StateSaveEvent>
     <ValueChangedEvent>值改变后</ValueChangedEvent>
@@ -3834,6 +3870,7 @@
   <PropertyMain>
     <AcceptsReturn>接受返回</AcceptsReturn>
     <AcceptsTab>接受Tab</AcceptsTab>
+    <Action>操作</Action>
     <Actual>实际</Actual>
     <AddClearZone>添加空白区</AddClearZone>
     <Advanced>高级</Advanced>
@@ -3934,6 +3971,7 @@
     <BorderSize>边框尺寸</BorderSize>
     <BorderStyle>边框样式</BorderStyle>
     <BorderThickness>边框粗细</BorderThickness>
+    <BorderVisible>边框可见</BorderVisible>
     <BorderWidth>边框宽度</BorderWidth>
     <Bottom>底端</Bottom>
     <BottomLeft>左下</BottomLeft>
@@ -4168,11 +4206,13 @@
     <FiltersTarget>筛选器目标</FiltersTarget>
     <First>第一</First>
     <FirstTabOffset>首个制表符偏移</FirstTabOffset>
+    <FitMode>适应模式</FitMode>
     <FixedHeight>固定高度</FixedHeight>
     <FixedWidth>固定宽度</FixedWidth>
     <Flat>平滑</Flat>
     <FlatMode>平滑模式</FlatMode>
     <Focus>得到焦点</Focus>
+    <FocusVisible>焦点可见</FocusVisible>
     <Font>字体</Font>
     <FontBold>粗体</FontBold>
     <FontItalic>斜体</FontItalic>
@@ -4854,6 +4894,8 @@
     <TextRightToLeft>文本从右到左</TextRightToLeft>
     <TextShowBehind>文本显示在后面</TextShowBehind>
     <Third>第三</Third>
+    <ThumbBorderColor>滑块按钮边框颜色</ThumbBorderColor>
+    <ThumbColor>滑块按钮颜色</ThumbColor>
     <TickLabelMajorFont>刻度标签主要字体</TickLabelMajorFont>
     <TickLabelMajorTextBrush>刻度标签主要文本刷</TickLabelMajorTextBrush>
     <TickLabelMinorFont>刻度标签次要字体</TickLabelMinorFont>
@@ -5146,6 +5188,7 @@
     <Categorized>分类</Categorized>
     <Charts>图表</Charts>
     <Checking>检查...</Checking>
+    <ClickAddToCreateNewAction>点击“添加”以定义此事件发生时的操作（例如显示屏幕或更改值）。</ClickAddToCreateNewAction>
     <ClickForMoreDetails>单击获得详细资料</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>创造新条件</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>创建新字段</ClickHereToCreateNewField>
@@ -5250,6 +5293,7 @@
     <ScriptSecurity>脚本安全</ScriptSecurity>
     <SecondPass>第二通道</SecondPass>
     <Shapes>形状</Shapes>
+    <ShowIncompatibleTypes>显示不兼容的类型</ShowIncompatibleTypes>
     <ShowOnParametersPanel>在参数面板上显示</ShowOnParametersPanel>
     <Standard>标准</Standard>
     <StandardConfiguration>主要的对象属性，除了很少使用的</StandardConfiguration>
@@ -5440,6 +5484,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>询问 Stimul AI</AskStimulAI>
+    <Assistant>助手</Assistant>
     <ChangedWithAI>使用Stimul AI进行更改</ChangedWithAI>
     <CheckExpressionSuccess>在指定的表达式中未发现任何问题</CheckExpressionSuccess>
     <CheckQuery>检查查询</CheckQuery>
@@ -5577,6 +5622,7 @@
   <UserFunctionEditor>
     <ArgumentName>参数名称</ArgumentName>
     <ArgumentType>参数类型</ArgumentType>
+    <CheckScript>检查脚本</CheckScript>
     <ConvertScript>转换脚本</ConvertScript>
     <CustomCategory>自定义类别</CustomCategory>
     <EditCode>编辑代码</EditCode>
@@ -5599,6 +5645,7 @@
     <Title>欢迎使用Stimulsoft演示版</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>AI生成的仪表板</AIGeneratedDashboard>
     <AIGeneratedReport>AI 生成的报告</AIGeneratedReport>
     <BlankDashboard>空白仪表盘</BlankDashboard>
     <BlankForm>空白格式</BlankForm>
