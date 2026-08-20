@@ -1999,11 +1999,11 @@
     <StiColumnFooterBand>This band is used to output footers of columns on the Data band. The Column Footer band is output once under each column. All components which are placed on this band will also be output under each column.</StiColumnFooterBand>
     <StiColumnHeaderBand>This band is used to output column headers. The Column Header band is output only once. All components which are placed on the band can be output above each column.</StiColumnHeaderBand>
     <StiComboBoxElement>Represents the ComboBox that is used to either type a value directly into the control or choose from the list of existing options.</StiComboBoxElement>
-    <StiContainer>This is the rectangular region where other components, including bands, can be placed. When moving the container the components in it will be moved too. The container can be placed both on a band and on a page.</StiContainer>
+    <StiContainer>This is the rectangular region where other components, including bands, can be placed. When moving the container, the components in it will be moved too. The container can be placed both on a band and on a page.</StiContainer>
     <StiCrossDataBand>This band is connected to the data source. It is output as many times as there are rows in the data source. A Cross band is output from left to right.</StiCrossDataBand>
     <StiCrossFooterBand>This band is used to output footers of the Cross-Data band. The band is output once after all rows of the Data band. A Cross band is output from left to right.</StiCrossFooterBand>
     <StiCrossGroupFooterBand>This band is used to output footers of a group. It is placed under the Cross-Data band. Each Cross-Footer belongs to the specified Cross-Header band. A Cross band is output from left to right.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>This band is the basic one for rendering reports with grouping, when Cross-Data are used. It is impossible to create grouping without this band. The components for showing information about the group are placed on the group header. The information can be group name, date, condition of grouping etc. The band is output in the beginning of each group. A Cross band is output from left to right.</StiCrossGroupHeaderBand>
+    <StiCrossGroupHeaderBand>This band is the basic one for rendering reports with grouping, when Cross-Data are used. It is impossible to create grouping without this band. The components for showing information about the group are placed on the group header. The information can be a group name, date, condition of grouping etc. The band is output in the beginning of each group. A Cross band is output from left to right.</StiCrossGroupHeaderBand>
     <StiCrossHeaderBand>This band is used to output headers. It is used in association with the Cross band. A Cross band is output from left to right.</StiCrossHeaderBand>
     <StiCrossTab>The cross-tab component is used to represent structured data as a table.</StiCrossTab>
     <StiDataBand>The Data band is connected to the data source and is output as many times as there are rows in the data source.</StiDataBand>
@@ -2016,7 +2016,7 @@
     <StiGauge>The component allows you to display a value within a predefined range. It can have different graphical representations.</StiGauge>
     <StiGaugeElement>The element allows you to display a value within a predefined range. It can have different graphical representations.</StiGaugeElement>
     <StiGroupFooterBand>The Group Footer band is used to output the group footer. This band is placed after the Data band. And this is the Data band to which the Group Header band is bound. Each Group Footer band belongs to the specified Group Header band. The Group Footer band will not be output without the Group Header band.</StiGroupFooterBand>
-    <StiGroupHeaderBand>This band is the basic band for rendering reports with grouping. The components for showing information about this group are placed on the group header. It can be group name, date, condition of grouping etc. This band is output once in the beginning of each group.</StiGroupHeaderBand>
+    <StiGroupHeaderBand>This band is the basic band for rendering reports with grouping. The components for showing information about this group are placed on the group header. It can be a group name, date, condition of grouping etc. This band is output once in the beginning of each group.</StiGroupHeaderBand>
     <StiHeaderBand>This band is used to output headers. It is used together with the data band.</StiHeaderBand>
     <StiHierarchicalBand>This band is connected to the data source and is output as many times as there are rows in the data source. Data are output as a tree.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>This component is used to output a line.</StiHorizontalLinePrimitive>
@@ -2038,8 +2038,8 @@
     <StiNumberInputUI>A number input used to enter numeric values with controlled input.</StiNumberInputUI>
     <StiOnlineMapElement>This element is used to display geographic markers on the online map.</StiOnlineMapElement>
     <StiOverlayBand>This band is used to output watermarks on a page.</StiOverlayBand>
-    <StiPageFooterBand>This band is used to output the information on the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
-    <StiPageHeaderBand>This band is used to output the page header such as page numbers, dates, and other additional information. It is output on the top of each page.</StiPageHeaderBand>
+    <StiPageFooterBand>This band is used to output the information at the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
+    <StiPageHeaderBand>This band is used to output the page header such as page numbers, dates, and other additional information. It is output at the top of each page.</StiPageHeaderBand>
     <StiPanel>A rectangular region that can contain other components, including bands. When the panel is moved the components in it are moved too. A panel can be placed either on a band or on a page.</StiPanel>
     <StiPanelElement>A rectangular region that can contain other elements. When the panel is moved the elements in it are moved too.</StiPanelElement>
     <StiPanelUI>A panel used to group and arrange other controls inside one area.</StiPanelUI>
@@ -2052,7 +2052,7 @@
     <StiRangeSliderUI>A range slider used to define minimum and maximum values on a scale.</StiRangeSliderUI>
     <StiRectanglePrimitive>This component is used to output rectangles.</StiRectanglePrimitive>
     <StiRegionMapElement>This element is used to display data that is geographically targeted.</StiRegionMapElement>
-    <StiReportSummaryBand>This band is used to output summaries through the entire report. It is output once in the end of a report.</StiReportSummaryBand>
+    <StiReportSummaryBand>This band is used to output summaries through the entire report. It is output once at the end of a report.</StiReportSummaryBand>
     <StiReportTitleBand>This band is used to output the report title. It is output in the beginning of a report.</StiReportTitleBand>
     <StiRichText>This component is used to output and edit the RTF text. It also supports loading and saving files in the RTF format.</StiRichText>
     <StiRoundedRectanglePrimitive>This component is used to output rounded rectangles.</StiRoundedRectanglePrimitive>
@@ -2093,14 +2093,14 @@
     <AlignComponentTop>Allows you to align objects horizontally along the top edge of selected components.</AlignComponentTop>
     <AlignLeft>Align the contents of a component to left.</AlignLeft>
     <AlignMiddle>Center the contents of a component between the top and bottom borders.</AlignMiddle>
-    <AlignRight>Align contents of a component to right.</AlignRight>
+    <AlignRight>Align the contents of a component to right.</AlignRight>
     <AlignToGrid>Align the selected components to grid nodes.</AlignToGrid>
     <AlignTop>Align the contents of a component to top.</AlignTop>
     <AlignWidth>Justify the contents of a component.</AlignWidth>
     <Angle>Rotate the contents of the component.</Angle>
     <AngleWatermark>The watermark text rotation angle.</AngleWatermark>
     <Background>Change the background of the selected components.</Background>
-    <biConditions>Control list of conditions of the selected components.</biConditions>
+    <biConditions>Control the list of conditions of the selected components.</biConditions>
     <BorderColor>Select the border color of the selected component.</BorderColor>
     <BorderSidesAll>Switch on all border sides of the selected components.</BorderSidesAll>
     <BorderSidesBottom>Switch on bottom border side of the selected components.</BorderSidesBottom>
@@ -2128,7 +2128,7 @@
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
     <CurrencySymbol>Select the currency symbol.</CurrencySymbol>
     <DashboardNew>Create a new dashboard.</DashboardNew>
-    <DataStore>Show data, registered in a report.</DataStore>
+    <DataStore>Show data registered in a report.</DataStore>
     <DateTimeFormat>Select the date and time format for the selected components.</DateTimeFormat>
     <DockingPanels>Panel settings.</DockingPanels>
     <DockStyleBottom>Dock selected components to the bottom side.</DockStyleBottom>
@@ -2179,7 +2179,7 @@
     <menuEditCopy>Copy the selected components and put them on the Clipboard.</menuEditCopy>
     <menuEditCut>Cut the selected components from a report and put them on the Clipboard.</menuEditCut>
     <menuEditDelete>Delete selected components.</menuEditDelete>
-    <menuEditPaste>Paste the contents of the Clipboard into report.</menuEditPaste>
+    <menuEditPaste>Paste the contents of the Clipboard into the report.</menuEditPaste>
     <menuExportSettings>Opens the Export Settings editor for the current report or dashboard. Settings are applied only when exporting the current report or dashboard.</menuExportSettings>
     <menuFAQPage>Go to the web page with frequently asked questions.</menuFAQPage>
     <menuGlobalizationStrings>Call the Globalization Strings editor of the current report.</menuGlobalizationStrings>
@@ -2197,7 +2197,7 @@
     <menuViewAlignToGrid>Align components to grid.</menuViewAlignToGrid>
     <menuViewNormal>Normal view of a page.</menuViewNormal>
     <menuViewPageBreakPreview>The mode of showing a page with borders of segments.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Show quick information of components: component name, alias, contents, events etc.</menuViewQuickInfo>
+    <menuViewQuickInfo>Show quick information of components: component name, alias, contents, events, etc.</menuViewQuickInfo>
     <menuViewShowGrid>Turn on grid lines to which you can align objects in a report.</menuViewShowGrid>
     <menuViewShowHeaders>Show headers of bands.</menuViewShowHeaders>
     <menuViewShowOrder>Show order of components on a page.</menuViewShowOrder>
@@ -2226,7 +2226,7 @@
     <ScriptSecuritySafeMode>Safe script access (restricted capabilities for security).</ScriptSecuritySafeMode>
     <SelectAll>Select all components on the current page.</SelectAll>
     <SelectUILanguage>Select the UI language.</SelectUILanguage>
-    <SendToBack>Move the selected component to back relative to other components.</SendToBack>
+    <SendToBack>Move the selected component to the back relative to other components.</SendToBack>
     <ServicesConfigurator>Run the Services Configurator.</ServicesConfigurator>
     <Shadow>Show the shadow of a component.</Shadow>
     <ShowBehind>Show the watermark text behind the components.</ShowBehind>
@@ -2533,7 +2533,7 @@
         The Email was sent to "{0}".
         It contains a link to confirm your registration. To complete the registration please follow the link from the Email you received.
     </TextRegistrationSuccessfully>
-    <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
+    <ThisFieldIsNotSpecified>This field is not specified!</ThisFieldIsNotSpecified>
     <ThisFunctionEmbedsAllReportDataToTheReport>This function embeds all report data to the report resources and makes your report standalone. Be careful! All your data settings will be changed and can't be restored. Please make a backup copy of your report first.{0}Are you sure?</ThisFunctionEmbedsAllReportDataToTheReport>
     <YouNeedToLoginFirstToStartUsingTheSoftware>You need to log in first to start using the software. The application will close if you close the login form.</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
@@ -2575,7 +2575,7 @@
     <AuthCantDisableUserBecauseLastSupervisorUser>The user cannot be disabled because this is the last supervisor user at this server!</AuthCantDisableUserBecauseLastSupervisorUser>
     <AuthFirstNameIsNotSpecified>The first name is not specified!</AuthFirstNameIsNotSpecified>
     <AuthLastNameIsNotSpecified>The last name is not specified!</AuthLastNameIsNotSpecified>
-    <AuthOAuthIdNotSpecified>The OAuth identificator is not specified!</AuthOAuthIdNotSpecified>
+    <AuthOAuthIdNotSpecified>The OAuth identifier is not specified!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>The password is not correct!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>The password is not specified!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>The password is too long!</AuthPasswordIsTooLong>
@@ -2601,7 +2601,7 @@
     <Congratulations>Congratulations!</Congratulations>
     <DeveloperInformation>Developer Information</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
-    <EndDateShouldBeGreaterThanStartDate>The end date should be greater than start date!</EndDateShouldBeGreaterThanStartDate>
+    <EndDateShouldBeGreaterThanStartDate>The end date should be greater than the start date!</EndDateShouldBeGreaterThanStartDate>
     <Error>Error</Error>
     <ExecutionError>Execution error</ExecutionError>
     <ExpressionValidationFailed>Expression validation failed.</ExpressionValidationFailed>
@@ -2677,7 +2677,7 @@
     <OnlyLettersAndDigitsAllowed>Only letters and digits are allowed.</OnlyLettersAndDigitsAllowed>
     <OutOfRange>Out of range ("{0}")!</OutOfRange>
     <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
-    <PleaseLogin>Please login using your Stimulsoft account credentials or register a new account before publishing report.</PleaseLogin>
+    <PleaseLogin>Please login using your Stimulsoft account credentials or register a new account before publishing a report.</PleaseLogin>
     <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles exceeded.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Maximum data rows in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
@@ -4740,6 +4740,7 @@
     <ShortValue>Short Value</ShortValue>
     <Show3D>Show 3D</Show3D>
     <ShowAllValue>Show All Value</ShowAllValue>
+    <ShowAsIndex>Show as Index</ShowAsIndex>
     <ShowBehind>Show Behind</ShowBehind>
     <ShowBlanks>Show Blanks</ShowBlanks>
     <ShowBubble>Show Bubble</ShowBubble>
@@ -4999,6 +5000,7 @@
     <Weights>Weights</Weights>
     <Width>Width</Width>
     <WindowState>Window State</WindowState>
+    <WinLoss>Win Loss</WinLoss>
     <WinLossNegative>Win Loss Negative</WinLossNegative>
     <WinLossPositive>Win Loss Positive</WinLossPositive>
     <WordWrap>Word Wrap</WordWrap>
