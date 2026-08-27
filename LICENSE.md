@@ -1,6 +1,6 @@
 ## STIMULSOFT REPORTS, STIMULSOFT DASHBOARDS, STIMULSOFT FORMS, STIMULSOFT SPREADSHEETS, STIMULSOFT APPS, STIMULSOFT DESIGNER, STIMULSOFT DEMO, DEVELOPER LICENSE AGREEMENT
 
-**Last Updated: 2026-06-16**
+**Last Updated: 2026-08-21**
 
 This CloudReports sp. z o.o. (dba Stimulsoft), ("STIMULSOFT") Developer License Agreement ("DLA") is a legal agreement between the software developer ("DEVELOPER") and STIMULSOFT for STIMULSOFT REPORTS, STIMULSOFT DASHBOARDS, STIMULSOFT FORMS, STIMULSOFT SPREADSHEETS, STIMULSOFT APPS, STIMULSOFT DESIGNER, and STIMULSOFT DEMO identified above and including components, source code (if provided), demos, intermediate files, media, printed materials, and online or electronic documentation ("SOFTWARE") contained in this installation file.
 
@@ -71,7 +71,7 @@ If DEVELOPER has enabled auto-renewal or has agreed to automatic renewal at the 
 
 Subscriptions are licensed on a per-developer basis according to the license tier selected by DEVELOPER (Single, Team, Enterprise, Worldwide, or such other tier as STIMULSOFT may offer from time to time). The license tier determines the maximum number of individual developers within DEVELOPER's organization authorized to use the SOFTWARE. DEVELOPER must ensure that the number of such individuals does not at any time exceed the licensed tier.
 
-The Enterprise tier and any higher tier include a White Label entitlement, which permits DEVELOPER to remove or replace STIMULSOFT trademarks, logos, and other branding elements from the user interface of the SOFTWARE as integrated into DEVELOPER's permitted Application, subject to the configuration options provided by the SOFTWARE for that purpose. The White Label entitlement does not extend to STIMULSOFT trademarks, logos, or branding outside of such configurable user-interface elements. Tiers below the Enterprise tier do not include a White Label entitlement.
+The Team tier and any higher tier include a White Label entitlement, which permits DEVELOPER to remove or replace STIMULSOFT trademarks, logos, and other branding elements from the user interface of the SOFTWARE as integrated into DEVELOPER's permitted Application, subject to the configuration options provided by the SOFTWARE for that purpose. The White Label entitlement does not extend to STIMULSOFT trademarks, logos, or branding outside of such configurable user-interface elements. Tiers below the Team tier do not include a White Label entitlement.
 
 The Team tier and any higher tier include an entitlement to one (1) build server, on which DEVELOPER may install and use the SOFTWARE solely for automated compilation, packaging, and deployment of DEVELOPER's permitted Applications. The Single tier does not include a build server entitlement. Build server installations do not count toward the per-developer seat count.
 
