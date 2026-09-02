@@ -269,4 +269,6 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.2277.86\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.2277.86\build\Microsoft.Web.WebView2.targets'))" />
   </Target>
+  <Import Project="..\packages\Stimulsoft.Reports.Engine.2026.3.3\build\Stimulsoft.Reports.Engine.targets" Condition="Exists('..\packages\Stimulsoft.Reports.Engine.2026.3.3\build\Stimulsoft.Reports.Engine.targets')" />
+  <Import Project="..\packages\Stimulsoft.Reports.Net.2026.3.3\build\Stimulsoft.Reports.Net.targets" Condition="Exists('..\packages\Stimulsoft.Reports.Net.2026.3.3\build\Stimulsoft.Reports.Net.targets')" />
 </Project>
