@@ -300,6 +300,7 @@
     <RemoveStrip>Remove Strip</RemoveStrip>
     <Ribbon>Ribbon</Ribbon>
     <RunChartWizard>Run Chart &amp;Wizard</RunChartWizard>
+	<Sankey>Sankey</Sankey>
     <Scatter>Scatter</Scatter>
     <ScatterLine>Scatter Line</ScatterLine>
     <ScatterSpline>Scatter Spline</ScatterSpline>
@@ -685,6 +686,7 @@
     <StiListBox>List Box</StiListBox>
     <StiMap>Map</StiMap>
     <StiMathFormula>Math Formula</StiMathFormula>
+	<StiMarkdown>Markdown</StiMarkdown>
     <StiMultipleSelection>Multiple Selection</StiMultipleSelection>
     <StiNumberBox>Number Box</StiNumberBox>
     <StiOnlineMap>Online Map</StiOnlineMap>
@@ -974,8 +976,10 @@
     <AllowSQLFormatting>Allow SQL Formatting</AllowSQLFormatting>
     <AutomaticallyGeneratedExpression>This is an automatically generated expression.</AutomaticallyGeneratedExpression>
     <BetweenMetrics>Between 1 and 10 metrics can be selected.</BetweenMetrics>
-    <CantFind>Cannot find the data you're searching for.</CantFind>
-    <CollapseToDefinitions>C&amp;ollapse to Definitions</CollapseToDefinitions>
+	<Blockquote>Blockquote</Blockquote>
+	<CantFind>Cannot find the data you're searching for.</CantFind>
+	<CodeBlock>Code Block</CodeBlock>
+	<CollapseToDefinitions>C&amp;ollapse to Definitions</CollapseToDefinitions>
     <Column>Column: {0}</Column>
     <EntireScope>&amp;Entire Scope</EntireScope>
     <Find>&amp;Find</Find>
@@ -994,7 +998,8 @@
     <MatchWholeWord>Match &amp;Whole Word</MatchWholeWord>
     <MaximumDimensions>Maximum 7 dimensions can be selected.</MaximumDimensions>
     <NotFound>Not Found</NotFound>
-    <Outlining>Out&amp;lining</Outlining>
+	<OrderedList>Ordered List</OrderedList>
+	<Outlining>Out&amp;lining</Outlining>
     <PromptOnReplace>Prompt on Replace</PromptOnReplace>
     <Replace>&amp;Replace</Replace>
     <ReplaceAll>Replace &amp;All</ReplaceAll>
@@ -1010,6 +1015,7 @@
     <titleFind>Find</titleFind>
     <titleGotoLine>Go To Line</titleGotoLine>
     <titleReplace>Replace</titleReplace>
+	<TaskList>Task List</TaskList>
     <ToggleAllOutlining>Toggle A&amp;ll Outlining</ToggleAllOutlining>
     <ToggleOutliningExpansion>&amp;Toggle Outlining Expansion</ToggleOutliningExpansion>
     <TypeToSearch>Type to search</TypeToSearch>
@@ -2029,6 +2035,7 @@
     <StiListBoxElement>The element allows selecting items from a list.</StiListBoxElement>
     <StiListUI>A list used to display selectable items in a vertical collection.</StiListUI>
     <StiMap>This component is used to display data that is geographically targeted.</StiMap>
+    <StiMarkdown>This component is used to render CommonMark / GFM Markdown text in a report.</StiMarkdown>
     <StiMapCategory>Group of elements for working with maps and data.</StiMapCategory>
     <StiMapElement>This element is used to display data that is geographically targeted.</StiMapElement>
     <StiMathFormula>This component is used to display math formulas in a report.</StiMathFormula>
@@ -2586,6 +2593,9 @@
     <AuthRoleNameIsSystemRole>The role with the specified name "{0}" is a system role!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>A message with further instructions has been sent to "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token is not correct!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>The two-factor authentication code is required!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorCodeIsNotCorrect>The two-factor authentication code is not correct!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorIsExpired>The two-factor authentication is expired. Please sign in again!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>You have logged out!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>You have been logged out because there was a login detected from another device!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>The username (Email) is already in use!</AuthUserNameAlreadyExists>
@@ -2887,9 +2897,11 @@
     <SeriesLabelsCategory>Series Labels</SeriesLabelsCategory>
     <ShapeCategory>Shape</ShapeCategory>
     <Size>Size</Size>
+    <SourceCategory>Source</SourceCategory>
     <SubReportCategory>Sub-Report</SubReportCategory>
     <TableCategory>Table</TableCategory>
     <TableOfContents>Table of Contents</TableOfContents>
+    <TargetCategory>Target</TargetCategory>
     <TextAdditionalCategory>Text Additional</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
     <TickLabelMajorCategory>Tick Label Major</TickLabelMajorCategory>
@@ -3318,6 +3330,8 @@
     <StiFilterInclusionModeSelectionOnly>Selection Only</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Expression</StiFilterItemExpression>
+    <StiFilterItemSource>Source</StiFilterItemSource>
+    <StiFilterItemTarget>Target</StiFilterItemTarget>
     <StiFilterItemValue>Value</StiFilterItemValue>
     <StiFilterItemValueClose>Value Close</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Value End</StiFilterItemValueEnd>
@@ -3978,6 +3992,11 @@
     <CalcInvisible>Calc Invisible</CalcInvisible>
     <CalculatedDataColumn>Calculated Data Column</CalculatedDataColumn>
     <CalculationMode>Calculation Mode</CalculationMode>
+    <CalloutCaution>Callout Caution</CalloutCaution>
+    <CalloutImportant>Callout Important</CalloutImportant>
+    <CalloutNote>Callout Note</CalloutNote>
+    <CalloutTip>Callout Tip</CalloutTip>
+    <CalloutWarning>Callout Warning</CalloutWarning>
     <CanBreak>Can Break</CanBreak>
     <Cancel>Cancel</Cancel>
     <CanGrow>Can Grow</CanGrow>
@@ -4020,7 +4039,8 @@
     <ClearFormat>Clear Format</ClearFormat>
     <CloneContainer>Clone Container</CloneContainer>
     <CloseValues>Close Values</CloseValues>
-    <Code>Code</Code>
+    <Code>Code</Code>	
+    <CodeBackground>Code Background</CodeBackground>
     <CodePage>Code Page</CodePage>
     <Collapsed>Collapsed</Collapsed>
     <CollapseGroupFooter>Collapse Group Footer</CollapseGroupFooter>
@@ -4421,7 +4441,9 @@
     <Linked>Linked</Linked>
     <ListOfArguments>List of Arguments</ListOfArguments>
     <ListOfHyperlinks>List of Hyperlinks</ListOfHyperlinks>
+    <ListOfSources>List of Sources</ListOfSources>
     <ListOfTags>List of Tags</ListOfTags>
+    <ListOfTargets>List of Targets</ListOfTargets>
     <ListOfToolTips>List of Tooltips</ListOfToolTips>
     <ListOfValues>List of Values</ListOfValues>
     <ListOfValuesClose>List of Values Close</ListOfValuesClose>
@@ -4592,6 +4614,7 @@
     <PreventIntersection>Prevent Intersection</PreventIntersection>
     <PreviewMode>Preview Mode</PreviewMode>
     <PreviewSettings>Preview Settings</PreviewSettings>
+    <PrimaryKey>Primary Key</PrimaryKey>
     <Printable>Printable</Printable>
     <PrintAtBottom>Print at Bottom</PrintAtBottom>
     <PrintDialogType>Print Dialog Type</PrintDialogType>
@@ -4614,6 +4637,8 @@
     <ProductHomePage>Product Home Page</ProductHomePage>
     <Property>Property</Property>
     <Provider>Provider</Provider>
+    <Quote>Quote</Quote>
+    <QuoteBar>Quote Bar</QuoteBar>
     <RadarStyle>Radar Style</RadarStyle>
     <RadialBarBorderBrush>Radial Bar Border Brush</RadialBarBorderBrush>
     <RadialBarBrush>Radial Bar Brush</RadialBarBrush>
@@ -4684,6 +4709,7 @@
     <RowHeaderWidth>Row Header Width</RowHeaderWidth>
     <Rows>Rows</Rows>
     <RowsPerPage>Rows per Page</RowsPerPage>
+    <Rule>Rule</Rule>
     <Scale>Scale</Scale>
     <ScaleHor>Scale Horizontal</ScaleHor>
     <ScriptLanguage>Script Language</ScriptLanguage>
@@ -4802,6 +4828,9 @@
     <SortingEnabled>Sorting Enabled</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Sort Type</SortType>
+    <Source>Source</Source>
+    <SourceDataColumn>Source Data Column</SourceDataColumn>
+    <Sources>Sources</Sources>
     <Space>Space</Space>
     <SpaceRatio>Space Ratio</SpaceRatio>
     <Spacing>Spacing</Spacing>
@@ -4857,10 +4886,12 @@
     <TagValue>Tag Value</TagValue>
     <Target>Target</Target>
     <TargetColor>Target Color</TargetColor>
+    <TargetDataColumn>Target Data Column</TargetDataColumn>
     <TargetFormat>Target Format</TargetFormat>
     <TargetIcon>Target Icon</TargetIcon>
     <TargetMode>Target Mode</TargetMode>
     <TargetSettings>Target</TargetSettings>
+    <Targets>Targets</Targets>
     <Tension>Tension</Tension>
     <Text>Text</Text>
     <TextAfter>Text After</TextAfter>
@@ -5179,6 +5210,7 @@
     <ClickForMoreDetails>Click for More Details</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>to create a new condition</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>to create a new field</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>to create a new filter</ClickHereToCreateNewFilter>
     <CollapseAll>Collapse All</CollapseAll>
     <Collection>Collection</Collection>
     <CompilationAccess>Compilation Access</CompilationAccess>

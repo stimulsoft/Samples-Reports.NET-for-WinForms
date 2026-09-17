@@ -1,6 +1,6 @@
 ## STIMULSOFT REPORTS, STIMULSOFT DASHBOARDS, STIMULSOFT FORMS, STIMULSOFT SPREADSHEETS, STIMULSOFT APPS, STIMULSOFT DESIGNER, STIMULSOFT DEMO, DEVELOPER LICENSE AGREEMENT
 
-**Last Updated: 2026-08-21**
+**Last Updated: 2026-09-11**
 
 This CloudReports sp. z o.o. (dba Stimulsoft), ("STIMULSOFT") Developer License Agreement ("DLA") is a legal agreement between the software developer ("DEVELOPER") and STIMULSOFT for STIMULSOFT REPORTS, STIMULSOFT DASHBOARDS, STIMULSOFT FORMS, STIMULSOFT SPREADSHEETS, STIMULSOFT APPS, STIMULSOFT DESIGNER, and STIMULSOFT DEMO identified above and including components, source code (if provided), demos, intermediate files, media, printed materials, and online or electronic documentation ("SOFTWARE") contained in this installation file.
 
@@ -73,7 +73,7 @@ Subscriptions are licensed on a per-developer basis according to the license tie
 
 The Team tier and any higher tier include a White Label entitlement, which permits DEVELOPER to remove or replace STIMULSOFT trademarks, logos, and other branding elements from the user interface of the SOFTWARE as integrated into DEVELOPER's permitted Application, subject to the configuration options provided by the SOFTWARE for that purpose. The White Label entitlement does not extend to STIMULSOFT trademarks, logos, or branding outside of such configurable user-interface elements. Tiers below the Team tier do not include a White Label entitlement.
 
-The Team tier and any higher tier include an entitlement to one (1) build server, on which DEVELOPER may install and use the SOFTWARE solely for automated compilation, packaging, and deployment of DEVELOPER's permitted Applications. The Single tier does not include a build server entitlement. Build server installations do not count toward the per-developer seat count.
+The Team tier and any higher tier include a build server entitlement, which permits DEVELOPER to install and use the SOFTWARE on build servers solely for automated compilation, packaging, testing, and deployment of DEVELOPER's permitted Applications. The number of build servers covered by the entitlement is one (1) for the Team tier, three (3) for the Enterprise tier, and unlimited for the Worldwide tier and any higher tier. Build servers must be operated by or on behalf of DEVELOPER and must not be made available to any third party. The Single tier does not include a build server entitlement. Build server installations do not count toward the per-developer seat count.
 
 For the purposes of this Section, an "individual developer" means any natural person within DEVELOPER's organization, or any contractor, subcontractor, consultant, agent, or other person acting for or on behalf of DEVELOPER or under DEVELOPER's direction or control, who:
 

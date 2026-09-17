@@ -70,7 +70,7 @@
     <AdapterCsvFiles>從 CSV File 獲取資料</AdapterCsvFiles>
     <AdapterDataTables>從 DataSet, DataTables 獲取資料</AdapterDataTables>
     <AdapterDataViews>從 DataViews 獲取資料</AdapterDataViews>
-    <AdapterDB2Connection> IBM DB2 Bӫ@ȡY</AdapterDB2Connection>
+    <AdapterDB2Connection>從 IBM DB2 連線取得資料</AdapterDB2Connection>
     <AdapterDBaseFiles>從資料庫檔獲取資料</AdapterDBaseFiles>
     <AdapterDbUserSource>來自使用者來源的資料</AdapterDbUserSource>
     <AdapterFirebirdConnection>從 Firebird 連接獲取資料</AdapterFirebirdConnection>
@@ -81,7 +81,7 @@
     <AdapterOracleConnection>從 Oracle 連接獲取資料</AdapterOracleConnection>
     <AdapterOracleODPConnection>來自 Oracle ODP.NET 連線的資料</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>從 PostgreSQL 連接獲取資料</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection> SQL CE Bӫ@ȡY</AdapterSqlCeConnection>
+    <AdapterSqlCeConnection>從 SQL CE 連線取得資料</AdapterSqlCeConnection>
     <AdapterSqlConnection>從 SQL 連接獲取資料</AdapterSqlConnection>
     <AdapterSQLiteConnection>從 SQLite 連接獲取資料</AdapterSQLiteConnection>
     <AdapterTeradataConnection>來自 Teradata 連線的資料</AdapterTeradataConnection>
@@ -189,10 +189,10 @@
   </Buttons>
   <Chart>
     <AddCondition>添加條件(&amp;A)</AddCondition>
-    <AddConstantLine>Ӻ㶨</AddConstantLine>
+    <AddConstantLine>新增固定線</AddConstantLine>
     <AddFilter>添加過濾(&amp;A)</AddFilter>
     <AddSeries>添加(&amp;A)</AddSeries>
-    <AddStrip>Ll</AddStrip>
+    <AddStrip>新增長條</AddStrip>
     <AddTrendLine>加入趨勢線</AddTrendLine>
     <Area>面積圖</Area>
     <Axes>座標</Axes>
@@ -212,7 +212,7 @@
     <ClusteredColumn>簇狀直條圖</ClusteredColumn>
     <Common>一般</Common>
     <ConstantLine>㶨</ConstantLine>
-    <ConstantLinesEditorForm>㶨݋</ConstantLinesEditorForm>
+    <ConstantLinesEditorForm>固定線編輯器</ConstantLinesEditorForm>
     <DataColumns>數據列</DataColumns>
     <Doughnut>圓環圖</Doughnut>
     <Financial>財務</Financial>
@@ -277,8 +277,8 @@
     <MoveConstantLineUp>ƺ㶨</MoveConstantLineUp>
     <MoveSeriesDown>下移序列</MoveSeriesDown>
     <MoveSeriesUp>上移序列</MoveSeriesUp>
-    <MoveStripDown>Ll</MoveStripDown>
-    <MoveStripUp>Ll</MoveStripUp>
+    <MoveStripDown>下移長條</MoveStripDown>
+    <MoveStripUp>上移長條</MoveStripUp>
     <NoConditions>無條件</NoConditions>
     <NoFilters>無過濾</NoFilters>
     <Pareto>柏拉圖</Pareto>
@@ -298,7 +298,7 @@
     <RemoveConstantLine>Ƴ㶨</RemoveConstantLine>
     <RemoveFilter>移除過濾(&amp;R)</RemoveFilter>
     <RemoveSeries>移除序列(&amp;R)</RemoveSeries>
-    <RemoveStrip>ƳLl</RemoveStrip>
+    <RemoveStrip>移除長條</RemoveStrip>
     <Ribbon>功能區</Ribbon>
     <RunChartWizard>運行圖表 &amp;嚮導</RunChartWizard>
     <Scatter>向量圖</Scatter>
@@ -325,8 +325,8 @@
     <SteppedLine>階梯折線圖</SteppedLine>
     <SteppedRange>階梯式範圍</SteppedRange>
     <Stock>股票</Stock>
-    <Strip>Ll</Strip>
-    <StripsEditorForm>Ll݋</StripsEditorForm>
+    <Strip>長條</Strip>
+    <StripsEditorForm>長條編輯器</StripsEditorForm>
     <Style>樣式</Style>
     <Sunburst>放射環狀圖</Sunburst>
     <Surface>曲面</Surface>
@@ -835,7 +835,7 @@
   <Database>
     <Connection>連接</Connection>
     <Database>資料庫</Database>
-    <DatabaseDB2>IBM DB2 B</DatabaseDB2>
+    <DatabaseDB2>IBM DB2 連線</DatabaseDB2>
     <DatabaseFirebird>Firebird 連接</DatabaseFirebird>
     <DatabaseInformix>Informix 連線</DatabaseInformix>
     <DatabaseJson>JSON 資料</DatabaseJson>
@@ -846,7 +846,7 @@
     <DatabaseOracleODP>Oracle ODP.NET 連線</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL 連接</DatabasePostgreSQL>
     <DatabaseSql>SQL 連接</DatabaseSql>
-    <DatabaseSqlCe>SQLServerCE B</DatabaseSqlCe>
+    <DatabaseSqlCe>SQLServerCE 連線</DatabaseSqlCe>
     <DatabaseSQLite>SQLite連接</DatabaseSQLite>
     <DatabaseTeradata>Teradata 連線</DatabaseTeradata>
     <DatabaseUniDirect>Uni直接連接</DatabaseUniDirect>
@@ -1098,7 +1098,7 @@
     <ExportModeFrame>框架</ExportModeFrame>
     <ExportModeTable>表</ExportModeTable>
     <ExportObjectFormatting>導出格式化對象</ExportObjectFormatting>
-    <ExportPageBreaks>퓷</ExportPageBreaks>
+    <ExportPageBreaks>匯出分頁符號</ExportPageBreaks>
     <ExportRtfTextAsImage>將Rtf文字導出為圖片</ExportRtfTextAsImage>
     <ExportTypeBmpFile>BMP 圖...</ExportTypeBmpFile>
     <ExportTypeCalcFile>打開 Calc File 文檔...</ExportTypeCalcFile>
@@ -1106,7 +1106,7 @@
     <ExportTypeDataFile>資料檔案...</ExportTypeDataFile>
     <ExportTypeDbfFile>DBF 文件...</ExportTypeDbfFile>
     <ExportTypeDifFile>資料交換格式(DIF)檔...</ExportTypeDifFile>
-    <ExportTypeExcel2007File>Microsoft Excel 2007/2013 ļ...</ExportTypeExcel2007File>
+    <ExportTypeExcel2007File>Microsoft Excel 2007/2013 檔案...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excel 文件...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Microsoft Excel Xml 文件...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF 圖片...</ExportTypeGifFile>
@@ -1127,10 +1127,10 @@
     <ExportTypeSylkFile>符號連結(SYLK)檔...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF 圖片...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Text 文件...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007/2013 ļ...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word 2007/2013 檔案...</ExportTypeWord2007File>
     <ExportTypeWriterFile>打開 Writer File 文檔...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML 文件...</ExportTypeXmlFile>
-    <ExportTypeXpsFile>Microsoft XPS ļ...</ExportTypeXpsFile>
+    <ExportTypeXpsFile>Microsoft XPS 檔案...</ExportTypeXpsFile>
     <GetCertificateFromCryptoUI>從 Crypto UI 獲取證書</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>圖像壓縮方法:</ImageCompressionMethod>
     <ImageCutEdges>裁邊</ImageCutEdges>
@@ -1147,7 +1147,7 @@
     <labelUserPassword>用戶密碼:</labelUserPassword>
     <MonochromeDitheringType>單色遞色類型：</MonochromeDitheringType>
     <MoreSettings>更多設置</MoreSettings>
-    <MultipleFiles>Multiple ļ</MultipleFiles>
+    <MultipleFiles>多個檔案</MultipleFiles>
     <NoMoreThan>不超過</NoMoreThan>
     <OpenAfterExport>導出後打開</OpenAfterExport>
     <Ordered>已排序</Ordered>
@@ -1355,8 +1355,8 @@
     <DashboardConnections>儀表板連線</DashboardConnections>
     <DatabaseSecret>資料庫機密</DatabaseSecret>
     <DatasetId>資料集 Id</DatasetId>
-    <DB2Edit>݋ IBM DB2 B</DB2Edit>
-    <DB2New>½ IBM DB2 B</DB2New>
+    <DB2Edit>編輯 IBM DB2 連線</DB2Edit>
+    <DB2New>新增 IBM DB2 連線</DB2New>
     <EditConnection>編輯 {0} 連線</EditConnection>
     <Favorites>我的最愛</Favorites>
     <FirebirdEdit>編輯 Firebird 連接</FirebirdEdit>
@@ -1405,8 +1405,8 @@
     <SelectData>選取資料</SelectData>
     <ServiceAccountKeyFile>服務帳戶金鑰檔案</ServiceAccountKeyFile>
     <SpreadsheetId>試算表 Id</SpreadsheetId>
-    <SqlCeEdit>݋ SQLServerCE B</SqlCeEdit>
-    <SqlCeNew>½ SQLServerCE B</SqlCeNew>
+    <SqlCeEdit>編輯 SQLServerCE 連線</SqlCeEdit>
+    <SqlCeNew>新增 SQLServerCE 連線</SqlCeNew>
     <SqlEdit>編輯 Sql 連接</SqlEdit>
     <SQLiteEdit>編輯 SQLite 連接</SQLiteEdit>
     <SQLiteNew>新建 SQLite 連接</SQLiteNew>
@@ -1621,7 +1621,7 @@
     <FillComponents>填充組件</FillComponents>
     <FillContainers>填充容器</FillContainers>
     <FillCrossBands>填充交叉區</FillCrossBands>
-    <GenerateLocalizedName>ɱػQ</GenerateLocalizedName>
+    <GenerateLocalizedName>產生本地化名稱</GenerateLocalizedName>
     <Grid>網格</Grid>
     <GridDots>點</GridDots>
     <GridLines>線條</GridLines>
@@ -2083,7 +2083,7 @@
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>設定優先的關聯以繫結兩個表格。它用於資料轉換和儀表板。每個資料來源中只能有一個關聯處於作用中。</ActiveRelation>
-    <Align>R</Align>
+    <Align>變更選取元件的位置。</Align>
     <AlignBottom>底端對齊</AlignBottom>
     <AlignCenter>居中對齊</AlignCenter>
     <AlignComponentBottom>可讓您沿所選元件的下緣水平對齊物件。</AlignComponentBottom>
@@ -2164,7 +2164,7 @@
     <FormNew>建立新對話方塊表單。</FormNew>
     <GridMode>以線條或點顯示格線。</GridMode>
     <ImageAlignment>對齊</ImageAlignment>
-    <ImageTransparency>D</ImageTransparency>
+    <ImageTransparency>變更浮水印影像的透明度。</ImageTransparency>
     <Interaction>互動</Interaction>
     <LineSpacing>選擇文字行之間或段落之間的間距。</LineSpacing>
     <Link>鏈結</Link>
@@ -2839,7 +2839,7 @@
     <DisplayCategory>顯示</DisplayCategory>
     <EngineCategory>引擎</EngineCategory>
     <ExportCategory>導出</ExportCategory>
-    <ExportEventsCategory>¼</ExportEventsCategory>
+    <ExportEventsCategory>匯出事件</ExportEventsCategory>
     <FooterTableCategory>頁尾表格</FooterTableCategory>
     <GaugeCategory>量測計</GaugeCategory>
     <GlobalizationCategory>全球化</GlobalizationCategory>
@@ -2892,7 +2892,7 @@
     <TickLabelMinorCategory>次要刻度標籤</TickLabelMinorCategory>
     <TickMarkMajorCategory>主要刻度線</TickMarkMajorCategory>
     <TickMarkMinorCategory>次要刻度線</TickMarkMinorCategory>
-    <TitleCategory>}</TitleCategory>
+    <TitleCategory>標題</TitleCategory>
     <TreeViewBoxCategory>樹狀檢視方塊</TreeViewBoxCategory>
     <TreeViewCategory>樹狀檢視</TreeViewCategory>
     <TrendLineCategory>趨勢線</TrendLineCategory>
@@ -3182,10 +3182,10 @@
     <StiChartLabelsStyleCategoryValue>類別 - 值</StiChartLabelsStyleCategoryValue>
     <StiChartLabelsStylePercentOfTotal>佔總計百分比</StiChartLabelsStylePercentOfTotal>
     <StiChartLabelsStyleValue>值</StiChartLabelsStyleValue>
-    <StiChartTitleDockBottom>ײ</StiChartTitleDockBottom>
+    <StiChartTitleDockBottom>底端</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>靠左</StiChartTitleDockLeft>
-    <StiChartTitleDockRight>Ҷ</StiChartTitleDockRight>
-    <StiChartTitleDockTop>픲</StiChartTitleDockTop>
+    <StiChartTitleDockRight>靠右</StiChartTitleDockRight>
+    <StiChartTitleDockTop>頂端</StiChartTitleDockTop>
     <StiChartTrendLineTypeExponential>指數</StiChartTrendLineTypeExponential>
     <StiChartTrendLineTypeLinear>線性</StiChartTrendLineTypeLinear>
     <StiChartTrendLineTypeLogarithmic>對數</StiChartTrendLineTypeLogarithmic>
@@ -3281,10 +3281,10 @@
     <StiEmptySizeModeAlignFooterToTop>頁腳頂端對齊</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>減少末行</StiEmptySizeModeDecreaseLastRow>
     <StiEmptySizeModeIncreaseLastRow>增加末行</StiEmptySizeModeIncreaseLastRow>
-    <StiEnumeratorTypeABC>Ӣĸ</StiEnumeratorTypeABC>
+    <StiEnumeratorTypeABC>英文字母</StiEnumeratorTypeABC>
     <StiEnumeratorTypeArabic>阿拉伯文</StiEnumeratorTypeArabic>
-    <StiEnumeratorTypeNone>o</StiEnumeratorTypeNone>
-    <StiEnumeratorTypeRoman>_R</StiEnumeratorTypeRoman>
+    <StiEnumeratorTypeNone>無</StiEnumeratorTypeNone>
+    <StiEnumeratorTypeRoman>羅馬數字</StiEnumeratorTypeRoman>
     <StiExtendedStyleBoolFalse>假</StiExtendedStyleBoolFalse>
     <StiExtendedStyleBoolFromStyle>從樣式</StiExtendedStyleBoolFromStyle>
     <StiExtendedStyleBoolTrue>True</StiExtendedStyleBoolTrue>
@@ -3453,8 +3453,8 @@
     <StiNestedFactorHigh>高</StiNestedFactorHigh>
     <StiNestedFactorLow>最低</StiNestedFactorLow>
     <StiNestedFactorNormal>一般</StiNestedFactorNormal>
-    <StiNumberOfPassDoublePass>pͨ</StiNumberOfPassDoublePass>
-    <StiNumberOfPassSinglePass>ͨ</StiNumberOfPassSinglePass>
+    <StiNumberOfPassDoublePass>雙通道</StiNumberOfPassDoublePass>
+    <StiNumberOfPassSinglePass>單通道</StiNumberOfPassSinglePass>
     <StiOnlineMapHeatmapColorGradientTypeAddRange>加入範圍</StiOnlineMapHeatmapColorGradientTypeAddRange>
     <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Black Aqua White</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
     <StiOnlineMapHeatmapColorGradientTypeBlueRed>Blue Red</StiOnlineMapHeatmapColorGradientTypeBlueRed>
@@ -3475,9 +3475,9 @@
     <StiOnlineMapLocationTypePostcode2>郵遞區號2</StiOnlineMapLocationTypePostcode2>
     <StiOnlineMapLocationTypePostcode3>郵遞區號3</StiOnlineMapLocationTypePostcode3>
     <StiOnlineMapLocationTypePostcode4>郵遞區號4</StiOnlineMapLocationTypePostcode4>
-    <StiOrientationHorizontal>ˮ</StiOrientationHorizontal>
+    <StiOrientationHorizontal>水平</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>水平靠右</StiOrientationHorizontalRight>
-    <StiOrientationVertical>ֱ</StiOrientationVertical>
+    <StiOrientationVertical>垂直</StiOrientationVertical>
     <StiPageOrientationLandscape>橫向</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>縱向</StiPageOrientationPortrait>
     <StiParametersDisplayModeDialog>對話方塊</StiParametersDisplayModeDialog>
@@ -3570,13 +3570,13 @@
     <StiReportUnitTypeMillimeters>毫米</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>圖元</StiReportUnitTypePixels>
     <StiReportUnitTypePoints>點</StiReportUnitTypePoints>
-    <StiRestrictionsAll>ȫ</StiRestrictionsAll>
-    <StiRestrictionsAllowChange>S׃</StiRestrictionsAllowChange>
-    <StiRestrictionsAllowDelete>Sh</StiRestrictionsAllowDelete>
-    <StiRestrictionsAllowMove>SƄ</StiRestrictionsAllowMove>
-    <StiRestrictionsAllowResize>S׃С</StiRestrictionsAllowResize>
-    <StiRestrictionsAllowSelect>Sx</StiRestrictionsAllowSelect>
-    <StiRestrictionsNone>o</StiRestrictionsNone>
+    <StiRestrictionsAll>全部</StiRestrictionsAll>
+    <StiRestrictionsAllowChange>允許變更</StiRestrictionsAllowChange>
+    <StiRestrictionsAllowDelete>允許刪除</StiRestrictionsAllowDelete>
+    <StiRestrictionsAllowMove>允許移動</StiRestrictionsAllowMove>
+    <StiRestrictionsAllowResize>允許調整大小</StiRestrictionsAllowResize>
+    <StiRestrictionsAllowSelect>允許選取</StiRestrictionsAllowSelect>
+    <StiRestrictionsNone>無</StiRestrictionsNone>
     <StiScriptSecurityFullAccess>完整存取</StiScriptSecurityFullAccess>
     <StiScriptSecuritySafeMode>安全模式</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>第一</StiSelectionModeFirst>
@@ -3599,8 +3599,8 @@
     <StiSeriesSortTypeValue>值</StiSeriesSortTypeValue>
     <StiSeriesXAxisBottomXAxis>下方 X 軸</StiSeriesXAxisBottomXAxis>
     <StiSeriesXAxisTopXAxis>上方 X 座標軸</StiSeriesXAxisTopXAxis>
-    <StiSeriesYAxisLeftYAxis>Y S</StiSeriesYAxisLeftYAxis>
-    <StiSeriesYAxisRightYAxis>Y SҶ</StiSeriesYAxisRightYAxis>
+    <StiSeriesYAxisLeftYAxis>左側 Y 軸</StiSeriesYAxisLeftYAxis>
+    <StiSeriesYAxisRightYAxis>右側 Y 軸</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>向下</StiShapeDirectionDown>
     <StiShapeDirectionLeft>向左</StiShapeDirectionLeft>
     <StiShapeDirectionRight>向右</StiShapeDirectionRight>
@@ -3666,12 +3666,12 @@
     <StiTextHorAlignmentLeft>居左</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>居右</StiTextHorAlignmentRight>
     <StiTextHorAlignmentWidth>寬度</StiTextHorAlignmentWidth>
-    <StiTextPositionCenterBottom>ײ</StiTextPositionCenterBottom>
-    <StiTextPositionCenterTop>픲</StiTextPositionCenterTop>
-    <StiTextPositionLeftBottom>ײ</StiTextPositionLeftBottom>
-    <StiTextPositionLeftTop>픲</StiTextPositionLeftTop>
+    <StiTextPositionCenterBottom>中下</StiTextPositionCenterBottom>
+    <StiTextPositionCenterTop>中上</StiTextPositionCenterTop>
+    <StiTextPositionLeftBottom>左下</StiTextPositionLeftBottom>
+    <StiTextPositionLeftTop>左上</StiTextPositionLeftTop>
     <StiTextPositionRightBottom>右下</StiTextPositionRightBottom>
-    <StiTextPositionRightTop>픲</StiTextPositionRightTop>
+    <StiTextPositionRightTop>右上</StiTextPositionRightTop>
     <StiTextQualityStandard>標準</StiTextQualityStandard>
     <StiTextQualityTypographic>印刷品質</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>所見即所得</StiTextQualityWysiwyg>
@@ -3923,7 +3923,7 @@
     <AutoCalculateCenterPoint>自動計算中心點</AutoCalculateCenterPoint>
     <AutoDataColumns>自動資料欄</AutoDataColumns>
     <AutoDataRows>自動資料列</AutoDataRows>
-    <AutoLocalizeReportOnRun>\ЕrԄӱػ</AutoLocalizeReportOnRun>
+    <AutoLocalizeReportOnRun>執行時自動本地化報表</AutoLocalizeReportOnRun>
     <AutoRefresh>自動更新</AutoRefresh>
     <AutoRotate>自動旋轉</AutoRotate>
     <AutoScale>自動縮放</AutoScale>
@@ -3936,7 +3936,7 @@
     <AxisLabelsColor>座標軸標籤顏色</AxisLabelsColor>
     <AxisLineColor>座標軸線條顏色</AxisLineColor>
     <AxisTitleColor>座標軸標題顏色</AxisTitleColor>
-    <AxisValue>Sֵ</AxisValue>
+    <AxisValue>軸值</AxisValue>
     <BackColor>背景色</BackColor>
     <Background>背景</Background>
     <BackgroundColor>背景顏色</BackgroundColor>
@@ -3983,7 +3983,7 @@
     <CastToColumnType>轉換為欄類型</CastToColumnType>
     <Categories>分類</Categories>
     <Category>分類</Category>
-    <CategoryConnections>B</CategoryConnections>
+    <CategoryConnections>連線</CategoryConnections>
     <CellAlignment>儲存格對齊</CellAlignment>
     <CellBackColor>儲存格背景顏色</CellBackColor>
     <CellDockStyle>儲存格停駐樣式</CellDockStyle>
@@ -4144,7 +4144,7 @@
     <EmptyBorderBrush>空白框線筆刷</EmptyBorderBrush>
     <EmptyBorderWidth>空白框線寬度</EmptyBorderWidth>
     <EmptyBrush>空白筆刷</EmptyBrush>
-    <EmptyValue>ֵ</EmptyValue>
+    <EmptyValue>空值</EmptyValue>
     <Enabled>可用</Enabled>
     <EnableLog>使用日誌</EnableLog>
     <EncodingMode>編碼模式</EncodingMode>
@@ -4155,8 +4155,8 @@
     <EndValues>結束值</EndValues>
     <EndWidth>結束寬度</EndWidth>
     <EngineVersion>引擎版本</EngineVersion>
-    <EnumeratorSeparator>Enumerator ָ̖</EnumeratorSeparator>
-    <EnumeratorType>Enumerator </EnumeratorType>
+    <EnumeratorSeparator>Enumerator 分隔符號</EnumeratorSeparator>
+    <EnumeratorType>Enumerator 類型</EnumeratorType>
     <ErrorCorrectionLevel>錯誤修正等級</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>錯誤修正等級</ErrorsCorrectionLevel>
     <EvenStyle>偶數行樣式</EvenStyle>
@@ -4246,7 +4246,7 @@
     <GridLineColor>格線顏色</GridLineColor>
     <GridLinesHor>水準格線</GridLinesHor>
     <GridLinesHorColor>水平格線顏色</GridLinesHorColor>
-    <GridLinesHorRight>ˮ</GridLinesHorRight>
+    <GridLinesHorRight>水平格線向右</GridLinesHorRight>
     <GridLineStyle>格線樣式</GridLineStyle>
     <GridLinesVert>垂直格線</GridLinesVert>
     <GridLinesVertColor>垂直格線顏色</GridLinesVertColor>
@@ -4493,7 +4493,7 @@
     <MinorVisible>Minor 可見</MinorVisible>
     <MinRowsInColumn>欄內最少行數</MinRowsInColumn>
     <MinSize>最小尺寸</MinSize>
-    <MinValue>Сֵ</MinValue>
+    <MinValue>最小值</MinValue>
     <MinWidth>最小寬度</MinWidth>
     <MirrorMargins>鏡像邊界</MirrorMargins>
     <Mode>模式</Mode>
@@ -4505,7 +4505,7 @@
     <MyFunction>我的函數</MyFunction>
     <Name>名稱</Name>
     <NameDataColumn>名稱資料欄</NameDataColumn>
-    <NameInSource>Դ</NameInSource>
+    <NameInSource>來源中的名稱</NameInSource>
     <NameMeter>名稱量測</NameMeter>
     <NameParent>父級名稱</NameParent>
     <Namespaces>命名空間</Namespaces>
@@ -4529,8 +4529,8 @@
     <Notifications>通知</Notifications>
     <NullText>無效文本</NullText>
     <NumberOfColumns>欄數</NumberOfColumns>
-    <NumberOfCopies>}u</NumberOfCopies>
-    <NumberOfPass>ͨ</NumberOfPass>
+    <NumberOfCopies>份數</NumberOfCopies>
+    <NumberOfPass>通道數</NumberOfPass>
     <NumberOfValues>值的數量</NumberOfValues>
     <OddStyle>奇數行樣式</OddStyle>
     <Offset>位移</Offset>
@@ -4556,7 +4556,7 @@
     <PageTurnTime>翻頁時間</PageTurnTime>
     <PageWidth>頁寬</PageWidth>
     <Paper>紙張</Paper>
-    <PaperSize>С</PaperSize>
+    <PaperSize>紙張大小</PaperSize>
     <PaperSourceOfFirstPage>首頁紙張來源</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>其它頁紙張來源</PaperSourceOfOtherPages>
     <Parameter>參數</Parameter>
@@ -4582,7 +4582,7 @@
     <PlaceOnToolbox>放置工具箱</PlaceOnToolbox>
     <Platform>平台</Platform>
     <PointAtCenter>指向中心</PointAtCenter>
-    <Position>λ</Position>
+    <Position>位置</Position>
     <Positive>正值</Positive>
     <PositiveColor>正值顏色</PositiveColor>
     <PreferredColumnWidth>首選列寬</PreferredColumnWidth>
@@ -4590,6 +4590,7 @@
     <PreventIntersection>防止重疊</PreventIntersection>
     <PreviewMode>預覽模式</PreviewMode>
     <PreviewSettings>預覽設置</PreviewSettings>
+    <PrimaryKey>主鍵</PrimaryKey>
     <Printable>可列印</Printable>
     <PrintAtBottom>在底部列印</PrintAtBottom>
     <PrintDialogType>列印對話方塊類型</PrintDialogType>
@@ -4748,7 +4749,7 @@
     <ShowImageBehind>於後方顯示圖片</ShowImageBehind>
     <ShowInLegend>顯示圖例</ShowInLegend>
     <ShowInnerPoints>顯示內部點</ShowInnerPoints>
-    <ShowInPercent>@ʾٷֱ</ShowInPercent>
+    <ShowInPercent>以百分比顯示</ShowInPercent>
     <ShowLabel>顯示標籤</ShowLabel>
     <ShowLabels>顯示標籤</ShowLabels>
     <ShowLabelText>顯示標籤文本</ShowLabelText>
@@ -4802,14 +4803,14 @@
     <SortType>排序類型</SortType>
     <Space>空格</Space>
     <SpaceRatio>間距比例</SpaceRatio>
-    <Spacing>g</Spacing>
+    <Spacing>間距</Spacing>
     <Sparkline>走勢圖</Sparkline>
     <SqlCommand>SQL命令</SqlCommand>
     <Standard>標準</Standard>
     <StartAngle>開始角度</StartAngle>
     <StartCap>起始端點</StartCap>
     <StartColor>開始顏色</StartColor>
-    <StartFromZero>_ʼ</StartFromZero>
+    <StartFromZero>從零開始</StartFromZero>
     <StartMode>開始模式</StartMode>
     <StartNewPage>開始新頁</StartNewPage>
     <StartNewPageIfLessThan>開始新頁如果少於</StartNewPageIfLessThan>
@@ -4826,8 +4827,8 @@
     <Stretch>拉伸</Stretch>
     <StretchToPrintArea>拉伸至列印區域</StretchToPrintArea>
     <Strikeout>刪除線</Strikeout>
-    <StripBrush>Llˢ</StripBrush>
-    <Strips>Ll</Strips>
+    <StripBrush>長條筆刷</StripBrush>
+    <Strips>長條</Strips>
     <Stroke>筆觸</Stroke>
     <StructuredAppendPosition>結構化附加位置</StructuredAppendPosition>
     <StructuredAppendTotal>結構化附加總數</StructuredAppendTotal>
@@ -4898,7 +4899,7 @@
     <TitleDirection>標題方向</TitleDirection>
     <TitleFont>標題字體</TitleFont>
     <TitleForeColor>標題前景顏色</TitleForeColor>
-    <TitleVisible>Ҋ</TitleVisible>
+    <TitleVisible>標題可見</TitleVisible>
     <To>至</To>
     <Today>今天</Today>
     <ToolTip>提示資訊</ToolTip>
@@ -4931,7 +4932,7 @@
     <TrimExcessData>修剪多餘資料</TrimExcessData>
     <Trimming>截斷</Trimming>
     <Type>類型</Type>
-    <TypeName>Q</TypeName>
+    <TypeName>類型名稱</TypeName>
     <Types>類型</Types>
     <UncheckedIcon>未勾選圖示</UncheckedIcon>
     <Underline>下劃線</Underline>
@@ -5202,7 +5203,7 @@
     <FilterAnd>並且</FilterAnd>
     <FilterOr>或</FilterOr>
     <FinishingReport>正在完成報表</FinishingReport>
-    <FirstPass>һͨ</FirstPass>
+    <FirstPass>第一通道</FirstPass>
     <FixedBugs>已修正的錯誤</FixedBugs>
     <FromCurrentState>從目前狀態</FromCurrentState>
     <FromDefaultState>從預設狀態</FromDefaultState>
@@ -5234,7 +5235,7 @@
     <LabelInches>英寸:</LabelInches>
     <LabelMillimeters>毫米:</LabelMillimeters>
     <LabelName>名稱:</LabelName>
-    <LabelNameInSource>Դ:</LabelNameInSource>
+    <LabelNameInSource>來源中的名稱:</LabelNameInSource>
     <LabelNestedLevel>巢狀層級：</LabelNestedLevel>
     <LabelPassword>密碼:</LabelPassword>
     <LabelPixels>圖元:</LabelPixels>
@@ -5275,7 +5276,7 @@
     <SavingReport>正在儲存報表</SavingReport>
     <ScriptEvalAccess>指令碼 Eval 存取</ScriptEvalAccess>
     <ScriptSecurity>指令碼安全性</ScriptSecurity>
-    <SecondPass>ڶͨ</SecondPass>
+    <SecondPass>第二通道</SecondPass>
     <Shapes>形狀</Shapes>
     <ShowIncompatibleTypes>顯示不相容的類型</ShowIncompatibleTypes>
     <ShowOnParametersPanel>顯示於參數面板</ShowOnParametersPanel>
@@ -5712,7 +5713,7 @@
     <YouHaveNotOpenedAnyReportRecently>您最近沒有開啟任何報表。若要瀏覽報表，請先按一下「開啟現有檔案」。</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
   <Zoom>
-    <EmptyValue>ֵ</EmptyValue>
+    <EmptyValue>空值</EmptyValue>
     <MultiplePages>多頁</MultiplePages>
     <OnePage>整頁</OnePage>
     <PageHeight>頁高</PageHeight>
